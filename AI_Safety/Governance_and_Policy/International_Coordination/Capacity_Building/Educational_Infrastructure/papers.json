@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2407.12687",
+    "title": "Towards Responsible Development of Generative AI for Education: An Evaluation-Driven Approach",
+    "published_date": "2024-05-21",
+    "abstract": "A major challenge facing the world is the provision of equitable and universal access to quality education. Recent advances in generative AI (gen AI) have created excitement about the potential of new technologies to offer a personal tutor for every learner and a teaching assistant for every teacher. The full extent of this dream, however, has not yet materialised. We argue that this is primarily due to the difficulties with verbalising pedagogical intuitions into gen AI prompts and the lack of good evaluation practices, reinforced by the challenges in defining excellent pedagogy. Here we present our work collaborating with learners and educators to translate high level principles from learning science into a pragmatic set of seven diverse educational benchmarks, spanning quantitative, qualitative, automatic and human evaluations; and to develop a new set of fine-tuning datasets to improve the pedagogical capabilities of Gemini, introducing LearnLM-Tutor. Our evaluations show that LearnLM-Tutor is consistently preferred over a prompt tuned Gemini by educators and learners on a number of pedagogical dimensions. We hope that this work can serve as a first step towards developing a comprehensive educational evaluation framework, and that this can enable rapid progress within the AI and EdTech communities towards maximising the positive impact of gen AI in education.",
+    "citation_count": 17,
+    "summary": "This paper advocates for responsible generative AI development in education, proposing a framework of seven educational benchmarks and a fine-tuned model (LearnLM-Tutor) evaluated against a standard model, demonstrating improved pedagogical performance as judged by educators and learners. The authors aim to establish a comprehensive evaluation framework for maximizing the positive impact of AI in education."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.18114",
+    "title": "Bridging Today and the Future of Humanity: AI Safety in 2024 and Beyond",
+    "published_date": "2024-10-09",
+    "abstract": "The advancements in generative AI inevitably raise concerns about their risks and safety implications, which, in return, catalyzes significant progress in AI safety. However, as this field continues to evolve, a critical question arises: are our current efforts on AI safety aligned with the advancements of AI as well as the long-term goal of human civilization? This paper presents a blueprint for an advanced human society and leverages this vision to guide current AI safety efforts. It outlines a future where the Internet of Everything becomes reality, and creates a roadmap of significant technological advancements towards this envisioned future. For each stage of the advancements, this paper forecasts potential AI safety issues that humanity may face. By projecting current efforts against this blueprint, this paper examines the alignment between the current efforts and the long-term needs, and highlights unique challenges and missions that demand increasing attention from AI safety practitioners in the 2020s. This vision paper aims to offer a broader perspective on AI safety, emphasizing that our current efforts should not only address immediate concerns but also anticipate potential risks in the expanding AI landscape, thereby promoting a safe and sustainable future of AI and human civilization.",
+    "summary": "This paper argues that current AI safety efforts must be re-evaluated against a long-term vision of a future interwoven with advanced AI, forecasting future risks and prioritizing research accordingly to ensure a safe and sustainable human-AI coexistence."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.22151",
+    "title": "Standardization Trends on Safety and Trustworthiness Technology for Advanced AI",
+    "published_date": "2024-10-29",
+    "abstract": "Artificial Intelligence (AI) has rapidly evolved over the past decade and has advanced in areas such as language comprehension, image and video recognition, programming, and scientific reasoning. Recent AI technologies based on large language models and foundation models are approaching or surpassing artificial general intelligence. These systems demonstrate superior performance in complex problem solving, natural language processing, and multi-domain tasks, and can potentially transform fields such as science, industry, healthcare, and education. However, these advancements have raised concerns regarding the safety and trustworthiness of advanced AI, including risks related to uncontrollability, ethical conflicts, long-term socioeconomic impacts, and safety assurance. Efforts are being expended to develop internationally agreed-upon standards to ensure the safety and reliability of AI. This study analyzes international trends in safety and trustworthiness standardization for advanced AI, identifies key areas for standardization, proposes future directions and strategies, and draws policy implications. The goal is to support the safe and trustworthy development of advanced AI and enhance international competitiveness through effective standardization.",
+    "citation_count": 1,
+    "summary": "This paper analyzes international standardization trends for ensuring the safety and trustworthiness of advanced AI systems, identifying key areas needing standardization and proposing future strategies to support safe AI development and global competitiveness."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.09219",
+    "title": "Understanding the First Wave of AI Safety Institutes: Characteristics, Functions, and Challenges",
+    "published_date": "2024-10-11",
+    "abstract": "In November 2023, the UK and US announced the creation of their AI Safety Institutes (AISIs). Five other jurisdictions have followed in establishing AISIs or similar institutions, with more likely to follow. While there is considerable variation between these institutions, there are also key similarities worth identifying. This primer describes one cluster of similar AISIs, the\"first wave,\"consisting of the Japan, UK, and US AISIs. First-wave AISIs have several fundamental characteristics in common: they are technical government institutions, have a clear mandate related to the safety of advanced AI systems, and lack regulatory powers. Safety evaluations are at the center of first-wave AISIs. These techniques test AI systems across tasks to understand their behavior and capabilities on relevant risks, such as cyber, chemical, and biological misuse. They also share three core functions: research, standards, and cooperation. These functions are critical to AISIs' work on safety evaluations but also support other activities such as scientific consensus-building and foundational AI safety research. Despite its growing popularity as an institutional model, the AISI model is not free from challenges and limitations. Some analysts have criticized the first wave of AISIs for specializing too much in a sub-area and for being potentially redundant with existing institutions, for example. Future developments may rapidly change this landscape, and particularities of individual AISIs may not be captured by our broad-strokes description. This policy brief aims to outline the core elements of first-wave AISIs as a way of encouraging and improving conversations on this novel institutional model, acknowledging this is just a simplified snapshot rather than a timeless prescription.",
+    "summary": "The paper analyzes the first wave of AI Safety Institutes (AISIs) in Japan, the UK, and the US, highlighting their shared characteristics as technical government institutions focused on AI safety evaluations through research, standards development, and international cooperation. Despite their commonalities, the paper acknowledges challenges including potential redundancy and over-specialization."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.14068",
+    "title": "Holistic Safety and Responsibility Evaluations of Advanced AI Models",
+    "published_date": "2024-04-22",
+    "abstract": "Safety and responsibility evaluations of advanced AI models are a critical but developing field of research and practice. In the development of Google DeepMind's advanced AI models, we innovated on and applied a broad set of approaches to safety evaluation. In this report, we summarise and share elements of our evolving approach as well as lessons learned for a broad audience. Key lessons learned include: First, theoretical underpinnings and frameworks are invaluable to organise the breadth of risk domains, modalities, forms, metrics, and goals. Second, theory and practice of safety evaluation development each benefit from collaboration to clarify goals, methods and challenges, and facilitate the transfer of insights between different stakeholders and disciplines. Third, similar key methods, lessons, and institutions apply across the range of concerns in responsibility and safety - including established and emerging harms. For this reason it is important that a wide range of actors working on safety evaluation and safety research communities work together to develop, refine and implement novel evaluation approaches and best practices, rather than operating in silos. The report concludes with outlining the clear need to rapidly advance the science of evaluations, to integrate new evaluations into the development and governance of AI, to establish scientifically-grounded norms and standards, and to promote a robust evaluation ecosystem.",
+    "citation_count": 4,
+    "summary": "This report details Google DeepMind's holistic approach to evaluating the safety and responsibility of advanced AI models, emphasizing the importance of theoretical frameworks, interdisciplinary collaboration, and the urgent need for advancing the science of AI safety evaluations and establishing robust standards."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/JsjJuikJsidkyfhyr/mats-ai-safety-strategy-curriculum",
+    "author": "Ryan Kidd; Ronny Fernandez",
+    "title": "MATS AI Safety Strategy Curriculum",
+    "published_date": "2024-03-07",
+    "summary": "The MATS Winter 2023-24 program included weekly AI safety strategy discussions, supplementing a summer program's focus on improving scholars' ability to articulate their research's impact. These discussions, led by alumni and community members, used curated readings and questions to explore key issues in AI safety, such as AGI timelines and effective research strategies."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/QzQQvGJYDeaDE4Cfg/talent-needs-of-technical-ai-safety-teams",
+    "author": "Yams; Carson Jones; McKennaFitzgerald; Ryan Kidd",
+    "title": "Talent Needs of Technical AI Safety Teams",
+    "published_date": "2024-05-24",
+    "summary": "This report synthesizes findings from 31 interviews with AI safety experts to analyze the evolving talent landscape. It identifies three key researcher archetypes—Connectors, Iterators, and Amplifiers—and discusses their respective strengths, weaknesses, and priorities within the field."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), particularly focusing on short timelines (within a decade). It aims to evaluate strategies for AI safety and governance across these scenarios to mitigate potential existential threats."
+  }
+]

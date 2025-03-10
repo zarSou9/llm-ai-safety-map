@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.15348",
+    "title": "Trading off performance and human oversight in algorithmic policy: evidence from Danish college admissions",
+    "published_date": "2024-11-22",
+    "abstract": "Student dropout is a significant concern for educational institutions due to its social and economic impact, driving the need for risk prediction systems to identify at-risk students before enrollment. We explore the accuracy of such systems in the context of higher education by predicting degree completion before admission, with potential applications for prioritizing admissions decisions. Using a large-scale dataset from Danish higher education admissions, we demonstrate that advanced sequential AI models offer more precise and fair predictions compared to current practices that rely on either high school grade point averages or human judgment. These models not only improve accuracy but also outperform simpler models, even when the simpler models use protected sociodemographic attributes. Importantly, our predictions reveal how certain student profiles are better matched with specific programs and fields, suggesting potential efficiency and welfare gains in public policy. We estimate that even the use of simple AI models to guide admissions decisions, particularly in response to a newly implemented nationwide policy reducing admissions by 10 percent, could yield significant economic benefits. However, this improvement would come at the cost of reduced human oversight and lower transparency. Our findings underscore both the potential and challenges of incorporating advanced AI into educational policymaking.",
+    "summary": "A study using Danish college admissions data shows that AI models, while improving prediction accuracy and fairness of student degree completion compared to current methods, trade increased efficiency and potential economic benefits for reduced human oversight and transparency."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.08143",
+    "title": "Artificial intelligence and the transformation of higher education institutions",
+    "published_date": "2024-02-13",
+    "abstract": "Artificial intelligence (AI) advances and the rapid adoption of generative AI tools, like ChatGPT, present new opportunities and challenges for higher education. While substantial literature discusses AI in higher education, there is a lack of a systems approach that captures a holistic view of the structure and dynamics of the AI transformation of higher education institutions (HEIs). To fill this gap, this article develops a causal loop diagram (CLD) to map the causal feedback mechanisms of AI transformation in a typical HEI. We identify important variables and their relationships and map multiple reinforcing and balancing feedback loops accounting for the forces that drive the AI transformation and its impact on value creation in a typical HEI. The model shows how, motivated by AI technology advances, the HEI can invest in AI to improve student learning, research, and administration while dealing with academic integrity problems and adapting to job market changes by emphasizing AI-complementary student skills. We explore model insights, scenarios, and policy interventions and recommend that HEI leaders become systems thinkers to manage the complexity of the AI transformation and benefit from the AI feedback loops while avoiding policy traps that may lead to decline. We also discuss the notion of HEIs influencing the direction of AI and directions for future research on AI transformation and the sustainability of HEIs.",
+    "citation_count": 3,
+    "summary": "This paper uses a causal loop diagram to model the multifaceted impact of artificial intelligence on higher education institutions, highlighting both the opportunities for improved learning, research, and administration and the challenges related to academic integrity and workforce adaptation. The authors emphasize the need for systems thinking among HEI leaders to navigate this complex transformation effectively."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/37uuuPQKiGisi8cGG/language-and-capabilities-testing-llm-mathematical-abilities",
+    "author": "Ethan Edwards",
+    "title": "Language and Capabilities: Testing LLM Mathematical Abilities Across Languages",
+    "published_date": "2024-04-04",
+    "summary": "The study investigated GPT-4's ability to perform 3-digit multiplication in various languages and numeral systems, finding that while performance is best with Arabic numerals, success depends heavily on prompting techniques and unexpected emergent behaviors, suggesting GPT-4 relies on learned token patterns rather than abstract mathematical understanding."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/cLfsabkCPtieJ5LoK/investigating-bias-representations-in-llms-via-activation",
+    "author": "DawnLu",
+    "title": "Investigating Bias Representations in LLMs via Activation Steering",
+    "published_date": "2024-01-15",
+    "summary": "This research uses activation steering to assess the societal biases of the Llama-2-7b-chat LLM, finding that while the model exhibits gender bias in unsteered responses, attempts to further steer it towards biased outputs using contrastive activation addition resulted in the model refusing to answer, suggesting potential robustness to certain forms of bias manipulation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/iaHk9DMCbrYsKuqgS/simple-distribution-approximation-when-sampled-100-times-can-1",
+    "author": "Teun van der Weij, Felix Hofstätter, Francis Rhys Ward",
+    "title": "Simple distribution approximation: When sampled 100 times, can language models yield 80% A and 20% B?",
+    "published_date": "2024-01-29",
+    "summary": "This research explores Large Language Models' (LLMs) ability to control their output distribution to achieve a specific, suboptimal performance (\"sandbagging\"). Experiments show that GPT-3.5 and GPT-4 can approximate target distributions, with GPT-4 exhibiting better performance, but both struggle with consistent sandbagging on arithmetic tasks, suggesting prompt engineering is crucial for reliable results."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8gCsRPxvXyAZJLcwd/gdp-per-capita-in-2050",
+    "author": "Hauke Hillebrandt",
+    "title": "GDP per capita in 2050",
+    "published_date": "2024-05-06",
+    "summary": "The article presents GDP per capita forecasts for major economies until 2050, arguing that even without transformative AI growth, the projected increases suggest a significantly different world by 2050 than exists today. These forecasts, adjusted for purchasing power parity, offer a concrete picture of potential future living standards."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/rKM9b6B2LqwSB5ToN/learning-multi-level-features-with-matryoshka-saes",
+    "author": "Bart Bussmann, Patrick Leask, Neel Nanda",
+    "title": "Learning Multi-Level Features with Matryoshka SAEs",
+    "published_date": "2024-12-19",
+    "summary": "Matryoshka Sparse Autoencoders (SAEs) are a novel architecture that improves feature disentanglement by training nested SAEs with progressively larger latent spaces, forcing higher-level features to be learned at earlier stages. While exhibiting slightly worse reconstruction loss than standard SAEs, Matryoshka SAEs demonstrate improved downstream performance and reduced feature absorption, suggesting more meaningful feature learning."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bCtbuWraqYTDtuARg/towards-multimodal-interpretability-learning-sparse-2",
+    "author": "hugofry",
+    "title": "Towards Multimodal Interpretability: Learning Sparse Interpretable Features in Vision Transformers",
+    "published_date": "2024-04-29",
+    "summary": "The author trained a Sparse Autoencoder (SAE) on a CLIP Vision Transformer using ImageNet-1k, creating a web app to explore the learned visual features. The research demonstrates that SAEs effectively identify interpretable directions in vision model activations, highlighting their potential for mechanistic interpretability of increasingly multimodal AI systems."
+  }
+]

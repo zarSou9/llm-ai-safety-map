@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://www.lesswrong.com/tag/coherent-blended-volition",
+    "title": "Coherent Blended Volition - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Coherent Blended Volition (CBV) refines Coherent Aggregated Volition, offering a human-centered alternative to Coherent Extrapolated Volition (CEV) for aligning Artificial General Intelligence (AGI) with human values. Instead of extrapolating values via software (CEV), CBV proposes a collaborative process where individuals blend their values, requiring consensus from all participants."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/value-extrapolation",
+    "title": "Value Extrapolation - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "Value extrapolation, particularly Coherent Extrapolated Volition, proposes using a refined understanding of human values—achieved through introspection and addressing cognitive biases—to guide the ethical development of artificial intelligence, potentially leading to faster moral progress and alignment with human goals. This process aims to create AI systems based on consciously chosen, consistent values rather than flawed or conflicting existing ones."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/value-extrapolation",
+    "title": "Value Extrapolation - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Value extrapolation, a method for defining ideal human values under conditions of complete self-understanding, proposes using this refined understanding to develop machine ethics. This approach aims to improve AI moral progress by resolving value contradictions and integrating human goals into AI systems through a process of reflective equilibrium."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.02748",
+    "title": "A computational framework of human values for ethical AI",
+    "published_date": "2023-05-04",
+    "abstract": "In the diverse array of work investigating the nature of human values from psychology, philosophy and social sciences, there is a clear consensus that values guide behaviour. More recently, a recognition that values provide a means to engineer ethical AI has emerged. Indeed, Stuart Russell proposed shifting AI's focus away from simply ``intelligence'' towards intelligence ``provably aligned with human values''. This challenge -- the value alignment problem -- with others including an AI's learning of human values, aggregating individual values to groups, and designing computational mechanisms to reason over values, has energised a sustained research effort. Despite this, no formal, computational definition of values has yet been proposed. We address this through a formal conceptual framework rooted in the social sciences, that provides a foundation for the systematic, integrated and interdisciplinary investigation into how human values can support designing ethical AI.",
+    "citation_count": 4,
+    "summary": "This paper proposes a novel computational framework for defining human values, addressing the lack of formal definition in current ethical AI research and providing a foundation for aligning AI with human values. This framework integrates insights from psychology, philosophy, and social sciences to systematically investigate how values can be used in ethical AI design."
+  },
+  {
+    "url": "http://arxiv.org/abs/2305.17147",
+    "title": "Heterogeneous Value Alignment Evaluation for Large Language Models",
+    "published_date": "2023-05-26",
+    "abstract": "The emergent capabilities of Large Language Models (LLMs) have made it crucial to align their values with those of humans. However, current methodologies typically attempt to assign value as an attribute to LLMs, yet lack attention to the ability to pursue value and the importance of transferring heterogeneous values in specific practical applications. In this paper, we propose a Heterogeneous Value Alignment Evaluation (HVAE) system, designed to assess the success of aligning LLMs with heterogeneous values. Specifically, our approach first brings the Social Value Orientation (SVO) framework from social psychology, which corresponds to how much weight a person attaches to the welfare of others in relation to their own. We then assign the LLMs with different social values and measure whether their behaviors align with the inducing values. We conduct evaluations with new auto-metric \\textit{value rationality} to represent the ability of LLMs to align with specific values. Evaluating the value rationality of five mainstream LLMs, we discern a propensity in LLMs towards neutral values over pronounced personal values. By examining the behavior of these LLMs, we contribute to a deeper insight into the value alignment of LLMs within a heterogeneous value system.",
+    "citation_count": 6,
+    "summary": "This paper introduces a Heterogeneous Value Alignment Evaluation (HVAE) system that uses the Social Value Orientation framework to assess Large Language Models' (LLMs) ability to align with diverse human values. The authors find that evaluated LLMs exhibit a bias towards neutral values rather than strongly pro-self or pro-social ones."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/complexity-of-value",
+    "author": "David Udell",
+    "title": "Complexity of Value - AI Alignment Forum",
+    "published_date": "2022-08-11",
+    "summary": "Human values are incredibly complex and not easily reducible to simple rules, a concept termed \"complexity of value.\" Furthermore, even minor alterations to these values can lead to drastically undesirable outcomes, highlighting their \"fragility.\""
+  },
+  {
+    "url": "https://arxiv.org/abs/2110.09240",
+    "title": "Value alignment: a formal approach",
+    "published_date": "2021-10-18",
+    "abstract": "principles that should govern autonomous AI systems. It essentially states that a system's goals and behaviour should be aligned with human values. But how to ensure value alignment? In this paper we first provide a formal model to represent values through preferences and ways to compute value aggregations; i.e. preferences with respect to a group of agents and/or preferences with respect to sets of values. Value alignment is then defined, and computed, for a given norm with respect to a given value through the increase/decrease that it results in the preferences of future states of the world. We focus on norms as it is norms that govern behaviour, and as such, the alignment of a given system with a given value will be dictated by the norms the system follows.",
+    "citation_count": 31,
+    "summary": "This paper formalizes value alignment in autonomous AI by modeling human values as preferences and defining alignment as the increase or decrease in preferred future states resulting from a system's norm-governed behavior. The model allows for computing value aggregation across groups of agents and sets of values."
+  },
+  {
+    "url": "https://arxiv.org/abs/2101.06060",
+    "title": "The Challenge of Value Alignment: from Fairer Algorithms to AI Safety",
+    "published_date": "2021-01-15",
+    "abstract": "This paper addresses the question of how to align AI systems with human values and situates it within a wider body of thought regarding technology and value. Far from existing in a vacuum, there has long been an interest in the ability of technology to 'lock-in' different value systems. There has also been considerable thought about how to align technologies with specific social values, including through participatory design-processes. In this paper we look more closely at the question of AI value alignment and suggest that the power and autonomy of AI systems gives rise to opportunities and challenges in the domain of value that have not been encountered before. Drawing important continuities between the work of the fairness, accountability, transparency and ethics community, and work being done by technical AI safety researchers, we suggest that more attention needs to be paid to the question of 'social value alignment' - that is, how to align AI systems with the plurality of values endorsed by groups of people, especially on the global level.",
+    "citation_count": 34,
+    "summary": "This paper examines the challenge of aligning artificial intelligence (AI) systems with human values, highlighting the unique opportunities and challenges posed by AI's power and autonomy, and advocating for a focus on \"social value alignment\" to address the plurality of human values globally."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2012.01557.pdf",
+    "title": "Value Alignment Verification",
+    "published_date": "2020-12-02",
+    "abstract": "As humans interact with autonomous agents to perform increasingly complicated, potentially risky tasks, it is important that humans can verify these agents' trustworthiness and efficiently evaluate their performance and correctness. In this paper we formalize the problem of value alignment verification: how to efficiently test whether the goals and behavior of another agent are aligned with a human's values? We explore several different value alignment verification settings and provide foundational theory regarding value alignment verification. We study alignment verification problems with an idealized human that has an explicit reward function as well as value alignment verification problems where the human has implicit values. Our theoretical and empirical results in both a discrete grid navigation domain and a continuous autonomous driving domain demonstrate that it is possible to synthesize highly efficient and accurate value alignment verification tests for certifying the alignment of autonomous agents.",
+    "citation_count": 28,
+    "summary": "This paper formalizes the problem of value alignment verification for autonomous agents, exploring methods to efficiently test if an agent's goals and behavior align with human values, both explicit and implicit, and demonstrating the feasibility of creating accurate verification tests."
+  },
+  {
+    "title": "Parameterized preference aggregation operators with improved adjustability",
+    "abstract": "ABSTRACT This study proposes some extended aggregation operators to model Extreme Conformity and Bounded Extreme Conformity which were proposed in a recent work. In detail, we propose Interval Judged s-t-A extreme operators and Selective Leveled-Preferences Ordered Weighted Averaging operators, respectively, and analyze some of their properties such as the related degenerations and monotonicities. Both types of operators have more flexibility and adjustability. An application of Interval Judged s-t-A extreme operators in project evaluation and decision-making is also introduced.",
+    "published_date": "2020-06-30",
+    "citation_count": 5,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/03081079.2020.1786822",
+    "summary": "This paper introduces two new parameterized aggregation operators, Interval Judged s-t-A extreme operators and Selective Leveled-Preferences Ordered Weighted Averaging operators, offering improved flexibility and adjustability over existing methods for modeling Extreme Conformity and Bounded Extreme Conformity in preference aggregation. An application in project evaluation is also presented."
+  }
+]

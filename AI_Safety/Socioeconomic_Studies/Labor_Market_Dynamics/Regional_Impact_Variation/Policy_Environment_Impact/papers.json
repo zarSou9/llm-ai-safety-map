@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2501.09606",
+    "title": "Local US officials' views on the impacts and governance of AI: Evidence from 2022 and 2023 survey waves",
+    "published_date": "2025-01-16",
+    "abstract": "This paper presents a survey of local US policymakers' views on the future impact and regulation of AI. Our survey provides insight into US policymakers' expectations regarding the effects of AI on local communities and the nation, as well as their attitudes towards specific regulatory policies. Conducted in two waves (2022 and 2023), the survey captures changes in attitudes following the release of ChatGPT and the subsequent surge in public awareness of AI. Local policymakers express a mix of concern, optimism, and uncertainty about AI's impacts, anticipating significant societal risks such as increased surveillance, misinformation, and political polarization, alongside potential benefits in innovation and infrastructure. Many also report feeling underprepared and inadequately informed to make AI-related decisions. On regulation, a majority of policymakers support government oversight and favor specific policies addressing issues such as data privacy, AI-related unemployment, and AI safety and fairness. Democrats show stronger and more consistent support for regulation than Republicans, but the latter experienced a notable shift towards majority support between 2022 and 2023. Our study contributes to understanding the perspectives of local policymakers-key players in shaping state and federal AI legislation-by capturing evolving attitudes, partisan dynamics, and their implications for policy formation. The findings highlight the need for capacity-building initiatives and bi-partisan coordination to mitigate policy fragmentation and build a cohesive framework for AI governance in the US.",
+    "summary": "A 2022-2023 survey of US local policymakers reveals mixed views on AI's impact, with concerns about societal risks balanced by optimism for innovation, alongside a perceived lack of preparedness for effective regulation. While a majority support government oversight, partisan differences exist, notably a shift towards greater Republican support for regulation between survey waves."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Mak2kZuTq8Hpnqyzb/the-intelligence-curse",
+    "author": "lukedrago",
+    "title": "The Intelligence Curse",
+    "published_date": "2025-01-03",
+    "summary": "The author argues that Artificial General Intelligence (AGI) will create an \"intelligence curse,\" mirroring the \"resource curse\" of rentier states. Because AGI will replace human labor, powerful actors will lose incentives to invest in human capital, leading to societal instability and decreased living standards for the majority."
+  },
+  {
+    "title": "Labour and technology at the time of Covid-19. Can artificial intelligence mitigate the need for proximity?",
+    "abstract": "Social distancing has become worldwide the key public policy to be implemented during the COVID-19 epidemic and reducing the degree of proximity among workers turned out to be an important dimension. An emerging literature looks at the role of automation in supporting the work of humans but the potential of Artiﬁcial Intelligence (AI) to inﬂuence the need for physical proximity on the workplace has been left largely unexplored. By using a unique and innovative dataset that combines data on advancements of AI at the occupational level with information on the required proximity in the job-place and administrative employer-employee data on job ﬂows, our results show that AI and proximity stand in an inverse U-shape relationship at the sectoral level, with high advancements in AI that are negatively associated with proximity. We detect this pattern among sectors that were closed due to the lockdown measures as well as among sectors that remained open. We argue that, apart from the expected gains in productivity and competitiveness, preserving jobs and economic activities in a situation of high contagion may be the additional beneﬁts of a policy favouring digitization.",
+    "published_date": "2024-06-16",
+    "citation_count": 6,
+    "url": "https://www.econstor.eu/bitstream/10419/228711/1/GLO-DP-0765.pdf",
+    "summary": "This paper investigates the relationship between AI adoption and workplace proximity, finding an inverse U-shaped correlation at the sectoral level; high AI advancement is negatively associated with proximity, suggesting AI can mitigate the need for physical closeness, even during crises like the COVID-19 pandemic."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.09718",
+    "title": "AI and the Opportunity for Shared Prosperity: Lessons from the History of Technology and the Economy",
+    "published_date": "2024-01-18",
+    "abstract": "Recent progress in artificial intelligence (AI) marks a pivotal moment in human history. It presents the opportunity for machines to learn, adapt, and perform tasks that have the potential to assist people, from everyday activities to their most creative and ambitious projects. It also has the potential to help businesses and organizations harness knowledge, increase productivity, innovate, transform, and power shared prosperity. This tremendous potential raises two fundamental questions: (1) Will AI actually advance national and global economic transformation to benefit society at large? and (2) What issues must we get right to fully realize AI's economic value, expand prosperity and improve lives everywhere? We explore these questions by considering the recent history of technology and innovation as a guide for the likely impact of AI and what we must do to realize its economic potential to benefit society. While we do not presume the future will be entirely like that past, for reasons we will discuss, we do believe prior experience with technological change offers many useful lessons. We conclude that while progress in AI presents a historic opportunity to advance our economic prosperity and future wellbeing, its economic benefits will not come automatically and that AI risks exacerbating existing economic challenges unless we collectively and purposefully act to enable its potential and address its challenges. We suggest a collective policy agenda - involving developers, deployers and users of AI, infrastructure providers, policymakers, and those involved in workforce training - that may help both realize and harness AI's economic potential and address its risks to our shared prosperity.",
+    "citation_count": 1,
+    "summary": "This paper examines the potential of AI to drive shared prosperity, arguing that while AI offers immense economic opportunities, realizing its benefits requires proactive policies addressing potential risks and ensuring equitable distribution of its advantages. Lessons from past technological advancements highlight the need for a collaborative approach involving various stakeholders to harness AI's potential and mitigate its challenges."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three strategies for governing transformative AI: Cooperative Development, Strategic Advantage, and Global Moratorium. The effectiveness of each strategy depends heavily on the difficulty of aligning AI and the timeframe for its development, with preferences shifting based on these factors."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/nLRKKCTtwQgvozLTN/gradient-routing-masking-gradients-to-localize-computation",
+    "author": "cloud, Jacob G-W, Evzen, Joseph Miller, TurnTrout",
+    "title": "Gradient Routing: Masking Gradients to Localize Computation in Neural Networks",
+    "published_date": "2024-12-06",
+    "summary": "Gradient routing is a technique that controls where learning occurs in neural networks by applying masks to gradient backpropagation, allowing for specialized subcomponents and potentially safer AI systems through increased transparency and capability control. The method demonstrates effectiveness in tasks like splitting latent spaces in autoencoders and localizing computation in language models."
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.02624",
+    "title": "AI exposure predicts unemployment risk",
+    "published_date": "2023-08-04",
+    "abstract": "Is artificial intelligence (AI) disrupting jobs and creating unemployment? Despite many attempts to quantify occupations' exposure to AI, inconsistent validation obfuscates the relative benefits of each approach. A lack of disaggregated labor outcome data, including unemployment data, further exacerbates the issue. Here, we assess which models of AI exposure predict job separations and unemployment risk using new occupation-level unemployment data by occupation from each US state's unemployment insurance office spanning 2010 through 2020. Although these AI exposure scores have been used by governments and industry, we find that individual AI exposure models are not predictive of unemployment rates, unemployment risk, or job separation rates. However, an ensemble of those models exhibits substantial predictive power suggesting that competing models may capture different aspects of AI exposure that collectively account for AI's variable impact across occupations, regions, and time. Our results also call for dynamic, context-aware, and validated methods for assessing AI exposure. Interactive visualizations for this study are available at https://sites.pitt.edu/~mrfrank/uiRiskDemo/.",
+    "citation_count": 2,
+    "summary": "Analysis of US unemployment data (2010-2020) reveals that individual AI exposure models poorly predict unemployment, but an ensemble of such models shows significant predictive power, highlighting the multifaceted nature of AI's impact on jobs. This underscores the need for more dynamic and validated AI exposure assessment methods."
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.10130",
+    "title": "GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models",
+    "published_date": "2023-03-17",
+    "abstract": "We investigate the potential implications of large language models (LLMs), such as Generative Pre-trained Transformers (GPTs), on the U.S. labor market, focusing on the increased capabilities arising from LLM-powered software compared to LLMs on their own. Using a new rubric, we assess occupations based on their alignment with LLM capabilities, integrating both human expertise and GPT-4 classifications. Our findings reveal that around 80% of the U.S. workforce could have at least 10% of their work tasks affected by the introduction of LLMs, while approximately 19% of workers may see at least 50% of their tasks impacted. We do not make predictions about the development or adoption timeline of such LLMs. The projected effects span all wage levels, with higher-income jobs potentially facing greater exposure to LLM capabilities and LLM-powered software. Significantly, these impacts are not restricted to industries with higher recent productivity growth. Our analysis suggests that, with access to an LLM, about 15% of all worker tasks in the US could be completed significantly faster at the same level of quality. When incorporating software and tooling built on top of LLMs, this share increases to between 47 and 56% of all tasks. This finding implies that LLM-powered software will have a substantial effect on scaling the economic impacts of the underlying models. We conclude that LLMs such as GPTs exhibit traits of general-purpose technologies, indicating that they could have considerable economic, social, and policy implications.",
+    "citation_count": 339,
+    "summary": "Large language models (LLMs) like GPTs could significantly impact the U.S. labor market, with up to 80% of workers potentially experiencing at least 10% task automation, and this impact is amplified by LLM-powered software, potentially affecting 47-56% of all tasks. The effects are broad-based across wage levels and industries."
+  }
+]

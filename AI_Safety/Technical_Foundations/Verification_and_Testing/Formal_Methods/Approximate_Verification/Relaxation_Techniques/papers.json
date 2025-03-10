@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2006.14076v1.pdf",
+    "title": "The Convex Relaxation Barrier, Revisited: Tightened Single-Neuron Relaxations for Neural Network Verification",
+    "published_date": "2020-06-24",
+    "abstract": "We improve the effectiveness of propagation- and linear-optimization-based neural network verification algorithms with a new tightened convex relaxation for ReLU neurons. Unlike previous single-neuron relaxations which focus only on the univariate input space of the ReLU, our method considers the multivariate input space of the affine pre-activation function preceding the ReLU. Using results from submodularity and convex geometry, we derive an explicit description of the tightest possible convex relaxation when this multivariate input is over a box domain. We show that our convex relaxation is significantly stronger than the commonly used univariate-input relaxation which has been proposed as a natural convex relaxation barrier for verification. While our description of the relaxation may require an exponential number of inequalities, we show that they can be separated in linear time and hence can be efficiently incorporated into optimization algorithms on an as-needed basis. Based on this novel relaxation, we design two polynomial-time algorithms for neural network verification: a linear-programming-based algorithm that leverages the full power of our relaxation, and a fast propagation algorithm that generalizes existing approaches. In both cases, we show that for a modest increase in computational effort, our strengthened relaxation enables us to verify a significantly larger number of instances compared to similar algorithms.",
+    "citation_count": 85
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.10491",
+    "title": "Achieving the Tightest Relaxation of Sigmoids for Formal Verification",
+    "published_date": "2024-08-20",
+    "abstract": "In the field of formal verification, Neural Networks (NNs) are typically reformulated into equivalent mathematical programs which are optimized over. To overcome the inherent non-convexity of these reformulations, convex relaxations of nonlinear activation functions are typically utilized. Common relaxations (i.e., static linear cuts) of\"S-shaped\"activation functions, however, can be overly loose, slowing down the overall verification process. In this paper, we derive tuneable hyperplanes which upper and lower bound the sigmoid activation function. When tuned in the dual space, these affine bounds smoothly rotate around the nonlinear manifold of the sigmoid activation function. This approach, termed $\\alpha$-sig, allows us to tractably incorporate the tightest possible, element-wise convex relaxation of the sigmoid activation function into a formal verification framework. We embed these relaxations inside of large verification tasks and compare their performance to LiRPA and $\\alpha$-CROWN, a state-of-the-art verification duo."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.09347.pdf",
+    "title": "Verified reductions for optimization",
+    "published_date": "2023-01-23",
+    "abstract": "Numerical and symbolic methods for optimization are used extensively in engineering, industry, and finance. Various methods are used to reduce problems of interest to ones that are amenable to solution by such software. We develop a framework for designing and applying such reductions, using the Lean programming language and interactive proof assistant. Formal verification makes the process more reliable, and the availability of an interactive framework and ambient mathematical library provides a robust environment for constructing the reductions and reasoning about them.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.17244",
+    "title": "Tight Certification of Adversarially Trained Neural Networks via Nonconvex Low-Rank Semidefinite Relaxations",
+    "published_date": "2022-11-30",
+    "abstract": "Adversarial training is well-known to produce high-quality neural network models that are empirically robust against adversarial perturbations. Nevertheless, once a model has been adversarially trained, one often desires a certification that the model is truly robust against all future attacks. Unfortunately, when faced with adversarially trained models, all existing approaches have significant trouble making certifications that are strong enough to be practically useful. Linear programming (LP) techniques in particular face a\"convex relaxation barrier\"that prevent them from making high-quality certifications, even after refinement with mixed-integer linear programming (MILP) and branch-and-bound (BnB) techniques. In this paper, we propose a nonconvex certification technique, based on a low-rank restriction of a semidefinite programming (SDP) relaxation. The nonconvex relaxation makes strong certifications comparable to much more expensive SDP methods, while optimizing over dramatically fewer variables comparable to much weaker LP methods. Despite nonconvexity, we show how off-the-shelf local optimization algorithms can be used to achieve and to certify global optimality in polynomial time. Our experiments find that the nonconvex relaxation almost completely closes the gap towards exact certification of adversarially trained models.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.00621v1.pdf",
+    "title": "Verifying Global Optimality of Candidate Solutions to Polynomial Optimization Problems using a Determinant Relaxation Hierarchy",
+    "published_date": "2021-01-03",
+    "abstract": "We propose an approach for verifying that a given feasible point for a polynomial optimization problem is globally optimal. The approach relies on the Lasserre hierarchy and the result of Lasserre regarding the importance of the convexity of the feasible set as opposed to that of the individual constraints. By focusing solely on certifying global optimality and relaxing the Lasserre hierarchy using necessary conditions for positive semidefiniteness based on matrix determinants, the proposed method is implementable as a computationally tractable linear program. We demonstrate this method via application to several instances of polynomial optimization, including the optimal power flow problem used to operate electric power systems.",
+    "citation_count": 2
+  },
+  {
+    "title": "Solving generalized polynomial problem by using new affine relaxed technique",
+    "abstract": "This article presents and validates a new branch-and-bound algorithm for effectively solving the generalized polynomial problem (GPP). In this algorithm, a new affine relaxed technique is derived for establishing the relaxed linear programs problem of the GPP. In addition, some box reducing manipulations are employed to improve the speed of branch-and-bound search of the algorithm. Combining the relaxed linear programs problem with the box reducing manipulations, a new branch-and-bound algorithm is constructed. Some numerical examples are solved to verify the potential practical and computing advantages of the algorithm. At last, several engineering design problems are solved to validate the usefulness of the algorithm.",
+    "published_date": "2021-04-15",
+    "citation_count": 18,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/00207160.2021.1909727"
+  }
+]

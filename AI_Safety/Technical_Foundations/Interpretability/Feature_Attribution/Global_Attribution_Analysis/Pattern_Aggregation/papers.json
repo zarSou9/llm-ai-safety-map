@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/zbebxYCqsryPALh8C/matryoshka-sparse-autoencoders",
+    "author": "Noa Nabeshima",
+    "title": "Matryoshka Sparse Autoencoders",
+    "published_date": "2024-12-14"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/hzuSDMx7pd2uxFc5w/causal-diagrams-and-causal-models",
+    "author": "Eliezer Yudkowsky",
+    "title": "Causal Diagrams and Causal Models",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14"
+  },
+  {
+    "title": "Semantic Explanation for Deep Neural Networks Using Feature Interactions",
+    "abstract": "Given the promising results obtained by deep-learning techniques in multimedia analysis, the explainability of predictions made by networks has become important in practical applications. We present a method to generate semantic and quantitative explanations that are easily interpretable by humans. The previous work to obtain such explanations has focused on the contributions of each feature, taking their sum to be the prediction result for a target variable; the lack of discriminative power due to this simple additive formulation led to low explanatory performance. Our method considers not only individual features but also their interactions, for a more detailed interpretation of the decisions made by networks. The algorithm is based on the factorization machine, a prediction method that calculates factor vectors for each feature. We conducted experiments on multiple datasets with different models to validate our method, achieving higher performance than the previous work. We show that including interactions not only generates explanations but also makes them richer and is able to convey more information. We show examples of produced explanations in a simple visual format and verify that they are easily interpretable and plausible.",
+    "published_date": "2021-10-31",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3474557"
+  },
+  {
+    "title": "A method to evaluate task-specific importance of spatio-temporal units based on explainable artificial intelligence",
+    "abstract": "ABSTRACT Big geo-data are often aggregated according to spatio-temporal units for analyzing human activities and urban environments. Many applications categorize such data into groups and compare the characteristics across groups. The intergroup differences vary with spatio-temporal units, and the essential is to identify the spatio-temporal units with apparently different data characteristics. However, spatio-temporal dependence, data variety, and the complexity of tasks impede an effective unit assessment. Inspired by the applications to extract critical image components based on explainable artificial intelligence (XAI), we propose a spatio-temporal layer-wise relevance propagation method to assess spatio-temporal units as a general solution. The method organizes input data into an extensible three-dimensional tensor form. We provide two means of labeling the spatio-temporal tensor data for typical geographical applications, using temporally or spatially relevant information. Neural network training proceeds to extract the global and local characteristics of data for corresponding analytical tasks. Then the method propagates classification results backward into units as obtained task-specific importance. A case study with taxi trajectory data in Beijing validates the method. The results prove that the proposed method can evaluate the task-specific importance of spatio-temporal units with dependence. This study also attempts to discover task-related knowledge using XAI.",
+    "published_date": "2020-08-18",
+    "citation_count": 20,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/13658816.2020.1805116"
+  },
+  {
+    "title": "Multi-Channel Sellers Traffic Allocation in Large-scale E-commerce Promotion",
+    "abstract": "Large-scale online promotions, such as Double 11 and Black Friday, are of great value to e-commerce platforms nowadays. Traditional methods are not successful when we aim to maximize global Gross Merchandise Volume (GMV) in the promotion scenarios due to three limitations. The first is that the GMV of sellers varies significantly from daily scenarios to promotions. Second, these methods do not consider explosive demands in promotions, so that a consumer may fail to purchase some popular items due to sellers' limited capacities. Third, the traffic distribution over sellers presents divergence in different channels, thus rendering the performance of the traditional single-channel methods far from optimal in creating commercial values. To address these problems, we design a Multi-Channel Sellers Traffic Allocation (MCSTA) optimization model to obtain optimal page view (PV) distribution concerning global GMV. Then we propose a general constrained non-smooth convex optimization solution with a Multi-Objective Shortest Distance (MOSD) hyperparameter tuning method to solve MCSTA. This is the first work to systematically address this issue in the scenario of large-scale online promotions. The empirical results show that MCSTA achieves significant improvement of GMV by 1.1% based on A/B test during Alibaba's \"Global Shopping Festival\", one of the world's largest online sales events. Furthermore, we deploy MCSTA in other popular scenarios, including everyday promotion and video live stream service, to showcase that MCSTA can be widely applied in e-commerce and online entertainment services.",
+    "published_date": "2020-10-19",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3340531.3412730"
+  }
+]

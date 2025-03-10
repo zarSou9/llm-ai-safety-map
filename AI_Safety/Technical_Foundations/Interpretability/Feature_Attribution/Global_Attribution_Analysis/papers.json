@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2408.07736",
+    "title": "Enhancing Model Interpretability with Local Attribution over Global Exploration",
+    "published_date": "2024-08-14",
+    "abstract": "In the field of artificial intelligence, AI models are frequently described as `black boxes' due to the obscurity of their internal mechanisms. It has ignited research interest on model interpretability, especially in attribution methods that offers precise explanations of model decisions. Current attribution algorithms typically evaluate the importance of each parameter by exploring the sample space. A large number of intermediate states are introduced during the exploration process, which may reach the model's Out-of-Distribution (OOD) space. Such intermediate states will impact the attribution results, making it challenging to grasp the relative importance of features. In this paper, we firstly define the local space and its relevant properties, and we propose the Local Attribution (LA) algorithm that leverages these properties. The LA algorithm comprises both targeted and untargeted exploration phases, which are designed to effectively generate intermediate states for attribution that thoroughly encompass the local space. Compared to the state-of-the-art attribution methods, our approach achieves an average improvement of 38.21\\% in attribution effectiveness. Extensive ablation studies in our experiments also validate the significance of each component in our algorithm. Our code is available at: https://github.com/LMBTough/LA/",
+    "citation_count": 2,
+    "summary": "The paper introduces Local Attribution (LA), a novel algorithm for improving model interpretability by focusing attribution calculations on a locally defined sample space, thus mitigating the impact of out-of-distribution intermediate states encountered in existing global exploration methods. LA achieves a significant improvement (38.21% on average) in attribution effectiveness compared to state-of-the-art techniques."
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.02439",
+    "title": "Root Causing Prediction Anomalies Using Explainable AI",
+    "published_date": "2024-03-04",
+    "abstract": "This paper presents a novel application of explainable AI (XAI) for root-causing performance degradation in machine learning models that learn continuously from user engagement data. In such systems a single feature corruption can cause cascading feature, label and concept drifts. We have successfully applied this technique to improve the reliability of models used in personalized advertising. Performance degradation in such systems manifest as prediction anomalies in the models. These models are typically trained continuously using features that are produced by hundreds of real time data processing pipelines or derived from other upstream models. A failure in any of these pipelines or an instability in any of the upstream models can cause feature corruption, causing the model's predicted output to deviate from the actual output and the training data to become corrupted. The causal relationship between the features and the predicted output is complex, and root-causing is challenging due to the scale and dynamism of the system. We demonstrate how temporal shifts in the global feature importance distribution can effectively isolate the cause of a prediction anomaly, with better recall than model-to-feature correlation methods. The technique appears to be effective even when approximating the local feature importance using a simple perturbation-based method, and aggregating over a few thousand examples. We have found this technique to be a model-agnostic, cheap and effective way to monitor complex data pipelines in production and have deployed a system for continuously analyzing the global feature importance distribution of continuously trained models.",
+    "summary": "This paper introduces an explainable AI (XAI) method for identifying root causes of prediction anomalies in continuously learning models, specifically focusing on detecting feature corruption stemming from upstream data pipelines by analyzing temporal shifts in global feature importance distributions. This approach proved more effective than correlation methods and is model-agnostic, inexpensive, and deployed for continuous monitoring in a personalized advertising application."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/93nKtsDL6YY5fRbQv/case-studies-in-reverse-engineering-sparse-autoencoder",
+    "author": "Jacob Dunefsky, Philippe Chlenski, Senthooran Rajamanoharan, Neel Nanda",
+    "title": "Case Studies in Reverse-Engineering Sparse Autoencoder Features by Using MLP Linearization",
+    "published_date": "2024-01-14",
+    "summary": "This research introduces a method for interpreting sparse autoencoder (SAE) features in transformer models by using local linear approximations of MLP sublayers. This approach allows researchers to understand how features are computed from earlier model components, both for specific inputs and more generally, leading to more effective interpretation of SAE features."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/DtdzGwFh9dCfsekZZ/sparse-autoencoders-work-on-attention-layer-outputs",
+    "author": "Connor Kissane, robertzk, Arthur Conmy, Neel Nanda",
+    "title": "Sparse Autoencoders Work on Attention Layer Outputs",
+    "published_date": "2024-01-16",
+    "summary": "This research replicates Anthropic's method of using sparse autoencoders (SAEs) to interpret attention layer outputs in a language model, finding that the SAEs learn sparse, interpretable features revealing insights into attention mechanisms. The authors open-sourced their SAE and conducted both shallow and deep dives into the learned features, identifying interpretable patterns and exploring their upstream and downstream influences."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/Fg2gAgxN6hHSaTjkf/scaling-and-evaluating-sparse-autoencoders",
+    "author": "Leogao",
+    "title": "Scaling and evaluating sparse autoencoders",
+    "published_date": "2024-06-06",
+    "summary": "This research improves sparse autoencoders for extracting interpretable features from large language models by using k-sparse autoencoders to control sparsity and minimize dead latents, revealing clean scaling laws and improved feature quality metrics as demonstrated with a massive 16-million latent autoencoder trained on GPT-4 activations. The improved methodology and resulting tools are made publicly available."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/NMLq8yoTecAF44KX9/sae-probing-what-is-it-good-for-absolutely-something",
+    "author": "Subhash Kantamneni; JoshEngels; Senthooran Rajamanoharan; Neel Nanda",
+    "title": "SAE Probing: What is it good for? Absolutely something!",
+    "published_date": "2024-11-01",
+    "summary": "This study compared sparse autoencoder (SAE) probes to traditional activation probes for binary classification, finding SAE probes competitive, particularly with limited data or label corruption. However, activation probes generally performed better, suggesting SAE probes are a valuable supplementary tool rather than a replacement."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/TMAmHh4DdMr4nCSr5/showing-sae-latents-are-not-atomic-using-meta-saes",
+    "author": "Bart Bussmann; Michael Pearce; Patrick Leask; Joseph Bloom; Lee Sharkey; Neel Nanda",
+    "title": "Showing SAE Latents Are Not Atomic Using Meta-SAEs",
+    "published_date": "2024-08-24",
+    "summary": "This research challenges the assumption that Sparse Autoencoder (SAE) latents are atomic units of meaning, demonstrating that they can be decomposed into more fundamental \"meta-latents\" using meta-SAEs. This decomposition allows for more precise causal interventions and provides a more nuanced understanding of SAE internal representations."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/jGG24BzLdYvi9dugm/saebench-a-comprehensive-benchmark-for-sparse-autoencoders",
+    "author": "Can, Adam Karvonen, Johnny Lin, Curt Tigges, Joseph Bloom, chanind, Yeu-Tong Lau, Eoin Farrell, Arthur Conmy, CallumMcDougall, Kola Ayonrinde, Matthew Wearden, Sam Marks, Neel Nanda",
+    "title": "SAEBench: A Comprehensive Benchmark for Sparse Autoencoders",
+    "published_date": "2024-12-11",
+    "summary": "SAEBench, a new benchmark suite, evaluates sparse autoencoders (SAEs) using eight diverse metrics, including unsupervised measures and downstream tasks, to overcome the limitations of using sparsity as a sole evaluation criterion. The benchmark includes evaluations of over 200 SAEs and provides a codebase for researchers to evaluate their own SAEs and contribute new evaluation methods."
+  }
+]

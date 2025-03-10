@@ -1,0 +1,111 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2305.02748",
+    "title": "A computational framework of human values for ethical AI",
+    "published_date": "2023-05-04",
+    "abstract": "In the diverse array of work investigating the nature of human values from psychology, philosophy and social sciences, there is a clear consensus that values guide behaviour. More recently, a recognition that values provide a means to engineer ethical AI has emerged. Indeed, Stuart Russell proposed shifting AI's focus away from simply ``intelligence'' towards intelligence ``provably aligned with human values''. This challenge -- the value alignment problem -- with others including an AI's learning of human values, aggregating individual values to groups, and designing computational mechanisms to reason over values, has energised a sustained research effort. Despite this, no formal, computational definition of values has yet been proposed. We address this through a formal conceptual framework rooted in the social sciences, that provides a foundation for the systematic, integrated and interdisciplinary investigation into how human values can support designing ethical AI.",
+    "citation_count": 4,
+    "summary": "This paper proposes a novel computational framework for defining human values, addressing the lack of formal definition in current ethical AI research and providing a foundation for aligning AI with human values. This framework integrates insights from social sciences, psychology, and philosophy to facilitate systematic investigation of ethical AI design."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.06359",
+    "title": "Modelling Human Values for AI Reasoning",
+    "published_date": "2024-02-09",
+    "abstract": "One of today's most significant societal challenges is building AI systems whose behaviour, or the behaviour it enables within communities of interacting agents (human and artificial), aligns with human values. To address this challenge, we detail a formal model of human values for their explicit computational representation. To our knowledge, this has not been attempted as yet, which is surprising given the growing volume of research integrating values within AI. Taking as our starting point the wealth of research investigating the nature of human values from social psychology over the last few decades, we set out to provide such a formal model. We show how this model can provide the foundational apparatus for AI-based reasoning over values, and demonstrate its applicability in real-world use cases. We illustrate how our model captures the key ideas from social psychology research and propose a roadmap for future integrated, and interdisciplinary, research into human values in AI. The ability to automatically reason over values not only helps address the value alignment problem but also facilitates the design of AI systems that can support individuals and communities in making more informed, value-aligned decisions. More and more, individuals and organisations are motivated to understand their values more explicitly and explore whether their behaviours and attitudes properly reflect them. Our work on modelling human values will enable AI systems to be designed and deployed to meet this growing need.",
+    "citation_count": 2,
+    "summary": "This paper presents a novel formal model for computationally representing human values, drawing on social psychology research, to enable AI systems to reason about and align with those values. This model aims to address the value alignment problem in AI and support more informed, value-aligned decision-making."
+  },
+  {
+    "url": "https://arxiv.org/abs/2101.06060v1",
+    "title": "The Challenge of Value Alignment: from Fairer Algorithms to AI Safety",
+    "published_date": "2021-01-15",
+    "abstract": "This paper addresses the question of how to align AI systems with human values and situates it within a wider body of thought regarding technology and value. Far from existing in a vacuum, there has long been an interest in the ability of technology to 'lock-in' different value systems. There has also been considerable thought about how to align technologies with specific social values, including through participatory design-processes. In this paper we look more closely at the question of AI value alignment and suggest that the power and autonomy of AI systems gives rise to opportunities and challenges in the domain of value that have not been encountered before. Drawing important continuities between the work of the fairness, accountability, transparency and ethics community, and work being done by technical AI safety researchers, we suggest that more attention needs to be paid to the question of 'social value alignment' - that is, how to align AI systems with the plurality of values endorsed by groups of people, especially on the global level.",
+    "citation_count": 34,
+    "summary": "The paper argues that aligning AI systems with human values requires addressing both technical AI safety and broader societal considerations of value alignment, emphasizing the unprecedented challenges posed by AI's autonomy and the need for globally inclusive approaches."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.19198",
+    "title": "MAP: Multi-Human-Value Alignment Palette",
+    "published_date": "2024-10-24",
+    "abstract": "Ensuring that generative AI systems align with human values is essential but challenging, especially when considering multiple human values and their potential trade-offs. Since human values can be personalized and dynamically change over time, the desirable levels of value alignment vary across different ethnic groups, industry sectors, and user cohorts. Within existing frameworks, it is hard to define human values and align AI systems accordingly across different directions simultaneously, such as harmlessness, helpfulness, and positiveness. To address this, we develop a novel, first-principle approach called Multi-Human-Value Alignment Palette (MAP), which navigates the alignment across multiple human values in a structured and reliable way. MAP formulates the alignment problem as an optimization task with user-defined constraints, which define human value targets. It can be efficiently solved via a primal-dual approach, which determines whether a user-defined alignment target is achievable and how to achieve it. We conduct a detailed theoretical analysis of MAP by quantifying the trade-offs between values, the sensitivity to constraints, the fundamental connection between multi-value alignment and sequential alignment, and proving that linear weighted rewards are sufficient for multi-value alignment. Extensive experiments demonstrate MAP's ability to align multiple values in a principled manner while delivering strong empirical performance across various tasks.",
+    "summary": "The Multi-Human-Value Alignment Palette (MAP) framework addresses the challenge of aligning generative AI with multiple, potentially conflicting human values by formulating the problem as a constrained optimization task solvable via a primal-dual approach. MAP allows for user-defined value targets, enabling flexible and principled alignment across diverse contexts and demonstrating strong empirical performance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.09586",
+    "title": "ValueCompass: A Framework of Fundamental Values for Human-AI Alignment",
+    "published_date": "2024-09-15",
+    "abstract": "As AI systems become more advanced, ensuring their alignment with a diverse range of individuals and societal values becomes increasingly critical. But how can we capture fundamental human values and assess the degree to which AI systems align with them? We introduce ValueCompass, a framework of fundamental values, grounded in psychological theory and a systematic review, to identify and evaluate human-AI alignment. We apply ValueCompass to measure the value alignment of humans and language models (LMs) across four real-world vignettes: collaborative writing, education, public sectors, and healthcare. Our findings uncover risky misalignment between humans and LMs, such as LMs agreeing with values like\"Choose Own Goals\", which are largely disagreed by humans. We also observe values vary across vignettes, underscoring the necessity for context-aware AI alignment strategies. This work provides insights into the design space of human-AI alignment, offering foundations for developing AI that responsibly reflects societal values and ethics.",
+    "summary": "ValueCompass is a framework for assessing human-AI alignment based on fundamental human values derived from psychological theory, revealing significant misalignments between humans and language models across various real-world scenarios, highlighting the need for context-aware alignment strategies."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/value-extrapolation",
+    "title": "Value Extrapolation - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Value extrapolation aims to identify ideal human values by understanding their origins and development, proposing this as a foundation for machine ethics. This process, potentially aided by Coherent Extrapolated Volition, seeks to refine human values through reflection, resolving contradictions and facilitating integration with AI systems."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.14106",
+    "title": "Learning Human-like Representations to Enable Learning Human Values",
+    "published_date": "2023-12-21",
+    "abstract": "How can we build AI systems that can learn any set of individual human values both quickly and safely, avoiding causing harm or violating societal standards for acceptable behavior during the learning process? We explore the effects of representational alignment between humans and AI agents on learning human values. Making AI systems learn human-like representations of the world has many known benefits, including improving generalization, robustness to domain shifts, and few-shot learning performance. We demonstrate that this kind of representational alignment can also support safely learning and exploring human values in the context of personalization. We begin with a theoretical prediction, show that it applies to learning human morality judgments, then show that our results generalize to ten different aspects of human values -- including ethics, honesty, and fairness -- training AI agents on each set of values in a multi-armed bandit setting, where rewards reflect human value judgments over the chosen action. Using a set of textual action descriptions, we collect value judgments from humans, as well as similarity judgments from both humans and multiple language models, and demonstrate that representational alignment enables both safe exploration and improved generalization when learning human values.",
+    "citation_count": 3,
+    "summary": "This paper investigates how aligning AI agents' representations with human-like representations improves the safe and efficient learning of diverse human values, demonstrating improved generalization and reduced harm during value acquisition across various ethical and moral domains. The authors support their findings through theoretical predictions and empirical results using a multi-armed bandit framework with human value judgments."
+  },
+  {
+    "url": "https://arxiv.org/abs/2309.00779",
+    "title": "Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties",
+    "published_date": "2023-09-02",
+    "abstract": "Human values are crucial to human decision-making. Value pluralism is the view that multiple correct values may be held in tension with one another (e.g., when considering lying to a friend to protect their feelings, how does one balance honesty with friendship?). As statistical learners, AI systems fit to averages by default, washing out these potentially irreducible value conflicts. To improve AI systems to better reflect value pluralism, the first-order challenge is to explore the extent to which AI systems can model pluralistic human values, rights, and duties as well as their interaction.\n\nWe introduce ValuePrism, a large-scale dataset of 218k values, rights, and duties connected to 31k human-written situations. ValuePrism's contextualized values are generated by GPT-4 and deemed high-quality by human annotators 91% of the time. We conduct a large-scale study with annotators across diverse social and demographic backgrounds to try to understand whose values are represented.\n\nWith ValuePrism, we build Value Kaleidoscope (or Kaleido), an open, light-weight, and structured language-based multi-task model that generates, explains, and assesses the relevance and valence (i.e., support or oppose) of human values, rights, and duties within a specific context. Humans prefer the sets of values output by our system over the teacher GPT- 4, finding them more accurate and with broader coverage. In addition, we demonstrate that Kaleido can help explain variability in human decision-making by outputting contrasting values. Finally, we show that Kaleido's representations transfer to other philosophical frameworks and datasets, confirming the benefit of an explicit, modular, and interpretable approach to value pluralism. We hope that our work will serve as a step to making more explicit the implicit values behind human decision-making and to steering AI systems to make decisions that are more in accordance with them.",
+    "citation_count": 40,
+    "summary": "The paper introduces ValuePrism, a large dataset of human values, rights, and duties, and ValueKaleidoscope (Kaleido), a multi-task model trained on this data to generate, explain, and assess values within context, addressing the challenge of representing pluralistic values in AI systems. Kaleido outperforms GPT-4 in generating human-preferred value sets and offers explanations for diverse human decision-making."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2012.11705v1.pdf",
+    "title": "Taking Principles Seriously: A Hybrid Approach to Value Alignment",
+    "published_date": "2020-12-21",
+    "abstract": "An important step in the development of value alignment (VA) systems in artificial intelligence (AI) is understanding how VA can reflect valid ethical principles. We propose that designers of VA systems incorporate ethics by utilizing a hybrid approach in which both ethical reasoning and empirical observation play a role. This, we argue, avoids committing “naturalistic fallacy,” which is an attempt to derive “ought” from “is,” and it provides a more adequate form of ethical reasoning when the fallacy is not committed. Using quantified model logic, we precisely formulate principles derived from deontological ethics and show how they imply particular “test propositions” for any given action plan in an AI rule base. The action plan is ethical only if the test proposition is empirically true, a judgment that is made on the basis of empirical VA. This permits empirical VA to integrate seamlessly with independently justified ethical principles. \nThis article is part of the special track on AI and Society.",
+    "citation_count": 28,
+    "summary": "The paper advocates a hybrid approach to AI value alignment, combining deontological ethical principles formalized in quantified model logic with empirical observation to avoid the naturalistic fallacy, ensuring ethical AI actions are validated by real-world evidence. This approach integrates ethical reasoning with empirical value alignment."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/GermiEmcS6xuZ2gBh/what-ai-safety-researchers-have-written-about-the-nature-of",
+    "author": "avturchin",
+    "title": "What AI Safety Researchers Have Written About the Nature of Human Values",
+    "published_date": "2019-01-16",
+    "summary": "The article explores the challenge of defining \"human values\" for AI alignment, highlighting the inadequacy of existing psychological theories and the need for formalized, AI-conscious value frameworks. It categorizes existing and potential theories based on value description complexity and the degree of behaviorism, contrasting abstract, general theories with human-centered approaches."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ngqvnWGsvTEiTASih/ai-alignment-problem-human-values-don-t-actually-exist",
+    "author": "avturchin",
+    "title": "AI Alignment Problem: \n“Human Values” don't Actually Exist",
+    "published_date": "2019-04-22",
+    "summary": "The article critiques the prevalent \"AI alignment\" approach to AI safety, which relies on aligning AI with \"human values.\" It argues that this approach rests on flawed assumptions about the nature of human values, proposing that these values are neither consistently definable nor reliable predictors of human behavior, and suggests alternative AI safety strategies that don't depend on this concept."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/value-extrapolation",
+    "title": "Value Extrapolation - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "Value extrapolation, a process of identifying ideal human values under conditions of complete self-understanding, aims to inform machine ethics development. This approach, drawing on concepts like Coherent Extrapolated Volition, seeks to improve AI alignment by clarifying and refining human values through reflection, potentially resolving contradictions and facilitating faster moral progress."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/machine-ethics",
+    "title": "Machine Ethics - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Machine ethics seeks to create Artificial Moral Agents (AMAs) capable of morally sound decision-making, a complex challenge currently limited to narrow AI applications despite the urgent need to address this issue before the advent of artificial general intelligence. Early attempts, like Asimov's Three Laws of Robotics, highlight the inherent difficulties in programming morality into machines."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.08759.pdf",
+    "title": "Value Engineering for Autonomous Agents",
+    "published_date": "2023-02-17",
+    "abstract": "Machine Ethics (ME) is concerned with the design of Artificial Moral Agents (AMAs), i.e. autonomous agents capable of reasoning and behaving according to moral values. Previous approaches have treated values as labels associated with some actions or states of the world, rather than as integral components of agent reasoning. It is also common to disregard that a value-guided agent operates alongside other value-guided agents in an environment governed by norms, thus omitting the social dimension of AMAs. In this blue sky paper, we propose a new AMA paradigm grounded in moral and social psychology, where values are instilled into agents as context-dependent goals. These goals intricately connect values at individual levels to norms at a collective level by evaluating the outcomes most incentivized by the norms in place. We argue that this type of normative reasoning, where agents are endowed with an understanding of norms' moral implications, leads to value-awareness in autonomous agents. Additionally, this capability paves the way for agents to align the norms enforced in their societies with respect to the human values instilled in them, by complementing the value-based reasoning on norms with agreement mechanisms to help agents collectively agree on the best set of norms that suit their human values. Overall, our agent model goes beyond the treatment of values as inert labels by connecting them to normative reasoning and to the social functionalities needed to integrate value-aware agents into our modern hybrid human-computer societies.",
+    "citation_count": 3,
+    "summary": "This paper proposes a novel framework for designing Artificial Moral Agents (AMAs) that integrates values as context-dependent goals, connecting individual-level values with collective-level norms through normative reasoning and agreement mechanisms to achieve value-aware agents capable of aligning societal norms with human values. This approach moves beyond simply labeling actions with values, incorporating social and moral psychology for a more robust and socially integrated AMA."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.02739.pdf",
+    "title": "Human Values in Multiagent Systems",
+    "published_date": "2023-05-04",
+    "abstract": "One of the major challenges we face with ethical AI today is developing computational systems whose reasoning and behaviour are provably aligned with human values. Human values, however, are notorious for being ambiguous, contradictory and ever-changing. In order to bridge this gap, and get us closer to the situation where we can formally reason about implementing values into AI, this paper presents a formal representation of values, grounded in the social sciences. We use this formal representation to articulate the key challenges for achieving value-aligned behaviour in multiagent systems (MAS) and a research roadmap for addressing them.",
+    "summary": "This paper proposes a formal representation of human values, rooted in social science, to address the challenge of aligning multiagent systems' behavior with those values. It identifies key challenges in achieving value-aligned AI and outlines a research roadmap to overcome them."
+  }
+]

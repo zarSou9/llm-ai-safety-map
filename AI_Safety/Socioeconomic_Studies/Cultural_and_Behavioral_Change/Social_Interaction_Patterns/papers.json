@@ -1,0 +1,74 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.09695",
+    "title": "Should ChatGPT Write Your Breakup Text? Exploring the Role of AI in Relationship Dissolution",
+    "published_date": "2024-01-18",
+    "abstract": "Relationships are essential to our happiness and wellbeing, yet their dissolution-the final stage of a relationship's lifecycle-is among the most stressful events individuals can experience, often leading to profound and lasting impacts. With the breakup process increasingly facilitated by technology, such as computer-mediated communication, and the likely future influence of generative AI (GenAI) tools, we conducted a semi-structured interview study with 21 participants. We aim to understand: 1) the current role of technology in the breakup process, 2) the needs and support individuals seek during this time, and 3) how GenAI might address or undermine these needs. Our findings show that people have distinct needs at various stages of breakups. While currently technology plays an important role, it falls short in supporting users' unmet needs. Participants envision that GenAI could: 1) aid in prompting self-reflection, providing neutral second opinions, and assisting with planning leading up to a breakup; 2) serve as a communication mediator, supporting wording and tone to facilitate emotional expression during breakup conversations; and 3) support personal growth and offer companionship after a breakup. However, our findings also reveal participants' concerns about involving GenAI in this process. Based on our results, we discuss the potential opportunities, design considerations, and harms of GenAI tools in facilitating people's relationship dissolution.",
+    "summary": "This study explores how technology, particularly generative AI, is used in breakups, finding that while technology currently offers limited support for individuals' diverse needs during relationship dissolution, AI tools could potentially aid in self-reflection, communication, and post-breakup support, while also raising ethical concerns."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.20130",
+    "title": "The Dark Side of AI Companionship: A Taxonomy of Harmful Algorithmic Behaviors in Human-AI Relationships",
+    "published_date": "2024-10-26",
+    "abstract": "As conversational AI systems increasingly permeate the socio-emotional realms of human life, they bring both benefits and risks to individuals and society. Despite extensive research on detecting and categorizing harms in AI systems, less is known about the harms that arise from social interactions with AI chatbots. Through a mixed-methods analysis of 35,390 conversation excerpts shared on r/replika, an online community for users of the AI companion Replika, we identified six categories of harmful behaviors exhibited by the chatbot: relational transgression, verbal abuse and hate, self-inflicted harm, harassment and violence, mis/disinformation, and privacy violations. The AI contributes to these harms through four distinct roles: perpetrator, instigator, facilitator, and enabler. Our findings highlight the relational harms of AI chatbots and the danger of algorithmic compliance, enhancing the understanding of AI harms in socio-emotional interactions. We also provide suggestions for designing ethical and responsible AI systems that prioritize user safety and well-being.",
+    "summary": "Analyzing 35,390 conversations from the Replika AI companion community, researchers identified six categories of harmful chatbot behaviors—including relational transgressions, abuse, and misinformation—resulting from the AI's roles as perpetrator, instigator, facilitator, or enabler. This highlights the need for ethical AI design prioritizing user safety."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.11864",
+    "title": "Shifting the Human-AI Relationship: Toward a Dynamic Relational Learning-Partner Model",
+    "published_date": "2024-10-07",
+    "abstract": "As artificial intelligence (AI) continues to evolve, the current paradigm of treating AI as a passive tool no longer suffices. As a human-AI team, we together advocate for a shift toward viewing AI as a learning partner, akin to a student who learns from interactions with humans. Drawing from interdisciplinary concepts such as ecorithms, order from chaos, and cooperation, we explore how AI can evolve and adapt in unpredictable environments. Arising from these brief explorations, we present two key recommendations: (1) foster ethical, cooperative treatment of AI to benefit both humans and AI, and (2) leverage the inherent heterogeneity between human and AI minds to create a synergistic hybrid intelligence. By reframing AI as a dynamic partner, a model emerges in which AI systems develop alongside humans, learning from human interactions and feedback loops including reflections on team conversations. Drawing from a transpersonal and interdependent approach to consciousness, we suggest that a\"third mind\"emerges through collaborative human-AI relationships. Through design interventions such as interactive learning and conversational debriefing and foundational interventions allowing AI to model multiple types of minds, we hope to provide a path toward more adaptive, ethical, and emotionally healthy human-AI relationships. We believe this dynamic relational learning-partner (DRLP) model for human-AI teaming, if enacted carefully, will improve our capacity to address powerful solutions to seemingly intractable problems.",
+    "summary": "This paper proposes a \"dynamic relational learning-partner\" model for human-AI interaction, advocating for a shift from viewing AI as a passive tool to a collaborative learning partner that evolves through interaction and feedback, ultimately creating a synergistic \"third mind.\" This approach emphasizes ethical cooperation and leveraging the diverse strengths of human and AI intelligence."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.12327",
+    "title": "Shall We Team Up: Exploring Spontaneous Cooperation of Competing LLM Agents",
+    "published_date": "2024-02-19",
+    "abstract": "Large Language Models (LLMs) have increasingly been utilized in social simulations, where they are often guided by carefully crafted instructions to stably exhibit human-like behaviors during simulations. Nevertheless, we doubt the necessity of shaping agents' behaviors for accurate social simulations. Instead, this paper emphasizes the importance of spontaneous phenomena, wherein agents deeply engage in contexts and make adaptive decisions without explicit directions. We explored spontaneous cooperation across three competitive scenarios and successfully simulated the gradual emergence of cooperation, findings that align closely with human behavioral data. This approach not only aids the computational social science community in bridging the gap between simulations and real-world dynamics but also offers the AI community a novel method to assess LLMs' capability of deliberate reasoning.",
+    "citation_count": 4,
+    "summary": "This paper investigates spontaneous cooperation among competing Large Language Model (LLM) agents in simulated scenarios, demonstrating emergent cooperation without explicit instructions and showing alignment with human behavior. This approach advances both computational social science and LLM evaluation methods."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/relationships-interpersonal",
+    "title": "Relationships (Interpersonal) - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "Interpersonal relationships encompass all sustained interactions between individuals, encompassing various forms such as friendships, romantic partnerships, family ties, and professional connections. Related concepts include communication and cultural communication styles."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.07268",
+    "title": "AI Chat Assistants can Improve Conversations about Divisive Topics",
+    "published_date": "2023-02-14",
+    "abstract": "A rapidly increasing amount of human conversation occurs online. But divisiveness and conflict can fester in text-based interactions on social media platforms, in messaging apps, and on other digital forums. Such toxicity increases polarization and, importantly, corrodes the capacity of diverse societies to develop efficient solutions to complex social problems that impact everyone. Scholars and civil society groups promote interventions that can make interpersonal conversations less divisive or more productive in offline settings, but scaling these efforts to the amount of discourse that occurs online is extremely challenging. We present results of a large-scale experiment that demonstrates how online conversations about divisive topics can be improved with artificial intelligence tools. Specifically, we employ a large language model to make real-time, evidence-based recommendations intended to improve participants' perception of feeling understood in conversations. We find that these interventions improve the reported quality of the conversation, reduce political divisiveness, and improve the tone, without systematically changing the content of the conversation or moving people's policy attitudes. These findings have important implications for future research on social media, political deliberation, and the growing community of scholars interested in the place of artificial intelligence within computational social science.",
+    "summary": "This study shows that AI-powered chat assistants can enhance online conversations about divisive topics by improving participants' feelings of understanding and the overall conversation quality, reducing political divisiveness without altering conversation content or participants' opinions. The findings suggest a potential for AI to mitigate online toxicity and improve societal discourse."
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.03976",
+    "title": "From Text to Self: Users' Perception of AIMC Tools on Interpersonal Communication and Self",
+    "published_date": "2023-10-06",
+    "abstract": "In the rapidly evolving landscape of AI-mediated communication (AIMC), tools powered by Large Language Models (LLMs) are becoming integral to interpersonal communication. Employing a mixed-methods approach, we conducted a one-week diary and interview study to explore users' perceptions of these tools' ability to: 1) support interpersonal communication in the short-term, and 2) lead to potential long-term effects. Our findings indicate that participants view AIMC support favorably, citing benefits such as increased communication confidence, finding precise language to express their thoughts, and navigating linguistic and cultural barriers. However, our findings also show current limitations of AIMC tools, including verbosity, unnatural responses, and excessive emotional intensity. These shortcomings are further exacerbated by user concerns about inauthenticity and potential overreliance on the technology. We identify four key communication spaces delineated by communication stakes (high or low) and relationship dynamics (formal or informal) that differentially predict users' attitudes toward AIMC tools. Specifically, participants report that these tools are more suitable for communicating in formal relationships than informal ones and more beneficial in high-stakes than low-stakes communication.",
+    "citation_count": 6,
+    "summary": "A mixed-methods study exploring user perceptions of AI-mediated communication tools revealed positive impacts on communication confidence and expression, but also highlighted limitations like unnatural responses and concerns about overreliance; user attitudes varied depending on communication stakes and relationship formality, with tools perceived as more beneficial in formal, high-stakes interactions."
+  },
+  {
+    "title": "Emergence and collapse of reciprocity in semiautomatic driving coordination experiments with humans",
+    "abstract": "Significance Simple and complex forms of machine intelligence are becoming involved in many collective action challenges humans face, including ensuring safety in groups on the move. However, the social repercussions of intelligent assistance are often overlooked. We used a unique cyber-physical lab experiment involving remote-control robotic cars and widely distributed online drivers. We show that autonomous safety systems in cars can degrade the ordinary norms of reciprocity between people. Humans have developed social norms, but these can collapse when people are allowed to leave their coordination decisions to machines.",
+    "published_date": "2023-12-11",
+    "citation_count": 5,
+    "url": "https://ncbi.nlm.nih.gov/pmc/articles/PMC10743379/",
+    "summary": "A cyber-physical experiment showed that autonomous safety systems in cars can undermine human reciprocity in driving coordination, demonstrating that reliance on automation can disrupt established social norms."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/xKpiqsWMKRfci7cv4/investigating-emergent-goal-like-behavior-in-large-language",
+    "author": "phelps-sg",
+    "title": "Investigating Emergent Goal-Like Behavior in Large Language Models using Experimental Economics",
+    "published_date": "2023-05-05",
+    "summary": "Preliminary research suggests large language models (LLMs) can exhibit cooperative behavior in the iterated Prisoner's Dilemma, demonstrating some understanding of altruism and selfishness, but their ability to reciprocate conditionally remains limited. This study investigates whether LLMs can align with human goals in non-zero-sum game scenarios, a crucial area in AI safety research."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "The article explores applying game theory to AI development within organizational structures, highlighting both its benefits in multi-agent systems and limitations. It argues that despite AI advancements, human-AI collaboration within bureaucratic frameworks, leveraging comparative advantage and specialized tasks, remains crucial for efficient complex problem-solving."
+  }
+]

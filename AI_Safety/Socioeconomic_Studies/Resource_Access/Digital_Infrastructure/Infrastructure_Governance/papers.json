@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three AI governance strategies—Cooperative Development, Strategic Advantage, and Global Moratorium—evaluating their effectiveness based on the difficulty of aligning AI and the timeline for its development. The optimal strategy shifts depending on these factors, with Cooperative Development preferred for longer timelines and easier alignment, Strategic Advantage for shorter timelines and moderate alignment difficulty, and Global Moratorium as a last resort for extremely challenging alignment or short timelines."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to computing resources for AI development, is a promising but underdeveloped AI governance strategy. While current measures are limited, proposed approaches aim to increase transparency, influence resource allocation, and enforce regulations on AI development through various technical and policy mechanisms."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12",
+    "summary": "This article proposes a delay-based location verification mechanism for on-chip AI governance, using the speed of light to limit compute usage based on location. However, the mechanism faces challenges from inconsistent network latency, potentially causing frequent false positives, a problem the author attempts to address."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/GCMMPTCmGagcP2Bhd/ideas-for-ai-labs-reading-list",
+    "author": "Zach Stein-Perlman",
+    "title": "Ideas for AI labs: Reading list",
+    "published_date": "2023-04-24",
+    "summary": "This document surveys expert opinions and research on AI safety and governance, focusing on best practices for AI labs to mitigate existential risks. It presents numerous ideas, including improved model evaluation, enhanced transparency, stricter publication practices, and robust internal auditing."
+  },
+  {
+    "title": "Good governance as a response to discontents? Déjà vu, or lessons for AI from other emerging technologies",
+    "abstract": "Recent advances in Artificial Intelligence (AI) have led to intense debates about benefits and concerns associated with this powerful technology. These concerns and debates have similarities with developments in other emerging technologies characterized by prominent impacts and uncertainties. Against this background, this paper asks, What can AI governance, policy and ethics learn from other emerging technologies to address concerns and ensure that AI develops in a socially beneficial way? From recent literature on governance, policy and ethics of emerging technologies, six lessons are derived focusing on inclusive governance with balanced and transparent involvement of government, civil society and private sector; diverse roles of the state including mitigating risks, enabling public participation and mediating diverse interests; objectives of technology development prioritizing societal benefits; international collaboration supported by science diplomacy, as well as learning from computing ethics and Responsible Innovation.",
+    "published_date": "2021-03-01",
+    "citation_count": 41,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/03080188.2020.1840220",
+    "summary": "This paper examines the governance challenges of AI by drawing parallels with other emerging technologies, extracting six key lessons for inclusive, balanced, and transparent governance structures that prioritize societal benefit and international collaboration. These lessons emphasize diverse stakeholder involvement, state-led risk mitigation and mediation, and a focus on responsible innovation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/M3xpp7CZ2JaSafDJB/computer-governance-and-conclusions-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Governance and Conclusions - Transformative AI and Compute [3/4]",
+    "published_date": "2021-10-14",
+    "summary": "This article explores the role of compute in AI governance, arguing that its physical infrastructure, energy demands, and concentrated supply chain make it a uniquely governable aspect of AI development. The author suggests that controlling access to compute resources could improve AI safety by restricting access for less cautious actors, a relatively well-agreed-upon goal in the field despite lacking concrete policy consensus."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/bJi3hd8E8qjBeHz9Z",
+    "author": "lennart",
+    "title": "Transformative AI and Compute - LessWrong",
+    "published_date": "2021-09-23",
+    "summary": "The article analyzes the crucial role of computational resources in advancing AI systems, examining their compute requirements, impact on development timelines, and the implications for responsible AI governance. This analysis combines literature review with updated data to inform future forecasting and policy decisions."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/G4KHuYC3pHry6yMhi/compute-research-questions-and-metrics-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Research Questions and Metrics - Transformative AI and Compute [4/4]",
+    "published_date": "2021-11-28",
+    "summary": "This appendix to a series on transformative AI and compute explores research questions surrounding AI hardware and compute trends, including the relationship between compute spending, hardware performance, and model efficiency. It also provides metrics for compute and lists AI hardware startups."
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/WJ7y8S9WdKRvrzJmR/building-ai-research-fleets",
+    "author": "Ben Goldhaber, Jesse Hoogland",
+    "title": "Building AI Research Fleets",
+    "published_date": "2025-01-12",
+    "summary": "Research automation necessitates a shift from individual \"AI scientists\" to large-scale \"AI research fleets,\" requiring institutions to adapt their structures and workflows to manage the complexities and potential inefficiencies of coordinated AI agents working in parallel to accelerate scientific discovery. This involves creating specialized roles and embracing new management strategies to leverage AI's capabilities effectively."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Mak2kZuTq8Hpnqyzb/the-intelligence-curse",
+    "author": "lukedrago",
+    "title": "The Intelligence Curse",
+    "published_date": "2025-01-03",
+    "summary": "The author argues that the development of Artificial General Intelligence (AGI) will create an \"intelligence curse,\" mirroring the \"resource curse\" of rentier states. Powerful actors, once AGI replaces human labor, will lack incentives to invest in human capital (education, employment, welfare), leading to societal destabilization and widespread human irrelevance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.08890",
+    "title": "A Market for Lemons? Strategic Directions for a Vigilant Application of Artificial Intelligence in Entrepreneurship Research",
+    "published_date": "2024-09-13",
+    "abstract": "The rapid expansion of AI adoption (e.g., using machine learning, deep learning, or large language models as research methods) and the increasing availability of big data have the potential to bring about the most significant transformation in entrepreneurship scholarship the field has ever witnessed. This article makes a pressing meta-contribution by highlighting a significant risk of unproductive knowledge exchanges in entrepreneurship research amid the AI revolution. It offers strategies to mitigate this risk and provides guidance for future AI-based studies to enhance their collective impact and relevance. Drawing on Akerlof's renowned market-for-lemons concept, we identify the potential for significant knowledge asymmetries emerging from the field's evolution into its current landscape (e.g., complexities around construct validity, theory building, and research relevance). Such asymmetries are particularly deeply ingrained due to what we term the double-black-box puzzle, where the widely recognized black box nature of AI methods intersects with the black box nature of the entrepreneurship phenomenon driven by inherent uncertainty. As a result, these asymmetries could lead to an increase in suboptimal research products that go undetected, collectively creating a market for lemons that undermines the field's well-being, reputation, and impact. However, importantly, if these risks can be mitigated, the AI revolution could herald a new golden era for entrepreneurship research. We discuss the necessary actions to elevate the field to a higher level of AI resilience while steadfastly maintaining its foundational principles and core values.",
+    "summary": "This paper warns of a potential \"market for lemons\" in entrepreneurship research due to knowledge asymmetries arising from the increasing use of AI methods, particularly the \"double-black-box\" problem of opaque AI coupled with the inherently uncertain nature of entrepreneurship. It proposes strategies to mitigate these risks and ensure the responsible and impactful application of AI in the field."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.10268",
+    "title": "The complementary contributions of academia and industry to AI research",
+    "published_date": "2024-01-04",
+    "abstract": "Artificial intelligence (AI) has seen fast paced development in industry and academia. However, striking recent advances by industry have stunned the field, inviting a fresh perspective on the role of academic research on this progress. Here, we characterize the impact and type of AI produced by both environments over the last 25 years and establish several patterns. We find that articles published by teams consisting exclusively of industry researchers tend to get greater attention, with a higher chance of being highly cited and citation-disruptive, and several times more likely to produce state-of-the-art models. In contrast, we find that exclusively academic teams publish the bulk of AI research and tend to produce higher novelty work, with single papers having several times higher likelihood of being unconventional and atypical. The respective impact-novelty advantages of industry and academia are robust to controls for subfield, team size, seniority, and prestige. We find that academic-industry collaborations produce the most impactful work overall but do not have the novelty level of academic teams. Together, our findings identify the unique and nearly irreplaceable contributions that both academia and industry make toward the progress of AI.",
+    "summary": "Industry AI research produces more impactful, highly-cited work and state-of-the-art models, while academia generates significantly more novel research; collaborative efforts between industry and academia yield the most impactful work overall."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.01722",
+    "title": "On Labs and Fabs: Mapping How Alliances, Acquisitions, and Antitrust are Shaping the Frontier AI Industry",
+    "published_date": "2024-06-03",
+    "abstract": "As frontier AI models advance, policy proposals for safe AI development are gaining increasing attention from researchers and policymakers. This paper explores the current integration in the AI supply chain, focusing on vertical relationships and strategic partnerships among AI labs, cloud providers, chip manufacturers, and lithography companies. It aims to lay the groundwork for a deeper understanding of the implications of various governance interventions, including antitrust measures. The study has two main contributions. First, it profiles 25 leading companies in the AI supply chain, analyzing 300 relationships and noting 80 significant mergers and acquisitions along with 40 antitrust cases. Second, we discuss potential market definitions and the integration drivers based on the observed trends. The analysis reveals predominant horizontal integration through natural growth rather than acquisitions and notable trends of backward vertical integration in the semiconductor supply chain. Strategic partnerships are also significant downstream, especially between AI companies and cloud providers, with large tech companies often pursuing conglomerate integration by acquiring specialized AI startups or forming alliances with frontier AI labs. To further understand the strategic partnerships in the industry, we provide three brief case studies featuring companies like OpenAI and Nvidia. We conclude by posing open research questions on market dynamics and possible governance interventions, such as licensing and safety audits.",
+    "summary": "This paper analyzes the evolving AI supply chain, mapping relationships between AI labs, cloud providers, and hardware manufacturers through an analysis of mergers, acquisitions, and antitrust cases, to inform future policy interventions. The study reveals prevalent horizontal integration and backward vertical integration in the semiconductor sector, alongside significant strategic partnerships, particularly between AI companies and cloud providers."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mXD53GFvMCWQhcCwt/distinguishing-ways-ai-can-be-concentrated",
+    "author": "Matthew Barnett",
+    "title": "Distinguishing ways AI can be \"concentrated\"",
+    "published_date": "2024-10-21",
+    "summary": "The author argues that discussions of AI concentration are too vague, proposing three distinct dimensions: concentration of AI development, service provision, and control, each varying independently and requiring separate analysis for accurate forecasting and policymaking."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BTApNmv7s6RTGxeP4/cyborg-periods-there-will-be-multiple-ai-transitions",
+    "author": "Jan_Kulveit, rosehadshar",
+    "title": "Cyborg Periods: There will be multiple AI transitions",
+    "published_date": "2023-02-22",
+    "summary": "The article posits that the AI transition won't be a single event, but rather multiple transitions across different domains, progressing through stages from human dominance to human-AI collaboration (\"cyborg period\") and finally to AI dominance. Critically, the \"cyborg period,\" where human-AI teams outperform either alone, is highlighted as strategically important, particularly in domains like research, alignment, and cultural evolution, where increased capabilities lead to significant power shifts."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ngpC5PFAgxHJMhicM/agi-and-the-emh-markets-are-not-expecting-aligned-or-1",
+    "author": "basil.halperin, J. Zachary Mazlish, tmychow",
+    "title": "AGI and the EMH: markets are not expecting aligned or unaligned AI in the next 30 years",
+    "published_date": "2023-01-10",
+    "summary": "Low current long-term real interest rates suggest either that advanced AI is far off (supporting longer AI timelines) or that financial markets significantly underestimate the speed of AI development. The authors argue that the latter implies a substantial investment opportunity."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/iRhSi5KcnnD9qsAGo/observed-patterns-around-major-technological-advancements",
+    "author": "Richard Korzekwa",
+    "title": "Observed patterns around major technological advancements",
+    "published_date": "2022-02-03",
+    "summary": "The article proposes several recurring patterns in major technological advancements: initial versions are often practically useless, followed by rapid improvement; significant breakthroughs are often preceded by lesser-known but important advances after periods of stagnation; and major progress frequently occurs amidst expert disagreement on effective approaches."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.00233v1.pdf",
+    "title": "An evolutionary view on the emergence of Artificial Intelligence",
+    "published_date": "2021-01-30",
+    "abstract": "This paper draws upon the evolutionary concepts of technological relatedness and knowledge complexity to enhance our understanding of the long-term evolution of Artificial Intelligence (AI). We reveal corresponding patterns in the emergence of AI globally and in the context of specific geographies of the US, Japan, South Korea, and China. We argue that AI emergence is associated with increasing related variety due to knowledge commonalities as well as increasing complexity. We use patent-based indicators for the period between 1974-2018 to analyse the evolution of AI's global technological space, to identify its technological core as well as changes to its overall relatedness and knowledge complexity. At the national level, we also measure countries' overall specialisations against AI-specific ones. At the global level, we find increasing overall relatedness and complexity of AI. However, for the technological core of AI, which has been stable over time, we find decreasing related variety and increasing complexity. This evidence points out that AI innovations related to core technologies are becoming increasingly distinct from each other. At the country level, we find that the US and Japan have been increasing the overall relatedness of their innovations. The opposite is the case for China and South Korea, which we associate with the fact that these countries are overall less technologically developed than the US and Japan. Finally, we observe a stable increasing overall complexity for all countries apart from China, which we explain by the focus of this country in technologies not strongly linked to AI.",
+    "citation_count": 1,
+    "summary": "This paper uses evolutionary theory and patent data (1974-2018) to analyze the global evolution of Artificial Intelligence, revealing increasing overall relatedness and complexity, but decreasing relatedness within the stable technological core. National-level analysis shows varying patterns of relatedness and complexity depending on technological development."
+  }
+]

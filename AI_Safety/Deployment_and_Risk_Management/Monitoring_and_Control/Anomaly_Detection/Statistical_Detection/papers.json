@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2406.08516",
+    "title": "Enhanced Anomaly Detection in Automotive Systems Using SAAD: Statistical Aggregated Anomaly Detection",
+    "published_date": "2024-06-11",
+    "abstract": "This paper presents a novel anomaly detection methodology termed Statistical Aggregated Anomaly Detection (SAAD). The SAAD approach integrates advanced statistical techniques with machine learning, and its efficacy is demonstrated through validation on real sensor data from a Hardware-in-the-Loop (HIL) environment within the automotive domain. The key innovation of SAAD lies in its ability to significantly enhance the accuracy and robustness of anomaly detection when combined with Fully Connected Networks (FCNs) augmented by dropout layers. Comprehensive experimental evaluations indicate that the standalone statistical method achieves an accuracy of 72.1%, whereas the deep learning model alone attains an accuracy of 71.5%. In contrast, the aggregated method achieves a superior accuracy of 88.3% and an F1 score of 0.921, thereby outperforming the individual models. These results underscore the effectiveness of SAAD, demonstrating its potential for broad application in various domains, including automotive systems.",
+    "summary": "SAAD, a novel anomaly detection method combining statistical techniques and deep learning, achieves significantly higher accuracy (88.3%) and F1 score (0.921) in detecting anomalies in automotive sensor data compared to using either statistical or deep learning methods alone. This superior performance is demonstrated through rigorous testing on real-world Hardware-in-the-Loop data."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2204.09825v1.pdf",
+    "title": "A Revealing Large-Scale Evaluation of Unsupervised Anomaly Detection Algorithms",
+    "published_date": "2022-04-21",
+    "abstract": "Anomaly detection has many applications ranging from bank-fraud detection and cyber-threat detection to equipment maintenance and health monitoring. However, choosing a suitable algorithm for a given application remains a challenging design decision, often informed by the literature on anomaly detection algorithms. We extensively reviewed twelve of the most popular unsupervised anomaly detection methods. We observed that, so far, they have been compared using inconsistent protocols - the choice of the class of interest or the positive class, the split of training and test data, and the choice of hyperparameters - leading to ambiguous evaluations. This observation led us to define a coherent evaluation protocol which we then used to produce an updated and more precise picture of the relative performance of the twelve methods on five widely used tabular datasets. While our evaluation cannot pinpoint a method that outperforms all the others on all datasets, it identifies those that stand out and revise misconceived knowledge about their relative performances.",
+    "citation_count": 17,
+    "summary": "This paper evaluates twelve unsupervised anomaly detection algorithms using a consistent evaluation protocol across five datasets, revealing their relative performance and correcting previously ambiguous comparisons found in the literature. The study identifies top-performing algorithms but finds no single best method across all datasets."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14",
+    "summary": "The article highlights common statistical errors, primarily the false assumption of Gaussian distributions in analyzing socio-economic data and misunderstandings of p-values, base rates, and statistical power. These errors lead to inaccurate conclusions and unreliable results in various fields, particularly finance and science."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03",
+    "summary": "The Gaussian distribution is often incorrectly used to model binary count data; the Beta distribution is more appropriate, especially with small datasets or probabilities near 0 or 1 where the Gaussian approximation breaks down, producing nonsensical results like negative probabilities. The Beta distribution offers a superior, readily available alternative."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25",
+    "summary": "Variational Bayesian methods address the intractability of computing P(x) in Bayesian inference by approximating the true posterior P(z|x) with an imperfect distribution Q(z|x). This approximation, minimized using the Kullback-Leibler divergence, allows for a tractable calculation of P(x)."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.00879.pdf",
+    "title": "Temporal Detection of Anomalies via Actor-Critic Based Controlled Sensing",
+    "published_date": "2021-12-01",
+    "abstract": "We address the problem of monitoring a set of binary stochastic processes and generating an alert when the number of anomalies among them exceeds a threshold. For this, the decision-maker selects and probes a subset of the processes to obtain noisy estimates of their states (normal or anomalous). Based on the received observations, the decision-maker first determines whether to declare that the number of anomalies has exceeded the threshold or to continue taking observations. When the decision is to continue, it then decides whether to collect observations at the next time instant or defer it to a later time. If it chooses to collect observations, it further determines the subset of processes to be probed. To devise this three-step sequential decision-making process, we use a Bayesian formulation wherein we learn the posterior probability on the states of the processes. Using the posterior probability, we construct a Markov decision process and solve it using deep actor-critic reinforcement learning. Via numerical experiments, we demonstrate the superior performance of our algorithm compared to the traditional model-based algorithms.",
+    "citation_count": 3,
+    "summary": "This paper proposes a novel anomaly detection system using actor-critic reinforcement learning to optimize sensor probing of binary stochastic processes, dynamically deciding when and which processes to monitor to efficiently detect when the anomaly count exceeds a threshold. The system outperforms traditional model-based approaches in numerical experiments."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.11146v1.pdf",
+    "title": "An Efficient One-Class SVM for Anomaly Detection in the Internet of Things",
+    "published_date": "2021-04-22",
+    "abstract": "Insecure Internet of things (IoT) devices pose significant threats to critical infrastructure and the Internet at large; detecting anomalous behavior from these devices remains of critical importance, but fast, efficient, accurate anomaly detection (also called\"novelty detection\") for these classes of devices remains elusive. One-Class Support Vector Machines (OCSVM) are one of the state-of-the-art approaches for novelty detection (or anomaly detection) in machine learning, due to their flexibility in fitting complex nonlinear boundaries between {normal} and {novel} data. IoT devices in smart homes and cities and connected building infrastructure present a compelling use case for novelty detection with OCSVM due to the variety of devices, traffic patterns, and types of anomalies that can manifest in such environments. Much previous research has thus applied OCSVM to novelty detection for IoT. Unfortunately, conventional OCSVMs introduce significant memory requirements and are computationally expensive at prediction time as the size of the train set grows, requiring space and time that scales with the number of training points. These memory and computational constraints can be prohibitive in practical, real-world deployments, where large training sets are typically needed to develop accurate models when fitting complex decision boundaries. In this work, we extend so-called Nystr\\\"om and (Gaussian) Sketching approaches to OCSVM, by combining these methods with clustering and Gaussian mixture models to achieve significant speedups in prediction time and space in various IoT settings, without sacrificing detection accuracy.",
+    "citation_count": 27,
+    "summary": "This paper addresses the computational limitations of One-Class Support Vector Machines (OCSVMs) for anomaly detection in IoT devices by extending Nyström and sketching methods with clustering and Gaussian mixture models, achieving significant speed improvements without compromising accuracy. This allows for efficient anomaly detection in real-world IoT deployments with large datasets."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.06289v1.pdf",
+    "title": "A Scalable Algorithm for Anomaly Detection via Learning-Based Controlled Sensing",
+    "published_date": "2021-05-12",
+    "abstract": "We address the problem of sequentially selecting and observing processes from a given set to find the anomalies among them. The decision maker observes one process at a time and obtains a noisy binary indicator of whether or not the corresponding process is anomalous. In this setting, we develop an anomaly detection algorithm that chooses the process to be observed at a given time instant, decides when to stop taking observations, and makes a decision regarding the anomalous processes. The objective of the detection algorithm is to arrive at a decision with an accuracy exceeding a desired value while minimizing the delay in decision making. Our algorithm relies on a Markov decision process defined using the marginal probability of each process being normal or anomalous, conditioned on the observations. We implement the detection algorithm using the deep actor-critic reinforcement learning framework. Unlike prior work on this topic that has exponential complexity in the number of processes, our algorithm has computational and memory requirements that are both polynomial in the number of processes. We demonstrate the efficacy of our algorithm using numerical experiments by comparing it with the state-of-the-art methods.",
+    "citation_count": 3,
+    "summary": "This paper presents a scalable, polynomial-time anomaly detection algorithm that sequentially selects processes for observation, using a deep reinforcement learning framework to optimize both accuracy and speed. The algorithm outperforms existing exponential-complexity methods in numerical experiments."
+  }
+]

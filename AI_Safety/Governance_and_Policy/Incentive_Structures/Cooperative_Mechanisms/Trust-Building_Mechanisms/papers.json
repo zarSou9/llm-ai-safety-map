@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.16009",
+    "title": "Investigating the Impact of Trust in Multi-Human Multi-Robot Task Allocation",
+    "published_date": "2024-09-24",
+    "abstract": "Trust is essential in human-robot collaboration. Even more so in multi-human multi-robot teams where trust is vital to ensure teaming cohesion in complex operational environments. Yet, at the moment, trust is rarely considered a factor during task allocation and reallocation in algorithms used in multi-human, multi-robot collaboration contexts. Prior work on trust in single-human-robot interaction has identified that including trust as a parameter in human-robot interaction significantly improves both performance outcomes and human experience with robotic systems. However, very little research has explored the impact of trust in multi-human multi-robot collaboration, specifically in the context of task allocation. In this paper, we introduce a new trust model, the Expectation Comparison Trust (ECT) model, and employ it with three trust models from prior work and a baseline no-trust model to investigate the impact of trust on task allocation outcomes in multi-human multi-robot collaboration. Our experiment involved different team configurations, including 2 humans, 2 robots, 5 humans, 5 robots, and 10 humans, 10 robots. Results showed that using trust-based models generally led to better task allocation outcomes in larger teams (10 humans and 10 robots) than in smaller teams. We discuss the implications of our findings and provide recommendations for future work on integrating trust as a variable for task allocation in multi-human, multi-robot collaboration.",
+    "summary": "This paper investigates the impact of trust on task allocation in multi-human multi-robot teams, introducing a new trust model (ECT) and comparing it to others in simulated experiments with varying team sizes. Results show that incorporating trust into task allocation algorithms generally improves performance, particularly in larger teams."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/KGDp7CkZDXLih5WKX/?commentId=hypYeQJZcxeNs3R2G",
+    "author": "Annapurna",
+    "title": "Maximizing Yield on US Dollar Pegged Coins - LessWrong",
+    "published_date": "2023-02-06",
+    "summary": "This advanced DeFi strategy uses AAVE and QuickSwap on the Polygon network to leverage stablecoins (DAI and USDC) and generate a high annual return (estimated at 23.56%) through interest and MATIC rewards, but risks exist if interest rates shift, rewards disappear, or the stablecoin peg breaks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uExuQ7ugoh7vYjJwK/how-to-build-new-countries-a-la-1729",
+    "author": "jdcampolargo",
+    "title": "How to Build New Countries à la 1729?",
+    "published_date": "2022-01-17",
+    "summary": "This article explores the concept of a \"Network State,\" a digitally-native nation built through online communities and cryptocurrencies, offering an alternative to traditional nation-building. It outlines a seven-step process for establishing such a state, prioritizing community building before acquiring physical territory."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.08555v1.pdf",
+    "title": "A Robust Model for Trust Evaluation during Interactions between Agents in a Sociable Environment",
+    "published_date": "2021-04-17",
+    "abstract": "Trust evaluation is an important topic in both research and applications in sociable environments. This paper presents a model for trust evaluation between agents by the combination of direct trust, indirect trust through neighbouring links and the reputation of an agent in the environment (i.e. social network) to provide the robust evaluation. Our approach is typology independent from social network structures and in a decentralized manner without a central controller, so it can be used in broad domains.",
+    "citation_count": 1,
+    "summary": "This paper proposes a robust, decentralized model for evaluating trust between agents in sociable environments, combining direct and indirect trust with reputation to achieve typology-independent assessment. The model avoids a central controller, enabling broad applicability."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.07443v2.pdf",
+    "title": "How Can Robots Trust Each Other For Better Cooperation? A Relative Needs Entropy Based Robot-Robot Trust Assessment Model",
+    "published_date": "2021-05-16",
+    "abstract": "Cooperation in multi-agent and multi-robot systems can help agents build various formations, shapes, and patterns presenting corresponding functions and purposes adapting to different situations. Relationship between agents such as their spatial proximity and functional similarities could play a crucial role in cooperation between agents. Trust level between agents is an essential factor in evaluating their relationships' reliability and stability, much as people do. This paper proposes a new model called Relative Needs Entropy (RNE) to assess trust between robotic agents. RNE measures the distance of needs distribution between individual agents or groups of agents. To exemplify its utility, we implement and demonstrate our trust model through experiments simulating a heterogeneous multi-robot grouping task in a persistent urban search and rescue mission consisting of tasks at two levels of difficulty. The results suggest that RNE trust-Based grouping of robots can achieve better performance and adaptability for diverse task execution compared to the state-of-the-art energy-based or distance-based grouping models.",
+    "citation_count": 16,
+    "summary": "This paper introduces a Relative Needs Entropy (RNE) model for assessing trust between robots, measuring the distance between agents' needs distributions to improve cooperation in multi-robot systems. Experiments in a simulated urban search and rescue scenario demonstrate that RNE-based grouping outperforms existing methods in terms of performance and adaptability."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.04248v1.pdf",
+    "title": "Trust-aware Control for Intelligent Transportation Systems",
+    "published_date": "2021-07-11",
+    "abstract": "Many intelligent transportation systems are multiagent systems, i.e., both the traffic participants and the subsystems within the transportation infrastructure can be modeled as interacting agents. The use of AI-based methods to achieve coordination among the different agents systems can provide greater safety over transportation systems containing only human-operated vehicles, and also improve the system efficiency in terms of traffic throughput, sensing range, and enabling collaborative tasks. However, increased autonomy makes the transportation infrastructure vulnerable to compromised vehicular agents or infrastructure. This paper proposes a new framework by embedding the trust authority into transportation infrastructure to systematically quantify the trustworthiness of agents using an epistemic logic known as subjective logic. In this paper, we make the following novel contributions: (i) We propose a framework for using the quantified trustworthiness of agents to enable trust-aware coordination and control. (ii) We demonstrate how to synthesize trust-aware controllers using an approach based on reinforcement learning. (iii) We comprehensively analyze an autonomous intersection management (AIM) case study and develop a trust-aware version called AIM-Trust that leads to lower accident rates in scenarios consisting of a mixture of trusted and untrusted agents.",
+    "citation_count": 3,
+    "summary": "This paper presents a trust-aware control framework for intelligent transportation systems, using subjective logic to quantify agent trustworthiness and reinforcement learning to synthesize controllers that improve safety and efficiency, even with untrusted agents. A case study on autonomous intersection management demonstrates reduced accident rates with the proposed approach."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.10347v1.pdf",
+    "title": "Mechanism Design Powered by Social Interactions",
+    "published_date": "2021-02-20",
+    "abstract": "Mechanism design has traditionally assumed that the set of participants are fixed and known to the mechanism (the market owner) in advance. However, in practice, the market owner can only directly reach a small number of participants (her neighbours). Hence the owner often needs costly promotions to recruit more participants in order to get desirable outcomes such as social welfare or revenue maximization. In this paper, we propose to incentivize existing participants to invite their neighbours to attract more participants. However, they would not invite each other if they are competitors. We discuss how to utilize the conflict of interest between the participants to incentivize them to invite each other to form larger markets. We will highlight the early solutions and open the floor for discussing the fundamental open questions in the settings of auctions, coalitional games, matching and voting.",
+    "citation_count": 20,
+    "summary": "This paper addresses the challenge of mechanism design in markets with limited initial participation, proposing a mechanism that incentivizes existing participants to recruit new participants, leveraging social interactions and inherent participant conflicts to achieve desirable market outcomes. The authors explore solutions and open questions within various game-theoretic settings."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2110.04332.pdf",
+    "title": "Using Trust for Heterogeneous Human-Robot Team Task Allocation",
+    "published_date": "2021-10-08",
+    "abstract": "Human-robot teams have the ability to perform better across various tasks than human-only and robot-only teams. However, such improvements cannot be realized without proper task allocation. Trust is an important factor in teaming relationships, and can be used in the task allocation strategy. Despite the importance, most existing task allocation strategies do not incorporate trust. This paper reviews select studies on trust and task allocation. We also summarize and discuss how a bi-directional trust model can be used for a task allocation strategy. The bi-directional trust model represents task requirements and agents by their capabilities, and can be used to predict trust for both existing and new tasks. Our task allocation approach uses predicted trust in the agent and expected total reward for task assignment. Finally, we present some directions for future work, including the incorporation of trust from the human and human capacity for task allocation, and a negotiation phase for resolving task disagreements.",
+    "citation_count": 3,
+    "summary": "This paper proposes a novel human-robot task allocation strategy leveraging a bi-directional trust model that considers agent capabilities and predicted task rewards to optimize task assignment. Future work will incorporate human trust and negotiation to improve the allocation process."
+  }
+]

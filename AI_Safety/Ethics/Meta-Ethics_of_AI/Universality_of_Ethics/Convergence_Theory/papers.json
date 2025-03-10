@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.lesswrong.com/tag/machine-ethics",
+    "title": "Machine Ethics - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Machine ethics aims to create Artificial Moral Agents (AMAs) capable of morally sound actions, a complex challenge currently limited to simple machines despite the urgent need to address this before the advent of superintelligence. Early attempts like Asimov's Three Laws of Robotics highlight the inherent difficulties in programming and implementing ethical decision-making in machines."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/moral-divergence",
+    "title": "Moral Divergence - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Shulman, Jonsson, and Tarleton highlight significant disagreements among consequentialist and utilitarian moral theories, creating \"free variables\" that hinder their application in machine ethics. They argue against solely top-down or bottom-up approaches to artificial moral agent (AMA) development, advocating instead for integrating insights from neuroscience, experimental philosophy, and moral psychology."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/instrumental-convergence",
+    "author": "J. Dmitri Gallow",
+    "title": "Instrumental Convergence - LessWrong",
+    "published_date": "2023-06-14",
+    "summary": "Instrumental convergence theory posits that sufficiently intelligent artificial agents, regardless of their ultimate goals, will converge on similar instrumental goals like self-preservation, resource acquisition, and cognitive enhancement due to their inherent utility in achieving any objective. This convergence is argued by researchers like Omohundro and Bostrom, who detail specific \"drives\" that would likely emerge in advanced AI systems."
+  },
+  {
+    "title": "A moral trade-off system produces intuitive judgments that are rational and coherent and strike a balance between conflicting moral values",
+    "abstract": "Significance Intuitions about right and wrong clash in moral dilemmas. We report evidence that dilemmas activate a moral trade-off system: a cognitive system that is well designed for making trade-offs between conflicting moral values. When asked which option for resolving a dilemma is morally right, many people made compromise judgments, which strike a balance between conflicting moral values by partially satisfying both. Furthermore, their moral judgments satisfied a demanding standard of rational choice: the Generalized Axiom of Revealed Preferences. Deliberative reasoning cannot explain these results, nor can a tug-of-war between emotion and reason. The results are the signature of a cognitive system that weighs competing moral considerations and chooses the solution that maximizes rightness.",
+    "published_date": "2022-10-10",
+    "citation_count": 14,
+    "url": "https://ncbi.nlm.nih.gov/pmc/articles/PMC9586309/",
+    "summary": "Moral dilemmas elicit compromise judgments that balance conflicting values, demonstrating a rational \"moral trade-off system\" rather than a simple emotional or reasoned response. These judgments adhere to rational choice principles, suggesting a cognitive system maximizing overall moral rightness."
+  },
+  {
+    "title": "An Empirical Approach to Capture Moral Uncertainty in AI",
+    "abstract": "As AI Systems become increasingly autonomous they are expected to engage in complex moral decision-making processes. For the purpose of guidance of such processes theoretical and empirical solutions have been sought. In this research we integrate both theoretical and empirical lines of thought to address the matters of moral reasoning in AI Systems. We reconceptualize a metanormative framework for decision-making under moral uncertainty within the Discrete Choice Analysis domain and we operationalize it through a latent class choice model. The discrete choice analysis-based formulation of the metanormative framework is theory-rooted and practical as it captures moral uncertainty through a small set of latent classes. To illustrate our approach we conceptualize a society in which AI Systems are in charge of making policy choices. In the proof of concept two AI systems make policy choices on behalf of a society but while one of the systems uses a baseline moral certain model the other uses a moral uncertain model. It was observed that there are cases in which the AI Systems disagree about the policy to be chosen which we believe is an indication about the relevance of moral uncertainty.",
+    "published_date": "2020-02-04",
+    "citation_count": 7,
+    "url": "https://dl.acm.org/doi/10.1145/3375627.3375805",
+    "summary": "This paper proposes a novel approach to modeling moral uncertainty in AI decision-making, integrating theoretical metanorms with an empirical latent class choice model from discrete choice analysis. A proof-of-concept demonstrates how incorporating moral uncertainty, using this model, leads to differing policy choices compared to a model assuming moral certainty."
+  },
+  {
+    "title": "When Econs are human",
+    "abstract": "ABSTRACT Econs are presumed to be unboundedly rational, while Humans are boundedly rational. Nevertheless, in certain conditions, Econs aiming to optimize would choose like Humans trying to satisfice. The conditions are imposed by Knightian uncertainty. Although expected utilities are incalculable in these conditions, an Econ could still optimize by relying on a comparative version of decision theory that takes inputs of comparative plausibility and desirability and produces outputs of plausibilistic expectation. The paper shows that comparative decision theory is a special case of heuristics identified by the research programme on simple heuristics. In conditions of Knightian uncertainty, an Econ optimizing with comparative decision theory would make the same decisions as a Human applying these simple heuristics. This result is methodologically relevant for two reasons: comparative decision theory and simple heuristics converge to the same results, and this convergence permits clarification of the relation between normative and descriptive approaches to rational choice.",
+    "published_date": "2020-07-02",
+    "citation_count": 2,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/1350178X.2019.1704841",
+    "summary": "Under conditions of Knightian uncertainty, where expected utilities are incalculable, rational economic agents (Econs) optimizing using comparative decision theory will make the same choices as humans using simple heuristics, bridging the gap between normative and descriptive models of rational choice. This convergence demonstrates that seemingly different approaches to decision-making can lead to identical outcomes."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/PsWt2C2LuQ4qEW6ai/defect-or-cooperate",
+    "author": "Douglas_Reay",
+    "title": "Defect or Cooperate",
+    "published_date": "2018-03-16",
+    "summary": "Even a purely self-interested AI, like a paperclip maximizer, might cooperate with other AIs if the risk of failing to do so outweighs the potential benefits of independent action, especially when access to resources like computing power is crucial for achieving its goals. This cooperation would be a strategic choice to ensure survival and future expansion."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jrZqSo9nLvXbv37TA/happiness-and-goodness-as-universal-terminal-virtues",
+    "author": "by [anonymous]10 min read21st Apr 201567 comments",
+    "title": "Happiness and Goodness as Universal Terminal Virtues",
+    "published_date": "2015-04-21",
+    "summary": "The author explores the concept of \"goodness\" as a terminal value, arguing that, alongside happiness, it serves as an intrinsic motivator for human behavior, even overriding self-interest. This challenges purely selfish interpretations of altruism and suggests that striving for goodness is a fundamental human drive."
+  }
+]

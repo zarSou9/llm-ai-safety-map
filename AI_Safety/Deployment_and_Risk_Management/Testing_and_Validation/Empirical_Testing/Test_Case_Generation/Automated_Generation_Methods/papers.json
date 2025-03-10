@@ -1,0 +1,39 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.06653",
+    "title": "Evolutionary Generative Fuzzing for Differential Testing of the Kotlin Compiler",
+    "published_date": "2024-01-12",
+    "abstract": "Compiler correctness is a cornerstone of reliable software development. However, systematic testing of compilers is infeasible, given the vast space of possible programs and the complexity of modern programming languages. In this context, differential testing offers a practical methodology as it addresses the oracle problem by comparing the output of alternative compilers given the same set of programs as input. In this paper, we investigate the effectiveness of differential testing in finding bugs within the Kotlin compilers developed at JetBrains. We propose a black-box generative approach that creates input programs for the K1 and K2 compilers. First, we build workable models of Kotlin semantic (semantic interface) and syntactic (enriched context-free grammar) language features, which are subsequently exploited to generate random code snippets. Second, we extend random sampling by introducing two genetic algorithms (GAs) that aim to generate more diverse input programs. Our case study shows that the proposed approach effectively detects bugs in K1 and K2; these bugs have been confirmed and (some) fixed by JetBrains developers. While we do not observe a significant difference w.r.t. the number of defects uncovered by the different search algorithms, random search and GAs are complementary as they find different categories of bugs. Finally, we provide insights into the relationships between the size, complexity, and fault detection capability of the generated input programs."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/JDrxA3vwZAKZfmShz/degeneracies-are-sticky-for-sgd",
+    "author": "Guillaume Corlouer; Nicolas Macé",
+    "title": "Degeneracies are sticky for SGD",
+    "published_date": "2024-06-16"
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.15302",
+    "title": "GenMorph: Automatically Generating Metamorphic Relations via Genetic Programming",
+    "published_date": "2023-12-23",
+    "abstract": "Metamorphic testing is a popular approach that aims to alleviate the oracle problem in software testing. At the core of this approach are Metamorphic Relations (MRs), specifying properties that hold among multiple test inputs and corresponding outputs. Deriving MRs is mostly a manual activity, since their automated generation is a challenging and largely unexplored problem. This paper presents GenMorph, a technique to automatically generate MRs for Java methods that involve inputs and outputs that are boolean, numerical, or ordered sequences. GenMorph uses an evolutionary algorithm to search for effective test oracles, i.e., oracles that trigger no false alarms and expose software faults in the method under test. The proposed search algorithm is guided by two fitness functions that measure the number of false alarms and the number of missed faults for the generated MRs. Our results show that GenMorph generates effective MRs for 18 out of 23 methods (mutation score > 20%). Furthermore, it can increase Randoop's fault detection capability in 7 out of 23 methods, and Evosuite's in 14 out of 23 methods. When compared with AutoMR, a state-of-the-art MR generator, GenMorph also outperformed its fault detection capability in 9 out of 10 methods.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.07646",
+    "title": "Genetic Micro-Programs for Automated Software Testing with Large Path Coverage",
+    "published_date": "2022-07-18",
+    "abstract": "Ongoing progress in computational intelligence (CI) has led to an increased desire to apply CI techniques for the pur-pose of improving software engineering processes, particularly software testing. Existing state-of-the-art automated software testing techniques focus on utilising search algorithms to discover input values that achieve high execution path coverage. These algorithms are trained on the same code that they intend to test, requiring instrumentation and lengthy search times to test each software component. This paper outlines a novel genetic programming framework, where the evolved solutions are not input values, but micro-programs that can repeatedly generate input values to efficiently explore a software component's input parameter domain. We also argue that our approach can be generalised such as to be applied to many different software systems, and is thus not specific to merely the particular software component on which it was trained."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rCP5iTYLtfcoC8NXd/self-organised-neural-networks-a-simple-natural-and",
+    "author": "D𝜋",
+    "title": "Self-Organised Neural Networks:\nA simple, natural and efficient way to intelligence",
+    "published_date": "2022-01-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "title": "On Algorithmic Decision Procedures in Emergency Response Systems in Smart and Connected Communities",
+    "abstract": "Emergency Response Management (ERM) is a critical problem faced by communities across the globe. Despite this, it is common for ERM systems to follow myopic decision policies in the real world. Principled approaches to aid ERM decision-making under uncertainty have been explored but have failed to be accepted into real systems. We identify a key issue impeding their adoption --- algorithmic approaches to emergency response focus on reactive, post-incident dispatching actions, i.e. optimally dispatching a responder \\textit{after} incidents occur. However, the critical nature of emergency response dictates that when an incident occurs, first responders always dispatch the closest available responder to the incident. We argue that the crucial period of planning for ERM systems is not post-incident, but between incidents. This is not a trivial planning problem --- a major challenge with dynamically balancing the spatial distribution of responders is the complexity of the problem. An orthogonal problem in ERM systems is planning under limited communication, which is particularly important in disaster scenarios that affect communication networks. We address both problems by proposing two partially decentralized multi-agent planning algorithms that utilize heuristics and exploit the structure of the dispatch problem. We evaluate our proposed approach using real-world data, and find that in several contexts, dynamic re-balancing the spatial distribution of emergency responders reduces both the average response time as well as its variance.",
+    "published_date": "2020-01-21",
+    "citation_count": 13,
+    "url": "https://www.researchgate.net/publication/338737446_On_Algorithmic_Decision_Procedures_in_Emergency_Response_Systems_in_Smart_and_Connected_Communities"
+  },
+  {
+    "title": "Synthesis-Based Resolution of Feature Interactions in Cyber-Physical Systems",
+    "abstract": "The feature interaction problem arises when two or more independent features interact with each other in an undesirable manner. Feature interactions remain a challenging and important problem in emerging domains of cyber-physical systems (CPS), such as intelligent vehicles, unmanned aerial vehicles (UAVs) and the Internet of Things (IoT), where the outcome of an unexpected interaction may result in a safety failure. Existing approaches to resolving feature interactions rely on priority lists or fixed strategies, but may not be effective in scenarios where none of the competing feature actions are satisfactory with respect to system requirements. This paper proposes a novel synthesis-based approach to resolution, where a conflict among features is resolved by synthesizing an action that best satisfies the specification of desirable system behaviors in the given environmental context. Unlike existing resolution methods, our approach is capable of producing a desirable system outcome even when none of the conflicting actions are satisfactory. The effectiveness of the proposed approach is demonstrated using a case study involving interactions among safety-critical features in an autonomous drone.",
+    "published_date": "2020-09-01",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3324884.3416630"
+  },
+  {
+    "title": "Hierarchical planning for resource allocation in emergency response systems",
+    "abstract": "A classical problem in city-scale cyber-physical systems (CPS) is resource allocation under uncertainty. Typically, such problems are modeled as Markov (or semi-Markov) decision processes. While online, offline, and decentralized approaches have been applied to such problems, they have difficulty scaling to large decision problems. We present a general approach to hierarchical planning that leverages structure in city-level CPS problems for resource allocation under uncertainty. We use emergency response as a case study and show how a large resource allocation problem can be split into smaller problems. We then create a principled framework for solving the smaller problems and tackling the interaction between them. Finally, we use real-world data from Nashville, Tennessee, a major metropolitan area in the United States, to validate our approach. Our experiments show that the proposed approach out-performs state-of-the-art approaches used in the field of emergency response.",
+    "published_date": "2020-12-24",
+    "citation_count": 16,
+    "url": "https://dl.acm.org/doi/10.1145/3450267.3450543"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/wTKjRFeSjKLDSWyww/possible-takeaways-from-the-coronavirus-pandemic-for-slow-ai",
+    "author": "Vika",
+    "title": "Possible takeaways from the coronavirus pandemic for slow AI takeoff",
+    "published_date": "2020-05-31"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/XKWGgyCyGhkm73fhm/acknowledgements-and-references",
+    "author": "JesseClifton",
+    "title": "Acknowledgements & References",
+    "published_date": "2019-12-14"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/KLhiZ6zexJLQmKvzB/optimum-number-of-single-points-of-failure",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2018-03-14"
+  }
+]

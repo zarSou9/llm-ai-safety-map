@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Intelligent Visualization Interfaces",
+    "abstract": "Visualization transforms large quantities of data into pictures in which relations, patterns, or trends of interest in the data reveal themselves to effectively guide the user in the data reasoning and discovery process. Visualization has become an essential tool in many areas of study that use a data-driven approach to problem solving and decision making. However, when the data is large relational or high-dimensional, it can take both novices and experts substantial effort to derive and interpret visualization results from the data. Following the resurgence of AI and machine learning technology in recent years, in the field of visualization, there is also the growing interest and opportunity in applying AI and machine learning to perform data transformation and to assist in the generation and interpretation of visualization, aiming to strike a balance between cost and performance. In this talk, I will present designs made by my group effectively making use of machine learning for general data visualization and analytics tasks [1, 2, 3, 4, 5, 6], resulting in better visualization interfaces into the data.",
+    "published_date": "2021-04-14",
+    "url": "https://dl.acm.org/doi/10.1145/3397481.3457411"
+  },
+  {
+    "title": "Visualizing Distributed System Executions",
+    "abstract": "Distributed systems pose unique challenges for software developers. Understanding the system's communication topology and reasoning about concurrent activities of system hosts can be difficult. The standard approach, analyzing system logs, can be a tedious and complex process that involves reconstructing a system log from multiple hosts' logs, reconciling timestamps among hosts with non-synchronized clocks, and understanding what took place during the execution encoded by the log. This article presents a novel approach for tackling three tasks frequently performed during analysis of distributed system executions: (1) understanding the relative ordering of events, (2) searching for specific patterns of interaction between hosts, and (3) identifying structural similarities and differences between pairs of executions. Our approach consists of XVector, which instruments distributed systems to capture partial ordering information that encodes the happens-before relation between events, and ShiViz, which processes the resulting logs and presents distributed system executions as interactive time-space diagrams. Two user studies with a total of 109 students and a case study with 2 developers showed that our method was effective, helping participants answer statistically significantly more system-comprehension questions correctly, with a very large effect size.",
+    "published_date": "2020-03-04",
+    "citation_count": 36,
+    "url": "https://dl.acm.org/doi/10.1145/3375633"
+  },
+  {
+    "title": "Visualization by example",
+    "abstract": "While visualizations play a crucial role in gaining insights from data, generating useful visualizations from a complex dataset is far from an easy task. In particular, besides understanding the functionality provided by existing visualization libraries, generating the desired visualization also requires reshaping and aggregating the underlying data as well as composing different visual elements to achieve the intended visual narrative. This paper aims to simplify visualization tasks by automatically synthesizing the required program from simple visual sketches provided by the user. Specifically, given an input data set and a visual sketch that demonstrates how to visualize a very small subset of this data, our technique automatically generates a program that can be used to visualize the entire data set. From a program synthesis perspective, automating visualization tasks poses several challenges that are not addressed by prior techniques. First, because many visualization tasks require data wrangling in addition to generating plots from a given table, we need to decompose the end-to-end synthesis task into two separate sub-problems. Second, because the intermediate specification that results from the decomposition is necessarily imprecise, this makes the data wrangling task particularly challenging in our context. In this paper, we address these problems by developing a new compositional visualization-by-example technique that (a) decomposes the end-to-end task into two different synthesis problems over different DSLs and (b) leverages bi-directional program analysis to deal with the complexity that arises from having an imprecise intermediate specification. We have implemented our visualization-by-example approach in a tool called Viser and evaluate it on over 80 visualization tasks collected from on-line forums and tutorials. Viser can solve 84 of these benchmarks within a 600 second time limit, and, for those tasks that can be solved, the desired visualization is among the top-5 generated by Viser in 70% of the cases.",
+    "published_date": "2019-11-21",
+    "citation_count": 41,
+    "url": "https://dl.acm.org/doi/10.1145/3371117"
+  },
+  {
+    "title": "Visual Interaction with Deep Learning Models through Collaborative Semantic Inference",
+    "abstract": "Automation of tasks can have critical consequences when humans lose agency over decision processes. Deep learning models are particularly susceptible since current black-box approaches lack explainable reasoning. We argue that both the visual interface and model structure of deep learning systems need to take into account interaction design. We propose a framework of collaborative semantic inference (CSI) for the co-design of interactions and models to enable visual collaboration between humans and algorithms. The approach exposes the intermediate reasoning process of models which allows semantic interactions with the visual metaphors of a problem, which means that a user can both understand and control parts of the model reasoning process. We demonstrate the feasibility of CSI with a co-designed case study of a document summarization system.",
+    "published_date": "2019-07-24",
+    "citation_count": 56,
+    "url": "https://ieeexplore.ieee.org/abstract/document/8805457"
+  },
+  {
+    "title": "AutoAIViz: opening the blackbox of automated artificial intelligence with conditional parallel coordinates",
+    "abstract": "Artificial Intelligence (AI) can now automate the algorithm selection, feature engineering, and hyperparameter tuning steps in a machine learning workflow. Commonly known as AutoML or AutoAI, these technologies aim to relieve data scientists from the tedious manual work. However, today's AutoAI systems often present only limited to no information about the process of how they select and generate model results. Thus, users often do not understand the process, neither do they trust the outputs. In this short paper, we provide a first user evaluation by 10 data scientists of an experimental system, AutoAIViz, that aims to visualize AutoAI's model generation process. We find that the proposed system helps users to complete the data science tasks, and increases their understanding, toward the goal of increasing trust in the AutoAI system.",
+    "published_date": "2019-12-13",
+    "citation_count": 53,
+    "url": "https://dl.acm.org/doi/10.1145/3377325.3377538"
+  },
+  {
+    "title": "Integrated Visualization with Controllable Deep Linking for Distributed Datasets",
+    "abstract": "With visual analysis of a large IoT system where structured and unstructured datasets are collected from various distributed data sources or their edge processing units, it is analytically meaningful to have an integrated visualization composed of multiple coordinated charts and to deduce insight from datasets with visual analysis. But such a unified ensemble is difficult due to being short of explicitly available relationships among these distributed datasets. In this paper, we present an integrated visualization framework with deep linking on based of analytical relationship among distributed datasets. Considering the try-and-error aspect of visual analysis, we furtherly leverage the integrated visualization with comprehensible user interface, and implement brushing and linking individually or collaboratively.",
+    "published_date": "2019-08-22",
+    "url": "https://dl.acm.org/doi/10.1145/3361758.3361760"
+  }
+]

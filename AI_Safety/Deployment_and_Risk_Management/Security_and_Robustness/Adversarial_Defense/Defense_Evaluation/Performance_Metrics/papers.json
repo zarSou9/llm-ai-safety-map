@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2408.01541",
+    "title": "Guardians of Image Quality: Benchmarking Defenses Against Adversarial Attacks on Image Quality Metrics",
+    "published_date": "2024-08-02",
+    "abstract": "In the field of Image Quality Assessment (IQA), the adversarial robustness of the metrics poses a critical concern. This paper presents a comprehensive benchmarking study of various defense mechanisms in response to the rise in adversarial attacks on IQA. We systematically evaluate 25 defense strategies, including adversarial purification, adversarial training, and certified robustness methods. We applied 14 adversarial attack algorithms of various types in both non-adaptive and adaptive settings and tested these defenses against them. We analyze the differences between defenses and their applicability to IQA tasks, considering that they should preserve IQA scores and image quality. The proposed benchmark aims to guide future developments and accepts submissions of new methods, with the latest results available online: https://videoprocessing.ai/benchmarks/iqa-defenses.html.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.08973v4",
+    "title": "Measuring Equality in Machine Learning Security Defenses: A Case Study in Speech Recognition",
+    "published_date": "2023-02-17",
+    "abstract": "Over the past decade, the machine learning security community has developed a myriad of defenses for evasion attacks. An understudied question in that community is: for whom do these defenses defend? This work considers common approaches to defending learned systems and how security defenses result in performance inequities across different sub-populations. We outline appropriate parity metrics for analysis and begin to answer this question through empirical results of the fairness implications of machine learning security methods. We find that many methods that have been proposed can cause direct harm, like false rejection and unequal benefits from robustness training. The framework we propose for measuring defense equality can be applied to robustly trained models, preprocessing-based defenses, and rejection methods. We identify a set of datasets with a user-centered application and a reasonable computational cost suitable for case studies in measuring the equality of defenses. In our case study of speech command recognition, we show how such adversarial training and augmentation have non-equal but complex protections for social subgroups across gender, accent, and age in relation to user coverage. We present a comparison of equality between two rejection-based defenses: randomized smoothing and neural rejection, finding randomized smoothing more equitable due to the sampling mechanism for minority groups. This represents the first work examining the disparity in the adversarial robustness in the speech domain and the fairness evaluation of rejection-based defenses.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.10980v2",
+    "title": "MultiRobustBench: Benchmarking Robustness Against Multiple Attacks",
+    "published_date": "2023-02-21",
+    "abstract": "The bulk of existing research in defending against adversarial examples focuses on defending against a single (typically bounded Lp-norm) attack, but for a practical setting, machine learning (ML) models should be robust to a wide variety of attacks. In this paper, we present the first unified framework for considering multiple attacks against ML models. Our framework is able to model different levels of learner's knowledge about the test-time adversary, allowing us to model robustness against unforeseen attacks and robustness against unions of attacks. Using our framework, we present the first leaderboard, MultiRobustBench, for benchmarking multiattack evaluation which captures performance across attack types and attack strengths. We evaluate the performance of 16 defended models for robustness against a set of 9 different attack types, including Lp-based threat models, spatial transformations, and color changes, at 20 different attack strengths (180 attacks total). Additionally, we analyze the state of current defenses against multiple attacks. Our analysis shows that while existing defenses have made progress in terms of average robustness across the set of attacks used, robustness against the worst-case attack is still a big open problem as all existing models perform worse than random guessing.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.04982.pdf",
+    "title": "Piecewise Linear and Stochastic Models for the Analysis of Cyber Resilience",
+    "published_date": "2023-02-09",
+    "abstract": "We model a vehicle equipped with an autonomous cyber-defense system in addition to its inherent physical resilience features. When attacked, this ensemble of cyber-physical features (i.e., “bonware”) strives to resist and recover from the performance degradation caused by the malware's attack. We model the underlying differential equations governing such attacks for piecewise linear characterizations of malware and bonware, develop a discrete time stochastic model, and show that averages of instantiations of the stochastic model approximate solutions to the continuous differential equation. We develop a theory and methodology for approximating the parameters associated with these equations.",
+    "citation_count": 3
+  },
+  {
+    "title": "Metrics for Evaluating Alerts in Intrusion Detection Systems",
+    "abstract": "Network intrusions compromise the network's confidentiality, integrity and availability of resources. Intrusion detection systems (IDSs) have been implemented to prevent the problem. Although IDS technologies are promising, their ability of detecting true alerts is far from being perfect. One problem is that of producing large numbers of false alerts, which are termed as malicious by the IDS. In this paper we propose a set of metrics for evaluating the IDS alerts. The metrics will identify false, low-level and redundant alerts by mapping alerts on a vulnerability database and calculating their impact. The metrics are calculated using a metric tool that we developed. We validated the metrics using Weyuker's properties and Kaner's framework. The metrics can be considered as mathematically valid since they satisfied seven of the nine Weyuker's properties. In addition, they can be considered as workable since they satisfied all the evaluation questions from Kaner's framework.",
+    "published_date": "2023-01-30",
+    "citation_count": 3,
+    "url": "https://zenodo.org/record/7641953"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jyAerr8txxhiKnxwA/5-reasons-why-governments-militaries-want-ai-for-information-1",
+    "author": "trevor",
+    "title": "5 Reasons Why Governments/Militaries Already Want AI for Information Warfare",
+    "published_date": "2023-10-30"
+  }
+]

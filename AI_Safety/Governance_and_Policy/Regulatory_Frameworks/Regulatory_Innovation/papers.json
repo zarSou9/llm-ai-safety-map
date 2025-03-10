@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.21279",
+    "title": "Comparative Global AI Regulation: Policy Perspectives from the EU, China, and the US",
+    "published_date": "2024-10-05",
+    "abstract": "As a powerful and rapidly advancing dual-use technology, AI offers both immense benefits and worrisome risks. In response, governing bodies around the world are developing a range of regulatory AI laws and policies. This paper compares three distinct approaches taken by the EU, China and the US. Within the US, we explore AI regulation at both the federal and state level, with a focus on California's pending Senate Bill 1047. Each regulatory system reflects distinct cultural, political and economic perspectives. Each also highlights differing regional perspectives on regulatory risk-benefit tradeoffs, with divergent judgments on the balance between safety versus innovation and cooperation versus competition. Finally, differences between regulatory frameworks reflect contrastive stances in regards to trust in centralized authority versus trust in a more decentralized free market of self-interested stakeholders. Taken together, these varied approaches to AI innovation and regulation influence each other, the broader international community, and the future of AI regulation.",
+    "summary": "This paper compares and contrasts the AI regulatory approaches of the EU, China, and the US, highlighting the differing cultural, political, and economic perspectives that shape their risk-benefit assessments and choices between centralized control and decentralized market mechanisms. These diverse approaches significantly influence international AI regulation and its future trajectory."
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.09510",
+    "title": "Trust AI Regulation? Discerning users are vital to build trust and effective AI regulation",
+    "published_date": "2024-03-14",
+    "abstract": "There is general agreement that some form of regulation is necessary both for AI creators to be incentivised to develop trustworthy systems, and for users to actually trust those systems. But there is much debate about what form these regulations should take and how they should be implemented. Most work in this area has been qualitative, and has not been able to make formal predictions. Here, we propose that evolutionary game theory can be used to quantitatively model the dilemmas faced by users, AI creators, and regulators, and provide insights into the possible effects of different regulatory regimes. We show that creating trustworthy AI and user trust requires regulators to be incentivised to regulate effectively. We demonstrate the effectiveness of two mechanisms that can achieve this. The first is where governments can recognise and reward regulators that do a good job. In that case, if the AI system is not too risky for users then some level of trustworthy development and user trust evolves. We then consider an alternative solution, where users can condition their trust decision on the effectiveness of the regulators. This leads to effective regulation, and consequently the development of trustworthy AI and user trust, provided that the cost of implementing regulations is not too high. Our findings highlight the importance of considering the effect of different regulatory regimes from an evolutionary game theoretic perspective.",
+    "citation_count": 7,
+    "summary": "This paper uses evolutionary game theory to model the interactions between AI creators, users, and regulators, demonstrating that effective AI regulation, fostering trust in AI systems, necessitates incentivizing regulators through either governmental reward or user-conditional trust. Successful outcomes depend on factors like regulatory cost and AI system risk."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.12690",
+    "title": "The Dual Imperative: Innovation and Regulation in the AI Era",
+    "published_date": "2024-05-23",
+    "abstract": "This article addresses the societal costs associated with the lack of regulation in Artificial Intelligence and proposes a framework combining innovation and regulation. Over fifty years of AI research, catalyzed by declining computing costs and the proliferation of data, have propelled AI into the mainstream, promising significant economic benefits. Yet, this rapid adoption underscores risks, from bias amplification and labor disruptions to existential threats posed by autonomous systems. The discourse is polarized between accelerationists, advocating for unfettered technological advancement, and doomers, calling for a slowdown to prevent dystopian outcomes. This piece advocates for a middle path that leverages technical innovation and smart regulation to maximize the benefits of AI while minimizing its risks, offering a pragmatic approach to the responsible progress of AI technology. Technical invention beyond the most capable foundation models is needed to contain catastrophic risks. Regulation is required to create incentives for this research while addressing current issues.",
+    "summary": "The paper argues for a balanced approach to AI development, advocating for both continued technological innovation and strategic regulation to mitigate the risks of unchecked AI advancement while maximizing its benefits. This \"dual imperative\" seeks to avoid both unfettered progress and a complete slowdown, aiming for responsible AI development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, examines AI model registries—centralized databases tracking AI systems for governance purposes. These registries, drawing parallels with pharmaceutical regulations, vary widely in their requirements and accessibility across countries like the US and China, but aim to enable targeted AI regulation by focusing on individual models rather than broader corporate practices."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/vzGC4zh73dfcqnFgf/open-source-ai-a-regulatory-review",
+    "author": "Elliot_Mckernon, Deric Cheng",
+    "title": "Open-Source AI: A Regulatory Review",
+    "published_date": "2024-04-29",
+    "summary": "This article examines the implications of open-sourcing AI models, focusing on the trade-offs between collaborative benefits and potential safety risks. While open-source models foster innovation, the lack of built-in safeguards in some open-source models, unlike closed-source alternatives, raises concerns about malicious use and the spread of information hazards."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for a third-party testing regime for large-scale AI systems to mitigate societal harms, arguing that such a system is crucial for managing the risks of powerful AI models while fostering innovation and trust. This regime would focus on a narrow set of high-impact systems, balancing safety with the needs of smaller companies."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.04914",
+    "title": "Regulatory Markets: The Future of AI Governance",
+    "published_date": "2023-04-11",
+    "abstract": "Appropriately regulating artificial intelligence is an increasingly urgent policy challenge. Legislatures and regulators lack the specialized knowledge required to best translate public demands into legal requirements. Overreliance on industry self-regulation fails to hold producers and users of AI systems accountable to democratic demands. Regulatory markets, in which governments require the targets of regulation to purchase regulatory services from a private regulator, are proposed. This approach to AI regulation could overcome the limitations of both command-and-control regulation and self-regulation. Regulatory market could enable governments to establish policy priorities for the regulation of AI, whilst relying on market forces and industry R&D efforts to pioneer the methods of regulation that best achieve policymakers' stated objectives.",
+    "citation_count": 21,
+    "summary": "The paper proposes regulatory markets—where governments contract private firms to regulate AI—as a solution to the limitations of traditional command-and-control and self-regulation approaches, leveraging market forces and industry expertise to achieve policy goals. This approach aims to overcome governmental knowledge gaps and ensure accountability in AI regulation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.04448",
+    "title": "Dual Governance: The intersection of centralized regulation and crowdsourced safety mechanisms for Generative AI",
+    "published_date": "2023-08-02",
+    "abstract": "Generative Artificial Intelligence (AI) has seen mainstream adoption lately, especially in the form of consumer-facing, open-ended, text and image generating models. However, the use of such systems raises significant ethical and safety concerns, including privacy violations, misinformation and intellectual property theft. The potential for generative AI to displace human creativity and livelihoods has also been under intense scrutiny. To mitigate these risks, there is an urgent need of policies and regulations responsible and ethical development in the field of generative AI. Existing and proposed centralized regulations by governments to rein in AI face criticisms such as not having sufficient clarity or uniformity, lack of interoperability across lines of jurisdictions, restricting innovation, and hindering free market competition. Decentralized protections via crowdsourced safety tools and mechanisms are a potential alternative. However, they have clear deficiencies in terms of lack of adequacy of oversight and difficulty of enforcement of ethical and safety standards, and are thus not enough by themselves as a regulation mechanism. We propose a marriage of these two strategies via a framework we call Dual Governance. This framework proposes a cooperative synergy between centralized government regulations in a U.S. specific context and safety mechanisms developed by the community to protect stakeholders from the harms of generative AI. By implementing the Dual Governance framework, we posit that innovation and creativity can be promoted while ensuring safe and ethical deployment of generative AI.",
+    "citation_count": 3,
+    "summary": "This paper proposes a \"Dual Governance\" framework for generative AI, combining centralized government regulation with decentralized, crowdsourced safety mechanisms to mitigate ethical and safety risks while fostering innovation. This approach aims to address the shortcomings of solely relying on either centralized or decentralized approaches."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/regulation-and-ai-risk",
+    "author": "KatjaGrace",
+    "title": "Regulation and AI Risk - AI Alignment Forum",
+    "published_date": "2023-02-07",
+    "summary": "Debate surrounds regulating Artificial General Intelligence (AGI) to mitigate existential risks, with proposals ranging from international review boards to government funding of safe AGI research. However, challenges include the difficulty of global enforcement, potential for an AI arms race, and the relative ease of concealing AGI development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/GCMMPTCmGagcP2Bhd/ideas-for-ai-labs-reading-list",
+    "author": "Zach Stein-Perlman",
+    "title": "Ideas for AI labs: Reading list",
+    "published_date": "2023-04-24",
+    "summary": "This document compiles expert opinions and research on improving AI lab safety and governance, focusing on mitigating existential risks. It offers numerous suggestions, including best practices for model evaluation, transparency measures, and strategies for coordinating research and minimizing the diffusion of potentially dangerous technologies."
+  }
+]

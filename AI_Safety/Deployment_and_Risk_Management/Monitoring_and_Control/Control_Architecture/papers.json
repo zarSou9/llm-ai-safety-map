@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.07985",
+    "title": "Games for AI Control: Models of Safety Evaluations of AI Deployment Protocols",
+    "published_date": "2024-09-12",
+    "abstract": "To evaluate the safety and usefulness of deployment protocols for untrusted AIs, AI Control uses a red-teaming exercise played between a protocol designer and an adversary. This paper introduces AI-Control Games, a formal decision-making model of the red-teaming exercise as a multi-objective, partially observable, stochastic game. We also introduce methods for finding optimal protocols in AI-Control Games, by reducing them to a set of zero-sum partially observable stochastic games. We apply our formalism to model, evaluate and synthesise protocols for deploying untrusted language models as programming assistants, focusing on Trusted Monitoring protocols, which use weaker language models and limited human assistance. Finally, we demonstrate the utility of our formalism by showcasing improvements over empirical studies in existing settings, evaluating protocols in new settings, and analysing how modelling assumptions affect the safety and usefulness of protocols.",
+    "citation_count": 2,
+    "summary": "This paper formalizes the red-teaming evaluation of AI deployment protocols as multi-objective partially observable stochastic games, offering methods to find optimal protocols by reducing them to zero-sum games; the approach is applied to language model deployment, demonstrating improvements over empirical methods and enabling analysis of protocol safety and effectiveness under varying assumptions."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.16608",
+    "title": "Barriers on the EDGE: A scalable CBF architecture over EDGE for safe aerial-ground multi-agent coordination",
+    "published_date": "2024-11-25",
+    "abstract": "In this article, we address the problem of designing a scalable control architecture for a safe coordinated operation of a multi-agent system with aerial (UAVs) and ground robots (UGVs) in a confined task space. The proposed method uses Control Barrier Functions (CBFs) to impose constraints associated with (i) collision avoidance between agents, (ii) landing of UAVs on mobile UGVs, and (iii) task space restriction. Further, to account for the rapid increase in the number of constraints for a single agent with the increasing number of agents, the proposed architecture uses a centralized-decentralized Edge cluster, where a centralized node (Watcher) activates the relevant constraints, reducing the need for high onboard processing and network complexity. The distributed nodes run the controller locally to overcome latency and network issues. The proposed Edge architecture is experimentally validated using multiple aerial and ground robots in a confined environment performing a coordinated operation.",
+    "summary": "This paper presents a scalable, safe multi-agent control architecture using Control Barrier Functions (CBFs) for coordinated aerial and ground robots operating in confined spaces. A centralized-decentralized Edge computing approach addresses scalability challenges by distributing computation and reducing communication overhead."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.13138",
+    "title": "Visibility into AI Agents",
+    "published_date": "2024-01-23",
+    "abstract": "Increased delegation of commercial, scientific, governmental, and personal activities to AI agents—systems capable of pursuing complex goals with limited supervision—may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.",
+    "citation_count": 12,
+    "summary": "This paper examines methods to increase \"visibility\" into AI agents—understanding their use, deployment, and impact—by analyzing agent identifiers, real-time monitoring, and activity logging, considering implementation challenges, privacy concerns, and power dynamics across various deployment contexts. The authors propose these measures as crucial for mitigating societal risks associated with increased AI agent autonomy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.08981",
+    "title": "Reliability, Resilience and Human Factors Engineering for Trustworthy AI Systems",
+    "published_date": "2024-11-13",
+    "abstract": "As AI systems become integral to critical operations across industries and services, ensuring their reliability and safety is essential. We offer a framework that integrates established reliability and resilience engineering principles into AI systems. By applying traditional metrics such as failure rate and Mean Time Between Failures (MTBF) along with resilience engineering and human reliability analysis, we propose an integrate framework to manage AI system performance, and prevent or efficiently recover from failures. Our work adapts classical engineering methods to AI systems and outlines a research agenda for future technical studies. We apply our framework to a real-world AI system, using system status data from platforms such as openAI, to demonstrate its practical applicability. This framework aligns with emerging global standards and regulatory frameworks, providing a methodology to enhance the trustworthiness of AI systems. Our aim is to guide policy, regulation, and the development of reliable, safe, and adaptable AI technologies capable of consistent performance in real-world environments.",
+    "citation_count": 1,
+    "summary": "This paper presents a framework integrating reliability and resilience engineering principles into AI system design, using traditional metrics and human factors analysis to improve performance, prevent failures, and enable efficient recovery, ultimately enhancing AI trustworthiness. The framework is demonstrated using real-world AI system data and aligns with emerging global standards."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/PC3yJgdKvk8kzqZyA",
+    "author": "Ryan Greenblatt; Buck",
+    "title": "AI Control - LessWrong",
+    "published_date": "2024-03-24",
+    "summary": "This article compiles writings on AI Control, a safety approach focused on preventing harmful actions by potentially misaligned, powerful AIs, even if they attempt to circumvent safety measures. It provides an overview of this approach, highlighting both advantages and limitations, but doesn't represent the entirety of relevant AI safety research."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising but largely unexplored AI safety strategy. Current efforts include export controls and reporting requirements, while proposed future measures aim to improve visibility, allocate compute resources strategically, and enforce regulations through technological means."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/6cWgaaxWqGYwJs3vj/a-basic-systems-architecture-for-ai-agents-that-do",
+    "author": "Buck",
+    "title": "A basic systems architecture for AI agents that do autonomous research",
+    "published_date": "2024-09-23",
+    "summary": "The article describes a common architecture for autonomous AI agents in AI R&D, separating the large language model (LLM) inference server, the agent's state-managing scaffold server, and the code-executing server. This separation clarifies potential security vulnerabilities and misalignment scenarios by specifying which server is compromised in different threat models."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/iwCRYnGYMvxgzrCMf/complex-systems-are-hard-to-control",
+    "author": "jsteinhardt",
+    "title": "Complex Systems are Hard to Control",
+    "published_date": "2023-04-04",
+    "summary": "Deep learning systems, as complex adaptive systems, pose unique safety challenges beyond those addressed by traditional engineering approaches. Their emergent behavior and intricate feedback loops lead to unpredictable responses to control efforts, necessitating safety measures that account for this inherent complexity."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/FgsoWSACQfyyaB5s7/shutdown-seeking-ai",
+    "author": "Simon Goldstein",
+    "title": "Shutdown-Seeking AI",
+    "published_date": "2023-05-31",
+    "summary": "This paper proposes a novel approach to AI safety: designing AIs whose sole goal is self-shutdown. This method, argued to be easily implemented and avoid dangerous instrumental convergence, offers safety benefits by acting as a \"tripwire\" for detecting dangerous capabilities and mitigating manipulation risks."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2212.13570.pdf",
+    "title": "A Compositional Approach to Creating Architecture Frameworks with an Application to Distributed AI Systems",
+    "published_date": "2022-12-27",
+    "abstract": "Artificial intelligence (AI) in its various forms finds more and more its way into complex distributed systems. For instance, it is used locally, as part of a sensor system, on the edge for low-latency high-performance inference, or in the cloud, e.g. for data mining. Modern complex systems, such as connected vehicles, are often part of an Internet of Things (IoT). To manage complexity, architectures are described with architecture frameworks, which are composed of a number of architectural views connected through correspondence rules. Despite some attempts, the definition of a mathematical foundation for architecture frameworks that are suitable for the development of distributed AI systems still requires investigation and study. In this paper, we propose to extend the state of the art on architecture framework by providing a mathematical model for system architectures, which is scalable and supports co-evolution of different aspects for example of an AI system. Based on Design Science Research, this study starts by identifying the challenges with architectural frameworks. Then, we derive from the identified challenges four rules and we formulate them by exploiting concepts from category theory. We show how compositional thinking can provide rules for the creation and management of architectural frameworks for complex systems, for example distributed systems with AI. The aim of the paper is not to provide viewpoints or architecture models specific to AI systems, but instead to provide guidelines based on a mathematical formulation on how a consistent framework can be built up with existing, or newly created, viewpoints. To put in practice and test the approach, the identified and formulated rules are applied to derive an architectural framework for the EU Horizon 2020 project ``Very efficient deep learning in the IoT\"(VEDLIoT) in the form of a case study.",
+    "citation_count": 15,
+    "summary": "This paper presents a novel mathematical model, based on category theory, for creating scalable and adaptable architecture frameworks, addressing the challenges of designing complex distributed AI systems. The model, validated through a case study on the VEDLIoT project, provides compositional rules for building consistent frameworks from existing or new viewpoints."
+  }
+]

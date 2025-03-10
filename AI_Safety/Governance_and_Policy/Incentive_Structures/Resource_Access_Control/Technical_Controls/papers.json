@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.15749",
+    "title": "Collaborative Access Control for IoT - A Blockchain Approach",
+    "published_date": "2024-05-24",
+    "abstract": "The Internet of Things (IoT) necessitates robust access control mechanisms to secure a vast array of interconnected devices. We adopt the blockchain based decentralized access control approach and identify the gaps in existing works. Then, We develop a blockchain embedded access control (BEAC) framework to bridge the gaps. First, blockchain based solutions for access control require an enabling P2P network while existing P2P overlays do not support some required features. We develop a novel P2P infrastructure to seamlessly support our BEAC framework. Second, most of the works consider blockchain based access control for a single access control model, and we develop a generic blockchain mechanism and show that it can support the embedding of various access control models. Finally, existing works adopt existing blockchain platforms which may incur a high communication overhead. We design a more efficient consortium blockchain solution by leveraging more advanced components to achieve better performance. Our experiments demonstrate that our design can cut the communication cost to half compared to the most recent Hyperledger Fabric platform.",
+    "summary": "This paper proposes a novel blockchain-based access control framework (BEAC) for IoT, addressing limitations of existing systems by introducing a new P2P infrastructure and a generic mechanism supporting multiple access control models, ultimately achieving improved performance compared to Hyperledger Fabric."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/knuths-up-arrow-notation",
+    "title": "Knuth's Up-Arrow Notation - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Knuth's up-arrow notation provides a concise way to represent extremely large numbers, as demonstrated by 3^^^3, a power tower of threes so high that its base-10 representation is vastly larger than the number of atoms in the universe, yet easily describable with a short notation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "Biden's October 30, 2023 executive order on AI outlines numerous deadlines for various federal agencies to submit reports, develop strategies, and implement plans related to AI development, deployment, workforce needs, and risk mitigation, with deadlines ranging from 30 to 90 days after the order's publication. Many actions focus on responsible AI use and addressing potential risks across multiple sectors."
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.05319",
+    "title": "A smart resource management mechanism with trust access control for cloud computing environment",
+    "published_date": "2022-12-10",
+    "abstract": "The core of the computer business now offers subscription-based on-demand services with the help of cloud computing. We may now share resources among multiple users by using virtualization, which creates a virtual instance of a computer system running in an abstracted hardware layer. It provides infinite computing capabilities through its massive cloud datacenters, in contrast to early distributed computing models, and has been incredibly popular in recent years because to its continually growing infrastructure, user base, and hosted data volume. This article suggests a conceptual framework for a workload management paradigm in cloud settings that is both safe and performance-efficient. A resource management unit is used in this paradigm for energy and performing virtual machine allocation with efficiency, assuring the safe execution of users' applications, and protecting against data breaches brought on by unauthorised virtual machine access real-time. A secure virtual machine management unit controls the resource management unit and is created to produce data on unlawful access or intercommunication. Additionally, a workload analyzer unit works simultaneously to estimate resource consumption data to help the resource management unit be more effective during virtual machine allocation. The suggested model functions differently to effectively serve the same objective, including data encryption and decryption prior to transfer, usage of trust access mechanism to prevent unauthorised access to virtual machines, which creates extra computational cost overhead.",
+    "citation_count": 2,
+    "summary": "This paper proposes a secure and efficient cloud workload management framework using a resource management unit for VM allocation and a secure VM management unit for access control, incorporating trust mechanisms to prevent unauthorized access and enhance data security. The framework also includes a workload analyzer for optimized resource allocation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.04980",
+    "title": "A Capability-based Distributed Authorization System to Enforce Context-aware Permission Sequences",
+    "published_date": "2022-06-07",
+    "abstract": "Controlled sharing is fundamental to distributed systems. We consider a capability-based distributed authorization system where a client receives capabilities (access tokens) from an authorization server to access the resources of resource servers. Capability-based authorization systems have been widely used on the Web, in mobile applications and other distributed systems. A common requirement of such systems is that the user uses tokens of multiple servers in a particular order. A related requirement is the token may be used if certain environmental conditions hold. We introduce a secure capability-based system that supports \"permission sequence\" and \"context\". This allows a finite sequence of permissions to be enforced, each with their own specific context. We prove the safety property of this system for these conditions and integrate the system into OAuth 2.0 with proof-of-possession tokens. We evaluate our implementation and compare it with plain OAuth with respect to the average time for obtaining an authorization token and acquiring access to the resource.",
+    "citation_count": 2,
+    "summary": "This paper presents a secure, capability-based distributed authorization system that enforces context-aware permission sequences, proving its safety and integrating it with OAuth 2.0 for improved control over access to distributed resources. The system allows for the specification of ordered permissions, each contingent on specific environmental conditions."
+  },
+  {
+    "url": "https://arxiv.org/abs/2208.09540",
+    "title": "Technical Report: Asymmetric Mutual Exclusion for RDMA",
+    "published_date": "2022-08-19",
+    "abstract": "“New instances of the mutual exclusion problem can still arise that make currently impractical algorithms useful, or that require new algorithms. One source of those instances is new hardware designs.” Lamport Abstract Coordinating concurrent access to a shared resource using mutual exclusion is a fundamental problem in computation. In this paper, we present a novel approach to mutual exclusion designed speciﬁcally for distributed systems leveraging a popular network communication technology, remote direct memory access (RDMA). Our approach enables local processes to avoid using RDMA operations entirely, limits the number of RDMA operations required by remote processes, and guarantees both starvation-freedom and fairness.",
+    "citation_count": 1,
+    "summary": "This paper introduces a novel asymmetric mutual exclusion algorithm for distributed systems utilizing RDMA, optimizing performance by minimizing RDMA operations for local processes while ensuring starvation freedom and fairness. It addresses the need for new mutual exclusion solutions driven by evolving hardware architectures."
+  },
+  {
+    "url": "https://arxiv.org/abs/2106.13263",
+    "title": "Aker: A Design and Verification Framework for Safe and Secure SoC Access Control",
+    "published_date": "2021-06-24",
+    "abstract": "Modern systems on a chip (SoCs) utilize heterogeneous architectures where multiple IP cores have concurrent access to on-chip shared resources. In security-critical applications, IP cores have different privilege levels for accessing shared resources, which must be regulated by an access control system. Aker is a design and verification framework for SoC access control. Aker builds upon the Access Control Wrapper (ACW) - a high performance and easy-to-integrate hardware module that dynamically manages access to shared resources. To build an SoC access control system, Aker distributes the ACWs throughout the SoC, wrapping controller IP cores, and configuring the ACWs to perform local access control. To ensure the access control system is functioning correctly and securely, Aker provides a property-driven security verification using MITRE common weakness enumerations. Aker verifies the SoC access control at the IP level to ensure the absence of bugs in the functionalities of the ACW module, at the firmware level to confirm the secure operation of the ACW when integrated with a hardware root-of-trust (HRoT), and at the system level to evaluate security threats due to the interactions among shared resources. The performance, resource usage, and security of access control systems implemented through Aker is experimentally evaluated on a Xilinx UltraScale+ programmable SoC, it is integrated with the OpenTitan hardware root-of-trust, and it is used to design an access control system for the OpenPULP multicore architecture.",
+    "citation_count": 23,
+    "summary": "Aker is a framework for designing and verifying secure System-on-Chip (SoC) access control, using distributed Access Control Wrappers (ACWs) for efficient management and property-driven verification based on MITRE CWE to ensure secure operation at IP, firmware, and system levels. It's demonstrated on Xilinx and OpenTitan platforms."
+  },
+  {
+    "title": "PERQ: Fair and Efficient Power Management of Power-Constrained Large-Scale Computing Systems",
+    "abstract": "Large-scale computing systems are becoming increasingly more power-constrained, but these systems employ hardware over- provisioning to achieve higher system throughput because applications often do not consume the peak power capacity of nodes. Unfortunately, focusing on system throughput alone can lead to severe unfairness among multiple concurrently-running applications. This paper introduces PERQ, a new feedback-based principled approach to improve system throughput while achieving fairness among concurrent applications.",
+    "published_date": "2019-06-17",
+    "citation_count": 15,
+    "url": "https://dl.acm.org/doi/10.1145/3307681.3326607",
+    "summary": "PERQ is a novel power management system for large-scale computing that addresses the trade-off between maximizing system throughput and ensuring fair resource allocation among competing applications. It achieves this through a feedback-based approach that improves efficiency while mitigating unfairness caused by over-provisioning."
+  }
+]

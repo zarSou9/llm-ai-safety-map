@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2404.11988",
+    "title": "The Emerging AI Divide in the United States",
+    "published_date": "2024-04-18",
+    "abstract": "The digital divide describes disparities in access to and usage of digital tooling between social and economic groups. Emerging generative artificial intelligence tools, which strongly affect productivity, could magnify the impact of these divides. However, the affordability, multi-modality, and multilingual capabilities of these tools could also make them more accessible to diverse users in comparison with previous forms of digital tooling. In this study, we characterize spatial differences in U.S. residents' knowledge of a new generative AI tool, ChatGPT, through an analysis of state- and county-level search query data. In the first six months after the tool's release, we observe the highest rates of users searching for ChatGPT in West Coast states and persistently low rates of search in Appalachian and Gulf states. Counties with the highest rates of search are relatively more urbanized and have proportionally more educated, more economically advantaged, and more Asian residents in comparison with other counties or with the U.S. average. In multilevel models adjusting for socioeconomic and demographic factors as well as industry makeup, education is the strongest positive predictor of rates of search for generative AI tooling. Although generative AI technologies may be novel, early differences in uptake appear to be following familiar paths of digital marginalization.",
+    "citation_count": 4,
+    "summary": "Analysis of US search query data for ChatGPT reveals a widening AI divide, with higher search rates in wealthier, more urban, and better-educated areas, suggesting that existing socioeconomic disparities are exacerbating access to and knowledge of this emerging technology. This mirrors previous patterns of digital marginalization."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.22282",
+    "title": "Whose ChatGPT? Unveiling Real-World Educational Inequalities Introduced by Large Language Models",
+    "published_date": "2024-10-29",
+    "abstract": "The universal availability of ChatGPT and other similar tools since late 2022 has prompted tremendous public excitement and experimental effort about the potential of large language models (LLMs) to improve learning experience and outcomes, especially for learners from disadvantaged backgrounds. However, little research has systematically examined the real-world impacts of LLM availability on educational equity beyond theoretical projections and controlled studies of innovative LLM applications. To depict trends of post-LLM inequalities, we analyze 1,140,328 academic writing submissions from 16,791 college students across 2,391 courses between 2021 and 2024 at a public, minority-serving institution in the US. We find that students' overall writing quality gradually increased following the availability of LLMs and that the writing quality gaps between linguistically advantaged and disadvantaged students became increasingly narrower. However, this equitizing effect was more concentrated on students with higher socioeconomic status. These findings shed light on the digital divides in the era of LLMs and raise questions about the equity benefits of LLMs in early stages and highlight the need for researchers and practitioners on developing responsible practices to improve educational equity through LLMs.",
+    "summary": "A study analyzing student writing submissions before and after ChatGPT's release found that while overall writing quality improved, the benefits of LLMs were disproportionately enjoyed by higher socioeconomic status students, thus exacerbating existing educational inequalities. This highlights the need for responsible practices to ensure equitable access and benefits from LLMs in education."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.12687",
+    "title": "Towards Responsible Development of Generative AI for Education: An Evaluation-Driven Approach",
+    "published_date": "2024-05-21",
+    "abstract": "A major challenge facing the world is the provision of equitable and universal access to quality education. Recent advances in generative AI (gen AI) have created excitement about the potential of new technologies to offer a personal tutor for every learner and a teaching assistant for every teacher. The full extent of this dream, however, has not yet materialised. We argue that this is primarily due to the difficulties with verbalising pedagogical intuitions into gen AI prompts and the lack of good evaluation practices, reinforced by the challenges in defining excellent pedagogy. Here we present our work collaborating with learners and educators to translate high level principles from learning science into a pragmatic set of seven diverse educational benchmarks, spanning quantitative, qualitative, automatic and human evaluations; and to develop a new set of fine-tuning datasets to improve the pedagogical capabilities of Gemini, introducing LearnLM-Tutor. Our evaluations show that LearnLM-Tutor is consistently preferred over a prompt tuned Gemini by educators and learners on a number of pedagogical dimensions. We hope that this work can serve as a first step towards developing a comprehensive educational evaluation framework, and that this can enable rapid progress within the AI and EdTech communities towards maximising the positive impact of gen AI in education.",
+    "citation_count": 17,
+    "summary": "This paper advocates for responsible generative AI development in education, proposing a novel evaluation framework with seven benchmarks and a fine-tuned Gemini model (LearnLM-Tutor) that outperforms a prompt-tuned version based on educator and learner preferences. The authors aim to accelerate progress toward maximizing the positive impact of AI in education through improved evaluation practices."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.14581",
+    "title": "AVELA - A Vision for Engineering Literacy & Access: Understanding Why Technology Alone Is Not Enough",
+    "published_date": "2024-01-26",
+    "abstract": "Unequal technology access for Black and Latine communities has been a persistent economic, social justice, and human rights issue despite increased technology accessibility due to advancements in consumer electronics like phones, tablets, and computers. We contextualize socio-technical access inequalities for Black and Latine urban communities and find that many students are hesitant to engage with available technologies due to a lack of engaging support systems. We present a holistic student-led STEM engagement model through AVELA - A Vision for Engineering Literacy and Access leveraging culturally responsive lessons, mentor embodied community representation, and service learning. To evaluate the model's impact after 4 years of mentoring 200+ university student instructors in teaching to 2,500+ secondary school students in 100+ classrooms, we conducted 24 semi-structured interviews with college AnonymizedOrganization members. We identify access barriers and provide principled recommendations for designing future STEM education programs.",
+    "summary": "The AVELA model addresses unequal STEM access for Black and Latine students by combining technology with culturally responsive teaching, mentorship, and service learning, demonstrating that technological access alone is insufficient to overcome systemic barriers. Evaluation of the program, after impacting over 2500 secondary students, revealed key access barriers and offers recommendations for future STEM initiatives."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.14200",
+    "title": "ActiveAI: Enabling K-12 AI Literacy Education & Analytics at Scale",
+    "published_date": "2024-12-15",
+    "abstract": "Interest in K-12 AI Literacy education has surged in the past year, yet large-scale learning data remains scarce despite considerable efforts in developing learning materials and running summer programs. To make larger scale dataset available and enable more replicable findings, we developed an intelligent online learning platform featuring AI Literacy modules and assessments, engaging 1,000 users from 12 secondary schools. Preliminary analysis of the data reveals patterns in prior knowledge levels of AI Literacy, gender differences in assessment scores, and the effectiveness of instructional activities. With open access to this de-identified dataset, researchers can perform secondary analyses, advancing the understanding in this emerging field of AI Literacy education.",
+    "citation_count": 1,
+    "summary": "ActiveAI is an online platform providing AI literacy modules and assessments to K-12 students, generating a large-scale dataset to facilitate research on AI literacy education and revealing preliminary findings on student performance and knowledge gaps. The de-identified dataset is publicly available for further analysis."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.13116",
+    "title": "Equity in the Use of ChatGPT for the Classroom: A Comparison of the Accuracy and Precision of ChatGPT 3.5 vs. ChatGPT4 with Respect to Statistics and Data Science Exams",
+    "published_date": "2024-12-17",
+    "abstract": "A college education historically has been seen as method of moving upward with regards to income brackets and social status. Indeed, many colleges recognize this connection and seek to enroll talented low income students. While these students might have their education, books, room, and board paid; there are other items that they might be expected to use that are not part of most college scholarship packages. One of those items that has recently surfaced is access to generative AI platforms. The most popular of these platforms is ChatGPT, and it has a paid version (ChatGPT4) and a free version (ChatGPT3.5). We seek to explore differences in the free and paid versions in the context of homework questions and data analyses as might be seen in a typical introductory statistics course. We determine the extent to which students who cannot afford newer and faster versions of generative AI programs would be disadvantaged in terms of writing such projects and learning these methods.",
+    "summary": "This study compares the performance of ChatGPT 3.5 and ChatGPT 4 on statistics and data science exam questions, investigating potential inequities in access to advanced AI tools for students based on their ability to afford a paid subscription. The research aims to determine if the free version significantly disadvantages students compared to the paid version."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/iaHk9DMCbrYsKuqgS/simple-distribution-approximation-when-sampled-100-times-can-1",
+    "author": "Teun van der Weij, Felix Hofstätter, Francis Rhys Ward",
+    "title": "Simple distribution approximation: When sampled 100 times, can language models yield 80% A and 20% B?",
+    "published_date": "2024-01-29",
+    "summary": "This research explores Large Language Models' (LLMs) ability to control their output distribution to achieve a specific target accuracy (sandbagging). Experiments using GPT-3.5 and GPT-4 demonstrate that while both models can approximate target distributions, their performance varies depending on the task and prompt engineering, with GPT-4 generally outperforming GPT-3.5."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/cLfsabkCPtieJ5LoK/investigating-bias-representations-in-llms-via-activation",
+    "author": "DawnLu",
+    "title": "Investigating Bias Representations in LLMs via Activation Steering",
+    "published_date": "2024-01-15",
+    "summary": "This research uses activation steering to assess the societal biases of the Llama-2-7b-chat LLM, finding that while the model exhibits gender bias in unsteered responses, attempts to further steer it towards biased outputs using contrastive activation addition resulted in the model refusing to answer, suggesting a potential robustness against overt bias elicitation but highlighting the need for more sophisticated bias detection methods."
+  }
+]

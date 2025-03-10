@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2404.16887",
+    "title": "Anomaly Detection for Incident Response at Scale",
+    "published_date": "2024-04-24",
+    "abstract": "We present a machine learning-based anomaly detection product, AI Detect and Respond (AIDR), that monitors Walmart's business and system health in real-time. During the validation over 3 months, the product served predictions from over 3000 models to more than 25 application, platform, and operation teams, covering 63\\% of major incidents and reducing the mean-time-to-detect (MTTD) by more than 7 minutes. Unlike previous anomaly detection methods, our solution leverages statistical, ML and deep learning models while continuing to incorporate rule-based static thresholds to incorporate domain-specific knowledge. Both univariate and multivariate ML models are deployed and maintained through distributed services for scalability and high availability. AIDR has a feedback loop that assesses model quality with a combination of drift detection algorithms and customer feedback. It also offers self-onboarding capabilities and customizability. AIDR has achieved success with various internal teams with lower time to detection and fewer false positives than previous methods. As we move forward, we aim to expand incident coverage and prevention, reduce noise, and integrate further with root cause recommendation (RCR) to enable an end-to-end AIDR experience.",
+    "summary": "Walmart's AI Detect and Respond (AIDR) system uses a hybrid approach combining statistical, machine learning, and deep learning models with rule-based thresholds for real-time anomaly detection across various business and system functions, significantly reducing mean-time-to-detect incidents and improving incident response. AIDR's scalable architecture, feedback loop, and self-onboarding capabilities contribute to its success."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.09017",
+    "title": "AI-Driven Guided Response for Security Operation Centers with Microsoft Copilot for Security",
+    "published_date": "2024-07-12",
+    "abstract": "Security operation centers contend with a constant stream of security incidents, ranging from straightforward to highly complex. To address this, we developed Microsoft Copilot for Security Guided Response (CGR), an industry-scale ML architecture that guides security analysts across three key tasks -- (1) investigation, providing essential historical context by identifying similar incidents; (2) triaging to ascertain the nature of the incident -- whether it is a true positive, false positive, or benign positive; and (3) remediation, recommending tailored containment actions. CGR is integrated into the Microsoft Defender XDR product and deployed worldwide, generating millions of recommendations across thousands of customers. Our extensive evaluation, incorporating internal evaluation, collaboration with security experts, and customer feedback, demonstrates that CGR delivers high-quality recommendations across all three tasks. We provide a comprehensive overview of the CGR architecture, setting a precedent as the first cybersecurity company to openly discuss these capabilities in such depth. Additionally, we release GUIDE, the largest public collection of real-world security incidents, spanning 13M evidences across 1M incidents annotated with ground-truth triage labels by customer security analysts. This dataset represents the first large-scale cybersecurity resource of its kind, supporting the development and evaluation of guided response systems and beyond.",
+    "citation_count": 1,
+    "summary": "Microsoft Copilot for Security Guided Response (CGR) is a large-scale machine learning architecture assisting security analysts with incident investigation, triage, and remediation, demonstrating high-quality recommendations in real-world deployment and accompanied by the release of GUIDE, a large public dataset of real-world security incidents."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.10288",
+    "title": "Augmenting train maintenance technicians with automated incident diagnostic suggestions",
+    "published_date": "2024-08-19",
+    "abstract": "Train operational incidents are so far diagnosed individually and manually by train maintenance technicians. In order to assist maintenance crews in their responsiveness and task prioritization, a learning machine is developed and deployed in production to suggest diagnostics to train technicians on their phones, tablets or laptops as soon as a train incident is declared. A feedback loop allows to take into account the actual diagnose by designated train maintenance experts to refine the learning machine. By formulating the problem as a discrete set classification task, feature engineering methods are proposed to extract physically plausible sets of events from traces generated on-board railway vehicles. The latter feed an original ensemble classifier to class incidents by their potential technical cause. Finally, the resulting model is trained and validated using real operational data and deployed on a cloud platform. Future work will explore how the extracted sets of events can be used to avoid incidents by assisting human experts in the creation predictive maintenance alerts.",
+    "summary": "This paper describes a deployed machine learning system that provides automated diagnostic suggestions to train maintenance technicians via mobile devices, improving response time and task prioritization. The system uses onboard train data to classify incidents and incorporates a feedback loop for continuous improvement."
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.03797",
+    "title": "Recommending Root-Cause and Mitigation Steps for Cloud Incidents using Large Language Models",
+    "published_date": "2023-01-10",
+    "abstract": "Incident management for cloud services is a complex process involving several steps and has a huge impact on both service health and developer productivity. On-call engineers require significant amount of domain knowledge and manual effort for root causing and mitigation of production incidents. Recent advances in artificial intelligence has resulted in state-of-the-art large language models like GPT-3.x (both GPT-3.0 and GPT-3.5), which have been used to solve a variety of problems ranging from question answering to text summarization. In this work, we do the first large-scale study to evaluate the effectiveness of these models for helping engineers root cause and mitigate production incidents. We do a rigorous study at Microsoft, on more than 40,000 incidents and compare several large language models in zero-shot, fine-tuned and multi-task setting using semantic and lexical metrics. Lastly, our human evaluation with actual incident owners show the efficacy and future potential of using artificial intelligence for resolving cloud incidents.",
+    "citation_count": 41,
+    "summary": "This study evaluates the effectiveness of large language models (LLMs) like GPT-3 in assisting with root cause analysis and mitigation of cloud incidents at Microsoft, using a large dataset of over 40,000 incidents and demonstrating potential for AI-driven incident resolution."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.10068.pdf",
+    "title": "Artificial Intelligence for Emergency Response",
+    "published_date": "2023-06-15",
+    "abstract": "Emergency response management (ERM) is a challenge faced by communities across the globe. First responders must respond to various incidents, such as fires, traffic accidents, and medical emergencies. They must respond quickly to incidents to minimize the risk to human life. Consequently, considerable attention has been devoted to studying emergency incidents and response in the last several decades. In particular, data-driven models help reduce human and financial loss and improve design codes, traffic regulations, and safety measures. This tutorial paper explores four sub-problems within emergency response: incident prediction, incident detection, resource allocation, and resource dispatch. We aim to present mathematical formulations for these problems and broad frameworks for each problem. We also share open-source (synthetic) data from a large metropolitan area in the USA for future work on data-driven emergency response.",
+    "citation_count": 1,
+    "summary": "This paper reviews the application of artificial intelligence to emergency response management, focusing on four key sub-problems: incident prediction and detection, and resource allocation and dispatch; it also provides mathematical formulations and frameworks for these problems, alongside open-source synthetic data for further research."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "President Biden's October 30, 2023 executive order on AI outlines numerous deadlines for various federal agencies to submit reports, develop plans, and implement initiatives related to AI development, deployment, workforce development, and risk mitigation, spanning from November 2023 to January 2024 and beyond. The order aims to coordinate federal AI efforts across multiple sectors."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.04236.pdf",
+    "title": "Incidents1M: A Large-Scale Dataset of Images With Natural Disasters, Damage, and Incidents",
+    "published_date": "2022-01-11",
+    "abstract": "Natural disasters, such as floods, tornadoes, or wildfires, are increasingly pervasive as the Earth undergoes global warming. It is difficult to predict when and where an incident will occur, so timely emergency response is critical to saving the lives of those endangered by destructive events. Fortunately, technology can play a role in these situations. Social media posts can be used as a low-latency data source to understand the progression and aftermath of a disaster, yet parsing this data is tedious without automated methods. Prior work has mostly focused on text-based filtering, yet image and video-based filtering remains largely unexplored. In this work, we present the Incidents1M Dataset, a large-scale multi-label dataset which contains 977,088 images, with 43 incident and 49 place categories. We provide details of the dataset construction, statistics and potential biases; introduce and train a model for incident detection; and perform image-filtering experiments on millions of images on Flickr and Twitter. We also present some applications on incident analysis to encourage and enable future work in computer vision for humanitarian aid. Code, data, and models are available at http://incidentsdataset.csail.mit.edu.",
+    "citation_count": 21,
+    "summary": "Incidents1M is a new large-scale dataset containing 977,088 images labeled with 43 incident and 49 place categories, designed to facilitate research on automated image-based detection and analysis of natural disasters and other incidents for humanitarian aid. The dataset, along with trained models and code, is publicly available to support further development in this area."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03",
+    "summary": "While the Gaussian distribution is often used to approximate probabilities from binary count data, the Beta distribution is more accurate, especially with small datasets or probabilities near 0 or 1. The Gaussian approximation can produce nonsensical results (e.g., negative probabilities) in these cases, while the Beta distribution provides a reliable alternative."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14",
+    "summary": "The article highlights common statistical errors, particularly the false assumption of Gaussian distributions in many fields and misinterpretations of p-values. These errors, along with neglecting statistical power and the base rate fallacy, lead to inaccurate conclusions and unreliable results in scientific studies and applications like financial modeling."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ixiCECkFFguFcHWFa/paper-forecasting-world-events-with-neural-nets",
+    "author": "Owain_Evans, Dan H, Joe Kwon",
+    "title": "Paper: Forecasting world events with neural nets",
+    "published_date": "2022-07-01",
+    "summary": "Researchers introduced Autocast, a dataset of thousands of forecasting questions from real-world tournaments, paired with a news corpus, to benchmark machine learning models' ability to predict future events. While current models underperform human experts, the dataset allows for evaluating progress in automating judgmental forecasting across diverse topics and time horizons."
+  }
+]

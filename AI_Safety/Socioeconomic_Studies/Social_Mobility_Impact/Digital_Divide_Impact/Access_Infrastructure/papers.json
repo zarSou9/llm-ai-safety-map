@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three AI governance strategies—Cooperative Development, Strategic Advantage, and Global Moratorium—evaluating their effectiveness based on the difficulty of aligning AI and the timeline for its development. The optimal strategy shifts depending on these factors, with Cooperative Development favored for longer timelines and easier alignment, Strategic Advantage for shorter timelines and moderate alignment difficulty, and Global Moratorium as a last resort for extremely short timelines or very difficult alignment problems."
+  },
+  {
+    "title": "Please Report Your Compute",
+    "abstract": "Seeking consistent means of measure.",
+    "published_date": "2023-04-21",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3563035",
+    "summary": "The paper advocates for standardized reporting of computational resources used in research, aiming to improve reproducibility and comparability of results. It emphasizes the need for consistent measurement methods in this area."
+  },
+  {
+    "title": "Digital inequality beyond the digital divide: conceptualizing adverse digital incorporation in the global South",
+    "abstract": "ABSTRACT Digital systems are significantly associated with inequality in the global South. That association has traditionally been understood in terms of the digital divide or related terminologies whose core conceptualization is the exclusion of some groups from the benefits of digital systems. However, with the growing breadth and depth of digital engagement in the global South, an exclusion worldview is no longer sufficient. What is also needed is an understanding of how inequalities are created for some groups that are included in digital systems. This paper creates such an understanding, drawing from ideas in the development studies literature on chronic poverty to inductively build a model of a new concept: 'adverse digital incorporation', meaning inclusion in a digital system that enables a more-advantaged group to extract disproportionate value from the work or resources of another, less-advantaged group. This new model will enable those involved with digital development to understand why, how and for whom inequality can emerge from the growing use of digital systems in the global South. It creates a systematic framework incorporating the processes, the drivers, and the causes of adverse digital incorporation that will provide detailed new insights. The paper concludes with implications for both digital development researchers and practitioners that derive from the model and its exposure to the broader components of power that shape the inclusionary connection between digital and inequality.",
+    "published_date": "2022-07-07",
+    "citation_count": 67,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/02681102.2022.2068492",
+    "summary": "This paper introduces \"adverse digital incorporation,\" a concept describing how digital inclusion in the Global South can exacerbate existing inequalities by allowing more-advantaged groups to exploit the labor or resources of less-advantaged groups. The authors develop a model to understand the processes, drivers, and causes of this phenomenon, offering insights for digital development researchers and practitioners."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi/p/HvqQm6o8KnwxbdmhZ",
+    "author": "lennart, Jsevillamol, Marius Hobbhahn, Tamay Besiroglu, anson.ho",
+    "title": "Estimating training compute of Deep Learning models",
+    "published_date": "2022-01-20",
+    "summary": "The article presents two methods for estimating the compute used to train deep learning models: directly counting operations or estimating from GPU time. Both methods yield similar estimates, with recommendations provided for utilization rates in the GPU time method."
+  },
+  {
+    "title": "AI Efficiency Index: Identifying Regulatory and Policy Constraints for Resilient National AI Ecosystems",
+    "abstract": "We develop efficiency estimates for the production, implementation and diffusion of artificial intelligence (AI) services. We use a variety of data measuring factors relating to AI input and output. We start by constructing a set of nine different AI efficiency measures using non-parametric technique of data envelopment analysis (DAE). We then proceed to analyse the cross-country time variation of these estimates and compare these with different policy measures and institutional indicators. In particular, we link our AI efficiency measures to general characteristics of a country's innovation system including indicators reflecting product market regulation, tax subsidies for R\\&D investment and institutional factors linked to starting a business and (intellectual) property rights. We find that policy measures differ in their impact on our AI efficiency scores: Tax subsidies are important to enhance start-up investment activity, especially in countries with high barriers to entry and weak property rights. Product market frictions such as public ownership --- especially in the telecommunications industry --- is pernicious to patenting efficiency in the field of AI. Our results highlight the importance of differentiated policy interventions at different stages (and attributes) of the AI production chain.",
+    "published_date": "2021-03-09",
+    "citation_count": 1,
+    "url": "https://www.researchgate.net/publication/350015537_AI_Efficiency_Index_Identifying_Regulatory_and_Policy_Constraints_for_Resilient_National_AI_Ecosystems",
+    "summary": "The paper constructs nine AI efficiency measures using data envelopment analysis to assess cross-country variations, linking these to policy measures and institutional indicators. Findings reveal that tax subsidies boost AI startups, particularly in countries with high barriers to entry, while product market regulations, especially in telecommunications, negatively impact AI patenting efficiency."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/G4KHuYC3pHry6yMhi/compute-research-questions-and-metrics-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Research Questions and Metrics - Transformative AI and Compute [4/4]",
+    "published_date": "2021-11-28",
+    "summary": "This appendix to a series on transformative AI and compute explores research questions related to AI hardware and compute trends, analyzes compute metrics and their limitations, and lists AI hardware startups. It emphasizes the need for more data acquisition, analysis, and interpretation to inform future forecasts and policies regarding AI development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/M3xpp7CZ2JaSafDJB/computer-governance-and-conclusions-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Governance and Conclusions - Transformative AI and Compute [3/4]",
+    "published_date": "2021-10-14",
+    "summary": "This article explores the governance of artificial intelligence (AI) through the control of computing resources. The author argues that the physical, energy, and supply chain constraints of high-performance computing make it a more governable aspect of AI development than other areas, suggesting that restricting access to powerful computing resources could improve AI safety."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uYXAv6Audr2y4ytJe/what-is-compute-transformative-ai-and-compute-1-4",
+    "author": "lennart",
+    "title": "What is Compute? - Transformative AI and Compute [1/4]",
+    "published_date": "2021-09-23",
+    "summary": "This four-part series explores the relationship between computational power and advancements in artificial intelligence, using a simplified model of computing to analyze trends. The first part introduces this model, focusing on digital computing and its components (logic, memory, interconnect), and lays the groundwork for subsequent analyses of compute's role in AI development."
+  }
+]

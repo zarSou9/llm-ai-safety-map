@@ -1,0 +1,65 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2305.02561",
+    "title": "Beneficence Signaling in AI Development Dynamics",
+    "published_date": "2023-05-04",
+    "abstract": "This paper motivates and develops a framework for understanding how the socio-technical systems surrounding AI development interact with social welfare. It introduces the concept of ``signaling'' from evolutionary game theory and demonstrates how it can enhance existing theory and practice surrounding the evaluation and governance of AI systems.",
+    "summary": "This paper proposes a framework using \"signaling\" from game theory to analyze how AI development's socio-technical systems influence social welfare. It argues that this framework improves existing AI evaluation and governance methods."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.08759.pdf",
+    "title": "Value Engineering for Autonomous Agents",
+    "published_date": "2023-02-17",
+    "abstract": "Machine Ethics (ME) is concerned with the design of Artificial Moral Agents (AMAs), i.e. autonomous agents capable of reasoning and behaving according to moral values. Previous approaches have treated values as labels associated with some actions or states of the world, rather than as integral components of agent reasoning. It is also common to disregard that a value-guided agent operates alongside other value-guided agents in an environment governed by norms, thus omitting the social dimension of AMAs. In this blue sky paper, we propose a new AMA paradigm grounded in moral and social psychology, where values are instilled into agents as context-dependent goals. These goals intricately connect values at individual levels to norms at a collective level by evaluating the outcomes most incentivized by the norms in place. We argue that this type of normative reasoning, where agents are endowed with an understanding of norms' moral implications, leads to value-awareness in autonomous agents. Additionally, this capability paves the way for agents to align the norms enforced in their societies with respect to the human values instilled in them, by complementing the value-based reasoning on norms with agreement mechanisms to help agents collectively agree on the best set of norms that suit their human values. Overall, our agent model goes beyond the treatment of values as inert labels by connecting them to normative reasoning and to the social functionalities needed to integrate value-aware agents into our modern hybrid human-computer societies.",
+    "citation_count": 3,
+    "summary": "This paper proposes a novel paradigm for Artificial Moral Agents (AMAs) that integrates values as context-dependent goals, connecting individual values to collective norms through normative reasoning and agreement mechanisms, thereby fostering value-awareness and social integration of AMAs. This approach moves beyond treating values as simple labels, incorporating moral and social psychology to achieve alignment between agent actions and human values."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.11441.pdf",
+    "title": "Human-centered mechanism design with Democratic AI",
+    "published_date": "2022-01-27",
+    "abstract": "Building artificial intelligence (AI) that aligns with human values is an unsolved problem. Here, we developed a human-in-the-loop research pipeline called Democratic AI, in which reinforcement learning is used to design a social mechanism that humans prefer by majority. A large group of humans played an online investment game that involved deciding whether to keep a monetary endowment or to share it with others for collective benefit. Shared revenue was returned to players under two different redistribution mechanisms, one designed by the AI and the other by humans. The AI discovered a mechanism that redressed initial wealth imbalance, sanctioned free riders, and successfully won the majority vote. By optimizing for human preferences, Democratic AI may be a promising method for value-aligned policy innovation.",
+    "citation_count": 2,
+    "summary": "Democratic AI, a human-in-the-loop reinforcement learning system, designed a social mechanism preferred by a majority of human participants in an online investment game, demonstrating its potential for value-aligned policy innovation by optimizing for human preferences. This mechanism successfully addressed wealth inequality and punished free-riders."
+  },
+  {
+    "url": "https://arxiv.org/abs/2105.08475",
+    "title": "AI and Shared Prosperity",
+    "published_date": "2021-05-18",
+    "abstract": "Future advances in AI that automate away human labor may have stark implications for labor markets and inequality. This paper proposes a framework to analyze the effects of specific types of AI systems on the labor market, based on how much labor demand they will create versus displace, while taking into account that productivity gains also make society wealthier and thereby contribute to additional labor demand. This analysis enables ethically-minded companies creating or deploying AI systems as well as researchers and policymakers to take into account the effects of their actions on labor markets and inequality, and therefore to steer progress in AI in a direction that advances shared prosperity and an inclusive economic future for all of humanity.",
+    "citation_count": 25,
+    "summary": "This paper presents a framework for analyzing AI's impact on labor markets and inequality, considering both job displacement and creation alongside productivity-driven wealth generation. The goal is to guide ethical AI development and deployment towards shared prosperity."
+  },
+  {
+    "url": "https://arxiv.org/abs/2106.06060",
+    "title": "AI-driven Prices for Externalities and Sustainability in Production Markets",
+    "published_date": "2021-06-10",
+    "abstract": "Traditional competitive markets do not account for negative externalities; indirect costs that some participants impose on others, such as the cost of over-appropriating a common-pool resource (which diminishes future stock, and thus harvest, for everyone). Quantifying appropriate interventions to market prices has proven to be quite challenging. We propose a practical approach to computing market prices and allocations via a deep reinforcement learning policymaker agent, operating in an environment of other learning agents. Our policymaker allows us to tune the prices with regard to diverse objectives such as sustainability and resource wastefulness, fairness, buyers' and sellers' welfare, etc. As a highlight of our findings, our policymaker is significantly more successful in maintaining resource sustainability, compared to the market equilibrium outcome, in scarce resource environments.",
+    "citation_count": 3,
+    "summary": "This paper proposes using deep reinforcement learning to adjust market prices and resource allocations, addressing the market failure of neglecting negative externalities like resource depletion. The resulting AI-driven pricing mechanism demonstrates improved resource sustainability compared to traditional market equilibria, particularly in scarce resource scenarios."
+  },
+  {
+    "url": "https://arxiv.org/abs/2101.06060v1",
+    "title": "The Challenge of Value Alignment: from Fairer Algorithms to AI Safety",
+    "published_date": "2021-01-15",
+    "abstract": "This paper addresses the question of how to align AI systems with human values and situates it within a wider body of thought regarding technology and value. Far from existing in a vacuum, there has long been an interest in the ability of technology to 'lock-in' different value systems. There has also been considerable thought about how to align technologies with specific social values, including through participatory design-processes. In this paper we look more closely at the question of AI value alignment and suggest that the power and autonomy of AI systems gives rise to opportunities and challenges in the domain of value that have not been encountered before. Drawing important continuities between the work of the fairness, accountability, transparency and ethics community, and work being done by technical AI safety researchers, we suggest that more attention needs to be paid to the question of 'social value alignment' - that is, how to align AI systems with the plurality of values endorsed by groups of people, especially on the global level.",
+    "citation_count": 34,
+    "summary": "This paper argues that aligning AI with human values requires addressing both technical safety and social value alignment, acknowledging the unique challenges posed by AI's autonomy and the need to reconcile diverse global values. It emphasizes the interconnectedness of fairness, accountability, transparency, and ethics research with AI safety efforts."
+  },
+  {
+    "url": "https://arxiv.org/abs/2110.14419v2",
+    "title": "Toward a Theory of Justice for Artificial Intelligence",
+    "published_date": "2021-10-27",
+    "abstract": "Abstract This essay explores the relationship between artificial intelligence and principles of distributive justice. Drawing upon the political philosophy of John Rawls, it holds that the basic structure of society should be understood as a composite of sociotechnical systems, and that the operation of these systems is increasingly shaped and influenced by AI. Consequently, egalitarian norms of justice apply to the technology when it is deployed in these contexts. These norms entail that the relevant AI systems must meet a certain standard of public justification, support citizens' rights, and promote substantively fair outcomes, something that requires particular attention to the impact they have on the worst-off members of society.",
+    "citation_count": 40,
+    "summary": "This essay argues that principles of distributive justice, specifically Rawls's theory, should apply to AI systems within society's basic structure, requiring these systems to be publicly justifiable, uphold citizens' rights, and promote fair outcomes, especially for the most disadvantaged."
+  },
+  {
+    "title": "AI and Shared Prosperity",
+    "abstract": "Future advances in AI that automate away human labor may have stark implications for labor markets and inequality. This paper proposes a framework to analyze the effects of specific types of AI systems on the labor market, based on how much labor demand they will create versus displace, while taking into account that productivity gains also make society wealthier and thereby contribute to additional labor demand. This analysis enables ethically-minded companies creating or deploying AI systems as well as researchers and policymakers to take into account the effects of their actions on labor markets and inequality, and therefore to steer progress in AI in a direction that advances shared prosperity and an inclusive economic future for all of humanity.",
+    "published_date": "2021-05-18",
+    "citation_count": 25,
+    "url": "https://dl.acm.org/doi/10.1145/3461702.3462619",
+    "summary": "This paper presents a framework for analyzing AI's impact on labor markets and inequality, considering both job displacement and the creation of new jobs due to productivity gains, aiming to guide ethical AI development for shared prosperity."
+  }
+]

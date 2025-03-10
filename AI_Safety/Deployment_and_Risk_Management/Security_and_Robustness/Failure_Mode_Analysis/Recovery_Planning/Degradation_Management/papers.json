@@ -1,0 +1,41 @@
+[
+  {
+    "title": "A Deep Reinforcement Learning Approach to Dynamic Loading Strategy of Repairable Multistate Systems",
+    "abstract": "As multistate system (MSS) reliability models can characterize the multistate deteriorating nature of engineering systems, they have received considerable attention in the past decade. The states of a multistate system/component can be distinguished by its performance capacity, which deteriorates over time and can be restored by maintenance activities. On the other hand, the deterioration of a system/component is, oftentimes, controllable by setting a loading strategy. In this article, a dynamic load optimization problem for repairable MSSs is investigated to achieve the maximum expected cumulative performance within a finite time horizon and limited maintenance resources. The degraded components in a system are dynamically maintained to recover to their better conditions, whereas the performance rate of each component can also be dynamically specified. The resulting sequential decision problem is formulated as a Markov decision process with a continuous action space and a mixed integer discrete continuous state space. The deep deterministic policy gradient algorithm, which is a specific deep reinforcement learning algorithm in the actor−critic framework, is customized to overcome the “curse of dimensionality” and mitigate the uncountable state and action spaces. The effectiveness of the proposed method is examined by two illustrative examples, and a set of comparative studies are conducted to demonstrate the advantage of the proposed dynamic loading strategy.",
+    "published_date": "2022-03-01",
+    "citation_count": 18,
+    "url": "https://ieeexplore.ieee.org/document/9335476/"
+  },
+  {
+    "title": "Performance-oriented risk evaluation and maintenance for multi-asset systems: A Bayesian perspective",
+    "abstract": "In this article, we present a risk evaluation and maintenance strategy optimization approach for systems with parallel identical assets subject to continuous deterioration. System performance is de...",
+    "published_date": "2021-02-19",
+    "citation_count": 13,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/24725854.2020.1869871"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BY5f7iEzHtEDJLXS7/prediction-what-war-between-the-usa-and-china-would-look",
+    "author": "lsusr",
+    "title": "[Prediction] What war between the USA and China would look like in 2050",
+    "published_date": "2021-05-26"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/XvJWeFw78zmzc5iTg",
+    "author": "jefftk",
+    "title": "T-Mobile: Spurious Account Takeover Warning",
+    "published_date": "2021-10-23"
+  },
+  {
+    "title": "Post-disruption performance recovery to enhance resilience of interconnected network systems",
+    "abstract": "ABSTRACT Mitigating the effect of disruptive events at the operating phase of complex systems therefore improving the systems' resilience is an important yet challenging task. To improve the resilience, one way is to enhance the failure restoration capability with appropriate performance recovery strategies. However, considering different characteristics of disruptive events, the challenge is to develop a generally applicable framework to optimally coordinate different recovery strategies within a given budget. In order to tackle the challenge, this paper presents a post-disruption recovery framework for networked systems to optimize the performance. In this study, coordination of different recovery agents is achieved by using mathematical programming technique, while the assignment of the required resource for restoration is found by a heuristic algorithm. Case studies based on IEEE test feeders are used to demonstrate the feasibility of the developed framework, as well as the effects of optimal resource allocation nested in the restoration framework.",
+    "published_date": "2019-08-18",
+    "citation_count": 18,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/23789689.2019.1710073"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/3bcjPhwCnnMonc4EP/stabilize-reflect-execute",
+    "author": "ozziegooen",
+    "title": "Stabilize-Reflect-Execute",
+    "published_date": "2018-11-28"
+  }
+]

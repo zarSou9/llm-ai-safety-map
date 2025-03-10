@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2402.08797.pdf",
+    "title": "Computing Power and the Governance of Artificial Intelligence",
+    "published_date": "2024-02-13",
+    "abstract": "Computing power, or\"compute,\"is crucial for the development and deployment of artificial intelligence (AI) capabilities. As a result, governments and companies have started to leverage compute as a means to govern AI. For example, governments are investing in domestic compute capacity, controlling the flow of compute to competing countries, and subsidizing compute access to certain sectors. However, these efforts only scratch the surface of how compute can be used to govern AI development and deployment. Relative to other key inputs to AI (data and algorithms), AI-relevant compute is a particularly effective point of intervention: it is detectable, excludable, and quantifiable, and is produced via an extremely concentrated supply chain. These characteristics, alongside the singular importance of compute for cutting-edge AI models, suggest that governing compute can contribute to achieving common policy objectives, such as ensuring the safety and beneficial use of AI. More precisely, policymakers could use compute to facilitate regulatory visibility of AI, allocate resources to promote beneficial outcomes, and enforce restrictions against irresponsible or malicious AI development and usage. However, while compute-based policies and technologies have the potential to assist in these areas, there is significant variation in their readiness for implementation. Some ideas are currently being piloted, while others are hindered by the need for fundamental research. Furthermore, naive or poorly scoped approaches to compute governance carry significant risks in areas like privacy, economic impacts, and centralization of power. We end by suggesting guardrails to minimize these risks from compute governance.",
+    "citation_count": 16,
+    "summary": "Governments and companies increasingly use control over computing power to govern artificial intelligence development and deployment, leveraging its unique quantifiable and controllable nature to promote beneficial AI and mitigate risks; however, effective implementation requires careful consideration of potential downsides such as privacy violations and power centralization."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.12338",
+    "title": "Making intellectual property rights work for climate technology transfer and innovation in developing countries",
+    "published_date": "2024-08-22",
+    "abstract": "This study investigates the controversial role of Intellectual Property Rights (IPRs) in climate technology transfer and innovation in developing countries. Using a systematic literature review and expert interviews, we assess the role of IPRs on three sources of climate technology: (1) international technology transfer, (2) adaptive innovation, and (3) indigenous innovation. Our contributions are threefold. First, patents have limited impact in any of these channels, suggesting that current debates over IPRs may be directed towards the wrong targets. Second, trademarks and utility models provide incentives for climate innovation in the countries studied. Third, drawing from the results, we develop a framework to guide policy on how IPRs can work better in the broader context of climate and trade policies, outlining distinct mechanisms to support mitigation and adaptation. Our results indicate that market mechanisms, especially trade and demand-pull policies, should be prioritised for mitigation solutions. Adaptation differs, relying more on indigenous innovation due to local needs and low demand. Institutional mechanisms, such as finance and co-development, should be prioritised to build innovation capacities for adaptation.",
+    "summary": "This study finds that patents play a limited role in climate technology transfer and innovation in developing countries, while trademarks and utility models offer more effective incentives. The authors propose a policy framework prioritizing market mechanisms for mitigation and institutional support for adaptation-focused indigenous innovation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to computing resources used for AI development, is a promising but largely unexplored AI governance strategy. While some measures like export controls exist, research primarily focuses on improving visibility, allocating compute resources strategically, and enforcing regulations through technological and policy mechanisms."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, examines AI model registries—centralized databases tracking AI systems for governance purposes. These registries, mandated by governments like China's, require information on AI models before public release, offering a basis for targeted AI regulation and drawing parallels to existing product registration precedents like pharmaceutical regulations."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three strategies for governing transformative AI: Cooperative Development, Strategic Advantage, and Global Moratorium. The effectiveness of each strategy depends heavily on the difficulty of aligning AI and the timeframe for its development, with preferences shifting based on these variables."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/vzGC4zh73dfcqnFgf/open-source-ai-a-regulatory-review",
+    "author": "Elliot_Mckernon, Deric Cheng",
+    "title": "Open-Source AI: A Regulatory Review",
+    "published_date": "2024-04-29",
+    "summary": "This article examines the implications of open-sourcing AI models, focusing on the trade-offs between fostering collaboration and potentially increasing risks from misuse. It highlights the varying levels of openness (e.g., open weights vs. full open source) and discusses the challenges of mitigating information hazards associated with powerful, readily available AI models."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8u8x2bSpG9LLa8jfN/report-evaluating-an-ai-chip-registration-policy",
+    "author": "Deric Cheng",
+    "title": "Report: Evaluating an AI Chip Registration Policy",
+    "published_date": "2024-04-12",
+    "summary": "This report analyzes the feasibility and effectiveness of a proposed US policy requiring registration and reporting of high-end AI chips, arguing that such a policy could strengthen export controls, aid in AI risk mitigation, and serve as a foundation for broader AI governance, while also considering potential impacts on innovation. The report examines existing precedents and proposes specific legislative recommendations."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The article advocates for third-party testing of large-scale AI systems to mitigate societal harms, arguing that a robust testing regime, involving industry, government, and academia, is crucial for responsible AI development and deployment, balancing innovation with safety and preventing potential misuse. This approach would build trust, avoid overly burdensome regulation for smaller companies, and facilitate international cooperation."
+  }
+]

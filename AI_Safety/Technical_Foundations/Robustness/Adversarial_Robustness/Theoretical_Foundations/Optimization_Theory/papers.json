@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/csiAvRMGG5aAWvKWb/draft-introduction-to-optimization",
+    "author": "Alex_Altair",
+    "title": "Draft: Introduction to optimization",
+    "published_date": "2023-03-26"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/szXa8QgxjMypabJgN/thoughts-on-loss-landscapes-and-why-deep-learning-works",
+    "author": "beren",
+    "title": "Thoughts on Loss Landscapes and why Deep Learning works",
+    "published_date": "2023-07-25"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/X3uxRXHonFYTu6zjW/a-dynamical-systems-primer-for-entropy-and-optimization",
+    "author": "Alex_Altair",
+    "title": "A dynamical systems primer for entropy and optimization",
+    "published_date": "2022-12-10"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/QPqztHpToij2nx7ET/hessian-and-basin-volume",
+    "author": "Vivek Hebbar",
+    "title": "Hessian and Basin volume",
+    "published_date": "2022-07-10"
+  },
+  {
+    "title": "Some new optimality conditions for semivector bilevel optimization program",
+    "abstract": "This paper discusses a kind of non-convex, non-smooth optimistic semivector bilevel optimization programs which equipped with a vector lower level problem. We introduce a class of new gap functions and penalty functions to transform this two level program into a one level scalar-objective optimization problem. Furthermore, we derive first-order optimality conditions for this semivector bilevel program in both global and local sense, using calculus of basic subdifferential and partial calmness. By applying new developments in basic subdifferential, we estimate basic subdifferential of gap functions and penalty functions which specify the former mentioned optimality conditions.",
+    "published_date": "2021-01-24",
+    "citation_count": 1,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/02331934.2021.1873989"
+  },
+  {
+    "title": "Optimization Algorithms for Large-Scale Systems: From Deep Learning to Energy Markets",
+    "abstract": "Brief Biography: Navid Azizan is a fifth-year PhD candidate in Computing and Mathematical Sciences (CMS) at the California Institute of Technology (Caltech), where he is co-advised by Adam Wierman and Babak Hassibi, and is a member of multiple research groups: DOLCIT, RSRG and SISL. During the summer of 2019, he was a research scientist intern at Google DeepMind. He received the B.Sc. degree in EE form Sharif University of Technology and the M.Sc. degree in ECE from the University of Southern California, in 2013 and 2015, respectively. His research interests broadly lie in mathematical optimization, machine learning, networks, and markets. He is the recipient of several awards, including the 2016 ACM GreenMetrics Best Student Paper Award, the Amazon Fellowship in Artificial Intelligence, the PIMCO Fellowship in Data Science, the Caltech CMS Fellowship, and the USC Provost's Fellowship.",
+    "published_date": "2020-01-23",
+    "url": "https://dl.acm.org/doi/10.1145/3380908.3380910"
+  }
+]

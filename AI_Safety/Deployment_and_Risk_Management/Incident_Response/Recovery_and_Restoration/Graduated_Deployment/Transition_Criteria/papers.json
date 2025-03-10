@@ -1,0 +1,41 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.09678",
+    "title": "Integrating Graceful Degradation and Recovery Through Requirement-Driven Adaptation",
+    "published_date": "2024-01-18",
+    "abstract": "Cyber-physical systems (CPS) are subject to environmental uncertainties such as adverse operating conditions, malicious attacks, and hardware degradation. These uncertainties may lead to failures that put the system in a sub-optimal or unsafe state. Systems that are resilient to such uncertainties rely on two types of operations: (1) graceful degradation, for ensuring that the system maintains an acceptable level of safety during unexpected environmental conditions and (2) recovery, to facilitate the resumption of normal system functions. Typically, mechanisms for degradation and recovery are developed independently from each other, and later integrated into a system, requiring the designer to develop an additional, ad-hoc logic for activating and coordinating between the two operations. In this paper, we propose a self-adaptation approach for improving system resiliency through automated triggering and coordination of graceful degradation and recovery. The key idea behind our approach is to treat degradation and recovery as requirement-driven adaptation tasks: Degradation can be thought of as temporarily weakening original (i.e., ideal) system requirements to be achieved by the system, and recovery as strengthening the weakened requirements when the environment returns within an expected operating boundary. Furthermore, by treating weakening and strengthening as dual operations, we argue that a single requirement-based adaptation method is sufficient to enable coordination between degradation and recovery. Given system requirements specified in signal temporal logic (STL), we propose a run-time adaptation framework that performs degradation and recovery in response to environmental changes. We describe a prototype implementation of our framework and demonstrate the feasibility of the proposed approach using a case study in unmanned underwater vehicles."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.15025.pdf",
+    "title": "On the Need for Artifacts to Support Research on Self-Adaptation Mature for Industrial Adoption",
+    "published_date": "2023-03-27",
+    "abstract": "Despite the vast body of knowledge developed by the self-adaptive systems community and the wide use of self-adaptation in industry, it is unclear whether or to what extent industry leverages output of academics. Hence, it is important for the research community to answer the question: Are the solutions developed by the self-adaptive systems community mature enough for industrial adoption? Leveraging a set of empirically-grounded guidelines for industry-relevant artifacts in self-adaptation, we develop a position to answer this question from the angle of using artifacts for evaluating research results in self-adaptation, which is actively stimulated and applied by the community"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2210.09059.pdf",
+    "title": "Space Trusted Autonomy Readiness Levels",
+    "published_date": "2022-10-13",
+    "abstract": "Technology Readiness Levels are a mainstay for organizations that fund, develop, test, acquire, or use technologies. Technology Readiness Levels provide a standardized assessment of a technology's maturity and enable consistent comparison among technologies. They inform decisions throughout a technology's development life cycle, from concept, through development, to use. A variety of alternative Readiness Levels have been developed, including Algorithm Readiness Levels, Manufacturing Readiness Levels, Human Readiness Levels, Commercialization Readiness Levels, Machine Learning Readiness Levels, and Technology Commitment Levels. However, while Technology Readiness Levels have been increasingly applied to emerging disciplines, there are unique challenges to assessing the rapidly developing capabilities of autonomy. This paper adopts the moniker of Space Trusted Autonomy Readiness Levels to identify a two-dimensional scale of readiness and trust appropriate for the special challenges of assessing autonomy technologies that seek space use. It draws inspiration from other readiness levels' definitions, and from the rich field of trust and trustworthiness. The Space Trusted Autonomy Readiness Levels were developed by a collaborative Space Trusted Autonomy subgroup, which was created from The Space Science and Technology Partnership Forum between the United States Space Force, the National Aeronautics and Space Administration, and the National Reconnaissance Office.",
+    "citation_count": 6
+  },
+  {
+    "url": "https://arxiv.org/abs/2110.10718",
+    "title": "Bootstrapping confidence in future safety based on past safe operation",
+    "published_date": "2021-10-20",
+    "abstract": "With autonomous vehicles (AVs), a major concern is the inability to give meaningful quantitative assurance of safety, to the extent required by society - e.g. that an AV must be at least as safe as a good human driver - before that AV is in extensive use. We demonstrate an approach to achieving more moderate, but useful, confidence, e.g., confidence of low enough probability of causing accidents in the early phases of operation. This formalises mathematically the common approach of operating a system on a limited basis in the hope that mishap-free operation will confirm one's confidence in its safety and allow progressively more extensive operation: a process of\"bootstrapping\"of confidence. Translating that intuitive approach into theorems shows: (1) that it is substantially sound in the right circumstances, and could be a good method for deciding about the early deployment phase for an AV; (2) how much confidence can be rightly derived from such a\"cautious deployment\"approach, so that we can avoid over-optimism; (3) under which conditions our sound formulas for future confidence are applicable; (4) thus, which analyses of the concrete situations, and/or constraints on practice, are needed in order to enjoy the advantages of provably correct confidence in adequate future safety.",
+    "citation_count": 2
+  },
+  {
+    "title": "Engineering Readiness: How the TRL Figure of Merit Coordinates Technology Development",
+    "abstract": "ABSTRACT This paper demonstrates the coordinating roles played by decision-making concepts such as Technology Readiness Level (TRL) in industrial engineering practice, where technology development is increasingly complex, involving diverse stakeholders, engineering tools and sociotechnical objects. Such distributed practices demand coordinated efforts across specialized units with diverging interests and perspectives on how development is being defined and accounted for. Nonetheless, coordinating roles of decision-making concepts in industry have largely escaped the recent attention of scholars within engineering studies and Science and Technology Studies. This paper offers an auto-ethnographic study of how the TRL figure of merit was deployed in an industrial organization. We ask how TRL is made to perform as an effective coordinating device. Following the TRL device across project meetings, we consider the three moments of a calculative device as defined by Michel Callon and Fabian Muniesa, to illuminate how TRL serves to circumscribe, configure and coordinate encounters and activity in a technology development project, as managed by the corresponding author. Contrary to linear and mechanistic understandings within management thinking, we show TRL is more than a figure of merit for measuring progress. In the hands of skilled practitioners, TRL also performs as a centralized calculating device to orchestrate distributed activities.",
+    "published_date": "2020-01-02",
+    "citation_count": 5,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/19378629.2020.1728282"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/N7KYWJPmyzB6bJSYT/the-next-ai-winter-will-be-due-to-energy-costs-1",
+    "author": "hippke",
+    "title": "The next AI winter will be due to energy costs",
+    "published_date": "2020-11-24"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three AI governance strategies—Cooperative Development, Strategic Advantage, and Global Moratorium—evaluating their effectiveness based on the difficulty of achieving AI alignment and the projected timeline for advanced AI development. The optimal strategy shifts depending on these factors, with Cooperative Development favored under easier alignment and longer timelines, Strategic Advantage under shorter timelines, and Global Moratorium as a last resort for extremely challenging scenarios."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization",
+    "published_date": "2021-06-04",
+    "summary": "This article examines the application of game theory to AI development within organizational structures, highlighting both its benefits in multi-agent systems and limitations in fully capturing complex bureaucratic dynamics. It argues that despite AI advancements, human-AI collaboration within bureaucratic frameworks, leveraging comparative advantage and specialized tasks, remains crucial for efficient problem-solving and goal achievement."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/Tp3ryR4AxY56ctGh2/p/sdxZdGFtAwHGFGKhg",
+    "author": "abergal, Nick_Beckstead, Owain_Evans",
+    "title": "Truthful and honest AI",
+    "published_date": "2021-10-29",
+    "summary": "This article proposes research into creating \"truthful\" AI systems that avoid falsehoods and \"honest\" AI systems that accurately report their beliefs. The authors argue that developing such systems is crucial for mitigating risks associated with advanced AI and enhancing societal benefits."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/LBwpubeZSi3ottfjs/aisc5-retrospective-mechanisms-for-avoiding-tragedy-of-the",
+    "author": "Ariel Kwiatkowski, Quinn, bengr",
+    "title": "AISC5 Retrospective: Mechanisms for Avoiding Tragedy of the Commons in Common Pool Resource Problems",
+    "published_date": "2021-09-27",
+    "summary": "This paper investigates mitigating the tragedy of the commons using a reputation system in a simulated environment. The system incentivizes cooperation among self-interested agents by rewarding sustainable resource harvesting and penalizing defection, aiming to achieve higher collective rewards while minimizing conflict."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/G4KHuYC3pHry6yMhi/compute-research-questions-and-metrics-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Research Questions and Metrics - Transformative AI and Compute [4/4]",
+    "published_date": "2021-11-28",
+    "summary": "This appendix to a series on transformative AI and compute explores key research questions related to AI hardware, compute trends, and their economic implications. It also presents common compute metrics, their limitations, and a list of AI hardware startups."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/M3xpp7CZ2JaSafDJB/computer-governance-and-conclusions-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Governance and Conclusions - Transformative AI and Compute [3/4]",
+    "published_date": "2021-10-14",
+    "summary": "This article explores the governance of computing resources in the context of transformative AI, arguing that its physical requirements (space, energy, supply chain) make it a uniquely governable aspect of AI development. The author suggests that controlling compute access could improve AI safety, although concrete policy consensus is still lacking."
+  },
+  {
+    "title": "Auxiliary-task Based Deep Reinforcement Learning for Participant Selection Problem in Mobile Crowdsourcing",
+    "abstract": "In mobile crowdsourcing (MCS), the platform selects participants to complete location-aware tasks from the recruiters aiming to achieve multiple goals (e.g., profit maximization, energy efficiency, and fairness). However, different MCS systems have different goals and there are possibly conflicting goals even in one MCS system. Therefore, it is crucial to design a participant selection algorithm that applies to different MCS systems to achieve multiple goals. To deal with this issue, we formulate the participant selection problem as a reinforcement learning problem and propose to solve it with a novel method, which we call auxiliary-task based deep reinforcement learning (ADRL). We use transformers to extract representations from the context of the MCS system and a pointer network to deal with the combinatorial optimization problem. To improve the sample efficiency, we adopt an auxiliary-task training process that trains the network to predict the imminent tasks from the recruiters, which facilitates the embedding learning of the deep learning model. Additionally, we release a simulated environment on a specific MCS task, the ride-sharing task, and conduct extensive performance evaluations in this environment. The experimental results demonstrate that ADRL outperforms and improves sample efficiency over other well-recognized baselines in various settings.",
+    "published_date": "2020-08-25",
+    "citation_count": 17,
+    "url": "https://dl.acm.org/doi/10.1145/3340531.3411913",
+    "summary": "This paper proposes ADRL, a novel auxiliary-task based deep reinforcement learning approach for participant selection in mobile crowdsourcing, addressing the challenge of achieving multiple, potentially conflicting goals by using transformers and a pointer network, and improving sample efficiency through auxiliary task training. Experiments on a simulated ride-sharing environment demonstrate superior performance compared to existing methods."
+  },
+  {
+    "title": "What's in a word? Platforms Supporting the Platform Economy",
+    "abstract": "This paper aspires to develop a deeper understanding of the sharing/collaborative/platform economy, and in particular of the technical mechanisms upon which the digital platforms supporting it are built. In surveying the research literature, the paper identifies a gap between studies from economical, social or socio-technical angles, and presentations of detailed technical solutions. Most cases study larger, 'monotechnological' platforms, rather than local platforms that lend components from several technologies. Almost no literature takes a design perspective. Rooted in Sharing & Caring, an EU COST Action (network), the paper presents work to systematically map out functionalities across domains of the sharing economy. The 145 technical mechanisms we collected illustrate how most platforms are depending on a limited number of functionalities that lack in terms of holding communities together. The paper points to the necessity of a better terminology and concludes by discussing challenges and opportunities for the design of future and more inclusive platforms.",
+    "published_date": "2020-10-25",
+    "citation_count": 17,
+    "url": "https://dl.acm.org/doi/10.1145/3419249.3420167",
+    "summary": "This paper analyzes the technical underpinnings of sharing economy platforms, revealing a gap in research between economic/social studies and detailed technical descriptions, particularly concerning diverse, locally-focused platforms. It proposes a systematic mapping of platform functionalities to improve design and foster more inclusive and community-focused platforms."
+  }
+]

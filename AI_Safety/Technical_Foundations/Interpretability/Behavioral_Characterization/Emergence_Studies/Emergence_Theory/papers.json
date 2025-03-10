@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://www.lesswrong.com/tag/evolutionary-algorithm",
+    "title": "Evolutionary Algorithm - LessWrong",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/oSPhmfnMGgGrpe7ib/properties-of-current-ais-and-some-predictions-of-the",
+    "author": "Roman Leventov",
+    "title": "Properties of current AIs and some predictions of the evolution of AI from the perspective of scale-free theories of agency and regulative development",
+    "published_date": "2022-12-20"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.14707.pdf",
+    "title": "Emergence and algorithmic information dynamics of systems and observers",
+    "published_date": "2021-05-31",
+    "abstract": "One of the challenges of defining emergence is that one observer's prior knowledge may cause a phenomenon to present itself as emergent that to another observer appears reducible. By formalizing the act of observing as mutual perturbations between dynamical systems, we demonstrate that the emergence of algorithmic information does depend on the observer's formal knowledge, while being robust vis-a-vis other subjective factors, particularly: the choice of programming language and method of measurement; errors or distortions during the observation; and the informational cost of processing. This is called observer-dependent emergence (ODE). In addition, we demonstrate that the unbounded and rapid increase of emergent algorithmic information implies asymptotically observer-independent emergence (AOIE). Unlike ODE, AOIE is a type of emergence for which emergent phenomena will be considered emergent no matter what formal theory an observer might bring to bear. We demonstrate the existence of an evolutionary model that displays the diachronic variant of AOIE and a network model that displays the holistic variant of AOIE. Our results show that, restricted to the context of finite discrete deterministic dynamical systems, computable systems and irreducible information content measures, AOIE is the strongest form of emergence that formal theories can attain. This article is part of the theme issue 'Emergent phenomena in complex physical and socio-technical systems: from cells to societies'.",
+    "citation_count": 12
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.07194v1.pdf",
+    "title": "Multiagent multimodal categorization for symbol emergence: emergent communication via interpersonal cross-modal inference",
+    "published_date": "2021-09-15",
+    "abstract": "This paper describes a computational model of multiagent multimodal categorization that realizes emergent communication. We clarify whether the computational model can reproduce the following functions in a symbol emergence system, comprising two agents with different sensory modalities playing a naming game. (1) Function for forming a shared lexical system that comprises perceptual categories and corresponding signs, formed by agents through individual learning and semiotic communication. (2) Function to improve the categorization accuracy in an agent via semiotic communication with another agent, even when some sensory modalities of each agent are missing. (3) Function that an agent infers unobserved sensory information based on a sign sampled from another agent in the same manner as cross-modal inference. We propose an interpersonal multimodal Dirichlet mixture (Inter-MDM), which is derived by dividing an integrative probabilistic generative model, which is obtained by integrating two Dirichlet mixtures (DMs). The Markov chain Monte Carlo algorithm realizes emergent communication. The experimental results demonstrated that Inter-MDM enables agents to form multimodal categories and appropriately share signs between agents. It is shown that emergent communication improves categorization accuracy, even when some sensory modalities are missing. Inter-MDM enables an agent to predict unobserved information based on a shared sign. GRAPHICAL ABSTRACT",
+    "citation_count": 15
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.04775v1.pdf",
+    "title": "Structured Diversification Emergence via Reinforced Organization Control and Hierarchical Consensus Learning",
+    "published_date": "2021-02-09",
+    "abstract": "When solving a complex task, humans will spontaneously form teams and to complete different parts of the whole task, respectively. Meanwhile, the cooperation between teammates will improve efficiency. However, for current cooperative MARL methods, the cooperation team is constructed through either heuristics or end-to-end blackbox optimization. In order to improve the efficiency of cooperation and exploration, we propose a structured diversification emergence MARL framework named {\\sc{Rochico}} based on reinforced organization control and hierarchical consensus learning. {\\sc{Rochico}} first learns an adaptive grouping policy through the organization control module, which is established by independent multi-agent reinforcement learning. Further, the hierarchical consensus module based on the hierarchical intentions with consensus constraint is introduced after team formation. Simultaneously, utilizing the hierarchical consensus module and a self-supervised intrinsic reward enhanced decision module, the proposed cooperative MARL algorithm {\\sc{Rochico}} can output the final diversified multi-agent cooperative policy. All three modules are organically combined to promote the structured diversification emergence. Comparative experiments on four large-scale cooperation tasks show that {\\sc{Rochico}} is significantly better than the current SOTA algorithms in terms of exploration efficiency and cooperation strength.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/pdf/2009.12210v1.pdf",
+    "title": "Emergence of complex data from simple local rules in a network game",
+    "published_date": "2020-09-23",
+    "abstract": "As one of the main subjects of investigation in data science, network science has been demonstrated a wide range of applications to real-world networks analysis and modeling. For example, the pervasive presence of structural or topological characteristics, such as the small-world phenomenon, small-diameter, scale-free properties, or fat-tailed degree distribution were one of the underlying pillars fostering the study of complex networks. Relating these phenomena with other emergent properties in complex systems became a subject of central importance. By introducing new implications on the interface between data science and complex systems science with the purpose of tackling some of these issues, in this article we present a model for a network game played by complex networks in which nodes are computable systems. In particular, we present and discuss how some network topological properties and simple local communication rules are able to generate a phase transition with respect to the emergence of incompressible data.",
+    "citation_count": 1
+  }
+]

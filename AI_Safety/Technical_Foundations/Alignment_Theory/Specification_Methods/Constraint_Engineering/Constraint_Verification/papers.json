@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/dPpA79MjPdDd87YoW/understanding-goedel-s-completeness-theorem",
+    "author": "Jessicata",
+    "title": "Understanding Gödel's completeness theorem",
+    "published_date": "2024-05-27"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/a7YgzDYx4FhdB3TmR/an-155-a-minecraft-benchmark-for-algorithms-that-learn",
+    "author": "Rohin Shah",
+    "title": "[AN #155]: A Minecraft benchmark for algorithms that learn without reward functions",
+    "published_date": "2021-07-08"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06"
+  },
+  {
+    "title": "Constraint violation reduction search for 0–1 mixed integer linear programming problems",
+    "abstract": "This article presents Constraint Violation Reduction Search (CVRS), a primal heuristic for 0–1 Mixed Integer Linear Programming (MILP) problems. CVRS constructs a series of MILP subproblems by adding artificial variables representing the amount by which each constraint is violated and minimizing their sum in the objective function. A cutoff constraint added to each subproblem ensures that the objective function value of the original MILP problem improves at each iteration. If no integer feasible solution to the MILP subproblem can be found, a neighbourhood search is used to repair the infeasibility. CVRS is tested on 99 hard instances of resource constrained project scheduling, Mixed Integer Programming Library (MIPLIB) and capacitated warehouse location, and its performance is compared to a recent neighbourhood search based primal heuristic for MILP and the CPLEX MILP solver with promising results.",
+    "published_date": "2020-04-20",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/0305215X.2020.1742710"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/z7SuGwxTBnQm8uFq4/bounded-versions-of-goedel-s-and-loeb-s-theorems",
+    "author": "cousin_it",
+    "title": "Bounded versions of Gödel's and Löb's theorems",
+    "published_date": "2012-06-27"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/as6fgfjY9nAMq5bWZ/induction-deduction-and-the-collatz-conjecture-the-decidedly",
+    "author": "Ronny Fernandez",
+    "title": "Induction, Deduction, and the Collatz Conjecture: the Decidedly Undecidable Propositions.",
+    "published_date": "2011-06-15"
+  }
+]

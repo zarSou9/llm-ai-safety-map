@@ -1,0 +1,42 @@
+[
+  {
+    "url": "http://arxiv.org/pdf/2404.02147",
+    "title": "Visualization for Human-Centered AI Tools",
+    "published_date": "2024-04-02",
+    "abstract": "Human-centered AI (HCAI) puts the user in the driver's seat of so-called human-centered AI-infused tools (HCAI tools): interactive software tools that amplify, augment, empower, and enhance human performance using AI models. We discuss how interactive visualization can be a key enabling technology for creating such human-centered AI tools. To validate our approach, we first interviewed HCI, AI, and Visualization experts to define the characteristics of HCAI tools. We then present several examples of HCAI tools using visualization and use the examples to extract guidelines on how interactive visualization can support future HCAI tools.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.10461",
+    "title": "Utilizing Human Behavior Modeling to Manipulate Explanations in AI-Assisted Decision Making: The Good, the Bad, and the Scary",
+    "published_date": "2024-11-02",
+    "abstract": "Recent advances in AI models have increased the integration of AI-based decision aids into the human decision making process. To fully unlock the potential of AI-assisted decision making, researchers have computationally modeled how humans incorporate AI recommendations into their final decisions, and utilized these models to improve human-AI team performance. Meanwhile, due to the ``black-box'' nature of AI models, providing AI explanations to human decision makers to help them rely on AI recommendations more appropriately has become a common practice. In this paper, we explore whether we can quantitatively model how humans integrate both AI recommendations and explanations into their decision process, and whether this quantitative understanding of human behavior from the learned model can be utilized to manipulate AI explanations, thereby nudging individuals towards making targeted decisions. Our extensive human experiments across various tasks demonstrate that human behavior can be easily influenced by these manipulated explanations towards targeted outcomes, regardless of the intent being adversarial or benign. Furthermore, individuals often fail to detect any anomalies in these explanations, despite their decisions being affected by them."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.13138",
+    "title": "Visibility into AI Agents",
+    "published_date": "2024-01-23",
+    "abstract": "Increased delegation of commercial, scientific, governmental, and personal activities to AI agents—systems capable of pursuing complex goals with limited supervision—may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.",
+    "citation_count": 12
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/kobJymvvcvhbjWFKe/laying-the-foundations-for-vision-and-multimodal-mechanistic",
+    "author": "Sonia Joseph, Neel Nanda",
+    "title": "Laying the Foundations for Vision and Multimodal Mechanistic Interpretability & Open Problems",
+    "published_date": "2024-03-13"
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.06937",
+    "title": "Improving Human-AI Collaboration With Descriptions of AI Behavior",
+    "published_date": "2023-01-06",
+    "abstract": "People work with AI systems to improve their decision making, but often under- or over-rely on AI predictions and perform worse than they would have unassisted. To help people appropriately rely on AI aids, we propose showing them behavior descriptions, details of how AI systems perform on subgroups of instances. We tested the efficacy of behavior descriptions through user studies with 225 participants in three distinct domains: fake review detection, satellite image classification, and bird classification. We found that behavior descriptions can increase human-AI accuracy through two mechanisms: helping people identify AI failures and increasing people's reliance on the AI when it is more accurate. These findings highlight the importance of people's mental models in human-AI collaboration and show that informing people of high-level AI behaviors can significantly improve AI-assisted decision making.",
+    "citation_count": 25
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.01405",
+    "title": "Representation Engineering: A Top-Down Approach to AI Transparency",
+    "published_date": "2023-10-02",
+    "abstract": "In this paper, we identify and characterize the emerging area of representation engineering (RepE), an approach to enhancing the transparency of AI systems that draws on insights from cognitive neuroscience. RepE places population-level representations, rather than neurons or circuits, at the center of analysis, equipping us with novel methods for monitoring and manipulating high-level cognitive phenomena in deep neural networks (DNNs). We provide baselines and an initial analysis of RepE techniques, showing that they offer simple yet effective solutions for improving our understanding and control of large language models. We showcase how these methods can provide traction on a wide range of safety-relevant problems, including honesty, harmlessness, power-seeking, and more, demonstrating the promise of top-down transparency research. We hope that this work catalyzes further exploration of RepE and fosters advancements in the transparency and safety of AI systems.",
+    "citation_count": 264
+  }
+]

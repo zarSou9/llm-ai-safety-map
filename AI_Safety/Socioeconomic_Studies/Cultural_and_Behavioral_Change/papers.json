@@ -1,0 +1,115 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2311.14096",
+    "title": "Cultural bias and cultural alignment of large language models",
+    "published_date": "2023-11-23",
+    "abstract": "Abstract Culture fundamentally shapes people's reasoning, behavior, and communication. As people increasingly use generative artificial intelligence (AI) to expedite and automate personal and professional tasks, cultural values embedded in AI models may bias people's authentic expression and contribute to the dominance of certain cultures. We conduct a disaggregated evaluation of cultural bias for five widely used large language models (OpenAI's GPT-4o/4-turbo/4/3.5-turbo/3) by comparing the models' responses to nationally representative survey data. All models exhibit cultural values resembling English-speaking and Protestant European countries. We test cultural prompting as a control strategy to increase cultural alignment for each country/territory. For later models (GPT-4, 4-turbo, 4o), this improves the cultural alignment of the models' output for 71–81% of countries and territories. We suggest using cultural prompting and ongoing evaluation to reduce cultural bias in the output of generative AI.",
+    "citation_count": 33,
+    "summary": "Large language models (LLMs) like GPT-3 and GPT-4 exhibit cultural biases favoring English-speaking Protestant European values, but cultural prompting techniques can partially mitigate this bias in later models, improving cultural alignment for most countries."
+  },
+  {
+    "url": "https://arxiv.org/abs/2501.07751",
+    "title": "Rethinking AI Cultural Evaluation",
+    "published_date": "2025-01-13",
+    "abstract": "As AI systems become more integrated into society, evaluating their capacity to align with diverse cultural values is crucial for their responsible deployment. Current evaluation methods predominantly rely on multiple-choice question (MCQ) datasets. In this study, we demonstrate that MCQs are insufficient for capturing the complexity of cultural values expressed in open-ended scenarios. Our findings highlight significant discrepancies between MCQ-based assessments and the values conveyed in unconstrained interactions. Based on these findings, we recommend moving beyond MCQs to adopt more open-ended, context-specific assessments that better reflect how AI models engage with cultural values in realistic settings.",
+    "summary": "Current AI cultural value assessments using multiple-choice questions are inadequate, failing to capture the nuanced complexities revealed in open-ended scenarios; research suggests a shift towards more context-rich, open-ended evaluation methods is necessary for responsible AI deployment."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.12880",
+    "title": "Navigating the Cultural Kaleidoscope: A Hitchhiker's Guide to Sensitivity in Large Language Models",
+    "published_date": "2024-10-15",
+    "abstract": "As LLMs are increasingly deployed in global applications, the importance of cultural sensitivity becomes paramount, ensuring that users from diverse backgrounds feel respected and understood. Cultural harm can arise when these models fail to align with specific cultural norms, resulting in misrepresentations or violations of cultural values. This work addresses the challenges of ensuring cultural sensitivity in LLMs, especially in small-parameter models that often lack the extensive training data needed to capture global cultural nuances. We present two key contributions: (1) A cultural harm test dataset, created to assess model outputs across different cultural contexts through scenarios that expose potential cultural insensitivities, and (2) A culturally aligned preference dataset, aimed at restoring cultural sensitivity through fine-tuning based on feedback from diverse annotators. These datasets facilitate the evaluation and enhancement of LLMs, ensuring their ethical and safe deployment across different cultural landscapes. Our results show that integrating culturally aligned feedback leads to a marked improvement in model behavior, significantly reducing the likelihood of generating culturally insensitive or harmful content. Ultimately, this work paves the way for more inclusive and respectful AI systems, fostering a future where LLMs can safely and ethically navigate the complexities of diverse cultural landscapes.",
+    "summary": "This paper introduces a cultural harm test dataset and a culturally aligned preference dataset to evaluate and improve the cultural sensitivity of large language models (LLMs), particularly smaller models lacking extensive training data. Fine-tuning with the preference dataset significantly reduces the generation of culturally insensitive content."
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.05104",
+    "title": "How Culture Shapes What People Want From AI",
+    "published_date": "2024-03-08",
+    "abstract": "There is an urgent need to incorporate the perspectives of culturally diverse groups into AI developments. We present a novel conceptual framework for research that aims to expand, reimagine, and reground mainstream visions of AI using independent and interdependent cultural models of the self and the environment. Two survey studies support this framework and provide preliminary evidence that people apply their cultural models when imagining their ideal AI. Compared with European American respondents, Chinese respondents viewed it as less important to control AI and more important to connect with AI, and were more likely to prefer AI with capacities to influence. Reflecting both cultural models, findings from African American respondents resembled both European American and Chinese respondents. We discuss study limitations and future directions and highlight the need to develop culturally responsive and relevant AI to serve a broader segment of the world population.",
+    "citation_count": 12,
+    "summary": "This research demonstrates how cultural models of self and environment influence individual preferences for AI features, showing that Chinese respondents prioritized connection over control compared to European Americans, while African Americans exhibited characteristics of both groups. The study highlights the crucial need for culturally sensitive AI development."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.14779",
+    "title": "Do Generative AI Models Output Harm while Representing Non-Western Cultures: Evidence from A Community-Centered Approach",
+    "published_date": "2024-07-20",
+    "abstract": "Our research investigates the impact of Generative Artificial Intelligence (GAI) models, specifically text-to-image generators (T2Is), on the representation of non-Western cultures, with a focus on Indian contexts. Despite the transformative potential of T2Is in content creation, concerns have arisen regarding biases that may lead to misrepresentations and marginalizations. Through a Non-Western community-centered approach\nand grounded theory analysis of 5 focus groups from diverse Indian subcultures, we explore how T2I outputs to English input prompts depict Indian culture and its subcultures, uncovering novel representational harms such as exoticism and cultural misappropriation. These findings highlight the urgent need for inclusive and culturally sensitive T2I systems. We propose design guidelines informed by a sociotechnical perspective, contributing to the development of more equitable and representative GAI technologies globally. Our work underscores the necessity of adopting a community-centered approach to comprehend the sociotechnical dynamics of these models, complementing existing work in this space while identifying and addressing the potential negative repercussions and harms that may arise as these models are deployed on a global scale.",
+    "citation_count": 4,
+    "summary": "This study uses a community-centered approach to examine how text-to-image AI models misrepresent Indian cultures, revealing harms like exoticism and cultural misappropriation, and advocating for inclusive design guidelines to mitigate these issues. The findings highlight the need for culturally sensitive AI development and deployment globally."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.11333",
+    "title": "Social Norms in Cinema: A Cross-Cultural Analysis of Shame, Pride and Prejudice",
+    "published_date": "2024-02-17",
+    "abstract": "Shame and pride are social emotions expressed across cultures to motivate and regulate people's thoughts, feelings, and behaviors. In this paper, we introduce the first cross-cultural dataset of over 10k shame/pride-related expressions, with underlying social expectations from ~5.4K Bollywood and Hollywood movies. We examine how and why shame and pride are expressed across cultures using a blend of psychology-informed language analysis combined with large language models. We find significant cross-cultural differences in shame and pride expression aligning with known cultural tendencies of the USA and India -- e.g., in Hollywood, shame-expressions predominantly discuss self whereas Bollywood discusses shame toward others. Pride in Hollywood is individualistic with more self-referential singular pronouns such as I and my whereas in Bollywood, pride is collective with higher use of self-referential plural pronouns such as we and our. Lastly, women are more sanctioned across cultures and for violating similar social expectations e.g. promiscuity.",
+    "citation_count": 3,
+    "summary": "This cross-cultural study analyzes over 10,000 shame and pride expressions from Bollywood and Hollywood films, revealing significant cultural differences in their expression; Hollywood portrays more individualistic shame and pride, while Bollywood depicts collectivist expressions, with women consistently facing greater social sanction across both cultures."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.09123",
+    "title": "PSN: Persian Social Norms Dataset for Cross-Cultural AI",
+    "published_date": "2024-06-13",
+    "abstract": "Datasets capturing cultural norms are essential for developing globally aware AI systems. We present Persian Social Norms (PSN) a novel dataset of over 1.7k Persian social norms, including environments, contexts, and cultural labels, alongside English translations. Leveraging large language models and prompt-engineering techniques, we generated potential norms that were reviewed by native speakers for quality and ethical compliance. As the first Persian dataset of its kind, this resource enables computational modeling of norm adaptation, a crucial challenge for cross-cultural AI informed by diverse cultural perspectives.",
+    "summary": "The Persian Social Norms (PSN) dataset, containing over 1,700 Persian social norms with English translations and contextual information, addresses the need for culturally diverse datasets in AI development, facilitating the creation of more globally aware AI systems. This resource allows for computational modeling of norm adaptation in cross-cultural AI."
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.05579",
+    "title": "Cultural Bias in Explainable AI Research: A Systematic Analysis",
+    "published_date": "2024-02-28",
+    "abstract": "For synergistic interactions between humans and artificial intelligence (AI) systems, AI outputs often need to be explainable to people. Explainable AI (XAI) systems are commonly tested in human user studies. However, whether XAI researchers consider potential cultural differences in human explanatory needs remains unexplored. We highlight psychological research that found significant differences in human explanations between many people from Western, commonly individualist countries and people from non-Western, often collectivist countries. We argue that XAI research currently overlooks these variations and that many popular XAI designs implicitly and problematically assume that Western explanatory needs are shared cross-culturally. Additionally, we systematically reviewed over 200 XAI user studies and found that most studies did not consider relevant cultural variations, sampled only Western populations, but drew conclusions about human-XAI interactions more generally. We also analyzed over 30 literature reviews of XAI studies. Most reviews did not mention cultural differences in explanatory needs or flag overly broad cross-cultural extrapolations of XAI user study results. Combined, our analyses provide evidence of a cultural bias toward Western populations in XAI research, highlighting an important knowledge gap regarding how culturally diverse users may respond to widely used XAI systems that future work can and should address.",
+    "citation_count": 7,
+    "summary": "A systematic review reveals a significant cultural bias in Explainable AI (XAI) research, with most studies focusing on Western populations and neglecting potentially crucial differences in explanatory needs across cultures, leading to overly generalized conclusions about human-XAI interaction. This bias limits the generalizability and applicability of current XAI systems globally."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/cLfsabkCPtieJ5LoK/investigating-bias-representations-in-llms-via-activation",
+    "author": "DawnLu",
+    "title": "Investigating Bias Representations in LLMs via Activation Steering",
+    "published_date": "2024-01-15",
+    "summary": "This research uses activation steering to assess the bias robustness of the Llama-2-7b-chat LLM, finding that while the model exhibits gender bias without steering, attempts to further induce bias through activation steering resulted in the model refusing to answer, suggesting a potential, albeit unexpected, form of robustness."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.17479",
+    "title": "Culturally-Attuned Moral Machines: Implicit Learning of Human Value Systems by AI through Inverse Reinforcement Learning",
+    "published_date": "2023-12-29",
+    "abstract": "Constructing a universal moral code for artificial intelligence (AI) is difficult or even impossible, given that different human cultures have different definitions of morality and different societal norms. We therefore argue that the value system of an AI should be culturally attuned: just as a child raised in a particular culture learns the specific values and norms of that culture, we propose that an AI agent operating in a particular human community should acquire that community's moral, ethical, and cultural codes. How AI systems might acquire such codes from human observation and interaction has remained an open question. Here, we propose using inverse reinforcement learning (IRL) as a method for AI agents to acquire a culturally-attuned value system implicitly. We test our approach using an experimental paradigm in which AI agents use IRL to learn different reward functions, which govern the agents' moral values, by observing the behavior of different cultural groups in an online virtual world requiring real-time decision making. We show that an AI agent learning from the average behavior of a particular cultural group can acquire altruistic characteristics reflective of that group's behavior, and this learned value system can generalize to new scenarios requiring altruistic judgments. Our results provide, to our knowledge, the first demonstration that AI agents could potentially be endowed with the ability to continually learn their values and norms from observing and interacting with humans, thereby becoming attuned to the culture they are operating in.",
+    "citation_count": 1,
+    "summary": "This paper proposes using inverse reinforcement learning to enable AI agents to implicitly learn culturally-specific moral values by observing human behavior in a virtual world, demonstrating that AI can acquire and generalize altruistic characteristics reflective of different cultural groups. This offers a potential solution for creating culturally-attuned AI morality instead of a universal, potentially biased, code."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/mHQHBEuFcEWRnitp4/0-the-value-change-problem-introduction-overview-and",
+    "author": "Nora_Ammann",
+    "title": "0. The Value Change Problem: introduction, overview  and motivations",
+    "published_date": "2023-10-26",
+    "summary": "The article introduces the \"Value Change Problem\" (VCP), arguing that AI systems must be designed to avoid both illegitimately altering human values and preventing legitimate value shifts. This requires addressing how AI's influence on value systems, through mechanisms like recommender systems, can lead to harmful consequences."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a framework for embedding ethical considerations into AI systems by using Bayesian priors. These \"ethical priors,\" representing pre-existing moral values, guide the AI's learning and decision-making processes, much like human moral intuitions."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/4iAkmnhhqNZe8JzrS/reflection-mechanisms-as-an-alignment-target-attitudes-on",
+    "author": "elandgre, Beth Barnes, Marius Hobbhahn",
+    "title": "Reflection Mechanisms as an Alignment Target - Attitudes on “near-term” AI",
+    "published_date": "2023-03-02",
+    "summary": "A survey of 1000 participants revealed a preference for AI value alignment methods based on indirect normativity—processes that consider diverse societal outcomes—rather than allowing companies or policymakers to unilaterally determine AI values. This suggests potential societal openness to AI aligned with reflective procedures for developing better values."
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.13069",
+    "title": "Cultural Incongruencies in Artificial Intelligence",
+    "published_date": "2022-11-19",
+    "abstract": "Artificial intelligence (AI) systems attempt to imitate human behavior. How well they do this imitation is often used to assess their utility and to attribute human-like (or artificial) intelligence to them. However, most work on AI refers to and relies on human intelligence without accounting for the fact that human behavior is inherently shaped by the cultural contexts they are embedded in, the values and beliefs they hold, and the social practices they follow. Additionally, since AI technologies are mostly conceived and developed in just a handful of countries, they embed the cultural values and practices of these countries. Similarly, the data that is used to train the models also fails to equitably represent global cultural diversity. Problems therefore arise when these technologies interact with globally diverse societies and cultures, with different values and interpretive practices. In this position paper, we describe a set of cultural dependencies and incongruencies in the context of AI-based language and vision technologies, and reflect on the possibilities of and potential strategies towards addressing these incongruencies.",
+    "citation_count": 15,
+    "summary": "AI systems, developed primarily within a few dominant cultures, often fail to account for the cultural diversity of their global users, leading to incongruencies and biases in their performance and ethical implications. Addressing these cultural dependencies requires recognizing and mitigating the impact of culturally specific data and development practices."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2203.10525v2.pdf",
+    "title": "Recognising the importance of preference change: A call for a coordinated multidisciplinary research effort in the age of AI",
+    "published_date": "2022-03-20",
+    "abstract": "As artiﬁcial intelligence becomes more powerful and a ubiq- uitous presence in daily life, it is imperative to understand and manage the impact of AI systems on our lives and decisions. Modern ML systems often change user behavior (e.g. personalized recommender systems learn user preferences to deliver recommendations that change online behavior). An external-ity of behavior change is preference change. This article ar- gues for the establishment of a multidisciplinary endeavor focused on understanding how AI systems change preference: Preference Science. We operationalize preference to incor-porate concepts from various disciplines, outlining the im- portance of meta-preferences and preference-change preferences, and proposing a preliminary framework for how pref- erences change. We draw a distinction between preference change, permissible preference change, and outright pref- erence manipulation. A diversity of disciplines contribute unique insights to this framework.",
+    "citation_count": 20,
+    "summary": "This paper advocates for a new multidisciplinary field, \"Preference Science,\" to study how AI systems alter user preferences, distinguishing between legitimate preference shifts and manipulative influence. The authors propose a framework for analyzing preference change, incorporating concepts from diverse disciplines."
+  }
+]

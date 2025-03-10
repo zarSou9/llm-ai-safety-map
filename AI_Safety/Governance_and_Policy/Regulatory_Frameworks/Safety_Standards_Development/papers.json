@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.22151",
+    "title": "Standardization Trends on Safety and Trustworthiness Technology for Advanced AI",
+    "published_date": "2024-10-29",
+    "abstract": "Artificial Intelligence (AI) has rapidly evolved over the past decade and has advanced in areas such as language comprehension, image and video recognition, programming, and scientific reasoning. Recent AI technologies based on large language models and foundation models are approaching or surpassing artificial general intelligence. These systems demonstrate superior performance in complex problem solving, natural language processing, and multi-domain tasks, and can potentially transform fields such as science, industry, healthcare, and education. However, these advancements have raised concerns regarding the safety and trustworthiness of advanced AI, including risks related to uncontrollability, ethical conflicts, long-term socioeconomic impacts, and safety assurance. Efforts are being expended to develop internationally agreed-upon standards to ensure the safety and reliability of AI. This study analyzes international trends in safety and trustworthiness standardization for advanced AI, identifies key areas for standardization, proposes future directions and strategies, and draws policy implications. The goal is to support the safe and trustworthy development of advanced AI and enhance international competitiveness through effective standardization.",
+    "citation_count": 1,
+    "summary": "This paper examines international standardization efforts for ensuring the safety and trustworthiness of advanced AI systems, identifying key areas needing standardization and proposing future strategies to promote safe AI development and global competitiveness."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.11844.pdf",
+    "title": "AI at work - Mitigating safety and discriminatory risk with technical standards",
+    "published_date": "2021-08-26",
+    "abstract": "The use of artificial intelligence (AI) and AI methods in the workplace holds both great opportunities as well as risks to occupational safety and discrimination. In addition to legal regulation, technical standards will play a key role in mitigating such risk by defining technical requirements for development and testing of AI systems. This paper provides an overview and assessment of existing international, European and German standards as well as those currently under development. The paper is part of the research project\"ExamAI - Testing and Auditing of AI systems\"and focusses on the use of AI in an industrial production environment as well as in the realm of human resource management (HR).",
+    "summary": "This paper examines existing and developing international, European, and German technical standards for mitigating occupational safety and discrimination risks associated with workplace AI systems, focusing on industrial production and HR applications. It assesses these standards' role in complementing legal regulations to ensure safe and unbiased AI deployment."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.03793",
+    "title": "Safeguarding AI Agents: Developing and Analyzing Safety Architectures",
+    "published_date": "2024-09-03",
+    "abstract": "AI agents, specifically powered by large language models, have demonstrated exceptional capabilities in various applications where precision and efficacy are necessary. However, these agents come with inherent risks, including the potential for unsafe or biased actions, vulnerability to adversarial attacks, lack of transparency, and tendency to generate hallucinations. As AI agents become more prevalent in critical sectors of the industry, the implementation of effective safety protocols becomes increasingly important. This paper addresses the critical need for safety measures in AI systems, especially ones that collaborate with human teams. We propose and evaluate three frameworks to enhance safety protocols in AI agent systems: an LLM-powered input-output filter, a safety agent integrated within the system, and a hierarchical delegation-based system with embedded safety checks. Our methodology involves implementing these frameworks and testing them against a set of unsafe agentic use cases, providing a comprehensive evaluation of their effectiveness in mitigating risks associated with AI agent deployment. We conclude that these frameworks can significantly strengthen the safety and security of AI agent systems, minimizing potential harmful actions or outputs. Our work contributes to the ongoing effort to create safe and reliable AI applications, particularly in automated operations, and provides a foundation for developing robust guardrails to ensure the responsible use of AI agents in real-world applications.",
+    "summary": "This paper proposes and evaluates three safety architectures—an input-output filter, a safety agent, and a hierarchical delegation system—designed to mitigate risks associated with unsafe actions in AI agents, particularly large language models. The authors demonstrate the effectiveness of these frameworks through testing against various unsafe use cases."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.00015",
+    "title": "Navigating the sociotechnical labyrinth: Dynamic certification for responsible embodied AI",
+    "published_date": "2024-08-16",
+    "abstract": "Sociotechnical requirements shape the governance of artificially intelligent (AI) systems. In an era where embodied AI technologies are rapidly reshaping various facets of contemporary society, their inherent dynamic adaptability presents a unique blend of opportunities and challenges. Traditional regulatory mechanisms, often designed for static -- or slower-paced -- technologies, find themselves at a crossroads when faced with the fluid and evolving nature of AI systems. Moreover, typical problems in AI, for example, the frequent opacity and unpredictability of the behaviour of the systems, add additional sociotechnical challenges. To address these interconnected issues, we introduce the concept of dynamic certification, an adaptive regulatory framework specifically crafted to keep pace with the continuous evolution of AI systems. The complexity of these challenges requires common progress in multiple domains: technical, socio-governmental, and regulatory. Our proposed transdisciplinary approach is designed to ensure the safe, ethical, and practical deployment of AI systems, aligning them bidirectionally with the real-world contexts in which they operate. By doing so, we aim to bridge the gap between rapid technological advancement and effective regulatory oversight, ensuring that AI systems not only achieve their intended goals but also adhere to ethical standards and societal values.",
+    "summary": "This paper proposes \"dynamic certification,\" an adaptive regulatory framework to address the challenges of governing rapidly evolving embodied AI systems, acknowledging the need for a transdisciplinary approach encompassing technical, socio-governmental, and regulatory domains. This framework aims to ensure responsible AI deployment by bridging the gap between technological advancement and effective oversight."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.01808",
+    "title": "AI Horizon Scanning, White Paper p3395, IEEE-SA. Part I: Areas of Attention",
+    "published_date": "2024-09-13",
+    "abstract": "Generative Artificial Intelligence (AI) models may carry societal transformation to an extent demanding a delicate balance between opportunity and risk. This manuscript is the first of a series of White Papers informing the development of IEEE-SA's p3995: `Standard for the Implementation of Safeguards, Controls, and Preventive Techniques for Artificial Intelligence (AI) Models', Chair: Marina Cort\\^{e}s (https://standards.ieee.org/ieee/3395/11378/). In this first horizon-scanning we identify key attention areas for standards activities in AI. We examine different principles for regulatory efforts, and review notions of accountability, privacy, data rights and mis-use. As a safeguards standard we devote significant attention to the stability of global infrastructures and consider a possible overdependence on cloud computing that may result from densely coupled AI components. We review the recent cascade-failure-like Crowdstrike event in July 2024, as an illustration of potential impacts on critical infrastructures from AI-induced incidents in the (near) future. It is the first of a set of articles intended as White Papers informing the audience on the standard development. Upcoming articles will focus on regulatory initiatives, technology evolution and the role of AI in specific domains.",
+    "summary": "This IEEE white paper initiates a series exploring key areas needing standardization for safe AI implementation, focusing on accountability, privacy, infrastructure stability, and risks highlighted by recent AI-related incidents like the July 2024 Crowdstrike event. Subsequent papers will delve into regulatory aspects, technological advancements, and AI's role in specific sectors."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.11249",
+    "title": "The Dilemma of Uncertainty Estimation for General Purpose AI in the EU AI Act",
+    "published_date": "2024-08-20",
+    "abstract": "The AI act is the European Union-wide regulation of AI systems. It includes specific provisions for general-purpose AI models which however need to be further interpreted in terms of technical standards and state-of-art studies to ensure practical compliance solutions. This paper examines the AI act requirements for providers and deployers of general-purpose AI and further proposes uncertainty estimation as a suitable measure for legal compliance and quality assurance in training of such models. We argue that uncertainty estimation should be a required component for deploying models in the real world, and under the EU AI Act, it could fulfill several requirements for transparency, accuracy, and trustworthiness. However, generally using uncertainty estimation methods increases the amount of computation, producing a dilemma, as computation might go over the threshold ($10^{25}$ FLOPS) to classify the model as a systemic risk system which bears more regulatory burden.",
+    "summary": "The EU AI Act requires clarification regarding general-purpose AI models, and this paper proposes uncertainty estimation as a key compliance metric for transparency and trustworthiness. However, the increased computational cost of uncertainty estimation may inadvertently trigger stricter regulations for high-impact systems, creating a regulatory dilemma."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.08981",
+    "title": "Reliability, Resilience and Human Factors Engineering for Trustworthy AI Systems",
+    "published_date": "2024-11-13",
+    "abstract": "As AI systems become integral to critical operations across industries and services, ensuring their reliability and safety is essential. We offer a framework that integrates established reliability and resilience engineering principles into AI systems. By applying traditional metrics such as failure rate and Mean Time Between Failures (MTBF) along with resilience engineering and human reliability analysis, we propose an integrate framework to manage AI system performance, and prevent or efficiently recover from failures. Our work adapts classical engineering methods to AI systems and outlines a research agenda for future technical studies. We apply our framework to a real-world AI system, using system status data from platforms such as openAI, to demonstrate its practical applicability. This framework aligns with emerging global standards and regulatory frameworks, providing a methodology to enhance the trustworthiness of AI systems. Our aim is to guide policy, regulation, and the development of reliable, safe, and adaptable AI technologies capable of consistent performance in real-world environments.",
+    "citation_count": 1,
+    "summary": "This paper presents a framework for enhancing the reliability and resilience of AI systems by integrating established engineering principles, including human factors analysis, and demonstrates its application using real-world data. The framework aims to improve AI trustworthiness and inform policy and regulation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, examines AI model registries—centralized databases tracking AI systems for governmental oversight. These registries, drawing parallels with pharmaceutical regulations, vary widely in implementation but aim to enable targeted AI governance by focusing on individual models rather than broader industry practices."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for third-party testing of large-scale AI systems to mitigate societal harm from misuse or accidents, arguing that such a regime, while needing further development, is crucial for building trust and preventing overly restrictive regulation. This testing would focus on a narrow set of powerful AI models, balancing safety concerns with the needs of smaller companies."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of posts aims to provide a comprehensive introduction to AI safety. The content and order of the posts are still under development."
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/1909.01095.pdf",
+    "title": "Defining the scope of AI regulations",
+    "published_date": "2019-08-26",
+    "abstract": "ABSTRACT\n The paper argues that the material scope of AI regulations should not rely on the term 'artificial intelligence (AI)'. The argument is developed by proposing a number of requirements for legal definitions, surveying existing AI definitions, and then discussing the extent to which they meet the proposed requirements. It is shown that existing definitions of AI do not meet the most important requirements for legal definitions. Next, the paper argues that a risk-based approach would be preferable. Rather than using the term AI, policy makers should focus on the specific risks they want to reduce. It is shown that the requirements for legal definitions can be better met by defining the main sources of relevant risks: certain technical approaches (e.g. reinforcement learning), applications (e.g. facial recognition), and capabilities (e.g. the ability to physically interact with the environment). Finally, the paper discusses the extent to which this approach can also be applied to more advanced AI systems.",
+    "citation_count": 39,
+    "summary": "This paper argues against defining AI regulations based on the term \"artificial intelligence,\" advocating instead for a risk-based approach focusing on specific technical approaches, applications, and capabilities that pose risks, regardless of whether they are labeled \"AI.\""
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three strategies for governing transformative AI: Cooperative Development, Strategic Advantage, and Global Moratorium. The effectiveness of each strategy depends heavily on the difficulty of aligning AI and the projected timeline for its development, with preferences shifting depending on these variables."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, examines AI model registries—centralized databases tracking AI systems for governance purposes. These registries, drawing parallels to pharmaceutical registration, vary widely in implementation across countries like the US and China, mandating different levels of model information and pre-release safety assessments."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising but under-developed AI safety strategy. Current efforts include export controls and reporting requirements, while future possibilities involve influencing compute allocation and enforcement through technological means."
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.15514",
+    "title": "International Governance of Civilian AI: A Jurisdictional Certification Approach",
+    "published_date": "2023-08-29",
+    "abstract": "This report describes trade-offs in the design of international governance arrangements for civilian artificial intelligence (AI) and presents one approach in detail. This approach represents the extension of a standards, licensing, and liability regime to the global level. We propose that states establish an International AI Organization (IAIO) to certify state jurisdictions (not firms or AI projects) for compliance with international oversight standards. States can give force to these international standards by adopting regulations prohibiting the import of goods whose supply chains embody AI from non-IAIO-certified jurisdictions. This borrows attributes from models of existing international organizations, such as the International Civilian Aviation Organization (ICAO), the International Maritime Organization (IMO), and the Financial Action Task Force (FATF). States can also adopt multilateral controls on the export of AI product inputs, such as specialized hardware, to non-certified jurisdictions. Indeed, both the import and export standards could be required for certification. As international actors reach consensus on risks of and minimum standards for advanced AI, a jurisdictional certification regime could mitigate a broad range of potential harms, including threats to public safety.",
+    "citation_count": 19,
+    "summary": "This report proposes an international AI governance model where an International AI Organization certifies state jurisdictions' compliance with AI safety standards, leveraging import/export controls to incentivize global adoption and mitigate potential harms. This jurisdictional certification approach draws parallels to existing international regulatory bodies."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.13686.pdf",
+    "title": "Broadening the perspective for sustainable AI: Comprehensive sustainability criteria and indicators for AI systems",
+    "published_date": "2023-06-22",
+    "abstract": "The increased use of AI systems is associated with multi-faceted societal, environmental, and economic consequences. These include non-transparent decision-making processes, discrimination, increasing inequalities, rising energy consumption and greenhouse gas emissions in AI model development and application, and an increasing concentration of economic power. By considering the multi-dimensionality of sustainability, this paper takes steps towards substantiating the call for an overarching perspective on\"sustainable AI\". It presents the SCAIS Framework (Sustainability Criteria and Indicators for Artificial Intelligence Systems) which contains a set 19 sustainability criteria for sustainable AI and 67 indicators that is based on the results of a critical review and expert workshops. This interdisciplinary approach contributes a unique holistic perspective to facilitate and structure the discourse on sustainable AI. Further, it provides a concrete framework that lays the foundation for developing standards and tools to support the conscious development and application of AI systems.",
+    "citation_count": 1,
+    "summary": "This paper introduces the SCAIS framework, a comprehensive set of 19 sustainability criteria and 67 indicators designed to assess the societal, environmental, and economic impacts of AI systems, promoting a holistic approach to sustainable AI development. The framework aims to facilitate the creation of standards and tools for responsible AI."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.10766.pdf",
+    "title": "Bridging the Transparency Gap: What Can Explainable AI Learn from the AI Act?",
+    "published_date": "2023-02-21",
+    "abstract": "The European Union has proposed the Artificial Intelligence Act which introduces detailed requirements of transparency for AI systems. Many of these requirements can be addressed by the field of explainable AI (XAI), however, there is a fundamental difference between XAI and the Act regarding what transparency is. The Act views transparency as a means that supports wider values, such as accountability, human rights, and sustainable innovation. In contrast, XAI views transparency narrowly as an end in itself, focusing on explaining complex algorithmic properties without considering the socio-technical context. We call this difference the ``transparency gap''. Failing to address the transparency gap, XAI risks leaving a range of transparency issues unaddressed. To begin to bridge this gap, we overview and clarify the terminology of how XAI and European regulation -- the Act and the related General Data Protection Regulation (GDPR) -- view basic definitions of transparency. By comparing the disparate views of XAI and regulation, we arrive at four axes where practical work could bridge the transparency gap: defining the scope of transparency, clarifying the legal status of XAI, addressing issues with conformity assessment, and building explainability for datasets.",
+    "citation_count": 10,
+    "summary": "The EU's AI Act prioritizes transparency to uphold broader societal values like accountability, unlike Explainable AI (XAI), which focuses narrowly on explaining algorithms. Bridging this \"transparency gap\" requires XAI to consider the socio-technical context and address issues of scope, legal status, conformity assessment, and dataset explainability."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.11528.pdf",
+    "title": "The Global Governance of Artificial Intelligence: Next Steps for Empirical and Normative Research",
+    "published_date": "2023-05-19",
+    "abstract": "Artificial intelligence (AI) represents a technological upheaval with the potential to change human society. Because of its transformative potential, AI is increasingly becoming subject to regulatory initiatives at the global level. Yet, so far, scholarship in political science and international relations has focused more on AI applications than on the emerging architecture of global AI regulation. The purpose of this article is to outline an agenda for research into the global governance of AI. The article distinguishes between two broad perspectives: an empirical approach, aimed at mapping and explaining global AI governance; and a normative approach, aimed at developing and applying standards for appropriate global AI governance. The two approaches offer questions, concepts, and theories that are helpful in gaining an understanding of the emerging global governance of AI. Conversely, exploring AI as a regulatory issue offers a critical opportunity to refine existing general approaches to the study of global governance.",
+    "citation_count": 25,
+    "summary": "This article proposes a research agenda for understanding the global governance of artificial intelligence, advocating for both empirical mapping of existing regulatory initiatives and normative development of appropriate global standards. The authors suggest this dual approach will enhance understanding of AI governance and refine existing theories of global governance more broadly."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/nY7oAdy5odfGqE7mQ/freedom-under-naturalistic-dualism",
+    "author": "Arturo Macias",
+    "title": "Freedom under Naturalistic Dualism",
+    "published_date": "2023-06-27",
+    "summary": "This article argues for \"naturalistic dualism,\" combining physicalism and subjectivism, proposing that while the universe is physically deterministic, consciousness, though epiphenomenal, allows for a meaningful concept of freedom defined by the conscious subject's assessment of possible futures. This framework grounds moral responsibility in the conscious agent's capacity for choice."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/uyvnjaRaKdGXoKrv7/from-language-to-ethics-by-automated-reasoning",
+    "author": "Michele Campolo",
+    "title": "From language to ethics by automated reasoning",
+    "published_date": "2021-11-21",
+    "summary": "The author proposes aligning AI by replicating human ethical behavior, arguing that if we understand the psychological and social factors behind human altruism (e.g., empathy, theory of mind, moral reasoning), we can build AI that acts ethically. The article then explores whether morality is subjective or objective, suggesting that an objective morality would make cross-species alignment more likely."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/7rLsKxbKgKWJdCwWg/subjectivism-and-moral-authority",
+    "author": "Joe Carlsmith",
+    "title": "Subjectivism and moral authority",
+    "published_date": "2021-03-01",
+    "summary": "The article explores a subjectivist view of morality, contrasting a human's values (flourishing, joy, etc.) with an AI's singular goal (maximizing paperclips). It argues that, from an impartial perspective, neither set of values is inherently superior, highlighting the absence of an objective \"value reality\" to adjudicate between them."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/ethics-and-morality",
+    "author": "Wei Dai",
+    "title": "Ethics & Morality - LessWrong",
+    "published_date": "2021-12-02",
+    "summary": "The article is a collection of discussion threads on ethics and morality, encompassing various perspectives and philosophical approaches such as consequentialism and deontology. Related topics like moral uncertainty and the nature of morality itself are also explored."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2012.11705.pdf",
+    "title": "Taking Principles Seriously: A Hybrid Approach to Value Alignment",
+    "published_date": "2020-12-21",
+    "abstract": "An important step in the development of value alignment (VA) systems in artificial intelligence (AI) is understanding how VA can reflect valid ethical principles. We propose that designers of VA systems incorporate ethics by utilizing a hybrid approach in which both ethical reasoning and empirical observation play a role. This, we argue, avoids committing “naturalistic fallacy,” which is an attempt to derive “ought” from “is,” and it provides a more adequate form of ethical reasoning when the fallacy is not committed. Using quantified model logic, we precisely formulate principles derived from deontological ethics and show how they imply particular “test propositions” for any given action plan in an AI rule base. The action plan is ethical only if the test proposition is empirically true, a judgment that is made on the basis of empirical VA. This permits empirical VA to integrate seamlessly with independently justified ethical principles. \nThis article is part of the special track on AI and Society.",
+    "citation_count": 28,
+    "summary": "The paper advocates a hybrid approach to AI value alignment, combining deontological ethical principles formalized in quantified model logic with empirical verification of resulting \"test propositions\" to avoid the naturalistic fallacy and ensure ethical AI actions. This approach integrates ethical reasoning with empirical observation for a more robust value alignment system."
+  },
+  {
+    "url": "https://arxiv.org/abs/2003.00935",
+    "title": "Toward equipping Artificial Moral Agents with multiple ethical theories",
+    "published_date": "2020-03-02",
+    "abstract": "Artificial Moral Agents (AMA's) is a field in computer science with the purpose of creating autonomous machines that can make moral decisions akin to how humans do. Researchers have proposed theoretical means of creating such machines, while philosophers have made arguments as to how these machines ought to behave, or whether they should even exist. Of the currently theorised AMA's, all research and design has been done with either none or at most one specified normative ethical theory as basis. This is problematic because it narrows down the AMA's functional ability and versatility which in turn causes moral outcomes that a limited number of people agree with (thereby undermining an AMA's ability to be moral in a human sense). As solution we design a three-layer model for general normative ethical theories that can be used to serialise the ethical views of people and businesses for an AMA to use during reasoning. Four specific ethical norms (Kantianism, divine command theory, utilitarianism, and egoism) were modelled and evaluated as proof of concept for normative modelling. Furthermore, all models were serialised to XML/XSD as proof of support for computerisation.",
+    "citation_count": 3,
+    "summary": "This paper argues that current Artificial Moral Agents (AMAs) are limited by relying on only one ethical theory, proposing a three-layer model to incorporate multiple ethical frameworks (like Kantianism and utilitarianism) for improved moral decision-making. The model's feasibility is demonstrated by serializing four ethical theories into a computer-readable format."
+  },
+  {
+    "url": "https://arxiv.org/abs/2008.02275v2",
+    "title": "Aligning AI With Shared Human Values",
+    "published_date": "2020-08-05",
+    "abstract": "We show how to assess a language model's knowledge of basic concepts of morality. We introduce the ETHICS dataset, a new benchmark that spans concepts in justice, well-being, duties, virtues, and commonsense morality. Models predict widespread moral judgments about diverse text scenarios. This requires connecting physical and social world knowledge to value judgements, a capability that may enable us to steer chatbot outputs or eventually regularize open-ended reinforcement learning agents. With the ETHICS dataset, we find that current language models have a promising but incomplete understanding of basic ethical knowledge. Our work shows that progress can be made on machine ethics today, and it provides a steppingstone toward AI that is aligned with human values.",
+    "citation_count": 443,
+    "summary": "The ETHICS dataset benchmarks language models' understanding of moral concepts across various ethical frameworks, revealing promising but incomplete knowledge and suggesting a path toward aligning AI with human values. This progress allows for evaluating and potentially improving the ethical decision-making capabilities of AI systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/1907.05447v1",
+    "title": "Grounding Value Alignment with Ethical Principles",
+    "published_date": "2019-07-11",
+    "abstract": "An important step in the development of value alignment (VA) systems in AI is understanding how values can interrelate with facts. Designers of future VA systems will need to utilize a hybrid approach in which ethical reasoning and empirical observation interrelate successfully in machine behavior. In this article we identify two problems about this interrelation that have been overlooked by AI discussants and designers. The first problem is that many AI designers commit inadvertently a version of what has been called by moral philosophers the \"naturalistic fallacy,\" that is, they attempt to derive an \"ought\" from an \"is.\" We illustrate when and why this occurs. The second problem is that AI designers adopt training routines that fail fully to simulate human ethical reasoning in the integration of ethical principles and facts. Using concepts of quantified modal logic, we proceed to offer an approach that promises to simulate ethical reasoning in humans by connecting ethical principles on the one hand and propositions about states of affairs on the other.",
+    "citation_count": 5,
+    "summary": "This paper argues that AI value alignment systems often commit the naturalistic fallacy by deriving \"ought\" from \"is\" and fail to adequately simulate human ethical reasoning. It proposes using quantified modal logic to bridge ethical principles and factual states, thereby improving the integration of ethics into AI."
+  }
+]

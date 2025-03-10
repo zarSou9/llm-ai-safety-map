@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.00069",
+    "title": "Meta-Sealing: A Revolutionizing Integrity Assurance Protocol for Transparent, Tamper-Proof, and Trustworthy AI System",
+    "published_date": "2024-10-31",
+    "abstract": "The Artificial intelligence in critical sectors-healthcare, finance, and public safety-has made system integrity paramount for maintaining societal trust. Current verification methods for AI systems lack comprehensive lifecycle assurance, creating significant vulnerabilities in deployment of both powerful and trustworthy AI. This research introduces Meta-Sealing, a cryptographic framework that fundamentally changes integrity verification in AI systems throughout their operational lifetime. Meta-Sealing surpasses traditional integrity protocols through its implementation of cryptographic seal chains, establishing verifiable, immutable records for all system decisions and transformations. The framework combines advanced cryptography with distributed verification, delivering tamper-evident guarantees that achieve both mathematical rigor and computational efficiency. Our implementation addresses urgent regulatory requirements for AI system transparency and auditability. The framework integrates with current AI governance standards, specifically the EU's AI Act and FDA's healthcare AI guidelines, enabling organizations to maintain operational efficiency while meeting compliance requirements. Testing on financial institution data demonstrated Meta-Sealing's capability to reduce audit timeframes by 62% while enhancing stakeholder confidence by 47%. Results can establish a new benchmark for integrity assurance in enterprise AI deployments. This research presents Meta-Sealing not merely as a technical solution, but as a foundational framework ensuring AI system integrity aligns with human values and regulatory requirements. As AI continues to influence critical decisions, provides the necessary bridge between technological advancement and verifiable trust. Meta-Sealing serves as a guardian of trust, ensuring that the AI systems we depend on are as reliable and transparent as they are powerful."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.16530.pdf",
+    "title": "Runtime Verification of Self-Adaptive Systems with Changing Requirements",
+    "published_date": "2023-03-29",
+    "abstract": "To accurately make adaptation decisions, a self-adaptive system needs precise means to analyze itself at runtime. To this end, runtime verification can be used in the feedback loop to check that the managed system satisfies its requirements formalized as temporal-logic properties. These requirements, however, may change due to system evolution or uncertainty in the environment, managed system, and requirements themselves. Thus, the properties under investigation by the runtime verification have to be dynamically adapted to represent the changing requirements while preserving the knowledge about requirements satisfaction gathered thus far, all with minimal latency. To address this need, we present a runtime verification approach for self-adaptive systems with changing requirements. Our approach uses property specification patterns to automatically obtain automata with precise semantics that are the basis for runtime verification. The automata can be safely adapted during runtime verification while preserving intermediate verification results to seamlessly reflect requirement changes and enable continuous verification. We evaluate our approach on an Arduino prototype of the Body Sensor Network and the Timescales benchmark. Results show that our approach is over five times faster than the typical approach of redeploying and restarting runtime monitors to reflect requirements changes, while improving the system's trustworthiness by avoiding interruptions of verification.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.05128.pdf",
+    "title": "Formalizing, Verifying and Applying ISA Security Guarantees as Universal Contracts",
+    "published_date": "2023-06-08",
+    "abstract": "Progress has recently been made on specifying instruction set architectures (ISAs) in executable formalisms rather than through prose. However, to date, those formal specifications are limited to the functional aspects of the ISA and do not cover its security guarantees. We present a novel, general method for formally specifying an ISA's security guarantees to (1) balance the needs of ISA implementations (hardware) and clients (software), (2) can be semi-automatically verified to hold for the ISA operational semantics, producing a high-assurance mechanically-verifiable proof, and (3) support informal and formal reasoning about security-critical software in the presence of adversarial code. Our method leverages universal contracts: software contracts that express bounds on the authority of arbitrary untrusted code. Universal contracts can be kept agnostic of software abstractions, and strike the right balance between requiring sufficient detail for reasoning about software and preserving implementation freedom of ISA designers and CPU implementers. We semi-automatically verify universal contracts against Sail implementations of ISA semantics using our Katamaran tool; a semi-automatic separation logic verifier for Sail which produces machine-checked proofs for successfully verified contracts. We demonstrate the generality of our method by applying it to two ISAs that offer very different security primitives: (1) MinimalCaps: a custom-built capability machine ISA and (2) a (somewhat simplified) version of RISC-V with PMP. We verify a femtokernel using the security guarantee we have formalized for RISC-V with PMP.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.10249v1",
+    "title": "Towards a Formally Verified Security Monitor for VM-based Confidential Computing",
+    "published_date": "2023-08-20",
+    "abstract": "Confidential computing is a key technology for isolating high-assurance applications from the large amounts of untrusted code typical in modern systems. Existing confidential computing systems cannot be certified for use in critical applications, like systems controlling critical infrastructure, hardware security modules, or aircraft, because they lack formal verification. This paper presents an approach to formally modeling and proving a security monitor for confidential computing. It introduces a canonical architecture for virtual machine (VM)-based confidential computing systems. It abstracts processor-specific components and identifies a minimal set of hardware primitives required by a trusted security monitor to enforce security guarantees. This paper focuses on verifying the software assuming a correct hardware implementation. We demonstrate our methodology and proposed approach with an example from our open-source Rust implementation of the security monitor for RISC-V.",
+    "citation_count": 3
+  }
+]

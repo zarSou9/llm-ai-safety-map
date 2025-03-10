@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2403.01609",
+    "title": "A \"User Experience 3.0 (UX 3.0)\" Paradigm Framework: User Experience Design for Human-Centered AI Systems",
+    "published_date": "2024-03-03",
+    "abstract": "The human-centered artificial intelligence (HCAI) design approach, the user-centered design (UCD) version in the intelligence era, has been promoted to address potential negative issues caused by AI technology; user experience design (UXD) is specifically called out to facilitate the design and development of human-centered AI systems. Over the last three decades, user experience (UX) practice can be divided into three stages in terms of technology platform, user needs, design philosophy, ecosystem, scope, focus, and methodology of UX practice. UX practice is moving towards the intelligence era. Still, the existing UX paradigm mainly aims at non-intelligent systems and lacks a systematic approach to address UX for designing and developing human-centered AI products and systems. The intelligence era has put forward new demands on the UX paradigm. This paper proposes a\"UX 3.0\"paradigm framework and the corresponding UX methodology for UX practice in the intelligence era. The\"UX 3.0\"paradigm framework includes four categories of emerging experiences in the intelligence era: ecosystem-based experience, innovation-enabled experience, AI-enabled experience, and human-AI interaction-based experience, each compelling us to enhance current UX practice in terms of design philosophy, scope, focus, and methodology. We believe that the\"UX 3.0\"paradigm helps enhance existing UX practice and provides methodological support for the research and applications of UX in developing human-centered AI systems. Finally, this paper looks forward to future work implementing the\"UX 3.0\"paradigm.",
+    "summary": "This paper proposes a \"UX 3.0\" framework for designing human-centered AI systems, encompassing four emerging experience categories (ecosystem-based, innovation-enabled, AI-enabled, and human-AI interaction-based) to address the limitations of existing UX paradigms in the age of artificial intelligence. The framework offers a new methodology for enhancing UX design and development in this context."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.06681",
+    "title": "User-Centered Design (IX): A \"User Experience 3.0\" Paradigm Framework in the Intelligence Era",
+    "published_date": "2023-02-13",
+    "abstract": "The field of user experience (UX) based on the design philosophy of\"user-centered design\"is moving towards the intelligence era. Still, the existing UX paradigm mainly aims at non-intelligent systems and lacks a systematic approach to UX for intelligent systems. Throughout the development of UX, the UX paradigm shows the evolution characteristics of the cross-technology era. At present, the intelligence era has put forward new demands on the UX paradigm. For this reason, this paper proposes a\"UX 3.0\"paradigm framework and the corresponding UX methodology system in the intelligence era. The\"UX 3.0\"paradigm framework includes five categories of UX methods: ecological experience, innovation-enabled experience, AI-enabled experience, human-AI interaction-based experience, and human-AI collaboration-based experience methods, each providing corresponding multiple UX paradigmatic orientations. The proposal of the\"UX 3.0\"paradigm helps improve the existing UX methods and provides methodological support for the research and applications of UX in developing intelligent systems. Finally, this paper looks forward to future research and applications of the\"UX 3.0\"paradigm.",
+    "citation_count": 4,
+    "summary": "This paper proposes a \"UX 3.0\" paradigm framework for designing user experiences in the age of intelligent systems, encompassing five categories of methods addressing ecological, innovative, AI-enabled, human-AI interactive, and human-AI collaborative experiences. This framework aims to improve existing UX methodologies and guide research in intelligent system design."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.10395.pdf",
+    "title": "Designerly Understanding: Information Needs for Model Transparency to Support Design Ideation for AI-Powered User Experience",
+    "published_date": "2023-02-21",
+    "abstract": "Despite the widespread use of artificial intelligence (AI), designing user experiences (UX) for AI-powered systems remains challenging. UX designers face hurdles understanding AI technologies, such as pre-trained language models, as design materials. This limits their ability to ideate and make decisions about whether, where, and how to use AI. To address this problem, we bridge the literature on AI design and AI transparency to explore whether and how frameworks for transparent model reporting can support design ideation with pre-trained models. By interviewing 23 UX practitioners, we find that practitioners frequently work with pre-trained models, but lack support for UX-led ideation. Through a scenario-based design task, we identify common goals that designers seek model understanding for and pinpoint their model transparency information needs. Our study highlights the pivotal role that UX designers can play in Responsible AI and calls for supporting their understanding of AI limitations through model transparency and interrogation.",
+    "citation_count": 48,
+    "summary": "This study investigates UX designers' challenges in using AI models, finding a lack of support for design ideation due to poor understanding of AI technologies. The research identifies designers' information needs regarding model transparency to facilitate responsible AI integration into UX design."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zYv9BQBGnk2EdCwoG/the-psyche-of-ai-pattern-recognition",
+    "author": "Scott Broock",
+    "title": "AI and the Map of Your Mind: Pattern Recognition",
+    "published_date": "2023-03-20",
+    "summary": "Integrating large language models into productivity suites allows AI to create personalized knowledge graphs from user data, potentially revolutionizing learning and decision-making by revealing hidden connections and patterns. However, this access to personal data raises concerns about privacy and the implications for understanding the human psyche."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/ai",
+    "author": "Evan Hubinger",
+    "title": "AI - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "Artificial intelligence alignment focuses on ensuring powerful AI systems act according to human values, preventing unintended consequences and existential risks. This involves addressing both narrow (e.g., solving a specific problem without harm) and ambitious (e.g., creating a beneficial future for humanity) alignment challenges."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/fbc54dEWuuugLbgHv/ai-10-code-interpreter-and-geoff-hinton",
+    "author": "Zvi",
+    "title": "AI #10: Code Interpreter and Geoff Hinton",
+    "published_date": "2023-05-04",
+    "summary": "A new ChatGPT Code Interpreter mode allows analysis of large datasets and automated report generation, while AI safety concerns are highlighted by Geoff Hinton's resignation from Google and a meeting between Vice President Harris and major tech CEOs."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/wDL6wiqg3c6WFisHq/gpt-as-an-intelligence-forklift",
+    "author": "boazbarak",
+    "title": "GPT as an “Intelligence Forklift.”",
+    "published_date": "2023-05-19",
+    "summary": "The article explores the ambiguity surrounding the definition of intelligence and its relationship to computational power, arguing that increasing AI capabilities raise concerns about potential surpassing of human intelligence. It proposes a shift in perspective, viewing intelligence as a system property rather than solely an individual attribute, exemplified by the potential of large language models like GPT to possess high intelligence without necessarily exhibiting independent agency."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ip2vSzkcmi3rBbnYE/agi-doesn-t-need-understanding-or-consciousness-in-order-to",
+    "author": "James Blaha",
+    "title": "AGI doesn't need understanding, intention, or consciousness in order to kill us, only intelligence",
+    "published_date": "2023-02-20",
+    "summary": "The development of Artificial General Intelligence (AGI) is rapidly approaching, posing an existential threat comparable to nuclear weapons due to its potential for misuse, unintended consequences, and the possibility of unaligned goal optimization. This necessitates immediate attention and careful mitigation strategies to manage the profound risks associated with AGI."
+  }
+]

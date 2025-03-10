@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Attack as defense: characterizing adversarial examples using robustness",
+    "abstract": "As a new programming paradigm, deep learning has expanded its application to many real-world problems. At the same time, deep learning based software are found to be vulnerable to adversarial attacks. Though various defense mechanisms have been proposed to improve robustness of deep learning software, many of them are ineffective against adaptive attacks. In this work, we propose a novel characterization to distinguish adversarial examples from benign ones based on the observation that adversarial examples are significantly less robust than benign ones. As existing robustness measurement does not scale to large networks, we propose a novel defense framework, named attack as defense (A2D), to detect adversarial examples by effectively evaluating an example's robustness. A2D uses the cost of attacking an input for robustness evaluation and identifies those less robust examples as adversarial since less robust examples are easier to attack. Extensive experiment results on MNIST, CIFAR10 and ImageNet show that A2D is more effective than recent promising approaches. We also evaluate our defense against potential adaptive attacks and show that A2D is effective in defending carefully designed adaptive attacks, e.g., the attack success rate drops to 0% on CIFAR10.",
+    "published_date": "2021-03-13",
+    "citation_count": 29,
+    "url": "https://dl.acm.org/doi/10.1145/3460319.3464822"
+  },
+  {
+    "title": "Moving Target Defense Decision-Making Method: A Dynamic Markov Differential Game Model",
+    "abstract": "Today most of the moving target defense decision-making methods are based on models of a discrete dynamic game. To more accurately study network attack-defense strategies against continuous confrontations, we analyze offensive and defensive behavior from a dynamic perspective. We propose a moving target defense decision-making method based on a model of a dynamic Markov differential game. We implement dynamic analysis and deduction of multi-stage continuous attack and defense confrontations for scenarios of continuous real-time network attack-defense. We take into account the influence of random factors and changes of the network system in the gaming process, combine differential gaming with the Markov decision-making method, and construct models of attack-defense games. We propose a solution for game equilibrium based on an objective function designed according to the total discounted payoff of the offensive and defensive game and the analysis of the characteristics of multi-staged game equilibrium. On this basis an optimal strategy selection method is designed. We apply and verify the game model and the defense strategy selection algorithm by using the moving target defense technique. We conduct simulations to verify the effectiveness and feasibility of the model and algorithm.",
+    "published_date": "2020-11-09",
+    "citation_count": 7,
+    "url": "https://dl.acm.org/doi/10.1145/3411496.3421222"
+  },
+  {
+    "title": "Towards Cost-Effective Moving Target Defense Against DDoS and Covert Channel Attacks",
+    "abstract": "Traditionally, network and system configurations are static. Attackers have plenty of time to exploit the system's vulnerabilities and thus they are able to choose when to launch attacks wisely to maximize the damage. An unpredictable system configuration can significantly lift the bar for attackers to conduct successful attacks. Recent years, moving target defense (MTD) has been advocated for this purpose. An MTD mechanism aims to introduce dynamics to the system through changing its configuration continuously over time, which we call adaptations. Though promising, the dynamic system reconfiguration introduces overhead to the applications currently running in the system. It is critical to determine the right time to conduct adaptations and to balance the overhead afforded and the security levels guaranteed. This problem is known as the MTD timing problem. Little prior work has been done to investigate the right time in making adaptations. In this paper, we take the first step to both theoretically and experimentally study the timing problem in moving target defenses. For a broad family of attacks including DDoS attacks and cloud covert channel attacks, we model this problem as a renewal reward process and propose an optimal algorithm in deciding the right time to make adaptations with the objective of minimizing the long-term cost rate. In our experiments, both DDoS attacks and cloud covert channel attacks are studied. Simulations based on real network traffic traces are conducted and we demonstrate that our proposed algorithm outperforms known adaptation schemes.",
+    "published_date": "2016-10-24",
+    "citation_count": 36,
+    "url": "https://dl.acm.org/doi/10.1145/2995272.2995281"
+  },
+  {
+    "title": "Reinforcement Learning Algorithms for Adaptive Cyber Defense against Heartbleed",
+    "abstract": "In this paper, we investigate a model where a defender and an attacker simultaneously and repeatedly adjust the defenses and attacks. Under this model, we propose two iterative reinforcement learning algorithms which allow the defender to identify optimal defenses when the information about the attacker is limited. With probability one, the adaptive reinforcement learning algorithm converges to the best response with respect to the attacks when the attacker diminishingly explores the system. With a probability arbitrarily close to one, the robust reinforcement learning algorithm converges to the min-max strategy despite that the attacker persistently explores the system. The algorithm convergence is formally proven and the algorithm performance is verified via numerical simulations.",
+    "published_date": "2014-11-07",
+    "citation_count": 41,
+    "url": "https://dl.acm.org/doi/10.1145/2663474.2663481"
+  }
+]

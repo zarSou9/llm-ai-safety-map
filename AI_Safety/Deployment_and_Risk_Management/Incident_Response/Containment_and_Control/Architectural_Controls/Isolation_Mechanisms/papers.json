@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2309.11332",
+    "title": "Software Compartmentalization Trade-Offs with Hardware Capabilities",
+    "published_date": "2023-09-20",
+    "abstract": "Compartmentalization is a form of defensive software design in which an application is broken down into isolated but communicating components. Retrofitting compartmentalization into existing applications is often thought to be expensive from the engineering effort and performance overhead points of view. Still, recent years have seen proposals of compartmentalization methods with promises of low engineering efforts and reduced performance impact. ARM Morello combines a modern ARM processor with an implementation of Capability Hardware Enhanced RISC Instructions (CHERI) aiming to provide efficient and secure compartmentalization. Past works exploring CHERI-based compartmentalization were restricted to emulated/FPGA prototypes. In this paper, we explore possible compartmentalization schemes with CHERI on the Morello chip. We propose two approaches representing different trade-offs in terms of engineering effort, security, scalability, and performance impact. We describe and implement these approaches on a prototype OS running bare metal on the Morello chip, compartmentalize two popular applications, and investigate the performance overheads. Furthermore, we show that compartmentalization can be achieved with an engineering cost that can be quite low if one is willing to trade off on scalability and security, and that performance overheads are similar to other intra-address space isolation mechanisms."
+  },
+  {
+    "url": "https://arxiv.org/abs/2202.05732",
+    "title": "CAP-VMs: Capability-Based Isolation and Sharing in the Cloud",
+    "published_date": "2022-02-11",
+    "abstract": "Cloud stacks must isolate application components, while permitting efficient data sharing between components deployed on the same physical host. Traditionally, the MMU enforces isolation and permits sharing at page granularity. MMU approaches, however, lead to cloud stacks with large TCBs in kernel space, and page granularity requires inefficient OS interfaces for data sharing. Forthcoming CPUs with hardware support for memory capabilities offer new opportunities to implement isolation and sharing at a finer granularity. We describe cVMs, a new VM-like abstraction that uses memory capabilities to isolate application components while supporting efficient data sharing, all without mandating application code to be capability-aware. cVMs share a single virtual address space safely, each having only capabilities to access its own memory. A cVM may include a library OS, thus minimizing its dependency on the cloud environment. cVMs efficiently exchange data through two capability-based primitives assisted by a small trusted monitor: (i) an asynchronous read-write interface to buffers shared between cVMs; and (ii) a call interface to transfer control between cVMs. Using these two primitives, we build more expressive mechanisms for efficient cross-cVM communication. Our prototype implementation using CHERI RISC-V capabilities shows that cVMs isolate services (Redis and Python) with low overhead while improving data sharing.",
+    "citation_count": 14
+  },
+  {
+    "url": "https://arxiv.org/pdf/2205.03322v1.pdf",
+    "title": "Private Delegated Computations Using Strong Isolation",
+    "published_date": "2022-05-06",
+    "abstract": "Computations are now routinely delegated to third-parties. In response, Confidential Computing technologies are being added to microprocessors offering a trusted execution environment (TEE) that provides confidentiality and integrity guarantees to code and data hosted within—even in the face of a privileged attacker. TEEs, along with an attestation protocol, permit remote third-parties to establish a trusted “beachhead” containing known code and data on an otherwise untrusted machine. Yet, they introduce many new problems, including: how to ease provisioning of computations safely into TEEs; how to develop distributed systems spanning multiple classes of TEE; and what to do about the billions of “legacy” devices without support for Confidential Computing? Tackling these problems, we introduce Veracruz, a pragmatic framework that eases the design and implementation of complex privacy-preserving, collaborative, delegated computations among a group of mutually mistrusting principals. Veracruz supports multiple isolation technologies and provides a common programming model and attestation protocol across all of them, smoothing deployment of delegated computations over supported technologies. We demonstrate Veracruz in operation, on private in-cloud object detection on encrypted video streaming from a video camera. In addition to supporting hardware-backed TEEs—like AWS Nitro Enclaves and Arm Confidential Computing Architecture Realms—Veracruz also provides pragmatic “software TEEs” on Armv8-A devices without hardware Confidential Computing capability, using the high-assurance seL4 microkernel and our IceCap framework.",
+    "citation_count": 4
+  },
+  {
+    "title": "Analysing and extending privacy patterns with architectural context",
+    "abstract": "Privacy is now an increasingly important software quality. Software architects and developers should consider privacy from the early stages of system design to prevent privacy breaches. Both industry and academia have proposed privacy patterns as reusable design solutions to address common privacy problems. However, from the system development perspective, the existing privacy patterns do not provide architectural context to assist software design for privacy. More specifically, the current privacy patterns lack proper analysis with regards to privacy properties - the well-established software traits relating to privacy (e.g., unlinkability, identifiability). Furthermore, the impacts of privacy patterns on other quality attributes such as performance are yet to be investigated. Our paper aims to provide guidance to software architects and developers for considering privacy patterns, by adding new perspectives to the existing privacy patterns. First, we provide a new structural and interaction view of the patterns by relating privacy regulation contexts. Then, we analyse the patterns in architectural contexts and map available privacy-preserving techniques for implementing each privacy pattern. We also give an analysis of privacy patterns with regard to their impact on privacy properties, and the trade-off between privacy and other quality attributes.",
+    "published_date": "2021-03-22",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3412841.3442014"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.02821.pdf",
+    "title": "VOSySmonitoRV: a mixed-criticality solution on Linux-capable RISC-V platforms",
+    "published_date": "2021-06-07",
+    "abstract": "Embedded systems are pervasively used in many fields nowadays. In mixed-criticality environments (automotive, industry 4.0, drones, etc.) they need to run real-time applications with certain time and safety constraints alongside a rich operating system (OS). This is usually possible thanks to virtualization techniques, that leverage on hardware virtualization extensions on the machine. However, these hardware extensions might not cope with the security and safety requirements of the specific use case, and additionally, they might not always be available. A notable example is the emerging RISC-V architecture, that is today gaining a lot of traction in the mixed criticality field, but that does not offer today hardware virtualization extensions. In this paper VOSySmonitoRV is proposed as a mixed-criticality solution for RISC-V systems. VOSySmonitoRV allows the co-execution of two or more operating systems in a secure and isolated manner by running in the highest privileged machine level. A specific benchmark, measuring the interrupt latency and context switch time is done to assess the system performance in mixed criticality systems.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06"
+  }
+]

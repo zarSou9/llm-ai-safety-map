@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.10295",
+    "title": "Societal Adaptation to Advanced AI",
+    "published_date": "2024-05-16",
+    "abstract": "Existing strategies for managing risks from advanced AI systems often focus on affecting what AI systems are developed and how they diffuse. However, this approach becomes less feasible as the number of developers of advanced AI grows, and impedes beneficial use-cases as well as harmful ones. In response, we urge a complementary approach: increasing societal adaptation to advanced AI, that is, reducing the expected negative impacts from a given level of diffusion of a given AI capability. We introduce a conceptual framework which helps identify adaptive interventions that avoid, defend against and remedy potentially harmful uses of AI systems, illustrated with examples in election manipulation, cyberterrorism, and loss of control to AI decision-makers. We discuss a three-step cycle that society can implement to adapt to AI. Increasing society's ability to implement this cycle builds its resilience to advanced AI. We conclude with concrete recommendations for governments, industry, and third-parties.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.06051",
+    "title": "On the Utility of Accounting for Human Beliefs about AI Intention in Human-AI Collaboration",
+    "published_date": "2024-06-10",
+    "abstract": "To enable effective human-AI collaboration, merely optimizing AI performance without considering human factors is insufficient. Recent research has shown that designing AI agents that take human behavior into account leads to improved performance in human-AI collaboration. However, a limitation of most existing approaches is their assumption that human behavior remains static, regardless of the AI agent's actions. In reality, humans may adjust their actions based on their beliefs about the AI's intentions, specifically, the subtasks they perceive the AI to be attempting to complete based on its behavior. In this paper, we address this limitation by enabling a collaborative AI agent to consider its human partner's beliefs about its intentions, i.e., what the human partner thinks the AI agent is trying to accomplish, and to design its action plan accordingly to facilitate more effective human-AI collaboration. Specifically, we developed a model of human beliefs that captures how humans interpret and reason about their AI partner's intentions. Using this belief model, we created an AI agent that incorporates both human behavior and human beliefs when devising its strategy for interacting with humans. Through extensive real-world human-subject experiments, we demonstrate that our belief model more accurately captures human perceptions of AI intentions. Furthermore, we show that our AI agent, designed to account for human beliefs over its intentions, significantly enhances performance in human-AI collaboration."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.07728",
+    "title": "Give Me a Choice: The Consequences of Restricting Choices Through AI-Support for Perceived Autonomy, Motivational Variables, and Decision Performance",
+    "published_date": "2024-10-10",
+    "abstract": "Design optimizations in human-AI collaboration often focus on cognitive aspects like attention and task load. Drawing on work design literature, we propose that effective human-AI collaboration requires broader consideration of human needs (e.g., autonomy) that affect motivational variables (e.g., meaningfulness). In a simulated drone oversight experiment, participants (N=274, between-subject) faced 10 critical decision-making scenarios with varying levels of choice restrictions with an AI recommending only 1, 2, 4 or all 6 possible actions. Restricting participants to one selectable action improved task performance (with a perfect AI) but significantly reduced perceived autonomy and work meaningfulness, and these effects intensified over time. In conditions with multiple action choices, participants with higher perceived autonomy performed better. The findings underscore the importance of considering motivational factors to design successful long-term human-AI collaboration at work."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.03865",
+    "title": "AdaSociety: An Adaptive Environment with Social Structures for Multi-Agent Decision-Making",
+    "published_date": "2024-11-06",
+    "abstract": "Traditional interactive environments limit agents' intelligence growth with fixed tasks. Recently, single-agent environments address this by generating new tasks based on agent actions, enhancing task diversity. We consider the decision-making problem in multi-agent settings, where tasks are further influenced by social connections, affecting rewards and information access. However, existing multi-agent environments lack a combination of adaptive physical surroundings and social connections, hindering the learning of intelligent behaviors. To address this, we introduce AdaSociety, a customizable multi-agent environment featuring expanding state and action spaces, alongside explicit and alterable social structures. As agents progress, the environment adaptively generates new tasks with social structures for agents to undertake. In AdaSociety, we develop three mini-games showcasing distinct social structures and tasks. Initial results demonstrate that specific social structures can promote both individual and collective benefits, though current reinforcement learning and LLM-based algorithms show limited effectiveness in leveraging social structures to enhance performance. Overall, AdaSociety serves as a valuable research platform for exploring intelligence in diverse physical and social settings. The code is available at https://github.com/bigai-ai/AdaSociety."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03"
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.02561",
+    "title": "Beneficence Signaling in AI Development Dynamics",
+    "published_date": "2023-05-04",
+    "abstract": "This paper motivates and develops a framework for understanding how the socio-technical systems surrounding AI development interact with social welfare. It introduces the concept of ``signaling'' from evolutionary game theory and demonstrates how it can enhance existing theory and practice surrounding the evaluation and governance of AI systems."
+  }
+]

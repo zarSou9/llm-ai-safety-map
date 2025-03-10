@@ -1,0 +1,42 @@
+[
+  {
+    "title": "An Efficient Preprocessing-Based Approach to Mitigate Advanced Adversarial Attacks",
+    "abstract": "Deep Neural Networks are well-known to be vulnerable to Adversarial Examples. Recently, advanced gradient-based attacks were proposed (e.g., BPDA and EOT), which can significantly increase the difficulty and complexity of designing effective defenses. In this paper, we present a study towards the opportunity of mitigating those powerful attacks with only pre-processing operations. We make the following two contributions. First, we perform an in-depth analysis of those attacks and summarize three fundamental properties that a good defense solution should have. Second, we design a lightweight preprocessing function with these properties and the capability of preserving the model's usability and robustness against these threats. Extensive evaluations indicate that our solutions can effectively mitigate all existing standard and advanced attack techniques, and beat 11 state-of-the-art defense solutions published in top-tier conferences over the past 2 years.",
+    "published_date": "2024-03-01",
+    "citation_count": 14,
+    "url": "https://ieeexplore.ieee.org/document/9420266/"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.10075v1.pdf",
+    "title": "Enhanced countering adversarial attacks via input denoising and feature restoring",
+    "published_date": "2021-11-19",
+    "abstract": "Despite the fact that deep neural networks (DNNs) have achieved prominent performance in various applications, it is well known that DNNs are vulnerable to adversarial examples/samples (AEs) with imperceptible perturbations in clean/original samples. To overcome the weakness of the existing defense methods against adversarial attacks, which damages the information on the original samples, leading to the decrease of the target classifier accuracy, this paper presents an enhanced countering adversarial attack method IDFR (via Input Denoising and Feature Restoring). The proposed IDFR is made up of an enhanced input denoiser (ID) and a hidden lossy feature restorer (FR) based on the convex hull optimization. Extensive experiments conducted on benchmark datasets show that the proposed IDFR outperforms the various state-of-the-art defense methods, and is highly effective for protecting target models against various adversarial black-box or white-box attacks. \\footnote{Souce code is released at: \\href{https://github.com/ID-FR/IDFR}{https://github.com/ID-FR/IDFR}}",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2107.05222.pdf",
+    "title": "Perceptual-based deep-learning denoiser as a defense against adversarial attacks on ASR systems",
+    "published_date": "2021-07-12",
+    "abstract": "In this paper we investigate speech denoising as a defense against adversarial attacks on automatic speech recognition (ASR) systems. Adversarial attacks attempt to force misclassification by adding small perturbations to the original speech signal. We propose to counteract this by employing a neural-network based denoiser as a pre-processor in the ASR pipeline. The denoiser is independent of the downstream ASR model, and thus can be rapidly deployed in existing systems. We found that training the denoisier using a perceptually motivated loss function resulted in increased adversarial robustness without compromising ASR performance on benign samples. Our defense was evaluated (as a part of the DARPA GARD program) on the 'Kenansville' attack strategy across a range of attack strengths and speech samples. An average improvement in Word Error Rate (WER) of about 7.7% was observed over the undefended model at 20 dB signal-to-noise-ratio (SNR) attack strength.",
+    "citation_count": 5
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.01399v1.pdf",
+    "title": "Corrupting Data to Remove Deceptive Perturbation: Using Preprocessing Method to Improve System Robustness",
+    "published_date": "2021-12-01",
+    "abstract": "Although deep neural networks have achieved great performance on classification tasks, recent studies showed that well trained networks can be fooled by adding subtle noises. This paper introduces a new approach to improve neural network robustness by applying the recovery process on top of the naturally trained classifier. In this approach, images will be intentionally corrupted by some significant operator and then be recovered before passing through the classifiers. SARGAN - an extension on Generative Adversarial Networks (GAN) is capable of denoising radar signals. This paper will show that SARGAN can also recover corrupted images by removing the adversarial effects. Our results show that this approach does improve the performance of naturally trained networks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/G4KHuYC3pHry6yMhi/compute-research-questions-and-metrics-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Research Questions and Metrics - Transformative AI and Compute [4/4]",
+    "published_date": "2021-11-28"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2012.09384.pdf",
+    "title": "On the Limitations of Denoising Strategies as Adversarial Defenses",
+    "published_date": "2020-12-17",
+    "abstract": "As adversarial attacks against machine learning models have raised increasing concerns, many denoising-based defense approaches have been proposed. In this paper, we summarize and analyze the defense strategies in the form of symmetric transformation via data denoising and reconstruction (denoted as $F+$ inverse $F$, $F-IF$ Framework). In particular, we categorize these denoising strategies from three aspects (i.e. denoising in the spatial domain, frequency domain, and latent space, respectively). Typically, defense is performed on the entire adversarial example, both image and perturbation are modified, making it difficult to tell how it defends against the perturbations. To evaluate the robustness of these denoising strategies intuitively, we directly apply them to defend against adversarial noise itself (assuming we have obtained all of it), which saving us from sacrificing benign accuracy. Surprisingly, our experimental results show that even if most of the perturbations in each dimension is eliminated, it is still difficult to obtain satisfactory robustness. Based on the above findings and analyses, we propose the adaptive compression strategy for different frequency bands in the feature domain to improve the robustness. Our experiment results show that the adaptive compression strategies enable the model to better suppress adversarial perturbations, and improve robustness compared with existing denoising strategies.",
+    "citation_count": 14
+  }
+]

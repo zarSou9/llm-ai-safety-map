@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2111.10075v1.pdf",
+    "title": "Enhanced countering adversarial attacks via input denoising and feature restoring",
+    "published_date": "2021-11-19",
+    "abstract": "Despite the fact that deep neural networks (DNNs) have achieved prominent performance in various applications, it is well known that DNNs are vulnerable to adversarial examples/samples (AEs) with imperceptible perturbations in clean/original samples. To overcome the weakness of the existing defense methods against adversarial attacks, which damages the information on the original samples, leading to the decrease of the target classifier accuracy, this paper presents an enhanced countering adversarial attack method IDFR (via Input Denoising and Feature Restoring). The proposed IDFR is made up of an enhanced input denoiser (ID) and a hidden lossy feature restorer (FR) based on the convex hull optimization. Extensive experiments conducted on benchmark datasets show that the proposed IDFR outperforms the various state-of-the-art defense methods, and is highly effective for protecting target models against various adversarial black-box or white-box attacks. \\footnote{Souce code is released at: \\href{https://github.com/ID-FR/IDFR}{https://github.com/ID-FR/IDFR}}",
+    "citation_count": 1,
+    "summary": "The paper introduces IDFR, a novel defense against adversarial attacks on deep neural networks, combining input denoising and feature restoration using convex hull optimization to improve accuracy compared to existing methods. Experiments demonstrate its effectiveness against various black-box and white-box attacks."
+  },
+  {
+    "title": "On the Security of Randomized Defenses Against Adversarial Samples",
+    "abstract": "Deep Learning has been shown to be particularly vulnerable to adversarial samples. To combat adversarial strategies, numerous defensive techniques have been proposed. Among these, a promising approach is to use randomness in order to make the classification process unpredictable and presumably harder for the adversary to control. In this paper, we study the effectiveness of randomized defenses against adversarial samples. To this end, we categorize existing state-of-the-art adversarial strategies into three attacker models of increasing strength, namely blackbox, graybox, and whitebox (a.k.a. adaptive) attackers. We also devise a lightweight randomization strategy for image classification based on feature squeezing, that consists of pre-processing the classifier input by embedding randomness within each feature, before applying feature squeezing. We evaluate the proposed defense and compare it to other randomized techniques in the literature via thorough experiments. Our results indeed show that careful integration of randomness can be effective against both graybox and blackbox attacks without significantly degrading the accuracy of the underlying classifier. However, our experimental results offer strong evidence that in the present form such randomization techniques cannot deter a whitebox adversary that has access to all classifier parameters and has full knowledge of the defense. Our work thoroughly and empirically analyzes the impact of randomization techniques against all classes of adversarial strategies.",
+    "published_date": "2018-12-11",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3320269.3384751",
+    "summary": "This paper analyzes the effectiveness of randomized defenses against adversarial attacks on deep learning models, categorizing attackers by access level (blackbox, graybox, whitebox) and finding that while randomness improves robustness against weaker attacks, it's ineffective against adaptive (whitebox) adversaries with full knowledge of the defense mechanism."
+  },
+  {
+    "url": "https://arxiv.org/abs/1812.00037v1",
+    "title": "Adversarial Defense by Stratified Convolutional Sparse Coding",
+    "published_date": "2018-11-30",
+    "abstract": "We propose an adversarial defense method that achieves state-of-the-art performance among attack-agnostic adversarial defense methods while also maintaining robustness to input resolution, scale of adversarial perturbation, and scale of dataset size. Based on convolutional sparse coding, we construct a stratified low-dimensional quasi-natural image space that faithfully approximates the natural image space while also removing adversarial perturbations. We introduce a novel Sparse Transformation Layer (STL) in between the input image and the first layer of the neural network to efficiently project images into our quasi-natural image space. Our experiments show state-of-the-art performance of our method compared to other attack-agnostic adversarial defense methods in various adversarial settings.",
+    "citation_count": 71,
+    "summary": "The paper introduces a novel adversarial defense method using stratified convolutional sparse coding, creating a low-dimensional quasi-natural image space to remove adversarial perturbations and achieve state-of-the-art performance across various attack settings and image resolutions. A Sparse Transformation Layer efficiently projects images into this space before classification."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.13274",
+    "title": "Robust Image Classification: Defensive Strategies against FGSM and PGD Adversarial Attacks",
+    "published_date": "2024-08-20",
+    "abstract": "Adversarial attacks, particularly the Fast Gradient Sign Method (FGSM) and Projected Gradient Descent (PGD) pose significant threats to the robustness of deep learning models in image classification. This paper explores and refines defense mechanisms against these attacks to enhance the resilience of neural networks. We employ a combination of adversarial training and innovative preprocessing techniques, aiming to mitigate the impact of adversarial perturbations. Our methodology involves modifying input data before classification and investigating different model architectures and training strategies. Through rigorous evaluation of benchmark datasets, we demonstrate the effectiveness of our approach in defending against FGSM and PGD attacks. Our results show substantial improvements in model robustness compared to baseline methods, highlighting the potential of our defense strategies in real-world applications. This study contributes to the ongoing efforts to develop secure and reliable machine learning systems, offering practical insights and paving the way for future research in adversarial defense. By bridging theoretical advancements and practical implementation, we aim to enhance the trustworthiness of AI applications in safety-critical domains.",
+    "citation_count": 1,
+    "summary": "This paper investigates defensive strategies against Fast Gradient Sign Method (FGSM) and Projected Gradient Descent (PGD) adversarial attacks on image classification models, combining adversarial training with novel preprocessing techniques to significantly improve robustness. Results demonstrate enhanced resilience compared to existing methods, contributing to more secure and reliable deep learning systems."
+  },
+  {
+    "title": "An Efficient Preprocessing-Based Approach to Mitigate Advanced Adversarial Attacks",
+    "abstract": "Deep Neural Networks are well-known to be vulnerable to Adversarial Examples. Recently, advanced gradient-based attacks were proposed (e.g., BPDA and EOT), which can significantly increase the difficulty and complexity of designing effective defenses. In this paper, we present a study towards the opportunity of mitigating those powerful attacks with only pre-processing operations. We make the following two contributions. First, we perform an in-depth analysis of those attacks and summarize three fundamental properties that a good defense solution should have. Second, we design a lightweight preprocessing function with these properties and the capability of preserving the model's usability and robustness against these threats. Extensive evaluations indicate that our solutions can effectively mitigate all existing standard and advanced attack techniques, and beat 11 state-of-the-art defense solutions published in top-tier conferences over the past 2 years.",
+    "published_date": "2024-03-01",
+    "citation_count": 14,
+    "url": "https://ieeexplore.ieee.org/document/9420266/",
+    "summary": "This paper introduces a lightweight preprocessing method to defend against advanced gradient-based adversarial attacks on deep neural networks. The method, designed based on analyzed attack properties, outperforms 11 state-of-the-art defenses in mitigating both standard and advanced attacks."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/cPCvfrqjgy5Cu2FCs/analysing-adversarial-attacks-with-linear-probing-3",
+    "author": "Yoann Poupart; Imene Kerboua; Clement Neo; Jason Hoelscher-Obermaier",
+    "title": "Analysing Adversarial Attacks with Linear Probing",
+    "published_date": "2024-06-17",
+    "summary": "Researchers used linear probes to analyze how adversarial attacks affect different layers of a CLIP-based image classifier, finding that attacks primarily modify later layers, suggesting a potential detection method based on layer-wise discrepancy. This approach investigates whether adversarial attacks exploit meaningful features or model bugs."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/oPnFzfZtaoWrqTP4H/solving-adversarial-attacks-in-computer-vision-as-a-baby",
+    "author": "Stanislavfort",
+    "title": "Solving adversarial attacks in computer vision as a baby version of general AI alignment",
+    "published_date": "2024-08-29",
+    "summary": "The article draws an analogy between adversarial attacks on computer vision systems and the broader problem of AI alignment, arguing that both involve transferring implicit human functions to machines. The author's research on robust computer vision models, inspired by biological systems, offers a potential pathway toward addressing these challenges."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/fQZRFM3FuQ2YnBxdb/does-robustness-improve-with-scale",
+    "author": "ChengCheng; AdamGleave; Ian McKenzie; Oskar Hollinsworth; Tom Tseng",
+    "title": "Does robustness improve with scale?",
+    "published_date": "2024-07-25",
+    "summary": "Larger language models aren't inherently more robust to adversarial attacks than smaller models; however, larger models benefit more from robustness-enhancing techniques like adversarial training. This research focuses on adversarial suffix attacks in a classification setting, finding that scale alone does not improve model robustness."
+  }
+]

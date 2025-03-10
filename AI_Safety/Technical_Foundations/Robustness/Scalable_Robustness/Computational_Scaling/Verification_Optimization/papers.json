@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Verifiable autonomy under perceptual limitations",
+    "abstract": "A recent set of algorithms in the intersection of formal methods, convex optimization and machine learning offers orders-of-magnitude improvement in the scalability of verification and synthesis in partially observable Markov decision processes possibly with uncertain transition probabilities.",
+    "published_date": "2021-05-18",
+    "url": "https://dl.acm.org/doi/10.1145/3459086.3459635"
+  },
+  {
+    "title": "Verifying observational robustness against a c11-style memory model",
+    "abstract": "We study the problem of verifying the robustness of concurrent programs against a C11-style memory model that includes relaxed accesses and release/acquire accesses and fences, and show that this verification problem can be reduced to a standard reachability problem under sequential consistency. We further observe that existing robustness notions do not allow the verification of programs that use speculative reads as in the sequence lock mechanism, and introduce a novel \"observational robustness\" property that fills this gap. In turn, we show how to soundly check for observational robustness. We have implemented our method and applied it to several challenging concurrent algorithms, demonstrating the applicability of our approach. To the best of our knowledge, this is the first method for verifying robustness against a programming language concurrency model that includes relaxed accesses and release/acquire fences.",
+    "published_date": "2021-01-04",
+    "citation_count": 23,
+    "url": "https://dl.acm.org/doi/10.1145/3434285"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/a7YgzDYx4FhdB3TmR/an-155-a-minecraft-benchmark-for-algorithms-that-learn",
+    "author": "Rohin Shah",
+    "title": "[AN #155]: A Minecraft benchmark for algorithms that learn without reward functions",
+    "published_date": "2021-07-08"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/fnjKpBoWJXcSDwhZk/what-s-the-backward-forward-flop-ratio-for-nns",
+    "author": "Marius Hobbhahn, Jsevillamol",
+    "title": "What's the backward-forward FLOP ratio for Neural Networks?",
+    "published_date": "2021-12-13"
+  },
+  {
+    "title": "Leveraging Weakly-hard Constraints for Improving System Fault Tolerance with Functional and Timing Guarantees",
+    "abstract": "Many safety-critical real-time systems operate under harsh environment and are subject to soft errors caused by transient or intermittent faults. It is critical and yet often very challenging to apply fault tolerance techniques in these systems, due to resource limitations and stringent constraints on timing and functionality. In this work, we leverage the concept of weakly-hard constraints, which allows task deadline misses in a bounded manner, to improve system's capability to accommodate fault tolerance techniques while ensuring timing and functional correctness. In particular, we a) quantitatively measure control cost under different deadline hit/miss scenarios and identify weak-hard constraints that guarantee control stability; b) employ typical worst-case analysis (TWCA) to bound the number of deadline misses and approximate system control cost; c) develop an event-based simulation method to check the task execution pattern and evaluate system control cost for any given solution; and d) develop a meta-heuristic algorithm that consists of heuristic methods and a simulated annealing procedure to explore the design space. Our experiments on an industrial case study and synthetic examples demonstrate the effectiveness of our approach.",
+    "published_date": "2020-08-14",
+    "citation_count": 12,
+    "url": "https://dl.acm.org/doi/10.1145/3400302.3415717"
+  },
+  {
+    "title": "Aloe: verifying reliability of approximate programs in the presence of recovery mechanisms",
+    "abstract": "Modern hardware is becoming increasingly susceptible to silent data corruptions. As general methods for detection and recovery from errors are time and energy consuming, selective detection and recovery are promising alternatives for applications that have the freedom to produce results with a variable level of accuracy. Several programming languages have provided specialized constructs for expressing detection and recovery operations, but the existing static analyses of safety and quantitative analyses of programs do not have the proper support for such language constructs. This work presents Aloe, a quantitative static analysis of reliability of programs with recovery blocks - a construct that checks for errors, and if necessary, applies the corresponding recovery strategy. The analysis supports reasoning about both reliable and potentially unreliable detection and recovery mechanisms. It implements a novel precondition generator for recovery blocks, built on top of Rely, a state-of-the-art quantitative reliability analysis for imperative programs. Aloe can reason about programs with scalar and array expressions, if-then-else conditionals, and bounded loops without early exits. The analyzed computation is idempotent and the recovery code re-executes the original computation. We implemented Aloe and applied it to a set of eight programs previously used in approximate computing research. Our results present significantly higher reliability and scale better compared to the existing Rely analysis. Moreover, the end-to-end accuracy of the verified computations exhibits only small accuracy losses.",
+    "published_date": "2020-02-21",
+    "citation_count": 8,
+    "url": "https://dl.acm.org/doi/10.1145/3368826.3377924"
+  }
+]

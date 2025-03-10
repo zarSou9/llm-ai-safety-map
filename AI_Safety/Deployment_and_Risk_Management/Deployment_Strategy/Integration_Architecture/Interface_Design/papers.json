@@ -1,0 +1,60 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.05115",
+    "title": "Unpacking Human-AI interactions: From interaction primitives to a design space",
+    "published_date": "2024-01-10",
+    "abstract": "This paper aims to develop a semi-formal representation for Human-AI (HAI) interactions, by building a set of interaction primitives which can specify the information exchanges between users and AI systems during their interaction. We show how these primitives can be combined into a set of interaction patterns which can capture common interactions between humans and AI/ML models. The motivation behind this is twofold: firstly, to provide a compact generalisation of existing practices for the design and implementation of HAI interactions; and secondly, to support the creation of new interactions by extending the design space of HAI interactions. Taking into consideration frameworks, guidelines and taxonomies related to human-centered design and implementation of AI systems, we define a vocabulary for describing information exchanges based on the model's characteristics and interactional capabilities. Based on this vocabulary, a message passing model for interactions between humans and models is presented, which we demonstrate can account for existing HAI interaction systems and approaches. Finally, we build this into design patterns which can describe common interactions between users and models, and we discuss how this approach can be used towards a design space for HAI interactions that creates new possibilities for designs as well as keeping track of implementation issues and concerns.",
+    "citation_count": 1,
+    "summary": "This paper proposes a semi-formal representation of Human-AI interactions using interaction primitives and patterns, aiming to generalize existing design practices and expand the design space for novel Human-AI interactions. It achieves this by defining a vocabulary for information exchange and developing a message-passing model to describe and create new interaction systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.13441",
+    "title": "A Case Study of API Design for Interoperability and Security of the Internet of Things",
+    "published_date": "2024-11-20",
+    "abstract": "Heterogeneous distributed systems, including the Internet of Things (IoT) or distributed cyber-physical systems (CPS), often suffer a lack of interoperability and security, which hinders the wider deployment of such systems. Specifically, the different levels of security requirements and the heterogeneity in terms of communication models, for instance, point-to-point vs. publish-subscribe, are the example challenges of IoT and distributed CPS consisting of heterogeneous devices and applications. In this paper, we propose a working application programming interface (API) and runtime to enhance interoperability and security while addressing the challenges that stem from the heterogeneity in the IoT and distributed CPS. In our case study, we design and implement our application programming interface (API) design approach using open-source software, and with our working implementation, we evaluate the effectiveness of our proposed approach. Our experimental results suggest that our approach can achieve both interoperability and security in the IoT and distributed CPS with a reasonably small overhead and better-managed software.",
+    "summary": "This paper presents a case study of an API design intended to improve interoperability and security in heterogeneous IoT and distributed CPS systems, evaluating its effectiveness through implementation and experimentation with open-source software. The results suggest the API achieves both goals with acceptable overhead."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.05828v1",
+    "title": "AI Multi-Agent Interoperability Extension for Managing Multiparty Conversations",
+    "published_date": "2024-11-05",
+    "abstract": "This paper presents a novel extension to the existing Multi-Agent Interoperability specifications of the Open Voice Interoperability Initiative (originally also known as OVON from the Open Voice Network). This extension enables AI agents developed with different technologies to communicate using a universal, natural language-based API or NLP-based standard APIs. Focusing on the management of multiparty AI conversations, this work introduces new concepts such as the Convener Agent, Floor-Shared Conversational Space, Floor Manager, Multi-Conversant Support, and mechanisms for handling Interruptions and Uninvited Agents. Additionally, it explores the Convener's role as a message relay and controller of participant interactions, enhancing both scalability and security. These advancements are crucial for ensuring smooth, efficient, and secure interactions in scenarios where multiple AI agents need to collaborate, debate, or contribute to a discussion. The paper elaborates on these concepts and provides practical examples, illustrating their implementation within the conversation envelope structure.",
+    "summary": "This paper extends Open Voice Interoperability specifications to enable interoperability between AI agents using a natural language API, focusing on managing multiparty conversations through new concepts like a Convener Agent and Floor Manager to improve scalability and security. It introduces mechanisms for handling interruptions and uninvited agents within a structured conversational framework."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.09577",
+    "title": "A New Generation of Intelligent Development Environments",
+    "published_date": "2024-04-20",
+    "abstract": "The practice of programming is undergoing a revolution with the introduction of AI assisted development (copilots) and the creation of new programming languages that are designed explicitly for tooling, analysis, and automation. Integrated Development Environments (IDEs) as they are currently conceptualized have not yet responded to these changes. They are still designed around the idea of a human programmer typing textual code into an editor window with the IDE providing assistance via the integration of various tools for syntax highlighting, compilation, debugging, and (maybe) code version control. This paper presents a vision for transforming the IDE from an Integrated Development Environment to an Intel-ligent Development Environment. The new IDE will be designed around the idea of a human programmer as the manager or curator of a software project who, rather than manually typing in code to implement a solution, will instead use the IDE to direct AI programming agents and/or automated tools to combine existing APIs, packages, and new code to implement the needed features. In this new model, the fundamental roles of the IDE are to 1) facilitate the communication between the human programmer and the AI agents and automated tools and 2) organize the workflow tasks needed to go from requirements gathering to the final tested and validated deployed feature. This paper presents a vision for the new Intelligent Development Environment based on a range of proof-of-concept high-value scenarios we have experimented with and discusses the challenges that remain to realizing these in a cohesive intelligent development experience.",
+    "summary": "This paper envisions a paradigm shift in Integrated Development Environments (IDEs), transforming them from text-based code editors into \"Intelligent Development Environments\" that manage AI agents and automated tools to build software, with the programmer acting as a project manager and curator. The focus shifts from manual coding to directing AI and tools to combine existing resources and generate new code."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/6cWgaaxWqGYwJs3vj/a-basic-systems-architecture-for-ai-agents-that-do",
+    "author": "Buck",
+    "title": "A basic systems architecture for AI agents that do autonomous research",
+    "published_date": "2024-09-23",
+    "summary": "The article describes a common architecture for autonomous AI agents in AI research, separating the large language model (LLM) inference server, the agent's control logic (scaffold server), and code execution (execution server) onto different machines. This separation is crucial for understanding and mitigating AI escape risks, as it clarifies which components are vulnerable in different threat scenarios."
+  },
+  {
+    "title": "Toward Understanding the Design of Intertwined Human–Computer Integrations",
+    "abstract": "Human–computer integration is an HCI trend in which computational machines can have agency, i.e., take control. Our work focuses on a particular form of integration in which the user and the computational machine share agency over the user's body, that is, can simultaneously (in contrast to a traditional turn-taking approach) control the user's body. The result is a user experience where the agency of the user and the computational machine is so intertwined that it is often no more discernable who contributed what to what extent; we call this “intertwined integration”. Due to the recency of advanced technologies enabling intertwined integration systems, we find that little understanding and documented design knowledge exist. To begin constructing such an understanding, we use three case studies to propose two key dimensions (“awareness of machine's agency” and “alignment of machine's agency”) to articulate a design space for intertwined integration systems. We differentiate four roles that computational machines can assume in this design space (angel, butler, influencer, and adversary). Based on our craft knowledge gained through designing such intertwined integration systems, we discuss strategies to help designers create future systems. Ultimately, we aim at advancing the HCI field's emerging understanding of sharing agency.",
+    "published_date": "2023-04-05",
+    "citation_count": 17,
+    "url": "https://dl.acm.org/doi/10.1145/3590766",
+    "summary": "This paper explores \"intertwined human-computer integration,\" where humans and machines share simultaneous control of the user's body, proposing a design space defined by \"awareness\" and \"alignment\" of machine agency, and identifying four distinct machine roles (angel, butler, influencer, adversary). The authors use case studies to build understanding and offer design strategies for this emerging area of human-computer interaction."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Eo3fWuwTBkMSLs8Bg/intelligence-in-systems-human-ai-can-be-conceptualized-as",
+    "author": "AiresJL",
+    "title": "Intelligence in systems (human, AI) can be conceptualized as the resolution and throughput at which a system can process and affect Shannon information.",
+    "published_date": "2023-11-16",
+    "summary": "The author proposes that system intelligence, in both humans and AI, is determined by information processing resolution and throughput, and identifies seven key levers for improvement: physical capacity, cooperation, conflict, attention, actuation, memory, and predictive models. These levers are then applied to suggest specific methods for enhancing GPT's capabilities."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/AKBkDNeFLZxaMqjQG/a-practical-incremental-pathway-to-safe-tai-oaa-in-the-real",
+    "author": "Roman Leventov, Rafael Kaufmann Nedal",
+    "title": "Gaia Network: a practical, incremental pathway to Open Agency Architecture",
+    "published_date": "2023-12-20",
+    "summary": "The article proposes Gaia, a decentralized network leveraging existing technologies and proven economic mechanisms to address AI safety concerns within the Open Agency Architecture (OAA) framework, aiming for incremental improvement in world modeling and decision-making through collaboration and competition. It advocates for a bottom-up, evolutionary approach rather than a top-down, centralized solution."
+  }
+]

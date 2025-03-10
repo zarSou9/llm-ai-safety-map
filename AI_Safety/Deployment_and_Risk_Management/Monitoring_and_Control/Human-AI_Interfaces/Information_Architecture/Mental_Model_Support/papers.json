@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2404.13217",
+    "title": "Inclusive Design of AI's Explanations: Just for Those Previously Left Out, or for Everyone?",
+    "published_date": "2024-04-19",
+    "abstract": "Motivations: Explainable Artificial Intelligence (XAI) systems aim to improve users' understanding of AI, but XAI research shows many cases of different explanations serving some users well and being unhelpful to others. In non-AI systems, some software practitioners have used inclusive design approaches and sometimes their improvements turned out to be\"curb-cut\"improvements -- not only addressing the needs of underserved users, but also making the products better for everyone. So, if AI practitioners used inclusive design approaches, they too might create curb-cut improvements, i.e., better explanations for everyone. Objectives: To find out, we investigated the curb-cut effects of inclusivity-driven fixes on users' mental models of AI when using an XAI prototype. The prototype and fixes came from an AI team who had adopted an inclusive design approach (GenderMag) to improve their XAI prototype. Methods: We ran a between-subject study with 69 participants with no AI background. 34 participants used the original version of the XAI prototype and 35 used the version with the inclusivity fixes. We compared the two groups' mental model concepts scores, prediction accuracy, and inclusivity. Results: We found four main results. First, it revealed several curb-cut effects of the inclusivity fixes: overall increased engagement with explanations and better mental model concepts scores, which revealed fixes with curb-cut properties. However (second), the inclusivity fixes did not improve participants' prediction accuracy scores -- instead, it appears to have harmed them. This\"curb-fence\"effect (opposite of the curb-cut effect) revealed the AI explanations' double-edged impact. Third, the AI team's inclusivity fixes brought significant improvements for users whose problem-solving styles had previously been underserved. Further (fourth), the AI team's fixes reduced the gender gap by 45%.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.08574",
+    "title": "Jigsaw: Supporting Designers to Prototype Multimodal Applications by Chaining AI Foundation Models",
+    "published_date": "2023-10-12",
+    "abstract": "Recent advancements in AI foundation models have made it possible for them to be utilized off-the-shelf for creative tasks, including ideating design concepts or generating visual prototypes. However, integrating these models into the creative process can be challenging as they often exist as standalone applications tailored to specific tasks. To address this challenge, we introduce Jigsaw, a prototype system that employs puzzle pieces as metaphors to represent foundation models. Jigsaw allows designers to combine different foundation model capabilities across various modalities by assembling compatible puzzle pieces. To inform the design of Jigsaw, we interviewed ten designers and distilled design goals. In a user study, we showed that Jigsaw enhanced designers' understanding of available foundation model capabilities, provided guidance on combining capabilities across different modalities and tasks, and served as a canvas to support design exploration, prototyping, and documentation.",
+    "citation_count": 5
+  },
+  {
+    "url": "https://arxiv.org/pdf/2203.00905.pdf",
+    "title": "Responsible-AI-by-Design: a Pattern Collection for Designing Responsible AI Systems",
+    "published_date": "2022-03-02",
+    "abstract": "Although AI has significant potential to transform society, there are serious concerns about its ability to behave and make decisions responsibly. Many ethical regulations, principles, and guidelines for responsible AI have been issued recently. However, these principles are high-level and difficult to put into practice. In the meantime much effort has been put into responsible AI from the algorithm perspective, but they are limited to a small subset of ethical principles amenable to mathematical analysis. Responsible AI issues go beyond data and algorithms and are often at the system-level crosscutting many system components and the entire software engineering lifecycle. Based on the result of a systematic literature review, this paper identifies one missing element as the system-level guidance - how to design the architecture of responsible AI systems. We present a summary of design patterns that can be embedded into the AI systems as product features to contribute to responsible-AI-by-design.",
+    "citation_count": 17
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.11731",
+    "title": "Analogical Concept Memory for Architectures Implementing the Common Model of Cognition",
+    "published_date": "2022-10-21",
+    "abstract": "Architectures that implement the Common Model of Cognition - Soar, ACT-R, and Sigma - have a prominent place in research on cognitive modeling as well as on designing complex intelligent agents. In this paper, we explore how computational models of analogical processing can be brought into these architectures to enable concept acquisition from examples obtained interactively. We propose a new analogical concept memory for Soar that augments its current system of declarative long-term memories. We frame the problem of concept learning as embedded within the larger context of interactive task learning (ITL) and embodied language processing (ELP). We demonstrate that the analogical learning methods implemented in the proposed memory can quickly learn a diverse types of novel concepts that are useful not only in recognition of a concept in the environment but also in action selection. Our approach has been instantiated in an implemented cognitive system AILEEN and evaluated on a simulated robotic domain."
+  },
+  {
+    "url": "https://arxiv.org/abs/2204.05133v1",
+    "title": "On the link between conscious function and general intelligence in humans and machines",
+    "published_date": "2022-03-24",
+    "abstract": "In popular media, there is often a connection drawn between the advent of awareness in artificial agents and those same agents simultaneously achieving human or superhuman level intelligence. In this work, we explore the validity and potential application of this seemingly intuitive link between consciousness and intelligence. We do so by examining the cognitive abilities associated with three contemporary theories of conscious function: Global Workspace Theory (GWT), Information Generation Theory (IGT), and Attention Schema Theory (AST). We find that all three theories specifically relate conscious function to some aspect of domain-general intelligence in humans. With this insight, we turn to the field of Artificial Intelligence (AI) and find that, while still far from demonstrating general intelligence, many state-of-the-art deep learning methods have begun to incorporate key aspects of each of the three functional theories. Having identified this trend, we use the motivating example of mental time travel in humans to propose ways in which insights from each of the three theories may be combined into a single unified and implementable model. Given that it is made possible by cognitive abilities underlying each of the three functional theories, artificial agents capable of mental time travel would not only possess greater general intelligence than current approaches, but also be more consistent with our current understanding of the functional role of consciousness in humans, thus making it a promising near-term goal for AI research.",
+    "citation_count": 20
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.06133.pdf",
+    "title": "Teaming up with information agents",
+    "published_date": "2021-01-15",
+    "abstract": "Recent developments in Artificial Intelligence (AI) have led to impressive results in machine learning and pattern recognition, but have also led to the insight that AI hardly ever functions in isolation [1]. Most practical AI applications involve humans, e.g. for providing instructions, for correcting the machine if needed, for interpreting the machine's outcomes. A recent article [2] summarizes this as “no AI is an island”, and argues that AI agents should be endowed with teaming intelligence that allows them to team up with humans.",
+    "citation_count": 2
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2104.04186v1.pdf",
+    "title": "Sequential (Quickest) Change Detection: Classical Results and New Directions",
+    "published_date": "2021-04-09",
+    "abstract": "Online detection of changes in stochastic systems, referred to as sequential change detection or quickest change detection, is an important research topic in statistics, signal processing, and information theory, and has a wide range of applications. This survey starts with the basics of sequential change detection, and then moves on to generalizations and extensions of sequential change detection theory and methods. We also discuss some new dimensions that emerge at the intersection of sequential change detection with other areas, along with a selection of modern applications and remarks on open questions.",
+    "citation_count": 85
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.02544.pdf",
+    "title": "Sequential change detection via backward confidence sequences",
+    "published_date": "2023-02-06",
+    "abstract": "We present a simple reduction from sequential estimation to sequential changepoint detection (SCD). In short, suppose we are interested in detecting changepoints in some parameter or functional $\\theta$ of the underlying distribution. We demonstrate that if we can construct a confidence sequence (CS) for $\\theta$, then we can also successfully perform SCD for $\\theta$. This is accomplished by checking if two CSs -- one forwards and the other backwards -- ever fail to intersect. Since the literature on CSs has been rapidly evolving recently, the reduction provided in this paper immediately solves several old and new change detection problems. Further, our\"backward CS\", constructed by reversing time, is new and potentially of independent interest. We provide strong nonasymptotic guarantees on the frequency of false alarms and detection delay, and demonstrate numerical effectiveness on several problems.",
+    "citation_count": 5
+  },
+  {
+    "url": "https://arxiv.org/auth/show-endorsers/2108.00883",
+    "title": "Sequential Multivariate Change Detection with Calibrated and Memoryless False Detection Rates",
+    "published_date": "2021-08-02",
+    "abstract": "Responding appropriately to the detections of a sequential change detector requires knowledge of the rate at which false positives occur in the absence of change. Setting detection thresholds to achieve a desired false positive rate is challenging. Existing works resort to setting time-invariant thresholds that focus on the expected runtime of the detector in the absence of change, either bounding it loosely from below or targeting it directly but with asymptotic arguments that we show cause significant miscalibration in practice. We present a simulation-based approach to setting time-varying thresholds that allows a desired expected runtime to be accurately targeted whilst additionally keeping the false positive rate constant across time steps. Whilst the approach to threshold setting is metric agnostic, we show how the cost of using the popular quadratic time MMD estimator can be reduced from $O(N^2B)$ to $O(N^2+NB)$ during configuration and from $O(N^2)$ to $O(N)$ during operation, where $N$ and $B$ are the numbers of reference and bootstrap samples respectively.",
+    "citation_count": 5
+  },
+  {
+    "url": "https://arxiv.org/pdf/2112.06308v1.pdf",
+    "title": "Detection and estimation of multiple transient changes",
+    "published_date": "2021-12-12",
+    "abstract": "Change-point detection methods are proposed for the case of temporary failures, or transient changes, when an unexpected disorder is ultimately followed by a re-adjustment and return to the initial state. A base distribution of the 'in-control' state changes to an 'out-of-control' distribution for unknown periods of time. Likelihood based sequential and retrospective tools are proposed for the detection and estimation of each pair of change-points. The accuracy of the obtained change-point estimates is assessed. Proposed methods offer simultaneous control of the familywise false alarm and false re-adjustment rates at the pre-chosen levels.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.06839v1.pdf",
+    "title": "Adaptive Change Point Monitoring for High-Dimensional Data",
+    "published_date": "2021-01-18",
+    "abstract": "In this paper, we propose a class of monitoring statistics for a mean shift in a sequence of high-dimensional observations. Inspired by the recent U-statistic based retrospective tests developed by Wang et al.(2019) and Zhang et al.(2020), we advance the U-statistic based approach to the sequential monitoring problem by developing a new adaptive monitoring procedure that can detect both dense and sparse changes in real-time. Unlike Wang et al.(2019) and Zhang et al.(2020), where self-normalization was used in their tests, we instead introduce a class of estimators for $q$-norm of the covariance matrix and prove their ratio consistency. To facilitate fast computation, we further develop recursive algorithms to improve the computational efficiency of the monitoring procedure. The advantage of the proposed methodology is demonstrated via simulation studies and real data illustrations.",
+    "citation_count": 4
+  },
+  {
+    "title": "Sequential Monitoring for Changes from Stationarity to Mild Non-stationarity",
+    "abstract": "Abstract We develop and study sequential testing procedures a la Chu et al. (1996) for on-line detection of changes in a time series from stationarity to mild forms of non-stationarity. The proposed tests are based on sequential CUSUM and KPSS-type detector processes, and are shown to provide consistent detection under a wide range of change point models, including changes in the parameters of ARMA and GARCH series from values within the model's stationarity parameter region to values close (converging) to the stationarity boundary. Local asymptotic results are established giving precise descriptions of the time to detection under several of these models, which show that such procedures are powerful to detect a wide range of non-stationary characteristics, including changes in mean, volatility, and unit root behaviour. The proposed methods are investigated by means of a simulation study and in applications to monitoring for changes in trend and unit root behaviour in macroeconomic production series, and to detect changes in volatility of the S&P-500 stock market index.",
+    "published_date": "2019-06-07",
+    "citation_count": 16,
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0304407619301964?dgcid=rss_sd_all"
+  }
+]

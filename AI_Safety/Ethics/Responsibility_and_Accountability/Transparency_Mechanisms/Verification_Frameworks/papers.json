@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.11052",
+    "title": "A logical alarm for misaligned binary classifiers",
+    "published_date": "2024-09-17",
+    "abstract": "If two agents disagree in their decisions, we may suspect they are not both correct. This intuition is formalized for evaluating agents that have carried out a binary classification task. Their agreements and disagreements on a joint test allow us to establish the only group evaluations logically consistent with their responses. This is done by establishing a set of axioms (algebraic relations) that must be universally obeyed by all evaluations of binary responders. A complete set of such axioms are possible for each ensemble of size N. The axioms for $N = 1, 2$ are used to construct a fully logical alarm - one that can prove that at least one ensemble member is malfunctioning using only unlabeled data. The similarities of this approach to formal software verification and its utility for recent agendas of safe guaranteed AI are discussed.",
+    "summary": "This paper presents a logical framework for detecting misaligned binary classifiers by axiomatically defining consistent group evaluations from pairwise agreements and disagreements on unlabeled data. This framework enables the construction of a \"logical alarm\" that can provably identify malfunctioning classifiers within an ensemble."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.00069",
+    "title": "Meta-Sealing: A Revolutionizing Integrity Assurance Protocol for Transparent, Tamper-Proof, and Trustworthy AI System",
+    "published_date": "2024-10-31",
+    "abstract": "The Artificial intelligence in critical sectors-healthcare, finance, and public safety-has made system integrity paramount for maintaining societal trust. Current verification methods for AI systems lack comprehensive lifecycle assurance, creating significant vulnerabilities in deployment of both powerful and trustworthy AI. This research introduces Meta-Sealing, a cryptographic framework that fundamentally changes integrity verification in AI systems throughout their operational lifetime. Meta-Sealing surpasses traditional integrity protocols through its implementation of cryptographic seal chains, establishing verifiable, immutable records for all system decisions and transformations. The framework combines advanced cryptography with distributed verification, delivering tamper-evident guarantees that achieve both mathematical rigor and computational efficiency. Our implementation addresses urgent regulatory requirements for AI system transparency and auditability. The framework integrates with current AI governance standards, specifically the EU's AI Act and FDA's healthcare AI guidelines, enabling organizations to maintain operational efficiency while meeting compliance requirements. Testing on financial institution data demonstrated Meta-Sealing's capability to reduce audit timeframes by 62% while enhancing stakeholder confidence by 47%. Results can establish a new benchmark for integrity assurance in enterprise AI deployments. This research presents Meta-Sealing not merely as a technical solution, but as a foundational framework ensuring AI system integrity aligns with human values and regulatory requirements. As AI continues to influence critical decisions, provides the necessary bridge between technological advancement and verifiable trust. Meta-Sealing serves as a guardian of trust, ensuring that the AI systems we depend on are as reliable and transparent as they are powerful.",
+    "summary": "Meta-Sealing is a novel cryptographic framework providing comprehensive, tamper-proof integrity assurance for AI systems throughout their lifecycle, leveraging cryptographic seal chains for verifiable and immutable record-keeping, thus enhancing trust and compliance with regulations. Its implementation significantly reduces audit times and increases stakeholder confidence."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.07547",
+    "title": "Ensuring Trustworthy and Ethical Behavior in Intelligent Logical Agents",
+    "published_date": "2024-02-12",
+    "abstract": "Autonomous Intelligent Agents are employed in many applications upon which the life and welfare of living beings and vital social functions may depend. Therefore, agents should be trustworthy. A priori certification techniques (i.e., techniques applied prior to system's deployment) can be useful, but are not sufficient for agents that evolve, and thus modify their epistemic and belief state, and for open Multi-Agent Systems, where heterogeneous agents can join or leave the system at any stage of its operation. In this paper, we propose/refine/extend dynamic (runtime) logic-based self-checking techniques, devised in order to be able to ensure agents' trustworthy and ethical behaviour.",
+    "citation_count": 6,
+    "summary": "The paper proposes and refines dynamic, logic-based self-checking techniques to ensure trustworthy and ethical behavior in autonomous intelligent agents, addressing limitations of a priori certification methods in evolving and open multi-agent systems."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19",
+    "summary": "The article argues that applying formal verification to guarantee AI safety is unrealistic in the near term. The complexity of the real world, particularly in domains like biology and physics, makes obtaining the necessary complete models and data for rigorous formal verification practically impossible."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.16822v2",
+    "title": "Rethinking Certification for Trustworthy Machine-Learning-Based Applications",
+    "published_date": "2023-05-26",
+    "abstract": "Machine learning (ML) is increasingly used to implement advanced applications with nondeterministic behavior, which operate on the cloud–edge continuum. The pervasive adoption of ML is urgently calling for assurance solutions to assess applications' nonfunctional properties (e.g., fairness, robustness, and privacy) with the aim of improving their trustworthiness. Certification has been clearly identified by policy makers, regulators, and industrial stakeholders as the preferred assurance technique to address this pressing need. Unfortunately, existing certification schemes are not immediately applicable to nondeterministic applications built on ML models. This article analyzes the challenges and deficiencies of current certification schemes, discusses open research issues, and proposes a first certification scheme for ML-based applications.",
+    "citation_count": 5,
+    "summary": "This paper argues that current certification schemes are inadequate for assessing the trustworthiness of nondeterministic machine learning applications, highlighting challenges and proposing a novel certification scheme to address this gap."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that effective mitigation of AI x-risk requires integrating diverse fields like cognitive science, social sciences, and engineering, rather than focusing solely on technical solutions in isolation. This integrated approach should prioritize the design of \"civilizational intelligence\" through a pragmatic, naturalistic, and physically grounded framework."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of posts aims to provide a comprehensive introduction to AI safety. The content and order of the posts are still under development."
+  }
+]

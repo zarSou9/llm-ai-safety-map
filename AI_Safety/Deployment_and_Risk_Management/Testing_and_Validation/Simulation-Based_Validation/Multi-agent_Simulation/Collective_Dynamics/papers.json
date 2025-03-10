@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.18498",
+    "title": "Collective decision making by embodied neural agents",
+    "published_date": "2024-11-27",
+    "abstract": "Collective decision making using simple social interactions has been studied in many types of multi-agent systems, including robot swarms and human social networks. However, existing multi-agent studies have rarely modeled the neural dynamics that underlie sensorimotor coordination in embodied biological agents. In this study, we investigated collective decisions that resulted from sensorimotor coordination among agents with simple neural dynamics. We equipped our agents with a model of minimal neural dynamics based on the coordination dynamics framework, and embedded them in an environment with a stimulus gradient. In our single-agent setup, the decision between two stimulus sources depends solely on the coordination of the agent's neural dynamics with its environment. In our multi-agent setup, that same decision also depends on the sensorimotor coordination between agents, via their simple social interactions. Our results show that the success of collective decisions depended on a balance of intra-agent, inter-agent, and agent-environment coupling, and we use these results to identify the influences of environmental factors on decision difficulty. More generally, our results demonstrate the impact of intra- and inter-brain coordination dynamics on collective behavior, can contribute to existing knowledge on the functional role of inter-agent synchrony, and are relevant to ongoing developments in neuro-AI and self-organized multi-agent systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.16244",
+    "title": "Neural diversity is key to collective artificial learning",
+    "published_date": "2024-12-19",
+    "abstract": "Many of the world's most pressing issues, such as climate change and global peace, require complex collective problem-solving skills. Recent studies indicate that diversity in individuals' behaviors is key to developing such skills and increasing collective performance. Yet behavioral diversity in collective artificial learning is understudied, with today's machine learning paradigms commonly favoring homogeneous agent strategies over heterogeneous ones, mainly due to computational considerations. In this work, we employ novel diversity measurement and control paradigms to study the impact of behavioral heterogeneity in several facets of collective artificial learning. Through experiments in team play and other cooperative tasks, we show the emergence of unbiased behavioral roles that improve team outcomes; how neural diversity synergizes with morphological diversity; how diverse agents are more effective at finding cooperative solutions in sparse reward settings; and how behaviorally heterogeneous teams learn and retain latent skills to overcome repeated disruptions. Overall, our results indicate that, by controlling diversity, we can obtain non-trivial benefits over homogeneous training paradigms, demonstrating that diversity is a fundamental component of collective artificial learning, an insight thus far overlooked."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.07620v2.pdf",
+    "title": "Collective Iterative Learning Control: Exploiting Diversity in Multi-Agent Systems for Reference Tracking Tasks",
+    "published_date": "2021-04-15",
+    "abstract": "Multi-agent systems (MASs) can autonomously learn to solve previously unknown tasks by means of each agent's individual intelligence as well as by collaborating and exploiting collective intelligence. This article considers a group of autonomous agents learning to track the same given reference trajectory in a possibly small number of trials. We propose a novel collective learning control method that combines iterative learning control (ILC) with a collective update strategy. We derive conditions for desirable convergence properties of such systems. We show that the proposed method allows the collective to combine the advantages of the agents' individual learning strategies and thereby overcomes trade-offs and limitations of single-agent ILC. This benefit is achieved by designing a heterogeneous collective, i.e., a different learning law is assigned to each agent. All theoretical results are confirmed in simulations and experiments with two-wheeled-inverted-pendulum robots (TWIPRs) that jointly learn to perform the desired maneuver.",
+    "citation_count": 7
+  },
+  {
+    "title": "Heterogeneous agent coordination via adaptive quality diversity and specialization",
+    "abstract": "In many real-world multiagent systems, agents must learn diverse tasks and coordinate with other agents. This paper introduces a method to allow heterogeneous agents to specialize and only learn complementary divergent behaviors needed for coordination in a shared environment. We use a hierarchical decomposition of diversity search and fitness optimization to allow agents to speciate and learn diverse temporally extended actions. Within an agent population, diversity in niches is favored. Agents within a niche compete for optimizing the higher level coordination task. Experimental results in a multiagent rover exploration task demonstrate the diversity of acquired agent behavior that promotes coordination.",
+    "published_date": "2021-07-07",
+    "url": "https://dl.acm.org/doi/10.1145/3449726.3459564"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.00033.pdf",
+    "title": "Multi-agent systems for quadcopters",
+    "published_date": "2020-12-31",
+    "abstract": "Unmanned Aerial Vehicles (UAVs) have been increasingly used in the context of remote sensing missions such as target search and tracking, mapping, or surveillance monitoring. In the first part of our paper we consider agent dynamics, network topologies, and collective behaviors. The objective is to enable multiple UAVs to collaborate toward a common goal, as one would find in a remote sensing setting. An agreement protocol is carried out by the multi-agents using local information, and without external user input. The second part of the paper focuses on the equations of motion for a specific type of UAV, the quadcopter, and expresses them as an affine nonlinear control system. Finally, we illustrate our work with a simulation of an agreement protocol for dynamically sound quadcopters augmenting the particle graph theoretic approach with orientation and a proper dynamics for quadcopters.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2006.11671",
+    "title": "Collective Learning by Ensembles of Altruistic Diversifying Neural Networks",
+    "published_date": "2020-06-20",
+    "abstract": "Combining the predictions of collections of neural networks often outperforms the best single network. Such ensembles are typically trained independently, and their superior `wisdom of the crowd' originates from the differences between networks. Collective foraging and decision making in socially interacting animal groups is often improved or even optimal thanks to local information sharing between conspecifics. We therefore present a model for co-learning by ensembles of interacting neural networks that aim to maximize their own performance but also their functional relations to other networks. We show that ensembles of interacting networks outperform independent ones, and that optimal ensemble performance is reached when the coupling between networks increases diversity and degrades the performance of individual networks. Thus, even without a global goal for the ensemble, optimal collective behavior emerges from local interactions between networks. We show the scaling of optimal coupling strength with ensemble size, and that networks in these ensembles specialize functionally and become more `confident' in their assessments. Moreover, optimal co-learning networks differ structurally, relying on sparser activity, a wider range of synaptic weights, and higher firing rates - compared to independently trained networks. Finally, we explore interactions-based co-learning as a framework for expanding and boosting ensembles.",
+    "citation_count": 4
+  }
+]

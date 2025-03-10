@@ -1,0 +1,113 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2207.00759v1.pdf",
+    "title": "Abstraction and Refinement: Towards Scalable and Exact Verification of Neural Networks",
+    "published_date": "2022-07-02",
+    "abstract": "As a new programming paradigm, deep neural networks (DNNs) have been increasingly deployed in practice, but the lack of robustness hinders their applications in safety-critical domains. While there are techniques for verifying DNNs with formal guarantees, they are limited in scalability and accuracy. In this article, we present a novel counterexample-guided abstraction refinement (CEGAR) approach for scalable and exact verification of DNNs. Specifically, we propose a novel abstraction to break down the size of DNNs by over-approximation. The result of verifying the abstract DNN is conclusive if no spurious counterexample is reported. To eliminate each spurious counterexample introduced by abstraction, we propose a novel counterexample-guided refinement that refines the abstract DNN to exclude the spurious counterexample while still over-approximating the original one, leading to a sound, complete yet efficient CEGAR approach. Our approach is orthogonal to and can be integrated with many existing verification techniques. For demonstration, we implement our approach using two promising tools, Marabou and Planet, as the underlying verification engines, and evaluate on widely used benchmarks for three datasets ACAS, Xu, MNIST, and CIFAR-10. The results show that our approach can boost their performance by solving more problems in the same time limit, reducing on average 13.4%–86.3% verification time of Marabou on almost all the verification tasks, and reducing on average 8.3%–78.0% verification time of Planet on all the verification tasks. Compared to the most relevant CEGAR-based approach, our approach is 11.6–26.6 times faster.",
+    "citation_count": 7,
+    "summary": "This paper introduces a novel counterexample-guided abstraction refinement (CEGAR) approach for verifying deep neural networks (DNNs), improving scalability and accuracy by efficiently handling spurious counterexamples through a refined abstraction process. The method integrates with existing verification tools, demonstrating significant performance gains compared to state-of-the-art techniques on various benchmarks."
+  },
+  {
+    "title": "Safety and Robustness for Deep Learning with Provable Guarantees",
+    "abstract": "Computing systems are becoming ever more complex, with decisions increasingly often based on deep learning components. A wide variety of applications are being developed, many of them safety-critical, such as self-driving cars and medical diagnosis. Since deep learning is unstable with respect to adversarial perturbations, there is a need for rigorous software development methodologies that encompass machine learning components. This lecture will describe progress with developing automated verification and testing techniques for deep neural networks to ensure safety and robustness of their decisions with respect to bounded input perturbations. The techniques exploit Lipschitz continuity of the networks and aim to approximate, for a given set of inputs, the reachable set of network outputs in terms of lower and upper bounds, in anytime manner, with provable guarantees. We develop novel algorithms based on feature-guided search, games, global optimisation and Bayesian methods, and evaluate them on state-of-the-art networks. The lecture will conclude with an overview of the challenges in this field.",
+    "published_date": "2020-09-01",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3324884.3418901",
+    "summary": "This paper explores methods for verifying and testing deep neural networks to ensure safety and robustness against input perturbations, focusing on developing algorithms with provable guarantees for bounding network outputs within given input sets. These algorithms leverage Lipschitz continuity and employ techniques like feature-guided search and Bayesian methods."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1712.01785.pdf",
+    "title": "Towards Practical Verification of Machine Learning: The Case of Computer Vision Systems",
+    "published_date": "2017-12-05",
+    "abstract": "Due to the increasing usage of machine learning (ML) techniques in security- and safety-critical domains, such as autonomous systems and medical diagnosis, ensuring correct behavior of ML systems, especially for different corner cases, is of growing importance. In this paper, we propose a generic framework for evaluating security and robustness of ML systems using different real-world safety properties. We further design, implement and evaluate VeriVis, a scalable methodology that can verify a diverse set of safety properties for state-of-the-art computer vision systems with only blackbox access. VeriVis leverage different input space reduction techniques for efficient verification of different safety properties. VeriVis is able to find thousands of safety violations in fifteen state-of-the-art computer vision systems including ten Deep Neural Networks (DNNs) such as Inception-v3 and Nvidia's Dave self-driving system with thousands of neurons as well as five commercial third-party vision APIs including Google vision and Clarifai for twelve different safety properties. Furthermore, VeriVis can successfully verify local safety properties, on average, for around 31.7% of the test images. VeriVis finds up to 64.8x more violations than existing gradient-based methods that, unlike VeriVis, cannot ensure non-existence of any violations. Finally, we show that retraining using the safety violations detected by VeriVis can reduce the average number of violations up to 60.2%.",
+    "citation_count": 101,
+    "summary": "VeriVis, a novel black-box verification framework, efficiently identifies safety violations in computer vision systems by leveraging input space reduction techniques, uncovering significantly more vulnerabilities than existing methods and enabling improved model retraining. The framework successfully verified safety properties in diverse state-of-the-art systems, including DNNs and commercial APIs."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.04026v2",
+    "title": "Value Functions are Control Barrier Functions: Verification of Safe Policies using Control Theory",
+    "published_date": "2023-06-06",
+    "abstract": "Guaranteeing safe behaviour of reinforcement learning (RL) policies poses significant challenges for safety-critical applications, despite RL's generality and scalability. To address this, we propose a new approach to apply verification methods from control theory to learned value functions. By analyzing task structures for safety preservation, we formalize original theorems that establish links between value functions and control barrier functions. Further, we propose novel metrics for verifying value functions in safe control tasks and practical implementation details to improve learning. Our work presents a novel method for certificate learning, which unlocks a diversity of verification techniques from control theory for RL policies, and marks a significant step towards a formal framework for the general, scalable, and verifiable design of RL-based control systems. Code and videos are available at this https url: https://rl-cbf.github.io/",
+    "citation_count": 2,
+    "summary": "This paper introduces a novel method for verifying the safety of reinforcement learning policies by establishing a connection between learned value functions and control barrier functions from control theory, enabling the application of existing verification techniques to ensure safe behavior. The approach includes new metrics for verification and practical implementation details to improve learning."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.18798",
+    "title": "Formal Verification of Digital Twins with TLA and Information Leakage Control",
+    "published_date": "2024-11-27",
+    "abstract": "Verifying the correctness of a digital twin provides a formal guarantee that the digital twin operates as intended. Digital twin verification is challenging due to the presence of uncertainties in the virtual representation, the physical environment, and the bidirectional flow of information between physical and virtual. A further challenge is that a digital twin of a complex system is composed of distributed components. This paper presents a methodology to specify and verify digital twin behavior, translating uncertain processes into a formally verifiable finite state machine. We use the Temporal Logic of Actions (TLA) to create a specification, an implementation abstraction that defines the properties required for correct system behavior. Our approach includes a novel weakening of formal security properties, allowing controlled information leakage while preserving theoretical guarantees. We demonstrate this approach on a digital twin of an unmanned aerial vehicle, verifying synchronization of physical-to-virtual and virtual-to-digital data flows to detect unintended misalignments.",
+    "summary": "This paper presents a TLA-based methodology for formally verifying digital twin behavior, addressing challenges posed by uncertainties and distributed components by modeling uncertain processes as finite state machines and introducing a novel approach to controlled information leakage. The approach is demonstrated on an unmanned aerial vehicle digital twin, verifying data synchronization between physical and virtual components."
+  },
+  {
+    "title": "Towards AI-Assisted Synthesis of Verified Dafny Methods",
+    "abstract": "Large language models show great promise in many domains, including programming. A promise is easy to make but hard to keep, and language models often fail to keep their promises, generating erroneous code. A promising avenue to keep models honest is to incorporate formal verification: generating programs' specifications as well as code so that the code can be proved correct with respect to the specifications. Unfortunately, existing large language models show a severe lack of proficiency in verified programming. \n \n \n \n \n \n \n \nIn this paper, we demonstrate how to improve two pretrained models' proficiency in the Dafny verification-aware language. Using 178 problems from the MBPP dataset, we prompt two contemporary models (GPT-4 and PaLM-2) to synthesize Dafny methods. We use three different types of prompts: a direct Contextless prompt; a Signature prompt that includes a method signature and test cases, and a Chain of Thought (CoT) prompt that decomposes the problem into steps and includes retrieval augmentation generated example problems and solutions. Our results show that GPT-4 performs better than PaLM-2 on these tasks and that both models perform best with the retrieval augmentation generated CoT prompt. GPT-4 was able to generate verified, human-evaluated, Dafny methods for 58% of the problems, however, GPT-4 managed only 19% of the problems with the Contextless prompt, and even fewer (10%) for the Signature prompt. We are thus able to contribute 153 verified Dafny solutions to MBPP problems, 50 that we wrote manually, and 103 synthesized by GPT-4. \n \n \n \n \n \n \n \nOur results demonstrate that the benefits of formal program verification are now within reach of code generating large language models. Likewise, program verification systems can benefit from large language models, whether to synthesize code wholesale, to generate specifications, or to act as a \"programmer's verification apprentice\", to construct annotations such as loop invariants which are hard for programmers to write or verification tools to find. Finally, we expect that the approach we have pioneered here — generating candidate solutions that are subsequently formally checked for correctness — should transfer to other domains (e.g., legal arguments, transport signaling, structural engineering) where solutions must be correct, where that correctness must be demonstrated, explained and understood by designers and end-users.",
+    "published_date": "2024-02-01",
+    "citation_count": 19,
+    "url": "https://dl.acm.org/doi/10.1145/3643763",
+    "summary": "This paper investigates using large language models (LLMs) like GPT-4 and PaLM-2 to generate formally verified Dafny code, finding that prompting techniques significantly impact success. Retrieval-augmented Chain of Thought prompting improved GPT-4's ability to generate verified solutions to 58% of 178 problems from the MBPP dataset, highlighting the potential of LLMs in formal verification."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19",
+    "summary": "The article argues that applying formal verification to guarantee AI safety is overly optimistic, citing the inherent complexity of the real world and the impracticality of creating comprehensive, verifiable models for physical systems. The author contends that the lack of such verification in existing technologies, like DNA synthesizers and drones, highlights the significant limitations of this approach."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for a third-party testing regime for large-scale AI systems to mitigate societal harm from misuse or accidents. This regime, involving industry, government, and academia, would build trust, avoid overly burdensome regulations for smaller companies, and facilitate international cooperation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), focusing on short timelines (within a decade). The program aims to identify and evaluate strategies to mitigate these risks across various plausible AI development scenarios."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12",
+    "summary": "This article proposes a delay-based location verification mechanism for on-chip compute governance, using the speed of light as a constraint to verify the location of AI chips. However, the mechanism is susceptible to false positives due to variable network latency, a problem the author attempts to address."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.16822v2",
+    "title": "Rethinking Certification for Trustworthy Machine-Learning-Based Applications",
+    "published_date": "2023-05-26",
+    "abstract": "Machine learning (ML) is increasingly used to implement advanced applications with nondeterministic behavior, which operate on the cloud–edge continuum. The pervasive adoption of ML is urgently calling for assurance solutions to assess applications' nonfunctional properties (e.g., fairness, robustness, and privacy) with the aim of improving their trustworthiness. Certification has been clearly identified by policy makers, regulators, and industrial stakeholders as the preferred assurance technique to address this pressing need. Unfortunately, existing certification schemes are not immediately applicable to nondeterministic applications built on ML models. This article analyzes the challenges and deficiencies of current certification schemes, discusses open research issues, and proposes a first certification scheme for ML-based applications.",
+    "citation_count": 5,
+    "summary": "This paper argues that current certification schemes are inadequate for assessing the trustworthiness of nondeterministic machine learning applications, proposing a novel certification scheme to address this gap and highlighting key research challenges."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of posts aims to provide a comprehensive introduction to AI safety. The content and order of the posts are still under development."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/ai",
+    "author": "Evan Hubinger",
+    "title": "AI - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "Artificial intelligence alignment focuses on ensuring powerful AI systems act in accordance with human values, addressing the risk that misaligned AI could pose an existential threat. This involves diverse approaches, from narrow goals (e.g., curing disease) to broader ambitions (e.g., creating a beneficial future), all working to prevent unintended consequences."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and long version, have been created to help machine learning researchers quickly assess their existing skills' relevance to AI safety research. These resources list organizations, researchers, key papers, and keywords to facilitate efficient interest gauging."
+  }
+]

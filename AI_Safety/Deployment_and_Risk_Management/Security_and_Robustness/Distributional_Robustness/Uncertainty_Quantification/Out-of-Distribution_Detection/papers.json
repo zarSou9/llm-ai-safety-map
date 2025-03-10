@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://www.lesswrong.com/s/GiZ6puwmHozLuBrph/p/99gWh9jxeumcmuduw",
+    "author": "Erik Jenner; Viktor Rehnberg; Oliver Daniels-Koch",
+    "title": "Concrete empirical research projects in mechanistic anomaly detection",
+    "published_date": "2024-04-03"
+  },
+  {
+    "title": "An Advanced Dirichlet Prior Network for Out-of-Distribution Detection in Remote Sensing",
+    "abstract": "Remote sensing deals with a plethora of sensors, a large number of classes/categories, and a huge variation in geography. Owing to the difficulty of collecting labeled data uniformly representing all scenarios, data-hungry deep learning models are often trained with labeled data in a source domain that is limited in the above-mentioned aspects. However during test/inference phase, such deep learning models are often subjected to a distributional shift, also called out-of-distribution (OOD) samples, in the form of unseen classes, geographic differences, and multi-sensor differences. Deep learning models can behave in an unexpected manner when subjected to such distributional uncertainties. Vulnerability to OOD data severely reduces the reliability of deep learning models and trusting on such predictions in absence of any reliability indicator may lead to wrong policy decisions or mishaps in time-bound remote sensing applications. Motivated by this, in this work, we propose a Dirichlet Prior Network-based model to quantify distributional uncertainty of deep learning-based remote sensing models. The approach seeks to maximize the representation gap between the in-domain and OOD examples for better segregation of OOD samples at test time. Extensive experiments on several remote sensing image classification data sets demonstrate that the proposed model can quantify distributional uncertainty. To the best of our knowledge this is the first work to elaborately study distributional uncertainty in context of remote sensing. The codes are publicly available at.",
+    "published_date": "2022-01-01",
+    "citation_count": 39,
+    "url": "https://ieeexplore.ieee.org/ielx7/36/9633014/09668955.pdf"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dhbLE8BqRvhBtsXhS/mlsn-3-neurips-safety-paper-roundup",
+    "author": "Dan H",
+    "title": "[MLSN #3]: NeurIPS Safety Paper Roundup",
+    "published_date": "2022-03-08"
+  },
+  {
+    "title": "The Compact Support Neural Network",
+    "abstract": "Neural networks are popular and useful in many fields, but they have the problem of giving high confidence responses for examples that are away from the training data. This makes the neural networks very confident in their prediction while making gross mistakes, thus limiting their reliability for safety-critical applications such as autonomous driving and space exploration, etc. This paper introduces a novel neuron generalization that has the standard dot-product-based neuron and the radial basis function (RBF) neuron as two extreme cases of a shape parameter. Using a rectified linear unit (ReLU) as the activation function results in a novel neuron that has compact support, which means its output is zero outside a bounded domain. To address the difficulties in training the proposed neural network, it introduces a novel training method that takes a pretrained standard neural network that is fine-tuned while gradually increasing the shape parameter to the desired value. The theoretical findings of the paper are bound on the gradient of the proposed neuron and proof that a neural network with such neurons has the universal approximation property. This means that the network can approximate any continuous and integrable function with an arbitrary degree of accuracy. The experimental findings on standard benchmark datasets show that the proposed approach has smaller test errors than the state-of-the-art competing methods and outperforms the competing methods in detecting out-of-distribution samples on two out of three datasets.",
+    "published_date": "2021-04-01",
+    "citation_count": 5,
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8709146/"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8Gv5zSCnGeLxK5FAF/mlsn-1-iclr-safety-paper-roundup",
+    "author": "Dan H",
+    "title": "[MLSN #1]: ICLR Safety Paper Roundup",
+    "published_date": "2021-10-18"
+  },
+  {
+    "title": "Retracted on July 26, 2022: Open set recognition through unsupervised and class-distance learning",
+    "abstract": "NOTICE OF RETRACTION: This article has been retracted from the ACM Digital Library because of Author Misrepresentation. The ACM published paper used an earlier work written by Xudong Wang, Stella Yu, Long Lian, Andrew Draganov, Carter Brown, Enrico Mattie, Cass Dalton and Jasprett Ranit. Xudong Wang, Stella Yu and Long Lian were not included as authors on the ACM paper. As a result, ACM retracted the Work from the Digital Library on July 26, 2022. The retracted Work remains in the ACM Digital Library for archiving purposes only and should not be used for further research or citation purposes.",
+    "published_date": "2020-07-13",
+    "citation_count": 3,
+    "url": "https://dl.acm.org/doi/10.1145/3395352.3402901"
+  }
+]

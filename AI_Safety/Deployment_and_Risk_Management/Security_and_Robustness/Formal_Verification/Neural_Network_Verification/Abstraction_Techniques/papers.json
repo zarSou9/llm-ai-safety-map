@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2301.11683.pdf",
+    "title": "Neural Abstractions",
+    "published_date": "2023-01-27",
+    "abstract": "We present a novel method for the safety verification of nonlinear dynamical models that uses neural networks to represent abstractions of their dynamics. Neural networks have extensively been used before as approximators; in this work, we make a step further and use them for the first time as abstractions. For a given dynamical model, our method synthesises a neural network that overapproximates its dynamics by ensuring an arbitrarily tight, formally certified bound on the approximation error. For this purpose, we employ a counterexample-guided inductive synthesis procedure. We show that this produces a neural ODE with non-deterministic disturbances that constitutes a formal abstraction of the concrete model under analysis. This guarantees a fundamental property: if the abstract model is safe, i.e., free from any initialised trajectory that reaches an undesirable state, then the concrete model is also safe. By using neural ODEs with ReLU activation functions as abstractions, we cast the safety verification problem for nonlinear dynamical models into that of hybrid automata with affine dynamics, which we verify using SpaceEx. We demonstrate that our approach performs comparably to the mature tool Flow* on existing benchmark nonlinear models. We additionally demonstrate and that it is effective on models that do not exhibit local Lipschitz continuity, which are out of reach to the existing technologies.",
+    "citation_count": 12
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/sTe78dNJDGywu9Dz6/solving-the-mechanistic-interpretability-challenges-eis-vii",
+    "author": "StefanHex, Marius Hobbhahn",
+    "title": "Solving the Mechanistic Interpretability challenges: EIS VII Challenge 1",
+    "published_date": "2023-05-09"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2207.00759v1.pdf",
+    "title": "Abstraction and Refinement: Towards Scalable and Exact Verification of Neural Networks",
+    "published_date": "2022-07-02",
+    "abstract": "As a new programming paradigm, deep neural networks (DNNs) have been increasingly deployed in practice, but the lack of robustness hinders their applications in safety-critical domains. While there are techniques for verifying DNNs with formal guarantees, they are limited in scalability and accuracy. In this article, we present a novel counterexample-guided abstraction refinement (CEGAR) approach for scalable and exact verification of DNNs. Specifically, we propose a novel abstraction to break down the size of DNNs by over-approximation. The result of verifying the abstract DNN is conclusive if no spurious counterexample is reported. To eliminate each spurious counterexample introduced by abstraction, we propose a novel counterexample-guided refinement that refines the abstract DNN to exclude the spurious counterexample while still over-approximating the original one, leading to a sound, complete yet efficient CEGAR approach. Our approach is orthogonal to and can be integrated with many existing verification techniques. For demonstration, we implement our approach using two promising tools, Marabou and Planet, as the underlying verification engines, and evaluate on widely used benchmarks for three datasets ACAS, Xu, MNIST, and CIFAR-10. The results show that our approach can boost their performance by solving more problems in the same time limit, reducing on average 13.4%–86.3% verification time of Marabou on almost all the verification tasks, and reducing on average 8.3%–78.0% verification time of Planet on all the verification tasks. Compared to the most relevant CEGAR-based approach, our approach is 11.6–26.6 times faster.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/eDicGjD9yte6FLSie/interpreting-neural-networks-through-the-polytope-lens",
+    "author": "Sid Black, Lee Sharkey, Connor Leahy, beren, CRG, merizian, Eric Winsor, Dan Braun",
+    "title": "Interpreting Neural Networks through the Polytope Lens",
+    "published_date": "2022-09-23"
+  },
+  {
+    "title": "NEURODIFF: Scalable Differential Verification of Neural Networks using Fine-Grained Approximation",
+    "abstract": "As neural networks make their way into safety-critical systems, where misbehavior can lead to catastrophes, there is a growing interest in certifying the equivalence of two structurally similar neural networks - a problem known as differential verification. For example, compression techniques are often used in practice for deploying trained neural networks on computationally- and energy-constrained devices, which raises the question of how faithfully the compressed network mimics the original network. Unfortunately, existing methods either focus on verifying a single network or rely on loose approximations to prove the equivalence of two networks. Due to overly conservative approximation, differential verification lacks scalability in terms of both accuracy and computational cost. To overcome these problems, we propose NEURODIFF, a symbolic and fine-grained approximation technique that drastically increases the accuracy of differential verification on feed-forward ReLU networks while achieving many orders-of-magnitude speedup. NEURODIFF has two key contributions. The first one is new convex approximations that more accurately bound the difference of two networks under all possible inputs. The second one is judicious use of symbolic variables to represent neurons whose difference bounds have accumulated significant error. We find that these two techniques are complementary, i.e., when combined, the benefit is greater than the sum of their individual benefits. We have evaluated NEURODIFF on a variety of differential verification tasks. Our results show that NEURODIFF is up to 1000X faster and 5X more accurate than the state-of-the-art tool.",
+    "published_date": "2020-09-01",
+    "citation_count": 33,
+    "url": "https://dl.acm.org/doi/10.1145/3324884.3416560"
+  },
+  {
+    "url": "https://arxiv.org/abs/1907.10662v2",
+    "title": "Art: Abstraction Refinement-Guided Training for Provably Correct Neural Networks",
+    "published_date": "2019-07-17",
+    "abstract": "Artificial Neural Networks (ANNs) have demonstrated remarkable utility in various challenging machine learning applications. While formally verified properties of their behaviors are highly desired, they have proven notoriously difficult to derive and enforce. Existing approaches typically formulate this problem as a post facto analysis process. In this paper, we present a novel learning framework that ensures such formal guarantees are enforced by construction. Our technique enables training provably correct networks with respect to a broad class of safety properties, a capability that goes well-beyond existing approaches, without compromising much accuracy. Our key insight is that we can integrate an optimization-based abstraction refinement loop into the learning process and operate over dynamically constructed partitions of the input space that considers accuracy and safety objectives synergistically. The refinement procedure iteratively splits the input space from which training data is drawn, guided by the efficacy with which such partitions enable safety verification. We have implemented our approach in a tool (ART) and applied it to enforce general safety properties on unmanned aviator collision avoidance system ACAS Xu dataset and the Collision Detection dataset. Importantly, we empirically demonstrate that realizing safety does not come at the price of much accuracy. Our methodology demonstrates that an abstraction refinement methodology provides a meaningful pathway for building both accurate and correct machine learning networks.",
+    "citation_count": 26
+  }
+]

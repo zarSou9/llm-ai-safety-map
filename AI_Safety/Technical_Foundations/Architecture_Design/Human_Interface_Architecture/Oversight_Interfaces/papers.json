@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/rQxrSRPJGmksGjK8z/it-s-time-for-a-self-reproducing-machine",
+    "author": "Carl Feynman",
+    "title": "It's time for a self-reproducing machine",
+    "published_date": "2024-08-07",
+    "summary": "The article proposes a design for a self-reproducing machine, called an Autofac, capable of constructing copies of itself using readily available materials and AI-controlled machinery. Its functionality relies on integrating existing software for arithmetic, project planning, and computer-aided manufacturing (CAM) with a vision-language model to handle unforeseen challenges."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jyAerr8txxhiKnxwA/5-reasons-why-governments-militaries-want-ai-for-information-1",
+    "author": "trevor",
+    "title": "5 Reasons Why Governments/Militaries Already Want AI for Information Warfare",
+    "published_date": "2023-10-30",
+    "summary": "Military institutions have long used psychological research in warfare, and information warfare, increasingly reliant on advanced psychological manipulation, now prioritizes influencing high-intelligence elites rather than the general population. This sophisticated approach is exponentially improving in effectiveness."
+  },
+  {
+    "title": "FaiR-IoT: Fairness-aware Human-in-the-Loop Reinforcement Learning for Harnessing Human Variability in Personalized IoT",
+    "abstract": "Thanks to the rapid growth in wearable technologies, monitoring complex human context becomes feasible, paving the way to develop human-in-the-loop IoT systems that naturally evolve to adapt to the human and environment state autonomously. Nevertheless, a central challenge in designing such personalized IoT applications arises from human variability. Such variability stems from the fact that different humans exhibit different behaviors when interacting with IoT applications (intra-human variability), the same human may change the behavior over time when interacting with the same IoT application (inter-human variability), and human behavior may be affected by the behaviors of other people in the same environment (multi-human variability). To that end, we propose FaiR-IoT, a general reinforcement learning-based framework for adaptive and fairness-aware human-in-the-loop IoT applications. In FaiR-IoT, three levels of reinforcement learning agents interact to continuously learn human preferences and maximize the system's performance and fairness while taking into account the intra-, inter-, and multi-human variability. We validate the proposed framework on two applications, namely (i) Human-in-the-Loop Automotive Advanced Driver Assistance Systems and (ii) Human-in-the-Loop Smart House. Results obtained on these two applications validate the generality of FaiR-IoT and its ability to provide a personalized experience while enhancing the system's performance by 40%-60% compared to non-personalized systems and enhancing the fairness of the multi-human systems by 1.5 orders of magnitude.",
+    "published_date": "2021-03-30",
+    "citation_count": 25,
+    "url": "https://dl.acm.org/doi/10.1145/3450268.3453525",
+    "summary": "FaiR-IoT is a reinforcement learning framework for creating fair and personalized human-in-the-loop IoT systems, addressing intra-, inter-, and multi-human variability in user behavior to improve system performance and fairness. The framework's effectiveness is demonstrated through applications in automotive and smart home contexts, showing significant performance and fairness gains compared to non-personalized systems."
+  },
+  {
+    "title": "Designing and Engineering Interactive Computing Systems",
+    "abstract": "This issue of the Proceedings of the ACM on Human-Computer Interaction features contributions in the intersection of human-computer interaction and software engineering, with further disciplines blending into a rich set of scientific works. 2021 is the first time the annual conference on Engineering Interactive Computing Systems (EICS) is hosted in the Netherlands and in the context of an Industrial Design department. We take this opportunity to focus on the relations and influence of the design discipline on the work of the EICS community. This resulted in a new set of topics for EICS, which were already partly reflected in the many submissions we received in three extensive review rounds throughout 2020 and the beginning of 2021. In this editorial we offer a perspective on what EICS is not yet, looking at the inclusion of and interplay with design as a related discipline.",
+    "published_date": "2021-05-27",
+    "url": "https://dl.acm.org/doi/10.1145/3457140",
+    "summary": "This editorial introduces the 2021 Engineering Interactive Computing Systems (EICS) conference, held in the Netherlands, highlighting its focus on the intersection of human-computer interaction, software engineering, and design. The editorial explores the evolving role of design within the EICS community and its influence on future research directions."
+  },
+  {
+    "title": "Designing Safety Critical Interactions: Hunting Down Human Error",
+    "abstract": "Human error at the time of operation (i.e. when the system is in use) are implicated in most incidents involving safety critical systems.. In many domains, control and command interfaces are composed of a multitude of devices and machines from different brands in different generations have been crammed together. The resultant bridging of functions across devices, the decision making, the overview, the handling of partially imprecise or conflicting information are often just offloaded to the human. Thus, there appears to be a need to shift the attention from avoiding human error (at operation time) to avoiding error during design. In this workshop, we aim to provide a forum to discuss such a paradigm shift and the implication on the methods and tools for designing and evaluating HCI technology in safety-critical environments",
+    "published_date": "2020-04-23",
+    "citation_count": 3,
+    "url": "https://dl.acm.org/doi/10.1145/3334480.3375148",
+    "summary": "Most safety-critical system incidents stem from human operational error exacerbated by poorly integrated control interfaces. This workshop advocates shifting design focus from mitigating human error during operation to preventing design-induced errors."
+  },
+  {
+    "title": "The Method of Organizing a Service-oriented User Interface for Multi-agent Information and Control Systems",
+    "abstract": "In this paper we describe a proposed method for organizing a service-oriented interface for multi-agent information and control systems, focused on solving large-scale problems, based on distributed computing. We dwell on the detailed description of the architecture and elements of the user interface, based on the structure of the solved task parameters. The translation of these descriptions into a graphical representation within the framework of a dynamically generated visual shell of the user is proposed.",
+    "published_date": "2019-12-19",
+    "url": "https://dl.acm.org/doi/10.1145/3383783.3383795",
+    "summary": "This paper proposes a service-oriented user interface architecture for multi-agent systems tackling large-scale, distributed computing problems. The interface dynamically generates a visual representation based on task parameters, facilitating user interaction and control."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/JvTM68yzurLzJ3Xua/the-why-and-how-of-daily-updates",
+    "author": "VipulNaik",
+    "title": "The why and how of daily updates",
+    "published_date": "2019-05-05",
+    "summary": "The author advocates using GitHub issues to create broadly visible daily work checklists, arguing this method surpasses private checklists and daily stand-ups by offering continuous updates, easy reference, and collaborative feedback. Daily granularity, they contend, provides a practical balance between flexibility and planning, even complementing larger project management tools."
+  },
+  {
+    "title": "Awareness Techniques to Aid Transitions between Personal and Shared Workspaces in Multi-Display Environments",
+    "abstract": "In multi-display environments (MDEs) that include large shared displays and desktops, users can engage in both close collaboration and parallel or personal work. To transition between the displays can be challenging in complex settings, such as crisis management rooms. To provide workspace awareness and to factilitate these transitions, we design and implement three interactions techniques that display users' activities. We explore how and where to display this activity: briefly on the shared display, or more persistently on a peripheral floor display. In a user study, motivated by the context of a crisis room where multiple operators with different roles need to cooperate, we tested the usability of the techniques and provided insights on such transitions in systems running on MDEs.",
+    "published_date": "2018-11-19",
+    "citation_count": 15,
+    "url": "https://dl.acm.org/doi/10.1145/3279778.3279780",
+    "summary": "This paper investigates three interaction techniques for improving workspace awareness in multi-display environments, focusing on smoother transitions between personal and shared workspaces, particularly within collaborative settings like crisis management rooms. A user study evaluated the usability of these techniques, which involve displaying user activity on shared or peripheral displays."
+  }
+]

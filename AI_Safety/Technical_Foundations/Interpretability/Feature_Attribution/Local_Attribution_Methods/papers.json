@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2406.05090",
+    "title": "Provably Better Explanations with Optimized Aggregation of Feature Attributions",
+    "published_date": "2024-06-07",
+    "abstract": "Using feature attributions for post-hoc explanations is a common practice to understand and verify the predictions of opaque machine learning models. Despite the numerous techniques available, individual methods often produce inconsistent and unstable results, putting their overall reliability into question. In this work, we aim to systematically improve the quality of feature attributions by combining multiple explanations across distinct methods or their variations. For this purpose, we propose a novel approach to derive optimal convex combinations of feature attributions that yield provable improvements of desired quality criteria such as robustness or faithfulness to the model behavior. Through extensive experiments involving various model architectures and popular feature attribution techniques, we demonstrate that our combination strategy consistently outperforms individual methods and existing baselines.",
+    "citation_count": 1,
+    "summary": "This paper introduces a method for improving the quality and consistency of feature attribution explanations by optimally combining multiple attribution methods, resulting in provably better explanations based on criteria like robustness and faithfulness. Experiments show this combination strategy consistently outperforms individual attribution methods."
+  },
+  {
+    "url": "https://arxiv.org/abs/1911.11081v1",
+    "title": "Improving Feature Attribution through Input-specific Network Pruning",
+    "published_date": "2019-11-25",
+    "abstract": "Attributing the output of a neural network to the contribution of given input elements is a way of shedding light on the black-box nature of neural networks. Due to the complexity of current network architectures, current gradient-based attribution methods provide very noisy or coarse results. We propose to prune a neural network for a given single input to keep only neurons that highly contribute to the prediction. We show that by input-specific pruning, network gradients change from reflecting local (noisy) importance information to global importance. Our proposed method is efficient and generates fine-grained attribution maps. We further provide a theoretical justification of the pruning approach relating it to perturbations and validate it through a novel experimental setup. Our method is evaluated by multiple benchmarks: sanity checks, pixel perturbation, and Remove-and-Retrain (ROAR). These benchmarks evaluate the method from different perspectives and our method performs better than other methods across all evaluations.",
+    "citation_count": 11,
+    "summary": "This paper introduces a novel input-specific network pruning method for improving feature attribution in neural networks, yielding more accurate and fine-grained attribution maps by focusing on globally important neurons rather than noisy local information. The method's effectiveness is demonstrated through rigorous benchmarking against existing attribution techniques."
+  },
+  {
+    "url": "https://arxiv.org/auth/show-endorsers/1807.02910",
+    "title": "Model Agnostic Supervised Local Explanations",
+    "published_date": "2018-07-09",
+    "abstract": "Model interpretability is an increasingly important component of practical machine learning. Some of the most common forms of interpretability systems are example-based, local, and global explanations. One of the main challenges in interpretability is designing explanation systems that can capture aspects of each of these explanation types, in order to develop a more thorough understanding of the model. We address this challenge in a novel model called MAPLE that uses local linear modeling techniques along with a dual interpretation of random forests (both as a supervised neighborhood approach and as a feature selection method). MAPLE has two fundamental advantages over existing interpretability systems. First, while it is effective as a black-box explanation system, MAPLE itself is a highly accurate predictive model that provides faithful self explanations, and thus sidesteps the typical accuracy-interpretability trade-off. Specifically, we demonstrate, on several UCI datasets, that MAPLE is at least as accurate as random forests and that it produces more faithful local explanations than LIME, a popular interpretability system. Second, MAPLE provides both example-based and local explanations and can detect global patterns, which allows it to diagnose limitations in its local explanations.",
+    "citation_count": 188,
+    "summary": "MAPLE, a novel model-agnostic interpretability system, uses local linear modeling and random forests to generate accurate, faithful local and example-based explanations without sacrificing predictive accuracy, outperforming methods like LIME on several datasets. It addresses the accuracy-interpretability trade-off by being both a highly accurate predictive model and a powerful explanation system."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.07736",
+    "title": "Enhancing Model Interpretability with Local Attribution over Global Exploration",
+    "published_date": "2024-08-14",
+    "abstract": "In the field of artificial intelligence, AI models are frequently described as `black boxes' due to the obscurity of their internal mechanisms. It has ignited research interest on model interpretability, especially in attribution methods that offers precise explanations of model decisions. Current attribution algorithms typically evaluate the importance of each parameter by exploring the sample space. A large number of intermediate states are introduced during the exploration process, which may reach the model's Out-of-Distribution (OOD) space. Such intermediate states will impact the attribution results, making it challenging to grasp the relative importance of features. In this paper, we firstly define the local space and its relevant properties, and we propose the Local Attribution (LA) algorithm that leverages these properties. The LA algorithm comprises both targeted and untargeted exploration phases, which are designed to effectively generate intermediate states for attribution that thoroughly encompass the local space. Compared to the state-of-the-art attribution methods, our approach achieves an average improvement of 38.21\\% in attribution effectiveness. Extensive ablation studies in our experiments also validate the significance of each component in our algorithm. Our code is available at: https://github.com/LMBTough/LA/",
+    "citation_count": 2,
+    "summary": "The paper introduces Local Attribution (LA), a novel model interpretation algorithm that improves attribution effectiveness by focusing exploration on a defined local space around the input, mitigating the impact of out-of-distribution samples encountered in global exploration methods. LA achieves a 38.21% average improvement in attribution effectiveness compared to state-of-the-art methods."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/93nKtsDL6YY5fRbQv/case-studies-in-reverse-engineering-sparse-autoencoder",
+    "author": "Jacob Dunefsky, Philippe Chlenski, Senthooran Rajamanoharan, Neel Nanda",
+    "title": "Case Studies in Reverse-Engineering Sparse Autoencoder Features by Using MLP Linearization",
+    "published_date": "2024-01-14",
+    "summary": "This research explores a method for interpreting sparse autoencoder (SAE) features in transformer models by using local linear approximations of MLP sublayers. The approach aims to understand how these features are computed from earlier model components, offering both input-specific and input-independent explanations, and is validated against causal methods."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/DtdzGwFh9dCfsekZZ/sparse-autoencoders-work-on-attention-layer-outputs",
+    "author": "Connor Kissane, robertzk, Arthur Conmy, Neel Nanda",
+    "title": "Sparse Autoencoders Work on Attention Layer Outputs",
+    "published_date": "2024-01-16",
+    "summary": "This research replicates Anthropic's method of using sparse autoencoders (SAEs) to interpret attention layer outputs in language models, finding that the SAEs learn sparse, interpretable features revealing insights into attention mechanisms. The authors open-sourced their SAE and performed both shallow and deep dives into individual features to understand their function and usage within the model."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/QQP4nq7TXg89CJGBh/a-sober-look-at-steering-vectors-for-llms",
+    "author": "Joschka Braun, Dmitrii Krasheninnikov, Usman Anwar, RobertKirk, Daniel Tan, David Scott Krueger (formerly: capybaralet)",
+    "title": "A Sober Look at Steering Vectors for LLMs",
+    "published_date": "2024-11-23",
+    "summary": "Current methods for controlling Large Language Model (LLM) behavior through activation steering, while promising, suffer from significant limitations including unreliability, inconsistent effectiveness across different concepts and tasks, and a tendency to negatively impact overall model performance. These challenges highlight the need for further research to improve the robustness and practical applicability of these methods."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bCtbuWraqYTDtuARg/towards-multimodal-interpretability-learning-sparse-2",
+    "author": "hugofry",
+    "title": "Towards Multimodal Interpretability: Learning Sparse Interpretable Features in Vision Transformers",
+    "published_date": "2024-04-29",
+    "summary": "The author trained a Sparse Autoencoder (SAE) on a CLIP Vision Transformer using ImageNet-1k, creating an interactive web app to explore the learned visual features. The results demonstrate that SAEs effectively identify interpretable directions in the activation space of vision models, revealing abstract concepts and facilitating model inspection."
+  }
+]

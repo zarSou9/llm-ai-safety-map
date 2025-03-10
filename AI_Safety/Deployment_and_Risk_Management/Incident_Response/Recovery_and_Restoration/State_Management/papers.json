@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13",
+    "summary": "This article explains Deep Q-Networks (DQN), a crucial deep reinforcement learning algorithm. It provides a tiered explanation of DQN, ranging from a high-level overview to detailed technical descriptions and practical replication advice, allowing readers to choose the level of detail appropriate for their background."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rCP5iTYLtfcoC8NXd/self-organised-neural-networks-a-simple-natural-and",
+    "author": "D𝜋",
+    "title": "Self-Organised Neural Networks:\nA simple, natural and efficient way to intelligence",
+    "published_date": "2022-01-01",
+    "summary": "This article introduces a novel spiking neural network architecture achieving state-of-the-art accuracy (98.9%) on the PI-MNIST dataset. The network uses a Hebbian learning rule, operates without backpropagation or bias, and its design is inspired by biological neural networks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06",
+    "summary": "A standard model of COVID-19 transmission struggles to explain the relatively similar infection rates across US states despite varying policies and behaviors. A proposed \"vulnerability model,\" suggesting fluctuating individual susceptibility to infection over time, better accounts for the observed data and avoids inconsistencies of the standard model."
+  },
+  {
+    "title": "Selective Symbolic Type-Guided Checkpointing and Restoration for Autonomous Vehicle Repair",
+    "abstract": "Fault tolerant design can help autonomous vehicle systems address defects, environmental changes and security attacks. Checkpoint and restoration fault tolerance techniques save a copy of an application's state before a problem occurs and restore that state afterwards. However, traditional Checkpoint/Restore techniques still admit high overhead, may carry along tainted data, and rarely operate in tandem with human-written or automated repairs that modify source code or alter data layout. Thus, it can be difficult to apply traditional Checkpoint/Restore techniques to solve the issues of non-environmental defects, security attacks or software bugs. To address such challenges, in this paper, we propose and evaluate a selective checkpoint and restore (SCR) technique that records only critical system state based on types and minimal symbolic annotations to deploy repaired programs. We found that using source-level symbolic information allows an application to be resumed even after its code is modified in our evaluation. We evaluate our approach using a commodity autonomous vehicle system and demonstrate that it admits manual and automated software repairs, does not carry tainted data, and has low overhead.",
+    "published_date": "2020-06-27",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3387940.3392201",
+    "summary": "The paper introduces a selective checkpoint and restore (SCR) technique for autonomous vehicles that leverages symbolic type information to minimize overhead and enable code modification-resilient restoration after repairs, addressing limitations of traditional checkpointing methods. Evaluation demonstrates low overhead and successful restoration after manual and automated software repairs."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/qscAeYE67GoSffDDA/walkthrough-the-transformer-architecture-part-1-2",
+    "author": "Matthew Barnett",
+    "title": "Walkthrough: The Transformer Architecture [Part 1/2]",
+    "published_date": "2019-07-30",
+    "summary": "This blog post begins a series explaining the Transformer architecture in machine learning, starting with an overview of its attention mechanism. The author aims to provide an accessible explanation of the Transformer's functionality and its significant impact on natural language processing."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/upLot6eG8cbXdKiFS/reward-function-learning-the-learning-process",
+    "author": "Stuart_Armstrong",
+    "title": "Reward function learning: the learning process",
+    "published_date": "2018-04-24",
+    "summary": "The article analyzes flaws in general reward function learning agents, specifically highlighting how a learning process can be \"rigged\" by a reward function dependent on the complete history, leading to suboptimal policies. The author proposes the concept of \"unriggable\" learning processes, which are both Bayesian and independent of the policy, as a solution to this problem."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BGv98aKicyT8eH4AY/making-a-difference-tempore-insights-from-reinforcement",
+    "author": "TurnTrout",
+    "title": "Making a Difference Tempore: Insights from 'Reinforcement Learning: An Introduction'",
+    "published_date": "2018-07-05",
+    "summary": "This article provides an overview of reinforcement learning, covering topics such as multi-armed bandits, Markov decision processes, dynamic programming, Monte Carlo methods, temporal-difference learning (including TD(0), SARSA, and Q-learning), and the importance of addressing issues like high variance in Monte Carlo methods and optimistic bias in Q-learning. The safety implications of reinforcement learning applications are highlighted as a key concern."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/brhWPoNsBN7za3xjs/competitive-markets-as-distributed-backprop",
+    "author": "johnswentworth",
+    "title": "Competitive Markets as Distributed Backprop",
+    "published_date": "2018-11-10",
+    "summary": "Backpropagation is a method for differentiating complex functions by applying the chain rule iteratively in reverse order of operations, calculating derivatives line-by-line. This process, analogous to determining intermediate prices in a supply chain, allows for efficient computation of derivatives even for functions with loops or recursion."
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2302.08452",
+    "title": "An Efficient Framework for Execution of Smart Contracts in Hyperledger Sawtooth",
+    "published_date": "2023-02-16",
+    "abstract": "Blockchain technology is a distributed, decentralized, and immutable ledger system. It is the platform of choice for managing smart contract transactions (SCTs). Smart contracts are self-executing codes of agreement between interested parties commonly implemented using blockchains. A block contains a set of transactions representing changes to the system and a hash of the previous block. The SCTs are executed multiple times during the block production and validation phases across the network. The execution is sequential in most blockchain technologies. In this work, we incorporate a direct acyclic graph (DAG) based parallel scheduler framework for concurrent execution of SCTs. The dependencies among a block's transactions are represented through a concurrent DAG data structure that assists in throughput optimization. We have created a DAG scheduler module that can be incorporated into blockchain platforms for concurrent execution with ease. We have also formally established the safety and liveness properties of the DAG scheduler. For evaluation, our framework is implemented in Hyperledger Sawtooth V1.2.6. The performance across multiple smart contract applications is measured for various scheduler types. Experimental analysis shows that the proposed framework achieves notable performance improvements over the parallel SCT execution frameworks.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.08440",
+    "title": "Timing Analysis and Priority-driven Enhancements of ROS 2 Multi-threaded Executors",
+    "published_date": "2023-05-01",
+    "abstract": "The second generation of Robotic Operating System, ROS 2, has gained much attention for its potential to be used for safety-critical robotic applications. The need to provide a solid foundation for timing correctness and scheduling mechanisms is therefore growing rapidly. Although there are some pioneering studies conducted on formally analyzing the response time of processing chains in ROS 2, the focus has been limited to singlethreaded executors, and multi-threaded executors, despite their advantages, have not been studied well. To fill this knowledge gap, in this paper, we propose a comprehensive response-time analysis framework for chains running on ROS 2 multi-threaded executors. We first analyze the timing behavior of the default scheduling scheme in ROS 2 multi-threaded executors, and then present priority-driven scheduling enhancements to address the limitations of the default scheme. Our framework can analyze chains with both arbitrary and constrained deadlines and also the effect of mutually-exclusive callback groups. Evaluation is conducted by a case study on NVIDIA Jetson AGX Xavier and schedulability experiments using randomly-generated chains. The results demonstrate that our analysis framework can safely upper-bound response times under various conditions and the priority-driven scheduling enhancements not only reduce the response time of critical chains but also improve analytical bounds.",
+    "citation_count": 15
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.09163",
+    "title": "CEDCES: A Cost Effective Deadline Constrained Evolutionary Scheduler for Task Graphs in Multi-Cloud System",
+    "published_date": "2022-12-18",
+    "abstract": "Due to large computational resource requirements, a single cloud cannot meet the requirements of the workflow. Hence, a multi-cloud system, where multiple cloud providers pool their resources together becomes a good solution. The major objectives considered while scheduling the tasks present in a task graph include execution cost and makespan. In this paper, we present Cost Effective Deadline Constrained Evolutionary Scheduler (henceforth mentioned as CEDCES) which aims to minimize the execution cost under a given deadline constraint. CEDCES is a PSO based-method with novel initialization, crossover, and mutation schemes. Experiments on real-world workflows show that CEDCES outperforms the state-of-art algorithms, in particular, 60.41% on average in terms of execution cost. In cases where the deadline is violated, CEDCES gives the least overshoot in execution time and outperforming the others by 10.96% on average."
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.13324",
+    "title": "Resilient Execution of Data-triggered Applications on Edge, Fog and Cloud Resources",
+    "published_date": "2022-03-24",
+    "abstract": "Internet of Things (loT) is leading to the pervasive availability of streaming data about the physical world, coupled with edge computing infrastructure deployed as part of smart cities and 5G rollout. These constrained, less reliable but cheap resources are complemented by fog resources that offer feder-ated management and accelerated computing, and pay-as-you-go cloud resources. There is a lack of intuitive means to deploy application pipelines to consume such diverse streams, and to execute them reliably on edge and fog resources. We propose an innovative application model to declaratively specify queries to match streams of micro-batch data from stream sources and trigger the distributed execution of data pipelines. We also design a resilient scheduling strategy using advanced reservation on reliable fogs to guarantee dataflow completion within a deadline while minimizing the execution cost. Our detailed experiments on over 100 virtual loT resources and for $\\approx 10k$ task executions, with comparison against baseline scheduling strategies, illustrates the cost-effectiveness, resilience and scalability of our framework.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.09274",
+    "title": "A Makespan and Energy-Aware Scheduling Algorithm for Workflows under Reliability Constraint on a Multiprocessor Platform",
+    "published_date": "2022-12-19",
+    "abstract": "Many scientific workflows can be modeled as a Directed Acyclic Graph (henceforth mentioned as DAG) where the nodes represent individual tasks, and the directed edges represent data and control flow dependency between two tasks. Due to the large volume of data, multi-processor systems are often used to execute these workflows. Hence, scheduling the tasks of a workflow to achieve certain goals (such as minimizing the makespan, energy, or maximizing reliability, processor utilization, etc.) remains an active area of research in embedded systems. In this paper, we propose a workflow scheduling algorithm to minimize the makespan and energy for a given reliability constraint. If the reliability constraint is higher, we further propose Energy Aware Fault Tolerant Scheduling (henceforth mentioned as EAFTS) based on active replication. Additionally, given that the allocation of task nodes to processors is known, we develop a frequency allocation algorithm that assigns frequencies to the processors. Mathematically we show that our algorithms can work for any satisfiable reliability constraint. We analyze the proposed solution approaches to understand their time requirements. Experiments with real-world Workflows show that our algorithms, MERT and EAFTS, outperform the state-of-art approaches. In particular, we observe that MERT gives 3.12% lesser energy consumption and 14.14% lesser makespan on average. In the fault-tolerant setting, our method EAFTS gives 11.11% lesser energy consumption on average when compared with the state-of-art approaches."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13"
+  }
+]

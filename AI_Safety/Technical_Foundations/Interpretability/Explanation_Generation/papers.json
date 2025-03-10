@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Are Explanations Helpful? A Comparative Study of the Effects of Explanations in AI-Assisted Decision-Making",
+    "abstract": "This paper contributes to the growing literature in empirical evaluation of explainable AI (XAI) methods by presenting a comparison on the effects of a set of established XAI methods in AI-assisted decision making. Specifically, based on our review of previous literature, we highlight three desirable properties that ideal AI explanations should satisfy—improve people's understanding of the AI model, help people recognize the model uncertainty, and support people's calibrated trust in the model. Through randomized controlled experiments, we evaluate whether four types of common model-agnostic explainable AI methods satisfy these properties on two types of decision making tasks where people perceive themselves as having different levels of domain expertise in (i.e., recidivism prediction and forest cover prediction). Our results show that the effects of AI explanations are largely different on decision making tasks where people have varying levels of domain expertise in, and many AI explanations do not satisfy any of the desirable properties for tasks that people have little domain expertise in. Further, for decision making tasks that people are more knowledgeable, feature contribution explanation is shown to satisfy more desiderata of AI explanations, while the explanation that is considered to resemble how human explain decisions (i.e., counterfactual explanation) does not seem to improve calibrated trust. We conclude by discussing the implications of our study for improving the design of XAI methods to better support human decision making.",
+    "published_date": "2021-04-14",
+    "citation_count": 254,
+    "url": "https://dl.acm.org/doi/10.1145/3397481.3450650",
+    "summary": "This study compares four explainable AI (XAI) methods across different decision-making tasks and expertise levels, finding that explanation effectiveness varies significantly depending on user domain knowledge; feature contribution explanations performed best for knowledgeable users, while counterfactual explanations did not improve calibrated trust."
+  },
+  {
+    "url": "https://arxiv.org/abs/2011.05268",
+    "title": "Towards Interpretable Natural Language Understanding with Explanations as Latent Variables",
+    "published_date": "2020-10-24",
+    "abstract": "Recently generating natural language explanations has shown very promising results in not only offering interpretable explanations but also providing additional information and supervision for prediction. However, existing approaches usually require a large set of human annotated explanations for training while collecting a large set of explanations is not only time consuming but also expensive. In this paper, we develop a general framework for interpretable natural language understanding that requires only a small set of human annotated explanations for training. Our framework treats natural language explanations as latent variables that model the underlying reasoning process of a neural model. We develop a variational EM framework for optimization where an explanation generation module and an explanation-augmented prediction module are alternatively optimized and mutually enhance each other. Moreover, we further propose an explanation-based self-training method under this framework for semi-supervised learning. It alternates between assigning pseudo-labels to unlabeled data and generating new explanations to iteratively improve each other. Experiments on two natural language understanding tasks demonstrate that our framework can not only make effective predictions in both supervised and semi-supervised settings, but also generate good natural language explanation.",
+    "citation_count": 38,
+    "summary": "This paper proposes a framework for interpretable natural language understanding that uses natural language explanations as latent variables, requiring minimal human annotation. It employs a variational EM framework with an explanation generation module and an explanation-augmented prediction module, further enhanced by an explanation-based self-training method for semi-supervised learning."
+  },
+  {
+    "url": "https://arxiv.org/abs/1811.00196",
+    "title": "Towards Explainable NLP: A Generative Explanation Framework for Text Classification",
+    "published_date": "2018-11-01",
+    "abstract": "Building explainable systems is a critical problem in the field of Natural Language Processing (NLP), since most machine learning models provide no explanations for the predictions. Existing approaches for explainable machine learning systems tend to focus on interpreting the outputs or the connections between inputs and outputs. However, the fine-grained information (e.g. textual explanations for the labels) is often ignored, and the systems do not explicitly generate the human-readable explanations. To solve this problem, we propose a novel generative explanation framework that learns to make classification decisions and generate fine-grained explanations at the same time. More specifically, we introduce the explainable factor and the minimum risk training approach that learn to generate more reasonable explanations. We construct two new datasets that contain summaries, rating scores, and fine-grained reasons. We conduct experiments on both datasets, comparing with several strong neural network baseline systems. Experimental results show that our method surpasses all baselines on both datasets, and is able to generate concise explanations at the same time.",
+    "citation_count": 137,
+    "summary": "This paper introduces a novel generative framework for explainable text classification, simultaneously learning to classify text and generate human-readable, fine-grained explanations for its predictions, outperforming existing methods on two newly created datasets."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/good-explanations-advice",
+    "title": "Good Explanations (Advice) - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "The \"Good Explanations (Advice)\" tag categorizes advice on effective explanation writing techniques. It provides guidance on how to create clear and understandable explanations."
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.09656v2",
+    "title": "Selective Explanations: Leveraging Human Input to Align Explainable AI",
+    "published_date": "2023-01-23",
+    "abstract": "While a vast collection of explainable AI (XAI) algorithms has been developed in recent years, they have been criticized for significant gaps with how humans produce and consume explanations. As a result, current XAI techniques are often found to be hard to use and lack effectiveness. In this work, we attempt to close these gaps by making AI explanations selective ---a fundamental property of human explanations---by selectively presenting a subset of model reasoning based on what aligns with the recipient's preferences. We propose a general framework for generating selective explanations by leveraging human input on a small dataset. This framework opens up a rich design space that accounts for different selectivity goals, types of input, and more. As a showcase, we use a decision-support task to explore selective explanations based on what the decision-maker would consider relevant to the decision task. We conducted two experimental studies to examine three paradigms based on our proposed framework: in Study 1, we ask the participants to provide critique-based or open-ended input to generate selective explanations (self-input). In Study 2, we show the participants selective explanations based on input from a panel of similar users (annotator input). Our experiments demonstrate the promise of selective explanations in reducing over-reliance on AI and improving collaborative decision making and subjective perceptions of the AI system, but also paint a nuanced picture that attributes some of these positive effects to the opportunity to provide one's own input to augment AI explanations. Overall, our work proposes a novel XAI framework inspired by human communication behaviors and demonstrates its potential to encourage future work to make AI explanations more human-compatible.",
+    "citation_count": 27,
+    "summary": "This paper introduces a framework for generating \"selective explanations\" in explainable AI (XAI), mirroring human communication by presenting only the model reasoning most relevant to the user's preferences, demonstrating improved user trust and collaboration through experimental studies incorporating user-provided input."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/interpretability-ml-and-ai",
+    "author": "Lee Sharkey, Dan Braun, Beren Millidge",
+    "title": "Interpretability (ML & AI) - AI Alignment Forum",
+    "published_date": "2023-04-30",
+    "summary": "Machine learning models often lack interpretability, meaning their decision-making processes are opaque to humans. Mechanistic interpretability, a key subfield, aims to understand *how* these models function, unlike other approaches that focus on attributing outputs to specific inputs."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/iaJFJ5Qm29ixtrWsn/sparse-coding-for-mechanistic-interpretability-and",
+    "author": "David Udell",
+    "title": "Sparse Coding, for Mechanistic Interpretability and Activation Engineering",
+    "published_date": "2023-09-23",
+    "summary": "To interpret the internal representations of large language models, the author trains a sparse autoencoder on a layer's activations. The resulting autoencoder's neurons then provide meaningful and interpretable representations of the model's internal concepts."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/sTe78dNJDGywu9Dz6/solving-the-mechanistic-interpretability-challenges-eis-vii",
+    "author": "StefanHex, Marius Hobbhahn",
+    "title": "Solving the Mechanistic Interpretability challenges: EIS VII Challenge 1",
+    "published_date": "2023-05-09",
+    "summary": "Researchers solved a machine learning interpretability challenge by reverse-engineering a convolutional neural network (CNN) trained on MNIST digits. They determined the network classified images based on their similarity to a template \"1\" and its inverse, using a simple thresholding mechanism on a weighted sum of pixel values."
+  },
+  {
+    "url": "https://arxiv.org/abs/2209.01061",
+    "title": "INTERACTION: A Generative XAI Framework for Natural Language Inference Explanations",
+    "published_date": "2022-07-18",
+    "abstract": "XAI with natural language processing aims to produce human-readable explanations as evidence for AI decision-making, which addresses explainability and transparency. However, from an HCI perspective, the current approaches only focus on delivering a single explanation, which fails to account for the diversity of human thoughts and experiences in language. This paper thus addresses this gap, by proposing a generative XAI framework, INTERACTION (explain aNd predicT thEn queRy with contextuAl CondiTional varIational autO-eNcoder). Our novel framework presents explanation in two steps: (step one) Explanation and Label Prediction; and (step two) Diverse Evidence Generation. We conduct intensive experiments with the Transformer architecture on a benchmark dataset, e-SNLI [1]. Our method achieves competitive or better performance against state-of-the-art baseline models on explanation generation (up to 4.7% gain in BLEU) and prediction (up to 4.4% gain in accuracy) in step one; it can also generate multiple diverse explanations in step two.",
+    "citation_count": 8,
+    "summary": "INTERACTION is a novel generative XAI framework that produces diverse, human-readable explanations for natural language inference by first predicting the label and then generating multiple supporting evidence sentences, outperforming existing methods in both explanation quality and prediction accuracy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.16464v1",
+    "title": "Towards Interpretable Deep Reinforcement Learning Models via Inverse Reinforcement Learning",
+    "published_date": "2022-03-30",
+    "abstract": "Artificial Intelligence, particularly through recent advancements in deep learning (DL), has achieved exceptional performances in many tasks in fields such as natural language processing and computer vision. For certain high-stake domains, in addition to desirable performance metrics, a high level of interpretability is often required in order for AI to be reliably utilized. Unfortunately, the black box nature of DL models prevents researchers from providing explicative descriptions for a DL model's reasoning process and decisions. In this work, we propose a novel framework utilizing Adversarial Inverse Reinforcement Learning that can provide global explanations for decisions made by a Reinforcement Learning model and capture intuitive tendencies that the model follows by summarizing the model's decision-making process.",
+    "citation_count": 2,
+    "summary": "This paper introduces a novel framework using adversarial inverse reinforcement learning to enhance the interpretability of deep reinforcement learning models, providing global explanations for their decisions and revealing underlying decision-making tendencies."
+  }
+]

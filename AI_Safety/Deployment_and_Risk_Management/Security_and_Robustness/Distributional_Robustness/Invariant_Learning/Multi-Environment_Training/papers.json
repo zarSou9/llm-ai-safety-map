@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Improving Multi-Scenario Learning to Rank in E-commerce by Exploiting Task Relationships in the Label Space",
+    "abstract": "Traditional Learning to Rank (LTR) models in E-commerce are usually trained on logged data from a single domain. However, data may come from multiple domains, such as hundreds of countries in international E-commerce platforms. Learning a single ranking function obscures domain differences, while learning multiple functions for each domain may also be inferior due to ignoring the correlations between domains. It can be formulated as a multi-task learning problem where multiple tasks share the same feature and label space. To solve the above problem, which we name Multi-Scenario Learning to Rank, we propose the Hybrid of implicit and explicit Mixture-of-Experts (HMoE) approach. Our proposed solution takes advantage of Multi-task Mixture-of-Experts to implicitly identify distinctions and commonalities between tasks in the feature space, and improves the performance with a stacked model learning task relationships in the label space explicitly. Furthermore, to enhance the flexibility, we propose an end-to-end optimization method with a task-constrained back-propagation strategy. We empirically verify that the optimization method is more effective than two-stage optimization required by the stacked approach. Experiments on real-world industrial datasets demonstrate that HMoE significantly outperforms the popular multi-task learning methods. HMoE is in-use in the search system of AliExpress and achieved 1.92% revenue gain in the period of one-week online A/B testing. We also release a sampled version of our dataset to facilitate future research.",
+    "published_date": "2020-10-19",
+    "citation_count": 77,
+    "url": "https://dl.acm.org/doi/10.1145/3340531.3412713"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BXMCgpktdiawT3K5v/multi-agent-safety",
+    "author": "Richard_Ngo",
+    "title": "Multi-agent safety",
+    "published_date": "2020-05-16"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/SXoHj7DTAjAsfJrcs/an-76-how-dataset-size-affects-robustness-and-benchmarking",
+    "author": "Rohin Shah",
+    "title": "[AN #76]: How dataset size affects robustness, and benchmarking safe exploration by measuring constraint violations",
+    "published_date": "2019-12-04"
+  },
+  {
+    "title": "Online meta-learning by parallel algorithm competition",
+    "abstract": "The efficiency of reinforcement learning algorithms depends critically on a few meta-parameters that modulate the learning updates and the trade-off between exploration and exploitation. The adaptation of the meta-parameters is an open question, which arguably has become a more important issue recently with the success of deep reinforcement learning. The long learning times in domains such as Atari 2600 video games makes it not feasible to perform comprehensive searches of appropriate meta-parameter values. In this study, we propose the Online Meta-learning by Parallel Algorithm Competition (OMPAC) method, which is a novel Lamarckian evolutionary approach to online meta-parameter adaptation. The population consists of several instances of a reinforcement learning algorithm which are run in parallel with small differences in initial meta-parameter values. After a fixed number of learning episodes, the instances are selected based on their performance on the task at hand, i.e., the fitness. Before continuing the learning, Gaussian noise is added to the meta-parameters with a predefined probability. We validate the OMPAC method by improving the state-of-the-art results in stochastic SZ-Tetris and in 10x10 Tetris by 31% and 84%, respectively, and by improving the learning speed and performance for deep Sarsa(λ) agents in the Atari 2600 domain.",
+    "published_date": "2017-02-24",
+    "citation_count": 22,
+    "url": "https://dl.acm.org/doi/10.1145/3205455.3205486"
+  },
+  {
+    "title": "Transfer Learning across Feature-Rich Heterogeneous Feature Spaces via Feature-Space Remapping (FSR)",
+    "abstract": "Transfer learning aims to improve performance on a target task by utilizing previous knowledge learned from source tasks. In this paper we introduce a novel heterogeneous transfer learning technique, Feature-Space Remapping (FSR), which transfers knowledge between domains with different feature spaces. This is accomplished without requiring typical feature-feature, feature instance, or instance-instance co-occurrence data. Instead we relate features in different feature-spaces through the construction of metafeatures. We show how these techniques can utilize multiple source datasets to construct an ensemble learner which further improves performance. We apply FSR to an activity recognition problem and a document classification problem. The ensemble technique is able to outperform all other baselines and even performs better than a classifier trained using a large amount of labeled data in the target domain. These problems are especially difficult because, in addition to having different feature-spaces, the marginal probability distributions and the class labels are also different. This work extends the state of the art in transfer learning by considering large transfer across dramatically different spaces.",
+    "published_date": "2015-03-11",
+    "citation_count": 83,
+    "url": "https://dl.acm.org/doi/10.1145/2629528"
+  },
+  {
+    "title": "Scaling multiple-source entity resolution using statistically efficient transfer learning",
+    "abstract": "We consider a serious, previously-unexplored challenge facing almost all approaches to scaling up entity resolution (ER) to multiple data sources: the prohibitive cost of labeling training data for supervised learning of similarity scores for each pair of sources. While there exists a rich literature describing almost all aspects of pairwise ER, this new challenge is arising now due to the unprecedented ability to acquire and store data from online sources, interest in features driven by ER such as enriched search verticals, and the uniqueness of noisy and missing data characteristics for each source. We show on real-world and synthetic data that for state-of-the-art techniques, the reality of heterogeneous sources means that the number of labeled training data must scale quadratically in the number of sources, just to maintain constant precision/recall. We address this challenge with a brand new transfer learning algorithm which requires far less training data (or equivalently, achieves superior accuracy with the same data) and is trained using fast convex optimization. The intuition behind our approach is to adaptively share structure learned about one scoring problem with all other scoring problems sharing a data source in common. We demonstrate that our theoretically-motivated approach improves upon existing techniques for multi-source ER.",
+    "published_date": "2012-08-09",
+    "citation_count": 14,
+    "url": "https://dl.acm.org/doi/10.1145/2396761.2398606"
+  }
+]

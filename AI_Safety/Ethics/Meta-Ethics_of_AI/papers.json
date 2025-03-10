@@ -1,0 +1,110 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2204.05151v1.pdf",
+    "title": "Metaethical Perspectives on 'Benchmarking' AI Ethics",
+    "published_date": "2022-04-11",
+    "abstract": "Benchmarks are seen as the cornerstone for measuring technical progress in Artificial Intelligence (AI) research and have been developed for a variety of tasks ranging from question answering to facial recognition. An increasingly prominent research area in AI is ethics, which currently has no set of benchmarks nor commonly accepted way for measuring the 'ethicality' of an AI system. In this paper, drawing upon research in moral philosophy and metaethics, we argue that it is impossible to develop such a benchmark. As such, alternative mechanisms are necessary for evaluating whether an AI system is 'ethical'. This is especially pressing in light of the prevalence of applied, industrial AI research. We argue that it makes more sense to talk about 'values' (and 'value alignment') rather than 'ethics' when considering the possible actions of present and future AI systems. We further highlight that, because values are unambiguously relative, focusing on values forces us to consider explicitly what the values are and whose values they are. Shifting the emphasis from ethics to values therefore gives rise to several new ways of understanding how researchers might advance research programmes for robustly safe or beneficial AI. We conclude by highlighting a number of possible ways forward for the field as a whole, and we advocate for different approaches towards more value-aligned AI research.",
+    "citation_count": 5,
+    "summary": "This paper argues that creating a benchmark for measuring the \"ethicality\" of AI systems is impossible due to the inherent subjectivity of ethics, advocating instead for a focus on \"values\" and \"value alignment\" which explicitly acknowledges the relativity of values and their sources. Alternative evaluation mechanisms beyond benchmarking are thus proposed for advancing safe and beneficial AI research."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.15147",
+    "title": "Delegating Responsibilities to Intelligent Autonomous Systems: Challenges and Benefits",
+    "published_date": "2024-11-06",
+    "abstract": "As AI systems increasingly operate with autonomy and adaptability, the traditional boundaries of moral responsibility in techno-social systems are being challenged. This paper explores the evolving discourse on the delegation of responsibilities to intelligent autonomous agents and the ethical implications of such practices. Synthesizing recent developments in AI ethics, including concepts of distributed responsibility and ethical AI by design, the paper proposes a functionalist perspective as a framework. This perspective views moral responsibility not as an individual trait but as a role within a socio-technical system, distributed among human and artificial agents. As an example of 'AI ethical by design,' we present Basti and Vitiello's implementation. They suggest that AI can act as artificial moral agents by learning ethical guidelines and using Deontic Higher-Order Logic to assess decisions ethically. Motivated by the possible speed and scale beyond human supervision and ethical implications, the paper argues for 'AI ethical by design', while acknowledging the distributed, shared, and dynamic nature of responsibility. This functionalist approach offers a practical framework for navigating the complexities of AI ethics in a rapidly evolving technological landscape.",
+    "summary": "This paper examines the ethical challenges of delegating responsibilities to increasingly autonomous AI systems, proposing a functionalist framework that distributes moral responsibility across human and artificial agents within a socio-technical system. It advocates for \"AI ethical by design,\" emphasizing the need for AI systems to incorporate ethical considerations in their decision-making processes."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.02478",
+    "title": "Imagining and building wise machines: The centrality of AI metacognition",
+    "published_date": "2024-11-04",
+    "abstract": "Recent advances in artificial intelligence (AI) have produced systems capable of increasingly sophisticated performance on cognitive tasks. However, AI systems still struggle in critical ways: unpredictable and novel environments (robustness), lack of transparency in their reasoning (explainability), challenges in communication and commitment (cooperation), and risks due to potential harmful actions (safety). We argue that these shortcomings stem from one overarching failure: AI systems lack wisdom. Drawing from cognitive and social sciences, we define wisdom as the ability to navigate intractable problems - those that are ambiguous, radically uncertain, novel, chaotic, or computationally explosive - through effective task-level and metacognitive strategies. While AI research has focused on task-level strategies, metacognition - the ability to reflect on and regulate one's thought processes - is underdeveloped in AI systems. In humans, metacognitive strategies such as recognizing the limits of one's knowledge, considering diverse perspectives, and adapting to context are essential for wise decision-making. We propose that integrating metacognitive capabilities into AI systems is crucial for enhancing their robustness, explainability, cooperation, and safety. By focusing on developing wise AI, we suggest an alternative to aligning AI with specific human values - a task fraught with conceptual and practical difficulties. Instead, wise AI systems can thoughtfully navigate complex situations, account for diverse human values, and avoid harmful actions. We discuss potential approaches to building wise AI, including benchmarking metacognitive abilities and training AI systems to employ wise reasoning. Prioritizing metacognition in AI research will lead to systems that act not only intelligently but also wisely in complex, real-world situations.",
+    "citation_count": 1,
+    "summary": "The paper argues that current AI's limitations in robustness, explainability, cooperation, and safety stem from a lack of \"wisdom,\" defined as the ability to navigate intractable problems using metacognitive strategies. The authors propose that integrating metacognition—self-reflection and regulation of thought processes—into AI is crucial for building safer and more effective systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/machine-ethics",
+    "title": "Machine Ethics - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Machine ethics aims to create artificial moral agents (AMAs) capable of moral reasoning, a challenge highlighted by the limitations of past attempts like Asimov's Three Laws of Robotics. The field's urgency increases as the development of superintelligence necessitates preemptive work on imbuing AI with ethical sensitivity."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/artificial-general-intelligence-agi",
+    "title": "Artificial General Intelligence (AGI) - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Artificial General Intelligence (AGI) refers to a hypothetical machine possessing human-level intelligence across diverse domains, unlike narrow AI which excels only in specific tasks. The creation of AGI is anticipated by some within the next few decades, though concerns exist regarding its potential risks and the difficulty in predicting its development trajectory."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/s4Mcg9aLMeRwdW7fh/what-is-metaethics",
+    "author": "lukeprog",
+    "title": "What is Metaethics?",
+    "published_date": "2024-02-01",
+    "summary": "The article distinguishes metaethics from normative and applied ethics, focusing on metaethical questions about the meaning of moral language, the existence of moral facts, and the objectivity or subjectivity of moral judgments. It then surveys prominent metaethical positions, including cognitivism versus non-cognitivism and their various sub-theories."
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.05551",
+    "title": "A Bibliometric View of AI Ethics Development",
+    "published_date": "2023-12-04",
+    "abstract": "Artificial Intelligence (AI) Ethics is a nascent yet critical research field. Recent developments in generative AI and foundational models necessitate a renewed look at the problem of AI Ethics. In this study, we perform a bibliometric analysis of AI Ethics literature for the last 20 years based on keyword search. Our study reveals a three-phase development in AI Ethics, namely an incubation phase, making AI human-like machines phase, and making AI human-centric machines phase. We conjecture that the next phase of AI ethics is likely to focus on making AI more machine-like as AI matches or surpasses humans intellectually, a term we coin as “machine-like human”.",
+    "summary": "A bibliometric analysis of AI ethics literature over the past 20 years reveals a three-phase evolution: incubation, human-like AI, and human-centric AI, suggesting a future focus on \"machine-like human\" AI as AI surpasses human intelligence."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.08759.pdf",
+    "title": "Value Engineering for Autonomous Agents",
+    "published_date": "2023-02-17",
+    "abstract": "Machine Ethics (ME) is concerned with the design of Artificial Moral Agents (AMAs), i.e. autonomous agents capable of reasoning and behaving according to moral values. Previous approaches have treated values as labels associated with some actions or states of the world, rather than as integral components of agent reasoning. It is also common to disregard that a value-guided agent operates alongside other value-guided agents in an environment governed by norms, thus omitting the social dimension of AMAs. In this blue sky paper, we propose a new AMA paradigm grounded in moral and social psychology, where values are instilled into agents as context-dependent goals. These goals intricately connect values at individual levels to norms at a collective level by evaluating the outcomes most incentivized by the norms in place. We argue that this type of normative reasoning, where agents are endowed with an understanding of norms' moral implications, leads to value-awareness in autonomous agents. Additionally, this capability paves the way for agents to align the norms enforced in their societies with respect to the human values instilled in them, by complementing the value-based reasoning on norms with agreement mechanisms to help agents collectively agree on the best set of norms that suit their human values. Overall, our agent model goes beyond the treatment of values as inert labels by connecting them to normative reasoning and to the social functionalities needed to integrate value-aware agents into our modern hybrid human-computer societies.",
+    "citation_count": 3,
+    "summary": "This paper proposes a novel framework for Artificial Moral Agents (AMAs) that integrates values as context-dependent goals, connecting individual values to societal norms through normative reasoning and agreement mechanisms, thereby fostering value-aware agents capable of aligning societal norms with human values. This approach moves beyond treating values as simple labels, incorporating social and moral psychology for more robust AMA design."
+  },
+  {
+    "title": "An Overview of Artificial Intelligence Ethics",
+    "abstract": "Artificial intelligence (AI) has profoundly changed and will continue to change our lives. AI is being applied in more and more fields and scenarios such as autonomous driving, medical care, media, finance, industrial robots, and internet services. The widespread application of AI and its deep integration with the economy and society have improved efficiency and produced benefits. At the same time, it will inevitably impact the existing social order and raise ethical concerns. Ethical issues, such as privacy leakage, discrimination, unemployment, and security risks, brought about by AI systems have caused great trouble to people. Therefore, AI ethics, which is a field related to the study of ethical issues in AI, has become not only an important research topic in academia, but also an important topic of common concern for individuals, organizations, countries, and society. This article will give a comprehensive overview of this field by summarizing and analyzing the ethical risks and issues raised by AI, ethical guidelines and principles issued by different organizations, approaches for addressing ethical issues in AI, and methods for evaluating the ethics of AI. Additionally, challenges in implementing ethics in AI and some future perspectives are pointed out. We hope our work will provide a systematic and comprehensive overview of AI ethics for researchers and practitioners in this field, especially the beginners of this research discipline.",
+    "published_date": "2023-08-01",
+    "citation_count": 80,
+    "url": "https://ieeexplore.ieee.org/ielx7/9078688/9184921/09844014.pdf",
+    "summary": "This paper provides a comprehensive overview of artificial intelligence ethics, examining the ethical risks and challenges posed by AI's widespread adoption, exploring existing ethical guidelines and principles, and outlining approaches for addressing and evaluating AI's ethical implications. It also discusses challenges in implementation and future perspectives."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/artificial-general-intelligence",
+    "title": "Artificial General Intelligence - LessWrong",
+    "published_date": "2023-02-06",
+    "summary": "Artificial General Intelligence (AGI) refers to machines capable of intelligent behavior across diverse domains, unlike narrow AI which excels only in specific tasks. While AGI's creation remains uncertain, expert predictions range from 2050 to 2150, with significant debate surrounding its potential benefits and risks, including the possibility of an intelligence explosion and loss of human control."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a novel framework for building ethical AI by incorporating ethical principles as Bayesian priors into AI learning processes. This approach, inspired by human moral intuitions, aims to guide AI decision-making towards ethically sound judgments."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2204.07612v1.pdf",
+    "title": "Contextualizing Artificially Intelligent Morality: A Meta-Ethnography of Top-Down, Bottom-Up, and Hybrid Models for Theoretical and Applied Ethics in Artificial Intelligence",
+    "published_date": "2022-04-15",
+    "abstract": "In this meta-ethnography,we explore three different angles of Ethical AI design and implementation in a top-down/bottom-up framework, including the philosophical ethical viewpoint, the technical perspective, and framing through a political lens. We will discuss the values and drawbacks of individual and hybrid approaches within this framework. Examples of approaches include ethics either being determined by corporations and governments (coming from the top), or ethics being called for by the people (coming from the bottom), as well as top-down, bottom-up, and hybrid technical-ities of how AI is developed within a moral construct, in consideration of its developers and users, with expected and unexpected consequences and long-term impact. This investigation includes real-world case studies, philosophical debate, and theoretical future thought experimentation based on historical fact, current world circumstances, and possible ensuing realities.",
+    "summary": "This meta-ethnography analyzes top-down, bottom-up, and hybrid approaches to integrating ethics into AI development, considering philosophical, technical, and political perspectives, and evaluating their respective strengths and weaknesses through case studies and theoretical analysis. The study examines how ethical considerations originate from governing bodies, the public, or a combination thereof, impacting AI design and its societal consequences."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.05576v1.pdf",
+    "title": "AI and the Sense of Self",
+    "published_date": "2022-01-07",
+    "abstract": "After several winters, AI is center-stage once again, with current advances enabling a vast array of AI applications. This renewed wave of AI has brought back to the fore several questions from the past, about philosophical foundations of intelligence and common sense -- predominantly motivated by ethical concerns of AI decision-making. In this paper, we address some of the arguments that led to research interest in intelligent agents, and argue for their relevance even in today's context. Specifically we focus on the cognitive sense of\"self\"and its role in autonomous decision-making leading to responsible behaviour. The authors hope to make a case for greater research interest in building richer computational models of AI agents with a sense of self.",
+    "citation_count": 1,
+    "summary": "This paper revisits the philosophical foundations of AI, arguing that a better understanding of the \"sense of self\" in intelligent agents is crucial for developing ethically responsible autonomous decision-making. The authors advocate for increased research into computational models incorporating a richer sense of self in AI."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2202.12039.pdf",
+    "title": "Metacognitive Agents for Ethical Decision Support: Conceptual Model and Research Roadmap",
+    "published_date": "2022-02-24",
+    "abstract": "An ethical value-action gap exists when there is a discrepancy between intentions and actions. For example, people who support environmental sustainability often use cars and short-haul flights because of convenience and time-pressure. This discrepancy may be caused by social and structural obstacles as well as cognitive biases. Current technology can make this worse. For example, social media tends to enhance emotions such as anger or fear, which can result in polarisation and impulsive decisions. Computational models of cognition and affect can provide insights into the value-action gap and how it can be reduced. Such models include dual process architectures, emotion models and behaviour change theories. In particular, metacognition (“thinking about thinking”) plays an important role in many of these models as a mechanism for self-regulation and for reasoning about mental attitudes. This paper outlines a roadmap for translating cognitive-affective models into assistant agents to help make value-aligned decisions. Key principles include “agile” rapid-prototyping using agentbased simulation, and the combination of descriptive and normative models into a single agent architecture.",
+    "summary": "This paper proposes using metacognitive agent-based models to bridge the ethical value-action gap by simulating cognitive and affective processes, aiming to create AI assistants that promote value-aligned decision-making. The approach emphasizes agile prototyping and integrating descriptive and normative models within a single agent architecture."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2110.07574v1.pdf",
+    "title": "CAN MACHINES LEARN MORALITY? THE DELPHI EXPERIMENT",
+    "published_date": "2021-10-14",
+    "abstract": "As AI systems become increasingly powerful and pervasive, there are growing concerns about machines' morality or a lack thereof. Yet, teaching morality to machines is a formidable task, as morality remains among the most intensely debated questions in humanity, let alone for AI. Existing AI systems deployed to millions of users, however, are already making decisions loaded with moral implications, which poses a seemingly impossible challenge: teaching machines moral sense, while humanity continues to grapple with it.\r\n\r\nTo explore this challenge, we introduce Delphi, an experimental framework based on deep neural networks trained directly to reason about descriptive ethical judgments, e.g., “helping a friend” is generally good, while “helping a friend spread fake news” is not. Empirical results shed novel insights on the promises and limits of machine ethics; Delphi demonstrates strong generalization capabilities in the face of novel ethical situations, while off-the-shelf neural network models exhibit markedly poor judgment including unjust biases, confirming the need for explicitly teaching machines moral sense.\r\n\r\nYet, Delphi is not perfect, exhibiting susceptibility to pervasive biases and inconsistencies. Despite that, we demonstrate positive use cases of imperfect Delphi, including using it as a component model within other imperfect AI systems. Importantly, we interpret the operationalization of Delphi in light of prominent ethical theories, which leads us to important future research questions.",
+    "citation_count": 93,
+    "summary": "The Delphi experiment uses deep neural networks to train an AI model on ethical judgments, revealing both promising generalization capabilities and persistent biases. This research highlights the challenges and potential of teaching machines morality, suggesting imperfect AI ethics models can still be valuable components in larger systems."
+  }
+]

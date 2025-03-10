@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2211.08593.pdf",
+    "title": "Composite Consensus-Building Process: Permissible Meeting Analysis and Compromise Choice Exploration",
+    "published_date": "2022-11-16",
+    "abstract": "In solving today's social issues, it is necessary to determine solutions that are acceptable to all stakeholders and collaborate to apply them. The conventional technology of\"permissive meeting analysis\"derives a consensusable choice that falls within everyone's permissible range through mathematical analyses; however, it tends to be biased toward the majority in a group, making it difficult to reach a consensus when a conflict arises. To support consensus building (defined here as an acceptable compromise that not everyone rejects), we developed a composite consensus-building process. The developed process addresses this issue by combining permissible meeting analysis with a new\"compromise choice-exploration\"technology, which presents a consensusable choice that emphasizes fairness and equality among everyone when permissible meeting analysis fails to do so. When both permissible meeting analysis and compromise choice exploration do not arrive at a consensus, a facility is provided to create a sublated choice among those provided by them. The trial experimental results confirmed that permissive meeting analysis and compromise choice exploration are sufficiently useful for deriving consensusable choices. Furthermore, we found that compromise choice exploration is characterized by its ability to derive choices that control the balance between compromise and fairness. Our proposed composite consensus-building approach could be applied in a wide range of situations, from local issues in municipalities and communities to international issues such as environmental protection and human rights issues. It could also aid in developing digital democracy and platform cooperativism."
+  },
+  {
+    "url": "https://arxiv.org/abs/2101.04765",
+    "title": "Joint aggregation of cardinal and ordinal evaluations with an application to a student paper competition",
+    "published_date": "2021-01-12",
+    "abstract": "An important problem in decision theory concerns the aggregation of individual rankings/ratings into a collective evaluation. We illustrate a new aggregation method in the context of the 2007 MSOM's student paper competition. The aggregation problem in this competition poses two challenges. Firstly, each paper was reviewed only by a very small fraction of the judges; thus the aggregate evaluation is highly sensitive to the subjective scales chosen by the judges. Secondly, the judges provided both cardinal and ordinal evaluations (ratings and rankings) of the papers they reviewed. The contribution here is a new robust methodology that jointly aggregates ordinal and cardinal evaluations into a collective evaluation. This methodology is particularly suitable in cases of incomplete evaluations—i.e., when the individuals evaluate only a strict subset of the objects. This approach is potentially useful in managerial decision making problems by a committee selecting projects from a large set or capital budgeting involving multiple priorities."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.03749v1.pdf",
+    "title": "Wisdom of the Crowd Voting: Truthful Aggregation of Voter Information and Preferences",
+    "published_date": "2021-08-08",
+    "abstract": "We consider two-alternative elections where voters' preferences depend on a state variable that is not directly observable. Each voter receives a private signal that is correlated to the state variable. Voters may be\"contingent\"with different preferences in different states; or predetermined with the same preference in every state. In this setting, even if every voter is a contingent voter, agents voting according to their private information need not result in the adoption of the universally preferred alternative, because the signals can be systematically biased. We present an easy-to-deploy mechanism that elicits and aggregates the private signals from the voters, and outputs the alternative that is favored by the majority. In particular, voters truthfully reporting their signals forms a strong Bayes Nash equilibrium (where no coalition of voters can deviate and receive a better outcome).",
+    "citation_count": 12
+  },
+  {
+    "title": "Multi-criteria group decision-making method for green supplier selection based on distributed interval variables",
+    "abstract": "Abstract Addressing the multi-criteria group decision making problem with interval attribute values and attribute weights, this paper proposes a decision method based on attribute distribution information. The selection of green suppliers is taken as an example for decision analysis. First, in the case of group decision-making, the quantitative values of the evaluation attributes of green suppliers are imputed by decision-makers, and the relevant distributions are constructed for each attribute. Next, combined with the ranges of attribute values, the random interval values are used to describe the information represented by each attribute to overcome the loss caused by the aggregation of individual expert information into group information. We then propose the distributed interval weighted arithmetic average (DIWAA) operator and corresponding operation rules, which realizes the fusion of qualitative data and quantitative judgment. Thus, the proposed approach allows ensuring reasonable results of the multi-criteria analysis. We also construct a ranking method for alternatives based on distributed interval comprehensive scores. Finally, we verify the feasibility and effectiveness of the proposed method for the task of green supplier selection through numerical experiments.",
+    "published_date": "2021-06-21",
+    "citation_count": 6,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/1331677X.2021.1931916"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/X5RyaEDHNq5qutSHK/anti-social-punishment",
+    "author": "Martin Sustrik",
+    "title": "Anti-social Punishment",
+    "published_date": "2018-09-27"
+  }
+]

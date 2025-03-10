@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19"
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.06136v1",
+    "title": "Quantitative Verification With Neural Networks For Probabilistic Programs and Stochastic Systems",
+    "published_date": "2023-01-15",
+    "abstract": "We present a data-driven approach to the quantitative verification of probabilistic programs and stochastic dynamical models. Our approach leverages neural networks to compute tight and sound bounds for the probability that a stochastic process hits a target condition within finite time. This problem subsumes a variety of quantitative verification questions, from the reachability and safety analysis of discrete-time stochastic dynamical models, to the study of assertion-violation and termination analysis of probabilistic programs. We rely on neural networks to represent supermartingale certificates that yield such probability bounds, which we compute using a counterexample-guided inductive synthesis loop: we train the neural certificate while tightening the probability bound over samples of the state space using stochastic optimisation, and then we formally check the certificate's validity over every possible state using satisfiability modulo theories; if we receive a counterexample, we add it to our set of samples and repeat the loop until validity is confirmed. We demonstrate on a diverse set of benchmarks that, thanks to the expressive power of neural networks, our method yields smaller or comparable probability bounds than existing symbolic methods in all cases, and that our approach succeeds on models that are entirely beyond the reach of such alternative techniques.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02"
+  },
+  {
+    "title": "A Deep Reinforcement Learning Framework with Formal Verification",
+    "abstract": "Artificial Intelligence (AI) and data are reshaping organizations and businesses. Human Resources (HR) management and talent development make no exception, as they tend to involve more automation and growing quantities of data. Because this brings implications on workforce, career transparency, and equal opportunities, overseeing what fuels AI and analytical models, their quality standards, integrity, and correctness becomes an imperative for those aspiring to such systems. Based on an ontology transformation to B-machines, this article presents an approach to constructing a valid and error-free career agent with Deep Reinforcement Learning (DRL). In short, the agent's policy is built on a framework we called Multi State-Actor (MuStAc) using a decentralized training approach. Its purpose is to predict both relevant and valid career steps to employees, based on their profiles and company pathways (observations). Observations can comprise various data elements such as the current occupation, past experiences, performance, skills, qualifications, and so on. The policy takes in all these observations and outputs the next recommended career step, in an environment set as the combination of an HR ontology and an Event-B model, which generates action spaces with respect to formal properties. The Event-B model and formal properties are derived using OWL to B transformation.",
+    "published_date": "2022-12-19",
+    "citation_count": 5,
+    "url": "https://dl.acm.org/doi/10.1145/3577204"
+  },
+  {
+    "title": "Towards combining deep learning, verification, and scenario-based programming",
+    "abstract": "Deep learning (DL) [4] is dramatically changing the world of software. The rapid improvement in deep neural network (DNN) technology now enables engineers to train models that achieve superhuman results, often surpassing algorithms that have been carefully hand-crafted by domain experts [19, 20]. There is even an intensifying trend of incorporating DNNs in safety-critical systems, e.g. as controllers for autonomous vehicles and drones [1, 12].",
+    "published_date": "2021-05-18",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3459086.3459631"
+  }
+]

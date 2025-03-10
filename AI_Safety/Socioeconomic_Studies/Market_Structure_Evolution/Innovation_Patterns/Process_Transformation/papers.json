@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/WJ7y8S9WdKRvrzJmR/building-ai-research-fleets",
+    "author": "Ben Goldhaber, Jesse Hoogland",
+    "title": "Building AI Research Fleets",
+    "published_date": "2025-01-12",
+    "summary": "Research automation requires a shift from developing individual AI \"scientists\" to building and managing large-scale \"AI research fleets\" of specialized AI agents working collaboratively, mirroring the organizational changes seen in past industrial revolutions. This necessitates institutional adaptation to leverage the power of parallel processing and overcome the limitations of current research structures."
+  },
+  {
+    "title": "Artificial Intelligence and Industrial Innovation: Evidence From Firm-Level Data",
+    "abstract": "Artificial Intelligence (AI) represents a set of techniques that enable new ways of innovation and allows firms to offer new features of products and services, to improve production, marketing and administration processes, and to introduce new business models. This paper analyses the extent to which the use of AI contributes to the innovation performance of firms. Based on firm-level data from the German part of the Community Innovation Survey (CIS) 2018, we examine the contribution of different AI methods and applications to product and process innovation outcomes. The representative nature of the survey allows extrapolating the findings to the macroeconomic level. The results show that 5.8% of firms in Germany were actively using AI in their business operations or products and services in 2019. The use of AI generated additional sales with world-first product innovations in these firms of about €16 billion, which corresponds to 18% of total sales of world-first innovations in the German business sector. Firms that developed AI by combining in-house and external resources obtained significantly higher innovation results. The same is true for firms that apply AI in a broad way and have already several years of experience in using AI.",
+    "published_date": "2024-06-14",
+    "citation_count": 7,
+    "url": "https://www.econstor.eu/bitstream/10419/233213/1/1755479085.pdf",
+    "summary": "Using German firm-level data from 2018, this paper finds that AI adoption, particularly when combining internal and external resources and applied broadly, significantly boosts firm innovation and sales, contributing €16 billion to world-first product innovations. A small percentage of German firms (5.8%) utilized AI in 2019, yet their AI-driven innovations represented a substantial portion of total innovation sales."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bdQhzQsHjNrQp7cNS/estimates-of-gpu-or-equivalent-resources-of-large-ai-players",
+    "author": "CharlesD",
+    "title": "Estimates of GPU or equivalent resources of large AI players for 2024/5",
+    "published_date": "2024-11-28",
+    "summary": "The article estimates the amount of AI compute power (primarily Nvidia GPUs) major tech companies will possess in 2024 and 2025, based on publicly available data and Nvidia's revenue projections. These estimates, acknowledged to be imprecise, suggest significant growth in AI computing resources across these companies."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/XroTfXFSq3yeJgu73/we-are-in-a-new-paradigm-of-ai-progress-openai-s-o3-model",
+    "author": "garrison",
+    "title": "We are in a New Paradigm of AI Progress - OpenAI's o3 model makes huge gains on the toughest AI benchmarks in the world",
+    "published_date": "2024-12-22",
+    "summary": "OpenAI's new model, o3, significantly surpasses previous AI performance on complex mathematical, scientific, and programming benchmarks, exceeding human expert levels in some areas, though at a currently high computational cost. This unexpected leap in AI capabilities, exceeding even expert predictions, suggests a rapid acceleration in AI development."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.07878",
+    "title": "New Kids on the Block: On the impact of information retrieval on contextual resource integration patterns",
+    "published_date": "2023-12-13",
+    "abstract": "The rise of new modes of interaction with AI skyrocketed the popularity, applicability, and amount of use cases. Despite this evolution, conceptual integration is falling behind. Studies suggest that there is hardly a systematization in using AI in organizations. Thus, by taking a service-dominant logic perspective, specifically, the concept of resource integration patterns, the most potent application of AI for organizational use - namely information retrieval - is analyzed. In doing so, we propose a systematization that can be applied to deepen understanding of core technical concepts, further investigate AI in contexts, and help explore research directions guided by SDL.",
+    "summary": "This paper analyzes the impact of information retrieval (a key AI application) on organizational resource integration patterns, using a service-dominant logic perspective to propose a systematization for understanding and further researching AI's contextual use."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zYv9BQBGnk2EdCwoG/the-psyche-of-ai-pattern-recognition",
+    "author": "Scott Broock",
+    "title": "AI and the Map of Your Mind: Pattern Recognition",
+    "published_date": "2023-03-20",
+    "summary": "Integrating large language models into productivity suites allows AI to create personalized knowledge graphs from user data, offering insights into learning, decision-making, and career paths. However, this access to personal data raises concerns about privacy and the potential for AI to reveal unconscious psychological patterns."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/icejDNdLzB2my9Ka9/why-ai-experts-jobs-are-always-decades-from-being-automated",
+    "author": "Allen Hoskins",
+    "title": "Why AI experts' jobs are always decades from being automated",
+    "published_date": "2023-01-31",
+    "summary": "While industry rapidly advances AI through scaling existing models like transformers, many AI researchers predict AGI decades away, attributing this discrepancy to both a reluctance to acknowledge imminent breakthroughs and a belief that current engineering-focused progress is insufficient to achieve true artificial general intelligence."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/69CRFgqbQyFBoYcg5/navigating-the-open-source-ai-landscape-data-funding-and",
+    "author": "André Ferretti, mic",
+    "title": "Navigating the Open-Source AI Landscape: Data, Funding, and Safety",
+    "published_date": "2023-04-13",
+    "summary": "Open-source AI, while democratizing technology and accelerating development through shared code and models like LLaMA and Stable Diffusion, raises ethical and safety concerns due to its potential for misuse and the uncontrolled nature of its vast, often problematic, training datasets. Addressing these risks requires prioritizing safety measures, including rigorous auditing, external feedback, and responsible data curation."
+  }
+]

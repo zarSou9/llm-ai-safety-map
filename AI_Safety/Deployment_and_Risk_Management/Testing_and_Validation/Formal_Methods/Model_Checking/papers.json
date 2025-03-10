@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.14301",
+    "title": "Multi-Grained Specifications for Distributed System Model Checking and Verification",
+    "published_date": "2024-09-22",
+    "abstract": "This paper presents our experience specifying and verifying the correctness of ZooKeeper, a complex and evolving distributed coordination system. We use TLA+ to model fine-grained behaviors of ZooKeeper and use the TLC model checker to verify its correctness properties; we also check conformance between the model and code. The fundamental challenge is to balance the granularity of specifications and the scalability of model checking -- fine-grained specifications lead to state-space explosion, while coarse-grained specifications introduce model-code gaps. To address this challenge, we write specifications with different granularities for composable modules, and compose them into mixed-grained specifications based on specific scenarios. For example, to verify code changes, we compose fine-grained specifications of changed modules and coarse-grained specifications that abstract away details of unchanged code with preserved interactions. We show that writing multi-grained specifications is a viable practice and can cope with model-code gaps without untenable state space, especially for evolving software where changes are typically local and incremental. We detected six severe bugs that violate five types of invariants and verified their code fixes; the fixes have been merged to ZooKeeper. We also improve the protocol design to make it easy to implement correctly.",
+    "summary": "This paper details a multi-grained specification approach using TLA+ and TLC to verify the correctness of ZooKeeper, balancing fine-grained specifications for thoroughness with coarser-grained ones for scalability, enabling efficient model checking of evolving systems and the detection of six critical bugs."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/3P8WBwLyfPBEkbG3c/proveably-safe-self-driving-cars",
+    "author": "Davidmanheim",
+    "title": "Proveably Safe Self Driving Cars",
+    "published_date": "2024-09-15",
+    "summary": "The article argues that \"provably safe AI,\" while not a complete solution to AI safety, offers near-term value. It uses the example of autonomous vehicles, suggesting that building upon existing formally verifiable systems and incorporating proven methods for assessing sensor and component reliability can create incrementally safer systems with provable guarantees, conditional on underlying models."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/zy2AECRAi8Nuu5XMk/time-complexity-for-deterministic-string-machines",
+    "author": "alcatal",
+    "title": "Time complexity for deterministic string machines",
+    "published_date": "2024-04-21",
+    "summary": "This paper introduces \"filtered transducers,\" operating on categories enriched over filtered sets, to address the lack of representation-independent complexity bounds in existing string machine frameworks. By restricting to finite state-space transducers, the authors prove constraints on time complexity growth and expressivity."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19",
+    "summary": "The article argues that applying formal verification to guarantee AI safety is currently impractical due to the inherent complexities of the real world and the limitations of translating real-world systems into formal models. The author expresses skepticism towards claims that formal verification can provide strong, near-term guarantees against major AI threats, pointing to the lack of such guarantees in existing real-world technologies."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.10197.pdf",
+    "title": "A Practitioner's Guide to MDP Model Checking Algorithms",
+    "published_date": "2023-01-24",
+    "abstract": "Model checking undiscounted reachability and expected-reward properties on Markov decision processes (MDPs) is key for the verification of systems that act under uncertainty. Popular algorithms are policy iteration and variants of value iteration; in tool competitions, most participants rely on the latter. These algorithms generally need worst-case exponential time. However the problem can equally be formulated as a linear program, solvable in polynomial time. In this paper, we give a detailed overview of today's state-of-the-art algorithms for MDP model checking with a focus on performance and correctness. We highlight their fundamental differences, and describe various optimisations and implementation variants. We experimentally compare floating-point and exact-arithmetic implementations of all algorithms on three benchmark sets using two probabilistic model checkers. Our results show that (optimistic) value iteration is a sensible default, but other algorithms are preferable in specific settings. This paper thereby provides a guide for MDP verification practitioners -- tool builders and users alike.",
+    "citation_count": 11,
+    "summary": "This paper reviews state-of-the-art algorithms for Markov Decision Process (MDP) model checking, comparing their performance and correctness through experiments with different implementations. It concludes that optimistic value iteration is a generally good choice, but other algorithms offer advantages in specific situations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ahDYwfKaPnNJSjtDL/safe-agi-complexity-guessing-a-higher-order-algebraic-number",
+    "author": "Sven Nilsen",
+    "title": "Safe AGI Complexity: Guessing a Higher-Order Algebraic Number",
+    "published_date": "2023-04-10",
+    "summary": "The article uses radical extensions of rational numbers as a mathematical analogy for AGI safety, arguing that ensuring safe, long-term AGI behavior is akin to predicting a higher-order algebraic number, a task of immense complexity due to the potential for seemingly safe outputs to ultimately become unsafe. This analogy highlights the difficulty of guaranteeing AGI safety during training, as initial safe behavior doesn't guarantee future safety."
+  },
+  {
+    "title": "Sequential and Parallel Tools for Model Checking Conditional Stable Properties in a Layered Way",
+    "abstract": "We invented a divide & conquer approach to conditional stable model checking so as to ease the state space explosion problem. As indicated by its name, the technique concentrates on conditional stable properties expressed as <inline-formula> <tex-math notation=\"LaTeX\">$\\varphi _{1} \\leadsto \\Box \\varphi _{2}$ </tex-math></inline-formula>, where <inline-formula> <tex-math notation=\"LaTeX\">$\\varphi _{1}$ </tex-math></inline-formula> and <inline-formula> <tex-math notation=\"LaTeX\">$\\varphi _{2}$ </tex-math></inline-formula> are state propositions. The properties can be used to formalize desired properties that self-stabilizing systems should satisfy. Self-stabilization in distributed systems was first introduced by Dijkstra and became a very crucial concept in fault tolerance to design robust systems. However, designing self-stabilizing systems need much more effort than non-stabilizing ones because the former are subject to transient errors at any time. Therefore, it is worth dedicating to conditional stable properties. In this paper, we report a sequential tool and a parallel technique/tool for the divide & conquer approach to conditional stable model checking. Some experiments are also conducted showing that our sequential and parallel tools can ease the state space explosion and improve the running performance of model checking for conditional stable properties to a certain scope, respectively.",
+    "published_date": "2022-01-01",
+    "citation_count": 2,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09992236.pdf",
+    "summary": "This paper presents sequential and parallel tools for model checking conditional stable properties, employing a divide-and-conquer approach to mitigate state space explosion in verifying self-stabilizing systems. Experimental results demonstrate improved performance compared to traditional model checking methods."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jtMXj24Masrnq3SpS/logical-induction-for-software-engineers",
+    "author": "Alex Flint",
+    "title": "Logical induction for software engineers",
+    "published_date": "2022-12-03",
+    "summary": "This article explains logical induction, a computable theory for quantifying and updating uncertainty about the world, even with contradictory or self-referential information. Unlike probability theory, logical induction guarantees consistent, unbiased credence updates over time, though its algorithm is computationally expensive."
+  }
+]

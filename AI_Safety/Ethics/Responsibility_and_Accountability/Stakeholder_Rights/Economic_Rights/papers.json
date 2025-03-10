@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2404.13964",
+    "title": "An Economic Solution to Copyright Challenges of Generative AI",
+    "published_date": "2024-04-22",
+    "abstract": "Generative artificial intelligence (AI) systems are trained on large data corpora to generate new pieces of text, images, videos, and other media. There is growing concern that such systems may infringe on the copyright interests of training data contributors. To address the copyright challenges of generative AI, we propose a framework that compensates copyright owners proportionally to their contributions to the creation of AI-generated content. The metric for contributions is quantitatively determined by leveraging the probabilistic nature of modern generative AI models and using techniques from cooperative game theory in economics. This framework enables a platform where AI developers benefit from access to high-quality training data, thus improving model performance. Meanwhile, copyright owners receive fair compensation, driving the continued provision of relevant data for generative model training. Experiments demonstrate that our framework successfully identifies the most relevant data sources used in artwork generation, ensuring a fair and interpretable distribution of revenues among copyright owners.",
+    "citation_count": 8,
+    "summary": "This paper proposes an economic framework for compensating copyright holders whose data trains generative AI models, using a game-theoretic approach to proportionally distribute revenue based on each contributor's contribution to the generated content. This framework aims to balance the needs of AI developers and copyright owners, fostering innovation while ensuring fair compensation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.17626",
+    "title": "Recognizing Lawyers as AI Creators and Intermediaries in Contestability",
+    "published_date": "2024-09-26",
+    "abstract": "Laws play a key role in the complex socio-technical system impacting contestability: they create the regulations shaping the way AI systems are designed, evaluated, and used. Despite their role in the AI value chain, lawyers' impact on contestability has gone largely unrecognized in the design of AI systems. In this paper, we highlight two main roles lawyers play that impact contestability: (1) as AI Creators because the regulations they create shape the design and evaluation of AI systems before they are deployed; and (2) as Intermediaries because they interpret regulations when harm occurs, navigating the gap between stakeholders, instutions, and harmful outcomes. We use these two roles to illuminate new opportunities and challenges for including lawyers in the design of AI systems, contributing a significant first step in practical recommendations to amplify the power to contest systems through cross-disciplinary design.",
+    "summary": "Lawyers significantly influence AI system contestability by shaping AI design through regulation (as creators) and mediating disputes arising from harm (as intermediaries). This paper identifies these roles and proposes including lawyers in AI system design to enhance contestability."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.17114",
+    "title": "Decentralized Governance of Autonomous AI Agents",
+    "published_date": "2024-12-22",
+    "abstract": "Autonomous AI agents present transformative opportunities and significant governance challenges. Existing frameworks, such as the EU AI Act and the NIST AI Risk Management Framework, fall short of addressing the complexities of these agents, which are capable of independent decision-making, learning, and adaptation. To bridge these gaps, we propose the ETHOS (Ethical Technology and Holistic Oversight System) framework, a decentralized governance (DeGov) model leveraging Web3 technologies, including blockchain, smart contracts, and decentralized autonomous organizations (DAOs). ETHOS establishes a global registry for AI agents, enabling dynamic risk classification, proportional oversight, and automated compliance monitoring through tools like soulbound tokens and zero-knowledge proofs. Furthermore, the framework incorporates decentralized justice systems for transparent dispute resolution and introduces AI specific legal entities to manage limited liability, supported by mandatory insurance to ensure financial accountability and incentivize ethical design. By integrating philosophical principles of rationality, ethical grounding, and goal alignment, ETHOS aims to create a robust research agenda for promoting trust, transparency, and participatory governance. This innovative framework offers a scalable and inclusive strategy for regulating AI agents, balancing innovation with ethical responsibility to meet the demands of an AI-driven future.",
+    "summary": "The ETHOS framework proposes a decentralized governance model for autonomous AI agents using Web3 technologies, aiming to address limitations of existing frameworks by establishing a global registry, dynamic risk classification, and decentralized justice systems for transparent oversight and accountability. This approach leverages blockchain, smart contracts, and DAOs to promote ethical AI development and deployment."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to computing resources used for AI development, is a promising but underdeveloped AI safety strategy. While current measures are limited, proposed approaches aim to improve visibility into AI development, allocate compute resources strategically, and enforce regulations through technical and policy mechanisms."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/vzGC4zh73dfcqnFgf/open-source-ai-a-regulatory-review",
+    "author": "Elliot_Mckernon, Deric Cheng",
+    "title": "Open-Source AI: A Regulatory Review",
+    "published_date": "2024-04-29",
+    "summary": "This article examines the implications of open-sourcing AI models, focusing on the trade-offs between fostering collaboration and potentially increasing risks from misuse of powerful, easily accessible models lacking built-in safety safeguards. The authors highlight the varying degrees of openness (e.g., open weights vs. fully open-source) and discuss the challenges of mitigating information hazards associated with releasing powerful AI models."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.02561",
+    "title": "Beneficence Signaling in AI Development Dynamics",
+    "published_date": "2023-05-04",
+    "abstract": "This paper motivates and develops a framework for understanding how the socio-technical systems surrounding AI development interact with social welfare. It introduces the concept of ``signaling'' from evolutionary game theory and demonstrates how it can enhance existing theory and practice surrounding the evaluation and governance of AI systems.",
+    "summary": "This paper proposes a framework using \"signaling\" from game theory to analyze how socio-technical AI development systems impact social welfare, improving existing AI evaluation and governance. It explores how these systems interact with and signal their commitment to beneficial outcomes."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.11996",
+    "title": "Toward Responsible AI Use: Considerations for Sustainability Impact Assessment",
+    "published_date": "2023-12-19",
+    "abstract": "As AI/ML models, including Large Language Models, continue to scale with massive datasets, so does their consumption of undeniably limited natural resources, and impact on society. In this collaboration between AI, Sustainability, HCI and legal researchers, we aim to enable a transition to sustainable AI development by enabling stakeholders across the AI value chain to assess and quantitfy the environmental and societal impact of AI. We present the ESG Digital and Green Index (DGI), which offers a dashboard for assessing a company's performance in achieving sustainability targets. This includes monitoring the efficiency and sustainable use of limited natural resources related to AI technologies (water, electricity, etc). It also addresses the societal and governance challenges related to AI. The DGI creates incentives for companies to align their pathway with the Sustainable Development Goals (SDGs). The value, challenges and limitations of our methodology and findings are discussed in the paper.",
+    "summary": "This paper proposes the ESG Digital and Green Index (DGI), a dashboard designed to assess and quantify the environmental and societal impact of AI technologies, promoting sustainable AI development by incentivizing companies to align with Sustainable Development Goals. The DGI monitors resource consumption and addresses societal and governance challenges related to AI."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.02667",
+    "title": "A Human Rights-Based Approach to Responsible AI",
+    "published_date": "2022-10-06",
+    "abstract": "Research on fairness, accountability, transparency and ethics of AI-based interventions in society has gained much-needed momen-tum in recent years. However it lacks an explicit alignment with a set of normative values and principles that guide this research and interventions. Rather, an implicit consensus is often assumed to hold for the values we impart into our models – something that is at odds with the pluralistic world we live in. In this paper, we put forth the doctrine of universal human rights as a set of globally salient and cross-culturally recognized set of values that can serve as a grounding framework for explicit value alignment in responsible AI – and discuss its eﬃcacy as a framework for civil society partnership and participation. We argue that a human rights framework orients the research in this space away from the machines and the risks of their biases, and towards humans and the risks to their rights, essentially helping to center the conversation around who is harmed, what harms they face, and how those harms may be mitigated.",
+    "citation_count": 30,
+    "summary": "This paper proposes a human rights framework as a foundational principle for responsible AI development, arguing that prioritizing human rights—and the potential harms to them—over technical concerns ensures more equitable and ethical AI systems. This framework facilitates civil society engagement and mitigates AI biases by centering the conversation on affected individuals."
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2404.13060",
+    "title": "The Necessity of AI Audit Standards Boards",
+    "published_date": "2024-04-11",
+    "abstract": "Auditing of AI systems is a promising way to understand and manage ethical problems and societal risks associated with contemporary AI systems, as well as some anticipated future risks. Efforts to develop standards for auditing Artificial Intelligence (AI) systems have therefore understandably gained momentum. However, we argue that creating auditing standards is not just insufficient, but actively harmful by proliferating unheeded and inconsistent standards, especially in light of the rapid evolution and ethical and safety challenges of AI. Instead, the paper proposes the establishment of an AI Audit Standards Board, responsible for developing and updating auditing methods and standards in line with the evolving nature of AI technologies. Such a body would ensure that auditing practices remain relevant, robust, and responsive to the rapid advancements in AI. The paper argues that such a governance structure would also be helpful for maintaining public trust in AI and for promoting a culture of safety and ethical responsibility within the AI industry. Throughout the paper, we draw parallels with other industries, including safety-critical industries like aviation and nuclear energy, as well as more prosaic ones such as financial accounting and pharmaceuticals. AI auditing should emulate those fields, and extend beyond technical assessments to include ethical considerations and stakeholder engagement, but we explain that this is not enough; emulating other fields' governance mechanisms for these processes, and for audit standards creation, is a necessity. We also emphasize the importance of auditing the entire development process of AI systems, not just the final products...",
+    "citation_count": 3,
+    "summary": "The paper argues that the proliferation of inconsistent AI auditing standards is harmful and proposes the creation of an AI Audit Standards Board to develop and update unified, robust auditing methods encompassing ethical considerations and stakeholder engagement, mirroring successful governance models in other industries. This centralized approach would ensure relevance, promote public trust, and foster a culture of safety and ethical responsibility in AI development."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.17861",
+    "title": "Towards AI Accountability Infrastructure: Gaps and Opportunities in AI Audit Tooling",
+    "published_date": "2024-02-27",
+    "abstract": "Audits are critical mechanisms for identifying the risks and limitations of deployed artificial intelligence (AI) systems. However, the effective execution of AI audits remains incredibly difficult. As a result, practitioners make use of various tools to support their efforts. Drawing on interviews with 35 AI audit practitioners and a landscape analysis of 390 tools, we map the current ecosystem of available AI audit tools. While there are many tools designed to assist practitioners with setting standards and evaluating AI systems, these tools often fell short of supporting the accountability goals of AI auditing in practice. We thus highlight areas for future tool development beyond evaluation -- from harms discovery to advocacy -- and outline challenges practitioners faced in their efforts to use AI audit tools. We conclude that resources are lacking to adequately support the full scope of needs for many AI audit practitioners and recommend that the field move beyond tools for just evaluation, towards more comprehensive infrastructure for AI accountability.",
+    "citation_count": 15,
+    "summary": "This paper analyzes the current landscape of AI audit tools, revealing a gap between existing tools focused on evaluation and the broader accountability needs of AI auditing practice. The authors identify opportunities for tool development encompassing harms discovery and advocacy, highlighting the need for a more comprehensive accountability infrastructure."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), focusing particularly on short timelines (within a decade). The program aims to evaluate strategies for AI safety and governance across these scenarios to mitigate existential risks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, examines AI model registries—centralized databases tracking AI systems for governance purposes. These registries, varying widely in implementation across countries like the US and China, allow governments to monitor AI development and inform targeted regulations, drawing parallels to existing product registration systems like those for pharmaceuticals."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The article advocates for third-party testing of large-scale AI systems to mitigate societal harms, arguing that such a regime, involving industry, government, and academia, is crucial for managing the risks of powerful AI models while fostering beneficial deployment. This approach aims to build trust, avoid overly burdensome regulation, and facilitate international cooperation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/gJJEjJpKiddoYGZKk/the-evals-gap",
+    "author": "Marius Hobbhahn",
+    "title": "The Evals Gap",
+    "published_date": "2024-11-11",
+    "summary": "The article highlights a significant \"evals gap\"—an insufficient number and quality of safety evaluations for frontier AI models— hindering robust assessments of AI capabilities. This gap undermines high-stakes decisions in both governmental and corporate AI governance frameworks that rely on these evaluations."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.00044",
+    "title": "Advancing AI Audits for Enhanced AI Governance",
+    "published_date": "2023-11-26",
+    "abstract": "As artificial intelligence (AI) is integrated into various services and systems in society, many companies and organizations have proposed AI principles, policies, and made the related commitments. Conversely, some have proposed the need for independent audits, arguing that the voluntary principles adopted by the developers and providers of AI services and systems insufficiently address risk. This policy recommendation summarizes the issues related to the auditing of AI services and systems and presents three recommendations for promoting AI auditing that contribute to sound AI governance. Recommendation1.Development of institutional design for AI audits. Recommendation2.Training human resources for AI audits. Recommendation3. Updating AI audits in accordance with technological progress. In this policy recommendation, AI is assumed to be that which recognizes and predicts data with the last chapter outlining how generative AI should be audited.",
+    "summary": "This policy recommendation advocates for enhanced AI governance through independent audits, proposing the development of institutional frameworks, training programs for auditors, and mechanisms to adapt auditing practices to evolving AI technologies, including generative AI."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that effective solutions require integrating diverse fields like cognitive science, social sciences, and engineering, and prioritizing the design of \"civilizational intelligence\" over purely technical fixes. This approach emphasizes pragmatism and the use of multiple theoretical frameworks to evaluate AI alignment paradigms and architectures."
+  }
+]

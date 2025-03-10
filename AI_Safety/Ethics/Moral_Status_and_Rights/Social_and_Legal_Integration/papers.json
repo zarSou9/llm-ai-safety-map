@@ -1,0 +1,76 @@
+[
+  {
+    "title": "AI as a Legal Person",
+    "abstract": "The idea of the legal personhood of artificial intelligence (AI) --- the idea that intelligent agents can have rights and incur obligations under the law--- is controversial, and in fact is often dismissed out of hand: in this paper I will argue that, on the contrary, such legal personhood may be the next big challenge for our legal systems, and we need it to deal with the new kinds of complexity introduced by AI. Furthermore, I argue that we already have experiences we can look: to this end we can draw on the reasoning applied to the legal personhood recognized for corporations and other nonhuman entities. In order to do this, I address some of the criticisms against ascribing legal personhood to AI. I also look at the Canadian and EU ethical guidelines so as to keep the development of AI within the framework of human values, and I show that an ascription of legal personhood to AI is consistent with them. I also address a few of the big issues involved in making the legal personhood of AI a reality.",
+    "published_date": "2019-06-17",
+    "citation_count": 7,
+    "url": "https://dl.acm.org/doi/10.1145/3322640.3326701",
+    "summary": "This paper argues that granting legal personhood to artificial intelligence is a necessary development to manage the complexities AI introduces, drawing parallels to the legal personhood already afforded to corporations and other non-human entities while addressing potential criticisms and ethical concerns. The author supports this position by referencing existing ethical guidelines and exploring practical implementation issues."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/machine-ethics",
+    "title": "Machine Ethics - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Machine ethics seeks to create Artificial Moral Agents (AMAs) capable of morally sound decision-making, a complex challenge currently limited to simple AI systems despite the urgent need to address potential issues arising from future superintelligence. While early attempts like Asimov's Three Laws highlighted inherent difficulties, ongoing research explores various moral philosophies and programming techniques to develop ethically sensitive AI."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.01818",
+    "title": "Hybrid Approaches for Moral Value Alignment in AI Agents: a Manifesto",
+    "published_date": "2023-12-04",
+    "abstract": "Increasing interest in ensuring the safety of next-generation Artificial Intelligence (AI) systems calls for novel approaches to embedding morality into autonomous agents. This goal differs qualitatively from traditional task-specific AI methodologies. In this paper, we provide a systematization of existing approaches to the problem of introducing morality in machines - modelled as a continuum. Our analysis suggests that popular techniques lie at the extremes of this continuum - either being fully hard-coded into top-down, explicit rules, or entirely learned in a bottom-up, implicit fashion with no direct statement of any moral principle (this includes learning from human feedback, as applied to the training and finetuning of large language models, or LLMs). Given the relative strengths and weaknesses of each type of methodology, we argue that more hybrid solutions are needed to create adaptable and robust, yet controllable and interpretable agentic systems. To that end, this paper discusses both the ethical foundations (including deontology, consequentialism and virtue ethics) and implementations of morally aligned AI systems. We present a series of case studies that rely on intrinsic rewards, moral constraints or textual instructions, applied to either pure-Reinforcement Learning or LLM-based agents. By analysing these diverse implementations under one framework, we compare their relative strengths and shortcomings in developing morally aligned AI systems. We then discuss strategies for evaluating the effectiveness of moral learning agents. Finally, we present open research questions and implications for the future of AI safety and ethics which are emerging from this hybrid framework.",
+    "citation_count": 3,
+    "summary": "This paper argues that hybrid approaches, combining explicit moral rules with implicit learning from data, are necessary for creating safe and robust morally aligned AI agents, advocating for a move beyond purely rule-based or purely learning-based methods. The authors present a framework for analyzing existing approaches and suggest future research directions for evaluating and improving moral alignment in AI."
+  },
+  {
+    "url": "https://arxiv.org/abs/2110.07574",
+    "title": "CAN MACHINES LEARN MORALITY? THE DELPHI EXPERIMENT",
+    "published_date": "2023-02-06",
+    "abstract": "As AI systems become increasingly powerful and pervasive, there are growing concerns about machines' morality or a lack thereof. Yet, teaching morality to machines is a formidable task, as morality remains among the most intensely debated questions in humanity, let alone for AI. Existing AI systems deployed to millions of users, however, are already making decisions loaded with moral implications, which poses a seemingly impossible challenge: teaching machines moral sense, while humanity continues to grapple with it.\r\n\r\nTo explore this challenge, we introduce Delphi, an experimental framework based on deep neural networks trained directly to reason about descriptive ethical judgments, e.g., “helping a friend” is generally good, while “helping a friend spread fake news” is not. Empirical results shed novel insights on the promises and limits of machine ethics; Delphi demonstrates strong generalization capabilities in the face of novel ethical situations, while off-the-shelf neural network models exhibit markedly poor judgment including unjust biases, confirming the need for explicitly teaching machines moral sense.\r\n\r\nYet, Delphi is not perfect, exhibiting susceptibility to pervasive biases and inconsistencies. Despite that, we demonstrate positive use cases of imperfect Delphi, including using it as a component model within other imperfect AI systems. Importantly, we interpret the operationalization of Delphi in light of prominent ethical theories, which leads us to important future research questions.",
+    "citation_count": 93,
+    "summary": "The Delphi experiment trains deep neural networks to reason about ethical judgments, revealing both promising generalization capabilities and persistent biases in machine ethics. This highlights the challenges and potential of teaching morality to AI, even with imperfect models."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a novel framework for building ethically aligned AI by incorporating ethical principles as Bayesian priors into AI learning processes. This approach aims to guide AI decision-making with ethical considerations, similar to how human moral intuitions influence human behavior."
+  },
+  {
+    "url": "https://arxiv.org/abs/2110.14419v2",
+    "title": "Toward a Theory of Justice for Artificial Intelligence",
+    "published_date": "2021-10-27",
+    "abstract": "Abstract This essay explores the relationship between artificial intelligence and principles of distributive justice. Drawing upon the political philosophy of John Rawls, it holds that the basic structure of society should be understood as a composite of sociotechnical systems, and that the operation of these systems is increasingly shaped and influenced by AI. Consequently, egalitarian norms of justice apply to the technology when it is deployed in these contexts. These norms entail that the relevant AI systems must meet a certain standard of public justification, support citizens' rights, and promote substantively fair outcomes, something that requires particular attention to the impact they have on the worst-off members of society.",
+    "citation_count": 40,
+    "summary": "This essay argues that distributive justice principles, particularly Rawls's theory, should govern the design and implementation of artificial intelligence systems, ensuring fair outcomes and protecting the rights of all, especially the most disadvantaged. AI's increasing influence on societal structures necessitates its evaluation through an egalitarian lens demanding public justification and equitable impact."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/LdH9w67W6jQaoBm2T/internet-encyclopedia-of-philosophy-on-ethics-of-artificial",
+    "author": "Kaj_Sotala",
+    "title": "Internet Encyclopedia of Philosophy on Ethics of Artificial Intelligence",
+    "published_date": "2021-02-20",
+    "summary": "The article explores the ethical implications of artificial intelligence, including the potential for machine bias, opacity, and the development of conscious machines. A key focus is the debated concept of technological singularity—an intelligence explosion leading to superintelligent AI—and the existential risks and value-alignment challenges it poses for humanity."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization",
+    "published_date": "2021-06-04",
+    "summary": "This article examines the application of game theory to AI development within organizational structures, highlighting the limitations of a purely game-theoretic approach and advocating for a model that integrates game theory with principles of bureaucracy and organizational behavior to effectively manage human-AI collaboration in complex problem-solving. The integration considers both hierarchical and horizontal power dynamics for efficient goal achievement."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/ethics-and-morality",
+    "author": "Wei Dai",
+    "title": "Ethics & Morality - AI Alignment Forum",
+    "published_date": "2021-12-02",
+    "summary": "The article is a directory of discussions related to ethics and morality, including various philosophical viewpoints and thought experiments. It links to related articles on consequentialism, deontology, metaethics, and moral uncertainty."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2008.02275.pdf",
+    "title": "Aligning AI With Shared Human Values",
+    "published_date": "2020-08-05",
+    "abstract": "We show how to assess a language model's knowledge of basic concepts of morality. We introduce the ETHICS dataset, a new benchmark that spans concepts in justice, well-being, duties, virtues, and commonsense morality. Models predict widespread moral judgments about diverse text scenarios. This requires connecting physical and social world knowledge to value judgements, a capability that may enable us to steer chatbot outputs or eventually regularize open-ended reinforcement learning agents. With the ETHICS dataset, we find that current language models have a promising but incomplete understanding of basic ethical knowledge. Our work shows that progress can be made on machine ethics today, and it provides a steppingstone toward AI that is aligned with human values.",
+    "citation_count": 443,
+    "summary": "The ETHICS dataset assesses language models' understanding of moral concepts across various ethical frameworks, revealing promising but incomplete knowledge and paving the way for AI alignment with human values. This benchmark allows for the evaluation of models' ability to connect factual knowledge with moral judgments."
+  }
+]

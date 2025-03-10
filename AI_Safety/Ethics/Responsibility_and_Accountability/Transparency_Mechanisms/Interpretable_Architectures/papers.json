@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2310.01405",
+    "title": "Representation Engineering: A Top-Down Approach to AI Transparency",
+    "published_date": "2023-10-02",
+    "abstract": "In this paper, we identify and characterize the emerging area of representation engineering (RepE), an approach to enhancing the transparency of AI systems that draws on insights from cognitive neuroscience. RepE places population-level representations, rather than neurons or circuits, at the center of analysis, equipping us with novel methods for monitoring and manipulating high-level cognitive phenomena in deep neural networks (DNNs). We provide baselines and an initial analysis of RepE techniques, showing that they offer simple yet effective solutions for improving our understanding and control of large language models. We showcase how these methods can provide traction on a wide range of safety-relevant problems, including honesty, harmlessness, power-seeking, and more, demonstrating the promise of top-down transparency research. We hope that this work catalyzes further exploration of RepE and fosters advancements in the transparency and safety of AI systems.",
+    "citation_count": 264,
+    "summary": "Representation engineering (RepE) is a new approach to improving AI transparency by analyzing population-level representations in neural networks, offering effective methods for understanding and controlling large language models and addressing safety concerns like honesty and harmlessness. This top-down approach leverages insights from cognitive neuroscience to enhance the interpretability and safety of AI systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.07452",
+    "title": "Explainable Boosting Machines with Sparsity - Maintaining Explainability in High-Dimensional Settings",
+    "published_date": "2023-11-13",
+    "abstract": "Compared to\"black-box\"models, like random forests and deep neural networks, explainable boosting machines (EBMs) are considered\"glass-box\"models that can be competitively accurate while also maintaining a higher degree of transparency and explainability. However, EBMs become readily less transparent and harder to interpret in high-dimensional settings with many predictor variables; they also become more difficult to use in production due to increases in scoring time. We propose a simple solution based on the least absolute shrinkage and selection operator (LASSO) that can help introduce sparsity by reweighting the individual model terms and removing the less relevant ones, thereby allowing these models to maintain their transparency and relatively fast scoring times in higher-dimensional settings. In short, post-processing a fitted EBM with many (i.e., possibly hundreds or thousands) of terms using the LASSO can help reduce the model's complexity and drastically improve scoring time. We illustrate the basic idea using two real-world examples with code.",
+    "citation_count": 1,
+    "summary": "Explainable Boosting Machines (EBMs) lose transparency in high-dimensional data, but applying LASSO post-processing introduces sparsity, improving interpretability and scoring speed by removing less relevant terms. This method maintains the EBM's \"glass-box\" nature while enhancing efficiency in high-dimensional settings."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.04709.pdf",
+    "title": "Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability",
+    "published_date": "2023-01-11",
+    "abstract": "Causal abstraction provides a theoretical foundation for mechanistic interpretability, the field concerned with providing intelligible algorithms that are faithful simplifications of the known, but opaque low-level details of black box AI models. Our contributions are (1) generalizing the theory of causal abstraction from mechanism replacement (i.e., hard and soft interventions) to arbitrary mechanism transformation (i.e., functionals from old mechanisms to new mechanisms), (2) providing a flexible, yet precise formalization for the core concepts of modular features, polysemantic neurons, and graded faithfulness, and (3) unifying a variety of mechanistic interpretability methodologies in the common language of causal abstraction, namely activation and path patching, causal mediation analysis, causal scrubbing, causal tracing, circuit analysis, concept erasure, sparse autoencoders, differential binary masking, distributed alignment search, and activation steering.",
+    "citation_count": 39,
+    "summary": "The paper introduces causal abstraction as a unifying theoretical framework for mechanistic interpretability, formalizing key concepts and encompassing diverse methodologies for understanding the internal workings of black-box AI models by transforming their mechanisms. This framework generalizes beyond simple mechanism replacement to encompass arbitrary transformations."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.10644.pdf",
+    "title": "Robin: A Novel Method to Produce Robust Interpreters for Deep Learning-Based Code Classifiers",
+    "published_date": "2023-09-11",
+    "abstract": "Deep learning has been widely used in source code classification tasks, such as code classification according to their functionalities, code authorship attribution, and vulnerability detection. Unfortunately, the black-box nature of deep learning makes it hard to interpret and understand why a classifier (i.e., classification model) makes a particular prediction on a given example. This lack of interpretability (or explainability) might have hindered their adoption by practitioners because it is not clear when they should or should not trust a classifier's prediction. The lack of interpretability has motivated a number of studies in recent years. However, existing methods are neither robust nor able to cope with out-of-distribution examples. In this paper, we propose a novel method to produce Robust interpreters for a given deep learning-based code classifier; the method is dubbed Robin. The key idea behind Robin is a novel hybrid structure combining an interpreter and two approximators, while leveraging the ideas of adversarial training and data augmentation. Experimental results show that on average the interpreter produced by Robin achieves a 6.11% higher fidelity (evaluated on the classifier), 67.22% higher fidelity (evaluated on the approximator), and 15.87x higher robustness than that of the three existing interpreters we evaluated. Moreover, the interpreter is 47.31% less affected by out-of-distribution examples than that of LEMNA.",
+    "summary": "Robin is a novel method for creating robust and interpretable deep learning-based code classifiers, addressing the limitations of existing approaches by using a hybrid structure with adversarial training and data augmentation to achieve significantly higher fidelity and robustness, especially against out-of-distribution examples."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/iaJFJ5Qm29ixtrWsn/sparse-coding-for-mechanistic-interpretability-and",
+    "author": "David Udell",
+    "title": "Sparse Coding, for Mechanistic Interpretability and Activation Engineering",
+    "published_date": "2023-09-23",
+    "summary": "To interpret the internal representations of large language models, the author trains a sparse autoencoder on a layer's activations. The resulting autoencoder's neurons then provide interpretable representations of the model's internal concepts."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/sTe78dNJDGywu9Dz6/solving-the-mechanistic-interpretability-challenges-eis-vii",
+    "author": "StefanHex, Marius Hobbhahn",
+    "title": "Solving the Mechanistic Interpretability challenges: EIS VII Challenge 1",
+    "published_date": "2023-05-09",
+    "summary": "Researchers solved a machine learning interpretability challenge by reverse-engineering a CNN trained on a binary classification of MNIST digits. They determined the model classified images based on their similarity to a \"1\" template versus its inverse, using a simple dot-product similarity measure."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/interpretability-ml-and-ai",
+    "author": "Lee Sharkey, Dan Braun, Beren Millidge",
+    "title": "Interpretability (ML & AI) - AI Alignment Forum",
+    "published_date": "2023-04-30",
+    "summary": "AI interpretability focuses on making the decision-making processes of machine learning models understandable, a crucial aspect currently lacking in many systems, hindering bias detection and understanding. Mechanistic interpretability, a key subfield, seeks to understand how neural networks function internally, unlike methods focusing on attributing outputs to specific inputs."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ExRN5Bu3696cf9Ccm/the-engineer-s-interpretability-sequence-eis-i-intro",
+    "author": "scasper",
+    "title": "The Engineer's Interpretability Sequence (EIS) I: Intro",
+    "published_date": "2023-02-09",
+    "summary": "Despite growing interest and research in AI interpretability, a significant gap exists between academic work and practical engineering applications for AI safety. This series will argue that current interpretability research is insufficiently productive for addressing the core engineering challenges of aligning advanced AI systems."
+  }
+]

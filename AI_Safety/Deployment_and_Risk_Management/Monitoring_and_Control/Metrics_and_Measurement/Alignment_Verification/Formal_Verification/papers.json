@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.18798",
+    "title": "Formal Verification of Digital Twins with TLA and Information Leakage Control",
+    "published_date": "2024-11-27",
+    "abstract": "Verifying the correctness of a digital twin provides a formal guarantee that the digital twin operates as intended. Digital twin verification is challenging due to the presence of uncertainties in the virtual representation, the physical environment, and the bidirectional flow of information between physical and virtual. A further challenge is that a digital twin of a complex system is composed of distributed components. This paper presents a methodology to specify and verify digital twin behavior, translating uncertain processes into a formally verifiable finite state machine. We use the Temporal Logic of Actions (TLA) to create a specification, an implementation abstraction that defines the properties required for correct system behavior. Our approach includes a novel weakening of formal security properties, allowing controlled information leakage while preserving theoretical guarantees. We demonstrate this approach on a digital twin of an unmanned aerial vehicle, verifying synchronization of physical-to-virtual and virtual-to-digital data flows to detect unintended misalignments."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.07340",
+    "title": "Formally Verified Approximate Policy Iteration",
+    "published_date": "2024-06-11",
+    "abstract": "We formally verify an algorithm for approximate policy iteration on Factored Markov Decision Processes using the interactive theorem prover Isabelle/HOL. Next, we show how the formalized algorithm can be refined to an executable, verified implementation. The implementation is evaluated on benchmark problems to show its practicability. As part of the refinement, we develop verified software to certify Linear Programming solutions. The algorithm builds on a diverse library of formalized mathematics and pushes existing methodologies for interactive theorem provers to the limits. We discuss the process of the verification project and the modifications to the algorithm needed for formal verification."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.09347.pdf",
+    "title": "Verified reductions for optimization",
+    "published_date": "2023-01-23",
+    "abstract": "Numerical and symbolic methods for optimization are used extensively in engineering, industry, and finance. Various methods are used to reduce problems of interest to ones that are amenable to solution by such software. We develop a framework for designing and applying such reductions, using the Lean programming language and interactive proof assistant. Formal verification makes the process more reliable, and the availability of an interactive framework and ambient mathematical library provides a robust environment for constructing the reductions and reasoning about them.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.02206.pdf",
+    "title": "Lessons from Formally Verified Deployed Software Systems (Extended version)",
+    "published_date": "2023-01-05",
+    "abstract": "The technology of formal software verification has made spectacular advances, but how much does it actually benefit the development of practical software? Considerable disagreement remains about the practicality of building systems with mechanically-checked proofs of correctness. Is this prospect confined to a few expensive, life-critical projects, or can the idea be applied to a wide segment of the software industry? To help answer this question, the present survey examines a range of projects, in various application areas, that have produced formally verified systems and deployed them for actual use. It considers the technologies used, the form of verification applied, the results obtained, and the lessons that the software industry should draw regarding its ability to benefit from formal verification techniques and tools. Note: this version is the extended article, covering all the systems identified as relevant. A shorter version, covering only a selection, is also available."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.06807.pdf",
+    "title": "Verified Optimization",
+    "published_date": "2021-11-12",
+    "abstract": "Optimization is used extensively in engineering, industry, and finance, and various methods are used to transform problems to the point where they are amenable to solution by numerical methods. We describe progress towards developing a framework, based on the Lean interactive proof assistant, for designing and applying such reductions in reliable and flexible ways."
+  },
+  {
+    "url": "https://arxiv.org/abs/2012.01557",
+    "title": "Value Alignment Verification",
+    "published_date": "2020-12-02",
+    "abstract": "As humans interact with autonomous agents to perform increasingly complicated, potentially risky tasks, it is important that humans can verify these agents' trustworthiness and efficiently evaluate their performance and correctness. In this paper we formalize the problem of value alignment verification: how to efficiently test whether the goals and behavior of another agent are aligned with a human's values? We explore several different value alignment verification settings and provide foundational theory regarding value alignment verification. We study alignment verification problems with an idealized human that has an explicit reward function as well as value alignment verification problems where the human has implicit values. Our theoretical and empirical results in both a discrete grid navigation domain and a continuous autonomous driving domain demonstrate that it is possible to synthesize highly efficient and accurate value alignment verification tests for certifying the alignment of autonomous agents.",
+    "citation_count": 28
+  }
+]

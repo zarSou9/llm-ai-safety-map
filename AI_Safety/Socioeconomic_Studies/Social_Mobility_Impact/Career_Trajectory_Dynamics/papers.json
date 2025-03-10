@@ -1,0 +1,77 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/tag/careers",
+    "author": "Nora_Ammann, Lucas Teixeira, DusanDNesic",
+    "title": "Careers - AI Alignment Forum",
+    "published_date": "2024-04-09",
+    "summary": "The article contains content related to employment and career advancement. This could include job postings, career advice, or professional development resources."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/QzQQvGJYDeaDE4Cfg/talent-needs-of-technical-ai-safety-teams",
+    "author": "Yams; Carson Jones; McKennaFitzgerald; Ryan Kidd",
+    "title": "Talent Needs of Technical AI Safety Teams",
+    "published_date": "2024-05-24",
+    "summary": "This report synthesizes interviews with AI safety leaders to analyze current talent needs and identify three key researcher archetypes: Connectors (conceptual thinkers bridging theory and practice), Iterators (empirical researchers focused on efficient feedback loops), and Amplifiers (a category not fully detailed in this excerpt). The goal is to inform the development of the Monitoring and Assessment of the Talent Supply (MATS) program and guide future AI safety research."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/Zza9MNA7YtHkzAtit/stagewise-development-in-neural-networks",
+    "author": "Jesse Hoogland, Liam Carroll, Daniel Murfet",
+    "title": "Stagewise Development in Neural Networks",
+    "published_date": "2024-03-20",
+    "summary": "Research reveals that in-context learning in transformer models develops through distinct, interpretable stages identifiable by analyzing the geometry of the loss landscape. These stages, discovered using model-agnostic methods, show interpretable changes in model behavior and structure, such as the progression from learning bigrams to forming complex inductive circuits in language models."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.11942",
+    "title": "Skills or Degree? The Rise of Skill-Based Hiring for AI and Green Jobs",
+    "published_date": "2023-12-19",
+    "abstract": "Emerging professions in fields like Artificial Intelligence (AI) and sustainability (green jobs) are experiencing labour shortages as industry demand outpaces labour supply. In this context, our study aims to understand whether employers have begun focusing more on individual skills rather than formal qualifications in their recruitment processes. We analysed a large time-series dataset of approximately eleven million online job vacancies in the UK from 2018 to mid-2024, drawing on diverse literature on technological change and labour market signalling. Our findings provide evidence that employers have initiated\"skill-based hiring\"for AI roles, adopting more flexible hiring practices to expand the available talent pool. From 2018-2023, demand for AI roles grew by 21% as a proportion of all postings (and accelerated into 2024). Simultaneously, mentions of university education requirements for AI roles declined by 15%. Our regression analysis shows that university degrees have a significantly lower wage premium for both AI and green roles. In contrast, AI skills command a wage premium of 23%, exceeding the value of degrees up until the PhD-level (33%). In occupations with high demand for AI skills, the premium for skills is high, and the reward for degrees is relatively low. We recommend leveraging alternative skill-building formats such as apprenticeships, on-the-job training, MOOCs, vocational education and training, micro-certificates, and online bootcamps to fully utilise human capital and address talent shortages.",
+    "citation_count": 3,
+    "summary": "A study of UK job postings from 2018-2024 reveals a shift towards skills-based hiring in AI and green jobs, with declining emphasis on formal degrees and a significant wage premium for AI skills exceeding that of university education. This suggests that alternative skill-building pathways can effectively address talent shortages in these high-demand fields."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2304.10578.pdf",
+    "title": "Quantifying the Benefit of Artificial Intelligence for Scientific Research",
+    "published_date": "2023-04-17",
+    "abstract": "The ongoing artificial intelligence (AI) revolution has the potential to change almost every line of work. As AI capabilities continue to improve in accuracy, robustness, and reach, AI may outperform and even replace human experts across many valuable tasks. Despite enormous effort devoted to understanding the impact of AI on labor and the economy and AI's recent successes in accelerating scientific discovery and progress, we lack a systematic understanding of how AI advances may benefit scientific research across disciplines and fields. Here, drawing from the literature on the future of work and the science of science, we develop a measurement framework to estimate both the direct use of AI and the potential benefit of AI in scientific research, applying natural language processing techniques to 74.6 million publications and 7.1 million patents. We find that the use of AI in research is widespread throughout the sciences, growing especially rapidly since 2015, and papers that use AI exhibit a citation premium, more likely to be highly cited both within and outside their disciplines. Moreover, our analysis reveals considerable potential for AI to benefit numerous scientific fields, yet a notable disconnect exists between AI education and its research applications, highlighting a mismatch between the supply of AI expertise and its demand in research. Lastly, we examine demographic disparities in AI's benefits across scientific disciplines and find that disciplines with a higher proportion of women or Black scientists tend to be associated with less benefit, suggesting that AI's growing impact on research may further exacerbate existing inequalities in science. As the connection between AI and scientific research deepens, our findings may become increasingly important, with implications for the equity and sustainability of the research enterprise.",
+    "citation_count": 4,
+    "summary": "This study uses a novel framework and large-scale data analysis to quantify AI's growing impact on scientific research, revealing a citation advantage for AI-using papers but also highlighting disparities in AI's benefits across disciplines, potentially exacerbating existing inequalities."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.15988.pdf",
+    "title": "Ranking mobility and impact inequality in early academic careers",
+    "published_date": "2023-03-28",
+    "abstract": "Significance The mobility of researchers in impact rankings is widely considered an important indicator of opportunity because it describes upward movements within or across academic stratification. We find that the top- and bottom-ranked authors have the lowest impact ranking mobility, and that the overall mobility has increased in most disciplines over the last few decades, making it easier for a newcomer to establish themselves in the field. Furthermore, we find that the higher the impact inequality of a discipline, the lower its ranking mobility, a finding that is reminiscent of empirical observations made in the Social Sciences that wealth inequality and social mobility tend to be negatively correlated, and which has numerous implications for academic policymaking.",
+    "citation_count": 6,
+    "summary": "Researchers' impact ranking mobility, indicating career advancement, is lowest for top and bottom performers, yet overall mobility has increased recently. High impact inequality within a discipline correlates with lower ranking mobility, suggesting that greater inequality hinders career advancement."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and a long version, have been created to help machine learning researchers quickly assess their existing skills' relevance to AI safety research. These resources list organizations, researchers, key papers, and keywords to facilitate efficient interest evaluation."
+  },
+  {
+    "title": "Spatialising careership: towards a spatio-relational model of career development",
+    "abstract": "Abstract Career development theory is critical in understanding how individuals make transitions through education and the workplace. However, despite evidence of the importance of geographical place in shaping individual trajectories, limited theoretical work has focused on the topic. In this paper, the potential for the development of a theoretical framework of career development that explicitly addresses the role of place is explored. This paper starts by outlining the limited ways that place has been conceptualised in existing career development literature, and then explores potential developments utilising the theoretical tools from careership theory and the work of Pierre Bourdieu and integrating insights from contemporary spatial theorists. The paper finishes by drawing together a spatio-relational framework for career development which both encompasses insights from the existing literature and extends this work arguing that place is a salient dimension in career development to a much more significant extent than has been previously recognised.",
+    "published_date": "2022-12-12",
+    "citation_count": 4,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/01425692.2022.2153647",
+    "summary": "This paper argues that existing career development theories neglect the significant role of geographical location, proposing a novel spatio-relational framework that integrates careership theory, Bourdieu's work, and spatial theory to more comprehensively understand career trajectories. The framework emphasizes \"place\" as a crucial, under-recognized dimension in career development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zgJCSK5KdkiKDuuCw/the-tree-of-life-stanford-ai-alignment-theory-of-change",
+    "author": "Gabe M",
+    "title": "The Tree of Life: Stanford AI Alignment Theory of Change",
+    "published_date": "2022-07-02",
+    "summary": "This document outlines a plan to establish Stanford AI Alignment (SAIA), a student group focused on recruiting and training individuals for careers in AI alignment, governance, and related fields. The plan aims to improve upon existing efforts by expanding outreach and providing more structured support and opportunities for students."
+  },
+  {
+    "url": "https://arxiv.org/abs/2102.01648",
+    "title": "The Privatization of AI Research(-ers): Causes and Potential Consequences - From university-industry interaction to public research brain-drain?",
+    "published_date": "2021-02-02",
+    "abstract": "In this paper, we analyze the causes and discuss potential consequences of a perceived privatization of AI research, particularly the transition of AI researchers from academia to industry. We explore the scale of the phenomenon by quantifying transition flows between industry and academia, and providing a descriptive account and exploratory analysis of characteristics of industry transition. Here we find that industry researchers and those transitioning into industry produce more impactful research as measured by citations. Using a survival regression approach we identify mechanisms that trigger these university-industry transitions focusing on researcher characteristics, performance and research field as documented in bibliographic data. We find that, researchers working within the field of deep learning as well as those with higher average impact tend to transition into industry. These findings highlight the importance of strengthening academic research in public organizations within AI to balance a potential dominance of private companies and to maintain public supervision of the development and application of this technology.",
+    "citation_count": 20,
+    "summary": "This paper examines the increasing movement of AI researchers from academia to industry, finding that higher-impact researchers, especially those in deep learning, are more likely to transition. The authors warn of potential negative consequences for public oversight of AI development due to this \"brain drain\" and advocate for strengthening public AI research."
+  }
+]

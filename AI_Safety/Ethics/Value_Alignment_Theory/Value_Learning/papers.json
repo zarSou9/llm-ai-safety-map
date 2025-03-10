@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/s/4dHMdK5TLN6xcqtyc",
+    "author": "Rohin Shah",
+    "title": "Value Learning - AI Alignment Forum",
+    "published_date": "2018-10-29",
+    "summary": "This research sequence explores the viability of value learning as a method for aligning artificial intelligence. It investigates whether AI can successfully learn and adopt human values."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.14681",
+    "title": "Value Internalization: Learning and Generalizing from Social Reward",
+    "published_date": "2024-07-19",
+    "abstract": "Social rewards shape human behavior. During development, a caregiver guides a learner's behavior towards culturally aligned goals and values. How do these behaviors persist and generalize when the caregiver is no longer present, and the learner must continue autonomously? Here, we propose a model of value internalization where social feedback trains an internal social reward (ISR) model that generates internal rewards when social rewards are unavailable. Through empirical simulations, we show that an ISR model prevents agents from unlearning socialized behaviors and enables generalization in out-of-distribution tasks. We characterize the implications of incomplete internalization, akin to\"reward hacking\"on the ISR. Additionally, we show that our model internalizes prosocial behavior in a multi-agent environment. Our work provides a foundation for understanding how humans acquire and generalize values and offers insights for aligning AI with human values.",
+    "citation_count": 1,
+    "summary": "This paper proposes a model of value internalization where social feedback trains an internal social reward (ISR) model, allowing agents to maintain and generalize learned behaviors even without external social rewards. The model demonstrates the persistence of socialized behaviors and explores the implications of incomplete internalization, offering insights into human value acquisition and AI alignment."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.19198",
+    "title": "MAP: Multi-Human-Value Alignment Palette",
+    "published_date": "2024-10-24",
+    "abstract": "Ensuring that generative AI systems align with human values is essential but challenging, especially when considering multiple human values and their potential trade-offs. Since human values can be personalized and dynamically change over time, the desirable levels of value alignment vary across different ethnic groups, industry sectors, and user cohorts. Within existing frameworks, it is hard to define human values and align AI systems accordingly across different directions simultaneously, such as harmlessness, helpfulness, and positiveness. To address this, we develop a novel, first-principle approach called Multi-Human-Value Alignment Palette (MAP), which navigates the alignment across multiple human values in a structured and reliable way. MAP formulates the alignment problem as an optimization task with user-defined constraints, which define human value targets. It can be efficiently solved via a primal-dual approach, which determines whether a user-defined alignment target is achievable and how to achieve it. We conduct a detailed theoretical analysis of MAP by quantifying the trade-offs between values, the sensitivity to constraints, the fundamental connection between multi-value alignment and sequential alignment, and proving that linear weighted rewards are sufficient for multi-value alignment. Extensive experiments demonstrate MAP's ability to align multiple values in a principled manner while delivering strong empirical performance across various tasks.",
+    "summary": "The Multi-Human-Value Alignment Palette (MAP) framework addresses the challenge of aligning generative AI with multiple, potentially conflicting human values by formulating alignment as a constrained optimization problem. MAP uses a primal-dual approach to determine achievability and optimize for user-defined value targets, offering a structured and theoretically grounded solution."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.22203",
+    "title": "Democratizing Reward Design for Personal and Representative Value-Alignment",
+    "published_date": "2024-10-29",
+    "abstract": "Aligning AI agents with human values is challenging due to diverse and subjective notions of values. Standard alignment methods often aggregate crowd feedback, which can result in the suppression of unique or minority preferences. We introduce Interactive-Reflective Dialogue Alignment, a method that iteratively engages users in reflecting on and specifying their subjective value definitions. This system learns individual value definitions through language-model-based preference elicitation and constructs personalized reward models that can be used to align AI behaviour. We evaluated our system through two studies with 30 participants, one focusing on\"respect\"and the other on ethical decision-making in autonomous vehicles. Our findings demonstrate diverse definitions of value-aligned behaviour and show that our system can accurately capture each person's unique understanding. This approach enables personalized alignment and can inform more representative and interpretable collective alignment strategies.",
+    "summary": "Interactive-Reflective Dialogue Alignment personalizes AI value alignment by iteratively eliciting and modeling individual value definitions through dialogue, overcoming limitations of aggregated crowd feedback in achieving representative alignment. This approach uses language models to capture diverse subjective understandings of values and create personalized reward models for AI agents."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/utility-extraction",
+    "title": "Utility Extraction - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Utility extraction aims to automatically learn human preferences for use in Friendly AI, mitigating the risk of misaligned AI goals. This is challenging due to the difficulty in specifying human values and inconsistencies in human behavior, requiring methods that account for these inconsistencies, such as those modeling \"model-free\" and \"model-based\" valuation processes."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/value-extrapolation",
+    "title": "Value Extrapolation - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "Value extrapolation, a process of identifying ideal human values under conditions of complete self-understanding, proposes a framework for machine ethics. This approach, exemplified by Coherent Extrapolated Volition, aims to improve AI alignment by refining and clarifying human values through reflection, thereby resolving contradictions and facilitating faster moral progress."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.08759.pdf",
+    "title": "Value Engineering for Autonomous Agents",
+    "published_date": "2023-02-17",
+    "abstract": "Machine Ethics (ME) is concerned with the design of Artificial Moral Agents (AMAs), i.e. autonomous agents capable of reasoning and behaving according to moral values. Previous approaches have treated values as labels associated with some actions or states of the world, rather than as integral components of agent reasoning. It is also common to disregard that a value-guided agent operates alongside other value-guided agents in an environment governed by norms, thus omitting the social dimension of AMAs. In this blue sky paper, we propose a new AMA paradigm grounded in moral and social psychology, where values are instilled into agents as context-dependent goals. These goals intricately connect values at individual levels to norms at a collective level by evaluating the outcomes most incentivized by the norms in place. We argue that this type of normative reasoning, where agents are endowed with an understanding of norms' moral implications, leads to value-awareness in autonomous agents. Additionally, this capability paves the way for agents to align the norms enforced in their societies with respect to the human values instilled in them, by complementing the value-based reasoning on norms with agreement mechanisms to help agents collectively agree on the best set of norms that suit their human values. Overall, our agent model goes beyond the treatment of values as inert labels by connecting them to normative reasoning and to the social functionalities needed to integrate value-aware agents into our modern hybrid human-computer societies.",
+    "citation_count": 3,
+    "summary": "This paper proposes a novel framework for designing Artificial Moral Agents (AMAs) by integrating values as context-dependent goals, connecting individual values to societal norms through normative reasoning and agreement mechanisms to achieve value-aware agents capable of aligning societal norms with human values. This approach moves beyond treating values as simple labels, incorporating social and moral psychology for more robust and ethically sound autonomous agents."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.00894.pdf",
+    "title": "Active Reward Learning from Multiple Teachers",
+    "published_date": "2023-03-02",
+    "abstract": "Reward learning algorithms utilize human feedback to infer a reward function, which is then used to train an AI system. This human feedback is often a preference comparison, in which the human teacher compares several samples of AI behavior and chooses which they believe best accomplishes the objective. While reward learning typically assumes that all feedback comes from a single teacher, in practice these systems often query multiple teachers to gather sufficient training data. In this paper, we investigate this disparity, and find that algorithmic evaluation of these different sources of feedback facilitates more accurate and efficient reward learning. We formally analyze the value of information (VOI) when reward learning from teachers with varying levels of rationality, and define and evaluate an algorithm that utilizes this VOI to actively select teachers to query for feedback. Surprisingly, we find that it is often more informative to query comparatively irrational teachers. By formalizing this problem and deriving an analytical solution, we hope to facilitate improvement in reward learning approaches to aligning AI behavior with human values.",
+    "citation_count": 11,
+    "summary": "This paper analyzes reward learning from multiple human teachers with varying levels of rationality, showing that strategically querying even less rational teachers can improve efficiency and accuracy in inferring a reward function that aligns AI behavior with human values. An algorithm leveraging value of information calculations to select teachers is proposed and evaluated."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.17479",
+    "title": "Culturally-Attuned Moral Machines: Implicit Learning of Human Value Systems by AI through Inverse Reinforcement Learning",
+    "published_date": "2023-12-29",
+    "abstract": "Constructing a universal moral code for artificial intelligence (AI) is difficult or even impossible, given that different human cultures have different definitions of morality and different societal norms. We therefore argue that the value system of an AI should be culturally attuned: just as a child raised in a particular culture learns the specific values and norms of that culture, we propose that an AI agent operating in a particular human community should acquire that community's moral, ethical, and cultural codes. How AI systems might acquire such codes from human observation and interaction has remained an open question. Here, we propose using inverse reinforcement learning (IRL) as a method for AI agents to acquire a culturally-attuned value system implicitly. We test our approach using an experimental paradigm in which AI agents use IRL to learn different reward functions, which govern the agents' moral values, by observing the behavior of different cultural groups in an online virtual world requiring real-time decision making. We show that an AI agent learning from the average behavior of a particular cultural group can acquire altruistic characteristics reflective of that group's behavior, and this learned value system can generalize to new scenarios requiring altruistic judgments. Our results provide, to our knowledge, the first demonstration that AI agents could potentially be endowed with the ability to continually learn their values and norms from observing and interacting with humans, thereby becoming attuned to the culture they are operating in.",
+    "citation_count": 1,
+    "summary": "This paper proposes using inverse reinforcement learning (IRL) to enable AI agents to implicitly learn culturally-attuned moral values by observing and interacting with humans in a virtual world, demonstrating that AI can acquire altruistic characteristics reflective of specific cultural groups. The results suggest a potential method for creating AI systems with adaptable and context-appropriate moral compasses."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.11441.pdf",
+    "title": "Human-centered mechanism design with Democratic AI",
+    "published_date": "2022-01-27",
+    "abstract": "Building artificial intelligence (AI) that aligns with human values is an unsolved problem. Here, we developed a human-in-the-loop research pipeline called Democratic AI, in which reinforcement learning is used to design a social mechanism that humans prefer by majority. A large group of humans played an online investment game that involved deciding whether to keep a monetary endowment or to share it with others for collective benefit. Shared revenue was returned to players under two different redistribution mechanisms, one designed by the AI and the other by humans. The AI discovered a mechanism that redressed initial wealth imbalance, sanctioned free riders, and successfully won the majority vote. By optimizing for human preferences, Democratic AI may be a promising method for value-aligned policy innovation.",
+    "citation_count": 2,
+    "summary": "Democratic AI, a human-in-the-loop reinforcement learning system, designed a social mechanism preferred by a majority of human participants in an online investment game, demonstrating its potential for value-aligned policy innovation by optimizing for human preferences. This mechanism successfully addressed wealth inequality and punished free riders."
+  }
+]

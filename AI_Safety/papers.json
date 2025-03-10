@@ -1,0 +1,188 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.07878",
+    "title": "Mapping Technical Safety Research at AI Companies: A literature review and incentives analysis",
+    "published_date": "2024-09-12",
+    "abstract": "As AI systems become more advanced, concerns about large-scale risks from misuse or accidents have grown. This report analyzes the technical research into safe AI development being conducted by three leading AI companies: Anthropic, Google DeepMind, and OpenAI. We define safe AI development as developing AI systems that are unlikely to pose large-scale misuse or accident risks. This encompasses a range of technical approaches aimed at ensuring AI systems behave as intended and do not cause unintended harm, even as they are made more capable and autonomous. We analyzed all papers published by the three companies from January 2022 to July 2024 that were relevant to safe AI development, and categorized the 80 included papers into nine safety approaches. Additionally, we noted two categories representing nascent approaches explored by academia and civil society, but not currently represented in any research papers by these leading AI companies. Our analysis reveals where corporate attention is concentrated and where potential gaps lie. Some AI research may stay unpublished for good reasons, such as to not inform adversaries about the details of security techniques they would need to overcome to misuse AI systems. Therefore, we also considered the incentives that AI companies have to research each approach, regardless of how much work they have published on the topic. We identified three categories where there are currently no or few papers and where we do not expect AI companies to become much more incentivized to pursue this research in the future. These are model organisms of misalignment, multi-agent safety, and safety by design. Our findings provide an indication that these approaches may be slow to progress without funding or efforts from government, civil society, philanthropists, or academia.",
+    "summary": "This report reviews published AI safety research from Anthropic, Google DeepMind, and OpenAI, identifying nine safety approaches and highlighting three under-researched areas (model organisms, multi-agent safety, and safety by design) likely requiring external funding for further development."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.04464",
+    "title": "Ten Hard Problems in Artificial Intelligence We Must Get Right",
+    "published_date": "2024-02-06",
+    "abstract": "We explore the AI2050\"hard problems\"that block the promise of AI and cause AI risks: (1) developing general capabilities of the systems; (2) assuring the performance of AI systems and their training processes; (3) aligning system goals with human goals; (4) enabling great applications of AI in real life; (5) addressing economic disruptions; (6) ensuring the participation of all; (7) at the same time ensuring socially responsible deployment; (8) addressing any geopolitical disruptions that AI causes; (9) promoting sound governance of the technology; and (10) managing the philosophical disruptions for humans living in the age of AI. For each problem, we outline the area, identify significant recent work, and suggest ways forward. [Note: this paper reviews literature through January 2023.]",
+    "citation_count": 2,
+    "summary": "The paper identifies ten key challenges facing AI development and deployment, ranging from achieving general AI capabilities and aligning AI goals with human values to addressing societal and economic impacts and establishing responsible governance. These \"hard problems\" must be addressed to unlock AI's potential while mitigating its risks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.17688",
+    "title": "Managing AI Risks in an Era of Rapid Progress",
+    "published_date": "2023-10-26",
+    "abstract": "In this short consensus paper, we outline risks from upcoming, advanced AI systems. We examine large-scale social harms and malicious uses, as well as an irreversible loss of human control over autonomous AI systems. In light of rapid and continuing AI progress, we propose priorities for AI R&D and governance.",
+    "citation_count": 54,
+    "summary": "This paper outlines the risks of advanced AI systems, including societal harms, malicious use, and loss of human control, and proposes research and governance priorities to mitigate these risks in the face of rapid AI development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/fAW6RXLKTLHC3WXkS/shallow-review-of-technical-ai-safety-2024",
+    "author": "technicalities, Stag, Stephen McAleese, jordine, Dr. David Mathers",
+    "title": "Shallow review of technical AI safety, 2024",
+    "published_date": "2024-12-29",
+    "summary": "This aisafety.world article provides an up to date, but non-exhaustive, publicly sourced overview of current research agendas in technical AI safety, aiming to aid researchers, policymakers, and funders."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.14068",
+    "title": "Holistic Safety and Responsibility Evaluations of Advanced AI Models",
+    "published_date": "2024-04-22",
+    "abstract": "Safety and responsibility evaluations of advanced AI models are a critical but developing field of research and practice. In the development of Google DeepMind's advanced AI models, we innovated on and applied a broad set of approaches to safety evaluation. In this report, we summarise and share elements of our evolving approach as well as lessons learned for a broad audience. Key lessons learned include: First, theoretical underpinnings and frameworks are invaluable to organise the breadth of risk domains, modalities, forms, metrics, and goals. Second, theory and practice of safety evaluation development each benefit from collaboration to clarify goals, methods and challenges, and facilitate the transfer of insights between different stakeholders and disciplines. Third, similar key methods, lessons, and institutions apply across the range of concerns in responsibility and safety - including established and emerging harms. For this reason it is important that a wide range of actors working on safety evaluation and safety research communities work together to develop, refine and implement novel evaluation approaches and best practices, rather than operating in silos. The report concludes with outlining the clear need to rapidly advance the science of evaluations, to integrate new evaluations into the development and governance of AI, to establish scientifically-grounded norms and standards, and to promote a robust evaluation ecosystem.",
+    "citation_count": 4,
+    "summary": "Google DeepMind's evolving AI safety evaluation approach emphasizes theoretical frameworks to organize diverse risks, collaborative knowledge sharing across stakeholders, and unified efforts across safety and responsibility domains to advance evaluation science and integration into AI development. This necessitates rapid progress in evaluation methods, standardized norms, and a robust ecosystem for responsible AI governance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.21792",
+    "title": "Safetywashing: Do AI Safety Benchmarks Actually Measure Safety Progress?",
+    "published_date": "2024-07-31",
+    "abstract": "As artificial intelligence systems grow more powerful, there has been increasing interest in\"AI safety\"research to address emerging and future risks. However, the field of AI safety remains poorly defined and inconsistently measured, leading to confusion about how researchers can contribute. This lack of clarity is compounded by the unclear relationship between AI safety benchmarks and upstream general capabilities (e.g., general knowledge and reasoning). To address these issues, we conduct a comprehensive meta-analysis of AI safety benchmarks, empirically analyzing their correlation with general capabilities across dozens of models and providing a survey of existing directions in AI safety. Our findings reveal that many safety benchmarks highly correlate with both upstream model capabilities and training compute, potentially enabling\"safetywashing\"--where capability improvements are misrepresented as safety advancements. Based on these findings, we propose an empirical foundation for developing more meaningful safety metrics and define AI safety in a machine learning research context as a set of clearly delineated research goals that are empirically separable from generic capabilities advancements. In doing so, we aim to provide a more rigorous framework for AI safety research, advancing the science of safety evaluations and clarifying the path towards measurable progress.",
+    "citation_count": 7,
+    "summary": "The paper argues that current AI safety benchmarks often correlate with general AI capabilities, potentially allowing \"safetywashing\" where capability gains masquerade as safety improvements, and proposes a more rigorous framework for measuring AI safety distinct from general capabilities."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.18114",
+    "title": "Bridging Today and the Future of Humanity: AI Safety in 2024 and Beyond",
+    "published_date": "2024-10-09",
+    "abstract": "The advancements in generative AI inevitably raise concerns about their risks and safety implications, which, in return, catalyzes significant progress in AI safety. However, as this field continues to evolve, a critical question arises: are our current efforts on AI safety aligned with the advancements of AI as well as the long-term goal of human civilization? This paper presents a blueprint for an advanced human society and leverages this vision to guide current AI safety efforts. It outlines a future where the Internet of Everything becomes reality, and creates a roadmap of significant technological advancements towards this envisioned future. For each stage of the advancements, this paper forecasts potential AI safety issues that humanity may face. By projecting current efforts against this blueprint, this paper examines the alignment between the current efforts and the long-term needs, and highlights unique challenges and missions that demand increasing attention from AI safety practitioners in the 2020s. This vision paper aims to offer a broader perspective on AI safety, emphasizing that our current efforts should not only address immediate concerns but also anticipate potential risks in the expanding AI landscape, thereby promoting a safe and sustainable future of AI and human civilization.",
+    "summary": "This paper proposes a roadmap of future technological advancements and their associated AI safety risks, arguing that current safety efforts must consider not only immediate concerns but also the long-term challenges posed by an increasingly interconnected world. It uses a blueprint of an advanced human society, centered around an \"Internet of Everything,\" to highlight future needs and guide present AI safety research."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "This resource provides an overview of the AI safety research landscape, categorized by keywords and subfields, to help ML researchers identify relevant areas based on their existing skills and interests. It offers both a short and long version, focusing on organizations, researchers, and key papers, primarily covering work through 2022."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/WGpFFJo2uFe5ssgEb/an-overview-of-the-ai-safety-funding-situation",
+    "author": "Stephen McAleese",
+    "title": "An Overview of the AI Safety Funding Situation",
+    "published_date": "2023-07-12",
+    "summary": "This article, updated in 2025, explores AI safety funding opportunities to lower barriers to entry and encourage a larger, more active research community dedicated to mitigating AI risks and ensuring beneficial AI development. It provides an overview of the funding landscape and details specific funding sources."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zaaGsFBeDTpCsYHef/shallow-review-of-live-agendas-in-alignment-and-safety",
+    "author": "technicalities, Stag",
+    "title": "Shallow review of live agendas in alignment & safety",
+    "published_date": "2023-11-27",
+    "summary": "This article presents a comprehensive, searchable index of active AI safety research agendas, categorized into understanding existing models, controlling models, using AI to solve alignment, and theoretical approaches. It aims to provide a resource for navigating the rapidly evolving field and connecting related research efforts."
+  },
+  {
+    "url": "https://arxiv.org/abs/2201.10436",
+    "title": "Safe AI -- How is this Possible?",
+    "published_date": "2022-01-25",
+    "abstract": "Ttraditional safety engineering is coming to a turning point moving from deterministic, non-evolving systems operating in well-defined contexts to increasingly autonomous and learning-enabled AI systems which are acting in largely unpredictable operating contexts. We outline some of underlying challenges of safe AI and suggest a rigorous engineering framework for minimizing uncertainty, thereby increasing confidence, up to tolerable levels, in the safe behavior of AI systems.",
+    "summary": "Traditional safety engineering methods are insufficient for increasingly autonomous AI systems; a new framework focusing on minimizing uncertainty and increasing confidence in AI behavior is needed for safe AI."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/SQ9cZtfrzDJmw9A2m/my-overview-of-the-ai-alignment-landscape-a-bird-s-eye-view",
+    "author": "Neel Nanda",
+    "title": "My Overview of the AI Alignment Landscape: A Bird's Eye View",
+    "published_date": "2021-12-15",
+    "summary": "This article offers a high-level overview of different approaches to AI alignment research, aiming to clarify the field for those interested in how researchers are tackling the challenge of developing safe AGI. The author presents this as their personal perspective, synthesized from research and community feedback."
+  },
+  {
+    "title": "Responses to catastrophic AGI risk: a survey",
+    "abstract": "Many researchers have argued that humanity will create artificial general intelligence (AGI) within the next twenty to one hundred years. It has been suggested that AGI may inflict serious damage to human well-being on a global scale ('catastrophic risk'). After summarizing the arguments for why AGI may pose such a risk, we review the fieldʼs proposed responses to AGI risk. We consider societal proposals, proposals for external constraints on AGI behaviors and proposals for creating AGIs that are safe due to their internal design.",
+    "published_date": "2021-10-13",
+    "citation_count": 114,
+    "url": "https://www.academia.edu/22359395/Responses_to_catastrophic_AGI_risk_a_survey",
+    "summary": "This paper surveys potential responses to the catastrophic risks posed by artificial general intelligence (AGI), categorizing them as societal measures, external constraints on AGI, and internal safety designs. It also summarizes arguments for why AGI might pose such a risk."
+  },
+  {
+    "url": "https://arxiv.org/abs/2002.05671",
+    "title": "AI safety: state of the field through quantitative lens",
+    "published_date": "2020-02-12",
+    "abstract": "Last decade has seen major improvements in the performance of artificial intelligence which has driven wide-spread applications. Unforeseen effects of such massad-option has put the notion of AI safety into the public eye. AI safety is a relatively new field of research focused on techniques for building AI beneficial for humans. While there exist survey papers for the field of AI safety, there is a lack of a quantitative look at the research being conducted. The quantitative aspect gives a data-driven insight about the emerging trends, knowledge gaps and potential areas for future research. In this paper, bibliometric analysis of the literature finds significant increase in research activity since 2015. Also, the field is so new that most of the technical issues are open, including: explainability and its long-term utility, and value alignment which we have identified as the most important long-term research topic. Equally, there is a severe lack of research into concrete policies regarding AI. As we expect AI to be the one of the main driving forces of changes, AI safety is the field under which we need to decide the direction of humanity's future.",
+    "citation_count": 23,
+    "summary": "A bibliometric analysis reveals a recent surge in AI safety research, particularly since 2015, but identifies significant open challenges, including explainability, value alignment, and policy development. The field is nascent and requires further investigation to ensure AI benefits humanity."
+  },
+  {
+    "url": "https://arxiv.org/abs/2012.07532",
+    "title": "An overview of 11 proposals for building safe advanced AI",
+    "published_date": "2020-12-04",
+    "abstract": "This paper analyzes and compares 11 different proposals for building safe advanced AI under the current machine learning paradigm, including major contenders such as iterated amplification, AI safety via debate, and recursive reward modeling. Each proposal is evaluated on the four components of outer alignment, inner alignment, training competitiveness, and performance competitiveness, of which the distinction between the latter two is introduced in this paper. While prior literature has primarily focused on analyzing individual proposals, or primarily focused on outer alignment at the expense of inner alignment, this analysis seeks to take a comparative look at a wide range of proposals including a comparative analysis across all four previously mentioned components.",
+    "citation_count": 21,
+    "summary": "This paper compares eleven proposals for building safe advanced AI within the current machine learning paradigm, evaluating each on outer/inner alignment and training/performance competitiveness. This comparative analysis considers a broader range of safety aspects than prior work, including both alignment challenges and practical training considerations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/hvGoYXi2kgnS3vxqb/some-ai-research-areas-and-their-relevance-to-existential-1",
+    "author": "Andrew_Critch",
+    "title": "Some AI research areas and their relevance to existential safety",
+    "published_date": "2020-11-19",
+    "summary": "The author assesses various AI research areas based on their potential to reduce existential risk, considering both their direct helpfulness and their educational value for researchers focused on AI safety. They also factor in the current level of neglect for each area, aiming to guide researchers interested in contributing to this field."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.06624",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-10",
+    "abstract": "Ensuring that AI systems reliably and robustly avoid harmful or dangerous behaviours is a crucial challenge, especially for AI systems with a high degree of autonomy and general intelligence, or systems used in safety-critical contexts. In this paper, we will introduce and define a family of approaches to AI safety, which we will refer to as guaranteed safe (GS) AI. The core feature of these approaches is that they aim to produce AI systems which are equipped with high-assurance quantitative safety guarantees. This is achieved by the interplay of three core components: a world model (which provides a mathematical description of how the AI system affects the outside world), a safety specification (which is a mathematical description of what effects are acceptable), and a verifier (which provides an auditable proof certificate that the AI satisfies the safety specification relative to the world model). We outline a number of approaches for creating each of these three core components, describe the main technical challenges, and suggest a number of potential solutions to them. We also argue for the necessity of this approach to AI safety, and for the inadequacy of the main alternative approaches.",
+    "citation_count": 33,
+    "summary": "Guaranteed Safe (GS) AI aims to ensure AI system safety through high-assurance guarantees, achieved by combining a world model, safety specifications, and a verifier to prove the AI's adherence to safety constraints. This framework offers a potentially more robust approach compared to existing AI safety methods by providing auditable proof of safety."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5BJvusxdwNXYQ4L9L/so-you-want-to-save-the-world",
+    "author": "lukeprog",
+    "title": "So You Want to Save the World",
+    "published_date": "2024-02-01",
+    "summary": "This outdated post argues that averting a negative technological singularity requires solving key mathematical, computational, and philosophical problems, urging readers to donate to relevant research organizations or contribute directly if qualified. It then directs readers to several resources for deeper understanding of the topic."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mGCcZnr4WjGjqzX5s/the-checklist",
+    "author": "Sam Bowman",
+    "title": "The Checklist: What Succeeding at AI Safety Will Involve",
+    "published_date": "2024-09-03",
+    "summary": "This article, representing the author's personal views informed by discussions at Anthropic, outlines anticipated technical research goals for developing safe, broadly human-level AI, focusing on mitigating catastrophic risks and assuming such AI is both achievable and likely to surpass human capabilities in key areas."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "AI safety research should be integrated with broader AGI development, focusing on a \"top-down\" design of beneficial civilizational intelligence informed by diverse disciplines, not just computer science and mathematics. This approach prioritizes proactive design over passively observing the evolution of AI within existing societal structures."
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.08073",
+    "title": "Constitutional AI: Harmlessness from AI Feedback",
+    "published_date": "2022-12-15",
+    "abstract": "As AI systems become more capable, we would like to enlist their help to supervise other AIs. We experiment with methods for training a harmless AI assistant through self-improvement, without any human labels identifying harmful outputs. The only human oversight is provided through a list of rules or principles, and so we refer to the method as 'Constitutional AI'. The process involves both a supervised learning and a reinforcement learning phase. In the supervised phase we sample from an initial model, then generate self-critiques and revisions, and then finetune the original model on revised responses. In the RL phase, we sample from the finetuned model, use a model to evaluate which of the two samples is better, and then train a preference model from this dataset of AI preferences. We then train with RL using the preference model as the reward signal, i.e. we use 'RL from AI Feedback' (RLAIF). As a result we are able to train a harmless but non-evasive AI assistant that engages with harmful queries by explaining its objections to them. Both the SL and RL methods can leverage chain-of-thought style reasoning to improve the human-judged performance and transparency of AI decision making. These methods make it possible to control AI behavior more precisely and with far fewer human labels.",
+    "citation_count": 1196,
+    "summary": "Constitutional AI trains a harmless AI assistant without human-labeled harmful outputs by using a set of rules and a two-phase process: supervised learning on self-critiques and revisions, followed by reinforcement learning from AI feedback on preferred responses. This approach allows for greater control over AI behavior with minimal human labeling."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/GTcWrenvDMsThTQ26/some-recent-survey-papers-on-mostly-near-term-ai-safety",
+    "author": "Aryeh Englander",
+    "title": "Some recent survey papers on (mostly near-term) AI safety, security, and assurance",
+    "published_date": "2021-01-13",
+    "summary": "This article shares a short, non-exhaustive list of recent survey papers on AI safety, security, and assurance, focusing on near-term issues with an eye towards long-term risks. The author compiled the list for a work project and invites readers to suggest additional relevant surveys."
+  },
+  {
+    "title": "Global Solutions vs. Local Solutions for the AI Safety Problem",
+    "abstract": "There are two types of artificial general intelligence (AGI) safety solutions: global and local. Most previously suggested solutions are local: they explain how to align or “box” a specific AI (Artificial Intelligence), but do not explain how to prevent the creation of dangerous AI in other places. Global solutions are those that ensure any AI on Earth is not dangerous. The number of suggested global solutions is much smaller than the number of proposed local solutions. Global solutions can be divided into four groups: 1. No AI: AGI technology is banned or its use is otherwise prevented; 2. One AI: the first superintelligent AI is used to prevent the creation of any others; 3. Net of AIs as AI police: a balance is created between many AIs, so they evolve as a net and can prevent any rogue AI from taking over the world; 4. Humans inside AI: humans are augmented or part of AI. We explore many ideas, both old and new, regarding global solutions for AI safety. They include changing the number of AI teams, different forms of “AI Nanny” (non-self-improving global control AI system able to prevent creation of dangerous AIs), selling AI safety solutions, and sending messages to future AI. Not every local solution scales to a global solution or does it ethically and safely. The choice of the best local solution should include understanding of the ways in which it will be scaled up. Human-AI teams or a superintelligent AI Service as suggested by Drexler may be examples of such ethically scalable local solutions, but the final choice depends on some unknown variables such as the speed of AI progress.",
+    "published_date": "2019-02-20",
+    "citation_count": 10,
+    "url": "https://www.academia.edu/40920800/Global_Solutions_vs_Local_Solutions_for_the_AI_Safety_Problem",
+    "summary": "The paper contrasts \"local\" AI safety solutions, which aim to control individual AIs, with less-developed \"global\" solutions designed to prevent the creation of *any* dangerous AI, categorizing these global approaches as preventing AI development, using a single AI for control, creating a network of AIs for mutual oversight, or integrating humans into AI systems. The authors argue that selecting local solutions should consider their scalability and ethical implications for global AI safety."
+  },
+  {
+    "title": "Green AI",
+    "abstract": "The computations required for deep learning research have been doubling every few months, resulting in an estimated 300,000x increase from 2012 to 2018 [2]. These computations have a surprisingly large carbon footprint [38]. Ironically, deep learning was inspired by the human brain, which is remarkably energy efficient. Moreover, the financial cost of the computations can make it difficult for academics, students, and researchers, in particular those from emerging economies, to engage in deep learning research. This position paper advocates a practical solution by making efficiency an evaluation criterion for research alongside accuracy and related measures. In addition, we propose reporting the financial cost or\"price tag\"of developing, training, and running models to provide baselines for the investigation of increasingly efficient methods. Our goal is to make AI both greener and more inclusive---enabling any inspired undergraduate with a laptop to write high-quality research papers. Green AI is an emerging focus at the Allen Institute for AI.",
+    "published_date": "2019-07-22",
+    "citation_count": 1025,
+    "url": "https://dl.acm.org/doi/10.1145/3381831",
+    "summary": "The paper argues for evaluating AI research based on computational efficiency alongside accuracy, proposing that researchers report the financial and environmental \"price tag\" of their models to promote greener and more inclusive deep learning accessible to everyone."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/hYekqQ9hLmn3XTZrp/2017-ai-safety-literature-review-and-charity-comparison",
+    "author": "Larks",
+    "title": "2017 AI Safety Literature Review and Charity Comparison",
+    "published_date": "2017-12-24",
+    "summary": "The author reviews 2017 AI safety research from various organizations, comparing their output to their budgets to estimate cost-effectiveness and inform potential donors, similar to GiveWell's charity evaluations. This analysis focuses on organizational outputs rather than individual researchers, acknowledging a bias towards established organizations."
+  }
+]

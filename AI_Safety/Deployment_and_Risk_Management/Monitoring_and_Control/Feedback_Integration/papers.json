@@ -1,0 +1,80 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2303.11770v1",
+    "title": "Adaptive Super-Twisting Controller Design for Accurate Trajectory Tracking Performance of Unmanned Aerial Vehicles",
+    "published_date": "2023-03-21",
+    "abstract": "In this article, an adaptive super-twisting controller is designed for an agile maneuvering quadrotor unmanned aerial vehicle (UAV) to achieve accurate trajectory tracking in the presence of external disturbances. A cascaded control architecture is designed to determine the desired accelerations using the proposed controller and subsequently used to compute the desired orientation and angular rates. Finite-time convergence to the sliding surfaces and closed-loop system stability are analytically proven. Furthermore, the restrictive assumption on the upper bound of the disturbance is relaxed by designing a gain adaptation law and low-pass filtering of the estimated equivalent control. The proper selection of design parameters is discussed in detail. Finally, the effectiveness of the proposed method is evaluated by high-fidelity software-in-the-loop (SITL) simulations and validated by experimental studies.",
+    "citation_count": 2,
+    "summary": "This paper presents an adaptive super-twisting controller for accurate quadrotor UAV trajectory tracking, mitigating external disturbances through a cascaded control architecture and adaptive gain adjustments, with stability proven analytically and validated through simulations and experiments. The design relaxes the typical upper-bound disturbance assumption."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.02939v1.pdf",
+    "title": "Prescribed-Time Control for Linear Systems in Canonical Form via Nonlinear Feedback",
+    "published_date": "2022-01-09",
+    "abstract": "For systems in canonical form with nonvanishing uncertainties/disturbances, this work presents an approach to full-state regulation within prescribed time irrespective of initial conditions. By introducing the smooth hyperbolic-tangent-like function, a nonlinear and time-varying state-feedback control scheme is constructed, which is further extended to address output-feedback-based prescribed-time regulation by invoking the prescribed-time observer, all are applicable over the entire operational time zone. As an alternative to full-state regulation within the user-assignable time interval, the proposed method analytically bridges the divide between linear and nonlinear feedback-based prescribed-time control and is able to achieve asymptotic stability, exponential stability, and prescribed-time stability with a unified control structure.",
+    "citation_count": 20,
+    "summary": "This paper proposes a nonlinear, time-varying state-feedback controller achieving prescribed-time regulation for linear systems in canonical form, handling uncertainties and extending to output feedback via a prescribed-time observer. The unified control structure allows for asymptotic, exponential, and prescribed-time stability."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.12088",
+    "title": "Online Feedback Equilibrium Seeking",
+    "published_date": "2022-10-21",
+    "abstract": "This article proposes a unifying design framework for dynamic feedback controllers that track solution trajectories of time-varying generalized equations, such as local minimizers of nonlinear programs or competitive equilibria (e.g., Nash) of noncooperative games. Inspired by the feedback optimization paradigm, the core idea of the proposed approach is to repurpose classic iterative algorithms for solving generalized equations (e.g., Josephy–Newton, forward–backward splitting) as dynamic feedback controllers by integrating online measurements of the continuous-time nonlinear plant. Sufficient conditions for closed-loop stability and robustness of the algorithm-plant cyber-physical interconnection are derived in a sampled-data setting by combining and tailoring results from (monotone) operator, fixed-point, and nonlinear systems theory. Numerical simulations on smart building automation and competitive supply chain management are presented to support the theoretical findings.",
+    "citation_count": 16,
+    "summary": "This paper presents a framework for designing dynamic feedback controllers that track solutions of time-varying generalized equations, adapting iterative algorithms (like Josephy–Newton) for online use with continuous-time systems and providing stability analysis. Numerical simulations in smart building and supply chain contexts demonstrate the approach."
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.14364",
+    "title": "Safe and Robust Observer-Controller Synthesis Using Control Barrier Functions",
+    "published_date": "2022-11-25",
+    "abstract": "This letter addresses the synthesis of safety-critical controllers using estimate feedback. We propose an observer-controller interconnection to ensure that the nonlinear system remains safe despite bounded disturbances on the system dynamics and measurements that correspond to partial state information. The co-design of observers and controllers is critical, since even in undisturbed cases, observers and controllers designed independently may not render the system safe. We propose two approaches to synthesize observer-controller interconnections. The first approach utilizes Input-to-State Stable observers, and the second uses Bounded Error observers. Using these stability and boundedness properties of the observation error, we construct novel Control Barrier Functions that impose inequality constraints on the control inputs which, when satisfied, certifies safety. We propose quadratic program-based controllers to satisfy these constraints, and prove Lipschitz continuity of the derived controllers. Simulations and experiments on a quadrotor demonstrate the efficacy of the proposed methods.",
+    "citation_count": 42,
+    "summary": "This paper presents two methods for designing safe and robust observer-controller systems for nonlinear systems with bounded disturbances and partial state information, using control barrier functions to guarantee safety despite estimation errors. The methods leverage Input-to-State Stable or Bounded Error observers and quadratic program-based controllers to ensure Lipschitz continuity and safety."
+  },
+  {
+    "title": "Distributed adaptive control for optimal tracking of uncertain interconnected dynamical systems",
+    "abstract": "This paper presents a distributed model reference adaptive control scheme for optimal tracking of an interconnected dynamical system in the presence of system/interconnection uncertainties. A reference model selection which achieves an optimal tracking for the nominal system is introduced by using linear quadratic regulator theory. Then an adaptive control law is developed for the uncertain interconnected dynamical system, where it employs the specified reference model. It is shown that the control law achieves the desired behaviour such that the output of the system asymptotically tracks the output of the reference model in the presence of the uncertainties. An explicit error bound regarding optimal tracking is also established.",
+    "published_date": "2022-06-16",
+    "citation_count": 1,
+    "url": "https://www.tandfonline.com/doi/pdf/10.1080/18824889.2022.2143634?needAccess=true",
+    "summary": "This paper proposes a distributed adaptive control strategy for interconnected dynamical systems with uncertainties, achieving optimal tracking of a reference model determined via linear quadratic regulator theory. The resulting control law guarantees asymptotic tracking and provides an explicit error bound."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.00995v1.pdf",
+    "title": "Fundamental Limitations of Control and Filtering in Continuous-Time Systems: An Information-Theoretic Analysis",
+    "published_date": "2022-01-04",
+    "abstract": "While information theory has been introduced to investigate and characterize the control and ﬁltering limitations for a few decades, the existing information-theoretic methods are indirect and cumbersome for analyzing the fundamental limitations of continuous-time systems. To answer this challenge, we lift the information-theoretic analysis to continuous function spaces of inﬁnite dimensions by using Duncan's theorem or the I-MMSE relationships. Continuous-time control and ﬁltering systems are modeled as an additive Gaussian channel with or without feedback, and total information rate is identiﬁed as a control and ﬁltering trade-oﬀ metric and directly computed from the estimation error of channel input. Inequality constraints for the trade-oﬀ metric are derived in a general setting and then applied to capture the fundamental limitations of various control and ﬁltering systems subject to linear and nonlinear plants. For the linear systems, we show that total information rate has similar properties as some established trade-oﬀs, e.g., Bode-type integrals and minimum estimation error. For the nonlinear systems, we provide a direct method to compute the total information rate and its lower bound by the Stratonovich-Kushner equation.",
+    "citation_count": 4,
+    "summary": "This paper uses information theory in continuous function spaces to directly analyze fundamental limitations in continuous-time control and filtering systems, deriving inequality constraints on a total information rate metric to characterize trade-offs for both linear and nonlinear plants. This approach offers a more direct and less cumbersome method than previous information-theoretic techniques."
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.13036",
+    "title": "Extending MAPE-K to support Human-Machine Teaming",
+    "published_date": "2022-03-24",
+    "abstract": "The MAPE-K feedback loop has been established as the primary reference model for self-adaptive and autonomous systems in domains such as autonomous driving, robotics, and Cyber-Physical Systems. At the same time, the Human Machine Teaming (HMT) paradigm is designed to promote partnerships between humans and autonomous machines. It goes far beyond the degree of collaboration expected in human-on-the-loop and human-in-the-loop systems and emphasizes interactions, partnership, and teamwork between humans and machines. However, while MAPE-K enables fully autonomous behavior, it does not explicitly address the interactions between humans and machines as intended by HMT. In this paper, we present the MAPE-KHMT framework which augments the traditional MAPE-K loop with support for HMT. We identify critical human-machine teaming factors and describe the infrastructure needed across the various phases of the MAPE-K loop in order to effectively support HMT. This includes runtime models that are constructed and populated dynamically across monitoring, analysis, planning, and execution phases to support human-machine partnerships. We illustrate MAPE-KHMT using examples from an autonomous multi-UAV emergency response system, and present guidelines for integrating HMT into MAPE-K.CCS CONCEPTS• Human-centered computing → Collaborative interaction; HCI theory, concepts and models.",
+    "citation_count": 22,
+    "summary": "The paper introduces MAPE-KHMT, an extension of the MAPE-K framework for self-adaptive systems, to explicitly support Human-Machine Teaming (HMT) by incorporating human-machine interaction and partnership across all phases of the MAPE-K loop. This framework is illustrated using an autonomous multi-UAV emergency response system and provides guidelines for integrating HMT into existing MAPE-K systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13",
+    "summary": "This article explains Deep Q-Networks (DQN), a deep reinforcement learning algorithm, at multiple levels of detail. It progresses from a high-level overview suitable for those familiar with reinforcement learning to a technical explanation including algorithms and equations, culminating in practical replication advice."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.10320v1.pdf",
+    "title": "Feedback Stabilization and Output Tracking for Discrete-Time Lipschitz Nonlinear Systems via Iterative Convex Approximations",
+    "published_date": "2021-04-21",
+    "abstract": "The stabilization of unstable nonlinear systems and tracking control are challenging engineering problems due to the encompassed nonlinearities in dynamic systems and their scale. In the past decades, numerous observer-based control designs for dynamic systems in which the nonlinearity belongs to Lipschitz functions have been proposed. However, most of them only focus on output feedback and consequently, state feedback design remains less developed. To that end, this paper is dedicated to the problem of full-state feedback controller design for discrete-time Lipschitz nonlinear systems. In addition, we present a simple iterative method for improving the convergence of the closed-loop performance. It is later demonstrated that our approach can be conveniently extended and utilized for output tracking.",
+    "summary": "This paper presents a novel full-state feedback controller design for discrete-time Lipschitz nonlinear systems, using an iterative convex approximation method to improve closed-loop performance and extend the approach to output tracking."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.06343.pdf",
+    "title": "Feedback-Based Optimization With Sub-Weibull Gradient Errors and Intermittent Updates",
+    "published_date": "2021-09-13",
+    "abstract": "This letter considers a feedback-based projected gradient method for optimizing systems modeled as algebraic maps. The focus is on a setup where the gradient is corrupted by random errors that follow a sub-Weibull distribution, and where the measurements of the output – which replace the input-output map of the system in the algorithmic updates – may not be available at each iteration. The sub-Weibull error model is particularly well-suited in frameworks where the cost of the problem is learned via Gaussian Process (GP) regression (from functional evaluations) concurrently with the execution of the algorithm; however, it also naturally models setups where nonparametric methods and neural networks are utilized to estimate the cost. Using the sub-Weibull model, and with Bernoulli random variables modeling missing measurements of the system output, we show that the online algorithm generates points that are within a bounded error from the optimal solutions. In particular, we provide error bounds in expectation and in high probability. Numerical results are presented in the context of a demand response problem in smart power grids.",
+    "citation_count": 3,
+    "summary": "This paper analyzes a feedback-based projected gradient method for optimizing algebraic maps with sub-Weibull gradient errors and intermittent updates, providing error bounds in expectation and high probability. The method is particularly applicable to systems where the cost is learned via Gaussian Process regression or other nonparametric methods."
+  }
+]

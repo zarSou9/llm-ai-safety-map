@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/1711.05597v2",
+    "title": "Advances in Variational Inference",
+    "published_date": "2017-11-15",
+    "abstract": "Many modern unsupervised or semi-supervised machine learning algorithms rely on Bayesian probabilistic models. These models are usually intractable and thus require approximate inference. Variational inference (VI) lets us approximate a high-dimensional Bayesian posterior with a simpler variational distribution by solving an optimization problem. This approach has been successfully applied to various models and large-scale applications. In this review, we give an overview of recent trends in variational inference. We first introduce standard mean field variational inference, then review recent advances focusing on the following aspects: (a) scalable VI, which includes stochastic approximations, (b) generic VI, which extends the applicability of VI to a large class of otherwise intractable models, such as non-conjugate models, (c) accurate VI, which includes variational models beyond the mean field approximation or with atypical divergences, and (d) amortized VI, which implements the inference over local latent variables with inference networks. Finally, we provide a summary of promising future research directions.",
+    "citation_count": 643
+  },
+  {
+    "url": "https://arxiv.org/pdf/1601.00670.pdf",
+    "title": "Variational Inference: A Review for Statisticians",
+    "published_date": "2016-01-04",
+    "abstract": "ABSTRACT One of the core problems of modern statistics is to approximate difficult-to-compute probability densities. This problem is especially important in Bayesian statistics, which frames all inference about unknown quantities as a calculation involving the posterior density. In this article, we review variational inference (VI), a method from machine learning that approximates probability densities through optimization. VI has been used in many applications and tends to be faster than classical methods, such as Markov chain Monte Carlo sampling. The idea behind VI is to first posit a family of densities and then to find a member of that family which is close to the target density. Closeness is measured by Kullback–Leibler divergence. We review the ideas behind mean-field variational inference, discuss the special case of VI applied to exponential family models, present a full example with a Bayesian mixture of Gaussians, and derive a variant that uses stochastic optimization to scale up to massive data. We discuss modern research in VI and highlight important open problems. VI is powerful, but it is not yet well understood. Our hope in writing this article is to catalyze statistical research on this class of algorithms. Supplementary materials for this article are available online.",
+    "citation_count": 4480
+  },
+  {
+    "title": "Variational Inference: A Review for Statisticians",
+    "abstract": "ABSTRACT One of the core problems of modern statistics is to approximate difficult-to-compute probability densities. This problem is especially important in Bayesian statistics, which frames all inference about unknown quantities as a calculation involving the posterior density. In this article, we review variational inference (VI), a method from machine learning that approximates probability densities through optimization. VI has been used in many applications and tends to be faster than classical methods, such as Markov chain Monte Carlo sampling. The idea behind VI is to first posit a family of densities and then to find a member of that family which is close to the target density. Closeness is measured by Kullback–Leibler divergence. We review the ideas behind mean-field variational inference, discuss the special case of VI applied to exponential family models, present a full example with a Bayesian mixture of Gaussians, and derive a variant that uses stochastic optimization to scale up to massive data. We discuss modern research in VI and highlight important open problems. VI is powerful, but it is not yet well understood. Our hope in writing this article is to catalyze statistical research on this class of algorithms. Supplementary materials for this article are available online.",
+    "published_date": "2016-01-04",
+    "citation_count": 4480,
+    "url": "https://www.tandfonline.com/doi/abs/10.1080/01621459.2017.1285773?journalCode=uasa20&"
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.15349v1",
+    "title": "On the Convergence of Black-Box Variational Inference",
+    "published_date": "2023-05-24",
+    "abstract": "We provide the first convergence guarantee for full black-box variational inference (BBVI), also known as Monte Carlo variational inference. While preliminary investigations worked on simplified versions of BBVI (e.g., bounded domain, bounded support, only optimizing for the scale, and such), our setup does not need any such algorithmic modifications. Our results hold for log-smooth posterior densities with and without strong log-concavity and the location-scale variational family. Also, our analysis reveals that certain algorithm design choices commonly employed in practice, particularly, nonlinear parameterizations of the scale of the variational approximation, can result in suboptimal convergence rates. Fortunately, running BBVI with proximal stochastic gradient descent fixes these limitations, and thus achieves the strongest known convergence rate guarantees. We evaluate this theoretical insight by comparing proximal SGD against other standard implementations of BBVI on large-scale Bayesian inference problems.",
+    "citation_count": 14
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/9ecpBaAiGQnkmX9Ex/learning-coefficient-estimation-the-details",
+    "author": "Zach Furman",
+    "title": "Learning coefficient estimation: the details",
+    "published_date": "2023-11-16"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25"
+  }
+]

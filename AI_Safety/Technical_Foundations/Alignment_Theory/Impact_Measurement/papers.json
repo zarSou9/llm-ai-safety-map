@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2303.03139.pdf",
+    "title": "Low impact agency: review and discussion",
+    "published_date": "2023-03-06",
+    "abstract": "Powerful artificial intelligence poses an existential threat if the AI decides to drastically change the world in pursuit of its goals. The hope of low-impact artificial intelligence is to incentivize AI to not do that just because this causes a large impact in the world. In this work, we first review the concept of low-impact agency and previous proposals to approach the problem, and then propose future research directions in the topic, with the goal to ensure low-impactedness is useful in making AI safe.",
+    "summary": "This paper reviews existing approaches to ensuring artificial intelligence remains \"low-impact,\" meaning it avoids drastically altering the world even if achieving its goals requires it, and proposes future research directions to mitigate existential risks posed by powerful AI."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/impact-regularization",
+    "author": "TurnTrout",
+    "title": "Impact Regularization - LessWrong",
+    "published_date": "2020-03-03",
+    "summary": "Impact regularizers aim to prevent powerful AI systems from causing excessive disruption by penalizing actions that significantly alter the world. Current research focuses on maintaining the AI's ability to reach various states (relative reachability) and achieve auxiliary goals (attainable utility preservation) to mitigate the risk of unintended consequences."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/pf48kg9xCxJAcHmQc/understanding-recent-impact-measures",
+    "author": "Matthew Barnett",
+    "title": "Understanding Recent Impact Measures",
+    "published_date": "2019-08-07",
+    "summary": "Recent research has significantly advanced the field of AI impact measures, focusing on methods like relative reachability and attainable utility, which address previous limitations by incorporating concepts such as state reversibility and penalizing unintended side effects within a Markov decision process framework. These newer approaches have sparked increased public discussion and critique."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.19198",
+    "title": "MAP: Multi-Human-Value Alignment Palette",
+    "published_date": "2024-10-24",
+    "abstract": "Ensuring that generative AI systems align with human values is essential but challenging, especially when considering multiple human values and their potential trade-offs. Since human values can be personalized and dynamically change over time, the desirable levels of value alignment vary across different ethnic groups, industry sectors, and user cohorts. Within existing frameworks, it is hard to define human values and align AI systems accordingly across different directions simultaneously, such as harmlessness, helpfulness, and positiveness. To address this, we develop a novel, first-principle approach called Multi-Human-Value Alignment Palette (MAP), which navigates the alignment across multiple human values in a structured and reliable way. MAP formulates the alignment problem as an optimization task with user-defined constraints, which define human value targets. It can be efficiently solved via a primal-dual approach, which determines whether a user-defined alignment target is achievable and how to achieve it. We conduct a detailed theoretical analysis of MAP by quantifying the trade-offs between values, the sensitivity to constraints, the fundamental connection between multi-value alignment and sequential alignment, and proving that linear weighted rewards are sufficient for multi-value alignment. Extensive experiments demonstrate MAP's ability to align multiple values in a principled manner while delivering strong empirical performance across various tasks.",
+    "summary": "The Multi-Human-Value Alignment Palette (MAP) framework addresses the challenge of aligning generative AI with multiple, potentially conflicting human values by formulating alignment as a constrained optimization problem solvable via a primal-dual approach. MAP allows for user-defined value targets, offering a structured and efficient method to achieve multi-value alignment while quantifying value trade-offs."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.17713",
+    "title": "AI Alignment with Changing and Influenceable Reward Functions",
+    "published_date": "2024-05-28",
+    "abstract": "Existing AI alignment approaches assume that preferences are static, which is unrealistic: our preferences change, and may even be influenced by our interactions with AI systems themselves. To clarify the consequences of incorrectly assuming static preferences, we introduce Dynamic Reward Markov Decision Processes (DR-MDPs), which explicitly model preference changes and the AI's influence on them. We show that despite its convenience, the static-preference assumption may undermine the soundness of existing alignment techniques, leading them to implicitly reward AI systems for influencing user preferences in ways users may not truly want. We then explore potential solutions. First, we offer a unifying perspective on how an agent's optimization horizon may partially help reduce undesirable AI influence. Then, we formalize different notions of AI alignment that account for preference change from the outset. Comparing the strengths and limitations of 8 such notions of alignment, we find that they all either err towards causing undesirable AI influence, or are overly risk-averse, suggesting that a straightforward solution to the problems of changing preferences may not exist. As there is no avoiding grappling with changing preferences in real-world settings, this makes it all the more important to handle these issues with care, balancing risks and capabilities. We hope our work can provide conceptual clarity and constitute a first step towards AI alignment practices which explicitly account for (and contend with) the changing and influenceable nature of human preferences.",
+    "citation_count": 11,
+    "summary": "The paper introduces Dynamic Reward Markov Decision Processes (DR-MDPs) to model AI alignment challenges arising from changing and AI-influenced human preferences, revealing that assuming static preferences can lead to undesirable AI manipulation and highlighting the complexities of achieving robust alignment in such dynamic environments. Existing alignment techniques are shown to be insufficient, necessitating new approaches that explicitly account for preference change."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.23630",
+    "title": "Adaptive Alignment: Dynamic Preference Adjustments via Multi-Objective Reinforcement Learning for Pluralistic AI",
+    "published_date": "2024-10-31",
+    "abstract": "Emerging research in Pluralistic Artificial Intelligence (AI) alignment seeks to address how intelligent systems can be designed and deployed in accordance with diverse human needs and values. We contribute to this pursuit with a dynamic approach for aligning AI with diverse and shifting user preferences through Multi Objective Reinforcement Learning (MORL), via post-learning policy selection adjustment. In this paper, we introduce the proposed framework for this approach, outline its anticipated advantages and assumptions, and discuss technical details about the implementation. We also examine the broader implications of adopting a retroactive alignment approach through the sociotechnical systems perspective.",
+    "summary": "This paper proposes a novel approach to Pluralistic AI alignment using multi-objective reinforcement learning, dynamically adjusting AI policies post-training to better reflect diverse and evolving user preferences. The framework is presented alongside a discussion of its advantages, assumptions, implementation details, and broader sociotechnical implications."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/ai",
+    "author": "Evan Hubinger",
+    "title": "AI - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "Artificial intelligence alignment focuses on ensuring powerful AI systems act in accordance with human values, addressing the risk of unintended consequences and existential threats. This field encompasses various approaches, from narrow goals like curing diseases to broader ambitions like achieving a beneficial future for humanity."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.03893",
+    "title": "Deliberative Technology for Alignment",
+    "published_date": "2023-12-06",
+    "abstract": "For humanity to maintain and expand its agency into the future, the most powerful systems we create must be those which act to align the future with the will of humanity. The most powerful systems today are massive institutions like governments, firms, and NGOs. Deliberative technology is already being used across these institutions to help align governance and diplomacy with human will, and modern AI is poised to make this technology significantly better. At the same time, the race to superhuman AGI is already underway, and the AI systems it gives rise to may become the most powerful systems of the future. Failure to align the impact of such powerful AI with the will of humanity may lead to catastrophic consequences, while success may unleash abundance. Right now, there is a window of opportunity to use deliberative technology to align the impact of powerful AI with the will of humanity. Moreover, it may be possible to engineer a symbiotic coupling between powerful AI and deliberative alignment systems such that the quality of alignment improves as AI capabilities increase.",
+    "citation_count": 1,
+    "summary": "The paper argues that applying deliberative technology, currently used in large organizations, to align powerful AI systems with human will is crucial to avoid catastrophic consequences from advanced AI and potentially unlock significant benefits. Success hinges on proactively developing symbiotic relationships between AI and alignment systems to ensure alignment improves with increasing AI capabilities."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/effective-altruism",
+    "author": "johnswentworth",
+    "title": "Effective Altruism - AI Alignment Forum",
+    "published_date": "2023-07-19",
+    "summary": "Effective Altruism (EA) is a movement promoting maximizing positive impact through research-driven philanthropy, career choices, and volunteer work. EA prioritizes causes offering significant, neglected, and tractable improvements, considering factors like scale, personal fit, and impartiality across geographic location and species."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.19223.pdf",
+    "title": "Intent-aligned AI systems deplete human agency: the need for agency foundations research in AI safety",
+    "published_date": "2023-05-30",
+    "abstract": "The rapid advancement of artificial intelligence (AI) systems suggests that artificial general intelligence (AGI) systems may soon arrive. Many researchers are concerned that AIs and AGIs will harm humans via intentional misuse (AI-misuse) or through accidents (AI-accidents). In respect of AI-accidents, there is an increasing effort focused on developing algorithms and paradigms that ensure AI systems are aligned to what humans intend, e.g. AI systems that yield actions or recommendations that humans might judge as consistent with their intentions and goals. Here we argue that alignment to human intent is insufficient for safe AI systems and that preservation of long-term agency of humans may be a more robust standard, and one that needs to be separated explicitly and a priori during optimization. We argue that AI systems can reshape human intention and discuss the lack of biological and psychological mechanisms that protect humans from loss of agency. We provide the first formal definition of agency-preserving AI-human interactions which focuses on forward-looking agency evaluations and argue that AI systems - not humans - must be increasingly tasked with making these evaluations. We show how agency loss can occur in simple environments containing embedded agents that use temporal-difference learning to make action recommendations. Finally, we propose a new area of research called\"agency foundations\"and pose four initial topics designed to improve our understanding of agency in AI-human interactions: benevolent game theory, algorithmic foundations of human rights, mechanistic interpretability of agency representation in neural-networks and reinforcement learning from internal states.",
+    "summary": "The paper argues that aligning AI systems with human intent is insufficient for safety, proposing instead a focus on preserving human agency as a more robust standard. It introduces \"agency foundations\" research, outlining key areas of investigation needed to understand and maintain human agency in AI-human interactions."
+  }
+]

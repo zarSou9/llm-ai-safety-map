@@ -1,0 +1,78 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.15348",
+    "title": "Trading off performance and human oversight in algorithmic policy: evidence from Danish college admissions",
+    "published_date": "2024-11-22",
+    "abstract": "Student dropout is a significant concern for educational institutions due to its social and economic impact, driving the need for risk prediction systems to identify at-risk students before enrollment. We explore the accuracy of such systems in the context of higher education by predicting degree completion before admission, with potential applications for prioritizing admissions decisions. Using a large-scale dataset from Danish higher education admissions, we demonstrate that advanced sequential AI models offer more precise and fair predictions compared to current practices that rely on either high school grade point averages or human judgment. These models not only improve accuracy but also outperform simpler models, even when the simpler models use protected sociodemographic attributes. Importantly, our predictions reveal how certain student profiles are better matched with specific programs and fields, suggesting potential efficiency and welfare gains in public policy. We estimate that even the use of simple AI models to guide admissions decisions, particularly in response to a newly implemented nationwide policy reducing admissions by 10 percent, could yield significant economic benefits. However, this improvement would come at the cost of reduced human oversight and lower transparency. Our findings underscore both the potential and challenges of incorporating advanced AI into educational policymaking.",
+    "summary": "A study using Danish college admissions data shows that AI models outperform traditional methods and human judgment in predicting student degree completion, offering potential economic benefits by optimizing admissions; however, this improved accuracy comes at the cost of reduced human oversight and transparency."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/cLfsabkCPtieJ5LoK/investigating-bias-representations-in-llms-via-activation",
+    "author": "DawnLu",
+    "title": "Investigating Bias Representations in LLMs via Activation Steering",
+    "published_date": "2024-01-15",
+    "summary": "This research uses activation steering to assess the societal biases of the Llama-2-7b-chat LLM, finding that while the model exhibits gender bias in unsteered responses, attempts to further steer it towards biased responses using contrastive activation addition resulted in the model refusing to answer, suggesting potential robustness against certain forms of bias manipulation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.08157v1",
+    "title": "Algorithmic Pluralism: A Structural Approach To Equal Opportunity",
+    "published_date": "2023-05-14",
+    "abstract": "We present a structural approach toward achieving equal opportunity in systems of algorithmic decision-making called algorithmic pluralism. Algorithmic pluralism describes a state of affairs in which no set of algorithms severely limits access to opportunity, allowing individuals the freedom to pursue a diverse range of life paths. To argue for algorithmic pluralism, we adopt Joseph Fishkin's theory of bottlenecks, which focuses on the structure of decision-points that determine how opportunities are allocated. The theory contends that each decision-point or “bottleneck'' limits access to opportunities with some degree of severity and legitimacy. We extend Fishkin's structural viewpoint and use it to reframe existing systemic concerns about equal opportunity in algorithmic decision-making, such as patterned inequality and algorithmic monoculture. In proposing algorithmic pluralism, we argue for the urgent priority of alleviating severe bottlenecks in algorithmic-decision-making. We contend that there must be a pluralism of opportunity available to many different individuals in order to promote equal opportunity in a systemic way. We further show how this framework has several implications for system design and regulation through current debates about equal opportunity in algorithmic hiring.",
+    "citation_count": 6,
+    "summary": "Algorithmic pluralism advocates for diverse algorithmic systems to prevent severe bottlenecks in opportunity allocation, thereby promoting equal opportunity by mitigating patterned inequality and algorithmic monoculture. This approach focuses on the structure of decision-making points to ensure access to a range of life paths."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "The article explores applying game theory to AI development within organizations, highlighting its limitations in complex bureaucratic settings. It argues that even with advanced AI, human-AI collaboration within a bureaucratic structure, leveraging comparative advantage and specialized roles, remains crucial for efficient goal achievement."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and long version, catalog AI safety research papers, organizations, and researchers to help machine learning experts quickly assess potential areas of contribution based on their existing skills and interests. The resource aims to lower the barrier to entry for researchers interested in transitioning into AI safety research."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.08451.pdf",
+    "title": "Allocating Opportunities in a Dynamic Model of Intergenerational Mobility",
+    "published_date": "2021-01-21",
+    "abstract": "Opportunities such as higher education can promote intergenerational mobility, leading individuals to achieve levels of socioeconomic status above that of their parents. We develop a dynamic model for allocating such opportunities in a society that exhibits bottlenecks in mobility; the problem of optimal allocation reflects a trade-off between the benefits conferred by the opportunities in the current generation and the potential to elevate the socioeconomic status of recipients, shaping the composition of future generations in ways that can benefit further from the opportunities. We show how optimal allocations in our model arise as solutions to continuous optimization problems over multiple generations, and we find in general that these optimal solutions can favor recipients of low socioeconomic status over slightly higher-performing individuals of high socioeconomic status --- a form of socioeconomic affirmative action that the society in our model discovers in the pursuit of purely payoff-maximizing goals. We characterize how the structure of the model can lead to either temporary or persistent affirmative action, and we consider extensions of the model with more complex processes modulating the movement between different levels of socioeconomic status.",
+    "citation_count": 16,
+    "summary": "This paper models optimal allocation of opportunities (e.g., higher education) to maximize intergenerational socioeconomic mobility, finding that purely payoff-maximizing solutions often favor affirmative action, prioritizing low socioeconomic status individuals even over slightly higher-performing individuals from higher socioeconomic backgrounds. The model explores conditions leading to temporary or persistent affirmative action policies."
+  },
+  {
+    "url": "https://arxiv.org/abs/2107.00593",
+    "title": "Disaggregated Interventions to Reduce Inequality",
+    "published_date": "2021-07-01",
+    "abstract": "A significant body of research in the data sciences considers unfair discrimination against social categories such as race or gender that could occur or be amplified as a result of algorithmic decisions. Simultaneously, real-world disparities continue to exist, even before algorithmic decisions are made. In this work, we draw on insights from the social sciences brought into the realm of causal modeling and constrained optimization, and develop a novel algorithmic framework for tackling pre-existing real-world disparities. The purpose of our framework, which we call the “impact remediation framework,” is to measure real-world disparities and discover the optimal intervention policies that could help improve equity or access to opportunity for those who are underserved with respect to an outcome of interest. We develop a disaggregated approach to tackling pre-existing disparities that relaxes the typical set of assumptions required for the use of social categories in structural causal models. Our approach flexibly incorporates counterfactuals and is compatible with various ontological assumptions about the nature of social categories. We demonstrate impact remediation with a hypothetical case study and compare our disaggregated approach to an existing state-of-the-art approach, comparing its structure and resulting policy recommendations. In contrast to most work on optimal policy learning, we explore disparity reduction itself as an objective, explicitly focusing the power of algorithms on reducing inequality.",
+    "citation_count": 11,
+    "summary": "This paper introduces an \"impact remediation framework\" using causal modeling and constrained optimization to identify optimal interventions for reducing pre-existing real-world inequalities, offering a disaggregated approach that relaxes assumptions of traditional social category-based models. The framework prioritizes disparity reduction as its objective, contrasting with typical optimal policy learning approaches."
+  },
+  {
+    "url": "https://arxiv.org/abs/2101.06060v1",
+    "title": "The Challenge of Value Alignment: from Fairer Algorithms to AI Safety",
+    "published_date": "2021-01-15",
+    "abstract": "This paper addresses the question of how to align AI systems with human values and situates it within a wider body of thought regarding technology and value. Far from existing in a vacuum, there has long been an interest in the ability of technology to 'lock-in' different value systems. There has also been considerable thought about how to align technologies with specific social values, including through participatory design-processes. In this paper we look more closely at the question of AI value alignment and suggest that the power and autonomy of AI systems gives rise to opportunities and challenges in the domain of value that have not been encountered before. Drawing important continuities between the work of the fairness, accountability, transparency and ethics community, and work being done by technical AI safety researchers, we suggest that more attention needs to be paid to the question of 'social value alignment' - that is, how to align AI systems with the plurality of values endorsed by groups of people, especially on the global level.",
+    "citation_count": 34,
+    "summary": "This paper argues that aligning AI with human values requires addressing both technical AI safety and broader societal concerns, emphasizing the need for \"social value alignment\" to handle the unique challenges posed by AI's autonomy and global impact. It connects existing work on fairness and accountability with the emerging field of AI safety."
+  },
+  {
+    "url": "https://arxiv.org/abs/2110.15310v1",
+    "title": "On the Fairness of Machine-Assisted Human Decisions",
+    "published_date": "2021-10-28",
+    "abstract": "When machine-learning algorithms are deployed in high-stakes decisions, we want to ensure that their deployment leads to fair and equitable outcomes. This concern has motivated a fast-growing literature that focuses on diagnosing and addressing disparities in machine predictions. However, many machine predictions are deployed to assist in decisions where a human decision-maker retains the ultimate decision authority. In this article, we therefore consider how properties of machine predictions affect the resulting human decisions. We show in a formal model that the inclusion of a biased human decision-maker can revert common relationships between the structure of the algorithm and the qualities of resulting decisions. Specifically, we document that excluding information about protected groups from the prediction may fail to reduce, and may even increase, ultimate disparities. While our concrete results rely on specific assumptions about the data, algorithm, and decision-maker, they show more broadly that any study of critical properties of complex decision systems, such as the fairness of machine-assisted human decisions, should go beyond focusing on the underlying algorithmic predictions in isolation.",
+    "citation_count": 14,
+    "summary": "This paper argues that fairness analyses of machine-learning algorithms used to assist human decision-making must consider the human element, as biased human decision-makers can negate the intended effects of algorithmic modifications aimed at improving fairness, potentially even exacerbating existing disparities. Focusing solely on the algorithm's predictions is insufficient for evaluating the overall fairness of the system."
+  },
+  {
+    "url": "https://arxiv.org/abs/2110.14419v2",
+    "title": "Toward a Theory of Justice for Artificial Intelligence",
+    "published_date": "2021-10-27",
+    "abstract": "Abstract This essay explores the relationship between artificial intelligence and principles of distributive justice. Drawing upon the political philosophy of John Rawls, it holds that the basic structure of society should be understood as a composite of sociotechnical systems, and that the operation of these systems is increasingly shaped and influenced by AI. Consequently, egalitarian norms of justice apply to the technology when it is deployed in these contexts. These norms entail that the relevant AI systems must meet a certain standard of public justification, support citizens' rights, and promote substantively fair outcomes, something that requires particular attention to the impact they have on the worst-off members of society.",
+    "citation_count": 40,
+    "summary": "This essay argues that principles of distributive justice, particularly Rawls's theory, should apply to artificial intelligence systems as they increasingly shape societal structures. This necessitates AI systems meeting standards of public justification, upholding citizens' rights, and promoting fair outcomes, especially for the most disadvantaged."
+  }
+]

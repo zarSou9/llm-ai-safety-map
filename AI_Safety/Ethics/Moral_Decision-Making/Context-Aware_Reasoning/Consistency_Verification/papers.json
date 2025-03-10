@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/T9i9gX58ZckHx6syw/representation-tuning",
+    "author": "Christopher Ackerman",
+    "title": "Representation Tuning",
+    "published_date": "2024-06-27",
+    "summary": "This research investigates improving the honesty of a large language model (LLM) by fine-tuning activation vectors associated with honesty, demonstrating that this method is more effective and robust than online steering or token-based fine-tuning. The approach involves identifying and then fine-tuning these vectors within the model's residual stream, resulting in a more consistently honest output."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/QGaioedKBJE39YJeD/continuous-adversarial-quality-assurance-extending-rlhf-and",
+    "author": "Benaya Koren",
+    "title": "Continuous Adversarial Quality Assurance: Extending RLHF and Constitutional AI",
+    "published_date": "2023-07-08",
+    "summary": "The article proposes improving AI alignment by enhancing existing methods like Constitutional AI and RLHF. It focuses on strengthening the \"flow\" of human values into the model through continuous adversarial testing of each step in the alignment process and by explicitly modeling the relationships between diverse sources of human values."
+  },
+  {
+    "title": "A Multi-Agent Approach to Combine Reasoning and Learning for an Ethical Behavior",
+    "abstract": "The recent field of Machine Ethics is experiencing rapid growth to answer the societal need for Artificial Intelligence (AI) algorithms imbued with ethical considerations, such as benevolence toward human users and actors. Several approaches already exist for this purpose, mostly either by reasoning over a set of predefined ethical principles (Top-Down), or by learning new principles (Bottom-Up). While both methods have their own advantages and drawbacks, only few works have explored hybrid approaches, such as using symbolic rules to guide the learning process for instance, combining the advantages of each. This paper draws upon existing works to propose a novel hybrid method using symbolic judging agents to evaluate the ethics of learning agents' behaviors, and accordingly improve their ability to ethically behave in dynamic multi-agent environments. Multiple benefits ensue from this separation between judging and learning agents: agents can evolve (or be updated by human designers) separately, benefiting from co-construction processes; judging agents can act as accessible proxies for non-expert human stakeholders or regulators; and finally, multiple points of view (one per judging agent) can be adopted to judge the behavior of the same agent, which produces a richer feedback. Our proposed approach is applied to an energy distribution problem, in the context of a Smart Grid simulator, with continuous and multi-dimensional states and actions. The experiments and results show the ability of learning agents to correctly adapt their behaviors to comply with the judging agents' rules, including when rules evolve over time.",
+    "published_date": "2021-07-21",
+    "citation_count": 7,
+    "url": "https://dl.acm.org/doi/10.1145/3461702.3462515",
+    "summary": "This paper proposes a multi-agent system combining top-down (reasoning-based) and bottom-up (learning-based) approaches to ethical AI, using symbolic judging agents to evaluate and improve the ethical behavior of learning agents in dynamic environments. The system's modularity allows for separate evolution of agents and facilitates stakeholder involvement, enabling richer ethical feedback through multiple judging perspectives."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/uyvnjaRaKdGXoKrv7/from-language-to-ethics-by-automated-reasoning",
+    "author": "Michele Campolo",
+    "title": "From language to ethics by automated reasoning",
+    "published_date": "2021-11-21",
+    "summary": "The author proposes aligning AI by replicating the factors driving ethical behavior in humans (e.g., empathy, theory of mind, moral reasoning) within an AI system. The success of this approach depends on whether morality is ultimately subjective or objective; if objective, aligned AIs should converge on similar ethical conclusions."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/Tp3ryR4AxY56ctGh2/p/sdxZdGFtAwHGFGKhg",
+    "author": "abergal, Nick_Beckstead, Owain_Evans",
+    "title": "Truthful and honest AI",
+    "published_date": "2021-10-29",
+    "summary": "The article proposes research into creating \"truthful\" AI (avoiding falsehoods) and \"honest\" AI (reporting only beliefs), defining these concepts, developing measurement benchmarks, and creating techniques to improve these traits in AI models while maintaining performance, ultimately aiming to mitigate risks and enhance societal benefits of advanced AI systems."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/vLArRpNdkex68oem8",
+    "author": "Alex Turner",
+    "title": "Thoughts on Corrigibility - AI Alignment Forum",
+    "published_date": "2021-11-24",
+    "summary": "The author presents a collection of writings exploring various aspects of corrigibility, acknowledging these works as interconnected components of a developing alignment framework. These writings, while related, lack a unified narrative structure."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/LBwpubeZSi3ottfjs/aisc5-retrospective-mechanisms-for-avoiding-tragedy-of-the",
+    "author": "Ariel Kwiatkowski, Quinn, bengr",
+    "title": "AISC5 Retrospective: Mechanisms for Avoiding Tragedy of the Commons in Common Pool Resource Problems",
+    "published_date": "2021-09-27",
+    "summary": "This paper investigates mitigating the tragedy of the commons using a reputation system in a simulated multi-agent environment. The authors explore whether a transparent reputation system can incentivize cooperation and sustainable resource use, avoiding the undesirable outcome of violence, to achieve higher overall rewards."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/tDDDZ2nZdvyziwSvv/an-113-checking-the-ethical-intuitions-of-large-language",
+    "author": "Rohin Shah",
+    "title": "[AN #113]: Checking the ethical intuitions of large language models",
+    "published_date": "2020-08-19",
+    "summary": "The ETHICS dataset aims to improve AI alignment by training language models to understand and apply basic normative principles, focusing on uncontroversial areas like impartiality and commonsense morality before tackling more complex ethical dilemmas. While the dataset's impact on existential risk reduction is uncertain, it represents a significant step towards building AI systems that better understand and adhere to human values."
+  }
+]

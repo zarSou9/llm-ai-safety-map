@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/g5XLHKyApAFXi3fso/president-biden-issues-executive-order-on-safe-secure-and",
+    "author": "Tristan Williams",
+    "title": "President Biden Issues Executive Order on Safe, Secure, and Trustworthy Artificial Intelligence",
+    "published_date": "2023-10-30",
+    "summary": "The U.S. government issued a sweeping executive order addressing AI risks, mandating safety testing transparency for high-risk AI systems, establishing standards for AI safety and security, and addressing AI's potential for misuse in areas like biological engineering, fraud, and discrimination."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "Biden's October 30, 2023 executive order on AI mandates various federal agencies to submit reports and implement plans regarding AI development, deployment, workforce needs, and risk mitigation, with deadlines ranging from 30 to 90 days after the order's publication. Many further actions are required throughout the coming year."
+  },
+  {
+    "title": "Software-driven Security Attacks: From Vulnerability Sources to Durable Hardware Defenses",
+    "abstract": "There is an increasing body of work in the area of hardware defenses for software-driven security attacks. A significant challenge in developing these defenses is that the space of security vulnerabilities and exploits is large and not fully understood. This results in specific point defenses that aim to patch particular vulnerabilities. While these defenses are valuable, they are often blindsided by fresh attacks that exploit new vulnerabilities. This article aims to address this issue by suggesting ways to make future defenses more durable based on an organization of security vulnerabilities as they arise throughout the program life cycle. We classify these vulnerability sources through programming, compilation, and hardware realization, and we show how each source introduces unintended states and transitions into the implementation. Further, we show how security exploits gain control by moving the implementation to an unintended state using knowledge of these sources and how defenses work to prevent these transitions. This framework of analyzing vulnerability sources, exploits, and defenses provides insights into developing durable defenses that could defend against broader categories of exploits. We present illustrative case studies of four important attack genealogies—showing how they fit into the presented framework and how the sophistication of the exploits and defenses have evolved over time, providing us insights for the future.",
+    "published_date": "2021-08-01",
+    "citation_count": 3,
+    "url": "https://dl.acm.org/doi/10.1145/3456299",
+    "summary": "This paper proposes a framework for creating more durable hardware defenses against software-driven security attacks by classifying vulnerability sources across the program lifecycle (programming, compilation, hardware realization), analyzing how exploits leverage these sources, and illustrating how improved defenses can prevent unintended state transitions. The framework is supported by case studies of four attack genealogies, revealing insights for developing broader, more resilient security measures."
+  },
+  {
+    "title": "Code Renewability for Native Software Protection",
+    "abstract": "Software protection aims at safeguarding assets embedded in software by preventing and delaying reverse engineering and tampering attacks. This article presents an architecture and supporting tool flow to renew parts of native applications dynamically. Renewed and diversified code and data belonging to either the original application or to linked-in protections are delivered from a secure server to a client on demand. This results in frequent changes to the software components when they are under attack, thus making attacks harder. By supporting various forms of diversification and renewability, novel protection combinations become available and existing combinations become stronger. The prototype implementation is evaluated on several industrial use cases.",
+    "published_date": "2020-03-02",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3404891",
+    "summary": "This paper introduces an architecture and tool flow for dynamically renewing parts of native applications, delivering updated code and data from a server to thwart reverse engineering and tampering attacks. The approach uses diversified code and data to enhance existing software protection mechanisms and create novel combinations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/523kTgaa439L7fihJ/what-will-quantum-computers-be-used-for",
+    "title": "What will quantum computers be used for?",
+    "published_date": "2020-01-01",
+    "summary": "Early electronic computers, like ENIAC, had niche uses far removed from modern applications; similarly, current quantum computing applications are highly specialized, raising questions about future accessibility and everyday uses, with potential impact speculated to include molecular nanotechnology."
+  },
+  {
+    "title": "CloudProtect - A Cloud-based Software Protection Service",
+    "abstract": "Protecting software from illegal access, intentional modification or reverse engineering is an inherently difficult practical problem involving code obfuscation techniques and real-time cryptographic protection of code. In traditional systems a secure element (the \"dongle\") is used to protect software. However, this approach suffers from several technical and economical drawbacks such as the dongle being lost or broken. We present a system that provides such dongles as a cloud service, and more importantly, provides the required cryptographic material to control access to software functionality in real-time. This system is developed as part of an ongoing nationally funded research project and is now entering a first trial stage with stakeholders from different industrial sectors.",
+    "published_date": "2019-05-28",
+    "url": "https://dl.acm.org/doi/10.1145/3322431.3326447",
+    "summary": "CloudProtect offers a cloud-based alternative to traditional software dongles, providing real-time cryptographic protection against unauthorized access and modification without the physical limitations of hardware dongles. This system is currently undergoing trials with various industries."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24",
+    "summary": "This article explores the mathematical challenges inherent in blockchain technology and proposes using mechanism design, such as quadratic voting and funding, to address cooperation and philanthropic issues within the blockchain context."
+  },
+  {
+    "title": "Universal Trusted Execution Environments for Securing SDN/NFV Operations",
+    "abstract": "With SDN/NFV, the telecom industry embraces operational flexibility and cost optimization, while facing new risks from off-premise cloud computing, known as introspection by malicious operators. Introspection is identified as a serious risk only by the IT industry in general when considering cloud operation. To mitigate it, processor vendors have invested in the last decade to design Trusted Execution Environments (TEEs) plugged into their processor architectures. TEEs bring a quantum hardware-level security higher than any software-based security. They are all essentially aimed at protecting data and code when executed and processed in the cloud or in untrusted environment. In this paper, we emphasize on the blocking factors for the use of TEEs today: processor market fragmentation, major architectural and design deviations between TEEs from various CPU vendors and finally, a relatively complex enablement of these TEE technologies for non-security experts. We describe a code interpretation solution to break those blocking factors by providing a universal abstraction layer for TEEs. The paper gives a conceptual blueprint of a solution that enables Intel's SGX and AMD's SEV, defined as the most contemplated candidates in this paper for SDN/NFV or 5G deployment. Our study presents the key challenges and advanced functionalities we view as essential for meeting key SDN/NFV requirements and which are deploy ability, software performance and easy setup. Innovative directions are given to deal efficiently with these upcoming requirements.",
+    "published_date": "2018-08-27",
+    "citation_count": 8,
+    "url": "https://dl.acm.org/doi/10.1145/3230833.3233256",
+    "summary": "This paper addresses the challenge of securing Software-Defined Networking/Network Functions Virtualization (SDN/NFV) operations in untrusted environments by proposing a universal abstraction layer for Trusted Execution Environments (TEEs) like Intel SGX and AMD SEV, overcoming current limitations of vendor fragmentation and complexity. The solution aims to improve deployability, performance, and ease of setup for non-security experts."
+  }
+]

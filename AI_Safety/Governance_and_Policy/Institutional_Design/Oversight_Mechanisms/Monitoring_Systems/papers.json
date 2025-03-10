@@ -1,0 +1,62 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.13138",
+    "title": "Visibility into AI Agents",
+    "published_date": "2024-01-23",
+    "abstract": "Increased delegation of commercial, scientific, governmental, and personal activities to AI agents—systems capable of pursuing complex goals with limited supervision—may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.",
+    "citation_count": 12,
+    "summary": "This paper examines methods to increase transparency (\"visibility\") in the use of AI agents, focusing on agent identifiers, real-time monitoring, and activity logging, while considering their implementation challenges, privacy implications, and impact on power dynamics across various deployment contexts. The authors propose these measures as crucial steps towards responsible AI governance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.17114",
+    "title": "Decentralized Governance of Autonomous AI Agents",
+    "published_date": "2024-12-22",
+    "abstract": "Autonomous AI agents present transformative opportunities and significant governance challenges. Existing frameworks, such as the EU AI Act and the NIST AI Risk Management Framework, fall short of addressing the complexities of these agents, which are capable of independent decision-making, learning, and adaptation. To bridge these gaps, we propose the ETHOS (Ethical Technology and Holistic Oversight System) framework, a decentralized governance (DeGov) model leveraging Web3 technologies, including blockchain, smart contracts, and decentralized autonomous organizations (DAOs). ETHOS establishes a global registry for AI agents, enabling dynamic risk classification, proportional oversight, and automated compliance monitoring through tools like soulbound tokens and zero-knowledge proofs. Furthermore, the framework incorporates decentralized justice systems for transparent dispute resolution and introduces AI specific legal entities to manage limited liability, supported by mandatory insurance to ensure financial accountability and incentivize ethical design. By integrating philosophical principles of rationality, ethical grounding, and goal alignment, ETHOS aims to create a robust research agenda for promoting trust, transparency, and participatory governance. This innovative framework offers a scalable and inclusive strategy for regulating AI agents, balancing innovation with ethical responsibility to meet the demands of an AI-driven future.",
+    "summary": "The ETHOS framework proposes a decentralized governance model for autonomous AI agents using Web3 technologies to enable dynamic risk classification, automated compliance, and transparent dispute resolution. This approach aims to balance AI innovation with ethical responsibility through a global registry, AI-specific legal entities, and incentivized ethical design."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.08981",
+    "title": "Reliability, Resilience and Human Factors Engineering for Trustworthy AI Systems",
+    "published_date": "2024-11-13",
+    "abstract": "As AI systems become integral to critical operations across industries and services, ensuring their reliability and safety is essential. We offer a framework that integrates established reliability and resilience engineering principles into AI systems. By applying traditional metrics such as failure rate and Mean Time Between Failures (MTBF) along with resilience engineering and human reliability analysis, we propose an integrate framework to manage AI system performance, and prevent or efficiently recover from failures. Our work adapts classical engineering methods to AI systems and outlines a research agenda for future technical studies. We apply our framework to a real-world AI system, using system status data from platforms such as openAI, to demonstrate its practical applicability. This framework aligns with emerging global standards and regulatory frameworks, providing a methodology to enhance the trustworthiness of AI systems. Our aim is to guide policy, regulation, and the development of reliable, safe, and adaptable AI technologies capable of consistent performance in real-world environments.",
+    "citation_count": 1,
+    "summary": "This paper presents a framework integrating reliability and resilience engineering principles into AI system design, using traditional metrics and human factors analysis to improve performance, prevent failures, and enable efficient recovery, demonstrating its application with real-world data and aligning with emerging standards."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.07985",
+    "title": "Games for AI Control: Models of Safety Evaluations of AI Deployment Protocols",
+    "published_date": "2024-09-12",
+    "abstract": "To evaluate the safety and usefulness of deployment protocols for untrusted AIs, AI Control uses a red-teaming exercise played between a protocol designer and an adversary. This paper introduces AI-Control Games, a formal decision-making model of the red-teaming exercise as a multi-objective, partially observable, stochastic game. We also introduce methods for finding optimal protocols in AI-Control Games, by reducing them to a set of zero-sum partially observable stochastic games. We apply our formalism to model, evaluate and synthesise protocols for deploying untrusted language models as programming assistants, focusing on Trusted Monitoring protocols, which use weaker language models and limited human assistance. Finally, we demonstrate the utility of our formalism by showcasing improvements over empirical studies in existing settings, evaluating protocols in new settings, and analysing how modelling assumptions affect the safety and usefulness of protocols.",
+    "citation_count": 2,
+    "summary": "This paper presents AI-Control Games, a formal model representing the safety evaluation of AI deployment protocols as a multi-objective game between a protocol designer and an adversary. The model facilitates protocol optimization and analysis, demonstrated through applications to language model deployment and comparisons with existing empirical studies."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, examines AI model registries—centralized databases tracking AI systems for governmental oversight. These registries, drawing precedents from pharmaceutical regulations, vary widely in their requirements and accessibility across jurisdictions like the US, EU, and China, serving as a foundational tool for targeted AI governance."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for third-party testing of large-scale AI systems to mitigate societal harm, arguing that a robust testing regime, involving industry, government, and academia, is crucial for managing the risks of powerful AI models while fostering innovation. This approach aims to build trust, prevent misuse, and inform future AI policy."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.15187.pdf",
+    "title": "Monitoring Machine Learning Models: Online Detection of Relevant Deviations",
+    "published_date": "2023-09-26",
+    "abstract": "Machine learning models are essential tools in various domains, but their performance can degrade over time due to changes in data distribution or other factors. On one hand, detecting and addressing such degradations is crucial for maintaining the models' reliability. On the other hand, given enough data, any arbitrary small change of quality can be detected. As interventions, such as model re-training or replacement, can be expensive, we argue that they should only be carried out when changes exceed a given threshold. We propose a sequential monitoring scheme to detect these relevant changes. The proposed method reduces unnecessary alerts and overcomes the multiple testing problem by accounting for temporal dependence of the measured model quality. Conditions for consistency and specified asymptotic levels are provided. Empirical validation using simulated and real data demonstrates the superiority of our approach in detecting relevant changes in model quality compared to benchmark methods. Our research contributes a practical solution for distinguishing between minor fluctuations and meaningful degradations in machine learning model performance, ensuring their reliability in dynamic environments.",
+    "citation_count": 2,
+    "summary": "This paper introduces a sequential monitoring scheme for detecting significant performance degradation in machine learning models, mitigating the problem of false positives by considering temporal dependencies and only triggering interventions when changes exceed a predefined threshold. The method's effectiveness is demonstrated through simulations and real-world data, outperforming existing benchmark approaches."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that \"safe\" AGI development requires a top-down design integrating technical, social, and political considerations, and utilizing diverse theoretical perspectives rather than focusing on a single, isolated approach."
+  }
+]

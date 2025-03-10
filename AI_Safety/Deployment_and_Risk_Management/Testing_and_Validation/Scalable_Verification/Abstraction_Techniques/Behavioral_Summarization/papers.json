@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2408.14074",
+    "title": "Abstraction Engineering",
+    "published_date": "2024-08-26",
+    "abstract": "Modern software-based systems operate under rapidly changing conditions and face ever-increasing uncertainty. In response, systems are increasingly adaptive and reliant on artificial-intelligence methods. In addition to the ubiquity of software with respect to users and application areas (e.g., transportation, smart grids, medicine, etc.), these high-impact software systems necessarily draw from many disciplines for foundational principles, domain expertise, and workflows. Recent progress with lowering the barrier to entry for coding has led to a broader community of developers, who are not necessarily software engineers. As such, the field of software engineering needs to adapt accordingly and offer new methods to systematically develop high-quality software systems by a broad range of experts and non-experts. This paper looks at these new challenges and proposes to address them through the lens of Abstraction. Abstraction is already used across many disciplines involved in software development -- from the time-honored classical deductive reasoning and formal modeling to the inductive reasoning employed by modern data science. The software engineering of the future requires Abstraction Engineering -- a systematic approach to abstraction across the inductive and deductive spaces. We discuss the foundations of Abstraction Engineering, identify key challenges, highlight the research questions that help address these challenges, and create a roadmap for future research."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2204.03536.pdf",
+    "title": "Abstracting Noisy Robot Programs",
+    "published_date": "2022-04-07",
+    "abstract": "Abstraction is a commonly used process to represent some low-level system by a more coarse specification with the goal to omit unnecessary details while preserving important aspects. While recent work on abstraction in the situation calculus has focused on non-probabilistic domains, we describe an approach to abstraction of probabilistic and dynamic systems. Based on a variant of the situation calculus with probabilistic belief, we define a notion of bisimulation that allows to abstract a detailed probabilistic basic action theory with noisy actuators and sensors by a possibly non-stochastic basic action theory. By doing so, we obtain abstract Golog programs that omit unnecessary details and which can be translated back to a detailed program for actual execution. This simplifies the implementation of noisy robot programs, opens up the possibility of using non-stochastic reasoning methods (e.g., planning) on probabilistic problems, and provides domain descriptions that are more easily understandable and explainable.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.04910.pdf",
+    "title": "Structure-Behavior Coalescence Process Algebra - Toward a Unified View of the System in Model-Based Systems Engineering",
+    "published_date": "2021-11-09",
+    "abstract": "In Model-Based Systems Engineering (MBSE), the Systems Modeling Language (SysML) specification includes a metamodel that defines the language concepts and a user model that defines how the language concepts are represented. In SysML, an important use of metamodel is to provide an integrated semantic framework that every diagram in the user model can be projected as a view of the metamodel. However, most existing SysML metamodels lack such capability of being a basis for unification of different views of a system. To overcome the shortcomings of the current SysML metamodel approaches, we developed Channel-Based Multi-Queue Structure-Behavior Coalescence Process Algebra (C-M-SBC-PA), which provides an integrated semantic framework that is able to integrate structural constructs with behavioral constructs. Using C-M-SBC-PA as the metamodel of SysML, each diagram in the user model can be projected as a view of the C-M-SBC-PA metamodel."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.07117.pdf",
+    "title": "A Program Synthesis Approach for Adding Architectural Tactics to An Existing Code Base",
+    "published_date": "2021-08-16",
+    "abstract": "Automatically constructing a program based on given specifications has been studied for decades. Despite the advances in the field of Program Synthesis, the current approaches suffer from a twofold issue: highly relying on the programmer for providing the specifications, and leaving the task of incorporating the synthesized code in an existing code base to program developers. Due to its program-wide effects, synthesizing an architectural tactic and reusing it in a program is even more challenging. Architectural tactics need to be synthesized based on the context of different locations of the program, broken down to smaller pieces, and added to corresponding locations in the code. Moreover, each piece needs to establish correct data- and control-dependencies to its surrounding environment as well as to the other synthesized pieces. This is an error-prone and challenging task, especially for novice program developers. In this paper, we introduce a novel program synthesis approach that synthesizes and adds architectural tactics to an existing code base.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.07919.pdf",
+    "title": "An Expressiveness Hierarchy of Behavior Trees and Related Architectures",
+    "published_date": "2021-04-16",
+    "abstract": "In this letter, we provide a formal framework for comparing the expressive power of Behavior Trees (BTs) to other action selection architectures. Taking inspiration from the analogous comparisons of structural programming methodologies, we formalise the concept of 'expressiveness'. This leads us to an expressiveness hierarchy of control architectures, which includes BTs, Decision Trees (DTs), Teleo-reactive Programs (TRs) and Finite State Machines (FSMs). By distinguishing between BTs with auxiliary variables and those without, we demonstrate the existence of a trade-off in BT design between readability and expressiveness. We discuss what this means for BTs in practice.",
+    "citation_count": 18
+  },
+  {
+    "url": "https://arxiv.org/abs/2003.01149v3",
+    "title": "Decision-Making for Automated Vehicles Using a Hierarchical Behavior-Based Arbitration Scheme",
+    "published_date": "2020-03-02",
+    "abstract": "Behavior planning and decision-making are some of the biggest challenges for highly automated systems. A fully automated vehicle (AV) is faced with numerous tactical and strategical choices. Most state-of-the-art AV platforms are implementing tactical and strategical behavior generation using finite state machines. However, these usually result in poor explainability, maintainability and scalability. Research in robotics has raised many architectures to mitigate these problems, most interestingly behavior-based systems and hybrid derivatives. Inspired by these approaches, we propose a hierarchical behavior-based architecture for tactical and strategical behavior generation in automated driving. It is a generalizing and scalable decision-making framework, utilizing modular behavior blocks to compose more complex behaviors in a bottom-up approach. The system is capable of combining a variety of scenario- and methodology-specific solutions, like POMDPs, RRT* or learning-based behavior, into one understandable and traceable architecture. We extend the hierarchical behavior-based arbitration concept to address scenarios where multiple behavior options are applicable, but have no clear priority among each other. Then, we formulate the behavior generation stack for automated driving in urban and highway environments, incorporating parking and emergency behaviors as well. Finally, we illustrate our design in an explanatory evaluation.",
+    "citation_count": 7
+  }
+]

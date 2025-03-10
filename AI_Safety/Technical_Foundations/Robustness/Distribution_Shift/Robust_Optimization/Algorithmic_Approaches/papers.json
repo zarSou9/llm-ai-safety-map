@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/JDrxA3vwZAKZfmShz/degeneracies-are-sticky-for-sgd",
+    "author": "Guillaume Corlouer; Nicolas Macé",
+    "title": "Degeneracies are sticky for SGD",
+    "published_date": "2024-06-16"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/PQu2YPtcm2dQLSsu9/the-unreasonable-effectiveness-of-deep-learning",
+    "author": "Richard_Ngo",
+    "title": "The Unreasonable Effectiveness of Deep Learning",
+    "published_date": "2018-09-30"
+  },
+  {
+    "title": "Robust optimization in the presence of uncertainty",
+    "abstract": "We study optimization in the presence of uncertainty such as noise in measurements, and advocate a novel approach of tackling it. The main difference to any existing approach is that we do not assume any knowledge about the nature of the uncertainty (such as for instance a probability distribution). Instead, we are given several instances of the same optimization problem as input, and, assuming they are typical w.r.t. the uncertainty, we make use of it in order to compute a solution that is good for the sample instances as well as for future (unknown) typical instances.\n We demonstrate our approach for the case of two typical input instances. We first propose a measure of similarity of instances with respect to an objective. This concept allows us to assess whether instances are indeed typical. Based on this concept, we then choose a solution randomly among all solutions that are near-optimum for both instances. We show that the exact notion of near-optimum is intertwined with the proposed measure of similarity. Furthermore, we will show that our measure of similarity also allows us to derive formal statements about the expected quality of the computed solution: If the given instances are not similar, or are too noisy, our approach will detect this. We demonstrate for a few optimization problems and real world data that our approach works well not only in theory, but also in practice.",
+    "published_date": "2013-01-09",
+    "citation_count": 22,
+    "url": "https://dl.acm.org/doi/10.1145/2422436.2422491"
+  },
+  {
+    "title": "Cutting-set methods for robust convex optimization with pessimizing oracles",
+    "abstract": "We consider a general worst-case robust convex optimization problem, with arbitrary dependence on the uncertain parameters, which are assumed to lie in some given set of possible values. We describe a general method for solving such a problem, which alternates between optimization and worst-case analysis. With exact worst-case analysis, the method is shown to converge to a robust optimal point. With approximate worst-case analysis, which is the best we can do in many practical cases, the method seems to work very well in practice, subject to the errors in our worst-case analysis. We give variations on the basic method that can give enhanced convergence, reduce data storage, or improve other algorithm properties. Numerical simulations suggest that the method finds a quite robust solution within a few tens of steps; using warm-start techniques in the optimization steps reduces the overall effort to a modest multiple of solving a nominal problem, ignoring the parameter variation. The method is illustrated with several application examples.",
+    "published_date": "2009-06-01",
+    "citation_count": 163,
+    "url": "https://www.tandfonline.com/doi/abs/10.1080/10556780802712889"
+  }
+]

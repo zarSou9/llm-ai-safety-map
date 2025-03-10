@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2412.17114",
+    "title": "Decentralized Governance of Autonomous AI Agents",
+    "published_date": "2024-12-22",
+    "abstract": "Autonomous AI agents present transformative opportunities and significant governance challenges. Existing frameworks, such as the EU AI Act and the NIST AI Risk Management Framework, fall short of addressing the complexities of these agents, which are capable of independent decision-making, learning, and adaptation. To bridge these gaps, we propose the ETHOS (Ethical Technology and Holistic Oversight System) framework, a decentralized governance (DeGov) model leveraging Web3 technologies, including blockchain, smart contracts, and decentralized autonomous organizations (DAOs). ETHOS establishes a global registry for AI agents, enabling dynamic risk classification, proportional oversight, and automated compliance monitoring through tools like soulbound tokens and zero-knowledge proofs. Furthermore, the framework incorporates decentralized justice systems for transparent dispute resolution and introduces AI specific legal entities to manage limited liability, supported by mandatory insurance to ensure financial accountability and incentivize ethical design. By integrating philosophical principles of rationality, ethical grounding, and goal alignment, ETHOS aims to create a robust research agenda for promoting trust, transparency, and participatory governance. This innovative framework offers a scalable and inclusive strategy for regulating AI agents, balancing innovation with ethical responsibility to meet the demands of an AI-driven future.",
+    "summary": "The ETHOS framework proposes a decentralized governance model for autonomous AI agents using Web3 technologies, aiming to address current regulatory shortcomings by establishing a global registry, automated compliance monitoring, and decentralized dispute resolution mechanisms. This approach seeks to balance AI innovation with ethical responsibility through transparency, accountability, and participatory governance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), focusing on short timelines (e.g., TAI emerging within a decade). The program will then evaluate strategies for AI safety and governance based on their effectiveness across these scenarios to mitigate potential existential risks."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The article advocates for third-party testing of large-scale AI systems to mitigate societal harm from misuse or accidents. This independent testing regime, focusing on high-powered models, aims to build trust, avoid overly burdensome regulation, and facilitate international cooperation."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2308.02608.pdf",
+    "title": "Unravelling Responsibility for AI",
+    "published_date": "2023-08-04",
+    "abstract": "It is widely acknowledged that we need to establish where responsibility lies for the outputs and impacts of AI-enabled systems. But without a clear and precise understanding of what\"responsibility\"means, deliberations about where responsibility lies will be, at best, unfocused and incomplete and, at worst, misguided. To address this concern, this paper draws upon central distinctions in philosophy and law to clarify the concept of responsibility for AI for policymakers, practitioners, researchers and students from non-philosophical and non-legal backgrounds. Taking the three-part formulation\"Actor A is responsible for Occurrence O,\"the paper unravels the concept of responsibility to clarify that there are different possibilities of who is responsible for AI, the senses in which they are responsible, and aspects of events they are responsible for. Criteria and conditions for fitting attributions of responsibility in the core senses (causal responsibility, role-responsibility, liability responsibility and moral responsibility) are articulated to promote an understanding of when responsibility attributions would be inappropriate or unjust. The analysis is presented with a graphical notation to facilitate informal diagrammatic reasoning and discussion about specific cases. It is illustrated by application to a scenario of a fatal collision between an autonomous AI-enabled ship and a traditional, crewed vessel at sea.",
+    "summary": "This paper clarifies the ambiguous concept of responsibility in the context of AI systems by differentiating between causal, role, liability, and moral responsibility. It uses a three-part formulation and graphical notation to analyze who bears responsibility for AI actions and under what conditions, illustrated with a case study of a maritime accident."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2307.03198.pdf",
+    "title": "A multilevel framework for AI governance",
+    "published_date": "2023-07-04",
+    "abstract": "To realize the potential benefits and mitigate potential risks of AI, it is necessary to develop a framework of governance that conforms to ethics and fundamental human values. Although several organizations have issued guidelines and ethical frameworks for trustworthy AI, without a mediating governance structure, these ethical principles will not translate into practice. In this paper, we propose a multilevel governance approach that involves three groups of interdependent stakeholders: governments, corporations, and citizens. We examine their interrelationships through dimensions of trust, such as competence, integrity, and benevolence. The levels of governance combined with the dimensions of trust in AI provide practical insights that can be used to further enhance user experiences and inform public policy related to AI.",
+    "citation_count": 5,
+    "summary": "This paper proposes a multilevel AI governance framework involving governments, corporations, and citizens, emphasizing the crucial role of trust (competence, integrity, benevolence) in bridging ethical principles and practical implementation. This framework aims to both maximize AI benefits and mitigate risks."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.13686.pdf",
+    "title": "Broadening the perspective for sustainable AI: Comprehensive sustainability criteria and indicators for AI systems",
+    "published_date": "2023-06-22",
+    "abstract": "The increased use of AI systems is associated with multi-faceted societal, environmental, and economic consequences. These include non-transparent decision-making processes, discrimination, increasing inequalities, rising energy consumption and greenhouse gas emissions in AI model development and application, and an increasing concentration of economic power. By considering the multi-dimensionality of sustainability, this paper takes steps towards substantiating the call for an overarching perspective on\"sustainable AI\". It presents the SCAIS Framework (Sustainability Criteria and Indicators for Artificial Intelligence Systems) which contains a set 19 sustainability criteria for sustainable AI and 67 indicators that is based on the results of a critical review and expert workshops. This interdisciplinary approach contributes a unique holistic perspective to facilitate and structure the discourse on sustainable AI. Further, it provides a concrete framework that lays the foundation for developing standards and tools to support the conscious development and application of AI systems.",
+    "citation_count": 1,
+    "summary": "This paper introduces the SCAIS Framework, a comprehensive set of 19 sustainability criteria and 67 indicators designed to assess the societal, environmental, and economic impacts of AI systems, promoting a holistic approach to sustainable AI development. The framework aims to facilitate the creation of standards and tools for building and deploying more responsible AI."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a novel framework for embedding ethical considerations into AI systems by using Bayesian priors. These \"ethical priors,\" representing pre-existing moral values and intuitions, guide the AI's learning and decision-making processes, mirroring how human moral intuitions shape behavior."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2209.07076.pdf",
+    "title": "Responsible AI Implementation: A Human-centered Framework for Accelerating the Innovation Process",
+    "published_date": "2022-09-15",
+    "abstract": "There is still a significant gap between expectations and the successful adoption of AI to innovate and improve businesses. Due to the emergence of deep learning, AI adoption is more complex as it often incorporates big data and the internet of things (IoT), affecting data privacy. Existing frameworks have identified the need to focus on human-centered design, combining technical and business/organizational perspectives. However, trust remains a critical issue that needs to be designed from the beginning. The proposed framework is the first to expand from the human-centered design approach, emphasizing and maintaining the trust that underpins the whole process. This paper proposes a new theoretical framework for responsible artificial intelligence (AI) implementation. The proposed framework emphasizes a synergistic business-technology approach for the agile co-creation process. The aim is to streamline the adoption process of AI to innovate and improve business by involving all stakeholders throughout the project so that the AI technology is designed, developed, and deployed in conjunction with people and not in isolation. The framework presents a fresh viewpoint on responsible AI implementation based on analytical literature review, conceptual framework design, and practitioners' mediating expertise. The framework emphasizes establishing and maintaining trust throughout the human-centered design and agile development of AI. This human-centered approach is aligned with and enabled by the \"privacy-by-design” principle. The creators of the technology and the end-users are working together to tailor the AI solution specifically for the business requirements and human characteristics. An illustrative case study on adopting AI for assisting planning in a hospital will demonstrate that the proposed framework applies to real-life applications.",
+    "citation_count": 4,
+    "summary": "This paper proposes a new human-centered framework for responsible AI implementation, prioritizing trust and agile co-creation between stakeholders to streamline AI adoption and innovation while addressing data privacy concerns. The framework integrates business and technological perspectives, using a \"privacy-by-design\" approach to ensure ethical and effective AI deployment."
+  }
+]

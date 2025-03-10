@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2305.18165.pdf",
+    "title": "An Emergency Disposal Decision-making Method with Human-Machine Collaboration",
+    "published_date": "2023-05-29",
+    "abstract": "Rapid developments in artificial intelligence technology have led to unmanned systems replacing human beings in many fields requiring high-precision predictions and decisions. In modern operational environments, all job plans are affected by emergency events such as equipment failures and resource shortages, making a quick resolution critical. The use of unmanned systems to assist decision-making can improve resolution efficiency, but their decision-making is not interpretable and may make the wrong decisions. Current unmanned systems require human supervision and control. Based on this, we propose a collaborative human--machine method for resolving unplanned events using two phases: task filtering and task scheduling. In the task filtering phase, we propose a human--machine collaborative decision-making algorithm for dynamic tasks. The GACRNN model is used to predict the state of the job nodes, locate the key nodes, and generate a machine-predicted resolution task list. A human decision-maker supervises the list in real time and modifies and confirms the machine-predicted list through the human--machine interface. In the task scheduling phase, we propose a scheduling algorithm that integrates human experience constraints. The steps to resolve an event are inserted into the normal job sequence to schedule the resolution. We propose several human--machine collaboration methods in each phase to generate steps to resolve an unplanned event while minimizing the impact on the original job plan."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/G6JMpyMeMyAsNnkTj/the-future-of-nuclear-war",
+    "author": "avturchin",
+    "title": "The Future of Nuclear War",
+    "published_date": "2022-05-21"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BY5f7iEzHtEDJLXS7/prediction-what-war-between-the-usa-and-china-would-look",
+    "author": "lsusr",
+    "title": "[Prediction] What war between the USA and China would look like in 2050",
+    "published_date": "2021-05-26"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2002.06278v2.pdf",
+    "title": "Algorithmic Recourse: from Counterfactual Explanations to Interventions",
+    "published_date": "2020-02-14",
+    "abstract": "As machine learning is increasingly used to inform consequential decision-making (e.g., pre-trial bail and loan approval), it becomes important to explain how the system arrived at its decision, and also suggest actions to achieve a favorable decision. Counterfactual explanations -\"how the world would have (had) to be different for a desirable outcome to occur\"- aim to satisfy these criteria. Existing works have primarily focused on designing algorithms to obtain counterfactual explanations for a wide range of settings. However, it has largely been overlooked that ultimately, one of the main objectives is to allow people to act rather than just understand. In layman's terms, counterfactual explanations inform an individual where they need to get to, but not how to get there. In this work, we rely on causal reasoning to caution against the use of counterfactual explanations as a recommendable set of actions for recourse. Instead, we propose a shift of paradigm from recourse via nearest counterfactual explanations to recourse through minimal interventions, shifting the focus from explanations to interventions.",
+    "citation_count": 316
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/CDq4sraQ6h3DMimki/effective-epidemiology",
+    "author": "Mike Harris",
+    "title": "Effective Epidemiology",
+    "published_date": "2020-10-22"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/vnseRoExq9BCK2NRZ/fhi-paper-on-covid-19-government-countermeasures",
+    "author": "jacobjacob",
+    "title": "FHI paper on COVID-19 government countermeasures",
+    "published_date": "2020-06-04"
+  }
+]

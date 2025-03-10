@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/Mak2kZuTq8Hpnqyzb/the-intelligence-curse",
+    "author": "lukedrago",
+    "title": "The Intelligence Curse",
+    "published_date": "2025-01-03",
+    "summary": "The author argues that the development of Artificial General Intelligence (AGI) will create an \"intelligence curse,\" mirroring the \"resource curse\" of rentier states. Powerful actors, reliant on AGI for revenue, will lack incentives to invest in human capital, leading to societal instability and widespread unemployment as humans become economically irrelevant."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mXD53GFvMCWQhcCwt/distinguishing-ways-ai-can-be-concentrated",
+    "author": "Matthew Barnett",
+    "title": "Distinguishing ways AI can be \"concentrated\"",
+    "published_date": "2024-10-21",
+    "summary": "The author argues that discussions of AI concentration lack clarity, proposing three distinct dimensions: concentration of AI development, service provision, and control. These dimensions are independent and crucial for accurately predicting AI's trajectory and informing policy."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three AI governance strategies—Cooperative Development, Strategic Advantage, and Global Moratorium—evaluating their effectiveness based on the difficulty of aligning AI and development timelines. The optimal strategy shifts depending on these factors, with Cooperative Development favored for longer timelines and easier alignment, Strategic Advantage for shorter timelines and moderate alignment difficulty, and Global Moratorium reserved for scenarios with extremely difficult alignment or short timelines."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/NFWkErajAMHe5taHu/is-the-ai-doomsday-narrative-the-product-of-a-big-tech-1",
+    "author": "garrison",
+    "title": "Is the AI Doomsday Narrative the Product of a Big Tech Conspiracy?",
+    "published_date": "2024-12-04",
+    "summary": "Top AI company executives publicly acknowledge the potential for AI to cause human extinction, a claim met with skepticism by some who suspect it's a tactic to deflect regulation or hype products. However, the article also notes that many other tech CEOs express far less alarm, despite the immense financial success of AI-related companies."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.04616",
+    "title": "Can apparent bystanders distinctively shape an outcome? Global south countries and global catastrophic risk-focused governance of artificial intelligence",
+    "published_date": "2023-12-07",
+    "abstract": "Increasingly, there is well-grounded concern that through perpetual scaling-up of computation power and data, current deep learning techniques will create highly capable artificial intelligence that could pursue goals in a manner that is not aligned with human values. In turn, such AI could have the potential of leading to a scenario in which there is serious global-scale damage to human wellbeing. Against this backdrop, a number of researchers and public policy professionals have been developing ideas about how to govern AI in a manner that reduces the chances that it could lead to a global catastrophe. The jurisdictional focus of a vast majority of their assessments so far has been the United States, China, and Europe. That preference seems to reveal an assumption underlying most of the work in this field: That global south countries can only have a marginal role in attempts to govern AI development from a global catastrophic risk -focused perspective. Our paper sets out to undermine this assumption. We argue that global south countries like India and Singapore (and specific coalitions) could in fact be fairly consequential in the global catastrophic risk-focused governance of AI. We support our position using 4 key claims. 3 are constructed out of the current ways in which advanced foundational AI models are built and used while one is constructed on the strategic roles that global south countries and coalitions have historically played in the design and use of multilateral rules and institutions. As each claim is elaborated, we also suggest some ways through which global south countries can play a positive role in designing, strengthening and operationalizing global catastrophic risk-focused AI governance.",
+    "summary": "The paper challenges the assumption that Global South countries have only a marginal role in AI governance focused on global catastrophic risks, arguing that nations like India and Singapore can be consequential actors due to their involvement in AI development and historical influence on international rules. It proposes four key claims supporting this assertion and suggests ways Global South countries can positively contribute to AI governance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.08391",
+    "title": "A Material Lens on Coloniality in NLP",
+    "published_date": "2023-11-14",
+    "abstract": "Coloniality, the continuation of colonial harms beyond\"official\"colonization, has pervasive effects across society and scientific fields. Natural Language Processing (NLP) is no exception to this broad phenomenon. In this work, we argue that coloniality is implicitly embedded in and amplified by NLP data, algorithms, and software. We formalize this analysis using Actor-Network Theory (ANT): an approach to understanding social phenomena through the network of relationships between human stakeholders and technology. We use our Actor-Network to guide a quantitative survey of the geography of different phases of NLP research, providing evidence that inequality along colonial boundaries increases as NLP builds on itself. Based on this, we argue that combating coloniality in NLP requires not only changing current values but also active work to remove the accumulation of colonial ideals in our foundational data and algorithms.",
+    "citation_count": 10,
+    "summary": "This paper argues that colonial biases are embedded within NLP's data, algorithms, and software, perpetuating inequality; using Actor-Network Theory, it demonstrates how colonial disparities increase across NLP's development phases, advocating for active decolonization efforts beyond merely altering current values."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.14424",
+    "title": "Geographic Citation Gaps in NLP Research",
+    "published_date": "2022-10-26",
+    "abstract": "In a fair world, people have equitable opportunities to education, to conduct scientific research, to publish, and to get credit for their work, regardless of where they live. However, it is common knowledge among researchers that a vast number of papers accepted at top NLP venues come from a handful of western countries and (lately) China; whereas, very few papers from Africa and South America get published. Similar disparities are also believed to exist for paper citation counts. In the spirit of “what we do not measure, we cannot improve”, this work asks a series of questions on the relationship between geographical location and publication success (acceptance in top NLP venues and citation impact). We first created a dataset of 70,000 papers from the ACL Anthology, extracted their meta-information, andgenerated their citation network. We then show that not only are there substantial geographical disparities in paper acceptance and citation but also that these disparities persist even when controlling for a number of variables such as venue of publication and sub-field of NLP. Further, despite some steps taken by the NLP community to improve geographical diversity, we show that the disparity in publication metrics across locations is still on an increasing trend since the early 2000s. We release our code and dataset here: https://github.com/iamjanvijay/acl-cite-net",
+    "citation_count": 21,
+    "summary": "This paper analyzes geographical disparities in NLP publication and citation, finding significant imbalances favoring Western countries and China, and demonstrating that these inequalities persist even after controlling for other factors, showing a worsening trend since the early 2000s. The authors created a dataset of 70,000 ACL Anthology papers to support their analysis."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/TRKF9g65nhPBQoxJu/distribution-shifts-and-the-importance-of-ai-safety",
+    "author": "Leon Lang",
+    "title": "Distribution Shifts and The Importance of AI Safety",
+    "published_date": "2022-09-29",
+    "summary": "The article argues that the distribution shift problem in machine learning poses an existential risk, as increasingly powerful AI systems may become misaligned with human goals due to unforeseen changes in their input data. This misalignment, potentially leading to humanity's disempowerment, necessitates increased research into AI safety."
+  }
+]

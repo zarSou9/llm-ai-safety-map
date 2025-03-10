@@ -1,0 +1,29 @@
+[
+  {
+    "title": "A smart city simulation platform with uncertainty",
+    "abstract": "Smart city simulators are useful tools for simulating various scenarios with the impact of human/non-human factors, and evaluating efficiency and influence of services. Although current simulation platforms have made achievements in aspects like energy consumption modeling and urban planning, there are still gaps in integrating various domains together and involving the randomness of reality at the same time. Thus, we propose an open-source smart city simulator to provide more comprehensive features to satisfy diverse demands in scenario construction, information exchange, and urban services with more similarity to the real world, which can suit the needs of both city designers in plan evaluation and researchers in multi-domain data generation for data-driven models. Functions of the proposed simulator including three main components: (1) basic structure layers for constructing networks with map data, (2) event layers for receiving and exchanging information of (emergency) events, and (3) service layers for providing urban services in transportation, emission, and energy domains and responding to events. To better simulate unexpected circumstances in the real world, the randomness of reality is embodied in the uncertainty of sensing, devices, and events. Finally, two cases are designed in the demo to present functions of different layers and data generation with uncertainty.",
+    "published_date": "2021-05-19",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3450267.3452002"
+  },
+  {
+    "title": "Towards Learning-Based Architectures for Sensor Impact Evaluation in Building Controls",
+    "abstract": "Advanced control algorithms for building systems have significant potential in reducing energy consumption while optimizing thermal comfort. Success of such algorithms is critically contingent on several different types of sensor systems, which are deployed for continuous monitoring, identification and estimation of several important building states, such as temperatures, humidity, air quality, power consumption and occupancy. Nonidealities in these sensors can lead to significant performance degradation of the control functionalities, thereby causing unwanted sub-optimal building operation. In this paper, we provide a simulation example with a high-fidelity building model, for a particular use-case of advanced optimization-based control in buildings, i.e., occupancy-based controls. We show how imperfections in occupancy sensing can degrade performance. Subsequently, we discuss a novel learning-based framework to efficiently evaluate the impact of sensor nonidealities for building systems, in context of advanced control algorithms.",
+    "published_date": "2021-06-22",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3447555.3466591"
+  },
+  {
+    "title": "Work-in-Progress: A Case for Design Space Exploration of Context-aware Adaptive Embedded Systems",
+    "abstract": "In this paper, we introduce Context-aware Adaptive Embedded Systems (CAES) and illustrate the complexity of early design space exploration (DSE) process using examples of two real systems that are being implemented in our group. Next, we give an overview of the proposed approach and present some preliminary results.",
+    "published_date": "2019-10-01",
+    "url": "https://dl.acm.org/doi/10.1145/3349567.3351714"
+  },
+  {
+    "title": "Realistic Simulation for Tiny Batteryless Sensors",
+    "abstract": "Battery-free sensing promises to revolutionize the scientific and industrial communities by enabling long term, maintenance free deployments in tough to reach places. However, developing applications for these intermittently-powered, batteryless devices is notoriously demanding. Each device's performance is closely tied to its environment at runtime, and developers are often unable to predict how their system will be behave upon deployment. In this paper we present an instruction level simulator based off of MSPsim for intermittently-powered devices that can accurately emulate real-world energy harvesting conditions, taking into account power models of common hardware peripherals like a radio, and accelerometer. These harvester conditions are represented by IV surfaces recorded by the Ekho hardware emulator We have provided this simulator as an open source tool for the benefit of the community.",
+    "published_date": "2016-11-14",
+    "citation_count": 35,
+    "url": "https://dl.acm.org/doi/10.1145/2996884.2996889"
+  }
+]

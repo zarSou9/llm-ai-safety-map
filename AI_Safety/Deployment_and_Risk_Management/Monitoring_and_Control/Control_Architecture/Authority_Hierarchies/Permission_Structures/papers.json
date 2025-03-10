@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2211.04980",
+    "title": "A Capability-based Distributed Authorization System to Enforce Context-aware Permission Sequences",
+    "published_date": "2022-06-07",
+    "abstract": "Controlled sharing is fundamental to distributed systems. We consider a capability-based distributed authorization system where a client receives capabilities (access tokens) from an authorization server to access the resources of resource servers. Capability-based authorization systems have been widely used on the Web, in mobile applications and other distributed systems. A common requirement of such systems is that the user uses tokens of multiple servers in a particular order. A related requirement is the token may be used if certain environmental conditions hold. We introduce a secure capability-based system that supports \"permission sequence\" and \"context\". This allows a finite sequence of permissions to be enforced, each with their own specific context. We prove the safety property of this system for these conditions and integrate the system into OAuth 2.0 with proof-of-possession tokens. We evaluate our implementation and compare it with plain OAuth with respect to the average time for obtaining an authorization token and acquiring access to the resource.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.16511v2",
+    "title": "A Uniform Approach to Compare Architectures in Decentralized Discrete-Event Systems",
+    "published_date": "2022-10-29",
+    "abstract": "Solutions to decentralized discrete-event systems problems are characterized by the way local decisions are fused to yield a global decision. A fusion rule is colloquially called an architecture. Current approaches do not provide a direct way to compare existing architectures. Determining whether an architecture is more permissive than another architecture had relied on producing examples ad hoc and on individual inspiration that puts the conditions for solvability in each architecture into some form that admits comparison. In response to these research efforts, a method based on morphisms between graphs has been extracted to yield a uniform approach to compare the permissiveness of the architectures.",
+    "citation_count": 2
+  },
+  {
+    "title": "Role-Based Administration of Role-Based Smart Home IoT",
+    "abstract": "Using role-based access control (RBAC) to manage RBAC is among RBAC's attractive benefits, contributing to its long-standing dominance in practice. Administrative models facilitate management of (mostly configuration) changes in the underlying operational models. Overall system security is crucially dependent on both the administrative and operational models. In this paper, we develop an RBAC administrative model to manage authorization assignments in the EGRBAC (enhanced generalized role-based access control) operational model for smart home IoT. We design the administrative model based on pairwise disjoint Administrative Units, each of which contains a uniquely assigned administrative role and a set of administrative tasks. Administrative tasks determine the administrative permissions available to manage the operational model assignments. We begin with a model containing a single administrative unit and then extend it to include additional units. Multiple administrative units enable decentralized administration which could be adapted to provide scalability in inherently distributed and large-scale environments beyond smart home, such as smart buildings or smart campuses. We provide formalism of our proposed model and illustrate it by specifying operational and administrative use cases. Although, the model is proposed based on a specific smart home operational model, our approach could be applied to environments with similar dynamics.",
+    "published_date": "2021-04-28",
+    "citation_count": 7,
+    "url": "https://dl.acm.org/doi/10.1145/3445969.3450426"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.03209v1.pdf",
+    "title": "Semantic Access Control for Privacy Management of Personal Sensing in Smart Cities",
+    "published_date": "2021-01-08",
+    "abstract": "Personal and home sensors generate valuable information that could be used in Smart Cities. Unfortunately, typically, this data is locked out and used only by application/system developers. While vendors are partially to blame, one should consider also the “binary nature” of data access. Specifically, either the owner has full control over her data (e.g., in a “closed system”), or she completely looses control, when the data is “opened”. In this context, we propose, a semantic technologies-based, authorization and privacy control framework that enables user to maintain flexible, yet manageable data access control policies. The proposed approach is described in detail, including implementation and testing.",
+    "citation_count": 6
+  },
+  {
+    "title": "Democratizing Authority in the Built Environment",
+    "abstract": "Operating systems and applications in the built environment have relied upon central authorization and management mechanisms that restrict their scalability, especially with respect to administrative overhead. We propose a new set of primitives encompassing syndication, security, and service execution that unifies the management of applications and services across the built environment, while enabling participants to individually delegate privilege across multiple administrative domains with no loss of security or manageability. We show how to leverage a decentralized authorization syndication platform to extend the design of building operating systems beyond the single administrative domain of a building. The authorization system leveraged is based on blockchain smart contracts to permit decentralized and democratized delegation of authorization without central trust. Upon this, a publish/subscribe syndication tier and a containerized service execution environment are constructed. Combined, these mechanisms solve problems of delegation, federation, device protection and service execution that arise throughout the built environment. We leverage a high-fidelity city-scale emulation to verify the scalability of the authorization tier, and briefly describe a prototypical democratized operating system for the built environment using this foundation. This is an extension of work presented in Ref. [3].",
+    "published_date": "2018-12-04",
+    "citation_count": 31,
+    "url": "https://dl.acm.org/doi/10.1145/3199665"
+  },
+  {
+    "url": "https://arxiv.org/pdf/1804.06044v1.pdf",
+    "title": "A Scalable Permission Management System With Support of Conditional and Customized Attributes",
+    "published_date": "2018-04-17",
+    "abstract": "Along with the classical problem of managing multiple identities, actions, devices, APIs etc. in different businesses, there has been an escalating need for having the capability of flexible attribute based access control~(ABAC) mechanisms. In order to fill this gap, several variations of ABAC model have been proposed such as \\textit{Amazon's AWS IAM}, which uses JSON as their underlying storage data structure and adds policies/constraints as fields over the regular ABAC. However, these systems still do not provide the capability to have customized permissions and to perform various operations (such as comparison/aggregation) on them. In this paper, we introduce a string based resource naming strategy that supports the customized and conditional permissions for resource access. Further, we propose the basic architecture of our system which, along with our naming scheme, makes the system scalable, secure, efficient, flexible and customizable. Finally, we present the proof of concept for our algorithm as well as the experimental set up and the future trajectory for this work."
+  }
+]

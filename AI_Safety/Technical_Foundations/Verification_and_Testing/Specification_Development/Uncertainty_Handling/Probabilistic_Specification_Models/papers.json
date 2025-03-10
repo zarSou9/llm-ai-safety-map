@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2208.09838",
+    "title": "Tyche: A library for probabilistic reasoning and belief modelling in Python",
+    "published_date": "2022-08-21",
+    "abstract": "This paper presents Tyche, a Python library to facilitate probabilistic reasoning in uncertain worlds through the construction, querying, and learning of belief models. Tyche uses aleatoric description logic (ADL), which provides computational advantages in its evaluation over other description logics. Tyche belief models can be succinctly created by defining classes of individuals, the probabilistic beliefs about them (concepts), and the probabilistic relationships between them (roles). We also introduce a method of observation propagation to facilitate learning from complex ADL observations. A demonstration of Tyche to predict the author of anonymised messages, and to extract author writing tendencies from anonymised messages, is provided. Tyche has the potential to assist in the development of expert systems, knowledge extraction systems, and agents to play games with incomplete and probabilistic information."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2210.05989.pdf",
+    "title": "Probabilities Are Not Enough: Formal Controller Synthesis for Stochastic Dynamical Models with Epistemic Uncertainty",
+    "published_date": "2022-10-12",
+    "abstract": "Capturing uncertainty in models of complex dynamical systems is crucial to designing safe controllers. Stochastic noise causes aleatoric uncertainty, whereas imprecise knowledge of model parameters leads to epistemic uncertainty. Several approaches use formal abstractions to synthesize policies that satisfy temporal specifications related to safety and reachability. However, the underlying models exclusively capture aleatoric but not epistemic uncertainty, and thus require that model parameters are known precisely. Our contribution to overcoming this restriction is a novel abstraction-based controller synthesis method for continuous-state models with stochastic noise and uncertain parameters. By sampling techniques and robust analysis, we capture both aleatoric and epistemic uncertainty, with a user-specified confidence level, in the transition probability intervals of a so-called interval Markov decision process (iMDP). We synthesize an optimal policy on this iMDP, which translates (with the specified confidence level) to a feedback controller for the continuous model with the same performance guarantees. Our experimental benchmarks confirm that accounting for epistemic uncertainty leads to controllers that are more robust against variations in parameter values.",
+    "citation_count": 21
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.14489v1.pdf",
+    "title": "Probabilistic Planning with Preferences over Temporal Goals",
+    "published_date": "2021-03-26",
+    "abstract": "We present a formal language for specifying qualitative preferences over temporal goals and a preference-based planning method in stochastic systems. Using automata-theoretic modeling, the proposed specification allows us to express preferences over different sets of outcomes, where each outcome describes a set of temporal sequences of subgoals. We define the value of preference satisfaction given a stochastic process over possible outcomes and develop an algorithm for time-constrained probabilistic planning in labeled Markov decision processes where an agent aims to maximally satisfy its preference formula within a pre-defined finite time duration. We present experimental results using a stochastic gridworld example and discuss possible extensions of the proposed preference model.",
+    "citation_count": 6
+  },
+  {
+    "url": "https://arxiv.org/abs/2111.10630",
+    "title": "Probabilistic Model Checking and Autonomy",
+    "published_date": "2021-11-20",
+    "abstract": "The design and control of autonomous systems that operate in uncertain or adversarial environments can be facilitated by formal modeling and analysis. Probabilistic model checking is a technique to automatically verify, for a given temporal logic specification, that a system model satisfies the specification, as well as to synthesize an optimal strategy for its control. This method has recently been extended to multiagent systems that exhibit competitive or cooperative behavior modeled via stochastic games and synthesis of equilibria strategies. In this article, we provide an overview of probabilistic model checking, focusing on models supported by the PRISM and PRISM-games model checkers. This overview includes fully observable and partially observable Markov decision processes, as well as turn-based and concurrent stochastic games, together with associated probabilistic temporal logics. We demonstrate the applicability of the framework through illustrative examples from autonomous systems. Finally, we highlight research challenges and suggest directions for future work in this area. Expected final online publication date for the Annual Review of Control, Robotics, and Autonomous Systems, Volume 5 is May 2022. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates.",
+    "citation_count": 19
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Zd5Bsra7ar2pa3bwS/probability-theory-and-logical-induction-as-lenses",
+    "author": "Alex Flint",
+    "title": "Probability theory and logical induction as lenses",
+    "published_date": "2021-04-23"
+  },
+  {
+    "title": "The Probabilistic Description Logic",
+    "abstract": "Description logics (DLs) are well-known knowledge representation formalisms focused on the representation of terminological knowledge. Due to their first-order semantics, these languages (in their classical form) are not suitable for representing and handling uncertainty. A probabilistic extension of a light-weight DL was recently proposed for dealing with certain knowledge occurring in uncertain contexts. In this paper, we continue that line of research by introducing the Bayesian extension of the propositionally closed DL . We present a tableau-based procedure for deciding consistency and adapt it to solve other probabilistic, contextual, and general inferences in this logic. We also show that all these problems remain ExpTime-complete, the same as reasoning in the underlying classical .",
+    "published_date": "2020-12-11",
+    "citation_count": 3,
+    "url": "https://www.cambridge.org/core/journals/theory-and-practice-of-logic-programming/article/abs/probabilistic-description-logic/F45600BF3BC5454518B0A69146878B3F"
+  }
+]

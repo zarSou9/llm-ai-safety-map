@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/tag/good-explanations-advice",
+    "title": "Good Explanations (Advice) - AI Alignment Forum",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/AaABQpuoNC8gpHf2n/a-barebones-guide-to-mechanistic-interpretability",
+    "author": "Neel Nanda",
+    "title": "A Barebones Guide to Mechanistic Interpretability Prerequisites",
+    "published_date": "2022-10-24"
+  },
+  {
+    "title": "Logic Enhanced Commonsense Inference with Chain Transformer",
+    "abstract": "We study the commonsense inference task that aims to reason and generate the causes and effects of a given event. Existing neural methods focus more on understanding and representing the event itself, but pay little attention to the relations between different commonsense dimensions (e.g. causes or effects) of the event, making the generated results logically inconsistent and unreasonable. To alleviate this issue, we propose Chain Transformer, a logic enhanced commonsense inference model that combines both direct and indirect inferences to construct a logical chain so as to reason in a more logically consistent way. First, we apply a self-attention based encoder to represent and encode the given event. Then a chain of decoders is implemented to reason and generate for different dimensions following the logical chain, where an attention module is designed to link different decoders and to make each decoder attend to the previous reasoned inferences. Experiments on two real-world datasets show that Chain Transformer outperforms previous methods on both automatic and human evaluation, and demonstrate that Chain Transformer can generate more reasonable and logically consistent inference results.",
+    "published_date": "2020-10-19",
+    "citation_count": 3,
+    "url": "https://dl.acm.org/doi/10.1145/3340531.3411895"
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/xezt7HYfpWR6nwp7Z/p/S5oWwZMJBvfChSquW",
+    "author": "Rafael Harth",
+    "title": "Idealized Factored Cognition",
+    "published_date": "2020-11-30"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6zbRy3aADCsRmFcgv/hiding-complexity",
+    "author": "Rafael Harth",
+    "title": "Hiding Complexity",
+    "published_date": "2020-11-20"
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/xezt7HYfpWR6nwp7Z",
+    "author": "Rafael Harth",
+    "title": "Factored Cognition - AI Alignment Forum",
+    "published_date": "2020-08-30"
+  }
+]

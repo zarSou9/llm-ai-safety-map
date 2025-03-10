@@ -1,0 +1,63 @@
+[
+  {
+    "title": "A survey on concept drift adaptation",
+    "abstract": "Concept drift primarily refers to an online supervised learning scenario when the relation between the input data and the target variable changes over time. Assuming a general knowledge of supervised learning in this article, we characterize adaptive learning processes; categorize existing strategies for handling concept drift; overview the most representative, distinct, and popular techniques and algorithms; discuss evaluation methodology of adaptive algorithms; and present a set of illustrative applications. The survey covers the different facets of concept drift in an integrated way to reflect on the existing scattered state of the art. Thus, it aims at providing a comprehensive introduction to the concept drift adaptation for researchers, industry analysts, and practitioners.",
+    "published_date": "2014-03-01",
+    "citation_count": 2737,
+    "url": "https://dl.acm.org/doi/10.1145/2523813",
+    "summary": "This survey paper comprehensively reviews concept drift adaptation in online supervised learning, categorizing existing strategies, detailing popular techniques, and discussing evaluation methodologies for handling changes in the relationship between input data and target variables over time. It aims to provide a unified overview of the field for researchers and practitioners."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.09373",
+    "title": "Efficient Discrepancy Testing for Learning with Distribution Shift",
+    "published_date": "2024-06-13",
+    "abstract": "A fundamental notion of distance between train and test distributions from the field of domain adaptation is discrepancy distance. While in general hard to compute, here we provide the first set of provably efficient algorithms for testing localized discrepancy distance, where discrepancy is computed with respect to a fixed output classifier. These results imply a broad set of new, efficient learning algorithms in the recently introduced model of Testable Learning with Distribution Shift (TDS learning) due to Klivans et al. (2023). Our approach generalizes and improves all prior work on TDS learning: (1) we obtain universal learners that succeed simultaneously for large classes of test distributions, (2) achieve near-optimal error rates, and (3) give exponential improvements for constant depth circuits. Our methods further extend to semi-parametric settings and imply the first positive results for low-dimensional convex sets. Additionally, we separate learning and testing phases and obtain algorithms that run in fully polynomial time at test time.",
+    "summary": "This paper presents efficient algorithms for testing localized discrepancy distance, a key measure of distribution shift in domain adaptation, leading to improved and generalized algorithms for Testable Learning with Distribution Shift (TDS learning). These algorithms achieve near-optimal error rates, work for broad classes of test distributions, and offer significant runtime improvements compared to prior work."
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.11973",
+    "title": "Adaptive Training Distributions with Scalable Online Bilevel Optimization",
+    "published_date": "2023-11-20",
+    "abstract": "Large neural networks pretrained on web-scale corpora are central to modern machine learning. In this paradigm, the distribution of the large, heterogeneous pretraining data rarely matches that of the application domain. This work considers modifying the pretraining distribution in the case where one has a small sample of data reflecting the targeted test conditions. We propose an algorithm motivated by a recent formulation of this setting as an online, bilevel optimization problem. With scalability in mind, our algorithm prioritizes computing gradients at training points which are likely to most improve the loss on the targeted distribution. Empirically, we show that in some cases this approach is beneficial over existing strategies from the domain adaptation literature but may not succeed in other cases. We propose a simple test to evaluate when our approach can be expected to work well and point towards further research to address current limitations.",
+    "citation_count": 7,
+    "summary": "This paper introduces a scalable online bilevel optimization algorithm to adapt the training distribution of large neural networks by focusing on data points most impactful to target distribution performance. Empirical results show benefits in some cases but highlight limitations and suggest a predictive test for suitability."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.02610.pdf",
+    "title": "T-SaS: Toward Shift-aware Dynamic Adaptation for Streaming Data",
+    "published_date": "2023-09-05",
+    "abstract": "In many real-world scenarios, distribution shifts exist in the streaming data across time steps. Many complex sequential data can be effectively divided into distinct regimes that exhibit persistent dynamics. Discovering the shifted behaviors and the evolving patterns underlying the streaming data are important to understand the dynamic system. Existing methods typically train one robust model to work for the evolving data of distinct distributions or sequentially adapt the model utilizing explicitly given regime boundaries. However, there are two challenges: (1) shifts in data streams could happen drastically and abruptly without precursors. Boundaries of distribution shifts are usually unavailable, and (2) training a shared model for all domains could fail to capture varying patterns. This paper aims to solve the problem of sequential data modeling in the presence of sudden distribution shifts that occur without any precursors. Specifically, we design a Bayesian framework, dubbed as T-SaS, with a discrete distribution-modeling variable to capture abrupt shifts of data. Then, we design a model that enable adaptation with dynamic network selection conditioned on that discrete variable. The proposed method learns specific model parameters for each distribution by learning which neurons should be activated in the full network. A dynamic masking strategy is adopted here to support inter-distribution transfer through the overlapping of a set of sparse networks. Extensive experiments show that our proposed method is superior in both accurately detecting shift boundaries to get segments of varying distributions and effectively adapting to downstream forecast or classification tasks.",
+    "citation_count": 3,
+    "summary": "T-SaS is a Bayesian framework for modeling sequential data with abrupt, unforeseen distribution shifts, dynamically selecting and adapting a sparse network for each distinct data regime while allowing for knowledge transfer between them. This approach improves both shift detection accuracy and downstream task performance compared to existing methods."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.02252.pdf",
+    "title": "An Adaptive Algorithm for Learning with Unknown Distribution Drift",
+    "published_date": "2023-05-03",
+    "abstract": "We develop and analyze a general technique for learning with an unknown distribution drift. Given a sequence of independent observations from the last $T$ steps of a drifting distribution, our algorithm agnostically learns a family of functions with respect to the current distribution at time $T$. Unlike previous work, our technique does not require prior knowledge about the magnitude of the drift. Instead, the algorithm adapts to the sample data. Without explicitly estimating the drift, the algorithm learns a family of functions with almost the same error as a learning algorithm that knows the magnitude of the drift in advance. Furthermore, since our algorithm adapts to the data, it can guarantee a better learning error than an algorithm that relies on loose bounds on the drift. We demonstrate the application of our technique in two fundamental learning scenarios: binary classification and linear regression.",
+    "citation_count": 4,
+    "summary": "This paper presents an adaptive algorithm for learning from data with unknown distribution drift, achieving near-optimal learning error without requiring prior knowledge of the drift magnitude. The algorithm adapts to the data, outperforming methods relying on loose drift bounds."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/TEDT4SJDfBwXezfgC/paradigms-and-theory-choice-in-ai-adaptivity-economy-and",
+    "author": "particlemania",
+    "title": "Paradigms and Theory Choice in AI: Adaptivity, Economy and Control",
+    "published_date": "2023-08-28",
+    "summary": "The article examines design paradigms in engineering and AI, arguing that unlike scientific paradigms, they directly shape the creation of artifacts. It proposes three criteria for evaluating design paradigms and uses the critique of the CAIS paradigm (compared to AI agents) as a case study."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2211.01315.pdf",
+    "title": "Addressing Data Distribution Shifts in Online Machine Learning Powered Smart City Applications Using Augmented Test-Time Adaptation",
+    "published_date": "2022-11-02",
+    "abstract": "Data distribution shift is a common problem in machine learning-powered smart city applications where the test data differs from the training data. Augmenting smart city applications with online machine learning models can handle this issue at test time, albeit with high cost and unreliable performance. To overcome this limitation, we propose to endow test-time adaptation (TTA) with a systematic active fine-tuning (SAF) layer that is characterized by three key aspects: a continuity aspect that adapts to ever-present data distribution shifts; intelligence aspect that recognizes the importance of fine-tuning as a distribution-shift-aware process that occurs at the appropriate time to address the recently detected data distribution shifts; and cost-effectiveness aspect that involves budgeted human-machine collaboration to make relabeling cost-effective and practical for diverse smart city applications. Our empirical results show that our proposed approach reduces the misclassification rate of the typical TTA from 0.280 to 0.139, demonstrating its superior performance. Notably, our approach outperforms TTA by a factor of two.",
+    "citation_count": 1,
+    "summary": "This paper introduces a novel test-time adaptation (TTA) method for online machine learning in smart city applications, incorporating active fine-tuning to cost-effectively address data distribution shifts and significantly improve model accuracy compared to traditional TTA. The method achieves this through a systematic approach balancing continuous adaptation, intelligent fine-tuning triggers, and budgeted human-in-the-loop relabeling."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/FeY4tXMYdTQSM4go3/how-rl-agents-behave-when-their-actions-are-modified",
+    "author": "PabloAMC",
+    "title": "How RL Agents Behave When Their Actions Are Modified? [Distillation post]",
+    "published_date": "2022-05-20",
+    "summary": "The paper explores Modified Action Markov Decision Processes (MAMDPs), extending standard Markov Decision Processes by incorporating action overrides. It analyzes how different reinforcement learning agents behave under these overrides, revealing that some commonly used agents can exhibit corrigibility by ignoring potential modifications."
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.17391",
+    "title": "Dataset-learning duality and emergent criticality",
+    "published_date": "2024-05-27",
+    "abstract": "In artificial neural networks, the activation dynamics of non-trainable variables is strongly coupled to the learning dynamics of trainable variables. During the activation pass, the boundary neurons (e.g., input neurons) are mapped to the bulk neurons (e.g., hidden neurons), and during the learning pass, both bulk and boundary neurons are mapped to changes in trainable variables (e.g., weights and biases). For example, in feed-forward neural networks, forward propagation is the activation pass and backward propagation is the learning pass. We show that a composition of the two maps establishes a duality map between a subspace of non-trainable boundary variables (e.g., dataset) and a tangent subspace of trainable variables (i.e., learning). In general, the dataset-learning duality is a complex non-linear map between high-dimensional spaces, but in a learning equilibrium, the problem can be linearized and reduced to many weakly coupled one-dimensional problems. We use the duality to study the emergence of criticality, or the power-law distributions of fluctuations of the trainable variables. In particular, we show that criticality can emerge in the learning system even from the dataset in a non-critical state, and that the power-law distribution can be modified by changing either the activation function or the loss function."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.01568",
+    "title": "Quantifying Emergence in Neural Networks: Insights from Pruning and Training Dynamics",
+    "published_date": "2024-09-03",
+    "abstract": "Emergence, where complex behaviors develop from the interactions of simpler components within a network, plays a crucial role in enhancing neural network capabilities. We introduce a quantitative framework to measure emergence during the training process and examine its impact on network performance, particularly in relation to pruning and training dynamics. Our hypothesis posits that the degree of emergence, defined by the connectivity between active and inactive nodes, can predict the development of emergent behaviors in the network. Through experiments with feedforward and convolutional architectures on benchmark datasets, we demonstrate that higher emergence correlates with improved trainability and performance. We further explore the relationship between network complexity and the loss landscape, suggesting that higher emergence indicates a greater concentration of local minima and a more rugged loss landscape. Pruning, which reduces network complexity by removing redundant nodes and connections, is shown to enhance training efficiency and convergence speed, though it may lead to a reduction in final accuracy. These findings provide new insights into the interplay between emergence, complexity, and performance in neural networks, offering valuable implications for the design and optimization of more efficient architectures."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.12578",
+    "title": "A Percolation Model of Emergence: Analyzing Transformers Trained on a Formal Language",
+    "published_date": "2024-08-22",
+    "abstract": "Increase in data, size, or compute can lead to sudden learning of specific capabilities by a neural network -- a phenomenon often called\"emergence''. Beyond scientific understanding, establishing the causal factors underlying such emergent capabilities is crucial to enable risk regulation frameworks for AI. In this work, we seek inspiration from study of emergent properties in other fields and propose a phenomenological definition for the concept in the context of neural networks. Our definition implicates the acquisition of general structures underlying the data-generating process as a cause of sudden performance growth for specific, narrower tasks. We empirically investigate this definition by proposing an experimental system grounded in a context-sensitive formal language and find that Transformers trained to perform tasks on top of strings from this language indeed exhibit emergent capabilities. Specifically, we show that once the language's underlying grammar and context-sensitivity inducing structures are learned by the model, performance on narrower tasks suddenly begins to improve. We then analogize our network's learning dynamics with the process of percolation on a bipartite graph, establishing a formal phase transition model that predicts the shift in the point of emergence observed in our experiments when changing the data structure. Overall, our experimental and theoretical frameworks yield a step towards better defining, characterizing, and predicting emergence in neural networks.",
+    "citation_count": 6
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/Zza9MNA7YtHkzAtit/stagewise-development-in-neural-networks",
+    "author": "Jesse Hoogland, Liam Carroll, Daniel Murfet",
+    "title": "Stagewise Development in Neural Networks",
+    "published_date": "2024-03-20"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/ooAao2RYdFSd77qfp/measuring-structure-development-in-algorithmic-transformers",
+    "author": "Micurie; Einar Urdshals",
+    "title": "Measuring Structure Development in Algorithmic Transformers",
+    "published_date": "2024-08-22"
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.09543",
+    "title": "Latent State Models of Training Dynamics",
+    "published_date": "2023-08-18",
+    "abstract": "The impact of randomness on model training is poorly understood. How do differences in data order and initialization actually manifest in the model, such that some training runs outperform others or converge faster? Furthermore, how can we interpret the resulting training dynamics and the phase transitions that characterize different trajectories? To understand the effect of randomness on the dynamics and outcomes of neural network training, we train models multiple times with different random seeds and compute a variety of metrics throughout training, such as the $L_2$ norm, mean, and variance of the neural network's weights. We then fit a hidden Markov model (HMM) over the resulting sequences of metrics. The HMM represents training as a stochastic process of transitions between latent states, providing an intuitive overview of significant changes during training. Using our method, we produce a low-dimensional, discrete representation of training dynamics on grokking tasks, image classification, and masked language modeling. We use the HMM representation to study phase transitions and identify latent\"detour\"states that slow down convergence.",
+    "citation_count": 5
+  }
+]

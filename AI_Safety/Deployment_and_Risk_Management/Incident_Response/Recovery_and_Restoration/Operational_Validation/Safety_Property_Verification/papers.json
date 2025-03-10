@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/3P8WBwLyfPBEkbG3c/proveably-safe-self-driving-cars-modulo-assumptions#WKF3eaRAGscP9CgGy",
+    "author": "Davidmanheim",
+    "title": "Proveably Safe Self Driving Cars [Modulo Assumptions]",
+    "published_date": "2024-09-15"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/vAopGQhFPdjcA8CEh/anthropic-reflections-on-our-responsible-scaling-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Anthropic: Reflections on our  Responsible Scaling Policy",
+    "published_date": "2024-05-20"
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.04026",
+    "title": "Value Functions are Control Barrier Functions: Verification of Safe Policies using Control Theory",
+    "published_date": "2023-06-06",
+    "abstract": "Guaranteeing safe behaviour of reinforcement learning (RL) policies poses significant challenges for safety-critical applications, despite RL's generality and scalability. To address this, we propose a new approach to apply verification methods from control theory to learned value functions. By analyzing task structures for safety preservation, we formalize original theorems that establish links between value functions and control barrier functions. Further, we propose novel metrics for verifying value functions in safe control tasks and practical implementation details to improve learning. Our work presents a novel method for certificate learning, which unlocks a diversity of verification techniques from control theory for RL policies, and marks a significant step towards a formal framework for the general, scalable, and verifiable design of RL-based control systems. Code and videos are available at this https url: https://rl-cbf.github.io/",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jiXMZHGmEf7qPrKPc/systems-that-cannot-be-unsafe-cannot-be-safe",
+    "author": "Davidmanheim",
+    "title": "Systems that cannot be unsafe cannot be safe",
+    "published_date": "2023-05-02"
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.14991",
+    "title": "Reachability Verification Based Reliability Assessment for Deep Reinforcement Learning Controlled Robotics and Autonomous Systems",
+    "published_date": "2022-10-26",
+    "abstract": "Deep Reinforcement Learning (DRL) has achieved impressive performance in robotics and autonomous systems (RAS). A key challenge to its deployment in real-life operations is the presence of spuriously unsafe DRL policies. Unexplored states may lead the agent to make wrong decisions that could result in hazards, especially in applications where DRL-trained end-to-end controllers govern the behaviour of RAS. This letter proposes a novel quantitative reliability assessment framework for DRL-controlled RAS, leveraging verification evidence generated from formal reliability analysis of neural networks. A two-level verification framework is introduced to check the safety property with respect to inaccurate observations that are due to, e.g., environmental noise and state changes. Reachability verification tools are leveraged locally to generate safety evidence of trajectories. In contrast, at the global level, we quantify the overall reliability as an aggregated metric of local safety evidence, corresponding to a set of distinct tasks and their occurrence probabilities. The effectiveness of the proposed verification framework is demonstrated and validated via experiments on real RAS.",
+    "citation_count": 5
+  },
+  {
+    "url": "https://arxiv.org/abs/2110.10718",
+    "title": "Bootstrapping confidence in future safety based on past safe operation",
+    "published_date": "2021-10-20",
+    "abstract": "With autonomous vehicles (AVs), a major concern is the inability to give meaningful quantitative assurance of safety, to the extent required by society - e.g. that an AV must be at least as safe as a good human driver - before that AV is in extensive use. We demonstrate an approach to achieving more moderate, but useful, confidence, e.g., confidence of low enough probability of causing accidents in the early phases of operation. This formalises mathematically the common approach of operating a system on a limited basis in the hope that mishap-free operation will confirm one's confidence in its safety and allow progressively more extensive operation: a process of\"bootstrapping\"of confidence. Translating that intuitive approach into theorems shows: (1) that it is substantially sound in the right circumstances, and could be a good method for deciding about the early deployment phase for an AV; (2) how much confidence can be rightly derived from such a\"cautious deployment\"approach, so that we can avoid over-optimism; (3) under which conditions our sound formulas for future confidence are applicable; (4) thus, which analyses of the concrete situations, and/or constraints on practice, are needed in order to enjoy the advantages of provably correct confidence in adequate future safety.",
+    "citation_count": 2
+  }
+]

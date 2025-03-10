@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2302.13913v2",
+    "title": "Stress Testing Control Loops in Cyber-physical Systems",
+    "published_date": "2023-02-27",
+    "abstract": "Cyber-physical Systems (CPSs) are often safety-critical and deployed in uncertain environments. Identifying scenarios where CPSs do not comply with requirements is fundamental but difficult due to the multidisciplinary nature of CPSs. We investigate the testing of control-based CPSs, where control and software engineers develop the software collaboratively. Control engineers make design assumptions during system development to leverage control theory and obtain guarantees on CPS behaviour. In the implemented system, however, such assumptions are not always satisfied, and their falsification can lead the loss of guarantees. We define stress testing of control-based CPSs as generating tests to falsify such design assumptions. We highlight different types of assumptions, focusing on the use of linearised physics models. To generate stress tests falsifying such assumptions, we leverage control theory to qualitatively characterise the input space of a control-based CPS. We propose a novel test parametrisation for control-based CPSs and use it with the input space characterisation to develop a stress testing approach. We evaluate our approach on three case study systems, including a drone, a continuous-current motor (in five configurations), and an aircraft. Our results show the effectiveness of the proposed testing approach in falsifying the design assumptions and highlighting the causes of assumption violations.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2004.04293v1.pdf",
+    "title": "The Adaptive Stress Testing Formulation",
+    "published_date": "2020-04-08",
+    "abstract": "Validation is a key challenge in the search for safe autonomy. Simulations are often either too simple to provide robust validation, or too complex to tractably compute. Therefore, approximate validation methods are needed to tractably find failures without unsafe simplifications. This paper presents the theory behind one such black-box approach: adaptive stress testing (AST). We also provide three examples of validation problems formulated to work with AST.",
+    "citation_count": 10
+  },
+  {
+    "url": "https://arxiv.org/abs/2003.02381",
+    "title": "Validation of Image-Based Neural Network Controllers through Adaptive Stress Testing",
+    "published_date": "2020-03-05",
+    "abstract": "Neural networks have become state-of-the-art for computer vision problems because of their ability to efficiently model complex functions from large amounts of data. While neural networks can be shown to perform well empirically for a variety of tasks, their performance is difficult to guarantee. Neural network verification tools have been developed that can certify robustness with respect to a given input image; however, for neural network systems used in closed-loop controllers, robustness with respect to individual images does not address multi-step properties of the neural network controller and its environment. Furthermore, neural network systems interacting in the physical world and using natural images are operating in a black-box environment, making formal verification intractable. This work combines the adaptive stress testing (AST) framework with neural network verification tools to search for the most likely sequence of image disturbances that cause the neural network controlled system to reach a failure. An autonomous aircraft taxi application is presented, and results show that the AST method finds failures with more likely image disturbances than baseline methods. Further analysis of AST results revealed an explainable cause of the failure, giving insight into the problematic scenarios that should be addressed.",
+    "citation_count": 30
+  },
+  {
+    "url": "https://arxiv.org/pdf/2011.06553.pdf",
+    "title": "Stress Testing Method for Scenario-Based Testing of Automated Driving Systems",
+    "published_date": "2020-11-12",
+    "abstract": "Classical approaches for testing of automated driving systems (ADS) of SAE levels 1 and 2 were based on defined scenarios with specific maneuvers, depending on the function under test. For ADS of SAE level 3+, the scenario space is infinite and calling for virtual testing and verification. The biggest challenge for virtual testing methods lies in the realistic representation of the virtual environment where the ADS is tested. Such an environment shall provide the possibility to model and develop vehicles, objects, control algorithms, traffic participants and environment elements in order to generate valid and representative test data. An important and crucial aspect of such environments is the testing of vehicles in a complex traffic environment with a stochastic and realistic traffic representation. For this research we used a microscopic traffic flow simulation software (TFSS) PTV Vissim and the vehicle simulation software IPG CarMaker to test ADS. Although the TFSS provides realistic and stochastic behavior of traffic participants, the occurrence of safety-critical scenarios (SCS) is not guaranteed. To generate and increase such scenarios, a novel stress testing method (STM) is introduced. With this method, traffic participants are manipulated in the vicinity of the vehicle under test in order to provoke SCS derived from statistical accident data on motorways in Austria. Using the co-simulation between IPG CarMaker, PTV Vissim and external driver models in Vissim are used to imitate human driving errors, resulting in an increase of SCS.",
+    "citation_count": 15
+  }
+]

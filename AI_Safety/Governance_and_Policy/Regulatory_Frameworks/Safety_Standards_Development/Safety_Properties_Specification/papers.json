@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.15622",
+    "title": "Distributionally Robust Safety Verification for Markov Decision Processes",
+    "published_date": "2024-11-23",
+    "abstract": "In this paper, we propose a distributionally robust safety verification method for Markov decision processes where only an ambiguous transition kernel is available instead of the precise transition kernel. We define the ambiguity set around the nominal distribution by considering a Wasserstein distance. To this end, we introduce a robust safety function to characterize probabilistic safety in the face of uncertain transition probability. First, we obtain an upper bound on the robust safety function in terms of a distributionally robust Q-function. Then, we present a convex program-based distributionally robust Q-iteration algorithm to compute the robust Q-function. By considering a numerical example, we demonstrate our theoretical results.",
+    "summary": "This paper presents a distributionally robust safety verification method for Markov Decision Processes with ambiguous transition kernels, using a Wasserstein distance to define an ambiguity set and a convex program-based Q-iteration algorithm to compute a robust Q-function that guarantees safety under transition probability uncertainty. The method bounds the robust safety function using this robust Q-function."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dPpA79MjPdDd87YoW/understanding-goedel-s-completeness-theorem",
+    "author": "Jessicata",
+    "title": "Understanding Gödel's completeness theorem",
+    "published_date": "2024-05-27",
+    "summary": "This article presents a proof of a variant of Gödel's completeness theorem using sequent calculus, aiming for intuitive understanding rather than purely symbolic manipulation. The proof focuses on first-order theories without equality, incorporating a countably infinite set of constants not present in the axioms to aid in defining inference rules and proving completeness."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.10689",
+    "title": "Safety Verification and Navigation for Autonomous Vehicles based on Signal Temporal Logic Constraints",
+    "published_date": "2023-04-11",
+    "abstract": "The software architecture behind modern autonomous vehicles (AV) is becoming more complex steadily. Safety verification is now an imminent task prior to the large-scale deployment of such convoluted models. For safety-critical tasks in navigation, it becomes imperative to perform a verification procedure on the trajectories proposed by the planning algorithm prior to deployment. Signal Temporal Logic (STL) constraints can dictate the safety requirements for an AV. A combination of STL constraints is called a specification. A key difference between STL and other logic constraints is that STL allows us to work on continuous signals. We verify the satisfaction of the STL specifications by calculating the robustness value for each signal within the specification. Higher robustness values indicate a safer system. Model Predictive Control (MPC) is one of the most widely used methods to control the navigation of an AV, with an underlying set of state and input constraints. Our research aims to formulate and test an MPC controller, with STL specifications as constraints, that can safely navigate an AV. The primary goal of the cost function is to minimize the control inputs. STL constraints will act as an additional layer of constraints that would change based on the scenario and task on hand. We propose using sTaliro, a MATLAB-based robustness calculator for STL specifications, formulated in a receding horizon control fashion for an AV navigation task. It inputs a simplified AV state space model and a set of STL specifications, for which it constructs a closed-loop controller. We test out our controller for different test cases/scenarios and verify the safe navigation of our AV model.",
+    "citation_count": 3,
+    "summary": "This paper presents a method for safe autonomous vehicle navigation using Model Predictive Control (MPC) constrained by Signal Temporal Logic (STL) specifications, verifying trajectory safety by calculating STL robustness values and employing the sTaliro tool for closed-loop control. The approach prioritizes minimizing control inputs while ensuring adherence to scenario-dependent safety requirements."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.06808.pdf",
+    "title": "Multi-Agent Reinforcement Learning Guided by Signal Temporal Logic Specifications",
+    "published_date": "2023-06-11",
+    "abstract": "Reward design is a key component of deep reinforcement learning, yet some tasks and designer's objectives may be unnatural to define as a scalar cost function. Among the various techniques, formal methods integrated with DRL have garnered considerable attention due to their expressiveness and flexibility to define the reward and requirements for different states and actions of the agent. However, how to leverage Signal Temporal Logic (STL) to guide multi-agent reinforcement learning reward design remains unexplored. Complex interactions, heterogeneous goals and critical safety requirements in multi-agent systems make this problem even more challenging. In this paper, we propose a novel STL-guided multi-agent reinforcement learning framework. The STL requirements are designed to include both task specifications according to the objective of each agent and safety specifications, and the robustness values of the STL specifications are leveraged to generate rewards. We validate the advantages of our method through empirical studies. The experimental results demonstrate significant reward performance improvements compared to MARL without STL guidance, along with a remarkable increase in the overall safety rate of the multi-agent systems.",
+    "citation_count": 7,
+    "summary": "This paper presents a novel multi-agent reinforcement learning framework guided by Signal Temporal Logic (STL) specifications, using STL robustness values to generate rewards and improve both task performance and safety compared to unguided methods. The framework incorporates both agent objectives and safety requirements into the STL specifications."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.13517",
+    "title": "Leveraging Compositional Methods for Modeling and Verification of an Autonomous Taxi System",
+    "published_date": "2023-04-26",
+    "abstract": "We apply a compositional formal modeling and verification method to an autonomous aircraft taxi system. We provide insights into the modeling approach and we identify several research areas where further development is needed. Specifically, we identify the following needs: (1) semantics of composition of viewpoints expressed in different specification languages, and tools to reason about heterogeneous declarative models; (2) libraries of formal models for autonomous systems to speed up modeling and enable efficient reasoning; (3) methods to lift verification results generated by automated reasoning tools to the specification level; (4) probabilistic contract frameworks to reason about imperfect implementations; (5) standard high-level functional architectures for autonomous systems; and (6) a theory of higher-order contracts. We believe that addressing these research needs, among others, could improve the adoption of formal methods in the design of autonomous systems including learning-enabled systems, and increase confidence in their safe operations.",
+    "citation_count": 1,
+    "summary": "This paper uses compositional formal methods to model and verify an autonomous taxi system, highlighting several key research areas needing further development to improve the adoption and efficacy of formal methods in autonomous system design, particularly concerning heterogeneous model integration and probabilistic reasoning."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/EKPSgN8LsiEJzX5ni/a-well-defined-history-in-measurable-factor-spaces",
+    "author": "Matthias G. Mayer",
+    "title": "A well-defined history in measurable factor spaces",
+    "published_date": "2023-10-05",
+    "summary": "This paper investigates minimal index functions in infinite factor spaces, proving the almost sure existence of a minimal \"history\" function that determines a variable X given a feature Z, by constructing a countable subset of indices sufficient to capture all relevant information."
+  },
+  {
+    "url": "https://arxiv.org/abs/2204.06873",
+    "title": "Formal Development of Safe Automated Driving Using Differential Dynamic Logic",
+    "published_date": "2022-04-14",
+    "abstract": "The challenges in providing convincing arguments for safe and correct behavior of automated driving (AD) systems have so far hindered their widespread commercial deployment. Conventional development approaches such as testing and simulation are limited by non-exhaustive analysis, and can thus not guarantee safety in all possible scenarios. Formal methods can provide mathematical proofs that could be used to produce rigorous evidence to support the safety argument. This paper investigates the use of differential dynamic logic and the deductive verification tool KeYmaera X in the development of an AD feature. Specifically, this paper demonstrates how formal models and safety proofs of different design variants of a Decision & Control module can be used in the safety argument of an in-lane AD feature. In doing so, the assumptions and invariant conditions necessary to guarantee safety are identified, and the paper shows how such an analysis helps during the development process in requirement refinement and formulation of the operational design domain. Furthermore, it is shown how the performance of the different models is formally analyzed exhaustively, in all their allowed behaviors.",
+    "citation_count": 9,
+    "summary": "This paper uses differential dynamic logic and the KeYmaera X tool to formally verify the safety of an in-lane automated driving feature, demonstrating how formal methods can rigorously prove safety properties and refine design requirements. The approach identifies necessary assumptions and invariants, enabling exhaustive analysis of different design variants and their performance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rmwAuWXYTo24E5nnX/a-pin-and-a-balloon-anthropic-fragility-increases-chances-of",
+    "author": "avturchin",
+    "title": "A Pin and a Balloon: Anthropic Fragility Increases Chances of Runaway Global Warming",
+    "published_date": "2022-09-11",
+    "summary": "Due to survival bias, we underestimate the likelihood and proximity of climate tipping points, making Earth more vulnerable to even small human actions; this increases the probability of human extinction via runaway global warming."
+  }
+]

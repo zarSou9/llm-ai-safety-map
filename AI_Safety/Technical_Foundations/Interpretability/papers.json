@@ -1,0 +1,117 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/1901.04592.pdf",
+    "title": "Definitions, methods, and applications in interpretable machine learning",
+    "published_date": "2019-01-14",
+    "abstract": "Significance The recent surge in interpretability research has led to confusion on numerous fronts. In particular, it is unclear what it means to be interpretable and how to select, evaluate, or even discuss methods for producing interpretations of machine-learning models. We aim to clarify these concerns by defining interpretable machine learning and constructing a unifying framework for existing methods which highlights the underappreciated role played by human audiences. Within this framework, methods are organized into 2 classes: model based and post hoc. To provide guidance in selecting and evaluating interpretation methods, we introduce 3 desiderata: predictive accuracy, descriptive accuracy, and relevancy. Using our framework, we review existing work, grounded in real-world studies which exemplify our desiderata, and suggest directions for future work. Machine-learning models have demonstrated great success in learning complex patterns that enable them to make predictions about unobserved data. In addition to using models for prediction, the ability to interpret what a model has learned is receiving an increasing amount of attention. However, this increased focus has led to considerable confusion about the notion of interpretability. In particular, it is unclear how the wide array of proposed interpretation methods are related and what common concepts can be used to evaluate them. We aim to address these concerns by defining interpretability in the context of machine learning and introducing the predictive, descriptive, relevant (PDR) framework for discussing interpretations. The PDR framework provides 3 overarching desiderata for evaluation: predictive accuracy, descriptive accuracy, and relevancy, with relevancy judged relative to a human audience. Moreover, to help manage the deluge of interpretation methods, we introduce a categorization of existing techniques into model-based and post hoc categories, with subgroups including sparsity, modularity, and simulatability. To demonstrate how practitioners can use the PDR framework to evaluate and understand interpretations, we provide numerous real-world examples. These examples highlight the often underappreciated role played by human audiences in discussions of interpretability. Finally, based on our framework, we discuss limitations of existing methods and directions for future work. We hope that this work will provide a common vocabulary that will make it easier for both practitioners and researchers to discuss and choose from the full range of interpretation methods.",
+    "citation_count": 1305,
+    "summary": "This paper clarifies the ambiguous concept of interpretability in machine learning by defining it and proposing a unifying framework (PDR) that categorizes methods (model-based and post-hoc) and evaluates them based on predictive, descriptive, and relevancy accuracy relative to human audiences. The framework aims to guide practitioners in selecting and evaluating interpretation methods."
+  },
+  {
+    "title": "Definitions, methods, and applications in interpretable machine learning",
+    "abstract": "Significance The recent surge in interpretability research has led to confusion on numerous fronts. In particular, it is unclear what it means to be interpretable and how to select, evaluate, or even discuss methods for producing interpretations of machine-learning models. We aim to clarify these concerns by defining interpretable machine learning and constructing a unifying framework for existing methods which highlights the underappreciated role played by human audiences. Within this framework, methods are organized into 2 classes: model based and post hoc. To provide guidance in selecting and evaluating interpretation methods, we introduce 3 desiderata: predictive accuracy, descriptive accuracy, and relevancy. Using our framework, we review existing work, grounded in real-world studies which exemplify our desiderata, and suggest directions for future work. Machine-learning models have demonstrated great success in learning complex patterns that enable them to make predictions about unobserved data. In addition to using models for prediction, the ability to interpret what a model has learned is receiving an increasing amount of attention. However, this increased focus has led to considerable confusion about the notion of interpretability. In particular, it is unclear how the wide array of proposed interpretation methods are related and what common concepts can be used to evaluate them. We aim to address these concerns by defining interpretability in the context of machine learning and introducing the predictive, descriptive, relevant (PDR) framework for discussing interpretations. The PDR framework provides 3 overarching desiderata for evaluation: predictive accuracy, descriptive accuracy, and relevancy, with relevancy judged relative to a human audience. Moreover, to help manage the deluge of interpretation methods, we introduce a categorization of existing techniques into model-based and post hoc categories, with subgroups including sparsity, modularity, and simulatability. To demonstrate how practitioners can use the PDR framework to evaluate and understand interpretations, we provide numerous real-world examples. These examples highlight the often underappreciated role played by human audiences in discussions of interpretability. Finally, based on our framework, we discuss limitations of existing methods and directions for future work. We hope that this work will provide a common vocabulary that will make it easier for both practitioners and researchers to discuss and choose from the full range of interpretation methods.",
+    "published_date": "2019-01-14",
+    "citation_count": 1305,
+    "url": "https://ncbi.nlm.nih.gov/pmc/articles/PMC6825274/",
+    "summary": "This paper clarifies the concept of interpretable machine learning, proposing a unifying framework that categorizes methods (model-based and post-hoc) and evaluates them based on predictive accuracy, descriptive accuracy, and relevance to human audiences. It aims to provide a common vocabulary and guidance for selecting and evaluating interpretation methods in practice."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1707.03886v1.pdf",
+    "title": "A Formal Framework to Characterize Interpretability of Procedures",
+    "published_date": "2017-06-11",
+    "abstract": "We provide a novel notion of what it means to be interpretable, looking past the usual association with human understanding. Our key insight is that interpretability is not an absolute concept and so we define it relative to a target model, which may or may not be a human. We define a framework that allows for comparing interpretable procedures by linking it to important practical aspects such as accuracy and robustness. We characterize many of the current state-of-the-art interpretable methods in our framework portraying its general applicability.",
+    "citation_count": 19,
+    "summary": "This paper introduces a formal framework for defining and comparing the interpretability of procedures, moving beyond human understanding to consider interpretability relative to a target model. The framework links interpretability to practical considerations like accuracy and robustness, and demonstrates its applicability to existing interpretable methods."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/interpretability-ml-and-ai",
+    "author": "Lee Sharkey, Dan Braun, Beren Millidge",
+    "title": "Interpretability (ML & AI) - AI Alignment Forum",
+    "published_date": "2023-04-30",
+    "summary": "AI interpretability focuses on understanding how machine learning models arrive at their decisions, a crucial aspect hampered by the opacity of current systems. Mechanistic interpretability, a key subfield, seeks to uncover the internal workings of models like neural networks, contrasting with methods that attribute outputs to specific inputs."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jLAvJt8wuSFySN975/mechanistic-interpretability-quickstart-guide",
+    "author": "Neel Nanda",
+    "title": "Mechanistic Interpretability Quickstart Guide",
+    "published_date": "2023-01-31",
+    "summary": "This guide provides a rapid introduction to mechanistic interpretability (MI), a field focused on understanding how neural networks work. It suggests a fast-track approach using readily available resources, including videos and code examples, to quickly begin contributing to MI research, even within a weekend hackathon."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/9ezkEb9oGvEi6WoB3/concrete-steps-to-get-started-in-transformer-mechanistic",
+    "author": "Neel Nanda",
+    "title": "Concrete Steps to Get Started in Transformer Mechanistic Interpretability",
+    "published_date": "2022-12-25",
+    "summary": "This article provides a structured guide for beginners to learn mechanistic interpretability (MI) of transformers, focusing on practical, hands-on experience. It outlines key concepts, necessary tools, and suggests resources to build a foundational understanding and begin conducting simple MI experiments."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2107.07045v1.pdf",
+    "title": "Explainable AI: current status and future directions",
+    "published_date": "2021-07-12",
+    "abstract": "Explainable Artificial Intelligence (XAI) is an emerging area of research in the field of Artificial Intelligence (AI). XAI can explain how AI obtained a particular solution (e.g., classification or object detection) and can also answer other\"wh\"questions. This explainability is not possible in traditional AI. Explainability is essential for critical applications, such as defense, health care, law and order, and autonomous driving vehicles, etc, where the know-how is required for trust and transparency. A number of XAI techniques so far have been purposed for such applications. This paper provides an overview of these techniques from a multimedia (i.e., text, image, audio, and video) point of view. The advantages and shortcomings of these techniques have been discussed, and pointers to some future directions have also been provided.",
+    "citation_count": 75,
+    "summary": "This paper reviews current Explainable AI (XAI) techniques for multimedia data, highlighting their strengths and weaknesses in achieving transparency and trust, particularly for critical applications. Future research directions for improving XAI are also suggested."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.09429v1.pdf",
+    "title": "Explainable Artificial Intelligence Approaches: A Survey",
+    "published_date": "2021-01-23",
+    "abstract": "The lack of explainability of a decision from an Artificial Intelligence (AI) based\"black box\"system/model, despite its superiority in many real-world applications, is a key stumbling block for adopting AI in many high stakes applications of different domain or industry. While many popular Explainable Artificial Intelligence (XAI) methods or approaches are available to facilitate a human-friendly explanation of the decision, each has its own merits and demerits, with a plethora of open challenges. We demonstrate popular XAI methods with a mutual case study/task (i.e., credit default prediction), analyze for competitive advantages from multiple perspectives (e.g., local, global), provide meaningful insight on quantifying explainability, and recommend paths towards responsible or human-centered AI using XAI as a medium. Practitioners can use this work as a catalog to understand, compare, and correlate competitive advantages of popular XAI methods. In addition, this survey elicits future research directions towards responsible or human-centric AI systems, which is crucial to adopt AI in high stakes applications.",
+    "citation_count": 97,
+    "summary": "This survey paper reviews popular Explainable Artificial Intelligence (XAI) methods, comparing their strengths and weaknesses using a credit default prediction case study, and identifies future research directions for building more responsible and human-centered AI systems. The paper aims to provide practitioners with a catalog of XAI methods and guide future research."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.08222v1.pdf",
+    "title": "Will We Trust What We Don't Understand? Impact of Model Interpretability and Outcome Feedback on Trust in AI",
+    "published_date": "2021-11-16",
+    "abstract": "Despite AI's superhuman performance in a variety of domains, humans are often unwilling to adopt AI systems. The lack of interpretability inherent in many modern AI techniques is believed to be hurting their adoption, as users may not trust systems whose decision processes they do not understand. We investigate this proposition with a novel experiment in which we use an interactive prediction task to analyze the impact of interpretability and outcome feedback on trust in AI and on human performance in AI-assisted prediction tasks. We find that interpretability led to no robust improvements in trust, while outcome feedback had a significantly greater and more reliable effect. However, both factors had modest effects on participants' task performance. Our findings suggest that (1) factors receiving significant attention, such as interpretability, may be less effective at increasing trust than factors like outcome feedback, and (2) augmenting human performance via AI systems may not be a simple matter of increasing trust in AI, as increased trust is not always associated with equally sizable improvements in performance. These findings invite the research community to focus not only on methods for generating interpretations but also on techniques for ensuring that interpretations impact trust and performance in practice.",
+    "citation_count": 8,
+    "summary": "A study investigating the impact of AI interpretability and outcome feedback on trust and performance found that outcome feedback significantly increased trust more reliably than interpretability, while neither strongly affected task performance. This suggests that focusing solely on interpretability may be less effective than improving feedback mechanisms for building trust and improving AI adoption."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/GEPX7jgLMB8vR2qaK/opinions-on-interpretable-machine-learning-and-70-summaries",
+    "author": "by [anonymous], Peter Hase122 min read9th Apr 202117 comments",
+    "title": "Opinions on Interpretable Machine Learning and 70 Summaries of Recent Papers",
+    "published_date": "2021-04-09",
+    "summary": "This article summarizes 70 recent papers on AI model interpretability, explainability, and transparency, offering high-level opinions on various research areas and including a further 90 unsummarized papers. The authors provide a structured overview of current research, highlighting key papers and evaluating existing methods for assessing model interpretability."
+  },
+  {
+    "url": "https://arxiv.org/abs/2003.07631v1",
+    "title": "Toward Interpretable Machine Learning: Transparent Deep Neural Networks and Beyond",
+    "published_date": "2020-03-17",
+    "abstract": "With the broader and highly successful usage of machine learning in industry and the sciences, there has been a growing demand for explainable AI. Interpretability and explanation methods for gaining a better understanding about the problem solving abilities and strategies of nonlinear Machine Learning such as Deep Learning (DL), LSTMs, and kernel methods are therefore receiving increased attention. In this work we aim to (1) provide a timely overview of this active emerging field and explain its theoretical foundations, (2) put interpretability algorithms to a test both from a theory and comparative evaluation perspective using extensive simulations, (3) outline best practice aspects i.e. how to best include interpretation methods into the standard usage of machine learning and (4) demonstrate successful usage of explainable AI in a representative selection of application scenarios. Finally, we discuss challenges and possible future directions of this exciting foundational field of machine learning.",
+    "citation_count": 82,
+    "summary": "This paper reviews explainable AI (XAI) methods for interpreting complex machine learning models like deep neural networks, presenting theoretical foundations, comparative evaluations, best practices for implementation, and application examples. It also identifies challenges and future research directions in the field of XAI."
+  },
+  {
+    "title": "Explainable AI: A Review of Machine Learning Interpretability Methods",
+    "abstract": "Recent advances in artificial intelligence (AI) have led to its widespread industrial adoption, with machine learning systems demonstrating superhuman performance in a significant number of tasks. However, this surge in performance, has often been achieved through increased model complexity, turning such systems into “black box” approaches and causing uncertainty regarding the way they operate and, ultimately, the way that they come to decisions. This ambiguity has made it problematic for machine learning systems to be adopted in sensitive yet critical domains, where their value could be immense, such as healthcare. As a result, scientific interest in the field of Explainable Artificial Intelligence (XAI), a field that is concerned with the development of new methods that explain and interpret machine learning models, has been tremendously reignited over recent years. This study focuses on machine learning interpretability methods; more specifically, a literature review and taxonomy of these methods are presented, as well as links to their programming implementations, in the hope that this survey would serve as a reference point for both theorists and practitioners.",
+    "published_date": "2020-12-25",
+    "citation_count": 1663,
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7824368/",
+    "summary": "This paper reviews and categorizes existing machine learning interpretability methods (XAI), addressing the need for explainability in complex AI models to ensure trust and adoption in critical applications. It provides a taxonomy of these methods along with links to their implementations."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2006.00093.pdf",
+    "title": "Explainable Artificial Intelligence: a Systematic Review",
+    "published_date": "2020-05-29",
+    "abstract": "Explainable Artificial Intelligence (XAI) has experienced a significant growth over the last few years. This is due to the widespread application of machine learning, particularly deep learning, that has led to the development of highly accurate models but lack explainability and interpretability. A plethora of methods to tackle this problem have been proposed, developed and tested. This systematic review contributes to the body of knowledge by clustering these methods with a hierarchical classification system with four main clusters: review articles, theories and notions, methods and their evaluation. It also summarises the state-of-the-art in XAI and recommends future research directions.",
+    "citation_count": 235,
+    "summary": "This systematic review organizes existing Explainable Artificial Intelligence (XAI) methods into four clusters (review articles, theories, methods, and evaluations), summarizing current XAI research and suggesting future directions. The review addresses the growing need for interpretability in increasingly accurate but opaque machine learning models."
+  },
+  {
+    "title": "Intelligible and Explainable Machine Learning: Best Practices and Practical Challenges",
+    "abstract": "Learning methods such as boosting and deep learning have made ML models harder to understand and interpret. This puts data scientists and ML developers in the position of often having to make a tradeoff between accuracy and intelligibility. Research in IML (Interpretable Machine Learning) and XAI (Explainable AI) focus on minimizing this trade-off by developing more accurate interpretable models and by developing new techniques to explain black-box models. Such models and techniques make it easier for data scientists, engineers and model users to debug models and achieve important objectives such as ensuring the fairness of ML decisions and the reliability and safety of AI systems. In this tutorial, we present an overview of various interpretability methods and provide a framework for thinking about how to choose the right explanation method for different real-world scenarios. We will focus on the application of XAI in practice through a variety of case studies from domains such as healthcare, finance, and bias and fairness. Finally, we will present open problems and research directions for the data mining and machine learning community. What audience will learn: When and how to use a variety of machine learning interpretability methods through case studies of real-world situations. The difference between glass-box and black-box explanation methods and when to use them. How to use open source interpretability toolkits that are now available",
+    "published_date": "2020-07-06",
+    "citation_count": 30,
+    "url": "https://dl.acm.org/doi/10.1145/3394486.3406707",
+    "summary": "This tutorial surveys interpretable machine learning (IML) and explainable AI (XAI) methods, offering a framework for selecting appropriate explanation techniques based on real-world application needs and highlighting practical challenges and future research directions. It emphasizes the balance between model accuracy and intelligibility, showcasing case studies and available tools."
+  },
+  {
+    "title": "AIMLAI'20: Third Workshop on Advances in Interpretable Machine Learning and Artificial Intelligence",
+    "abstract": "The Third Workshop on \"Advances in Interpretable Machine Learning and Artificial Intelligence\" (AIMLAI) presents contributions in the fields of (i) interpretable ML and AI, i.e., algorithms that are natively interpretable, and (ii) interpretability modules, i.e., explanation layers on top of black-box models, also called post-hoc interpretability. AIMLAI encourages interdisciplinary collaborations with particular emphasis in knowledge management, infovis, human computer interaction and psychology. It also welcomes applied research for use cases where interpretability matters.",
+    "published_date": "2020-10-19",
+    "url": "https://dl.acm.org/doi/10.1145/3340531.3414071",
+    "summary": "The AIMLAI'20 workshop showcased research on interpretable machine learning, focusing on both inherently interpretable algorithms and post-hoc explanation methods for black-box models. The workshop emphasized interdisciplinary collaboration and applied research in areas where interpretability is crucial."
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.12258",
+    "title": "Emergent Dominance Hierarchies in Reinforcement Learning Agents",
+    "published_date": "2024-01-21",
+    "abstract": "Modern Reinforcement Learning (RL) algorithms are able to outperform humans in a wide variety of tasks. Multi-agent reinforcement learning (MARL) settings present additional challenges, and successful cooperation in mixed-motive groups of agents depends on a delicate balancing act between individual and group objectives. Social conventions and norms, often inspired by human institutions, are used as tools for striking this balance. In this paper, we examine a fundamental, well-studied social convention that underlies cooperation in both animal and human societies: dominance hierarchies. We adapt the ethological theory of dominance hierarchies to artificial agents, borrowing the established terminology and definitions with as few amendments as possible. We demonstrate that populations of RL agents, operating without explicit programming or intrinsic rewards, can invent, learn, enforce, and transmit a dominance hierarchy to new populations. The dominance hierarchies that emerge have a similar structure to those studied in chickens, mice, fish, and other species.",
+    "summary": "This paper shows that reinforcement learning agents, without explicit programming, spontaneously develop, learn, enforce, and transmit dominance hierarchies similar to those observed in various animal species. These emergent hierarchies effectively balance individual and group objectives in multi-agent settings."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.13719",
+    "title": "A Practical Multilevel Governance Framework for Autonomous and Intelligent Systems",
+    "published_date": "2024-04-21",
+    "abstract": "Autonomous and intelligent systems (AIS) facilitate a wide range of beneficial applications across a variety of different domains. However, technical characteristics such as unpredictability and lack of transparency, as well as potential unintended consequences, pose considerable challenges to the current governance infrastructure. Furthermore, the speed of development and deployment of applications outpaces the ability of existing governance institutions to put in place effective ethical-legal oversight. New approaches for agile, distributed and multilevel governance are needed. This work presents a practical framework for multilevel governance of AIS. The framework enables mapping actors onto six levels of decision-making including the international, national and organizational levels. Furthermore, it offers the ability to identify and evolve existing tools or create new tools for guiding the behavior of actors within the levels. Governance mechanisms enable actors to shape and enforce regulations and other tools, which when complemented with good practices contribute to effective and comprehensive governance.",
+    "summary": "This paper proposes a multilevel governance framework for autonomous and intelligent systems, addressing the challenges posed by their rapid development and deployment by mapping actors across six decision-making levels and identifying/creating tools to guide their behavior and enforce regulations."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.07985",
+    "title": "Games for AI Control: Models of Safety Evaluations of AI Deployment Protocols",
+    "published_date": "2024-09-12",
+    "abstract": "To evaluate the safety and usefulness of deployment protocols for untrusted AIs, AI Control uses a red-teaming exercise played between a protocol designer and an adversary. This paper introduces AI-Control Games, a formal decision-making model of the red-teaming exercise as a multi-objective, partially observable, stochastic game. We also introduce methods for finding optimal protocols in AI-Control Games, by reducing them to a set of zero-sum partially observable stochastic games. We apply our formalism to model, evaluate and synthesise protocols for deploying untrusted language models as programming assistants, focusing on Trusted Monitoring protocols, which use weaker language models and limited human assistance. Finally, we demonstrate the utility of our formalism by showcasing improvements over empirical studies in existing settings, evaluating protocols in new settings, and analysing how modelling assumptions affect the safety and usefulness of protocols.",
+    "citation_count": 2,
+    "summary": "This paper introduces AI-Control Games, a formal game-theoretic model for evaluating the safety of AI deployment protocols by simulating adversarial interactions between a protocol designer and an attacker. The model is used to analyze and synthesize improved protocols, particularly for untrusted language models, demonstrating its utility through comparisons with empirical studies and exploration of novel scenarios."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.16608",
+    "title": "Barriers on the EDGE: A scalable CBF architecture over EDGE for safe aerial-ground multi-agent coordination",
+    "published_date": "2024-11-25",
+    "abstract": "In this article, we address the problem of designing a scalable control architecture for a safe coordinated operation of a multi-agent system with aerial (UAVs) and ground robots (UGVs) in a confined task space. The proposed method uses Control Barrier Functions (CBFs) to impose constraints associated with (i) collision avoidance between agents, (ii) landing of UAVs on mobile UGVs, and (iii) task space restriction. Further, to account for the rapid increase in the number of constraints for a single agent with the increasing number of agents, the proposed architecture uses a centralized-decentralized Edge cluster, where a centralized node (Watcher) activates the relevant constraints, reducing the need for high onboard processing and network complexity. The distributed nodes run the controller locally to overcome latency and network issues. The proposed Edge architecture is experimentally validated using multiple aerial and ground robots in a confined environment performing a coordinated operation.",
+    "summary": "This paper presents a scalable, centralized-decentralized control architecture using Control Barrier Functions (CBFs) for safe multi-agent coordination between aerial and ground robots in confined spaces, addressing collision avoidance and task constraints via an Edge computing cluster to reduce computational burden and network complexity. Experimental validation demonstrates its effectiveness."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.13824",
+    "title": "Adaptive Task Allocation in Multi-Human Multi-Robot Teams under Team Heterogeneity and Dynamic Information Uncertainty",
+    "published_date": "2024-09-20",
+    "abstract": "Task allocation in multi-human multi-robot (MH-MR) teams presents significant challenges due to the inherent heterogeneity of team members, the dynamics of task execution, and the information uncertainty of operational states. Existing approaches often fail to address these challenges simultaneously, resulting in suboptimal performance. To tackle this, we propose ATA-HRL, an adaptive task allocation framework using hierarchical reinforcement learning (HRL), which incorporates initial task allocation (ITA) that leverages team heterogeneity and conditional task reallocation in response to dynamic operational states. Additionally, we introduce an auxiliary state representation learning task to manage information uncertainty and enhance task execution. Through an extensive case study in large-scale environmental monitoring tasks, we demonstrate the benefits of our approach.",
+    "summary": "ATA-HRL, a novel adaptive task allocation framework using hierarchical reinforcement learning, addresses challenges in multi-human multi-robot teams by leveraging team heterogeneity, dynamically reallocating tasks based on changing conditions, and employing auxiliary state representation learning to manage information uncertainty. This approach improves task allocation performance in complex scenarios like large-scale environmental monitoring."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.13785",
+    "title": "Synthesis of Hierarchical Controllers Based on Deep Reinforcement Learning Policies",
+    "published_date": "2024-02-21",
+    "abstract": "We propose a novel approach to the problem of controller design for environments modeled as Markov decision processes (MDPs). Specifically, we consider a hierarchical MDP a graph with each vertex populated by an MDP called a\"room\". We first apply deep reinforcement learning (DRL) to obtain low-level policies for each room, scaling to large rooms of unknown structure. We then apply reactive synthesis to obtain a high-level planner that chooses which low-level policy to execute in each room. The central challenge in synthesizing the planner is the need for modeling rooms. We address this challenge by developing a DRL procedure to train concise\"latent\"policies together with PAC guarantees on their performance. Unlike previous approaches, ours circumvents a model distillation step. Our approach combats sparse rewards in DRL and enables reusability of low-level policies. We demonstrate feasibility in a case study involving agent navigation amid moving obstacles.",
+    "summary": "This paper presents a hierarchical controller synthesis method using deep reinforcement learning (DRL) to create low-level policies for sub-tasks (\"rooms\") within a larger MDP, and reactive synthesis to create a high-level planner selecting between these policies, avoiding model distillation and handling sparse rewards. The approach uses DRL to learn concise latent policies with performance guarantees, enabling policy reuse."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xud7Mti9jS4tbWqQE/hierarchical-agency-a-missing-piece-in-ai-alignment",
+    "author": "Jan_Kulveit",
+    "title": "Hierarchical Agency: A Missing Piece in AI Alignment",
+    "published_date": "2024-11-27",
+    "summary": "The author explores the concept of hierarchical agency, where agents are composed of other agents (e.g., corporations, states, biological organisms), using a conversation with a large language model to refine their understanding and determine what constitutes a \"real\" higher-level agent versus a mere collection of individual agents."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mXD53GFvMCWQhcCwt/distinguishing-ways-ai-can-be-concentrated",
+    "author": "Matthew Barnett",
+    "title": "Distinguishing ways AI can be \"concentrated\"",
+    "published_date": "2024-10-21",
+    "summary": "The author argues that discussions of AI concentration lack clarity, proposing three distinct dimensions: concentration of AI development, service provision, and control. These dimensions are independent and should be analyzed separately to accurately predict AI's trajectory and inform effective policy."
+  }
+]

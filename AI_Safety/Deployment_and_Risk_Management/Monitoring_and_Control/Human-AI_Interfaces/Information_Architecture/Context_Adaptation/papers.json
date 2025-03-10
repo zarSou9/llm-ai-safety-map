@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2403.13550",
+    "title": "The Tribal Theater Model: Social Regulation for Dynamic User Adaptation in Virtual Interactive Environments",
+    "published_date": "2024-03-20",
+    "abstract": "This paper proposes a social regulation model for dynamic adaptation according to user characteristics in virtual interactive environments, namely the tribal theater model. The model focuses on organizational regulation and builds an interaction scheme with more resilient user performance by improving the subjectivity of the user. This paper discusses the sociological theoretical basis of this model and how it was migrated to an engineering implementation of a virtual interactive environment. The model defines user interactions within a field that are regulated by a matrix through the allocation of resources. To verify the effectiveness of the tribal theater model, we designed an experimental scene using a chatroom as an example. We trained the matrix as an AI model using a temporal transformer and compared it with an interaction field with different levels of control. The experimental results showed that the tribal theater model can improve users' interactive experience, enhance resilient user performance, and effectively complete environmental interaction tasks under rule-based interaction.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.08748",
+    "title": "Option-Driven Design: Context, Tradeoffs, and Considerations for Accessibility",
+    "published_date": "2023-04-18",
+    "abstract": "In Option-Driven Design, users must interact with options and settings for systems to adapt to their needs. This approach places the burden on both the user and the system to make the interaction between user and system fit. The user must know and find which options they need and then adjust them. In addition, the system must be capable of robust change, similar to system change in ability-based design. In this micro-paper I outline the context for option-driven design, followed by several design negotiations, tradeoffs, and suggestions worth considering with this approach.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2203.16882.pdf",
+    "title": "A Contextual Framework for Adaptive User Interfaces: Modelling the Interaction Environment",
+    "published_date": "2022-03-31",
+    "abstract": "The interaction context (or environment ) is key to any HCI task and especially to adaptive user interfaces (AUIs), since it represents the conditions under which users interact with computers. Unfor-tunately, there are currently no formal representations to model said interaction context. In order to address this gap, we propose a contextual framework for AUIs and illustrate a practical application using learning management systems as a case study. We also discuss limitations of our framework and offer discussion points about the realisation of truly context-aware AUIs.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.04472.pdf",
+    "title": "Ten Conceptual Dimensions of Context",
+    "published_date": "2021-11-04",
+    "abstract": "This paper attempts to synthesize various conceptualizations of the term 'context' as found in computing literature. Ten conceptual dimensions of context thus emerge—location; user, task, and system characteristics; physical, social, organizational, and cultural environments; time-related aspects, and historical information. Together, the ten dimensions of context provide a comprehensive view of the notion of context, and allow for a more systematic examination of the influence of context and contextual information on human-system or human-AI interactions."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1704.00869v1.pdf",
+    "title": "Achieving Adaptation for Adaptive Systems via Runtime Verification: A Model-Driven Approach",
+    "published_date": "2017-04-04",
+    "abstract": "Self-adaptive systems (SASs) are capable of adjusting its behavior in response to meaningful changes in the operational con-text and itself. The adaptation needs to be performed automatically through self-managed reactions and decision-making processes at runtime. To support this kind of automatic behavior, SASs must be endowed by a rich runtime support that can detect requirements violations and reason about adaptation decisions. Requirements Engineering for SASs primarily aims to model adaptation logic and mechanisms. Requirements models will guide the design decisions and runtime behaviors of sys-tem-to-be. This paper proposes a model-driven approach for achieving adaptation against non-functional requirements (NFRs), i.e. reliability and performances. The approach begins with the models in RE stage and provides runtime support for self-adaptation. We capture adaptation mechanisms as graphical elements in the goal model. By assigning reliability and performance attributes to related system tasks, we derive the tagged sequential diagram for specifying the reliability and performances of system behaviors. To formalize system behavior, we transform the requirements model to the corresponding behavior model, expressed by Label Transition Systems (LTS). To analyze the reliability requirements and performance requirements, we merged the sequential diagram and LTS to a variable Discrete-Time Markov Chains (DTMC) and a variable Continuous-Time Markov Chains (CTMC) respectively. Adaptation candidates are characterized by the variable states. The optimal decision is derived by verifying the concerned NFRs and reducing the decision space. Our approach is implemented through the demonstration of a mobile information system.",
+    "citation_count": 2
+  },
+  {
+    "title": "Content management system for environment adaptive digital signage",
+    "abstract": "Digital signage displays are effective means of providing information. Adapting contents to environmental contexts makes digital signage displays more attractive. In this paper, we present a content management system for environment adaptive digital signage. Multiple kinds of environmental contexts can be modeled in the proposed system. Contents for those contexts are systematically stored and fetched in the content management system.",
+    "published_date": "2014-12-15",
+    "citation_count": 2,
+    "url": "https://ieeexplore.ieee.org/document/6983201"
+  }
+]

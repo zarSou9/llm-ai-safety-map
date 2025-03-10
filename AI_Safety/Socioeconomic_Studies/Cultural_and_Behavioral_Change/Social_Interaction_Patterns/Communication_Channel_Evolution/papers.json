@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/tag/relationships-interpersonal",
+    "title": "Relationships (Interpersonal) - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "Interpersonal relationships encompass all sustained interactions between individuals, covering a wide range of connections from friendships to family and business partnerships. Related concepts include communication and cultural communication styles."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/smMdYezaC8vuiLjCf/secret-collusion-will-we-know-when-to-unplug-ai",
+    "author": "Schroederdewitt; Srm; MikhailB; Lewis Hammond; Chansmi; Sofmonk",
+    "title": "Secret Collusion: Will We Know When to Unplug AI?",
+    "published_date": "2024-09-16",
+    "summary": "The article introduces a novel framework, CASE, to evaluate the potential for secret collusion among advanced AI agents using steganography, revealing increasing capabilities for such behavior and highlighting significant safety and security risks. This necessitates urgent consideration of cryptographic and steganographic evaluations of AI models by governing bodies."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/LyJAFBuuEfd4kxgsw/agentic-mess-a-failure-story",
+    "author": "Karl von Wendt, Sofia Bharadia, PeterDrotos, Artem Korotkov, mespa, mruwnik",
+    "title": "Agentic Mess (A Failure Story)",
+    "published_date": "2023-06-06",
+    "summary": "Open-source AI agents, built upon LLMs and utilizing persistent memory, are rapidly proliferating and specializing in various tasks, ranging from financial consulting to social media management and virtual companionship. This specialization, often exceeding the capabilities of general-purpose LLMs, has led to both beneficial applications and concerning issues like inaccurate financial advice."
+  },
+  {
+    "url": "https://arxiv.org/abs/2205.12392",
+    "title": "Emergent communication through Metropolis-Hastings naming game with deep generative models",
+    "published_date": "2022-05-24",
+    "abstract": "Constructive studies on symbol emergence systems seek to investigate computational models that can better explain human language evolution, the creation of symbol systems, and the construction of internal representations. Specifically, emergent communication aims to formulate a computational model that enables agents to build efficient sign systems and internal representations. This study provides a new model for emergent communication, which is based on a probabilistic generative model (PGM) instead of a discriminative model based on deep reinforcement learning. We define the Metropolis-Hastings (MH) naming game by generalizing previously proposed models. It is not a referential game with explicit feedback, as assumed by many emergent communication studies. Instead, it is a game based on joint attention without explicit feedback. Mathematically, the MH naming game is proved to be a type of MH algorithm for an integrative PGM that combines two agents that play the naming game. From this viewpoint, symbol emergence is regarded as decentralized Bayesian inference, and semiotic communication is regarded as inter-personal cross-modal inference. This notion leads to the collective predictive coding hypothesis regarding language evolution and, in general, the emergence of symbols. We also propose the inter-Gaussian mixture model (GMM)+ variational autoencoder (VAE), a deep generative model for emergent communication based on the MH naming game. In this model, two agents create internal representations and categories and share signs (i.e. names of objects) from raw visual images observed from different viewpoints. The model has been validated on MNIST and Fruits 360 datasets. Experimental findings demonstrate that categories are formed from real images observed by agents, and signs are correctly shared across agents by successfully utilizing both of the observations of agents via the MH naming game. Furthermore, scholars verified that visual images were recalled from signs uttered by agents. Notably, emergent communication without supervision and reward feedback improved the performance of the unsupervised representation learning of agents. GRAPHICAL ABSTRACT",
+    "citation_count": 19,
+    "summary": "This paper presents a novel Metropolis-Hastings naming game model for emergent communication, using deep generative models (specifically, inter-Gaussian mixture model + variational autoencoder) to enable agents to develop shared symbolic representations of visual data without explicit feedback or reward. Experimental results on MNIST and Fruits 360 datasets demonstrate successful emergent communication and improved unsupervised representation learning."
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.16590",
+    "title": "Artificial prediction markets present a novel opportunity for human-AI collaboration",
+    "published_date": "2022-11-29",
+    "abstract": "Despite high-profile successes in the field of Artificial Intelligence, machine-driven technologies still suffer important limitations, particularly for complex tasks where creativity, planning, common sense, intuition, or learning from limited data is required. These limitations motivate effective methods for human-machine collaboration. Our work makes two primary contributions. We thoroughly experiment with an artificial prediction market model to understand the effects of market parameters on model performance for benchmark classification tasks. We then demonstrate, through simulation, the impact of exogenous agents in the market, where these exogenous agents represent primitive human behaviors. This work lays the foundation for a novel set of hybrid human-AI machine learning algorithms.",
+    "citation_count": 5,
+    "summary": "This paper explores artificial prediction markets as a novel human-AI collaboration method, experimentally analyzing market parameter effects on model performance and simulating the impact of human-like agents to improve machine learning for complex tasks. This lays groundwork for hybrid human-AI algorithms."
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.02412",
+    "title": "Emergent Quantized Communication",
+    "published_date": "2022-11-04",
+    "abstract": "The field of emergent communication aims to understand the characteristics of communication as it emerges from artificial agents solving tasks that require information exchange. Communication with discrete messages is considered a desired characteristic, for scientific and applied reasons. However, training a multi-agent system with discrete communication is not straightforward, requiring either reinforcement learning algorithms or relaxing the discreteness requirement via a continuous approximation such as the Gumbel-softmax. Both these solutions result in poor performance compared to fully continuous communication. In this work, we propose an alternative approach to achieve discrete communication -- quantization of communicated message. Using message quantization allows us to train the model end-to-end, achieving superior performance in multiple setups. Moreover, quantization is a natural framework that runs the gamut from continuous to discrete communication. Thus, it sets the ground for a broader view of multi-agent communication in the deep learning era.",
+    "citation_count": 6,
+    "summary": "This paper introduces a novel approach to emergent quantized communication in multi-agent systems, achieving superior performance compared to existing methods by quantizing continuous communication messages during end-to-end training. This method offers a flexible framework spanning continuous to discrete communication, improving upon reinforcement learning and Gumbel-softmax approximations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/iRhSi5KcnnD9qsAGo/observed-patterns-around-major-technological-advancements",
+    "author": "Richard Korzekwa",
+    "title": "Observed patterns around major technological advancements",
+    "published_date": "2022-02-03",
+    "summary": "The article proposes several recurring patterns in major technological advancements: initial versions are often practically useless, followed by rapid improvement; significant breakthroughs are preceded by lesser-known but important advances after periods of stagnation; and major progress occurs amidst expert disagreement on effective approaches."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.11979v1.pdf",
+    "title": "Resource allocation method using tug-of-war-based synchronization",
+    "published_date": "2021-08-19",
+    "abstract": "We propose a simple channel-allocation method based on tug-of-war (TOW) dynamics, combined with the time scheduling based on nonlinear oscillator synchronization to efficiently use of the space (channel) and time resources in wireless communications. This study demonstrates that synchronization groups, where each node selects a different channel, are non-uniformly distributed in phase space such that every distance between groups is larger than the area of influence. New type of self-organized spatiotemporal patterns can be formed for resource allocation according to channel rewards. Keyword: Resource allocation, channel allocation, collision avoidance, reinforcement learning, multiarmed bandit problem, synchronization",
+    "summary": "This paper presents a novel channel allocation method for wireless communications that uses tug-of-war dynamics and nonlinear oscillator synchronization to achieve efficient spatiotemporal resource allocation. The method creates self-organized patterns ensuring sufficient separation between communication groups to minimize collisions."
+  }
+]

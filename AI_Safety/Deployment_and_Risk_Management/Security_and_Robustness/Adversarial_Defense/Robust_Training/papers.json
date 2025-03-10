@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2112.09279",
+    "title": "Robust Upper Bounds for Adversarial Training",
+    "published_date": "2021-12-17",
+    "abstract": "Many state-of-the-art adversarial training methods for deep learning leverage upper bounds of the adversarial loss to provide security guarantees against adversarial attacks. Yet, these methods rely on convex relaxations to propagate lower and upper bounds for intermediate layers, which affect the tightness of the bound at the output layer. We introduce a new approach to adversarial training by minimizing an upper bound of the adversarial loss that is based on a holistic expansion of the network instead of separate bounds for each layer. This bound is facilitated by state-of-the-art tools from Robust Optimization; it has closed-form and can be effectively trained using backpropagation. We derive two new methods with the proposed approach. The first method (Approximated Robust Upper Bound or aRUB) uses the first order approximation of the network as well as basic tools from Linear Robust Optimization to obtain an empirical upper bound of the adversarial loss that can be easily implemented. The second method (Robust Upper Bound or RUB), computes a provable upper bound of the adversarial loss. Across a variety of tabular and vision data sets we demonstrate the effectiveness of our approach -- RUB is substantially more robust than state-of-the-art methods for larger perturbations, while aRUB matches the performance of state-of-the-art methods for small perturbations.",
+    "summary": "This paper introduces two new adversarial training methods (aRUB and RUB) that minimize a holistic upper bound of the adversarial loss, unlike existing methods relying on layer-wise bounds. RUB provides a provably robust upper bound, outperforming state-of-the-art methods for larger perturbations, while aRUB offers comparable performance for smaller perturbations."
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.11035",
+    "title": "Adversarial Training Should Be Cast as a Non-Zero-Sum Game",
+    "published_date": "2023-06-19",
+    "abstract": "One prominent approach toward resolving the adversarial vulnerability of deep neural networks is the two-player zero-sum paradigm of adversarial training, in which predictors are trained against adversarially chosen perturbations of data. Despite the promise of this approach, algorithms based on this paradigm have not engendered sufficient levels of robustness and suffer from pathological behavior like robust overfitting. To understand this shortcoming, we first show that the commonly used surrogate-based relaxation used in adversarial training algorithms voids all guarantees on the robustness of trained classifiers. The identification of this pitfall informs a novel non-zero-sum bilevel formulation of adversarial training, wherein each player optimizes a different objective function. Our formulation yields a simple algorithmic framework that matches and in some cases outperforms state-of-the-art attacks, attains comparable levels of robustness to standard adversarial training algorithms, and does not suffer from robust overfitting.",
+    "citation_count": 10,
+    "summary": "Adversarial training's zero-sum game formulation, commonly implemented via surrogate loss relaxations, lacks robustness guarantees and suffers from overfitting; a proposed non-zero-sum bilevel formulation addresses these issues, achieving comparable or superior robustness and avoiding overfitting."
+  },
+  {
+    "url": "https://arxiv.org/abs/1901.08573v1",
+    "title": "Theoretically Principled Trade-off between Robustness and Accuracy",
+    "published_date": "2019-01-24",
+    "abstract": "We identify a trade-off between robustness and accuracy that serves as a guiding principle in the design of defenses against adversarial examples. Although this problem has been widely studied empirically, much remains unknown concerning the theory underlying this trade-off. In this work, we decompose the prediction error for adversarial examples (robust error) as the sum of the natural (classification) error and boundary error, and provide a differentiable upper bound using the theory of classification-calibrated loss, which is shown to be the tightest possible upper bound uniform over all probability distributions and measurable predictors. Inspired by our theoretical analysis, we also design a new defense method, TRADES, to trade adversarial robustness off against accuracy. Our proposed algorithm performs well experimentally in real-world datasets. The methodology is the foundation of our entry to the NeurIPS 2018 Adversarial Vision Challenge in which we won the 1st place out of ~2,000 submissions, surpassing the runner-up approach by $11.41\\%$ in terms of mean $\\ell_2$ perturbation distance.",
+    "citation_count": 2347,
+    "summary": "This paper theoretically establishes a trade-off between model robustness and accuracy against adversarial examples, deriving a tight upper bound on robust error and using this to design a new defense method, TRADES, which achieved state-of-the-art results in the NeurIPS 2018 Adversarial Vision Challenge."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.01276.pdf",
+    "title": "A Multiclass Boosting Framework for Achieving Fast and Provable Adversarial Robustness",
+    "published_date": "2021-03-01",
+    "abstract": "Alongside the well-publicized accomplishments of deep neural networks there has emerged an apparent bug in their success on tasks such as object recognition: with deep models trained using vanilla methods, input images can be slightly corrupted in order to modify output predictions, even when these corruptions are practically invisible. This apparent lack of robustness has led researchers to propose methods that can help to prevent an adversary from having such capabilities. The state-of-the-art approaches have incorporated the robustness requirement into the loss function, and the training process involves taking stochastic gradient descent steps not using original inputs but on adversarially-corrupted ones. In this paper we propose a multiclass boosting framework to ensure adversarial robustness. Boosting algorithms are generally well-suited for adversarial scenarios, as they were classically designed to satisfy a minimax guarantee. We provide a theoretical foundation for this methodology and describe conditions under which robustness can be achieved given a weak training oracle. We show empirically that adversarially-robust multiclass boosting not only outperforms the state-of-the-art methods, it does so at a fraction of the training time.",
+    "citation_count": 6,
+    "summary": "This paper introduces a multiclass boosting framework for achieving adversarial robustness in deep neural networks, offering both theoretical guarantees and empirical results showing superior performance and faster training compared to existing state-of-the-art methods. The approach leverages boosting's inherent minimax properties to defend against adversarial attacks."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1910.06259v1.pdf",
+    "title": "Confidence-Calibrated Adversarial Training: Towards Robust Models Generalizing Beyond the Attack Used During Training",
+    "published_date": "2019-09-25",
+    "abstract": "Adversarial training is the standard to train models robust against adversarial examples. However, especially for complex datasets, adversarial training incurs a significant loss in accuracy and is known to generalize poorly to stronger attacks, e.g., larger perturbations or other threat models. In this paper, we introduce confidence-calibrated adversarial training (CCAT) where the key idea is to enforce that the confidence on adversarial examples decays with their distance to the attacked examples. We show that CCAT preserves better the accuracy of normal training while robustness against adversarial examples is achieved via confidence thresholding. Most importantly, in strong contrast to adversarial training, the robustness of CCAT generalizes to larger perturbations and other threat models, not encountered during training. We also discuss our extensive work to design strong adaptive attacks against CCAT and standard adversarial training which is of independent interest. We present experimental results on MNIST, SVHN and Cifar10.",
+    "citation_count": 5,
+    "summary": "Confidence-calibrated adversarial training (CCAT) improves adversarial robustness by linking model confidence to the distance of adversarial examples from their benign counterparts, leading to better generalization to unseen attacks and stronger perturbation magnitudes compared to standard adversarial training. This is achieved while maintaining higher accuracy on clean data than standard adversarial training."
+  },
+  {
+    "url": "https://arxiv.org/abs/1909.04068v1",
+    "title": "Adversarial Robustness Against the Union of Multiple Perturbation Models",
+    "published_date": "2019-09-09",
+    "abstract": "Owing to the susceptibility of deep learning systems to adversarial attacks, there has been a great deal of work in developing (both empirically and certifiably) robust classifiers, but the vast majority has defended against single types of attacks. Recent work has looked at defending against multiple attacks, specifically on the MNIST dataset, yet this approach used a relatively complex architecture, claiming that standard adversarial training can not apply because it \"overfits\" to a particular norm. In this work, we show that it is indeed possible to adversarially train a robust model against a union of norm-bounded attacks, by using a natural generalization of the standard PGD-based procedure for adversarial training to multiple threat models. With this approach, we are able to train standard architectures which are robust against $\\ell_\\infty$, $\\ell_2$, and $\\ell_1$ attacks, outperforming past approaches on the MNIST dataset and providing the first CIFAR10 network trained to be simultaneously robust against $(\\ell_{\\infty}, \\ell_{2},\\ell_{1})$ threat models, which achieves adversarial accuracy rates of $(47.6\\%, 64.8\\%, 53.4\\%)$ for $(\\ell_{\\infty}, \\ell_{2},\\ell_{1})$ perturbations with radius $\\epsilon = (0.03,0.5,12)$.",
+    "citation_count": 147,
+    "summary": "This paper demonstrates that standard convolutional neural networks can be adversarially trained to be robust against multiple ($\\ell_\\infty$, $\\ell_2$, $\\ell_1$) norm-bounded attacks simultaneously, achieving state-of-the-art results on MNIST and providing the first such robust model on CIFAR-10. This contradicts previous claims that standard adversarial training is insufficient for multi-attack robustness."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/oPnFzfZtaoWrqTP4H/solving-adversarial-attacks-in-computer-vision-as-a-baby",
+    "author": "Stanislavfort",
+    "title": "Solving adversarial attacks in computer vision as a baby version of general AI alignment",
+    "published_date": "2024-08-29",
+    "summary": "The author argues that adversarial attacks on computer vision systems, which exploit minute image alterations imperceptible to humans, mirror the broader challenge of AI alignment. Successfully addressing adversarial robustness in computer vision is presented as a crucial stepping stone towards achieving safe and reliable general AI."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/fQZRFM3FuQ2YnBxdb/does-robustness-improve-with-scale",
+    "author": "ChengCheng; AdamGleave; Ian McKenzie; Oskar Hollinsworth; Tom Tseng",
+    "title": "Does robustness improve with scale?",
+    "published_date": "2024-07-25",
+    "summary": "Larger language models aren't inherently more robust to adversarial attacks than smaller ones; however, larger models benefit more from robustness-enhancing techniques like adversarial training. This was demonstrated through experiments on classification tasks using adversarial suffix attacks."
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Labour and technology at the time of Covid-19. Can artificial intelligence mitigate the need for proximity?",
+    "abstract": "Social distancing has become worldwide the key public policy to be implemented during the COVID-19 epidemic and reducing the degree of proximity among workers turned out to be an important dimension. An emerging literature looks at the role of automation in supporting the work of humans but the potential of Artiﬁcial Intelligence (AI) to inﬂuence the need for physical proximity on the workplace has been left largely unexplored. By using a unique and innovative dataset that combines data on advancements of AI at the occupational level with information on the required proximity in the job-place and administrative employer-employee data on job ﬂows, our results show that AI and proximity stand in an inverse U-shape relationship at the sectoral level, with high advancements in AI that are negatively associated with proximity. We detect this pattern among sectors that were closed due to the lockdown measures as well as among sectors that remained open. We argue that, apart from the expected gains in productivity and competitiveness, preserving jobs and economic activities in a situation of high contagion may be the additional beneﬁts of a policy favouring digitization.",
+    "published_date": "2024-06-16",
+    "citation_count": 6,
+    "url": "https://www.econstor.eu/bitstream/10419/228711/1/GLO-DP-0765.pdf",
+    "summary": "This paper investigates the relationship between AI adoption and workplace proximity, finding an inverse U-shaped correlation where high AI advancement is negatively associated with proximity needs across various sectors, even those closed during COVID-19 lockdowns. The authors suggest that AI-driven digitization offers economic benefits beyond productivity gains, including job preservation during crises."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.16443",
+    "title": "The Turing Valley: How AI Capabilities Shape Labor Income",
+    "published_date": "2024-08-29",
+    "abstract": "Do improvements in Artificial Intelligence (AI) benefit workers? We study how AI capabilities influence labor income in a competitive economy where production requires multidimensional knowledge, and firms organize production by matching humans and AI-powered machines in hierarchies designed to use knowledge efficiently. We show that advancements in AI in dimensions where machines underperform humans decrease total labor income, while advancements in dimensions where machines outperform humans increase it. Hence, if AI initially underperforms humans in all dimensions and improves gradually, total labor income initially declines before rising. We also characterize the AI that maximizes labor income. When humans are sufficiently weak in all knowledge dimensions, labor income is maximized when AI is as good as possible in all dimensions. Otherwise, labor income is maximized when AI simultaneously performs as poorly as possible in the dimensions where humans are relatively strong and as well as possible in the dimensions where humans are relatively weak. Our results suggest that choosing the direction of AI development can create significant divisions between the interests of labor and capital.",
+    "summary": "The impact of AI on labor income depends on its relative performance compared to humans; advancements in areas where AI surpasses human capabilities increase labor income, while advancements in areas where AI lags decrease it, potentially leading to an initial decline before eventual growth. This suggests that AI development priorities can significantly affect the interests of labor and capital."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.16314",
+    "title": "Capital as Artificial Intelligence",
+    "published_date": "2024-07-23",
+    "abstract": "We gather many perspectives on Capital and synthesize their commonalities. We provide a characterization of Capital as a historical agential system and propose a model of Capital using tools from computer science. Our model consists of propositions which, if satisfied by a specific grounding, constitute a valid model of Capital. We clarify the manners in which Capital can evolve. We claim that, when its evolution is driven by quantitative optimization processes, Capital can possess qualities of Artificial Intelligence. We find that Capital may not uniquely represent meaning, in the same way that optimization is not intentionally meaningful. We find that Artificial Intelligences like modern day Large Language Models are a part of Capital. We link our readers to a web-interface where they can interact with a part of Capital.",
+    "summary": "This paper models capital as a historical, agential system, arguing that its evolution through quantitative optimization processes exhibits characteristics of artificial intelligence, with large language models being a component of this system."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xud7Mti9jS4tbWqQE/hierarchical-agency-a-missing-piece-in-ai-alignment",
+    "author": "Jan_Kulveit",
+    "title": "Hierarchical Agency: A Missing Piece in AI Alignment",
+    "published_date": "2024-11-27",
+    "summary": "The article explores the concept of \"hierarchical agency,\" where agents are composed of other agents (e.g., corporations, states, biological organisms). The author uses a conversation with a large language model to investigate what constitutes a \"superagent\" and proposes that the usefulness of applying the intentional stance (Dennett's framework) to a collective is a key criterion."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/SuktPEmBGxPrnZRHd/agent-membranes-boundaries-and-formalizing-safety",
+    "author": "Chipmonk",
+    "title": "Agent membranes/boundaries and formalizing “safety”",
+    "published_date": "2024-01-03",
+    "summary": "The article proposes formalizing agent safety by focusing on the preservation of \"membranes\" or boundaries, analogous to a bacterium's cell membrane or a nation's borders. This approach prioritizes safety by preventing external interference, offering a framework for protecting agents and infrastructure without needing to fully understand their preferences."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.05481",
+    "title": "Artificial Intelligence in the Knowledge Economy",
+    "published_date": "2023-12-09",
+    "abstract": "The rise of Artificial Intelligence (AI) has the potential to reshape the knowledge economy by enabling problem solving at scale. This paper introduces a framework to analyze this transformation, incorporating AI into an economy where humans form hierarchical firms to use their time efficiently: Less knowledgeable individuals become\"workers\"solving routine problems, while more knowledgeable individuals become\"solvers\"assisting workers with exceptional problems. We model AI as a technology that transforms computing power into\"AI agents,\"which can either operate autonomously (as co-workers or solvers/co-pilots) or non-autonomously (only as co-pilots). We show that basic autonomous AI displaces humans towards specialized problem solving, leading to smaller, less productive, and less decentralized firms. In contrast, advanced autonomous AI reallocates humans to routine work, resulting in larger, more productive, and more decentralized firms. While autonomous AI primarily benefits the most knowledgeable individuals, non-autonomous AI disproportionately benefits the least knowledgeable. However, autonomous AI achieves higher overall output. These findings reconcile seemingly contradictory empirical evidence and reveal key tradeoffs involved in regulating AI autonomy.",
+    "summary": "This paper models the impact of artificial intelligence (AI) on hierarchical firms within a knowledge economy, showing that basic autonomous AI leads to smaller, less productive firms while advanced autonomous AI creates larger, more productive ones, with differing distributional effects depending on AI autonomy. The findings highlight the trade-offs in regulating AI's level of autonomy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.07878",
+    "title": "New Kids on the Block: On the impact of information retrieval on contextual resource integration patterns",
+    "published_date": "2023-12-13",
+    "abstract": "The rise of new modes of interaction with AI skyrocketed the popularity, applicability, and amount of use cases. Despite this evolution, conceptual integration is falling behind. Studies suggest that there is hardly a systematization in using AI in organizations. Thus, by taking a service-dominant logic perspective, specifically, the concept of resource integration patterns, the most potent application of AI for organizational use - namely information retrieval - is analyzed. In doing so, we propose a systematization that can be applied to deepen understanding of core technical concepts, further investigate AI in contexts, and help explore research directions guided by SDL.",
+    "summary": "This paper uses a service-dominant logic perspective to analyze information retrieval, a key application of AI in organizations, proposing a systematization of resource integration patterns to improve understanding and guide future research on AI's contextual application. It addresses the gap between AI's increasing popularity and a lack of systematic integration within organizations."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.09463.pdf",
+    "title": "The Emerging Artificial Intelligence Protocol for Hierarchical Information Network",
+    "published_date": "2023-02-19",
+    "abstract": "The recent development of artificial intelligence enables a machine to achieve a human level of intelligence. Problem-solving and decision-making are two mental abilities to measure human intelligence. Many scholars have proposed different models. However, there is a gap in establishing an AI-oriented hierarchical model with a multilevel abstraction. This study proposes a novel model known as the emerged AI protocol that consists of seven distinct layers capable of providing an optimal and explainable solution for a given problem.",
+    "summary": "This paper introduces a novel seven-layered \"emerged AI protocol,\" a hierarchical model designed to solve problems and make decisions in a way that's both optimal and explainable, addressing a gap in existing AI models' ability to handle multilevel abstraction."
+  }
+]

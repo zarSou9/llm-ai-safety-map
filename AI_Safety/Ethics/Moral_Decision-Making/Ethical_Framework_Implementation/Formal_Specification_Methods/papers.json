@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/wwioAJHTeaGqBvtjd/update-on-developing-an-ethics-calculator-to-align-an-agi-to",
+    "author": "Sweenesm",
+    "title": "Update on Developing an Ethics Calculator to Align an AGI to",
+    "published_date": "2024-03-12",
+    "summary": "The author describes progress on an \"ethics calculator\" for aligning Artificial General Intelligence (AGI), using a utilitarian framework that prioritizes maximizing positive experiences, incorporates rights violations' quantitative effects, and considers the impact of self-esteem on perceived positivity. The calculator's unique contribution is its systematic testing of quantitative predictions across various scenarios to ensure ethical consistency."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a novel framework for building ethically aligned AI by incorporating ethical principles as Bayesian priors into AI learning processes. This approach, inspired by human moral intuition, aims to guide AI decision-making with ethical considerations from the outset, rather than solely relying on post-hoc adjustments."
+  },
+  {
+    "title": "A Multi-Agent Approach to Combine Reasoning and Learning for an Ethical Behavior",
+    "abstract": "The recent field of Machine Ethics is experiencing rapid growth to answer the societal need for Artificial Intelligence (AI) algorithms imbued with ethical considerations, such as benevolence toward human users and actors. Several approaches already exist for this purpose, mostly either by reasoning over a set of predefined ethical principles (Top-Down), or by learning new principles (Bottom-Up). While both methods have their own advantages and drawbacks, only few works have explored hybrid approaches, such as using symbolic rules to guide the learning process for instance, combining the advantages of each. This paper draws upon existing works to propose a novel hybrid method using symbolic judging agents to evaluate the ethics of learning agents' behaviors, and accordingly improve their ability to ethically behave in dynamic multi-agent environments. Multiple benefits ensue from this separation between judging and learning agents: agents can evolve (or be updated by human designers) separately, benefiting from co-construction processes; judging agents can act as accessible proxies for non-expert human stakeholders or regulators; and finally, multiple points of view (one per judging agent) can be adopted to judge the behavior of the same agent, which produces a richer feedback. Our proposed approach is applied to an energy distribution problem, in the context of a Smart Grid simulator, with continuous and multi-dimensional states and actions. The experiments and results show the ability of learning agents to correctly adapt their behaviors to comply with the judging agents' rules, including when rules evolve over time.",
+    "published_date": "2021-07-21",
+    "citation_count": 7,
+    "url": "https://dl.acm.org/doi/10.1145/3461702.3462515",
+    "summary": "This paper proposes a hybrid multi-agent system for ethical AI, combining top-down reasoning (judging agents enforcing ethical principles) with bottom-up learning (learning agents adapting behavior), allowing for flexible co-construction, stakeholder input, and diverse ethical perspectives. Experiments in a smart grid simulation demonstrate the approach's effectiveness in adapting to evolving ethical rules."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/LdH9w67W6jQaoBm2T/internet-encyclopedia-of-philosophy-on-ethics-of-artificial",
+    "author": "Kaj_Sotala",
+    "title": "Internet Encyclopedia of Philosophy on Ethics of Artificial Intelligence",
+    "published_date": "2021-02-20",
+    "summary": "The article explores the ethical implications of artificial intelligence, focusing on the potential risks associated with superintelligence and the \"singularity\"—a hypothetical point where AI surpasses human intelligence. It examines various approaches to ensuring AI's value alignment with human interests, highlighting concerns about existential risks posed by unchecked AI development."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/uyvnjaRaKdGXoKrv7/from-language-to-ethics-by-automated-reasoning",
+    "author": "Michele Campolo",
+    "title": "From language to ethics by automated reasoning",
+    "published_date": "2021-11-21",
+    "summary": "The author proposes aligning AI by replicating human ethical behavior, arguing that if we understand the psychological and social factors driving human ethical actions (e.g., empathy, theory of mind, moral reasoning), we can build similarly aligned AI. The article then explores whether morality is subjective or objective, suggesting that objective morality, if it exists, would make cross-species ethical alignment more feasible."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/ethics-and-morality",
+    "author": "Wei Dai",
+    "title": "Ethics & Morality - AI Alignment Forum",
+    "published_date": "2021-12-02",
+    "summary": "The article is a collection of discussion prompts and links related to ethics and morality, covering various philosophical perspectives and exploring the nature and implications of moral systems. It provides links to further reading on consequentialism, deontology, metaethics, and moral uncertainty."
+  },
+  {
+    "title": "Operationalizing AI ethics principles",
+    "abstract": "A better ethics analysis guide for developers.",
+    "published_date": "2020-11-17",
+    "citation_count": 55,
+    "url": "https://dl.acm.org/doi/10.1145/3430368",
+    "summary": "This paper provides a practical guide for developers to implement AI ethics principles in their work. It aims to improve the process of ethical analysis for AI development."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/p947tK8CoBbdpPtyK/p/sMhJsRfLXAg87EEqT",
+    "author": "JesseClifton",
+    "title": "Section 7: Foundations of Rational Agency",
+    "published_date": "2019-12-22",
+    "summary": "This research agenda explores foundational questions about rational agency, particularly for computationally bounded agents interacting with advanced AI systems. The focus is on developing a more robust decision theory that accounts for limitations like logical uncertainty and model misspecification to better understand and ensure cooperative outcomes among these systems."
+  }
+]

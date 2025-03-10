@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.10986",
+    "title": "Benchmark Early and Red Team Often: A Framework for Assessing and Managing Dual-Use Hazards of AI Foundation Models",
+    "published_date": "2024-05-15",
+    "abstract": "A concern about cutting-edge or “frontier” AI foundation models is that an adversary may use the models for preparing chemical, biological, radiological, nuclear (CBRN), cyber, or other attacks. At least two methods can identify foundation models with potential dual-use capability; each method has advantages and disadvantages:\nA. Open benchmarks (based on openly available questions and answers), which are low-cost but accuracy-limited by the need to omit security-sensitive details, and\nB. Closed red team evaluations (based on private evaluation by CBRN and cyber experts), which are higher in cost but can achieve higher accuracy by incorporating sensitive details.\nWe propose a research and risk-management approach using a combination of methods including both open benchmarks and closed red team evaluations, in a way that leverages advantages of both methods.\nWe recommend that one or more groups of researchers with sufficient resources and access to a range of near-frontier and frontier foundation models:\n1. Run a set of foundation models through dual-use capability evaluation benchmarks and red teamevaluations, then2. Analyze the resulting sets of models' scores on benchmark and red team evaluations to see howcorrelated those are.\nIf, as we expect, there is substantial correlation between the dual-use potential benchmark scores and the red team evaluation scores, then implications include the following:\n• The open benchmarks should be used frequently during foundation model development as a quick,low-cost measure of a model's dual-use potential; and• If a particular model gets a high score on the dual-use potential benchmark, then more in-depth redteam assessments of that model's dual-use capability should be performed.\nWe also discuss limitations and mitigations for our approach, e.g., if model developers try to game benchmarks by including a version of benchmark test data in a model's training data.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.10026",
+    "title": "Defense Priorities in the Open-Source AI Debate: A Preliminary Assessment",
+    "published_date": "2024-08-19",
+    "abstract": "A spirited debate is taking place over the regulation of open foundation models: artificial intelligence models whose underlying architectures and parameters are made public and can be inspected, modified, and run by end users. Proposed limits on releasing open foundation models may have significant defense industrial impacts. If model training is a form of defense production, these impacts deserve further scrutiny. Preliminary evidence suggests that an open foundation model ecosystem could benefit the U.S. Department of Defense's supplier diversity, sustainment, cybersecurity, and innovation priorities. Follow-on analyses should quantify impacts on acquisition cost and supply chain security."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.16241",
+    "title": "Position: Benchmarking is Limited in Reinforcement Learning Research",
+    "published_date": "2024-06-23",
+    "abstract": "Novel reinforcement learning algorithms, or improvements on existing ones, are commonly justified by evaluating their performance on benchmark environments and are compared to an ever-changing set of standard algorithms. However, despite numerous calls for improvements, experimental practices continue to produce misleading or unsupported claims. One reason for the ongoing substandard practices is that conducting rigorous benchmarking experiments requires substantial computational time. This work investigates the sources of increased computation costs in rigorous experiment designs. We show that conducting rigorous performance benchmarks will likely have computational costs that are often prohibitive. As a result, we argue for using an additional experimentation paradigm to overcome the limitations of benchmarking.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jyAerr8txxhiKnxwA/5-reasons-why-governments-militaries-want-ai-for-information-1",
+    "author": "trevor",
+    "title": "5 Reasons Why Governments/Militaries Already Want AI for Information Warfare",
+    "published_date": "2023-10-30"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ixiCECkFFguFcHWFa/paper-forecasting-world-events-with-neural-nets",
+    "author": "Owain_Evans, Dan H, Joe Kwon",
+    "title": "Paper: Forecasting world events with neural nets",
+    "published_date": "2022-07-01"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2107.02868.pdf",
+    "title": "Principles for Evaluation of AI/ML Model Performance and Robustness",
+    "published_date": "2021-07-06",
+    "abstract": "The Department of Defense (DoD) has significantly increased its investment in the design, evaluation, and deployment of Artificial Intelligence and Machine Learning (AI/ML) capabilities to address national security needs. While there are numerous AI/ML successes in the academic and commercial sectors, many of these systems have also been shown to be brittle and nonrobust. In a complex and ever-changing national security environment, it is vital that the DoD establish a sound and methodical process to evaluate the performance and robustness of AI/ML models before these new capabilities are deployed to the field. This paper reviews the AI/ML development process, highlights common best practices for AI/ML model evaluation, and makes recommendations to DoD evaluators to ensure the deployment of robust AI/ML capabilities for national security needs.",
+    "citation_count": 5
+  }
+]

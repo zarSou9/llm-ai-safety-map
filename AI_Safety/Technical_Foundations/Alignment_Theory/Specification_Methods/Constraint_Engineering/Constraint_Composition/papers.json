@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.04004",
+    "title": "Compositional Planning for Logically Constrained Multi-Agent Markov Decision Processes",
+    "published_date": "2024-10-05",
+    "abstract": "Designing control policies for large, distributed systems is challenging, especially in the context of critical, temporal logic based specifications (e.g., safety) that must be met with high probability. Compositional methods for such problems are needed for scalability, yet relying on worst-case assumptions for decomposition tends to be overly conservative. In this work, we use the framework of Constrained Markov Decision Processes (CMDPs) to provide an assume-guarantee based decomposition for synthesizing decentralized control policies, subject to logical constraints in a multi-agent setting. The returned policies are guaranteed to satisfy the constraints with high probability and provide a lower bound on the achieved objective reward. We empirically find the returned policies to achieve near-optimal rewards while enjoying an order of magnitude reduction in problem size and execution time."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dPpA79MjPdDd87YoW/understanding-goedel-s-completeness-theorem",
+    "author": "Jessicata",
+    "title": "Understanding Gödel's completeness theorem",
+    "published_date": "2024-05-27"
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/knuths-up-arrow-notation",
+    "title": "Knuth's Up-Arrow Notation - LessWrong",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.05346.pdf",
+    "title": "A Constrained-Optimization Approach to the Execution of Prioritized Stacks of Learned Multi-Robot Tasks",
+    "published_date": "2023-01-13",
+    "abstract": "This paper presents a constrained-optimization formulation for the prioritized execution of learned robot tasks. The framework lends itself to the execution of tasks encoded by value functions, such as tasks learned using the reinforcement learning paradigm. The tasks are encoded as constraints of a convex optimization program by using control Lyapunov functions. Moreover, an additional constraint is enforced in order to specify relative priorities between the tasks. The proposed approach is showcased in simulation using a team of mobile robots executing coordinated multi-robot tasks."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.03820.pdf",
+    "title": "Modeling Model Predictive Control: A Category Theoretic Framework for Multistage Control Problems",
+    "published_date": "2023-05-05",
+    "abstract": "Model predictive control (MPC) is an optimal control technique which involves solving a sequence of constrained optimization problems across a given time horizon. In this paper, we introduce a category theoretic framework for constructing complex MPC problem formulations by composing subproblems. Specifically, we construct a monoidal category - called Para(Conv) - whose objects are Euclidean spaces and whose morphisms represent constrained convex optimization problems. We then show that the multistage structure of typical MPC problems arises from sequential composition in Para(Conv), while parallel composition can be used to model constraints across multiple stages of the prediction horizon. This framework comes equipped with a rigorous, diagrammatic syntax, allowing for easy visualization and modification of complex problems. Finally, we show how this framework allows a simple software realization in the Julia programming language by integrating with existing mathematical programming libraries to provide high-level, graphical abstractions for MPC.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2210.01354.pdf",
+    "title": "Compositions of Multiple Control Barrier Functions Under Input Constraints",
+    "published_date": "2022-10-04",
+    "abstract": "This paper presents a methodology for ensuring that the composition of multiple Control Barrier Functions (CBFs) always leads to feasible conditions on the control input, even in the presence of input constraints. In the case of a system subject to a single constraint function, there exist many methods to generate a CBF that ensures constraint satisfaction. However, when there are multiple constraint functions, the problem of finding and tuning one or more CBFs becomes more challenging, especially in the presence of input constraints. This paper addresses this challenge by providing tools to 1) decouple the design of multiple CBFs, so that a CBF can be designed for each constraint function independently of other constraints, and 2) ensure that the set composed from all the CBFs together is a viability domain. Thus, a quadratic program subject to all the CBFs simultaneously is always feasible. The utility of this methodology is then demonstrated in simulation for a nonlinear orientation control system.",
+    "citation_count": 22
+  }
+]

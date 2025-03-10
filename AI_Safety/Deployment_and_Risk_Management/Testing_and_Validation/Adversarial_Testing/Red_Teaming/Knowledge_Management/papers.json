@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2501.07238",
+    "title": "Lessons From Red Teaming 100 Generative AI Products",
+    "published_date": "2025-01-13",
+    "abstract": "In recent years, AI red teaming has emerged as a practice for probing the safety and security of generative AI systems. Due to the nascency of the field, there are many open questions about how red teaming operations should be conducted. Based on our experience red teaming over 100 generative AI products at Microsoft, we present our internal threat model ontology and eight main lessons we have learned: 1. Understand what the system can do and where it is applied 2. You don't have to compute gradients to break an AI system 3. AI red teaming is not safety benchmarking 4. Automation can help cover more of the risk landscape 5. The human element of AI red teaming is crucial 6. Responsible AI harms are pervasive but difficult to measure 7. LLMs amplify existing security risks and introduce new ones 8. The work of securing AI systems will never be complete By sharing these insights alongside case studies from our operations, we offer practical recommendations aimed at aligning red teaming efforts with real world risks. We also highlight aspects of AI red teaming that we believe are often misunderstood and discuss open questions for the field to consider."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.14219",
+    "title": "MEGA-PT: A Meta-Game Framework for Agile Penetration Testing",
+    "published_date": "2024-09-21",
+    "abstract": "Penetration testing is an essential means of proactive defense in the face of escalating cybersecurity incidents. Traditional manual penetration testing methods are time-consuming, resource-intensive, and prone to human errors. Current trends in automated penetration testing are also impractical, facing significant challenges such as the curse of dimensionality, scalability issues, and lack of adaptability to network changes. To address these issues, we propose MEGA-PT, a meta-game penetration testing framework, featuring micro tactic games for node-level local interactions and a macro strategy process for network-wide attack chains. The micro- and macro-level modeling enables distributed, adaptive, collaborative, and fast penetration testing. MEGA-PT offers agile solutions for various security schemes, including optimal local penetration plans, purple teaming solutions, and risk assessment, providing fundamental principles to guide future automated penetration testing. Our experiments demonstrate the effectiveness and agility of our model by providing improved defense strategies and adaptability to changes at both local and network levels."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.11500",
+    "title": "A Red Teaming Framework for Securing AI in Maritime Autonomous Systems",
+    "published_date": "2023-12-08",
+    "abstract": "Artificial intelligence (AI) is being ubiquitously adopted to automate processes in science and industry. However, due to its often intricate and opaque nature, AI has been shown to possess inherent vulnerabilities which can be maliciously exploited with adversarial AI, potentially putting AI users and developers at both cyber and physical risk. In addition, there is insufficient comprehension of the real-world effects of adversarial AI and an inadequacy of AI security examinations; therefore, the growing threat landscape is unknown for many AI solutions. To mitigate this issue, we propose one of the first red team frameworks for evaluating the AI security of maritime autonomous systems. The framework provides operators with a proactive (secure by design) and reactive (post-deployment evaluation) response to securing AI technology today and in the future. This framework is a multi-part checklist, which can be tailored to different systems and requirements. We demonstrate this framework to be highly effective for a red team to use to uncover numerous vulnerabilities within a real-world maritime autonomous systems AI, ranging from poisoning to adversarial patch attacks. The lessons learned from systematic AI red teaming can help prevent MAS-related catastrophic events in a world with increasing uptake and reliance on mission-critical AI.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2307.10877.pdf",
+    "title": "Battle Ground: Data Collection and Labeling of CTF Games to Understand Human Cyber Operators",
+    "published_date": "2023-07-20",
+    "abstract": "Industry standard frameworks are now widespread for labeling the high-level stages and granular actions of attacker and defender behavior in cyberspace. While these labels are used for atomic actions, and to some extent for sequences of actions, there remains a need for labeled data from realistic full-scale attacks. This data is valuable for better understanding human actors' decisions, behaviors, and individual attributes. The analysis could lead to more effective attribution and disruption of attackers. We present a methodological approach and exploratory case study for systematically analyzing human behavior during a cyber offense/defense capture-the-flag (CTF) game. We describe the data collection and analysis to derive a metric called keystroke accuracy. After collecting players' commands, we label them using the MITRE ATT&CK framework using a new tool called Pathfinder. We present results from preliminary analysis of participants' keystroke accuracy and its relation to score outcome in CTF games. We describe frequency of action classification within the MITRE ATT&CK framework and discuss some of the mathematical trends suggested by our observations. We conclude with a discussion of extensions for the methodology, including performance evaluation during games and the potential use of this methodology for training artificial intelligence.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/abs/2208.07476",
+    "title": "CTI4AI: Threat Intelligence Generation and Sharing after Red Teaming AI Models",
+    "published_date": "2022-08-16",
+    "abstract": "As the practicality of Artificial Intelligence (AI) and Machine Learning (ML) based techniques grow, there is an ever increasing threat of adversarial attacks. There is a need to red team this ecosystem to identify system vulnerabilities, potential threats, characterize properties that will enhance system robustness, and encourage the creation of effective defenses. A secondary need is to share this AI security threat intelligence between different stakeholders like, model developers, users, and AI/ML security professionals. In this paper, we create and describe a prototype system CTI4AI, to overcome the need to methodically identify and share AI/ML specific vulnerabilities and threat intelligence.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.08618v1.pdf",
+    "title": "Extractor: Extracting Attack Behavior from Threat Reports",
+    "published_date": "2021-04-17",
+    "abstract": "The knowledge on attacks contained in Cyber Threat Intelligence (CTI) reports is very important to effectively identify and quickly respond to cyber threats. However, this knowledge is often embedded in large amounts of text, and therefore difficult to use effectively. To address this challenge, we propose a novel approach and tool called Extractor that allows precise automatic extraction of concise attack behaviors from CTI reports. Extractor makes no strong assumptions about the text and is capable of extracting attack behaviors as provenance graphs from unstructured text. We evaluate Extractor using real-world incident reports from various sources as well as reports of DARPA adversarial engagements that involve several attack campaigns on various OS platforms of Windows, Linux, and FreeBSD. Our evaluation results show that Extractor can extract concise provenance graphs from CTI reports and show that these graphs can successfully be used by cyber-analytics tools in threat-hunting.",
+    "citation_count": 74
+  }
+]

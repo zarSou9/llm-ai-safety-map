@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2304.11460.pdf",
+    "title": "Reinforcement Learning with An Abrupt Model Change",
+    "published_date": "2023-04-22",
+    "abstract": "The problem of reinforcement learning is considered where the environment or the model undergoes a change. An algorithm is proposed that an agent can apply in such a problem to achieve the optimal long-time discounted reward. The algorithm is model-free and learns the optimal policy by interacting with the environment. It is shown that the proposed algorithm has strong optimality properties. The effectiveness of the algorithm is also demonstrated using simulation results. The proposed algorithm exploits a fundamental reward-detection trade-off present in these problems and uses an algorithm for the quickest detection of the model change. Recommendations are provided for faster detection of model changes and for smart initialization strategies."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.14127",
+    "title": "Goal-Driven Context-Aware Next Service Recommendation for Mashup Composition",
+    "published_date": "2022-10-25",
+    "abstract": "As service-oriented architecture becoming one of the most prevalent techniques to rapidly deliver functionalities to customers, increasingly more reusable software components have been published online in forms of web services. To create a mashup, it gets not only time-consuming but also error-prone for developers to find suitable services from such a sea of services. Service discovery and recommendation has thus attracted significant momentum in both academia and industry. This paper proposes a novel incremental recommend-as-you-go approach to recommending next potential service based on the context of a mashup under construction, considering services that have been selected to the current step as well as its mashup goal. The core technique is an algorithm of learning the embedding of services, which learns their past goal-driven context-aware decision making behaviors in addition to their semantic descriptions and co-occurrence history. A goal exclusionary negative sampling mechanism tailored for mashup development is also developed to improve training performance. Extensive experiments on a real-world dataset demonstrate the effectiveness of our approach.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.02944v4.pdf",
+    "title": "Adaptive Performance Anomaly Detection for Online Service Systems via Pattern Sketching",
+    "published_date": "2022-01-09",
+    "abstract": "To ensure the performance of online service systems, their status is closely monitored with various software and system metrics. Performance anomalies represent the performance degradation issues (e.g., slow response) of the service systems. When performing anomaly detection over the metrics, existing methods often lack the merit of interpretability, which is vital for engineers and analysts to take remediation actions. Moreover, they are unable to effectively accommodate the ever-changing services in an online fashion. To address these limitations, in this paper, we propose ADSketch, an interpretable and adaptive performance anomaly detection approach based on pattern sketching. ADSketch achieves interpretability by identifying groups of anomalous metric patterns, which represent particular types of performance issues. The underlying issues can then be immediately recognized if similar patterns emerge again. In addition, an adaptive learning algorithm is designed to embrace unprecedented patterns induced by service updates or user behavior changes. The proposed approach is evaluated with public data as well as industrial data collected from a representative online service system in Huawei Cloud. The experimental results show that ADSketch outperforms state-of-the-art approaches by a significant margin, and demonstrate the effectiveness of the online algorithm in new pattern discovery. Furthermore, our approach has been successfully deployed in industrial practice.",
+    "citation_count": 29
+  },
+  {
+    "url": "https://arxiv.org/pdf/2211.17218.pdf",
+    "title": "Specification Architectural Viewpoint for Benefit-Cost-Risk-Aware Decision-Making in Self-Adaptive Systems",
+    "published_date": "2022-11-30",
+    "abstract": "Over the past two decades, researchers and engineers have extensively studied the problem of how to enable a software system to deal with uncertain operating conditions. One prominent solution to this problem is self-adaptation, which equips a software system with a feedback loop that resolves uncertainties during operation and adapts the system to deal with them when necessary. Most self-adaptation approaches developed so far use decision-making mechanisms that focus on achieving a set of goals, i.e., that select for execution the adaptation option with the best estimated benefit. A few approaches have also considered the estimated (one-off) cost of executing the candidate adaptation options. We argue that besides benefit and cost, decision-making in self-adaptive systems should also consider the estimated risk the system or its users would be exposed to if an adaptation option were selected for execution. Balancing all three factors when evaluating the options for adaptation when mitigating uncertainty is essential, not only for satisfying the concerns of the stakeholders, but also to ensure safety and public acceptance of self-adaptive systems. In this paper, we present an ISO/IEC/IEEE 42010 compatible architectural viewpoint that considers the estimated benefit, cost, and risk as core factors of each adaptation option considered in self-adaptation. The viewpoint aims to support software architects responsible for designing robust decision-making mechanisms for self-adaptive systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03"
+  },
+  {
+    "title": "Change point detection and issue localization based on fleet-wide fault data",
+    "abstract": "Abstract Modern industrial assets (e.g., generators, turbines, engines) are outfitted with numerous sensors to monitor key operating and environmental variables. Unusual sensor readings, such as high temperature, excessive vibration, or low current, could trigger rule-based actions (also known as faults) that range from warning alarms to immediate shutdown of the asset to prevent potential damage. In the case study of this article, a wind park experienced a sudden surge in vibration-induced shutdowns. We utilize fault data logs from the park with the goal of detecting common change points across turbines. Another important goal is the localization of fault occurrences to an identifiable set of turbines. The literature on change point detection and localization for multiple assets is highly sparse. Our technical development is based on the generalized linear modeling framework. We combine well-known solutions to change point detection for a single asset with a heuristics-based approach to identify a common change point(s) for multiple assets. The performance of the proposed detection and localization algorithms is evaluated through synthetic (Monte Carlo) fault data streams. Several novel performance metrics are defined to characterize different aspects of a change point detection algorithm for multiple assets. For the case study example, the proposed methodology identified the change point and the subset of affected turbines with a high degree of accuracy. The problem described here warrants further study to accommodate general fault distributions, change point detection algorithms, and very large fleet sizes.",
+    "published_date": "2021-06-30",
+    "citation_count": 2,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/00224065.2021.1937409"
+  }
+]

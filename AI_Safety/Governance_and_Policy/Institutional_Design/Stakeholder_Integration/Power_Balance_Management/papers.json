@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06",
+    "summary": "The standard epidemiological model poorly predicts COVID-19 infection rates across US states, failing to account for the surprisingly similar infection levels despite varying restrictions. A proposed \"vulnerability model,\" incorporating fluctuating individual susceptibility to infection, better explains the observed data and avoids inconsistencies of the standard model."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24",
+    "summary": "This article explores the mathematical challenges within blockchain technology and proposes mechanism design solutions, such as quadratic voting and funding, to improve cooperation and philanthropic efforts."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Tx6dGzYLtfzzkuGtF/the-vulnerable-world-hypothesis-by-bostrom",
+    "author": "Ben Pace",
+    "title": "The Vulnerable World Hypothesis (by Bostrom)",
+    "published_date": "2018-11-06",
+    "summary": "Nick Bostrom's \"Vulnerable World Hypothesis\" posits that continued technological development increases the likelihood of civilization-ending events unless global governance significantly improves. This risk stems from both easily accessible destructive technologies and the incentives of powerful or numerous actors to utilize them in a semi-anarchic world."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/3RLSqqfP5oQE2WDrr/new-paper-long-term-trajectories-of-human-civilization",
+    "author": "Kaj_Sotala",
+    "title": "New paper: Long-Term Trajectories of Human Civilization",
+    "published_date": "2018-08-12",
+    "summary": "This paper advocates for the scientific and ethical study of humanity's long-term future, outlining four potential trajectories: status quo, catastrophe, technological transformation, and astronomical expansion. The authors argue that current decisions significantly impact these future outcomes and should be informed by this long-term perspective."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/D52m6f3F76jp8scYA/deciphering-china-s-ai-dream",
+    "author": "Qiaochu_Yuan",
+    "title": "Deciphering China's AI Dream",
+    "published_date": "2018-03-18",
+    "summary": "This report analyzes China's artificial intelligence strategy, contextualizing its approach within historical science and technology plans and assessing its capabilities using a novel index. It explores the implications of China's AI development for various sectors, including national security and economic development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/X5RyaEDHNq5qutSHK/anti-social-punishment",
+    "author": "Martin Sustrik",
+    "title": "Anti-social Punishment",
+    "published_date": "2018-09-27",
+    "summary": "A study using a public goods game with and without punishment mechanisms compared cooperation levels across diverse university student populations. The results, based on a limited portion of the study presented here, suggest that the presence or absence of punishment significantly impacts cooperation rates."
+  },
+  {
+    "title": "Multi-area scale electric power and energy balance with high wind power penetration based STACKELBERG decision theory",
+    "abstract": "In order to coordinate the electric power and energy balance with the space scales and spatial scales among different level dispatching center, a leader-follower hierarchical decision model is proposed for taking advantage of the wind speed complementary characteristic of multi regional wind farms. With the STACKELBERG decision strategies, a coordination decision model of the electric power and energy balance is to combine the bottom-up feasibility tests with the top-down target optimizing. The follower layers would give a commitment to the leader layer, and the leader layer would optimize the follower layers commitments and get an optimized agreement for all followers. A dynamic programming optimization method is employed for calculating the entire system balance plan. The simulation results demonstrate that the proposed decision-making structure fits to large-scale power system hierarchical dispatching and satisfy the coordination of various dispatching demand in different levels.",
+    "published_date": "2012-05-21",
+    "url": "https://ieeexplore.ieee.org/document/6303213/",
+    "summary": "This paper proposes a hierarchical Stackelberg game model for coordinating multi-area electric power and energy balance with high wind power penetration, leveraging complementary wind speeds across regions. The model uses a top-down optimization approach guided by bottom-up feasibility checks to achieve a system-wide optimal balance plan."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/kYgWmKJnqq8QkbjFj/bayesian-utility-representing-preference-by-probability",
+    "author": "Vladimir_Nesov",
+    "title": "Bayesian Utility: Representing Preference by Probability Measures",
+    "published_date": "2009-07-27",
+    "summary": "Expected utility can be reformulated using two probability measures, \"probability\" (P) and \"shouldness\" (Q), where the expected utility of an event A is Q(A)/P(A). This representation allows for Bayesian updating of both P and Q and offers a geometric interpretation of preferences, highlighting the intertwined nature of probability and utility in decision-making."
+  }
+]

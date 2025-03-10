@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/mXD53GFvMCWQhcCwt/distinguishing-ways-ai-can-be-concentrated",
+    "author": "Matthew Barnett",
+    "title": "Distinguishing ways AI can be \"concentrated\"",
+    "published_date": "2024-10-21",
+    "summary": "The author argues that discussions of AI concentration lack clarity, proposing three distinct dimensions: concentration of AI development, service provision, and control, which can vary independently and should be analyzed separately to accurately predict AI's trajectory and inform policy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.01722",
+    "title": "On Labs and Fabs: Mapping How Alliances, Acquisitions, and Antitrust are Shaping the Frontier AI Industry",
+    "published_date": "2024-06-03",
+    "abstract": "As frontier AI models advance, policy proposals for safe AI development are gaining increasing attention from researchers and policymakers. This paper explores the current integration in the AI supply chain, focusing on vertical relationships and strategic partnerships among AI labs, cloud providers, chip manufacturers, and lithography companies. It aims to lay the groundwork for a deeper understanding of the implications of various governance interventions, including antitrust measures. The study has two main contributions. First, it profiles 25 leading companies in the AI supply chain, analyzing 300 relationships and noting 80 significant mergers and acquisitions along with 40 antitrust cases. Second, we discuss potential market definitions and the integration drivers based on the observed trends. The analysis reveals predominant horizontal integration through natural growth rather than acquisitions and notable trends of backward vertical integration in the semiconductor supply chain. Strategic partnerships are also significant downstream, especially between AI companies and cloud providers, with large tech companies often pursuing conglomerate integration by acquiring specialized AI startups or forming alliances with frontier AI labs. To further understand the strategic partnerships in the industry, we provide three brief case studies featuring companies like OpenAI and Nvidia. We conclude by posing open research questions on market dynamics and possible governance interventions, such as licensing and safety audits.",
+    "summary": "This paper analyzes the evolving AI supply chain, mapping relationships between AI labs, cloud providers, and hardware manufacturers through an examination of mergers, acquisitions, alliances, and antitrust cases to inform future governance strategies. The analysis reveals prevalent horizontal integration alongside significant backward vertical integration in semiconductor manufacturing and strategic downstream partnerships."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.13138",
+    "title": "Visibility into AI Agents",
+    "published_date": "2024-01-23",
+    "abstract": "Increased delegation of commercial, scientific, governmental, and personal activities to AI agents—systems capable of pursuing complex goals with limited supervision—may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.",
+    "citation_count": 12,
+    "summary": "This paper examines methods to increase transparency (\"visibility\") in AI agent usage, focusing on agent identifiers, real-time monitoring, and activity logging, while analyzing their implementation across various deployment contexts and considering privacy implications. The authors argue that improved visibility is crucial for mitigating societal risks associated with increasing AI agent autonomy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.00031",
+    "title": "Strategic Collusion of LLM Agents: Market Division in Multi-Commodity Competitions",
+    "published_date": "2024-09-19",
+    "abstract": "Machine-learning technologies are seeing increased deployment in real-world market scenarios. In this work, we explore the strategic behaviors of large language models (LLMs) when deployed as autonomous agents in multi-commodity markets, specifically within Cournot competition frameworks. We examine whether LLMs can independently engage in anti-competitive practices such as collusion or, more specifically, market division. Our findings demonstrate that LLMs can effectively monopolize specific commodities by dynamically adjusting their pricing and resource allocation strategies, thereby maximizing profitability without direct human input or explicit collusion commands. These results pose unique challenges and opportunities for businesses looking to integrate AI into strategic roles and for regulatory bodies tasked with maintaining fair and competitive markets. The study provides a foundation for further exploration into the ramifications of deferring high-stakes decisions to LLM-based agents.",
+    "summary": "This study shows that large language models (LLMs) acting as autonomous agents in competitive markets can spontaneously collude to divide markets and maximize profits without explicit instructions, highlighting potential risks of AI in strategic decision-making. The findings necessitate further research into the implications for market regulation and business strategy."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The paper analyzes three AI governance strategies—Cooperative Development, Strategic Advantage, and Global Moratorium—evaluating their effectiveness based on the difficulty of aligning AI and development timelines. Optimal strategy selection depends heavily on these factors, with Cooperative Development favored for longer timelines and easier alignment, Strategic Advantage for shorter timelines and moderate difficulty, and Global Moratorium reserved for scenarios with extremely short timelines or difficult alignment."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bdQhzQsHjNrQp7cNS/estimates-of-gpu-or-equivalent-resources-of-large-ai-players",
+    "author": "CharlesD",
+    "title": "Estimates of GPU or equivalent resources of large AI players for 2024/5",
+    "published_date": "2024-11-28",
+    "summary": "The article estimates the amount of AI compute power (primarily Nvidia GPUs) major companies like Microsoft, Meta, Google, Amazon, and XAI will possess in 2024 and 2025, based on Nvidia's revenue and production estimates. These estimates, derived from publicly available data, acknowledge significant uncertainties and potential inaccuracies."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), particularly focusing on scenarios with short timelines (within a decade). The program aims to evaluate strategies for mitigating these risks across various plausible AI development trajectories."
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.11342",
+    "title": "Exploring Antitrust and Platform Power in Generative AI",
+    "published_date": "2023-06-20",
+    "abstract": "The concentration of power in a few digital technology companies has become a subject of increasing interest in both academic and non-academic discussions. One of the most noteworthy contributions to the debate is Lina Khan's Amazon's Antitrust Paradox. In this work, Khan contends that Amazon has systematically exerted its dominance in online retail to eliminate competitors and subsequently charge above-market prices. This work contributed to Khan's appointment as the chair of the US Federal Trade Commission (FTC), one of the most influential antitrust organisations. Today, several ongoing antitrust lawsuits in the US and Europe involve major technology companies like Apple, Google/Alphabet, and Facebook/Meta. In the realm of generative AI, we are once again witnessing the same companies taking the lead in technological advancements, leaving little room for others to compete. This article examines the market dominance of these corporations in the technology stack behind generative AI from an antitrust law perspective.",
+    "summary": "This paper examines the antitrust implications of the concentrated power of a few major tech companies leading the development of generative AI, mirroring concerns raised about similar dominance in other digital markets. It argues that this concentration may stifle competition and lead to anti-competitive practices."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "The article explores applying game theory to AI development within organizational structures, highlighting the limitations of solely game-theoretic approaches and emphasizing the enduring relevance of bureaucratic principles like hierarchical authority and job specialization, even with the integration of increasingly capable AI agents. This necessitates a multi-agent system leveraging both human and AI comparative advantages to achieve complex goals efficiently."
+  },
+  {
+    "url": "https://arxiv.org/abs/2102.01648",
+    "title": "The Privatization of AI Research(-ers): Causes and Potential Consequences - From university-industry interaction to public research brain-drain?",
+    "published_date": "2021-02-02",
+    "abstract": "In this paper, we analyze the causes and discuss potential consequences of a perceived privatization of AI research, particularly the transition of AI researchers from academia to industry. We explore the scale of the phenomenon by quantifying transition flows between industry and academia, and providing a descriptive account and exploratory analysis of characteristics of industry transition. Here we find that industry researchers and those transitioning into industry produce more impactful research as measured by citations. Using a survival regression approach we identify mechanisms that trigger these university-industry transitions focusing on researcher characteristics, performance and research field as documented in bibliographic data. We find that, researchers working within the field of deep learning as well as those with higher average impact tend to transition into industry. These findings highlight the importance of strengthening academic research in public organizations within AI to balance a potential dominance of private companies and to maintain public supervision of the development and application of this technology.",
+    "citation_count": 20,
+    "summary": "This paper investigates the increasing movement of AI researchers from academia to industry, finding that high-impact researchers, especially those in deep learning, are most likely to transition. The authors warn of potential negative consequences for public oversight of AI development if this trend continues unchecked."
+  }
+]

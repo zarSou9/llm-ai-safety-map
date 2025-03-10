@@ -1,0 +1,80 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2104.12437.pdf",
+    "title": "Towards Rigorous Interpretations: a Formalisation of Feature Attribution",
+    "published_date": "2021-04-26",
+    "abstract": "Feature attribution is often loosely presented as the process of selecting a subset of relevant features as a rationale of a prediction. Task-dependent by nature, precise definitions of\"relevance\"encountered in the literature are however not always consistent. This lack of clarity stems from the fact that we usually do not have access to any notion of ground-truth attribution and from a more general debate on what good interpretations are. In this paper we propose to formalise feature selection/attribution based on the concept of relaxed functional dependence. In particular, we extend our notions to the instance-wise setting and derive necessary properties for candidate selection solutions, while leaving room for task-dependence. By computing ground-truth attributions on synthetic datasets, we evaluate many state-of-the-art attribution methods and show that, even when optimised, some fail to verify the proposed properties and provide wrong solutions.",
+    "citation_count": 15,
+    "summary": "This paper formalizes feature attribution using relaxed functional dependence, establishing necessary properties for effective feature selection methods and revealing inconsistencies in existing state-of-the-art approaches through evaluation on synthetic datasets. The authors address the lack of consistent definitions of \"relevance\" in feature attribution by proposing a rigorous framework."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/a6ne2ve5uturEEQK7/p/f8nd9F7dL9SxueLFA",
+    "author": "scasper",
+    "title": "EIS IV: A Spotlight on Feature Attribution/Saliency",
+    "published_date": "2023-02-15",
+    "summary": "This article critiques the field of feature attribution/saliency methods in machine learning, arguing that many methods lack rigorous evaluation and often fail basic sanity checks. Despite a large body of research, these methods frequently prove unhelpful in predicting model behavior or identifying important features, even performing only slightly better than simple edge detectors."
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.06514",
+    "title": "AttributionLab: Faithfulness of Feature Attribution Under Controllable Environments",
+    "published_date": "2023-10-10",
+    "abstract": "Feature attribution explains neural network outputs by identifying relevant input features. The attribution has to be faithful, meaning that the attributed features must mirror the input features that influence the output. One recent trend to test faithfulness is to fit a model on designed data with known relevant features and then compare attributions with ground truth input features.This idea assumes that the model learns to use all and only these designed features, for which there is no guarantee. In this paper, we solve this issue by designing the network and manually setting its weights, along with designing data. The setup, AttributionLab, serves as a sanity check for faithfulness: If an attribution method is not faithful in a controlled environment, it can be unreliable in the wild. The environment is also a laboratory for controlled experiments by which we can analyze attribution methods and suggest improvements.",
+    "citation_count": 1,
+    "summary": "AttributionLab is a controlled environment for evaluating the faithfulness of feature attribution methods in neural networks, using manually designed networks and datasets to ensure reliable ground truth for comparison. This allows for rigorous testing and improvement of attribution methods by directly controlling feature influence and output."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.15085",
+    "title": "A Unified Framework for Input Feature Attribution Analysis",
+    "published_date": "2024-06-21",
+    "abstract": "Explaining the decision-making process of machine learning models is crucial for ensuring their reliability and fairness. One popular explanation form highlights key input features, such as i) tokens (e.g., Shapley Values and Integrated Gradients), ii) interactions between tokens (e.g., Bivariate Shapley and Attention-based methods), or iii) interactions between spans of the input (e.g., Louvain Span Interactions). However, these explanation types have only been studied in isolation, making it difficult to judge their respective applicability. To bridge this gap, we propose a unified framework that facilitates a direct comparison between highlight and interactive explanations comprised of four diagnostic properties. Through extensive analysis across these three types of input feature explanations--each utilizing three different explanation techniques--across two datasets and two models, we reveal that each explanation type excels in terms of different diagnostic properties. In our experiments, highlight explanations are the most faithful to a model's prediction, and interactive explanations provide better utility for learning to simulate a model's predictions. These insights further highlight the need for future research to develop combined methods that enhance all diagnostic properties.",
+    "citation_count": 1,
+    "summary": "This paper introduces a unified framework for comparing different types of input feature attribution methods in machine learning models, revealing that highlight explanations are most faithful to model predictions while interactive explanations better support model simulation, highlighting the need for combined methods."
+  },
+  {
+    "url": "https://arxiv.org/abs/2110.01471",
+    "title": "Fine-Grained Neural Network Explanation by Identifying Input Features with Predictive Information",
+    "published_date": "2021-10-04",
+    "abstract": "One principal approach for illuminating a black-box neural network is feature attribution, i.e. identifying the importance of input features for the network's prediction. The predictive information of features is recently proposed as a proxy for the measure of their importance. So far, the predictive information is only identified for latent features by placing an information bottleneck within the network. We propose a method to identify features with predictive information in the input domain. The method results in fine-grained identification of input features' information and is agnostic to network architecture. The core idea of our method is leveraging a bottleneck on the input that only lets input features associated with predictive latent features pass through. We compare our method with several feature attribution methods using mainstream feature attribution evaluation experiments. The code is publicly available.",
+    "citation_count": 25,
+    "summary": "This paper introduces a novel method for fine-grained neural network explanation by identifying input features with predictive information, achieving this by applying a bottleneck to the input layer and allowing only predictive features to pass. The method is architecture-agnostic and outperforms existing feature attribution methods in evaluation experiments."
+  },
+  {
+    "title": "Semantic Explanation for Deep Neural Networks Using Feature Interactions",
+    "abstract": "Given the promising results obtained by deep-learning techniques in multimedia analysis, the explainability of predictions made by networks has become important in practical applications. We present a method to generate semantic and quantitative explanations that are easily interpretable by humans. The previous work to obtain such explanations has focused on the contributions of each feature, taking their sum to be the prediction result for a target variable; the lack of discriminative power due to this simple additive formulation led to low explanatory performance. Our method considers not only individual features but also their interactions, for a more detailed interpretation of the decisions made by networks. The algorithm is based on the factorization machine, a prediction method that calculates factor vectors for each feature. We conducted experiments on multiple datasets with different models to validate our method, achieving higher performance than the previous work. We show that including interactions not only generates explanations but also makes them richer and is able to convey more information. We show examples of produced explanations in a simple visual format and verify that they are easily interpretable and plausible.",
+    "published_date": "2021-10-31",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3474557",
+    "summary": "This paper introduces a method for explaining deep neural network predictions by analyzing feature interactions using factorization machines, achieving improved explanatory performance over methods that only consider individual feature contributions. The resulting explanations are both semantically rich and easily interpretable."
+  },
+  {
+    "title": "Towards Unifying Feature Attribution and Counterfactual Explanations: Different Means to the Same End",
+    "abstract": "Feature attributions and counterfactual explanations are popular approaches to explain a ML model. The former assigns an importance score to each input feature, while the latter provides input examples with minimal changes to alter the model's predictions. To unify these approaches, we provide an interpretation based on the actual causality framework and present two key results in terms of their use. First, we present a method to generate feature attribution explanations from a set of counterfactual examples. These feature attributions convey how important a feature is to changing the classification outcome of a model, especially on whether a subset of features is necessary and/or sufficient for that change, which attribution-based methods are unable to provide. Second, we show how counterfactual examples can be used to evaluate the goodness of an attribution-based explanation in terms of its necessity and sufficiency. As a result, we highlight the complimentary of these two approaches. Our evaluation on three benchmark datasets --- Adult-Income, LendingClub, and German-Credit --- confirms the complimentary. Feature attribution methods like LIME and SHAP and counterfactual explanation methods like Wachter et al. and DiCE often do not agree on feature importance rankings. In addition, by restricting the features that can be modified for generating counterfactual examples, we find that the top-k features from LIME or SHAP are often neither necessary nor sufficient explanations of a model's prediction. Finally, we present a case study of different explanation methods on a real-world hospital triage problem.",
+    "published_date": "2020-11-10",
+    "citation_count": 89,
+    "url": "https://dl.acm.org/doi/10.1145/3461702.3462597",
+    "summary": "This paper proposes a framework unifying feature attribution and counterfactual explanations for machine learning models, demonstrating how to generate attributions from counterfactuals and use counterfactuals to evaluate attributions, ultimately highlighting their complementary strengths in providing more comprehensive model explanations."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1911.11081.pdf",
+    "title": "Improving Feature Attribution through Input-specific Network Pruning",
+    "published_date": "2019-11-25",
+    "abstract": "Attributing the output of a neural network to the contribution of given input elements is a way of shedding light on the black-box nature of neural networks. Due to the complexity of current network architectures, current gradient-based attribution methods provide very noisy or coarse results. We propose to prune a neural network for a given single input to keep only neurons that highly contribute to the prediction. We show that by input-specific pruning, network gradients change from reflecting local (noisy) importance information to global importance. Our proposed method is efficient and generates fine-grained attribution maps. We further provide a theoretical justification of the pruning approach relating it to perturbations and validate it through a novel experimental setup. Our method is evaluated by multiple benchmarks: sanity checks, pixel perturbation, and Remove-and-Retrain (ROAR). These benchmarks evaluate the method from different perspectives and our method performs better than other methods across all evaluations.",
+    "citation_count": 11,
+    "summary": "This paper introduces a novel input-specific network pruning method for improving feature attribution in neural networks, demonstrating that pruning enhances gradient-based attribution by shifting focus from noisy local importance to global importance, resulting in more accurate and fine-grained attribution maps. The method's effectiveness is validated through rigorous benchmarking against existing techniques."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1806.10758.pdf",
+    "title": "A Benchmark for Interpretability Methods in Deep Neural Networks",
+    "published_date": "2018-06-28",
+    "abstract": "We propose an empirical measure of the approximate accuracy of feature importance estimates in deep neural networks. Our results across several large-scale image classification datasets show that many popular interpretability methods produce estimates of feature importance that are not better than a random designation of feature importance. Only certain ensemble based approaches---VarGrad and SmoothGrad-Squared---outperform such a random assignment of importance. The manner of ensembling remains critical, we show that some approaches do no better then the underlying method but carry a far higher computational burden.",
+    "citation_count": 631,
+    "summary": "This paper benchmarks the accuracy of feature importance estimates from various deep learning interpretability methods, finding that most perform no better than random, while only ensemble methods like VarGrad and SmoothGrad-Squared consistently outperform random assignment. The efficiency of ensembling is also highlighted as a critical factor."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/qykrYY6rXXM7EEs8Q/understanding-sae-features-with-the-logit-lens",
+    "author": "Joseph Bloom, Johnny Lin",
+    "title": "Understanding SAE Features with the Logit Lens",
+    "published_date": "2024-03-11",
+    "summary": "This research uses statistical methods to analyze Sparse Autoencoder (SAE) features in a language model, classifying them into categories like \"Partition,\" \"Suppression,\" and \"Prediction\" features based on their logit weight distributions. A statistical test is also proposed to identify features that distinguish specific token sets, aiding in the interpretability of these complex model components."
+  }
+]

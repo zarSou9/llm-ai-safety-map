@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/GCHyDKfPXa5qsG2cP/human-study-on-ai-spear-phishing-campaigns",
+    "author": "Simon Lermen, Fred Heiding, Andrew Kao",
+    "title": "Human study on AI spear phishing campaigns",
+    "published_date": "2025-01-03",
+    "summary": "A study found that AI-generated spear-phishing emails, using models like GPT-4o and Claude 3.5 Sonnet, achieved over 50% click-through rates, comparable to human-crafted emails and significantly exceeding a control group; this demonstrates the effectiveness and cost-efficiency of AI in spear-phishing attacks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.04845",
+    "title": "Poster: Flexible Scheduling of Network and Computing Resources for Distributed AI Tasks",
+    "published_date": "2024-07-05",
+    "abstract": "Many emerging Artificial Intelligence (AI) applications require on-demand provisioning of large-scale computing, which can only be enabled by leveraging distributed computing services interconnected through networking. To address such increasing demand for networking to serve AI tasks, we investigate new scheduling strategies to improve communication efficiency and test them on a programmable testbed. We also show relevant challenges and research directions.",
+    "citation_count": 2,
+    "summary": "This research explores flexible scheduling strategies for distributed AI tasks, aiming to improve communication efficiency in large-scale computing environments by leveraging programmable testbeds. The authors also highlight challenges and future research directions in this area."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.10987",
+    "title": "Adaptive Digital Twin and Communication-Efficient Federated Learning Network Slicing for 5G-enabled Internet of Things",
+    "published_date": "2024-06-22",
+    "abstract": "Network slicing enables industrial Internet of Things (IIoT) networks with multiservice and differentiated resource requirements to meet increasing demands through efficient use and management of network resources. Typically, the network slice orchestrator relies on demand forecasts for each slice to make informed decisions and maximize resource utilization. The new generation of Industry 4.0 has introduced digital twins to map physical systems to digital models for accurate decision-making. In our approach, we first use graph-attention networks to build a digital twin environment for network slices, enabling real-time traffic analysis, monitoring, and demand forecasting. Based on these predictions, we formulate the resource allocation problem as a federated multi-agent reinforcement learning problem and employ a deep deterministic policy gradient to determine the resource allocation policy while preserving the privacy of the slices. Our results demonstrate that the proposed approaches can improve the accuracy of demand prediction for network slices and reduce the communication overhead of dynamic network slicing.",
+    "summary": "This paper proposes a system for 5G-enabled IoT network slicing that uses a graph-attention network-based digital twin for accurate real-time traffic prediction and a communication-efficient federated learning approach for dynamic resource allocation. The system improves demand prediction accuracy and reduces communication overhead compared to traditional methods."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.11142",
+    "title": "DGRO: Diameter-Guided Ring Optimization for Integrated Research Infrastructure Membership",
+    "published_date": "2024-10-14",
+    "abstract": "Logical ring is a core component in membership protocol. However, the logic ring fails to consider the underlying physical latency, resulting in a high diameter. To address this issue, we introduce Diameter-Guided Ring Optimization (DGRO), which focuses on constructing rings with the smallest possible diameter, selecting the most effective ring configurations, and implementing these configurations in parallel. We first explore an integration of deep Q-learning and graph embedding to optimize the ring topology. We next propose a ring selection strategy that assesses the current topology's average latency against a global benchmark, facilitating integration into modern peer-to-peer protocols and substantially reducing network diameter. To further enhance scalability, we propose a parallel strategy that distributes the topology construction process into separate partitions simultaneously. Our experiment shows that: 1) DGRO efficiently constructs a network topology that achieves up to a 60% reduction in diameter compared to the best results from an extensive search over $10^5$ topologies, all within a significantly shorter computation time, 2) the ring selection of DGRO reduces the diameter of state-of-the-art methods Chord, RAPID, and Perigee by 10%-40%, 44%, and 60%. 3) the parallel construction can scale up to $32$ partitions while maintaining the same diameter compared to the centralized version.",
+    "citation_count": 1,
+    "summary": "DGRO, a novel approach to optimizing logical rings in peer-to-peer networks, uses deep Q-learning and graph embedding to construct rings with significantly smaller diameters than existing methods like Chord, RAPID, and Perigee. This is achieved through a combined strategy of optimized topology construction, intelligent ring selection, and parallel processing, leading to substantial performance improvements."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.05480",
+    "title": "Adaptive Multi-Layer Deployment for A Digital Twin Empowered Satellite-Terrestrial Integrated Network",
+    "published_date": "2024-09-09",
+    "abstract": "With the development of satellite communication technology, satellite-terrestrial integrated networks (STIN), which integrate satellite networks and ground networks, can realize seamless global coverage of communication services. Confronting the intricacies of network dynamics, the diversity of resource heterogeneity, and the unpredictability of user mobility, dynamic resource allocation within networks faces formidable challenges. Digital twin (DT), as a new technique, can reflect a physical network to a virtual network to monitor, analyze, and optimize the physical network. Nevertheless, in the process of constructing the DT model, the deployment location and resource allocation of DTs may adversely affect its performance. Therefore, we propose a STIN model, which alleviates the problem of insufficient single-layer deployment flexibility of the traditional edge network by deploying DTs in multi-layer nodes in a STIN. To address the challenge of deploying DTs in the network, we propose multi-layer DT deployment in a STIN to reduce system delay. Then we adopt a multi-agent reinforcement learning (MARL) scheme to explore the optimal strategy of the DT multi-layer deployment problem. The implemented scheme demonstrates a notable reduction in system delay, as evidenced by simulation outcomes.",
+    "summary": "This paper proposes a multi-layer digital twin (DT) deployment strategy for satellite-terrestrial integrated networks (STINs) using multi-agent reinforcement learning (MARL) to optimize resource allocation and reduce system delay. Simulation results demonstrate improved performance compared to single-layer DT deployments."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.12188",
+    "title": "Predicting Internet Connectivity in Schools: A Feasibility Study Leveraging Multi-modal Data and Location Encoders in Low-Resource Settings",
+    "published_date": "2024-12-13",
+    "abstract": "Internet connectivity in schools is critical to provide students with the digital literary skills necessary to compete in modern economies. In order for governments to effectively implement digital infrastructure development in schools, accurate internet connectivity information is required. However, traditional survey-based methods can exceed the financial and capacity limits of governments. Open-source Earth Observation (EO) datasets have unlocked our ability to observe and understand socio-economic conditions on Earth from space, and in combination with Machine Learning (ML), can provide the tools to circumvent costly ground-based survey methods to support infrastructure development. In this paper, we present our work on school internet connectivity prediction using EO and ML. We detail the creation of our multi-modal, freely-available satellite imagery and survey information dataset, leverage the latest geographically-aware location encoders, and introduce the first results of using the new European Space Agency phi-lab geographically-aware foundational model to predict internet connectivity in Botswana and Rwanda. We find that ML with EO and ground-based auxiliary data yields the best performance in both countries, for accuracy, F1 score, and False Positive rates, and highlight the challenges of internet connectivity prediction from space with a case study in Kigali, Rwanda. Our work showcases a practical approach to support data-driven digital infrastructure development in low-resource settings, leveraging freely available information, and provide cleaned and labelled datasets for future studies to the community through a unique collaboration between UNICEF and the European Space Agency phi-lab.",
+    "summary": "This study demonstrates the feasibility of predicting school internet connectivity in low-resource settings (Botswana and Rwanda) using machine learning, multi-modal satellite imagery, and location encoders, achieving superior accuracy compared to traditional methods. The researchers created a publicly available dataset and leveraged the European Space Agency phi-lab model to improve digital infrastructure planning."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/oq5CtbsCncctPWkTn/best-of-n-jailbreaking",
+    "author": "John Hughes, saraprice, Aengus Lynch, Rylan Schaeffer, Fazl, Henry Sleight, Ethan Perez, mrinank_sharma",
+    "title": "Best-of-N Jailbreaking",
+    "published_date": "2024-12-14",
+    "summary": "Best-of-N (BoN) Jailbreaking is a simple, effective method for bypassing AI safety features across text, audio, and vision modalities by repeatedly modifying prompts until a harmful response is elicited; its attack success rate scales predictably with the number of attempts, following a power law."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/cLfsabkCPtieJ5LoK/investigating-bias-representations-in-llms-via-activation",
+    "author": "DawnLu",
+    "title": "Investigating Bias Representations in LLMs via Activation Steering",
+    "published_date": "2024-01-15",
+    "summary": "This research uses activation steering to assess the societal biases of the Llama-2-7b-chat LLM, finding that while the model exhibits existing gender bias, it unexpectedly refused to answer prompts designed to elicit racial and religious biases when steered, even with significant manipulation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/37uuuPQKiGisi8cGG/language-and-capabilities-testing-llm-mathematical-abilities",
+    "author": "Ethan Edwards",
+    "title": "Language and Capabilities: Testing LLM Mathematical Abilities Across Languages",
+    "published_date": "2024-04-04",
+    "summary": "This study investigated GPT-4's ability to perform three-digit multiplication in various languages and numeral systems, finding that while performance is best with Arabic numerals, success depends heavily on prompting techniques and unexpectedly emerges from learned token patterns rather than generalized mathematical understanding."
+  },
+  {
+    "url": "https://arxiv.org/abs/2309.11691",
+    "title": "RAI4IoE: Responsible AI for Enabling the Internet of Energy",
+    "published_date": "2023-09-20",
+    "abstract": "This paper plans to develop an Equitable and Re-sponsible AI framework with enabling techniques and algorithms for the Internet of Energy (IoE), in short, RAI4IoE. The energy sector is going through substantial changes fueled by two key drivers: building a zero-carbon energy sector and the digital transformation of the energy infrastructure. We expect to see the convergence of these two drivers resulting in the IoE, where renewable distributed energy resources (DERs), such as electric cars, storage batteries, wind turbines and photovoltaics (PV), can be connected and integrated for reliable energy distribution by leveraging advanced 5G-6G networks and AI technology. This allows DER owners as prosumers to participate in the energy market and derive economic incentives. DERs are inherently asset-driven and face equitable challenges (i.e., fair, diverse and inclusive). Without equitable access, privileged individuals, groups and organizations can participate and benefit at the cost of disadvantaged groups. The real-time management of DER resources not only brings out the equity problem to the IoE, it also collects highly sensitive location, time, activity dependent data, which requires to be handled responsibly (e.g., privacy, security and safety), for AI-enhanced predictions, optimization and prioritization services, and automated management of flexible resources. The vision of our project is to ensure equitable participation of the community members and responsible use of their data in IoE so that it could reap the benefits of advances in AI to provide safe.. reliable and sustainable energy services.",
+    "citation_count": 4,
+    "summary": "RAI4IoE proposes a responsible AI framework for the Internet of Energy (IoE) to ensure equitable access and benefit sharing among all stakeholders while responsibly managing sensitive data generated by distributed energy resources. This framework addresses both equity and privacy concerns within the context of AI-driven energy management."
+  }
+]

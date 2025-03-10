@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/rgEoRetRD6PvvJeRT/interlab-a-toolkit-for-experiments-with-multi-agent",
+    "author": "Tomáš Gavenčiak, Ada Böhm, Jan_Kulveit",
+    "title": "InterLab – a toolkit for experiments with multi-agent interactions",
+    "published_date": "2024-01-22",
+    "summary": "InterLab is a new Python toolkit designed to facilitate empirical research on multi-agent interactions, particularly focusing on the alignment challenges posed by human-AI systems. The project aims to improve understanding of complex interactions within these systems through experimentation with LLMs and LLM-based agents."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BXMCgpktdiawT3K5v/multi-agent-safety",
+    "author": "Richard_Ngo",
+    "title": "Multi-agent safety",
+    "published_date": "2020-05-16",
+    "summary": "The article argues that artificial general intelligence (AGI) may best be developed through multi-agent autocurricula in rich simulated environments, where agents' emergent behaviors, rather than explicitly rewarded tasks, will drive the development of sophisticated cognitive skills. Successfully guiding this process requires developing scalable oversight techniques to mitigate potential risks from unpredictable agent behavior."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "The article explores applying game theory to AI development within organizations, highlighting its limitations in complex bureaucratic structures. It argues that even with advanced AI, human-AI collaboration within a bureaucratic framework, leveraging comparative advantage and specialized tasks, remains necessary for efficient goal achievement."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/WKGZBCYAbZ6WGsKHc/love-in-a-simbox-is-all-you-need",
+    "author": "jacob_cannell",
+    "title": "LOVE in a simbox is all you need",
+    "published_date": "2022-09-28",
+    "summary": "The article proposes developing safe, self-aligning artificial general intelligence (AGI) by iteratively testing and refining altruistic agent designs within simulated environments. This approach, inspired by the brain's dynamic alignment mechanisms, involves measuring alignment through simulated scenarios where agents' actions impact others, using human judgment and AI helpers to evaluate the results."
+  },
+  {
+    "title": "Heterogeneous agent coordination via adaptive quality diversity and specialization",
+    "abstract": "In many real-world multiagent systems, agents must learn diverse tasks and coordinate with other agents. This paper introduces a method to allow heterogeneous agents to specialize and only learn complementary divergent behaviors needed for coordination in a shared environment. We use a hierarchical decomposition of diversity search and fitness optimization to allow agents to speciate and learn diverse temporally extended actions. Within an agent population, diversity in niches is favored. Agents within a niche compete for optimizing the higher level coordination task. Experimental results in a multiagent rover exploration task demonstrate the diversity of acquired agent behavior that promotes coordination.",
+    "published_date": "2021-07-07",
+    "url": "https://dl.acm.org/doi/10.1145/3449726.3459564",
+    "summary": "This paper presents a method for coordinating heterogeneous agents by enabling specialization through adaptive quality diversity, promoting the evolution of diverse, complementary behaviors crucial for shared task completion. Experimental results in a multi-agent rover exploration task validate the approach's effectiveness in fostering coordinated behavior through agent specialization."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization",
+    "published_date": "2021-06-04",
+    "summary": "This article explores applying game theory to AI development within organizational structures, highlighting the limitations of a purely game-theoretic approach and emphasizing the enduring relevance of bureaucratic principles like hierarchical authority and specialization, even with the integration of AI agents. The authors argue that human-AI collaboration, leveraging comparative advantage, will remain necessary for complex problem-solving, necessitating organizational structures to maintain efficiency."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/pRD5u2omuDoMTuH39/multi-agent-inverse-reinforcement-learning-suboptimal",
+    "author": "sage_bergerson",
+    "title": "Multi-Agent Inverse Reinforcement Learning: Suboptimal Demonstrations and \nAlternative Solution Concepts",
+    "published_date": "2021-09-07",
+    "summary": "Stanford researchers reviewed multi-agent inverse reinforcement learning (MIRL) methods, finding that extensions of Maximum Entropy IRL and generalized Nash Equilibrium concepts, often incorporating recursive reasoning, best handle the noise and suboptimal behavior inherent in realistic social dynamics. Promising future directions include modeling specific biases and heuristics using approaches like Theory of Mind."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/dSAJdi99XmqftqXXq/",
+    "author": "Richard_Ngo",
+    "title": "Eight claims about multi-agent AGI safety",
+    "published_date": "2021-01-07",
+    "summary": "The article explores eight claims regarding the risks and potential benefits of multi-agent training and deployment of artificial general intelligences (AGIs), arguing that while multi-agent training may be a likely path to AGI development, it also presents significant safety challenges due to the unpredictable emergence of complex behaviors and the difficulty of applying standard safety techniques in such environments."
+  }
+]

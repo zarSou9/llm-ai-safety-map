@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2402.16670",
+    "title": "Pay Attention: a Call to Regulate the Attention Market and Prevent Algorithmic Emotional Governance",
+    "published_date": "2024-02-26",
+    "abstract": "Over the last 70 years, we, humans, have created an economic market where attention is being captured and turned into money thanks to advertising. During the last two decades, leveraging research in psychology, sociology, neuroscience and other domains, Web platforms have brought the process of capturing attention to an unprecedented scale. With the initial commonplace goal of making targeted advertising more effective, the generalization of attention-capturing techniques and their use of cognitive biases and emotions have multiple detrimental side effects such as polarizing opinions, spreading false information and threatening public health, economies and democracies. This is clearly a case where the Web is not used for the common good and where, in fact, all its users become a vulnerable population. This paper brings together contributions from a wide range of disciplines to analyze current practices and consequences thereof. Through a set of propositions and principles that could be used do drive further works, it calls for actions against these practices competing to capture our attention on the Web, as it would be unsustainable for a civilization to allow attention to be wasted with impunity on a world-wide scale.",
+    "citation_count": 1,
+    "summary": "This paper argues that the internet's pervasive use of attention-capturing techniques, fueled by targeted advertising, has created a harmful \"attention market\" with detrimental effects on society, including the spread of misinformation and polarization. It calls for regulation to prevent this \"algorithmic emotional governance\" and protect the public good."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.16212",
+    "title": "A Mechanism for Optimizing Media Recommender Systems",
+    "published_date": "2024-06-23",
+    "abstract": "A mechanism is described that addresses the fundamental trade off between media producers who want to increase reach and consumers who provide attention based on the rate of utility received, and where overreach negatively impacts that rate. An optimal solution can be achieved when the media source considers the impact of overreach in a cost function used in determining the optimal distribution of content to maximize individual consumer utility and participation. The result is a Nash equilibrium between producer and consumer that is also Pareto efficient. Comparison with the literature on Recommender systems highlights the advantages of the mechanism, including identifying an optimal content volume for the consumer and improvements for optimizing with multiple objectives. A practical algorithm for generating the optimal distribution for each consumer is provided.",
+    "summary": "This paper proposes a mechanism for media recommender systems that balances producers' desire for reach with consumers' preference for high-utility content, avoiding overreach. The mechanism achieves a Pareto-efficient Nash equilibrium by incorporating overreach costs into a content distribution optimization algorithm, maximizing individual consumer utility and participation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.07435",
+    "title": "An Efficient Multimodal Learning Framework to Comprehend Consumer Preferences Using BERT and Cross-Attention",
+    "published_date": "2024-05-13",
+    "abstract": "Today, the acquisition of various behavioral log data has enabled deeper understanding of customer preferences and future behaviors in the marketing field. In particular, multimodal deep learning has achieved highly accurate predictions by combining multiple types of data. Many of these studies utilize with feature fusion to construct multimodal models, which combines extracted representations from each modality. However, since feature fusion treats information from each modality equally, it is difficult to perform flexible analysis such as the attention mechanism that has been used extensively in recent years. Therefore, this study proposes a context-aware multimodal deep learning model that combines Bidirectional Encoder Representations from Transformers (BERT) and cross-attention Transformer, which dynamically changes the attention of deep-contextualized word representations based on background information such as consumer demographic and lifestyle variables. We conduct a comprehensive analysis and demonstrate the effectiveness of our model by comparing it with six reference models in three categories using behavioral logs stored on an online platform. In addition, we present an efficient multimodal learning method by comparing the learning efficiency depending on the optimizers and the prediction accuracy depending on the number of tokens in the text data.",
+    "summary": "This paper introduces a novel multimodal deep learning framework that uses BERT and cross-attention to analyze consumer preferences from behavioral logs, dynamically weighting text data based on demographic and lifestyle information for improved prediction accuracy. The authors demonstrate its effectiveness through comparison with existing models and analyze the impact of optimizers and text length on performance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that achieving safe AGI requires a top-down design of \"civilisational intelligence\" encompassing not only technical aspects but also sociotechnical, political, and economic considerations, drawing on diverse theoretical and empirical frameworks. Collaboration across disciplines and the pragmatic application of existing theories are crucial to avoid the dangers of an unchecked AI evolution."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jdCCBwdPqDNnzkkrm/gpt-4-what-we-i-know-about-it",
+    "author": "Robert_AIZI",
+    "title": "GPT-4: What we (I) know about it",
+    "published_date": "2023-03-15",
+    "summary": "OpenAI's GPT-4, now powering Bing AI and rolling out to ChatGPT Plus subscribers, significantly advances capabilities over previous models, demonstrating improved performance on standardized tests and incorporating extensive reinforcement learning from human feedback to mitigate unethical outputs. However, OpenAI has released limited information about GPT-4's architecture."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.09653v1.pdf",
+    "title": "The Paradox of Choice: Using Attention in Hierarchical Reinforcement Learning",
+    "published_date": "2022-01-24",
+    "abstract": "Decision-making AI agents are often faced with two important challenges: the depth of the planning horizon, and the branching factor due to having many choices. Hierarchical reinforcement learning methods aim to solve the first problem, by providing shortcuts that skip over multiple time steps. To cope with the breadth, it is desirable to restrict the agent's attention at each step to a reasonable number of possible choices. The concept of affordances (Gibson, 1977) suggests that only certain actions are feasible in certain states. In this work, we model\"affordances\"through an attention mechanism that limits the available choices of temporally extended options. We present an online, model-free algorithm to learn affordances that can be used to further learn subgoal options. We investigate the role of hard versus soft attention in training data collection, abstract value learning in long-horizon tasks, and handling a growing number of choices. We identify and empirically illustrate the settings in which the paradox of choice arises, i.e. when having fewer but more meaningful choices improves the learning speed and performance of a reinforcement learning agent.",
+    "citation_count": 3,
+    "summary": "This paper introduces a hierarchical reinforcement learning algorithm that uses an attention mechanism to limit the number of choices considered at each step, addressing the \"paradox of choice\" by focusing on more meaningful actions and improving learning speed and performance in long-horizon tasks. The algorithm learns \"affordances,\" or feasible actions in specific states, through a model-free approach, comparing hard and soft attention mechanisms."
+  },
+  {
+    "url": "https://arxiv.org/abs/2104.10657v4",
+    "title": "A Rational Inattention Theory of Echo Chamber",
+    "published_date": "2021-04-21",
+    "abstract": "We propose a theory of echo chamber based on rational inattention, i.e., the ability to allocate limited attention capacities across information sources in a rational, flexible, manner. Such a premise has become increasingly relevant in today's digital age, as people are inundated with information on the one hand, but can selectively choose which information sources to visit using personalization technologies on the other hand. Since [Sunstein, 2007] and [Pariser, 2011], it has been long suspected that rational inattention could engender a selective exposure to content and a formation of homogeneous opinion clusters. This paper develops a novel model to formalize this idea.",
+    "citation_count": 4,
+    "summary": "This paper proposes a rational inattention theory of echo chambers, arguing that individuals' limited attention spans, coupled with the ability to selectively choose information sources, lead to the formation of homogeneous opinion clusters. A formal model is developed to support this idea."
+  },
+  {
+    "url": "https://arxiv.org/abs/2105.05563?context=cs.IR",
+    "title": "Looking at CTR Prediction Again: Is Attention All You Need?",
+    "published_date": "2021-05-12",
+    "abstract": "Click-through rate (CTR) prediction is a critical problem in web search, recommendation systems and online advertisement displaying. Learning good feature interactions is essential to reflect user's preferences to items. Many CTR prediction models based on deep learning have been proposed, but researchers usually only pay attention to whether state-of-the-art performance is achieved, and ignore whether the entire framework is reasonable. In this work, we use the discrete choice model in economics to redefine the CTR prediction problem, and propose a general neural network framework built on self-attention mechanism. It is found that most existing CTR prediction models align with our proposed general framework. We also examine the expressive power and model complexity of our proposed framework, along with potential extensions to some existing models. And finally we demonstrate and verify our insights through some experimental results on public datasets.",
+    "citation_count": 14,
+    "summary": "This paper recasts click-through rate (CTR) prediction as a discrete choice model, proposing a general self-attention-based neural network framework that encompasses many existing CTR models and analyzes their expressive power and complexity. Experimental results on public datasets validate the proposed framework."
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Artificial Intelligence, Income Distribution and Economic Growth",
+    "abstract": "The economic impact of Articial Intelligence (AI) is studied using a (semi) endogenous growth model with two novel features. First, the task approach from labor economics is reformulated and integrated into a growth model. Second, the standard representative household assumption is rejected, so that aggregate demand restrictions can be introduced. With these novel features it is shown that (i) AI automation can decrease the share of labor income no matter the size of the elasticity of substitution between AI and labor, and (ii) when this elasticity is high, AI will unambiguously reduce aggregate demand and slow down GDP growth, even in the face of the positive technology shock that AI entails. If the elasticity of substitution is low, then GDP, productivity and wage growth may however still slow down, because the economy will then fail to benefit from the supply-side driven capacity expansion potential that AI can deliver. The model can thus explain why advanced countries tend to experience, despite much AI hype, the simultaneous existence of rather high employment with stagnating wages, productivity, and GDP.",
+    "published_date": "2024-06-18",
+    "citation_count": 9,
+    "url": "https://www.econstor.eu/bitstream/10419/224623/1/vfs-2020-pid-40327.pdf",
+    "summary": "A new growth model incorporating task-based labor economics and heterogeneous households demonstrates that AI automation can reduce labor income share regardless of AI-labor substitutability, and may slow GDP growth, especially when AI and labor are highly substitutable, due to decreased aggregate demand."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi/p/HvqQm6o8KnwxbdmhZ",
+    "author": "lennart, Jsevillamol, Marius Hobbhahn, Tamay Besiroglu, anson.ho",
+    "title": "Estimating training compute of Deep Learning models",
+    "published_date": "2022-01-20",
+    "summary": "The article presents two methods for estimating the compute used to train deep learning models: directly counting operations within the model's architecture or estimating from GPU training time and hardware specifications. Both methods yield comparable estimates, with a recommended utilization rate of 30% for LLMs and 40% for other models in the time-based approach."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/RihYwmskuJT9Rkbjq/the-longest-training-run",
+    "author": "Jsevillamol, Tamay, Owen D, anson.ho",
+    "title": "The longest training run",
+    "published_date": "2022-08-17",
+    "summary": "The optimal duration of large machine learning training runs is surprisingly short, typically less than 14 months, due to rapid hardware and algorithmic improvements; longer runs are outcompeted by later runs leveraging superior technology, even accounting for factors like rising investment and software upgrades."
+  },
+  {
+    "title": "AI Efficiency Index: Identifying Regulatory and Policy Constraints for Resilient National AI Ecosystems",
+    "abstract": "We develop efficiency estimates for the production, implementation and diffusion of artificial intelligence (AI) services. We use a variety of data measuring factors relating to AI input and output. We start by constructing a set of nine different AI efficiency measures using non-parametric technique of data envelopment analysis (DAE). We then proceed to analyse the cross-country time variation of these estimates and compare these with different policy measures and institutional indicators. In particular, we link our AI efficiency measures to general characteristics of a country's innovation system including indicators reflecting product market regulation, tax subsidies for R\\&D investment and institutional factors linked to starting a business and (intellectual) property rights. We find that policy measures differ in their impact on our AI efficiency scores: Tax subsidies are important to enhance start-up investment activity, especially in countries with high barriers to entry and weak property rights. Product market frictions such as public ownership --- especially in the telecommunications industry --- is pernicious to patenting efficiency in the field of AI. Our results highlight the importance of differentiated policy interventions at different stages (and attributes) of the AI production chain.",
+    "published_date": "2021-03-09",
+    "citation_count": 1,
+    "url": "https://www.researchgate.net/publication/350015537_AI_Efficiency_Index_Identifying_Regulatory_and_Policy_Constraints_for_Resilient_National_AI_Ecosystems",
+    "summary": "The study constructs an AI Efficiency Index using data envelopment analysis to measure the efficiency of AI production, implementation, and diffusion across countries. It finds that tax subsidies promote AI investment, particularly in countries with high barriers to entry, while product market regulations, especially in telecommunications, negatively impact AI patenting efficiency."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/G4KHuYC3pHry6yMhi/compute-research-questions-and-metrics-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Research Questions and Metrics - Transformative AI and Compute [4/4]",
+    "published_date": "2021-11-28",
+    "summary": "This appendix to a series on transformative AI and compute explores research questions surrounding AI hardware, compute trends, and their governance. It also examines compute metrics, their limitations, and lists AI hardware startups."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/bJi3hd8E8qjBeHz9Z",
+    "author": "lennart",
+    "title": "Transformative AI and Compute - LessWrong",
+    "published_date": "2021-09-23",
+    "summary": "The article analyzes the crucial role of computational resources in driving advancements in AI systems, examining the relationship between compute requirements, system capabilities, and timelines for transformative AI development. It also discusses the need for effective compute governance to ensure safe AI development."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes AI safety-related content, reflecting the author's belief in the importance of careful reading and summarization."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/M3xpp7CZ2JaSafDJB/computer-governance-and-conclusions-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Governance and Conclusions - Transformative AI and Compute [3/4]",
+    "published_date": "2021-10-14",
+    "summary": "This article explores the governance of artificial intelligence (AI) through the control of computing resources. The author argues that the physical, energy, and supply chain characteristics of high-performance computing make it a more governable aspect of AI development than other factors, suggesting that restricting access to powerful computing resources could improve AI safety."
+  }
+]

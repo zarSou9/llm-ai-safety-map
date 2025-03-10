@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising but under-developed AI safety strategy. While current measures are limited, researchers propose using compute governance to improve visibility into AI development, allocate resources strategically, and enforce regulations, though many proposed mechanisms remain speculative."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for third-party testing of large-scale AI systems to mitigate societal harm from misuse or accidental consequences. They propose a policy framework involving industry, government, and academia to develop effective and narrowly-scoped testing procedures that balance safety with innovation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, examines AI model registries—centralized databases tracking AI systems for governance purposes. These registries, with varying requirements across jurisdictions like the US and China, aim to monitor AI models before public release, providing a foundation for targeted AI regulation."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of posts is a work in progress, aiming to provide a comprehensive introduction to AI safety. The content and order of the posts are still under development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and a long version, catalog AI safety research, organizations, and researchers to help machine learning experts quickly assess potential areas of contribution based on their existing skills and interests. The resource aims to facilitate entry into the AI safety field for those with relevant ML backgrounds."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8xN5KYB9xAgSSi494/against-the-open-source-closed-source-dichotomy-regulated",
+    "author": "alex.herwix",
+    "title": "Against the Open Source / Closed Source Dichotomy: Regulated Source as a Model for Responsible AI Development",
+    "published_date": "2023-09-04",
+    "summary": "The article challenges the open-source versus closed-source dichotomy in AI development, arguing that neither model fully addresses responsible AI. It proposes \"Regulated Source\" as a potential alternative model for mitigating risks while fostering innovation."
+  },
+  {
+    "title": "Using Knowledge Graphs to Unlock Practical Collection, Integration, and Audit of AI Accountability Information",
+    "abstract": "To enhance trustworthiness of AI systems, a number of solutions have been proposed to document how such systems are built and used. A key facet of realizing trust in AI is how to make such systems accountable - a challenging task, not least due to the lack of an agreed definition of accountability and differing perspectives on what information should be recorded and how it should be used (e.g., to inform audit). Information originates across the life cycle stages of an AI system and from a variety of sources (individuals, organizations, systems), raising numerous challenges around collection, management, and audit. In our previous work, we argued that semantic Knowledge Graphs (KGs) are ideally suited to address those challenges and we presented an approach utilizing KGs to aid in the tasks of modelling, recording, viewing, and auditing accountability information related to the design stage of AI system development. Moreover, as KGs store data in a structured format understandable by both humans and machines, we argued that this approach provides new opportunities for building intelligent applications that facilitate and automate such tasks. In this paper, we expand our earlier work by reporting additional detailed requirements for knowledge representation and capture in the context of AI accountability; these extend the scope of our work beyond the design stage, to also include system implementation. Furthermore, we present the RAInS ontology which has been extended to satisfy these requirements. We evaluate our approach against three popular baseline frameworks, namely, Datasheets, Model Cards, and FactSheets, by comparing the range of information that can be captured by our KGs against these three frameworks. We demonstrate that our approach subsumes and extends the capabilities of the baseline frameworks and discuss how KGs can be used to integrate and enhance accountability information collection processes.",
+    "published_date": "2022-01-01",
+    "citation_count": 10,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09815594.pdf",
+    "summary": "This paper proposes using knowledge graphs (KGs) to improve the collection, integration, and audit of AI accountability information throughout an AI system's lifecycle, extending a previous design-stage-focused approach to encompass implementation and demonstrating its superior capabilities compared to existing frameworks like Datasheets, Model Cards, and FactSheets. The authors present the extended RAInS ontology to support this KG-based approach."
+  },
+  {
+    "title": "Documenting Data Production Processes",
+    "abstract": "The opacity of machine learning data is a significant threat to ethical data work and intelligible systems. Previous research has addressed this issue by proposing standardized checklists to document datasets. This paper expands that field of inquiry by proposing a shift of perspective: from documenting datasets towards documenting data production. We draw on participatory design and collaborate with data workers at two companies located in Bulgaria and Argentina, where the collection and annotation of data for machine learning are outsourced. Our investigation comprises 2.5 years of research, including 33 semi-structured interviews, five co-design workshops, the development of prototypes, and several feedback instances with participants. We identify key challenges and requirements related to the integration of documentation practices in real-world data production scenarios. Our findings comprise important design considerations and highlight the value of designing data documentation based on the needs of data workers. We argue that a view of documentation as a boundary object, i.e., an object that can be used differently across organizations and teams but holds enough immutable content to maintain integrity, can be useful when designing documentation to retrieve heterogeneous, often distributed, contexts of data production.",
+    "published_date": "2022-07-11",
+    "citation_count": 12,
+    "url": "https://dl.acm.org/doi/10.1145/3555623",
+    "summary": "This paper argues for documenting the *process* of machine learning data production, not just the resulting datasets, based on a 2.5-year study of data workers in Bulgaria and Argentina; the research identifies key challenges and design considerations for integrating documentation practices, proposing a \"boundary object\" approach to maintain integrity across diverse contexts."
+  }
+]

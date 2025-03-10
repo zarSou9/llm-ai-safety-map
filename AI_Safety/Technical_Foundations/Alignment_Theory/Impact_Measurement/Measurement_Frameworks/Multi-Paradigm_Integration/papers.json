@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/JDrxA3vwZAKZfmShz/degeneracies-are-sticky-for-sgd",
+    "author": "Guillaume Corlouer; Nicolas Macé",
+    "title": "Degeneracies are sticky for SGD",
+    "published_date": "2024-06-16"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.13901v1.pdf",
+    "title": "Measure Theoretic Weighted Model Integration",
+    "published_date": "2021-03-25",
+    "abstract": "Weighted model counting (WMC) is a popular framework to perform probabilistic inference with discrete random variables. Recently, WMC has been extended to weighted model integration (WMI) in order to additionally handle continuous variables. At their core, WMI problems consist of computing integrals and sums over weighted logical formulas. From a theoretical standpoint, WMI has been formulated by patching the sum over weighted formulas, which is already present in WMC, with Riemann integration. A more principled approach to integration, which is rooted in measure theory, is Lebesgue integration. Lebesgue integration allows one to treat discrete and continuous variables on equal footing in a principled fashion. We propose a theoretically sound measure theoretic formulation of weighted model integration, which naturally reduces to weighted model counting in the absence of continuous variables. Instead of regarding weighted model integration as an extension of weighted model counting, WMC emerges as a special case of WMI in our formulation.",
+    "citation_count": 1
+  },
+  {
+    "title": "MUCH: exploiting pairwise hardware event monitor correlations for improved timing analysis of complex MPSoCs",
+    "abstract": "Measurement-based timing analysis techniques increasingly rely on the Performance Monitoring Units (PMU) of MPSoCs, as these units implement specialized Hardware Event Monitors (HEMs) that convey detailed information about multicore interference in hardware shared resources. Unfortunately, there is an evident mismatch between the large number of HEMs (typically several hundreds) and the comparatively small number (normally less than ten) of Performance Monitoring Counters (PMCs) that can be configured to track HEMs in the PMU. Timing analysis normally require to observe a non-negligible number of HEMs per task from the same execution. However, due to the small number of PMCs, HEMs are necessarily collected across multiple runs that, despite intended to repeat the same experiment, carry out some significant variability (above 50% for some HEMs in relevant MPSoCs) caused by platform-intrinsic execution conditions. Therefore, blindly merging HEMs from different runs is not acceptable since they may easily correspond to significantly different conditions. To tackle this issue, the HRM approach has been proposed recently to merge HEMs from different runs accurately preserving their correlation w.r.t. one anchor HEM (i.e. processor cycles) building on order statistics. However, HRM do not always preserves the correlation between other pairs of HEMs that might be lost to a large extent. This paper copes with HRM limitations by proposing the MUlti-Correlation HEM reading and merging approach (MUCH). MUCH builds on multivariate Gaussian distributions to merge HEMs from different runs while preserving pairwise correlations across each individual pair of HEMs simultaneously. Our results on an NXP T2080 MPSoC used for avionics systems show that MUCH largely outperforms HRM for an identical number of input runs.",
+    "published_date": "2021-03-22",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3412841.3441931"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.10242.pdf",
+    "title": "A Methodology for Approaching the Integration of Complex Robotics Systems: Illustration Through a Bimanual Manipulation Case Study",
+    "published_date": "2021-03-18",
+    "abstract": "The multidisciplinarity of robotics creates a need for robust integration methodologies that can facilitate the adoption of state-of-the-art research components in an industrial application. Unfortunately, there are no clear, community-accepted guidelines or standards that define the integration of such components in a single robotic system. In this article, we propose a methodology that assesses the software components of a candidate system on the basis of the effort required to integrate them and the impact their integration will have on a target system. We demonstrate how this methodology can be applied using an industrial tool packing system as an example.",
+    "citation_count": 4
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2012.01557.pdf",
+    "title": "Value Alignment Verification",
+    "published_date": "2020-12-02",
+    "abstract": "As humans interact with autonomous agents to perform increasingly complicated, potentially risky tasks, it is important that humans can verify these agents' trustworthiness and efficiently evaluate their performance and correctness. In this paper we formalize the problem of value alignment verification: how to efficiently test whether the goals and behavior of another agent are aligned with a human's values? We explore several different value alignment verification settings and provide foundational theory regarding value alignment verification. We study alignment verification problems with an idealized human that has an explicit reward function as well as value alignment verification problems where the human has implicit values. Our theoretical and empirical results in both a discrete grid navigation domain and a continuous autonomous driving domain demonstrate that it is possible to synthesize highly efficient and accurate value alignment verification tests for certifying the alignment of autonomous agents.",
+    "citation_count": 28
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.19198",
+    "title": "MAP: Multi-Human-Value Alignment Palette",
+    "published_date": "2024-10-24",
+    "abstract": "Ensuring that generative AI systems align with human values is essential but challenging, especially when considering multiple human values and their potential trade-offs. Since human values can be personalized and dynamically change over time, the desirable levels of value alignment vary across different ethnic groups, industry sectors, and user cohorts. Within existing frameworks, it is hard to define human values and align AI systems accordingly across different directions simultaneously, such as harmlessness, helpfulness, and positiveness. To address this, we develop a novel, first-principle approach called Multi-Human-Value Alignment Palette (MAP), which navigates the alignment across multiple human values in a structured and reliable way. MAP formulates the alignment problem as an optimization task with user-defined constraints, which define human value targets. It can be efficiently solved via a primal-dual approach, which determines whether a user-defined alignment target is achievable and how to achieve it. We conduct a detailed theoretical analysis of MAP by quantifying the trade-offs between values, the sensitivity to constraints, the fundamental connection between multi-value alignment and sequential alignment, and proving that linear weighted rewards are sufficient for multi-value alignment. Extensive experiments demonstrate MAP's ability to align multiple values in a principled manner while delivering strong empirical performance across various tasks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.09586",
+    "title": "ValueCompass: A Framework of Fundamental Values for Human-AI Alignment",
+    "published_date": "2024-09-15",
+    "abstract": "As AI systems become more advanced, ensuring their alignment with a diverse range of individuals and societal values becomes increasingly critical. But how can we capture fundamental human values and assess the degree to which AI systems align with them? We introduce ValueCompass, a framework of fundamental values, grounded in psychological theory and a systematic review, to identify and evaluate human-AI alignment. We apply ValueCompass to measure the value alignment of humans and language models (LMs) across four real-world vignettes: collaborative writing, education, public sectors, and healthcare. Our findings uncover risky misalignment between humans and LMs, such as LMs agreeing with values like\"Choose Own Goals\", which are largely disagreed by humans. We also observe values vary across vignettes, underscoring the necessity for context-aware AI alignment strategies. This work provides insights into the design space of human-AI alignment, offering foundations for developing AI that responsibly reflects societal values and ethics."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/value-extrapolation",
+    "title": "Value Extrapolation - AI Alignment Forum",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/value-extrapolation",
+    "title": "Value Extrapolation - LessWrong",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.08759.pdf",
+    "title": "Value Engineering for Autonomous Agents",
+    "published_date": "2023-02-17",
+    "abstract": "Machine Ethics (ME) is concerned with the design of Artificial Moral Agents (AMAs), i.e. autonomous agents capable of reasoning and behaving according to moral values. Previous approaches have treated values as labels associated with some actions or states of the world, rather than as integral components of agent reasoning. It is also common to disregard that a value-guided agent operates alongside other value-guided agents in an environment governed by norms, thus omitting the social dimension of AMAs. In this blue sky paper, we propose a new AMA paradigm grounded in moral and social psychology, where values are instilled into agents as context-dependent goals. These goals intricately connect values at individual levels to norms at a collective level by evaluating the outcomes most incentivized by the norms in place. We argue that this type of normative reasoning, where agents are endowed with an understanding of norms' moral implications, leads to value-awareness in autonomous agents. Additionally, this capability paves the way for agents to align the norms enforced in their societies with respect to the human values instilled in them, by complementing the value-based reasoning on norms with agreement mechanisms to help agents collectively agree on the best set of norms that suit their human values. Overall, our agent model goes beyond the treatment of values as inert labels by connecting them to normative reasoning and to the social functionalities needed to integrate value-aware agents into our modern hybrid human-computer societies.",
+    "citation_count": 3
+  }
+]

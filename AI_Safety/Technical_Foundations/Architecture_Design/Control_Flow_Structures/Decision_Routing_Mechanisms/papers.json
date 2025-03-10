@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://www.lesswrong.com/tag/knuths-up-arrow-notation",
+    "title": "Knuth's Up-Arrow Notation - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Knuth's up-arrow notation provides a concise way to represent extremely large numbers, such as 3^^^3, which despite its compact representation, denotes a number far exceeding the number of atoms in the observable universe."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06",
+    "summary": "A standard model of COVID-19 transmission struggles to explain the surprisingly similar infection rates across US states despite varying policies and behaviors. A proposed \"vulnerability model,\" suggesting varying individual susceptibility to infection over time, better accounts for the observed data and avoids inconsistencies inherent in the standard model."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2002.04991.pdf",
+    "title": "dtControl: decision tree learning algorithms for controller representation",
+    "published_date": "2020-02-12",
+    "abstract": "Decision tree learning is a popular classification technique most commonly used in machine learning applications. Recent work has shown that decision trees can be used to represent provably-correct controllers concisely. Compared to representations using lookup tables or binary decision diagrams, decision trees are smaller and more explainable. We present dtControl, an easily extensible tool for representing memoryless controllers as decision trees. We give a comprehensive evaluation of various decision tree learning algorithms applied to 10 case studies arising out of correct-by-construction controller synthesis. These algorithms include two new techniques, one for using arbitrary linear binary classifiers in the decision tree learning, and one novel approach for determinizing controllers during the decision tree construction. In particular the latter turns out to be extremely efficient, yielding decision trees with a single-digit number of decision nodes on 5 of the case studies.",
+    "citation_count": 29,
+    "summary": "dtControl is a tool that uses decision tree learning algorithms to efficiently represent memoryless controllers, offering smaller, more explainable representations than alternatives like lookup tables. The paper evaluates several algorithms, including two novel techniques for incorporating linear classifiers and determinizing controllers, demonstrating significant size reductions in several case studies."
+  },
+  {
+    "title": "Adaptive Weighted Traffic Splitting in Programmable Data Planes",
+    "abstract": "Recent work introduced load-balancing algorithms that dynamically pick the best path entirely in the data plane, to react to traffic dynamics on a small timescale. This paper takes the next step to balance load dynamically across multiple paths in the data plane. The design of such a load-balancing primitive raises interesting challenges due to the hardware constraints of the data plane. We show that these constraints create practical problems for Weighted-Cost MultiPath (WCMP), which replicates hash-table entries in proportion to the weight of each path. Under these hardware constraints, naïve implementations of WCMP take a long time to converge to new weights. We then present a hash-based data structure that achieves adaptive traffic splitting in programmable data planes. Our data structure carefully partitions the arithmetic operations required to a) split traffic in proportion to the path weights and b) update the path weights, by leveraging a multi-stage pipeline and stateful ALUs. By doing so, accurate splitting and efficient updates are done at line rate. We implement our data structure in P4 and our preliminary evaluation shows significant reduction in flow completion time compared to other data-plane load-balancing schemes such as HULA.",
+    "published_date": "2020-03-03",
+    "citation_count": 32,
+    "url": "https://dl.acm.org/doi/10.1145/3373360.3380841",
+    "summary": "This paper presents a novel hash-based data structure for adaptive weighted traffic splitting in programmable data planes, overcoming limitations of existing Weighted-Cost MultiPath (WCMP) approaches by efficiently handling weight updates and achieving line-rate performance. The design leverages a multi-stage pipeline and stateful ALUs to enable accurate traffic splitting and rapid adaptation to changing network conditions."
+  },
+  {
+    "title": "Dynamic Data Routing Decisions for Compliant Data Handling in Service-and Cloud-Based Architectures: A Performance Analysis",
+    "abstract": "In many service-based applications, decisions about data routing need to be made at runtime, for instance to ensure compliant data handling. Different service-and cloud-based architectures to make dynamic data routing decisions exist including central entities, multiple dedicated dynamic router services, or using a sidecar for each involved service. These archi-tectures differ in various quality attributes including complexity, understandability, and changeability of the decision logic. Choosing the wrong architecture for decision-making at runtime may severely impact the performance of the software system. In this paper, we have evaluated the performance of three representative approaches for processing compliance rules concerned with data routing in service-and cloud-based architectures. The results show that distributed approaches for dynamic data routing have a better performance compared to centralized solutions. On the other hand, centralized solutions are easier to understand and change, but this strongly depends on the domain problem.",
+    "published_date": "2019-07-01",
+    "citation_count": 5,
+    "url": "https://zenodo.org/record/2788937/files/PID5933523.pdf",
+    "summary": "This paper analyzes the performance of three architectures for dynamic data routing in service-based applications, focusing on compliance rule processing. Results demonstrate that distributed approaches outperform centralized solutions in terms of performance, though centralized solutions offer greater simplicity and maintainability."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24",
+    "summary": "This article explores the mathematical challenges inherent in blockchain technology and proposes mechanism design solutions, such as quadratic voting and funding, to address cooperation and philanthropic issues within the rationalist community interested in blockchain."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1805.01772v1.pdf",
+    "title": "Dynamic control flow in large-scale machine learning",
+    "published_date": "2018-04-23",
+    "abstract": "Many recent machine learning models rely on fine-grained dynamic control flow for training and inference. In particular, models based on recurrent neural networks and on reinforcement learning depend on recurrence relations, data-dependent conditional execution, and other features that call for dynamic control flow. These applications benefit from the ability to make rapid control-flow decisions across a set of computing devices in a distributed system. For performance, scalability, and expressiveness, a machine learning system must support dynamic control flow in distributed and heterogeneous environments. This paper presents a programming model for distributed machine learning that supports dynamic control flow. We describe the design of the programming model, and its implementation in TensorFlow, a distributed machine learning system. Our approach extends the use of dataflow graphs to represent machine learning models, offering several distinctive features. First, the branches of conditionals and bodies of loops can be partitioned across many machines to run on a set of heterogeneous devices, including CPUs, GPUs, and custom ASICs. Second, programs written in our model support automatic differentiation and distributed gradient computations, which are necessary for training machine learning models that use control flow. Third, our choice of non-strict semantics enables multiple loop iterations to execute in parallel across machines, and to overlap compute and I/O operations. We have done our work in the context of TensorFlow, and it has been used extensively in research and production. We evaluate it using several real-world applications, and demonstrate its performance and scalability.",
+    "citation_count": 106,
+    "summary": "This paper introduces a programming model for distributed machine learning that efficiently handles dynamic control flow, extending TensorFlow's dataflow graphs to support parallel execution of conditional branches and loops across heterogeneous devices while enabling automatic differentiation and distributed gradient computations. The model's non-strict semantics improve performance and scalability, as demonstrated through real-world applications."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1812.06898.pdf",
+    "title": "Coflow Scheduling in Data Centers: Routing and Bandwidth Allocation",
+    "published_date": "2018-12-17",
+    "abstract": "In distributed computing frameworks like MapReduce, Spark, and Dyrad, a coflow is a set of flows transferring data between two stages of a job. The job cannot start its next stage unless all flows in the coflow finish. To improve the execution performance of such a job, it is crucial to reduce the completion time of a coflow, as it can contribute more than 50 percent of the job completion time. While several coflow schedulers have been proposed, we observe that routing, as a factor greatly impacting the Coflow Completion Time (CCT), has not been well considered. In this article, we focus on the coflow scheduling problem and jointly consider routing and bandwidth allocation. We begin by providing an analytical solution to the problem of optimal bandwidth allocation with pre-determined routes. In the following, we formulate the problem of scheduling a single coflow as a Non-linear Mixed Integer Programming problem and present its relaxed convex optimization problem. We further propose two algorithms, CoRBA and its simplified version: CoRBA-fast that solve the single coflow scheduling problem with a joint consideration of routing and bandwidth allocation. Lastly, to address multiple coflows in online scheduling, we propose an online scheduler named OnCoRBA. By comparing with the start-of-the-art algorithms and schedulers via simulations, we demonstrate that CoRBA and CoRBA-fast reduce the CCT by 30-400 percent and the OnCoRBA scheduler reduces the average online CCT by 20-230 percent. In addition, CoRBA-fast can be hundreds times faster than CoRBA with around 8 percent performance degradation compared to CoRBA, which makes the use of CoRBA-fast very appropriate in practice.",
+    "citation_count": 17,
+    "summary": "This paper addresses coflow scheduling in data centers by jointly optimizing routing and bandwidth allocation to minimize coflow completion time. The authors propose novel algorithms, CoRBA and OnCoRBA, which significantly outperform existing methods in simulation, with CoRBA-fast offering a practical speedup with minimal performance loss."
+  }
+]

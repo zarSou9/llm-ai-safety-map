@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2408.04689",
+    "title": "Design of a Quality Management System based on the EU Artificial Intelligence Act",
+    "published_date": "2024-08-08",
+    "abstract": "The EU AI Act mandates that providers and deployers of high-risk AI systems establish a quality management system (QMS). Among other criteria, a QMS shall help verify and document the AI system design and quality and monitor the proper implementation of all high-risk AI system requirements. Current research rarely explores practical solutions for implementing the EU AI Act. Instead, it tends to focus on theoretical concepts. As a result, more attention must be paid to tools that help humans actively check and document AI systems and orchestrate the implementation of all high-risk AI system requirements. Therefore, this paper introduces a new design concept and prototype for a QMS as a microservice Software as a Service web application. It connects directly to the AI system for verification and documentation and enables the orchestration and integration of various sub-services, which can be individually designed, each tailored to specific high-risk AI system requirements. The first version of the prototype connects to the Phi-3-mini-128k-instruct LLM as an example of an AI system and integrates a risk management system and a data management system. The prototype is evaluated through a qualitative assessment of the implemented requirements, a GPU memory and performance analysis, and an evaluation with IT, AI, and legal experts.",
+    "citation_count": 1,
+    "summary": "This paper proposes a novel microservice-based Quality Management System (QMS) designed to help meet the EU AI Act's requirements for high-risk AI systems, offering a practical, web application prototype that integrates with the AI system for verification, documentation, and orchestration of various sub-services. The prototype, evaluated through qualitative assessment and expert feedback, connects to a large language model as a proof-of-concept."
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.08501",
+    "title": "Governing Through the Cloud: The Intermediary Role of Compute Providers in AI Regulation",
+    "published_date": "2024-03-13",
+    "abstract": "As jurisdictions around the world take their first steps toward regulating the most powerful AI systems, such as the EU AI Act and the US Executive Order 14110, there is a growing need for effective enforcement mechanisms that can verify compliance and respond to violations. We argue that compute providers should have legal obligations and ethical responsibilities associated with AI development and deployment, both to provide secure infrastructure and to serve as intermediaries for AI regulation. Compute providers can play an essential role in a regulatory ecosystem via four key capacities: as securers, safeguarding AI systems and critical infrastructure; as record keepers, enhancing visibility for policymakers; as verifiers of customer activities, ensuring oversight; and as enforcers, taking actions against rule violations. We analyze the technical feasibility of performing these functions in a targeted and privacy-conscious manner and present a range of technical instruments. In particular, we describe how non-confidential information, to which compute providers largely already have access, can provide two key governance-relevant properties of a computational workload: its type-e.g., large-scale training or inference-and the amount of compute it has consumed. Using AI Executive Order 14110 as a case study, we outline how the US is beginning to implement record keeping requirements for compute providers. We also explore how verification and enforcement roles could be added to establish a comprehensive AI compute oversight scheme. We argue that internationalization will be key to effective implementation, and highlight the critical challenge of balancing confidentiality and privacy with risk mitigation as the role of compute providers in AI regulation expands.",
+    "citation_count": 4,
+    "summary": "This paper proposes that cloud compute providers should play a central role in AI regulation by acting as securers, record keepers, verifiers, and enforcers of AI system compliance, leveraging their existing access to non-confidential workload data to enhance oversight while balancing privacy concerns. The authors analyze the technical feasibility and policy implications of this approach, using the US Executive Order 14110 as a case study."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.14462",
+    "title": "AI auditing: The Broken Bus on the Road to AI Accountability",
+    "published_date": "2024-01-25",
+    "abstract": "One of the most concrete measures towards meaningful AI accountability is to consequentially assess and report the systems' performance and impact. However, the practical nature of the \"AI audit\" ecosystem is muddled and imprecise, making it difficult to work through various concepts, practices, and involved (as well as ignored) stakeholders. First, we taxonomize current AI audit practices as completed by regulators, law firms, civil society, journalism, academia, and consulting agencies. Next, we assess the impact of audits done by stakeholders within each domain. We find that only a subset of AI audit studies translate to desired accountability outcomes. We thus assess and isolate practices necessary for effective AI audit results, articulating the observed connections between AI audit design, methodology and institutional context on its effectiveness as a meaningful mechanism for accountability.",
+    "citation_count": 27,
+    "summary": "This paper analyzes the current state of AI auditing across various sectors, finding inconsistencies and limited impact on AI accountability. It proposes a framework for more effective AI audits by examining the relationships between audit design, methodology, and institutional context."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.14366",
+    "title": "Lessons Learned in Performing a Trustworthy AI and Fundamental Rights Assessment",
+    "published_date": "2024-04-22",
+    "abstract": "This report shares the experiences, results and lessons learned in conducting a pilot project ``Responsible use of AI'' in cooperation with the Province of Friesland, Rijks ICT Gilde-part of the Ministry of the Interior and Kingdom Relations (BZK) (both in The Netherlands) and a group of members of the Z-Inspection$^{\\small{\\circledR}}$ Initiative. The pilot project took place from May 2022 through January 2023. During the pilot, the practical application of a deep learning algorithm from the province of Fr\\^yslan was assessed. The AI maps heathland grassland by means of satellite images for monitoring nature reserves. Environmental monitoring is one of the crucial activities carried on by society for several purposes ranging from maintaining standards on drinkable water to quantifying the CO2 emissions of a particular state or region. Using satellite imagery and machine learning to support decisions is becoming an important part of environmental monitoring. The main focus of this report is to share the experiences, results and lessons learned from performing both a Trustworthy AI assessment using the Z-Inspection$^{\\small{\\circledR}}$ process and the EU framework for Trustworthy AI, and combining it with a Fundamental Rights assessment using the Fundamental Rights and Algorithms Impact Assessment (FRAIA) as recommended by the Dutch government for the use of AI algorithms by the Dutch public authorities.",
+    "summary": "This report details a pilot project assessing the trustworthiness and fundamental rights implications of a Dutch provincial government's AI-powered heathland grassland mapping system. The project utilized the Z-Inspection® process, the EU Trustworthy AI framework, and the FRAIA methodology, offering lessons learned from this practical application."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.13138",
+    "title": "Visibility into AI Agents",
+    "published_date": "2024-01-23",
+    "abstract": "Increased delegation of commercial, scientific, governmental, and personal activities to AI agents—systems capable of pursuing complex goals with limited supervision—may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.",
+    "citation_count": 12,
+    "summary": "This paper examines methods to increase transparency (\"visibility\") in the use of AI agents, focusing on agent identifiers, real-time monitoring, and activity logging, while considering their implications for privacy and power concentration across centralized and decentralized deployments. The authors analyze various implementations and their potential to mitigate societal risks associated with increasing AI agent autonomy."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, examines AI model registries—centralized databases tracking AI systems for governance purposes. These registries, drawing parallels to pharmaceutical regulations, vary widely in implementation across countries like the US and China, mandating varying levels of model information and pre-release safety assessments."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising but under-developed AI safety strategy. While current measures are limited, proposed methods aim to increase visibility into AI development, allocate compute resources strategically, and enforce regulations, though many require further research."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for third-party testing of large-scale AI systems to mitigate societal harm from misuse or accidental consequences. They argue this regime, focusing on computationally intensive models, is crucial for building trust, avoiding overly burdensome regulation, and facilitating international cooperation."
+  }
+]

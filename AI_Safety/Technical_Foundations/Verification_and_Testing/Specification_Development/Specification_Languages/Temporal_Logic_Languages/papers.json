@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.07845",
+    "title": "Autonomous Vehicles Path Planning under Temporal Logic Specifications",
+    "published_date": "2024-10-10",
+    "abstract": "Path planning is an essential component of autonomous driving. A global planner is responsible for the high-level planning. It basically performs a shortest-path search on a known map, thereby defining waypoints used to control the local (low-level) planner. Local planning is a runtime verification method which is repeatedly run on the vehicle itself in real-time, so as to find the optimal short-horizon path which leads to the desired waypoint in a way which is both efficient and safe. The challenge is that the local planner has to take into account repeatedly incoming updates about the information available of the environment. In addition, it performs a complex task, as it has to take into account a large variety of requirements, originating from the necessity of collision avoidance with obstacles, respecting traffic rules, sticking to regulatory requirements, and lastly to reach the next waypoint efficiently. In this paper, we describe a logic-based specification mechanism which fulfills all these requirements."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.09661",
+    "title": "Temporal Planning via Interval Logic Satisfiability for Autonomous Systems",
+    "published_date": "2024-06-14",
+    "abstract": "Many automated planning methods and formulations rely on suitably designed abstractions or simplifications of the constrained dynamics associated with agents to attain computational scalability. We consider formulations of temporal planning where intervals are associated with both action and fluent atoms, and relations between these are given as sentences in Allen's Interval Logic. We propose a notion of planning graphs that can account for complex concurrency relations between actions and fluents as a Constraint Programming (CP) model. We test an implementation of our algorithm on a state-of-the-art framework for CP and compare it with PDDL 2.1 planners that capture plans requiring complex concurrent interactions between agents. We demonstrate our algorithm outperforms existing PDDL 2.1 planners in the case studies. Still, scalability remains challenging when plans must comply with intricate concurrent interactions and the sequencing of actions."
+  },
+  {
+    "title": "Technical Report Column",
+    "abstract": "Welcome to the Technical Reports Column. If your institution publishes technical reports that you'd like to have included here, please contact me at the email address above.",
+    "published_date": "2024-03-26",
+    "url": "https://dl.acm.org/doi/10.1145/3300150.3300156"
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.12136",
+    "title": "Sample-Efficient Reinforcement Learning with Temporal Logic Objectives: Leveraging the Task Specification to Guide Exploration",
+    "published_date": "2024-10-16",
+    "abstract": "This paper addresses the problem of learning optimal control policies for systems with uncertain dynamics and high-level control objectives specified as Linear Temporal Logic (LTL) formulas. Uncertainty is considered in the workspace structure and the outcomes of control decisions giving rise to an unknown Markov Decision Process (MDP). Existing reinforcement learning (RL) algorithms for LTL tasks typically rely on exploring a product MDP state-space uniformly (using e.g., an $\\epsilon$-greedy policy) compromising sample-efficiency. This issue becomes more pronounced as the rewards get sparser and the MDP size or the task complexity increase. In this paper, we propose an accelerated RL algorithm that can learn control policies significantly faster than competitive approaches. Its sample-efficiency relies on a novel task-driven exploration strategy that biases exploration towards directions that may contribute to task satisfaction. We provide theoretical analysis and extensive comparative experiments demonstrating the sample-efficiency of the proposed method. The benefit of our method becomes more evident as the task complexity or the MDP size increases."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.06808.pdf",
+    "title": "Multi-Agent Reinforcement Learning Guided by Signal Temporal Logic Specifications",
+    "published_date": "2023-06-11",
+    "abstract": "Reward design is a key component of deep reinforcement learning, yet some tasks and designer's objectives may be unnatural to define as a scalar cost function. Among the various techniques, formal methods integrated with DRL have garnered considerable attention due to their expressiveness and flexibility to define the reward and requirements for different states and actions of the agent. However, how to leverage Signal Temporal Logic (STL) to guide multi-agent reinforcement learning reward design remains unexplored. Complex interactions, heterogeneous goals and critical safety requirements in multi-agent systems make this problem even more challenging. In this paper, we propose a novel STL-guided multi-agent reinforcement learning framework. The STL requirements are designed to include both task specifications according to the objective of each agent and safety specifications, and the robustness values of the STL specifications are leveraged to generate rewards. We validate the advantages of our method through empirical studies. The experimental results demonstrate significant reward performance improvements compared to MARL without STL guidance, along with a remarkable increase in the overall safety rate of the multi-agent systems.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.00576.pdf",
+    "title": "Joint Learning of Policy with Unknown Temporal Constraints for Safe Reinforcement Learning",
+    "published_date": "2023-04-30",
+    "abstract": "In many real-world applications, safety constraints for reinforcement learning (RL) algorithms are either unknown or not explicitly defined. We propose a framework that concurrently learns safety constraints and optimal RL policies in such environments, supported by theoretical guarantees. Our approach merges a logically-constrained RL algorithm with an evolutionary algorithm to synthesize signal temporal logic (STL) specifications. The framework is underpinned by theorems that establish the convergence of our joint learning process and provide error bounds between the discovered policy and the true optimal policy. We showcased our framework in grid-world environments, successfully identifying both acceptable safety constraints and RL policies while demonstrating the effectiveness of our theorems in practice.",
+    "citation_count": 1
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2305.11921.pdf",
+    "title": "An Approach to Multiple Comparison Benchmark Evaluations that is Stable Under Manipulation of the Comparate Set",
+    "published_date": "2023-05-19",
+    "abstract": "The measurement of progress using benchmarks evaluations is ubiquitous in computer science and machine learning. However, common approaches to analyzing and presenting the results of benchmark comparisons of multiple algorithms over multiple datasets, such as the critical difference diagram introduced by Dem\\v{s}ar (2006), have important shortcomings and, we show, are open to both inadvertent and intentional manipulation. To address these issues, we propose a new approach to presenting the results of benchmark comparisons, the Multiple Comparison Matrix (MCM), that prioritizes pairwise comparisons and precludes the means of manipulating experimental results in existing approaches. MCM can be used to show the results of an all-pairs comparison, or to show the results of a comparison between one or more selected algorithms and the state of the art. MCM is implemented in Python and is publicly available.",
+    "citation_count": 15
+  },
+  {
+    "title": "Testing the Consistency of Performance Scores Reported for Binary Classification Problems",
+    "abstract": "Binary classification is a fundamental task in machine learning, with applications spanning various scientific domains. Whether scientists are conducting fundamental research or refining practical applications, they typically assess and rank classification techniques based on performance metrics such as accuracy, sensitivity, and specificity. However, reported performance scores may not always serve as a reliable basis for research ranking. This can be attributed to undisclosed or unconventional practices related to cross-validation, typographical errors, and other factors. In a given experimental setup, with a specific number of positive and negative test items, most performance scores can assume specific, interrelated values. In this paper, we introduce numerical techniques to assess the consistency of reported performance scores and the assumed experimental setup. Importantly, the proposed approach does not rely on statistical inference but uses numerical methods to identify inconsistencies with certainty. Through three different applications related to medicine, we demonstrate how the proposed techniques can effectively detect inconsistencies, thereby safeguarding the integrity of research fields. To benefit the scientific community, we have made the consistency tests available in an open-source Python package.",
+    "published_date": "2023-10-19",
+    "citation_count": 1,
+    "url": "https://www.researchgate.net/publication/374845553_Testing_the_Consistency_of_Performance_Scores_Reported_for_Binary_Classification_Problems"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/EKPSgN8LsiEJzX5ni/a-well-defined-history-in-measurable-factor-spaces",
+    "author": "Matthias G. Mayer",
+    "title": "A well-defined history in measurable factor spaces",
+    "published_date": "2023-10-05"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.09044v1.pdf",
+    "title": "Good Classification Measures and How to Find Them",
+    "published_date": "2022-01-22",
+    "abstract": "Several performance measures can be used for evaluating classification results: accuracy, F-measure, and many others. Can we say that some of them are better than others, or, ideally, choose one measure that is best in all situations? To answer this question, we conduct a systematic analysis of classification performance measures: we formally define a list of desirable properties and theoretically analyze which measures satisfy which properties. We also prove an impossibility theorem: some desirable properties cannot be simultaneously satisfied. Finally, we propose a new family of measures satisfying all desirable properties except one. This family includes the Matthews Correlation Coefficient and a so-called Symmetric Balanced Accuracy that was not previously used in classification literature. We believe that our systematic approach gives an important tool to practitioners for adequately evaluating classification results.",
+    "citation_count": 23
+  },
+  {
+    "url": "https://arxiv.org/abs/2209.01857",
+    "title": "Statistical Comparisons of Classifiers by Generalized Stochastic Dominance",
+    "published_date": "2022-09-05",
+    "abstract": "Although being a crucial question for the development of machine learning algorithms, there is still no consensus on how to compare classifiers over multiple data sets with respect to several criteria. Every comparison framework is confronted with (at least) three fundamental challenges: the multiplicity of quality criteria, the multiplicity of data sets and the randomness of the selection of data sets. In this paper, we add a fresh view to the vivid debate by adopting recent developments in decision theory. Based on so-called preference systems, our framework ranks classifiers by a generalized concept of stochastic dominance, which powerfully circumvents the cumbersome, and often even self-contradictory, reliance on aggregates. Moreover, we show that generalized stochastic dominance can be operationalized by solving easy-to-handle linear programs and moreover statistically tested employing an adapted two-sample observation-randomization test. This yields indeed a powerful framework for the statistical comparison of classifiers over multiple data sets with respect to multiple quality criteria simultaneously. We illustrate and investigate our framework in a simulation study and with a set of standard benchmark data sets.",
+    "citation_count": 13
+  },
+  {
+    "url": "https://arxiv.org/pdf/2204.07131.pdf",
+    "title": "Systematic Analysis of Experiment Precision Measures and Methods for Experiments Comparison",
+    "published_date": "2022-04-14",
+    "abstract": "The notion of experiment precision quantifies the variance of user ratings in a subjective experiment. Although there exist measures that assess subjective experiment precision, there are no systematic analyses of these measures available in the literature. To the best of our knowledge, there is also no systematic framework in the Multimedia Quality Assessment field for comparing subjective experiments in terms of their precision. Therefore, the main idea of this paper is to propose a framework for comparing subjective experiments in the field of MQA based on appropriate experiment precision measures. We present three experiment precision measures and three related experiment precision comparison methods. We systematically analyse the performance of the measures and methods proposed. We do so both through a simulation study (varying user rating variance and bias) and by using data from four real-world Quality of Experience (QoE) subjective experiments. In the simulation study we focus on crowdsourcing QoE experiments, since they are known to generate ratings with higher variance and bias, when compared to traditional subjective experiment methodologies. We conclude that our proposed measures and related comparison methods properly capture experiment precision (both when tested on simulated and real-world data). One of the measures also proves capable of dealing with even significantly biased responses. We believe our experiment precision assessment framework will help compare different subjective experiment methodologies. For example, it may help decide which methodology results in more precise user ratings. This may potentially inform future standardisation activities.",
+    "citation_count": 1
+  }
+]

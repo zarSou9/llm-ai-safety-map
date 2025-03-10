@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.16529",
+    "title": "Distributed Online Life-Long Learning (DOL3) for Multi-agent Trust and Reputation Assessment in E-commerce",
+    "published_date": "2024-10-21",
+    "abstract": "Trust and Reputation Assessment of service providers in citizen-focused environments like e-commerce is vital to maintain the integrity of the interactions among agents. The goals and objectives of both the service provider and service consumer agents are relevant to the goals of the respective citizens (end users). The provider agents often pursue selfish goals that can make the service quality highly volatile, contributing towards the non-stationary nature of the environment. The number of active service providers tends to change over time resulting in an open environment. This necessitates a rapid and continual assessment of the Trust and Reputation. A large number of service providers in the environment require a distributed multi-agent Trust and Reputation assessment. This paper addresses the problem of multi-agent Trust and Reputation Assessment in a non-stationary environment involving transactions between providers and consumers. In this setting, the observer agents carry out the assessment and communicate their assessed trust scores with each other over a network. We propose a novel Distributed Online Life-Long Learning (DOL3) algorithm that involves real-time rapid learning of trust and reputation scores of providers. Each observer carries out an adaptive learning and weighted fusion process combining their own assessment along with that of their neighbour in the communication network. Simulation studies reveal that the state-of-the-art methods, which usually involve training a model to assess an agent's trust and reputation, do not work well in such an environment. The simulation results show that the proposed DOL3 algorithm outperforms these methods and effectively handles the volatility in such environments. From the statistical evaluation, it is evident that DOL3 performs better compared to other models in 90% of the cases.",
+    "summary": "This paper introduces DOL3, a distributed online life-long learning algorithm for multi-agent trust and reputation assessment in dynamic e-commerce environments, outperforming existing methods by adapting to volatile conditions and integrating individual assessments via weighted fusion."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.09127v2",
+    "title": "Robust Pseudo-Markets for Reusable Public Resources",
+    "published_date": "2023-02-17",
+    "abstract": "We study non-monetary mechanisms for the fair and efficient allocation of reusable public resources. We consider settings where a limited resource is repeatedly shared among a set of agents, each of whom may request to use the resource over multiple consecutive rounds, receiving some utility only if they get to use the resource for the full duration of their request. Such settings are of particular significance in scientific research where large-scale instruments such as electron microscopes, particle colliders, or telescopes are shared between multiple research groups; this model also subsumes and extends existing models of repeated non-monetary allocation where the resource is demanded only for a single round.",
+    "citation_count": 3,
+    "summary": "This paper proposes non-monetary mechanisms for fairly and efficiently allocating reusable public resources, focusing on scenarios where agents require continuous access for a specified duration, extending existing models of single-round resource allocation. The mechanisms are particularly relevant for managing shared scientific instruments."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2307.05054.pdf",
+    "title": "Resilient Information Aggregation",
+    "published_date": "2023-07-09",
+    "abstract": "In an information aggregation game, a set of senders interact with a receiver through a mediator. Each sender observes the state of the world and communicates a message to the mediator, who recommends an action to the receiver based on the messages received. The payoff of the senders and of the receiver depend on both the state of the world and the action selected by the receiver. This setting extends the celebrated cheap talk model in two aspects: there are many senders (as opposed to just one) and there is a mediator. From a practical perspective, this setting captures platforms in which strategic experts advice is aggregated in service of action recommendations to the user. We aim at finding an optimal mediator/platform that maximizes the users' welfare given highly resilient incentive compatibility requirements on the equilibrium selected: we want the platform to be incentive compatible for the receiver/user when selecting the recommended action, and we want it to be resilient against group deviations by the senders/experts. We provide highly positive answers to this challenge, manifested through efficient algorithms.",
+    "citation_count": 1,
+    "summary": "This paper studies information aggregation games with multiple senders and a mediator, aiming to design a resilient and efficient platform that maximizes user welfare by recommending optimal actions while ensuring incentive compatibility for both the receiver and senders, even against group deviations. Efficient algorithms are developed to achieve this."
+  },
+  {
+    "url": "https://arxiv.org/abs/2102.07523",
+    "title": "Cooperation and Reputation Dynamics with Reinforcement Learning",
+    "published_date": "2021-02-15",
+    "abstract": "Creating incentives for cooperation is a challenge in natural and artificial systems. One potential answer is reputation, whereby agents trade the immediate cost of cooperation for the future benefits of having a good reputation. Game theoretical models have shown that specific social norms can make cooperation stable, but how agents can independently learn to establish effective reputation mechanisms on their own is less understood. We use a simple model of reinforcement learning to show that reputation mechanisms generate two coordination problems: agents need to learn how to coordinate on the meaning of existing reputations and collectively agree on a social norm to assign reputations to others based on their behavior. These coordination problems exhibit multiple equilibria, some of which effectively establish cooperation. When we train agents with a standard Q-learning algorithm in an environment with the presence of reputation mechanisms, convergence to undesirable equilibria is widespread. We propose two mechanisms to alleviate this: (i) seeding a proportion of the system with fixed agents that steer others towards good equilibria; and (ii), intrinsic rewards based on the idea of introspection, i.e., augmenting agents' rewards by an amount proportionate to the performance of their own strategy against themselves. A combination of these simple mechanisms is successful in stabilizing cooperation, even in a fully decentralized version of the problem where agents learn to use and assign reputations simultaneously. We show how our results relate to the literature in Evolutionary Game Theory, and discuss implications for artificial, human and hybrid systems, where reputations can be used as a way to establish trust and cooperation.",
+    "citation_count": 22,
+    "summary": "This paper uses reinforcement learning to demonstrate that establishing cooperative reputation mechanisms faces coordination challenges, solved by either seeding the system with cooperative agents or incorporating self-referential rewards to incentivize beneficial equilibria."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/LBwpubeZSi3ottfjs/aisc5-retrospective-mechanisms-for-avoiding-tragedy-of-the",
+    "author": "Ariel Kwiatkowski, Quinn, bengr",
+    "title": "AISC5 Retrospective: Mechanisms for Avoiding Tragedy of the Commons in Common Pool Resource Problems",
+    "published_date": "2021-09-27",
+    "summary": "This paper investigates mitigating the tragedy of the commons using a reputation system in a multi-agent simulation. The system incentivizes cooperation and sustainable resource use without altering agent reward functions, aiming to improve outcomes compared to violent competition for finite resources."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization",
+    "published_date": "2021-06-04",
+    "summary": "The article examines the application of game theory to AI development within organizational structures, highlighting both its potential and limitations. It argues that while game theory offers valuable insights into multi-agent interactions, a comprehensive understanding requires incorporating organizational principles like bureaucracy and specialization to effectively manage human-AI collaboration in complex problem-solving."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "The publication summarizes AI safety-relevant content. Rohin Shah advocates for summarizing articles after careful reading."
+  },
+  {
+    "title": "A Robust Reputation-Based Group Ranking System and Its Resistance to Bribery",
+    "abstract": "The spread of online reviews and opinions and its growing influence on people's behavior and decisions boosted the interest to extract meaningful information from this data deluge. Hence, crowdsourced ratings of products and services gained a critical role in business and governments. Current state-of-the-art solutions rank the items with an average of the ratings expressed for an item, with a consequent lack of personalization for the users, and the exposure to attacks and spamming/spurious users. Using these ratings to group users with similar preferences might be useful to present users with items that reflect their preferences and overcome those vulnerabilities. In this article, we propose a new reputation-based ranking system, utilizing multipartite rating subnetworks, which clusters users by their similarities using three measures, two of them based on Kolmogorov complexity. We also study its resistance to bribery and how to design optimal bribing strategies. Our system is novel in that it reflects the diversity of preferences by (possibly) assigning distinct rankings to the same item, for different groups of users. We prove the convergence and efficiency of the system. By testing it on synthetic and real data, we see that it copes better with spamming/spurious users, being more robust to attacks than state-of-the-art approaches. Also, by clustering users, the effect of bribery in the proposed multipartite ranking system is dimmed, comparing to the bipartite case.",
+    "published_date": "2020-04-13",
+    "citation_count": 8,
+    "url": "https://dl.acm.org/doi/10.1145/3462210",
+    "summary": "This paper introduces a novel reputation-based group ranking system that clusters users with similar preferences using Kolmogorov complexity-based measures, improving robustness against spamming and bribery attacks compared to existing average-rating systems. The system achieves this by generating personalized rankings for different user groups, mitigating the impact of manipulation."
+  }
+]

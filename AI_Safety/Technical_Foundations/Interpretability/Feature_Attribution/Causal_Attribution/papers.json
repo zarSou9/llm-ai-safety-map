@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2103.11972v1",
+    "title": "Explaining Black-Box Algorithms Using Probabilistic Contrastive Counterfactuals",
+    "published_date": "2021-03-22",
+    "abstract": "There has been a recent resurgence of interest in explainable artificial intelligence (XAI) that aims to reduce the opaqueness of AI-based decision-making systems, allowing humans to scrutinize and trust them. Prior work in this context has focused on the attribution of responsibility for an algorithm's decisions to its inputs wherein responsibility is typically approached as a purely associational concept. In this paper, we propose a principled causality-based approach for explaining black-box decision-making systems that addresses limitations of existing methods in XAI. At the core of our framework lies probabilistic contrastive counterfactuals, a concept that can be traced back to philosophical, cognitive, and social foundations of theories on how humans generate and select explanations. We show how such counterfactuals can quantify the direct and indirect influences of a variable on decisions made by an algorithm, and provide actionable recourse for individuals negatively affected by the algorithm's decision. Unlike prior work, our system, LEWIS: (1)~can compute provably effective explanations and recourse at local, global and contextual levels; (2)~is designed to work with users with varying levels of background knowledge of the underlying causal model; and (3)~makes no assumptions about the internals of an algorithmic system except for the availability of its input-output data. We empirically evaluate LEWIS on four real-world datasets and show that it generates human-understandable explanations that improve upon state-of-the-art approaches in XAI, including the popular LIME and SHAP. Experiments on synthetic data further demonstrate the correctness of LEWIS's explanations and the scalability of its recourse algorithm.",
+    "citation_count": 96,
+    "summary": "This paper introduces LEWIS, a novel explainable AI (XAI) framework using probabilistic contrastive counterfactuals to explain black-box algorithms' decisions, offering provably effective local, global, and contextual explanations and recourse while requiring only input-output data. LEWIS outperforms existing methods like LIME and SHAP in generating human-understandable explanations."
+  },
+  {
+    "title": "Explaining Black-Box Algorithms Using Probabilistic Contrastive Counterfactuals",
+    "abstract": "There has been a recent resurgence of interest in explainable artificial intelligence (XAI) that aims to reduce the opaqueness of AI-based decision-making systems, allowing humans to scrutinize and trust them. Prior work in this context has focused on the attribution of responsibility for an algorithm's decisions to its inputs wherein responsibility is typically approached as a purely associational concept. In this paper, we propose a principled causality-based approach for explaining black-box decision-making systems that addresses limitations of existing methods in XAI. At the core of our framework lies probabilistic contrastive counterfactuals, a concept that can be traced back to philosophical, cognitive, and social foundations of theories on how humans generate and select explanations. We show how such counterfactuals can quantify the direct and indirect influences of a variable on decisions made by an algorithm, and provide actionable recourse for individuals negatively affected by the algorithm's decision. Unlike prior work, our system, LEWIS: (1)~can compute provably effective explanations and recourse at local, global and contextual levels; (2)~is designed to work with users with varying levels of background knowledge of the underlying causal model; and (3)~makes no assumptions about the internals of an algorithmic system except for the availability of its input-output data. We empirically evaluate LEWIS on four real-world datasets and show that it generates human-understandable explanations that improve upon state-of-the-art approaches in XAI, including the popular LIME and SHAP. Experiments on synthetic data further demonstrate the correctness of LEWIS's explanations and the scalability of its recourse algorithm.",
+    "published_date": "2021-03-22",
+    "citation_count": 96,
+    "url": "https://dl.acm.org/doi/10.1145/3448016.3458455",
+    "summary": "This paper introduces LEWIS, a novel explainable AI (XAI) framework using probabilistic contrastive counterfactuals to provide actionable explanations and recourse for black-box algorithms. LEWIS surpasses existing methods by offering provably effective explanations at various levels, accommodating diverse user knowledge, and requiring only input-output data."
+  },
+  {
+    "url": "https://arxiv.org/abs/1902.02302",
+    "title": "Neural Network Attributions: A Causal Perspective",
+    "published_date": "2019-02-06",
+    "abstract": "We propose a new attribution method for neural networks developed using first principles of causality (to the best of our knowledge, the first such). The neural network architecture is viewed as a Structural Causal Model, and a methodology to compute the causal effect of each feature on the output is presented. With reasonable assumptions on the causal structure of the input data, we propose algorithms to efficiently compute the causal effects, as well as scale the approach to data with large dimensionality. We also show how this method can be used for recurrent neural networks. We report experimental results on both simulated and real datasets showcasing the promise and usefulness of the proposed algorithm.",
+    "citation_count": 137,
+    "summary": "This paper introduces a novel neural network attribution method grounded in causal inference, treating the network as a structural causal model to compute the causal effect of each input feature on the output. The proposed algorithms efficiently calculate these effects, even for high-dimensional data and recurrent networks, as demonstrated through experiments."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.08875",
+    "title": "DCRMTA: Unbiased Causal Representation for Multi-touch Attribution",
+    "published_date": "2024-01-16",
+    "abstract": "Multi-touch attribution (MTA) currently plays a pivotal role in achieving a fair estimation of the contributions of each advertising touchpoint to-wards conversion behavior, deeply influencing budget allocation and advertising recommenda-tion. Previous works attempted to eliminate the bias caused by user preferences to achieve the unbiased assumption of the conversion model. The multi-model collaboration method is not ef-ficient, and the complete elimination of user in-fluence also eliminates the causal effect of user features on conversion, resulting in limited per-formance of the conversion model. This paper re-defines the causal effect of user features on con-versions and proposes a novel end-to-end ap-proach, Deep Causal Representation for MTA (DCRMTA). Our model focuses on extracting causa features between conversions and users while eliminating confounding variables. Fur-thermore, extensive experiments demonstrate DCRMTA's superior performance in converting prediction across varying data distributions, while also effectively attributing value across dif-ferent advertising channels.",
+    "summary": "DCRMTA is a novel end-to-end multi-touch attribution model that extracts causal features between user characteristics and conversions, mitigating bias from confounding variables to improve conversion prediction and channel attribution accuracy. Unlike previous methods, it avoids eliminating all user influence, preserving crucial causal effects for better performance."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/93nKtsDL6YY5fRbQv/case-studies-in-reverse-engineering-sparse-autoencoder",
+    "author": "Jacob Dunefsky, Philippe Chlenski, Senthooran Rajamanoharan, Neel Nanda",
+    "title": "Case Studies in Reverse-Engineering Sparse Autoencoder Features by Using MLP Linearization",
+    "published_date": "2024-01-14",
+    "summary": "This research introduces a method for understanding how sparse autoencoder (SAE) features in transformer models are computed, using local linear approximations of MLP sublayers. This approach allows for both input-dependent and input-independent analyses of feature computation, offering insights into model mechanisms and validating findings against causal methods."
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.13850",
+    "title": "Towards Learning and Explaining Indirect Causal Effects in Neural Networks",
+    "published_date": "2023-03-24",
+    "abstract": "Recently, there has been a growing interest in learning and explaining causal effects within Neural Network (NN) models. By virtue of NN architectures, previous approaches consider only direct and total causal effects assuming independence among input variables. We view an NN as a structural causal model (SCM) and extend our focus to include indirect causal effects by introducing feedforward connections among input neurons. We propose an ante-hoc method that captures and maintains direct, indirect, and total causal effects during NN model training. We also propose an algorithm for quantifying learned causal effects in an NN model and efficient approximation strategies for quantifying causal effects in high-dimensional data. Extensive experiments conducted on synthetic and real-world datasets demonstrate that the causal effects learned by our ante-hoc method better approximate the ground truth effects compared to existing methods.",
+    "summary": "This paper presents an ante-hoc method for learning and explaining direct, indirect, and total causal effects within neural networks by modeling them as structural causal models with feedforward connections among input neurons, improving accuracy compared to existing methods that only consider direct and total effects. The method includes an algorithm for quantifying learned causal effects and efficient approximations for high-dimensional data."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/iaJFJ5Qm29ixtrWsn/sparse-coding-for-mechanistic-interpretability-and",
+    "author": "David Udell",
+    "title": "Sparse Coding, for Mechanistic Interpretability and Activation Engineering",
+    "published_date": "2023-09-23",
+    "summary": "To interpret the internal representations of large language models, the author trains a sparse autoencoder on a model layer's activations. The resulting autoencoder's neurons then provide interpretable representations of the model's internal concepts."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/gtLLBhzQTG6nKTeCZ/attribution-patching-activation-patching-at-industrial-scale",
+    "author": "Neel Nanda",
+    "title": "Attribution Patching: Activation Patching At Industrial Scale",
+    "published_date": "2023-03-16",
+    "summary": "Attribution patching, a faster alternative to activation patching, uses gradients to approximate the impact of patching individual activations on model outputs. While less accurate for large activations, it significantly improves scalability for analyzing large models by performing all patches simultaneously using only two forward and one backward pass."
+  }
+]

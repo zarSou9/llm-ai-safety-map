@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/WJ7y8S9WdKRvrzJmR/building-ai-research-fleets",
+    "author": "Ben Goldhaber, Jesse Hoogland",
+    "title": "Building AI Research Fleets",
+    "published_date": "2025-01-12",
+    "summary": "Research automation will transform scientific research from individual AI \"scientists\" to large-scale \"AI research fleets\" of specialized AI agents working collaboratively. This shift necessitates institutional changes mirroring the transformations seen in industries like manufacturing and finance, requiring new management structures, workflows, and specialized roles to effectively leverage AI's capabilities."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.14298",
+    "title": "Decoding the Meaning of Success on Digital Labor Platforms: Worker-Centered Perspectives",
+    "published_date": "2024-11-21",
+    "abstract": "What does work and career success mean for those who secure their work using digital labor platforms? Traditional research on success predominantly relies on organizationally-centric benchmarks, such as promotions and income. These measures provide limited insights into the evolving nature of work and careers shaped at the intersection of digital labor platform technologies and workers' evolving perspectives. Drawing on data from a longitudinal study of 108 digital labor platform workers on Upwork, we (1) identify seven dimensions of success indicators that reflect workers' definitions of success in platform-mediated work and careers, (2) delineate three dimensions of digital labor platforms mediating workers' experiences of success and (3) examine the shifting perspectives of these workers relative to success. Based on these findings, we discuss the implications of platform-mediated success in workers' labor experiences, marked by platformic management, standardization, precarity and ongoing evolution. Our discussion intertwines CSCW scholarship with career studies, advancing a more nuanced understanding of the evolving perspectives on success in platform-mediated work and careers.",
+    "summary": "This study examines how digital labor platform workers define success, identifying seven dimensions beyond traditional organizational metrics like income and promotions, and analyzing how platform features mediate workers' experiences and evolving perspectives on success. The findings highlight the implications of platform-mediated work, including precarity and constant evolution, for workers' understanding of career success."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.10768",
+    "title": "Rideshare Transparency: Translating Gig Worker Insights on AI Platform Design to Policy",
+    "published_date": "2024-06-16",
+    "abstract": "Rideshare platforms exert significant control over workers through algorithmic systems that can result in financial, emotional, and physical harm. What steps can platforms, designers, and practitioners take to mitigate these negative impacts and meet worker needs? In this paper, through a novel mixed methods study combining a LLM-based analysis of over 1 million comments posted to online platform worker communities with semi-structured interviews of workers, we thickly characterize transparency-related harms, mitigation strategies, and worker needs while validating and contextualizing our findings within the broader worker community. Our findings expose a transparency gap between existing platform designs and the information drivers need, particularly concerning promotions, fares, routes, and task allocation. Our analysis suggests that rideshare workers need key pieces of information, which we refer to as indicators, to make informed work decisions. These indicators include details about rides, driver statistics, algorithmic implementation details, and platform policy information. We argue that instead of relying on platforms to include such information in their designs, new regulations that require platforms to publish public transparency reports may be a more effective solution to improve worker well-being. We offer recommendations for implementing such a policy.",
+    "citation_count": 1,
+    "summary": "A mixed-methods study of over one million online comments and worker interviews reveals a significant transparency gap in rideshare platforms, highlighting the need for publicly available information on fares, routes, and algorithms to improve worker well-being; the authors propose mandatory platform transparency reports as a policy solution."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.19545",
+    "title": "Convergence-aware Clustered Federated Graph Learning Framework for Collaborative Inter-company Labor Market Forecasting",
+    "published_date": "2024-09-29",
+    "abstract": "Labor market forecasting on talent demand and supply is essential for business management and economic development. With accurate and timely forecasts, employers can adapt their recruitment strategies to align with the evolving labor market, and employees can have proactive career path planning according to future demand and supply. However, previous studies ignore the interconnection between demand-supply sequences among different companies and positions for predicting variations. Moreover, companies are reluctant to share their private human resource data for global labor market analysis due to concerns over jeopardizing competitive advantage, security threats, and potential ethical or legal violations. To this end, in this paper, we formulate the Federated Labor Market Forecasting (FedLMF) problem and propose a Meta-personalized Convergence-aware Clustered Federated Learning (MPCAC-FL) framework to provide accurate and timely collaborative talent demand and supply prediction in a privacy-preserving way. First, we design a graph-based sequential model to capture the inherent correlation between demand and supply sequences and company-position pairs. Second, we adopt meta-learning techniques to learn effective initial model parameters that can be shared across companies, allowing personalized models to be optimized for forecasting company-specific demand and supply, even when companies have heterogeneous data. Third, we devise a Convergence-aware Clustering algorithm to dynamically divide companies into groups according to model similarity and apply federated aggregation in each group. The heterogeneity can be alleviated for more stable convergence and better performance. Extensive experiments demonstrate that MPCAC-FL outperforms compared baselines on three real-world datasets and achieves over 97% of the state-of-the-art model, i.e., DH-GEM, without exposing private company data.",
+    "summary": "This paper proposes MPCAC-FL, a federated learning framework for collaborative labor market forecasting that leverages graph-based sequential modeling and meta-learning to improve prediction accuracy while preserving company data privacy through clustered federated aggregation. The framework addresses data heterogeneity and achieves high accuracy comparable to centralized methods."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.10929",
+    "title": "Decreasing Wages in Gig Economy: A Game Theoretic Explanation Using Mathematical Program Networks",
+    "published_date": "2024-04-16",
+    "abstract": "Gig economy consists of two market groups connected via an intermediary. Popular examples are rideshares where passengers and drivers are mediated via platforms such as Uber and Lyft. In a duopoly market, the platforms must compete to attract not only the passengers by providing a lower rate but also the drivers by providing better wages. While this should indicate better driver payout, as platforms compete to attract the driver pool, real world statistics does not indicate such. This goes completely against the intuition that the worker side of a gig economy, given their importance, should always earn better. We attempt to answer the low wages of drivers in the gig economy by modeling the ridesharing game between duopoly platforms, drivers, and passengers using Mathematical Program Networks. Our model is parsimonious, expressive, models the same-side and cross-side externalities of the economy, and has interpretations under both single-homing and multi-homing regimes. We derive the conditions for the existence of a profitable duopoly and show that it can only happen if the platforms collude together to pay the bare minimum to the drivers. This not only answers why drivers are paid less but also provides strong managerial insights to any interested policy maker.",
+    "citation_count": 1,
+    "summary": "A game-theoretic model using mathematical program networks reveals that the low wages in the gig economy, despite platform competition, result from duopolistic collusion to minimize driver payments, rather than a competitive outcome. This model explains the observed discrepancy between expected wage increases and reality."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ixRxtuDt3JdeLcgtp/predictions-of-near-term-societal-changes-due-to-artificial",
+    "author": "Annapurna",
+    "title": "Predictions of Near-Term Societal Changes Due to Artificial Intelligence",
+    "published_date": "2024-12-29",
+    "summary": "The author predicts near-term societal changes due to AI, focusing on increased white-collar worker productivity leading to potential job losses within the next two years, despite a simultaneous workforce shortage. They also highlight AI's transformative impact on education and learning."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8gCsRPxvXyAZJLcwd/gdp-per-capita-in-2050",
+    "author": "Hauke Hillebrandt",
+    "title": "GDP per capita in 2050",
+    "published_date": "2024-05-06",
+    "summary": "The article presents GDP per capita forecasts for major economies until 2050, projecting substantial increases in living standards even without transformative AI growth, with many countries reaching levels currently enjoyed by wealthier nations today."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/XroTfXFSq3yeJgu73/we-are-in-a-new-paradigm-of-ai-progress-openai-s-o3-model",
+    "author": "garrison",
+    "title": "We are in a New Paradigm of AI Progress - OpenAI's o3 model makes huge gains on the toughest AI benchmarks in the world",
+    "published_date": "2024-12-22",
+    "summary": "OpenAI's new model, o3, significantly surpasses previous AI capabilities by achieving high scores on complex mathematical, scientific, and programming benchmarks, exceeding even human expert performance in some areas, though at a currently high computational cost. This unexpected breakthrough suggests a rapid acceleration in AI development, potentially surpassing expectations and leading to significant future advancements."
+  }
+]

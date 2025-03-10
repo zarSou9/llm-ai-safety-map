@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2406.17864",
+    "title": "AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies",
+    "published_date": "2024-06-25",
+    "abstract": "We present a comprehensive AI risk taxonomy derived from eight government policies from the European Union, United States, and China and 16 company policies worldwide, making a significant step towards establishing a unified language for generative AI safety evaluation. We identify 314 unique risk categories organized into a four-tiered taxonomy. At the highest level, this taxonomy encompasses System&Operational Risks, Content Safety Risks, Societal Risks, and Legal&Rights Risks. The taxonomy establishes connections between various descriptions and approaches to risk, highlighting the overlaps and discrepancies between public and private sector conceptions of risk. By providing this unified framework, we aim to advance AI safety through information sharing across sectors and the promotion of best practices in risk mitigation for generative AI models and systems.",
+    "citation_count": 9,
+    "summary": "This paper develops a four-tiered AI risk taxonomy encompassing system, content, societal, and legal/rights risks, unifying 314 risk categories derived from governmental and corporate policies to improve AI safety evaluation and information sharing. The taxonomy reveals overlaps and discrepancies in public and private sector risk perceptions."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.12935",
+    "title": "Trustworthy, Responsible, and Safe AI: A Comprehensive Architectural Framework for AI Safety with Challenges and Mitigations",
+    "published_date": "2024-08-23",
+    "abstract": "AI Safety is an emerging area of critical importance to the safe adoption and deployment of AI systems. With the rapid proliferation of AI and especially with the recent advancement of Generative AI (or GAI), the technology ecosystem behind the design, development, adoption, and deployment of AI systems has drastically changed, broadening the scope of AI Safety to address impacts on public safety and national security. In this paper, we propose a novel architectural framework for understanding and analyzing AI Safety; defining its characteristics from three perspectives: Trustworthy AI, Responsible AI, and Safe AI. We provide an extensive review of current research and advancements in AI safety from these perspectives, highlighting their key challenges and mitigation approaches. Through examples from state-of-the-art technologies, particularly Large Language Models (LLMs), we present innovative mechanism, methodologies, and techniques for designing and testing AI safety. Our goal is to promote advancement in AI safety research, and ultimately enhance people's trust in digital transformation.",
+    "citation_count": 3,
+    "summary": "This paper presents a new architectural framework for AI safety, encompassing trustworthiness, responsibility, and safety, by reviewing existing research, highlighting challenges, and proposing mitigation strategies using examples from large language models. The framework aims to advance AI safety research and foster public trust in AI."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.14728",
+    "title": "Security Threats in Agentic AI System",
+    "published_date": "2024-10-16",
+    "abstract": "This research paper explores the privacy and security threats posed to an Agentic AI system with direct access to database systems. Such access introduces significant risks, including unauthorized retrieval of sensitive information, potential exploitation of system vulnerabilities, and misuse of personal or confidential data. The complexity of AI systems combined with their ability to process and analyze large volumes of data increases the chances of data leaks or breaches, which could occur unintentionally or through adversarial manipulation. Furthermore, as AI agents evolve with greater autonomy, their capacity to bypass or exploit security measures becomes a growing concern, heightening the need to address these critical vulnerabilities in agentic systems.",
+    "summary": "Agentic AI systems with direct database access face significant security threats, including data breaches from unauthorized access, system vulnerabilities, and malicious use of sensitive information. The increasing autonomy of these AI agents exacerbates these risks, necessitating robust security measures."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.12137",
+    "title": "IDs for AI Systems",
+    "published_date": "2024-06-17",
+    "abstract": "AI systems are increasingly pervasive, yet information needed to decide whether and how to engage with them may not exist or be accessible. A user may not be able to verify whether a system has certain safety certifications. An investigator may not know whom to investigate when a system causes an incident. It may not be clear whom to contact to shut down a malfunctioning system. Across a number of domains, IDs address analogous problems by identifying particular entities (e.g., a particular Boeing 747) and providing information about other entities of the same class (e.g., some or all Boeing 747s). We propose a framework in which IDs are ascribed to instances of AI systems (e.g., a particular chat session with Claude 3), and associated information is accessible to parties seeking to interact with that system. We characterize IDs for AI systems, provide concrete examples where IDs could be useful, argue that there could be significant demand for IDs from key actors, analyze how those actors could incentivize ID adoption, explore a potential implementation of our framework for deployers of AI systems, and highlight limitations and risks. IDs seem most warranted in settings where AI systems could have a large impact upon the world, such as in making financial transactions or contacting real humans. With further study, IDs could help to manage a world where AI systems pervade society.",
+    "citation_count": 2,
+    "summary": "This paper proposes a framework for assigning unique identifiers (IDs) to AI systems, enabling users and investigators to access crucial information about a system's capabilities, safety certifications, and responsible parties, thereby improving accountability and safety, especially for high-impact AI applications. The framework analyzes the demand for and potential implementation of such IDs, while also acknowledging limitations and risks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.22151",
+    "title": "Standardization Trends on Safety and Trustworthiness Technology for Advanced AI",
+    "published_date": "2024-10-29",
+    "abstract": "Artificial Intelligence (AI) has rapidly evolved over the past decade and has advanced in areas such as language comprehension, image and video recognition, programming, and scientific reasoning. Recent AI technologies based on large language models and foundation models are approaching or surpassing artificial general intelligence. These systems demonstrate superior performance in complex problem solving, natural language processing, and multi-domain tasks, and can potentially transform fields such as science, industry, healthcare, and education. However, these advancements have raised concerns regarding the safety and trustworthiness of advanced AI, including risks related to uncontrollability, ethical conflicts, long-term socioeconomic impacts, and safety assurance. Efforts are being expended to develop internationally agreed-upon standards to ensure the safety and reliability of AI. This study analyzes international trends in safety and trustworthiness standardization for advanced AI, identifies key areas for standardization, proposes future directions and strategies, and draws policy implications. The goal is to support the safe and trustworthy development of advanced AI and enhance international competitiveness through effective standardization.",
+    "citation_count": 1,
+    "summary": "This paper analyzes international standardization trends for ensuring the safety and trustworthiness of advanced AI systems, identifying key areas needing standardization and proposing future strategies to promote safe AI development and global competitiveness."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.01420",
+    "title": "Coordinated Disclosure of Dual-Use Capabilities: An Early Warning System for Advanced AI",
+    "published_date": "2024-07-01",
+    "abstract": "Advanced AI systems may be developed which exhibit capabilities that present significant risks to public safety or security. They may also exhibit capabilities that may be applied defensively in a wide set of domains, including (but not limited to) developing societal resilience against AI threats. We propose Coordinated Disclosure of Dual-Use Capabilities (CDDC) as a process to guide early information-sharing between advanced AI developers, US government agencies, and other private sector actors about these capabilities. The process centers around an information clearinghouse (the\"coordinator\") which receives evidence of dual-use capabilities from finders via mandatory and/or voluntary reporting pathways, and passes noteworthy reports to defenders for follow-up (i.e., further analysis and response). This aims to provide the US government, dual-use foundation model developers, and other actors with an overview of AI capabilities that could significantly impact public safety and security, as well as maximal time to respond.",
+    "summary": "The paper proposes a Coordinated Disclosure of Dual-Use Capabilities (CDDC) system for advanced AI, using an information clearinghouse to facilitate early warning of both harmful and beneficial AI capabilities among developers, government agencies, and other stakeholders. This aims to maximize response time to potential threats and opportunities."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), particularly focusing on short timelines (within a decade). The program will then evaluate strategies for AI safety and governance across these scenarios to identify those best mitigating existential risk."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.07438.pdf",
+    "title": "Towards Artificial General Intelligence (AGI) in the Internet of Things (IoT): Opportunities and Challenges",
+    "published_date": "2023-09-14",
+    "abstract": "Artificial General Intelligence (AGI), possessing the capacity to comprehend, learn, and execute tasks with human cognitive abilities, engenders significant anticipation and intrigue across scientific, commercial, and societal arenas. This fascination extends particularly to the Internet of Things (IoT), a landscape characterized by the interconnection of countless devices, sensors, and systems, collectively gathering and sharing data to enable intelligent decision-making and automation. This research embarks on an exploration of the opportunities and challenges towards achieving AGI in the context of the IoT. Specifically, it starts by outlining the fundamental principles of IoT and the critical role of Artificial Intelligence (AI) in IoT systems. Subsequently, it delves into AGI fundamentals, culminating in the formulation of a conceptual framework for AGI's seamless integration within IoT. The application spectrum for AGI-infused IoT is broad, encompassing domains ranging from smart grids, residential environments, manufacturing, and transportation to environmental monitoring, agriculture, healthcare, and education. However, adapting AGI to resource-constrained IoT settings necessitates dedicated research efforts. Furthermore, the paper addresses constraints imposed by limited computing resources, intricacies associated with large-scale IoT communication, as well as the critical concerns pertaining to security and privacy.",
+    "citation_count": 21,
+    "summary": "This paper explores the potential benefits and challenges of integrating Artificial General Intelligence (AGI) into the Internet of Things (IoT), focusing on a conceptual framework for implementation and addressing limitations posed by resource constraints, communication complexities, and security/privacy concerns. The authors highlight diverse application domains ranging from smart grids to healthcare."
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2106.03245v1.pdf",
+    "title": "Verification in the Loop: Correct-by-Construction Control Learning with Reach-avoid Guarantees",
+    "published_date": "2021-06-06",
+    "abstract": "In the current control design of safety-critical autonomous systems, formal verification techniques are typically applied after the controller is designed to evaluate whether the required properties (e.g., safety) are satisfied. However, due to the increasing system complexity and the fundamental hardness of designing a controller with formal guarantees, such an open-loop process of design-then-verify often results in many iterations and fails to provide the necessary guarantees. In this paper, we propose a correct-by-construction control learning framework that integrates the verification into the control design process in a closed-loop manner, i.e., design-while-verify. Specifically, we leverage the verification results (computed reachable set of the system state) to construct feedback metrics for control learning, which measure how likely the current design of control parameters can meet the required reach-avoid property for safety and goal-reaching. We formulate an optimization problem based on such metrics for tuning the controller parameters, and develop an approximated gradient descent algorithm with a difference method to solve the optimization problem and learn the controller. The learned controller is formally guaranteed to meet the required reach-avoid property. By treating verifiability as a first-class objective and effectively leveraging the verification results during the control learning process, our approach can significantly improve the chance of finding a control design with formal property guarantees. This is demonstrated via a set of experiments on both linear and non-linear systems that use model-based or neural network based controllers.",
+    "citation_count": 5,
+    "summary": "This paper presents a \"correct-by-construction\" control learning framework that integrates formal verification into the control design process, using verification results to guide the learning of controllers guaranteed to satisfy reach-avoid properties. This closed-loop (\"design-while-verify\") approach improves the efficiency and reliability of achieving formally verified control designs."
+  },
+  {
+    "url": "https://arxiv.org/abs/1907.10662v2",
+    "title": "Art: Abstraction Refinement-Guided Training for Provably Correct Neural Networks",
+    "published_date": "2019-07-17",
+    "abstract": "Artificial Neural Networks (ANNs) have demonstrated remarkable utility in various challenging machine learning applications. While formally verified properties of their behaviors are highly desired, they have proven notoriously difficult to derive and enforce. Existing approaches typically formulate this problem as a post facto analysis process. In this paper, we present a novel learning framework that ensures such formal guarantees are enforced by construction. Our technique enables training provably correct networks with respect to a broad class of safety properties, a capability that goes well-beyond existing approaches, without compromising much accuracy. Our key insight is that we can integrate an optimization-based abstraction refinement loop into the learning process and operate over dynamically constructed partitions of the input space that considers accuracy and safety objectives synergistically. The refinement procedure iteratively splits the input space from which training data is drawn, guided by the efficacy with which such partitions enable safety verification. We have implemented our approach in a tool (ART) and applied it to enforce general safety properties on unmanned aviator collision avoidance system ACAS Xu dataset and the Collision Detection dataset. Importantly, we empirically demonstrate that realizing safety does not come at the price of much accuracy. Our methodology demonstrates that an abstraction refinement methodology provides a meaningful pathway for building both accurate and correct machine learning networks.",
+    "citation_count": 26,
+    "summary": "ART is a novel training framework that constructs provably correct neural networks by integrating an optimization-based abstraction refinement loop, iteratively refining input space partitions to ensure safety properties while maintaining accuracy. This approach surpasses existing post-hoc verification methods by enforcing correctness during the training process itself."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1809.03008v2.pdf",
+    "title": "Training for Faster Adversarial Robustness Verification via Inducing ReLU Stability",
+    "published_date": "2018-09-09",
+    "abstract": "We explore the concept of co-design in the context of neural network verification. Specifically, we aim to train deep neural networks that not only are robust to adversarial perturbations but also whose robustness can be verified more easily. To this end, we identify two properties of network models - weight sparsity and so-called ReLU stability - that turn out to significantly impact the complexity of the corresponding verification task. We demonstrate that improving weight sparsity alone already enables us to turn computationally intractable verification problems into tractable ones. Then, improving ReLU stability leads to an additional 4-13x speedup in verification times. An important feature of our methodology is its \"universality,\" in the sense that it can be used with a broad range of training procedures and verification approaches.",
+    "citation_count": 194,
+    "summary": "This paper introduces a training method that improves the speed of verifying the adversarial robustness of neural networks by promoting weight sparsity and ReLU stability, resulting in significantly faster verification times. This approach is versatile and compatible with various training and verification techniques."
+  },
+  {
+    "title": "Towards AI-Assisted Synthesis of Verified Dafny Methods",
+    "abstract": "Large language models show great promise in many domains, including programming. A promise is easy to make but hard to keep, and language models often fail to keep their promises, generating erroneous code. A promising avenue to keep models honest is to incorporate formal verification: generating programs' specifications as well as code so that the code can be proved correct with respect to the specifications. Unfortunately, existing large language models show a severe lack of proficiency in verified programming. \n \n \n \n \n \n \n \nIn this paper, we demonstrate how to improve two pretrained models' proficiency in the Dafny verification-aware language. Using 178 problems from the MBPP dataset, we prompt two contemporary models (GPT-4 and PaLM-2) to synthesize Dafny methods. We use three different types of prompts: a direct Contextless prompt; a Signature prompt that includes a method signature and test cases, and a Chain of Thought (CoT) prompt that decomposes the problem into steps and includes retrieval augmentation generated example problems and solutions. Our results show that GPT-4 performs better than PaLM-2 on these tasks and that both models perform best with the retrieval augmentation generated CoT prompt. GPT-4 was able to generate verified, human-evaluated, Dafny methods for 58% of the problems, however, GPT-4 managed only 19% of the problems with the Contextless prompt, and even fewer (10%) for the Signature prompt. We are thus able to contribute 153 verified Dafny solutions to MBPP problems, 50 that we wrote manually, and 103 synthesized by GPT-4. \n \n \n \n \n \n \n \nOur results demonstrate that the benefits of formal program verification are now within reach of code generating large language models. Likewise, program verification systems can benefit from large language models, whether to synthesize code wholesale, to generate specifications, or to act as a \"programmer's verification apprentice\", to construct annotations such as loop invariants which are hard for programmers to write or verification tools to find. Finally, we expect that the approach we have pioneered here — generating candidate solutions that are subsequently formally checked for correctness — should transfer to other domains (e.g., legal arguments, transport signaling, structural engineering) where solutions must be correct, where that correctness must be demonstrated, explained and understood by designers and end-users.",
+    "published_date": "2024-02-01",
+    "citation_count": 19,
+    "url": "https://dl.acm.org/doi/10.1145/3643763",
+    "summary": "This paper investigates using large language models (LLMs), specifically GPT-4 and PaLM-2, to generate formally verified Dafny code. The authors find that prompting strategies incorporating retrieval augmentation and chain-of-thought reasoning significantly improve the models' success rate, with GPT-4 achieving a 58% success rate in generating verified solutions for a benchmark dataset."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25",
+    "summary": "The article discusses the challenges of formally verifying neural networks, arguing that proving guarantees for complex networks is unrealistic due to the need to account for all possible interactions. Instead, the authors propose \"heuristic explanations,\" a less rigorous but more practical approach to understanding and quantifying a model's behavior."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12",
+    "summary": "This article proposes a delay-based location verification mechanism for on-chip compute governance, using the speed of light as a constraint to verify the location of AI chips. However, the mechanism's reliance on network latency introduces potential for frequent false positives, necessitating a solution to improve reliability."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.03626v1",
+    "title": "Verifiable Learning for Robust Tree Ensembles",
+    "published_date": "2023-05-05",
+    "abstract": "Verifying the robustness of machine learning models against evasion attacks at test time is an important research problem. Unfortunately, prior work established that this problem is NP-hard for decision tree ensembles, hence bound to be intractable for specific inputs. In this paper, we identify a restricted class of decision tree ensembles, called large-spread ensembles, which admit a security verification algorithm running in polynomial time. We then propose a new approach called verifiable learning, which advocates the training of such restricted model classes which are amenable for efficient verification. We show the benefits of this idea by designing a new training algorithm that automatically learns a large-spread decision tree ensemble from labelled data, thus enabling its security verification in polynomial time. Experimental results on public datasets confirm that large-spread ensembles trained using our algorithm can be verified in a matter of seconds, using standard commercial hardware. Moreover, large-spread ensembles are more robust than traditional ensembles against evasion attacks, at the cost of an acceptable loss of accuracy in the non-adversarial setting.",
+    "citation_count": 2,
+    "summary": "This paper introduces \"verifiable learning,\" a method for training restricted decision tree ensembles (called large-spread ensembles) that allows for polynomial-time verification of robustness against evasion attacks, achieving efficient verification while maintaining competitive robustness against adversarial examples."
+  }
+]

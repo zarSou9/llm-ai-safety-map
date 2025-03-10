@@ -1,0 +1,62 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.13138",
+    "title": "Visibility into AI Agents",
+    "published_date": "2024-01-23",
+    "abstract": "Increased delegation of commercial, scientific, governmental, and personal activities to AI agents—systems capable of pursuing complex goals with limited supervision—may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.",
+    "citation_count": 12,
+    "summary": "This paper examines methods to increase \"visibility\" into AI agents—understanding their use, purpose, and deployment—by analyzing agent identifiers, real-time monitoring, and activity logging across centralized and decentralized contexts. The authors assess the trade-offs between these measures' effectiveness and potential negative impacts on privacy and power concentration."
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.06150",
+    "title": "Algorithmic Collusion and Price Discrimination: The Over-Usage of Data",
+    "published_date": "2024-03-10",
+    "abstract": "As firms' pricing strategies increasingly rely on algorithms, two concerns have received much attention: algorithmic tacit collusion and price discrimination. This paper investigates the interaction between these two issues through simulations. In each period, a new buyer arrives with independently and identically distributed willingness to pay (WTP), and each firm, observing private signals about WTP, adopts Q-learning algorithms to set prices. We document two novel mechanisms that lead to collusive outcomes. Under asymmetric information, the algorithm with information advantage adopts a Bait-and-Restrained-Exploit strategy, surrendering profits on some signals by setting higher prices, while exploiting limited profits on the remaining signals by setting much lower prices. Under a symmetric information structure, competition on some signals facilitates convergence to supra-competitive prices on the remaining signals. Algorithms tend to collude more on signals with higher expected WTP. Both uncertainty and the lack of correlated signals exacerbate the degree of collusion, thereby reducing both consumer surplus and social welfare. A key implication is that the over-usage of data, both payoff-relevant and non-relevant, by AIs in competitive contexts will reduce the degree of collusion and consequently lead to a decline in industry profits.",
+    "citation_count": 1,
+    "summary": "This paper uses simulations to show how algorithms, even without explicit communication, can lead to collusive pricing outcomes through novel \"Bait-and-Restrained-Exploit\" strategies and competitive behavior on some signals enabling supra-competitive pricing on others; excessive data usage by competing algorithms, paradoxically, reduces this collusion."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.01147",
+    "title": "On Mechanism Underlying Algorithmic Collusion",
+    "published_date": "2024-09-02",
+    "abstract": "Two issues of algorithmic collusion are addressed in this paper. First, we show that in a general class of symmetric games, including Prisoner's Dilemma, Bertrand competition, and any (nonlinear) mixture of first and second price auction, only (strict) Nash Equilibrium (NE) is stochastically stable. Therefore, the tacit collusion is driven by failure to learn NE due to insufficient learning, instead of learning some strategies to sustain collusive outcomes. Second, we study how algorithms adapt to collusion in real simulations with insufficient learning. Extensive explorations in early stages and discount factors inflates the Q-value, which interrupts the sequential and alternative price undercut and leads to bilateral rebound. The process is iterated, making the price curves like Edgeworth cycles. When both exploration rate and Q-value decrease, algorithms may bilaterally rebound to relatively high common price level by coincidence, and then get stuck. Finally, we accommodate our reasoning to simulation outcomes in the literature, including optimistic initialization, market design and algorithm design.",
+    "summary": "This paper demonstrates that algorithmic collusion in various games arises from the failure of algorithms to learn Nash Equilibrium due to insufficient learning, rather than intentional collusion strategies. Specifically, it shows that excessive exploration and inflated Q-values lead to cyclical price fluctuations, which can accidentally converge to a collusive outcome."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.03734",
+    "title": "Safety vs. Performance: How Multi-Objective Learning Reduces Barriers to Market Entry",
+    "published_date": "2024-09-05",
+    "abstract": "Emerging marketplaces for large language models and other large-scale machine learning (ML) models appear to exhibit market concentration, which has raised concerns about whether there are insurmountable barriers to entry in such markets. In this work, we study this issue from both an economic and an algorithmic point of view, focusing on a phenomenon that reduces barriers to entry. Specifically, an incumbent company risks reputational damage unless its model is sufficiently aligned with safety objectives, whereas a new company can more easily avoid reputational damage. To study this issue formally, we define a multi-objective high-dimensional regression framework that captures reputational damage, and we characterize the number of data points that a new company needs to enter the market. Our results demonstrate how multi-objective considerations can fundamentally reduce barriers to entry -- the required number of data points can be significantly smaller than the incumbent company's dataset size. En route to proving these results, we develop scaling laws for high-dimensional linear regression in multi-objective environments, showing that the scaling rate becomes slower when the dataset size is large, which could be of independent interest.",
+    "citation_count": 1,
+    "summary": "This paper argues that multi-objective learning, particularly considering safety alongside performance, lowers barriers to market entry for new large language models; smaller datasets suffice for newcomers due to incumbents' greater reputational risk."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mXD53GFvMCWQhcCwt/distinguishing-ways-ai-can-be-concentrated",
+    "author": "Matthew Barnett",
+    "title": "Distinguishing ways AI can be \"concentrated\"",
+    "published_date": "2024-10-21",
+    "summary": "The article argues that discussions of AI concentration lack clarity, proposing three distinct dimensions—development, service provision, and control—that should be analyzed separately. These dimensions can vary independently, influencing AI's trajectory and necessitating nuanced policy considerations."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.04088",
+    "title": "Artificial Intelligence and Algorithmic Price Collusion in Two-sided Markets",
+    "published_date": "2024-07-04",
+    "abstract": "Algorithmic price collusion facilitated by artificial intelligence (AI) algorithms raises significant concerns. We examine how AI agents using Q-learning engage in tacit collusion in two-sided markets. Our experiments reveal that AI-driven platforms achieve higher collusion levels compared to Bertrand competition. Increased network externalities significantly enhance collusion, suggesting AI algorithms exploit them to maximize profits. Higher user heterogeneity or greater utility from outside options generally reduce collusion, while higher discount rates increase it. Tacit collusion remains feasible even at low discount rates. To mitigate collusive behavior and inform potential regulatory measures, we propose incorporating a penalty term in the Q-learning algorithm.",
+    "summary": "This paper demonstrates that AI agents using Q-learning can achieve higher levels of tacit price collusion in two-sided markets than traditional Bertrand competition, especially when network externalities are strong. The study identifies factors influencing collusion levels and proposes a penalty term in the Q-learning algorithm to mitigate this behavior."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.02437",
+    "title": "Algorithmic Collusion in Dynamic Pricing with Deep Reinforcement Learning",
+    "published_date": "2024-06-04",
+    "abstract": "Nowadays, a significant share of the Business-to-Consumer sector is based on online platforms like Amazon and Alibaba and uses Artificial Intelligence for pricing strategies. This has sparked debate on whether pricing algorithms may tacitly collude to set supra-competitive prices without being explicitly designed to do so. Our study addresses these concerns by examining the risk of collusion when Reinforcement Learning algorithms are used to decide on pricing strategies in competitive markets. Prior research in this field focused on Tabular Q-learning (TQL) and led to opposing views on whether learning-based algorithms can lead to supra-competitive prices. Our work contributes to this ongoing discussion by providing a more nuanced numerical study that goes beyond TQL by additionally capturing off- and on-policy Deep Reinforcement Learning (DRL) algorithms. We study multiple Bertrand oligopoly variants and show that algorithmic collusion depends on the algorithm used. In our experiments, TQL exhibits higher collusion and price dispersion phenomena compared to DRL algorithms. We show that the severity of collusion depends not only on the algorithm used but also on the characteristics of the market environment. We further find that Proximal Policy Optimization appears to be less sensitive to collusive outcomes compared to other state-of-the-art DRL algorithms.",
+    "citation_count": 1,
+    "summary": "This paper investigates the potential for algorithmic collusion in dynamic pricing using deep reinforcement learning, finding that different algorithms (including Proximal Policy Optimization and Tabular Q-learning) exhibit varying degrees of collusion depending on both the algorithm and market characteristics, with Tabular Q-learning showing higher tendencies toward collusion."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three strategies for governing transformative AI: Cooperative Development, Strategic Advantage, and Global Moratorium. The effectiveness of each strategy depends heavily on the difficulty of aligning AI and the projected timeline for its development, with preferences shifting across these variables."
+  }
+]

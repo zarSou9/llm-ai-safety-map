@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2407.14681",
+    "title": "Value Internalization: Learning and Generalizing from Social Reward",
+    "published_date": "2024-07-19",
+    "abstract": "Social rewards shape human behavior. During development, a caregiver guides a learner's behavior towards culturally aligned goals and values. How do these behaviors persist and generalize when the caregiver is no longer present, and the learner must continue autonomously? Here, we propose a model of value internalization where social feedback trains an internal social reward (ISR) model that generates internal rewards when social rewards are unavailable. Through empirical simulations, we show that an ISR model prevents agents from unlearning socialized behaviors and enables generalization in out-of-distribution tasks. We characterize the implications of incomplete internalization, akin to\"reward hacking\"on the ISR. Additionally, we show that our model internalizes prosocial behavior in a multi-agent environment. Our work provides a foundation for understanding how humans acquire and generalize values and offers insights for aligning AI with human values.",
+    "citation_count": 1,
+    "summary": "This paper presents a model of value internalization where social rewards train an internal social reward (ISR) model, allowing agents to maintain and generalize learned behaviors even without external rewards. The model demonstrates how this process prevents unlearning and enables generalization to novel situations, while also addressing issues like \"reward hacking\" and showcasing prosocial behavior in multi-agent settings."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.08997",
+    "title": "Hierarchical Universal Value Function Approximators",
+    "published_date": "2024-10-11",
+    "abstract": "There have been key advancements to building universal approximators for multi-goal collections of reinforcement learning value functions -- key elements in estimating long-term returns of states in a parameterized manner. We extend this to hierarchical reinforcement learning, using the options framework, by introducing hierarchical universal value function approximators (H-UVFAs). This allows us to leverage the added benefits of scaling, planning, and generalization expected in temporal abstraction settings. We develop supervised and reinforcement learning methods for learning embeddings of the states, goals, options, and actions in the two hierarchical value functions: $Q(s, g, o; \\theta)$ and $Q(s, g, o, a; \\theta)$. Finally we demonstrate generalization of the HUVFAs and show they outperform corresponding UVFAs.",
+    "summary": "This paper introduces hierarchical universal value function approximators (H-UVFAs) for hierarchical reinforcement learning, leveraging options frameworks to improve scalability, planning, and generalization compared to standard universal value function approximators. Empirical results demonstrate that H-UVFAs outperform their non-hierarchical counterparts."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/utility-extraction",
+    "title": "Utility Extraction - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Utility extraction aims to automatically determine human preferences for use in Friendly AI, mitigating the risk of misaligned AI goals. Challenges arise from the difficulty of specifying human values and inconsistencies in human behavior, prompting research into methods that account for these inconsistencies using probabilistic models and neuroscientific insights into valuation processes."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/preference",
+    "title": "Preference - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Artificial intelligence utilizes a four-step process—preference acquisition, modeling, representation, and reasoning—to understand and utilize user preferences, a framework particularly useful for exploring agent goals and motivations."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/7tSthxSgnNxbt4Hk6/what-s-in-the-box-towards-interpretability-by-distinguishing-1",
+    "author": "Joshua Clancy",
+    "title": "What's in the box?! – Towards interpretability by distinguishing niches of value within neural networks.",
+    "published_date": "2024-02-29",
+    "summary": "This paper proposes a novel theoretical model of neural network internal representations, using an economic and information theory framework to define \"niches of value\" for different representational units. The model, derived from both top-down (General Learning Network Model) and bottom-up (General Representative Input Model) perspectives, predicts a neuron's function based on its context and internal structure, though practical validation requires further software development."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.08759.pdf",
+    "title": "Value Engineering for Autonomous Agents",
+    "published_date": "2023-02-17",
+    "abstract": "Machine Ethics (ME) is concerned with the design of Artificial Moral Agents (AMAs), i.e. autonomous agents capable of reasoning and behaving according to moral values. Previous approaches have treated values as labels associated with some actions or states of the world, rather than as integral components of agent reasoning. It is also common to disregard that a value-guided agent operates alongside other value-guided agents in an environment governed by norms, thus omitting the social dimension of AMAs. In this blue sky paper, we propose a new AMA paradigm grounded in moral and social psychology, where values are instilled into agents as context-dependent goals. These goals intricately connect values at individual levels to norms at a collective level by evaluating the outcomes most incentivized by the norms in place. We argue that this type of normative reasoning, where agents are endowed with an understanding of norms' moral implications, leads to value-awareness in autonomous agents. Additionally, this capability paves the way for agents to align the norms enforced in their societies with respect to the human values instilled in them, by complementing the value-based reasoning on norms with agreement mechanisms to help agents collectively agree on the best set of norms that suit their human values. Overall, our agent model goes beyond the treatment of values as inert labels by connecting them to normative reasoning and to the social functionalities needed to integrate value-aware agents into our modern hybrid human-computer societies.",
+    "citation_count": 3,
+    "summary": "This paper proposes a novel paradigm for designing Artificial Moral Agents (AMAs) by integrating values as context-dependent goals, connecting individual values to collective norms through normative reasoning and agreement mechanisms to achieve value-aware agents capable of aligning societal norms with human values. This approach moves beyond treating values as simple labels, fostering better integration of AMAs into human society."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2304.12567.pdf",
+    "title": "Proto-Value Networks: Scaling Representation Learning with Auxiliary Tasks",
+    "published_date": "2023-04-25",
+    "abstract": "Auxiliary tasks improve the representations learned by deep reinforcement learning agents. Analytically, their effect is reasonably well understood; in practice, however, their primary use remains in support of a main learning objective, rather than as a method for learning representations. This is perhaps surprising given that many auxiliary tasks are defined procedurally, and hence can be treated as an essentially infinite source of information about the environment. Based on this observation, we study the effectiveness of auxiliary tasks for learning rich representations, focusing on the setting where the number of tasks and the size of the agent's network are simultaneously increased. For this purpose, we derive a new family of auxiliary tasks based on the successor measure. These tasks are easy to implement and have appealing theoretical properties. Combined with a suitable off-policy learning rule, the result is a representation learning algorithm that can be understood as extending Mahadevan&Maggioni (2007)'s proto-value functions to deep reinforcement learning -- accordingly, we call the resulting object proto-value networks. Through a series of experiments on the Arcade Learning Environment, we demonstrate that proto-value networks produce rich features that may be used to obtain performance comparable to established algorithms, using only linear approximation and a small number (~4M) of interactions with the environment's reward function.",
+    "citation_count": 22,
+    "summary": "Proto-value networks leverage a novel family of successor-based auxiliary tasks to scale representation learning in deep reinforcement learning, achieving performance comparable to established algorithms with limited environmental interaction by using linear approximation and a large number of auxiliary tasks."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.01836v1.pdf",
+    "title": "A Generalized Bootstrap Target for Value-Learning, Efficiently Combining Value and Feature Predictions",
+    "published_date": "2022-01-05",
+    "abstract": "Estimating value functions is a core component of reinforcement learning algorithms. Temporal difference (TD) learning algorithms use bootstrapping, i.e. they update the value function toward a learning target using value estimates at subsequent time-steps. Alternatively, the value function can be updated toward a learning target constructed by separately predicting successor features (SF)—a policy-dependent model—and linearly combining them with instantaneous rewards. \n \nWe focus on bootstrapping targets used when estimating value functions, and propose a new backup target, the ?-return mixture, which implicitly combines value-predictive knowledge (used by TD methods) with (successor) feature-predictive knowledge—with a parameter ? capturing how much to rely on each. We illustrate that incorporating predictive knowledge through an ??-discounted SF model makes more efficient use of sampled experience, compared to either extreme, i.e. bootstrapping entirely on the value function estimate, or bootstrapping on the product of separately estimated successor features and instantaneous reward models. We empirically show this approach leads to faster policy evaluation and better control performance, for tabular and nonlinear function approximations, indicating scalability and generality.",
+    "citation_count": 1,
+    "summary": "This paper introduces a novel bootstrapping target for value function learning, the λ-return mixture, which combines value and successor feature predictions, offering improved efficiency and performance compared to using either prediction method alone. Empirical results demonstrate faster policy evaluation and better control across various settings."
+  }
+]

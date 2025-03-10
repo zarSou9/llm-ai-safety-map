@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising AI safety strategy, though currently under-developed. Its potential applications include increasing policymakers' visibility into AI development, allocating compute resources strategically, and enforcing regulations through technological and policy means."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2402.08797.pdf",
+    "title": "Computing Power and the Governance of Artificial Intelligence",
+    "published_date": "2024-02-13",
+    "abstract": "Computing power, or\"compute,\"is crucial for the development and deployment of artificial intelligence (AI) capabilities. As a result, governments and companies have started to leverage compute as a means to govern AI. For example, governments are investing in domestic compute capacity, controlling the flow of compute to competing countries, and subsidizing compute access to certain sectors. However, these efforts only scratch the surface of how compute can be used to govern AI development and deployment. Relative to other key inputs to AI (data and algorithms), AI-relevant compute is a particularly effective point of intervention: it is detectable, excludable, and quantifiable, and is produced via an extremely concentrated supply chain. These characteristics, alongside the singular importance of compute for cutting-edge AI models, suggest that governing compute can contribute to achieving common policy objectives, such as ensuring the safety and beneficial use of AI. More precisely, policymakers could use compute to facilitate regulatory visibility of AI, allocate resources to promote beneficial outcomes, and enforce restrictions against irresponsible or malicious AI development and usage. However, while compute-based policies and technologies have the potential to assist in these areas, there is significant variation in their readiness for implementation. Some ideas are currently being piloted, while others are hindered by the need for fundamental research. Furthermore, naive or poorly scoped approaches to compute governance carry significant risks in areas like privacy, economic impacts, and centralization of power. We end by suggesting guardrails to minimize these risks from compute governance.",
+    "citation_count": 16,
+    "summary": "Governments and companies increasingly use control over computing power to govern artificial intelligence development and deployment, leveraging its quantifiable and controllable nature to promote beneficial AI use and mitigate risks; however, effective implementation requires careful consideration of potential downsides like privacy violations and power centralization."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.10547",
+    "title": "AI Safety Frameworks Should Include Procedures for Model Access Decisions",
+    "published_date": "2024-11-15",
+    "abstract": "The downstream use cases, benefits, and risks of AI models depend significantly on what sort of access is provided to the model, and who it is provided to. Though existing safety frameworks and AI developer usage policies recognise that the risk posed by a given model depends on the level of access provided to a given audience, the procedures they use to make decisions about model access are ad hoc, opaque, and lacking in empirical substantiation. This paper consequently proposes that frontier AI companies build on existing safety frameworks by outlining transparent procedures for making decisions about model access, which we term Responsible Access Policies (RAPs). We recommend that, at a minimum, RAPs should include the following: i) processes for empirically evaluating model capabilities given different styles of access, ii) processes for assessing the risk profiles of different categories of user, and iii) clear and robust pre-commitments regarding when to grant or revoke specific types of access for particular groups under specified conditions.",
+    "summary": "Current AI safety frameworks inadequately address model access control, leading to inconsistent and potentially risky deployment; this paper proposes the creation of transparent \"Responsible Access Policies\" (RAPs) with standardized procedures for evaluating model capabilities, user risk profiles, and access granting/revocation."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.05159.pdf",
+    "title": "Structured access: an emerging paradigm for safe AI deployment",
+    "published_date": "2022-01-13",
+    "abstract": "Structured access is an emerging paradigm for the safe deployment of artificial intelligence (AI). Instead of openly disseminating AI systems, developers facilitate controlled, arm's length interactions with their AI systems. The aim is to prevent dangerous AI capabilities from being widely accessible, whilst preserving access to AI capabilities that can be used safely. The developer must both restrict how the AI system can be used, and prevent the user from circumventing these restrictions through modification or reverse engineering of the AI system. Structured access is most effective when implemented through cloud-based AI services, rather than disseminating AI software that runs locally on users' hardware. Cloud-based interfaces provide the AI developer greater scope for controlling how the AI system is used, and for protecting against unauthorized modifications to the system's design. This chapter expands the discussion of\"publication norms\"in the AI community, which to date has focused on the question of how the informational content of AI research projects should be disseminated (e.g., code and models). Although this is an important question, there are limits to what can be achieved through the control of information flows. Structured access views AI software not only as information that can be shared but also as a tool with which users can have arm's length interactions. There are early examples of structured access being practiced by AI developers, but there is much room for further development, both in the functionality of cloud-based interfaces and in the wider institutional framework.",
+    "citation_count": 43,
+    "summary": "Structured access proposes a safer AI deployment model by controlling user interactions with AI systems through controlled, cloud-based interfaces, rather than open dissemination, to prevent misuse while retaining beneficial access. This approach focuses on restricting usage and preventing system modification, supplementing existing publication norms focused solely on information sharing."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.13138",
+    "title": "Visibility into AI Agents",
+    "published_date": "2024-01-23",
+    "abstract": "Increased delegation of commercial, scientific, governmental, and personal activities to AI agents—systems capable of pursuing complex goals with limited supervision—may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.",
+    "citation_count": 12,
+    "summary": "This paper examines methods to increase transparency (\"visibility\") in AI agent usage, focusing on agent identifiers, real-time monitoring, and activity logging, analyzing their implementation across deployment contexts and considering privacy and power implications. The authors propose these measures as crucial for mitigating societal risks associated with increasing AI agent autonomy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.18393",
+    "title": "Exploring the Impact of Rewards on Developers' Proactive AI Accountability Behavior",
+    "published_date": "2024-11-27",
+    "abstract": "The rapid integration of Artificial Intelligence (AI)-based systems offers benefits for various domains of the economy and society but simultaneously raises concerns due to emerging scandals. These scandals have led to the increasing importance of AI accountability to ensure that actors provide justification and victims receive compensation. However, AI accountability has a negative connotation due to its emphasis on penalizing sanctions, resulting in reactive approaches to emerging concerns. To counteract the prevalent negative view and offer a proactive approach to facilitate the AI accountability behavior of developers, we explore rewards as an alternative mechanism to sanctions. We develop a theoretical model grounded in Self-Determination Theory to uncover the potential impact of rewards and sanctions on AI developers. We further identify typical sanctions and bug bounties as potential reward mechanisms by surveying related research from various domains, including cybersecurity.",
+    "summary": "This paper investigates the potential of reward systems, such as bug bounties, to incentivize proactive AI accountability behaviors among developers, contrasting this approach with the less effective, reactive nature of traditional penalizing sanctions. A theoretical model based on Self-Determination Theory is used to explore this impact."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three AI governance strategies—Cooperative Development, Strategic Advantage, and Global Moratorium—evaluating their effectiveness based on alignment difficulty and development timelines. The optimal strategy shifts depending on these factors, with Cooperative Development favored for longer timelines and easier alignment, Strategic Advantage for shorter timelines or moderate difficulty, and Global Moratorium reserved for extremely difficult alignment or short timelines."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.02561",
+    "title": "Beneficence Signaling in AI Development Dynamics",
+    "published_date": "2023-05-04",
+    "abstract": "This paper motivates and develops a framework for understanding how the socio-technical systems surrounding AI development interact with social welfare. It introduces the concept of ``signaling'' from evolutionary game theory and demonstrates how it can enhance existing theory and practice surrounding the evaluation and governance of AI systems.",
+    "summary": "This paper proposes a framework for analyzing the relationship between AI development and social welfare, using signaling theory from evolutionary game theory to improve AI evaluation and governance. It examines how socio-technical systems involved in AI development influence societal well-being."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and long version, catalog AI safety research, organizations, and researchers to help machine learning experts quickly assess potential areas of contribution based on their existing skills and interests. The resource aims to lower the barrier to entry for those wanting to transition into AI alignment research."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8xN5KYB9xAgSSi494/against-the-open-source-closed-source-dichotomy-regulated",
+    "author": "alex.herwix",
+    "title": "Against the Open Source / Closed Source Dichotomy: Regulated Source as a Model for Responsible AI Development",
+    "published_date": "2023-09-04",
+    "summary": "The article challenges the simplistic open-source versus closed-source dichotomy in AI development, arguing that both models have inherent risks and benefits. It proposes \"Regulated Source\" as a potential alternative model for responsible AI development, aiming to foster collaboration while mitigating the dangers of unchecked access or centralized control."
+  }
+]

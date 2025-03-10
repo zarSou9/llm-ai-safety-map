@@ -1,0 +1,65 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2109.03386.pdf",
+    "title": "On Characterizing the Trade-off in Invariant Representation Learning",
+    "published_date": "2021-09-08",
+    "abstract": "Many applications of representation learning, such as privacy preservation, algorithmic fairness, and domain adaptation, desire explicit control over semantic information being discarded. This goal is formulated as satisfying two objectives: maximizing utility for predicting a target attribute while simultaneously being invariant (independent) to a known semantic attribute. Solutions to invariant representation learning (IRepL) problems lead to a trade-off between utility and invariance when they are competing. While existing works study bounds on this trade-off, two questions remain outstanding: 1) What is the exact trade-off between utility and invariance? and 2) What are the encoders (mapping the data to a representation) that achieve the trade-off, and how can we estimate it from training data? This paper addresses these questions for IRepLs in reproducing kernel Hilbert spaces (RKHS)s. Under the assumption that the distribution of a low-dimensional projection of high-dimensional data is approximately normal, we derive a closed-form solution for the global optima of the underlying optimization problem for encoders in RKHSs. This yields closed formulae for a near-optimal trade-off, corresponding optimal representation dimensionality, and the corresponding encoder(s). We also numerically quantify the trade-off on representative problems and compare them to those achieved by baseline IRepL algorithms.",
+    "citation_count": 5,
+    "summary": "This paper derives a closed-form solution for the optimal trade-off between utility and invariance in invariant representation learning within reproducing kernel Hilbert spaces, providing closed formulae for near-optimal trade-off, dimensionality, and corresponding encoders under a normality assumption. It then numerically validates these findings against baseline algorithms."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1907.02893.pdf",
+    "title": "Invariant Risk Minimization",
+    "published_date": "2019-07-05",
+    "abstract": "We introduce Invariant Risk Minimization (IRM), a learning paradigm to estimate invariant correlations across multiple training distributions. To achieve this goal, IRM learns a data representation such that the optimal classifier, on top of that data representation, matches for all training distributions. Through theory and experiments, we show how the invariances learned by IRM relate to the causal structures governing the data and enable out-of-distribution generalization.",
+    "citation_count": 2003,
+    "summary": "Invariant Risk Minimization (IRM) learns data representations where the optimal classifier remains consistent across multiple training distributions, thereby promoting out-of-distribution generalization by focusing on invariant causal relationships."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1812.08233.pdf",
+    "title": "Invariance, Causality and Robustness",
+    "published_date": "2018-12-19",
+    "abstract": "We discuss recent work for causal inference and predictive robustness in a unifying way. The key idea relies on a notion of probabilistic invariance or stability: it opens up new insights for formulating causality as a certain risk minimization problem with a corresponding notion of robustness. The invariance itself can be estimated from general heterogeneous or perturbation data which frequently occur with nowadays data collection. The novel methodology is potentially useful in many applications, offering more robustness and better `causal-oriented' interpretation than machine learning or estimation in standard regression or classification frameworks.",
+    "citation_count": 183,
+    "summary": "This paper presents a framework for causal inference and predictive robustness based on probabilistic invariance, formulating causality as a risk minimization problem and leveraging heterogeneous data for estimation. This approach aims for improved robustness and causal interpretability compared to standard machine learning methods."
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.12067",
+    "title": "Learning Optimal Features via Partial Invariance",
+    "published_date": "2023-01-28",
+    "abstract": "Learning models that are robust to distribution shifts is a key concern in the context of their real-life applicability. Invariant Risk Minimization (IRM) is a popular framework that aims to learn robust models from multiple environments. The success of IRM requires an important assumption: the underlying causal mechanisms/features remain invariant across environments. When not satisfied, we show that IRM can over-constrain the predictor and to remedy this, we propose a relaxation via partial invariance. In this work, we theoretically highlight the sub-optimality of IRM and then demonstrate how learning from a partition of training domains can help improve invariant models. Several experiments, conducted both in linear settings as well as with deep neural networks on tasks over both language and image data, allow us to verify our conclusions.",
+    "citation_count": 1,
+    "summary": "This paper demonstrates that Invariant Risk Minimization (IRM) can be overly restrictive when causal features aren't fully invariant across environments, proposing a \"partial invariance\" relaxation that learns from partitioned training domains to improve model robustness. Empirical results across various datasets support the improved performance of this relaxed approach."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.12947v1.pdf",
+    "title": "Meta-Learned Invariant Risk Minimization",
+    "published_date": "2021-03-24",
+    "abstract": "Empirical Risk Minimization (ERM) based machine learning algorithms have suffered from weak generalization performance on data obtained from out-of-distribution (OOD). To address this problem, Invariant Risk Minimization (IRM) objective was suggested to find invariant optimal predictor which is less affected by the changes in data distribution. However, even with such progress, IRMv1, the practical formulation of IRM, still shows performance degradation when there are not enough training data, and even fails to generalize to OOD, if the number of spurious correlations is larger than the number of environments. In this paper, to address such problems, we propose a novel meta-learning based approach for IRM. In this method, we do not assume the linearity of classifier for the ease of optimization, and solve ideal bi-level IRM objective with Model-Agnostic Meta-Learning (MAML) framework. Our method is more robust to the data with spurious correlations and can provide an invariant optimal classifier even when data from each distribution are scarce. In experiments, we demonstrate that our algorithm not only has better OOD generalization performance than IRMv1 and all IRM variants, but also addresses the weakness of IRMv1 with improved stability.",
+    "citation_count": 9,
+    "summary": "Meta-Learned Invariant Risk Minimization (Meta-IRM) improves upon Invariant Risk Minimization (IRM) by using a model-agnostic meta-learning approach to find an invariant optimal predictor, resulting in more robust generalization performance to out-of-distribution data, especially when training data is scarce or spurious correlations are prevalent. This contrasts with IRMv1, which suffers from performance degradation under these conditions."
+  },
+  {
+    "title": "Learning Invariant Representations using Inverse Contrastive Loss",
+    "abstract": "Learning invariant representations is a critical first step in a number of machine learning tasks. A common approach corresponds to the so-called information bottleneck principle in which an application dependent function of mutual information is carefully chosen and optimized. Unfortunately, in practice, these functions are not suitable for optimization purposes since these losses are agnostic of the metric structure of the parameters of the model. We introduce a class of losses for learning representations that are invariant to some extraneous variable of interest by inverting the class of contrastive losses, i.e., inverse contrastive loss (ICL). We show that if the extraneous variable is binary, then optimizing ICL is equivalent to optimizing a regularized MMD divergence. More generally, we also show that if we are provided a metric on the sample space, our formulation of ICL can be decomposed into a sum of convex functions of the given distance metric. Our experimental results indicate that models obtained by optimizing ICL achieve significantly better invariance to the extraneous variable for a fixed desired level of accuracy. In a variety of experimental settings, we show applicability of ICL for learning invariant representations for both continuous and discrete extraneous variables. The project page with code is available at https://github.com/adityakumarakash/ICL.",
+    "published_date": "2021-02-01",
+    "citation_count": 8,
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8366266/",
+    "summary": "The paper introduces inverse contrastive loss (ICL), a novel loss function for learning invariant representations by inverting contrastive losses, enabling efficient optimization and improved invariance to extraneous variables. This approach is shown to be equivalent to optimizing a regularized MMD divergence for binary variables and decomposable into convex functions for general metric spaces."
+  },
+  {
+    "url": "https://arxiv.org/abs/1905.11374v2",
+    "title": "A unifying causal framework for analyzing dataset shift-stable learning algorithms",
+    "published_date": "2019-05-27",
+    "abstract": "Abstract Recent interest in the external validity of prediction models (i.e., the problem of different train and test distributions, known as dataset shift) has produced many methods for finding predictive distributions that are invariant to dataset shifts and can be used for prediction in new, unseen environments. However, these methods consider different types of shifts and have been developed under disparate frameworks, making it difficult to theoretically analyze how solutions differ with respect to stability and accuracy. Taking a causal graphical view, we use a flexible graphical representation to express various types of dataset shifts. Given a known graph of the data generating process, we show that all invariant distributions correspond to a causal hierarchy of graphical operators, which disable the edges in the graph that are responsible for the shifts. The hierarchy provides a common theoretical underpinning for understanding when and how stability to shifts can be achieved, and in what ways stable distributions can differ. We use it to establish conditions for minimax optimal performance across environments, and derive new algorithms that find optimal stable distributions. By using this new perspective, we empirically demonstrate that that there is a tradeoff between minimax and average performance.",
+    "citation_count": 15,
+    "summary": "This paper presents a unifying causal framework, based on causal graphs, to analyze dataset shift-stable learning algorithms, revealing a hierarchy of graphical operators that produce invariant distributions and enabling the derivation of new algorithms for optimal stable prediction. This framework clarifies the trade-off between minimax and average performance across different environments."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/jig8yRHuwhgxN35ue/a-robust-natural-latent-over-a-mixed-distribution-is-natural",
+    "author": "Johnswentworth; David Lorell",
+    "title": "A Robust Natural Latent Over A Mixed Distribution Is Natural Over The Distributions Which Were Mixed",
+    "published_date": "2024-08-22",
+    "summary": "This article presents a mathematical theorem demonstrating that if a natural latent variable is robustly identified in a mixture of distributions, then that same latent variable is approximately natural in each individual distribution comprising the mixture. The theorem's proof involves showing that robustness, defined as a zero gradient of approximation error with respect to mixture weights, implies the satisfaction of naturality conditions (mediation and redundancy) for each individual distribution."
+  }
+]

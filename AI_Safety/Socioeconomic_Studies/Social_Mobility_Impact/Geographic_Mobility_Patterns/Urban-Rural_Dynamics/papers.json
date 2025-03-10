@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/8gCsRPxvXyAZJLcwd/gdp-per-capita-in-2050",
+    "author": "Hauke Hillebrandt",
+    "title": "GDP per capita in 2050",
+    "published_date": "2024-05-06",
+    "summary": "The article presents GDP per capita forecasts for major economies until 2050, arguing that even without transformative AI growth, the projected increase in living standards will significantly alter the world by then, with many countries reaching levels of wealth currently enjoyed by richer nations today."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/JDrxA3vwZAKZfmShz/degeneracies-are-sticky-for-sgd",
+    "author": "Guillaume Corlouer; Nicolas Macé",
+    "title": "Degeneracies are sticky for SGD",
+    "published_date": "2024-06-16",
+    "summary": "This study investigates how degeneracy in low-dimensional loss landscapes affects Stochastic Gradient Descent (SGD) dynamics in deep learning. The authors find that degeneracy slows convergence and influences SGD's escape direction from degenerate manifolds, showing discrepancies between SGD and Bayesian posterior predictions due to factors like learning rate and degeneracy degree."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.08827",
+    "title": "Artificial Intelligence and Human Geography",
+    "published_date": "2023-12-14",
+    "abstract": "This paper examines the recent advances and applications of AI in human geography especially the use of machine (deep) learning, including place representation and modeling, spatial analysis and predictive mapping, and urban planning and design. AI technologies have enabled deeper insights into complex human-environment interactions, contributing to more effective scientific exploration, understanding of social dynamics, and spatial decision-making. Furthermore, human geography offers crucial contributions to AI, particularly in context-aware model development, human-centered design, biases and ethical considerations, and data privacy. The synergy beween AI and human geography is essential for addressing global challenges like disaster resilience, poverty, and equitable resource access. This interdisciplinary collaboration between AI and geography will help advance the development of GeoAI and promise a better and sustainable world for all.",
+    "citation_count": 1,
+    "summary": "This paper explores the burgeoning intersection of artificial intelligence and human geography, highlighting AI's applications in spatial analysis and modeling while emphasizing the crucial role of geographic expertise in addressing AI's ethical and societal implications. The synergy between these fields promises advancements in addressing global challenges."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.03390.pdf",
+    "title": "Origin-Destination Network Generation via Gravity-Guided GAN",
+    "published_date": "2023-06-06",
+    "abstract": "Origin-destination (OD) flow, which contains valuable population mobility information including direction and volume, is critical in many urban applications, such as urban planning, transportation management, etc. However, OD data is not always easy to access due to high costs or privacy concerns. Therefore, we must consider generating OD through mathematical models. Existing works utilize physics laws or machine learning (ML) models to build the association between urban structures and OD flows while these two kinds of methods suffer from the limitation of over-simplicity and poor generalization ability, respectively. In this paper, we propose to adopt physics-informed ML paradigm, which couple the physics scientific knowledge and data-driven ML methods, to construct a model named Origin-Destination Generation Networks (ODGN) for better population mobility modeling by leveraging the complementary strengths of combining physics and ML methods. Specifically, we first build a Multi-view Graph Attention Networks (MGAT) to capture the urban features of every region and then use a gravity-guided predictor to obtain OD flow between every two regions. Furthermore, we use a conditional GAN training strategy and design a sequence-based discriminator to consider the overall topological features of OD as a network. Extensive experiments on real-world datasets have been done to demonstrate the superiority of our proposed method compared with baselines.",
+    "citation_count": 4,
+    "summary": "The paper introduces Origin-Destination Generation Networks (ODGN), a physics-informed machine learning model that uses a multi-view graph attention network and a gravity-guided predictor to generate origin-destination flow data, improving upon existing methods by combining the strengths of physics-based and data-driven approaches. Experiments demonstrate its superior performance compared to existing baselines."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "President Biden's October 30, 2023 executive order on AI outlines numerous deadlines for various federal agencies to submit reports, develop plans, and implement initiatives related to AI development, risk mitigation, workforce development, and ethical considerations, with deadlines ranging from 30 to 90 days after the order's publication."
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.05487",
+    "title": "Mobility census for monitoring rapid urban development",
+    "published_date": "2022-12-11",
+    "abstract": "Monitoring urban structure and development requires high-quality data at high spatio-temporal resolution. While traditional censuses have provided foundational insights into demographic and socio-economic aspects of urban life, their pace may not always align with the pace of urban development. To complement these traditional methods, we explore the potential of analysing alternative big-data sources, such as human mobility data. However, these often noisy and unstructured big data pose new challenges. Here, we propose a method to extract meaningful explanatory variables and classifications from such data. Using movement data from Beijing, which are produced as a by-product of mobile communication, we show that meaningful features can be extracted, revealing, for example, the emergence and absorption of subcentres. This method allows the analysis of urban dynamics at a high-spatial resolution (here 500 m) and near real-time frequency, and high computational efficiency, which is especially suitable for tracing event-driven mobility changes and their impact on urban structures.",
+    "citation_count": 2,
+    "summary": "This paper proposes a method to analyze human mobility data, such as mobile phone location data, to monitor rapid urban development at high spatiotemporal resolution, demonstrating its application in revealing the emergence and absorption of urban subcenters in Beijing. The method efficiently extracts meaningful features from noisy big data, enabling near real-time analysis of urban dynamics."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2110.12371v1.pdf",
+    "title": "Neural Embeddings of Urban Big Data Reveal Emergent Structures in Cities",
+    "published_date": "2021-10-24",
+    "abstract": "In this study, we propose using a neural embedding model-graph neural network (GNN)- that leverages the heterogeneous features of urban areas and their interactions captured by human mobility network to obtain vector representations of these areas. Using large-scale high-resolution mobility data sets from millions of aggregated and anonymized mobile phone users in 16 metropolitan counties in the United States, we demonstrate that our embeddings encode complex relationships among features related to urban components (such as distribution of facilities) and population attributes and activities. The spatial gradient in each direction from city center to suburbs is measured using clustered representations and the shared characteristics among urban areas in the same cluster. Furthermore, we show that embeddings generated by a model trained on a different county can capture 50% to 60% of the emergent spatial structure in another county, allowing us to make cross-county comparisons in a quantitative way. Our GNN-based framework overcomes the limitations of previous methods used for examining spatial structures and is highly scalable. The findings reveal non-linear relationships among urban components and anisotropic spatial gradients in cities. Since the identified spatial structures and gradients capture the combined effects of various mechanisms, such as segregation, disparate facility distribution, and human mobility, the findings could help identify the limitations of the current city structure to inform planning decisions and policies. Also, the model and findings set the stage for a variety of research in urban planning, engineering and social science through integrated understanding of how the complex interactions between urban components and population activities and attributes shape the spatial structures in cities.",
+    "citation_count": 12,
+    "summary": "This study uses a graph neural network to generate vector embeddings of urban areas from mobile phone data, revealing complex, non-linear relationships between urban components and anisotropic spatial gradients that can inform urban planning and policy decisions. The model's transferable nature allows for quantitative cross-county comparisons of emergent urban structures."
+  },
+  {
+    "title": "Global mapping of urban–rural catchment areas reveals unequal access to services",
+    "abstract": "Significance Physical access to services and employment opportunities shapes the lives of people everywhere. For 3.4 billion people living in rural locations, the size of nearby urban centers and the associated travel time affect the breadth of services and opportunities available and their accessibility. We identify catchment areas of urban centers of different sizes and how many people gravitate toward each city or town, providing a full spatial representation of the connection between rural areas and urban centers and fresh insights on the diversity of urban–rural systems. The global dataset opens the door to applied research in various disciplines—such as poverty reduction, food systems, health, and education—where a person's place of residence is an important factor. Using travel time to cities of different sizes, we map populations across an urban–rural continuum to improve on the standard dichotomous representations of urban–rural interactions. We extend existing approaches by 1) building on central place theory to capture the urban hierarchy in access to services and employment opportunities provided by urban centers of different sizes, 2) defining urban–rural catchment areas (URCAs) expressing the interconnection between urban centers and their surrounding rural areas, and 3) adopting a global gridded approach comparable across countries. We find that one-fourth of the global population lives in periurban areas of intermediate and smaller cities and towns, which challenges the centrality of large cities in development. In low-income countries, 64% of the population lives either in small cities and towns or within their catchment areas, which has major implications for access to services and employment opportunities. Intermediate and small cities appear to provide catchment areas for proportionately more people gravitating around them than larger cities. This could indicate that, for countries transitioning to middle income, policies and investments strengthening economic linkages between urban centers and their surrounding rural areas may be as important as investing in urbanization or the rural hinterlands. The dataset provided can support national economic planning and territorial development strategies by enabling policy makers to focus more in depth on urban–rural interactions.",
+    "published_date": "2021-01-04",
+    "citation_count": 92,
+    "url": "https://ncbi.nlm.nih.gov/pmc/articles/PMC7959575/",
+    "summary": "This study globally maps urban-rural catchment areas based on travel time to cities of varying sizes, revealing unequal access to services and highlighting the significant role of smaller cities and towns, particularly in low-income countries, in supporting surrounding rural populations. The resulting dataset allows for improved understanding and targeting of policies related to poverty, health, and economic development."
+  }
+]

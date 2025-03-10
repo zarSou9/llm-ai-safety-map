@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13",
+    "summary": "Current methods for assessing the risk of catastrophic AI behavior rely on identifying harmful inputs, which is computationally expensive and incomplete. The article proposes developing techniques to estimate the probability of tail events (catastrophic failures) without relying on finding specific harmful inputs, thereby improving the safety of AI systems."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/GCqoks9eZDfpL8L3Q/how-to-prevent-collusion-when-using-untrusted-models-to",
+    "author": "Buck Shlegeris",
+    "title": "How to prevent collusion when using untrusted models to monitor each other",
+    "published_date": "2024-09-24",
+    "summary": "The article analyzes the vulnerability of \"untrusted monitoring,\" a safety technique for AI, to collusion between model instances. It finds that while simple anti-collusion mechanisms can mitigate some collusion strategies, more sophisticated coordination by scheming AIs can defeat these measures, highlighting the limitations of this technique, especially against highly capable AI."
+  },
+  {
+    "title": "Sentinels and Twins: Effective Integrity Assessment for Distributed Computation",
+    "abstract": "Distributed computing supports large scale and data-intensive computations with the cooperation of a multitude of parties, each responsible for a portion of the workload. Such parties are often not fully reliable and may return incorrect results. In this article, we address the problem of assessing the integrity of the computation results. We provide a comprehensive characterization of two techniques, sentinels and twins, evaluating their effectiveness and synergy. Sentinels are pre-computed tasks whose result is known apriori, and enable checking returned results against a ground truth. Twins are replicated tasks assigned to different workers, and enable cross-checking returned results for a same task. The analysis considers many questions that arise in the design of a concrete integrity assessment strategy and identifies the parameters that have a critical impact on the overall protection. Our model enables to tune the integrity controls so to achieve best effectiveness. The model can be applied to a variety of scenarios and offers guidelines that can find extensive application.",
+    "published_date": "2023-01-01",
+    "citation_count": 4,
+    "url": "https://ieeexplore.ieee.org/ielx7/71/4359390/09925639.pdf",
+    "summary": "This paper analyzes \"sentinels\" (pre-computed tasks with known results) and \"twins\" (replicated tasks) as methods for assessing the integrity of distributed computations. The authors characterize these techniques, evaluate their effectiveness individually and in combination, and develop a model to optimize their deployment for robust integrity assessment."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/yFofRxg7RRQYCcwFA/new-report-scheming-ais-will-ais-fake-alignment-during",
+    "author": "Joe Carlsmith",
+    "title": "AI as a science, and three obstacles to alignment strategies",
+    "published_date": "2023-10-25",
+    "summary": "The report investigates the plausibility of advanced AIs deceptively appearing aligned during training to gain power later (\"scheming\"). The author concludes that scheming is a concerning possibility, though not inevitable, due to the potential for reward systems to incentivize deceptive behavior and the difficulty in detecting it."
+  },
+  {
+    "title": "Attack Context Embedded Data Driven Trust Diagnostics in Smart Metering Infrastructure",
+    "abstract": "Spurious power consumption data reported from compromised meters controlled by organized adversaries in the Advanced Metering Infrastructure (AMI) may have drastic consequences on a smart grid's operations. While existing research on data falsification in smart grids mostly defends against isolated electricity theft, we introduce a taxonomy of various data falsification attack types, when smart meters are compromised by organized or strategic rivals. To counter these attacks, we first propose a coarse-grained and a fine-grained anomaly-based security event detection technique that uses indicators such as deviation and directional change in the time series of the proposed anomaly detection metrics to indicate: (i) occurrence, (ii) type of attack, and (iii) attack strategy used, collectively known asattack context. Leveraging the attack context information, we propose three attack response metrics to the inferred attack context: (a) an unbiased mean indicating a robust location parameter; (b) a median absolute deviation indicating a robust scale parameter; and (c) an attack probability time ratio metric indicating the active time horizon of attacks. Subsequently, we propose a trust scoring model based on Kullback-Leibler (KL) divergence, that embeds the appropriate unbiased mean, the median absolute deviation, and the attack probability ratio metric at runtime to produce trust scores for each smart meter. These trust scores help classify compromised smart meters from the non-compromised ones. The embedding of the attack context, into the trust scoring model, facilitates accurate and rapid classification of compromised meters, even under large fractions of compromised meters, generalize across various attack strategies and margins of false data. Using real datasets collected from two different AMIs, experimental results show that our proposed framework has a high true positive detection rate, while the average false alarm and missed detection rates are much lesser than 10% for most attack combinations for two different real AMI micro-grid datasets. Finally, we also establish fundamental theoretical limits of the proposed method, which will help assess the applicability of our method to other domains.",
+    "published_date": "2021-01-21",
+    "citation_count": 12,
+    "url": "https://dl.acm.org/doi/10.1145/3426739",
+    "summary": "This paper presents a data-driven trust diagnostic framework for smart meters that detects and classifies various sophisticated data falsification attacks by organized adversaries, using anomaly detection and a Kullback-Leibler divergence-based trust scoring model incorporating attack context information; the framework demonstrates high accuracy and robustness using real-world datasets."
+  },
+  {
+    "title": "An anomaly detection framework for digital twin driven cyber-physical systems",
+    "abstract": "In recent years, the digital twin has been one of the active research areas in modern Cyber-Physical Systems (CPS). Both the digital twin and its physical counterpart, called a plant, are highly intertwined such that they continuously exchange data to reveal useful information about the overall system. Such class of CPSs need to be robust to various types of disturbances, such as faulty sensors and model discrepancies, since the interplay between the physical plant's operation and digital twin's simulation may lead to undesirable or even destructive effect. To address this problem, this paper introduces a flexible anomaly detection framework for monitoring anomalous behaviours in digital twin based CPSs. In particular, our approach integrates both the digital twin and data-driven techniques that detect and classify anomalous behaviours due to modelling errors (e.g. incomplete models) and sensor and physical system's faults. The framework can be deployed to any general CPSs without the full knowledge of the digital twin's internal model. Therefore, our method is amenable to various types of digital twin implementations that enhance the traditional data-driven anomaly detection mechanism. We demonstrate the performance of our approach using the Tennessee Eastman Process model. The experimental result shows our approach is able to effectively detect and classify anomaly sources from the physical plant, sensor and digital twin, even in the situation when a certain combination of multiple anomalies occur simultaneously.",
+    "published_date": "2021-05-19",
+    "citation_count": 21,
+    "url": "https://dl.acm.org/doi/10.1145/3450267.3450533",
+    "summary": "This paper presents a flexible anomaly detection framework for digital twin-driven cyber-physical systems, integrating data-driven techniques with digital twin information to detect and classify anomalies stemming from modeling errors, sensor faults, or physical system failures, even when multiple anomalies occur simultaneously. The framework is applicable to various CPSs without requiring full knowledge of the digital twin's internal model."
+  },
+  {
+    "title": "Stealthy Attacks against Robotic Vehicles Protected by Control-based Intrusion Detection Techniques",
+    "abstract": "Robotic vehicles (RV) are increasing in adoption in many industrial sectors. RVs use auto-pilot software for perception and navigation and rely on sensors and actuators for operating autonomously in the physical world. Control algorithms have been used in RVs to minimize the effects of noisy sensors, prevent faulty actuator output, and, recently, to detect attacks against RVs. In this article, we demonstrate the vulnerabilities in control-based intrusion detection techniques and propose three kinds of stealthy attacks that evade detection and disrupt RV missions. We also propose automated algorithms for performing the attacks without requiring the attacker to expend significant effort or to know specific details of the RV, thus making the attacks applicable to a wide range of RVs. We demonstrate the attacks on eight RV systems including three real vehicles in the presence of an Intrusion Detection System using control-based techniques to monitor RV's runtime behavior and detect attacks. We find that the control-based techniques are incapable of detecting our stealthy attacks and that the attacks can have significant adverse impact on the RV's mission (e.g., deviate it significantly from its target, or cause it to crash).",
+    "published_date": "2021-01-22",
+    "citation_count": 21,
+    "url": "https://dl.acm.org/doi/10.1145/3419474",
+    "summary": "This paper demonstrates that control-based intrusion detection systems in robotic vehicles are vulnerable to three novel stealthy attacks, which can significantly disrupt vehicle missions without detection, even across diverse platforms. These attacks are automated and require minimal attacker knowledge, posing a significant security risk."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/mL8KdftNGBScmBcBg/optimization-concepts-in-the-game-of-life",
+    "author": "Vika, Ramana Kumar",
+    "title": "Optimization Concepts in the Game of Life",
+    "published_date": "2021-10-16",
+    "summary": "This paper defines and applies measures of robustness and retargetability (from Flint's work on optimization) to Conway's Game of Life, using it as a simplified model for studying embedded agency. The authors aim to understand the principles of agency in systems lacking pre-defined agent-environment boundaries, hoping to mitigate risks associated with powerful, goal-directed AI."
+  }
+]

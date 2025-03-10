@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/WJ7y8S9WdKRvrzJmR/building-ai-research-fleets",
+    "author": "Ben Goldhaber, Jesse Hoogland",
+    "title": "Building AI Research Fleets",
+    "published_date": "2025-01-12",
+    "summary": "Research automation is evolving beyond single \"AI scientists\" towards large-scale \"AI research fleets\"—complex systems of specialized AI agents working collaboratively. This requires a fundamental shift in research institutions, moving away from traditional academic models and adopting new organizational structures and workflows to effectively manage and leverage these powerful, yet resource-intensive, tools."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.08811",
+    "title": "Artificial Intelligence and Strategic Decision-Making: Evidence from Entrepreneurs and Investors",
+    "published_date": "2024-08-16",
+    "abstract": "This paper explores how artificial intelligence (AI) may impact the strategic decision-making (SDM) process in firms. We illustrate how AI could augment existing SDM tools and provide empirical evidence from a leading accelerator program and a start-up competition that current large language models can generate and evaluate strategies at a level comparable to entrepreneurs and investors. We then examine implications for the key cognitive processes underlying SDM—search, representation, and aggregation. Our analysis suggests that AI has the potential to enhance the speed, quality, and scale of strategic analysis, while also enabling new approaches, like virtual strategy simulations. However, the ultimate impact on firm performance will depend on competitive dynamics as AI capabilities progress. We propose a framework connecting AI use in SDM to firm outcomes and discuss how AI may reshape sources of competitive advantage. We conclude by considering how AI could both support and challenge core tenets of the theory-based view of strategy. Overall, our work maps out an emerging research frontier at the intersection of AI and strategy. History: This paper has been accepted for the Strategy Science Special Issue on Theory-Based View. Funding: The authors are grateful to their collaborating organizations and to the University of Michigan, Bocconi University Junior Researchers' Grant, and the INSEAD eLab Research Fund for financial support.",
+    "citation_count": 5,
+    "summary": "This paper investigates the impact of artificial intelligence on strategic decision-making in firms, finding that current large language models can generate and evaluate strategies comparably to humans, potentially enhancing speed, quality, and scale of analysis, while also impacting competitive dynamics and the theory-based view of strategy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.01722",
+    "title": "On Labs and Fabs: Mapping How Alliances, Acquisitions, and Antitrust are Shaping the Frontier AI Industry",
+    "published_date": "2024-06-03",
+    "abstract": "As frontier AI models advance, policy proposals for safe AI development are gaining increasing attention from researchers and policymakers. This paper explores the current integration in the AI supply chain, focusing on vertical relationships and strategic partnerships among AI labs, cloud providers, chip manufacturers, and lithography companies. It aims to lay the groundwork for a deeper understanding of the implications of various governance interventions, including antitrust measures. The study has two main contributions. First, it profiles 25 leading companies in the AI supply chain, analyzing 300 relationships and noting 80 significant mergers and acquisitions along with 40 antitrust cases. Second, we discuss potential market definitions and the integration drivers based on the observed trends. The analysis reveals predominant horizontal integration through natural growth rather than acquisitions and notable trends of backward vertical integration in the semiconductor supply chain. Strategic partnerships are also significant downstream, especially between AI companies and cloud providers, with large tech companies often pursuing conglomerate integration by acquiring specialized AI startups or forming alliances with frontier AI labs. To further understand the strategic partnerships in the industry, we provide three brief case studies featuring companies like OpenAI and Nvidia. We conclude by posing open research questions on market dynamics and possible governance interventions, such as licensing and safety audits.",
+    "summary": "This paper analyzes the evolving AI supply chain, mapping relationships between AI labs, cloud providers, and hardware manufacturers through mergers, acquisitions, and alliances, to inform future antitrust and governance considerations. The analysis reveals predominantly horizontal integration via organic growth and significant backward vertical integration in semiconductor manufacturing, alongside strategic partnerships, particularly between AI companies and cloud providers."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bdQhzQsHjNrQp7cNS/estimates-of-gpu-or-equivalent-resources-of-large-ai-players",
+    "author": "CharlesD",
+    "title": "Estimates of GPU or equivalent resources of large AI players for 2024/5",
+    "published_date": "2024-11-28",
+    "summary": "The article estimates the amount of AI compute power (primarily Nvidia GPUs) major companies like Microsoft, Meta, Google, Amazon, and XAI will possess in 2024 and 2025, acknowledging significant uncertainty and reliance on publicly available, potentially inaccurate data. The author projects substantial growth in available compute, primarily driven by increasing Nvidia GPU production."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/NFWkErajAMHe5taHu/is-the-ai-doomsday-narrative-the-product-of-a-big-tech-1",
+    "author": "garrison",
+    "title": "Is the AI Doomsday Narrative the Product of a Big Tech Conspiracy?",
+    "published_date": "2024-12-04",
+    "summary": "Leading AI executives publicly express concern about AI's potential for human extinction, a claim met with skepticism that it's a cynical ploy to deflect regulation or hype products. However, the article also notes that many other tech CEOs downplay these existential risks while simultaneously profiting immensely from AI's rapid growth."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.10640.pdf",
+    "title": "Evolving Strategies for Competitive Multi-Agent Search",
+    "published_date": "2023-06-18",
+    "abstract": "While evolutionary computation is well suited for automatic discovery in engineering, it can also be used to gain insight into how humans and organizations could perform more effectively. Using a real-world problem of innovation search in organizations as the motivating example, this article first formalizes human creative problem solving as competitive multi-agent search (CMAS). CMAS is different from existing single-agent and team search problems in that the agents interact through knowledge of other agents' searches and through the dynamic changes in the search landscape that result from these searches. The main hypothesis is that evolutionary computation can be used to discover effective strategies for CMAS; this hypothesis is verified in a series of experiments on the NK model, i.e.\\ partially correlated and tunably rugged fitness landscapes. Different specialized strategies are evolved for each different competitive environment, and also general strategies that perform well across environments. These strategies are more effective and more complex than hand-designed strategies and a strategy based on traditional tree search. Using a novel spherical visualization of such landscapes, insight is gained about how successful strategies work, e.g.\\ by tracking positive changes in the landscape. The article thus provides a possible framework for studying various human creative activities as competitive multi-agent search in the future.",
+    "citation_count": 1,
+    "summary": "This paper models human creative problem-solving as competitive multi-agent search (CMAS) and uses evolutionary computation to discover effective CMAS strategies on NK fitness landscapes, finding that evolved strategies outperform hand-designed and traditional tree search methods. These evolved strategies offer insights into successful approaches to navigating dynamically changing competitive search environments."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/g5XLHKyApAFXi3fso/president-biden-issues-executive-order-on-safe-secure-and",
+    "author": "Tristan Williams",
+    "title": "President Biden Issues Executive Order on Safe, Secure, and Trustworthy Artificial Intelligence",
+    "published_date": "2023-10-30",
+    "summary": "The U.S. government issued a sweeping executive order addressing AI risks, mandating safety testing transparency for powerful AI systems, establishing standards for AI safety and security, and addressing potential misuse in areas like biological engineering, fraud, and discrimination. The order also promotes international collaboration on AI safety and responsible development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zYv9BQBGnk2EdCwoG/the-psyche-of-ai-pattern-recognition",
+    "author": "Scott Broock",
+    "title": "AI and the Map of Your Mind: Pattern Recognition",
+    "published_date": "2023-03-20",
+    "summary": "Integrating large language models into productivity suites allows AI to create personalized knowledge graphs from user data, potentially revolutionizing learning and decision-making by revealing hidden connections and patterns. However, this also raises concerns about granting AI unrestricted access to personal information and its implications for understanding the human psyche."
+  }
+]

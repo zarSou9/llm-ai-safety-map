@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Safety-Assured Design and Adaptation of Learning-Enabled Autonomous Systems",
+    "abstract": "Future autonomous systems will employ sophisticated machine learning techniques for the sensing and perception of the surroundings and the making corresponding decisions for planning, control, and other actions. They often operate in highly dynamic, uncertain and challenging environment, and need to meet stringent timing, resource, and mission requirements. In particular, it is critical and yet very challenging to ensure the safety of these autonomous systems, given the uncertainties of the system inputs, the constant disturbances on the system operations, and the lack of analyzability for many machine learning methods (particularly those based on neural networks). In this paper, we will discuss some of these challenges, and present our work in developing automated, quantitative, and formalized methods and tools for ensuring the safety of autonomous systems in their design and during their runtime adaptation. We argue that it is essential to take a holistic approach in addressing system safety and other safety-related properties, vertically across the functional, software, and hardware layers, and horizontally across the autonomy pipeline of sensing, perception, planning, and control modules. This approach could be further extended from a single autonomous system to a multi-agent system where multiple autonomous agents perform tasks in a collaborative manner. We will use connected and autonomous vehicles (CAVs) as the main application domain to illustrate the importance of such holistic approach and show our initial efforts in this direction.",
+    "published_date": "2021-01-18",
+    "citation_count": 23,
+    "url": "https://dl.acm.org/doi/10.1145/3394885.3431623"
+  },
+  {
+    "title": "Safety from in-the-loop reachability for cyber-physical systems",
+    "abstract": "We demonstrate a methodology for achieving safe autonomy that relies on computing reachable sets at runtime. Given a system subject to disturbances controlled by an unverified and potentially faulty controller, this methodology computes at each time the reachable set of the system under a backup control law to ensure the system is within reach of a known a priori safe region. Control barrier functions are then used in conjunction with the reachable set to adjust potentially unsafe control actions that would otherwise move the system beyond reach of this safe set. This approach faces several computational challenges: reachable sets for the dynamics must be computed at runtime; sensitivity of the reachable set to initial conditions is required for the control barrier optimization formulation; and the presence of disturbances introduces a large number of constraints in the resulting optimization. The proposed methodology leverages the theory of mixed monotone systems to address these challenges, and the main contribution of this paper is an application of this methodology to a ten dimensional dual planar multirotor system that is implemented on embedded hardware with a controller update rate up to 100Hz.",
+    "published_date": "2021-05-19",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3457335.3461706"
+  },
+  {
+    "title": "Synthesis-Based Resolution of Feature Interactions in Cyber-Physical Systems",
+    "abstract": "The feature interaction problem arises when two or more independent features interact with each other in an undesirable manner. Feature interactions remain a challenging and important problem in emerging domains of cyber-physical systems (CPS), such as intelligent vehicles, unmanned aerial vehicles (UAVs) and the Internet of Things (IoT), where the outcome of an unexpected interaction may result in a safety failure. Existing approaches to resolving feature interactions rely on priority lists or fixed strategies, but may not be effective in scenarios where none of the competing feature actions are satisfactory with respect to system requirements. This paper proposes a novel synthesis-based approach to resolution, where a conflict among features is resolved by synthesizing an action that best satisfies the specification of desirable system behaviors in the given environmental context. Unlike existing resolution methods, our approach is capable of producing a desirable system outcome even when none of the conflicting actions are satisfactory. The effectiveness of the proposed approach is demonstrated using a case study involving interactions among safety-critical features in an autonomous drone.",
+    "published_date": "2020-09-01",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3324884.3416630"
+  },
+  {
+    "title": "Resource-Cost-Aware Fault-Tolerant Design Methodology for End-to-End Functional Safety Computation on Automotive Cyber-Physical Systems",
+    "abstract": "Automotive functional safety standard ISO 26262 aims to avoid unreasonable risks due to systematic failures and random hardware failures caused by malfunctioning behavior. Automotive functions involve distributed end-to-end computation in automotive cyber-physical systems (ACPSs). The automotive industry is highly cost-sensitive to the mass market. This study presents a resource-cost-aware fault-tolerant design methodology for end-to-end functional safety computation on ACPSs. The proposed design methodology involves early functional safety requirement verification and late resource cost design optimization. We first propose the functional safety requirement verification (FSRV) method to verify the functional safety requirement consisting of reliability and response time requirements of the distributed automotive function during the early design phase. We then propose the resource-cost-aware fault-tolerant optimization (RCFO) method to reduce the resource cost while satisfying the functional safety requirement of the function during the late design phase. Finally, we perform experiments with real-life automotive and synthetic automotive functions. Findings reveal that the proposed RCFO and VFSR methods demonstrate satisfactory resource cost reduction compared with other methods while satisfying the functional safety requirement.",
+    "published_date": "2018-09-05",
+    "citation_count": 5,
+    "url": "https://dl.acm.org/doi/10.1145/3162052"
+  },
+  {
+    "title": "A Measures and Metrics Framework for Software Safety",
+    "abstract": "A set of software-safety metrics is presented in this paper. The proposed metrics framework is intended to address software-safety risk assessment and can be used to evaluate the software-safety quality of a process. The framework attempts to assess safety risks from the beginning of the software development lifecycle and helps to implement efficient solutions. The complete framework is based on McCall's Factors, Criteria and Metrics approach and useful for assessing the degree of safety risk prevalence. The objective is to identify software elements that can lead to accidents if not properly addressed with the support of the safety engineering and software engineering disciplines. Various safety analysis methods including hazard analysis, standards, and guidelines are reviewed for their limitations and practical problems are considered. The framework considers measures that contribute to safety assessment through metrics in each of the Software Development Life Cycle phase. An experimental laboratory setup as 'Safety-Critical System' called Railroad Crossing Critical System (RCCS), which implements a safety-critical software, is used for demonstration and to validate the utility of the framework.",
+    "published_date": "2015-02-06",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/2693208.2693227"
+  },
+  {
+    "title": "A measurement-based design and evaluation methodology for embedded control systems",
+    "abstract": "A measurement-based design and evaluation methodology for embedded control systems is presented that features 1) better control of executions through reduction of non-determinism, 2) certified behavior of executions, 3) real-time monitoring of operations, functionalities and modules, which 4) allows adaptation to non-certified behavior. Using principles of Design for Survivability the software system is broken down into costatements (the unit of execution in Dynamic C) with low degree of non-determinism in their executions. This results in a significant increase in the accuracy of run-time profiling, which in turn achieves potential for better detection of deviation from certified executions. The formal model to achieve these goals is introduced and the effectiveness is demonstrated in a real control",
+    "published_date": "2011-10-12",
+    "citation_count": 3,
+    "url": "https://dl.acm.org/doi/10.1145/2179298.2179335"
+  }
+]

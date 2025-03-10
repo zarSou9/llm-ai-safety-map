@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/93nKtsDL6YY5fRbQv/case-studies-in-reverse-engineering-sparse-autoencoder",
+    "author": "Jacob Dunefsky, Philippe Chlenski, Senthooran Rajamanoharan, Neel Nanda",
+    "title": "Case Studies in Reverse-Engineering Sparse Autoencoder Features by Using MLP Linearization",
+    "published_date": "2024-01-14"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/Fg2gAgxN6hHSaTjkf/scaling-and-evaluating-sparse-autoencoders",
+    "author": "Leogao",
+    "title": "Scaling and evaluating sparse autoencoders",
+    "published_date": "2024-06-06"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/DtdzGwFh9dCfsekZZ/sparse-autoencoders-work-on-attention-layer-outputs",
+    "author": "Connor Kissane, robertzk, Arthur Conmy, Neel Nanda",
+    "title": "Sparse Autoencoders Work on Attention Layer Outputs",
+    "published_date": "2024-01-16"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bCtbuWraqYTDtuARg/towards-multimodal-interpretability-learning-sparse-2",
+    "author": "hugofry",
+    "title": "Towards Multimodal Interpretability: Learning Sparse Interpretable Features in Vision Transformers",
+    "published_date": "2024-04-29"
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.02429",
+    "title": "An Exploratory Approach for Game Engine Architecture Recovery",
+    "published_date": "2023-03-04",
+    "abstract": "Game engines provide video game developers with a wide range of fundamental subsystems for creating games, such as 2D/3D graphics rendering, input device management, and audio playback. Developers often integrate these subsystems with other applications or extend them via plugins. To integrate or extend correctly, developers need a broad system architectural understanding. However, architectural information is not always readily available and is often overlooked in this kind of system. In this work, we propose an approach for game engine architecture recovery and explore the architecture of three popular open-source game engines (Cocos2d-x, Godot, and Urho3D). We perform manual subsystem detection and use Moose, a platform for software analysis, to generate architectural models. With these models, we answer the following questions: Which subsystems are present in game engines? Which subsystems are more often coupled with one another? Why are these subsystems coupled with each other? Results show that the platform independence, resource management, world editor, and core subsystems are frequently included by others and therefore act as foundations for the game engines. Furthermore, we show that, by applying our approach, game engine developers can understand whether subsystems are related and divide responsibilities. They can also assess whether relationships among subsystems are appropriate for the game engine.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/xNgdJEep9DQQWhSbv/understanding-the-information-flow-inside-large-language",
+    "author": "Felix Hofstätter, cozyfractal",
+    "title": "Understanding the Information Flow inside Large Language Models",
+    "published_date": "2023-08-15"
+  }
+]

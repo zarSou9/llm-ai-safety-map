@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.lesswrong.com/tag/eliezer-yudkowsky",
+    "title": "Eliezer Yudkowsky - LessWrong",
+    "published_date": "2024-02-01"
+  },
+  {
+    "title": "Case-Based Approach to Detect Emergence",
+    "abstract": "In recent years the concept of emergence has captured significant attention in the field of complex systems. However, it is difficult to predict, detect and control emergent phenomena. This prevents us from exploring its full potential. The research effort in this paper focuses on detecting emergent behaviours by proposing a new approach inspired by Case-Based Reasoning (CBR). The approach lies in four items: (1) The use of this kind of reasoning in order to detect Emergence in these systems, (2) A Case is represented inspired by Causal Temporal Signature (CTS) which are adapted in complex systems, (3) The use of Simulation and data formalism to transform data from simulation into two forms (Normal, Emergent), (4) Reasoning and learning to diagnose the system and detect unexpected/unwanted system state, furthermore, the update of the data base of cases when a new unknown behaviour appears. Since this is a part of on-going research, future direction is also discussed.",
+    "published_date": "2019-11-20",
+    "citation_count": 3,
+    "url": "https://dl.acm.org/doi/10.1145/3372454.3372484"
+  },
+  {
+    "title": "Emergent software services",
+    "abstract": "Services are normally composed following a structured model, or based on a particular goal that needs to be fulfilled. Such model is problematic for pervasive environments, since service components deployed in the environment are unknown beforehand. As a result, services may never execute due to the unavailability of one of the pre-specified components, or components missing to fulfill the service goal. This paper posits a new vision for service composition by inverting the control flow of service-oriented applications between users and the environment. Rather than having to request a particular service, services emerge from the environment based on interactions between available service components, and are pushed to be utilized by users. We present the architecture required to fulfill our vision in enabling service emergence in a pervasive environment. This vision architecture is realized by an initial prototype framework for software service emergence called Mordor. Early results of this vision are obtained from two examples demonstrating the feasibility of services emergence from previously unknown service components, and a case study demonstrating Mordor's usability in real world scenarios.",
+    "published_date": "2016-10-20",
+    "citation_count": 10,
+    "url": "https://dl.acm.org/doi/10.1145/2986012.2986016"
+  },
+  {
+    "title": "Emergent gummy modules: modular representation of emergent behavior",
+    "abstract": "Emergent behavior is generally defined as the appearance of complex behavior out of multiplicity of relatively simple interactions. Nowadays, there are various kinds of software systems that deal with detecting the emergence of certain behavior in environment, representing it in the software and providing means to manipulate the behavior. Where significant amount of research has been dedicated to develop algorithms for detecting emergent behavior, there is no dedicated attempt to provide suitable linguistic abstractions to modularize emergent behavior and its related concerns. This results in implementations that are complex and hard to maintain. In this paper, we identify three characteristic features of emergent behavior, and outline the shortcomings of current languages to properly program and modularize emergent behavior. We introduce emergent gummy modules as dedicated linguistic abstractions, which facilitate defining the appearance and disappearance conditions of emergent behavior as well as its utilization operations as one holistic module. We explain the implementation of emergent gummy modules in the GummyJ language, and illustrate that they improve the modularity of implementations. We represent the event processing semantics of GummyJ programs in UPPAAL model checker and verify their correctness.",
+    "published_date": "2015-05-12",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/2658761.2658764"
+  },
+  {
+    "title": "Post-mortem analysis of emergent behavior in complex simulation models",
+    "abstract": "Analyzing and validating emergent behavior in component-based models is increasingly challenging as models grow in size and complexity. Despite increasing research interest, there is a lack of automated, formalized approaches to identify emergent behavior and its causes. As part of our integrated framework for understanding emergent behavior, we propose a post-mortem emergence analysis approach that identifies the causes of emergent behavior in terms of properties of the composed model and properties of the individual model components, and their interactions. In this paper, we detail the use of reconstructability analysis for post-mortem analysis of known emergent behavior. The two-step process first identifies model components that are most likely to have caused emergent behavior, and then analyzes their interaction. Our case study using small and large examples demonstrates the applicability of our approach.",
+    "published_date": "2013-05-19",
+    "citation_count": 20,
+    "url": "https://dl.acm.org/doi/10.1145/2486092.2486123"
+  },
+  {
+    "title": "On the role of composition code properties on evolving programs",
+    "abstract": "Composition code defines the binding of two or more modules in a program. Post object-oriented programming techniques are increasingly providing expressive mechanisms to enable the flexible definition of composition code. Such composition mechanisms are intended to support programmers in factoring out the complexity of a program and facilitate its evolution. However, the properties of composition code might introduce new flavours of complexity, and in turn cause side effects on program evolvability. Unfortunately, the role of composition code properties on evolving software systems is not yet well understood. This gap is mostly due to the lack of a measurement framework to characterize and quantify composition code. Existing metrics suites are focused on quantifying properties of programs and their modules only. Therefore, programmers are not able to analyse and understand the impact of particular composition properties on program evolvability. This paper presents a framework aimed at characterizing and computing composition code properties. The proposed framework consists of terminology and a metrics suite, which can be used in programs structured with diverse sets of composition mechanisms. We also empirically studied the role of the measurement framework through 22 versions of 4 software projects. Our evaluation revealed that the measurement framework provided consistent indicators of program instabilities observed in history of the evolving compositions.",
+    "published_date": "2012-09-19",
+    "citation_count": 8,
+    "url": "https://dl.acm.org/doi/10.1145/2372251.2372304"
+  }
+]

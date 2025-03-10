@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2408.11627",
+    "title": "Runtime Verification via Rational Monitor with Imperfect Information",
+    "published_date": "2024-08-21",
+    "abstract": "Trusting software systems, particularly autonomous ones, is challenging. To address this, formal verification techniques can ensure these systems behave as expected. Runtime Verification (RV) is a leading, lightweight method for verifying system behaviour during execution. However, traditional RV assumes perfect information, meaning the monitoring component perceives everything accurately. This assumption often fails, especially with autonomous systems operating in real-world environments where sensors might be faulty. Additionally, traditional RV considers the monitor to be passive, lacking the capability to interpret the system's information and thus unable to address incomplete data. In this work, we extend standard RV of Linear Temporal Logic properties to accommodate scenarios where the monitor has imperfect information and behaves rationally. We outline the necessary engineering steps to update the verification pipeline and demonstrate our implementation in a case study involving robotic systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.18798",
+    "title": "Formal Verification of Digital Twins with TLA and Information Leakage Control",
+    "published_date": "2024-11-27",
+    "abstract": "Verifying the correctness of a digital twin provides a formal guarantee that the digital twin operates as intended. Digital twin verification is challenging due to the presence of uncertainties in the virtual representation, the physical environment, and the bidirectional flow of information between physical and virtual. A further challenge is that a digital twin of a complex system is composed of distributed components. This paper presents a methodology to specify and verify digital twin behavior, translating uncertain processes into a formally verifiable finite state machine. We use the Temporal Logic of Actions (TLA) to create a specification, an implementation abstraction that defines the properties required for correct system behavior. Our approach includes a novel weakening of formal security properties, allowing controlled information leakage while preserving theoretical guarantees. We demonstrate this approach on a digital twin of an unmanned aerial vehicle, verifying synchronization of physical-to-virtual and virtual-to-digital data flows to detect unintended misalignments."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/knuths-up-arrow-notation",
+    "title": "Knuth's Up-Arrow Notation - LessWrong",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.13266.pdf",
+    "title": "Stream-based Decentralized Runtime Verification",
+    "published_date": "2023-01-30",
+    "abstract": "Industrial Control Systems (ICS) are often built from geographically distributed components and often use programmable logic controllers for localized processes. Since verification of such systems is challenging because of both time sensitivity of the system specifications and the inherent asynchrony in distributed components, developing runtime assurance that verifies not just the correctness of different components, but also generates aggregated statistics of the systems is of interest. In this paper, we first present a general technique for runtime monitoring of distributed applications whose behavior can be modeled as input/output {\\em streams} with an internal computation module in the partially synchronous semantics, where an imperfect clock synchronization algorithm is assumed. Second, we propose a generalized stream-based decentralized runtime verification technique. We also rigorously evaluate our algorithm on extensive synthetic experiments and several ICS and aircraft SBS message datasets."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.16530.pdf",
+    "title": "Runtime Verification of Self-Adaptive Systems with Changing Requirements",
+    "published_date": "2023-03-29",
+    "abstract": "To accurately make adaptation decisions, a self-adaptive system needs precise means to analyze itself at runtime. To this end, runtime verification can be used in the feedback loop to check that the managed system satisfies its requirements formalized as temporal-logic properties. These requirements, however, may change due to system evolution or uncertainty in the environment, managed system, and requirements themselves. Thus, the properties under investigation by the runtime verification have to be dynamically adapted to represent the changing requirements while preserving the knowledge about requirements satisfaction gathered thus far, all with minimal latency. To address this need, we present a runtime verification approach for self-adaptive systems with changing requirements. Our approach uses property specification patterns to automatically obtain automata with precise semantics that are the basis for runtime verification. The automata can be safely adapted during runtime verification while preserving intermediate verification results to seamlessly reflect requirement changes and enable continuous verification. We evaluate our approach on an Arduino prototype of the Body Sensor Network and the Timescales benchmark. Results show that our approach is over five times faster than the typical approach of redeploying and restarting runtime monitors to reflect requirements changes, while improving the system's trustworthiness by avoiding interruptions of verification.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/abs/2204.09796",
+    "title": "Distributed Runtime Verification of Metric Temporal Properties for Cross-Chain Protocols",
+    "published_date": "2022-04-20",
+    "abstract": "Transactions involving multiple blockchains are implemented by cross-chain protocols. These protocols are based on smart contracts, programs that run on blockchains, executed by a network of computers. Verifying the runtime correctness of smart contracts is a problem of compelling practical interest since, smart contracts can automatically transfer ownership of cryptocurrencies, electronic securities, and other valuable assets among untrusting parties. Such verification is challenging since smart contract execution is time sensitive, and the clocks on different blockchains may not be perfectly synchronized. This paper describes a method for runtime monitoring of blockchain executions. First, we propose a generalized runtime verification technique for verifying partially synchronous distributed computations for the metric temporal logic (MTL) by exploiting bounded-skew clock synchronization. Second, we introduce a progression-based formula rewriting scheme for monitoring MTL specifications which employs SMT solving techniques and report experimental results.",
+    "citation_count": 11
+  }
+]

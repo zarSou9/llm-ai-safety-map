@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2501.08184",
+    "title": "Assessing AI Adoption and Digitalization in SMEs: A Framework for Implementation",
+    "published_date": "2025-01-14",
+    "abstract": "The primary objective of this research is to examine the current state of digitalization and the integration of artificial intelligence (AI) within small and medium-sized enterprises (SMEs) in Italy. There is a significant gap between SMEs and large corporations in their use of AI, with SMEs facing numerous barriers to adoption. This study identifies critical drivers and obstacles to achieving intelligent transformation, proposing a framework model to address key challenges and provide actionable guidelines",
+    "summary": "This study investigates Italian SMEs' AI adoption and digitalization, revealing a significant gap compared to larger companies. It identifies key barriers and drivers, proposing a framework to guide successful AI implementation in SMEs."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.12752",
+    "title": "Organizational culture and the usage of Industry 4.0 technologies: evidence from Swiss businesses",
+    "published_date": "2024-12-17",
+    "abstract": "Using novel establishment-level observational data from Switzerland, we empirically examine whether the usage of key technologies of Industry 4.0 distinguishes across firms with different types of organizational culture. Based on the Technology-Organization-Environment and the Competing Values framework, we hypothesize that the developmental culture has the greatest potential to promote the usage of Industry 4.0 technologies. We also hypothesize that companies with a hierarchical or rational culture are especially likely to make use of automation technologies, such as AI and robotics. By means of descriptive statistics and multiple regression analysis, we find empirical support for our first hypothesis, while we cannot con-firm our second hypothesis. Our empirical results provide important implications for managerial decision-makers. Specifically, the link between organizational culture and the implementation of Industry 4.0 technologies is relevant for managers, as this knowledge helps them to cope with digital transformation in turbulent times and keep their businesses competitive.",
+    "summary": "A Swiss study found that firms with a developmental organizational culture are more likely to adopt Industry 4.0 technologies, while a hierarchical or rational culture did not significantly correlate with automation technology adoption."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zo5eyCz5hCkRqFqvn/why-openai-s-structure-must-evolve-to-advance-our-mission",
+    "author": "stuhlmueller",
+    "title": "Why OpenAI's Structure Must Evolve To Advance Our Mission",
+    "published_date": "2024-12-28",
+    "summary": "OpenAI plans to restructure as a Delaware Public Benefit Corporation (PBC), balancing shareholder and public interests while creating a significantly-resourced non-profit to pursue charitable initiatives, aiming for long-term sustainability and mission advancement in the development of beneficial artificial general intelligence (AGI)."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.05481",
+    "title": "Artificial Intelligence in the Knowledge Economy",
+    "published_date": "2023-12-09",
+    "abstract": "The rise of Artificial Intelligence (AI) has the potential to reshape the knowledge economy by enabling problem solving at scale. This paper introduces a framework to analyze this transformation, incorporating AI into an economy where humans form hierarchical firms to use their time efficiently: Less knowledgeable individuals become\"workers\"solving routine problems, while more knowledgeable individuals become\"solvers\"assisting workers with exceptional problems. We model AI as a technology that transforms computing power into\"AI agents,\"which can either operate autonomously (as co-workers or solvers/co-pilots) or non-autonomously (only as co-pilots). We show that basic autonomous AI displaces humans towards specialized problem solving, leading to smaller, less productive, and less decentralized firms. In contrast, advanced autonomous AI reallocates humans to routine work, resulting in larger, more productive, and more decentralized firms. While autonomous AI primarily benefits the most knowledgeable individuals, non-autonomous AI disproportionately benefits the least knowledgeable. However, autonomous AI achieves higher overall output. These findings reconcile seemingly contradictory empirical evidence and reveal key tradeoffs involved in regulating AI autonomy.",
+    "summary": "This paper models the impact of artificial intelligence (AI) on hierarchical firms within a knowledge economy, finding that basic autonomous AI leads to smaller, less productive firms while advanced autonomous AI creates larger, more productive ones, with differing distributional effects depending on AI autonomy. The model reveals trade-offs in regulating AI autonomy and reconciles conflicting empirical observations."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2304.11771.pdf",
+    "title": "Generative AI at Work",
+    "published_date": "2023-04-01",
+    "abstract": "We study the staggered introduction of a generative AI-based conversational assistant using data from 5,172 customer support agents. Access to AI assistance increases worker productivity, as measured by issues resolved per hour, by 15\\% on average, with substantial heterogeneity across workers. Less experienced and lower-skilled workers improve both the speed and quality of their output while the most experienced and highest-skilled workers see small gains in speed and small declines in quality. We also find evidence that AI assistance facilitates worker learning and improves English fluency, particularly among international agents. While AI systems improve with more training data, we find that the gains from AI adoption are largest for relatively rare problems, where human agents have less baseline training and experience. Finally, we provide evidence that AI assistance improves the experience of work along two key dimensions: customers are more polite and less likely to ask to speak to a manager.",
+    "citation_count": 294,
+    "summary": "A study of 5,172 customer support agents shows that a generative AI assistant increased worker productivity by 15% on average, with the greatest benefits for less experienced workers, while also improving work experience and agent fluency."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.10897",
+    "title": "Transformations in the Time of The Transformer",
+    "published_date": "2023-12-18",
+    "abstract": "Foundation models offer a new opportunity to redesign existing systems and workflows with a new AI first perspective. However, operationalizing this opportunity faces several challenges and tradeoffs. The goal of this article is to offer an organizational framework for making rational choices as enterprises start their transformation journey towards an AI first organization. The choices provided are holistic, intentional and informed while avoiding distractions. The field may appear to be moving fast, but there are core fundamental factors that are relatively more slow moving. We focus on these invariant factors to build the logic of the argument.",
+    "citation_count": 1,
+    "summary": "This article presents a framework for organizations transitioning to AI-first systems using foundation models, emphasizing strategic, long-term considerations over rapidly changing technological details. It aims to guide enterprises in making informed choices during their AI transformation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.13081",
+    "title": "Organizational Governance of Emerging Technologies: AI Adoption in Healthcare",
+    "published_date": "2023-04-25",
+    "abstract": "Private and public sector structures and norms refine how emerging technology is used in practice. In healthcare, despite a proliferation of AI adoption, the organizational governance (i.e. institutional governance) surrounding its use and integration is often poorly understood. What the Health AI Partnership (HAIP) aims to do in this research is to better define the requirements for adequate organizational governance of AI systems in healthcare settings and support health system leaders to make more informed decisions around AI adoption. To work towards this understanding, we first identify how the standards for the AI adoption in healthcare may be designed to be used easily and efficiently. Then, we map out the precise decision points involved in the practical institutional adoption of AI technology within specific health systems. Practically, we achieve this through a multi-organizational collaboration with leaders from major health systems across the United States and key informants from related fields. Working with the consultancy IDEO.org, we were able to conduct usability-testing sessions with healthcare and AI ethics professionals. Usability analysis revealed a prototype structured around mock key decision points that align with how organizational leaders approach technology adoption. Concurrently, we conducted semi-structured interviews with 89 professionals in healthcare and other relevant fields. Using a modified grounded theory approach, we were able to identify 8 key decision points and comprehensive procedures throughout the AI adoption lifecycle. This is one of the most detailed qualitative analyses to date of the current governance structures and processes involved in AI adoption by health systems in the United States. We hope these findings can inform future efforts to build capabilities to promote the safe, effective, and responsible adoption of emerging technologies in healthcare.",
+    "citation_count": 21,
+    "summary": "This research investigates organizational governance of AI adoption in US healthcare, identifying eight key decision points throughout the AI lifecycle via qualitative analysis of interviews and usability testing with healthcare professionals and AI ethicists to inform safer and more responsible technology integration. The study aims to improve decision-making around AI adoption within health systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "The article explores applying game theory to AI development within organizations, highlighting its limitations in complex bureaucratic settings. It argues that despite AI's potential, human-AI collaboration within a bureaucratic structure, leveraging comparative advantage and specialized tasks, remains crucial for efficient goal achievement."
+  }
+]

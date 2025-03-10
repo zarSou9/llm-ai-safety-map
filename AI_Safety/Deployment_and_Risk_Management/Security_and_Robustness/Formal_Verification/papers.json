@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://arxiv.org/abs/1903.01287v1",
+    "title": "Safety Verification and Robustness Analysis of Neural Networks via Quadratic Constraints and Semidefinite Programming",
+    "published_date": "2019-03-04",
+    "abstract": "Certifying the safety or robustness of neural networks against input uncertainties and adversarial attacks is an emerging challenge in the area of safe machine learning and control. To provide such a guarantee, one must be able to bound the output of neural networks when their input changes within a bounded set. In this article, we propose a semidefinite programming (SDP) framework to address this problem for feed-forward neural networks with general activation functions and input uncertainty sets. Our main idea is to abstract various properties of activation functions (e.g., monotonicity, bounded slope, bounded values, and repetition across layers) with the formalism of quadratic constraints. We then analyze the safety properties of the abstracted network via the S-procedure and SDP. Our framework spans the tradeoff between conservatism and computational efficiency and applies to problems beyond safety verification. We evaluate the performance of our approach via numerical problem instances of various sizes.",
+    "citation_count": 203,
+    "summary": "This paper presents a novel semidefinite programming (SDP) framework for verifying the safety and robustness of feed-forward neural networks by abstracting activation function properties as quadratic constraints. The framework, leveraging the S-procedure, offers a trade-off between computational efficiency and conservatism, applicable to various safety verification problems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/KX3Qwr7QM7CvhJLG6/provably-safe-ai",
+    "author": "PeterMcCluskey",
+    "title": "Provably Safe AI",
+    "published_date": "2023-10-05",
+    "summary": "Tegmark and Omohundro propose using automated theorem provers to ensure AI safety by proving that AI systems adhere to specified safety properties before deployment, though this approach faces challenges in proving properties about complex neural networks and managing the training process within provably safe constraints."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25",
+    "summary": "The article explores the challenges of formally verifying neural network behavior, arguing that the strictness of formal proofs makes them impractical for large networks. Instead, it proposes \"heuristic explanations,\" quantifiable through \"surprise accounting,\" as a more feasible approach to understanding and mitigating risks."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2212.06129.pdf",
+    "title": "Safe Reinforcement Learning with Probabilistic Guarantees Satisfying Temporal Logic Specifications in Continuous Action Spaces",
+    "published_date": "2022-12-12",
+    "abstract": "Vanilla Reinforcement Learning (RL) can efficiently solve complex tasks but does not provide any guarantees on system behavior. To bridge this gap, we propose a three- step safe RL procedure for continuous action spaces that provides probabilistic guarantees with respect to temporal logic specifications. First, our approach probabilistically verifies a candidate controller with respect to a temporal logic specification while randomizing the control inputs to the system within a bounded set. Second, we improve the performance of this probabilistically verified controller by adding an RL agent that optimizes the verified controller for performance in the same bounded set around the control input. Third, we verify probabilistic safety guarantees with respect to temporal logic specifications for the learned agent. Our approach is efficiently implementable for continuous action and state spaces. The separation of safety verification and performance improvement into two distinct steps realizes both explicit probabilistic safety guarantees and a straightforward RL setup that focuses on performance. We evaluate our approach on an evasion task where a robot has to reach a goal while evading a dynamic obstacle with a specific maneuver. Our results show that our safe RL approach leads to efficient learning while maintaining its probabilistic safety specification.",
+    "citation_count": 1,
+    "summary": "This paper presents a three-step safe reinforcement learning method for continuous action spaces that provides probabilistic guarantees on satisfying temporal logic specifications. The approach combines probabilistic verification of a controller with reinforcement learning for performance improvement, ensuring both safety and efficiency."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.18798",
+    "title": "Formal Verification of Digital Twins with TLA and Information Leakage Control",
+    "published_date": "2024-11-27",
+    "abstract": "Verifying the correctness of a digital twin provides a formal guarantee that the digital twin operates as intended. Digital twin verification is challenging due to the presence of uncertainties in the virtual representation, the physical environment, and the bidirectional flow of information between physical and virtual. A further challenge is that a digital twin of a complex system is composed of distributed components. This paper presents a methodology to specify and verify digital twin behavior, translating uncertain processes into a formally verifiable finite state machine. We use the Temporal Logic of Actions (TLA) to create a specification, an implementation abstraction that defines the properties required for correct system behavior. Our approach includes a novel weakening of formal security properties, allowing controlled information leakage while preserving theoretical guarantees. We demonstrate this approach on a digital twin of an unmanned aerial vehicle, verifying synchronization of physical-to-virtual and virtual-to-digital data flows to detect unintended misalignments.",
+    "summary": "This paper proposes a methodology for formally verifying digital twin behavior using TLA, addressing challenges posed by uncertainties and distributed components by translating uncertain processes into verifiable finite state machines. The approach incorporates a novel weakening of security properties to allow controlled information leakage while maintaining correctness guarantees, demonstrated through a UAV digital twin example."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19",
+    "summary": "The article argues that applying formal verification to ensure AI safety is currently impractical due to the inherent complexities of the real world, which cannot be fully represented by the symbolic rule sets required for formal verification. The author expresses skepticism towards claims that formal verification can provide strong, near-term guarantees against major AI threats."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/3P8WBwLyfPBEkbG3c/proveably-safe-self-driving-cars",
+    "author": "Davidmanheim",
+    "title": "Proveably Safe Self Driving Cars",
+    "published_date": "2024-09-15",
+    "summary": "The article argues that \"provably safe AI,\" while not a complete solution to AI safety, offers near-term applicability, using the example of autonomous vehicles. By building upon existing formally verifiable systems and integrating proven reliability analyses of components like sensors, a layered approach towards verifiable safety in autonomous vehicles is achievable, even acknowledging limitations in modeling the physical world."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.05142v1.pdf",
+    "title": "Formal Verification of Stochastic Systems with ReLU Neural Network Controllers",
+    "published_date": "2021-03-08",
+    "abstract": "In this work, we address the problem of formal safety verification for stochastic cyber-physical systems (CPS) equipped with ReLU neural network (NN) controllers. Our goal is to find the set of initial states from where, with a predetermined confidence, the system will not reach an unsafe configuration within a specified time horizon. Specifically, we consider discrete-time LTI systems with Gaussian noise, which we abstract by a suitable graph. Then, we formulate a Satisfiability Modulo Convex (SMC) problem to estimate upper bounds on the transition probabilities between nodes in the graph. Using this abstraction, we propose a method to compute tight bounds on the safety probabilities of nodes in this graph, despite possible over-approximations of the transition probabilities between these nodes. Additionally, using the proposed SMC formula, we devise a heuristic method to refine the abstraction of the system in order to further improve the estimated safety bounds. Finally, we corroborate the efficacy of the proposed method with simulation results considering a robot navigation example and comparison against a state-of-the-art verification scheme.",
+    "citation_count": 5,
+    "summary": "This paper presents a formal verification method for stochastic cyber-physical systems controlled by ReLU neural networks, using Satisfiability Modulo Convex optimization to compute bounds on safety probabilities and a heuristic refinement process to improve accuracy. The method is validated through simulation on a robot navigation example."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.04865.pdf",
+    "title": "On Assessing The Safety of Reinforcement Learning algorithms Using Formal Methods",
+    "published_date": "2021-11-08",
+    "abstract": "The increasing adoption of Reinforcement Learning in safety-critical systems domains such as autonomous vehicles, health, and aviation raises the need for ensuring their safety. Existing safety mechanisms such as adversarial training, adversarial detection, and robust learning are not always adapted to all disturbances in which the agent is deployed. Those disturbances include moving adversaries whose behavior can be unpredictable by the agent, and as a matter of fact harmful to its learning. Ensuring the safety of critical systems also requires methods that give formal guarantees on the behaviour of the agent evolving in a perturbed environment. It is therefore necessary to propose new solutions adapted to the learning challenges faced by the agent. In this paper, first we generate adversarial agents that exhibit flaws in the agent's policy by presenting moving adversaries. Secondly, We use reward shaping and a modified Q-learning algorithm as defense mechanisms to improve the agent's policy when facing adversarial perturbations. Finally, probabilistic model checking is employed to evaluate the effectiveness of both mechanisms. We have conducted experiments on a discrete grid world with a single agent facing non-learning and learning adversaries. Our results show a diminution in the number of collisions between the agent and the adversaries. Probabilistic model checking provides lower and upper probabilistic bounds regarding the agent's safety in the adversarial environment.",
+    "citation_count": 3,
+    "summary": "This paper investigates reinforcement learning agent safety in adversarial environments by introducing moving adversaries and employing reward shaping and modified Q-learning as defense mechanisms, evaluating their effectiveness using probabilistic model checking to provide probabilistic safety bounds. Experiments in a grid world demonstrate reduced collisions between the agent and adversaries."
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.16262",
+    "title": "Probing for Consciousness in Machines",
+    "published_date": "2024-11-25",
+    "abstract": "This study explores the potential for artificial agents to develop core consciousness, as proposed by Antonio Damasio's theory of consciousness. According to Damasio, the emergence of core consciousness relies on the integration of a self model, informed by representations of emotions and feelings, and a world model. We hypothesize that an artificial agent, trained via reinforcement learning (RL) in a virtual environment, can develop preliminary forms of these models as a byproduct of its primary task. The agent's main objective is to learn to play a video game and explore the environment. To evaluate the emergence of world and self models, we employ probes-feedforward classifiers that use the activations of the trained agent's neural networks to predict the spatial positions of the agent itself. Our results demonstrate that the agent can form rudimentary world and self models, suggesting a pathway toward developing machine consciousness. This research provides foundational insights into the capabilities of artificial agents in mirroring aspects of human consciousness, with implications for future advancements in artificial intelligence.",
+    "citation_count": 1,
+    "summary": "This study investigates whether a reinforcement learning agent, trained to play a video game, develops rudimentary \"self\" and \"world\" models, mirroring aspects of Damasio's theory of core consciousness, by analyzing its neural network activations. Results suggest the agent forms these models, offering a potential pathway towards artificial consciousness."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/artificial-general-intelligence-agi",
+    "title": "Artificial General Intelligence (AGI) - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Artificial General Intelligence (AGI) refers to machines capable of intelligent behavior across diverse domains, unlike narrow AI which excels only in specific tasks. While AGI's creation is anticipated due to technological advancements, significant uncertainty remains regarding its timeline and potential risks, including the possibility of an intelligence explosion or loss of control."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/the-hard-problem-of-consciousness",
+    "author": "Charbel-Raphaël",
+    "title": "The Hard Problem of Consciousness - LessWrong",
+    "published_date": "2024-04-06",
+    "summary": "The hard problem of consciousness centers on explaining how and why subjective experiences (qualia) arise from physical processes, a gap between objective brain activity and the qualitative nature of conscious experience. While the existence of subjective experience is undeniable, the mechanism by which physical processes generate it remains a significant and debated mystery."
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.08708v2",
+    "title": "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
+    "published_date": "2023-08-17",
+    "abstract": "Whether current or near-term AI systems could be conscious is a topic of scientific interest and increasing public concern. This report argues for, and exemplifies, a rigorous and empirically grounded approach to AI consciousness: assessing existing AI systems in detail, in light of our best-supported neuroscientific theories of consciousness. We survey several prominent scientific theories of consciousness, including recurrent processing theory, global workspace theory, higher-order theories, predictive processing, and attention schema theory. From these theories we derive\"indicator properties\"of consciousness, elucidated in computational terms that allow us to assess AI systems for these properties. We use these indicator properties to assess several recent AI systems, and we discuss how future systems might implement them. Our analysis suggests that no current AI systems are conscious, but also suggests that there are no obvious technical barriers to building AI systems which satisfy these indicators.",
+    "citation_count": 77,
+    "summary": "This report examines the possibility of consciousness in AI by applying neuroscientific theories of consciousness to assess current and potential future AI systems. The authors conclude that current AI lacks consciousness but that building conscious AI may be technically feasible."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.07016.pdf",
+    "title": "Consciousness is entailed by compositional learning of new causal structures in deep predictive processing systems",
+    "published_date": "2023-01-17",
+    "abstract": "Machine learning algorithms have achieved superhuman performance in specific complex domains. However, learning online from few examples and compositional learning for efficient generalization across domains remain elusive. In humans, such learning includes specific declarative memory formation and is closely associated with consciousness. Predictive processing has been advanced as a principled Bayesian framework for understanding the cortex as implementing deep generative models for both sensory perception and action control. However, predictive processing offers little direct insight into fast compositional learning or of the separation between conscious and unconscious contents. Here, propose that access consciousness arises as a consequence of a particular learning mechanism operating within a predictive processing system. We extend predictive processing by adding online, single-example new structure learning via hierarchical binding of unpredicted inferences. This system learns new causes by quickly connecting together novel combinations of perceptions, which manifests as working memories that can become short- and long-term declarative memories retrievable by associative recall. The contents of such bound representations are unified yet differentiated, can be maintained by selective attention and are globally available. The proposed learning process explains contrast and masking manipulations, postdictive perceptual integration, and other paradigm cases of consciousness research. 'Phenomenal conscious experience' is how the learning system transparently models its own functioning, giving rise to perceptual illusions underlying the meta-problem of consciousness. Our proposal naturally unifies the feature binding, recurrent processing, predictive processing, and global workspace theories of consciousness.",
+    "citation_count": 2,
+    "summary": "This paper proposes that consciousness arises from a novel predictive processing framework incorporating online, single-example learning of new causal structures through hierarchical binding; this allows for the formation of working and declarative memories whose globally accessible contents constitute phenomenal conscious experience."
+  },
+  {
+    "title": "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
+    "abstract": "Whether current or near-term AI systems could be conscious is a topic of scientific interest and increasing public concern. This report argues for, and exemplifies, a rigorous and empirically grounded approach to AI consciousness: assessing existing AI systems in detail, in light of our best-supported neuroscientific theories of consciousness. We survey several prominent scientific theories of consciousness, including recurrent processing theory, global workspace theory, higher-order theories, predictive processing, and attention schema theory. From these theories we derive\"indicator properties\"of consciousness, elucidated in computational terms that allow us to assess AI systems for these properties. We use these indicator properties to assess several recent AI systems, and we discuss how future systems might implement them. Our analysis suggests that no current AI systems are conscious, but also suggests that there are no obvious technical barriers to building AI systems which satisfy these indicators.",
+    "published_date": "2023-08-17",
+    "citation_count": 77,
+    "url": "https://www.researchgate.net/publication/373246089_Consciousness_in_Artificial_Intelligence_Insights_from_the_Science_of_Consciousness",
+    "summary": "This paper examines whether current AI systems exhibit consciousness by applying neuroscientific theories and deriving computational \"indicator properties\" of consciousness to assess several AI systems. The authors conclude that current AI lacks consciousness but that building conscious AI systems isn't technically impossible."
+  },
+  {
+    "url": "https://arxiv.org/abs/2309.00646",
+    "title": "Intelligence as a Measure of Consciousness",
+    "published_date": "2023-08-30",
+    "abstract": "Evaluating artificial systems for signs of consciousness is increasingly becoming a pressing concern, and a rigorous psychometric measurement framework may be of crucial importance in evaluating large language models in this regard. Most prominent theories of consciousness, both scientific and metaphysical, argue for different kinds of information coupling as a necessary component of human-like consciousness. By comparing information coupling in human and animal brains, human cognitive development, emergent abilities, and mental representation development to analogous phenomena in large language models, I argue that psychometric measures of intelligence, such as the g-factor or IQ, indirectly approximate the extent of conscious experience. Based on a broader source of both scientific and metaphysical theories of consciousness, I argue that all systems possess a degree of consciousness ascertainable psychometrically and that psychometric measures of intelligence may be used to gauge relative similarities of conscious experiences across disparate systems, be they artificial or human.",
+    "summary": "The paper proposes that psychometric measures of intelligence, like IQ, can indirectly assess the degree of consciousness in both artificial and natural systems by approximating the information coupling crucial to conscious experience. This is based on a comparison of information processing in human brains and large language models, informed by various theories of consciousness."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/artificial-general-intelligence",
+    "title": "Artificial General Intelligence - LessWrong",
+    "published_date": "2023-02-06",
+    "summary": "Artificial General Intelligence (AGI) refers to machines capable of intelligent behavior across diverse domains, unlike narrow AI which excels in specific tasks. The development of AGI is anticipated within the next century, but its potential benefits and risks, including the possibility of an \"intelligence explosion\" and loss of control, remain subjects of ongoing debate."
+  }
+]

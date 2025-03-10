@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/tag/singularitarianism",
+    "title": "Singularitarianism - AI Alignment Forum",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/singularitarianism",
+    "title": "Singularitarianism - LessWrong",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/a7YgzDYx4FhdB3TmR/an-155-a-minecraft-benchmark-for-algorithms-that-learn",
+    "author": "Rohin Shah",
+    "title": "[AN #155]: A Minecraft benchmark for algorithms that learn without reward functions",
+    "published_date": "2021-07-08"
+  },
+  {
+    "title": "Information-driven adaptive sensing based on deep reinforcement learning",
+    "abstract": "In order to make better use of deep reinforcement learning in the creation of sensing policies for resource-constrained IoT devices, we present and study a novel reward function based on the Fisher information value. This reward function enables IoT sensor devices to learn to spend available energy on measurements at otherwise unpredictable moments, while conserving energy at times when measurements would provide little new information. This is a highly general approach, which allows for a wide range of use cases without significant human design effort or hyperparameter tuning. We illustrate the approach in a scenario of workplace noise monitoring, where results show that the learned behavior outperforms a uniform sampling strategy and comes close to a near-optimal oracle solution.",
+    "published_date": "2020-10-02",
+    "citation_count": 21,
+    "url": "https://dl.acm.org/doi/10.1145/3410992.3411001"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/kYgWmKJnqq8QkbjFj/bayesian-utility-representing-preference-by-probability",
+    "author": "Vladimir_Nesov",
+    "title": "Bayesian Utility: Representing Preference by Probability Measures",
+    "published_date": "2009-07-27"
+  }
+]

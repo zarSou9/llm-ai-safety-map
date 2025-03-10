@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Diverse User Preference Elicitation with Multi-Armed Bandits",
+    "abstract": "Personalized recommender systems rely on knowledge of user preferences to produce recommendations. While those preferences are often obtained from past user interactions with the recommendation catalog, in some situations such observations are insufficient or unavailable. The most widely studied case is with new users, although other similar situations arise where explicit preference elicitation is valuable. At the same time, a seemingly disparate challenge is that there is a well-known popularity bias in many algorithmic approaches to recommender systems. The most common way of addressing this challenge is diversification, which tends to be applied to the output of a recommender algorithm, prior to items being presented to users. We tie these two problems together, showing a tight relationship. Our results show that popularity bias in preference elicitation contributes to popularity bias in recommendation. In particular, most elicitation methods directly optimize only for the relevance of recommendations that would result from collected preferences. This focus on recommendation accuracy biases the preferences collected. We demonstrate how diversification can instead be applied directly at elicitation time. Our model diversifies the preferences elicited using Multi-Armed Bandits, a classical exploration-exploitation framework from reinforcement learning. This leads to a broader understanding of users' preferences, and improved diversity and serendipity of recommendations, without necessitating post-hoc debiasing corrections.",
+    "published_date": "2021-03-08",
+    "citation_count": 25,
+    "url": "https://dl.acm.org/doi/10.1145/3437963.3441786"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/PZYD5kBpeHWgE5jX4/extraction-of-human-preferences",
+    "author": "arunraja-hub",
+    "title": "Extraction of human preferences \n👨→🤖",
+    "published_date": "2021-08-24"
+  },
+  {
+    "url": "https://www.lesswrong.com/s/xujLGRKFLKsPCTimd/p/FsxPNRJ5NQkrSKyDx",
+    "author": "Stuart_Armstrong",
+    "title": "Preferences from (real and hypothetical) psychology papers",
+    "published_date": "2021-10-06"
+  },
+  {
+    "title": "Learning Context-dependent Personal Preferences for Adaptive Recommendation",
+    "abstract": "We propose two online-learning algorithms for modeling the personal preferences of users of interactive systems. The proposed algorithms leverage user feedback to estimate user behavior and provide personalized adaptive recommendation for supporting context-dependent decision-making. We formulate preference modeling as online prediction algorithms over a set of learned policies, i.e., policies generated via supervised learning with interaction and context data collected from previous users. The algorithms then adapt to a target user by learning the policy that best predicts that user's behavior and preferences. We also generalize the proposed algorithms for a more challenging learning case in which they are restricted to a limited number of trained policies at each timestep, i.e., for mobile settings with limited resources. While the proposed algorithms are kept general for use in a variety of domains, we developed an image-filter-selection application. We used this application to demonstrate how the proposed algorithms can quickly learn to match the current user's selections. Based on these evaluations, we show that (1) the proposed algorithms exhibit better prediction accuracy compared to traditional supervised learning and bandit algorithms, (2) our algorithms are robust under challenging limited prediction settings in which a smaller number of expert policies is assumed. Finally, we conducted a user study to demonstrate how presenting users with the prediction results of our algorithms significantly improves the efficiency of the overall interaction experience.",
+    "published_date": "2020-11-09",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3359755"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ky988ePJvCRhmCwGo/using-vector-fields-to-visualise-preferences-and-make-them",
+    "author": "MichaelA, JustinShovelain",
+    "title": "Using vector fields to visualise preferences and make them consistent",
+    "published_date": "2020-01-28"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/4GuKi9wKYnthr8QP9/sections-5-and-6-contemporary-architectures-humans-in-the",
+    "author": "JesseClifton",
+    "title": "Sections 5 & 6: Contemporary Architectures, Humans in the Loop",
+    "published_date": "2019-12-20"
+  }
+]

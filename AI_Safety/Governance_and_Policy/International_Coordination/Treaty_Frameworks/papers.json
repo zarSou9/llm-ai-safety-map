@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.02779",
+    "title": "Governing dual-use technologies: Case studies of international security agreements and lessons for AI governance",
+    "published_date": "2024-09-04",
+    "abstract": "International AI governance agreements and institutions may play an important role in reducing global security risks from advanced AI. To inform the design of such agreements and institutions, we conducted case studies of historical and contemporary international security agreements. We focused specifically on those arrangements around dual-use technologies, examining agreements in nuclear security, chemical weapons, biosecurity, and export controls. For each agreement, we examined four key areas: (a) purpose, (b) core powers, (c) governance structure, and (d) instances of non-compliance. From these case studies, we extracted lessons for the design of international AI agreements and governance institutions. We discuss the importance of robust verification methods, strategies for balancing power between nations, mechanisms for adapting to rapid technological change, approaches to managing trade-offs between transparency and security, incentives for participation, and effective enforcement mechanisms.",
+    "summary": "This paper analyzes international security agreements governing dual-use technologies (nuclear, chemical, biological) to derive lessons for AI governance, focusing on agreement purpose, power dynamics, structure, and enforcement to inform the design of future AI agreements. Key takeaways include the need for robust verification, adaptable structures, and balanced power-sharing mechanisms."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.16074",
+    "title": "Verification methods for international AI agreements",
+    "published_date": "2024-08-28",
+    "abstract": "What techniques can be used to verify compliance with international agreements about advanced AI development? In this paper, we examine 10 verification methods that could detect two types of potential violations: unauthorized AI training (e.g., training runs above a certain FLOP threshold) and unauthorized data centers. We divide the verification methods into three categories: (a) national technical means (methods requiring minimal or no access from suspected non-compliant nations), (b) access-dependent methods (methods that require approval from the nation suspected of unauthorized activities), and (c) hardware-dependent methods (methods that require rules around advanced hardware). For each verification method, we provide a description, historical precedents, and possible evasion techniques. We conclude by offering recommendations for future work related to the verification and enforcement of international AI governance agreements.",
+    "summary": "This paper analyzes ten verification methods for ensuring compliance with international AI agreements, categorized by access requirements (national technical means, access-dependent, and hardware-dependent), focusing on detecting unauthorized AI training and data centers. The authors describe each method, its historical precedents, potential evasion techniques, and suggest avenues for future research."
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.15514",
+    "title": "International Governance of Civilian AI: A Jurisdictional Certification Approach",
+    "published_date": "2023-08-29",
+    "abstract": "This report describes trade-offs in the design of international governance arrangements for civilian artificial intelligence (AI) and presents one approach in detail. This approach represents the extension of a standards, licensing, and liability regime to the global level. We propose that states establish an International AI Organization (IAIO) to certify state jurisdictions (not firms or AI projects) for compliance with international oversight standards. States can give force to these international standards by adopting regulations prohibiting the import of goods whose supply chains embody AI from non-IAIO-certified jurisdictions. This borrows attributes from models of existing international organizations, such as the International Civilian Aviation Organization (ICAO), the International Maritime Organization (IMO), and the Financial Action Task Force (FATF). States can also adopt multilateral controls on the export of AI product inputs, such as specialized hardware, to non-certified jurisdictions. Indeed, both the import and export standards could be required for certification. As international actors reach consensus on risks of and minimum standards for advanced AI, a jurisdictional certification regime could mitigate a broad range of potential harms, including threats to public safety.",
+    "citation_count": 19,
+    "summary": "This report proposes an international governance framework for civilian AI based on jurisdictional certification by an International AI Organization (IAIO), leveraging import/export controls to incentivize compliance with global AI safety standards. This approach aims to mitigate risks by focusing on state-level oversight rather than individual AI projects."
+  },
+  {
+    "url": "https://arxiv.org/abs/2501.09182",
+    "title": "A Blockchain-Enabled Approach to Cross-Border Compliance and Trust",
+    "published_date": "2024-10-28",
+    "abstract": "As artificial intelligence (AI) systems become increasingly integral to critical infrastructure and global operations, the need for a unified, trustworthy governance framework is more urgent that ever. This paper proposes a novel approach to AI governance, utilizing blockchain and distributed ledger technologies (DLT) to establish a decentralized, globally recognized framework that ensures security, privacy, and trustworthiness of AI systems across borders. The paper presents specific implementation scenarios within the financial sector, outlines a phased deployment timeline over the next decade, and addresses potential challenges with solutions grounded in current research. By synthesizing advancements in blockchain, AI ethics, and cybersecurity, this paper offers a comprehensive roadmap for a decentralized AI governance framework capable of adapting to the complex and evolving landscape of global AI regulation.",
+    "summary": "This paper proposes a blockchain-based, decentralized framework for governing AI systems globally, aiming to enhance cross-border compliance, trust, and security through a phased implementation plan addressing potential challenges. It focuses on applying this framework to the financial sector."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.01819",
+    "title": "Strategic AI Governance: Insights from Leading Nations",
+    "published_date": "2024-09-16",
+    "abstract": "Artificial Intelligence (AI) has the potential to revolutionize various sectors, yet its adoption is often hindered by concerns about data privacy, security, and the understanding of AI capabilities. This paper synthesizes AI governance approaches, strategic themes, and enablers and challenges for AI adoption by reviewing national AI strategies from leading nations. The key contribution is the development of an EPIC (Education, Partnership, Infrastructure, Community) framework, which maps AI implementation requirements to fully realize social impacts and public good from successful and sustained AI deployment. Through a multi-perspective content analysis of the latest AI strategy documents, this paper provides a structured comparison of AI governance strategies across nations. The findings offer valuable insights for governments, academics, industries, and communities to enable responsible and trustworthy AI deployments. Future work should focus on incorporating specific requirements for developing countries and applying the strategies to specific AI applications, industries, and the public sector.",
+    "summary": "This paper analyzes national AI strategies from leading countries to identify common themes and challenges in AI governance, proposing an EPIC framework (Education, Partnership, Infrastructure, Community) for successful and responsible AI implementation. The framework maps requirements for realizing the social benefits of AI and offers insights for stakeholders globally."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three strategies for governing transformative AI: Cooperative Development, Strategic Advantage, and Global Moratorium. The effectiveness of each strategy depends heavily on the difficulty of aligning AI and the timeframe for its development, with preferences shifting depending on these variables."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, focuses on AI model registries—centralized databases tracking AI systems for governance purposes. These registries, drawing parallels to pharmaceutical regulations, vary widely in their requirements and accessibility across countries like the US and China, but aim to enable targeted AI regulation by focusing on individual models rather than broader corporate practices."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zKGyznvDB94aoJgx4/towards-mutually-assured-cooperation",
+    "author": "mikko",
+    "title": "Towards mutually assured cooperation",
+    "published_date": "2024-12-22",
+    "summary": "Unfettered AI development poses a significant risk of global nuclear conflict, as nations may preemptively strike to prevent another from achieving total AI-enabled dominance. International cooperation in AI development is proposed as the only safe path to avoid this catastrophic scenario."
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.08956",
+    "title": "Exploring the Relevance of Data Privacy-Enhancing Technologies for AI Governance Use Cases",
+    "published_date": "2023-03-15",
+    "abstract": "The development of privacy-enhancing technologies has made immense progress in reducing trade-offs between privacy and performance in data exchange and analysis. Similar tools for structured transparency could be useful for AI governance by offering capabilities such as external scrutiny, auditing, and source verification. It is useful to view these different AI governance objectives as a system of information flows in order to avoid partial solutions and significant gaps in governance, as there may be significant overlap in the software stacks needed for the AI governance use cases mentioned in this text. When viewing the system as a whole, the importance of interoperability between these different AI governance solutions becomes clear. Therefore, it is imminently important to look at these problems in AI governance as a system, before these standards, auditing procedures, software, and norms settle into place.",
+    "citation_count": 8,
+    "summary": "This paper argues that data privacy-enhancing technologies, crucial for data exchange and analysis, are similarly vital for effective AI governance, enabling crucial functions like auditing and source verification. A holistic, systems-level approach emphasizing interoperability between different AI governance solutions is essential for avoiding fragmented and ineffective oversight."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.11528.pdf",
+    "title": "The Global Governance of Artificial Intelligence: Next Steps for Empirical and Normative Research",
+    "published_date": "2023-05-19",
+    "abstract": "Artificial intelligence (AI) represents a technological upheaval with the potential to change human society. Because of its transformative potential, AI is increasingly becoming subject to regulatory initiatives at the global level. Yet, so far, scholarship in political science and international relations has focused more on AI applications than on the emerging architecture of global AI regulation. The purpose of this article is to outline an agenda for research into the global governance of AI. The article distinguishes between two broad perspectives: an empirical approach, aimed at mapping and explaining global AI governance; and a normative approach, aimed at developing and applying standards for appropriate global AI governance. The two approaches offer questions, concepts, and theories that are helpful in gaining an understanding of the emerging global governance of AI. Conversely, exploring AI as a regulatory issue offers a critical opportunity to refine existing general approaches to the study of global governance.",
+    "citation_count": 25,
+    "summary": "This paper proposes a research agenda for understanding the global governance of artificial intelligence, advocating for both empirical mapping of existing regulatory initiatives and normative development of standards for responsible AI governance. The authors suggest that studying AI regulation can also refine existing theories of global governance."
+  }
+]

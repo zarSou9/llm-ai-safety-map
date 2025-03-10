@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.14301",
+    "title": "Multi-Grained Specifications for Distributed System Model Checking and Verification",
+    "published_date": "2024-09-22",
+    "abstract": "This paper presents our experience specifying and verifying the correctness of ZooKeeper, a complex and evolving distributed coordination system. We use TLA+ to model fine-grained behaviors of ZooKeeper and use the TLC model checker to verify its correctness properties; we also check conformance between the model and code. The fundamental challenge is to balance the granularity of specifications and the scalability of model checking -- fine-grained specifications lead to state-space explosion, while coarse-grained specifications introduce model-code gaps. To address this challenge, we write specifications with different granularities for composable modules, and compose them into mixed-grained specifications based on specific scenarios. For example, to verify code changes, we compose fine-grained specifications of changed modules and coarse-grained specifications that abstract away details of unchanged code with preserved interactions. We show that writing multi-grained specifications is a viable practice and can cope with model-code gaps without untenable state space, especially for evolving software where changes are typically local and incremental. We detected six severe bugs that violate five types of invariants and verified their code fixes; the fixes have been merged to ZooKeeper. We also improve the protocol design to make it easy to implement correctly."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.10304",
+    "title": "Synthesizing Reactive Test Environments for Autonomous Systems: Testing Reach-Avoid Specifications with Multi-Commodity Flows",
+    "published_date": "2022-10-19",
+    "abstract": "We study automated test generation for testing discrete decision-making modules in autonomous systems. Linear temporal logic is used to encode the system specification - requirements of the system under test - and the test specification, which is unknown to the system and describes the desired test behavior. The reactive test synthesis problem is to find constraints on system actions such that in a test execution, both the system and test specifications are satisfied. To do this, we use the specifications and their corresponding Büchi automata to construct the specification product automaton. Then, a virtual product graph representing all possible test executions of the system is constructed from the transition system and the specification product automaton. The main result of this paper is framing the test synthesis problem as a multi-commodity network flow optimization. This optimization is used to derive reactive constraints on system actions, which constitute the test environment. The resulting test environment ensures that the system meets the test specification while also satisfying the system specification. We illustrate this framework in simulation using grid world examples and demonstrate it on hardware with the Unitree A1 quadruped, where we test dynamic locomotion behaviors reactively.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2209.02752.pdf",
+    "title": "Specification-guided component-based synthesis from effectful libraries",
+    "published_date": "2022-09-06",
+    "abstract": "Component-based synthesis seeks to build programs using the APIs provided by a set of libraries. Oftentimes, these APIs have effects, which make it challenging to reason about the correctness of potential synthesis candidates. This is because changes to global state made by effectful library procedures affect how they may be composed together, yielding an intractably large search space that can confound typical enumerative synthesis techniques. If the nature of these effects are exposed as part of their specification, however, deductive synthesis approaches can be used to help guide the search for components. In this paper, we present a new specification-guided synthesis procedure that uses Hoare-style pre- and post-conditions to express fine-grained effects of potential library component candidates to drive a bi-directional synthesis search strategy. The procedure alternates between a forward search process that seeks to build larger terms given an existing context but which is otherwise unaware of the actual goal, alongside a backward search mechanism that seeks terms consistent with the desired goal but which is otherwise unaware of the context from which these terms must be synthesized. To further improve efficiency and scalability, we integrate a conflict-driven learning procedure into the synthesis algorithm that provides a semantic characterization of previously encountered unsuccessful search paths that is used to prune the space of possible candidates as synthesis proceeds. We have implemented our ideas in a tool called and demonstrate its effectiveness on a number of challenging synthesis problems defined over OCaml libraries equipped with effectful specifications.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.14860v1.pdf",
+    "title": "Team-Oriented Consistency Checking of Heterogeneous Engineering Artifacts",
+    "published_date": "2021-03-27",
+    "abstract": "Consistency checking of interdependent heterogeneous engineering artifacts, such as requirements, specifications, and code, is a challenging task in large-scale engineering projects. The lack of team-oriented solutions allowing a multitude of project stakeholders to collaborate in a consistent manner is thus becoming a critical problem. In this context, this work proposes an approach for team-oriented consistency checking of collaboratively developed heterogeneous engineering artifacts.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.02991v1.pdf",
+    "title": "Abstraction Logic: The Marriage of Contextual Refinement and Separation Logic",
+    "published_date": "2021-09-07",
+    "abstract": "Contextual refinement and separation logics are successful verification techniques that are very different in nature. First, the former guarantees behavioral refinement between a concrete program and an abstract program while the latter guarantees safety of a concrete program under certain conditions (expressed in terms of pre and post conditions). Second, the former does not allow any assumption about the context when locally reasoning about a module while the latter allows rich assumptions. In this paper, we present a new verification technique, called abstraction logic (AL), that inherently combines contextual refinement and separation logics such as Iris and VST, thereby taking the advantages of both. Specifically, AL allows us to locally verify a concrete module against an abstract module under separation-logic-style pre and post conditions about external modules. AL are fully formalized in Coq and provides a proof mode that supports a combination of simulation-style reasoning using our own tactics and SL-style reasoning using IPM (Iris Proof Mode). Using the proof mode, we verified various examples to demonstrate reasoning about ownership (based on partial commutative monoids) and purity ($i.e.$, termination with no system call), cyclic and higher-order reasoning about mutual recursion and function pointers, and reusable and gradual verification via intermediate abstractions. Also, the verification results are combined with CompCert, so that we formally establish behavioral refinement from top-level abstract programs, all the way down to their assembly code."
+  },
+  {
+    "title": "The anchor verifier for blocking and non-blocking concurrent software",
+    "abstract": "Verifying the correctness of concurrent software with subtle synchronization is notoriously challenging. We present the Anchor verifier, which is based on a new formalism for specifying synchronization disciplines that describes both (1) what memory accesses are permitted, and (2) how each permitted access commutes with concurrent operations of other threads (to facilitate reduction proofs). Anchor supports the verification of both lock-based blocking and cas-based non-blocking algorithms. Experiments on a variety concurrent data structures and algorithms show that Anchor significantly reduces the burden of concurrent verification.",
+    "published_date": "2020-11-13",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3428224"
+  }
+]

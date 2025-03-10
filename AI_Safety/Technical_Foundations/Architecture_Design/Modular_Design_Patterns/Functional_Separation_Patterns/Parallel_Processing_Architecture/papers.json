@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/rCP5iTYLtfcoC8NXd/self-organised-neural-networks-a-simple-natural-and",
+    "author": "D𝜋",
+    "title": "Self-Organised Neural Networks:\nA simple, natural and efficient way to intelligence",
+    "published_date": "2022-01-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13"
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/dual-process-theory-system-1-and-system-2",
+    "author": "Kaj_Sotala",
+    "title": "Dual Process Theory (System 1 & System 2) - LessWrong",
+    "published_date": "2019-11-12"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/brhWPoNsBN7za3xjs/competitive-markets-as-distributed-backprop",
+    "author": "johnswentworth",
+    "title": "Competitive Markets as Distributed Backprop",
+    "published_date": "2018-11-10"
+  },
+  {
+    "title": "Applying architectural patterns for parallel programming the fast fourier transform",
+    "abstract": "The Architectural Patterns for Parallel Programming is a system of patterns, related with a method for applying them for the development of the coordination of parallel software systems. These Architectural Patterns make use of input information: (a) the available parallel hardware platform, (b) the parallel programming language used by this platform, and (c) the analysis of the problem to solve, in terms of an algorithm and data. In this paper, it is presented the application of an Architectural Pattern, alon g with the method, for developing a coordination to solve the Fast Fourier Trans form. The method used here starts taking the information from the Problem Analys is, proposes an Architectural Pattern for designing the coordination, and provid es some elements about its partial implementation.",
+    "published_date": "2014-07-09",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/2721956.2721992"
+  },
+  {
+    "title": "Parallel programming patterns for multi-processor SoC",
+    "abstract": "Efficient, scalable and productive parallel programming is a major challenge for exploiting the future multi-processor SoC platforms. This article presents the MultiFlex programming environment which has been developed to address this challenge. It is targeted for use on Platform 2012, a scalable multi-processor fabric. The MultiFlex environment supports high-level simulation, iterative platform mapping, and includes tools for programming model aware debug, trace, visualization and analysis. This article focuses on the two classes of programming abstractions supported in MultiFlex. The first is a set of Parallel Programming Patterns (PPP) which offer a rich set of programming abstractions for implementing efficient data- and task-level parallel applications. The second is a Reactive Task Management (RTM) abstraction, which offers a lightweight C-based API to support dynamic dispatching of small grain tasks on tightly coupled parallel processing resources. The use of the MultiFlex native programming model is illustrated through the capture and mapping of two representative video applications. The first is a high-quality rescaling (HQR) application on a multi-processor platform. We present the details of the optimization process which was required for mapping the HQR application, for which the reference code requires 350 GIPS (giga instructions per second), onto a 16 processor cluster. Our results show that the parallel implementation using the PPP model offers almost linear acceleration with respect to the number of processing elements. The second application is a high-definition VC-1 decoder. For this application, we illustrate two different parallel programming model variants, one using PPPs, the other based on RTM. These two versions are mapped onto two variants of a homogeneous version of the Platform 2012 multi-core fabric.",
+    "published_date": "2013-03-01",
+    "url": "https://dl.acm.org/doi/10.1145/2435227.2435243"
+  }
+]

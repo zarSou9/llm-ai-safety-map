@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/yi4pqB6G73dcTnatq/aspiration-based-designs-3-performance-and-safety-criteria",
+    "author": "Jobst Heitzig",
+    "title": "[Aspiration-based designs] 3. Performance and safety criteria, and aspiration intervals",
+    "published_date": "2024-04-28",
+    "summary": "This article extends a previously introduced decision-making algorithm by incorporating criteria for selecting actions and generalizing the goal from achieving a specific expected value to falling within a desired range. The added flexibility allows for prioritizing safety and performance metrics when multiple policies achieve the goal."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/wtTz6hyP6hnX5NiuA/aspiration-based-designs-2-formal-framework-basic-algorithm",
+    "author": "Jobst Heitzig, Simon Dima, Simon Fischer",
+    "title": "[Aspiration-based designs] 2. Formal framework, basic algorithm",
+    "published_date": "2024-04-28",
+    "summary": "This article introduces an aspiration-based algorithm for AI agents to achieve specific expected values of a task-relevant metric, rather than maximizing it. The algorithm propagates aspirations over time and guarantees goal fulfillment under certain conditions, as proven within the framework of a Markov Decision Process (MDP)."
+  },
+  {
+    "title": "From Multiple Independent Metrics to Single Performance Measure Based on Objective Function",
+    "abstract": "It is extremely common in engineering to design algorithms to perform various tasks. In data-driven decision making in any field one needs to ascertain the quality of an algorithm. Therefore, a robust assessment of algorithms is essential in deciding the best algorithm as well as in improving algorithms. To perform such an assessment objectively is obvious in the case of a single performance metric, but it is unclear in the case of multiple metrics. Nonetheless, $F_{1}$ measure is widely used in cases with two metrics; $F_{1}$ measure represents the harmonic mean (HM) of two metrics. Of course, there are other means, e.g., the arithmetic mean (AM) and the geometric mean (GM). As motivations for using them are intuitive and none of them are based on any objective function, it is difficult to judge objectively which is the best one. In this paper, the single metric case is examined to develop two objective functions that are applicable for any number of metrics. These two objective functions lead to two different performance measures - the distance from the origin (DO) and the distance from the ideal position (DIP). It introduces a new concept of the remaining phase space for the evaluation of the quality of a performance measure. On further and closer examinations of the original goal and the phase space of the metrics, amongst these five measures, either HM or DIP is found to be the best. Specifically, it is found that HM is the best measure at the lower performance end, while DIP is clearly the best measure at the higher performance end and is of much practical interest. Rules for deciding the best algorithm and the order of a set of algorithms are presented. These results are derived in the context of multiple independent and bounded metrics. Furthermore, several properties and detailed discussions are provided, following which some published results are reviewed in the present context to elucidate some points.",
+    "published_date": "2023-01-01",
+    "citation_count": 4,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10011403.pdf",
+    "summary": "This paper proposes two new performance measures, distance from origin (DO) and distance from ideal position (DIP), derived from objective functions to aggregate multiple independent, bounded metrics into a single score. It concludes that the harmonic mean (HM) is best for lower performance, while DIP is superior for higher performance."
+  },
+  {
+    "title": "SINIS-LA Method for IT Alignment Considering Service Level Management",
+    "abstract": "Background: Organizations have to align a wide variety of organizational goals and strategies to achieve business goals, growth, and survive. In addition to ensuring the alignment between strategies in place and indicators with business goals, IT service organizations must keep the quality of service by fulfilling Service Level Agreements (SLA) sealed with their clients. Objective: We present SINIS-LA, which supports elicitation, alignment, and monitoring of business goals, indicators, and strategies focused on controlling SLA of the IT services provided. Method: We created SINIS-LA by applying Design Science Research (DSR). Results: SINIS-LA was used by the IT service management team at an IT service organization. By using SINIS-LA the team achieved IT alignment and monitored it. SINIS-LA was considered applicable for identifying, reviewing, and monitoring service goals, strategies, indicators, and related SLA. Conclusion: The results showed evidence that SINIS-LA supports the definition and monitoring of the alignment of goals, strategies, indicators, and SLA in an IT service organization.",
+    "published_date": "2021-06-07",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3466933.3466977",
+    "summary": "SINIS-LA is a novel method, developed using Design Science Research, that aids IT service organizations in aligning business goals, strategies, and indicators with service level agreements (SLAs) for improved service quality and monitoring. The method's effectiveness was demonstrated through successful implementation and positive feedback from an IT service management team."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/7DhwRLoKm4nMrFFsH/measuring-and-forecasting-risks",
+    "author": "abergal, Nick_Beckstead, jsteinhardt",
+    "title": "Measuring and forecasting risks",
+    "published_date": "2021-10-29",
+    "summary": "This RFP seeks proposals for measuring safety-related properties of increasingly powerful machine learning systems. The focus is on quantifiable metrics for concrete risks (e.g., hacking, misgeneralization, misalignment) and emergent capabilities, aiming to incentivize safer AI development."
+  },
+  {
+    "title": "Designing Strong Privacy Metrics Suites Using Evolutionary Optimization",
+    "abstract": "The ability to measure privacy accurately and consistently is key in the development of new privacy protections. However, recent studies have uncovered weaknesses in existing privacy metrics, as well as weaknesses caused by the use of only a single privacy metric. Metrics suites, or combinations of privacy metrics, are a promising mechanism to alleviate these weaknesses, if we can solve two open problems: which metrics should be combined and how. In this article, we tackle the first problem, i.e., the selection of metrics for strong metrics suites, by formulating it as a knapsack optimization problem with both single and multiple objectives. Because solving this problem exactly is difficult due to the large number of combinations and many qualities/objectives that need to be evaluated for each metrics suite, we apply 16 existing evolutionary and metaheuristic optimization algorithms. We solve the optimization problem for three privacy application domains: genomic privacy, graph privacy, and vehicular communications privacy. We find that the resulting metrics suites have better properties, i.e., higher monotonicity, diversity, evenness, and shared value range, than previously proposed metrics suites.",
+    "published_date": "2021-01-21",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3439405",
+    "summary": "This paper addresses the challenge of designing effective privacy metrics suites by framing metric selection as an optimization problem, employing evolutionary algorithms to identify optimal combinations of metrics across three application domains, and demonstrating that the resulting suites exhibit superior properties compared to existing approaches."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/mL8KdftNGBScmBcBg/optimization-concepts-in-the-game-of-life",
+    "author": "Vika, Ramana Kumar",
+    "title": "Optimization Concepts in the Game of Life",
+    "published_date": "2021-10-16",
+    "summary": "This paper defines and applies measures of robustness and retargetability (from Flint's work on optimization) to Conway's Game of Life, using it as a simplified model for studying embedded agency. The authors aim to better understand the principles of agency in systems lacking pre-defined agent-environment boundaries, hoping to mitigate potential risks from advanced AI."
+  },
+  {
+    "title": "Robust benchmarking for multi-objective optimization",
+    "abstract": "The performance assessment of multi-objective optimization algorithms is a crucial task for investigating their behaviour. However, the selected quality indicators and statistical techniques used in comparison studies can have huge impact on the study results. A quality indicator transforms high-dimensional data (an approximation set) into one-dimensional data (a quality indicator), followed by a potential loss of high-dimensional information concerning the transformation. Comparison approaches typically involve a single quality indicator or an ensemble of quality indicators to address more quality criteria, which are predefined by the user. To provide more robust benchmarking for multi-objective optimization, we extended the DSCTool with three approaches that are ensembles of quality indicators and one novel approach that compare the high-dimensional distributions of the approximation sets and reduces the users' preference in the selection of quality indicators. The approaches are provided as web services for robust ranking and hypothesis testing, including a proper selection of an omnibus statistical test and post-hoc tests if needed.",
+    "published_date": "2021-07-07",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3449726.3463299",
+    "summary": "This paper introduces enhancements to the DSCTool for more robust benchmarking of multi-objective optimization algorithms, adding ensemble methods and a novel high-dimensional distribution comparison approach to reduce reliance on user-selected quality indicators. These enhancements are offered as web services enabling robust ranking and hypothesis testing."
+  }
+]

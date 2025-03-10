@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.14219",
+    "title": "MEGA-PT: A Meta-Game Framework for Agile Penetration Testing",
+    "published_date": "2024-09-21",
+    "abstract": "Penetration testing is an essential means of proactive defense in the face of escalating cybersecurity incidents. Traditional manual penetration testing methods are time-consuming, resource-intensive, and prone to human errors. Current trends in automated penetration testing are also impractical, facing significant challenges such as the curse of dimensionality, scalability issues, and lack of adaptability to network changes. To address these issues, we propose MEGA-PT, a meta-game penetration testing framework, featuring micro tactic games for node-level local interactions and a macro strategy process for network-wide attack chains. The micro- and macro-level modeling enables distributed, adaptive, collaborative, and fast penetration testing. MEGA-PT offers agile solutions for various security schemes, including optimal local penetration plans, purple teaming solutions, and risk assessment, providing fundamental principles to guide future automated penetration testing. Our experiments demonstrate the effectiveness and agility of our model by providing improved defense strategies and adaptability to changes at both local and network levels."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.07985",
+    "title": "Games for AI Control: Models of Safety Evaluations of AI Deployment Protocols",
+    "published_date": "2024-09-12",
+    "abstract": "To evaluate the safety and usefulness of deployment protocols for untrusted AIs, AI Control uses a red-teaming exercise played between a protocol designer and an adversary. This paper introduces AI-Control Games, a formal decision-making model of the red-teaming exercise as a multi-objective, partially observable, stochastic game. We also introduce methods for finding optimal protocols in AI-Control Games, by reducing them to a set of zero-sum partially observable stochastic games. We apply our formalism to model, evaluate and synthesise protocols for deploying untrusted language models as programming assistants, focusing on Trusted Monitoring protocols, which use weaker language models and limited human assistance. Finally, we demonstrate the utility of our formalism by showcasing improvements over empirical studies in existing settings, evaluating protocols in new settings, and analysing how modelling assumptions affect the safety and usefulness of protocols.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.04249",
+    "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+    "published_date": "2024-02-06",
+    "abstract": "Automated red teaming holds substantial promise for uncovering and mitigating the risks associated with the malicious use of large language models (LLMs), yet the field lacks a standardized evaluation framework to rigorously assess new methods. To address this issue, we introduce HarmBench, a standardized evaluation framework for automated red teaming. We identify several desirable properties previously unaccounted for in red teaming evaluations and systematically design HarmBench to meet these criteria. Using HarmBench, we conduct a large-scale comparison of 18 red teaming methods and 33 target LLMs and defenses, yielding novel insights. We also introduce a highly efficient adversarial training method that greatly enhances LLM robustness across a wide range of attacks, demonstrating how HarmBench enables codevelopment of attacks and defenses. We open source HarmBench at https://github.com/centerforaisafety/HarmBench.",
+    "citation_count": 181
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.11500",
+    "title": "A Red Teaming Framework for Securing AI in Maritime Autonomous Systems",
+    "published_date": "2023-12-08",
+    "abstract": "Artificial intelligence (AI) is being ubiquitously adopted to automate processes in science and industry. However, due to its often intricate and opaque nature, AI has been shown to possess inherent vulnerabilities which can be maliciously exploited with adversarial AI, potentially putting AI users and developers at both cyber and physical risk. In addition, there is insufficient comprehension of the real-world effects of adversarial AI and an inadequacy of AI security examinations; therefore, the growing threat landscape is unknown for many AI solutions. To mitigate this issue, we propose one of the first red team frameworks for evaluating the AI security of maritime autonomous systems. The framework provides operators with a proactive (secure by design) and reactive (post-deployment evaluation) response to securing AI technology today and in the future. This framework is a multi-part checklist, which can be tailored to different systems and requirements. We demonstrate this framework to be highly effective for a red team to use to uncover numerous vulnerabilities within a real-world maritime autonomous systems AI, ranging from poisoning to adversarial patch attacks. The lessons learned from systematic AI red teaming can help prevent MAS-related catastrophic events in a world with increasing uptake and reliance on mission-critical AI.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.02247.pdf",
+    "title": "Towards Autonomous Cyber Operation Agents: Exploring the Red Case",
+    "published_date": "2023-09-05",
+    "abstract": "Recently, reinforcement and deep reinforcement learning (RL/DRL) have been applied to develop autonomous agents for cyber network operations(CyOps), where the agents are trained in a representative environment using RL and particularly DRL algorithms. The training environment must simulate CyOps with high fidelity, which the agent aims to learn and accomplish. A good simulator is hard to achieve due to the extreme complexity of the cyber environment. The trained agent must also be generalizable to network variations because operational cyber networks change constantly. The red agent case is taken to discuss these two issues in this work. We elaborate on their essential requirements and potential solution options, illustrated by some preliminary experimentations in a Cyber Gym for Intelligent Learning (CyGIL) testbed."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.10430.pdf",
+    "title": "Test and Evaluation Framework for Multi-Agent Systems of Autonomous Intelligent Agents",
+    "published_date": "2021-01-25",
+    "abstract": "Test and evaluation is a necessary process for ensuring that engineered systems perform as intended under a variety of conditions, both expected and unexpected. In this work, we consider the unique challenges of developing a unifying test and evaluation framework for complex ensembles of cyber-physical systems with embedded artificial intelligence. We propose a framework that incorporates test and evaluation throughout not only the development life cycle, but continues into operation as the system learns and adapts in a noisy, changing, and contended environment. The framework accounts for the challenges of testing the integration of diverse systems at various hierarchical scales of composition while respecting that testing time and resources are limited. A generic use case is provided for illustrative purposes. Research directions emerging as a result of exploring the use case via the framework are suggested.",
+    "citation_count": 6
+  }
+]

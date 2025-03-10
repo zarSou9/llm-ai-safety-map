@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Data inequalities and why they matter for development",
+    "abstract": "ABSTRACT The 'data revolution' marks a time of growing interest and investment in data – big, small, or otherwise. Critical attention to data is also proliferating, exposing the diverse ways that data produces inequality of opportunity and harm in society. This paper draws the nascent field of critical data studies into conversation with emerging narratives in data-for-development (D4D) to advance the conceptualization of data inequalities, explaining how they both align with and diverge from core tropes of digital inequalities research – and why this matters for development. The paper examines the causes, consequences, and potential solutions to three 'data divides' – access to data, representation of the world as data, and control over data flows – through examples of digital identity systems and national data infrastructures, user-generated data, and personal behavioral data produced through corporate platforms. This understanding provides a basis for future research, practice, and policymaking on data-related (in)equalities in development contexts and beyond.",
+    "published_date": "2019-08-02",
+    "citation_count": 52,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/02681102.2019.1650244",
+    "summary": "This paper analyzes \"data inequalities\" in development, arguing that unequal access, representation, and control over data exacerbate existing inequalities and harm societal opportunities. It explores three key \"data divides\" – access, representation, and control – to inform research, practice, and policy aimed at mitigating these inequalities."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/cLfsabkCPtieJ5LoK/investigating-bias-representations-in-llms-via-activation",
+    "author": "DawnLu",
+    "title": "Investigating Bias Representations in LLMs via Activation Steering",
+    "published_date": "2024-01-15",
+    "summary": "This research uses activation steering to assess the societal biases of the Llama-2-7b-chat language model, finding that while the model exhibits gender bias without steering, attempts to further amplify biases through activation steering resulted in the model refusing to answer, suggesting a potential resilience to overt bias manipulation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/kobJymvvcvhbjWFKe/laying-the-foundations-for-vision-and-multimodal-mechanistic",
+    "author": "Sonia Joseph, Neel Nanda",
+    "title": "Laying the Foundations for Vision and Multimodal Mechanistic Interpretability & Open Problems",
+    "published_date": "2024-03-13",
+    "summary": "This article introduces Prisma, a new open-source library designed to facilitate mechanistic interpretability research in multimodal models, specifically focusing on vision transformers (ViTs). It aims to build a collaborative community and shared infrastructure for applying interpretability techniques to visual data, addressing the current lag in this area compared to language models."
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.04925",
+    "title": "Measuring Corporate Digital Divide with web scraping: Evidence from Italy",
+    "published_date": "2023-01-12",
+    "abstract": "With the increasing pervasiveness of ICTs in the fabric of economic activities, the corporate digital divide has emerged as a new crucial topic to evaluate the IT competencies and the digital gap between ﬁrms and territories. Given the scarcity of available granular data to measure the phenomenon, most studies have used survey data. To bridge the empirical gap, we scrape the website homepage of 182 705 Italian ﬁrms, extracting ten features related to their digital footprint characteristics to develop a new corporate digital assessment index. Our results highlight a signiﬁcant digital divide across dimensions, sectors and geographical locations of Italian ﬁrms, opening up new perspectives on monitoring and near-real-time data-driven analysis.",
+    "citation_count": 2,
+    "summary": "This paper introduces a novel method for measuring the corporate digital divide using web scraping to analyze the digital footprint of 182,705 Italian firms, revealing significant disparities across various dimensions. The resulting index offers a new approach to monitoring and analyzing the digital gap in near real-time."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.05481",
+    "title": "Measuring Latency Reduction and the Digital Divide of Cloud Edge Datacenters",
+    "published_date": "2023-04-11",
+    "abstract": "Cloud providers are highly incentivized to reduce latency. One way they do this is by locating datacenters as close to users as possible. These\"cloud edge\"datacenters are placed in metropolitan areas and enable edge computing for residents of these cities. Therefore, which cities are selected to host edge datacenters determines who has the fastest access to applications requiring edge compute - creating a digital divide between those closest and furthest from a datacenter. In this study we measure latency to the current and predicted cloud edge datacenters of three major cloud providers around the world. Our measurements use the RIPE Atlas platform targeting cloud regions, AWS Local Zones, and network optimization services that minimize the path to the cloud edge. An analysis of the digital divide shows rising inequality as the relative difference between users closest and farthest from cloud compute increases. We also find this inequality unfairly affects lower income census tracts in the US. This result is extended globally using remotely sensed night time lights as a proxy for wealth. Finally, we demonstrate that low earth orbit satellite internet can help to close this digital divide and provide more fair access to the cloud edge.",
+    "citation_count": 2,
+    "summary": "This study quantifies the growing digital divide caused by the uneven geographic distribution of cloud edge datacenters, finding that lower-income areas are disproportionately affected by higher latency; however, low earth orbit satellite internet shows promise in mitigating this inequality."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mmxPbFz7wvthvHCxq/sparks-of-artificial-general-intelligence-early-experiments",
+    "author": "DragonGod",
+    "title": "Sparks of Artificial General Intelligence: Early experiments with GPT-4 | Microsoft Research",
+    "published_date": "2023-03-23",
+    "summary": "This paper investigates an early version of OpenAI's GPT-4, arguing that it, along with similar LLMs, displays more general intelligence than predecessors due to its human-level performance across diverse complex tasks. The authors highlight GPT-4's capabilities while also acknowledging its limitations and discussing the challenges and societal implications of advancing towards artificial general intelligence."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "Biden's October 30, 2023 executive order on AI outlines numerous deadlines for federal agencies, ranging from 30 to 90 days, to conduct assessments, solicit public input, develop plans, and implement initiatives related to AI development, deployment, and workforce needs. These actions aim to address responsible AI use across various sectors."
+  },
+  {
+    "title": "Digital inequality beyond the digital divide: conceptualizing adverse digital incorporation in the global South",
+    "abstract": "ABSTRACT Digital systems are significantly associated with inequality in the global South. That association has traditionally been understood in terms of the digital divide or related terminologies whose core conceptualization is the exclusion of some groups from the benefits of digital systems. However, with the growing breadth and depth of digital engagement in the global South, an exclusion worldview is no longer sufficient. What is also needed is an understanding of how inequalities are created for some groups that are included in digital systems. This paper creates such an understanding, drawing from ideas in the development studies literature on chronic poverty to inductively build a model of a new concept: 'adverse digital incorporation', meaning inclusion in a digital system that enables a more-advantaged group to extract disproportionate value from the work or resources of another, less-advantaged group. This new model will enable those involved with digital development to understand why, how and for whom inequality can emerge from the growing use of digital systems in the global South. It creates a systematic framework incorporating the processes, the drivers, and the causes of adverse digital incorporation that will provide detailed new insights. The paper concludes with implications for both digital development researchers and practitioners that derive from the model and its exposure to the broader components of power that shape the inclusionary connection between digital and inequality.",
+    "published_date": "2022-07-07",
+    "citation_count": 67,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/02681102.2022.2068492",
+    "summary": "This paper introduces \"adverse digital incorporation,\" a concept describing how digital inclusion in the Global South can exacerbate existing inequalities by enabling more-advantaged groups to exploit the labor or resources of less-advantaged groups. It offers a model explaining the processes, drivers, and causes of this phenomenon, thereby improving understanding of digital inequality beyond simple exclusion."
+  }
+]

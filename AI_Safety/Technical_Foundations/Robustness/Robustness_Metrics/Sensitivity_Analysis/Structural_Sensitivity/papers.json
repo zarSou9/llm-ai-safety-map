@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.19377",
+    "title": "Interpretable, multi-dimensional Evaluation Framework for Causal Discovery from observational i.i.d. Data",
+    "published_date": "2024-09-28",
+    "abstract": "Nonlinear causal discovery from observational data imposes strict identifiability assumptions on the formulation of structural equations utilized in the data generating process. The evaluation of structure learning methods under assumption violations requires a rigorous and interpretable approach, which quantifies both the structural similarity of the estimation with the ground truth and the capacity of the discovered graphs to be used for causal inference. Motivated by the lack of unified performance assessment framework, we introduce an interpretable, six-dimensional evaluation metric, i.e., distance to optimal solution (DOS), which is specifically tailored to the field of causal discovery. Furthermore, this is the first research to assess the performance of structure learning algorithms from seven different families on increasing percentage of non-identifiable, nonlinear causal patterns, inspired by real-world processes. Our large-scale simulation study, which incorporates seven experimental factors, shows that besides causal order-based methods, amortized causal discovery delivers results with comparatively high proximity to the optimal solution."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.15185",
+    "title": "Towards a Theory of Control Architecture: A quantitative framework for layered multi-rate control",
+    "published_date": "2024-01-26",
+    "abstract": "This paper focuses on the need for a rigorous theory of layered control architectures (LCAs) for complex engineered and natural systems, such as power systems, communication networks, autonomous robotics, bacteria, and human sensorimotor control. All deliver extraordinary capabilities, but they lack a coherent theory of analysis and design, partly due to the diverse domains across which LCAs can be found. In contrast, there is a core universal set of control concepts and theory that applies very broadly and accommodates necessary domain-specific specializations. However, control methods are typically used only to design algorithms in components within a larger system designed by others, typically with minimal or no theory. This points towards a need for natural but large extensions of robust performance from control to the full decision and control stack. It is encouraging that the successes of extant architectures from bacteria to the Internet are due to strikingly universal mechanisms and design patterns. This is largely due to convergent evolution by natural selection and not intelligent design, particularly when compared with the sophisticated design of components. Our aim here is to describe the universals of architecture and sketch tentative paths towards a useful design theory.",
+    "citation_count": 9
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.09579",
+    "title": "Structure of Artificial Neural Networks - Empirical Investigations",
+    "published_date": "2024-10-12",
+    "abstract": "Within one decade, Deep Learning overtook the dominating solution methods of countless problems of artificial intelligence. ``Deep'' refers to the deep architectures with operations in manifolds of which there are no immediate observations. For these deep architectures some kind of structure is pre-defined -- but what is this structure? With a formal definition for structures of neural networks, neural architecture search problems and solution methods can be formulated under a common framework. Both practical and theoretical questions arise from closing the gap between applied neural architecture search and learning theory. Does structure make a difference or can it be chosen arbitrarily? This work is concerned with deep structures of artificial neural networks and examines automatic construction methods under empirical principles to shed light on to the so called ``black-box models''. Our contributions include a formulation of graph-induced neural networks that is used to pose optimisation problems for neural architecture. We analyse structural properties for different neural network objectives such as correctness, robustness or energy consumption and discuss how structure affects them. Selected automation methods for neural architecture optimisation problems are discussed and empirically analysed. With the insights gained from formalising graph-induced neural networks, analysing structural properties and comparing the applicability of neural architecture search methods qualitatively and quantitatively we advance these methods in two ways. First, new predictive models are presented for replacing computationally expensive evaluation schemes, and second, new generative models for informed sampling during neural architecture search are analysed and discussed."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/JDrxA3vwZAKZfmShz/degeneracies-are-sticky-for-sgd",
+    "author": "Guillaume Corlouer; Nicolas Macé",
+    "title": "Degeneracies are sticky for SGD",
+    "published_date": "2024-06-16"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rCP5iTYLtfcoC8NXd/self-organised-neural-networks-a-simple-natural-and",
+    "author": "D𝜋",
+    "title": "Self-Organised Neural Networks:\nA simple, natural and efficient way to intelligence",
+    "published_date": "2022-01-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13"
+  }
+]

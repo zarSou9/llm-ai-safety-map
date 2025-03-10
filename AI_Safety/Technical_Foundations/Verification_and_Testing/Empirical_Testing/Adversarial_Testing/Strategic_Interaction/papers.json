@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2412.17707",
+    "title": "SMAC-Hard: Enabling Mixed Opponent Strategy Script and Self-play on SMAC",
+    "published_date": "2024-12-23",
+    "abstract": "The availability of challenging simulation environments is pivotal for advancing the field of Multi-Agent Reinforcement Learning (MARL). In cooperative MARL settings, the StarCraft Multi-Agent Challenge (SMAC) has gained prominence as a benchmark for algorithms following centralized training with decentralized execution paradigm. However, with continual advancements in SMAC, many algorithms now exhibit near-optimal performance, complicating the evaluation of their true effectiveness. To alleviate this problem, in this work, we highlight a critical issue: the default opponent policy in these environments lacks sufficient diversity, leading MARL algorithms to overfit and exploit unintended vulnerabilities rather than learning robust strategies. To overcome these limitations, we propose SMAC-HARD, a novel benchmark designed to enhance training robustness and evaluation comprehensiveness. SMAC-HARD supports customizable opponent strategies, randomization of adversarial policies, and interfaces for MARL self-play, enabling agents to generalize to varying opponent behaviors and improve model stability. Furthermore, we introduce a black-box testing framework wherein agents are trained without exposure to the edited opponent scripts but are tested against these scripts to evaluate the policy coverage and adaptability of MARL algorithms. We conduct extensive evaluations of widely used and state-of-the-art algorithms on SMAC-HARD, revealing the substantial challenges posed by edited and mixed strategy opponents. Additionally, the black-box strategy tests illustrate the difficulty of transferring learned policies to unseen adversaries. We envision SMAC-HARD as a critical step toward benchmarking the next generation of MARL algorithms, fostering progress in self-play methods for multi-agent systems. Our code is available at https://github.com/devindeng94/smac-hard."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.07985",
+    "title": "Games for AI Control: Models of Safety Evaluations of AI Deployment Protocols",
+    "published_date": "2024-09-12",
+    "abstract": "To evaluate the safety and usefulness of deployment protocols for untrusted AIs, AI Control uses a red-teaming exercise played between a protocol designer and an adversary. This paper introduces AI-Control Games, a formal decision-making model of the red-teaming exercise as a multi-objective, partially observable, stochastic game. We also introduce methods for finding optimal protocols in AI-Control Games, by reducing them to a set of zero-sum partially observable stochastic games. We apply our formalism to model, evaluate and synthesise protocols for deploying untrusted language models as programming assistants, focusing on Trusted Monitoring protocols, which use weaker language models and limited human assistance. Finally, we demonstrate the utility of our formalism by showcasing improvements over empirical studies in existing settings, evaluating protocols in new settings, and analysing how modelling assumptions affect the safety and usefulness of protocols.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/adversarial-examples",
+    "author": "Jessica Rumbelow, mwatkins",
+    "title": "Adversarial Examples - LessWrong",
+    "published_date": "2023-02-09"
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20"
+  },
+  {
+    "title": "Assessing Human-AI Interaction Early through Factorial Surveys: A Study on the Guidelines for Human-AI Interaction",
+    "abstract": "This work contributes a research protocol for evaluating human-AI interaction in the context of specific AI products. The research protocol enables UX and HCI researchers to assess different human-AI interaction solutions and validate design decisions before investing in engineering. We present a detailed account of the research protocol and demonstrate its use by employing it to study an existing set of human-AI interaction guidelines. We used factorial surveys with a 2 × 2 mixed design to compare user perceptions when a guideline is applied versus violated, under conditions of optimal versus sub-optimal AI performance. The results provided both qualitative and quantitative insights into the UX impact of each guideline. These insights can support creators of user-facing AI systems in their nuanced prioritization and application of the guidelines.",
+    "published_date": "2022-04-14",
+    "citation_count": 24,
+    "url": "https://dl.acm.org/doi/10.1145/3511605"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.06704.pdf",
+    "title": "Adversarial Interaction Attack: Fooling AI to Misinterpret Human Intentions",
+    "published_date": "2021-01-17",
+    "abstract": "Understanding the actions of both humans and artificial intelligence (AI) agents is important before modern AI systems can be fully integrated into our daily life. In this paper, we show that, despite their current huge success, deep learning based AI systems can be easily fooled by subtle adversarial noise to misinterpret the intention of an action in interaction scenarios. Based on a case study of skeleton-based human interactions, we propose a novel adversarial attack on interactions, and demonstrate how DNN-based interaction models can be tricked to predict the participants' reactions in unexpected ways. From a broader perspective, the scope of our proposed attack method is not confined to problems related to skeleton data but can also be extended to any type of problems involving sequential regressions. Our study highlights potential risks in the interaction loop with AI and humans, which need to be carefully addressed when deploying AI systems in safety-critical applications.",
+    "citation_count": 1
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/NKmjGS4a3ykriqRNR/analyzing-deepmind-s-probabilistic-methods-for-evaluating",
+    "author": "Axel Højmark; Govind Pimpale; Arjun Panickssery; Marius Hobbhahn; Jérémy Scheurer",
+    "title": "Auto-Enhance: Developing a meta-benchmark to measure LLM agents' ability to improve other agents",
+    "published_date": "2024-07-22"
+  },
+  {
+    "url": "https://arxiv.org/abs/2201.08278",
+    "title": "Lifelong Learning Metrics",
+    "published_date": "2022-01-20",
+    "abstract": "The DARPA Lifelong Learning Machines (L2M) program seeks to yield advances in artificial intelligence (AI) systems so that they are capable of learning (and improving) continuously, leveraging data on one task to improve performance on another, and doing so in a computationally sustainable way. Performers on this program developed systems capable of performing a diverse range of functions, including autonomous driving, real-time strategy, and drone simulation. These systems featured a diverse range of characteristics (e.g., task structure, lifetime duration), and an immediate challenge faced by the program's testing and evaluation team was measuring system performance across these different settings. This document, developed in close collaboration with DARPA and the program performers, outlines a formalism for constructing and characterizing the performance of agents performing lifelong learning scenarios.",
+    "citation_count": 16
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.03332.pdf",
+    "title": "BEHAVIOR: Benchmark for Everyday Household Activities in Virtual, Interactive, and Ecological Environments",
+    "published_date": "2021-08-06",
+    "abstract": "We introduce BEHAVIOR, a benchmark for embodied AI with 100 activities in simulation, spanning a range of everyday household chores such as cleaning, maintenance, and food preparation. These activities are designed to be realistic, diverse, and complex, aiming to reproduce the challenges that agents must face in the real world. Building such a benchmark poses three fundamental difficulties for each activity: definition (it can differ by time, place, or person), instantiation in a simulator, and evaluation. BEHAVIOR addresses these with three innovations. First, we propose an object-centric, predicate logic-based description language for expressing an activity's initial and goal conditions, enabling generation of diverse instances for any activity. Second, we identify the simulator-agnostic features required by an underlying environment to support BEHAVIOR, and demonstrate its realization in one such simulator. Third, we introduce a set of metrics to measure task progress and efficiency, absolute and relative to human demonstrators. We include 500 human demonstrations in virtual reality (VR) to serve as the human ground truth. Our experiments demonstrate that even state of the art embodied AI solutions struggle with the level of realism, diversity, and complexity imposed by the activities in our benchmark. We make BEHAVIOR publicly available at behavior.stanford.edu to facilitate and calibrate the development of new embodied AI solutions.",
+    "citation_count": 134
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.11938.pdf",
+    "title": "Baby Intuitions Benchmark (BIB): Discerning the goals, preferences, and actions of others",
+    "published_date": "2021-02-23",
+    "abstract": "To achieve human-like common sense about everyday life, machine learning systems must understand and reason about the goals, preferences, and actions of other agents in the environment. By the end of their first year of life, human infants intuitively achieve such common sense, and these cognitive achievements lay the foundation for humans' rich and complex understanding of the mental states of others. Can machines achieve generalizable, commonsense reasoning about other agents like human infants? The Baby Intuitions Benchmark (BIB) challenges machines to predict the plausibility of an agent's behavior based on the underlying causes of its actions. Because BIB's content and paradigm are adopted from developmental cognitive science, BIB allows for direct comparison between human and machine performance. Nevertheless, recently proposed, deep-learning-based agency reasoning models fail to show infant-like reasoning, leaving BIB an open challenge.",
+    "citation_count": 40
+  },
+  {
+    "title": "On some Foundational Aspects of Human-Centered Artificial Intelligence",
+    "abstract": "The burgeoning of AI has prompted recommendations that AI techniques should be\"human-centered\". However, there is no clear definition of what is meant by Human Centered Artificial Intelligence, or for short, HCAI. This paper aims to improve this situation by addressing some foundational aspects of HCAI. To do so, we introduce the term HCAI agent to refer to any physical or software computational agent equipped with AI components and that interacts and/or collaborates with humans. This article identifies five main conceptual components that participate in an HCAI agent: Observations, Requirements, Actions, Explanations and Models. We see the notion of HCAI agent, together with its components and functions, as a way to bridge the technical and non-technical discussions on human-centered AI. In this paper, we focus our analysis on scenarios consisting of a single agent operating in dynamic environments in presence of humans.",
+    "published_date": "2021-12-29",
+    "citation_count": 1,
+    "url": "https://www.researchgate.net/publication/357418403_On_some_Foundational_Aspects_of_Human-Centered_Artificial_Intelligence"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/G4KHuYC3pHry6yMhi/compute-research-questions-and-metrics-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Research Questions and Metrics - Transformative AI and Compute [4/4]",
+    "published_date": "2021-11-28"
+  }
+]

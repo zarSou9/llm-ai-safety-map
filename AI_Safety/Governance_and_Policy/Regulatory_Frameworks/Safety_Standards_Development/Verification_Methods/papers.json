@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided, therefore no summary can be given."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19",
+    "summary": "The article argues that applying formal verification to guarantee AI safety is unrealistic in the near term. While proponents suggest formal verification could prevent catastrophic AI events like bioterrorism, the article highlights the practical limitations of applying formal methods to complex real-world systems, emphasizing the lack of such guarantees for existing technologies."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of posts provides a developing introduction to AI safety, with both content and order still under construction."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that achieving safe artificial general intelligence (AGI) requires a holistic, top-down design encompassing technical, social, and political considerations, and leveraging diverse theoretical frameworks from various fields rather than focusing on a single approach. This integrated strategy prioritizes the development of \"civilisational intelligence\" over isolated technical solutions."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and a long version, catalog AI safety research, organizations, and researchers to help machine learning experts quickly assess potential research areas based on their existing skills. The resource aims to facilitate entry into the AI safety field for those with relevant backgrounds."
+  },
+  {
+    "title": "A Deep Reinforcement Learning Framework with Formal Verification",
+    "abstract": "Artificial Intelligence (AI) and data are reshaping organizations and businesses. Human Resources (HR) management and talent development make no exception, as they tend to involve more automation and growing quantities of data. Because this brings implications on workforce, career transparency, and equal opportunities, overseeing what fuels AI and analytical models, their quality standards, integrity, and correctness becomes an imperative for those aspiring to such systems. Based on an ontology transformation to B-machines, this article presents an approach to constructing a valid and error-free career agent with Deep Reinforcement Learning (DRL). In short, the agent's policy is built on a framework we called Multi State-Actor (MuStAc) using a decentralized training approach. Its purpose is to predict both relevant and valid career steps to employees, based on their profiles and company pathways (observations). Observations can comprise various data elements such as the current occupation, past experiences, performance, skills, qualifications, and so on. The policy takes in all these observations and outputs the next recommended career step, in an environment set as the combination of an HR ontology and an Event-B model, which generates action spaces with respect to formal properties. The Event-B model and formal properties are derived using OWL to B transformation.",
+    "published_date": "2022-12-19",
+    "citation_count": 5,
+    "url": "https://dl.acm.org/doi/10.1145/3577204",
+    "summary": "This paper proposes a deep reinforcement learning framework for a career recommendation agent, integrating formal verification using B-machines and an ontology transformation from OWL to ensure the agent's policy is valid and error-free. The agent predicts career steps based on employee profiles and company pathways, operating within an environment defined by an HR ontology and an Event-B model."
+  },
+  {
+    "title": "Safety-Assured Design and Adaptation of Learning-Enabled Autonomous Systems",
+    "abstract": "Future autonomous systems will employ sophisticated machine learning techniques for the sensing and perception of the surroundings and the making corresponding decisions for planning, control, and other actions. They often operate in highly dynamic, uncertain and challenging environment, and need to meet stringent timing, resource, and mission requirements. In particular, it is critical and yet very challenging to ensure the safety of these autonomous systems, given the uncertainties of the system inputs, the constant disturbances on the system operations, and the lack of analyzability for many machine learning methods (particularly those based on neural networks). In this paper, we will discuss some of these challenges, and present our work in developing automated, quantitative, and formalized methods and tools for ensuring the safety of autonomous systems in their design and during their runtime adaptation. We argue that it is essential to take a holistic approach in addressing system safety and other safety-related properties, vertically across the functional, software, and hardware layers, and horizontally across the autonomy pipeline of sensing, perception, planning, and control modules. This approach could be further extended from a single autonomous system to a multi-agent system where multiple autonomous agents perform tasks in a collaborative manner. We will use connected and autonomous vehicles (CAVs) as the main application domain to illustrate the importance of such holistic approach and show our initial efforts in this direction.",
+    "published_date": "2021-01-18",
+    "citation_count": 23,
+    "url": "https://dl.acm.org/doi/10.1145/3394885.3431623",
+    "summary": "This paper addresses the significant safety challenges posed by learning-enabled autonomous systems, proposing a holistic, vertically and horizontally integrated approach for designing and adapting safe systems through automated, quantitative, and formalized methods. The authors focus on connected and autonomous vehicles to illustrate their methodology."
+  },
+  {
+    "title": "Towards trustworthy AI: safe-visor architecture for uncertified controllers in stochastic cyber-physical systems",
+    "abstract": "Artificial intelligence-based (a.k.a. AI-based) controllers have received significant attentions in the past few years due to their broad applications in cyber-physical systems (CPSs) to accomplish complex control missions. However, guaranteeing safety and reliability of CPSs equipped with this kind of (uncertified) controllers is currently very challenging, which is of vital importance in many real-life safety-critical applications. To cope with this difficulty, we propose a Safe-visor architecture for sandboxing AI-based controllers in stochastic CPSs. The proposed framework contains (i) a history-based supervisor which checks inputs from the AI-based controller and makes compromise between functionality and safety of the system, and (ii) a safety advisor that provides fallback when the AI-based controller endangers the safety of the system. By employing this architecture, we provide formal probabilistic guarantees on the satisfaction of those classes of safety specifications which can be represented by the accepting languages of deterministic finite automata (DFA), while AI-based controllers can still be employed in the control loop even though they are not reliable.",
+    "published_date": "2021-05-19",
+    "citation_count": 7,
+    "url": "https://dl.acm.org/doi/10.1145/3457335.3461705",
+    "summary": "The Safe-visor architecture enhances the safety and reliability of cyber-physical systems using uncertified AI-based controllers by employing a history-based supervisor for compromise between functionality and safety, and a safety advisor for fallback mechanisms, providing probabilistic safety guarantees for specific safety specifications."
+  }
+]

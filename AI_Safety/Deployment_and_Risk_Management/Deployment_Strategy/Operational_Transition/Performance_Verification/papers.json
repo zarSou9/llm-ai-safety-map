@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/a7YgzDYx4FhdB3TmR/an-155-a-minecraft-benchmark-for-algorithms-that-learn",
+    "author": "Rohin Shah",
+    "title": "[AN #155]: A Minecraft benchmark for algorithms that learn without reward functions",
+    "published_date": "2021-07-08",
+    "summary": "The MineRL BASALT competition uses Minecraft to benchmark AI agents' ability to learn from human feedback, addressing limitations of traditional benchmarks like Atari by offering complex, open-ended tasks with inherently ambiguous goals requiring human evaluation, thus promoting research on AI systems that learn objectives from human input rather than relying on potentially misspecified reward functions."
+  },
+  {
+    "title": "Towards Verified Self-Driving Infrastructure",
+    "abstract": "Modern \"self-driving'' service infrastructures consist of a diverse collection of distributed control components providing a broad spectrum of application- and network-centric functions. The complex and non-deterministic nature of these interactions leads to failures, ranging from subtle gray failures to catastrophic service outages, that are difficult to anticipate and repair. Our goal is to call attention to the need for formal understanding of dynamic service infrastructure control. We provide an overview of several incidents reported by large service providers as well as issues in a popular orchestration system, identifying key characteristics of the systems and their failures. We then propose a verification approach in which we treat abstract models of control components and the environment as parametric transition systems and leverage symbolic model checking to verify safety and liveness properties, or propose safe configuration parameters. Our preliminary experiments show that our approach is effective in analyzing complex failure scenarios with acceptable performance overhead.",
+    "published_date": "2020-11-04",
+    "citation_count": 9,
+    "url": "https://dl.acm.org/doi/10.1145/3422604.3425949",
+    "summary": "The paper highlights the unreliability of self-driving infrastructure due to complex, distributed control systems, proposing a verification approach using parametric transition systems and symbolic model checking to analyze and improve safety and liveness. Preliminary results demonstrate the effectiveness of this approach in identifying and mitigating failure scenarios."
+  },
+  {
+    "title": "Probabilistic conformance for cyber-physical systems",
+    "abstract": "In system analysis, conformance indicates that two systems simultaneously satisfy the same set of specifications of interest; thus, the results from analyzing one system automatically transfer to the other, or one system can safely replace the other in practice. In this work, we study the probabilistic conformance of cyber-physical systems (CPS). We propose a notion of (approximate) probabilistic conformance for sets of complex specifications expressed by the Signal Temporal Logic (STL). Based on a novel statistical test, we develop the first statistical verification methods for the probabilistic conformance of a wide class of CPS. Using this method, we verify the conformance of the startup time of the widely-used full and simplified model of Toyota powertrain systems, the settling time of model-predictive-control-based and neural-network-based automotive lane-keeping controllers, as well as the maximal voltage deviation of full and simplified power grid systems.",
+    "published_date": "2020-08-03",
+    "citation_count": 8,
+    "url": "https://dl.acm.org/doi/10.1145/3450267.3450534",
+    "summary": "This paper introduces a novel statistical method for verifying probabilistic conformance of cyber-physical systems (CPS) using Signal Temporal Logic (STL) specifications, enabling the comparison and safe replacement of different CPS models based on their probabilistic behavior. The method is demonstrated on various case studies, including automotive and power grid systems."
+  },
+  {
+    "title": "Towards Assurance Evaluation of Autonomous Systems",
+    "abstract": "Due to the probabilistic and uncertain nature of learning-enabled autonomous systems, new assurance technologies appropriate for such systems are becoming critical for their acceptance. Runtime monitors are among the key assurance technologies to address these challenges. In the DARPA Assured Autonomy program, our Boeing team is performing autonomous platform integration and assurance technology evaluation. In this paper, we present our preliminary evaluation results for runtime monitor technologies, which were developed by our three partner teams during Phase I for learning-enabled autonomous systems. The evaluation was completed using a flight simulator and real platforms. In the evaluation, the demonstrated assurance technologies showed significant promise in addressing the assurance shortfall currently facing learning enabled cyber physical systems, and the evaluation approach defined here provides a solid starting point for evaluations of the maturing assurance technologies in the future phases of the DARPA Assured Autonomy project.",
+    "published_date": "2020-11-02",
+    "citation_count": 10,
+    "url": "https://dl.acm.org/doi/10.1145/3400302.3415785",
+    "summary": "This paper presents preliminary evaluation results of runtime monitor technologies for learning-enabled autonomous systems, showing significant promise in addressing assurance shortfalls and establishing a valuable evaluation framework for future development within the DARPA Assured Autonomy program."
+  },
+  {
+    "title": "Scalable Multiple-View Analysis of Reactive Systems via Bidirectional Model Transformations",
+    "abstract": "Systematic model-driven design and early validation enable engineers to verify that a reactive system does not violate its requirements before actually implementing it. Requirements may come from multiple stakeholders, who are often concerned with different facets - design typically involves different experts having different concerns and views of the system. Engineers start from a specification which may be sourced from some domain model, while validation is often done on state-transition structures that support model checking. Two computationally expensive steps may work against scalability: transformation from specification to state-transition structures, and model checking. We propose a technique that makes the former efficient and also makes the resulting transition systems small enough to be efficiently verified. The technique automatically projects the specification into submodels depending on a property sought to be evaluated, which captures some stakeholder's viewpoint. The resulting reactive system submodel is then transformed into a state-transition structure and verified. The technique achieves cone-of-influence reduction, by slicing at the specification model level. Submodels are analysis-equivalent to the corresponding full model. If stakeholders propose a change to a submodel based on their own view, changes are automatically propagated to the specification model and other views affected. Automated reflection is achieved thanks to bidirectional model transformations, ensuring correctness. We cast our proposal in the context of graph-based reactive systems whose dynamics is described by rewriting rules. We demonstrate our view-based framework in practice on a case study within cyber-physical systems.",
+    "published_date": "2020-09-01",
+    "citation_count": 11,
+    "url": "https://dl.acm.org/doi/10.1145/3324884.3416579",
+    "summary": "This paper presents a scalable method for analyzing reactive systems by using bidirectional model transformations to create smaller, analysis-equivalent submodels based on stakeholder viewpoints, thus improving the efficiency of model checking without sacrificing correctness. This approach leverages cone-of-influence reduction at the specification level, enabling efficient verification and automated propagation of changes across multiple views."
+  },
+  {
+    "title": "Selective Symbolic Type-Guided Checkpointing and Restoration for Autonomous Vehicle Repair",
+    "abstract": "Fault tolerant design can help autonomous vehicle systems address defects, environmental changes and security attacks. Checkpoint and restoration fault tolerance techniques save a copy of an application's state before a problem occurs and restore that state afterwards. However, traditional Checkpoint/Restore techniques still admit high overhead, may carry along tainted data, and rarely operate in tandem with human-written or automated repairs that modify source code or alter data layout. Thus, it can be difficult to apply traditional Checkpoint/Restore techniques to solve the issues of non-environmental defects, security attacks or software bugs. To address such challenges, in this paper, we propose and evaluate a selective checkpoint and restore (SCR) technique that records only critical system state based on types and minimal symbolic annotations to deploy repaired programs. We found that using source-level symbolic information allows an application to be resumed even after its code is modified in our evaluation. We evaluate our approach using a commodity autonomous vehicle system and demonstrate that it admits manual and automated software repairs, does not carry tainted data, and has low overhead.",
+    "published_date": "2020-06-27",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3387940.3392201",
+    "summary": "This paper introduces Selective Checkpoint and Restore (SCR), a low-overhead fault tolerance technique for autonomous vehicles that leverages symbolic type information to selectively checkpoint critical system state, enabling efficient restoration even after code modifications from manual or automated repairs. The approach avoids carrying tainted data and allows for the deployment of repaired programs."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/N7KYWJPmyzB6bJSYT/the-next-ai-winter-will-be-due-to-energy-costs-1",
+    "author": "hippke",
+    "title": "The next AI winter will be due to energy costs",
+    "published_date": "2020-11-24",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Zi8vrf2aBCLu3Gh9s/the-simple-solow-model-of-software-engineering",
+    "author": "johnswentworth",
+    "title": "The Simple Solow Model of Software Engineering",
+    "published_date": "2019-04-08",
+    "summary": "The article applies the Solow economic growth model to software development, predicting that software projects, like physical capital, face depreciation, slowing feature addition over time as maintenance costs increase. Smaller projects with less legacy code thus gain a competitive advantage in adding new features."
+  }
+]

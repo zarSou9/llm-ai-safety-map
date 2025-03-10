@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Handling Trust Between Drivers and Automated Vehicles for Improved Collaboration",
+    "abstract": "Advances in perception and artificial intelligence technology are expected to lead to seamless interaction between humans and robots. Trust in robots has been evolving from the theory on trust in automation, with a fundamental difference: unlike traditional automation, robots could adjust their behaviors depending on how their human counterparts appear to be trusting them or how humans appear to be trustworthy. In this extended abstract I present my research on methods for processing trust in the particular context of interactions between a driver and an automated vehicle, which has the goal of achieving higher safety and performance standards for the team formed by those human and robotic agents.",
+    "published_date": "2021-03-08",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3434074.3446358"
+  },
+  {
+    "title": "Effect of confidence and explanation on accuracy and trust calibration in AI-assisted decision making",
+    "abstract": "Today, AI is being increasingly used to help human experts make decisions in high-stakes scenarios. In these scenarios, full automation is often undesirable, not only due to the significance of the outcome, but also because human experts can draw on their domain knowledge complementary to the model's to ensure task success. We refer to these scenarios as AI-assisted decision making, where the individual strengths of the human and the AI come together to optimize the joint decision outcome. A key to their success is to appropriately calibrate human trust in the AI on a case-by-case basis; knowing when to trust or distrust the AI allows the human expert to appropriately apply their knowledge, improving decision outcomes in cases where the model is likely to perform poorly. This research conducts a case study of AI-assisted decision making in which humans and AI have comparable performance alone, and explores whether features that reveal case-specific model information can calibrate trust and improve the joint performance of the human and AI. Specifically, we study the effect of showing confidence score and local explanation for a particular prediction. Through two human experiments, we show that confidence score can help calibrate people's trust in an AI model, but trust calibration alone is not sufficient to improve AI-assisted decision making, which may also depend on whether the human can bring in enough unique knowledge to complement the AI's errors. We also highlight the problems in using local explanation for AI-assisted decision making scenarios and invite the research community to explore new approaches to explainability for calibrating human trust in AI.",
+    "published_date": "2020-01-07",
+    "citation_count": 585,
+    "url": "https://dl.acm.org/doi/10.1145/3351095.3372852"
+  },
+  {
+    "title": "Empirical Evaluations of Framework for Adaptive Trust Calibration in Human-AI Cooperation",
+    "abstract": "Recent advances in AI technologies are dramatically changing the world and impacting our daily life. However, human users still essentially need to cooperate with AI systems to complete tasks as such technologies are never perfect. For optimal performance and safety in human-AI cooperation, human users must appropriately adjust their level of trust to the actual reliability of AI systems. Poorly calibrated trust can be a major cause of serious issues with safety and efficiency. Previous works on trust calibration have emphasized the importance of system transparency for avoiding trust miscalibration. Measuring and influencing trust are still challenging issues; consequently, not many studies have focused on how to detect improper trust calibration nor how to mitigate it. We approach these research challenges with a behavior-based approach to capture the status of calibration. A framework of adaptive trust calibration is proposed, including a formal definition of improper trust calibration called “a trust equation”. It involves cognitive cues called “trust calibration cues (TCCs)” and a conceptual entity called “trust calibration AI” (TCAI), which supervises the status of trust calibration. We conducted empirical evaluations using a simulated drone environment with two types of cooperative tasks: a visual search task and a real-time navigation task. We designed trust changing scenarios and evaluated our framework. The results demonstrated that adaptively presenting a TCC could promote trust calibration more effectively than a traditional system transparency approach.",
+    "published_date": "2020-01-01",
+    "citation_count": 27,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09281021.pdf"
+  },
+  {
+    "title": "A Framework for Analyzing and Calibrating Trust in Automated Vehicles",
+    "abstract": "When predicting the traffic of the future and the acceptance of automated vehicles, we often like to assume that one of the major challenges will be to foster overall trust in automated vehicles for effective and safe mixed-traffic operations. In this paper, we propose a more faceted viewpoint and argue for the benefits of -- and provide an initial framework for --calibrated trust by fostering trust and distrust in automated vehicles. If drivers know exactly what their vehicle is and is not capable of, then they are more likely to react properly and be prepared when handover requests or other unexpected circumstances might occur.",
+    "published_date": "2016-10-24",
+    "citation_count": 43,
+    "url": "https://dl.acm.org/doi/10.1145/3004323.3004326"
+  },
+  {
+    "title": "Bases of human-computer trust and explanations",
+    "abstract": "Maintaining and enhancing the willingness of a user to interact with a technical system is crucial for human-computer interaction (HCI). Trust has shown to be an important factor influencing the frequency and kind of usage. In this paper we present our ongoing work on using explanations to maintain the trust relationship between human and computer. We describe an experiment on how different goals of explanations can be used to influence the bases of human-computer trust in a directed way. We present the results of a conducted preliminary study and outline how to improve the experiment so as to be able to include the results in an existing dialogue system.",
+    "published_date": "2013-04-27",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/2468356.2468667"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/HvqQm6o8KnwxbdmhZ/estimating-training-compute-of-deep-learning-models",
+    "author": "lennart, Jsevillamol, Marius Hobbhahn, Tamay Besiroglu, anson.ho",
+    "title": "Estimating training compute of Deep Learning models",
+    "published_date": "2022-01-20"
+  },
+  {
+    "title": "NEURODIFF: Scalable Differential Verification of Neural Networks using Fine-Grained Approximation",
+    "abstract": "As neural networks make their way into safety-critical systems, where misbehavior can lead to catastrophes, there is a growing interest in certifying the equivalence of two structurally similar neural networks - a problem known as differential verification. For example, compression techniques are often used in practice for deploying trained neural networks on computationally- and energy-constrained devices, which raises the question of how faithfully the compressed network mimics the original network. Unfortunately, existing methods either focus on verifying a single network or rely on loose approximations to prove the equivalence of two networks. Due to overly conservative approximation, differential verification lacks scalability in terms of both accuracy and computational cost. To overcome these problems, we propose NEURODIFF, a symbolic and fine-grained approximation technique that drastically increases the accuracy of differential verification on feed-forward ReLU networks while achieving many orders-of-magnitude speedup. NEURODIFF has two key contributions. The first one is new convex approximations that more accurately bound the difference of two networks under all possible inputs. The second one is judicious use of symbolic variables to represent neurons whose difference bounds have accumulated significant error. We find that these two techniques are complementary, i.e., when combined, the benefit is greater than the sum of their individual benefits. We have evaluated NEURODIFF on a variety of differential verification tasks. Our results show that NEURODIFF is up to 1000X faster and 5X more accurate than the state-of-the-art tool.",
+    "published_date": "2020-09-01",
+    "citation_count": 33,
+    "url": "https://dl.acm.org/doi/10.1145/3324884.3416560"
+  },
+  {
+    "title": "ReluDiff: Differential Verification of Deep Neural Networks",
+    "abstract": "As deep neural networks are increasingly being deployed in practice, their efficiency has become an important issue. While there are compression techniques for reducing the network's size, energy consumption and computational requirement, they only demonstrate empirically that there is no loss of accuracy, but lack formal guarantees of the compressed network, e.g., in the presence of adversarial examples. Existing verification techniques such as Reluplex, ReluVal, and DeepPoly provide formal guarantees, but they are designed for analyzing a single network instead of the relationship between two networks. To fill the gap, we develop a new method for differential verification of two closely related networks. Our method consists of a fast but approximate forward interval analysis pass followed by a backward pass that iteratively refines the approximation until the desired property is verified. We have two main innovations. During the forward pass, we exploit structural and behavioral similarities of the two networks to more accurately bound the difference between the output neurons of the two networks. Then in the backward pass, we leverage the gradient differences to more accurately compute the most beneficial refinement. Our experiments show that, compared to state-of-the-art verification tools, our method can achieve orders-of-magnitude speedup and prove many more properties than existing tools.",
+    "published_date": "2020-01-10",
+    "citation_count": 48,
+    "url": "https://dl.acm.org/doi/10.1145/3377811.3380337"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/KrQvZM8uFjSTJ7hq3/recent-progress-in-the-theory-of-neural-networks-1",
+    "author": "interstice",
+    "title": "Recent Progress in the Theory of Neural Networks",
+    "published_date": "2019-12-04"
+  }
+]

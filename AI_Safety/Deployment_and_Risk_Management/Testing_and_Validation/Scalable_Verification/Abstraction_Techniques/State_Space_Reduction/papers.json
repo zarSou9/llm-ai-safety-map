@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2404.01726",
+    "title": "A Stability-Based Abstraction Framework for Reach-Avoid Control of Stochastic Dynamical Systems with Unknown Noise Distributions",
+    "published_date": "2024-04-02",
+    "abstract": "Finite-state abstractions are widely studied for the automated synthesis of correct-by-construction controllers for stochastic dynamical systems. However, existing abstraction methods often lead to prohibitively large finite-state models. To address this issue, we propose a novel abstraction scheme for stochastic linear systems that exploits the system's stability to obtain significantly smaller abstract models. As a unique feature, we first stabilize the open-loop dynamics using a linear feedback gain. We then use a model-based approach to abstract a known part of the stabilized dynamics while using a data-driven method to account for the stochastic uncertainty. We formalize abstractions as Markov decision processes (MDPs) with intervals of transition probabilities. By stabilizing the dynamics, we can further constrain the control input modeled in the abstraction, which leads to smaller abstract models while retaining the correctness of controllers. Moreover, when the stabilizing feedback controller is aligned with the property of interest, then a good tradeoff is achieved between the reduction in the abstraction size and the performance loss. The experiments show that our approach can reduce the size of the graph of abstractions by up to 90% with negligible performance loss.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2307.10068.pdf",
+    "title": "Practical Model Reductions for Verification of Multi-Agent Systems",
+    "published_date": "2023-07-19",
+    "abstract": "Formal verification of intelligent agents is often computationally infeasible due to state-space explosion.\n\nWe present a tool for reducing the impact of the explosion by means of state abstraction that is (a) easy to use and understand by non-experts, and (b) agent-based in the sense that it operates on a modular representation of the system, rather than on its huge explicit state model.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2002.05518v1.pdf",
+    "title": "Learning State Abstractions for Transfer in Continuous Control",
+    "published_date": "2020-02-08",
+    "abstract": "Can simple algorithms with a good representation solve challenging reinforcement learning problems? In this work, we answer this question in the affirmative, where we take \"simple learning algorithm\" to be tabular Q-Learning, the \"good representations\" to be a learned state abstraction, and \"challenging problems\" to be continuous control tasks. Our main contribution is a learning algorithm that abstracts a continuous state-space into a discrete one. We transfer this learned representation to unseen problems to enable effective learning. We provide theory showing that learned abstractions maintain a bounded value loss, and we report experiments showing that the abstractions empower tabular Q-Learning to learn efficiently in unseen tasks.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://arxiv.org/pdf/2006.13160v1.pdf",
+    "title": "Environment Shaping in Reinforcement Learning using State Abstraction",
+    "published_date": "2020-06-23",
+    "abstract": "One of the central challenges faced by a reinforcement learning (RL) agent is to effectively learn a (near-)optimal policy in environments with large state spaces having sparse and noisy feedback signals. In real-world applications, an expert with additional domain knowledge can help in speeding up the learning process via \\emph{shaping the environment}, i.e., making the environment more learner-friendly. A popular paradigm in literature is \\emph{potential-based reward shaping}, where the environment's reward function is augmented with additional local rewards using a potential function. However, the applicability of potential-based reward shaping is limited in settings where (i) the state space is very large, and it is challenging to compute an appropriate potential function, (ii) the feedback signals are noisy, and even with shaped rewards the agent could be trapped in local optima, and (iii) changing the rewards alone is not sufficient, and effective shaping requires changing the dynamics. We address these limitations of potential-based shaping methods and propose a novel framework of \\emph{environment shaping using state abstraction}. Our key idea is to compress the environment's large state space with noisy signals to an abstracted space, and to use this abstraction in creating smoother and more effective feedback signals for the agent. We study the theoretical underpinnings of our abstraction-based environment shaping, and show that the agent's policy learnt in the shaped environment preserves near-optimal behavior in the original environment.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/pdf/2007.13925.pdf",
+    "title": "Control Barrier Functions for Abstraction-Free Control Synthesis under Temporal Logic Constraints",
+    "published_date": "2020-07-28",
+    "abstract": "Temporal logic has been widely used to express complex task specifications for cyber-physical systems (CPSs). One way to synthesize a controller for CPS under temporal logic constraints is to first abstract the CPS as a discrete transition system, and then apply formal methods. This approach, however, is computationally demanding and its scalability suffers due to the curse of dimensionality. In this paper, we propose a control barrier function (CBF) approach to abstraction-free control synthesis under a linear temporal logic (LTL) constraint. We first construct the deterministic Rabin automaton of the specification and compute an accepting run. We then compute a sequence of LTL formulae, each of which must be satisfied during a particular time interval, and prove that satisfying the sequence of formulae is sufficient to satisfy the LTL specification. Finally, we compute a control policy for satisfying each formula by constructing an appropriate CBF. We present a quadratic program to compute the controllers, and show the controllers synthesized using the proposed approach guarantees the system to satisfy the LTL specification, provided the quadratic program is feasible at each time step. A numerical case study is presented to demonstrate the proposed approach.",
+    "citation_count": 9
+  },
+  {
+    "url": "https://arxiv.org/pdf/1909.09040v1.pdf",
+    "title": "Approximately symbolic models for a class of continuous-time nonlinear systems",
+    "published_date": "2019-09-19",
+    "abstract": "Discrete abstractions have become a standard approach to assist control synthesis under complex specifications. Most techniques for the construction of discrete abstractions are based on sampling of both the state and time spaces, which may not be able to guarantee safety for continuous-time systems. In this work, we aim at addressing this problem by considering only state-space abstraction. Firstly, we connect the continuous-time concrete system with its discrete (state-space) abstraction with a control interface. Then, a novel stability notion called controlled globally asymptotic/practical stability with respect to a set is proposed. It is shown that every system, under the condition that there exists an admissible control interface such that the augmented system (composed of the concrete system and its abstraction) can be made controlled globally practically stable with respect to the given set, is approximately simulated by its discrete abstraction. The effectiveness of the proposed results is illustrated by a simulation example.",
+    "citation_count": 2
+  }
+]

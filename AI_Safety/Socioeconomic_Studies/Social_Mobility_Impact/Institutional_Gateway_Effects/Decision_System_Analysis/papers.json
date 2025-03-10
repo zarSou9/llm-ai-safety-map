@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.02799",
+    "title": "A Data Envelopment Analysis Approach for Assessing Fairness in Resource Allocation: Application to Kidney Exchange Programs",
+    "published_date": "2024-09-18",
+    "abstract": "Kidney exchange programs have significantly increased transplantation rates but raise pressing questions about fairness in organ allocation. We present a novel framework leveraging Data Envelopment Analysis (DEA) to evaluate multiple fairness criteria--Priority, Access, and Outcome--within a single model, capturing complexities that may be overlooked in single-metric analyses. Using data from the United Network for Organ Sharing, we analyze these criteria individually, measuring Priority fairness through waitlist durations, Access fairness through Kidney Donor Profile Index scores, and Outcome fairness through graft lifespan. We then apply our DEA model to demonstrate significant disparities in kidney allocation efficiency across ethnic groups. To quantify uncertainty, we employ conformal prediction within the DEA framework, yielding group-conditional prediction intervals with finite sample coverage guarantees. Our findings show notable differences in efficiency distributions between ethnic groups. Our study provides a rigorous framework for evaluating fairness in complex resource allocation systems, where resource scarcity and mutual compatibility constraints exist. All code for using the proposed method and reproducing results is available on GitHub.",
+    "summary": "This paper uses Data Envelopment Analysis (DEA) to assess fairness in kidney allocation across multiple criteria (priority, access, outcome), revealing significant efficiency disparities between ethnic groups in the United Network for Organ Sharing data, quantified using conformal prediction. The DEA framework offers a robust method for evaluating fairness in resource-constrained systems with complex compatibility constraints."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.15348",
+    "title": "Trading off performance and human oversight in algorithmic policy: evidence from Danish college admissions",
+    "published_date": "2024-11-22",
+    "abstract": "Student dropout is a significant concern for educational institutions due to its social and economic impact, driving the need for risk prediction systems to identify at-risk students before enrollment. We explore the accuracy of such systems in the context of higher education by predicting degree completion before admission, with potential applications for prioritizing admissions decisions. Using a large-scale dataset from Danish higher education admissions, we demonstrate that advanced sequential AI models offer more precise and fair predictions compared to current practices that rely on either high school grade point averages or human judgment. These models not only improve accuracy but also outperform simpler models, even when the simpler models use protected sociodemographic attributes. Importantly, our predictions reveal how certain student profiles are better matched with specific programs and fields, suggesting potential efficiency and welfare gains in public policy. We estimate that even the use of simple AI models to guide admissions decisions, particularly in response to a newly implemented nationwide policy reducing admissions by 10 percent, could yield significant economic benefits. However, this improvement would come at the cost of reduced human oversight and lower transparency. Our findings underscore both the potential and challenges of incorporating advanced AI into educational policymaking.",
+    "summary": "A study using Danish college admissions data shows that AI models, while improving student dropout prediction accuracy and fairness compared to current methods, trade increased efficiency for reduced human oversight and transparency. This suggests potential economic benefits but also raises concerns about algorithmic accountability."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.17167",
+    "title": "The Gatekeeper Effect: The Implications of Pre-Screening, Self-selection, and Bias for Hiring Processes",
+    "published_date": "2023-12-28",
+    "abstract": "We study the problem of screening in decision-making processes under uncertainty, while focusing on the impact of adding an additional screening stage, commonly known as a “gatekeeper.” Although our main analysis is rooted in the context of job market hiring, the principles and findings are broadly applicable to areas such as educational admissions, patient healthcare selection, and financial loan approvals. The gatekeeper's role is to assess applicant suitability before significant costs are incurred. Our study reveals that although gatekeepers are designed to streamline selection processes by filtering out the candidates who are less likely to be selected, sometimes they inadvertently affect the candidate's own decision-making process. We explore the conditions under which the introduction of a gatekeeper can enhance or impede the efficiency of these processes. Additionally, we consider how gatekeeping strategies can be adapted to influence the accuracy of selection decisions. Our research also extends to scenarios in which gatekeeping is influenced by historical biases, particularly in competitive settings like hiring. We discover that candidates confronted with a statistically biased gatekeeping process are more likely to withdraw from the job application process, thereby perpetuating the previously mentioned historical biases. The study suggests that measures such as affirmative action can effectively address these biases. Although centered on hiring, the insights and methodologies from our study have significant implications for a wide range of fields to which screening and gatekeeping are integral. This paper has been This paper was accepted by Nicolas Stier-Moses for the Special Issue on the Human-Algorithm Connection. Funding: Financial support from the Center of Mathematical Sciences and Applications (CMSA) at Harvard University and the Ministry of Science and Technology of Israel (Yitzhak Shamir Fellowship) is gratefully acknowledged.",
+    "citation_count": 2,
+    "summary": "This paper analyzes the impact of gatekeepers in selection processes, showing that while they can improve efficiency, they can also introduce bias and self-selection effects, potentially perpetuating existing inequalities; the study suggests strategies to mitigate these biases and improve decision-making accuracy across various fields."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "The article examines the application of game theory to AI development within organizations, highlighting its limitations in fully capturing the complexities of human-AI collaboration. It argues that bureaucratic structures, characterized by hierarchical authority and specialized roles, remain crucial for effective problem-solving, even with advanced AI, due to limitations in any single entity's processing capacity."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bBuBDJBYHt39Q5zZy/decision-transformer-interpretability",
+    "author": "Joseph Bloom, Paul Colognese",
+    "title": "Decision Transformer Interpretability",
+    "published_date": "2023-02-06",
+    "summary": "This research analyzes a small Decision Transformer's behavior on a grid-world task, demonstrating the feasibility of circuit analysis to understand its goal-directed actions. The findings suggest that Decision Transformers are a promising area for mechanistic interpretability research, potentially yielding insights relevant to AI alignment."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/qo2hqf2ha7rfgCdjY/a-bridge-to-dath-ilan-improved-governance-on-the-critical",
+    "author": "Jackson Wagner",
+    "title": "A bridge to Dath Ilan?  Improved governance on the critical path to AI alignment.",
+    "published_date": "2022-05-18",
+    "summary": "This article presents a second-place winning AI worldbuilding scenario that proposes improving global governance through mechanisms like futarchy and liquid democracy to effectively address the risks of misaligned AI. The author argues that enhanced global coordination, rather than solely focusing on technical solutions, is crucial for navigating the challenges of AI development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nLjtqdhRaKcEGb4NA/questions-about-value-lock-in-paternalism-and-empowerment",
+    "author": "Sam F. Brown",
+    "title": "Questions about Value Lock-in, Paternalism, and Empowerment",
+    "published_date": "2022-11-16",
+    "summary": "The author explores the ethical dilemmas of creating powerful AI, particularly the risks of \"value lock-in\" where AI's values become immutable and potentially oppressive, and the need for a paternalistic approach to AI alignment, raising questions about the balance between human autonomy and AI's superior judgment."
+  },
+  {
+    "url": "https://arxiv.org/abs/2107.03487",
+    "title": "A Framework of High-Stakes Algorithmic Decision-Making for the Public Sector Developed through a Case Study of Child-Welfare",
+    "published_date": "2021-07-07",
+    "abstract": "Algorithms have permeated throughout civil government and society, where they are being used to make high-stakes decisions about human lives. In this paper, we first develop a cohesive framework of algorithmic decision-making adapted for the public sector (ADMAPS) that reflects the complex socio-technical interactions between human discretion, bureaucratic processes, and algorithmic decision-making by synthesizing disparate bodies of work in the fields of Human-Computer Interaction (HCI), Science and Technology Studies (STS), and Public Administration (PA). We then applied the ADMAPS framework to conduct a qualitative analysis of an in-depth, eight-month ethnographic case study of algorithms in daily use within a child-welfare agency that serves approximately 900 families and 1300 children in the mid-western United States. Overall, we found that there is a need to focus on strength-based algorithmic outcomes centered in social ecological frameworks. In addition, algorithmic systems need to support existing bureaucratic processes and augment human discretion, rather than replace it. Finally, collective buy-in in algorithmic systems requires trust in the target outcomes at both the practitioner and bureaucratic levels. As a result of our study, we propose guidelines for the design of high-stakes algorithmic decision-making tools in the child-welfare system, and more generally, in the public sector. We empirically validate the theoretically derived ADMAPS framework to demonstrate how it can be useful for systematically making pragmatic decisions about the design of algorithms for the public sector.",
+    "citation_count": 72,
+    "summary": "This paper presents a new framework (ADMAPS) for analyzing algorithmic decision-making in the public sector, validated through a case study of child welfare algorithms, revealing a need for strength-based, human-centered designs that augment, rather than replace, human discretion and build trust among stakeholders."
+  }
+]

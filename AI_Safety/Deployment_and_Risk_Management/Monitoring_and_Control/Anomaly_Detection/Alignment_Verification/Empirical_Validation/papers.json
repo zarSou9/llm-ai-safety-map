@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.13919",
+    "title": "Measuring Error Alignment for Decision-Making Systems",
+    "published_date": "2024-09-20",
+    "abstract": "Given that AI systems are set to play a pivotal role in future decision-making processes, their trustworthiness and reliability are of critical concern. Due to their scale and complexity, modern AI systems resist direct interpretation, and alternative ways are needed to establish trust in those systems, and determine how well they align with human values. We argue that good measures of the information processing similarities between AI and humans, may be able to achieve these same ends. While Representational alignment (RA) approaches measure similarity between the internal states of two systems, the associated data can be expensive and difficult to collect for human systems. In contrast, Behavioural alignment (BA) comparisons are cheaper and easier, but questions remain as to their sensitivity and reliability. We propose two new behavioural alignment metrics misclassification agreement which measures the similarity between the errors of two systems on the same instances, and class-level error similarity which measures the similarity between the error distributions of two systems. We show that our metrics correlate well with RA metrics, and provide complementary information to another BA metric, within a range of domains, and set the scene for a new approach to value alignment."
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.13445",
+    "title": "The most general manner to injectively align true and predicted segments",
+    "published_date": "2022-12-27",
+    "abstract": "Kirilov et al (2019) develop a metric, called Panoptic Quality (PQ), to evaluate image segmentation methods. The metric is based on a confusion table, and compares a predicted to a ground truth segmentation. The only non straightforward part in this comparison is to align the segments in the two segmentations. A metric only works well if that alignment is a partial bijection. Kirilov et al (2019) list 3 desirable properties for a definition of alignment: it should be simple, interpretable and effectively computable. There are many definitions guaranteeing a partial bijection and these 3 properties. We present the weakest: one that is both sufficient and necessary to guarantee that the alignment is a partial bijection. This new condition is effectively computable and natural. It simply says that the number of correctly predicted elements (in image segmentation, the pixels) should be larger than the number of missed, and larger than the number of spurious elements. This is strictly weaker than the proposal in Kirilov et al (2019). In formulas, instead of |TP|>|FN\\textbar| + |FP|, the weaker condition requires that |TP|>|FN| and |TP|>|FP|. We evaluate the new alignment condition theoretically and empirically."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.01864v1.pdf",
+    "title": "Direct Construction of Program Alignment Automata for Equivalence Checking",
+    "published_date": "2021-09-04",
+    "abstract": "The problem of checking whether two programs are semantically equivalent or not has a diverse range of applications, and is consequently of substantial importance. There are several techniques that address this problem, chiefly by constructing a product program that makes it easier to derive useful invariants. A novel addition to these is a technique that uses alignment predicates to align traces of the two programs, in order to construct a program alignment automaton. Being guided by predicates is not just beneficial in dealing with syntactic dissimilarities, but also in staying relevant to the property. However, there are also drawbacks of a trace-based technique. Obtaining traces that cover all program behaviors is difficult, and any under-approximation may lead to an incomplete product program. Moreover, an indirect construction of this kind is unaware of the missing behaviors, and has no control over the aforesaid incompleteness. This paper, addressing these concerns, presents an algorithm to construct the program alignment automaton directly instead of relying on traces.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2012.01557v1",
+    "title": "Value Alignment Verification",
+    "published_date": "2020-12-02",
+    "abstract": "As humans interact with autonomous agents to perform increasingly complicated, potentially risky tasks, it is important that humans can verify these agents' trustworthiness and efficiently evaluate their performance and correctness. In this paper we formalize the problem of value alignment verification: how to efficiently test whether the goals and behavior of another agent are aligned with a human's values? We explore several different value alignment verification settings and provide foundational theory regarding value alignment verification. We study alignment verification problems with an idealized human that has an explicit reward function as well as value alignment verification problems where the human has implicit values. Our theoretical and empirical results in both a discrete grid navigation domain and a continuous autonomous driving domain demonstrate that it is possible to synthesize highly efficient and accurate value alignment verification tests for certifying the alignment of autonomous agents.",
+    "citation_count": 28
+  },
+  {
+    "url": "https://arxiv.org/pdf/2009.14374.pdf",
+    "title": "Rethinking Evaluation Methodology for Audio-to-Score Alignment",
+    "published_date": "2020-09-30",
+    "abstract": "This paper offers a precise, formal definition of an audio-to-score alignment. While the concept of an alignment is intuitively grasped, this precision affords us new insight into the evaluation of audio-to-score alignment algorithms. Motivated by these insights, we introduce new evaluation metrics for audio-to-score alignment. Using an alignment evaluation dataset derived from pairs of KernScores and MAESTRO performances, we study the behavior of our new metrics and the standard metrics on several classical alignment algorithms.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2004.08728.pdf",
+    "title": "SimAlign: High Quality Word Alignments without Parallel Training Data using Static and Contextualized Embeddings",
+    "published_date": "2020-04-18",
+    "abstract": "Word alignments are useful for tasks like statistical and neural machine translation (NMT) and cross-lingual annotation projection. Statistical word aligners perform well, as do methods that extract alignments jointly with translations in NMT. However, most approaches require parallel training data and quality decreases as less training data is available. We propose word alignment methods that require no parallel data. The key idea is to leverage multilingual word embeddings – both static and contextualized – for word alignment. Our multilingual embeddings are created from monolingual data only without relying on any parallel data or dictionaries. We find that alignments created from embeddings are superior for four and comparable for two language pairs compared to those produced by traditional statistical aligners – even with abundant parallel data; e.g., contextualized embeddings achieve a word alignment F1 for English-German that is 5 percentage points higher than eflomal, a high-quality statistical aligner, trained on 100k parallel sentences.",
+    "citation_count": 211
+  }
+]

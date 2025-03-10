@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/GCHyDKfPXa5qsG2cP/human-study-on-ai-spear-phishing-campaigns",
+    "author": "Simon Lermen, Fred Heiding, Andrew Kao",
+    "title": "Human study on AI spear phishing campaigns",
+    "published_date": "2025-01-03",
+    "summary": "A study found that AI-generated spear-phishing emails, leveraging models like GPT-4o and Claude 3.5 Sonnet, achieved a click-through rate exceeding 50%, comparable to human-crafted emails and significantly outperforming a control group; this demonstrates the high effectiveness and cost-efficiency of AI in spear-phishing attacks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.20236",
+    "title": "Artificial Intelligence from Idea to Implementation. How Can AI Reshape the Education Landscape?",
+    "published_date": "2024-07-14",
+    "abstract": "This introductory chapter provides an overview of the evolution and impact of Artificial Intelligence technologies in today society. Beginning with a historical context while exploring a few general definitions of AI, the author provides a timeline of the used technologies, highlighting its periods of stagnation, commonly referred to as AI winters, and the subsequent resurgence fueled by relentless enthusiasm and investment. The narrative then transitions to focus on the transformative effects of AI on society at large, with a particular emphasis on educational applications. Through examples, the paper shows how AI technologies have moved from theoretical constructs to practical tools that are reshaping pedagogical approaches and student engagement. The essay concludes by discussing the prospects of AI in education, emphasizing the need for a balanced approach that considers both technological advancements and societal implications.",
+    "summary": "This paper traces the history of artificial intelligence, highlighting its fluctuating development and current transformative impact on society. It then focuses on AI's applications in education, showcasing its practical uses and emphasizing the need for a balanced approach to its implementation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.12687",
+    "title": "Towards Responsible Development of Generative AI for Education: An Evaluation-Driven Approach",
+    "published_date": "2024-05-21",
+    "abstract": "A major challenge facing the world is the provision of equitable and universal access to quality education. Recent advances in generative AI (gen AI) have created excitement about the potential of new technologies to offer a personal tutor for every learner and a teaching assistant for every teacher. The full extent of this dream, however, has not yet materialised. We argue that this is primarily due to the difficulties with verbalising pedagogical intuitions into gen AI prompts and the lack of good evaluation practices, reinforced by the challenges in defining excellent pedagogy. Here we present our work collaborating with learners and educators to translate high level principles from learning science into a pragmatic set of seven diverse educational benchmarks, spanning quantitative, qualitative, automatic and human evaluations; and to develop a new set of fine-tuning datasets to improve the pedagogical capabilities of Gemini, introducing LearnLM-Tutor. Our evaluations show that LearnLM-Tutor is consistently preferred over a prompt tuned Gemini by educators and learners on a number of pedagogical dimensions. We hope that this work can serve as a first step towards developing a comprehensive educational evaluation framework, and that this can enable rapid progress within the AI and EdTech communities towards maximising the positive impact of gen AI in education.",
+    "citation_count": 17,
+    "summary": "This paper advocates for responsible generative AI development in education, proposing a novel evaluation framework with seven benchmarks and a fine-tuned Gemini model (LearnLM-Tutor) that outperforms a prompt-tuned version based on educator and learner preferences. The authors aim to establish a comprehensive evaluation framework to maximize the positive impact of AI in education."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.09047",
+    "title": "AI Meets the Classroom: When Does ChatGPT Harm Learning?",
+    "published_date": "2024-08-29",
+    "abstract": "In this paper, we study how generative AI and specifically large language models (LLMs) impact learning in coding classes. We show across three studies that LLM usage can have positive and negative effects on learning outcomes. Using observational data from university-level programming courses, we establish such effects in the field. We replicate these findings in subsequent experimental studies, which closely resemble typical learning scenarios, to show causality. We find evidence for two contrasting mechanisms that determine the overall effect of LLM usage on learning. Students who use LLMs as personal tutors by conversing about the topic and asking for explanations benefit from usage. However, learning is impaired for students who excessively rely on LLMs to solve practice exercises for them and thus do not invest sufficient own mental effort. Those who never used LLMs before are particularly prone to such adverse behavior. Students without prior domain knowledge gain more from having access to LLMs. Finally, we show that the self-perceived benefits of using LLMs for learning exceed the actual benefits, potentially resulting in an overestimation of one's own abilities. Overall, our findings show promising potential of LLMs as learning support, however also that students have to be very cautious of possible pitfalls.",
+    "summary": "A study on LLM use in coding classes reveals that while LLMs can enhance learning when used as tutoring tools, excessive reliance on them for problem-solving hinders learning, especially for novice students; self-perceived benefits often outweigh actual learning gains."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.23069",
+    "title": "LLMs Integration in Software Engineering Team Projects: Roles, Impact, and a Pedagogical Design Space for AI Tools in Computing Education",
+    "published_date": "2024-10-30",
+    "abstract": "This work takes a pedagogical lens to explore the implications of generative AI (GenAI) models and tools, such as ChatGPT and GitHub Copilot, in a semester-long 2nd-year undergraduate Software Engineering Team Project. Qualitative findings from survey (39 students) and interviews (eight students) provide insights into the students' views on the impact of GenAI use on their coding experience, learning, and self-efficacy. Our results address a particular gap in understanding the role and implications of GenAI on teamwork, team-efficacy, and team dynamics. The analysis of the learning aspects is distinguished by the application of learning and pedagogy informed lenses to discuss the data. We propose a preliminary design space for GenAI-based programming learning tools highlighting the importance of considering the roles that GenAI can play during the learning process, the varying support-ability patterns that can be applied to each role, and the importance of supporting transparency in GenAI for team members and students in addition to educators.",
+    "summary": "This study investigates the impact of integrating large language models (LLMs) like ChatGPT and GitHub Copilot into undergraduate software engineering team projects, analyzing student perceptions of their effect on coding, learning, teamwork, and self-efficacy. The findings inform a proposed design space for LLM-based programming learning tools emphasizing transparency and adaptable support structures."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/37uuuPQKiGisi8cGG/language-and-capabilities-testing-llm-mathematical-abilities",
+    "author": "Ethan Edwards",
+    "title": "Language and Capabilities: Testing LLM Mathematical Abilities Across Languages",
+    "published_date": "2024-04-04",
+    "summary": "This research investigated GPT-4's ability to perform three-digit multiplication in various languages and numeral systems, revealing that while performance is best with Arabic numerals, success is heavily dependent on prompt phrasing and unexpected emergent behaviors, suggesting GPT-4 relies on learned token patterns rather than abstract mathematical understanding."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/cLfsabkCPtieJ5LoK/investigating-bias-representations-in-llms-via-activation",
+    "author": "DawnLu",
+    "title": "Investigating Bias Representations in LLMs via Activation Steering",
+    "published_date": "2024-01-15",
+    "summary": "This research uses activation steering to assess the societal biases of the Llama-2-7b-chat LLM, finding that while the model exhibits gender bias without steering, attempts to further steer the model towards biased responses using contrastive activation addition resulted in the model refusing to answer, suggesting a potential robustness against overt bias elicitation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/iaHk9DMCbrYsKuqgS/simple-distribution-approximation-when-sampled-100-times-can-1",
+    "author": "Teun van der Weij, Felix Hofstätter, Francis Rhys Ward",
+    "title": "Simple distribution approximation: When sampled 100 times, can language models yield 80% A and 20% B?",
+    "published_date": "2024-01-29",
+    "summary": "This study investigates Large Language Models' (LLMs) ability to manipulate their output distribution to achieve a specified accuracy rate, a capability relevant to \"sandbagging\" (deliberately underperforming). Experiments using GPT-3.5 and GPT-4 show that both models can approximate target distributions, but their success varies depending on the task and prompt engineering."
+  }
+]

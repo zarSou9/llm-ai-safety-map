@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2403.12805",
+    "title": "Contextual Moral Value Alignment Through Context-Based Aggregation",
+    "published_date": "2024-03-19",
+    "abstract": "Developing value-aligned AI agents is a complex undertaking and an ongoing challenge in the field of AI. Specifically within the domain of Large Language Models (LLMs), the capability to consolidate multiple independently trained dialogue agents, each aligned with a distinct moral value, into a unified system that can adapt to and be aligned with multiple moral values is of paramount importance. In this paper, we propose a system that does contextual moral value alignment based on contextual aggregation. Here, aggregation is defined as the process of integrating a subset of LLM responses that are best suited to respond to a user input, taking into account features extracted from the user's input. The proposed system shows better results in term of alignment to human value compared to the state of the art.",
+    "citation_count": 3,
+    "summary": "This paper introduces a novel system for creating value-aligned AI by aggregating responses from multiple LLMs, each representing a different moral value, to generate contextually appropriate and human-aligned outputs. This approach outperforms existing methods in aligning AI with human values."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/coherent-blended-volition",
+    "title": "Coherent Blended Volition - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Coherent Blended Volition (CBV) refines Coherent Aggregated Volition, offering a human-centered alternative to Coherent Extrapolated Volition (CEV) for aligning artificial general intelligence (AGI) with human values. CBV achieves this through a collaborative process of conceptually blending diverse human perspectives, requiring the agreement of all participants, unlike CEV's reliance on extrapolated values determined by a sophisticated software."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.08759.pdf",
+    "title": "Value Engineering for Autonomous Agents",
+    "published_date": "2023-02-17",
+    "abstract": "Machine Ethics (ME) is concerned with the design of Artificial Moral Agents (AMAs), i.e. autonomous agents capable of reasoning and behaving according to moral values. Previous approaches have treated values as labels associated with some actions or states of the world, rather than as integral components of agent reasoning. It is also common to disregard that a value-guided agent operates alongside other value-guided agents in an environment governed by norms, thus omitting the social dimension of AMAs. In this blue sky paper, we propose a new AMA paradigm grounded in moral and social psychology, where values are instilled into agents as context-dependent goals. These goals intricately connect values at individual levels to norms at a collective level by evaluating the outcomes most incentivized by the norms in place. We argue that this type of normative reasoning, where agents are endowed with an understanding of norms' moral implications, leads to value-awareness in autonomous agents. Additionally, this capability paves the way for agents to align the norms enforced in their societies with respect to the human values instilled in them, by complementing the value-based reasoning on norms with agreement mechanisms to help agents collectively agree on the best set of norms that suit their human values. Overall, our agent model goes beyond the treatment of values as inert labels by connecting them to normative reasoning and to the social functionalities needed to integrate value-aware agents into our modern hybrid human-computer societies.",
+    "citation_count": 3,
+    "summary": "This paper proposes a novel paradigm for Artificial Moral Agents (AMAs) that integrates values as context-dependent goals, connecting individual values to collective norms through normative reasoning and agreement mechanisms, enabling value-aware agents capable of aligning societal norms with human values. This approach moves beyond treating values as simple labels, incorporating social and moral psychology for improved agent behavior in human-computer societies."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.02748",
+    "title": "A computational framework of human values for ethical AI",
+    "published_date": "2023-05-04",
+    "abstract": "In the diverse array of work investigating the nature of human values from psychology, philosophy and social sciences, there is a clear consensus that values guide behaviour. More recently, a recognition that values provide a means to engineer ethical AI has emerged. Indeed, Stuart Russell proposed shifting AI's focus away from simply ``intelligence'' towards intelligence ``provably aligned with human values''. This challenge -- the value alignment problem -- with others including an AI's learning of human values, aggregating individual values to groups, and designing computational mechanisms to reason over values, has energised a sustained research effort. Despite this, no formal, computational definition of values has yet been proposed. We address this through a formal conceptual framework rooted in the social sciences, that provides a foundation for the systematic, integrated and interdisciplinary investigation into how human values can support designing ethical AI.",
+    "citation_count": 4,
+    "summary": "This paper proposes a novel computational framework for defining human values, addressing the lack of formal definition in current ethical AI research and providing a foundation for aligning AI with human values. This framework integrates insights from psychology, philosophy, and social sciences to facilitate systematic investigation of ethical AI design."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.00632.pdf",
+    "title": "That's All Folks: a KG of Values as Commonsense Social Norms and Behaviors",
+    "published_date": "2023-03-01",
+    "abstract": "Values, as intended in ethics, determine the shape and validity of moral and social norms, grounding our everyday individual and community behavior on commonsense knowledge. Formalising latent moral content in human interaction is an appealing perspective that would enable a deeper understanding of both social dynamics and individual cognitive and behavioral dimension. To tackle this problem, several theoretical frameworks offer different values models, and organize them into different taxonomies. The problem of the most used theories is that they adopt a cultural-independent perspective while many entities that are considered\"values\"are grounded in commonsense knowledge and expressed in everyday life interaction. We propose here two ontological modules, FOLK, an ontology for values intended in their broad sense, and That's All Folks, a module for lexical and factual folk value triggers, whose purpose is to complement the main theories, providing a method for identifying the values that are not contemplated by the major value theories, but which nonetheless play a key role in daily human interactions, and shape social structures, cultural biases, and personal beliefs. The resource is tested via performing automatic detection of values from text with a frame-based approach.",
+    "summary": "The paper introduces \"That's All Folks,\" a knowledge graph expanding existing value theories by incorporating commonsense social norms and behaviors extracted from everyday interactions. This resource, tested via automated value detection from text, aims to improve understanding of social dynamics and individual behavior by including values often overlooked in broader theoretical frameworks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a novel framework for building ethically aligned AI by incorporating ethical principles as Bayesian priors into AI learning processes. This approach, inspired by human moral intuitions, aims to guide AI decision-making with ethical considerations from the outset, offering a flexible alternative to rigid rule-based systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that a solely technical focus is insufficient and that achieving safe artificial general intelligence (AGI) requires integrating insights from numerous fields, including social sciences and humanities, to design \"civilizational intelligence.\" This approach prioritizes pragmatic, constructive, and naturalistic methodologies grounded in physicalism."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.11231v4.pdf",
+    "title": "Designing for Engaging with News using Moral Framing towards Bridging Ideological Divides",
+    "published_date": "2021-01-27",
+    "abstract": "Society is showing signs of strong ideological polarization. When pushed to seek perspectives different from their own, people often reject diverse ideas or find them unfathomable. Work has shown that framing controversial issues using the values of the audience can improve understanding of opposing views. In this paper, we present our work designing systems for addressing ideological division through educating U.S. news consumers to engage using a framework of fundamental human values known as Moral Foundations. We design and implement a series of new features that encourage users to challenge their understanding of opposing views, including annotation of moral frames in news articles, discussion of those frames via inline comments, and recommendations based on relevant moral frames. We describe two versions of features---the first covering a suite of ways to interact with moral framing in news, and the second tailored towards collaborative annotation and discussion. We conduct a field evaluation of each design iteration with 71 participants in total over a period of 6-8 days, finding evidence suggesting users learned to re-frame their discourse in moral values of the opposing side. Our work provides several design considerations for building systems to engage with moral framing.",
+    "citation_count": 5,
+    "summary": "This paper explores the design and evaluation of systems aimed at mitigating ideological polarization in news consumption by incorporating moral framing; features encouraging users to identify and discuss moral values in news articles led to participants reframing their discourse using opposing viewpoints' values."
+  }
+]

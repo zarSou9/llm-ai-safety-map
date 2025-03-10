@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/6cWgaaxWqGYwJs3vj/a-basic-systems-architecture-for-ai-agents-that-do",
+    "author": "Buck",
+    "title": "A basic systems architecture for AI agents that do autonomous research",
+    "published_date": "2024-09-23"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/HvqQm6o8KnwxbdmhZ/estimating-training-compute-of-deep-learning-models",
+    "author": "lennart, Jsevillamol, Marius Hobbhahn, Tamay Besiroglu, anson.ho",
+    "title": "Estimating training compute of Deep Learning models",
+    "published_date": "2022-01-20"
+  },
+  {
+    "title": "Spons & Shields: practical isolation for trusted execution",
+    "abstract": "Trusted execution environments (TEEs) promise a cost-effective, “lift-and-shift” solution for deploying security-sensitive applications in untrusted clouds. For this, they must support rich, multi-component applications, but a large trusted computing base (TCB) inside the TEE risks that attackers can compromise application security. Fine-grained compartmentalisation can increase security through defense-in-depth, but current solutions either run all software components unprotected in the same TEE, lack efficient shared memory support, or isolate application processes using separate TEEs, impacting performance and compatibility. We describe the Spons & Shields framework (SSF) for Intel SGX TEEs, which offers intra-TEE compartmentalisation using two new abstraction, Spons and Shields. Spons and Shields generalise process, library and user/kernel isolation inside the TEE while allowing for efficient memory sharing. When users deploy unmodified multi-component applications in a TEE, SSF dynamically creates Spons (one per POSIX process or library) and Shields (to enforce a given security policy for memory accesses). Applications can be hardened with minor code changes, e.g., by using a separate Shield to isolate an SSL library. SSF uses compiler instrumentation to protect Shield boundaries, exploiting MPX instructions if available. We evaluate SSF using a complex application service (NGINX, PHP interpreter and PostgreSQL) and show that its overhead is comparable to process isolation.",
+    "published_date": "2021-04-16",
+    "citation_count": 11,
+    "url": "https://dl.acm.org/doi/10.1145/3453933.3454024"
+  },
+  {
+    "title": "secureTF: A Secure TensorFlow Framework",
+    "abstract": "Data-driven intelligent applications in modern online services have become ubiquitous. These applications are usually hosted in the untrusted cloud computing infrastructure. This poses significant security risks since these applications rely on applying machine learning algorithms on large datasets which may contain private and sensitive information. To tackle this challenge, we designed secureTF, a distributed secure machine learning framework based on Tensorflow for the untrusted cloud infrastructure. secureTF is a generic platform to support unmodified TensorFlow applications, while providing end-to-end security for the input data, ML model, and application code. secureTF is built from ground-up based on the security properties provided by Trusted Execution Environments (TEEs). However, it extends the trust of a volatile memory region (or secure enclave) provided by the single node TEE to secure a distributed infrastructure required for supporting unmodified stateful machine learning applications running in the cloud. The paper reports on our experiences about the system design choices and the system deployment in production use-cases. We conclude with the lessons learned based on the limitations of our commercially available platform, and discuss open research problems for the future work.",
+    "published_date": "2020-12-07",
+    "citation_count": 38,
+    "url": "https://dl.acm.org/doi/10.1145/3423211.3425687"
+  },
+  {
+    "title": "Secure Collaborative Training and Inference for XGBoost",
+    "abstract": "In recent years, gradient boosted decision tree learning has proven to be an effective method of training robust models. Moreover, collaborative learning among multiple parties has the potential to greatly benefit all parties involved, but organizations have also encountered obstacles in sharing sensitive data due to business, regulatory, and liability concerns. We propose Secure XGBoost, a privacy-preserving system that enables multiparty training and inference of XGBoost models. Secure XGBoost protects the privacy of each party's data as well as the integrity of the computation with the help of hardware enclaves. Crucially, Secure XGBoost augments the security of the enclaves using novel data-oblivious algorithms that prevent access side-channel attacks on enclaves induced via access pattern leakage.",
+    "published_date": "2020-10-06",
+    "citation_count": 30,
+    "url": "https://dl.acm.org/doi/10.1145/3411501.3419420"
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/tag/good-explanations-advice",
+    "title": "Good Explanations (Advice) - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "The \"Good Explanations (Advice)\" tag categorizes advice on effective explanatory writing. It provides guidance on how to create clear and understandable explanations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a novel framework for building ethical AI by incorporating ethical principles as Bayesian priors into AI learning processes. This approach aims to guide AI decision-making towards ethically sound judgments, similar to how human moral intuitions shape human behavior."
+  },
+  {
+    "title": "Reasons, Values, Stakeholders: A Philosophical Framework for Explainable Artificial Intelligence",
+    "abstract": "The societal and ethical implications of the use of opaque artificial intelligence systems in consequential decisions, such as welfare allocation and criminal justice, have generated a lively debate among multiple stakeholders, including computer scientists, ethicists, social scientists, policy makers, and end users. However, the lack of a common language or a multi-dimensional framework to appropriately bridge the technical, epistemic, and normative aspects of this debate nearly prevents the discussion from being as productive as it could be. Drawing on the philosophical literature on the nature and value of explanations, this paper offers a multi-faceted framework that brings more conceptual precision to the present debate by identifying the types of explanations that are most pertinent to artificial intelligence predictions, recognizing the relevance and importance of the social and ethical values for the evaluation of these explanations, and demonstrating the importance of these explanations for incorporating a diversified approach to improving the design of truthful algorithmic ecosystems. The proposed philosophical framework thus lays the groundwork for establishing a pertinent connection between the technical and ethical aspects of artificial intelligence systems.",
+    "published_date": "2021-03-01",
+    "citation_count": 21,
+    "url": "https://dl.acm.org/doi/10.1145/3442188.3445866",
+    "summary": "This paper proposes a philosophical framework for explainable AI, addressing the need for a common language to bridge technical, epistemic, and normative perspectives in the debate surrounding AI's ethical implications. It achieves this by identifying relevant explanation types, highlighting the role of social and ethical values in evaluating explanations, and emphasizing their importance in designing trustworthy AI systems."
+  },
+  {
+    "title": "Are Explanations Helpful? A Comparative Study of the Effects of Explanations in AI-Assisted Decision-Making",
+    "abstract": "This paper contributes to the growing literature in empirical evaluation of explainable AI (XAI) methods by presenting a comparison on the effects of a set of established XAI methods in AI-assisted decision making. Specifically, based on our review of previous literature, we highlight three desirable properties that ideal AI explanations should satisfy—improve people's understanding of the AI model, help people recognize the model uncertainty, and support people's calibrated trust in the model. Through randomized controlled experiments, we evaluate whether four types of common model-agnostic explainable AI methods satisfy these properties on two types of decision making tasks where people perceive themselves as having different levels of domain expertise in (i.e., recidivism prediction and forest cover prediction). Our results show that the effects of AI explanations are largely different on decision making tasks where people have varying levels of domain expertise in, and many AI explanations do not satisfy any of the desirable properties for tasks that people have little domain expertise in. Further, for decision making tasks that people are more knowledgeable, feature contribution explanation is shown to satisfy more desiderata of AI explanations, while the explanation that is considered to resemble how human explain decisions (i.e., counterfactual explanation) does not seem to improve calibrated trust. We conclude by discussing the implications of our study for improving the design of XAI methods to better support human decision making.",
+    "published_date": "2021-04-14",
+    "citation_count": 254,
+    "url": "https://dl.acm.org/doi/10.1145/3397481.3450650",
+    "summary": "This study compares four explainable AI (XAI) methods across two decision-making tasks with varying user expertise levels, finding that explanation effectiveness significantly depends on user domain knowledge and that no single method consistently improves understanding, uncertainty recognition, and calibrated trust. Feature contribution explanations performed better for expert users, while counterfactual explanations did not improve calibrated trust."
+  },
+  {
+    "title": "Expanding Explainability: Towards Social Transparency in AI systems",
+    "abstract": "As AI-powered systems increasingly mediate consequential decision-making, their explainability is critical for end-users to take informed and accountable actions. Explanations in human-human interactions are socially-situated. AI systems are often socio-organizationally embedded. However, Explainable AI (XAI) approaches have been predominantly algorithm-centered. We take a developmental step towards socially-situated XAI by introducing and exploring Social Transparency (ST), a sociotechnically informed perspective that incorporates the socio-organizational context into explaining AI-mediated decision-making. To explore ST conceptually, we conducted interviews with 29 AI users and practitioners grounded in a speculative design scenario. We suggested constitutive design elements of ST and developed a conceptual framework to unpack ST's effect and implications at the technical, decision-making, and organizational level. The framework showcases how ST can potentially calibrate trust in AI, improve decision-making, facilitate organizational collective actions, and cultivate holistic explainability. Our work contributes to the discourse of Human-Centered XAI by expanding the design space of XAI.",
+    "published_date": "2021-01-12",
+    "citation_count": 316,
+    "url": "https://www.researchgate.net/publication/348443845_Expanding_Explainability_Towards_Social_Transparency_in_AI_systems",
+    "summary": "This paper argues that current Explainable AI (XAI) methods are insufficient, advocating for \"Social Transparency\" – a sociotechnical approach that integrates the social and organizational context into AI explanations. Through interviews, the authors propose a framework for Social Transparency to improve trust, decision-making, and overall AI explainability."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/uyvnjaRaKdGXoKrv7/from-language-to-ethics-by-automated-reasoning",
+    "author": "Michele Campolo",
+    "title": "From language to ethics by automated reasoning",
+    "published_date": "2021-11-21",
+    "summary": "The author proposes aligning AI by replicating the factors driving ethical behavior in humans (e.g., empathy, theory of mind, moral reasoning) within AI systems. The article explores whether a successful alignment hinges on replicating subjective human morality or identifying objective moral principles that could guide AI reasoning."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/ethics-and-morality",
+    "author": "Wei Dai",
+    "title": "Ethics & Morality - AI Alignment Forum",
+    "published_date": "2021-12-02",
+    "summary": "The article is a collection of discussion points and links related to ethics and morality, covering various perspectives and philosophical approaches. It provides links to related articles on consequentialism, deontology, metaethics, and moral uncertainty."
+  },
+  {
+    "title": "Good Explanation for Algorithmic Transparency",
+    "abstract": "Machine learning algorithms have gained widespread usage across a variety of domains, both in providing predictions to expert users and recommending decisions to everyday users. However, these AI systems are often black boxes, and end-users are rarely provided with an explanation. The critical need for explanation by AI systems has led to calls for algorithmic transparency, including the \"right to explanation'' in the EU General Data Protection Regulation (GDPR). These initiatives presuppose that we know what constitutes a meaningful or good explanation, but there has actually been surprisingly little research on this question in the context of AI systems. In this paper, we (1) develop a generalizable framework grounded in philosophy, psychology, and interpretable machine learning to investigate and define characteristics of good explanation, and (2) conduct a large-scale lab experiment to measure the impact of different factors on people's perceptions of understanding, usage intention, and trust of AI systems. The framework and study together provide a concrete guide for managers on how to present algorithmic prediction rationales to end-users to foster trust and adoption, and elements of explanation and transparency to be considered by AI researchers and engineers in designing, developing, and deploying transparent or explainable algorithms.",
+    "published_date": "2020-02-04",
+    "citation_count": 36,
+    "url": "https://dl.acm.org/doi/10.1145/3375627.3375821",
+    "summary": "This paper develops a framework for defining \"good\" explanations for AI algorithms, combining philosophical, psychological, and machine learning perspectives, and then empirically tests how different explanatory factors influence user understanding, trust, and adoption."
+  }
+]

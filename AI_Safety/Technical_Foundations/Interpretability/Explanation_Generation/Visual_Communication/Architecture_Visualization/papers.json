@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/bCtbuWraqYTDtuARg/towards-multimodal-interpretability-learning-sparse-2",
+    "author": "hugofry",
+    "title": "Towards Multimodal Interpretability: Learning Sparse Interpretable Features in Vision Transformers",
+    "published_date": "2024-04-29"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/tiKG7gvQ33vf8QAgy/wittgenstein-and-ml-parameters-vs-architecture",
+    "author": "Cleo Nardo",
+    "title": "Wittgenstein and ML — parameters vs architecture",
+    "published_date": "2023-03-24"
+  },
+  {
+    "title": "GraphicalAI: A User-Centric Approach to Develop Artificial Intelligence and Machine Learning Applications using a Visual and Graphical Language",
+    "abstract": "With the increasing popularity of Artificial Intelligence (AI) and Machine Learning (ML), developing AI-based applications is in high demand in various industries. However, the AI development is still based on traditional programming frameworks and languages, which prevents domain experts from contributing to it without collaborating with developers. This research is to show how graphical software allows users from many domain (e.g., Doctors, Accountants, Advertisers) to build AI applications, train AI models without any prior knowledge of programming, and many of its unnecessary concepts. Using nodes and connectors as the primary graphical components, the application, GraphicalAI, is to show how graphics can be designed in a way to easily prototype any kinds of AI models. To enable domain experts to design AI models using the power of graphics and our human vision.",
+    "published_date": "2021-02-18",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3456146.3456155"
+  },
+  {
+    "title": "Intelligent Visualization Interfaces",
+    "abstract": "Visualization transforms large quantities of data into pictures in which relations, patterns, or trends of interest in the data reveal themselves to effectively guide the user in the data reasoning and discovery process. Visualization has become an essential tool in many areas of study that use a data-driven approach to problem solving and decision making. However, when the data is large relational or high-dimensional, it can take both novices and experts substantial effort to derive and interpret visualization results from the data. Following the resurgence of AI and machine learning technology in recent years, in the field of visualization, there is also the growing interest and opportunity in applying AI and machine learning to perform data transformation and to assist in the generation and interpretation of visualization, aiming to strike a balance between cost and performance. In this talk, I will present designs made by my group effectively making use of machine learning for general data visualization and analytics tasks [1, 2, 3, 4, 5, 6], resulting in better visualization interfaces into the data.",
+    "published_date": "2021-04-14",
+    "url": "https://dl.acm.org/doi/10.1145/3397481.3457411"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/G4KHuYC3pHry6yMhi/compute-research-questions-and-metrics-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Research Questions and Metrics - Transformative AI and Compute [4/4]",
+    "published_date": "2021-11-28"
+  },
+  {
+    "title": "Multimodal Knowledge Graph for Deep Learning Papers and Code",
+    "abstract": "Keeping up with the rapid growth of Deep Learning (DL) research is a daunting task. While existing scientific literature search systems provide text search capabilities and can identify similar papers, gaining an in-depth understanding of a new approach or an application is much more complicated. Many publications leverage multiple modalities to convey their findings and spread their ideas - they include pseudocode, tables, images and diagrams in addition to text, and often make publicly accessible their implementations. It is important to be able to represent and query them as well. We utilize RDF Knowledge graphs (KGs) to represent multimodal information and enable expressive querying over modalities. In our demo we present an approach for extracting KGs from different modalities, namely text, architecture images and source code. We show how graph queries can be used to get insights into different facets (modalities) of a paper, and its associated code implementation. Our innovation lies in the multimodal nature of the KG we create. While our work is of direct interest to DL researchers and practitioners, our approaches can also be leveraged in other scientific domains.",
+    "published_date": "2020-10-19",
+    "citation_count": 30,
+    "url": "https://dl.acm.org/doi/10.1145/3340531.3417439"
+  }
+]

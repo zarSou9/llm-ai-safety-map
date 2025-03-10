@@ -1,0 +1,60 @@
+[
+  {
+    "title": "AI as a Legal Person",
+    "abstract": "The idea of the legal personhood of artificial intelligence (AI) --- the idea that intelligent agents can have rights and incur obligations under the law--- is controversial, and in fact is often dismissed out of hand: in this paper I will argue that, on the contrary, such legal personhood may be the next big challenge for our legal systems, and we need it to deal with the new kinds of complexity introduced by AI. Furthermore, I argue that we already have experiences we can look: to this end we can draw on the reasoning applied to the legal personhood recognized for corporations and other nonhuman entities. In order to do this, I address some of the criticisms against ascribing legal personhood to AI. I also look at the Canadian and EU ethical guidelines so as to keep the development of AI within the framework of human values, and I show that an ascription of legal personhood to AI is consistent with them. I also address a few of the big issues involved in making the legal personhood of AI a reality.",
+    "published_date": "2019-06-17",
+    "citation_count": 7,
+    "url": "https://dl.acm.org/doi/10.1145/3322640.3326701",
+    "summary": "This paper argues that granting legal personhood to artificial intelligence is a necessary, and not merely controversial, development to address the complexities AI introduces. It counters criticisms of this idea by drawing parallels to existing legal personhood granted to corporations and analyzes ethical guidelines to demonstrate compatibility."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/X8NhKh2g2ECPrm5eo/post-series-on-liability-law-for-reducing-existential-risk",
+    "author": "Nora_Ammann",
+    "title": "Post series on \"Liability Law for reducing Existential Risk from AI\"",
+    "published_date": "2024-02-29",
+    "summary": "Gabriel Weil argues that adapting liability law, specifically through strict liability and expanded punitive damages, is crucial for mitigating AI existential risks. This requires legal and legislative action, including potentially mandating liability insurance for AI development and deployment."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a novel framework for embedding ethical considerations into AI systems by using Bayesian priors. These \"ethical priors,\" representing pre-programmed ethical assumptions and values, guide the AI's learning and decision-making process, similar to how human moral intuitions shape behavior."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "The article explores applying game theory to AI development within organizational structures, highlighting both its potential and limitations. It argues that while game theory offers valuable insights into multi-agent interactions, a comprehensive approach must also consider bureaucratic principles of hierarchical authority and job specialization, emphasizing the continued importance of human-AI collaboration in complex problem-solving."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mmxPbFz7wvthvHCxq/sparks-of-artificial-general-intelligence-early-experiments",
+    "author": "DragonGod",
+    "title": "Sparks of Artificial General Intelligence: Early experiments with GPT-4 | Microsoft Research",
+    "published_date": "2023-03-23",
+    "summary": "This paper investigates an early version of OpenAI's GPT-4, arguing that it, along with similar LLMs, exhibits more general intelligence than predecessors by demonstrating near human-level performance across diverse complex tasks. The authors highlight GPT-4's capabilities while also acknowledging its limitations and the challenges in developing true artificial general intelligence."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Tmvvvx3buP4Gj3nZK/agi-misalignment-x-risk-may-be-lower-due-to-an-overlooked",
+    "author": "John Nay",
+    "title": "Learning societal values from law as part of an AGI alignment strategy",
+    "published_date": "2022-10-21",
+    "summary": "The article proposes that teaching AGI to understand and apply human law could significantly reduce the risk of misaligned AI causing existential harm. This approach leverages law as a codified representation of human values, mitigating the need for a single, perfect alignment solution."
+  },
+  {
+    "title": "A conceptual framework for legal personality and its application to AI",
+    "abstract": "ABSTRACT In this paper we provide an analysis of the concept of legal personality and discuss whether personality may be conferred on artificial intelligence systems (AIs). Legal personality will be presented as a doctrinal category that holds together bundles of rights and obligations; as a result, we first frame it as a node of inferential links between factual preconditions and legal effects. However, this inferentialist reading does not account for the 'background reasons' of legal personality, i.e., it does not explain why we cluster different situations under this doctrinal category and how extra-legal information is integrated into it. We argue that one way to account for this background is to adopt a neoinstitutional perspective and to update the ontology of legal concepts with a further layer, the meta-institutional one. We finally argue that meta-institutional concepts can also support us in finding an equilibrium around the legal-policy choices that are involved in including (or not including) AIs among legal persons.",
+    "published_date": "2021-12-09",
+    "citation_count": 9,
+    "url": "https://www.tandfonline.com/doi/pdf/10.1080/20403313.2021.2010936?needAccess=true",
+    "summary": "This paper analyzes the concept of legal personality as a network of rights, obligations, and inferential links, arguing that a neo-institutional perspective, incorporating meta-institutional concepts, is necessary to understand its application to artificial intelligence and inform policy decisions regarding AI personhood."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization",
+    "published_date": "2021-06-04",
+    "summary": "The article explores applying game theory to AI development within organizations, highlighting its limitations in capturing the complexities of human-AI collaboration in bureaucratic settings. It argues that even with advanced AI, the need for specialized human roles and hierarchical structures persists due to bounded rationality and the inherent limitations of a single entity processing all information."
+  }
+]

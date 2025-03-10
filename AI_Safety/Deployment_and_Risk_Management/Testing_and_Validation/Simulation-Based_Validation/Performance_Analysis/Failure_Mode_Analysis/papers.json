@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2406.08221",
+    "title": "FAIL: Analyzing Software Failures from the News Using LLMs",
+    "published_date": "2024-06-12",
+    "abstract": "Software failures inform engineering work, standards, regulations. For example, the Log4J vulnerability brought government and industry attention to evaluating and securing software supply chains. Retrospective failure analysis is thus a valuable line of software engineering research. Accessing private engineering records is difficult, so such analyses tend to use information reported by the news media. However, prior works in this direction have relied on manual analysis. That has limited the scale of their analyses. The community lacks automated support to enable such analyses to consider a wide range of news sources and incidents.To fill this gap, we propose the Failure Analysis Investigation with LLMs (FAIL) system. FAIL is a novel LLM-based pipeline that collects, analyzes, and summarizes software failures as reported in the news. FAIL groups articles that describe the same incidents. It then analyzes incidents using existing taxonomies for postmortems, faults, and system characteristics. To tune and evaluate FAIL, we followed the methods of prior works by manually analyzing 31 software failures. FAIL achieved an F1 score of 90% for collecting news about software failures, a V-measure of 0.98 for merging articles reporting on the same incident, and extracted 90% of the facts about failures. We then applied FAIL to a total of 137,427 news articles from 11 providers published between 2010 and 2022. FAIL identified and analyzed 2,457 distinct failures reported across 4,184 articles. Our findings include: (1) current generation of large language models are capable of identifying news articles that describe failures, and analyzing them according to structured taxonomies; (2) high recurrences of similar failures within organizations and across organizations; and (3) severity of the consequences of software failures have increased over the past decade. The full FAIL database is available so that researchers, engineers, and policymakers can learn from a diversity of software failures.CCS CONCEPTS• Software and its engineering → Software defect analysis.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.18985.pdf",
+    "title": "Robust Multimodal Failure Detection for Microservice Systems",
+    "published_date": "2023-05-30",
+    "abstract": "Proactive failure detection of instances is vitally essential to microservice systems because an instance failure can propagate to the whole system and degrade the system's performance. Over the years, many single-modal (i.e., metrics, logs, or traces) databased anomaly detection methods have been proposed. However, they tend to miss a large number of failures and generate numerous false alarms because they ignore the correlation of multimodal data. In this work, we propose AnoFusion, an unsupervised failure detection approach, to proactively detect instance failures through multimodal data for microservice systems. It applies a Graph Transformer Network (GTN) to learn the correlation of the heterogeneous multimodal data and integrates a Graph Attention Network (GAT) with Gated Recurrent Unit (GRU) to address the challenges introduced by dynamically changing multimodal data. We evaluate the performance of AnoFusion through two datasets, demonstrating that it achieves the F1-score of 0.857 and 0.922, respectively, outperforming the state-of-the-art failure detection approaches.",
+    "citation_count": 26
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.08728",
+    "title": "Fault Injection based Failure Analysis of three CentOS-like Operating Systems",
+    "published_date": "2022-10-17",
+    "abstract": "The reliability of operating system (OS) has always been a major concern in the academia and industry. This paper studies how to perform OS failure analysis by fault injection based on the fault mode library. Firstly, we use the fault mode generation method based on Linux abstract hierarchy structure analysis to systematically define the Linux-like fault modes, construct a Linux fault mode library and develop a fault injection tool based on the fault mode library (FIFML). Then, fault injection experiments are carried out on three commercial Linux distributions, CentOS, Anolis OS and openEuler, to identify their reliability problems and give improvement suggestions. We also use the virtual file systems of these three OSs as experimental objects, to perform fault injection at levels of Light and Normal, measure the performance of 13 common file operations before and after fault injection."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2209.02930.pdf",
+    "title": "Reflections on software failure analysis",
+    "published_date": "2022-09-07",
+    "abstract": "Failure studies are important in revealing the root causes, behaviors, and life cycle of defects in software systems. These studies either focus on understanding the characteristics of defects in specific classes of systems, or the characteristics of a specific type of defect in the systems it manifests in. Failure studies have influenced various software engineering research directions, especially in the area of software evolution, defect detection, and program repair. In this paper, we reflect on the conduct of failure studies in software engineering. We reviewed a sample of 52 failure study papers. We identified several recurring problems in these studies, some of which hinder the ability of software engineering community to trust or replicate the results. Based on our findings, we suggest future research directions, including identifying and analyzing failure causal chains, standardizing the conduct of failure studies, and tool support for faster defect analysis.",
+    "citation_count": 11
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.00134",
+    "title": "Towards Implementing ML-Based Failure Detectors",
+    "published_date": "2022-09-30",
+    "abstract": "Most existing failure detection algorithms rely on statistical methods, and very few use machine learning (ML). This paper explores the viability of ML in the field of failure detection: is it possible to implement an ML-based detector that achieves a satisfactory quality of service? We implement a prototype that uses a basic long short-term memory neural network algorithm, and study its behavior with real traces. Although ML model has comparatively longer computing time, our prototype performs well in terms of accuracy and detection time.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2101.05444",
+    "title": "Application of Failure Modes and Effects Analysis in the Engineering Design Process",
+    "published_date": "2021-01-14",
+    "abstract": "Failure modes and effects analysis (FMEA) is one of the most practical design tools implemented in the product design to analyze the possible failures and to improve the design. The use of FMEA is diversified, and different approaches are proposed by various organizations and researchers from one application to another. The question is how to use the features of FMEA along with the design process. This research focuses on different types of FMEA in the design process, which is considered as the mapping between customer requirements, design components, and product functions. These three elements of design are the foundation of the integration model proposed in this research. The objective of this research is to understand an integrated approach of FMEA in the design process. Significantly, an integration framework is developed to integrate the design process and FMEA. Then, a step-by-step FMEA-facilitated design process is proposed to apply FMEA along with the design process.",
+    "citation_count": 3
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01"
+  },
+  {
+    "url": "https://arxiv.org/abs/2101.03209",
+    "title": "Semantic Access Control for Privacy Management of Personal Sensing in Smart Cities",
+    "published_date": "2021-01-08",
+    "abstract": "Personal and home sensors generate valuable information that could be used in Smart Cities. Unfortunately, typically, this data is locked out and used only by application/system developers. While vendors are partially to blame, one should consider also the “binary nature” of data access. Specifically, either the owner has full control over her data (e.g., in a “closed system”), or she completely looses control, when the data is “opened”. In this context, we propose, a semantic technologies-based, authorization and privacy control framework that enables user to maintain flexible, yet manageable data access control policies. The proposed approach is described in detail, including implementation and testing.",
+    "citation_count": 6
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.01402v1.pdf",
+    "title": "Optimal Synthesis of Opacity-Enforcing Supervisors for Qualitative and Quantitative Specifications",
+    "published_date": "2021-02-02",
+    "abstract": "In this article, we investigate both qualitative and quantitative synthesis of optimal privacy-enforcing supervisors for partially observed discrete-event systems. We consider a dynamic system whose information flow is partially available to an intruder, which is modeled as a passive observer. We assume that the system has a “secret” that does not want to be revealed to the intruder. Our goal is to synthesize a supervisor that controls the system in a least-restrictive manner such that the closed-loop system meets the privacy requirement. For the qualitative case, we adopt the notion of infinite-step opacity as the privacy specification by requiring that the intruder can never determine for sure that the system is/was at a secret state for any specific instant. If the qualitative synthesis problem is not solvable or the synthesized solution is too restrictive, then we further investigate the quantitative synthesis problem so that the secret is revealed (if unavoidable) as late as possible within a finite security-preserving horizon. Effective algorithms are provided to solve both the qualitative and quantitative synthesis problems. Specifically, by building suitable information structures that involve information delays, we show that the optimal qualitative synthesis problem can be solved as a safety game. The optimal quantitative synthesis problem can also be solved as an optimal total-cost control problem over an augmented information structure. Our work provides a complete solution to the standard infinite-step opacity control problem, which has not been solved without an assumption on the relationship between controllable events and observable events. Furthermore, we generalize the opacity enforcement problem to the numerical setting by introducing the secret-revelation-time as a new quantitative measure.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.04299v1.pdf",
+    "title": "Privacy-Preserving Supervisory Control of Discrete-Event Systems via Co-Synthesis of Edit Function and Supervisor for Opacity Enforcement and Requirement Satisfaction",
+    "published_date": "2021-04-09",
+    "abstract": "This paper investigates the problem of co-synthesis of edit function and supervisor for opacity enforcement in the supervisory control of discrete-event systems (DES), assuming the presence of an external (passive) intruder, where the following goals need to be achieved: 1) the external intruder should never infer the system secret, i.e., the system is opaque, and never be sure about the existence of the edit function, i.e., the edit function remains covert; 2) the controlled plant behaviors should satisfy some safety and nonblockingness requirements, in the presence of the edit function. We focus on the class of edit functions that satisfy the following properties: 1) the observation capability of the edit function in general can be different from those of the supervisor and the intruder; 2) the edit function can implement insertion, deletion, and replacement operations; 3) the edit function performs bounded edit operations, i.e., the length of each string output of the edit function is upper bounded by a given constant. We propose an approach to solve this cosynthesis problem by modeling it as a distributed supervisor synthesis problem in the Ramadge-Wonham supervisory control framework. By taking the special structure of this distributed supervisor synthesis problem into consideration and to improve the possibility of finding a non-empty distributed supervisor, we propose two novel synthesis heuristics that incrementally synthesize the supervisor and the edit function. The effectiveness of our approach is illustrated on an example in the enforcement of the location privacy.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2005.07160v1.pdf",
+    "title": "XACs-DyPol: Towards an XACML-based Access Control Model for Dynamic Security Policy",
+    "published_date": "2020-04-10",
+    "abstract": "Authorization and access control play an essential role in protecting sensitive information from malicious users. The system is based on security policies to determine if an access request is allowed. However, of late, the growing popularity of big data has created a new challenge which the security policy management is facing with such as dynamic and update policies in run time. Applications of dynamic policies have brought many benefits to modern domains. To the best of our knowledge, there are no previous studies focusing on solving authorization problems in the dynamic policy environments. In this article, we focus on analyzing and classifying when an update policy occurs, and provide a pragmatic solution for such dynamic policies. The contribution of this work is twofold: a novel solution for managing the policy changes even when the access request has been granted, and an XACML-based implementation to empirically evaluate the proposed solution. The experimental results show the comparison between the newly introduced XACs-DyPol framework with Balana (an open source framework supporting XACML 3.0). The datasets are XACML 3.0-based policies, including three samples of real-world policy sets. According to the comparison results, our XACs-DyPol framework performs better than Balana in terms of all updates in dynamic security policy cases. Specially, our proposed solution outperforms by an order of magnitude when the policy structure includes complex policy sets, policies, and rules or some complicated comparison expression which contains higher than function and less than function.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24"
+  }
+]

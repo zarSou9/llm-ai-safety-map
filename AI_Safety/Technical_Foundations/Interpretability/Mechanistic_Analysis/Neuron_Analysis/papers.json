@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Connectome-constrained deep mechanistic networks predict neural responses across the fly visual system at single-neuron resolution",
+    "abstract": "We can now measure the connectivity of every neuron in a neural circuit, but we are still blind to other biological details, including the dynamical characteristics of each neuron. The degree to which connectivity measurements alone can inform understanding of neural computation is an open question. Here we show that with only measurements of the connectivity of a biological neural network, we can predict the neural activity underlying neural computation. We constructed a model neural network with the experimentally determined connectivity for 64 cell types in the motion pathways of the fruit fly optic lobe but with unknown parameters for the single neuron and single synapse properties. We then optimized the values of these unknown parameters using techniques from deep learning, to allow the model network to detect visual motion. Our mechanistic model makes detailed experimentally testable predictions for each neuron in the connectome. We found that model predictions agreed with experimental measurements of neural activity across 24 studies. Our work demonstrates a strategy for generating detailed hypotheses about the mechanisms of neural circuit function from connectivity measurements. We show that this strategy is more likely to be successful when neurons are sparsely connected—a universally observed feature of biological neural networks across species and brain regions.",
+    "published_date": "2023-03-13",
+    "citation_count": 22,
+    "url": "https://www.biorxiv.org/content/10.1101/2023.03.11.532232v1.full.pdf",
+    "summary": "Using the fruit fly optic lobe connectome, a deep learning model accurately predicted neural activity across 24 studies by optimizing unknown neuron and synapse parameters, demonstrating that connectivity alone can inform neural computation, particularly in sparsely connected networks. This approach generates testable hypotheses about neural circuit function from connectivity data."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BQKKQiBmc63fwjDrj/graphical-tensor-notation-for-interpretability",
+    "author": "Jordan Taylor",
+    "title": "Graphical tensor notation for interpretability",
+    "published_date": "2023-10-04",
+    "summary": "This article explains graphical tensor notation, a visual method for representing tensor operations, using examples from the QUIMB Python package. It demonstrates how this notation simplifies understanding of tensor manipulations, including decompositions and operations like tensor products and contractions, by clearly visualizing index interactions."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/fnjKpBoWJXcSDwhZk/what-s-the-backward-forward-flop-ratio-for-nns",
+    "author": "Marius Hobbhahn, Jsevillamol",
+    "title": "What's the backward-forward FLOP ratio for Neural Networks?",
+    "published_date": "2021-12-13",
+    "summary": "The backward-to-forward FLOP ratio in neural network training is typically near 2:1 for networks with convolutional layers and large batch sizes, but can vary between 1:1 and 3:1 depending on factors like layer type, batch size, and network depth. The ratio is heavily influenced by the computational cost of weight updates relative to forward and backward passes through the network's layers."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Madwb2t79LGrLqWLH/a-simple-introduction-to-neural-networks",
+    "author": "Rafael Harth",
+    "title": "A Simple Introduction to Neural Networks",
+    "published_date": "2020-02-09",
+    "summary": "This article introduces neural networks, explaining their structure (neurons, edges, layers), function (weighted inputs, activation functions), and how they process data in a layered, feed-forward manner. The article uses a visual example to illustrate the computation within a simple neural network."
+  },
+  {
+    "title": "An Algorithmic Barrier to Neural Circuit Understanding",
+    "abstract": "Neuroscience is witnessing extraordinary progress in experimental techniques, especially at the neural circuit level. These advances are largely aimed at enabling us to understand how neural circuit computations mechanistically cause behavior. Here, using techniques from Theoretical Computer Science, we examine how many experiments are needed to obtain such an empirical understanding. It is proved, mathematically, that establishing the most extensive notions of understanding need exponentially-many experiments in the number of neurons, in general, unless a widely-posited hypothesis about computation is false. Worse still, the feasible experimental regime is one where the number of experiments scales sub-linearly in the number of neurons, suggesting a fundamental impediment to such an understanding. Determining which notions of understanding are algorithmically tractable, thus, becomes an important new endeavor in Neuroscience.",
+    "published_date": "2019-05-26",
+    "citation_count": 8,
+    "url": "https://www.biorxiv.org/content/10.1101/639724v1",
+    "summary": "The paper mathematically demonstrates that achieving a comprehensive understanding of neural circuit computations requires an exponentially large number of experiments, unless a key computational hypothesis is incorrect, posing a fundamental barrier to empirical neuroscience. This highlights the need to identify more algorithmically tractable notions of neural circuit understanding."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/dual-process-theory-system-1-and-system-2",
+    "author": "Kaj_Sotala",
+    "title": "Dual Process Theory (System 1 & System 2) - LessWrong",
+    "published_date": "2019-11-12",
+    "summary": "Dual Process Theory describes two cognitive processing types: Type 1 (fast, intuitive) and Type 2 (slow, deliberative), but the \"System 1/System 2\" terminology is considered misleading due to the heterogeneity of processes encompassed within each type and the lack of inherent bias in either."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/nMGrhBYXWjPhZoyNL/p/KKwv9kcQz29vqPLAD",
+    "author": "Matthew Barnett",
+    "title": "A Primer on Matrix Calculus, Part 2: Jacobians and other fun",
+    "published_date": "2019-08-15",
+    "summary": "This article explains the Jacobian matrix, a key tool in deep learning, not merely as an organizational structure for partial derivatives, but as a framework for analyzing the input-output behavior of neural networks. It uses the analogy of geometric transformations to illustrate how the Jacobian reveals the local behavior of vector-valued functions, highlighting its importance beyond simple notation."
+  },
+  {
+    "title": "Single mechanosensory neurons encode lateral displacements using precise spike timing and thresholds",
+    "abstract": "During locomotion, animals rely on multiple sensory modalities to maintain stability. External cues may guide behaviour, but they must be interpreted in the context of the animal's own body movements. Mechanosensory cues that can resolve dynamic internal and environmental conditions, like those from vertebrate vestibular systems or other proprioceptors, are essential for guided movement. How do afferent proprioceptor neurons transform movement into a neural code? In flies, modified hindwings known as halteres detect forces produced by body rotations and are essential for flight. However, the mechanisms by which haltere neurons transform forces resulting from three-dimensional body rotations into patterns of neural spikes are unknown. We use intracellular electrodes to record from haltere primary afferent neurons during a range of haltere motions. We find that spike timing activity of individual neurons changes with displacement and propose a mechanism by which single neurons can encode three-dimensional haltere movements during flight.",
+    "published_date": "2018-09-19",
+    "citation_count": 24,
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6170812/",
+    "summary": "Haltere neurons in flies encode three-dimensional haltere movements during flight by precisely timing their spikes in response to specific displacement thresholds. This study used intracellular recordings to demonstrate how individual neurons can convey this information."
+  }
+]

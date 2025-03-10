@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Towards AI-Assisted Synthesis of Verified Dafny Methods",
+    "abstract": "Large language models show great promise in many domains, including programming. A promise is easy to make but hard to keep, and language models often fail to keep their promises, generating erroneous code. A promising avenue to keep models honest is to incorporate formal verification: generating programs' specifications as well as code so that the code can be proved correct with respect to the specifications. Unfortunately, existing large language models show a severe lack of proficiency in verified programming. \n \n \n \n \n \n \n \nIn this paper, we demonstrate how to improve two pretrained models' proficiency in the Dafny verification-aware language. Using 178 problems from the MBPP dataset, we prompt two contemporary models (GPT-4 and PaLM-2) to synthesize Dafny methods. We use three different types of prompts: a direct Contextless prompt; a Signature prompt that includes a method signature and test cases, and a Chain of Thought (CoT) prompt that decomposes the problem into steps and includes retrieval augmentation generated example problems and solutions. Our results show that GPT-4 performs better than PaLM-2 on these tasks and that both models perform best with the retrieval augmentation generated CoT prompt. GPT-4 was able to generate verified, human-evaluated, Dafny methods for 58% of the problems, however, GPT-4 managed only 19% of the problems with the Contextless prompt, and even fewer (10%) for the Signature prompt. We are thus able to contribute 153 verified Dafny solutions to MBPP problems, 50 that we wrote manually, and 103 synthesized by GPT-4. \n \n \n \n \n \n \n \nOur results demonstrate that the benefits of formal program verification are now within reach of code generating large language models. Likewise, program verification systems can benefit from large language models, whether to synthesize code wholesale, to generate specifications, or to act as a \"programmer's verification apprentice\", to construct annotations such as loop invariants which are hard for programmers to write or verification tools to find. Finally, we expect that the approach we have pioneered here — generating candidate solutions that are subsequently formally checked for correctness — should transfer to other domains (e.g., legal arguments, transport signaling, structural engineering) where solutions must be correct, where that correctness must be demonstrated, explained and understood by designers and end-users.",
+    "published_date": "2024-02-01",
+    "citation_count": 19,
+    "url": "https://dl.acm.org/doi/10.1145/3643763"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/KX3Qwr7QM7CvhJLG6/provably-safe-ai",
+    "author": "PeterMcCluskey",
+    "title": "Provably Safe AI",
+    "published_date": "2023-10-05"
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/robot",
+    "author": "ChengCheng, David Lindner, Ethan Perez",
+    "title": "Robot - AI Alignment Forum",
+    "published_date": "2023-10-23"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/gKcoZk3sxfv6JrAJn/is-progress-in-ml-assisted-theorem-proving-beneficial",
+    "author": "mako yass",
+    "title": "Is progress in ML-assisted theorem-proving beneficial?",
+    "published_date": "2021-09-28"
+  }
+]

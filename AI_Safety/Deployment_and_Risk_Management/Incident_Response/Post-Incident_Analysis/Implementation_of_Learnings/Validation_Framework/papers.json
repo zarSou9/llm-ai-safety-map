@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Validation Framework for Aspectual Requirements Engineering (ValFAR)",
+    "abstract": "Aspect-Oriented Requirements Engineering (AORE) extends the existing requirements engineering approaches to support the identification and handling of crosscutting concerns. Crosscutting concerns are considered as potential aspects and can lead to the phenomenal \"tyranny of the dominant decomposition\". Requirements-level aspects are responsible for producing scattered and tangled descriptions of requirements in the requirements document. Requirements validation artifact is an essential task in software development. This task ensures that requirements are correct and valid in terms of completeness and consistency, hence, reducing the development cost, maintenance and establish an approximately correct estimate of effort and completion time of the project. In this paper, we present a validation framework for aspectual requirements that can be used with AORE approaches to facilitate the validation of the resulting crosscutting relationships and aspects. The proposed framework comprises a high-level and low-level validation. The high-level validation is to validate the concerns with stakeholders, whereas the low-level validation validates the aspectual requirement by developers using a checklist. The approach has been evaluated using a case study. The results demonstrate that the proposed framework is feasible and acceptable.",
+    "published_date": "2020-08-23",
+    "citation_count": 9,
+    "url": "https://dl.acm.org/doi/10.1145/3410352.3410777"
+  },
+  {
+    "title": "Bridging the gap between testing and safety certification",
+    "abstract": "DO-178C and its supplement DO-331 provide a set of objectives to be achieved for any development of airborne software systems when model-driven development approaches are in use. Fail-safeMBT is an academic recently proposed model-based approach for testing safety-critical systems. Fail-safeMBT is a potential innovative testing process that needs compelling arguments to be adopted for the development of aeronautical software. In this paper, we reduce the gap between industrial settings and academic settings by adopting the safety case approach and derive substantiation data aimed at arguing Fail-safeMBT compliance with the standards. We explain Fail-safeMBT processes in compliance with software process engineering Meta-Model 2.0, then apply Fail-safeMBT on the Autopilot system. Finally, we link Fail-safeMBT outputs to DO-178/DO-331 process elements, then we derive a substantiation from Fail-safeMBT outputs to support the compelling arguments for achieving certification objectives. Thus, we provide a validation of Fail-safeMBT in the avionic domain.",
+    "published_date": "2018-03-03",
+    "citation_count": 2,
+    "url": "https://ieeexplore.ieee.org/document/8396539/"
+  },
+  {
+    "title": "Design, scope and focus of safety recommendations: results from aviation safety investigations",
+    "abstract": "Abstract Literature and industry standards do not mention inclusive guidelines to generate safety recommendations. Following a literature review, we suggest nine design criteria as well as the classification of safety recommendations according to their scope (i.e. organizational context, stakeholders addressed and degree of change) and their focus, the latter corresponding to the type of risk barrier introduced. The design and classification criteria were applied to 625 recommendations published by four aviation investigation agencies. The analysis results suggested sufficient implementation of most of the design criteria. Concerning their scope, the findings showed an emphasis on processes and structures (i.e. lower organizational contexts), adaptations that correspond to medium degree of changes, and local stakeholders. Regarding the focus of the recommendations, non-technical barriers that rely mostly on employees' interpretation were introduced by the vast majority of safety recommendations. Also, statistically significant differences were detected across investigation authorities and time periods. This study demonstrated how the application of the suggested design and classification frameworks could reveal valuable information about the quality, scope and focus of recommendations. Especially the design criteria could function as a starting point towards the introduction of a common standard to be used at local, national and international levels.",
+    "published_date": "2018-12-20",
+    "citation_count": 10,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/14773996.2018.1539385"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/x7kL42bnATuaL4hrD/bayesian-reasoning-explained-like-you-re-five",
+    "author": "Satoshi_Nakamoto",
+    "title": "Bayesian Reasoning - Explained Like You're Five",
+    "published_date": "2015-07-24"
+  },
+  {
+    "title": "SAFE-V Launcher Validation Framework and Controller Optimization",
+    "abstract": "Abstract Although traditional validation process has historically produced sufficiently safe and reliable systems, they may be not sufficient for emerging Guidance Navigation & Control (GNC) systems, for new requirements for exploration missions or for next generation launchers. Spacecraft autonomy and safety requirements are always increasing for such missions, therefore, the number of tests, their complexity and their duration also increase. The main consequence is the increase of the level of effort (and the cost) required to manage and perform the VV thus, current V&V technologies may either be inadequate or will simply become unaffordable. In this paper, we give an overview of the SAFE-V enhanced framework that upgrades the whole traditional Design Verification and Validation (DVV) strategies for advanced GNC systems: from specifications, validation plan, validation methods and tools, design to analysis. To illustrate the potential interests of this framework, an application of multi-objective optimization control design is presented showing iterative design cost reduction and performance improvement with fixed or varying level of requirement.",
+    "published_date": "2013-11-05",
+    "citation_count": 1,
+    "url": "https://www.sciencedirect.com/science/article/pii/S1474667015363709"
+  },
+  {
+    "title": "Obtaining valid safety data for software safety measurement and process improvement",
+    "abstract": "We report on a preliminary case study to examine software safety risk in the early design phase of the NASA Constellation spaceflight program. Our goal is to provide NASA quality assurance managers with information regarding the ongoing state of software safety across the program. We examined 154 hazard reports created during the preliminary design phase of three major flight hardware systems within the Constellation program. Our purpose was two-fold: 1) to quantify the relative importance of software with respect to system safety; and 2) to identify potential risks due to incorrect application of the safety process, deficiencies in the safety process, or the lack of a defined process. One early outcome of this work was to show that there are structural deficiencies in collecting valid safety data that make software safety different from hardware safety. In our conclusions we present some of these deficiencies.",
+    "published_date": "2010-09-16",
+    "citation_count": 9,
+    "url": "https://dl.acm.org/doi/10.1145/1852786.1852846"
+  }
+]

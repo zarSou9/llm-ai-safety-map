@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2412.17114",
+    "title": "Decentralized Governance of Autonomous AI Agents",
+    "published_date": "2024-12-22",
+    "abstract": "Autonomous AI agents present transformative opportunities and significant governance challenges. Existing frameworks, such as the EU AI Act and the NIST AI Risk Management Framework, fall short of addressing the complexities of these agents, which are capable of independent decision-making, learning, and adaptation. To bridge these gaps, we propose the ETHOS (Ethical Technology and Holistic Oversight System) framework, a decentralized governance (DeGov) model leveraging Web3 technologies, including blockchain, smart contracts, and decentralized autonomous organizations (DAOs). ETHOS establishes a global registry for AI agents, enabling dynamic risk classification, proportional oversight, and automated compliance monitoring through tools like soulbound tokens and zero-knowledge proofs. Furthermore, the framework incorporates decentralized justice systems for transparent dispute resolution and introduces AI specific legal entities to manage limited liability, supported by mandatory insurance to ensure financial accountability and incentivize ethical design. By integrating philosophical principles of rationality, ethical grounding, and goal alignment, ETHOS aims to create a robust research agenda for promoting trust, transparency, and participatory governance. This innovative framework offers a scalable and inclusive strategy for regulating AI agents, balancing innovation with ethical responsibility to meet the demands of an AI-driven future."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.13686.pdf",
+    "title": "Broadening the perspective for sustainable AI: Comprehensive sustainability criteria and indicators for AI systems",
+    "published_date": "2023-06-22",
+    "abstract": "The increased use of AI systems is associated with multi-faceted societal, environmental, and economic consequences. These include non-transparent decision-making processes, discrimination, increasing inequalities, rising energy consumption and greenhouse gas emissions in AI model development and application, and an increasing concentration of economic power. By considering the multi-dimensionality of sustainability, this paper takes steps towards substantiating the call for an overarching perspective on\"sustainable AI\". It presents the SCAIS Framework (Sustainability Criteria and Indicators for Artificial Intelligence Systems) which contains a set 19 sustainability criteria for sustainable AI and 67 indicators that is based on the results of a critical review and expert workshops. This interdisciplinary approach contributes a unique holistic perspective to facilitate and structure the discourse on sustainable AI. Further, it provides a concrete framework that lays the foundation for developing standards and tools to support the conscious development and application of AI systems.",
+    "citation_count": 1
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.11996",
+    "title": "Toward Responsible AI Use: Considerations for Sustainability Impact Assessment",
+    "published_date": "2023-12-19",
+    "abstract": "As AI/ML models, including Large Language Models, continue to scale with massive datasets, so does their consumption of undeniably limited natural resources, and impact on society. In this collaboration between AI, Sustainability, HCI and legal researchers, we aim to enable a transition to sustainable AI development by enabling stakeholders across the AI value chain to assess and quantitfy the environmental and societal impact of AI. We present the ESG Digital and Green Index (DGI), which offers a dashboard for assessing a company's performance in achieving sustainability targets. This includes monitoring the efficiency and sustainable use of limited natural resources related to AI technologies (water, electricity, etc). It also addresses the societal and governance challenges related to AI. The DGI creates incentives for companies to align their pathway with the Sustainable Development Goals (SDGs). The value, challenges and limitations of our methodology and findings are discussed in the paper."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02"
+  }
+]

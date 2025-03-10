@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.15014",
+    "title": "Acting for the Right Reasons: Creating Reason-Sensitive Artificial Moral Agents",
+    "published_date": "2024-09-23",
+    "abstract": "We propose an extension of the reinforcement learning architecture that enables moral decision-making of reinforcement learning agents based on normative reasons. Central to this approach is a reason-based shield generator yielding a moral shield that binds the agent to actions that conform with recognized normative reasons so that our overall architecture restricts the agent to actions that are (internally) morally justified. In addition, we describe an algorithm that allows to iteratively improve the reason-based shield generator through case-based feedback from a moral judge.",
+    "summary": "This paper presents a reinforcement learning architecture augmented with a \"reason-based shield\" to guide agents towards morally justified actions, determined by normative reasons and iteratively refined via feedback from a moral judge. The architecture ensures agent actions align with internally justified moral reasoning."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/T9i9gX58ZckHx6syw/representation-tuning",
+    "author": "Christopher Ackerman",
+    "title": "Representation Tuning",
+    "published_date": "2024-06-27",
+    "summary": "This research explores improving the honesty of a large language model (LLM) by fine-tuning activation vectors associated with honesty, demonstrating that this method is more effective and robust than online steering or token-based fine-tuning."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.08759.pdf",
+    "title": "Value Engineering for Autonomous Agents",
+    "published_date": "2023-02-17",
+    "abstract": "Machine Ethics (ME) is concerned with the design of Artificial Moral Agents (AMAs), i.e. autonomous agents capable of reasoning and behaving according to moral values. Previous approaches have treated values as labels associated with some actions or states of the world, rather than as integral components of agent reasoning. It is also common to disregard that a value-guided agent operates alongside other value-guided agents in an environment governed by norms, thus omitting the social dimension of AMAs. In this blue sky paper, we propose a new AMA paradigm grounded in moral and social psychology, where values are instilled into agents as context-dependent goals. These goals intricately connect values at individual levels to norms at a collective level by evaluating the outcomes most incentivized by the norms in place. We argue that this type of normative reasoning, where agents are endowed with an understanding of norms' moral implications, leads to value-awareness in autonomous agents. Additionally, this capability paves the way for agents to align the norms enforced in their societies with respect to the human values instilled in them, by complementing the value-based reasoning on norms with agreement mechanisms to help agents collectively agree on the best set of norms that suit their human values. Overall, our agent model goes beyond the treatment of values as inert labels by connecting them to normative reasoning and to the social functionalities needed to integrate value-aware agents into our modern hybrid human-computer societies.",
+    "citation_count": 3,
+    "summary": "This paper proposes a novel framework for autonomous moral agents, grounding values as context-dependent goals integrated with normative reasoning and social mechanisms to achieve value-alignment between individual agents and societal norms. This approach moves beyond simplistic value labeling, fostering value-awareness and enabling agents to contribute to norm-setting within human-computer societies."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a novel framework for building ethically aligned AI by incorporating ethical principles as Bayesian priors into AI learning processes. This approach, inspired by human moral intuitions, aims to guide AI decision-making towards ethically sound judgments."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/QGaioedKBJE39YJeD/continuous-adversarial-quality-assurance-extending-rlhf-and",
+    "author": "Benaya Koren",
+    "title": "Continuous Adversarial Quality Assurance: Extending RLHF and Constitutional AI",
+    "published_date": "2023-07-08",
+    "summary": "The article proposes enhancing existing AI alignment methods like Constitutional AI and RLHF by implementing \"Continuous Adversarial Quality Assurance,\" a process that continuously tests the robustness of each step in the value alignment chain against adversarial attacks. This aims to improve the flow of human values into AI models and mitigate the risk of Goodhart's Law, thereby increasing the safety and reliability of increasingly powerful AI systems."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.08677v1.pdf",
+    "title": "Scales and Hedges in a Logic with Analogous Semantics",
+    "published_date": "2022-01-21",
+    "abstract": "Logics with analogous semantics, such as Fuzzy Logic, have a number of explanatory and application advantages, the most well-known being the ability to help experts develop control systems. From a cognitive systems perspective, such languages also have the advantage of being grounded in perception. For social decision making in humans, it is vital that logical conclusions about others (cognitive empathy) are grounded in empathic emotion (affective empathy). Classical Fuzzy Logic, however, has several disadvantages: it is not obvious how complex formulae, e.g., the description of events in a text, can be (a) formed, (b) grounded, and (c) used in logical reasoning. The two-layered Context Logic (CL) was designed to address these issue. Formally based on a lattice semantics, like classical Fuzzy Logic, CL also features an analogous semantics for complex fomulae. With the Activation Bit Vector Machine (ABVM), it has a simple and classical logical reasoning mechanism with an inherent imagery process based on the Vector Symbolic Architecture (VSA) model of distributed neuronal processing. This paper adds to the existing theory how scales, as necessary for adjective and verb semantics can be handled by the system.",
+    "citation_count": 2,
+    "summary": "This paper extends Context Logic (CL), a fuzzy logic system with analogous semantics, to incorporate scales for handling adjective and verb semantics, addressing challenges in forming, grounding, and reasoning with complex formulae within the framework. The system uses the Activation Bit Vector Machine (ABVM) for logical reasoning and leverages the Vector Symbolic Architecture (VSA) for imagery processing."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.12242v2.pdf",
+    "title": "A Unified Approach to Fair Online Learning via Blackwell Approachability",
+    "published_date": "2021-06-23",
+    "abstract": "We provide a setting and a general approach to fair online learning with stochastic sensitive and non-sensitive contexts. The setting is a repeated game between the Player and Nature, where at each stage both pick actions based on the contexts. Inspired by the notion of unawareness, we assume that the Player can only access the non-sensitive context before making a decision, while we discuss both cases of Nature accessing the sensitive contexts and Nature unaware of the sensitive contexts. Adapting Blackwell's approachability theory to handle the case of an unknown contexts' distribution, we provide a general necessary and sufficient condition for learning objectives to be compatible with some fairness constraints. This condition is instantiated on (group-wise) no-regret and (group-wise) calibration objectives, and on demographic parity as an additional constraint. When the objective is not compatible with the constraint, the provided framework permits to characterise the optimal trade-off between the two.",
+    "citation_count": 11,
+    "summary": "This paper presents a unified framework for fair online learning using Blackwell approachability, addressing scenarios with stochastic sensitive and non-sensitive contexts and varying levels of awareness for both the learner and the environment. The framework provides conditions for compatibility between learning objectives and fairness constraints, characterizing optimal trade-offs when incompatibility arises."
+  },
+  {
+    "url": "https://arxiv.org/abs/2107.13625",
+    "title": "Adaptation and Generalization for Unknown Sensitive Factors of Variations",
+    "published_date": "2021-07-28",
+    "abstract": "Assured AI in unrestricted settings is a critical problem. Our framework addresses AI assurance challenges lying at the intersection of domain adaptation, fairness, and counterfactuals analysis, operating via the discovery and intervention on factors of variations in data (e.g. weather or illumination conditions) that significantly affect the robustness of AI models. Robustness is understood here as insensitivity of the model performance to variations in sensitive factors. Sensitive factors are traditionally set in a supervised setting, whereby factors are known a-priori (e.g. for fairness this could be factors like sex or race). In contrast, our motivation is real-life scenarios where less, or nothing, is actually known a-priori about certain factors that cause models to fail. This leads us to consider various settings (unsupervised, domain generalization, semi-supervised) that correspond to different degrees of incomplete knowledge about those factors. Therefore, our two step approach works by a) discovering sensitive factors that cause AI systems to fail in a unsupervised fashion, and then b) intervening models to lessen these factor's influence. Our method considers 3 interventions consisting of Augmentation, Coherence, and Adversarial Interventions (ACAI). We demonstrate the ability for interventions on discovered/source factors to generalize to target/real factors. We also demonstrate how adaptation to real factors of variations can be performed in the semi-supervised case where some target factor labels are known, via automated intervention selection. Experiments show that our approach improves on baseline models, with regard to achieving optimal utility vs. sensitivity/robustness tradeoffs.",
+    "summary": "This paper presents a framework for improving AI robustness by unsupervised discovery and intervention on unknown sensitive factors affecting model performance, employing three intervention methods (Augmentation, Coherence, and Adversarial Interventions) and demonstrating generalization to unseen factors. The approach adapts to various knowledge settings (unsupervised, domain generalization, semi-supervised) to achieve optimal utility while mitigating sensitivity to these factors."
+  }
+]

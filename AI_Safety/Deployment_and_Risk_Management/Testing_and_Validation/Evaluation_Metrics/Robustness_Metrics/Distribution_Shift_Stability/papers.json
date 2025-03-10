@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Towards Robust Production Machine Learning Systems: Managing Dataset Shift",
+    "abstract": "The advances in machine learning (ML) have stimulated the integration of their capabilities into software systems. However, there is a tangible gap between software engineering and machine learning practices, that is delaying the progress of intelligent services development. Software organisations are devoting effort to adjust the software engineering processes and practices to facilitate the integration of machine learning models. Machine learning researchers as well are focusing on improving the interpretability of machine learning models to support overall system robustness. Our research focuses on bridging this gap through a methodology that evaluates the robustness of machine learning-enabled software engineering systems. In particular, this methodology will automate the evaluation of the robustness properties of software systems against dataset shift problems in ML. It will also feature a notification mechanism that facilitates the debugging of ML components.",
+    "published_date": "2020-09-01",
+    "citation_count": 9,
+    "url": "https://dl.acm.org/doi/10.1145/3324884.3415281"
+  },
+  {
+    "title": "Stable Learning via Differentiated Variable Decorrelation",
+    "abstract": "Recently, as the applications of artificial intelligence gradually seeping into some risk-sensitive areas such as justice, healthcare and autonomous driving, an upsurge of research interest on model stability and robustness has arisen in the field of machine learning. Rather than purely fitting the observed training data, stable learning tries to learn a model with uniformly good performance under non-stationary and agnostic testing data. The key challenge of stable learning in practice is that we do not have any knowledge about the true model and test data distribution as a priori. Under such condition, we cannot expect a faithful estimation of model parameters and its stability over wild changing environments. Previous methods resort to a reweighting scheme to remove the correlations between all the variables through a set of new sample weights. However, we argue that such aggressive decorrelation between all the variables may cause the over-reduced sample size, which leads to the variance inflation and possible underperformance. In this paper, we incorporate the unlabled data from multiple environments into the variable decorrelation framework and propose a Differentiated Variable Decorrelation (DVD) algorithm based on the clustering of variables. Specifically, the variables are clustered according to the stability of their correlations and the variable decorrelation module learns a set of sample weights to remove the correlations merely between the variables of different clusters. Empirical studies on both synthetic and real world datasets clearly demonstrate the efficacy of our DVD algorithm on improving the model parameter estimation and the prediction stability over changing distributions.",
+    "published_date": "2020-07-06",
+    "citation_count": 40,
+    "url": "https://dl.acm.org/doi/10.1145/3394486.3403269"
+  },
+  {
+    "title": "Bayesian Robustness: A Nonasymptotic Viewpoint",
+    "abstract": "Abstract We study the problem of robustly estimating the posterior distribution for the setting where observed data can be contaminated with potentially adversarial outliers. We propose Rob-ULA, a robust variant of the Unadjusted Langevin Algorithm (ULA), and provide a finite-sample analysis of its sampling distribution. In particular, we show that after T=O˜(d/εacc) iterations, we can sample from pT such that dist(pT,p*)≤εacc+O˜(ϵ), where ϵ is the fraction of corruptions and dist represents the squared 2-Wasserstein distance metric. Our results for the class of posteriors p* which satisfy log-concavity and smoothness assumptions. We corroborate our theoretical analysis with experiments on both synthetic and real-world datasets for mean estimation, regression and binary classification. Supplementary materials for this article are available online.",
+    "published_date": "2019-07-27",
+    "citation_count": 7,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/01621459.2023.2174121"
+  },
+  {
+    "title": "Variational Resampling Based Assessment of Deep Neural Networks under Distribution Shift",
+    "abstract": "A novel variational inference based resampling framework is proposed to evaluate the robustness and generalization capability of deep learning models with respect to distribution shift. We use Auto Encoding Variational Bayes to find a latent representation of the data, on which a Variational Gaussian Mixture Model is applied to deliberately create distribution shift by dividing the dataset into different clusters. Wasserstein distance is used to characterize the extent of distribution shift between the generated data splits. In experiments using the Fashion- MNIST data, we assess several popular image classification Convolutional Neural Network (CNN) architectures and Bayesian CNN models with respect to their robustness and generalization behavior under the deliberately created distribution shift, which is analyzed in contrast to random Cross Validation. Our method of creating artificial domain splits of a single dataset may also be used to establish novel model selection criteria and assessment tools in machine learning, as well as for benchmark methods in the areas of domain adaptation and domain generalization.",
+    "published_date": "2019-06-07",
+    "citation_count": 5,
+    "url": "https://www.researchgate.net/publication/333671691_Variational_Resampling_Based_Assessment_of_Deep_Neural_Networks_under_Distribution_Shift"
+  }
+]

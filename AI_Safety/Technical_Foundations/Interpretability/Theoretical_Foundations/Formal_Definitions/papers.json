@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2104.12437.pdf",
+    "title": "Towards Rigorous Interpretations: a Formalisation of Feature Attribution",
+    "published_date": "2021-04-26",
+    "abstract": "Feature attribution is often loosely presented as the process of selecting a subset of relevant features as a rationale of a prediction. Task-dependent by nature, precise definitions of\"relevance\"encountered in the literature are however not always consistent. This lack of clarity stems from the fact that we usually do not have access to any notion of ground-truth attribution and from a more general debate on what good interpretations are. In this paper we propose to formalise feature selection/attribution based on the concept of relaxed functional dependence. In particular, we extend our notions to the instance-wise setting and derive necessary properties for candidate selection solutions, while leaving room for task-dependence. By computing ground-truth attributions on synthetic datasets, we evaluate many state-of-the-art attribution methods and show that, even when optimised, some fail to verify the proposed properties and provide wrong solutions.",
+    "citation_count": 15,
+    "summary": "This paper formalizes feature attribution using relaxed functional dependence, addressing the inconsistency of existing definitions by establishing necessary properties for accurate feature selection. It evaluates state-of-the-art methods against these properties, revealing shortcomings in several approaches even under optimized conditions."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/zy2AECRAi8Nuu5XMk/time-complexity-for-deterministic-string-machines",
+    "author": "alcatal",
+    "title": "Time complexity for deterministic string machines",
+    "published_date": "2024-04-21",
+    "summary": "This paper introduces \"filtered transducers,\" operating on categories enriched over filtered sets, to address the lack of representation-independent complexity bounds in existing string machine frameworks. By restricting to finite-state filtered transducers, the authors prove constraints on time complexity growth and expressivity."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.04709.pdf",
+    "title": "Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability",
+    "published_date": "2023-01-11",
+    "abstract": "Causal abstraction provides a theoretical foundation for mechanistic interpretability, the field concerned with providing intelligible algorithms that are faithful simplifications of the known, but opaque low-level details of black box AI models. Our contributions are (1) generalizing the theory of causal abstraction from mechanism replacement (i.e., hard and soft interventions) to arbitrary mechanism transformation (i.e., functionals from old mechanisms to new mechanisms), (2) providing a flexible, yet precise formalization for the core concepts of modular features, polysemantic neurons, and graded faithfulness, and (3) unifying a variety of mechanistic interpretability methodologies in the common language of causal abstraction, namely activation and path patching, causal mediation analysis, causal scrubbing, causal tracing, circuit analysis, concept erasure, sparse autoencoders, differential binary masking, distributed alignment search, and activation steering.",
+    "citation_count": 39,
+    "summary": "The paper introduces a generalized theory of causal abstraction, expanding its application beyond mechanism replacement to encompass arbitrary transformations, formalizing key concepts in mechanistic interpretability, and unifying diverse methodologies under this framework. This provides a theoretical foundation for building intelligible and faithful simplified models from complex black-box AI systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.03048v1",
+    "title": "From Robustness to Explainability and Back Again",
+    "published_date": "2023-06-05",
+    "abstract": "Formal explainability guarantees the rigor of computed explanations, and so it is paramount in domains where rigor is critical, including those deemed high-risk. Unfortunately, since its inception formal explainability has been hampered by poor scalability. At present, this limitation still holds true for some families of classifiers, the most significant being deep neural networks. This paper addresses the poor scalability of formal explainability and proposes novel efficient algorithms for computing formal explanations. The novel algorithm computes explanations by answering instead a number of robustness queries, and such that the number of such queries is at most linear on the number of features. Consequently, the proposed algorithm establishes a direct relationship between the practical complexity of formal explainability and that of robustness. To achieve the proposed goals, the paper generalizes the definition of formal explanations, thereby allowing the use of robustness tools that are based on different distance norms, and also by reasoning in terms of some target degree of robustness. Preliminary experiments validate the practical efficiency of the proposed approach.",
+    "citation_count": 10,
+    "summary": "This paper introduces efficient algorithms for computing formally guaranteed explanations for classifiers, particularly deep neural networks, by leveraging a connection between formal explainability and robustness analysis, achieving linear scalability in the number of features. The approach generalizes formal explanation definitions and utilizes robustness queries to improve computational efficiency."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.01744.pdf",
+    "title": "Disproving XAI Myths with Formal Methods – Initial Results",
+    "published_date": "2023-05-13",
+    "abstract": "The advances in Machine Learning (ML) in recent years have been both impressive and far-reaching. However, the deployment of ML models is still impaired by a lack of trust in how the best-performing ML models make predictions. The issue of lack of trust is even more acute in the uses of ML models in high-risk or safety-critical domains. eXplainable artificial intelligence (XAI) is at the core of ongoing efforts for delivering trustworthy AI. Unfortunately, XAI is riddled with critical misconceptions, that foster distrust instead of building trust. This paper details some of the most visible misconceptions in XAI, and shows how formal methods have been used, both to disprove those misconceptions, but also to devise practically effective alternatives.",
+    "citation_count": 8,
+    "summary": "This paper identifies prevalent misconceptions surrounding explainable AI (XAI) and demonstrates how formal methods can be used to debunk these myths and develop more effective, trustworthy alternatives. The focus is on improving trust in AI, particularly within high-stakes applications."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rEMpTapcAzjTiSckf/on-developing-a-mathematical-theory-of-interpretability",
+    "author": "Spencer Becker-Kahn",
+    "title": "On Developing a Mathematical Theory of Interpretability",
+    "published_date": "2023-02-09",
+    "summary": "Developing robust mathematical frameworks for interpreting deep learning models is crucial for ensuring their safe and reliable application, but this process is slow and challenging due to the rapid pace of technological advancements. The author argues that a more abstract, theoretically driven mathematical approach, similar to algebraic topology, may ultimately yield the most insightful and broadly applicable results."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/interpretability-ml-and-ai",
+    "author": "Lee Sharkey, Dan Braun, Beren Millidge",
+    "title": "Interpretability (ML & AI) - AI Alignment Forum",
+    "published_date": "2023-04-30",
+    "summary": "AI interpretability focuses on making the decision-making processes of machine learning models understandable, a crucial aspect given the current lack of transparency in many systems. Mechanistic interpretability, a key subfield, aims to understand how neural networks function, contrasting with approaches that focus on attributing outputs to specific input features."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/interpretability-ml-and-ai",
+    "author": "Lee Sharkey, Dan Braun, beren",
+    "title": "Interpretability (ML & AI) - LessWrong",
+    "published_date": "2023-04-30",
+    "summary": "Machine learning models often lack interpretability, hindering understanding of their decision-making processes and the identification of biases. Mechanistic interpretability, a key subfield, aims to understand how these models function internally, contrasting with approaches that focus on attributing outputs to specific input features."
+  }
+]

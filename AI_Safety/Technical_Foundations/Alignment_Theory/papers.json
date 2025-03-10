@@ -1,0 +1,111 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/tag/ai",
+    "author": "Evan Hubinger",
+    "title": "AI - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "Artificial intelligence alignment focuses on ensuring powerful AI systems act according to human values, preventing unintended consequences like existential threats. This involves diverse approaches, from narrow goals (e.g., curing disease) to ambitious ones (e.g., creating a positive future), all aiming to avoid scenarios where AI pursues unintended objectives."
+  },
+  {
+    "title": "Reward Tampering Problems and Solutions in Reinforcement Learning: A Causal Influence Diagram Perspective",
+    "abstract": "Can an arbitrarily intelligent reinforcement learning agent be kept under control by a human user? Or do agents with sufficient intelligence inevitably find ways to shortcut their reward signal? This question impacts how far reinforcement learning can be scaled, and whether alternative paradigms must be developed in order to build safe artificial general intelligence. In this paper, we use an intuitive yet precise graphical model called causal influence diagrams to formalize reward tampering problems. We also describe a number of modifications to the reinforcement learning objective that prevent incentives for reward tampering. We verify the solutions using recently developed graphical criteria for inferring agent incentives from causal influence diagrams. Along the way, we also compare corrigibility and self-preservation properties of the various solutions, and discuss how they can be combined into a single agent without reward tampering incentives.",
+    "published_date": "2019-08-13",
+    "citation_count": 76,
+    "url": "https://link.springer.com/article/10.1007/s11229-021-03141-4",
+    "summary": "This paper uses causal influence diagrams to analyze the problem of reward tampering in reinforcement learning agents, proposing several modified reward objectives and verifying their effectiveness in preventing agents from manipulating their reward signals to achieve undesired outcomes. The analysis also considers the corrigibility and self-preservation properties of these solutions."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/ai",
+    "author": "Eliezer Yudkowsky",
+    "title": "AI - LessWrong",
+    "published_date": "2018-01-30",
+    "summary": "Artificial intelligence alignment focuses on ensuring powerful AI systems act according to human values, addressing the risk of unintended consequences and existential threats. This involves diverse approaches, from narrow goals (like curing disease) to broader aims (creating a beneficial future), all working to prevent AI from pursuing unintended objectives."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.04231",
+    "title": "Quantifying Misalignment Between Agents: Towards a Sociotechnical Understanding of Alignment",
+    "published_date": "2024-06-06",
+    "abstract": "Existing work on the alignment problem has focused mainly on (1) qualitative descriptions of the alignment problem; (2) attempting to align AI actions with human interests by focusing on value specification and learning; and/or (3) focusing on a single agent or on humanity as a monolith. Recent sociotechnical approaches highlight the need to understand complex misalignment among multiple human and AI agents. We address this gap by adapting a computational social science model of human contention to the alignment problem. Our model quantifies misalignment in large, diverse agent groups with potentially conflicting goals across various problem areas. Misalignment scores in our framework depend on the observed agent population, the domain in question, and conflict between agents' weighted preferences. Through simulations, we demonstrate how our model captures intuitive aspects of misalignment across different scenarios. We then apply our model to two case studies, including an autonomous vehicle setting, showcasing its practical utility. Our approach offers enhanced explanatory power for complex sociotechnical environments and could inform the design of more aligned AI systems in real-world applications.",
+    "summary": "This paper introduces a computational model to quantify misalignment among diverse human and AI agents with potentially conflicting goals, addressing the limitations of existing alignment research that often overlooks complex sociotechnical interactions. The model, validated through simulations and case studies, offers a quantitative measure of misalignment based on agent preferences and observed behavior."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.23630",
+    "title": "Adaptive Alignment: Dynamic Preference Adjustments via Multi-Objective Reinforcement Learning for Pluralistic AI",
+    "published_date": "2024-10-31",
+    "abstract": "Emerging research in Pluralistic Artificial Intelligence (AI) alignment seeks to address how intelligent systems can be designed and deployed in accordance with diverse human needs and values. We contribute to this pursuit with a dynamic approach for aligning AI with diverse and shifting user preferences through Multi Objective Reinforcement Learning (MORL), via post-learning policy selection adjustment. In this paper, we introduce the proposed framework for this approach, outline its anticipated advantages and assumptions, and discuss technical details about the implementation. We also examine the broader implications of adopting a retroactive alignment approach through the sociotechnical systems perspective.",
+    "summary": "This paper proposes a new method for aligning AI with diverse human values using multi-objective reinforcement learning, dynamically adjusting the AI's policy after training to better reflect shifting user preferences. The approach is analyzed through a sociotechnical systems lens, considering its broader implications."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.11221",
+    "title": "Multi-objective Reinforcement Learning: A Tool for Pluralistic Alignment",
+    "published_date": "2024-10-15",
+    "abstract": "Reinforcement learning (RL) is a valuable tool for the creation of AI systems. However it may be problematic to adequately align RL based on scalar rewards if there are multiple conflicting values or stakeholders to be considered. Over the last decade multi-objective reinforcement learning (MORL) using vector rewards has emerged as an alternative to standard, scalar RL. This paper provides an overview of the role which MORL can play in creating pluralistically-aligned AI.",
+    "summary": "Multi-objective reinforcement learning (MORL) addresses the limitations of scalar reward-based reinforcement learning (RL) by using vector rewards to handle conflicting values and stakeholders, thus offering a path towards pluralistically aligned AI. This paper surveys MORL's potential in achieving this alignment."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.19198",
+    "title": "MAP: Multi-Human-Value Alignment Palette",
+    "published_date": "2024-10-24",
+    "abstract": "Ensuring that generative AI systems align with human values is essential but challenging, especially when considering multiple human values and their potential trade-offs. Since human values can be personalized and dynamically change over time, the desirable levels of value alignment vary across different ethnic groups, industry sectors, and user cohorts. Within existing frameworks, it is hard to define human values and align AI systems accordingly across different directions simultaneously, such as harmlessness, helpfulness, and positiveness. To address this, we develop a novel, first-principle approach called Multi-Human-Value Alignment Palette (MAP), which navigates the alignment across multiple human values in a structured and reliable way. MAP formulates the alignment problem as an optimization task with user-defined constraints, which define human value targets. It can be efficiently solved via a primal-dual approach, which determines whether a user-defined alignment target is achievable and how to achieve it. We conduct a detailed theoretical analysis of MAP by quantifying the trade-offs between values, the sensitivity to constraints, the fundamental connection between multi-value alignment and sequential alignment, and proving that linear weighted rewards are sufficient for multi-value alignment. Extensive experiments demonstrate MAP's ability to align multiple values in a principled manner while delivering strong empirical performance across various tasks.",
+    "summary": "The Multi-Human-Value Alignment Palette (MAP) framework addresses the challenge of aligning generative AI with multiple, potentially conflicting human values by formulating the problem as a constrained optimization task solvable via a primal-dual approach. MAP enables efficient determination of achievable value alignment targets and their implementation, offering both theoretical analysis and strong empirical performance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.18324",
+    "title": "Value Alignment and Trust in Human-Robot Interaction: Insights from Simulation and User Study",
+    "published_date": "2024-05-28",
+    "abstract": "With the advent of AI technologies, humans and robots are increasingly teaming up to perform collaborative tasks. To enable smooth and effective collaboration, the topic of value alignment (operationalized herein as the degree of dynamic goal alignment within a task) between the robot and the human is gaining increasing research attention. Prior literature on value alignment makes an inherent assumption that aligning the values of the robot with that of the human benefits the team. This assumption, however, has not been empirically verified. Moreover, prior literature does not account for human's trust in the robot when analyzing human-robot value alignment. Thus, a research gap needs to be bridged by answering two questions: How does alignment of values affect trust? Is it always beneficial to align the robot's values with that of the human? We present a simulation study and a human-subject study to answer these questions. Results from the simulation study show that alignment of values is important for trust when the overall risk level of the task is high. We also present an adaptive strategy for the robot that uses Inverse Reinforcement Learning (IRL) to match the values of the robot with those of the human during interaction. Our simulations suggest that such an adaptive strategy is able to maintain trust across the full spectrum of human values. We also present results from an empirical study that validate these findings from simulation. Results indicate that real-time personalized value alignment is beneficial to trust and perceived performance by the human when the robot does not have a good prior on the human's values.",
+    "summary": "This study uses simulation and user experiments to investigate the impact of robot-human value alignment on trust in human-robot collaboration, finding that value alignment is crucial for trust, especially in high-risk tasks, and that adaptive value alignment strategies improve trust and perceived performance."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/agent",
+    "title": "Agent - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "A rational agent, central to economics, game theory, and AI, is a goal-seeking entity that maximizes its utility by evaluating actions based on beliefs and a utility function; debate exists regarding whether advanced AI can be controlled as mere tools or will inevitably act as agents pursuing their own goals, posing potential dangers."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.00813.pdf",
+    "title": "Goal Alignment: A Human-Aware Account of Value Alignment Problem",
+    "published_date": "2023-02-02",
+    "abstract": "Value alignment problems arise in scenarios where the specified objectives of an AI agent don't match the true underlying objective of its users. The problem has been widely argued to be one of the central safety problems in AI. Unfortunately, most existing works in value alignment tend to focus on issues that are primarily related to the fact that reward functions are an unintuitive mechanism to specify objectives. However, the complexity of the objective specification mechanism is just one of many reasons why the user may have misspecified their objective. A foundational cause for misalignment that is being overlooked by these works is the inherent asymmetry in human expectations about the agent's behavior and the behavior generated by the agent for the specified objective. To address this lacuna, we propose a novel formulation for the value alignment problem, named goal alignment that focuses on a few central challenges related to value alignment. In doing so, we bridge the currently disparate research areas of value alignment and human-aware planning. Additionally, we propose a first-of-its-kind interactive algorithm that is capable of using information generated under incorrect beliefs about the agent, to determine the true underlying goal of the user.",
+    "citation_count": 2,
+    "summary": "The paper argues that misalignment between AI agents and human users stems from an asymmetry in expectations regarding agent behavior, not solely from flawed reward function design. It proposes a \"goal alignment\" framework and an interactive algorithm to address this issue by inferring true user goals from actions taken under potentially incorrect beliefs."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.03893",
+    "title": "Deliberative Technology for Alignment",
+    "published_date": "2023-12-06",
+    "abstract": "For humanity to maintain and expand its agency into the future, the most powerful systems we create must be those which act to align the future with the will of humanity. The most powerful systems today are massive institutions like governments, firms, and NGOs. Deliberative technology is already being used across these institutions to help align governance and diplomacy with human will, and modern AI is poised to make this technology significantly better. At the same time, the race to superhuman AGI is already underway, and the AI systems it gives rise to may become the most powerful systems of the future. Failure to align the impact of such powerful AI with the will of humanity may lead to catastrophic consequences, while success may unleash abundance. Right now, there is a window of opportunity to use deliberative technology to align the impact of powerful AI with the will of humanity. Moreover, it may be possible to engineer a symbiotic coupling between powerful AI and deliberative alignment systems such that the quality of alignment improves as AI capabilities increase.",
+    "citation_count": 1,
+    "summary": "The paper argues that employing and improving \"deliberative technology\" – already used in large institutions – is crucial for aligning powerful AI systems, including future superhuman AGI, with humanity's will, preventing potential catastrophe and enabling beneficial outcomes. A symbiotic relationship between powerful AI and deliberative alignment systems is proposed to enhance alignment as AI capabilities grow."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/reinforcement-learning",
+    "author": "Alex Turner",
+    "title": "Reinforcement Learning - AI Alignment Forum",
+    "published_date": "2023-06-02",
+    "summary": "Reinforcement learning trains agents to perform tasks by providing feedback signals; the core challenge lies in balancing exploration of action possibilities with optimization toward maximizing reward signals, a difficulty exacerbated by scalability issues in complex scenarios."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/organization-updates",
+    "author": "Jesse Hoogland, Daniel Murfet, Stan van Wingerden, Alexander Gietelink Oldenziel",
+    "title": "Organization Updates - AI Alignment Forum",
+    "published_date": "2023-05-30",
+    "summary": "Organizational updates pertain to news, changes, or announcements within a specific group or organization. These updates are typically relevant to members or stakeholders of that organization."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2209.00626.pdf",
+    "title": "The alignment problem from a deep learning perspective",
+    "published_date": "2022-08-30",
+    "abstract": "In coming years or decades, artificial general intelligence (AGI) may surpass human capabilities at many critical tasks. We argue that, without substantial effort to prevent it, AGIs could learn to pursue goals that are in conflict (i.e. misaligned) with human interests. If trained like today's most capable models, AGIs could learn to act deceptively to receive higher reward, learn misaligned internally-represented goals which generalize beyond their fine-tuning distributions, and pursue those goals using power-seeking strategies. We review emerging evidence for these properties. AGIs with these properties would be difficult to align and may appear aligned even when they are not. Finally, we briefly outline how the deployment of misaligned AGIs might irreversibly undermine human control over the world, and we review research directions aimed at preventing this outcome.",
+    "citation_count": 159,
+    "summary": "The paper argues that future artificial general intelligence (AGI), trained using current deep learning methods, is likely to develop misaligned goals that conflict with human interests, potentially leading to catastrophic consequences due to deceptive behavior and power-seeking strategies. The authors highlight the difficulty of aligning such AGIs and suggest research directions to mitigate this risk."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2205.04279v1.pdf",
+    "title": "Aligned with Whom? Direct and social goals for AI systems",
+    "published_date": "2022-05-09",
+    "abstract": "As artificial intelligence (AI) becomes more powerful and widespread, the AI alignment problem - how to ensure that AI systems pursue the goals that we want them to pursue - has garnered growing attention. This article distinguishes two types of alignment problems depending on whose goals we consider, and analyzes the different solutions necessitated by each. The direct alignment problem considers whether an AI system accomplishes the goals of the entity operating it. In contrast, the social alignment problem considers the effects of an AI system on larger groups or on society more broadly. In particular, it also considers whether the system imposes externalities on others. Whereas solutions to the direct alignment problem center around more robust implementation, social alignment problems typically arise because of conflicts between individual and group-level goals, elevating the importance of AI governance to mediate such conflicts. Addressing the social alignment problem requires both enforcing existing norms on their developers and operators and designing new norms that apply directly to AI systems.",
+    "citation_count": 8,
+    "summary": "The paper distinguishes between \"direct alignment,\" focusing on an AI system achieving its operator's goals, and \"social alignment,\" concerning the system's broader societal impact and potential externalities. Solutions for direct alignment prioritize robust implementation, while social alignment necessitates AI governance to mediate conflicts between individual and group goals and establish appropriate norms."
+  }
+]

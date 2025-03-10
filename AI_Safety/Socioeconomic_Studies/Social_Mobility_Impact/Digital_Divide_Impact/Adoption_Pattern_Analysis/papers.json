@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2404.11988",
+    "title": "The Emerging AI Divide in the United States",
+    "published_date": "2024-04-18",
+    "abstract": "The digital divide describes disparities in access to and usage of digital tooling between social and economic groups. Emerging generative artificial intelligence tools, which strongly affect productivity, could magnify the impact of these divides. However, the affordability, multi-modality, and multilingual capabilities of these tools could also make them more accessible to diverse users in comparison with previous forms of digital tooling. In this study, we characterize spatial differences in U.S. residents' knowledge of a new generative AI tool, ChatGPT, through an analysis of state- and county-level search query data. In the first six months after the tool's release, we observe the highest rates of users searching for ChatGPT in West Coast states and persistently low rates of search in Appalachian and Gulf states. Counties with the highest rates of search are relatively more urbanized and have proportionally more educated, more economically advantaged, and more Asian residents in comparison with other counties or with the U.S. average. In multilevel models adjusting for socioeconomic and demographic factors as well as industry makeup, education is the strongest positive predictor of rates of search for generative AI tooling. Although generative AI technologies may be novel, early differences in uptake appear to be following familiar paths of digital marginalization.",
+    "citation_count": 4,
+    "summary": "Analysis of U.S. search data for ChatGPT reveals a nascent AI divide, with higher search rates in wealthier, more urban, and better-educated areas, suggesting that existing socioeconomic disparities are likely to exacerbate unequal access to and adoption of generative AI. This early pattern mirrors previous digital divides."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.19806",
+    "title": "Learning to Adopt Generative AI",
+    "published_date": "2024-10-17",
+    "abstract": "Recent advancements in generative AI, exemplified by ChatGPT, have dramatically transformed how people access information. Despite its powerful capabilities, the benefits it provides may not be equally distributed among individuals - a phenomenon referred to as the digital divide. Building upon prior literature, we propose two forms of digital divide in the generative AI adoption process: (i) the learning divide, capturing individuals' heterogeneous abilities to update their perceived utility of ChatGPT; and (ii) the utility divide, representing differences in individuals' actual utility derived from per use of ChatGPT. To evaluate these two divides, we develop a Bayesian learning model that incorporates demographic heterogeneities in both the utility and signal functions. Leveraging a six-month clickstream dataset, we estimate the model and find significant learning and utility divides across various demographic attributes. Interestingly, lower-educated and non-white individuals derive higher utility gains from ChatGPT but learn about its utility at a slower rate. Furthermore, males, younger individuals, and those with an IT background not only derive higher utility per use from ChatGPT but also learn about its utility more rapidly. Besides, we document a phenomenon termed the belief trap, wherein users underestimate ChatGPT's utility, opt not to use the tool, and consequently lack new experiences to update their perceptions, leading to continued underutilization. Our simulation further demonstrates that the learning divide can significantly affect the probability of falling into the belief trap, another form of the digital divide in adoption outcomes (i.e., outcome divide); however, offering training programs can alleviate the belief trap and mitigate the divide.",
+    "summary": "This paper identifies a \"learning divide\" and a \"utility divide\" in generative AI adoption, showing that while some demographics (e.g., lower-educated, non-white individuals) gain higher utility from ChatGPT, they learn its usefulness more slowly than others (e.g., males, younger individuals, those with IT backgrounds), leading to a \"belief trap\" that hinders adoption."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5Dz3ZrwBzzMfaucrH/ai-57-all-the-ai-news-that-s-fit-to-print",
+    "author": "Zvi",
+    "title": "AI #57: All the AI News That's Fit to Print",
+    "published_date": "2024-03-28",
+    "summary": "This weekly AI blog post covers current AI developments, from practical applications to potential existential risks, and includes discussions on AI regulation and related economic and political issues. The author also links to other relevant articles and research."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bdQhzQsHjNrQp7cNS/estimates-of-gpu-or-equivalent-resources-of-large-ai-players",
+    "author": "CharlesD",
+    "title": "Estimates of GPU or equivalent resources of large AI players for 2024/5",
+    "published_date": "2024-11-28",
+    "summary": "The article attempts to estimate the distribution of high-end AI computing resources (primarily Nvidia GPUs) among major tech companies in 2024 and 2025, acknowledging significant uncertainties in publicly available data and the limitations of its estimations. The author uses Nvidia's revenue projections and other fragmented data to produce ballpark figures for GPU production and allocation to companies like Microsoft, Meta, Google, Amazon, and XAI."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/GFeyXGib7DD3ooTEN/introduction-to-french-ai-policy",
+    "author": "Lucie Philippon",
+    "title": "Introduction to French AI Policy",
+    "published_date": "2024-07-04",
+    "summary": "France's approach to AI governance, as exemplified by a government committee's report, prioritizes national competitiveness and open-source development, downplaying potential AI risks and advocating for increased investment in AI research and training. The report's optimistic stance contrasts with concerns about AI safety expressed by some international experts."
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.05746",
+    "title": "Bridging the Digital Divide: Performance Variation across Socio-Economic Factors in Vision-Language Models",
+    "published_date": "2023-11-09",
+    "abstract": "Despite the impressive performance of current AI models reported across various tasks, performance reports often do not include evaluations of how these models perform on the specific groups that will be impacted by these technologies. Among the minority groups under-represented in AI, data from low-income households are often overlooked in data collection and model evaluation. We evaluate the performance of a state-of-the-art vision-language model (CLIP) on a geo-diverse dataset containing household images associated with different income values (Dollar Street) and show that performance inequality exists among households of different income levels. Our results indicate that performance for the poorer groups is consistently lower than the wealthier groups across various topics and countries. We highlight insights that can help mitigate these issues and propose actionable steps for economic-level inclusive AI development. Code is available at https://github.com/MichiganNLP/Bridging_the_Digital_Divide.",
+    "citation_count": 8,
+    "summary": "This paper demonstrates performance disparities in a state-of-the-art vision-language model (CLIP) across different socioeconomic groups, finding that lower-income households are consistently under-served compared to wealthier ones. The authors highlight these inequalities and suggest actionable steps towards more inclusive AI development."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2307.13405.pdf",
+    "title": "Towards Bridging the Digital Language Divide",
+    "published_date": "2023-07-25",
+    "abstract": "It is a well-known fact that current AI-based language technology -- language models, machine translation systems, multilingual dictionaries and corpora -- focuses on the world's 2-3% most widely spoken languages. Recent research efforts have attempted to expand the coverage of AI technology to `under-resourced languages.' The goal of our paper is to bring attention to a phenomenon that we call linguistic bias: multilingual language processing systems often exhibit a hardwired, yet usually involuntary and hidden representational preference towards certain languages. Linguistic bias is manifested in uneven per-language performance even in the case of similar test conditions. We show that biased technology is often the result of research and development methodologies that do not do justice to the complexity of the languages being represented, and that can even become ethically problematic as they disregard valuable aspects of diversity as well as the needs of the language communities themselves. As our attempt at building diversity-aware language resources, we present a new initiative that aims at reducing linguistic bias through both technological design and methodology, based on an eye-level collaboration with local communities.",
+    "citation_count": 1,
+    "summary": "This paper highlights the \"linguistic bias\" in AI language technology, where dominant languages disproportionately influence system performance, even under similar conditions. It proposes a new initiative to mitigate this bias through improved technological design and collaborative methodologies involving local communities."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2304.10578.pdf",
+    "title": "Quantifying the Benefit of Artificial Intelligence for Scientific Research",
+    "published_date": "2023-04-17",
+    "abstract": "The ongoing artificial intelligence (AI) revolution has the potential to change almost every line of work. As AI capabilities continue to improve in accuracy, robustness, and reach, AI may outperform and even replace human experts across many valuable tasks. Despite enormous effort devoted to understanding the impact of AI on labor and the economy and AI's recent successes in accelerating scientific discovery and progress, we lack a systematic understanding of how AI advances may benefit scientific research across disciplines and fields. Here, drawing from the literature on the future of work and the science of science, we develop a measurement framework to estimate both the direct use of AI and the potential benefit of AI in scientific research, applying natural language processing techniques to 74.6 million publications and 7.1 million patents. We find that the use of AI in research is widespread throughout the sciences, growing especially rapidly since 2015, and papers that use AI exhibit a citation premium, more likely to be highly cited both within and outside their disciplines. Moreover, our analysis reveals considerable potential for AI to benefit numerous scientific fields, yet a notable disconnect exists between AI education and its research applications, highlighting a mismatch between the supply of AI expertise and its demand in research. Lastly, we examine demographic disparities in AI's benefits across scientific disciplines and find that disciplines with a higher proportion of women or Black scientists tend to be associated with less benefit, suggesting that AI's growing impact on research may further exacerbate existing inequalities in science. As the connection between AI and scientific research deepens, our findings may become increasingly important, with implications for the equity and sustainability of the research enterprise.",
+    "citation_count": 4,
+    "summary": "This study uses natural language processing on a large dataset of publications and patents to quantify AI's growing use and benefit in scientific research, revealing a citation advantage for AI-related papers but also highlighting disparities in AI's impact across disciplines, potentially exacerbating existing inequalities."
+  }
+]

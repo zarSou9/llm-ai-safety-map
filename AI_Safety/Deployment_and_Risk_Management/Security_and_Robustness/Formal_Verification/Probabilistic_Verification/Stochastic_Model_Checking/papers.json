@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2301.10197.pdf",
+    "title": "A Practitioner's Guide to MDP Model Checking Algorithms",
+    "published_date": "2023-01-24",
+    "abstract": "Model checking undiscounted reachability and expected-reward properties on Markov decision processes (MDPs) is key for the verification of systems that act under uncertainty. Popular algorithms are policy iteration and variants of value iteration; in tool competitions, most participants rely on the latter. These algorithms generally need worst-case exponential time. However the problem can equally be formulated as a linear program, solvable in polynomial time. In this paper, we give a detailed overview of today's state-of-the-art algorithms for MDP model checking with a focus on performance and correctness. We highlight their fundamental differences, and describe various optimisations and implementation variants. We experimentally compare floating-point and exact-arithmetic implementations of all algorithms on three benchmark sets using two probabilistic model checkers. Our results show that (optimistic) value iteration is a sensible default, but other algorithms are preferable in specific settings. This paper thereby provides a guide for MDP verification practitioners -- tool builders and users alike.",
+    "citation_count": 11
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.10630.pdf",
+    "title": "Probabilistic Model Checking and Autonomy",
+    "published_date": "2021-11-20",
+    "abstract": "The design and control of autonomous systems that operate in uncertain or adversarial environments can be facilitated by formal modeling and analysis. Probabilistic model checking is a technique to automatically verify, for a given temporal logic specification, that a system model satisfies the specification, as well as to synthesize an optimal strategy for its control. This method has recently been extended to multiagent systems that exhibit competitive or cooperative behavior modeled via stochastic games and synthesis of equilibria strategies. In this article, we provide an overview of probabilistic model checking, focusing on models supported by the PRISM and PRISM-games model checkers. This overview includes fully observable and partially observable Markov decision processes, as well as turn-based and concurrent stochastic games, together with associated probabilistic temporal logics. We demonstrate the applicability of the framework through illustrative examples from autonomous systems. Finally, we highlight research challenges and suggest directions for future work in this area. Expected final online publication date for the Annual Review of Control, Robotics, and Autonomous Systems, Volume 5 is May 2022. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates.",
+    "citation_count": 19
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.06082.pdf",
+    "title": "Lower Bounds for Possibly Divergent Probabilistic Programs",
+    "published_date": "2023-02-13",
+    "abstract": "We present a new proof rule for verifying lower bounds on quantities of probabilistic programs. Our proof rule is not confined to almost-surely terminating programs -- as is the case for existing rules -- and can be used to establish non-trivial lower bounds on, e.g., termination probabilities and expected values, for possibly divergent probabilistic loops, e.g., the well-known three-dimensional random walk on a lattice.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.07466.pdf",
+    "title": "Symbolic Time and Space Tradeoffs for Probabilistic Verification",
+    "published_date": "2021-04-15",
+    "abstract": "We present a faster symbolic algorithm for the following central problem in probabilistic verification: Compute the maximal end-component (MEC) decomposition of Markov decision processes (MDPs). This problem generalizes the SCC decomposition problem of graphs and closed recurrent sets of Markov chains. The model of symbolic algorithms is widely used in formal verification and model-checking, where access to the input model is restricted to only symbolic operations (e.g., basic set operations and computation of one-step neighborhood). For an input MDP with n vertices and m edges, the classical symbolic algorithm from the 1990s for the MEC decomposition requires O(n2) symbolic operations and O(1) symbolic space. The only other symbolic algorithm for the MEC decomposition requires $O(n\\sqrt m )$ symbolic operations and $O(\\sqrt m )$ symbolic space. The main open question has been whether the worst-case O(n2) bound for symbolic operations can be beaten for MEC decomposition computation. In this work, we answer the open question in the affirmative. We present a symbolic algorithm that requires $\\widetilde O\\left( {{n^{1.5}}} \\right)$ symbolic operations and $\\widetilde O\\left( {\\sqrt n } \\right)$ symbolic space. Moreover, the parametrization of our algorithm provides a trade-off between symbolic operations and esymbolic space: for all 0 < ϵ ≤ 1/2 the symbolic algorithm requires $\\widetilde O\\left( {{n^{2 - \\in }}} \\right)$ symbolic operations and $\\widetilde O\\left( {{n^ \\in }} \\right)$ symbolic space ($\\widetilde O(\\cdot)$ hides poly-logarithmic factors).Using our techniques we also present faster algorithms for computing the almost-sure winning regions of ω-regular objectives for MDPs. We consider the canonical parity objectives for ω-regular objectives, and for parity objectives with d-priorities we present an algorithm that computes the almost-sure winning region with $\\widetilde O\\left( {{n^{2 - \\in }}} \\right)$ symbolic operations and $\\widetilde O\\left( {{n^ \\in }} \\right)$ symbolic space, for all 0 < ϵ ≤ 1/2. In contrast, previous approaches require either (a) O(n2•d) symbolic operations and O(log n) symbolic space; or (b) $O(n\\sqrt m \\cdot d)$ symbolic operations and $\\widetilde O\\left( {\\sqrt m } \\right)$ symbolic space. Thus we improve the time-space product from $\\widetilde O\\left( {{n^2}\\cdot d} \\right)$ to $\\widetilde O\\left( {{n^2}} \\right)$.",
+    "citation_count": 1
+  },
+  {
+    "title": "Verifiable autonomy under perceptual limitations",
+    "abstract": "A recent set of algorithms in the intersection of formal methods, convex optimization and machine learning offers orders-of-magnitude improvement in the scalability of verification and synthesis in partially observable Markov decision processes possibly with uncertain transition probabilities.",
+    "published_date": "2021-05-18",
+    "url": "https://dl.acm.org/doi/10.1145/3459086.3459635"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Zd5Bsra7ar2pa3bwS/probability-theory-and-logical-induction-as-lenses",
+    "author": "Alex Flint",
+    "title": "Probability theory and logical induction as lenses",
+    "published_date": "2021-04-23"
+  }
+]

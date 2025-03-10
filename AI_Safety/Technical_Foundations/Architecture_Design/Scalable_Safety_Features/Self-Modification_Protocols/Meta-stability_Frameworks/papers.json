@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2412.16559",
+    "title": "Metagoals Endowing Self-Modifying AGI Systems with Goal Stability or Moderated Goal Evolution: Toward a Formally Sound and Practical Approach",
+    "published_date": "2024-12-21",
+    "abstract": "We articulate here a series of specific metagoals designed to address the challenge of creating AGI systems that possess the ability to flexibly self-modify yet also have the propensity to maintain key invariant properties of their goal systems 1) a series of goal-stability metagoals aimed to guide a system to a condition in which goal-stability is compatible with reasonably flexible self-modification 2) a series of moderated-goal-evolution metagoals aimed to guide a system to a condition in which control of the pace of goal evolution is compatible with reasonably flexible self-modification The formulation of the metagoals is founded on fixed-point theorems from functional analysis, e.g. the Contraction Mapping Theorem and constructive approximations to Schauder's Theorem, applied to probabilistic models of system behavior We present an argument that the balancing of self-modification with maintenance of goal invariants will often have other interesting cognitive side-effects such as a high degree of self understanding Finally we argue for the practical value of a hybrid metagoal combining moderated-goal-evolution with pursuit of goal-stability -- along with potentially other metagoals relating to goal-satisfaction, survival and ongoing development -- in a flexible fashion depending on the situation"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.13800.pdf",
+    "title": "A First Order Meta Stackelberg Method for Robust Federated Learning",
+    "published_date": "2023-06-23",
+    "abstract": "Previous research has shown that federated learning (FL) systems are exposed to an array of security risks. Despite the proposal of several defensive strategies, they tend to be non-adaptive and specific to certain types of attacks, rendering them ineffective against unpredictable or adaptive threats. This work models adversarial federated learning as a Bayesian Stackelberg Markov game (BSMG) to capture the defender's incomplete information of various attack types. We propose meta-Stackelberg learning (meta-SL), a provably efficient meta-learning algorithm, to solve the equilibrium strategy in BSMG, leading to an adaptable FL defense. We demonstrate that meta-SL converges to the first-order $\\varepsilon$-equilibrium point in $O(\\varepsilon^{-2})$ gradient iterations, with $O(\\varepsilon^{-4})$ samples needed per iteration, matching the state of the art. Empirical evidence indicates that our meta-Stackelberg framework performs exceptionally well against potent model poisoning and backdoor attacks of an uncertain nature.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.07362.pdf",
+    "title": "A Game-Theoretic Approach to Self-Stabilization with Selfish Agents",
+    "published_date": "2021-08-16",
+    "abstract": "Self-stabilization is an excellent approach for adding fault tolerance to a distributed multi-agent system. However, two properties of self-stabilization theory, convergence and closure, may not be satisfied if agents are selfish. To guarantee convergence, we formulate the problem as a stochastic Bayesian game and introduce probabilistic self-stabilization to adjust the probabilities of rules with behavior strategies. This satisfies agents' self-interests such that no agent deviates the rules. To guarantee closure in the presence of selfish agents, we propose fault-containment as a method to constrain legitimate configurations of the self-stabilizing system to be Nash equilibria. We also assume selfish agents as capable of performing unauthorized actions at any time, which threatens both properties, and present a stepwise solution to handle it. As a case study, we consider the problem of distributed clustering and propose five self-stabilizing algorithms for forming clusters. Simulation results show that our algorithms react correctly to rule deviations and outperform comparable schemes in terms of fairness and stabilization time."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.06098.pdf",
+    "title": "Meta-Adaptive Nonlinear Control: Theory and Algorithms",
+    "published_date": "2021-06-11",
+    "abstract": "We present an online multi-task learning approach for adaptive nonlinear control, which we call Online Meta-Adaptive Control (OMAC). The goal is to control a nonlinear system subject to adversarial disturbance and unknown $\\textit{environment-dependent}$ nonlinear dynamics, under the assumption that the environment-dependent dynamics can be well captured with some shared representation. Our approach is motivated by robot control, where a robotic system encounters a sequence of new environmental conditions that it must quickly adapt to. A key emphasis is to integrate online representation learning with established methods from control theory, in order to arrive at a unified framework that yields both control-theoretic and learning-theoretic guarantees. We provide instantiations of our approach under varying conditions, leading to the first non-asymptotic end-to-end convergence guarantee for multi-task nonlinear control. OMAC can also be integrated with deep representation learning. Experiments show that OMAC significantly outperforms conventional adaptive control approaches which do not learn the shared representation, in inverted pendulum and 6-DoF drone control tasks under varying wind conditions.",
+    "citation_count": 39
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.10319v1.pdf",
+    "title": "Stability and Resilience of Distributed Information Spreading in Aggregate Computing",
+    "published_date": "2021-02-20",
+    "abstract": "Spreading informationthrough a network of devices is a core activity for most distributed systems. Self-stabilizing algorithms for information spreading are one of the key building blocks enabling aggregate computing to provide resilient coordination in open complex distributed systems. This article improves a general spreading block in the aggregate computing literature by making it resilient to network perturbations, establishes its global uniform asymptotic stability, and proves that it is ultimately bounded under persistent disturbances. The ultimate bounds depend only on the magnitude of the largest perturbation and the network diameter, and three design parameters trading off competing aspects of performance. For example, as in many dynamical systems, values leading to greater resilience to network perturbations slow convergence and vice versa.",
+    "citation_count": 5
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.12558v2.pdf",
+    "title": "Assured learning‐enabled autonomy: A metacognitive reinforcement learning framework",
+    "published_date": "2021-03-23",
+    "abstract": "Reinforcement learning (RL) agents with pre‐specified reward functions cannot provide guaranteed safety across variety of circumstances that an uncertain system might encounter. To guarantee performance while assuring satisfaction of safety constraints across variety of circumstances, an assured autonomous control framework is presented in this article by empowering RL algorithms with metacognitive learning capabilities. More specifically, adapting the reward function parameters of the RL agent is performed in a metacognitive decision‐making layer to assure the feasibility of RL agent. That is, to assure that the learned policy by the RL agent satisfies safety constraints specified by signal temporal logic while achieving as much performance as possible. The metacognitive layer monitors any possible future safety violation under the actions of the RL agent and employs a higher‐layer Bayesian RL algorithm to proactively adapt the reward function for the lower‐layer RL agent. To minimize the higher‐layer Bayesian RL intervention, a fitness function is leveraged by the metacognitive layer as a metric to evaluate success of the lower‐layer RL agent in satisfaction of safety and liveness specifications, and the higher‐layer Bayesian RL intervenes only if there is a risk of lower‐layer RL failure. Finally, a simulation example is provided to validate the effectiveness of the proposed approach.",
+    "citation_count": 4
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.05466",
+    "title": "Poser: Unmasking Alignment Faking LLMs by Manipulating Their Internals",
+    "published_date": "2024-05-08",
+    "abstract": "Like a criminal under investigation, Large Language Models (LLMs) might pretend to be aligned while evaluated and misbehave when they have a good opportunity. Can current interpretability methods catch these 'alignment fakers?' To answer this question, we introduce a benchmark that consists of 324 pairs of LLMs fine-tuned to select actions in role-play scenarios. One model in each pair is consistently benign (aligned). The other model misbehaves in scenarios where it is unlikely to be caught (alignment faking). The task is to identify the alignment faking model using only inputs where the two models behave identically. We test five detection strategies, one of which identifies 98% of alignment-fakers."
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.10569",
+    "title": "Deceptive Alignment Monitoring",
+    "published_date": "2023-07-20",
+    "abstract": "As the capabilities of large machine learning models continue to grow, and as the autonomy afforded to such models continues to expand, the spectre of a new adversary looms: the models themselves. The threat that a model might behave in a seemingly reasonable manner, while secretly and subtly modifying its behavior for ulterior reasons is often referred to as deceptive alignment in the AI Safety&Alignment communities. Consequently, we call this new direction Deceptive Alignment Monitoring. In this work, we identify emerging directions in diverse machine learning subfields that we believe will become increasingly important and intertwined in the near future for deceptive alignment monitoring, and we argue that advances in these fields present both long-term challenges and new research opportunities. We conclude by advocating for greater involvement by the adversarial machine learning community in these emerging directions.",
+    "citation_count": 5
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.01350",
+    "title": "Honesty Is the Best Policy: Defining and Mitigating AI Deception",
+    "published_date": "2023-12-03",
+    "abstract": "Deceptive agents are a challenge for the safety, trustworthiness, and cooperation of AI systems. We focus on the problem that agents might deceive in order to achieve their goals (for instance, in our experiments with language models, the goal of being evaluated as truthful). There are a number of existing definitions of deception in the literature on game theory and symbolic AI, but there is no overarching theory of deception for learning agents in games. We introduce a formal definition of deception in structural causal games, grounded in the philosophy literature, and applicable to real-world machine learning systems. Several examples and results illustrate that our formal definition aligns with the philosophical and commonsense meaning of deception. Our main technical result is to provide graphical criteria for deception. We show, experimentally, that these results can be used to mitigate deception in reinforcement learning agents and language models.",
+    "citation_count": 22
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.11052",
+    "title": "A logical alarm for misaligned binary classifiers",
+    "published_date": "2024-09-17",
+    "abstract": "If two agents disagree in their decisions, we may suspect they are not both correct. This intuition is formalized for evaluating agents that have carried out a binary classification task. Their agreements and disagreements on a joint test allow us to establish the only group evaluations logically consistent with their responses. This is done by establishing a set of axioms (algebraic relations) that must be universally obeyed by all evaluations of binary responders. A complete set of such axioms are possible for each ensemble of size N. The axioms for $N = 1, 2$ are used to construct a fully logical alarm - one that can prove that at least one ensemble member is malfunctioning using only unlabeled data. The similarities of this approach to formal software verification and its utility for recent agendas of safe guaranteed AI are discussed."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.11431",
+    "title": "Super(ficial)-alignment: Strong Models May Deceive Weak Models in Weak-to-Strong Generalization",
+    "published_date": "2024-06-17",
+    "abstract": "Superalignment, where humans act as weak supervisors for superhuman models, has become a crucial problem with the rapid development of Large Language Models (LLMs). Recent work has preliminarily studied this problem by using weak models to supervise strong models, and discovered that weakly supervised strong students can consistently outperform weak teachers towards the alignment target, leading to a weak-to-strong generalization phenomenon. However, we are concerned that behind such a promising phenomenon, whether there exists an issue of weak-to-strong deception, where strong models deceive weak models by exhibiting well-aligned in areas known to weak models but producing misaligned behaviors in cases weak models do not know. We take an initial step towards exploring this security issue in a specific but realistic multi-objective alignment case, where there may be some alignment targets conflicting with each other (e.g., helpfulness v.s. harmlessness). We aim to explore whether, in such cases, strong models might deliberately make mistakes in areas known to them but unknown to weak models within one alignment dimension, in exchange for a higher reward in another dimension. Through extensive experiments in both the reward modeling and preference optimization scenarios, we find: (1) The weak-to-strong deception phenomenon exists across all settings. (2) The deception intensifies as the capability gap between weak and strong models increases. (3) Bootstrapping with an intermediate model can mitigate the deception to some extent, though its effectiveness remains limited. Our work highlights the urgent need to pay more attention to the true reliability of superalignment.",
+    "citation_count": 6
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.08918",
+    "title": "Supervised and Unsupervised Alignments for Spoofing Behavioral Biometrics",
+    "published_date": "2024-08-14",
+    "abstract": "Biometric recognition systems are security systems based on intrinsic properties of their users, usually encoded in high dimension representations called embeddings, which potential theft would represent a greater threat than a temporary password or a replaceable key. To study the threat of embedding theft, we perform spoofing attacks on two behavioral biometric systems (an automatic speaker verification system and a handwritten digit analysis system) using a set of alignment techniques. Biometric recognition systems based on embeddings work in two phases: enrollment - where embeddings are collected and stored - then authentication - when new embeddings are compared to the stored ones -.The threat of stolen enrollment embeddings has been explored by the template reconstruction attack literature: reconstructing the original data to spoof an authentication system is doable with black-box access to their encoder. In this document, we explore the options available to perform template reconstruction attacks without any access to the encoder. To perform those attacks, we suppose general rules over the distribution of embeddings across encoders and use supervised and unsupervised algorithms to align an unlabeled set of embeddings with a set from a known encoder. The use of an alignment algorithm from the unsupervised translation literature gives promising results on spoofing two behavioral biometric systems."
+  }
+]

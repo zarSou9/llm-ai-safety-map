@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2006.12086.pdf",
+    "title": "Success and Failure in Software Engineering: A Followup Systematic Literature Review",
+    "published_date": "2020-06-22",
+    "abstract": "Success and failure in software engineering are still among the least understood phenomena in the discipline. In a recent special journal issue on the topic, Mäntylä et al. started discussing these topics from different angles; the authors focused their contributions on offering a general overview of both topics without deeper detail. Recognizing the importance and impact of the topic, in this article we have executed a followup, more in-depth systematic literature review with additional analyses beyond what was previously provided. These new analyses offer: a grounded-theory of success and failure factors, harvesting over 500+ factors from the literature; 14 manually validated clusters of factors that provide relevant areas for success- and failure-specific measurement and risk-analysis; a quality model composed of previously unmeasured organizational structure quantities which are germane to software product, process, and community quality. We show that the topics of success and failure deserve further study as well as further automated tool support, e.g., monitoring tools and metrics able to track the factors and patterns emerging from this article. This article provides managers with risks as well as a more fine-grained analysis of the parameters that can be appraised to anticipate the risks.",
+    "citation_count": 29
+  },
+  {
+    "url": "https://arxiv.org/pdf/1904.11907.pdf",
+    "title": "Evaluating the Success of a Data Analysis",
+    "published_date": "2019-04-26",
+    "abstract": "A fundamental problem in the practice and teaching of data science is how to evaluate the quality of a given data analysis, which is different than the evaluation of the science or question underlying the data analysis. Previously, we defined a set of principles for describing data analyses that can be used to create a data analysis and to characterize the variation between data analyses. Here, we introduce a metric of quality evaluation that we call the success of a data analysis, which is different than other potential metrics such as completeness, validity, or honesty. We define a successful data analysis as the matching of principles between the analyst and the audience on which the analysis is developed. In this paper, we propose a statistical model and general framework for evaluating the success of a data analysis. We argue that this framework can be used as a guide for practicing data scientists and students in data science courses for how to build a successful data analysis."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1901.09050.pdf",
+    "title": "Software Architecture Metrics: a literature review",
+    "published_date": "2019-01-25",
+    "abstract": "In Software Engineering, early detection of architectural issues is key. It helps mitigate the risk of poor performance, and lowers the cost of repairing these issues. Metrics give a quick overview of the project which helps designers with the detection of flaws or degradation in their architecture. Even though studies unveiled architectural metrics more than 25 years ago, they have not yet been embraced by the industry nor the open source community. In this study, we aim at conducting a review of existing metrics focused on the software architecture for evaluating quality, early in the design flow and throughout the project's lifetime. We also give guidelines of their usage and study their relevance in different contexts.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/x7kL42bnATuaL4hrD/bayesian-reasoning-explained-like-you-re-five",
+    "author": "Satoshi_Nakamoto",
+    "title": "Bayesian Reasoning - Explained Like You're Five",
+    "published_date": "2015-07-24"
+  }
+]

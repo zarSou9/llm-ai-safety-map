@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2406.15371",
+    "title": "Affirmative safety: An approach to risk management for high-risk AI",
+    "published_date": "2024-04-14",
+    "abstract": "Prominent AI experts have suggested that companies developing high-risk AI systems should be required to show that such systems are safe before they can be developed or deployed. The goal of this paper is to expand on this idea and explore its implications for risk management. We argue that entities developing or deploying high-risk AI systems should be required to present evidence of affirmative safety: a proactive case that their activities keep risks below acceptable thresholds. We begin the paper by highlighting global security risks from AI that have been acknowledged by AI experts and world governments. Next, we briefly describe principles of risk management from other high-risk fields (e.g., nuclear safety). Then, we propose a risk management approach for advanced AI in which model developers must provide evidence that their activities keep certain risks below regulator-set thresholds. As a first step toward understanding what affirmative safety cases should include, we illustrate how certain kinds of technical evidence and operational evidence can support an affirmative safety case. In the technical section, we discuss behavioral evidence (evidence about model outputs), cognitive evidence (evidence about model internals), and developmental evidence (evidence about the training process). In the operational section, we offer examples of organizational practices that could contribute to affirmative safety cases: information security practices, safety culture, and emergency response capacity. Finally, we briefly compare our approach to the NIST AI Risk Management Framework. Overall, we hope our work contributes to ongoing discussions about national and global security risks posed by AI and regulatory approaches to address these risks.",
+    "citation_count": 4,
+    "summary": "This paper proposes \"affirmative safety\" as a risk management approach for high-risk AI, requiring developers to proactively demonstrate that their systems maintain risks below acceptable thresholds through technical and operational evidence, rather than simply reacting to failures. This approach draws parallels to risk management in other high-risk sectors and suggests specific types of evidence that could support such a demonstration."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.20362",
+    "title": "Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools",
+    "published_date": "2024-05-30",
+    "abstract": "Legal practice has witnessed a sharp rise in products incorporating artificial intelligence (AI). Such tools are designed to assist with a wide range of core legal tasks, from search and summarization of caselaw to document drafting. But the large language models used in these tools are prone to\"hallucinate,\"or make up false information, making their use risky in high-stakes domains. Recently, certain legal research providers have touted methods such as retrieval-augmented generation (RAG) as\"eliminating\"(Casetext, 2023) or\"avoid[ing]\"hallucinations (Thomson Reuters, 2023), or guaranteeing\"hallucination-free\"legal citations (LexisNexis, 2023). Because of the closed nature of these systems, systematically assessing these claims is challenging. In this article, we design and report on the first preregistered empirical evaluation of AI-driven legal research tools. We demonstrate that the providers' claims are overstated. While hallucinations are reduced relative to general-purpose chatbots (GPT-4), we find that the AI research tools made by LexisNexis (Lexis+ AI) and Thomson Reuters (Westlaw AI-Assisted Research and Ask Practical Law AI) each hallucinate between 17% and 33% of the time. We also document substantial differences between systems in responsiveness and accuracy. Our article makes four key contributions. It is the first to assess and report the performance of RAG-based proprietary legal AI tools. Second, it introduces a comprehensive, preregistered dataset for identifying and understanding vulnerabilities in these systems. Third, it proposes a clear typology for differentiating between hallucinations and accurate legal responses. Last, it provides evidence to inform the responsibilities of legal professionals in supervising and verifying AI outputs, which remains a central open question for the responsible integration of AI into law.",
+    "citation_count": 42,
+    "summary": "A study empirically evaluated leading AI legal research tools, finding that despite vendor claims, hallucinations (fabrication of information) remained prevalent (17-33%), highlighting the need for lawyer oversight in using these systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.07123",
+    "title": "Transforming disaster risk reduction with AI and big data: Legal and interdisciplinary perspectives",
+    "published_date": "2024-09-20",
+    "abstract": "Managing complex disaster risks requires interdisciplinary efforts. Breaking down silos between law, social sciences, and natural sciences is critical for all processes of disaster risk reduction. This enables adaptive systems for the rapid evolution of AI technology, which has significantly impacted the intersection of law and natural environments. Exploring how AI influences legal frameworks and environmental management, while also examining how legal and environmental considerations can confine AI within the socioeconomic domain, is essential. From a co-production review perspective, drawing on insights from lawyers, social scientists, and environmental scientists, principles for responsible data mining are proposed based on safety, transparency, fairness, accountability, and contestability. This discussion offers a blueprint for interdisciplinary collaboration to create adaptive law systems based on AI integration of knowledge from environmental and social sciences. Discrepancies in the use of language between environmental scientists and decision-makers in terms of usefulness and accuracy hamper how AI can be used based on the principles of legal considerations for a safe, trustworthy, and contestable disaster management framework. When social networks are useful for mitigating disaster risks based on AI, the legal implications related to privacy and liability of the outcomes of disaster management must be considered. Fair and accountable principles emphasise environmental considerations and foster socioeconomic discussions related to public engagement. AI also has an important role to play in education, bringing together the next generations of law, social sciences, and natural sciences to work on interdisciplinary solutions in harmony.",
+    "summary": "This paper advocates for interdisciplinary collaboration between law, social sciences, and natural sciences to leverage AI and big data for effective disaster risk reduction. It emphasizes the need for legal frameworks that ensure responsible AI use, addressing issues of safety, transparency, fairness, accountability, and contestability while considering socioeconomic and environmental implications."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/X8NhKh2g2ECPrm5eo/post-series-on-liability-law-for-reducing-existential-risk",
+    "author": "Nora_Ammann",
+    "title": "Post series on \"Liability Law for reducing Existential Risk from AI\"",
+    "published_date": "2024-02-29",
+    "summary": "Professor Gabriel Weil argues that adapting liability law, specifically through strict liability and expanded punitive damages, is crucial for mitigating existential risks from AI. This requires legal and legislative action, potentially including mandated liability insurance for AI development and deployment."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/gZBgmDFqqyw3Lghok/ai-regulatory-landscape-review-incident-reporting",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Incident Reporting: A Regulatory Review",
+    "published_date": "2024-03-11",
+    "summary": "This article, the first in a series, provides an overview of AI incident reporting—a developing area of AI governance—examining existing and proposed regulations in the US, EU, and China, drawing parallels to successful incident reporting systems in other industries like aviation and occupational safety."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, examines AI model registries—centralized databases tracking AI systems for governance purposes. These registries, drawing parallels with pharmaceutical regulations, vary widely in implementation across jurisdictions like the US, EU, and China, mandating different levels of model information and pre-release safety assessments."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for third-party testing of large-scale AI systems to mitigate societal harms, arguing that such a regime, applied selectively to powerful models, is crucial for building trust, preventing misuse, and informing future AI policy while avoiding overly burdensome regulation on smaller companies."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising but underdeveloped approach to AI safety. Strategies include increasing transparency of compute usage, influencing resource allocation to specific projects, and enforcing regulations through technological means."
+  }
+]

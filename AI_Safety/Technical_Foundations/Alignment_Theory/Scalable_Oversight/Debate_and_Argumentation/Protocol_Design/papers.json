@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.14051",
+    "title": "GroupDebate: Enhancing the Efficiency of Multi-Agent Debate Using Group Discussion",
+    "published_date": "2024-09-21",
+    "abstract": "In recent years, Large Language Models (LLMs) have demonstrated remarkable capabilities across diverse NLP tasks. Extensive research has explored how to enhance the logical reasoning abilities such as Chain-of-Thought, Chain-of-Thought with Self-Consistency, Tree-Of-Thoughts, and multi-agent debates. In the context of multi-agent debates, significant performance improvements can be achieved with an increasing number of agents and debate rounds. However, the escalation in the number of agents and debate rounds can drastically raise the tokens cost of debates, thereby limiting the scalability of the multi-agent debate technique. To better harness the advantages of multi-agent debates in logical reasoning tasks, this paper proposes a method to significantly reduce token cost in multi-agent debates. This approach involves dividing all agents into multiple debate groups, with agents engaging in debates within their respective groups and sharing interim debate results between groups. Comparative experiments across multiple datasets have demonstrated that this method can reduce the total tokens by up to 51.7% during debates and while potentially enhancing accuracy by as much as 25%. Our method significantly enhances the performance and efficiency of interactions in the multi-agent debate."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/fPgn8ZMtsr6az6D9t/better-debates",
+    "author": "TsviBT",
+    "title": "Better debates",
+    "published_date": "2023-05-10"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.03580.pdf",
+    "title": "A negotiating protocol for group decision support systems",
+    "published_date": "2021-01-10",
+    "abstract": "Our contribution concerns interactive decision support systems for group decision support. Through this study, we apply to implement a decisional process aiming to represent the multiplicity of actors, their diversity, their behaviors and their interactions. In this context, we contribute to the design and development of a group decision support system. The system is modeled by a multi agents system while exploiting a negotiation protocol based on mediation and concession. This protocol allows decision-makers to express their preferences using multicriteria analysis methods, mainly the method by total aggregation AHP (Hierarchical Process Analysis) and the method by partial aggregation PROMETHEE II ."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2012.04585v1.pdf",
+    "title": "Discourse Parsing of Contentious, Non-Convergent Online Discussions",
+    "published_date": "2020-12-08",
+    "abstract": "Online discourse is often perceived as polarized and unproductive. While some conversational discourse parsing frameworks are available, they do not naturally lend themselves to the analysis of contentious and polarizing discussions. Inspired by the Bakhtinian theory of Dialogism, we propose a novel theoretical and computational framework, better suited for non-convergent discussions. We redefine the measure of a successful discussion, and develop a novel discourse annotation schema which reflects a hierarchy of discursive strategies. We consider an array of classification models -- from Logistic Regression to BERT. We also consider various feature types and representations, e.g., LIWC categories, standard embeddings, conversational sequences, and non-conversational discourse markers learnt separately. Given the 31 labels in the tagset, an average F-Score of 0.61 is achieved if we allow a different model for each tag, and 0.526 with a single model. The promising results achieved in annotating discussions according to the proposed schema paves the way for a number of downstream tasks and applications such as early detection of discussion trajectories, active moderation of open discussions, and teacher-assistive bots. Finally, we share the first labeled dataset of contentious non-convergent online discussions.",
+    "citation_count": 8
+  },
+  {
+    "url": "https://arxiv.org/pdf/2011.13845.pdf",
+    "title": "Dialogue Types, Argumentation Schemes and Mathematical Practice: Douglas Walton and Mathematics",
+    "published_date": "2020-11-27",
+    "abstract": "Douglas Walton's multitudinous contributions to the study of argumentation seldom, if ever, directly engage with argumentation in mathematics. Nonetheless, several of the innovations with which he is most closely associated lend themselves to improving our understanding of mathematical arguments. I concentrate on two such innovations: dialogue types ({\\S}1) and argumentation schemes ({\\S}2). I argue that both devices are much more applicable to mathematical reasoning than may be commonly supposed.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/debate-ai-safety-technique-1",
+    "author": "Beth Barnes, paulfchristiano",
+    "title": "Debate (AI safety technique) - LessWrong",
+    "published_date": "2020-03-29"
+  }
+]

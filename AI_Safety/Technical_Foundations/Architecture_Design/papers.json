@@ -1,0 +1,116 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2408.12935",
+    "title": "Trustworthy, Responsible, and Safe AI: A Comprehensive Architectural Framework for AI Safety with Challenges and Mitigations",
+    "published_date": "2024-08-23",
+    "abstract": "AI Safety is an emerging area of critical importance to the safe adoption and deployment of AI systems. With the rapid proliferation of AI and especially with the recent advancement of Generative AI (or GAI), the technology ecosystem behind the design, development, adoption, and deployment of AI systems has drastically changed, broadening the scope of AI Safety to address impacts on public safety and national security. In this paper, we propose a novel architectural framework for understanding and analyzing AI Safety; defining its characteristics from three perspectives: Trustworthy AI, Responsible AI, and Safe AI. We provide an extensive review of current research and advancements in AI safety from these perspectives, highlighting their key challenges and mitigation approaches. Through examples from state-of-the-art technologies, particularly Large Language Models (LLMs), we present innovative mechanism, methodologies, and techniques for designing and testing AI safety. Our goal is to promote advancement in AI safety research, and ultimately enhance people's trust in digital transformation.",
+    "citation_count": 3,
+    "summary": "This paper presents a novel architectural framework for AI safety encompassing trustworthy, responsible, and safe AI, reviewing existing research, highlighting challenges, and proposing mitigation approaches through innovative mechanisms and techniques, particularly for Large Language Models. The framework aims to advance AI safety research and foster public trust in AI."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/6cWgaaxWqGYwJs3vj/a-basic-systems-architecture-for-ai-agents-that-do",
+    "author": "Buck",
+    "title": "A basic systems architecture for AI agents that do autonomous research",
+    "published_date": "2024-09-23",
+    "summary": "The article describes a common architecture for autonomous AI agents in research, separating the large language model (LLM) inference server, the agent's control (scaffold) server, and the code execution server. This separation clarifies potential security vulnerabilities and misalignment risks by identifying distinct points of failure in different components of the system."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), particularly focusing on short timelines (within a decade). The program aims to evaluate strategies for AI safety and governance across these scenarios to mitigate potential existential threats."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/RzsXRbk2ETNqjhsma/ai-safety-solutions-landscape",
+    "author": "Charbel-Raphael Segerie",
+    "title": "AI Safety Solutions Landscape",
+    "published_date": "2024-05-09",
+    "summary": "This chapter presents existing strategies for improving AI safety, acknowledging the field's immaturity and lack of consensus on key threats. Despite challenges like AI's inherent complexity and \"black box\" nature, the author argues that several valuable approaches to mitigating risks already exist."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.08138.pdf",
+    "title": "Architecting Safer Autonomous Aviation Systems",
+    "published_date": "2023-01-09",
+    "abstract": "The aviation literature gives relatively little guidance to practitioners about the specifics of architecting systems for safety, particularly the impact of architecture on allocating safety requirements, or the relative ease of system assurance resulting from system or subsystem level architectural choices. As an exemplar, this paper considers common architectural patterns used within traditional aviation systems and explores their safety and safety assurance implications when applied in the context of integrating artificial intelligence (AI) and machine learning ( ML ) based functionality. Considering safety as an architectural property, we discuss both the allocation of safety requirements and the architectural trade-offs involved early in the design lifecycle. This approach could be extended to other assured properties, similar to safety, such as security. We conclude with a discussion of the safety considerations that emerge in the context of candidate architectural patterns that have been proposed in the recent literature for enabling autonomy capabilities by integrating AI and ML. A recommendation is made for the generation of a property-driven architectural pattern catalogue.",
+    "citation_count": 2,
+    "summary": "This paper analyzes the safety implications of different architectural patterns in autonomous aviation systems, particularly those integrating AI/ML, focusing on early allocation of safety requirements and the impact of architectural choices on system assurance. It advocates for a property-driven architectural pattern catalogue to guide safer system design."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2304.11090.pdf",
+    "title": "A Reference Architecture for Designing Foundation Model based Systems",
+    "published_date": "2023-04-13",
+    "abstract": "The release of ChatGPT, Gemini, and other large language model has drawn huge interests on foundations models. There is a broad consensus that foundations models will be the fundamental building blocks for future AI systems. However, there is a lack of systematic guidance on the architecture design. Particularly, the the rapidly growing capabilities of foundations models can eventually absorb other components of AI systems, posing challenges of moving boundary and interface evolution in architecture design. Furthermore, incorporating foundations models into AI systems raises significant concerns about responsible and safe AI due to their opaque nature and rapidly advancing intelligence. To address these challenges, the paper first presents an architecture evolution of AI systems in the era of foundation models, transitioning from\"foundation-model-as-a-connector\"to\"foundation-model-as-a-monolithic architecture\". The paper then identifies key design decisions and proposes a pattern-oriented reference architecture for designing responsible foundation-model-based systems. The patterns can enable the potential of foundation models while ensuring associated risks.",
+    "citation_count": 2,
+    "summary": "This paper proposes a reference architecture for designing AI systems based on foundation models, addressing the evolving role of these models from supplemental components to potentially monolithic architectures and emphasizing responsible AI design considerations. The architecture incorporates design patterns to harness the power of foundation models while mitigating associated risks."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/open-agency-architecture",
+    "author": "Charbel-Raphaël, Gabin",
+    "title": "Open Agency Architecture - LessWrong",
+    "published_date": "2023-04-19",
+    "summary": "The Open Agency Architecture (OAA) is an AI alignment proposal aiming for provably safe AI, detailed in David's ARIA programme thesis. Related initiatives include the Atlas Computing organization and the Gaia Network, a variant of the OAA."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and long version, have been created to help machine learning researchers quickly assess the AI safety field based on their existing skills and interests. These resources list organizations, researchers, key papers, and keywords to facilitate efficient exploration of the field."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2212.13570.pdf",
+    "title": "A Compositional Approach to Creating Architecture Frameworks with an Application to Distributed AI Systems",
+    "published_date": "2022-12-27",
+    "abstract": "Artificial intelligence (AI) in its various forms finds more and more its way into complex distributed systems. For instance, it is used locally, as part of a sensor system, on the edge for low-latency high-performance inference, or in the cloud, e.g. for data mining. Modern complex systems, such as connected vehicles, are often part of an Internet of Things (IoT). To manage complexity, architectures are described with architecture frameworks, which are composed of a number of architectural views connected through correspondence rules. Despite some attempts, the definition of a mathematical foundation for architecture frameworks that are suitable for the development of distributed AI systems still requires investigation and study. In this paper, we propose to extend the state of the art on architecture framework by providing a mathematical model for system architectures, which is scalable and supports co-evolution of different aspects for example of an AI system. Based on Design Science Research, this study starts by identifying the challenges with architectural frameworks. Then, we derive from the identified challenges four rules and we formulate them by exploiting concepts from category theory. We show how compositional thinking can provide rules for the creation and management of architectural frameworks for complex systems, for example distributed systems with AI. The aim of the paper is not to provide viewpoints or architecture models specific to AI systems, but instead to provide guidelines based on a mathematical formulation on how a consistent framework can be built up with existing, or newly created, viewpoints. To put in practice and test the approach, the identified and formulated rules are applied to derive an architectural framework for the EU Horizon 2020 project ``Very efficient deep learning in the IoT\"(VEDLIoT) in the form of a case study.",
+    "citation_count": 15,
+    "summary": "This paper proposes a novel mathematical model, based on category theory, for creating scalable and adaptable architecture frameworks for complex distributed AI systems. This model, derived from identified challenges and formulated as four compositional rules, is applied to a case study demonstrating its practical application in designing frameworks for AI systems."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2203.00905.pdf",
+    "title": "Responsible-AI-by-Design: a Pattern Collection for Designing Responsible AI Systems",
+    "published_date": "2022-03-02",
+    "abstract": "Although AI has significant potential to transform society, there are serious concerns about its ability to behave and make decisions responsibly. Many ethical regulations, principles, and guidelines for responsible AI have been issued recently. However, these principles are high-level and difficult to put into practice. In the meantime much effort has been put into responsible AI from the algorithm perspective, but they are limited to a small subset of ethical principles amenable to mathematical analysis. Responsible AI issues go beyond data and algorithms and are often at the system-level crosscutting many system components and the entire software engineering lifecycle. Based on the result of a systematic literature review, this paper identifies one missing element as the system-level guidance - how to design the architecture of responsible AI systems. We present a summary of design patterns that can be embedded into the AI systems as product features to contribute to responsible-AI-by-design.",
+    "citation_count": 17,
+    "summary": "This paper addresses the lack of system-level guidance for designing responsible AI, presenting a collection of design patterns to embed into AI systems as product features, thus promoting responsible AI development throughout the software lifecycle. These patterns aim to operationalize high-level ethical principles for responsible AI beyond algorithmic considerations."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2212.13866.pdf",
+    "title": "Architecture Decisions in AI-based Systems Development: An Empirical Study",
+    "published_date": "2022-12-28",
+    "abstract": "Artificial Intelligence (AI) technologies have been developed rapidly, and AI-based systems have been widely used in various application domains with opportunities and challenges. However, little is known about the architecture decisions made in AI-based systems development, which has a substantial impact on the success and sustainability of these systems. To this end, we conducted an empirical study by collecting and analyzing the data from Stack Overflow (SO) and GitHub. More specifically, we searched on SO with six sets of keywords and explored 32 AI-based projects on GitHub, and finally we collected 174 posts and 128 GitHub issues related to architecture decisions. The results show that in AI-based systems development (1) architecture decisions are expressed in six linguistic patterns, among which Solution Proposal and Information Giving are most frequently used, (2) Technology Decision, Component Decision, and Data Decision are the main types of architecture decisions made, (3) Game is the most common application domain among the eighteen application domains identified, (4) the dominant quality attribute considered in architecture decision-making is Performance, and (5) the main limitations and challenges encountered by practitioners in making architecture decisions are Design Issues and Data Issues. Our results suggest that the limitations and challenges when making architecture decisions in AI-based systems development are highly specific to the characteristics of AI-based systems and are mainly of technical nature, which need to be properly confronted.",
+    "citation_count": 3,
+    "summary": "This empirical study, using Stack Overflow and GitHub data, analyzes architecture decisions in AI-based systems development, revealing prevalent decision types (technology, component, data), dominant quality attributes (performance), and common challenges (design and data issues). The findings highlight the specific technical limitations and challenges in AI system architecture compared to more traditional software."
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.03219",
+    "title": "B-SMART: A Reference Architecture for Artificially Intelligent Autonomic Smart Buildings",
+    "published_date": "2022-11-06",
+    "abstract": "The pervasive application of artificial intelligence and machine learning algorithms is transforming many industries and aspects of the human experience. One very important industry trend is the move to convert existing human dwellings to smart buildings, and to create new smart buildings. Smart buildings aim to mitigate climate change by reducing energy consumption and associated carbon emissions. To accomplish this, they leverage artificial intelligence, big data, and machine learning algorithms to learn and optimize system performance. These fields of research are currently very rapidly evolving and advancing, but there has been very little guidance to help engineers and architects working on smart buildings apply artificial intelligence algorithms and technologies in a systematic and effective manner. In this paper we present B-SMART: the first reference architecture for autonomic smart buildings. B-SMART facilitates the application of artificial intelligence techniques and technologies to smart buildings by decoupling conceptually distinct layers of functionality and organizing them into an autonomic control loop. We also present a case study illustrating how B-SMART can be applied to accelerate the introduction of artificial intelligence into an existing smart building.",
+    "citation_count": 19,
+    "summary": "B-SMART is a novel reference architecture for autonomic smart buildings, providing a structured approach to applying AI and machine learning for energy optimization and reduced carbon emissions by decoupling functional layers into an autonomic control loop. This architecture addresses the lack of systematic guidance for integrating AI into smart building design and operation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2104.05158v4",
+    "title": "Software-hardware co-design for fast and scalable training of deep learning recommendation models",
+    "published_date": "2021-04-12",
+    "abstract": "Deep learning recommendation models (DLRMs) have been used across many business-critical services at Meta and are the single largest AI application in terms of infrastructure demand in its data-centers. In this paper, we present Neo, a software-hardware co-designed system for high-performance distributed training of large-scale DLRMs. Neo employs a novel 4D parallelism strategy that combines table-wise, row-wise, column-wise, and data parallelism for training massive embedding operators in DLRMs. In addition, Neo enables extremely high-performance and memory-efficient embedding computations using a variety of critical systems optimizations, including hybrid kernel fusion, software-managed caching, and quality-preserving compression. Finally, Neo is paired with ZionEX, a new hardware platform co-designed with Neo's 4D parallelism for optimizing communications for large-scale DLRM training. Our evaluation on 128 GPUs using 16 ZionEX nodes shows that Neo outperforms existing systems by up to 40× for training 12-trillion-parameter DLRM models deployed in production.",
+    "citation_count": 132,
+    "summary": "Neo is a software-hardware co-designed system that achieves up to 40x faster training of large-scale deep learning recommendation models compared to existing systems by employing a novel 4D parallelism strategy and various system optimizations. This speedup is demonstrated on a 128-GPU system using a co-designed hardware platform, ZionEX."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.09478v1.pdf",
+    "title": "Software engineering for Responsible AI: An empirical study and operationalised patterns",
+    "published_date": "2021-11-18",
+    "abstract": "AI ethics principles and guidelines are typically high-level and do not provide concrete guidance on how to develop responsible AI systems. To address this shortcoming, we perform an empirical study involving interviews with 21 scientists and engineers to understand the practitioners' views on AI ethics principles and their implementation. Our major findings are: (1) the current practice is often a done-once-and-forget type of ethical risk assessment at a particular development step, which is not sufficient for highly uncertain and continual learning AI systems; (2) ethical requirements are either omitted or mostly stated as high-level objectives, and not specified explicitly in verifiable way as system outputs or outcomes; (3) although ethical requirements have the characteristics of cross-cutting quality and non-functional requirements amenable to architecture and design analysis, system-level architecture and design are under-explored; (4) there is a strong desire for continuously monitoring and validating AI systems post deployment for ethical requirements but current operation practices provide limited guidance. To address these findings, we suggest a preliminary list of patterns to provide operationalised guidance for developing responsible AI systems.",
+    "citation_count": 29,
+    "summary": "This study reveals that current software engineering practices for responsible AI are inadequate, lacking continuous ethical risk assessment and verifiable implementation of ethical requirements throughout the AI system lifecycle. The authors propose operational patterns to improve this situation."
+  }
+]

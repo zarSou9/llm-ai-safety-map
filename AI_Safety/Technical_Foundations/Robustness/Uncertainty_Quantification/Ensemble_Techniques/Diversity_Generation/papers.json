@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/jGG24BzLdYvi9dugm/saebench-a-comprehensive-benchmark-for-sparse-autoencoders",
+    "author": "Can, Adam Karvonen, Johnny Lin, Curt Tigges, Joseph Bloom, chanind, Yeu-Tong Lau, Eoin Farrell, Arthur Conmy, CallumMcDougall, Kola Ayonrinde, Matthew Wearden, Sam Marks, Neel Nanda",
+    "title": "SAEBench: A Comprehensive Benchmark for Sparse Autoencoders",
+    "published_date": "2024-12-11"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/baJyjpktzmcmRfosq/stitching-saes-of-different-sizes",
+    "author": "Bart Bussmann; Patrick Leask; Joseph Bloom; Curt Tigges; Neel Nanda",
+    "title": "Stitching SAEs of different sizes",
+    "published_date": "2024-07-13"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/YJpMgi7HJuHwXTkjk/taking-features-out-of-superposition-with-sparse",
+    "author": "Pierre Peigné",
+    "title": "Taking features out of superposition with sparse autoencoders more quickly with informed initialization",
+    "published_date": "2023-09-23"
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi/p/HvqQm6o8KnwxbdmhZ",
+    "author": "lennart, Jsevillamol, Marius Hobbhahn, Tamay Besiroglu, anson.ho",
+    "title": "Estimating training compute of Deep Learning models",
+    "published_date": "2022-01-20"
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/lottery-ticket-hypothesis",
+    "author": "Neel Nanda, Tom Lieberum",
+    "title": "Lottery Ticket Hypothesis - LessWrong",
+    "published_date": "2022-09-20"
+  },
+  {
+    "title": "Using novelty search to explicitly create diversity in ensembles of classifiers",
+    "abstract": "The diversity between individual learners in an ensemble is known to influence its performance. However, there is no standard agreement on how diversity should be defined, and thus how to exploit it to construct a high-performing classifier. We propose two new behavioural diversity metrics based on the divergence of errors between models. Following a neuroevolution approach, these metrics are then used to guide a novelty search algorithm to search a space of neural architectures and discover behaviourally diverse classifiers, iteratively adding the models with high diversity score to an ensemble. The parameters of each ANN are tuned individually with a standard gradient descent procedure. We test our approach on three benchmark datasets from Computer Vision --- CIFAR-10, CIFAR-100, and SVHN --- and find that the ensembles generated significantly outperform ensembles created without explicitly searching for diversity and that the error diversity metrics we propose lead to better results than others in the literature. We conclude that our empirical results signpost an improved approach to promoting diversity in ensemble learning, identifying what sort of diversity is most relevant and proposing an algorithm that explicitly searches for it without selecting for accuracy.",
+    "published_date": "2021-06-26",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3449639.3459308"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2303.03070.pdf",
+    "title": "Intrusion Response Systems: Past, Present and Future",
+    "published_date": "2023-03-06",
+    "abstract": "The rapid expansion of the Internet of Things and the emergence of edge computing-based applications has led to a new wave of cyber-attacks, with intensity and complexity that has never been seen before. Historically most research has focused on Intrusion Detection Systems (IDS), however due to the volume and speed of this new generation of cyber-attacks it is no longer sufficient to solely detect attacks and leave the response to security analysts. Consequently, research into Intrusion Response Systems (IRS) is accelerating rapidly. As such, new intrusion response approaches, methods and systems have been investigated, prototyped, and deployed. This paper is intended to provide a comprehensive review of the state of the art of IRSs. Specifically, a taxonomy to characterize the lifecycle of IRSs ranging from response selection to response deployment and response implementation is presented. A 10-phase structure to organize the core technical constituents of IRSs is also presented. Following this, an extensive review and analysis of the literature on IRSs published during the past decade is provided, and further classifies them into corresponding phases based on the proposed taxonomy and phase structure. This study provides a new way of classifying IRS research, thus offering in-depth insights into the latest discoveries and findings. In addition, through critical analysis and comparison, expert views, guidance and best practices on intrusion response approaches, system development and standardization are presented, upon which future research challenges and directions are postulated.",
+    "citation_count": 2,
+    "summary": "This paper reviews the state-of-the-art in Intrusion Response Systems (IRS), necessitated by the increasing sophistication of cyberattacks, offering a novel taxonomy and 10-phase structure to categorize existing IRS research and guide future development. It analyzes recent literature, identifies best practices, and proposes future research challenges."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2202.11268v2.pdf",
+    "title": "Designing Decision Support Systems for Emergency Response: Challenges and Opportunities",
+    "published_date": "2022-02-23",
+    "abstract": "Designing effective emergency response management (ERM) systems to respond to incidents such as road accidents is a major problem faced by communities. In addition to responding to frequent incidents each day (about 240 million emergency medical services calls and over 5 million road accidents in the US each year), these systems also support response during natural hazards. Recently, there has been a consistent interest in building decision support and optimization tools that can help emergency responders provide more efficient and effective response. This includes a number of principled subsystems that implement early incident detection, incident likelihood forecasting and strategic resource allocation and dispatch policies. In this paper, we highlight the key challenges and provide an overview of the approach developed by our team in collaboration with our community partners.",
+    "citation_count": 4,
+    "summary": "This paper examines the challenges in designing effective decision support systems for emergency response, focusing on the need for improved incident detection, forecasting, and resource allocation to handle the high volume of daily emergencies and natural disasters. The authors overview their collaborative approach to addressing these challenges."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03",
+    "summary": "For calculating probabilities from binary count data, the Beta distribution is superior to the Gaussian (normal) distribution approximation, especially with small datasets or probabilities near 0 or 1, where the Gaussian approximation breaks down and produces nonsensical results. The Beta distribution is readily available in common statistical software and provides accurate uncertainty intervals."
+  },
+  {
+    "title": "Incident Response Support System for Multi-Located Network by Correlation Analysis of Individual Events",
+    "abstract": "Recent targeted attacks have affected large networks, including those made up of multiple locations. Since branch offices are less secure than the headquarters (HQ), it is difficult to completely prevent malware from entering the network through these attacks. Therefore, it is important to quickly detect and respond to these attacks to prevent them from spreading to other locations. However, under the current management system, managers at each site must respond to incidents without sharing information from other sites, and the manager at the HQ cannot obtain enough information to estimate the relationship between the incidents. We propose a management system that refers to all of incident information archived by the organization, generates recommendations on the basis of the similarity between the ongoing incident and archived ones, and notifies each administrator to respond to the incident that occurred in his/her network regardless of resolved or unresolved incidents. The proposed system also notifies the administrators at HQ of the entirety of the attack on the basis of the relationship among recent and ongoing incidents.",
+    "published_date": "2021-03-17",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3459955.3460592",
+    "summary": "This paper proposes an incident response system for multi-location networks that correlates individual security events across locations, enabling faster detection and response to attacks by providing administrators with context from similar past incidents and a holistic view of network-wide threats. The system aims to improve upon current systems lacking inter-site information sharing."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.04996.pdf",
+    "title": "Cybersecurity Incident Response in Organisations: A Meta-level Framework for Scenario-based Training",
+    "published_date": "2021-08-11",
+    "abstract": "Cybersecurity incident response teams mitigate the impact of adverse cyber-related events in organisations. Field studies of IR teams suggest that at present the process of IR is under-developed with a focus on the technological dimension with little consideration of practice capability. To address this gap, we develop a scenario-based training approach to assist organisations to overcome socio-technical barriers to incident response. The training approach is informed by a comprehensive list of socio-technical barriers compiled from a comprehensive review of the literature. Our primary contribution is a novel meta-level framework to generate scenarios specifically targeting socio-technical issues. To demonstrate the utility of the framework, a proof-of-concept scenario is presented.",
+    "citation_count": 1,
+    "summary": "This paper presents a novel meta-level framework for scenario-based cybersecurity incident response training, designed to address socio-technical barriers identified in existing literature and improve organizational response capabilities beyond a purely technological focus. A proof-of-concept scenario demonstrates the framework's utility."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.12179.pdf",
+    "title": "Graph-based Incident Aggregation for Large-Scale Online Service Systems",
+    "published_date": "2021-08-27",
+    "abstract": "As online service systems continue to grow in terms of complexity and volume, how service incidents are managed will significantly impact company revenue and user trust. Due to the cascading effect, cloud failures often come with an overwhelming number of incidents from dependent services and devices. To pursue efficient incident management, related incidents should be quickly aggregated to narrow down the problem scope. To this end, in this paper, we propose GRLIA, an incident aggregation framework based on graph representation learning over the cascading graph of cloud failures. A representation vector is learned for each unique type of incident in an unsupervised and unified manner, which is able to simultaneously encode the topological and temporal correlations among incidents. Thus, it can be easily employed for online incident aggregation. In particular, to learn the correlations more accurately, we try to recover the complete scope of failures' cascading impact by leveraging fine-grained system monitoring data, i.e., Key Performance Indicators (KPIs). The proposed framework is evaluated with real-world incident data collected from a large-scale online service system of Huawei Cloud. The experimental results demonstrate that GRLIA is effective and outperforms existing methods. Furthermore, our framework has been successfully deployed in industrial practice.",
+    "citation_count": 16,
+    "summary": "GRLIA, a novel graph-based incident aggregation framework, uses representation learning to efficiently group related incidents in large-scale online service systems by leveraging topological and temporal correlations from fine-grained monitoring data, improving incident management efficiency. Its effectiveness is validated through real-world data from Huawei Cloud and successful industrial deployment."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2107.02941v1.pdf",
+    "title": "Sensemaking in Cybersecurity Incident Response: The interplay of Organizations, Technology, and Individuals",
+    "published_date": "2021-07-06",
+    "abstract": "Sensemaking is a critical activity in organizations. It is a process through which individuals ascribe meanings to events which forms the basis to facilitate collective action. However, the role of organizations, technology and individuals and their interaction in the process of sensemaking has not been sufficiently explored. This novel study seeks to address this gap by proposing a framework that explains how the interplay among organizations, technology and individuals enables sensemaking in the process of cybersecurity incident response. We propose that Organizations, Technology, and Individuals are the key components that interact in various ways to facilitate enactment, selection and retention activities (Sensemaking activities) in Incident Response. We argue that sensemaking in Incident Response is the outcome of this interaction. This interaction allows organizations to respond to cybersecurity incidents in a comprehensive manner.",
+    "citation_count": 2,
+    "summary": "This study proposes a framework explaining how organizations, technology, and individuals interact to enable sensemaking during cybersecurity incident response, arguing that this interplay facilitates effective organizational action. The framework highlights the interaction's impact on sensemaking activities (enactment, selection, retention) leading to comprehensive incident response."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jqfANkNduyEQC9hvr/five-whys",
+    "author": "lynettebye",
+    "title": "Five Whys",
+    "published_date": "2021-06-07",
+    "summary": "The \"Five Whys\" technique, borrowed from Lean methodology, helps identify root causes of problems by repeatedly asking \"why\" to uncover underlying issues; brainstorming solutions for each \"why\" allows for targeted interventions to address the problem's core."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2008.11192v1.pdf",
+    "title": "Failures and Fixes: A Study of Software System Incident Response",
+    "published_date": "2020-08-25",
+    "abstract": "This paper presents the results of a research study related to software system failures, with the goal of understanding how we might better evolve, maintain and support software systems in production. We have qualitatively analyzed thirty incidents: fifteen collected through in depth interviews with engineers, and fifteen sampled from publicly published incident reports (generally produced as part of postmortem reviews). Our analysis focused on understanding and categorizing how failures occurred, and how they were detected, investigated and mitigated. We also captured analytic insights related to the current state of the practice and associated challenges in the form of 11 key observations. For example, we observed that failures can cascade through a system leading to major outages; and that often engineers do not understand the scaling limits of systems they are supporting until those limits are exceeded. We argue that the challenges we have identified can lead to improvements to how systems are engineered and supported.",
+    "citation_count": 13,
+    "summary": "This study analyzes 30 software system incidents, using interviews and public reports, to categorize failure causes, detection, investigation, and mitigation. Eleven key observations highlight challenges like cascading failures and unforeseen scaling limits, suggesting improvements to system engineering and support."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2004.06774v2.pdf",
+    "title": "Standardizing and Benchmarking Crisis-related Social Media Datasets for Humanitarian Information Processing",
+    "published_date": "2020-04-14",
+    "abstract": "Time-critical analysis of social media streams is important for humanitarian organizations to plan rapid response during disasters. The crisis informatics research community has developed several techniques and systems to process and classify big crisis related data posted on social media. However, due to the dispersed nature of the datasets used in the literature, it is not possible to compare the results and measure the progress made towards better models for crisis informatics. In this work, we attempt to bridge this gap by standardizing various existing crisis-related datasets. We consolidate labels of eight annotated data sources and provide 166.1k and 141.5k tweets for informativeness and humanitarian classification tasks, respectively. The consolidation results in a larger dataset that affords the ability to train more sophisticated models. To that end, we provide baseline results using CNN and BERT models. We make the dataset available at this https URL.",
+    "citation_count": 14,
+    "summary": "This paper addresses the lack of standardized datasets hindering progress in crisis informatics by consolidating eight existing crisis-related social media datasets, creating a larger resource (166.1k and 141.5k tweets for two tasks) for benchmarking humanitarian information processing models and providing baseline results using CNN and BERT. The consolidated dataset is publicly available."
+  }
+]

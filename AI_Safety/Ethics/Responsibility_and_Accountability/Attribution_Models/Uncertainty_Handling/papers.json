@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Towards a computational model of responsibility judgments in sequential human-AI collaboration",
+    "abstract": "When a human and an AI agent collaborate to complete a task and something goes wrong, who is responsible? Prior work has developed theories to describe how people assign responsibility to individuals in teams. However, there has been little work studying the cognitive processes that underlie responsibility judgments in human-AI collaborations, especially for tasks comprising a sequence of interdependent actions. In this work, we take a step towards filling this gap. Using semi-autonomous driving as a paradigm, we develop an environment that simulates stylized cases of human-AI collaboration using a generative model of agent behavior. We propose a model of responsibility that considers how unexpected an agent's action was, and what would have happened had they acted differently. We test the model's predictions empirically and find that in addition to action expectations and counterfactual considerations, participants' responsibility judgments are also affected by how much each agent actually contributed to the outcome.",
+    "published_date": "2024-07-17",
+    "citation_count": 2,
+    "url": "https://escholarship.org/uc/item/5h1742zk",
+    "summary": "This paper investigates human responsibility judgments in sequential human-AI collaborations, proposing a computational model that considers action unexpectedness, counterfactual outcomes, and agent contribution to predict these judgments in a simulated semi-autonomous driving scenario. Empirical testing supports the model, showing these factors influence responsibility attribution."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13",
+    "summary": "Current AI training methods prioritize average performance, neglecting the crucial problem of catastrophic tail events. The article proposes novel methods for estimating the probability of these rare but devastating events, without relying on exhaustive searches for harmful inputs, aiming to improve AI safety."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/FZL4ftXvcuKmmobmj/causal-confusion-as-an-argument-against-the-scaling",
+    "author": "RobertKirk, David Scott Krueger (formerly: capybaralet)",
+    "title": "Causal confusion as an argument against the scaling hypothesis",
+    "published_date": "2022-06-20",
+    "summary": "The article argues that the current scaling paradigm in AI, relying on unsupervised offline training of large neural nets, is prone to \"causal confusion,\" learning spurious correlations that lead to failures on out-of-distribution data. This is especially problematic for AI safety and alignment, as these failures are likely to occur when the system is deployed in real-world control or decision-making settings."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/FaEBwhhe3otzYKGQt/p/5HtDzRAk7ePWsiL2L",
+    "author": "Dan H, ThomasW",
+    "title": "Open Problems in AI X-Risk [PAIS #5]",
+    "published_date": "2022-06-10",
+    "summary": "This blog post, focusing on existential risk mitigation, expands upon a previous paper detailing unsolved problems in ML safety. It prioritizes empirically-researchable areas, categorizing them by importance, neglect, and tractability, while emphasizing the need to minimize capabilities externalities."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/AwMb7C72etphiRvah/unsolved-ml-safety-problems",
+    "author": "jsteinhardt",
+    "title": "Unsolved ML Safety Problems",
+    "published_date": "2021-09-29",
+    "summary": "This article previews a paper outlining unsolved problems in ML safety, focusing on three key areas: robustness (withstanding hazards like long-tail events and adversarial attacks), monitoring (detecting anomalies and backdoors), and alignment (ensuring safe objectives and their pursuit)."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/aERZoriyHfCqvWkzg",
+    "author": "Davidmanheim, Aryeh Englander",
+    "title": "Modeling Transformative AI Risk (MTAIR) - LessWrong",
+    "published_date": "2021-07-28",
+    "summary": "The Modeling Transformative AI Risk (MTAIR) project aims to create a software model mapping hypotheses and crucial debates surrounding catastrophic AI risks, seeking community feedback to refine this model and foster collaboration."
+  },
+  {
+    "title": "Theoretical, Measured, and Subjective Responsibility in Aided Decision Making",
+    "abstract": "When humans interact with intelligent systems, their causal responsibility for outcomes becomes equivocal. We analyze the descriptive abilities of a newly developed responsibility quantification model (ResQu) to predict actual human responsibility and perceptions of responsibility in the interaction with intelligent systems. In two laboratory experiments, participants performed a classification task. They were aided by classification systems with different capabilities. We compared the predicted theoretical responsibility values to the actual measured responsibility participants took on and to their subjective rankings of responsibility. The model predictions were strongly correlated with both measured and subjective responsibility. Participants' behavior with each system was influenced by the system and human capabilities, but also by the subjective perceptions of these capabilities and the perception of the participant's own contribution. A bias existed only when participants with poor classification capabilities relied less than optimally on a system that had superior classification capabilities and assumed higher-than-optimal responsibility. The study implies that when humans interact with advanced intelligent systems, with capabilities that greatly exceed their own, their comparative causal responsibility will be small, even if formally the human is assigned major roles. Simply putting a human into the loop does not ensure that the human will meaningfully contribute to the outcomes. The results demonstrate the descriptive value of the ResQu model to predict behavior and perceptions of responsibility by considering the characteristics of the human, the intelligent system, the environment, and some systematic behavioral biases. The ResQu model is a new quantitative method that can be used in system design and can guide policy and legal decisions regarding human responsibility in events involving intelligent systems.",
+    "published_date": "2019-04-30",
+    "citation_count": 8,
+    "url": "https://dl.acm.org/doi/10.1145/3425732",
+    "summary": "A new responsibility quantification model (ResQu) accurately predicted both measured and perceived human responsibility in aided decision-making tasks, showing that human contribution and responsibility perceptions are influenced by system capabilities and subjective beliefs, not solely formal roles. ResQu's predictive power suggests its utility in system design and legal/policy considerations concerning human responsibility in human-AI interactions."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/XKWGgyCyGhkm73fhm/acknowledgements-and-references",
+    "author": "JesseClifton",
+    "title": "Acknowledgements & References",
+    "published_date": "2019-12-14",
+    "summary": "This document outlines a research agenda from the Effective Altruism Foundation focusing on cooperation, conflict, and the implications of transformative artificial intelligence, drawing on contributions from numerous experts and researchers. The agenda incorporates extensive literature review and aims to inform strategies for navigating potential risks and maximizing beneficial outcomes."
+  }
+]

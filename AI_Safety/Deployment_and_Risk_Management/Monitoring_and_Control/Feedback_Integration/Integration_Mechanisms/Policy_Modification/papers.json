@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/FeY4tXMYdTQSM4go3/how-rl-agents-behave-when-their-actions-are-modified",
+    "author": "PabloAMC",
+    "title": "How RL Agents Behave When Their Actions Are Modified? [Distillation post]",
+    "published_date": "2022-05-20"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.07716.pdf",
+    "title": "How RL Agents Behave When Their Actions Are Modified",
+    "published_date": "2021-02-15",
+    "abstract": "Reinforcement learning in complex environments may require supervision to prevent the agent from attempting dangerous actions. As a result of supervisor intervention, the executed action may differ from the action specified by the policy. How does this affect learning? We present the Modified-Action Markov Decision Process, an extension of the MDP model that allows actions to differ from the policy. We analyze the asymptotic behaviours of common reinforcement learning algorithms in this setting and show that they adapt in different ways: some completely ignore modifications while others go to various lengths in trying to avoid action modifications that decrease reward. By choosing the right algorithm, developers can prevent their agents from learning to circumvent interruptions or constraints, and better control agent responses to other kinds of action modification, like self-damage.",
+    "citation_count": 13
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.05604.pdf",
+    "title": "Direct Random Search for Fine Tuning of Deep Reinforcement Learning Policies",
+    "published_date": "2021-09-12",
+    "abstract": "Researchers have demonstrated that Deep Reinforcement Learning (DRL) is a powerful tool for finding policies that perform well on complex robotic systems. However, these policies are often unpredictable and can induce highly variable behavior when evaluated with only slightly different initial conditions. Training considerations constrain DRL algorithm designs in that most algorithms must use stochastic policies during training. The resulting policy used during deployment, however, can and frequently is a deterministic one that uses the Maximum Likelihood Action (MLA) at each step. In this work, we show that a direct random search is very effective at fine-tuning DRL policies by directly optimizing them using deterministic rollouts. We illustrate this across a large collection of reinforcement learning environments, using a wide variety of policies obtained from different algorithms. Our results show that this method yields more consistent and higher performing agents on the environments we tested. Furthermore, we demonstrate how this method can be used to extend our previous work on shrinking the dimensionality of the reachable state space of closed-loop systems run under Deep Neural Network (DNN) policies."
+  },
+  {
+    "title": "Enforcing Policy Feasibility Constraints through Differentiable Projection for Energy Optimization",
+    "abstract": "While reinforcement learning (RL) is gaining popularity in energy systems control, its real-world applications are limited due to the fact that the actions from learned policies may not satisfy functional requirements or be feasible for the underlying physical system. In this work, we propose PROjected Feasibility (PROF), a method to enforce convex operational constraints within neural policies. Specifically, we incorporate a differentiable projection layer within a neural network-based policy to enforce that all learned actions are feasible. We then update the policy end-to-end by propagating gradients through this differentiable projection layer, making the policy cognizant of the operational constraints. We demonstrate our method on two applications: energy-efficient building operation and inverter control. In the building operation setting, we show that PROF maintains thermal comfort requirements while improving energy efficiency by 4% over state-of-the-art methods. In the inverter control setting, PROF perfectly satisfies voltage constraints on the IEEE 37-bus feeder system, as it learns to curtail as little renewable energy as possible within its safety set.",
+    "published_date": "2021-05-19",
+    "citation_count": 49,
+    "url": "https://dl.acm.org/doi/10.1145/3447555.3464874"
+  },
+  {
+    "title": "Verifiably safe exploration for end-to-end reinforcement learning",
+    "abstract": "Deploying deep reinforcement learning in safety-critical settings requires developing algorithms that obey hard constraints during exploration. This paper contributes a first approach toward enforcing formal safety constraints on end-to-end policies with visual inputs. Our approach draws on recent advances in object detection and automated reasoning for hybrid dynamical systems. The approach is evaluated on a novel benchmark that emphasizes the challenge of safely exploring in the presence of hard constraints. Our benchmark draws from several proposed problem sets for safe learning and includes problems that emphasize challenges such as reward signals that are not aligned with safety constraints. On each of these benchmark problems, our algorithm completely avoids unsafe behavior while remaining competitive at optimizing for as much reward as is safe. We characterize safety constraints in terms of a refinement relation on Markov decision processes - rather than directly constraining the reinforcement learning algorithm so that it only takes safe actions, we instead refine the environment so that only safe actions are defined in the environment's transition structure. This has pragmatic system design benefits and, more importantly, provides a clean conceptual setting in which we are able to prove important safety and efficiency properties. These allow us to transform the constrained optimization problem of acting safely in the original environment into an unconstrained optimization in a refined environment.",
+    "published_date": "2020-07-02",
+    "citation_count": 42,
+    "url": "https://dl.acm.org/doi/10.1145/3447928.3456653"
+  },
+  {
+    "url": "https://arxiv.org/abs/1910.01062",
+    "title": "Never Worse, Mostly Better: Stable Policy Improvement in Deep Reinforcement Learning",
+    "published_date": "2019-10-02",
+    "abstract": "In recent years, there has been significant progress in applying deep reinforcement learning (RL) for solving challenging problems across a wide variety of domains. Nevertheless, convergence of various methods has been shown to suffer from inconsistencies, due to algorithmic instability and variance, as well as stochasticity in the benchmark environments. Particularly, despite the fact that the agent's performance may be improving on average, it may abruptly deteriorate at late stages of training. In this work, we study methods for enhancing the agent's learning process, by providing conservative updates with respect to either the obtained history or a reference benchmark policy. Our method, termed EVEREST, obtains high confidence improvements via confidence bounds of a reference policy. Through extensive empirical analysis we demonstrate the benefit of our approach in terms of both performance and stabilization, with significant improvements in continuous control and Atari benchmarks.",
+    "citation_count": 1
+  }
+]

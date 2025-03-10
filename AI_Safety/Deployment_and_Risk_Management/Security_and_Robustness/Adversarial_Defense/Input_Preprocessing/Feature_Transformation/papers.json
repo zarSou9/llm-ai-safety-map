@@ -1,0 +1,42 @@
+[
+  {
+    "title": "An Efficient Preprocessing-Based Approach to Mitigate Advanced Adversarial Attacks",
+    "abstract": "Deep Neural Networks are well-known to be vulnerable to Adversarial Examples. Recently, advanced gradient-based attacks were proposed (e.g., BPDA and EOT), which can significantly increase the difficulty and complexity of designing effective defenses. In this paper, we present a study towards the opportunity of mitigating those powerful attacks with only pre-processing operations. We make the following two contributions. First, we perform an in-depth analysis of those attacks and summarize three fundamental properties that a good defense solution should have. Second, we design a lightweight preprocessing function with these properties and the capability of preserving the model's usability and robustness against these threats. Extensive evaluations indicate that our solutions can effectively mitigate all existing standard and advanced attack techniques, and beat 11 state-of-the-art defense solutions published in top-tier conferences over the past 2 years.",
+    "published_date": "2024-03-01",
+    "citation_count": 14,
+    "url": "https://ieeexplore.ieee.org/document/9420266/"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/sTe78dNJDGywu9Dz6/solving-the-mechanistic-interpretability-challenges-eis-vii",
+    "author": "StefanHex, Marius Hobbhahn",
+    "title": "Solving the Mechanistic Interpretability challenges: EIS VII Challenge 1",
+    "published_date": "2023-05-09"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dhbLE8BqRvhBtsXhS/mlsn-3-neurips-safety-paper-roundup",
+    "author": "Dan H",
+    "title": "[MLSN #3]: NeurIPS Safety Paper Roundup",
+    "published_date": "2022-03-08"
+  },
+  {
+    "title": "Toward Few-step Adversarial Training from a Frequency Perspective",
+    "abstract": "We investigate adversarial-sample generation methods from a frequency domain perspective and extend standard $l_\\infty $ Projected Gradient Descent (PGD) to the frequency domain. The resulting method, which we call Spectral Projected Gradient Descent (SPGD), has better success rate compared to PGD during early steps of the method. Adversarially training models using SPGD achieves greater adversarial accuracy compared to PGD when holding the number of attack steps constant. The use of SPGD can, therefore, reduce the overhead of adversarial training when utilizing adversarial generation with a smaller number of steps. However, we also prove that SPGD is equivalent to a variant of the PGD ordinarily used for the l∞ threat model. This PGD variant omits the sign function which is ordinarily applied to the gradient. SPGD can, therefore, be performed without explicitly transforming into the frequency domain. Finally, we visualize the perturbations SPGD generates and find they use both high and low-frequency components, which suggests that removing either high-frequency components or low-frequency components is not an effective defense.",
+    "published_date": "2020-10-06",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3385003.3410922"
+  },
+  {
+    "title": "Spartan Networks: Self-Feature-Squeezing Networks for Increased Robustness in Adversarial Settings",
+    "abstract": "Deep Learning Models are vulnerable to adversarial inputs, samples modified in order to maximize error of the system. We hereby introduce Spartan Networks, Deep Learning models that are inherently more resistant to adverarial examples, without doing any input preprocessing out of the network or adversarial training. These networks have an adversarial layer within the network designed to starve the network of information, using a new activation function to discard data. This layer trains the neural network to filter-out usually-irrelevant parts of its input. These models thus have a slightly lower precision, but report a higher robustness under attack than unprotected models.",
+    "published_date": "2018-10-08",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3243734.3278486"
+  },
+  {
+    "title": "On the Security of Randomized Defenses Against Adversarial Samples",
+    "abstract": "Deep Learning has been shown to be particularly vulnerable to adversarial samples. To combat adversarial strategies, numerous defensive techniques have been proposed. Among these, a promising approach is to use randomness in order to make the classification process unpredictable and presumably harder for the adversary to control. In this paper, we study the effectiveness of randomized defenses against adversarial samples. To this end, we categorize existing state-of-the-art adversarial strategies into three attacker models of increasing strength, namely blackbox, graybox, and whitebox (a.k.a. adaptive) attackers. We also devise a lightweight randomization strategy for image classification based on feature squeezing, that consists of pre-processing the classifier input by embedding randomness within each feature, before applying feature squeezing. We evaluate the proposed defense and compare it to other randomized techniques in the literature via thorough experiments. Our results indeed show that careful integration of randomness can be effective against both graybox and blackbox attacks without significantly degrading the accuracy of the underlying classifier. However, our experimental results offer strong evidence that in the present form such randomization techniques cannot deter a whitebox adversary that has access to all classifier parameters and has full knowledge of the defense. Our work thoroughly and empirically analyzes the impact of randomization techniques against all classes of adversarial strategies.",
+    "published_date": "2018-12-11",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3320269.3384751"
+  }
+]

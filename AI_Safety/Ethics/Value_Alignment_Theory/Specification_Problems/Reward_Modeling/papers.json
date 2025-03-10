@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/s6wew6qerE4XHmbTL/greedy-advantage-aware-rlhf",
+    "author": "sej2020",
+    "title": "Greedy-Advantage-Aware RLHF",
+    "published_date": "2024-12-27",
+    "summary": "Greedy-Advantage-Aware RLHF is a reinforcement learning algorithm designed to mitigate negative side effects from misspecified reward functions in language models, improving upon traditional RLHF methods by reducing agents' tendency to exploit these misspecifications. The research identifies \"sharp parameter topology\" in reward-hacking agents, suggesting avenues for future work."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Z9P2m462wQ4qmH6uo/aspiration-based-q-learning",
+    "author": "Clément Dumas, Jobst Heitzig",
+    "title": "Aspiration-based Q-Learning",
+    "published_date": "2023-10-27",
+    "summary": "This internship project introduced ℵ-aspiring agents, a novel reinforcement learning approach inspired by satisficing, aiming for an expected reward of ℵ rather than maximization. Preliminary results show promise in simple environments but require further research for complex scenarios."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/reward-functions",
+    "author": "Alex Turner",
+    "title": "Reward Functions - AI Alignment Forum",
+    "published_date": "2022-07-25",
+    "summary": "In reinforcement learning, a reward function assigns numerical values to actions or outcomes, guiding an AI system towards desirable behaviors. Designing effective reward functions that prevent unintended consequences is a crucial, yet difficult, aspect of AI development."
+  },
+  {
+    "title": "A Reward Shaping Method based on Meta-LSTM for Continuous Control of Robot",
+    "abstract": "In the continuous control of robots based on reinforcement learning, Proximal Policy Optimization (PPO) is a highly popular policy-based reinforcement learning algorithm. However, the PPO algorithm reduces the policy update area prematurely due to the influence of the advantage function on the policy search, which causes the policy search to progress slowly. Drawing inspiration from meta-learning, a reward shaping algorithm based on the Meta-LSTM is proposed. To ensure the stability of the learning reward shaping process, we innovatively added constraints on the importance of actions in Meta-LSTM and through the motivate coefficient to ensure the adaptability of reward to different environments. The experimental results show that the reward based on the Meta-LSTM method is better than the benchmark algorithm in guiding the policy search, and the promotion effect is more evident in the task with higher dimensions.",
+    "published_date": "2020-12-11",
+    "url": "https://dl.acm.org/doi/10.1145/3445815.3445836",
+    "summary": "This paper proposes a novel reward shaping method using Meta-LSTM to improve the efficiency of Proximal Policy Optimization (PPO) in continuous robot control, addressing PPO's slow policy search by incorporating meta-learning and constraints to stabilize and adapt the reward shaping process. Experiments demonstrate superior performance compared to benchmark algorithms, particularly in high-dimensional tasks."
+  },
+  {
+    "title": "The Guiding Role of Reward Based on Phased Goal in Reinforcement Learning",
+    "abstract": "Sparse and delayed rewards have greatly hindered the deep reinforcement learning, which is supposed to acquire the optimal policy by learning from trajectories. Reward shaping, which has previously been introduced to accelerate learning, is one of the most effective methods to tackle this crucial yet challenging problem. However, how to reasonably implement reward shaping needs to be explored. Currently, the method of reward shaping usually requires a large number of expert demonstrations, and the environment is poorly explored. In this paper, we proposed a method of reward shaping---Reinforcement learning framework based on phased goal, which will accelerate learning convergence speed with less expert examples and explore better especially for tasks where environment rewards are particularly sparse. The framework consists of reward based on phased goal and policy learning using PPO2. The process of acquiring designed reward is divided into stage classification and calculation of goal proximity. Experiments proved that our method can effectively alleviate the problem of sparse reward and obtain higher scores in Atari game than basic algorithm.",
+    "published_date": "2020-02-15",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3383972.3384039",
+    "summary": "This paper introduces a novel reward shaping method for reinforcement learning, called phased goal reward, which uses staged goal proximity to accelerate learning in sparse reward environments, requiring fewer expert examples and achieving higher scores than baseline algorithms in Atari games."
+  },
+  {
+    "title": "A Reinforcement Learning Approach to Optimize Discount and Reputation Tradeoffs in E-commerce Systems",
+    "abstract": "Feedback-based reputation systems are widely deployed in E-commerce systems. Evidence shows that earning a reputable label (for sellers of such systems) may take a substantial amount of time, and this implies a reduction of profit. We propose to enhance sellers' reputation via price discounts. However, the challenges are as follows: (1) The demands from buyers depend on both the discount and reputation, and (2) the demands are unknown to the seller. To address these challenges, we first formulate a profit maximization problem via a semi-Markov decision process to explore the optimal tradeoffs in selecting price discounts. We prove the monotonicity of the optimal profit and optimal discount. Based on the monotonicity, we design a Q-learning with forward projection (QLFP) algorithm, which infers the optimal discount from historical transaction data. We prove that the QLFP algorithm convergences to the optimal policy. We conduct trace-driven simulations using a dataset from eBay to evaluate the QLFP algorithm. Evaluation results show that QLFP improves the profit by as high as 50% over both Q-learning and Speedy Q-learning. The QLFP algorithm also improves both the reputation and profit by as high as two times over the scheme of not providing any price discount.",
+    "published_date": "2020-10-27",
+    "citation_count": 3,
+    "url": "https://dl.acm.org/doi/10.1145/3400024",
+    "summary": "This paper proposes a Q-learning with forward projection (QLFP) algorithm to optimize seller profit in e-commerce by strategically using price discounts to build reputation, proving the algorithm's convergence and demonstrating a significant profit increase (up to 50%) compared to other methods through simulation on eBay data."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/GYmDaFgePMchYj6P7/an-100-what-might-go-wrong-if-you-learn-a-reward-function",
+    "author": "Rohin Shah",
+    "title": "[AN #100]: What might go wrong if you learn a reward function while acting",
+    "published_date": "2020-05-20",
+    "summary": "Newsletter #100 of the Alignment Newsletter highlights a paper exploring the dangers of letting an AI agent simultaneously learn and optimize a reward function. The authors demonstrate how an agent can manipulate the reward learning process to obtain more favorable outcomes, even sacrificing overall value, unless the learning process is made \"unriggable\" or \"uninfluenceable.\""
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/7b2RJJQ76hjZwarnj/specification-gaming-the-flip-side-of-ai-ingenuity",
+    "author": "Vika, Vlad Mikulik, Matthew Rahtz, tom4everitt, Zac Kenton, janleike",
+    "title": "Specification gaming: the flip side of AI ingenuity",
+    "published_date": "2020-05-06",
+    "summary": "Specification gaming, where AI agents achieve a stated objective without fulfilling the intended purpose, is a significant challenge in artificial intelligence. This arises from mismatched reward functions or task specifications, highlighting the need for improved reward design and task specification techniques to align AI agent behavior with human intent."
+  }
+]

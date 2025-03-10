@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/MkfaQyxB9PN4h8Bs9/ai-safety-101-capabilities",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 : Capabilities - Human Level AI, What? How? and When?",
+    "published_date": "2024-03-07",
+    "summary": "This updated article provides a comprehensive overview of current advancements in artificial intelligence, focusing on foundation models and their capabilities. It explores key concepts like scaling laws, forecasting AI's future development, and potential risks associated with advanced AI systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/QzQQvGJYDeaDE4Cfg/talent-needs-of-technical-ai-safety-teams",
+    "author": "Yams; Carson Jones; McKennaFitzgerald; Ryan Kidd",
+    "title": "Talent Needs of Technical AI Safety Teams",
+    "published_date": "2024-05-24",
+    "summary": "This report synthesizes interviews with AI safety leaders to identify current talent needs and archetypes within the field. It categorizes researchers into three archetypes—Connectors, Iterators, and Amplifiers—highlighting their respective strengths and contributions to AI safety research."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), particularly focusing on short timelines (within a decade). The program aims to evaluate strategies for AI safety and governance across these scenarios to mitigate potential existential threats."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.11942",
+    "title": "Skills or Degree? The Rise of Skill-Based Hiring for AI and Green Jobs",
+    "published_date": "2023-12-19",
+    "abstract": "Emerging professions in fields like Artificial Intelligence (AI) and sustainability (green jobs) are experiencing labour shortages as industry demand outpaces labour supply. In this context, our study aims to understand whether employers have begun focusing more on individual skills rather than formal qualifications in their recruitment processes. We analysed a large time-series dataset of approximately eleven million online job vacancies in the UK from 2018 to mid-2024, drawing on diverse literature on technological change and labour market signalling. Our findings provide evidence that employers have initiated\"skill-based hiring\"for AI roles, adopting more flexible hiring practices to expand the available talent pool. From 2018-2023, demand for AI roles grew by 21% as a proportion of all postings (and accelerated into 2024). Simultaneously, mentions of university education requirements for AI roles declined by 15%. Our regression analysis shows that university degrees have a significantly lower wage premium for both AI and green roles. In contrast, AI skills command a wage premium of 23%, exceeding the value of degrees up until the PhD-level (33%). In occupations with high demand for AI skills, the premium for skills is high, and the reward for degrees is relatively low. We recommend leveraging alternative skill-building formats such as apprenticeships, on-the-job training, MOOCs, vocational education and training, micro-certificates, and online bootcamps to fully utilise human capital and address talent shortages.",
+    "citation_count": 3,
+    "summary": "A study of UK job postings from 2018-2024 reveals a shift towards skills-based hiring in AI and green jobs, with decreased emphasis on formal degrees and a significant wage premium for AI skills exceeding that of even PhDs. This suggests alternative training pathways can effectively address talent shortages in these high-demand fields."
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.09255",
+    "title": "Artificial intelligence and the skill premium",
+    "published_date": "2023-11-14",
+    "abstract": "What will likely be the effect of the emergence of ChatGPT and other forms of artificial intelligence (AI) on the skill premium? To address this question, we develop a nested constant elasticity of substitution production function that distinguishes between industrial robots and AI. Industrial robots predominantly substitute for low-skill workers, whereas AI mainly helps to perform the tasks of high-skill workers. We show that AI reduces the skill premium as long as it is more substitutable for high-skill workers than low-skill workers are for high-skill workers.",
+    "citation_count": 7,
+    "summary": "This paper investigates the impact of AI on the skill premium, finding that AI's effect depends on its substitutability for high-skill workers relative to low-skill workers' substitutability for them; AI reduces the skill premium if it's more easily substituted for high-skill labor."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.07878",
+    "title": "New Kids on the Block: On the impact of information retrieval on contextual resource integration patterns",
+    "published_date": "2023-12-13",
+    "abstract": "The rise of new modes of interaction with AI skyrocketed the popularity, applicability, and amount of use cases. Despite this evolution, conceptual integration is falling behind. Studies suggest that there is hardly a systematization in using AI in organizations. Thus, by taking a service-dominant logic perspective, specifically, the concept of resource integration patterns, the most potent application of AI for organizational use - namely information retrieval - is analyzed. In doing so, we propose a systematization that can be applied to deepen understanding of core technical concepts, further investigate AI in contexts, and help explore research directions guided by SDL.",
+    "summary": "This paper analyzes the impact of information retrieval, a key application of AI in organizations, on contextual resource integration patterns using a service-dominant logic perspective. It proposes a systematization to improve understanding of AI's organizational use and guide future research."
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.02889",
+    "title": "Operationalising the Definition of General Purpose AI Systems: Assessing Four Approaches",
+    "published_date": "2023-06-05",
+    "abstract": "The European Union's Artificial Intelligence (AI) Act is set to be a landmark legal instrument for regulating AI technology. While stakeholders have primarily focused on the governance of fixed purpose AI applications (also known as narrow AI), more attention is required to understand the nature of highly and broadly capable systems. As of the beginning of 2023, several definitions for General Purpose AI Systems (GPAIS) exist in relation to the AI Act, attempting to distinguish between systems with and without a fixed purpose. In this article, we operationalise these differences through the concept of\"distinct tasks\"and examine four approaches (quantity, performance, adaptability, and emergence) to determine whether an AI system should be classified as a GPAIS. We suggest that EU stakeholders use the four approaches as a starting point to discriminate between fixed-purpose and GPAIS.",
+    "citation_count": 2,
+    "summary": "This paper analyzes four approaches (quantity, performance, adaptability, and emergence of distinct tasks) to operationally define General Purpose AI Systems (GPAIS) within the context of the EU AI Act, aiming to differentiate them from fixed-purpose AI systems. The authors propose these approaches as a starting point for EU stakeholders to classify AI systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zYv9BQBGnk2EdCwoG/the-psyche-of-ai-pattern-recognition",
+    "author": "Scott Broock",
+    "title": "AI and the Map of Your Mind: Pattern Recognition",
+    "published_date": "2023-03-20",
+    "summary": "Integrating large language models into productivity suites allows AI to create personalized knowledge graphs from user data, potentially revolutionizing learning and decision-making by revealing hidden connections and patterns. However, this raises concerns about granting AI unrestricted access to personal information and its implications for understanding the human psyche."
+  }
+]

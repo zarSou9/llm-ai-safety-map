@@ -1,0 +1,117 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.06624",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-10",
+    "abstract": "Ensuring that AI systems reliably and robustly avoid harmful or dangerous behaviours is a crucial challenge, especially for AI systems with a high degree of autonomy and general intelligence, or systems used in safety-critical contexts. In this paper, we will introduce and define a family of approaches to AI safety, which we will refer to as guaranteed safe (GS) AI. The core feature of these approaches is that they aim to produce AI systems which are equipped with high-assurance quantitative safety guarantees. This is achieved by the interplay of three core components: a world model (which provides a mathematical description of how the AI system affects the outside world), a safety specification (which is a mathematical description of what effects are acceptable), and a verifier (which provides an auditable proof certificate that the AI satisfies the safety specification relative to the world model). We outline a number of approaches for creating each of these three core components, describe the main technical challenges, and suggest a number of potential solutions to them. We also argue for the necessity of this approach to AI safety, and for the inadequacy of the main alternative approaches.",
+    "citation_count": 33,
+    "summary": "This paper proposes a framework for \"guaranteed safe AI\" that uses a world model, safety specification, and verifier to mathematically prove an AI system's adherence to safety constraints, offering high-assurance quantitative guarantees. It outlines methods for creating these components and addresses key technical challenges."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2202.09465v1.pdf",
+    "title": "Attacks, Defenses, And Tools: A Framework To Facilitate Robust AI/ML Systems",
+    "published_date": "2022-02-18",
+    "abstract": "Software systems are increasingly relying on Artificial Intelligence (AI) and Machine Learning (ML) components. The emerging popularity of AI techniques in various application domains attracts malicious actors and adversaries. Therefore, the developers of AI-enabled software systems need to take into account various novel cyber-attacks and vulnerabilities that these systems may be susceptible to. This paper presents a framework to characterize attacks and weaknesses associated with AI-enabled systems and provide mitigation techniques and defense strategies. This framework aims to support software designers in taking proactive measures in developing AI-enabled software, understanding the attack surface of such systems, and developing products that are resilient to various emerging attacks associated with ML. The developed framework covers a broad spectrum of attacks, mitigation techniques, and defensive and offensive tools. In this paper, we demonstrate the framework architecture and its major components, describe their attributes, and discuss the long-term goals of this research.",
+    "citation_count": 5,
+    "summary": "This paper proposes a framework for building robust AI/ML systems by categorizing attacks against them, outlining corresponding defenses, and providing associated tools to aid developers in proactively mitigating vulnerabilities. The framework aims to improve the resilience of AI-enabled software to emerging threats."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.10980v2",
+    "title": "MultiRobustBench: Benchmarking Robustness Against Multiple Attacks",
+    "published_date": "2023-02-21",
+    "abstract": "The bulk of existing research in defending against adversarial examples focuses on defending against a single (typically bounded Lp-norm) attack, but for a practical setting, machine learning (ML) models should be robust to a wide variety of attacks. In this paper, we present the first unified framework for considering multiple attacks against ML models. Our framework is able to model different levels of learner's knowledge about the test-time adversary, allowing us to model robustness against unforeseen attacks and robustness against unions of attacks. Using our framework, we present the first leaderboard, MultiRobustBench, for benchmarking multiattack evaluation which captures performance across attack types and attack strengths. We evaluate the performance of 16 defended models for robustness against a set of 9 different attack types, including Lp-based threat models, spatial transformations, and color changes, at 20 different attack strengths (180 attacks total). Additionally, we analyze the state of current defenses against multiple attacks. Our analysis shows that while existing defenses have made progress in terms of average robustness across the set of attacks used, robustness against the worst-case attack is still a big open problem as all existing models perform worse than random guessing.",
+    "citation_count": 7,
+    "summary": "MultiRobustBench introduces a unified framework and leaderboard for evaluating machine learning model robustness against multiple adversarial attacks, revealing that while average robustness has improved, performance against the worst-case attack remains significantly deficient."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2307.10586.pdf",
+    "title": "A Holistic Assessment of the Reliability of Machine Learning Systems",
+    "published_date": "2023-07-20",
+    "abstract": "As machine learning (ML) systems increasingly permeate high-stakes settings such as healthcare, transportation, military, and national security, concerns regarding their reliability have emerged. Despite notable progress, the performance of these systems can significantly diminish due to adversarial attacks or environmental changes, leading to overconfident predictions, failures to detect input faults, and an inability to generalize in unexpected scenarios. This paper proposes a holistic assessment methodology for the reliability of ML systems. Our framework evaluates five key properties: in-distribution accuracy, distribution-shift robustness, adversarial robustness, calibration, and out-of-distribution detection. A reliability score is also introduced and used to assess the overall system reliability. To provide insights into the performance of different algorithmic approaches, we identify and categorize state-of-the-art techniques, then evaluate a selection on real-world tasks using our proposed reliability metrics and reliability score. Our analysis of over 500 models reveals that designing for one metric does not necessarily constrain others but certain algorithmic techniques can improve reliability across multiple metrics simultaneously. This study contributes to a more comprehensive understanding of ML reliability and provides a roadmap for future research and development.",
+    "citation_count": 4,
+    "summary": "This paper introduces a holistic framework for assessing machine learning system reliability, evaluating five key properties (in-distribution accuracy, distribution-shift robustness, adversarial robustness, calibration, and out-of-distribution detection) and a composite reliability score, and demonstrates its application to over 500 models across various real-world tasks. The analysis reveals that while improving one reliability metric doesn't always negatively impact others, certain algorithmic techniques enhance reliability across multiple metrics simultaneously."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.07474.pdf",
+    "title": "Threats, Vulnerabilities, and Controls of Machine Learning Based Systems: A Survey and Taxonomy",
+    "published_date": "2023-01-18",
+    "abstract": "In this article, we propose the Artificial Intelligence Security Taxonomy to systematize the knowledge of threats, vulnerabilities, and security controls of ML-based systems. We first classify the damage caused by attacks against ML-based systems, define ML-specific security, and discuss its characteristics. Next, we enumerate all relevant assets and stakeholders and provide a general taxonomy for ML-specific threats. Then, we collect a wide range of security controls against ML-specific threats through an extensive review of recent literature. Finally, we classify the vulnerabilities and controls of an ML-based system in terms of each vulnerable asset in the system's entire lifecycle.",
+    "citation_count": 2,
+    "summary": "This paper presents a taxonomy, called the Artificial Intelligence Security Taxonomy, to organize threats, vulnerabilities, and security controls specific to machine learning systems. It classifies attack damage, defines ML security, and catalogs relevant assets, stakeholders, threats, and controls across the system lifecycle."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2210.08906.pdf",
+    "title": "A.I. Robustness: a Human-Centered Perspective on Technological Challenges and Opportunities",
+    "published_date": "2022-10-17",
+    "abstract": "Despite the impressive performance of Artificial Intelligence (AI) systems, their robustness remains elusive and constitutes a key issue that impedes large-scale adoption. Besides, robustness is interpreted differently across domains and contexts of AI. In this work, we systematically survey recent progress to provide a reconciled terminology of concepts around AI robustness. We introduce three taxonomies to organize and describe the literature both from a fundamental and applied point of view: 1) methods and approaches that address robustness in different phases of the machine learning pipeline; 2) methods improving robustness in specific model architectures, tasks, and systems; and in addition, 3) methodologies and insights around evaluating the robustness of AI systems, particularly the trade-offs with other trustworthiness properties. Finally, we identify and discuss research gaps and opportunities and give an outlook on the field. We highlight the central role of humans in evaluating and enhancing AI robustness, considering the necessary knowledge they can provide, and discuss the need for better understanding practices and developing supportive tools in the future.",
+    "citation_count": 7,
+    "summary": "This paper surveys AI robustness research, offering a unified terminology and taxonomies classifying robustness methods across the machine learning pipeline, model architectures, and evaluation methodologies. It emphasizes the crucial role of human expertise in assessing and improving AI robustness, highlighting future research needs."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.04823v2.pdf",
+    "title": "Taxonomy of Machine Learning Safety: A Survey and Primer",
+    "published_date": "2021-06-09",
+    "abstract": "The open-world deployment of Machine Learning (ML) algorithms in safety-critical applications such as autonomous vehicles needs to address a variety of ML vulnerabilities such as interpretability, verifiability, and performance limitations. Research explores different approaches to improve ML dependability by proposing new models and training techniques to reduce generalization error, achieve domain adaptation, and detect outlier examples and adversarial attacks. However, there is a missing connection between ongoing ML research and well-established safety principles. In this article, we present a structured and comprehensive review of ML techniques to improve the dependability of ML algorithms in uncontrolled open-world settings. From this review, we propose the Taxonomy of ML Safety that maps state-of-the-art ML techniques to key engineering safety strategies. Our taxonomy of ML safety presents a safety-oriented categorization of ML techniques to provide guidance for improving dependability of the ML design and development. The proposed taxonomy can serve as a safety checklist to aid designers in improving coverage and diversity of safety strategies employed in any given ML system.",
+    "citation_count": 26,
+    "summary": "This paper surveys machine learning techniques aimed at improving dependability in safety-critical applications and proposes a taxonomy mapping these techniques to established engineering safety strategies, providing a framework for designing safer ML systems. This taxonomy serves as a checklist to enhance the coverage and diversity of safety strategies in ML development."
+  },
+  {
+    "url": "https://arxiv.org/abs/2109.08904?context=cs.LG",
+    "title": "Towards Resilient Artificial Intelligence: Survey and Research Issues",
+    "published_date": "2021-07-26",
+    "abstract": "Artificial intelligence (AI) systems are becoming critical components of today's IT landscapes. Their resilience against attacks and other environmental influences needs to be ensured just like for other IT assets. Considering the particular nature of AI, and machine learning (ML) in particular, this paper provides an overview of the emerging field of resilient AI and presents research issues the authors identify as potential future work.",
+    "citation_count": 16,
+    "summary": "This paper surveys the emerging field of resilient AI, focusing on the unique vulnerabilities of AI systems to attacks and environmental factors, and highlights key research areas for improving their robustness."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.14728",
+    "title": "Security Threats in Agentic AI System",
+    "published_date": "2024-10-16",
+    "abstract": "This research paper explores the privacy and security threats posed to an Agentic AI system with direct access to database systems. Such access introduces significant risks, including unauthorized retrieval of sensitive information, potential exploitation of system vulnerabilities, and misuse of personal or confidential data. The complexity of AI systems combined with their ability to process and analyze large volumes of data increases the chances of data leaks or breaches, which could occur unintentionally or through adversarial manipulation. Furthermore, as AI agents evolve with greater autonomy, their capacity to bypass or exploit security measures becomes a growing concern, heightening the need to address these critical vulnerabilities in agentic systems.",
+    "summary": "Agentic AI systems with direct database access face significant security threats, including data breaches from unauthorized access, system vulnerabilities, and malicious use of sensitive information, exacerbated by the AI's autonomy and data processing capabilities. These risks necessitate robust security measures to mitigate potential harm."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.08981",
+    "title": "Reliability, Resilience and Human Factors Engineering for Trustworthy AI Systems",
+    "published_date": "2024-11-13",
+    "abstract": "As AI systems become integral to critical operations across industries and services, ensuring their reliability and safety is essential. We offer a framework that integrates established reliability and resilience engineering principles into AI systems. By applying traditional metrics such as failure rate and Mean Time Between Failures (MTBF) along with resilience engineering and human reliability analysis, we propose an integrate framework to manage AI system performance, and prevent or efficiently recover from failures. Our work adapts classical engineering methods to AI systems and outlines a research agenda for future technical studies. We apply our framework to a real-world AI system, using system status data from platforms such as openAI, to demonstrate its practical applicability. This framework aligns with emerging global standards and regulatory frameworks, providing a methodology to enhance the trustworthiness of AI systems. Our aim is to guide policy, regulation, and the development of reliable, safe, and adaptable AI technologies capable of consistent performance in real-world environments.",
+    "citation_count": 1,
+    "summary": "This paper proposes a framework for building trustworthy AI systems by integrating reliability and resilience engineering principles, including traditional metrics and human factors analysis, to improve performance, prevent failures, and enable efficient recovery. The framework's applicability is demonstrated using real-world AI system data and aligns with emerging global standards."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.08689",
+    "title": "Security of AI Agents",
+    "published_date": "2024-06-12",
+    "abstract": "AI agents have been boosted by large language models. AI agents can function as intelligent assistants and complete tasks on behalf of their users with access to tools and the ability to execute commands in their environments. Through studying and experiencing the workflow of typical AI agents, we have raised several concerns regarding their security. These potential vulnerabilities are not addressed by the frameworks used to build the agents, nor by research aimed at improving the agents. In this paper, we identify and describe these vulnerabilities in detail from a system security perspective, emphasizing their causes and severe effects. Furthermore, we introduce defense mechanisms corresponding to each vulnerability with design and experiments to evaluate their viability. Altogether, this paper contextualizes the security issues in the current development of AI agents and delineates methods to make AI agents safer and more reliable.",
+    "citation_count": 4,
+    "summary": "This paper identifies significant security vulnerabilities in AI agents stemming from their architecture and interactions with their environment, detailing these vulnerabilities and proposing corresponding defense mechanisms with experimental evaluations. The work highlights the urgent need for improved security frameworks in the development of AI agents."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to analyze potential trajectories of transformative AI (TAI), focusing on the possibility of TAI emerging within the next decade. The program aims to identify existential risks posed by TAI, evaluate strategies to mitigate those risks across various scenarios, and ultimately recommend effective governance strategies."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MkfaQyxB9PN4h8Bs9/ai-safety-101-capabilities",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 : Capabilities - Human Level AI, What? How? and When?",
+    "published_date": "2024-03-07",
+    "summary": "This expanded and updated article provides a comprehensive overview of state-of-the-art AI in 2024, focusing on foundation models, their capabilities, and potential risks, including forecasting future AI development and the computational resources required for transformative AI. It also introduces a framework for measuring AI capabilities and discusses relevant terminology."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising but underdeveloped AI safety strategy. While current measures are limited, proposed methods aim to increase visibility into AI development, allocate compute resources strategically, and enforce regulations, though many require further research and may pose risks."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of posts aims to provide a comprehensive introduction to AI safety, though the content and order are still under development."
+  }
+]

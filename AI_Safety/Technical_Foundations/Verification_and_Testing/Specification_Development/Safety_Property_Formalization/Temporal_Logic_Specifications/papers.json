@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/dPpA79MjPdDd87YoW/understanding-goedel-s-completeness-theorem",
+    "author": "Jessicata",
+    "title": "Understanding Gödel's completeness theorem",
+    "published_date": "2024-05-27"
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/knuths-up-arrow-notation",
+    "title": "Knuth's Up-Arrow Notation - LessWrong",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/EKPSgN8LsiEJzX5ni/a-well-defined-history-in-measurable-factor-spaces",
+    "author": "Matthias G. Mayer",
+    "title": "A well-defined history in measurable factor spaces",
+    "published_date": "2023-10-05"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/L6Ynch3CYMxXZkiq8/a-proof-of-loeb-s-theorem-using-computability-theory",
+    "author": "jessicata",
+    "title": "A Proof of Löb's Theorem using Computability Theory",
+    "published_date": "2023-08-16"
+  },
+  {
+    "title": "A program logic to verify signal temporal logic specifications of hybrid systems",
+    "abstract": "Signal temporal logic (STL) was introduced for monitoring temporal properties of continuous-time signals for continuous and hybrid systems. Differential dynamic logic (dL) was introduced to reason about the end states of a hybrid program. Over the past decade, STL and its variants have significantly gained in popularity in the industry for monitoring purposes, while dL has gained in popularity for verification of hybrid systems. In this paper, we bridge the gap between the two different logics by introducing signal temporal dynamic logic (STdL) - a dynamic logic that reasons about a subset of STL specifications over executions of hybrid systems. Our work demonstrates that STL can be used for deductive verification of hybrid systems. STdL significantly augments the expressiveness of dL by allowing reasoning about temporal properties in given time intervals. We provide a semantics and a proof calculus for STdL, along with a proof of soundness and relative completeness.",
+    "published_date": "2021-03-15",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3447928.3456648"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/a7YgzDYx4FhdB3TmR/an-155-a-minecraft-benchmark-for-algorithms-that-learn",
+    "author": "Rohin Shah",
+    "title": "[AN #155]: A Minecraft benchmark for algorithms that learn without reward functions",
+    "published_date": "2021-07-08"
+  }
+]

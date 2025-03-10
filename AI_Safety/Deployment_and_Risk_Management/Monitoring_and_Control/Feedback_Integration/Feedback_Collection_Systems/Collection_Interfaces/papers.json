@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2402.12635",
+    "title": "User Feedback-Informed Interface Design for Flow Management Data and Services (FMDS)",
+    "published_date": "2024-02-20",
+    "abstract": "The transition to a microservices-based Flow Management Data and Services (FMDS) architecture from the existing Traffic Flow Management System (TFMS) is a critical enabler of the vision for an Information-Centric National Airspace System (NAS). The need to design a user-centric interface for FMDS is a key technical gap, as this interface connects NAS data and services to the traffic management specialists within all stakeholder groups (e.g., FAA, airlines). We provide a research-driven approach towards designing such a graphical user interface (GUI) for FMDS. Major goals include unifying the more than 50 disparate traffic management services currently hosted on TFMS, as well as streamlining the process of evaluating, modeling, and monitoring Traffic Management Initiatives (TMIs). Motivated by this, we iteratively designed a GUI leveraging human factors engineering and user experience design principles, as well as user interviews. Through user testing and interviews, we identify workflow benefits of our GUI (e.g., reduction in task completion time), along with next steps for developing a live prototype."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.17602",
+    "title": "A Methodology and System For Big-Thick Data Collection",
+    "published_date": "2024-04-24",
+    "abstract": "Pervasive sensors have become essential in research for gathering real-world data. However, current studies often focus solely on objective data, neglecting subjective human contributions. We introduce an approach and system for collecting big-thick data, combining extensive sensor data (big data) with qualitative human feedback (thick data). This fusion enables effective collaboration between humans and machines, allowing machine learning to benefit from human behavior and interpretations. Emphasizing data quality, our system incorporates continuous monitoring and adaptive learning mechanisms to optimize data collection timing and context, ensuring relevance, accuracy, and reliability. The system comprises three key components: a) a tool for collecting sensor data and user feedback, b) components for experiment planning and execution monitoring, and c) a machine-learning component that enhances human-machine interaction.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.11761",
+    "title": "Mapping out the Space of Human Feedback for Reinforcement Learning: A Conceptual Framework",
+    "published_date": "2024-11-18",
+    "abstract": "Reinforcement Learning from Human feedback (RLHF) has become a powerful tool to fine-tune or train agentic machine learning models. Similar to how humans interact in social contexts, we can use many types of feedback to communicate our preferences, intentions, and knowledge to an RL agent. However, applications of human feedback in RL are often limited in scope and disregard human factors. In this work, we bridge the gap between machine learning and human-computer interaction efforts by developing a shared understanding of human feedback in interactive learning scenarios. We first introduce a taxonomy of feedback types for reward-based learning from human feedback based on nine key dimensions. Our taxonomy allows for unifying human-centered, interface-centered, and model-centered aspects. In addition, we identify seven quality metrics of human feedback influencing both the human ability to express feedback and the agent's ability to learn from the feedback. Based on the feedback taxonomy and quality criteria, we derive requirements and design choices for systems learning from human feedback. We relate these requirements and design choices to existing work in interactive machine learning. In the process, we identify gaps in existing work and future research opportunities. We call for interdisciplinary collaboration to harness the full potential of reinforcement learning with data-driven co-adaptive modeling and varied interaction mechanics."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.11817",
+    "title": "Users Approach on Providing Feedback for Smart Home Devices Phase I",
+    "published_date": "2023-12-19",
+    "abstract": "Smart home technology is part of our everyday lives, and this technology is fast-evolving compared to other technologies. The user's feedback is gathered in this paper by conducting expert interviews on how collecting the feedback from the smart home devices will be helpful to improve the devices. We are yet to know about the feedback system of the smart home devices and how provided feedback will support increasing the devices' requirements. Today, we present our analysis from our exploratory interview method with the student of a certain group, and we try to study the attitude of providing feedback. The results suggested that the users are ready to give their feedback very actively to better their usage as every user has their own needs to fulfill."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.12466",
+    "title": "Users Approach on Providing Feedback for Smart Home Devices",
+    "published_date": "2023-12-19",
+    "abstract": "Smart Home technology has accomplished extraordinary success in making individuals' lives more straightforward and relaxing. Technology has recently brought about numerous savvy and refined frame works that advanced clever living innovation. In this paper, we will investigate the behavioral intention of user's approach to providing feedback for smart home devices. We will conduct an online survey for a sample of three to five students selected by simple random sampling to study the user's motto for giving feedback on smart home devices and their expectations. We have observed that most users are ready to actively share their input on smart home devices to improve the product's service and quality to fulfill the user's needs and make their lives easier."
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.15254",
+    "title": "Constructing Effective Customer Feedback Systems - A Design Science Study Leveraging Blockchain Technology",
+    "published_date": "2022-03-29",
+    "abstract": "Organizations have to adjust to changes in the ecosystem, and customer feedback systems (CFS) provide important information to adapt products and services to changing customer preferences. However, current systems are limited to single-dimensional rating scales and are subject to self-selection biases. This work contributes design principles for CFS and implements a CFS that advances current systems by means of contextualized feedback according to specific organizational objectives. We apply Design Science Research (DSR) methodology and report on a longitudinal DSR journey considering multiple stakeholder values by utilizing value-sensitive design methods. We conducted expert interviews, design workshops, demonstrations, and a four-day experiment in an organizational setup, involving 132 customers of a major Swiss library. In the process, we validated the identified design principles and the implemented software artifact both qualitatively and quantitatively and drew conclusions for their efficient instantiation. In particular, we found that i) blockchain technology can afford three design principles of effective CFS. Also, ii) combining DSR with value-sensitive design methods explicitly provides rationale for design principles in the form of identified important values. Moreover, iii) utilizing this methodology makes the construction of software artifacts more efficient it terms of design time by restricting the design space of a software artefact to those options that align with stakeholder values. Hence, the findings of this work advance the knowledge on the design of CFS and provides both, for researchers a theoretical contribution to reason about design principles and a guideline to managers and decision makers for designing software artefacts efficiently.",
+    "citation_count": 1
+  }
+]

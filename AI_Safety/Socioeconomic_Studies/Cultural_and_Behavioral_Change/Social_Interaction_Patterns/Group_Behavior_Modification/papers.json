@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2408.00151",
+    "title": "Moderating Group Conversation Dynamics with Social Robots",
+    "published_date": "2024-07-31",
+    "abstract": "This research investigates the impact of social robot participation in group conversations and assesses the effectiveness of various addressing policies. The study involved 300 participants, divided into groups of four, interacting with a humanoid robot serving as the moderator. The robot utilized conversation data to determine the most appropriate speaker to address. The findings indicate that the robot's addressing policy significantly influenced conversation dynamics, resulting in more balanced attention to each participant and a reduction in subgroup formation.",
+    "summary": "A study of 300 participants in groups moderated by a social robot found that the robot's addressing policy significantly impacted conversation dynamics, promoting more balanced participation and reducing subgroup formation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.06557",
+    "title": "Social Mediation through Robots - A Scoping Review on Improving Group Interactions through Directed Robot Action using an Extended Group Process Model",
+    "published_date": "2024-09-10",
+    "abstract": "Group processes refer to the dynamics that occur within a group and are critical for understanding how groups function. With robots being increasingly placed within small groups, improving these processes has emerged as an important application of social robotics. Social Mediation Robots elicit behavioral change within groups by deliberately influencing the processes of groups. While research in this field has demonstrated that robots can effectively affect interpersonal dynamics, there is a notable gap in integrating these insights to develop coherent understanding and theory. We present a scoping review of literature targeting changes in social interactions between multiple humans through intentional action from robotic agents. To guide our review, we adapt the classical Input-Process-Output (I-P-O) models that we call\"Mediation I-P-O model\". We evaluated 1633 publications, which yielded 89 distinct social mediation concepts. We construct 11 mediation approaches robots can use to shape processes in small groups and teams. This work strives to produce generalizable insights and evaluate the extent to which the potential of social mediation through robots has been realized thus far. We hope that the proposed framework encourages a holistic approach to the study of social mediation and provides a foundation to standardize future reporting in the domain.",
+    "citation_count": 2,
+    "summary": "This scoping review analyzes how robots can mediate human group interactions, adapting the Input-Process-Output model to identify 11 approaches robots use to influence group dynamics. The authors aim to synthesize existing research and propose a framework for standardizing future studies in social robot mediation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.12590",
+    "title": "Evolving AI Collectives to Enhance Human Diversity and Enable Self-Regulation",
+    "published_date": "2024-02-19",
+    "abstract": "Large language model behavior is shaped by the language of those with whom they interact. This capacity and their increasing prevalence online portend that they will intentionally or unintentionally\"program\"one another and form emergent AI subjectivities, relationships, and collectives. Here, we call upon the research community to investigate these\"societies\"of interacting artificial intelligences to increase their rewards and reduce their risks for human society and the health of online environments. We use a small\"community\"of models and their evolving outputs to illustrate how such emergent, decentralized AI collectives can spontaneously expand the bounds of human diversity and reduce the risk of toxic, anti-social behavior online. Finally, we discuss opportunities for AI cross-moderation and address ethical issues and design challenges associated with creating and maintaining free-formed AI collectives.",
+    "citation_count": 1,
+    "summary": "The paper argues that interacting large language models will form emergent AI collectives, and proposes researching these collectives to both harness their potential for expanding human diversity and mitigating risks like toxic online behavior. This research necessitates addressing ethical considerations and design challenges inherent in managing free-formed AI societies."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.08948",
+    "title": "The Dynamics of Social Conventions in LLM populations: Spontaneous Emergence, Collective Biases and Tipping Points",
+    "published_date": "2024-10-11",
+    "abstract": "Social conventions are the foundation for social and economic life. As legions of AI agents increasingly interact with each other and with humans, their ability to form shared conventions will determine how effectively they will coordinate behaviors, integrate into society and influence it. Here, we investigate the dynamics of conventions within populations of Large Language Model (LLM) agents using simulated interactions. First, we show that globally accepted social conventions can spontaneously arise from local interactions between communicating LLMs. Second, we demonstrate how strong collective biases can emerge during this process, even when individual agents appear to be unbiased. Third, we examine how minority groups of committed LLMs can drive social change by establishing new social conventions. We show that once these minority groups reach a critical size, they can consistently overturn established behaviors. In all cases, contrasting the experimental results with predictions from a minimal multi-agent model allows us to isolate the specific role of LLM agents. Our results clarify how AI systems can autonomously develop norms without explicit programming and have implications for designing AI systems that align with human values and societal goals.",
+    "summary": "This study simulates interactions between Large Language Models (LLMs) to demonstrate the spontaneous emergence of social conventions, highlighting the potential for collective biases and the influence of minority groups in driving social change within LLM populations. The findings reveal how LLMs can autonomously develop norms and underscore implications for aligning AI systems with human values."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/relationships-interpersonal",
+    "title": "Relationships (Interpersonal) - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "Interpersonal relationships encompass all sustained interactions between individuals, covering a wide range of connections including friendships, romantic partnerships, family ties, and professional collaborations. Related concepts include communication and cultural communication styles."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/groupthink",
+    "title": "Groupthink - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "Groupthink, the tendency for groups to suppress dissent and consensus, is exacerbated by echo chambers and the illusion of safety in \"virtual communities.\" These phenomena can lead to biased decision-making and the formation of cults."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.17374.pdf",
+    "title": "Group Dynamics: Survey of Existing Multimodal Models and Considerations for Social Mediation",
+    "published_date": "2023-06-30",
+    "abstract": "Social mediator robots facilitate human-human interactions by producing behavior strategies that positively influence how humans interact with each other in social settings. As robots for social mediation gain traction in the field of human-human-robot interaction, their ability to\"understand\"the humans in their environments becomes crucial. This objective requires models of human understanding that consider multiple humans in an interaction as a collective entity and represent the group dynamics that exist among its members. Group dynamics are defined as the influential actions, processes, and changes that occur within and between group interactants. Since an individual's behavior may be deeply influenced by their interactions with other group members, the social dynamics existing within a group can influence the behaviors, attitudes, and opinions of each individual and the group as a whole. Therefore, models of group dynamics are critical for a social mediator robot to be effective in its role. In this paper, we survey existing models of group dynamics and categorize them into models of social dominance, affect, social cohesion, conflict resolution, and engagement. We highlight the multimodal features these models utilize, and emphasize the importance of capturing the interpersonal aspects of a social interaction. Finally, we make a case for models of relational affect as an approach that may be able to capture a representation of human-human interactions that can be useful for social mediation.",
+    "citation_count": 2,
+    "summary": "This paper surveys existing multimodal models of group dynamics in human-human interaction, categorizing them by social dominance, affect, cohesion, conflict resolution, and engagement, and advocates for relational affect models to improve social mediator robots' effectiveness."
+  },
+  {
+    "url": "https://arxiv.org/abs/2309.11456",
+    "title": "Generative Agent-Based Modeling: Unveiling Social System Dynamics through Coupling Mechanistic Models with Generative Artificial Intelligence",
+    "published_date": "2023-09-20",
+    "abstract": "We discuss the emerging new opportunity for building feedback‐rich computational models of social systems using generative artificial intelligence. Referred to as generative agent‐based models (GABMs), such individual‐level models utilize large language models to represent human decision‐making in social settings. We provide a GABM case in which human behavior can be incorporated into simulation models by coupling a mechanistic model of human interactions with a pre‐trained large language model. This is achieved by introducing a simple GABM of social norm diffusion in an organization. For educational purposes, the model is intentionally kept simple. We examine a wide range of scenarios and the sensitivity of the results to several changes in the prompt. We hope the article and the model serve as a guide for building useful dynamic models of various social systems that include realistic human reasoning and decision‐making. © 2024 System Dynamics Society.",
+    "citation_count": 16,
+    "summary": "Generative agent-based models (GABMs) combine mechanistic models with large language models to simulate human decision-making in social systems, offering a novel approach to modeling complex social dynamics. A simple GABM example of social norm diffusion demonstrates the potential of this method for creating realistic and insightful simulations."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/zYv9BQBGnk2EdCwoG/the-psyche-of-ai-pattern-recognition",
+    "author": "Scott Broock",
+    "title": "AI and the Map of Your Mind: Pattern Recognition",
+    "published_date": "2023-03-20"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2203.00905.pdf",
+    "title": "Responsible-AI-by-Design: a Pattern Collection for Designing Responsible AI Systems",
+    "published_date": "2022-03-02",
+    "abstract": "Although AI has significant potential to transform society, there are serious concerns about its ability to behave and make decisions responsibly. Many ethical regulations, principles, and guidelines for responsible AI have been issued recently. However, these principles are high-level and difficult to put into practice. In the meantime much effort has been put into responsible AI from the algorithm perspective, but they are limited to a small subset of ethical principles amenable to mathematical analysis. Responsible AI issues go beyond data and algorithms and are often at the system-level crosscutting many system components and the entire software engineering lifecycle. Based on the result of a systematic literature review, this paper identifies one missing element as the system-level guidance - how to design the architecture of responsible AI systems. We present a summary of design patterns that can be embedded into the AI systems as product features to contribute to responsible-AI-by-design.",
+    "citation_count": 17
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.02944v4.pdf",
+    "title": "Adaptive Performance Anomaly Detection for Online Service Systems via Pattern Sketching",
+    "published_date": "2022-01-09",
+    "abstract": "To ensure the performance of online service systems, their status is closely monitored with various software and system metrics. Performance anomalies represent the performance degradation issues (e.g., slow response) of the service systems. When performing anomaly detection over the metrics, existing methods often lack the merit of interpretability, which is vital for engineers and analysts to take remediation actions. Moreover, they are unable to effectively accommodate the ever-changing services in an online fashion. To address these limitations, in this paper, we propose ADSketch, an interpretable and adaptive performance anomaly detection approach based on pattern sketching. ADSketch achieves interpretability by identifying groups of anomalous metric patterns, which represent particular types of performance issues. The underlying issues can then be immediately recognized if similar patterns emerge again. In addition, an adaptive learning algorithm is designed to embrace unprecedented patterns induced by service updates or user behavior changes. The proposed approach is evaluated with public data as well as industrial data collected from a representative online service system in Huawei Cloud. The experimental results show that ADSketch outperforms state-of-the-art approaches by a significant margin, and demonstrate the effectiveness of the online algorithm in new pattern discovery. Furthermore, our approach has been successfully deployed in industrial practice.",
+    "citation_count": 29
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.03544v2.pdf",
+    "title": "The Effects of Reward Misspecification: Mapping and Mitigating Misaligned Models",
+    "published_date": "2022-01-10",
+    "abstract": "Reward hacking -- where RL agents exploit gaps in misspecified reward functions -- has been widely observed, but not yet systematically studied. To understand how reward hacking arises, we construct four RL environments with misspecified rewards. We investigate reward hacking as a function of agent capabilities: model capacity, action space resolution, observation space noise, and training time. More capable agents often exploit reward misspecifications, achieving higher proxy reward and lower true reward than less capable agents. Moreover, we find instances of phase transitions: capability thresholds at which the agent's behavior qualitatively shifts, leading to a sharp decrease in the true reward. Such phase transitions pose challenges to monitoring the safety of ML systems. To address this, we propose an anomaly detection task for aberrant policies and offer several baseline detectors.",
+    "citation_count": 135
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/7gkXuHEm6CqEGT2mg/ai-safety-seems-hard-to-measure",
+    "author": "HoldenKarnofsky",
+    "title": "AI Safety Seems Hard to Measure",
+    "published_date": "2022-12-08"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.06133.pdf",
+    "title": "Teaming up with information agents",
+    "published_date": "2021-01-15",
+    "abstract": "Recent developments in Artificial Intelligence (AI) have led to impressive results in machine learning and pattern recognition, but have also led to the insight that AI hardly ever functions in isolation [1]. Most practical AI applications involve humans, e.g. for providing instructions, for correcting the machine if needed, for interpreting the machine's outcomes. A recent article [2] summarizes this as “no AI is an island”, and argues that AI agents should be endowed with teaming intelligence that allows them to team up with humans.",
+    "citation_count": 2
+  }
+]

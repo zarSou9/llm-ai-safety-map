@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Soft constraint handling for a real-world multiobjective energy distribution problem",
+    "abstract": "Real-world optimisation problems usually involve some conflicting objectives and a number of constraints. In such cases, finding a feasible, Pareto-optimal solution poses a demanding challenge. In reality, constraints bear different importance levels to these conflicting objectives. If some constraints are relaxed within an acceptable degree, quality infeasible solutions could be found on the boundary from the infeasible side of the searching region. This paper formulates an energy distribution problem arising from a real-world iron and steel production as a multiobjective optimisation problem. During the course of the optimisation search, this paper attempts to handle certain constraints in a soft manner to find solutions with good balance among objective and constraints violation. Based on the analysis of constraints from the real-world perspective, different tolerance values are defined. The proposed constraint violation degree-based soft handling approach is incorporated into the advanced version of non-dominated sorting genetic algorithm framework, as a case study, to examine the efficiency of the proposed soft constraint handling approach for a real-world energy distribution problem. The proposed approach is also implemented in different ways of constraint handling and tested on some benchmark functions to further demonstrate the performance of soft constraint handling for multiobjective optimisation problems.",
+    "published_date": "2020-10-01",
+    "citation_count": 2,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/00207543.2019.1667039"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/3RLSqqfP5oQE2WDrr/new-paper-long-term-trajectories-of-human-civilization",
+    "author": "Kaj_Sotala",
+    "title": "New paper: Long-Term Trajectories of Human Civilization",
+    "published_date": "2018-08-12"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Tx6dGzYLtfzzkuGtF/the-vulnerable-world-hypothesis-by-bostrom",
+    "author": "Ben Pace",
+    "title": "The Vulnerable World Hypothesis (by Bostrom)",
+    "published_date": "2018-11-06"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/6wYcnAB9urWmgrNtv/the-map-of-double-scenarios-of-a-global-catastrophe",
+    "author": "turchin",
+    "title": "The map of double scenarios of a global catastrophe",
+    "published_date": "2015-12-05"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/4bBAqd4EEBKLBwNuF/a-guide-to-rational-investing",
+    "author": "ColbyDavis",
+    "title": "A Guide to Rational Investing",
+    "published_date": "2014-09-15"
+  },
+  {
+    "title": "Multi-objective analysis of an integrated supply chain scheduling problem",
+    "abstract": "We study the problem of minimising the total weighted tardiness and total distribution costs in an integrated production and distribution environment. Orders are received by a manufacturer, processed on a single production line, and delivered to customers by capacitated vehicles. Each order (job) is associated with a customer, weight (priority), processing time, due time, and size (volume or storage space required in the transportation unit). A mathematical model is presented in which a number of weighted linear combinations of the objectives are used to aggregate both objectives into a single objective. Because even the single objective problem is NP-hard, different heuristics based on a genetic algorithm (GA) are developed to further approximate a Pareto-optimal set of solutions for our multi-objective problem.",
+    "published_date": "2012-05-15",
+    "citation_count": 60,
+    "url": "https://www.tandfonline.com/doi/abs/10.1080/00207543.2011.578162"
+  }
+]

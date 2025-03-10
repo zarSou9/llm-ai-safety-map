@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.17353",
+    "title": "Preserving Privacy in Cloud-based Data-Driven Stabilization",
+    "published_date": "2024-10-22",
+    "abstract": "In the recent years, we have observed three significant trends in control systems: a renewed interest in data-driven control design, the abundance of cloud computational services and the importance of preserving privacy for the system under control. Motivated by these factors, this work investigates privacy-preserving outsourcing for the design of a stabilizing controller for unknown linear time-invariant systems.The main objective of this research is to preserve the privacy for the system dynamics by designing an outsourcing mechanism. To achieve this goal, we propose a scheme that combines transformation-based techniques and robust data-driven control design methods. The scheme preserves the privacy of both the open-loop and closed-loop system matrices while stabilizing the system under control.The scheme is applicable to both data with and without disturbance and is lightweight in terms of computational overhead. Numerical investigations for a case study demonstrate the impacts of our mechanism and its role in hindering malicious adversaries from achieving their goals."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/35djfj67zu9E9TDRH/structured-transparency-a-framework-for-addressing-use-mis",
+    "author": "Habryka",
+    "title": "Structured Transparency: a framework for addressing\nuse/mis-use trade-offs when sharing information",
+    "published_date": "2024-04-11"
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.17519v1",
+    "title": "Infinite Horizon Privacy in Networked Control Systems: Utility/Privacy Tradeoffs and Design Tools",
+    "published_date": "2023-03-30",
+    "abstract": "We address the problem of synthesizing distorting mechanisms that maximize infinite horizon privacy for Networked Control Systems (NCSs). We consider stochastic LTI systems where information about the system state is obtained through noisy sensor measurements and transmitted to a (possibly adversarial) remote station via unsecured/public communication networks to compute control actions (a remote LQR controller). Because the network/station is untrustworthy, adversaries might access sensors and control data, and estimate the system state. To mitigate this risk, we pass sensor and control data through distorting (privacy-preserving) mechanisms before transmission and send the distorted data through the communication network. These mechanisms consist of a linear coordinate transformation and additive-dependent Gaussian vectors. We formulate the synthesis of the distorting mechanisms as a convex program where we minimize the infinite horizon mutual information (our privacy metric) between the system state and its optimal estimate at the remote station for a desired upper bound on the control performance (LQR cost) degradation induced by the distortion mechanism.",
+    "citation_count": 5
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.04299v1.pdf",
+    "title": "Privacy-Preserving Supervisory Control of Discrete-Event Systems via Co-Synthesis of Edit Function and Supervisor for Opacity Enforcement and Requirement Satisfaction",
+    "published_date": "2021-04-09",
+    "abstract": "This paper investigates the problem of co-synthesis of edit function and supervisor for opacity enforcement in the supervisory control of discrete-event systems (DES), assuming the presence of an external (passive) intruder, where the following goals need to be achieved: 1) the external intruder should never infer the system secret, i.e., the system is opaque, and never be sure about the existence of the edit function, i.e., the edit function remains covert; 2) the controlled plant behaviors should satisfy some safety and nonblockingness requirements, in the presence of the edit function. We focus on the class of edit functions that satisfy the following properties: 1) the observation capability of the edit function in general can be different from those of the supervisor and the intruder; 2) the edit function can implement insertion, deletion, and replacement operations; 3) the edit function performs bounded edit operations, i.e., the length of each string output of the edit function is upper bounded by a given constant. We propose an approach to solve this cosynthesis problem by modeling it as a distributed supervisor synthesis problem in the Ramadge-Wonham supervisory control framework. By taking the special structure of this distributed supervisor synthesis problem into consideration and to improve the possibility of finding a non-empty distributed supervisor, we propose two novel synthesis heuristics that incrementally synthesize the supervisor and the edit function. The effectiveness of our approach is illustrated on an example in the enforcement of the location privacy.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.01755v1.pdf",
+    "title": "Finite Horizon Privacy of Stochastic Dynamical Systems: A Synthesis Framework for Gaussian Mechanisms",
+    "published_date": "2021-08-03",
+    "abstract": "We address the problem of synthesizing distorting mechanisms that maximize the privacy of stochastic dynamical systems. Information about the system state is obtained through sensor measurements. This data is transmitted to a remote station through an unsecured/public communication network. We aim to keep part of the system state private (a private output); however, because the network is unsecured, adversaries might access sensor data and input signals, which can be used to estimate private outputs. To prevent an accurate estimation, we pass sensor data and input signals through a distorting (privacy-preserving) mechanism before transmission and send the distorted data to the trusted user. These mechanisms consist of a coordinate transformation and additive dependent Gaussian vectors. We formulate the synthesis of the distorting mechanisms as a convex program, where we minimize the mutual information (our privacy metric) between an arbitrarily large sequence of private outputs and the disclosed distorted data for desired distortion levels – how different actual and distorted data are allowed to be.",
+    "citation_count": 9
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.15307v2.pdf",
+    "title": "Gaussian Mechanisms Against Statistical Inference: Synthesis Tools",
+    "published_date": "2021-11-30",
+    "abstract": "In this manuscript, we provide a set of tools (in terms of semidefinite programs) to synthesize Gaussian mechanisms to maximize privacy of databases. Information about the database is disclosed through queries requested by (potentially) adversarial users. We aim to keep part of the database private (private sensitive information); however, disclosed data could be used to estimate private information. To avoid an accurate estimation by the adversaries, we pass the requested data through distorting (privacy-preserving) mechanisms before transmission and send the distorted data to the user. These mechanisms consist of a coordinate trans-formation and an additive dependent Gaussian vector. We formulate the synthesis of distorting mechanisms in terms of semidefinite programs in which we seek to minimize the mutual information (our privacy metric) between private data and the disclosed distorted data given a desired distortion level - how different actual and distorted data are allowed to be.",
+    "citation_count": 2
+  }
+]

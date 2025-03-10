@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.15749",
+    "title": "Collaborative Access Control for IoT - A Blockchain Approach",
+    "published_date": "2024-05-24",
+    "abstract": "The Internet of Things (IoT) necessitates robust access control mechanisms to secure a vast array of interconnected devices. We adopt the blockchain based decentralized access control approach and identify the gaps in existing works. Then, We develop a blockchain embedded access control (BEAC) framework to bridge the gaps. First, blockchain based solutions for access control require an enabling P2P network while existing P2P overlays do not support some required features. We develop a novel P2P infrastructure to seamlessly support our BEAC framework. Second, most of the works consider blockchain based access control for a single access control model, and we develop a generic blockchain mechanism and show that it can support the embedding of various access control models. Finally, existing works adopt existing blockchain platforms which may incur a high communication overhead. We design a more efficient consortium blockchain solution by leveraging more advanced components to achieve better performance. Our experiments demonstrate that our design can cut the communication cost to half compared to the most recent Hyperledger Fabric platform."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.08710",
+    "title": "End-to-End Orchestration of NextG Media Services over the Distributed Compute Continuum",
+    "published_date": "2024-07-11",
+    "abstract": "NextG (5G and beyond) networks, through the increasing integration of cloud/edge computing technologies, are becoming highly distributed compute platforms ideally suited to host emerging resource-intensive and latency-sensitive applications (e.g., industrial automation, extended reality, distributed AI). The end-to-end orchestration of such demanding applications, which involves function/data placement, flow routing, and joint communication/computation/storage resource allocation, requires new models and algorithms able to capture: (i) their disaggregated microservice-based architecture, (ii) their complex processing graph structures, including multiple-input multiple-output processing stages, and (iii) the opportunities for efficiently sharing and replicating data streams that may be useful for multiple functions and/or end users. To this end, we first identify the technical gaps in existing literature that prevent efficiently addressing the optimal orchestration of emerging applications described by information-aware directed acyclic graphs (DAGs). We then leverage the recently proposed Cloud Network Flow optimization framework and a novel functionally-equivalent DAG-to-Forest graph transformation procedure to design IDAGO (Information-Aware DAG Orchestration), a polynomial-time multi-criteria approximation algorithm for the optimal orchestration of NextG media services over NextG compute-integrated networks."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/knuths-up-arrow-notation",
+    "title": "Knuth's Up-Arrow Notation - LessWrong",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.12916",
+    "title": "An information security monitoring and management system for 5G and 6G Networks based on SDN/NFV",
+    "published_date": "2022-11-23",
+    "abstract": "- An approach to using the concept of Software-Defined Networking and Network Functions Virtualization (SDN/NFV) for the implementation of an information security monitoring and management system in 5G and 6G networks is proposed. SDN switches based on the OpenFlow protocol are offered as network sensors. In order to reduce the time for finding a subset of the right rules in the vast array of all rules on traffic filtering systems that are logically located on sensors, a method of processing and filtering traffic in 5G and 6G transport networks is proposed. This method is based on DPDK with the LPM algorithm and is capable of processing up to 8 megapackets per second on 1 CPU core; the packet processing takes O(1), which is significantly lower than with similar algorithms. The managing subsystem consists of regional monitoring centres and a main one. The main Monitoring Centre includes a main cluster of SDN controllers along with Active/Active redundancy scheme. The regional centres represent SDN software controllers that manage locally subordinate sensors. All the managing centres are interconnected via the Transport subsystem and form a network. An algorithm for network sensor load balancing between SDN controllers has been developed in order to provide fault tolerance, load balancing and network connectivity. The algorithm results in a set of optimal sensor groups with total load not exceeding the maximum capacity of the SDN controllers."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.05391v3.pdf",
+    "title": "Semantic Communications in Networked Systems: A Data Significance Perspective",
+    "published_date": "2021-03-09",
+    "abstract": "We present our vision for a departure from the established way of architecting and assessing communication networks, by incorporating the semantics of information, defined not necessarily as the meaning of the messages, but as their significance, possibly within a real-time constraint, relative to the purpose of the data exchange. We argue that research efforts must focus on laying the theoretical foundations of a redesign of the entire process of information generation, transmission, and usage for networked systems in unison by developing advanced semantic metrics for communications and control systems; an optimal sampling theory combining signal sparsity and timeliness, for real-time prediction/reconstruction/control under communication constraints and delays; temporally effective compressed sensing techniques for decision making and inference directly in the compressed domain; and semantic-aware data generation, channel coding, packetization, feedback, and multiple and random access schemes that reduce the volume of data and the energy consumption, increasing the number of supportable devices. This paradigm shift targets jointly optimal information gathering, information dissemination, and decision making policies in networked systems.",
+    "citation_count": 128
+  },
+  {
+    "url": "https://arxiv.org/pdf/2205.15557v1.pdf",
+    "title": "Optimal Multicast Service Chain Control: Packet Processing, Routing, and Duplication",
+    "published_date": "2021-06-01",
+    "abstract": "Distributed computing (cloud) networks, e.g., mobile edge computing (MEC), are playing an increasingly important role in the efficient hosting, running, and delivery of real-time stream-processing applications such as industrial automation, immersive video, and augmented reality. While such applications require timely processing of real-time streams that are simultaneously useful for multiple users/devices, existing technologies lack efficient mechanisms to handle their increasingly multicast nature, leading to unnecessary traffic redundancy and associated network congestion. In this paper, we address the design of distributed packet processing, routing, and duplication policies for optimal control of multicast stream-processing services. We present a characterization of the enlarged capacity region that results from efficient packet duplication, and design the first fully distributed multicast traffic management policy that stabilizes any input rate in the interior of the capacity region while minimizing overall operational cost. Numerical results demonstrate the effectiveness of the proposed policy to achieve throughput- and cost-optimal delivery of stream-processing services over distributed computing networks.",
+    "citation_count": 7
+  }
+]

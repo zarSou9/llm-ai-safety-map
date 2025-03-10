@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2404.11370",
+    "title": "Characterizing and modeling harms from interactions with design patterns in AI interfaces",
+    "published_date": "2024-04-17",
+    "abstract": "The proliferation of applications using artificial intelligence (AI) systems has led to a growing number of users interacting with these systems through sophisticated interfaces. Human-computer interaction research has long shown that interfaces shape both user behavior and user perception of technical capabilities and risks. Yet, practitioners and researchers evaluating the social and ethical risks of AI systems tend to overlook the impact of anthropomorphic, deceptive, and immersive interfaces on human-AI interactions. Here, we argue that design features of interfaces with adaptive AI systems can have cascading impacts, driven by feedback loops, which extend beyond those previously considered. We first conduct a scoping review of AI interface designs and their negative impact to extract salient themes of potentially harmful design patterns in AI interfaces. Then, we propose Design-Enhanced Control of AI systems (DECAI), a conceptual model to structure and facilitate impact assessments of AI interface designs. DECAI draws on principles from control systems theory -- a theory for the analysis and design of dynamic physical systems -- to dissect the role of the interface in human-AI systems. Through two case studies on recommendation systems and conversational language model systems, we show how DECAI can be used to evaluate AI interface designs.",
+    "citation_count": 3,
+    "summary": "This paper identifies harmful design patterns in AI interfaces, arguing that interface features can create cascading negative impacts through feedback loops often overlooked in ethical assessments. It proposes the Design-Enhanced Control of AI systems (DECAI) model, leveraging control systems theory, to analyze and mitigate these risks, illustrated through case studies of recommendation and conversational AI systems."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/relationships-interpersonal",
+    "title": "Relationships (Interpersonal) - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "Interpersonal relationships encompass all ongoing interactions between individuals, encompassing various types such as friendships, romantic partnerships, and family or professional ties. Related concepts include communication and cultural communication styles."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/artificial-general-intelligence-agi",
+    "title": "Artificial General Intelligence (AGI) - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Artificial General Intelligence (AGI) refers to machines exhibiting intelligence across diverse domains, unlike narrow AI which excels only in specific tasks. While AGI's creation is anticipated, driven by technological advancements, significant uncertainty exists regarding its timeline and potential impact, including the possibility of an intelligence explosion and existential risks."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2304.08804.pdf",
+    "title": "AI Reliance and Decision Quality: Fundamentals, Interdependence, and the Effects of Interventions",
+    "published_date": "2023-04-18",
+    "abstract": "In AI-assisted decision-making, a central promise of having a human-in-the-loop is that they should be able to complement the AI system by overriding its wrong recommendations. In practice, however, we often see that humans cannot assess the correctness of AI recommendations and, as a result, adhere to wrong or override correct advice. Different ways of relying on AI recommendations have immediate, yet distinct, implications for decision quality. Unfortunately, reliance and decision quality are often inappropriately conflated in the current literature on AI-assisted decision-making. In this work, we disentangle and formalize the relationship between reliance and decision quality, and we characterize the conditions under which human-AI complementarity is achievable. To illustrate how reliance and decision quality relate to one another, we propose a visual framework and demonstrate its usefulness for interpreting empirical findings, including the effects of interventions like explanations. Overall, our research highlights the importance of distinguishing between reliance behavior and decision quality in AI-assisted decision-making.",
+    "citation_count": 8,
+    "summary": "This paper analyzes the complex relationship between human reliance on AI recommendations and the resulting decision quality in human-AI collaborations, arguing that these are distinct concepts often inappropriately conflated, and proposing a framework to better understand their interdependence and the impact of interventions."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zYv9BQBGnk2EdCwoG/the-psyche-of-ai-pattern-recognition",
+    "author": "Scott Broock",
+    "title": "AI and the Map of Your Mind: Pattern Recognition",
+    "published_date": "2023-03-20",
+    "summary": "Integrating large language models into productivity suites allows AI to create personalized knowledge graphs from user data, potentially revolutionizing learning and decision-making by revealing hidden connections and patterns. However, this also raises concerns about granting AI unrestricted access to personal information and its implications for understanding the human psyche."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2203.00905.pdf",
+    "title": "Responsible-AI-by-Design: a Pattern Collection for Designing Responsible AI Systems",
+    "published_date": "2022-03-02",
+    "abstract": "Although AI has significant potential to transform society, there are serious concerns about its ability to behave and make decisions responsibly. Many ethical regulations, principles, and guidelines for responsible AI have been issued recently. However, these principles are high-level and difficult to put into practice. In the meantime much effort has been put into responsible AI from the algorithm perspective, but they are limited to a small subset of ethical principles amenable to mathematical analysis. Responsible AI issues go beyond data and algorithms and are often at the system-level crosscutting many system components and the entire software engineering lifecycle. Based on the result of a systematic literature review, this paper identifies one missing element as the system-level guidance - how to design the architecture of responsible AI systems. We present a summary of design patterns that can be embedded into the AI systems as product features to contribute to responsible-AI-by-design.",
+    "citation_count": 17,
+    "summary": "This paper addresses the gap in responsible AI development by presenting a collection of design patterns for building responsible AI systems, offering system-level guidance to address ethical concerns beyond algorithmic considerations. These patterns aim to embed ethical principles directly into AI system architecture throughout the software development lifecycle."
+  },
+  {
+    "url": "https://arxiv.org/abs/2208.11282",
+    "title": "Multi-AI Complex Systems in Humanitarian Response",
+    "published_date": "2022-08-24",
+    "abstract": "AI is being increasingly used to aid response efforts to humanitarian emergencies at multiple levels of decision-making. Such AI systems are generally understood to be stand-alone tools for decision support, with ethical assessments, guidelines and frameworks applied to them through this lens. However, as the prevalence of AI increases in this domain, such systems will begin to encounter each other through information flow networks created by interacting decision-making entities, leading to multi-AI complex systems which are often ill understood. In this paper we describe how these multi-AI systems can arise, even in relatively simple real-world humanitarian response scenarios, and lead to potentially emergent and erratic erroneous behavior. We discuss how we can better work towards more trustworthy multi-AI systems by exploring some of the associated challenges and opportunities, and how we can design better mechanisms to understand and assess such systems. This paper is designed to be a first exposition on this topic in the field of humanitarian response, raising awareness, exploring the possible landscape of this domain, and providing a starting point for future work within the wider community.",
+    "summary": "The increasing use of AI in humanitarian response is creating interconnected \"multi-AI complex systems,\" whose emergent behavior may be unpredictable and unreliable. This paper introduces this phenomenon, highlighting the need for new methods to understand, assess, and improve the trustworthiness of these systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2208.11556",
+    "title": "Knowledge-based and Data-driven Reasoning and Learning for Ad Hoc Teamwork",
+    "published_date": "2022-08-24",
+    "abstract": "We present an architecture for ad hoc teamwork , which refers to collaboration in a team of agents without prior coordi- nation. State of the art methods for this problem often include a data-driven component that uses a long history of prior observations to model the behaviour of other agents (or agent types) and to determine the ad hoc agent's behavior. In many practical domains, it is challenging to ﬁnd large training datasets, and necessary to understand and incrementally extend the existing models to account for changes in team composition or domain attributes. Our architecture combines the principles of knowledge-based and data-driven reasoning and learning. Speciﬁcally, we enable an ad hoc agent to per- form non-monotonic logical reasoning with prior commonsense domain knowledge and incrementally-updated simple predictive models of other agents' behaviour. We use the benchmark simulated multiagent collaboration domain Fort Attack to demonstrate that our architecture supports adaptation to unforeseen changes, incremental learning and revision of models of other agents' behaviour from limited samples, transparency in the ad hoc agent's decision making, and bet- ter performance than a data-driven baseline.",
+    "summary": "This paper proposes an architecture for ad hoc teamwork that combines knowledge-based reasoning with data-driven learning, allowing agents to collaborate effectively even with limited training data and adapt to changing team compositions or environments. The approach uses non-monotonic logic and incrementally updated predictive models, demonstrating improved performance and transparency compared to purely data-driven methods."
+  }
+]

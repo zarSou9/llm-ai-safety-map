@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Labour and technology at the time of Covid-19. Can artificial intelligence mitigate the need for proximity?",
+    "abstract": "Social distancing has become worldwide the key public policy to be implemented during the COVID-19 epidemic and reducing the degree of proximity among workers turned out to be an important dimension. An emerging literature looks at the role of automation in supporting the work of humans but the potential of Artiﬁcial Intelligence (AI) to inﬂuence the need for physical proximity on the workplace has been left largely unexplored. By using a unique and innovative dataset that combines data on advancements of AI at the occupational level with information on the required proximity in the job-place and administrative employer-employee data on job ﬂows, our results show that AI and proximity stand in an inverse U-shape relationship at the sectoral level, with high advancements in AI that are negatively associated with proximity. We detect this pattern among sectors that were closed due to the lockdown measures as well as among sectors that remained open. We argue that, apart from the expected gains in productivity and competitiveness, preserving jobs and economic activities in a situation of high contagion may be the additional beneﬁts of a policy favouring digitization.",
+    "published_date": "2024-06-16",
+    "citation_count": 6,
+    "url": "https://www.econstor.eu/bitstream/10419/228711/1/GLO-DP-0765.pdf",
+    "summary": "This paper investigates the relationship between AI adoption and workplace proximity, finding an inverse U-shaped correlation where high AI advancement is negatively associated with proximity needs across various sectors, even those impacted by COVID-19 lockdowns. The authors suggest that AI-driven digitization can boost productivity, competitiveness, and job preservation during pandemics."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "President Biden's October 30, 2023 executive order on AI outlines numerous deadlines for various federal agencies to submit reports, conduct assessments, and develop strategies related to AI development, implementation, and risk mitigation, spanning from late November 2023 to January 2024 and beyond. These actions aim to address AI's impact on various sectors, including transportation, labor, and national security."
+  },
+  {
+    "title": "AI technologies and employment: micro evidence from the supply side",
+    "abstract": "ABSTRACT In this work we investigate the possible job-creation impact of artificial intelligence (AI) technologies, focusing on the supply side, where the development of these technologies can be conceived as product innovations in upstream sectors. The empirical analysis is based on a worldwide longitudinal sample (obtained by merging the EPO PATSTAT and BvD-ORBIS databases) of more than 3,500 front-runner companies that patented AI-related inventions over the period 2000–2016. Based on system GMM estimates of dynamic panel models, our results show a positive and significant impact of AI patent families on employment, supporting the labour-friendly nature of AI product innovation.",
+    "published_date": "2022-02-20",
+    "citation_count": 33,
+    "url": "https://www.tandfonline.com/doi/pdf/10.1080/13504851.2021.2024129?needAccess=true",
+    "summary": "Analysis of over 3,500 companies with AI-related patents from 2000-2016 shows a positive correlation between AI patent families and employment growth, suggesting AI product innovation increases jobs."
+  },
+  {
+    "title": "AI and Shared Prosperity",
+    "abstract": "Future advances in AI that automate away human labor may have stark implications for labor markets and inequality. This paper proposes a framework to analyze the effects of specific types of AI systems on the labor market, based on how much labor demand they will create versus displace, while taking into account that productivity gains also make society wealthier and thereby contribute to additional labor demand. This analysis enables ethically-minded companies creating or deploying AI systems as well as researchers and policymakers to take into account the effects of their actions on labor markets and inequality, and therefore to steer progress in AI in a direction that advances shared prosperity and an inclusive economic future for all of humanity.",
+    "published_date": "2021-05-18",
+    "citation_count": 25,
+    "url": "https://dl.acm.org/doi/10.1145/3461702.3462619",
+    "summary": "This paper presents a framework for analyzing AI's impact on labor markets and inequality, considering both job displacement and the creation of new jobs due to productivity gains, aiming to guide ethical AI development and deployment for shared prosperity."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization",
+    "published_date": "2021-06-04",
+    "summary": "The article explores applying game theory to AI development within organizations, highlighting its limitations and proposing a model integrating AI agents into bureaucratic structures. This model leverages comparative advantage between human and AI agents to maintain efficient goal achievement through specialized tasks and hierarchical communication, ultimately emphasizing the continued necessity of organizational structures even with advanced AI."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/M3xpp7CZ2JaSafDJB/computer-governance-and-conclusions-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Governance and Conclusions - Transformative AI and Compute [3/4]",
+    "published_date": "2021-10-14",
+    "summary": "This article explores the governance of artificial intelligence (AI) through the lens of compute resources, arguing that the physical, energy, and supply chain constraints of powerful computing make it a more governable aspect of AI development than other areas like data or algorithms. The author suggests that controlling access to compute could be a key strategy for improving AI safety."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/economic-consequences-of-agi",
+    "author": "Mark Xu, CarlShulman",
+    "title": "Economic Consequences of AGI - AI Alignment Forum",
+    "published_date": "2021-06-11",
+    "summary": "Artificial General Intelligence (AGI) promises radical economic changes, potentially creating immense wealth but also widespread job displacement. Differing perspectives exist on the resulting economic growth, ranging from Malthusian scenarios of wage stagnation to explosive growth concentrated in fewer, more powerful entities, potentially leading to a singleton controlling the economy."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/G4KHuYC3pHry6yMhi/compute-research-questions-and-metrics-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Research Questions and Metrics - Transformative AI and Compute [4/4]",
+    "published_date": "2021-11-28",
+    "summary": "This appendix to a series on transformative AI and compute explores key research questions surrounding AI hardware, compute scaling, and pricing, offering a list of AI hardware startups and analyzing compute metrics and their limitations."
+  }
+]

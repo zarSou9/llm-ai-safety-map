@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2402.13662",
+    "title": "A Method For Bounding Tail Probabilities",
+    "published_date": "2024-02-21",
+    "abstract": "We present a method for upper and lower bounding the right and the left tail probabilities of continuous random variables (RVs). For the right tail probability of RV $X$ with probability density function $f_X(x)$, this method requires first setting a continuous, positive, and strictly decreasing function $g_X(x)$ such that $-f_X(x)/g'_X(x)$ is a decreasing and increasing function, $\\forall x>x_0$, which results in upper and lower bounds, respectively, given in the form $-f_X(x) g_X(x)/g'_X(x)$, $\\forall x>x_0$, where $x_0$ is some point. Similarly, for the upper and lower bounds on the left tail probability of $X$, this method requires first setting a continuous, positive, and strictly increasing function $g_X(x)$ such that $f_X(x)/g'_X(x)$ is an increasing and decreasing function, $\\forall x<x_0$, which results in upper and lower bounds, respectively, given in the form $f_X(x) g_X(x)/g'_X(x)$, $\\forall x<x_0$. We provide some examples of good candidates for the function $g_X(x)$. We also establish connections between the new bounds and Markov's inequality and Chernoff's bound. In addition, we provide an iterative method for obtaining ever tighter lower and upper bounds, under certain conditions. Finally, we provide numerical examples, where we show the tightness of these bounds, for some chosen $g_X(x)$."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.00999v1",
+    "title": "High-Probability Bounds for Stochastic Optimization and Variational Inequalities: the Case of Unbounded Variance",
+    "published_date": "2023-02-02",
+    "abstract": "During recent years the interest of optimization and machine learning communities in high-probability convergence of stochastic optimization methods has been growing. One of the main reasons for this is that high-probability complexity bounds are more accurate and less studied than in-expectation ones. However, SOTA high-probability non-asymptotic convergence results are derived under strong assumptions such as the boundedness of the gradient noise variance or of the objective's gradient itself. In this paper, we propose several algorithms with high-probability convergence results under less restrictive assumptions. In particular, we derive new high-probability convergence results under the assumption that the gradient/operator noise has bounded central $\\alpha$-th moment for $\\alpha \\in (1,2]$ in the following setups: (i) smooth non-convex / Polyak-Lojasiewicz / convex / strongly convex / quasi-strongly convex minimization problems, (ii) Lipschitz / star-cocoercive and monotone / quasi-strongly monotone variational inequalities. These results justify the usage of the considered methods for solving problems that do not fit standard functional classes studied in stochastic optimization.",
+    "citation_count": 35
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.04505v1",
+    "title": "Inner Approximations of Stochastic Programs for Data-Driven Stochastic Barrier Function Design",
+    "published_date": "2023-04-10",
+    "abstract": "This paper proposes a new framework to compute finite-horizon safety guarantees for discrete-time piece-wise affine systems with stochastic noise of unknown distributions. The approach is based on a novel approach to synthesise a stochastic barrier function (SBF) from noisy data and rely on the scenario optimization theory. In particular, we show that the stochastic program to synthesize a SBF can be relaxed into a chance-constrained optimisation problem on which scenario approach theory applies. We further show that the resulting program can be reduced to a linear programming problem, thus guaranteeing efficiency. In contrast to existing approaches, this method is data efficient as it only requires the number of data to be proportional to the logarithm in the negative inverse of the confidence level and is computationally efficient due to its reduction to linear programming. The efficacy of the method is empirically evaluated on various verification benchmarks. Experiments show a significant improvement with respect to state-of-the-art, obtaining tighter certificates with a confidence that is several orders of magnitude higher.",
+    "citation_count": 6
+  },
+  {
+    "url": "https://arxiv.org/abs/2201.07306v2",
+    "title": "Bregman Deviations of Generic Exponential Families",
+    "published_date": "2022-01-18",
+    "abstract": "We revisit the method of mixture technique, also known as the Laplace method, to study the concentration phenomenon in generic exponential families. Combining the properties of Bregman divergence associated with log-partition function of the family with the method of mixtures for super-martingales, we establish a generic bound controlling the Bregman divergence between the parameter of the family and a finite sample estimate of the parameter. Our bound is time-uniform and makes appear a quantity extending the classical information gain to exponential families, which we call the Bregman information gain. For the practitioner, we instantiate this novel bound to several classical families, e.g., Gaussian, Bernoulli, Exponential, Weibull, Pareto, Poisson and Chi-square yielding explicit forms of the confidence sets and the Bregman information gain. We further numerically compare the resulting confidence bounds to state-of-the-art alternatives for time-uniform concentration and show that this novel method yields competitive results. Finally, we highlight the benefit of our concentration bounds on some illustrative applications.",
+    "citation_count": 10
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03"
+  }
+]

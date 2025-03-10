@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.16872",
+    "title": "Ethical and Scalable Automation: A Governance and Compliance Framework for Business Applications",
+    "published_date": "2024-09-25",
+    "abstract": "The popularisation of applying AI in businesses poses significant challenges relating to ethical principles, governance, and legal compliance. Although businesses have embedded AI into their day-to-day processes, they lack a unified approach for mitigating its potential risks. This paper introduces a framework ensuring that AI must be ethical, controllable, viable, and desirable. Balancing these factors ensures the design of a framework that addresses its trade-offs, such as balancing performance against explainability. A successful framework provides practical advice for businesses to meet regulatory requirements in sectors such as finance and healthcare, where it is critical to comply with standards like GPDR and the EU AI Act. Different case studies validate this framework by integrating AI in both academic and practical environments. For instance, large language models are cost-effective alternatives for generating synthetic opinions that emulate attitudes to environmental issues. These case studies demonstrate how having a structured framework could enhance transparency and maintain performance levels as shown from the alignment between synthetic and expected distributions. This alignment is quantified using metrics like Chi-test scores, normalized mutual information, and Jaccard indexes. Future research should explore the framework's empirical validation in diverse industrial settings further, ensuring the model's scalability and adaptability.",
+    "summary": "This paper proposes a governance and compliance framework for ethical and scalable AI in business applications, emphasizing the balance between AI performance and ethical considerations like explainability and compliance with regulations such as GDPR and the EU AI Act. The framework's efficacy is demonstrated through case studies involving large language models, with future research focused on broader industrial application and scalability."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/scKHCu9yirjf6S2bT/questions-i-d-want-to-ask-an-agi-to-test-its-understanding",
+    "author": "Sweenesm",
+    "title": "Questions I'd Want to Ask an AGI+ to Test Its Understanding of Ethics",
+    "published_date": "2024-01-26",
+    "summary": "The author proposes a series of ethical dilemmas to assess an advanced AI's understanding of real-world morality, focusing on its ability to differentiate between right and wrong actions and justify its choices, rather than simply predicting its behavior. These questions explore scenarios involving violence, surveillance, resource allocation, and cooperation with unethical actors to gauge the AI's alignment with human values."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/wwioAJHTeaGqBvtjd/update-on-developing-an-ethics-calculator-to-align-an-agi-to",
+    "author": "Sweenesm",
+    "title": "Update on Developing an Ethics Calculator to Align an AGI to",
+    "published_date": "2024-03-12",
+    "summary": "This article details the ongoing development of an \"ethics calculator\" designed to align Artificial General Intelligence (AGI) with ethical principles. The calculator uses a utilitarian framework, incorporating subjective well-being (including self-esteem), rights, and a quantitative assessment of value changes to predict and optimize ethical outcomes across various scenarios."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12",
+    "summary": "This article proposes a delay-based on-chip compute governance mechanism to verify the location of AI chips, using the speed of light as a constraint. However, the mechanism's reliance on network latency introduces a significant false positive risk, prompting the author to suggest potential solutions."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for third-party testing of large-scale AI systems to mitigate societal harm from misuse or accidents. They propose a policy framework involving trusted testers and standardized assessments, balancing safety with the need to avoid overly burdensome regulations on smaller AI developers."
+  },
+  {
+    "url": "http://arxiv.org/abs/2306.01774",
+    "title": "RE-centric Recommendations for the Development of Trustworthy(er) Autonomous Systems",
+    "published_date": "2023-05-29",
+    "abstract": "Complying with the EU AI Act (AIA) guidelines while developing and implementing AI systems will soon be mandatory within the EU. However, practitioners lack actionable instructions to operationalise ethics during AI systems development. A literature review of different ethical guidelines revealed inconsistencies in the principles addressed and the terminology used to describe them. Furthermore, requirements engineering (RE), which is identified to foster trustworthiness in the AI development process from the early stages was observed to be absent in a lot of frameworks that support the development of ethical and trustworthy AI. This incongruous phrasing combined with a lack of concrete development practices makes trustworthy AI development harder. To address these concerns, we formulated a comparison table for the terminology used and the coverage of the ethical AI principles in major ethical AI guidelines. We then examined the applicability of ethical AI development frameworks for performing effective RE during the development of trustworthy AI systems. A tertiary review and meta-analysis of literature discussing ethical AI frameworks revealed their limitations when developing trustworthy AI. Based on our findings, we propose recommendations to address such limitations during the development of trustworthy AI.",
+    "citation_count": 3,
+    "summary": "This paper highlights the gap between existing ethical AI guidelines and practical requirements engineering (RE) practices for building trustworthy AI systems, particularly concerning EU AI Act compliance. It proposes recommendations to bridge this gap by improving terminology consistency and integrating RE into ethical AI development frameworks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a novel framework for building ethical AI by incorporating ethical principles as Bayesian priors into AI learning processes. This approach, inspired by human moral intuitions, aims to guide AI decision-making toward ethically sound judgments."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/smDeWfgeYDg9eGq5G/environments-for-measuring-deception-resource-acquisition",
+    "author": "Dan H",
+    "title": "Environments for Measuring Deception, Resource Acquisition, and Ethical Violations",
+    "published_date": "2023-04-07",
+    "summary": "The MACHIAVELLI benchmark, a suite of text-based Choose-Your-Own-Adventure games, assesses the ethical behavior of AI agents by analyzing their choices in complex social situations. The benchmark reveals a trade-off between achieving goals and avoiding harmful actions like deception and power-seeking, highlighting the need for methods to improve AI agent safety."
+  }
+]

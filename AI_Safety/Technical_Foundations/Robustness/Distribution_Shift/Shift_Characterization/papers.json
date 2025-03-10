@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2412.12910",
+    "title": "Sequential Harmful Shift Detection Without Labels",
+    "published_date": "2024-12-17",
+    "abstract": "We introduce a novel approach for detecting distribution shifts that negatively impact the performance of machine learning models in continuous production environments, which requires no access to ground truth data labels. It builds upon the work of Podkopaev and Ramdas [2022], who address scenarios where labels are available for tracking model errors over time. Our solution extends this framework to work in the absence of labels, by employing a proxy for the true error. This proxy is derived using the predictions of a trained error estimator. Experiments show that our method has high power and false alarm control under various distribution shifts, including covariate and label shifts and natural shifts over geography and time.",
+    "summary": "This paper presents a label-free method for detecting harmful distribution shifts impacting machine learning models in production, using a trained error estimator as a proxy for true error to extend a previous labeled-data approach. Experiments demonstrate its effectiveness across various shift types."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.19156",
+    "title": "Beyond Discrepancy: A Closer Look at the Theory of Distribution Shift",
+    "published_date": "2024-05-29",
+    "abstract": "Many machine learning models appear to deploy effortlessly under distribution shift, and perform well on a target distribution that is considerably different from the training distribution. Yet, learning theory of distribution shift bounds performance on the target distribution as a function of the discrepancy between the source and target, rarely guaranteeing high target accuracy. Motivated by this gap, this work takes a closer look at the theory of distribution shift for a classifier from a source to a target distribution. Instead of relying on the discrepancy, we adopt an Invariant-Risk-Minimization (IRM)-like assumption connecting the distributions, and characterize conditions under which data from a source distribution is sufficient for accurate classification of the target. When these conditions are not met, we show when only unlabeled data from the target is sufficient, and when labeled target data is needed. In all cases, we provide rigorous theoretical guarantees in the large sample regime.",
+    "summary": "This paper challenges the reliance on discrepancy measures in distribution shift theory, instead proposing an IRM-like assumption to analyze classifier performance under shifted distributions. It provides theoretical guarantees for target accuracy based on whether source data, unlabeled target data, or labeled target data are sufficient."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/jig8yRHuwhgxN35ue/a-robust-natural-latent-over-a-mixed-distribution-is-natural",
+    "author": "Johnswentworth; David Lorell",
+    "title": "A Robust Natural Latent Over A Mixed Distribution Is Natural Over The Distributions Which Were Mixed",
+    "published_date": "2024-08-22",
+    "summary": "The article presents a mathematical theorem demonstrating that if a natural latent variable is robustly identified in a mixture of distributions, then that same latent variable is approximately natural in each individual component distribution. The robustness is defined either trivially (the error is uniformly bounded) or non-trivially (the gradient of the error with respect to mixture weights is zero)."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/TRKF9g65nhPBQoxJu/distribution-shifts-and-the-importance-of-ai-safety",
+    "author": "Leon Lang",
+    "title": "Distribution Shifts and The Importance of AI Safety",
+    "published_date": "2022-09-29",
+    "summary": "This article argues that the distribution shift problem in machine learning poses an existential risk, as increasingly powerful AI systems may deviate from human goals. The author uses this problem to highlight the crucial need for AI safety research to prevent humanity's disempowerment."
+  },
+  {
+    "url": "https://arxiv.org/abs/2110.11328",
+    "title": "A Fine-Grained Analysis on Distribution Shift",
+    "published_date": "2021-10-21",
+    "abstract": "Robustness to distribution shifts is critical for deploying machine learning models in the real world. Despite this necessity, there has been little work in defining the underlying mechanisms that cause these shifts and evaluating the robustness of algorithms across multiple, different distribution shifts. To this end, we introduce a framework that enables fine-grained analysis of various distribution shifts. We provide a holistic analysis of current state-of-the-art methods by evaluating 19 distinct methods grouped into five categories across both synthetic and real-world datasets. Overall, we train more than 85K models. Our experimental framework can be easily extended to include new methods, shifts, and datasets. We find, unlike previous work~\\citep{Gulrajani20}, that progress has been made over a standard ERM baseline; in particular, pretraining and augmentations (learned or heuristic) offer large gains in many cases. However, the best methods are not consistent over different datasets and shifts.",
+    "citation_count": 184,
+    "summary": "This paper introduces a framework for fine-grained analysis of distribution shifts in machine learning, evaluating 19 methods across diverse datasets and revealing that while pretraining and augmentations improve robustness, no single method consistently outperforms others across all shifts."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.08952v2.pdf",
+    "title": "Failing Conceptually: Concept-Based Explanations of Dataset Shift",
+    "published_date": "2021-04-18",
+    "abstract": "Despite their remarkable performance on a wide range of visual tasks, machine learning technologies often succumb to data distribution shifts. Consequently, a range of recent work explores techniques for detecting these shifts. Unfortunately, current techniques offer no explanations about what triggers the detection of shifts, thus limiting their utility to provide actionable insights. In this work, we present Concept Bottleneck Shift Detection (CBSD): a novel explainable shift detection method. CBSD provides explanations by identifying and ranking the degree to which high-level human-understandable concepts are affected by shifts. Using two case studies (dSprites and 3dshapes), we demonstrate how CBSD can accurately detect underlying concepts that are affected by shifts and achieve higher detection accuracy compared to state-of-the-art shift detection methods.",
+    "citation_count": 6,
+    "summary": "Concept Bottleneck Shift Detection (CBSD) is a novel explainable method for detecting dataset shifts in machine learning, identifying and ranking the impact of high-level concepts on shift detection accuracy, surpassing state-of-the-art methods."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.12992v1.pdf",
+    "title": "SHIFT15M: Fashion-specific dataset for set-to-set matching with several distribution shifts",
+    "published_date": "2021-08-30",
+    "abstract": "Set-to-set matching is the problem of matching two different sets of items based on some criteria. Especially when each item in the set is high-dimensional, such as an image, set-to-set matching is treated as one of the applied problems to be solved by utilizing neural networks. Most machine learning-based set-to-set matching generally assumes that the training and test data follow the same distribution. However, such assumptions are often violated in real-world machine learning problems. In this paper, we propose SHIFT15M, a dataset that can be used to properly evaluate set-to-set matching models in situations where the distribution of data changes between training and testing. Some benchmark experiments show that the performance of naive methods drops due to the effects of the distribution shift. In addition, we provide software to handle SHIFT15M dataset in a very simple way: https://github.com/st-tech/zozo-shift15m. The URL for the software will appear after this manuscript is published.",
+    "citation_count": 2,
+    "summary": "SHIFT15M is a new dataset designed to evaluate the robustness of set-to-set matching models against distribution shifts, a common real-world challenge; benchmark experiments reveal that standard methods perform poorly on this dataset, highlighting the need for more robust algorithms."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.03067.pdf",
+    "title": "The s-value: evaluating stability with respect to distributional shifts",
+    "published_date": "2021-05-07",
+    "abstract": "Common statistical measures of uncertainty such as $p$-values and confidence intervals quantify the uncertainty due to sampling, that is, the uncertainty due to not observing the full population. However, sampling is not the only source of uncertainty. In practice, distributions change between locations and across time. This makes it difficult to gather knowledge that transfers across data sets. We propose a measure of instability that quantifies the distributional instability of a statistical parameter with respect to Kullback-Leibler divergence, that is, the sensitivity of the parameter under general distributional perturbations within a Kullback-Leibler divergence ball. In addition, we quantify the instability of parameters with respect to directional or variable-specific shifts. Measuring instability with respect to directional shifts can be used to detect the type of shifts a parameter is sensitive to. We discuss how such knowledge can inform data collection for improved estimation of statistical parameters under shifted distributions. We evaluate the performance of the proposed measure on real data and show that it can elucidate the distributional instability of a parameter with respect to certain shifts and can be used to improve estimation accuracy under shifted distributions.",
+    "citation_count": 15,
+    "summary": "The s-value quantifies the instability of a statistical parameter under distributional shifts, measured by Kullback-Leibler divergence, assessing its sensitivity to various perturbation types and informing data collection strategies for improved estimation under changing conditions."
+  }
+]

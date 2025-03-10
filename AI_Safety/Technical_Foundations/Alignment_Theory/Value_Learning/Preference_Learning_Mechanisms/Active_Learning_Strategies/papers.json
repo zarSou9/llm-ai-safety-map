@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2402.15757",
+    "title": "Batch Active Learning of Reward Functions from Human Preferences",
+    "published_date": "2024-02-24",
+    "abstract": "Data generation and labeling are often expensive in robot learning. Preference-based learning is a concept that enables reliable labeling by querying users with preference questions. Active querying methods are commonly employed in preference-based learning to generate more informative data at the expense of parallelization and computation time. In this article, we develop a set of novel algorithms, batch active preference-based learning methods, that enable efficient learning of reward functions using as few data samples as possible while still having short query generation times and also retaining parallelizability. We introduce a method based on determinantal point processes for active batch generation and several heuristic-based alternatives. Finally, we present our experimental results for a variety of robotics tasks in simulation. Our results suggest that our batch active learning algorithm requires only a few queries that are computed in a short amount of time. We showcase one of our algorithms in a study to learn human users' preferences.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.14630.pdf",
+    "title": "Experience in Engineering Complex Systems: Active Preference Learning with Multiple Outcomes and Certainty Levels",
+    "published_date": "2023-02-27",
+    "abstract": "Black-box optimization refers to the optimization problem whose objective function and/or constraint sets are either unknown, inaccessible, or non-existent. In many applications, especially with the involvement of humans, the only way to access the optimization problem is through performing physical experiments with the available outcomes being the preference of one candidate with respect to one or many others. Accordingly, the algorithm so-called Active Preference Learning has been developed to exploit this specific information in constructing a surrogate function based on standard radial basis functions, and then forming an easy-to-solve acquisition function which repetitively suggests new decision vectors to search for the optimal solution. Based on this idea, our approach aims to extend the algorithm in such a way that can exploit further information effectively, which can be obtained in reality such as: 5-point Likert type scale for the outcomes of the preference query (i.e., the preference can be described in not only\"this is better than that\"but also\"this is much better than that\"level), or multiple outcomes for a single preference query with possible additive information on how certain the outcomes are. The validation of the proposed algorithm is done through some standard benchmark functions, showing a promising improvement with respect to the state-of-the-art algorithm."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Z9P2m462wQ4qmH6uo/aspiration-based-q-learning",
+    "author": "Clément Dumas, Jobst Heitzig",
+    "title": "Aspiration-based Q-Learning",
+    "published_date": "2023-10-27"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/fsGEyCYhqs7AWwdCe/learning-theoretic-agenda-reading-list",
+    "author": "Vanessa Kosoy",
+    "title": "Learning-theoretic agenda reading list",
+    "published_date": "2023-11-09"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.07259.pdf",
+    "title": "APReL: A Library for Active Preference-based Reward Learning Algorithms",
+    "published_date": "2021-08-16",
+    "abstract": "Reward learning is a fundamental problem in human-robot interaction to have robots that operate in alignment with what their human user wants. Many preference-based learning algorithms and active querying techniques have been proposed as a solution to this problem. In this paper, we present APReL, a library for active preference-based reward learning algorithms, which enable researchers and practitioners to experiment with the existing techniques and easily develop their own algorithms for various modules of the problem. APReL is available at https://github.com/Stanford-ILIAD/APReL.",
+    "citation_count": 29
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.13192v2.pdf",
+    "title": "On Preference Learning Based on Sequential Bayesian Optimization with Pairwise Comparison",
+    "published_date": "2021-03-24",
+    "abstract": "User preference learning is generally a hard problem. Individual preferences are typically unknown even to users themselves, while the space of choices is infinite. Here we study user preference learning from information-theoretic perspective. We model preference learning as a system with two interacting sub-systems, one representing a user with his/her preferences and another one representing an agent that has to learn these preferences. The user with his/her behaviour is modeled by a parametric preference function. To efficiently learn the preferences and reduce search space quickly, we propose the agent that interacts with the user to collect the most informative data for learning. The agent presents two proposals to the user for evaluation, and the user rates them based on his/her preference function. We show that the optimum agent strategy for data collection and preference learning is a result of maximin optimization of the normalized weighted Kullback-Leibler (KL) divergence between true and agent-assigned predictive user response distributions. The resulting value of KL-divergence, which we also call remaining system uncertainty (RSU), provides an efficient performance metric in the absence of the ground truth. This metric characterises how well the agent can predict user and, thus, the quality of the underlying learned user (preference) model. Our proposed agent comprises sequential mechanisms for user model inference and proposal generation. To infer the user model (preference function), Bayesian approximate inference is used in the agent. The data collection strategy is to generate proposals, responses to which help resolving uncertainty associated with prediction of the user responses the most. The efficiency of our approach is validated by numerical simulations. Also a real-life example of preference learning application is provided.",
+    "citation_count": 4
+  }
+]

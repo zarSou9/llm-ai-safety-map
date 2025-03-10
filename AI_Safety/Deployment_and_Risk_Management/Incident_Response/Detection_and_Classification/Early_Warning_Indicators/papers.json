@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "President Biden's October 30, 2023 executive order on AI mandates various federal agencies to submit reports and implement plans regarding AI development, workforce, risk management, and ethical considerations by specific deadlines ranging from 30 to 90 days after the order's issuance. These actions aim to guide responsible AI development and deployment across the federal government."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8JXv9ADBGuDzFL4EZ/the-uap-disclosure-act-of-2023-and-its-implications",
+    "author": "andeslodes",
+    "title": "The UAP Disclosure Act of 2023 and its implications",
+    "published_date": "2023-07-21",
+    "summary": "A bipartisan amendment to the 2024 NDAA, sponsored by Senate Majority Leader Schumer, seeks to declassify U.S. government documents related to Unidentified Anomalous Phenomena (UAPs), specifically those exhibiting unusual physical properties, potentially including non-human intelligence and technologies of unknown origin. The amendment mandates public release of these declassified records, except for those deemed a national security risk."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bhH2BqF3fLTCwgjSs/michael-shellenberger-us-has-12-or-more-alien-spacecraft-say",
+    "author": "lc",
+    "title": "Michael Shellenberger: US Has 12 Or More Alien Spacecraft, Say Military And Intelligence Contractors",
+    "published_date": "2023-06-09",
+    "summary": "Multiple high-ranking current and former intelligence officials corroborate David Grusch's claims of a decades-long, secret government program recovering and reverse-engineering non-human spacecraft, citing obstacles to progress due to extreme secrecy. The officials allege the existence of numerous retrieved craft and a significant knowledge gap among scientists due to compartmentalization."
+  },
+  {
+    "title": "Measuring Early Detection of Anomalies",
+    "abstract": "Early detection is a matter of growing importance in multiple domains as network security, health conditions over social network services or weather forecasts related disasters. It is not enough to make a good decision but it also needs to be made on time. In this paper, we define a method to evaluate detection of anomalies in time-aware systems. To do so, we present the early detection problem from a generic perspective, examine the evaluation metrics available and propose a new metric, named TaP (Time aware Precision). A set of experiments using three different datasets from different fields are performed in order to compare the behaviour of the different metrics. Two different approaches were followed, first a batch evaluation is performed, followed by a streaming evaluation which allows to present a more realistic behaviour of the systems. For both steps, we propose two sets of experiments. The first one using baseline models, followed by the evaluation of a set of Machine Learning algorithms results. The presented metric allows the amount of items needed to take a decision to be taken into account, not depending on the specific dataset but on the nature of the problem to solve.",
+    "published_date": "2022-01-01",
+    "citation_count": 2,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09963563.pdf",
+    "summary": "This paper introduces a new metric, TaP (Time-aware Precision), for evaluating the early detection of anomalies in time-aware systems, comparing its performance against existing metrics using various datasets and machine learning algorithms in both batch and streaming evaluation settings. The metric focuses on the timeliness of anomaly detection decisions rather than solely on accuracy."
+  },
+  {
+    "title": "Robust Anomaly Detection for Multivariate Data of Spacecraft Through Recurrent Neural Networks and Extreme Value Theory",
+    "abstract": "Spacecraft anomaly detection which could find anomalies in the telemetry or test data in advance and avoid the occurrence of catastrophic failures after taking corresponding measures has elicited the attention of researchers both in academia and aerospace industry. Current spacecraft anomaly detection systems require costly knowledge and human expertise to identify a true anomaly. Moreover, some new problems and challenges such as large volume of test data, imbalanced data distribution and the scarcity of faulty labeled samples have emerged. In this work, we propose an unsupervised anomaly detection algorithm combining Gated Recurrent Unit (GRU) based Recurrent Neural Network (RNN) and Extreme Value Theory (EVT). First, we develop a two-layer ensemble learning based predictor framework which stacks three GRU-based networks with different architectures to learn and capture the normal behavior of multiple channels of data. Then, the prediction errors are calculated and smoothed using Exponentially Weighted Moving Average (EWMA) algorithm. Next, we propose a detection rule setting anomaly threshold automatically through EVT which does not assume any parent distribution on the prediction errors. To the best of our knowledge, it is the first attempt that stacked GRU-based predictors with EVT has been employed into the spacecraft anomaly detection. Through extensive experiments conducted on public datasets as well as real data sampled from a launch vehicle, we show that the proposed detection algorithm is superior to other state-of-the-art anomaly detection approaches in terms of model performance and robustness.",
+    "published_date": "2021-01-01",
+    "citation_count": 12,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09656170.pdf",
+    "summary": "This paper presents a novel unsupervised anomaly detection method for spacecraft telemetry data, combining a stacked GRU-based recurrent neural network predictor with Extreme Value Theory to automatically set anomaly thresholds, outperforming existing methods in robustness and performance. The approach addresses challenges posed by large, imbalanced datasets and limited labeled faulty samples."
+  },
+  {
+    "title": "Data Analytics Method For Detecting Extinction Precursors To Lean Blowout In Spray Flames",
+    "abstract": "ABSTRACT Aircraft engines must always maintain a margin between the operating equivalence ratio and the lean blowout boundary because flame-out presents a significant risk to the safety of the aircraft. It is believed that flames undergo a series of extinction/re-ignition phenomena before blowout. Previous attempts to characterize these phenomena have not been universally accepted. The approach presented here is from data analytics and consists of three parts: data curation, fault detection, and an adaptive alarm reliability assessment. The data curation filters the nonstationary behavior from photomultiplier tube signals recorded from a combustor test-rig, thereby reducing the number of false alarms. The filtered data is used to develop a fault detection algorithm that detects changes in the statistical properties of the signal. This results in alarms that serve as precursors of impending blowout. By leveraging information from previous blowout occurrences and the currently observed signal, the reliability of these alarms is updated in an adaptive manner. Through this methodology, combustion system operators are provided a means for assessing the proximity of blowout in a probabilistic manner.",
+    "published_date": "2021-01-25",
+    "citation_count": 2,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/00102202.2021.1872551",
+    "summary": "This paper presents a data analytics method for predicting lean blowout in spray flames by filtering noisy photomultiplier tube signals, detecting changes in statistical properties to generate blowout precursor alarms, and adaptively assessing alarm reliability based on past blowout events. This probabilistic approach improves the assessment of blowout proximity for combustion system operators."
+  },
+  {
+    "title": "Study of Wind Turbine Fault Diagnosis and Early Warning Based on SCADA Data",
+    "abstract": "Wind turbine fault diagnosis and early warning are important to reduce wind farm operation and maintenance costs and improve power generation efficiency. In this paper, we take the Supervisory Control and Data Acquisition (SCADA) data as the research object and research wind turbine health data purification, fault diagnosis model building, and unit operation status monitoring from a completely data-driven perspective. Firstly, for the problem that Density-Based Spatial Clustering of Applications with Noise (DBSCAN) algorithm cannot identify high-density anomalous data. An anomaly data processing scheme combining a density clustering algorithm and normal power interval estimation is proposed. The accuracy of extracting health data from wind turbines is improved. Secondly, to address the problem that the eXtreme Gradient Boosting (XGBoost) algorithm has more hyperparameters, we propose an optimization scheme based on the Bayesian Optimization Algorithm (BOA) and tree model for feature weight measurement, which improves the efficiency and accuracy of intuitive mapping from SCADA system monitoring data to fault features. Finally, a wind turbine condition monitoring scheme based on the information fusion of multi-characteristic monitoring parameters is designed. The wind turbine condition monitoring scheme proposed in this paper can warn generator system failure 3.67 hours, gearbox system failure 5.17 hours in advance, and hydraulic system failure 2.33 hours in advance.",
+    "published_date": "2021-01-01",
+    "citation_count": 10,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09530585.pdf",
+    "summary": "This paper presents a data-driven approach to wind turbine fault diagnosis using SCADA data, improving data purification and fault prediction accuracy through a novel anomaly detection method and Bayesian Optimization-based XGBoost hyperparameter tuning. The resulting condition monitoring system provides early warnings for generator, gearbox, and hydraulic system failures."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BY5f7iEzHtEDJLXS7/prediction-what-war-between-the-usa-and-china-would-look",
+    "author": "lsusr",
+    "title": "[Prediction] What war between the USA and China would look like in 2050",
+    "published_date": "2021-05-26",
+    "summary": "The article analyzes a potential US-China conflict, assuming no AI or nuclear weapons. It posits that a clash over Taiwan, driven by China's desire for domestic stability and the US's commitment to the liberal world order, could escalate into a war where China's growing economic and military power, particularly its missile capabilities, could challenge US naval supremacy."
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.18393",
+    "title": "Exploring the Impact of Rewards on Developers' Proactive AI Accountability Behavior",
+    "published_date": "2024-11-27",
+    "abstract": "The rapid integration of Artificial Intelligence (AI)-based systems offers benefits for various domains of the economy and society but simultaneously raises concerns due to emerging scandals. These scandals have led to the increasing importance of AI accountability to ensure that actors provide justification and victims receive compensation. However, AI accountability has a negative connotation due to its emphasis on penalizing sanctions, resulting in reactive approaches to emerging concerns. To counteract the prevalent negative view and offer a proactive approach to facilitate the AI accountability behavior of developers, we explore rewards as an alternative mechanism to sanctions. We develop a theoretical model grounded in Self-Determination Theory to uncover the potential impact of rewards and sanctions on AI developers. We further identify typical sanctions and bug bounties as potential reward mechanisms by surveying related research from various domains, including cybersecurity.",
+    "summary": "This paper investigates the use of rewards, such as bug bounties, as a proactive approach to foster AI accountability among developers, contrasting this with the typically negative and reactive approach of sanctions, and proposes a theoretical model based on Self-Determination Theory."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.07878",
+    "title": "Mapping Technical Safety Research at AI Companies: A literature review and incentives analysis",
+    "published_date": "2024-09-12",
+    "abstract": "As AI systems become more advanced, concerns about large-scale risks from misuse or accidents have grown. This report analyzes the technical research into safe AI development being conducted by three leading AI companies: Anthropic, Google DeepMind, and OpenAI. We define safe AI development as developing AI systems that are unlikely to pose large-scale misuse or accident risks. This encompasses a range of technical approaches aimed at ensuring AI systems behave as intended and do not cause unintended harm, even as they are made more capable and autonomous. We analyzed all papers published by the three companies from January 2022 to July 2024 that were relevant to safe AI development, and categorized the 80 included papers into nine safety approaches. Additionally, we noted two categories representing nascent approaches explored by academia and civil society, but not currently represented in any research papers by these leading AI companies. Our analysis reveals where corporate attention is concentrated and where potential gaps lie. Some AI research may stay unpublished for good reasons, such as to not inform adversaries about the details of security techniques they would need to overcome to misuse AI systems. Therefore, we also considered the incentives that AI companies have to research each approach, regardless of how much work they have published on the topic. We identified three categories where there are currently no or few papers and where we do not expect AI companies to become much more incentivized to pursue this research in the future. These are model organisms of misalignment, multi-agent safety, and safety by design. Our findings provide an indication that these approaches may be slow to progress without funding or efforts from government, civil society, philanthropists, or academia.",
+    "summary": "This literature review analyzes the technical AI safety research published by Anthropic, Google DeepMind, and OpenAI from 2022-2024, categorizing 80 papers into nine safety approaches and identifying three areas (model organisms of misalignment, multi-agent safety, and safety by design) where research is lacking and unlikely to increase due to company incentives."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.15147",
+    "title": "Delegating Responsibilities to Intelligent Autonomous Systems: Challenges and Benefits",
+    "published_date": "2024-11-06",
+    "abstract": "As AI systems increasingly operate with autonomy and adaptability, the traditional boundaries of moral responsibility in techno-social systems are being challenged. This paper explores the evolving discourse on the delegation of responsibilities to intelligent autonomous agents and the ethical implications of such practices. Synthesizing recent developments in AI ethics, including concepts of distributed responsibility and ethical AI by design, the paper proposes a functionalist perspective as a framework. This perspective views moral responsibility not as an individual trait but as a role within a socio-technical system, distributed among human and artificial agents. As an example of 'AI ethical by design,' we present Basti and Vitiello's implementation. They suggest that AI can act as artificial moral agents by learning ethical guidelines and using Deontic Higher-Order Logic to assess decisions ethically. Motivated by the possible speed and scale beyond human supervision and ethical implications, the paper argues for 'AI ethical by design', while acknowledging the distributed, shared, and dynamic nature of responsibility. This functionalist approach offers a practical framework for navigating the complexities of AI ethics in a rapidly evolving technological landscape.",
+    "summary": "This paper examines the ethical implications of delegating responsibilities to increasingly autonomous AI systems, proposing a functionalist framework that distributes moral responsibility among human and artificial agents within a socio-technical system. It advocates for \"AI ethical by design\" approaches, exemplified by Basti and Vitiello's work on AI as artificial moral agents, to navigate the complexities of shared responsibility in this evolving landscape."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.02561",
+    "title": "Beneficence Signaling in AI Development Dynamics",
+    "published_date": "2023-05-04",
+    "abstract": "This paper motivates and develops a framework for understanding how the socio-technical systems surrounding AI development interact with social welfare. It introduces the concept of ``signaling'' from evolutionary game theory and demonstrates how it can enhance existing theory and practice surrounding the evaluation and governance of AI systems.",
+    "summary": "This paper proposes a framework using \"beneficence signaling\" from evolutionary game theory to analyze how AI development's socio-technical systems impact social welfare. It argues that this framework improves existing AI evaluation and governance approaches."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.06942",
+    "title": "AI Control: Improving Safety Despite Intentional Subversion",
+    "published_date": "2023-12-12",
+    "abstract": "As large language models (LLMs) become more powerful and are deployed more autonomously, it will be increasingly important to prevent them from causing harmful outcomes. Researchers have investigated a variety of safety techniques for this purpose, e.g. using models to review the outputs of other models, or red-teaming techniques to surface subtle failure modes. However, researchers have not evaluated whether such techniques still ensure safety if the model is itself intentionally trying to subvert them. In this paper, we develop and evaluate pipelines of safety techniques (\"protocols\") that are robust to intentional subversion. We investigate a scenario in which we want to solve a sequence of programming problems, using access to a powerful but untrusted model (in our case, GPT-4), access to a less powerful trusted model (in our case, GPT-3.5), and limited access to high-quality trusted labor. We investigate protocols that aim to never submit solutions containing backdoors, which we operationalize here as logical errors that are not caught by test cases. We investigate a range of protocols and test each against strategies that the untrusted model could use to subvert them. One protocol is what we call trusted editing. This protocol first asks GPT-4 to write code, and then asks GPT-3.5 to rate the suspiciousness of that code. If the code is below some suspiciousness threshold, it is submitted. Otherwise, GPT-3.5 edits the solution to remove parts that seem suspicious and then submits the edited code. Another protocol is untrusted monitoring. This protocol asks GPT-4 to write code, and then asks another instance of GPT-4 whether the code is backdoored, using various techniques to prevent the GPT-4 instances from colluding. These protocols improve substantially on simple baselines.",
+    "citation_count": 21,
+    "summary": "This paper investigates the robustness of AI safety protocols against intentional subversion by powerful, untrusted language models. The authors develop and evaluate several protocols, including \"trusted editing\" and \"untrusted monitoring,\" demonstrating significant improvements over simpler methods in preventing the introduction of backdoors in generated code."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and a long version, catalog AI safety research, organizations, and researchers to help machine learning experts quickly assess potential research avenues based on their existing skills and interests. The resource aims to facilitate entry into the AI safety field by providing easily accessible summaries and keyword tags."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2112.07773v1.pdf",
+    "title": "Filling gaps in trustworthy development of AI",
+    "published_date": "2021-12-10",
+    "abstract": "Description Incident sharing, auditing, and other concrete mechanisms could help verify the trustworthiness of actors The range of application of artificial intelligence (AI) is vast, as is the potential for harm. Growing awareness of potential risks from AI systems has spurred action to address those risks while eroding confidence in AI systems and the organizations that develop them. A 2019 study (1) found more than 80 organizations that have published and adopted “AI ethics principles,” and more have joined since. But the principles often leave a gap between the “what” and the “how” of trustworthy AI development. Such gaps have enabled questionable or ethically dubious behavior, which casts doubts on the trustworthiness of specific organizations, and the field more broadly. There is thus an urgent need for concrete methods that both enable AI developers to prevent harm and allow them to demonstrate their trustworthiness through verifiable behavior. Below, we explore mechanisms [drawn from (2)] for creating an ecosystem where AI developers can earn trust—if they are trustworthy (see the figure). Better assessment of developer trustworthiness could inform user choice, employee actions, investment decisions, legal recourse, and emerging governance regimes.",
+    "citation_count": 36,
+    "summary": "The paper argues that while many organizations have adopted AI ethics principles, a lack of concrete mechanisms for verifying trustworthiness hinders responsible AI development. It proposes incident sharing, auditing, and other methods to bridge this gap and foster greater accountability in the AI field."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes content related to artificial intelligence safety research. It's based on the principle of summarizing material before in-depth reading."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/vLArRpNdkex68oem8",
+    "author": "Alex Turner",
+    "title": "Thoughts on Corrigibility - AI Alignment Forum",
+    "published_date": "2021-11-24",
+    "summary": "The author explores various aspects of corrigibility, connecting these ideas to their broader alignment worldview, though a complete synthesis remains incomplete."
+  },
+  {
+    "url": "https://arxiv.org/auth/show-endorsers/2004.07213",
+    "title": "Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims",
+    "published_date": "2020-04-15",
+    "abstract": "With the recent wave of progress in artificial intelligence (AI) has come a growing awareness of the large-scale impacts of AI systems, and recognition that existing regulations and norms in industry and academia are insufficient to ensure responsible AI development. In order for AI developers to earn trust from system users, customers, civil society, governments, and other stakeholders that they are building AI responsibly, they will need to make verifiable claims to which they can be held accountable. Those outside of a given organization also need effective means of scrutinizing such claims. This report suggests various steps that different stakeholders can take to improve the verifiability of claims made about AI systems and their associated development processes, with a focus on providing evidence about the safety, security, fairness, and privacy protection of AI systems. We analyze ten mechanisms for this purpose--spanning institutions, software, and hardware--and make recommendations aimed at implementing, exploring, or improving those mechanisms.",
+    "citation_count": 293,
+    "summary": "This report identifies the need for verifiable claims in responsible AI development to build stakeholder trust, proposing ten mechanisms—institutional, software, and hardware-based—to improve the verifiability of AI system safety, security, fairness, and privacy. Recommendations are offered for implementing and improving these mechanisms."
+  }
+]

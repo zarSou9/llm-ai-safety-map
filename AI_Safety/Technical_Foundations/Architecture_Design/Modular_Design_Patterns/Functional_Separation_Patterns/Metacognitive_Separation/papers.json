@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2501.08933",
+    "title": "Separation Assurance in Urban Air Mobility Systems using Shared Scheduling Protocols",
+    "published_date": "2025-01-15",
+    "abstract": "Ensuring safe separation between aircraft is a critical challenge in air traffic management, particularly in urban air mobility (UAM) environments where high traffic density and low altitudes require precise control. In these environments, conflicts often arise at the intersections of flight corridors, posing significant risks. We propose a tactical separation approach leveraging shared scheduling protocols, originally designed for Ethernet networks and operating systems, to coordinate access to these intersections. Using a decentralized Markov decision process framework, the proposed approach enables aircraft to autonomously adjust their speed and timing as they navigate these critical areas, maintaining safe separation without a central controller. We evaluate the effectiveness of this approach in simulated UAM scenarios, demonstrating its ability to reduce separation violations to zero while acknowledging trade-offs in flight times as traffic density increases. Additionally, we explore the impact of non-compliant aircraft, showing that while shared scheduling protocols can no longer guarantee safe separation, they still provide significant improvements over systems without scheduling protocols."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.18047",
+    "title": "HARMONIC: Cognitive and Control Collaboration in Human-Robotic Teams",
+    "published_date": "2024-09-26",
+    "abstract": "This paper presents a novel approach to multi-robot planning and collaboration. We demonstrate a cognitive strategy for robots in human-robot teams that incorporates metacognition, natural language communication, and explainability. The system is embodied using the HARMONIC architecture that flexibly integrates cognitive and control capabilities across the team. We evaluate our approach through simulation experiments involving a joint search task by a team of heterogeneous robots (a UGV and a drone) and a human. We detail the system's handling of complex, real-world scenarios, effective action coordination between robots with different capabilities, and natural human-robot communication. This work demonstrates that the robots' ability to reason about plans, goals, and attitudes, and to provide explanations for actions and decisions are essential prerequisites for realistic human-robot teaming.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/7yEFHisCQSCpLnqWQ/mr-meeseeks-as-an-ai-capability-tripwire",
+    "author": "Eric Zhang",
+    "title": "Mr. Meeseeks as an AI capability tripwire",
+    "published_date": "2023-05-19"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/pmHJqu4aCMv6AxorA/internal-communication-framework",
+    "author": "rosehadshar, Nora_Ammann",
+    "title": "Internal communication framework",
+    "published_date": "2022-11-15"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.12558.pdf",
+    "title": "Assured learning‐enabled autonomy: A metacognitive reinforcement learning framework",
+    "published_date": "2021-03-23",
+    "abstract": "Reinforcement learning (RL) agents with pre‐specified reward functions cannot provide guaranteed safety across variety of circumstances that an uncertain system might encounter. To guarantee performance while assuring satisfaction of safety constraints across variety of circumstances, an assured autonomous control framework is presented in this article by empowering RL algorithms with metacognitive learning capabilities. More specifically, adapting the reward function parameters of the RL agent is performed in a metacognitive decision‐making layer to assure the feasibility of RL agent. That is, to assure that the learned policy by the RL agent satisfies safety constraints specified by signal temporal logic while achieving as much performance as possible. The metacognitive layer monitors any possible future safety violation under the actions of the RL agent and employs a higher‐layer Bayesian RL algorithm to proactively adapt the reward function for the lower‐layer RL agent. To minimize the higher‐layer Bayesian RL intervention, a fitness function is leveraged by the metacognitive layer as a metric to evaluate success of the lower‐layer RL agent in satisfaction of safety and liveness specifications, and the higher‐layer Bayesian RL intervenes only if there is a risk of lower‐layer RL failure. Finally, a simulation example is provided to validate the effectiveness of the proposed approach.",
+    "citation_count": 4
+  }
+]

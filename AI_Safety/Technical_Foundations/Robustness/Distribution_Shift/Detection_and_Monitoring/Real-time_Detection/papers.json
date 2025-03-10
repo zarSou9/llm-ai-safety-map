@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.13778",
+    "title": "Change Detection in Multivariate data streams: Online Analysis with Kernel-QuantTree",
+    "published_date": "2024-10-17",
+    "abstract": "We present Kernel-QuantTree Exponentially Weighted Moving Average (KQT-EWMA), a non-parametric change-detection algorithm that combines the Kernel-QuantTree (KQT) histogram and the EWMA statistic to monitor multivariate data streams online. The resulting monitoring scheme is very flexible, since histograms can be used to model any stationary distribution, and practical, since the distribution of test statistics does not depend on the distribution of datastream in stationary conditions (non-parametric monitoring). KQT-EWMA enables controlling false alarms by operating at a pre-determined Average Run Length ($ARL_0$), which measures the expected number of stationary samples to be monitored before triggering a false alarm. The latter peculiarity is in contrast with most non-parametric change-detection tests, which rarely can control the $ARL_0$ a priori. Our experiments on synthetic and real-world datasets demonstrate that KQT-EWMA can control $ARL_0$ while achieving detection delays comparable to or lower than state-of-the-art methods designed to work in the same conditions."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/JDrxA3vwZAKZfmShz/degeneracies-are-sticky-for-sgd",
+    "author": "Guillaume Corlouer; Nicolas Macé",
+    "title": "Degeneracies are sticky for SGD",
+    "published_date": "2024-06-16"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.03011.pdf",
+    "title": "Online Centralized Non-parametric Change-point Detection via Graph-based Likelihood-ratio Estimation",
+    "published_date": "2023-01-08",
+    "abstract": "Consider each node of a graph to be generating a data stream that is synchronized and observed at near real-time. At a change-point $\\tau$, a change occurs at a subset of nodes $C$, which affects the probability distribution of their associated node streams. In this paper, we propose a novel kernel-based method to both detect $\\tau$ and localize $C$, based on the direct estimation of the likelihood-ratio between the post-change and the pre-change distributions of the node streams. Our main working hypothesis is the smoothness of the likelihood-ratio estimates over the graph, i.e connected nodes are expected to have similar likelihood-ratios. The quality of the proposed method is demonstrated on extensive experiments on synthetic scenarios."
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.09916",
+    "title": "Online Distribution Shift Detection via Recency Prediction",
+    "published_date": "2022-11-17",
+    "abstract": "When deploying modern machine learning-enabled robotic systems in high-stakes applications, detecting distribution shift is critical. However, most existing methods for detecting distribution shift are not well-suited to robotics settings, where data often arrives in a streaming fashion and may be very high-dimensional. In this work, we present an online method for detecting distribution shift with guarantees on the false positive rate — i.e., when there is no distribution shift, our system is very unlikely (with probability < ε) to falsely issue an alert; any alerts that are issued should therefore be heeded. Our method is specifically designed for efficient detection even with high dimensional data, and it empirically achieves up to 11x faster detection on realistic robotics settings compared to prior work while maintaining a low false negative rate in practice (whenever there is a distribution shift in our experiments, our method indeed emits an alert). We demonstrate our approach in both simulation and hardware for a visual servoing task, and show that our method indeed issues an alert before a failure occurs.",
+    "citation_count": 8
+  },
+  {
+    "url": "https://arxiv.org/pdf/2210.08470.pdf",
+    "title": "Class Distribution Monitoring for Concept Drift Detection",
+    "published_date": "2022-07-18",
+    "abstract": "We introduce Class Distribution Monitoring (CDM), an effective concept-drift detection scheme that monitors the class-conditional distributions of a datastream. In particular, our solution leverages multiple instances of an online and nonparametric change-detection algorithm based on QuantTree. CDM reports a concept drift after detecting a distribution change in any class, thus identifying which classes are affected by the concept drift. This can be precious information for diagnostics and adaptation. Our experiments on synthetic and real-world datastreams show that when the concept drift affects a few classes, CDM outperforms algorithms monitoring the overall data distribution, while achieving similar detection delays when the drift affects all the classes. Moreover, CDM outperforms comparable approaches that monitor the classification error, particularly when the change is not very apparent. Finally, we demonstrate that CDM inherits the properties of the underlying change detector, yielding an effective control over the expected time before a false alarm, or Average Run Length (ARL0).",
+    "citation_count": 4
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03"
+  }
+]

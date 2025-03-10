@@ -1,0 +1,73 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2006.04734.pdf",
+    "title": "Reinforcement Learning Under Moral Uncertainty",
+    "published_date": "2020-06-08",
+    "abstract": "An ambitious goal for artificial intelligence is to create agents that behave ethically: The capacity to abide by human moral norms would greatly expand the context in which autonomous agents could be practically and safely deployed. While ethical agents could be trained through reinforcement, by rewarding correct behavior under a specific moral theory (e.g. utilitarianism), there remains widespread disagreement (both societally and among moral philosophers) about the nature of morality and what ethical theory (if any) is objectively correct. Acknowledging such disagreement, recent work in moral philosophy proposes that ethical behavior requires acting under moral uncertainty, i.e. to take into account when acting that one's credence is split across several plausible ethical theories. Inspired by such work, this paper proposes a formalism that translates such insights to the field of reinforcement learning. Demonstrating the formalism's potential, we then train agents in simple environments to act under moral uncertainty, highlighting how such uncertainty can help curb extreme behavior from commitment to single theories. The overall aim is to draw productive connections from the fields of moral philosophy and machine ethics to that of machine learning, to inspire further research by highlighting a spectrum of machine learning research questions relevant to training ethically capable reinforcement learning agents.",
+    "citation_count": 27,
+    "summary": "This paper proposes a reinforcement learning formalism for training ethical agents under moral uncertainty, addressing the societal and philosophical disagreements about morality by incorporating multiple ethical theories into the agent's decision-making process. This approach aims to mitigate extreme behaviors resulting from adherence to a single moral theory."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/moral-uncertainty",
+    "author": "Abram Demski",
+    "title": "Moral Uncertainty - AI Alignment Forum",
+    "published_date": "2020-11-18",
+    "summary": "Moral uncertainty arises from disagreement among ethical theories about the right action, even with complete information. Addressing this requires methods for aggregating diverse moral perspectives, such as calculating expected moral value or employing a parliamentary model, although challenges remain in comparing values across different theories."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/moral-uncertainty",
+    "author": "abramdemski",
+    "title": "Moral Uncertainty - LessWrong",
+    "published_date": "2020-11-18",
+    "summary": "Moral uncertainty arises from the lack of consensus on which moral theory is correct, complicating decision-making even with complete information. Addressing this involves weighing the expected moral value of actions across different theories, though challenges remain in comparing values and resolving conflicts between theories."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dX7vNKg4vex5vxWCW/making-decisions-under-moral-uncertainty-1",
+    "author": "MichaelA",
+    "title": "Making decisions under moral uncertainty",
+    "published_date": "2019-12-30",
+    "summary": "This article series addresses the lack of readily available resources on decision-making under moral uncertainty, particularly combining moral and empirical uncertainties. It aims to synthesize existing philosophical work and explore novel applications of sensitivity and value of information analyses in this context."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/4NFwxwzLzpiikfkk3",
+    "author": "MichaelA",
+    "title": "Moral uncertainty - LessWrong",
+    "published_date": "2019-12-30",
+    "summary": "This article outlines existing research on moral uncertainty, its implications for decision-making, and extensions to scenarios involving both moral and empirical uncertainty and the value of information. Future additions are planned to explore alternative conceptualizations and practical applications of moral uncertainty."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.15014",
+    "title": "Acting for the Right Reasons: Creating Reason-Sensitive Artificial Moral Agents",
+    "published_date": "2024-09-23",
+    "abstract": "We propose an extension of the reinforcement learning architecture that enables moral decision-making of reinforcement learning agents based on normative reasons. Central to this approach is a reason-based shield generator yielding a moral shield that binds the agent to actions that conform with recognized normative reasons so that our overall architecture restricts the agent to actions that are (internally) morally justified. In addition, we describe an algorithm that allows to iteratively improve the reason-based shield generator through case-based feedback from a moral judge.",
+    "summary": "This paper presents a reinforcement learning architecture augmented with a \"reason-based shield\" that guides agents towards morally justifiable actions based on normative reasons. The architecture is iteratively improved through feedback from a moral judge, ensuring actions align with pre-defined moral standards."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.21882",
+    "title": "Building Altruistic and Moral AI Agent with Brain-inspired Affective Empathy Mechanisms",
+    "published_date": "2024-10-29",
+    "abstract": "As AI closely interacts with human society, it is crucial to ensure that its decision-making is safe, altruistic, and aligned with human ethical and moral values. However, existing research on embedding ethical and moral considerations into AI remains insufficient, and previous external constraints based on principles and rules are inadequate to provide AI with long-term stability and generalization capabilities. In contrast, the intrinsic altruistic motivation based on empathy is more willing, spontaneous, and robust. Therefore, this paper is dedicated to autonomously driving intelligent agents to acquire morally behaviors through human-like affective empathy mechanisms. We draw inspiration from the neural mechanism of human brain's moral intuitive decision-making, and simulate the mirror neuron system to construct a brain-inspired affective empathy-driven altruistic decision-making model. Here, empathy directly impacts dopamine release to form intrinsic altruistic motivation. Based on the principle of moral utilitarianism, we design the moral reward function that integrates intrinsic empathy and extrinsic self-task goals. A comprehensive experimental scenario incorporating empathetic processes, personal objectives, and altruistic goals is developed. The proposed model enables the agent to make consistent moral decisions (prioritizing altruism) by balancing self-interest with the well-being of others. We further introduce inhibitory neurons to regulate different levels of empathy and verify the positive correlation between empathy levels and altruistic preferences, yielding conclusions consistent with findings from psychological behavioral experiments. This work provides a feasible solution for the development of ethical AI by leveraging the intrinsic human-like empathy mechanisms, and contributes to the harmonious coexistence between humans and AI.",
+    "summary": "This paper proposes a brain-inspired model for creating altruistic AI agents by simulating affective empathy mechanisms, enabling the agents to make moral decisions prioritizing altruism through a reward function that balances self-interest with the well-being of others. The model's effectiveness is demonstrated through experiments showing a positive correlation between empathy levels and altruistic behavior."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.17229",
+    "title": "Responsibility in a Multi-Value Strategic Setting",
+    "published_date": "2024-10-22",
+    "abstract": "Responsibility is a key notion in multi-agent systems and in creating safe, reliable and ethical AI. However, most previous work on responsibility has only considered responsibility for single outcomes. In this paper we present a model for responsibility attribution in a multi-agent, multi-value setting. We also expand our model to cover responsibility anticipation, demonstrating how considerations of responsibility can help an agent to select strategies that are in line with its values. In particular we show that non-dominated regret-minimising strategies reliably minimise an agent's expected degree of responsibility.",
+    "summary": "This paper introduces a model for assigning responsibility in multi-agent systems with multiple, potentially conflicting, values. The model also incorporates responsibility anticipation to guide agents in selecting strategies that minimize their expected responsibility."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/machine-ethics",
+    "title": "Machine Ethics - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Machine ethics aims to create machines capable of moral reasoning and action, a challenge currently limited to simple AI systems despite growing urgency to address it before the advent of superintelligence. This field explores how to imbue artificial moral agents (AMAs) with ethical sensitivity, even if full moral agency remains distant."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.01424v1",
+    "title": "Uncertain Machine Ethical Decisions Using Hypothetical Retrospection",
+    "published_date": "2023-05-02",
+    "abstract": "We propose the use of the hypothetical retrospection argumentation procedure, developed by Sven Ove Hansson to improve existing approaches to machine ethical reasoning by accounting for probability and uncertainty from a position of Philosophy that resonates with humans. Actions are represented with a branching set of potential outcomes, each with a state, utility, and either a numeric or poetic probability estimate. Actions are chosen based on comparisons between sets of arguments favouring actions from the perspective of their branches, even those branches that led to an undesirable outcome. This use of arguments allows a variety of philosophical theories for ethical reasoning to be used, potentially in flexible combination with each other. We implement the procedure, applying consequentialist and deontological ethical theories, independently and concurrently, to an autonomous library system use case. We introduce a preliminary framework that seems to meet the varied requirements of a machine ethics system: versatility under multiple theories and a resonance with humans that enables transparency and explainability.",
+    "citation_count": 2,
+    "summary": "This paper proposes a novel machine ethical decision-making framework using hypothetical retrospection, incorporating probabilistic reasoning and diverse ethical theories (e.g., consequentialist and deontological) to select actions based on argumentation from potential outcomes, even undesirable ones. This approach aims for transparency and human-resonant explainability through flexible combinations of ethical perspectives."
+  }
+]

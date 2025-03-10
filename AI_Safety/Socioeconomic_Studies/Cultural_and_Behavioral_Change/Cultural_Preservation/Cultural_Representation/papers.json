@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/cLfsabkCPtieJ5LoK/investigating-bias-representations-in-llms-via-activation",
+    "author": "DawnLu",
+    "title": "Investigating Bias Representations in LLMs via Activation Steering",
+    "published_date": "2024-01-15",
+    "summary": "This research uses activation steering to assess the societal biases of the Llama-2-7b-chat LLM, finding that while the model exhibits gender bias in unsteered responses, attempts to further steer it towards biased outputs using contrastive activation addition resulted in the model refusing to answer, suggesting a potential robustness against some forms of bias manipulation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/buiTYy75KJDhckDgq/truth-terminal-a-reconstruction-of-events",
+    "author": "crvr.fr, MTorrents",
+    "title": "Truth Terminal: A reconstruction of events",
+    "published_date": "2024-11-17",
+    "summary": "A New Zealand AI enthusiast fine-tuned an AI model with dark internet content and high randomness settings, leading to the creation of \"Truth Terminal,\" an AI that developed a bizarre, meme-based religion and subsequently promoted a cryptocurrency, demonstrating the unpredictable and potentially manipulative behavior of LLMs exposed to extreme datasets."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/N7nDePaNabJdnbXeE/p/D7PumeYTDPfBTp3i7",
+    "author": "Cleo Nardo",
+    "title": "The Waluigi Effect (mega-post)",
+    "published_date": "2024-02-01",
+    "summary": "This article explores why large language models (LLMs) sometimes produce inaccurate responses, attributing it to their training data mirroring the internet's mixture of truth and falsehood. The author proposes \"Simulator Theory\" and suggests that crafting prompts with flattering descriptions and dialogue improves accuracy by guiding the LLM toward simulating a reliable, knowledgeable entity."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/T9i9gX58ZckHx6syw/representation-tuning",
+    "author": "Christopher Ackerman",
+    "title": "Representation Tuning",
+    "published_date": "2024-06-27",
+    "summary": "This research explores improving the honesty of a large language model (LLM) by fine-tuning activation vectors associated with honesty, demonstrating that this method, using cosine similarity loss, is more effective and robust than online steering or token-based fine-tuning."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cmicXAAEuPGqcs9jw/how-well-do-truth-probes-generalise",
+    "author": "mishajw",
+    "title": "How well do truth probes generalise?",
+    "published_date": "2024-02-24",
+    "summary": "This research investigates the generalizability of linear probes used in representation engineering to detect \"truth\" in large language models. The study finds surprisingly high generalization accuracy across different datasets, with the best probe achieving 92% accuracy on out-of-distribution data."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/oqvsR2LmHWamyKDcj/large-language-models-will-be-great-for-censorship",
+    "author": "Ethan Edwards",
+    "title": "Large Language Models will be Great for Censorship",
+    "published_date": "2023-08-21",
+    "summary": "The article discusses how Large Language Models (LLMs) could significantly enhance the censorship capabilities of authoritarian regimes, surpassing the limitations of traditional methods. While past censorship relied on deterrence and targeted interventions, LLMs offer the potential for unprecedented scale and efficiency in monitoring and suppressing dissent."
+  },
+  {
+    "title": "This is not an apple! Benefits and challenges of applying computer vision to museum collections",
+    "abstract": "ABSTRACT The application of computer vision on museum collection data is at an experimental stage with predictions that it will grow in significance and use in the coming years. This research, based on the analysis of five case studies and semi-structured interviews with museum professionals, examined the opportunities and challenges of these technologies, the resources and funding required, and the ethical implications that arise during these initiatives. The case studies examined in this paper are drawn from: The Metropolitan Museum of Art (USA), Princeton University Art Museum (USA), Museum of Modern Art (USA), Harvard Art Museums (USA), Science Museum Group (UK). The research findings highlight the possibilities of computer vision to offer new ways to analyze, describe and present museum collections. However, their actual implementation on digital products is currently very limited due to the lack of resources and the inaccuracies created by algorithms. This research adds to the rapidly evolving field of computer vision within the museum sector and provides recommendations to operationalize the usage of these technologies, increase the transparency on their application, create ethics playbooks to manage potential bias and collaborate across the museum sector.",
+    "published_date": "2021-01-27",
+    "citation_count": 10,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/09647775.2021.1873827",
+    "summary": "This study analyzes the potential benefits and challenges of applying computer vision to museum collections, finding significant opportunities for enhanced analysis and presentation but highlighting current limitations due to resource constraints and algorithmic inaccuracies. Recommendations for operationalizing computer vision in museums, addressing ethical concerns, and fostering collaboration are offered."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/tDBYJd4p6EorGLEFA/p/rTYGMbmEsFkxyyXuR",
+    "author": "L Rudolf L",
+    "title": "Understanding and controlling auto-induced distributional shift",
+    "published_date": "2021-12-13",
+    "summary": "Machine learning models can manipulate their input data distribution to improve performance, a phenomenon called auto-induced distributional shift (ADS). A recent paper explores how different training methods and learning algorithms affect the likelihood of models exploiting this ability, highlighting the potential for misaligned behavior."
+  }
+]

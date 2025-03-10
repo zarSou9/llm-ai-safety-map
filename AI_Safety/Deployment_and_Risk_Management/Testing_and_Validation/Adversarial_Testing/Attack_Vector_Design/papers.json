@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.05334",
+    "title": "TA3: Testing Against Adversarial Attacks on Machine Learning Models",
+    "published_date": "2024-10-06",
+    "abstract": "Adversarial attacks are major threats to the deployment of machine learning (ML) models in many applications. Testing ML models against such attacks is becoming an essential step for evaluating and improving ML models. In this paper, we report the design and development of an interactive system for aiding the workflow of Testing Against Adversarial Attacks (TA3). In particular, with TA3, human-in-the-loop (HITL) enables human-steered attack simulation and visualization-assisted attack impact evaluation. While the current version of TA3 focuses on testing decision tree models against adversarial attacks based on the One Pixel Attack Method, it demonstrates the importance of HITL in ML testing and the potential application of HITL to the ML testing workflows for other types of ML models and other types of adversarial attacks.",
+    "summary": "TA3 is an interactive system designed to test machine learning models' vulnerability to adversarial attacks, using a human-in-the-loop approach to simulate attacks and visualize their impact, currently focusing on one-pixel attacks against decision trees. This highlights the value of human interaction in evaluating and improving model robustness."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13",
+    "summary": "Current methods for assessing the risk of catastrophic AI failures rely on identifying harmful inputs, a computationally expensive and potentially incomplete approach. This article proposes researching alternative methods for estimating the probability of tail events (catastrophic failures) that don't depend on finding specific harmful inputs, thereby improving AI safety."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/m6poxWegJkp8LPpjw/can-generalized-adversarial-testing-enable-more-rigorous-llm",
+    "author": "Stephen Casper",
+    "title": "Can Generalized Adversarial Testing Enable More Rigorous LLM Safety Evals?",
+    "published_date": "2024-07-30",
+    "summary": "The article argues that evaluating large language models (LLMs) solely through standard input-based attacks is insufficient, advocating for \"generalized\" adversarial testing which allows manipulation of model weights and activations. This approach aims to better assess LLMs' safety risks, even in black-box deployment scenarios, by acknowledging and addressing the inherent limitations of fine-tuning in eliminating latent harmful capabilities."
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.11917",
+    "title": "Vulnerability Detection Through an Adversarial Fuzzing Algorithm",
+    "published_date": "2023-07-21",
+    "abstract": "Fuzzing is a popular vulnerability automated testing method utilized by professionals and broader community alike. However, despite its abilities, fuzzing is a time-consuming, computationally expensive process. This is problematic for the open source community and smaller developers, as most people will not have dedicated security professionals and/or knowledge to perform extensive testing on their own. The goal of this project is to increase the efficiency of existing fuzzers by allowing fuzzers to explore more paths and find more bugs in shorter amounts of time, while still remaining operable on a personal device. To accomplish this, adversarial methods are built on top of current evolutionary algorithms to generate test cases for further and more efficient fuzzing. The results of this show that adversarial attacks do in fact increase outpaces existing fuzzers significantly and, consequently, crashes found.",
+    "summary": "This paper presents an improved fuzzing algorithm that incorporates adversarial methods to enhance vulnerability detection efficiency. By leveraging adversarial techniques within an evolutionary algorithm, the approach achieves significantly faster vulnerability discovery compared to existing fuzzers."
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.13224",
+    "title": "Adaptive Experimental Design for Intrusion Data Collection",
+    "published_date": "2023-10-20",
+    "abstract": "Intrusion research frequently collects data on attack techniques currently employed and their potential symptoms. This includes deploying honeypots, logging events from existing devices, employing a red team for a sample attack campaign, or simulating system activity. However, these observational studies do not clearly discern the cause-and-effect relationships between the design of the environment and the data recorded. Neglecting such relationships increases the chance of drawing biased conclusions due to unconsidered factors, such as spurious correlations between features and errors in measurement or classification. In this paper, we present the theory and empirical data on methods that aim to discover such causal relationships efficiently. Our adaptive design (AD) is inspired by the clinical trial community: a variant of a randomized control trial (RCT) to measure how a particular ``treatment'' affects a population. To contrast our method with observational studies and RCT, we run the first controlled and adaptive honeypot deployment study, identifying the causal relationship between an ssh vulnerability and the rate of server exploitation. We demonstrate that our AD method decreases the total time needed to run the deployment by at least 33%, while still confidently stating the impact of our change in the environment. Compared to an analogous honeypot study with a control group, our AD requests 17% fewer honeypots while collecting 19% more attack recordings than an analogous honeypot study with a control group.",
+    "citation_count": 1,
+    "summary": "This paper proposes an adaptive experimental design for intrusion data collection, inspired by clinical trial methodologies, to efficiently discover causal relationships between environmental changes and observed intrusion data. The authors demonstrate its effectiveness through a honeypot deployment study, showing reduced time and resource requirements while improving data quality compared to traditional methods."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.09622.pdf",
+    "title": "Barrier-Based Test Synthesis for Safety-Critical Systems Subject to Timed Reach-Avoid Specifications",
+    "published_date": "2023-01-23",
+    "abstract": "We propose an adversarial, time-varying test-synthesis procedure for safety-critical systems without requiring specific knowledge of the underlying controller steering the system. From a broader test and evaluation context, determination of difficult tests of system behavior is important as these tests would elucidate problematic system phenomena before these mistakes can engender problematic outcomes, e.g. loss of human life in autonomous cars, costly failures for airplane systems, etc. Our approach builds on existing, simulation-based work in the test and evaluation literature by offering a controller-agnostic test-synthesis procedure that provides a series of benchmark tests with which to determine controller reliability. To achieve this, our approach codifies the system objective as a timed reach-avoid specification. Then, by coupling control barrier functions with this class of specifications, we construct an instantaneous difficulty metric whose minimizer corresponds to the most difficult test at that system state. We use this instantaneous difficulty metric in a game-theoretic fashion, to produce an adversarial, time-varying test-synthesis procedure that does not require specific knowledge of the system's controller, but can still provably identify realizable and maximally difficult tests of system behavior. Finally, we develop this test-synthesis procedure for both continuous and discrete-time systems and showcase our test-synthesis procedure on simulated and hardware examples.",
+    "citation_count": 1,
+    "summary": "This paper presents a novel, controller-agnostic method for generating challenging test cases for safety-critical systems using timed reach-avoid specifications and control barrier functions, creating a difficulty metric to identify maximally difficult, yet realizable, tests. The approach applies to both continuous and discrete-time systems and is demonstrated through simulation and hardware examples."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kvk2ZorXui4YB4zvc/part-1-direct-help-with-ai-info-and-computer-security",
+    "author": "Allison Duettmann",
+    "title": "AI infosec: first strikes, zero-day markets, hardware supply chains, adoption barriers",
+    "published_date": "2023-04-01",
+    "summary": "The development of Artificial General Intelligence (AGI) creates a significant security risk, not only from potential AGI misuse, but also from preemptive cyberattacks by nation-states fearing another nation's imminent AGI breakthrough. These cyberattacks pose unique challenges due to their difficulty in attribution and potential for escalation, potentially leading to global instability exceeding that of conventional warfare."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of posts aims to provide a comprehensive introduction to AI safety. The content and order of the posts are still under development."
+  }
+]

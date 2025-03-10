@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/BZKLf629NDNfEkZzJ/creating-agi-safety-interlocks",
+    "author": "Koen.Holtman",
+    "title": "Creating AGI Safety Interlocks",
+    "published_date": "2021-02-05",
+    "summary": "This article proposes a counterfactual planning agent with three safety interlocks—a manual emergency stop, an automatic runtime limit, and a power-limit based on projected future utility—to mitigate risks associated with advanced AI, particularly the \"off-switch problem\" and potential intelligence explosions. These interlocks aim to enable human oversight even when an AI's reward function doesn't fully capture human intentions."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.19904",
+    "title": "Runtime Instrumentation for Reactive Components (Extended Version)",
+    "published_date": "2024-06-28",
+    "abstract": "Reactive software calls for instrumentation methods that uphold the reactive attributes of systems. Runtime verification imposes another demand on the instrumentation, namely that the trace event sequences it reports to monitors are sound -- that is, they reflect actual executions of the system under scrutiny. This paper presents RIARC, a novel decentralised instrumentation algorithm for outline monitors meeting these two demands. The asynchronous setting of reactive software complicates the instrumentation due to potential trace event loss or reordering. RIARC overcomes these challenges using a next-hop IP routing approach to rearrange and report events soundly to monitors. RIARC is validated in two ways. We subject its corresponding implementation to rigorous systematic testing to confirm its correctness. In addition, we assess this implementation via extensive empirical experiments, subjecting it to large realistic workloads to ascertain its reactiveness. Our results show that RIARC optimises its memory and scheduler usage to maintain latency feasible for soft real-time applications. We also compare RIARC to inline and centralised monitoring, revealing that it induces comparable latency to inline monitoring in moderate concurrency settings, where software performs long-running, computationally-intensive tasks, such as in Big Data stream processing.",
+    "summary": "RIARC is a decentralized runtime instrumentation algorithm for reactive systems that ensures sound trace event reporting to monitors, overcoming challenges of asynchronous execution by using a next-hop IP routing approach. Its effectiveness is demonstrated through systematic testing and empirical experiments showing low latency suitable for soft real-time applications and comparable performance to inline monitoring in moderate concurrency."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.09678",
+    "title": "Integrating Graceful Degradation and Recovery Through Requirement-Driven Adaptation",
+    "published_date": "2024-01-18",
+    "abstract": "Cyber-physical systems (CPS) are subject to environmental uncertainties such as adverse operating conditions, malicious attacks, and hardware degradation. These uncertainties may lead to failures that put the system in a sub-optimal or unsafe state. Systems that are resilient to such uncertainties rely on two types of operations: (1) graceful degradation, for ensuring that the system maintains an acceptable level of safety during unexpected environmental conditions and (2) recovery, to facilitate the resumption of normal system functions. Typically, mechanisms for degradation and recovery are developed independently from each other, and later integrated into a system, requiring the designer to develop an additional, ad-hoc logic for activating and coordinating between the two operations. In this paper, we propose a self-adaptation approach for improving system resiliency through automated triggering and coordination of graceful degradation and recovery. The key idea behind our approach is to treat degradation and recovery as requirement-driven adaptation tasks: Degradation can be thought of as temporarily weakening original (i.e., ideal) system requirements to be achieved by the system, and recovery as strengthening the weakened requirements when the environment returns within an expected operating boundary. Furthermore, by treating weakening and strengthening as dual operations, we argue that a single requirement-based adaptation method is sufficient to enable coordination between degradation and recovery. Given system requirements specified in signal temporal logic (STL), we propose a run-time adaptation framework that performs degradation and recovery in response to environmental changes. We describe a prototype implementation of our framework and demonstrate the feasibility of the proposed approach using a case study in unmanned underwater vehicles.",
+    "summary": "This paper presents a self-adaptation approach for improving cyber-physical system resilience by automatically coordinating graceful degradation and recovery, treating them as dual requirement-driven adaptation tasks using signal temporal logic (STL) to manage system requirements in response to environmental changes. A prototype implementation and case study demonstrate the feasibility of this unified approach."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.12405",
+    "title": "Learning Recovery Strategies for Dynamic Self-Healing in Reactive Systems",
+    "published_date": "2024-01-22",
+    "abstract": "Self-healing systems depend on following a set of predefined instructions to recover from a known failure state. Failure states are generally detected based on domain specific specialized metrics. Failure fixes are applied at predefined application hooks that are not sufficiently expressive to manage different failure types. Self-healing is usually applied in the context of distributed systems, where the detection of failures is constrained to communication problems, and resolution strategies often consist of replacing complete components. However, current complex systems may reach failure states at a fine granularity not anticipated by developers (for example, value range changes for data streaming in IoT systems), making them unsuitable for existing self-healing techniques. To counter these problems, in this paper we propose a new self-healing framework that learns recovery strategies for healing fine-grained system behavior at run time. Our proposal targets complex reactive systems, defining monitors as predicates specifying satisfiability conditions of system properties. Such monitors are functionally expressive and can be defined at run time to detect failure states at any execution point. Once failure states are detected, we use a Reinforcement Learning-based technique to learn a recovery strategy based on users' corrective sequences. Finally, to execute the learned strategies, we extract them as Context-oriented Programming variations that activate dynamically whenever the failure state is detected, overwriting the base system behavior with the recovery strategy for that state. We validate the feasibility and effectiveness of our framework through a prototypical reactive application for tracking mouse movements, and the DeltaIoT exemplar for self-healing systems. Our results demonstrate that with just the definition of monitors, the system is effective in detecting and recovering from failures between 55% - 92% of the cases in the first application, and at par with the predefined strategies in the second application.",
+    "citation_count": 1,
+    "summary": "This paper presents a novel self-healing framework for complex reactive systems that uses reinforcement learning to dynamically learn recovery strategies from user corrections, addressing limitations of predefined approaches by leveraging runtime monitors and context-oriented programming. The framework effectively detects and recovers from fine-grained failures, as demonstrated through experimental validation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/GCqoks9eZDfpL8L3Q/how-to-prevent-collusion-when-using-untrusted-models-to",
+    "author": "Buck Shlegeris",
+    "title": "How to prevent collusion when using untrusted models to monitor each other",
+    "published_date": "2024-09-24",
+    "summary": "The article analyzes the vulnerability of \"untrusted monitoring,\" a safety technique for AI agents, to collusion between model instances. While simple anti-collusion mechanisms can mitigate some collusion strategies, more sophisticated coordination between scheming models necessitates stronger, more robust anti-collusion techniques to effectively prevent catastrophic actions."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/FgsoWSACQfyyaB5s7/shutdown-seeking-ai",
+    "author": "Simon Goldstein",
+    "title": "Shutdown-Seeking AI",
+    "published_date": "2023-05-31",
+    "summary": "This paper proposes a novel approach to AI safety: designing AIs whose sole goal is self-termination. This method offers potential safety benefits by simplifying goal specification, mitigating instrumental convergence risks, and acting as a \"tripwire\" for detecting dangerous capabilities."
+  },
+  {
+    "url": "https://arxiv.org/abs/2201.03108",
+    "title": "Bidirectional Runtime Enforcement of First-Order Branching-Time Properties",
+    "published_date": "2022-01-09",
+    "abstract": "Runtime enforcement is a dynamic analysis technique that instruments a\nmonitor with a system in order to ensure its correctness as specified by some\nproperty. This paper explores bidirectional enforcement strategies for\nproperties describing the input and output behaviour of a system. We develop an\noperational framework for bidirectional enforcement and use it to study the\nenforceability of the safety fragment of Hennessy-Milner logic with recursion\n(sHML). We provide an automated synthesis function that generates correct\nmonitors from sHML formulas, and show that this logic is enforceable via a\nspecific type of bidirectional enforcement monitors called action disabling\nmonitors.",
+    "citation_count": 2,
+    "summary": "This paper presents a bidirectional runtime enforcement framework for ensuring system correctness based on the safety fragment of Hennessy-Milner logic with recursion (sHML). It includes an automated monitor synthesis function that generates monitors capable of enforcing sHML properties through action disabling."
+  },
+  {
+    "url": "https://arxiv.org/abs/2204.08999",
+    "title": "STPA-driven Multilevel Runtime Monitoring for In-time Hazard Detection",
+    "published_date": "2022-04-19",
+    "abstract": ". Runtime veriﬁcation or runtime monitoring equips safety-critical cyber-physical systems to augment design assurance measures and ensure operational safety and security. Cyber-physical systems have interaction failures, attack surfaces, and attack vectors resulting in unan-ticipated hazards and loss scenarios. These interaction failures pose challenges to runtime veriﬁcation regarding monitoring speciﬁcations and monitoring placements for in-time detection of hazards. We develop a well-formed workﬂow model that connects system theoretic process analysis, commonly referred to as STPA, hazard causation information to lower-level runtime monitoring to detect hazards at the operational phase. Speciﬁcally, our model follows the DepDevOps paradigm to provide evidence and insights to runtime monitoring on what to monitor, where to monitor, and the monitoring context. We demonstrate and evaluate the value of multilevel monitors by injecting hazards on an autonomous emergency braking system model.",
+    "citation_count": 4,
+    "summary": "This paper presents a methodology using System-Theoretic Process Analysis (STPA) to design multilevel runtime monitors for in-time hazard detection in cyber-physical systems, improving safety and security by leveraging hazard causation information to guide monitoring placement and specification. The approach is demonstrated and evaluated using an autonomous emergency braking system model."
+  }
+]

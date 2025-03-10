@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.18644",
+    "title": "PASTRAMI: Performance Assessment of SofTware Routers Addressing Measurement Instability",
+    "published_date": "2024-10-24",
+    "abstract": "Virtualized environments offer a flexible and scalable platform for evaluating network performance, but they can introduce significant variability that complicates accurate measurement. This paper presents PASTRAMI, a methodology designed to assess the stability of software routers, which is critical to accurately evaluate performance metrics such as the Partial Drop Rate at 0.5% (PDR@0.5%). While PDR@0.5% is a key metric to assess packet processing capabilities of a software router, its reliable evaluation depends on consistent router performance with minimal measurement variability. Our research reveals that different Linux versions exhibit distinct behaviors, with some demonstrating non-negligible packet loss even at low loads and high variability in loss measurements, rendering them unsuitable for accurate performance assessments. This paper proposes a systematic approach to differentiate between stable and unstable environments, offering practical guidance on selecting suitable configurations for robust networking performance evaluations in virtualized environments.",
+    "summary": "PASTRAMI is a methodology for assessing the stability of software routers in virtualized environments, crucial for accurately measuring performance metrics like Partial Drop Rate, as Linux kernel versions exhibit varying degrees of instability affecting measurement reliability. The approach helps identify stable configurations for robust network performance evaluations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/NXTkEiaLA4JdS5vSZ/what-o3-becomes-by-2028",
+    "author": "Vladimir_Nesov",
+    "title": "What o3 Becomes by 2028",
+    "published_date": "2024-12-22",
+    "summary": "Recent advancements in AI model training are driven by massive increases in computing power, with hyperscalers investing billions in constructing enormous training clusters. This scaling trend, fueled by readily available funding, will continue, leading to significantly more powerful AI models in the coming years."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/tJAD2LG9uweeEfjwq/estimating-efficiency-improvements-in-llm-pre-training",
+    "author": "Daan",
+    "title": "Estimating efficiency improvements in LLM pre-training",
+    "published_date": "2024-01-19",
+    "summary": "The author argues that improvements in the efficiency of training large language models (LLMs), such as a 170x reduction in FLOPs needed to reach GPT-3 performance, have contributed as much to recent advancements as increases in available computing resources. This challenges the common belief that solely increased resources drive progress in AI."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/TYLQ8gAMAmpeFcwXN/ophiology-or-how-the-mamba-architecture-works",
+    "author": "Danielle Ensign, SrGonao, Adrià Garriga-alonso",
+    "title": "Ophiology (or, how the Mamba architecture works)",
+    "published_date": "2024-04-09",
+    "summary": "This post introduces Mamba, a promising recurrent neural network architecture based on state-space models, showcasing its efficient inference and scalability compared to transformers. The authors detail Mamba's underlying state-space model equations and explore numerical integration methods, specifically the Euler method, for solving the resulting ordinary differential equation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/YKfNZAmiLdepDngwi",
+    "author": "Adam Scherlis, LawrenceC",
+    "title": "GPT-175bee",
+    "published_date": "2023-02-08",
+    "summary": "The article proposes \"beepower\" (1 billion parameters) as a new unit for measuring the size of machine learning models, offering a more intuitive comparison to the approximate number of synapses in a bee's brain and facilitating easier discussion of model scale. It then uses this unit to compare the sizes of various language models to different animals based on estimated synapse counts."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14",
+    "summary": "The article highlights common statistical errors, particularly the false assumption of Gaussian distributions in many fields and misinterpretations of p-values. These errors, along with neglecting statistical power and the base rate fallacy, lead to flawed conclusions in research and applications like finance and economics."
+  },
+  {
+    "url": "https://arxiv.org/abs/2112.11270",
+    "title": "Adding semantics to measurements: Ontology-guided, systematic performance analysis",
+    "published_date": "2021-12-21",
+    "abstract": "The design and operation of modern software systems exhibit a shift towards virtualization, containerization and service-based orchestration. Performance capacity engineering and resource utilization tuning become priority requirements in such environments. Measurement-based performance evaluation is the cornerstone of capacity engineering and designing for performance. Moreover, the increasing complexity of systems necessitates rigorous performance analysis approaches. However, empirical performance analysis lacks sophisticated model-based support similar to the functional design of the system. The paper proposes an ontology-based approach for facilitating and guiding the empirical evaluation throughout its various steps. Hyperledger Fabric (HLF), an open-source blockchain platform by the Linux Foundation, is modelled and evaluated as a pilot example of the approach, using the standard TPC-C performance benchmark workload.",
+    "citation_count": 1,
+    "summary": "This paper proposes an ontology-guided approach to improve the rigor and systematicity of empirical performance analysis in complex software systems, using a Hyperledger Fabric blockchain model and TPC-C benchmark as a case study. The approach addresses the lack of model-based support in current performance evaluation methods."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/a7YgzDYx4FhdB3TmR/an-155-a-minecraft-benchmark-for-algorithms-that-learn",
+    "author": "Rohin Shah",
+    "title": "[AN #155]: A Minecraft benchmark for algorithms that learn without reward functions",
+    "published_date": "2021-07-08",
+    "summary": "The MineRL BASALT competition introduces a new benchmark for AI systems learning from human feedback, using Minecraft's open-ended environment to overcome limitations of traditional benchmarks like Atari, which often have easily defined goals and allow for reward function manipulation that skews results. BASALT's human evaluation and complex tasks promote more robust and generalizable AI learning."
+  }
+]

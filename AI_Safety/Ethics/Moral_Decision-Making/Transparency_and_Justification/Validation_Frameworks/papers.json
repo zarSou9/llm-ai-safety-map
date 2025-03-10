@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.19229",
+    "title": "On Generating Monolithic and Model Reconciling Explanations in Probabilistic Scenarios",
+    "published_date": "2024-05-29",
+    "abstract": "Explanation generation frameworks aim to make AI systems' decisions transparent and understandable to human users. However, generating explanations in uncertain environments characterized by incomplete information and probabilistic models remains a significant challenge. In this paper, we propose a novel framework for generating probabilistic monolithic explanations and model reconciling explanations. Monolithic explanations provide self-contained reasons for an explanandum without considering the agent receiving the explanation, while model reconciling explanations account for the knowledge of the agent receiving the explanation. For monolithic explanations, our approach integrates uncertainty by utilizing probabilistic logic to increase the probability of the explanandum. For model reconciling explanations, we propose a framework that extends the logic-based variant of the model reconciliation problem to account for probabilistic human models, where the goal is to find explanations that increase the probability of the explanandum while minimizing conflicts between the explanation and the probabilistic human model. We introduce explanatory gain and explanatory power as quantitative metrics to assess the quality of these explanations. Further, we present algorithms that exploit the duality between minimal correction sets and minimal unsatisfiable sets to efficiently compute both types of explanations in probabilistic contexts. Extensive experimental evaluations on various benchmarks demonstrate the effectiveness and scalability of our approach in generating explanations under uncertainty.",
+    "summary": "This paper presents a novel framework for generating two types of explanations in probabilistic settings: monolithic explanations, which provide self-contained justifications, and model-reconciling explanations, which consider the recipient's knowledge. The framework uses probabilistic logic and algorithms based on minimal correction/unsatisfiable sets to efficiently generate high-quality explanations, as measured by explanatory gain and power."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25",
+    "summary": "The article explores the limitations of formal verification for neural networks, arguing that proving the absence of problematic behavior is unrealistic due to the complexity of interactions within large networks. Instead, the authors propose \"heuristic explanations,\" a less rigorous but more practical approach to understanding and mitigating potential risks, illustrated by a method called \"surprise accounting.\""
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/good-explanations-advice",
+    "title": "Good Explanations (Advice) - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "The \"Good Explanations (Advice)\" tag categorizes advice on effective explanatory writing. It's a resource for improving the clarity and comprehensibility of explanations."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/fnc6Sgt3CGCdFmmgX/we-need-a-science-of-evals",
+    "author": "Marius Hobbhahn, Jérémy Scheurer",
+    "title": "We need a Science of Evals",
+    "published_date": "2024-01-22",
+    "summary": "The article argues that current AI model evaluations lack scientific rigor, leading to unreliable results with significant real-world consequences. It calls for a \"Science of Evals,\" advocating for more robust methodologies to ensure trustworthy and impactful model assessments."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/pmz3HpJrHcWhkLqS5/three-ways-interpretability-could-be-impactful",
+    "author": "Arthur Conmy",
+    "title": "Three ways interpretability could be impactful",
+    "published_date": "2023-09-18",
+    "summary": "The author argues that interpretability in AI models can significantly improve alignment efforts in three ways: by detecting alignment failures in test sets, by improving our understanding of alignment techniques and deep learning through validation set analysis, and (less impactfully) by training models to be inherently interpretable."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.06692v2.pdf",
+    "title": "Explainable Decision Making with Lean and Argumentative Explanations",
+    "published_date": "2022-01-18",
+    "abstract": "It is widely acknowledged that transparency of automated decision making is crucial for deployability of intelligent systems, and explaining the reasons why some decisions are “good” and some are not is a way to achieving this transparency. We consider two variants of decision making, where “good” decisions amount to alternatives (i) meeting “most” goals, and (ii) meeting “most preferred” goals. We then define, for each variant and notion of “goodness” (corresponding to a number of existing notions in the literature), explanations in two formats, for justifying the selection of an alternative to audiences with differing needs and competences: lean explanations, in terms of goals satisfied and, for some notions of “goodness”, alternative decisions, and argumentative explanations, reflecting the decision process leading to the selection, while corresponding to the lean explanations. To define argumentative explanations, we use assumption-based argumentation (ABA), a wellknown form of structured argumentation. Specifically, we define ABA frameworks such that “good” decisions are admissible ABA arguments and draw argumentative explanations from dispute trees sanctioning this admissibility. Finally, we instantiate our overall framework for explainable decision-making to accommodate connections between goals and decisions in terms of decision graphs incorporating defeasible and non-defeasible information.",
+    "citation_count": 1,
+    "summary": "This paper proposes a framework for explainable decision-making using two explanation formats: lean explanations summarizing satisfied goals and, optionally, alternative decisions; and argumentative explanations, based on assumption-based argumentation, detailing the decision process leading to the selection of a \"good\" alternative (defined as meeting most or most preferred goals). The framework uses decision graphs to model the relationship between goals and decisions."
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.14447",
+    "title": "A Theoretical Framework for AI Models Explainability with Application in Biomedicine",
+    "published_date": "2022-12-29",
+    "abstract": "EXplainable Artificial Intelligence (XAI) is a vibrant research topic in the artificial intelligence community. It is raising growing interest across methods and domains, especially those involving high stake decision-making, such as the biomedical sector. Much has been written about the subject, yet XAI still lacks shared terminology and a framework capable of providing structural soundness to explanations. In our work, we address these issues by proposing a novel definition of explanation that synthesizes what can be found in the literature. We recognize that explanations are not atomic but the combination of evidence stemming from the model and its input-output mapping, and the human interpretation of this evidence. Furthermore, we fit explanations into the properties of faithfulness (i.e., the explanation is an accurate description of the model's inner workings and decision-making process) and plausibility (i.e., how much the explanation seems convincing to the user). Our theoretical framework simplifies how these properties are operationalized, and it provides new insights into common explanation methods that we analyze as case studies. We also discuss the impact that our framework could have in biomedicine, a very sensitive application domain where XAI can have a central role in generating trust.",
+    "citation_count": 4,
+    "summary": "This paper proposes a novel theoretical framework for explainable AI (XAI), defining explanations as a synthesis of model evidence and human interpretation, characterized by faithfulness and plausibility. The framework offers a structured approach to XAI, analyzed through case studies and discussed in the context of its potential impact on biomedicine."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2206.06251v1.pdf",
+    "title": "A Methodology and Software Architecture to Support Explainability-by-Design",
+    "published_date": "2022-06-13",
+    "abstract": "Algorithms play a crucial role in many technological systems that control or affect various aspects of our lives. As a result, providing explanations for their decisions to address the needs of users and organisations is increasingly expected by laws, regulations, codes of conduct, and the public. However, as laws and regulations do not prescribe how to meet such expectations, organisations are often left to devise their own approaches to explainability, inevitably increasing the cost of compliance and good governance. Hence, we envision Explainability-by-Design, a holistic methodology characterised by proactive measures to include explanation capability in the design of decision-making systems. The methodology consists of three phases: (A) Explanation Requirement Analysis, (B) Explanation Technical Design, and (C) Explanation Validation. This paper describes phase (B), a technical workflow to implement explanation capability from requirements elicited by domain experts for a specific application context. Outputs of this phase are a set of configurations, allowing a reusable explanation service to exploit logs provided by the target application to create provenance traces of the application's decisions. The provenance then can be queried to extract relevant data points, which can be used in explanation plans to construct explanations personalised to their consumers. Following the workflow, organisations can design their decision-making systems to produce explanations that meet the specified requirements. To facilitate the process, we present a software architecture with reusable components to incorporate the resulting explanation capability into an application. Finally, we applied the workflow to two application scenarios and measured the associated development costs. It was shown that the approach is tractable in terms of development time, which can be as low as two hours per sentence.",
+    "citation_count": 3,
+    "summary": "This paper presents a methodology and software architecture for \"Explainability-by-Design,\" a proactive approach to integrating explainable AI into decision-making systems. The methodology focuses on a technical design workflow to create reusable explanation services, generating personalized explanations from application logs and meeting specified requirements, as demonstrated through case studies."
+  }
+]

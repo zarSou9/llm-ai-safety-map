@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2201.02944v4.pdf",
+    "title": "Adaptive Performance Anomaly Detection for Online Service Systems via Pattern Sketching",
+    "published_date": "2022-01-09",
+    "abstract": "To ensure the performance of online service systems, their status is closely monitored with various software and system metrics. Performance anomalies represent the performance degradation issues (e.g., slow response) of the service systems. When performing anomaly detection over the metrics, existing methods often lack the merit of interpretability, which is vital for engineers and analysts to take remediation actions. Moreover, they are unable to effectively accommodate the ever-changing services in an online fashion. To address these limitations, in this paper, we propose ADSketch, an interpretable and adaptive performance anomaly detection approach based on pattern sketching. ADSketch achieves interpretability by identifying groups of anomalous metric patterns, which represent particular types of performance issues. The underlying issues can then be immediately recognized if similar patterns emerge again. In addition, an adaptive learning algorithm is designed to embrace unprecedented patterns induced by service updates or user behavior changes. The proposed approach is evaluated with public data as well as industrial data collected from a representative online service system in Huawei Cloud. The experimental results show that ADSketch outperforms state-of-the-art approaches by a significant margin, and demonstrate the effectiveness of the online algorithm in new pattern discovery. Furthermore, our approach has been successfully deployed in industrial practice.",
+    "citation_count": 29
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.06289v1.pdf",
+    "title": "A Scalable Algorithm for Anomaly Detection via Learning-Based Controlled Sensing",
+    "published_date": "2021-05-12",
+    "abstract": "We address the problem of sequentially selecting and observing processes from a given set to find the anomalies among them. The decision maker observes one process at a time and obtains a noisy binary indicator of whether or not the corresponding process is anomalous. In this setting, we develop an anomaly detection algorithm that chooses the process to be observed at a given time instant, decides when to stop taking observations, and makes a decision regarding the anomalous processes. The objective of the detection algorithm is to arrive at a decision with an accuracy exceeding a desired value while minimizing the delay in decision making. Our algorithm relies on a Markov decision process defined using the marginal probability of each process being normal or anomalous, conditioned on the observations. We implement the detection algorithm using the deep actor-critic reinforcement learning framework. Unlike prior work on this topic that has exponential complexity in the number of processes, our algorithm has computational and memory requirements that are both polynomial in the number of processes. We demonstrate the efficacy of our algorithm using numerical experiments by comparing it with the state-of-the-art methods.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.15026v1.pdf",
+    "title": "Anomaly Rule Detection in Sequence Data",
+    "published_date": "2021-11-29",
+    "abstract": "Analyzing sequence data usually leads to the discovery of interesting patterns and then anomaly detection. In recent years, numerous frameworks and methods have been proposed to discover interesting patterns in sequence data as well as detect anomalous behavior. However, existing algorithms mainly focus on frequency-driven analytics, and they are challenging to be applied in real-world settings. In this work, we present a new anomaly detection framework called DUOS that enables Discovery of Utility-aware Outlier Sequential rules from a set of sequences. In this pattern-based anomaly detection algorithm, we incorporate both the anomalousness and utility of a group, and then introduce the concept of utility-aware outlier sequential rule (UOSR). We show that this is a more meaningful way for detecting anomalies. Besides, we propose some efficient pruning strategies w.r.t. upper bounds for mining UOSR, as well as the outlier detection. An extensive experimental study conducted on several real-world datasets shows that the proposed DUOS algorithm has a better effectiveness and efficiency. Finally, DUOS outperforms the baseline algorithm and has a suitable scalability.",
+    "citation_count": 12
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.05061v1.pdf",
+    "title": "Quickest change detection with unknown parameters: Constant complexity and near optimality",
+    "published_date": "2021-06-09",
+    "abstract": "We consider the quickest change detection problem where both the parameters of pre- and post- change distributions are unknown, which prevents the use of classical simple hypothesis testing. Without additional assumptions, optimal solutions are not tractable as they rely on some minimax and robust variant of the objective. As a consequence, change points might be detected too late for practical applications (in economics, health care or maintenance for instance). Available constant complexity techniques typically solve a relaxed version of the problem, deeply relying on very specific probability distributions and/or some very precise additional knowledge. We consider a totally different approach that leverages the theoretical asymptotic properties of optimal solutions to derive a new scalable approximate algorithm with near optimal performance that runs~in~$\\mathcal{O}(1)$, adapted to even more complex Markovian settings."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2005.00926v1.pdf",
+    "title": "Pattern-Based Analysis of Time Series: Estimation",
+    "published_date": "2020-05-02",
+    "abstract": "While Internet of Things (IoT) devices and sensors create continuous streams of information, Big Data infrastructures are deemed to handle the influx of data in realtime. One type of such a continuous stream of information is time series data. Due to the richness of information in time series and inadequacy of summary statistics to encapsulate structures and patterns in such data, development of new approaches to learn time series is of interest. In this paper, we propose a novel method, called pattern tree, to learn patterns in the times-series using a binary-structured tree. While a pattern tree can be used for many purposes such as lossless compression, prediction and anomaly detection, in this paper we focus on its application in time series estimation and forecasting. In comparison to other methods, our proposed pattern tree method improves the mean squared error of estimation.",
+    "citation_count": 4
+  },
+  {
+    "title": "Identifying untrusted interactive behaviour in Enterprise Resource Planning systems based on a big data pattern recognition method using behavioural analytics",
+    "abstract": "ABSTRACT To improve the performance of enterprise network information security, we proposed a behaviour analytics model that established a unique behaviour pattern for each user and identifies untrusted interactive behaviour. First, a series of behaviour characteristics was constructed by observing user behaviours. These characteristics were then used by a big data analysis method called hidden Markov model to model the behaviour of trusted users. Next, a forward algorithm calculated the probability of observation sequences from users with the same and different positions. Finally, untrusted interactive behaviours were identified by comparing the observation sequence probability sets of trusted and untrusted users. The proposed method was applied to the Enterprise Resource Planning system used by a publishing house to identify the credibility of its user behaviour. The highest false positive rates obtained were 0.74% and 5.26% for users in different positions and the same position, respectively. These results verify that the model is effective in identifying untrusted interactive behaviours.",
+    "published_date": "2020-12-03",
+    "citation_count": 2,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2020.1851767"
+  }
+]

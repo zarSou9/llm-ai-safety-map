@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.03865",
+    "title": "AdaSociety: An Adaptive Environment with Social Structures for Multi-Agent Decision-Making",
+    "published_date": "2024-11-06",
+    "abstract": "Traditional interactive environments limit agents' intelligence growth with fixed tasks. Recently, single-agent environments address this by generating new tasks based on agent actions, enhancing task diversity. We consider the decision-making problem in multi-agent settings, where tasks are further influenced by social connections, affecting rewards and information access. However, existing multi-agent environments lack a combination of adaptive physical surroundings and social connections, hindering the learning of intelligent behaviors. To address this, we introduce AdaSociety, a customizable multi-agent environment featuring expanding state and action spaces, alongside explicit and alterable social structures. As agents progress, the environment adaptively generates new tasks with social structures for agents to undertake. In AdaSociety, we develop three mini-games showcasing distinct social structures and tasks. Initial results demonstrate that specific social structures can promote both individual and collective benefits, though current reinforcement learning and LLM-based algorithms show limited effectiveness in leveraging social structures to enhance performance. Overall, AdaSociety serves as a valuable research platform for exploring intelligence in diverse physical and social settings. The code is available at https://github.com/bigai-ai/AdaSociety."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.03139.pdf",
+    "title": "Low impact agency: review and discussion",
+    "published_date": "2023-03-06",
+    "abstract": "Powerful artificial intelligence poses an existential threat if the AI decides to drastically change the world in pursuit of its goals. The hope of low-impact artificial intelligence is to incentivize AI to not do that just because this causes a large impact in the world. In this work, we first review the concept of low-impact agency and previous proposals to approach the problem, and then propose future research directions in the topic, with the goal to ensure low-impactedness is useful in making AI safe."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.15003.pdf",
+    "title": "Feasible Action-Space Reduction as a Metric of Causal Responsibility in Multi-Agent Spatial Interactions",
+    "published_date": "2023-05-24",
+    "abstract": "Modelling causal responsibility in multi-agent spatial interactions is crucial for safety and efficiency of interactions of humans with autonomous agents. However, current formal metrics and models of responsibility either lack grounding in ethical and philosophical concepts of responsibility, or cannot be applied to spatial interactions. In this work we propose a metric of causal responsibility which is tailored to multi-agent spatial interactions, for instance interactions in traffic. In such interactions, a given agent can, by reducing another agent's feasible action space, influence the latter. Therefore, we propose feasible action space reduction (FeAR) as a metric of causal responsibility among agents. Specifically, we look at ex-post causal responsibility for simultaneous actions. We propose the use of Moves de Rigueur (MdR) - a consistent set of prescribed actions for agents - to model the effect of norms on responsibility allocation. We apply the metric in a grid world simulation for spatial interactions and show how the actions, contexts, and norms affect the causal responsibility ascribed to agents. Finally, we demonstrate the application of this metric in complex multi-agent interactions. We argue that the FeAR metric is a step towards an interdisciplinary framework for quantifying responsibility that is needed to ensure safety and meaningful human control in human-AI systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.15925v2",
+    "title": "Asynchronous, Option-Based Multi-Agent Policy Gradient: A Conditional Reasoning Approach",
+    "published_date": "2022-03-29",
+    "abstract": "Cooperative multi-agent problems often require coordination between agents, which can be achieved through a centralized policy that considers the global state. Multi-agent policy gradient (MAPG) methods are commonly used to learn such policies, but they are often limited to problems with low-level action spaces. In complex problems with large state and action spaces, it is advantageous to extend MAPG methods to use higher-level actions, also known as options, to improve the policy search efficiency. However, multi-robot option executions are often asynchronous, that is, agents may select and complete their options at different time steps. This makes it difficult for MAPG methods to derive a centralized policy and evaluate its gradient, as centralized policy always select new options at the same time. In this work, we propose a novel, conditional reasoning approach to address this problem and demonstrate its effectiveness on representative option-based multi-agent cooperative tasks through empirical validation. Find code and videos at: https://sites.google.com/view/mahrlsupp/",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.04962v1.pdf",
+    "title": "Distributed Cooperative Multi-Agent Reinforcement Learning with Directed Coordination Graph",
+    "published_date": "2022-01-10",
+    "abstract": "Existing distributed cooperative multi-agent reinforcement learning (MARL) frameworks usually assume undirected coordination graphs and communication graphs, while estimating a global reward via consensus algorithms for policy evaluation. Such a framework may induce expensive communication costs and exhibit poor scalability due to requirement of global consensus. In this work, we study MARLs with directed coordination graphs, and propose a distributed RL algorithm where the local policy evaluations are based on local value functions. The local value function of each agent is obtained by local communication with its neighbors through a directed learning-induced communication graph, without using any consensus algorithm. A zeroth-order optimization (ZOO) approach based on parameter perturbation is employed to achieve gradient estimation. By comparing with existing ZOO-based RL algorithms, we show that our proposed distributed RL algorithm guarantees high scalability. A distributed resource allocation example is shown to illustrate the effectiveness of our algorithm.",
+    "citation_count": 6
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.02617v1.pdf",
+    "title": "Be Considerate: Objectives, Side Effects, and Deciding How to Act",
+    "published_date": "2021-06-04",
+    "abstract": "Recent work in AI safety has highlighted that in sequential decision making, objectives are often underspecified or incomplete. This gives discretion to the acting agent to realize the stated objective in ways that may result in undesirable outcomes. We contend that to learn to act safely, a reinforcement learning (RL) agent should include contemplation of the impact of its actions on the wellbeing and agency of others in the environment, including other acting agents and reactive processes. We endow RL agents with the ability to contemplate such impact by augmenting their reward based on expectation of future return by others in the environment, providing different criteria for characterizing impact. We further endow these agents with the ability to differentially factor this impact into their decision making, manifesting behavior that ranges from self-centred to self-less, as demonstrated by experiments in gridworld environments.",
+    "citation_count": 3
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for third-party testing of large-scale AI systems to mitigate societal harms, arguing that such a regime, involving industry, government, and academia, is crucial for managing the risks of powerful AI models while fostering innovation and international collaboration. This testing would focus on a narrow set of high-impact systems, aiming to build trust and avoid overly burdensome regulation."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2307.13658.pdf",
+    "title": "Towards an AI Accountability Policy",
+    "published_date": "2023-07-25",
+    "abstract": "This white paper is a response to the\"AI Accountability Policy Request for Comments\"by the National Telecommunications and Information Administration of the United States. The question numbers for which comments were requested are provided in superscripts at the end of key sentences answering the respective questions. The white paper offers a set of interconnected recommendations for an AI accountability policy.",
+    "citation_count": 2,
+    "summary": "This white paper responds to a US government request for comments on AI accountability, offering interconnected recommendations for a comprehensive AI accountability policy. It addresses specific questions posed in the request."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.13138",
+    "title": "Visibility into AI Agents",
+    "published_date": "2024-01-23",
+    "abstract": "Increased delegation of commercial, scientific, governmental, and personal activities to AI agents—systems capable of pursuing complex goals with limited supervision—may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.",
+    "citation_count": 12,
+    "summary": "This paper examines methods to increase \"visibility\" into AI agents—understanding their use, purpose, and developers—by analyzing agent identifiers, real-time monitoring, and activity logging, considering their implementation across deployment contexts and implications for privacy and power. The authors argue that improved visibility is crucial for mitigating the societal risks associated with increased AI agent autonomy."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, focuses on AI model registries—centralized databases tracking AI systems for governmental monitoring and future legislation. These registries, drawing parallels to pharmaceutical regulations, vary widely in their requirements and accessibility across jurisdictions like the US, EU, and China."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.00044",
+    "title": "Advancing AI Audits for Enhanced AI Governance",
+    "published_date": "2023-11-26",
+    "abstract": "As artificial intelligence (AI) is integrated into various services and systems in society, many companies and organizations have proposed AI principles, policies, and made the related commitments. Conversely, some have proposed the need for independent audits, arguing that the voluntary principles adopted by the developers and providers of AI services and systems insufficiently address risk. This policy recommendation summarizes the issues related to the auditing of AI services and systems and presents three recommendations for promoting AI auditing that contribute to sound AI governance. Recommendation1.Development of institutional design for AI audits. Recommendation2.Training human resources for AI audits. Recommendation3. Updating AI audits in accordance with technological progress. In this policy recommendation, AI is assumed to be that which recognizes and predicts data with the last chapter outlining how generative AI should be audited.",
+    "summary": "This policy recommendation advocates for enhanced AI governance through independent audits, proposing the development of institutional frameworks, training programs for auditors, and mechanisms for adapting audit practices to evolving AI technologies, including generative AI."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that effective safety measures require a holistic understanding encompassing technical, social, and political factors, and collaborative efforts across diverse fields to design \"civilizational intelligence.\" This approach prioritizes practical application of various theoretical models over the pursuit of a single, definitive theory."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "The article explores applying game theory to AI development within organizations, highlighting its limitations in fully capturing complex organizational dynamics. It argues that even with advanced AI, bureaucratic structures – characterized by hierarchical authority and specialized tasks – remain necessary for efficient goal achievement due to inherent limitations in individual information processing and decision-making capacity."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/fEAGPyHR9GaK2cwRq/five-neglected-work-areas-that-could-reduce-ai-risk",
+    "author": "by [anonymous], Aaron_Scher11 min read24th Sep 20235 comments",
+    "title": "Five neglected work areas that could reduce AI risk",
+    "published_date": "2023-09-24",
+    "summary": "The article identifies five crucial, yet neglected, areas requiring further research in AI governance: scaling information aggregation during rapid AI development, improving internal AI deployment in policy organizations, designing institutional frameworks for evaluating AI alignment plans, developing methods for evaluating automated alignment researchers, and creating comprehensive educational resources on AI alignment and safety."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/organization-updates",
+    "author": "Jesse Hoogland, Daniel Murfet, Stan van Wingerden, Alexander Gietelink Oldenziel",
+    "title": "Organization Updates - AI Alignment Forum",
+    "published_date": "2023-05-30",
+    "summary": "Organization updates pertain to news and changes within a specific group or organization. The term describes typical updates relevant to that entity."
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.04754v1",
+    "title": "System Cards for AI-Based Decision-Making for Public Policy",
+    "published_date": "2022-03-01",
+    "abstract": "Decisions impacting human lives are increasingly being made or assisted by automated decision-making algorithms. Many of these algorithms process personal data for predicting recidivism, credit risk analysis, identifying individuals using face recognition, and more. While potentially improving efficiency and effectiveness, such algorithms are not inherently free from bias, opaqueness, lack of explainability, maleficence, and the like. Given that the outcomes of these algorithms have a significant impact on individuals and society and are open to analysis and contestation after deployment, such issues must be accounted for before deployment. Formal audits are a way of ensuring algorithms meet the appropriate accountability standards. This work, based on an extensive analysis of the literature and an expert focus group study, proposes a unifying framework for a system accountability benchmark for formal audits of artificial intelligence-based decision-aiding systems. This work also proposes system cards to serve as scorecards presenting the outcomes of such audits. It consists of 56 criteria organized within a four-by-four matrix composed of rows focused on (i) data, (ii) model, (iii) code, (iv) system, and columns focused on (a) development, (b) assessment, (c) mitigation, and (d) assurance. The proposed system accountability benchmark reflects the state-of-the-art developments for accountable systems, serves as a checklist for algorithm audits, and paves the way for sequential work in future research.",
+    "citation_count": 12,
+    "summary": "This paper proposes a system accountability benchmark and accompanying \"system cards\" for auditing AI-based public policy decision-making systems, using a 56-criteria framework organized across data, model, code, and system aspects, throughout development, assessment, mitigation, and assurance stages. This framework aims to improve the transparency and accountability of AI systems impacting human lives."
+  }
+]

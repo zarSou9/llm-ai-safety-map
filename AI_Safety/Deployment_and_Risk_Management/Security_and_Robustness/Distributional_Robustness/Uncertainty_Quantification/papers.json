@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/79eegMp3EBs8ptFqa/neural-uncertainty-estimation-for-alignment",
+    "author": "Charlie Steiner",
+    "title": "Neural uncertainty estimation review article (for alignment)",
+    "published_date": "2023-12-05",
+    "summary": "The article surveys methods for estimating uncertainty in neural network outputs, focusing on Bayesian neural networks and ensemble methods. While Bayesian methods offer a theoretically sound approach, practical implementation often requires computationally expensive approximations; ensembles, though less theoretically grounded, provide a more computationally feasible alternative."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.14899",
+    "title": "Out-of-distribution Robust Optimization",
+    "published_date": "2024-10-18",
+    "abstract": "In this paper, we consider the contextual robust optimization problem under an out-of-distribution setting. The contextual robust optimization problem considers a risk-sensitive objective function for an optimization problem with the presence of a context vector (also known as covariates or side information) capturing related information. While the existing works mainly consider the in-distribution setting, and the resultant robustness achieved is in an out-of-sample sense, our paper studies an out-of-distribution setting where there can be a difference between the test environment and the training environment where the data are collected. We propose methods that handle this out-of-distribution setting, and the key relies on a density ratio estimation for the distribution shift. We show that additional structures such as covariate shift and label shift are not only helpful in defending distribution shift but also necessary in avoiding non-trivial solutions compared to other principled methods such as distributionally robust optimization. We also illustrate how the covariates can be useful in this procedure. Numerical experiments generate more intuitions and demonstrate that the proposed methods can help avoid over-conservative solutions.",
+    "summary": "This paper addresses contextual robust optimization under out-of-distribution settings, proposing methods that leverage density ratio estimation to account for distribution shifts between training and test environments. The authors demonstrate that incorporating covariate and label shift structures is crucial for avoiding overly conservative solutions."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13",
+    "summary": "Current methods for assessing the risk of catastrophic AI behavior rely on finding specific harmful inputs, which is insufficient for guaranteeing safety. This article proposes improved methods for estimating the probability of such \"tail events\" without relying on identifying harmful inputs, focusing on techniques that could better predict and mitigate catastrophic AI actions."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2212.09962.pdf",
+    "title": "Distributional Robustness Bounds Generalization Errors",
+    "published_date": "2022-12-20",
+    "abstract": "Bayesian methods, distributionally robust optimization methods, and regularization methods are three pillars of trustworthy machine learning combating distributional uncertainty, e.g., the uncertainty of an empirical distribution compared to the true underlying distribution. This paper investigates the connections among the three frameworks and, in particular, explores why these frameworks tend to have smaller generalization errors. Specifically, first, we suggest a quantitative definition for\"distributional robustness\", propose the concept of\"robustness measure\", and formalize several philosophical concepts in distributionally robust optimization. Second, we show that Bayesian methods are distributionally robust in the probably approximately correct (PAC) sense; in addition, by constructing a Dirichlet-process-like prior in Bayesian nonparametrics, it can be proven that any regularized empirical risk minimization method is equivalent to a Bayesian method. Third, we show that generalization errors of machine learning models can be characterized using the distributional uncertainty of the nominal distribution and the robustness measures of these machine learning models, which is a new perspective to bound generalization errors, and therefore, explain the reason why distributionally robust machine learning models, Bayesian models, and regularization models tend to have smaller generalization errors in a unified manner.",
+    "citation_count": 4,
+    "summary": "This paper establishes connections between Bayesian methods, distributionally robust optimization, and regularization, demonstrating that their superior generalization performance stems from their inherent distributional robustness. It quantifies this robustness, showing that both Bayesian and regularized methods can be viewed as distributionally robust, thus unifying the explanation for their reduced generalization errors."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dhbLE8BqRvhBtsXhS/mlsn-3-neurips-safety-paper-roundup",
+    "author": "Dan H",
+    "title": "[MLSN #3]: NeurIPS Safety Paper Roundup",
+    "published_date": "2022-03-08",
+    "summary": "The ML Safety Newsletter's third issue summarizes recent research on improving machine learning model robustness, including studies on Vision Transformers' robustness compared to ConvNets, a novel fractal-based data augmentation technique (PixMix), and new methods for adversarial attack detection and out-of-distribution anomaly detection. The newsletter also highlights advancements in certified robustness and the creation of more realistic benchmark datasets."
+  },
+  {
+    "url": "https://arxiv.org/abs/2106.15791",
+    "title": "Distributionally Robust Learning With Stable Adversarial Training",
+    "published_date": "2021-06-30",
+    "abstract": "Machine learning algorithms with empirical risk minimization are vulnerable under distributional shifts due to the greedy adoption of all the correlations found in training data. There is an emerging literature on tackling this problem by minimizing the worst-case risk over an uncertainty set. However, existing methods mostly construct ambiguity sets by treating all variables equally regardless of the stability of their correlations with the target, resulting in the overwhelmingly-large uncertainty set and low confidence of the learner. In this paper, we propose a novel Stable Adversarial Learning (SAL) algorithm that leverages heterogeneous data sources to construct a more practical uncertainty set and conduct differentiated robustness optimization, where covariates are differentiated according to the stability of their correlations with the target. We theoretically show that our method is tractable for stochastic gradient-based optimization and provide the performance guarantees for our method. Empirical studies on both simulation and real datasets validate the effectiveness of our method in terms of uniformly good performance across unknown distributional shifts.",
+    "citation_count": 11,
+    "summary": "Stable Adversarial Learning (SAL) improves distributionally robust learning by constructing a smaller, more practical uncertainty set using heterogeneous data sources and differentiating covariates based on correlation stability with the target. This approach yields better performance under distributional shifts compared to existing methods."
+  },
+  {
+    "url": "https://arxiv.org/abs/2106.04015v2",
+    "title": "Uncertainty Baselines: Benchmarks for Uncertainty & Robustness in Deep Learning",
+    "published_date": "2021-06-07",
+    "abstract": "High-quality estimates of uncertainty and robustness are crucial for numerous real-world applications, especially for deep learning which underlies many deployed ML systems. The ability to compare techniques for improving these estimates is therefore very important for research and practice alike. Yet, competitive comparisons of methods are often lacking due to a range of reasons, including: compute availability for extensive tuning, incorporation of sufficiently many baselines, and concrete documentation for reproducibility. In this paper we introduce Uncertainty Baselines: high-quality implementations of standard and state-of-the-art deep learning methods on a variety of tasks. As of this writing, the collection spans 19 methods across 9 tasks, each with at least 5 metrics. Each baseline is a self-contained experiment pipeline with easily reusable and extendable components. Our goal is to provide immediate starting points for experimentation with new methods or applications. Additionally we provide model checkpoints, experiment outputs as Python notebooks, and leaderboards for comparing results. Code available at https://github.com/google/uncertainty-baselines.",
+    "citation_count": 95,
+    "summary": "Uncertainty Baselines is a collection of high-quality, reproducible implementations of deep learning methods for assessing uncertainty and robustness, providing researchers and practitioners with benchmarks and tools for comparing different techniques across various tasks. The project offers standardized pipelines, model checkpoints, and leaderboards to facilitate experimentation and reproducible research."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.05724v1.pdf",
+    "title": "Distributionally Robust Prescriptive Analytics with Wasserstein Distance",
+    "published_date": "2021-06-10",
+    "abstract": "In prescriptive analytics, the decision-maker observes historical samples of $(X, Y)$, where $Y$ is the uncertain problem parameter and $X$ is the concurrent covariate, without knowing the joint distribution. Given an additional covariate observation $x$, the goal is to choose a decision $z$ conditional on this observation to minimize the cost $\\mathbb{E}[c(z,Y)|X=x]$. This paper proposes a new distributionally robust approach under Wasserstein ambiguity sets, in which the nominal distribution of $Y|X=x$ is constructed based on the Nadaraya-Watson kernel estimator concerning the historical data. We show that the nominal distribution converges to the actual conditional distribution under the Wasserstein distance. We establish the out-of-sample guarantees and the computational tractability of the framework. Through synthetic and empirical experiments about the newsvendor problem and portfolio optimization, we demonstrate the strong performance and practical value of the proposed framework.",
+    "citation_count": 6,
+    "summary": "This paper presents a distributionally robust prescriptive analytics framework using Wasserstein distance, employing a Nadaraya-Watson kernel estimator to construct a nominal conditional distribution and proving its convergence and computational tractability; experiments demonstrate its strong performance in newsvendor and portfolio optimization problems."
+  }
+]

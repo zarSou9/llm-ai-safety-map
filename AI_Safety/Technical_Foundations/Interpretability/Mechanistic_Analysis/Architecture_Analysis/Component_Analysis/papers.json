@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/93nKtsDL6YY5fRbQv/case-studies-in-reverse-engineering-sparse-autoencoder",
+    "author": "Jacob Dunefsky, Philippe Chlenski, Senthooran Rajamanoharan, Neel Nanda",
+    "title": "Case Studies in Reverse-Engineering Sparse Autoencoder Features by Using MLP Linearization",
+    "published_date": "2024-01-14"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/TMAmHh4DdMr4nCSr5/showing-sae-latents-are-not-atomic-using-meta-saes",
+    "author": "Bart Bussmann; Michael Pearce; Patrick Leask; Joseph Bloom; Lee Sharkey; Neel Nanda",
+    "title": "Showing SAE Latents Are Not Atomic Using Meta-SAEs",
+    "published_date": "2024-08-24"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.00456.pdf",
+    "title": "Analyzing Feed-Forward Blocks in Transformers through the Lens of Attention Maps",
+    "published_date": "2023-02-01",
+    "abstract": "Transformers are ubiquitous in wide tasks. Interpreting their internals is a pivotal goal. Nevertheless, their particular components, feed-forward (FF) blocks, have typically been less analyzed despite their substantial parameter amounts. We analyze the input contextualization effects of FF blocks by rendering them in the attention maps as a human-friendly visualization scheme. Our experiments with both masked- and causal-language models reveal that FF networks modify the input contextualization to emphasize specific types of linguistic compositions. In addition, FF and its surrounding components tend to cancel out each other's effects, suggesting potential redundancy in the processing of the Transformer layer.",
+    "citation_count": 12
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/xNgdJEep9DQQWhSbv/understanding-the-information-flow-inside-large-language",
+    "author": "Felix Hofstätter, cozyfractal",
+    "title": "Understanding the Information Flow inside Large Language Models",
+    "published_date": "2023-08-15"
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.13970",
+    "title": "Breaking the Architecture Barrier: A Method for Efficient Knowledge Transfer Across Networks",
+    "published_date": "2022-12-28",
+    "abstract": "Transfer learning is a popular technique for improving the performance of neural networks. However, existing methods are limited to transferring parameters between networks with same architectures. We present a method for transferring parameters between neural networks with different architectures. Our method, called DPIAT, uses dynamic programming to match blocks and layers between architectures and transfer parameters efficiently. Compared to existing parameter prediction and random initialization methods, it significantly improves training efficiency and validation accuracy. In experiments on ImageNet, our method improved validation accuracy by an average of 1.6 times after 50 epochs of training. DPIAT allows both researchers and neural architecture search systems to modify trained networks and reuse knowledge, avoiding the need for retraining from scratch. We also introduce a network architecture similarity measure, enabling users to choose the best source network without any training.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi/p/HvqQm6o8KnwxbdmhZ",
+    "author": "lennart, Jsevillamol, Marius Hobbhahn, Tamay Besiroglu, anson.ho",
+    "title": "Estimating training compute of Deep Learning models",
+    "published_date": "2022-01-20"
+  }
+]

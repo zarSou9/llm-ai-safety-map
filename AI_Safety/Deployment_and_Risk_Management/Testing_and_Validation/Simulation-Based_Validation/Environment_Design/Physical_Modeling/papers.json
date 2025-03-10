@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2212.06783",
+    "title": "Generative methods for Urban design and rapid solution space exploration",
+    "published_date": "2022-11-25",
+    "abstract": "Rapid population growth and climate change drive urban renewal and urbanization at massive scales. New computational methods are needed to better support urban designers in developing sustainable, resilient, and livable urban environments. Urban design space exploration and multi-objective optimization of masterplans can be used to expedite planning while achieving better design outcomes by incorporating generative parametric modeling considering different stakeholder requirements and simulation-based performance feedback. However, a lack of generalizable and integrative methods for urban form generation that can be coupled with simulation and various design performance analysis constrains the extensibility of workflows. This research introduces an implementation of a tensor-field–based generative urban modeling toolkit that facilitates rapid design space exploration and multi-objective optimization by integrating with Rhino/Grasshopper ecosystem and its urban analysis and environmental performance simulation tools. Our tensor-field modeling method provides users with a generalized way to encode contextual constraints such as waterfront edges, terrain, view-axis, existing streets, landmarks, and non-geometric design inputs such as network directionality, desired densities of streets, amenities, buildings, and people as forces that modelers can weigh. This allows users to generate many, diverse urban fabric configurations that resemble real-world cities with very few model inputs. We present a case study to demonstrate the proposed framework's flexibility and applicability and show how modelers can identify design and environmental performance synergies that would be hard to find otherwise.",
+    "citation_count": 9
+  },
+  {
+    "url": "https://arxiv.org/pdf/2002.05162v2.pdf",
+    "title": "A Combined Stochastic and Physical Framework for Modeling Indoor 5G Millimeter Wave Propagation",
+    "published_date": "2020-02-12",
+    "abstract": "Indoor coverage is a major challenge for 5G millimeter waves (mmWaves). In this paper, we address this problem through a novel theoretical framework that combines stochastic indoor environment modeling with advanced physical propagation simulation. This approach is particularly adapted to investigate indoor-to-indoor 5G mmWave propagation. Its system implementation, so-called iGeoStat, generates parameterized typical environments that account for the indoor spatial variations, then simulates radio propagation based on the physical interaction between electromagnetic waves and material properties. This framework is not dedicated to a particular environment, material, frequency, or use case, and aims to statistically understand the influence of indoor environment parameters on mmWave propagation properties, especially coverage and path loss. Its implementation raises numerous computational challenges that we solve by formulating an adapted link budget and designing new memory optimization algorithms. The first simulation results for two major 5G applications are validated with measurement data and show the efficiency of iGeoStat to simulate multiple diffusion in realistic environments, within a reasonable amount of time and memory resources. Generated output maps confirm that diffusion has a critical impact on indoor mmWave propagation and that proper physical modeling is of the utmost importance to generate relevant propagation models.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2011.07892.pdf",
+    "title": "Environment Modeling for Adaptive Systems: A Systematic Literature Review",
+    "published_date": "2020-11-16",
+    "abstract": "[Context & Motivation] Adaptive systems are an important research area. The dominant reason for adaptivity in systems are changes in the environment. Thus, it is an important question how to model the environment and how to determine the necessary information on this environment in the requirements engineering phase. [Question/ Problem] There is so far relatively little explicit study of the notion of environment models in software engineering research. [Principal ideas/ Results] In this paper, we present a systematic literature review with the goal to determine the state of the art in environment modeling for adaptive systems, in particular from a requirements perspective. We discuss the goals of the approaches, the modeling concepts, as well as the methodology aspects of environment modeling in our survey. [Contribution] As major result of our survey, we provide a meta-model of existing environment modeling concepts. As a negative finding - and a research opportunity - we find that so far methodological aspects of environment modeling have received very little attention.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2005.02449.pdf",
+    "title": "A Cloud-Based Collaboration Platform for Model-Based Design of Cyber-Physical Systems",
+    "published_date": "2020-05-05",
+    "abstract": "Businesses, particularly small and medium-sized enterprises, aiming to start up in Model-Based Design (MBD) face difficult choices from a wide range of methods, notations and tools before making the significant investments in planning, procurement and training necessary to deploy new approaches successfully. In the development of Cyber-Physical Systems (CPSs) this is exacerbated by the diversity of formalisms covering computation, physical and human processes. In this paper, we propose the use of a cloud-enabled and open collaboration platform that allows businesses to offer models, tools and other assets, and permits others to access these on a pay-per-use basis as a means of lowering barriers to the adoption of MBD technology, and to promote experimentation in a sandbox environment.",
+    "citation_count": 11
+  },
+  {
+    "url": "https://arxiv.org/abs/1909.00912v3",
+    "title": "Enforcing Analytic Constraints in Neural Networks Emulating Physical Systems.",
+    "published_date": "2019-09-03",
+    "abstract": "Neural networks can emulate nonlinear physical systems with high accuracy, yet they may produce physically inconsistent results when violating fundamental constraints. Here, we introduce a systematic way of enforcing nonlinear analytic constraints in neural networks via constraints in the architecture or the loss function. Applied to convective processes for climate modeling, architectural constraints enforce conservation laws to within machine precision without degrading performance. Enforcing constraints also reduces errors in the subsets of the outputs most impacted by the constraints.",
+    "citation_count": 226
+  },
+  {
+    "title": "Aquilomorphism: materializing wind in architecture through ice weathering simulations",
+    "abstract": "ABSTRACT This paper proposes a morphological generation method based on the integration of wind forces which leads to organic geometries fostering new spatial experiences and environmental adaptation. It suggests that analogical simulations can generate creative design solutions responding to complex environmental fluxes and can accelerate the design process for architects through tactile explorations of form, matter and spatiality. The aerodynamic design solutions, although contextual, are not deterministic, in the sense that they are reinterpreted to meet the functional needs and constraints of an architectural project. The paper concludes on a sample application that enables practical understanding of the possible uses of the method for architectural and urban design applications.",
+    "published_date": "2018-10-19",
+    "citation_count": 4,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/00038628.2018.1535423"
+  }
+]

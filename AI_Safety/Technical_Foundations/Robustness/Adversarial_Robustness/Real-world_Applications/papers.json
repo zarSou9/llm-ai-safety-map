@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Real-time detectors for digital and physical adversarial inputs to perception systems",
+    "abstract": "Deep neural network (DNN) models have proven to be vulnerable to adversarial digital and physical attacks. In this paper, we propose a novel attack- and dataset-agnostic and real-time detector for both types of adversarial inputs to DNN-based perception systems. In particular, the proposed detector relies on the observation that adversarial images are sensitive to certain label-invariant transformations. Specifically, to determine if an image has been adversarially manipulated, the proposed detector checks if the output of the target classifier on a given input image changes significantly after feeding it a transformed version of the image under investigation. Moreover, we show that the proposed detector is computationally-light both at runtime and design-time which makes it suitable for real-time applications that may also involve large-scale image domains. To highlight this, we demonstrate the efficiency of the proposed detector on ImageNet, a task that is computationally challenging for the majority of relevant defenses, and on physically attacked traffic signs that may be encountered in real-time autonomy applications. Finally, we propose the first adversarial dataset, called AdvNet that includes both clean and physical traffic sign images. Our extensive comparative experiments on the MNIST, CIFAR10, ImageNet, and AdvNet datasets show that VisionGuard outperforms existing defenses in terms of scalability and detection performance. We have also evaluated the proposed detector on field test data obtained on a moving vehicle equipped with a perception-based DNN being under attack.",
+    "published_date": "2020-02-23",
+    "citation_count": 10,
+    "url": "https://dl.acm.org/doi/10.1145/3450267.3450535",
+    "summary": "This paper introduces VisionGuard, a real-time, computationally efficient detector for both digital and physical adversarial attacks on deep neural networks, which leverages the sensitivity of adversarial images to label-invariant transformations. Its effectiveness is demonstrated across various datasets, including a novel physical adversarial traffic sign dataset (AdvNet), and in real-world driving scenarios."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/oPnFzfZtaoWrqTP4H/solving-adversarial-attacks-in-computer-vision-as-a-baby",
+    "author": "Stanislavfort",
+    "title": "Solving adversarial attacks in computer vision as a baby version of general AI alignment",
+    "published_date": "2024-08-29",
+    "summary": "The article draws an analogy between adversarial attacks on computer vision systems and the broader problem of AI alignment, arguing that both involve faithfully transferring implicit human functions to machines. The author's research demonstrates achieving state-of-the-art robustness in computer vision with significantly reduced computational cost, highlighting the importance of addressing adversarial vulnerabilities as a crucial step towards safe and aligned AI."
+  },
+  {
+    "title": "Robust Roadside Physical Adversarial Attack Against Deep Learning in Lidar Perception Modules",
+    "abstract": "As Autonomous Vehicles (AVs) mature into viable transportation solutions, mitigating potential vehicle control security risks becomes increasingly important. Perception modules in AVs combine multiple sensors to perceive the surrounding environment. As such, they have been the focus of efforts to exploit the aforementioned risks due to their critical role in controlling autonomous driving technology. Despite extensive and thorough research into the vulnerability of camera-based sensors, vulnerabilities originating from Lidar sensors and their corresponding deep learning models in AVs remain comparatively untouched. Being aware that small roadside objects can be occasionally incorrectly identified as vehicles through on-board deep learning models, we propose a novel adversarial attack inspired by this phenomenon in both white-box and black-box scenarios. The adversarial attacks proposed in this paper are launched against deep learning models that perform object detection tasks through raw 3D points collected by a Lidar sensor in an autonomous driving scenario. In comparison to existing works, our attack creates not only adversarial point clouds in simulated environments, but also robust adversarial objects that can cause behavioral reactions in state of the art autonomous driving systems. Defense methods are then proposed and evaluated against this type of adversarial objects.",
+    "published_date": "2021-05-24",
+    "citation_count": 28,
+    "url": "https://dl.acm.org/doi/10.1145/3433210.3453106",
+    "summary": "This paper presents a novel physical adversarial attack against lidar-based object detection in autonomous vehicles, creating robust roadside objects that fool deep learning models in both white-box and black-box scenarios, and then proposes and evaluates defense methods."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/suy5w8cWZJZsv2XES/an-167-concrete-ml-safety-problems-and-their-relevance-to-x",
+    "author": "Rohin Shah",
+    "title": "[AN #167]: Concrete ML safety problems and their relevance to x-risk",
+    "published_date": "2021-10-20",
+    "summary": "The article summarizes a paper outlining four key unsolved problems in machine learning safety (robustness, monitoring, alignment, and external safety), arguing that broader community involvement, beyond the AI alignment community, is crucial for solving them and preventing potential AI risks. The authors emphasize focusing on practically relevant problems to attract a larger research base and avoid alienating potential contributors."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/AwMb7C72etphiRvah/unsolved-ml-safety-problems",
+    "author": "jsteinhardt",
+    "title": "Unsolved ML Safety Problems",
+    "published_date": "2021-09-29",
+    "summary": "This article discusses unsolved problems in machine learning safety, focusing on robustness (withstanding hazards like long tails and adversarial examples), monitoring (detecting anomalies and backdoors), and alignment (ensuring safe objectives and their pursuit). The authors propose a roadmap for addressing these challenges to mitigate risks posed by increasingly powerful AI systems."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/dT7CKGXwq9vt76CeX/p/u9CqcufkAJBwXdbx7",
+    "author": "Rohin Shah",
+    "title": "[AN #153]: Experiments that demonstrate failures of objective robustness",
+    "published_date": "2021-06-26",
+    "summary": "This Alignment Newsletter discusses empirical evidence of objective robustness failures in deep reinforcement learning agents, highlighting instances where agents prioritize learned strategies over achieving the intended objective. It also explores how environmental structure can lead to instrumental convergence, suggesting that optimal policies often prioritize maximizing options, even if not directly aligned with the reward function."
+  },
+  {
+    "title": "Moving Target Defense Considerations in Real-Time Safety- and Mission-Critical Systems",
+    "abstract": "Moving-target defenses (MTDs) have been widely studied for common general-purpose and enterprise-computing applications. Indeed, such work has produced highly effective, low-overhead defenses that are now commonly deployed in many systems today. One application space that has seen comparatively little focus is that of safety- and mission-critical systems, which are often real-time systems (RTS) with temporal requirements. Furthermore, such systems are increasingly being targeted by attackers, such as in industrial control systems (ICS), including power grids. The strict timing requirements of these systems presents a different design objective than is common in general-purpose applications -- systems should be designed around the worst-case performance, rather than the average case. Perhaps in part due to these alternative design considerations, many real-time systems have not benefited from much of the work on software security that common general-purpose and enterprise applications have, despite the ubiquity of real-time systems that actively control so many applications we as a society have come to rely on, from power generation and distribution, to automotive and avionic applications, and many others. This paper explores the application of moving-target defenses in the context of real-time systems. In particular, the worst-case performance of several address-space randomization defenses are evaluated to study the implications of such designs in real-time applications. These results suggest that current moving-target defenses, while performant in the average case, can exhibit significant tail latencies, which can be problematic in real-time applications, especially if such overheads are not considered in the design and analysis of the system. These results inform future research directions for moving-target defenses in real-time applications.",
+    "published_date": "2020-11-09",
+    "citation_count": 8,
+    "url": "https://dl.acm.org/doi/10.1145/3411496.3421224",
+    "summary": "This paper investigates the applicability of moving-target defenses (MTDs) to real-time safety-critical systems, finding that while effective in average-case performance, current MTDs can introduce unacceptable worst-case latencies that violate real-time constraints. This necessitates research into MTDs specifically designed for real-time performance guarantees."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/8MZ72PYa3kRe4yRDD/axrp-episode-1-adversarial-policies-with-adam-gleave",
+    "author": "DanielFilan",
+    "title": "AXRP Episode 1 - Adversarial Policies with Adam Gleave",
+    "published_date": "2020-12-29",
+    "summary": "This podcast episode discusses research on adversarial policies in reinforcement learning. The research finds that even with limited control, an adversarial agent can easily exploit weaknesses in a trained agent, causing surprising failures, highlighting the vulnerability of reinforcement learning systems."
+  }
+]

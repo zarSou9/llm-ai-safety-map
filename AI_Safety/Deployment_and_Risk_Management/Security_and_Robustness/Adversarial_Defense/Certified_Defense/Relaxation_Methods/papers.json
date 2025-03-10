@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2006.14076v1.pdf",
+    "title": "The Convex Relaxation Barrier, Revisited: Tightened Single-Neuron Relaxations for Neural Network Verification",
+    "published_date": "2020-06-24",
+    "abstract": "We improve the effectiveness of propagation- and linear-optimization-based neural network verification algorithms with a new tightened convex relaxation for ReLU neurons. Unlike previous single-neuron relaxations which focus only on the univariate input space of the ReLU, our method considers the multivariate input space of the affine pre-activation function preceding the ReLU. Using results from submodularity and convex geometry, we derive an explicit description of the tightest possible convex relaxation when this multivariate input is over a box domain. We show that our convex relaxation is significantly stronger than the commonly used univariate-input relaxation which has been proposed as a natural convex relaxation barrier for verification. While our description of the relaxation may require an exponential number of inequalities, we show that they can be separated in linear time and hence can be efficiently incorporated into optimization algorithms on an as-needed basis. Based on this novel relaxation, we design two polynomial-time algorithms for neural network verification: a linear-programming-based algorithm that leverages the full power of our relaxation, and a fast propagation algorithm that generalizes existing approaches. In both cases, we show that for a modest increase in computational effort, our strengthened relaxation enables us to verify a significantly larger number of instances compared to similar algorithms.",
+    "citation_count": 85
+  },
+  {
+    "url": "https://arxiv.org/abs/2102.06700",
+    "title": "On the Paradox of Certified Training",
+    "published_date": "2021-02-12",
+    "abstract": "Certified defenses based on convex relaxations are an established technique for training provably robust models. The key component is the choice of relaxation, varying from simple intervals to tight polyhedra. Counterintuitively, loose interval-based training often leads to higher certified robustness than what can be achieved with tighter relaxations, which is a well-known but poorly understood paradox. While recent works introduced various improvements aiming to circumvent this issue in practice, the fundamental problem of training models with high certified robustness remains unsolved. In this work, we investigate the underlying reasons behind the paradox and identify two key properties of relaxations, beyond tightness, that impact certified training dynamics: continuity and sensitivity. Our extensive experimental evaluation with a number of popular convex relaxations provides strong evidence that these factors can explain the drop in certified robustness observed for tighter relaxations. We also systematically explore modifications of existing relaxations and discover that improving unfavorable properties is challenging, as such attempts often harm other properties, revealing a complex tradeoff. Our findings represent an important first step towards understanding the intricate optimization challenges involved in certified training.",
+    "citation_count": 13
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.09306v1.pdf",
+    "title": "Towards Optimal Branching of Linear and Semidefinite Relaxations for Neural Network Robustness Certification",
+    "published_date": "2021-01-22",
+    "abstract": "In this paper, we study certifying the robustness of ReLU neural networks against adversarial input perturbations. To diminish the relaxation error suffered by the popular linear programming (LP) and semidefinite programming (SDP) certification methods, we take a branch-and-bound approach to propose partitioning the input uncertainty set and solving the relaxations on each part separately. We show that this approach reduces relaxation error, and that the error is eliminated entirely upon performing an LP relaxation with a partition intelligently designed to exploit the nature of the ReLU activations. To scale this approach to large networks, we consider using a coarser partition whereby the number of parts in the partition is reduced. We prove that computing such a coarse partition that directly minimizes the LP relaxation error is NP-hard. By instead minimizing the worst-case LP relaxation error, we develop a closed-form branching scheme in the single-hidden layer case. We extend the analysis to the SDP, where the feasible set geometry is exploited to design a branching scheme that minimizes the worst-case SDP relaxation error. Experiments on MNIST, CIFAR-10, and Wisconsin breast cancer diagnosis classifiers demonstrate significant increases in the percentages of test samples certified. By independently increasing the input size and the number of layers, we empirically illustrate under which regimes the branched LP and branched SDP are best applied. Finally, we extend our LP branching method into a multi-layer branching heuristic, which attains comparable performance to prior state-of-the-art heuristics on large-scale, deep neural network certification benchmarks.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.03099.pdf",
+    "title": "A Primer on Multi-Neuron Relaxation-based Adversarial Robustness Certification",
+    "published_date": "2021-06-06",
+    "abstract": "The existence of adversarial examples poses a real danger when deep neural networks are deployed in the real world. The go-to strategy to quantify this vulnerability is to evaluate the model against specific attack algorithms. This approach is however inherently limited, as it says little about the robustness of the model against more powerful attacks not included in the evaluation. We develop a unified mathematical framework to describe relaxation-based robustness certification methods, which go beyond adversary-specific robustness evaluation and instead provide provable robustness guarantees against attacks by any adversary. We discuss the fundamental limitations posed by single-neuron relaxations and show how the recent ``k-ReLU'' multi-neuron relaxation framework of Singh et al. (2019) obtains tighter correlation-aware activation bounds by leveraging additional relational constraints among groups of neurons. Specifically, we show how additional pre-activation bounds can be mapped to corresponding post-activation bounds and how they can in turn be used to obtain tighter robustness certificates. We also present an intuitive way to visualize different relaxation-based certification methods. By approximating multiple non-linearities jointly instead of separately, the k-ReLU method is able to bypass the convex barrier imposed by single neuron relaxations.",
+    "citation_count": 2
+  },
+  {
+    "title": "Solving generalized polynomial problem by using new affine relaxed technique",
+    "abstract": "This article presents and validates a new branch-and-bound algorithm for effectively solving the generalized polynomial problem (GPP). In this algorithm, a new affine relaxed technique is derived for establishing the relaxed linear programs problem of the GPP. In addition, some box reducing manipulations are employed to improve the speed of branch-and-bound search of the algorithm. Combining the relaxed linear programs problem with the box reducing manipulations, a new branch-and-bound algorithm is constructed. Some numerical examples are solved to verify the potential practical and computing advantages of the algorithm. At last, several engineering design problems are solved to validate the usefulness of the algorithm.",
+    "published_date": "2021-04-15",
+    "citation_count": 18,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/00207160.2021.1909727"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2002.09766.pdf",
+    "title": "Improving the Tightness of Convex Relaxation Bounds for Training Certifiably Robust Classifiers",
+    "published_date": "2020-02-22",
+    "abstract": "Convex relaxations are effective for training and certifying neural networks against norm-bounded adversarial attacks, but they leave a large gap between certifiable and empirical robustness. In principle, convex relaxation can provide tight bounds if the solution to the relaxed problem is feasible for the original non-convex problem. We propose two regularizers that can be used to train neural networks that yield tighter convex relaxation bounds for robustness. In all of our experiments, the proposed regularizers result in higher certified accuracy than non-regularized baselines.",
+    "citation_count": 4
+  }
+]

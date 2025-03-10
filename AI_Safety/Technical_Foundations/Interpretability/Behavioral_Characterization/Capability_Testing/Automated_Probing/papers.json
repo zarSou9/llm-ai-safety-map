@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.17019",
+    "title": "Bounding Random Test Set Size with Computational Learning Theory",
+    "published_date": "2024-05-27",
+    "abstract": "Random testing approaches work by generating inputs at random, or by selecting inputs randomly from some pre-defined operational profile. One long-standing question that arises in this and other testing contexts is as follows: When can we stop testing? At what point can we be certain that executing further tests in this manner will not explore previously untested (and potentially buggy) software behaviors? This is analogous to the question in Machine Learning, of how many training examples are required in order to infer an accurate model. In this paper we show how probabilistic approaches to answer this question in Machine Learning (arising from Computational Learning Theory) can be applied in our testing context. This enables us to produce an upper bound on the number of tests that are required to achieve a given level of adequacy. We are the first to enable this from only knowing the number of coverage targets (e.g. lines of code) in the source code, without needing to observe a sample test executions. We validate this bound on a large set of Java units, and an autonomous driving system."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/4Gt42jX7RiaNaxCwP/more-information-about-the-dangerous-capability-evaluations",
+    "author": "Beth Barnes",
+    "title": "More information about the dangerous capability evaluations we did with GPT-4 and Claude.",
+    "published_date": "2023-03-19"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mLfPHv4QjmeQrsSva/paper-on-measuring-situational-awareness-in-llms",
+    "author": "Owain_Evans, Daniel Kokotajlo, Mikita Balesni, Tomek Korbak, lberglund, Asa Cooper Stickland, Meg, Maximilian Kaufmann",
+    "title": "Paper: On measuring situational awareness in LLMs",
+    "published_date": "2023-09-04"
+  },
+  {
+    "title": "Enhancing Search-based Testing with Testability Transformations for Existing APIs",
+    "abstract": "\n Search-based software testing (SBST) has been shown to be an effective technique to generate test cases automatically. Its effectiveness strongly depends on the guidance of the fitness function. Unfortunately, a common issue in SBST is the so-called\n flag problem\n , where the fitness landscape presents a plateau that provides no guidance to the search. In this article, we provide a series of novel\n testability transformations\n aimed at providing guidance in the context of commonly used API calls (e.g., strings that need to be converted into valid date/time objects). We also provide specific transformations aimed at helping the testing of REST Web Services. We implemented our novel techniques as an extension to\n EvoMaster\n , an SBST tool that generates system-level test cases. Experiments on nine open-source REST web services, as well as an industrial web service, show that our novel techniques improve performance significantly.\n",
+    "published_date": "2022-01-31",
+    "citation_count": 27,
+    "url": "https://dl.acm.org/doi/10.1145/3477271"
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.11589",
+    "title": "Simulation-Based Testing of Simulink Models With Test Sequence and Test Assessment Blocks",
+    "published_date": "2022-12-22",
+    "abstract": "Simulation-based software testing supports engineers in finding faults in Simulink<sup>®</sup> models. It typically relies on search algorithms that iteratively generate test inputs used to exercise models in simulation to detect design errors. While simulation-based software testing techniques are effective in many practical scenarios, they are typically not fully integrated within the Simulink environment and require additional manual effort. Many techniques require engineers to specify requirements using logical languages that are neither intuitive nor fully supported by Simulink, thereby limiting their adoption in industry. This work presents <sc>HECATE</sc>, a testing approach for Simulink models using Test Sequence and Test Assessment blocks from Simulink<sup>®</sup> Test<sup>™</sup>. Unlike existing testing techniques, <sc>HECATE</sc> uses information from Simulink models to guide the search-based exploration. Specifically, <sc>HECATE</sc> relies on information provided by the Test Sequence and Test Assessment blocks to guide the search procedure. Across a benchmark of <inline-formula><tex-math notation=\"LaTeX\">$18$</tex-math><alternatives><mml:math display=\"inline\"><mml:mn>18</mml:mn></mml:math><inline-graphic xlink:href=\"menghi-ieq1-3343753.gif\"/></alternatives></inline-formula> Simulink models from different domains and industries, our comparison of <sc>HECATE</sc> with the state-of-the-art testing tool <sc>S-Taliro</sc> indicates that <sc>HECATE</sc> is both more effective (more failure-revealing test cases) and efficient (less iterations and computational time) than <sc>S-Taliro</sc> for <inline-formula><tex-math notation=\"LaTeX\">$\\approx$</tex-math><alternatives><mml:math display=\"inline\"><mml:mo>≈</mml:mo></mml:math><inline-graphic xlink:href=\"menghi-ieq2-3343753.gif\"/></alternatives></inline-formula>94% and <inline-formula><tex-math notation=\"LaTeX\">$\\approx$</tex-math><alternatives><mml:math display=\"inline\"><mml:mo>≈</mml:mo></mml:math><inline-graphic xlink:href=\"menghi-ieq3-3343753.gif\"/></alternatives></inline-formula>83% of benchmark models respectively. Furthermore, <sc>HECATE</sc> successfully generated a failure-revealing test case for a representative case study from the automotive domain demonstrating its practical usefulness.",
+    "citation_count": 4
+  }
+]

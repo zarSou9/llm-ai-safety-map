@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.15622",
+    "title": "Distributionally Robust Safety Verification for Markov Decision Processes",
+    "published_date": "2024-11-23",
+    "abstract": "In this paper, we propose a distributionally robust safety verification method for Markov decision processes where only an ambiguous transition kernel is available instead of the precise transition kernel. We define the ambiguity set around the nominal distribution by considering a Wasserstein distance. To this end, we introduce a robust safety function to characterize probabilistic safety in the face of uncertain transition probability. First, we obtain an upper bound on the robust safety function in terms of a distributionally robust Q-function. Then, we present a convex program-based distributionally robust Q-iteration algorithm to compute the robust Q-function. By considering a numerical example, we demonstrate our theoretical results."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.12019",
+    "title": "System-Level Analysis of Module Uncertainty Quantification in the Autonomy Pipeline",
+    "published_date": "2024-10-15",
+    "abstract": "We present a novel perspective on the design, use, and role of uncertainty measures for learned modules in an autonomous system. While in the current literature uncertainty measures are produced for standalone modules without considering the broader system context, in our work we explicitly consider the role of decision-making under uncertainty in illuminating how\"good'\"an uncertainty measure is. Our insights are centered around quantifying the ways in which being uncertainty-aware makes a system more robust. Firstly, we use level set generation tools to produce a measure for system robustness and use this measure to compare system designs, thus placing uncertainty quantification in the context of system performance and evaluation metrics. Secondly, we use the concept of specification generation from systems theory to produce a formulation under which a designer can simultaneously constrain the properties of an uncertainty measure and analyze the efficacy of the decision-making-under-uncertainty algorithm used by the system. We apply our analyses to two real-world and complex autonomous systems, one for autonomous driving and another for aircraft runway incursion detection, helping to form a toolbox for an uncertainty-aware system designer to produce more effective and robust systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.00752v1",
+    "title": "Robust Optimal Control for Nonlinear Systems with Parametric Uncertainties via System Level Synthesis",
+    "published_date": "2023-04-03",
+    "abstract": "This paper addresses the problem of optimally controlling nonlinear systems with norm-bounded disturbances and parametric uncertainties while robustly satisfying con-straints. The proposed approach jointly optimizes a nominal nonlinear trajectory and an error feedback, requiring minimal offline design effort and offering low conservatism. This is achieved by decomposing the affine-in-the-parameter uncertain nonlinear system into a nominal nonlinear system and an uncertain linear time-varying system. Using this decomposition, we can apply established tools from system level synthesis to convexly over-bound all uncertainties in the nonlinear optimization problem. Moreover, it enables tight joint optimization of the linearization error bounds, parametric uncertainties bounds, nonlinear trajectory, and error feedback. With this novel controller parameterization, we can formulate a convex constraint to ensure robust performance guarantees for the non-linear system. The presented method is relevant for numerous applications related to trajectory optimization, e.g., in robotics and aerospace engineering. We demonstrate the performance of the approach and its low conservatism through the simulation example of a post-capture satellite stabilization.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.00291",
+    "title": "Robust Generation Dispatch With Purchase of Renewable Power and Load Predictions",
+    "published_date": "2022-10-01",
+    "abstract": "The increasing use of renewable energy sources (RESs) and responsive loads has made power systems more uncertain. Meanwhile, thanks to the development of advanced metering and forecasting technologies, predictions by RES and load owners are now attainable. Many recent studies have revealed that pooling the predictions from RESs and loads can help the operators predict more accurately and make better dispatch decisions. However, how the prediction purchase decisions are made during the dispatch processes needs further investigation. This paper fills the research gap by proposing a novel robust generation dispatch model considering the purchase and use of predictions from RESs and loads. The prediction purchase decisions are made in the first stage, which influence the accuracy of predictions from RESs and loads, and further the uncertainty set and the worst-case second-stage dispatch performance. This two-stage procedure is essentially a robust optimization problem with decision-dependent uncertainty (DDU). A mapping-based column-and-constraint generation (C&CG) algorithm is developed to overcome the potential failures of traditional solution methods in detecting feasibility, guaranteeing convergence, and reaching optimal strategies under DDU. Case studies demonstrate the effectiveness, necessity, and scalability of the proposed model and algorithm.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.07521",
+    "title": "Reliability-Based Robust Design Optimization Method for Engineering Systems with Uncertainty Quantification",
+    "published_date": "2022-10-14",
+    "abstract": "Robust optimization is a method for optimization under uncertainties in engineering systems and designs for applications ranging from aeronautics to nuclear. In a robust design process, parameter variability (or uncertainty) is incorporated into the engineering systems' optimization process to assure the systems' quality and reliability. This chapter focuses on a robust optimization approach for developing robust and reliable advanced systems and explains the framework for using uncertainty quantification and optimization techniques. For the uncertainty analysis, a polynomial chaos-based approach is combined with the optimization algorithms MOSA (Multi-Objective Simulated Annealing), and the process is discussed with a simplified test function. For the optimization process, gradient-free genetic algorithms are considered as the optimizer scans the whole design space, and the optimal values are not always dependent on the initial values.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.01341",
+    "title": "Safe and Stable Control Synthesis for Uncertain System Models via Distributionally Robust Optimization",
+    "published_date": "2022-10-04",
+    "abstract": "This paper considers enforcing safety and stability of dynamical systems in the presence of model uncertainty. Safety and stability constraints may be specified using a control barrier function (CBF) and a control Lyapunov function (CLF), respectively. To take model uncertainty into account, robust and chance formulations of the constraints are commonly considered. However, this requires known error bounds or a known distribution for the model uncertainty, and the resulting formulations may suffer from over-conservatism or over-confidence. In this paper, we assume that only a finite set of model parametric uncertainty samples is available and formulate a distributionally robust chance-constrained program (DRCCP) for control synthesis with CBF safety and CLF stability guarantees. To facilitate efficient computation of control inputs during online execution, we present a reformulation of the DRCCP as a second-order cone program (SOCP). Our formulation is evaluated in an adaptive cruise control example in comparison to 1) a baseline CLF-CBF quadratic programming approach, 2) a robust approach that assumes known error bounds of the system uncertainty, and 3) a chance-constrained approach that assumes a known Gaussian Process distribution of the uncertainty.",
+    "citation_count": 8
+  }
+]

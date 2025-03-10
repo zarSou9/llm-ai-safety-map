@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2408.13274",
+    "title": "Robust Image Classification: Defensive Strategies against FGSM and PGD Adversarial Attacks",
+    "published_date": "2024-08-20",
+    "abstract": "Adversarial attacks, particularly the Fast Gradient Sign Method (FGSM) and Projected Gradient Descent (PGD) pose significant threats to the robustness of deep learning models in image classification. This paper explores and refines defense mechanisms against these attacks to enhance the resilience of neural networks. We employ a combination of adversarial training and innovative preprocessing techniques, aiming to mitigate the impact of adversarial perturbations. Our methodology involves modifying input data before classification and investigating different model architectures and training strategies. Through rigorous evaluation of benchmark datasets, we demonstrate the effectiveness of our approach in defending against FGSM and PGD attacks. Our results show substantial improvements in model robustness compared to baseline methods, highlighting the potential of our defense strategies in real-world applications. This study contributes to the ongoing efforts to develop secure and reliable machine learning systems, offering practical insights and paving the way for future research in adversarial defense. By bridging theoretical advancements and practical implementation, we aim to enhance the trustworthiness of AI applications in safety-critical domains.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.13102",
+    "title": "Dynamic Label Adversarial Training for Deep Learning Robustness Against Adversarial Attacks",
+    "published_date": "2024-08-23",
+    "abstract": "Adversarial training is one of the most effective methods for enhancing model robustness. Recent approaches incorporate adversarial distillation in adversarial training architectures. However, we notice two scenarios of defense methods that limit their performance: (1) Previous methods primarily use static ground truth for adversarial training, but this often causes robust overfitting; (2) The loss functions are either Mean Squared Error or KL-divergence leading to a sub-optimal performance on clean accuracy. To solve those problems, we propose a dynamic label adversarial training (DYNAT) algorithm that enables the target model to gradually and dynamically gain robustness from the guide model's decisions. Additionally, we found that a budgeted dimension of inner optimization for the target model may contribute to the trade-off between clean accuracy and robust accuracy. Therefore, we propose a novel inner optimization method to be incorporated into the adversarial training. This will enable the target model to adaptively search for adversarial examples based on dynamic labels from the guiding model, contributing to the robustness of the target model. Extensive experiments validate the superior performance of our approach."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/2iALhBnMpcjbWJJ3w/beyond-the-board-exploring-ai-robustness-through-go",
+    "author": "AdamGleave",
+    "title": "Beyond the Board: Exploring AI Robustness Through Go",
+    "published_date": "2024-06-19"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/oPnFzfZtaoWrqTP4H/solving-adversarial-attacks-in-computer-vision-as-a-baby",
+    "author": "Stanislavfort",
+    "title": "Solving adversarial attacks in computer vision as a baby version of general AI alignment",
+    "published_date": "2024-08-29"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.09776.pdf",
+    "title": "MAD: Meta Adversarial Defense Benchmark",
+    "published_date": "2023-09-18",
+    "abstract": "Adversarial training (AT) is a prominent technique employed by deep learning models to defend against adversarial attacks, and to some extent, enhance model robustness. However, there are three main drawbacks of the existing AT-based defense methods: expensive computational cost, low generalization ability, and the dilemma between the original model and the defense model. To this end, we propose a novel benchmark called meta adversarial defense (MAD). The MAD benchmark consists of two MAD datasets, along with a MAD evaluation protocol. The two large-scale MAD datasets were generated through experiments using 30 kinds of attacks on MNIST and CIFAR-10 datasets. In addition, we introduce a meta-learning based adversarial training (Meta-AT) algorithm as the baseline, which features high robustness to unseen adversarial attacks through few-shot learning. Experimental results demonstrate the effectiveness of our Meta-AT algorithm compared to the state-of-the-art methods. Furthermore, the model after Meta-AT maintains a relatively high clean-samples classification accuracy (CCA). It is worth noting that Meta-AT addresses all three aforementioned limitations, leading to substantial improvements. This benchmark ultimately achieved breakthroughs in investigating the transferability of adversarial defense methods to new attacks and the ability to learn from a limited number of adversarial examples. Our codes and attacked datasets address will be available at https://github.com/PXX1110/Meta_AT."
+  }
+]

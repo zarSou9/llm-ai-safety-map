@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Some new optimality conditions for semivector bilevel optimization program",
+    "abstract": "This paper discusses a kind of non-convex, non-smooth optimistic semivector bilevel optimization programs which equipped with a vector lower level problem. We introduce a class of new gap functions and penalty functions to transform this two level program into a one level scalar-objective optimization problem. Furthermore, we derive first-order optimality conditions for this semivector bilevel program in both global and local sense, using calculus of basic subdifferential and partial calmness. By applying new developments in basic subdifferential, we estimate basic subdifferential of gap functions and penalty functions which specify the former mentioned optimality conditions.",
+    "published_date": "2021-01-24",
+    "citation_count": 1,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/02331934.2021.1873989"
+  },
+  {
+    "title": "Characterizations of robust ε-quasi optimal solutions for nonsmooth optimization problems with uncertain data",
+    "abstract": "ABSTRACT This paper deals with robust ε-quasi optimal solutions for a class of nonsmooth optimization problems with uncertain data. Under some mild assumptions, we first establish, by using robust optimization (i.e. worst-case) approach, approximate optimality conditions for this uncertain nonsmooth optimization problem. Then, we introduce a Mixed-type robust approximate dual problem of this uncertain optimization problem, and explore their relationships. Moreover, using a scalarization method, we derive optimality conditions for robust weakly approximate efficient solutions for an uncertain nonsmooth multiobjective optimization problem. We also obtain approximate duality theorems for the uncertain nonsmooth multiobjective optimization problem.",
+    "published_date": "2021-04-03",
+    "citation_count": 13,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/02331934.2021.1871730"
+  },
+  {
+    "title": "Cutting-set methods for robust convex optimization with pessimizing oracles",
+    "abstract": "We consider a general worst-case robust convex optimization problem, with arbitrary dependence on the uncertain parameters, which are assumed to lie in some given set of possible values. We describe a general method for solving such a problem, which alternates between optimization and worst-case analysis. With exact worst-case analysis, the method is shown to converge to a robust optimal point. With approximate worst-case analysis, which is the best we can do in many practical cases, the method seems to work very well in practice, subject to the errors in our worst-case analysis. We give variations on the basic method that can give enhanced convergence, reduce data storage, or improve other algorithm properties. Numerical simulations suggest that the method finds a quite robust solution within a few tens of steps; using warm-start techniques in the optimization steps reduces the overall effort to a modest multiple of solving a nominal problem, ignoring the parameter variation. The method is illustrated with several application examples.",
+    "published_date": "2009-06-01",
+    "citation_count": 163,
+    "url": "https://www.tandfonline.com/doi/abs/10.1080/10556780802712889"
+  }
+]

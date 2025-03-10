@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2204.10806",
+    "title": "A Taxonomy of Human and ML Strengths in Decision-Making to Investigate Human-ML Complementarity",
+    "published_date": "2022-04-22",
+    "abstract": "Hybrid human-ML systems increasingly make consequential decisions in a wide range of domains. These systems are often introduced with the expectation that the combined human-ML system will achieve complementary performance, that is, the combined decision-making system will be an improvement compared with either decision-making agent in isolation. However, empirical results have been mixed, and existing research rarely articulates the sources and mechanisms by which complementary performance is expected to arise. Our goal in this work is to provide conceptual tools to advance the way researchers reason and communicate about human-ML complementarity. Drawing upon prior literature in human psychology, machine learning, and human-computer interaction, we propose a taxonomy characterizing distinct ways in which human and ML-based decision-making can differ. In doing so, we conceptually map potential mechanisms by which combining human and ML decision-making may yield complementary performance, developing a language for the research community to reason about design of hybrid systems in any decision-making domain. To illustrate how our taxonomy can be used to investigate complementarity, we provide a mathematical aggregation framework to examine enabling\nconditions for complementarity. Through synthetic simulations, we demonstrate how this framework can be used to explore specific aspects of our taxonomy and shed light on the optimal mechanisms for combining human-ML judgments.",
+    "citation_count": 8,
+    "summary": "This paper proposes a taxonomy of human and machine learning strengths in decision-making to explain and predict when combining them leads to improved performance (complementarity). It offers a conceptual framework and mathematical model to analyze human-ML complementarity and guide the design of effective hybrid systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2005.00582",
+    "title": "Learning to Complement Humans",
+    "published_date": "2020-05-01",
+    "abstract": "A rising vision for AI in the open world centers on the development of systems that can complement humans for perceptual, diagnostic, and reasoning tasks. To date, systems aimed at complementing the skills of people have employed models trained to be as accurate as possible in isolation. We demonstrate how an end-to-end learning strategy can be harnessed to optimize the combined performance of human-machine teams by considering the distinct abilities of people and machines. The goal is to focus machine learning on problem instances that are difficult for humans, while recognizing instances that are difficult for the machine and seeking human input on them. We demonstrate in two real-world domains (scientific discovery and medical diagnosis) that human-machine teams built via these methods outperform the individual performance of machines and people. We then analyze conditions under which this complementarity is strongest, and which training methods amplify it. Taken together, our work provides the first systematic investigation of how machine learning systems can be trained to complement human reasoning.",
+    "citation_count": 154,
+    "summary": "This paper introduces an end-to-end learning strategy that optimizes human-machine team performance by focusing machine learning on problems difficult for humans and seeking human input on problems difficult for machines. Results from scientific discovery and medical diagnosis demonstrate that this approach surpasses individual human and machine performance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.15626",
+    "title": "Aligning Generalisation Between Humans and Machines",
+    "published_date": "2024-11-23",
+    "abstract": "Recent advances in AI -- including generative approaches -- have resulted in technology that can support humans in scientific discovery and decision support but may also disrupt democracies and target individuals. The responsible use of AI increasingly shows the need for human-AI teaming, necessitating effective interaction between humans and machines. A crucial yet often overlooked aspect of these interactions is the different ways in which humans and machines generalise. In cognitive science, human generalisation commonly involves abstraction and concept learning. In contrast, AI generalisation encompasses out-of-domain generalisation in machine learning, rule-based reasoning in symbolic AI, and abstraction in neuro-symbolic AI. In this perspective paper, we combine insights from AI and cognitive science to identify key commonalities and differences across three dimensions: notions of generalisation, methods for generalisation, and evaluation of generalisation. We map the different conceptualisations of generalisation in AI and cognitive science along these three dimensions and consider their role in human-AI teaming. This results in interdisciplinary challenges across AI and cognitive science that must be tackled to provide a foundation for effective and cognitively supported alignment in human-AI teaming scenarios.",
+    "summary": "This paper examines the discrepancies in generalization between human and machine intelligence, analyzing differences in concepts, methods, and evaluation across AI and cognitive science to highlight challenges and opportunities for effective human-AI collaboration. The authors propose an interdisciplinary approach to aligning these differing generalization processes for improved human-AI teaming."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MkfaQyxB9PN4h8Bs9/ai-safety-101-capabilities",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 : Capabilities - Human Level AI, What? How? and When?",
+    "published_date": "2024-03-07",
+    "summary": "This revised article provides a comprehensive overview of state-of-the-art AI in 2024, focusing on foundation models, their capabilities, and potential risks, including forecasting future AI development and its transformative impact. It also establishes key terminology and methodologies for analyzing AI progress and capabilities."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.02944",
+    "title": "Learning Complementary Policies for Human-AI Teams",
+    "published_date": "2023-02-06",
+    "abstract": "Human-AI complementarity is important when neither the algorithm nor the human yields dominant performance across all instances in a given context. Recent work that explored human-AI collaboration has considered decisions that correspond to classification tasks. However, in many important contexts where humans can benefit from AI complementarity, humans undertake course of action. In this paper, we propose a framework for a novel human-AI collaboration for selecting advantageous course of action, which we refer to as Learning Complementary Policy for Human-AI teams (\\textsc{lcp-hai}). Our solution aims to exploit the human-AI complementarity to maximize decision rewards by learning both an algorithmic policy that aims to complement humans by a routing model that defers decisions to either a human or the AI to leverage the resulting complementarity. We then extend our approach to leverage opportunities and mitigate risks that arise in important contexts in practice: 1) when a team is composed of multiple humans with differential and potentially complementary abilities, 2) when the observational data includes consistent deterministic actions, and 3) when the covariate distribution of future decisions differ from that in the historical data. We demonstrate the effectiveness of our proposed methods using data on real human responses and semi-synthetic, and find that our methods offer reliable and advantageous performance across setting, and that it is superior to when either the algorithm or the AI make decisions on their own. We also find that the extensions we propose effectively improve the robustness of the human-AI collaboration performance in the presence of different challenging settings.",
+    "citation_count": 5,
+    "summary": "The paper introduces Learning Complementary Policies for Human-AI teams (LCP-HAI), a framework for human-AI collaboration in selecting advantageous courses of action, maximizing rewards by learning complementary policies and a routing model to optimally allocate decisions. This framework is extended to handle multiple humans with varying abilities, deterministic actions, and covariate shift."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/artificial-general-intelligence",
+    "title": "Artificial General Intelligence - LessWrong",
+    "published_date": "2023-02-06",
+    "summary": "Artificial General Intelligence (AGI) refers to a hypothetical machine possessing broad, flexible intelligence comparable to or exceeding humans, unlike narrow AI which excels only in specific tasks. The potential creation of AGI, its societal impact (both positive and existential risks), and differing approaches to its development are actively debated."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/CCpoqgHCCbrktCAwG/united-we-align-harnessing-collective-human-intelligence-for",
+    "author": "Shoshannah Tekofsky",
+    "title": "United We Align: Harnessing Collective Human Intelligence for AI Alignment Progress",
+    "published_date": "2023-04-20",
+    "summary": "This research agenda proposes six experiments to explore Collective Human Intelligence (CHI) as a model for AI alignment. By improving CHI's quantity, quality, and coordination, the research aims to understand interhuman alignment and potentially find solutions to the AI alignment problem."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2205.01467.pdf",
+    "title": "On the Effect of Information Asymmetry in Human-AI Teams",
+    "published_date": "2022-05-03",
+    "abstract": "Over the last years, the rising capabilities of artificial intelligence (AI) have improved human decision-making in many application areas. Teaming between AI and humans may even lead to complementary team performance (CTP), i.e., a level of performance beyond the ones that can be reached by AI or humans individually. Many researchers have proposed using explainable AI (XAI) to enable humans to rely on AI advice appropriately and thereby reach CTP. However, CTP is rarely demonstrated in previous work as often the focus is on the design of explainability, while a fundamental prerequisite -- the presence of complementarity potential between humans and AI -- is often neglected. Therefore, we focus on the existence of this potential for effective human-AI decision-making. Specifically, we identify information asymmetry as an essential source of complementarity potential, as in many real-world situations, humans have access to different contextual information. By conducting an online experiment, we demonstrate that humans can use such contextual information to adjust the AI's decision, finally resulting in CTP.",
+    "citation_count": 15,
+    "summary": "This paper investigates information asymmetry as a key factor enabling complementary team performance (CTP) in human-AI teams, demonstrating through an online experiment that humans can leverage their unique contextual knowledge to improve AI decisions, achieving a performance level exceeding that of either human or AI alone."
+  }
+]

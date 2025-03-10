@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.02451",
+    "title": "Strong Preferences Affect the Robustness of Value Alignment",
+    "published_date": "2024-10-03",
+    "abstract": "Value alignment, which aims to ensure that large language models (LLMs) and other AI agents behave in accordance with human values, is critical for ensuring safety and trustworthiness of these systems. A key component of value alignment is the modeling of human preferences as a representation of human values. In this paper, we investigate the robustness of value alignment by examining the sensitivity of preference models. Specifically, we ask: how do changes in the probabilities of some preferences affect the predictions of these models for other preferences? To answer this question, we theoretically analyze the robustness of widely used preference models by examining their sensitivities to minor changes in preferences they model. Our findings reveal that, in the Bradley-Terry and the Placket-Luce model, the probability of a preference can change significantly as other preferences change, especially when these preferences are dominant (i.e., with probabilities near 0 or 1). We identify specific conditions where this sensitivity becomes significant for these models and discuss the practical implications for the robustness and safety of value alignment in AI systems.",
+    "summary": "This paper analyzes the robustness of common preference models used in AI value alignment, finding that small changes in the probability of some preferences, particularly dominant ones, can significantly alter the predicted probabilities of other preferences in Bradley-Terry and Placket-Luce models. This sensitivity has crucial implications for the safety and reliability of value-aligned AI systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.19198",
+    "title": "MAP: Multi-Human-Value Alignment Palette",
+    "published_date": "2024-10-24",
+    "abstract": "Ensuring that generative AI systems align with human values is essential but challenging, especially when considering multiple human values and their potential trade-offs. Since human values can be personalized and dynamically change over time, the desirable levels of value alignment vary across different ethnic groups, industry sectors, and user cohorts. Within existing frameworks, it is hard to define human values and align AI systems accordingly across different directions simultaneously, such as harmlessness, helpfulness, and positiveness. To address this, we develop a novel, first-principle approach called Multi-Human-Value Alignment Palette (MAP), which navigates the alignment across multiple human values in a structured and reliable way. MAP formulates the alignment problem as an optimization task with user-defined constraints, which define human value targets. It can be efficiently solved via a primal-dual approach, which determines whether a user-defined alignment target is achievable and how to achieve it. We conduct a detailed theoretical analysis of MAP by quantifying the trade-offs between values, the sensitivity to constraints, the fundamental connection between multi-value alignment and sequential alignment, and proving that linear weighted rewards are sufficient for multi-value alignment. Extensive experiments demonstrate MAP's ability to align multiple values in a principled manner while delivering strong empirical performance across various tasks.",
+    "summary": "The Multi-Human-Value Alignment Palette (MAP) framework addresses the challenge of aligning generative AI with multiple, potentially conflicting human values by formulating the problem as a constrained optimization task solvable via a primal-dual approach. MAP enables quantification of value trade-offs and demonstrates strong empirical performance in aligning AI across diverse tasks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.18324",
+    "title": "Value Alignment and Trust in Human-Robot Interaction: Insights from Simulation and User Study",
+    "published_date": "2024-05-28",
+    "abstract": "With the advent of AI technologies, humans and robots are increasingly teaming up to perform collaborative tasks. To enable smooth and effective collaboration, the topic of value alignment (operationalized herein as the degree of dynamic goal alignment within a task) between the robot and the human is gaining increasing research attention. Prior literature on value alignment makes an inherent assumption that aligning the values of the robot with that of the human benefits the team. This assumption, however, has not been empirically verified. Moreover, prior literature does not account for human's trust in the robot when analyzing human-robot value alignment. Thus, a research gap needs to be bridged by answering two questions: How does alignment of values affect trust? Is it always beneficial to align the robot's values with that of the human? We present a simulation study and a human-subject study to answer these questions. Results from the simulation study show that alignment of values is important for trust when the overall risk level of the task is high. We also present an adaptive strategy for the robot that uses Inverse Reinforcement Learning (IRL) to match the values of the robot with those of the human during interaction. Our simulations suggest that such an adaptive strategy is able to maintain trust across the full spectrum of human values. We also present results from an empirical study that validate these findings from simulation. Results indicate that real-time personalized value alignment is beneficial to trust and perceived performance by the human when the robot does not have a good prior on the human's values.",
+    "summary": "This study uses simulation and human subject experiments to investigate the impact of robot-human value alignment on trust in human-robot collaboration, finding that alignment benefits trust most under high-risk conditions and that adaptive value alignment strategies improve trust and performance, especially when the robot lacks prior knowledge of human values."
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.05871",
+    "title": "Dynamic value alignment through preference aggregation of multiple objectives",
+    "published_date": "2023-10-09",
+    "abstract": "The development of ethical AI systems is currently geared toward setting objective functions that align with human objectives. However, finding such functions remains a research challenge, while in RL, setting rewards by hand is a fairly standard approach. We present a methodology for dynamic value alignment, where the values that are to be aligned with are dynamically changing, using a multiple-objective approach. We apply this approach to extend Deep $Q$-Learning to accommodate multiple objectives and evaluate this method on a simplified two-leg intersection controlled by a switching agent.Our approach dynamically accommodates the preferences of drivers on the system and achieves better overall performance across three metrics (speeds, stops, and waits) while integrating objectives that have competing or conflicting actions.",
+    "summary": "This paper proposes a dynamic value alignment method for reinforcement learning agents, using multi-objective optimization to adapt to changing preferences, demonstrated through application to a traffic control problem where competing objectives are successfully integrated."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.07366.pdf",
+    "title": "Multi-Value Alignment in Normative Multi-Agent System: Evolutionary Optimisation Approach",
+    "published_date": "2023-05-12",
+    "abstract": "Value-alignment in normative multi-agent systems is used to promote a certain value and to ensure the consistent behaviour of agents in autonomous intelligent systems with human values. However, the current literature is limited to the incorporation of effective norms for single-value alignment with no consideration of agents' heterogeneity and the requirement of simultaneous promotion and alignment of multiple values. This research proposes a multi-value promotion model that uses multi-objective evolutionary algorithms and decentralised reasoning to produce the optimum parametric set of norms that is aligned with multiple simultaneous values of heterogeneous agents and the system. To understand various aspects of this complex problem, several evolutionary algorithms were used to find a set of optimised norm parameters considering two toy tax scenarios with two and five values are considered. The results are analysed from different perspectives to show the impact of a selected evolutionary algorithm on the solution, and the importance of understanding the relation between values when prioritising them.",
+    "citation_count": 1,
+    "summary": "This paper introduces a multi-value alignment model for normative multi-agent systems, using multi-objective evolutionary algorithms to optimize norm parameters and achieve simultaneous alignment with multiple, potentially conflicting values across heterogeneous agents. The model's effectiveness is demonstrated through simulations involving toy tax scenarios with varying numbers of values."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3QXNgNKXoLrdXJwWE",
+    "author": "Nora_Ammann",
+    "title": "The Value Change Problem (sequence) - LessWrong",
+    "published_date": "2023-10-26",
+    "summary": "The \"Value Change Problem\" (VCP) in AI focuses on ensuring AI systems neither illicitly alter human values nor hinder legitimate value shifts. This necessitates addressing AI's growing capacity to influence human values and preventing both illegitimate value changes and the obstruction of beneficial ones."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/J2kpxLjEyqh6x3oA4/value-systematization-how-values-become-coherent-and",
+    "author": "Richard_Ngo",
+    "title": "Value systematization: how values become coherent (and misaligned)",
+    "published_date": "2023-10-27",
+    "summary": "The article introduces \"value systematization,\" a process where an AI learns to represent its values as special cases of broader, simpler values, analogous to belief systematization seen in scientific advancements. The author argues this process is a key mechanism by which misaligned AI goals, potentially leading to takeover, could emerge."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/human-values",
+    "author": "Quintin Pope, Alex Turner",
+    "title": "Human Values - AI Alignment Forum",
+    "published_date": "2022-09-29",
+    "summary": "Human values, the things we cherish and desire a superintelligence to uphold, are complex and multifaceted. Their precise definition and extrapolation pose significant challenges."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/complexity-of-value",
+    "author": "David Udell",
+    "title": "Complexity of Value - AI Alignment Forum",
+    "published_date": "2022-08-11",
+    "summary": "Human values possess high Kolmogorov complexity, meaning they are not easily reducible to simple rules; furthermore, even minor alterations to these values can lead to drastically undesirable outcomes, highlighting their fragility."
+  },
+  {
+    "url": "https://arxiv.org/abs/2101.06060v1",
+    "title": "The Challenge of Value Alignment: from Fairer Algorithms to AI Safety",
+    "published_date": "2021-01-15",
+    "abstract": "This paper addresses the question of how to align AI systems with human values and situates it within a wider body of thought regarding technology and value. Far from existing in a vacuum, there has long been an interest in the ability of technology to 'lock-in' different value systems. There has also been considerable thought about how to align technologies with specific social values, including through participatory design-processes. In this paper we look more closely at the question of AI value alignment and suggest that the power and autonomy of AI systems gives rise to opportunities and challenges in the domain of value that have not been encountered before. Drawing important continuities between the work of the fairness, accountability, transparency and ethics community, and work being done by technical AI safety researchers, we suggest that more attention needs to be paid to the question of 'social value alignment' - that is, how to align AI systems with the plurality of values endorsed by groups of people, especially on the global level.",
+    "citation_count": 34,
+    "summary": "This paper argues that aligning AI systems with human values requires addressing both technical AI safety concerns and broader societal values, emphasizing the unique challenges posed by AI's power and autonomy and advocating for \"social value alignment\" across diverse global populations."
+  }
+]

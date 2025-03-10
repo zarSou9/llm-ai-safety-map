@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2412.14612",
+    "title": "KARRIEREWEGE: A Large Scale Career Path Prediction Dataset",
+    "published_date": "2024-12-19",
+    "abstract": "Accurate career path prediction can support many stakeholders, like job seekers, recruiters, HR, and project managers. However, publicly available data and tools for career path prediction are scarce. In this work, we introduce KARRIEREWEGE, a comprehensive, publicly available dataset containing over 500k career paths, significantly surpassing the size of previously available datasets. We link the dataset to the ESCO taxonomy to offer a valuable resource for predicting career trajectories. To tackle the problem of free-text inputs typically found in resumes, we enhance it by synthesizing job titles and descriptions resulting in KARRIEREWEGE+. This allows for accurate predictions from unstructured data, closely aligning with real-world application challenges. We benchmark existing state-of-the-art (SOTA) models on our dataset and a prior benchmark and observe improved performance and robustness, particularly for free-text use cases, due to the synthesized data.",
+    "summary": "KARRIEREWEGE is a new, large-scale (500k+ career paths) public dataset linked to the ESCO taxonomy, designed to improve career path prediction accuracy; it includes a synthesized version, KARRIEREWEGE+, handling free-text job descriptions for more realistic predictions."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.15620",
+    "title": "CAPER: Enhancing Career Trajectory Prediction using Temporal Knowledge Graph and Ternary Relationship",
+    "published_date": "2024-08-28",
+    "abstract": "The problem of career trajectory prediction (CTP) aims to predict one's future employer or job position. While several CTP methods have been developed for this problem, we posit that none of these methods (1) jointly considers the mutual ternary dependency between three key units (i.e., user, position, and company) of a career and (2) captures the characteristic shifts of key units in career over time, leading to an inaccurate understanding of the job movement patterns in the labor market. To address the above challenges, we propose a novel solution, named as CAPER, that solves the challenges via sophisticated temporal knowledge graph (TKG) modeling. It enables the utilization of a graph-structured knowledge base with rich expressiveness, effectively preserving the changes in job movement patterns. Furthermore, we devise an extrapolated career reasoning task on TKG for a realistic evaluation. The experiments on a real-world career trajectory dataset demonstrate that CAPER consistently and significantly outperforms four baselines, two recent TKG reasoning methods, and five state-of-the-art CTP methods in predicting one's future companies and positions--i.e., on average, yielding 6.80% and 34.58% more accurate predictions, respectively. The codebase of CAPER is available at https://github.com/Bigdasgit/CAPER.",
+    "citation_count": 1,
+    "summary": "CAPER is a novel career trajectory prediction model that leverages a temporal knowledge graph to capture the ternary relationships between users, positions, and companies over time, significantly outperforming existing methods in predicting future employment. Its superior performance is demonstrated through experiments on a real-world dataset."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.13521",
+    "title": "HRGraph: Leveraging LLMs for HR Data Knowledge Graphs with Information Propagation-based Job Recommendation",
+    "published_date": "2024-08-24",
+    "abstract": "Knowledge Graphs (KGs) serving as semantic networks, prove highly effective in managing complex interconnected data in different domains, by offering a unified, contextualized, and structured representation with flexibility that allows for easy adaptation to evolving knowledge. Processing complex Human Resources (HR) data, KGs can help in different HR functions like recruitment, job matching, identifying learning gaps, and enhancing employee retention. Despite their potential, limited efforts have been made to implement practical HR knowledge graphs. This study addresses this gap by presenting a framework for effectively developing HR knowledge graphs from documents using Large Language Models. The resulting KG can be used for a variety of downstream tasks, including job matching, identifying employee skill gaps, and many more. In this work, we showcase instances where HR KGs prove instrumental in precise job matching, yielding advantages for both employers and employees. Empirical evidence from experiments with information propagation in KGs and Graph Neural Nets, along with case studies underscores the effectiveness of KGs in tasks such as job and employee recommendations and job area classification. Code and data are available at : https://github.com/azminewasi/HRGraph",
+    "citation_count": 1,
+    "summary": "HRGraph uses Large Language Models to build knowledge graphs from HR data, enabling improved job recommendations and other HR functions through information propagation and graph neural networks. The resulting framework facilitates more effective job matching and skill gap identification."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/cLfsabkCPtieJ5LoK/investigating-bias-representations-in-llms-via-activation",
+    "author": "DawnLu",
+    "title": "Investigating Bias Representations in LLMs via Activation Steering",
+    "published_date": "2024-01-15",
+    "summary": "This research uses activation steering to assess the robustness of Llama-2-7b-chat against societal biases (gender, race, religion) using the StereoSet dataset and custom prompts. Despite initial indications of bias in the model's unsteered responses, attempts to further amplify biases through activation steering resulted in the model refusing to answer, suggesting a potential form of bias mitigation but also highlighting methodological limitations."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xknjY568uQp4PGFcW/self-control-of-llm-behaviors-by-compressing-suffix-gradient-1",
+    "author": "Henry Cai",
+    "title": "Self-Control of LLM Behaviors by Compressing Suffix Gradient into Prefix Controller",
+    "published_date": "2024-06-16",
+    "summary": "The SelfControl framework controls large language model (LLM) behavior by appending \"suffix\" strings and optimizing their scores to modify model hidden states; this allows for on-the-fly behavior control and is further compressed into a parameter-efficient prefix controller for broader application."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/37uuuPQKiGisi8cGG/language-and-capabilities-testing-llm-mathematical-abilities",
+    "author": "Ethan Edwards",
+    "title": "Language and Capabilities: Testing LLM Mathematical Abilities Across Languages",
+    "published_date": "2024-04-04",
+    "summary": "The study investigated GPT-4's ability to perform three-digit multiplication in various languages and numeral systems, finding that while performance is best with Arabic numerals, success is heavily dependent on prompting techniques and unexpected contextual factors, revealing GPT-4 relies on learned token patterns rather than abstract mathematical understanding."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/EBbcuSuNafkYpsgTW/finding-backward-chaining-circuits-in-transformers-trained-1",
+    "author": "Abhayesian; Jannik Brinkmann; Victor Levoso",
+    "title": "Finding Backward Chaining Circuits in Transformers Trained on Tree Search",
+    "published_date": "2024-05-28",
+    "summary": "Researchers used mechanistic interpretability to analyze a transformer model trained to find paths in trees. They discovered the model employs a parallelized backward chaining algorithm, using \"register tokens\" to solve problems exceeding the model's layer capacity."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/palm",
+    "author": "SandXbox",
+    "title": "PaLM - LessWrong",
+    "published_date": "2023-03-07",
+    "summary": "Google's PaLM is a large Transformer language model released in 2022, showcasing a purported non-linear relationship between model scale and capability."
+  }
+]

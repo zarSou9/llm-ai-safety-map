@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.13316",
+    "title": "Why do we need to complement the European Union Regional Innovation Scoreboard with a cluster-neural network tool for what-if policy analysis?",
+    "published_date": "2024-09-20",
+    "abstract": "The European Union Regional Innovation Scoreboard (EURIS) is currently and broadly used for the definition of regional innovation policies by European policymakers; it is a regional innovation measuring tool for the analysis of each specific innovation indicator, from which it is possible to analyze the overtime evolution of each regional innovation indicator; according to the importance of the European Union Regional Innovation Scoreboard for innovation policy purposes, we state that European regional policymakers need integrative and synergistic methodological tools, with respect to the EURIS one, for innovation policy purposes. Thus, we highlight the need to integrate the current methodology of the European Regional Innovation Scoreboard with a Factorial K-means (FKM) tool for clustering purposes, and with a neural network (NN) tool for performing what-if policy analyses. We claim that our proposed FKM-NN tool could be used, by regional innovation policymakers, as a very effective synergistic instrument of the European Union Regional Innovation Scoreboard.",
+    "summary": "The European Union Regional Innovation Scoreboard (EURIS) lacks tools for comprehensive policy analysis; this paper proposes integrating EURIS with a Factorial K-means and neural network tool to enable effective \"what-if\" scenario planning for regional innovation policies."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8gCsRPxvXyAZJLcwd/gdp-per-capita-in-2050",
+    "author": "Hauke Hillebrandt",
+    "title": "GDP per capita in 2050",
+    "published_date": "2024-05-06",
+    "summary": "The article presents GDP per capita forecasts for major economies until 2050, arguing that even without transformative AI growth, the projected increases suggest a significantly different world by 2050 compared to today, with substantial improvements in living standards for many countries."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/GFeyXGib7DD3ooTEN/introduction-to-french-ai-policy",
+    "author": "Lucie Philippon",
+    "title": "Introduction to French AI Policy",
+    "published_date": "2024-07-04",
+    "summary": "France's newly formed Generative Artificial Intelligence Committee, composed of prominent academics and industry figures, advocates for a proactive, open-source approach to AI development, prioritizing French competitiveness and international leadership while downplaying potential risks. Their report emphasizes investment in AI research and talent, dismissing concerns about catastrophic AI risks as overblown."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Aq5X9tapacnk2QGY4/pausing-ai-developments-isn-t-enough-we-need-to-shut-it-all",
+    "author": "jacquesthibs",
+    "title": "Pausing AI Developments Isn't Enough. We Need to Shut it All Down by Eliezer Yudkowsky",
+    "published_date": "2024-02-01",
+    "summary": "Eliezer Yudkowsky argues that preventing potential human extinction from advanced AI requires an immediate, indefinite, and worldwide moratorium on large AI training runs, enforced with extreme measures, because the risks are too great and solutions are not forthcoming in the near future."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2307.02651.pdf",
+    "title": "The geography of innovation dynamics",
+    "published_date": "2023-07-05",
+    "abstract": "Cities and metropolitan areas are major drivers of creativity and innovation in all possible sectors: scientific, technological, social, artistic, etc. The critical concentration and proximity of diverse mindsets and opportunities, supported by efficient infrastructures, enable new technologies and ideas to emerge, thrive, and trigger further innovation. Though this pattern seems well established, geography's role in the emergence and diffusion of new technologies still needs to be clarified. An additional important question concerns the identification of the innovation pathways of metropolitan areas. Here, we explore the factors that influence the spread of technology among metropolitan areas worldwide and how geography and political borders impact this process. Our evidence suggests that political geography has been highly important for the diffusion of innovation till around two decades ago, slowly declining afterwards in favour of a more global innovation ecosystem. Further, the visualisation of the evolution of countries and metropolitan areas in a 2d space of competitiveness and diversification reveals the existence of two main innovation pathways, discriminating between different strategies towards progress. Our work provides insights for policymakers seeking to promote economic growth and technological advancement through tailored investments in prioritarian innovation areas.",
+    "summary": "This paper investigates the geographic factors influencing technology diffusion among metropolitan areas globally, finding that political geography's impact is diminishing in favor of a more global innovation ecosystem. Two main innovation pathways are identified, offering insights for policymakers to strategically promote economic growth."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/ai",
+    "author": "Evan Hubinger",
+    "title": "AI - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "Artificial intelligence alignment focuses on ensuring powerful AI systems act according to human values, preventing potentially catastrophic outcomes from misaligned goals. This involves diverse approaches ranging from narrow tasks to achieving a beneficial future for humanity, addressing the core challenge of aligning advanced AI with human intentions."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "President Biden's October 30, 2023 executive order on AI mandates various federal agencies to submit reports and implement plans regarding AI development, workforce needs, risk management, and responsible use across sectors like transportation, healthcare, and critical infrastructure, with deadlines ranging from 30 to 90 days after the order's publication."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ixiCECkFFguFcHWFa/paper-forecasting-world-events-with-neural-nets",
+    "author": "Owain_Evans, Dan H, Joe Kwon",
+    "title": "Paper: Forecasting world events with neural nets",
+    "published_date": "2022-07-01",
+    "summary": "Researchers introduced Autocast, a dataset of thousands of real-world forecasting questions and a large news corpus, to benchmark machine learning models' ability to predict events like pandemics and geopolitical conflicts. While current models significantly underperform human experts, the dataset facilitates research into improving AI forecasting capabilities."
+  }
+]

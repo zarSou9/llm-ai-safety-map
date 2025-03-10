@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25"
+  },
+  {
+    "title": "Reducing Static Analysis Unsoundness with Approximate Interpretation",
+    "abstract": "Static program analysis for JavaScript is more difficult than for many other programming languages. One of the main reasons is the presence of dynamic property accesses that read and write object properties via dynamically computed property names. To ensure scalability and precision, existing state-of-the-art analyses for JavaScript mostly ignore these operations although it results in missed call edges and aliasing relations. We present a novel dynamic analysis technique named approximate interpretation that is designed to efficiently and fully automatically infer likely determinate facts about dynamic property accesses, in particular those that occur in complex library API initialization code, and how to use the produced information in static analysis to recover much of the abstract information that is otherwise missed. Our implementation of the technique and experiments on 141 real-world Node.js-based JavaScript applications and libraries show that the approach leads to significant improvements in call graph construction. On average the use of approximate interpretation leads to 55.1% more call edges, 21.8% more reachable functions, 17.7% more resolved call sites, and only 1.5% fewer monomorphic call sites. For 36 JavaScript projects where dynamic call graphs are available, average analysis recall is improved from 75.9% to 88.1% with a negligible reduction in precision.",
+    "published_date": "2024-06-20",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3656424"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/sTe78dNJDGywu9Dz6/solving-the-mechanistic-interpretability-challenges-eis-vii",
+    "author": "StefanHex, Marius Hobbhahn",
+    "title": "Solving the Mechanistic Interpretability challenges: EIS VII Challenge 1",
+    "published_date": "2023-05-09"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/FzqKXpTDaouMF6Chj/paper-walkthrough-automated-circuit-discovery-with-arthur",
+    "author": "Neel Nanda",
+    "title": "Paper Walkthrough: Automated Circuit Discovery with Arthur Conmy",
+    "published_date": "2023-08-29"
+  },
+  {
+    "title": "Property-directed reachability as abstract interpretation in the monotone theory",
+    "abstract": "Inferring inductive invariants is one of the main challenges of formal verification. The theory of abstract interpretation provides a rich framework to devise invariant inference algorithms. One of the latest breakthroughs in invariant inference is property-directed reachability (PDR), but the research community views PDR and abstract interpretation as mostly unrelated techniques. This paper shows that, surprisingly, propositional PDR can be formulated as an abstract interpretation algorithm in a logical domain. More precisely, we define a version of PDR, called Λ-PDR, in which all generalizations of counterexamples are used to strengthen a frame. In this way, there is no need to refine frames after their creation, because all the possible supporting facts are included in advance. We analyze this algorithm using notions from Bshouty's monotone theory, originally developed in the context of exact learning. We show that there is an inherent overapproximation between the algorithm's frames that is related to the monotone theory. We then define a new abstract domain in which the best abstract transformer performs this overapproximation, and show that it captures the invariant inference process, i.e., Λ-PDR corresponds to Kleene iterations with the best transformer in this abstract domain. We provide some sufficient conditions for when this process converges in a small number of iterations, with sometimes an exponential gap from the number of iterations required for naive exact forward reachability. These results provide a firm theoretical foundation for the benefits of how PDR tackles forward reachability.",
+    "published_date": "2021-10-30",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/abs/10.1145/3498676"
+  },
+  {
+    "title": "Demanded abstract interpretation",
+    "abstract": "We consider the problem of making expressive static analyzers interactive. Formal static analysis is seeing increasingly widespread adoption as a tool for verification and bug-finding, but even with powerful cloud infrastructure it can take minutes or hours to get batch analysis results after a code change. While existing techniques offer some demand-driven or incremental aspects for certain classes of analysis, the fundamental challenge we tackle is doing both for arbitrary abstract interpreters. Our technique, demanded abstract interpretation, lifts program syntax and analysis state to a dynamically evolving graph structure, in which program edits, client-issued queries, and evaluation of abstract semantics are all treated uniformly. The key difficulty addressed by our approach is the application of general incremental computation techniques to the complex, cyclic dependency structure induced by abstract interpretation of loops with widening operators. We prove that desirable abstract interpretation meta-properties, including soundness and termination, are preserved in our approach, and that demanded analysis results are equal to those computed by a batch abstract interpretation. Experimental results suggest promise for a prototype demanded abstract interpretation framework: by combining incremental and demand-driven techniques, our framework consistently delivers analysis results at interactive speeds, answering 95% of queries within 1.2 seconds.",
+    "published_date": "2021-04-02",
+    "citation_count": 15,
+    "url": "https://dl.acm.org/doi/10.1145/3453483.3454044"
+  }
+]

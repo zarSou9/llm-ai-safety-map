@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Worst Case Attacks on Distributed Resources Systems",
+    "abstract": "How should an attacker, who wishes to hurt (deny) service, attack resources on a geographically distributed system in order to maximize the damage inflicted? Should attack efforts focus on a small number of regions (sites) or rather spread over many regions to yield wide spread effect? Consequently, how resources should be optimized as to minimize the gain of a damage-maximizing attacker? These are the questions that motivate this research and are at its core.",
+    "published_date": "2020-11-23",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3439602.3439607"
+  },
+  {
+    "title": "Operational design for advanced persistent threats",
+    "abstract": "The Advanced Persistent Threats (APT) are sophisticated and well-resourced attacks targeting valuable assets. For APTs both the attack and the defense require advanced planning and strategies similar to military operations. The existing cyber-security-aware methodologies achieve valuable results for regular cyber-threats, however they fail to adequately address APTs. The armed forces around the world use the Operational Design methodology to plan actionable strategies for achieving their military objectives. However, this conceptual methodology lacks the tools and the automation needed to scale to the complexity of todays advanced persistent cyber-attacks. In this paper we propose a tool-supported Operational Design-based methodology for cyberspace mission planning. Our approach relies on a structural modeling language, used by the French armed forces, that is extended with behavioral specifications for modeling the operational situation. The APT objectives are captured through temporal logic specifications. The expert is assisted by model-checking tools to perform the typical capacity-based operation design. The approach is illustrated by studying a mission on a water pumping station. After capturing its partial understanding of the system, the attacker formalizes the mission objectives and explores the design space defined around its five operational capabilities.",
+    "published_date": "2020-10-16",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3417990.3420044"
+  },
+  {
+    "title": "An Extensive Formal Analysis of Multi-factor Authentication Protocols",
+    "abstract": "Passwords are still the most widespread means for authenticating users, even though they have been shown to create huge security problems. This motivated the use of additional authentication mechanisms used in so-called multi-factor authentication protocols. In this paper we define a detailed threat model for this kind of protocols: while in classical protocol analysis attackers control the communication network, we take into account that many communications are performed over TLS channels, that computers may be infected by different kinds of malwares, that attackers could perform phishing, and that humans may omit some actions. We formalize this model in the applied pi calculus and perform an extensive analysis and comparison of several widely used protocols — variants of Google 2-step and FIDO's U2F. The analysis is completely automated, generating systematically all combinations of threat scenarios for each of the protocols and using the P ROVERIF tool for automated protocol analysis. Our analysis highlights weaknesses and strengths of the different protocols, and allows us to suggest several small modifications of the existing protocols which are easy to implement, yet improve their security in several threat scenarios.",
+    "published_date": "2018-04-20",
+    "citation_count": 51,
+    "url": "https://dl.acm.org/doi/10.1145/3440712"
+  },
+  {
+    "title": "Towards Realistic Threat Modeling: Attack Commodification, Irrelevant Vulnerabilities, and Unrealistic Assumptions",
+    "abstract": "Current threat models typically consider all possible ways an attacker can penetrate a system and assign probabilities to each path according to some metric (e.g. time-to-compromise). In this paper we discuss how this view hinders the realness of both technical (e.g. attack graphs) and strategic (e.g. game theory) approaches of current threat modeling, and propose to steer away by looking more carefully at attack characteristics and attacker environment. We use a toy threat model for ICS attacks to show how a realistic view of attack instances can emerge from a simple analysis of attack phases and attacker limitations.",
+    "published_date": "2017-11-03",
+    "citation_count": 13,
+    "url": "https://dl.acm.org/doi/10.1145/3140368.3140372"
+  },
+  {
+    "title": "Large-scale systems security evolution: control theory approach",
+    "abstract": "Rapidly expanding information technologies field clearly discovers tendency of increasing computer systems' heterogeneity and distribution level. In this paper authors reveal the hidden attributes of IT security evolution towards more assumptions about attacker power and less assertions on provided security level. The proposed view of IT security evolution makes it possible to classify security providing technologies in terms of control theory. This comparison, in turn, allows to borrow a rich theoretical framework of appropriate control theory methods (for non-linear, non-stationary, discrete-continuous automatic control systems) and adopt them for cyber security purposes. Moreover, proposed control theory view enables prediction of the future security evolution stages and allows to partially determine them.",
+    "published_date": "2015-09-08",
+    "citation_count": 5,
+    "url": "https://dl.acm.org/doi/10.1145/2799979.2799993"
+  },
+  {
+    "title": "On the optimal allocation of adversarial resources",
+    "abstract": "Security is important for mission-critical wireless sensor networks (WSNs). This is especially so because powerful adversaries could compromise and control a significant fraction of the network nodes. A plethora of schemes has been developed to secure wireless sensor networks and resilience to sophisticated attacks has been analyzed. However, the question of how the adversary could deploy her resources to maximally affect the attacked system has remained largely unaddressed. This is the problem this paper is concerned with: Given a number of compromised entities (nodes) and cryptographic keys, how can the adversary devise a close-to-optimal attack tactic? To the best of our knowledge, this is the first investigation of its kind: while the basic adversarial behavior is well-known, the problem of how the adversary can optimally deploy her resources to maximize the attack impact has not been considered for WSNs. We consider an abstract model of the mission-critical WSN and the adversary, and we find that the determination of an optimal attack is computationally hard, thus, we devise an efficient heuristic approach. An intelligent adversarial resource allocation indeed yields disproportional gains for the attacker. Our analysis is the first necessary step to comprehend how to best address vulnerabilities.",
+    "published_date": "2012-08-26",
+    "citation_count": 5,
+    "url": "https://dl.acm.org/doi/10.1145/2348656.2348666"
+  }
+]

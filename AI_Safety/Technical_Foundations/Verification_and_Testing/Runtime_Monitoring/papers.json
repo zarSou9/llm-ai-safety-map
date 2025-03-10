@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.13254",
+    "title": "System Safety Monitoring of Learned Components Using Temporal Metric Forecasting",
+    "published_date": "2024-05-21",
+    "abstract": "In learning-enabled autonomous systems, safety monitoring of learned components is crucial to ensure their outputs do not lead to system safety violations, given the operational context of the system. However, developing a safety monitor for practical deployment in real-world applications is challenging. This is due to limited access to internal workings and training data of the learned component. Furthermore, safety monitors should predict safety violations with low latency, while consuming a reasonable computation resource amount.\n \n To address the challenges, we propose a safety monitoring method based on probabilistic time series forecasting. Given the learned component outputs and an operational context, we empirically investigate different Deep Learning (DL)-based probabilistic forecasting to predict the objective measure capturing the satisfaction or violation of a safety requirement (\n safety metric\n ). We empirically evaluate safety metric and violation prediction accuracy, and inference latency and resource usage of four state-of-the-art models, with varying horizons, using autonomous aviation and autonomous driving case studies. Our results suggest that probabilistic forecasting of safety metrics, given learned component outputs and scenarios, is effective for safety monitoring. Furthermore, for both case studies, the Temporal Fusion Transformer (TFT) was the most accurate model for predicting imminent safety violations, with acceptable latency and resource consumption.\n",
+    "summary": "This paper proposes a safety monitoring method for learned components in autonomous systems using probabilistic time series forecasting, specifically evaluating Deep Learning models like the Temporal Fusion Transformer (TFT) to predict safety metric violations with low latency and reasonable resource consumption. The TFT model demonstrated superior accuracy in predicting imminent safety violations across autonomous aviation and driving case studies."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2205.02562.pdf",
+    "title": "Monitoring AI systems: A Problem Analysis, Framework and Outlook",
+    "published_date": "2022-05-05",
+    "abstract": ". Knowledge-based systems have been used to monitor machines and pro- cesses in the real world. In this paper we propose the use of knowledge-based systems to monitor other AI systems in operation. We motivate and provide a problem analysis of this novel setting and subsequently propose a framework that allows for structuring future research related to this setting. Several directions for further research are also discussed. We aim to study how to monitor AI systems in such a way that the expectations for the performance are formulated into an interpretable, knowledge-based system for monitoring.",
+    "citation_count": 2,
+    "summary": "This paper proposes using knowledge-based systems to monitor other AI systems, analyzing the challenges of this novel approach and providing a framework to guide future research in AI system monitoring. The goal is to translate performance expectations into an interpretable monitoring system."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2208.14660.pdf",
+    "title": "Unifying Evaluation of Machine Learning Safety Monitors",
+    "published_date": "2022-08-31",
+    "abstract": "With the increasing use of Machine Learning (ML) in critical autonomous systems, runtime monitors have been developed to detect prediction errors and keep the system in a safe state during operations. Monitors have been proposed for different applications involving diverse perception tasks and ML models, and specific evaluation procedures and metrics are used for different contexts. This paper introduces three unified safety-oriented metrics, representing the safety benefits of the monitor (Safety Gain), the remaining safety gaps after using it (Residual Hazard), and its negative impact on the system's performance (Availability Cost). To compute these metrics, one requires to define two return functions, representing how a given ML prediction will impact expected future rewards and hazards. Three use-cases (classification, drone landing, and autonomous driving) are used to demonstrate how metrics from the literature can be expressed in terms of the proposed metrics. Experimental results on these examples show how different evaluation choices impact the perceived performance of a monitor. As our formalism requires us to formulate explicit safety assumptions, it allows us to ensure that the evaluation conducted matches the high-level system requirements.",
+    "citation_count": 9,
+    "summary": "This paper proposes three unified metrics—Safety Gain, Residual Hazard, and Availability Cost—to evaluate the safety and performance of machine learning runtime monitors, enabling consistent comparison across diverse applications by explicitly defining safety assumptions and reward/hazard functions. The framework is demonstrated across three case studies, highlighting the impact of evaluation choices on perceived monitor performance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.08576",
+    "title": "A Theoretical Framework for AI-driven data quality monitoring in high-volume data environments",
+    "published_date": "2024-10-11",
+    "abstract": "This paper presents a theoretical framework for an AI-driven data quality monitoring system designed to address the challenges of maintaining data quality in high-volume environments. We examine the limitations of traditional methods in managing the scale, velocity, and variety of big data and propose a conceptual approach leveraging advanced machine learning techniques. Our framework outlines a system architecture that incorporates anomaly detection, classification, and predictive analytics for real-time, scalable data quality management. Key components include an intelligent data ingestion layer, adaptive preprocessing mechanisms, context-aware feature extraction, and AI-based quality assessment modules. A continuous learning paradigm is central to our framework, ensuring adaptability to evolving data patterns and quality requirements. We also address implications for scalability, privacy, and integration within existing data ecosystems. While practical results are not provided, it lays a robust theoretical foundation for future research and implementations, advancing data quality management and encouraging the exploration of AI-driven solutions in dynamic environments.",
+    "summary": "This paper proposes a theoretical framework for AI-driven data quality monitoring in high-volume data environments, leveraging machine learning techniques for anomaly detection, classification, and predictive analytics to address the limitations of traditional methods. The framework outlines a system architecture incorporating continuous learning and addresses scalability, privacy, and integration challenges."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12",
+    "summary": "This article proposes a delay-based location verification mechanism for on-chip compute governance, using the speed of light as a constraint to verify the location of AI chips. However, the mechanism's reliance on network latency introduces a significant false positive risk, necessitating further solutions."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13",
+    "summary": "Current methods for assessing the risk of catastrophic AI behavior rely on finding problematic inputs, which is insufficient for guaranteeing safety. This article proposes developing techniques to estimate the probability of catastrophic events without needing to identify specific harmful inputs, thus improving AI safety."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/GCqoks9eZDfpL8L3Q/how-to-prevent-collusion-when-using-untrusted-models-to",
+    "author": "Buck Shlegeris",
+    "title": "How to prevent collusion when using untrusted models to monitor each other",
+    "published_date": "2024-09-24",
+    "summary": "The article analyzes the vulnerability of \"untrusted monitoring,\" a safety technique for AI agents, to collusion between model instances. While simple anti-collusion mechanisms can mitigate some risks, sophisticated coordination strategies by scheming models could still lead to failure, especially with substantially superhuman AI."
+  },
+  {
+    "title": "Monitors That Learn From Failures: Pairing STL and Genetic Programming",
+    "abstract": "In several domains, systems generate continuous streams of data during their execution, including meaningful telemetry information, that can be used to perform tasks like preemptive failure detection. Deep learning models have been exploited for these tasks with increasing success, but they hardly provide guarantees over their execution, a problem which is exacerbated by their lack of interpretability. In many critical contexts, formal methods, which ensure the correct behavior of a system, are thus necessary. However, specifying in advance all the relevant properties and building a complete model of the system against which to check them is often out of reach in real-world scenarios. To overcome these limitations, we design a framework that resorts to monitoring, a lightweight runtime verification technique that does not require an explicit model specification, and pairs it with machine learning. Its goal is to automatically derive relevant properties, related to a bad behavior of the considered system, encoded by means of formulas of Signal Temporal Logic ( $\\mathsf {STL}$ ). Results based on experiments performed on well-known benchmark datasets show that the proposed framework is able to effectively anticipate critical system behaviors in an online setting, providing human-interpretable results.",
+    "published_date": "2023-01-01",
+    "citation_count": 6,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/10005208/10129205.pdf",
+    "summary": "This paper presents a framework combining Signal Temporal Logic (STL) monitoring with genetic programming to automatically learn and detect critical system behaviors from runtime data streams, offering interpretable results and addressing limitations of deep learning in critical applications. The approach avoids the need for a priori model specification, enabling effective online failure anticipation."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.01978.pdf",
+    "title": "An LSTM-Based Predictive Monitoring Method for Data with Time-varying Variability",
+    "published_date": "2023-09-05",
+    "abstract": "The recurrent neural network and its variants have shown great success in processing sequences in recent years. However, this deep neural network has not aroused much attention in anomaly detection through predictively process monitoring. Furthermore, the traditional statistic models work on assumptions and hypothesis tests, while neural network (NN) models do not need that many assumptions. This flexibility enables NN models to work efficiently on data with time-varying variability, a common inherent aspect of data in practice. This paper explores the ability of the recurrent neural network structure to monitor processes and proposes a control chart based on long short-term memory (LSTM) prediction intervals for data with time-varying variability. The simulation studies provide empirical evidence that the proposed model outperforms other NN-based predictive monitoring methods for mean shift detection. The proposed method is also applied to time series sensor data, which confirms that the proposed method is an effective technique for detecting abnormalities.",
+    "summary": "This paper proposes an LSTM-based predictive monitoring method for detecting anomalies in data with time-varying variability, demonstrating superior performance compared to other NN-based methods through simulations and real-world sensor data application."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.15187.pdf",
+    "title": "Monitoring Machine Learning Models: Online Detection of Relevant Deviations",
+    "published_date": "2023-09-26",
+    "abstract": "Machine learning models are essential tools in various domains, but their performance can degrade over time due to changes in data distribution or other factors. On one hand, detecting and addressing such degradations is crucial for maintaining the models' reliability. On the other hand, given enough data, any arbitrary small change of quality can be detected. As interventions, such as model re-training or replacement, can be expensive, we argue that they should only be carried out when changes exceed a given threshold. We propose a sequential monitoring scheme to detect these relevant changes. The proposed method reduces unnecessary alerts and overcomes the multiple testing problem by accounting for temporal dependence of the measured model quality. Conditions for consistency and specified asymptotic levels are provided. Empirical validation using simulated and real data demonstrates the superiority of our approach in detecting relevant changes in model quality compared to benchmark methods. Our research contributes a practical solution for distinguishing between minor fluctuations and meaningful degradations in machine learning model performance, ensuring their reliability in dynamic environments.",
+    "citation_count": 2,
+    "summary": "This paper introduces a sequential monitoring scheme for detecting significant performance degradation in machine learning models, mitigating unnecessary interventions by accounting for temporal dependence and establishing thresholds for relevant changes. Empirical results demonstrate its superior performance compared to existing methods."
+  }
+]

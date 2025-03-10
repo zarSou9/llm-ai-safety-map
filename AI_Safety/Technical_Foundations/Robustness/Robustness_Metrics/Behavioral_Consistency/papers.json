@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.08981",
+    "title": "Reliability, Resilience and Human Factors Engineering for Trustworthy AI Systems",
+    "published_date": "2024-11-13",
+    "abstract": "As AI systems become integral to critical operations across industries and services, ensuring their reliability and safety is essential. We offer a framework that integrates established reliability and resilience engineering principles into AI systems. By applying traditional metrics such as failure rate and Mean Time Between Failures (MTBF) along with resilience engineering and human reliability analysis, we propose an integrate framework to manage AI system performance, and prevent or efficiently recover from failures. Our work adapts classical engineering methods to AI systems and outlines a research agenda for future technical studies. We apply our framework to a real-world AI system, using system status data from platforms such as openAI, to demonstrate its practical applicability. This framework aligns with emerging global standards and regulatory frameworks, providing a methodology to enhance the trustworthiness of AI systems. Our aim is to guide policy, regulation, and the development of reliable, safe, and adaptable AI technologies capable of consistent performance in real-world environments.",
+    "citation_count": 1,
+    "summary": "This paper presents a framework for enhancing the reliability and resilience of AI systems by integrating established engineering principles with human factors analysis, offering both a practical methodology and a research agenda for building trustworthy AI. The framework is demonstrated using real-world AI system data and aligns with emerging global standards."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.10980v2",
+    "title": "MultiRobustBench: Benchmarking Robustness Against Multiple Attacks",
+    "published_date": "2023-02-21",
+    "abstract": "The bulk of existing research in defending against adversarial examples focuses on defending against a single (typically bounded Lp-norm) attack, but for a practical setting, machine learning (ML) models should be robust to a wide variety of attacks. In this paper, we present the first unified framework for considering multiple attacks against ML models. Our framework is able to model different levels of learner's knowledge about the test-time adversary, allowing us to model robustness against unforeseen attacks and robustness against unions of attacks. Using our framework, we present the first leaderboard, MultiRobustBench, for benchmarking multiattack evaluation which captures performance across attack types and attack strengths. We evaluate the performance of 16 defended models for robustness against a set of 9 different attack types, including Lp-based threat models, spatial transformations, and color changes, at 20 different attack strengths (180 attacks total). Additionally, we analyze the state of current defenses against multiple attacks. Our analysis shows that while existing defenses have made progress in terms of average robustness across the set of attacks used, robustness against the worst-case attack is still a big open problem as all existing models perform worse than random guessing.",
+    "citation_count": 7,
+    "summary": "MultiRobustBench introduces a unified framework and leaderboard for evaluating machine learning model robustness against multiple adversarial attacks, revealing that while average robustness has improved, defenses remain significantly vulnerable to worst-case attacks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that a solely technical focus is insufficient and that progress requires integrating diverse fields like cognitive science, social sciences, and engineering to design \"civilizational intelligence.\" This approach prioritizes a proactive, top-down design of safe AGI systems over a reactive, empirically-driven approach."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.10298",
+    "title": "Evaluation Metrics for Object Detection for Autonomous Systems",
+    "published_date": "2022-10-19",
+    "abstract": "This paper studies the evaluation of learning-based object detection models in conjunction with model-checking of formal specifications defined on an abstract model of an autonomous system and its environment. In particular, we define two metrics -- \\emph{proposition-labeled} and \\emph{class-labeled} confusion matrices -- for evaluating object detection, and we incorporate these metrics to compute the satisfaction probability of system-level safety requirements. While confusion matrices have been effective for comparative evaluation of classification and object detection models, our framework fills two key gaps. First, we relate the performance of object detection to formal requirements defined over downstream high-level planning tasks. In particular, we provide empirical results that show that the choice of a good object detection algorithm, with respect to formal requirements on the overall system, significantly depends on the downstream planning and control design. Secondly, unlike the traditional confusion matrix, our metrics account for variations in performance with respect to the distance between the ego and the object being detected. We demonstrate this framework on a car-pedestrian example by computing the satisfaction probabilities for safety requirements formalized in Linear Temporal Logic (LTL).",
+    "citation_count": 3,
+    "summary": "This paper proposes two novel confusion matrix-based metrics for evaluating object detection models within autonomous systems, linking object detection performance to the satisfaction probability of high-level safety requirements formalized in LTL and accounting for distance-dependent detection variations. The framework demonstrates that optimal object detection algorithm selection depends heavily on downstream planning and control design."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/robust-agents",
+    "author": "Alyssa Vance",
+    "title": "Robust Agents - AI Alignment Forum",
+    "published_date": "2022-07-14",
+    "summary": "Robust agents are adaptable decision-makers possessing coherent values and decision procedures, allowing them to succeed in diverse and changing situations unlike agents reliant on instinct or narrow goals."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.12558v2.pdf",
+    "title": "Assured learning‐enabled autonomy: A metacognitive reinforcement learning framework",
+    "published_date": "2021-03-23",
+    "abstract": "Reinforcement learning (RL) agents with pre‐specified reward functions cannot provide guaranteed safety across variety of circumstances that an uncertain system might encounter. To guarantee performance while assuring satisfaction of safety constraints across variety of circumstances, an assured autonomous control framework is presented in this article by empowering RL algorithms with metacognitive learning capabilities. More specifically, adapting the reward function parameters of the RL agent is performed in a metacognitive decision‐making layer to assure the feasibility of RL agent. That is, to assure that the learned policy by the RL agent satisfies safety constraints specified by signal temporal logic while achieving as much performance as possible. The metacognitive layer monitors any possible future safety violation under the actions of the RL agent and employs a higher‐layer Bayesian RL algorithm to proactively adapt the reward function for the lower‐layer RL agent. To minimize the higher‐layer Bayesian RL intervention, a fitness function is leveraged by the metacognitive layer as a metric to evaluate success of the lower‐layer RL agent in satisfaction of safety and liveness specifications, and the higher‐layer Bayesian RL intervenes only if there is a risk of lower‐layer RL failure. Finally, a simulation example is provided to validate the effectiveness of the proposed approach.",
+    "citation_count": 4,
+    "summary": "This paper proposes a metacognitive reinforcement learning framework for assured autonomous control, using a higher-level Bayesian RL agent to adapt the reward function of a lower-level RL agent, ensuring safety constraints are met while maximizing performance by proactively preventing potential safety violations. This is achieved through a fitness function that minimizes higher-level interventions."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.09418v1.pdf",
+    "title": "Technical Report: Using Static Analysis to Compute Benefit of Tolerating Consistency",
+    "published_date": "2021-08-21",
+    "abstract": "Synchronization is the Achilles heel of concurrent programs. Synchronization requirement is often used to ensure that the execution of the concurrent program can be serialized. Without synchronization requirement, a program suffers from consistency violations. Recently, it was shown that if programs are designed to tolerate such consistency violation faults ( cvf s) then one can obtain substantial performance gain. Previous efforts to analyze the effect of cvf -tolerance are limited to run-time analysis of the program to determine if tolerating cvf s can improve the performance. Such run-time analysis is very expensive and provides limited insight. In this work, we consider the question, 'Can static analysis of the program predict the benefit of cvf -tolerance?' We find that the answer to this question is affirmative. Specifically, we use static analysis to evaluate the cost of a cvf and demonstrate that it can be used to predict the benefit of cvf -tolerance. We also find that when faced with a large state space, partial analysis of the state space (via sampling) also provides the required information to predict the benefit of cvf -tolerance. Furthermore, we observe that the cvf -cost distribution is exponential in nature, i.e., the probability that a cvf has a cost of 𝑐 is 𝐴.𝐵 − 𝑐 , where 𝐴 and 𝐵 are constants , i.e., most cvf s cause no/low perturbation whereas a small number of cvf s cause a large perturbation. This opens up new aveneus to evaluate the benefit of cvf -tolerance.",
+    "summary": "This paper demonstrates that static analysis can effectively predict the performance benefits of tolerating consistency violations in concurrent programs, offering a more efficient alternative to expensive runtime analysis. The analysis reveals that the cost distribution of consistency violation faults is exponential, with most faults having minimal impact."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.01258v1.pdf",
+    "title": "Assessing the Reliability of Deep Learning Classifiers Through Robustness Evaluation and Operational Profiles",
+    "published_date": "2021-06-02",
+    "abstract": "The utilisation of Deep Learning (DL) is advancing into increasingly more sophisticated applications. While it shows great potential to provide transformational capabilities, DL also raises new challenges regarding its reliability in critical functions. In this paper, we present a model-agnostic reliability assessment method for DL classifiers, based on evidence from robustness evaluation and the operational profile (OP) of a given application. We partition the input space into small cells and then\"assemble\"their robustness (to the ground truth) according to the OP, where estimators on the cells' robustness and OPs are provided. Reliability estimates in terms of the probability of misclassification per input (pmi) can be derived together with confidence levels. A prototype tool is demonstrated with simplified case studies. Model assumptions and extension to real-world applications are also discussed. While our model easily uncovers the inherent difficulties of assessing the DL dependability (e.g. lack of data with ground truth and scalability issues), we provide preliminary/compromised solutions to advance in this research direction.",
+    "citation_count": 19,
+    "summary": "This paper proposes a model-agnostic method for assessing the reliability of deep learning classifiers by combining robustness evaluation with operational profiles, estimating the probability of misclassification per input with confidence levels. The method addresses challenges in assessing deep learning dependability, offering preliminary solutions despite limitations in data and scalability."
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2109.07906v1.pdf",
+    "title": "Ethics of AI: A Systematic Literature Review of Principles and Challenges",
+    "published_date": "2021-09-12",
+    "abstract": "Ethics in AI becomes a global topic of interest for both policymakers and academic researchers. In the last few years, various research organizations, lawyers, think tankers, and regulatory bodies get involved in developing AI ethics guidelines and principles. However, there is still debate about the implications of these principles. We conducted a systematic literature review (SLR) study to investigate the agreement on the significance of AI principles and identify the challenging factors that could negatively impact the adoption of AI ethics principles. The results reveal that the global convergence set consists of 22 ethical principles and 15 challenges. Transparency, privacy, accountability and fairness are identified as the most common AI ethics principles. Similarly, lack of ethical knowledge and vague principles are reported as the significant challenges for considering ethics in AI. The findings of this study are the preliminary inputs for proposing a maturity model that assesses the ethical capabilities of AI systems and provides best practices for further improvements.",
+    "citation_count": 57,
+    "summary": "This systematic literature review identifies 22 common ethical principles for AI, including transparency, privacy, accountability, and fairness, while also highlighting 15 challenges to their adoption, such as lack of ethical knowledge and vaguely defined principles."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2204.07612v1.pdf",
+    "title": "Contextualizing Artificially Intelligent Morality: A Meta-Ethnography of Top-Down, Bottom-Up, and Hybrid Models for Theoretical and Applied Ethics in Artificial Intelligence",
+    "published_date": "2022-04-15",
+    "abstract": "In this meta-ethnography,we explore three different angles of Ethical AI design and implementation in a top-down/bottom-up framework, including the philosophical ethical viewpoint, the technical perspective, and framing through a political lens. We will discuss the values and drawbacks of individual and hybrid approaches within this framework. Examples of approaches include ethics either being determined by corporations and governments (coming from the top), or ethics being called for by the people (coming from the bottom), as well as top-down, bottom-up, and hybrid technical-ities of how AI is developed within a moral construct, in consideration of its developers and users, with expected and unexpected consequences and long-term impact. This investigation includes real-world case studies, philosophical debate, and theoretical future thought experimentation based on historical fact, current world circumstances, and possible ensuing realities.",
+    "summary": "This meta-ethnography analyzes ethical AI development through top-down (corporation/government-led), bottom-up (public-driven), and hybrid approaches, exploring their philosophical, technical, and political dimensions and implications. It considers the advantages and disadvantages of each, using case studies, philosophical arguments, and future-oriented thought experiments."
+  },
+  {
+    "url": "https://arxiv.org/abs/2008.02275v2",
+    "title": "Aligning AI With Shared Human Values",
+    "published_date": "2020-08-05",
+    "abstract": "We show how to assess a language model's knowledge of basic concepts of morality. We introduce the ETHICS dataset, a new benchmark that spans concepts in justice, well-being, duties, virtues, and commonsense morality. Models predict widespread moral judgments about diverse text scenarios. This requires connecting physical and social world knowledge to value judgements, a capability that may enable us to steer chatbot outputs or eventually regularize open-ended reinforcement learning agents. With the ETHICS dataset, we find that current language models have a promising but incomplete understanding of basic ethical knowledge. Our work shows that progress can be made on machine ethics today, and it provides a steppingstone toward AI that is aligned with human values.",
+    "citation_count": 443,
+    "summary": "Researchers introduce ETHICS, a dataset for evaluating language models' understanding of moral concepts, finding that current models demonstrate a promising but incomplete grasp of ethics, suggesting a path toward aligning AI with human values."
+  },
+  {
+    "title": "An Overview of Artificial Intelligence Ethics",
+    "abstract": "Artificial intelligence (AI) has profoundly changed and will continue to change our lives. AI is being applied in more and more fields and scenarios such as autonomous driving, medical care, media, finance, industrial robots, and internet services. The widespread application of AI and its deep integration with the economy and society have improved efficiency and produced benefits. At the same time, it will inevitably impact the existing social order and raise ethical concerns. Ethical issues, such as privacy leakage, discrimination, unemployment, and security risks, brought about by AI systems have caused great trouble to people. Therefore, AI ethics, which is a field related to the study of ethical issues in AI, has become not only an important research topic in academia, but also an important topic of common concern for individuals, organizations, countries, and society. This article will give a comprehensive overview of this field by summarizing and analyzing the ethical risks and issues raised by AI, ethical guidelines and principles issued by different organizations, approaches for addressing ethical issues in AI, and methods for evaluating the ethics of AI. Additionally, challenges in implementing ethics in AI and some future perspectives are pointed out. We hope our work will provide a systematic and comprehensive overview of AI ethics for researchers and practitioners in this field, especially the beginners of this research discipline.",
+    "published_date": "2023-08-01",
+    "citation_count": 80,
+    "url": "https://ieeexplore.ieee.org/ielx7/9078688/9184921/09844014.pdf",
+    "summary": "AI ethics addresses the growing societal and individual concerns arising from widespread AI implementation, including issues like privacy, discrimination, job displacement, and security risks. This field explores these ethical dilemmas, proposes guidelines and solutions, and evaluates the ethical implications of AI systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.14577v2",
+    "title": "Toward an Ethics of AI Belief",
+    "published_date": "2023-04-28",
+    "abstract": "In this paper we, an epistemologist and a machine learning scientist, argue that we need to pursue a novel area of philosophical research in AI – the ethics of belief for AI. Here we take the ethics of belief to refer to a field at the intersection of epistemology and ethics concerned with possible moral, practical, and other non-truth-related dimensions of belief. In this paper we will primarily be concerned with the normative question within the ethics of belief regarding what agents – both human and artificial – ought to believe, rather than with questions concerning whether beliefs meet certain evaluative standards such as being true, being justified, constituting knowledge, etc. We suggest four topics in extant work in the ethics of (human) belief that can be applied to an ethics of AI belief: doxastic wronging by AI (morally wronging someone in virtue of beliefs held about them); morally owed beliefs (beliefs that agents are morally obligated to hold); pragmatic and moral encroachment (cases where the practical or moral features of a belief is relevant to its epistemic status, and in our case specifically to whether an agent ought to hold the belief); and moral responsibility for AI beliefs. We also indicate two relatively nascent areas of philosophical research that haven't yet been generally recognized as ethics of AI belief research, but that do fall within this field of research in virtue of investigating various moral and practical dimensions of belief: the epistemic and ethical decolonization of AI; and epistemic injustice in AI.",
+    "summary": "The paper proposes a new research area—\"the ethics of AI belief\"—exploring the moral and practical implications of what AIs ought to believe, drawing parallels to human ethics of belief and including topics like doxastic wronging, morally owed beliefs, and epistemic decolonization."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a framework for creating ethically aligned AI by embedding \"ethical priors,\" analogous to Bayesian priors, into AI systems. These priors would represent pre-existing ethical assumptions and values, influencing the AI's learning and decision-making processes similar to human moral intuitions."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.08867.pdf",
+    "title": "AI and Ethics - Operationalising Responsible AI",
+    "published_date": "2021-05-19",
+    "abstract": "In the last few years, AI continues demonstrating its positive impact on society while sometimes with ethically questionable consequences. Building and maintaining public trust in AI has been identified as the key to successful and sustainable innovation. This chapter discusses the challenges related to operationalizing ethical AI principles and presents an integrated view that covers high-level ethical AI principles, the general notion of trust/trustworthiness, and product/process support in the context of responsible AI, which helps improve both trust and trustworthiness of AI for a wider set of stakeholders.",
+    "citation_count": 33,
+    "summary": "This chapter explores the challenges of implementing ethical AI principles, proposing an integrated approach that connects high-level principles with practical product/process support to enhance trust and trustworthiness in AI systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/LdH9w67W6jQaoBm2T/internet-encyclopedia-of-philosophy-on-ethics-of-artificial",
+    "author": "Kaj_Sotala",
+    "title": "Internet Encyclopedia of Philosophy on Ethics of Artificial Intelligence",
+    "published_date": "2021-02-20",
+    "summary": "This article discusses the ethical implications of artificial intelligence, focusing on potential risks associated with a technological singularity – a hypothetical point where AI surpasses human intelligence – and the importance of aligning AI values with human values to mitigate existential threats. It explores different perspectives on what might trigger a singularity, including exponentially increasing computing power and algorithmic breakthroughs."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2006.04734v3.pdf",
+    "title": "Reinforcement Learning Under Moral Uncertainty",
+    "published_date": "2020-06-08",
+    "abstract": "An ambitious goal for artificial intelligence is to create agents that behave ethically: The capacity to abide by human moral norms would greatly expand the context in which autonomous agents could be practically and safely deployed. While ethical agents could be trained through reinforcement, by rewarding correct behavior under a specific moral theory (e.g. utilitarianism), there remains widespread disagreement (both societally and among moral philosophers) about the nature of morality and what ethical theory (if any) is objectively correct. Acknowledging such disagreement, recent work in moral philosophy proposes that ethical behavior requires acting under moral uncertainty, i.e. to take into account when acting that one's credence is split across several plausible ethical theories. Inspired by such work, this paper proposes a formalism that translates such insights to the field of reinforcement learning. Demonstrating the formalism's potential, we then train agents in simple environments to act under moral uncertainty, highlighting how such uncertainty can help curb extreme behavior from commitment to single theories. The overall aim is to draw productive connections from the fields of moral philosophy and machine ethics to that of machine learning, to inspire further research by highlighting a spectrum of machine learning research questions relevant to training ethically capable reinforcement learning agents.",
+    "citation_count": 27,
+    "summary": "This paper introduces a reinforcement learning framework that incorporates \"moral uncertainty,\" allowing agents to consider multiple ethical theories simultaneously during training, rather than committing to a single potentially flawed theory. This approach aims to mitigate extreme behaviors and promote more nuanced ethical decision-making in autonomous agents."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/b4cLtSam97ZhdJGMG/the-ethics-of-ai-for-the-routledge-encyclopedia-of",
+    "author": "Stuart_Armstrong",
+    "title": "The ethics of AI for the Routledge Encyclopedia of Philosophy",
+    "published_date": "2020-11-18",
+    "summary": "The author is writing an entry on AI ethics for the Routledge Encyclopedia of Philosophy and is seeking input on important aspects and historical context to include."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.09813",
+    "title": "AI Ethics in Smart Homes: Progress, User Requirements and Challenges",
+    "published_date": "2024-12-13",
+    "abstract": "With the rise of Internet of Things (IoT) technologies in smart homes and the integration of artificial intelligence (AI), ethical concerns have become increasingly significant. This paper explores the ethical implications of AI-driven detection technologies in smart homes using the User Requirements Notation (URN) framework. In this paper, we thoroughly conduct thousands of related works from 1985 to 2024 to identify key trends in AI ethics, algorithm methods, and technological advancements. The study presents an overview of smart home and AI ethics, comparing traditional and AI-specific ethical issues, and provides guidelines for ethical design across areas like privacy, fairness, transparency, accountability, and user autonomy, offering insights for developers and researchers in smart homes.",
+    "summary": "This paper examines the ethical implications of AI in smart homes, particularly AI-driven detection technologies, using the User Requirements Notation framework to offer ethical design guidelines concerning privacy, fairness, and user autonomy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.16244",
+    "title": "The Ethics of Advanced AI Assistants",
+    "published_date": "2024-04-24",
+    "abstract": "This paper focuses on the opportunities and the ethical and societal risks posed by advanced AI assistants. We define advanced AI assistants as artificial agents with natural language interfaces, whose function is to plan and execute sequences of actions on behalf of a user, across one or more domains, in line with the user's expectations. The paper starts by considering the technology itself, providing an overview of AI assistants, their technical foundations and potential range of applications. It then explores questions around AI value alignment, well-being, safety and malicious uses. Extending the circle of inquiry further, we next consider the relationship between advanced AI assistants and individual users in more detail, exploring topics such as manipulation and persuasion, anthropomorphism, appropriate relationships, trust and privacy. With this analysis in place, we consider the deployment of advanced assistants at a societal scale, focusing on cooperation, equity and access, misinformation, economic impact, the environment and how best to evaluate advanced AI assistants. Finally, we conclude by providing a range of recommendations for researchers, developers, policymakers and public stakeholders.",
+    "citation_count": 34,
+    "summary": "This paper examines the ethical and societal implications of advanced AI assistants—defined as natural language agents that perform tasks for users—exploring issues from value alignment and safety to societal impact and offering recommendations for stakeholders."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/machine-ethics",
+    "title": "Machine Ethics - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Machine ethics is a growing field exploring how to create Artificial Moral Agents (AMAs) – machines capable of considering ethical implications – with a particular focus on preparing for the potential development of superintelligent AI. Current applications are limited to simpler machines with narrow AI, utilizing various moral philosophies with limited success."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/artificial-general-intelligence-agi",
+    "title": "Artificial General Intelligence (AGI) - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Artificial General Intelligence (AGI) refers to a hypothetical machine capable of intelligent behavior across diverse domains, unlike narrow AI which specializes in specific tasks. While timelines are debated, AGI development is driven by factors like Moore's Law and neuroscience advancements, raising both exciting possibilities and existential risks depending on its alignment with human values."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/artificial-general-intelligence",
+    "title": "Artificial General Intelligence - LessWrong",
+    "published_date": "2023-02-06",
+    "summary": "Artificial General Intelligence (AGI) refers to a hypothetical machine capable of intelligent behavior across diverse domains, unlike narrow AI specialized in specific tasks. While AGI development is driven by factors like Moore's Law and advancements in neuroscience, its timeline remains uncertain, with expert estimates ranging from 2050 to 2150, and concerns exist regarding its potential impact and control."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2110.07574v1.pdf",
+    "title": "CAN MACHINES LEARN MORALITY? THE DELPHI EXPERIMENT",
+    "published_date": "2021-10-14",
+    "abstract": "As AI systems become increasingly powerful and pervasive, there are growing concerns about machines' morality or a lack thereof. Yet, teaching morality to machines is a formidable task, as morality remains among the most intensely debated questions in humanity, let alone for AI. Existing AI systems deployed to millions of users, however, are already making decisions loaded with moral implications, which poses a seemingly impossible challenge: teaching machines moral sense, while humanity continues to grapple with it.\r\n\r\nTo explore this challenge, we introduce Delphi, an experimental framework based on deep neural networks trained directly to reason about descriptive ethical judgments, e.g., “helping a friend” is generally good, while “helping a friend spread fake news” is not. Empirical results shed novel insights on the promises and limits of machine ethics; Delphi demonstrates strong generalization capabilities in the face of novel ethical situations, while off-the-shelf neural network models exhibit markedly poor judgment including unjust biases, confirming the need for explicitly teaching machines moral sense.\r\n\r\nYet, Delphi is not perfect, exhibiting susceptibility to pervasive biases and inconsistencies. Despite that, we demonstrate positive use cases of imperfect Delphi, including using it as a component model within other imperfect AI systems. Importantly, we interpret the operationalization of Delphi in light of prominent ethical theories, which leads us to important future research questions.",
+    "citation_count": 93,
+    "summary": "Researchers developed Delphi, a deep learning model trained on descriptive ethical judgments, demonstrating that while AI can learn aspects of moral reasoning and generalize to novel situations, it also inherits biases and inconsistencies requiring further research and careful application. Despite its imperfections, Delphi shows promise as a component in other AI systems and highlights the complexities of machine ethics."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.00752v1.pdf",
+    "title": "Reasons, Values, Stakeholders: A Philosophical Framework for Explainable Artificial Intelligence",
+    "published_date": "2021-03-01",
+    "abstract": "The societal and ethical implications of the use of opaque artificial intelligence systems in consequential decisions, such as welfare allocation and criminal justice, have generated a lively debate among multiple stakeholders, including computer scientists, ethicists, social scientists, policy makers, and end users. However, the lack of a common language or a multi-dimensional framework to appropriately bridge the technical, epistemic, and normative aspects of this debate nearly prevents the discussion from being as productive as it could be. Drawing on the philosophical literature on the nature and value of explanations, this paper offers a multi-faceted framework that brings more conceptual precision to the present debate by identifying the types of explanations that are most pertinent to artificial intelligence predictions, recognizing the relevance and importance of the social and ethical values for the evaluation of these explanations, and demonstrating the importance of these explanations for incorporating a diversified approach to improving the design of truthful algorithmic ecosystems. The proposed philosophical framework thus lays the groundwork for establishing a pertinent connection between the technical and ethical aspects of artificial intelligence systems.",
+    "citation_count": 21,
+    "summary": "This paper proposes a philosophical framework for explainable AI (XAI) that connects technical, epistemic, and normative dimensions by identifying relevant explanation types, recognizing the role of social and ethical values in evaluating these explanations, and promoting truthful algorithmic ecosystems. This framework aims to bridge the gap between technical and ethical considerations in AI development and deployment."
+  },
+  {
+    "title": "AI Ethics: A Long History and a Recent Burst of Attention",
+    "abstract": "During World War II, a Mass achusetts Institute of Tec hnology professor named Norbert Wiener worked on the automatic control of a cannon. In 1948, Wiener1 coined the term cybernetics and wrote about computers: ... we are already in a position to construct artificial machines of almost any degree of elaborateness of performance. Long before Nagasaki and the public awareness of the atomic bomb, it had occurred to me that we were here in the presence of another social potentiality of unheard-of importance for good and for evil.",
+    "published_date": "2021-01-01",
+    "citation_count": 17,
+    "url": "https://ieeexplore.ieee.org/ielx7/2/9321788/09321834.pdf",
+    "summary": "Norbert Wiener's work on automated weaponry during WWII led him to recognize the profound societal implications of advanced technology, coining the term \"cybernetics\" in 1948 and foreshadowing modern AI ethics concerns."
+  }
+]

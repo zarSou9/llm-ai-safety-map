@@ -1,0 +1,35 @@
+[
+  {
+    "url": "https://www.lesswrong.com/s/GiZ6puwmHozLuBrph/p/99gWh9jxeumcmuduw",
+    "author": "Erik Jenner; Viktor Rehnberg; Oliver Daniels-Koch",
+    "title": "Concrete empirical research projects in mechanistic anomaly detection",
+    "published_date": "2024-04-03"
+  },
+  {
+    "title": "Real-time detectors for digital and physical adversarial inputs to perception systems",
+    "abstract": "Deep neural network (DNN) models have proven to be vulnerable to adversarial digital and physical attacks. In this paper, we propose a novel attack- and dataset-agnostic and real-time detector for both types of adversarial inputs to DNN-based perception systems. In particular, the proposed detector relies on the observation that adversarial images are sensitive to certain label-invariant transformations. Specifically, to determine if an image has been adversarially manipulated, the proposed detector checks if the output of the target classifier on a given input image changes significantly after feeding it a transformed version of the image under investigation. Moreover, we show that the proposed detector is computationally-light both at runtime and design-time which makes it suitable for real-time applications that may also involve large-scale image domains. To highlight this, we demonstrate the efficiency of the proposed detector on ImageNet, a task that is computationally challenging for the majority of relevant defenses, and on physically attacked traffic signs that may be encountered in real-time autonomy applications. Finally, we propose the first adversarial dataset, called AdvNet that includes both clean and physical traffic sign images. Our extensive comparative experiments on the MNIST, CIFAR10, ImageNet, and AdvNet datasets show that VisionGuard outperforms existing defenses in terms of scalability and detection performance. We have also evaluated the proposed detector on field test data obtained on a moving vehicle equipped with a perception-based DNN being under attack.",
+    "published_date": "2020-02-23",
+    "citation_count": 10,
+    "url": "https://dl.acm.org/doi/10.1145/3450267.3450535"
+  },
+  {
+    "title": "A Statistical Defense Approach for Detecting Adversarial Examples",
+    "abstract": "Adversarial examples are maliciously modified inputs created to fool Machine Learning algorithms (ML). The existence of such inputs presents a major issue to the expansion of ML-based solutions. Many researchers have already contributed to the topic, providing both cutting edge-attack techniques and various defense strategies. This work focuses on the development of a system capable of detecting adversarial samples by exploiting statistical information from the training-set. Our detector computes several distorted replicas of the test input, then collects the classifier's prediction vectors to build a meaningful signature for the detection task. Then, the signature is projected onto a class-specific statistic vector to infer the input's nature. The class predicted for the original input is used to select the class-statistic vector. We show that our method reliably detects malicious inputs, outperforming state-of-the-art approaches in various settings, while being complementary to other defense solutions.",
+    "published_date": "2019-08-26",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3415048.3416103"
+  },
+  {
+    "title": "Characterizing Adversarial Subspaces by Mutual Information",
+    "abstract": "Deep learning is well-known for its great performances on images classification, object detection, and natural language processing. However, the recent research has demonstrated that visually indistinguishable images called adversarial examples can successfully fool neural networks by carefully crafting. In this paper, we design a detector named MID, calculating mutual information to characterize adversarial subspaces. Meanwhile, we use the defense framework called MagNet and mount the detector MID on it. Experimental results show that projected gradient descent (PGD), basic iterative method (BIM), Carlini and Wanger's attack (C&W attack) and elastic-net attack to deep neural network (elastic-net and L1 rules) can be effectively defended by our method.",
+    "published_date": "2019-07-02",
+    "url": "https://dl.acm.org/doi/10.1145/3321705.3331002"
+  },
+  {
+    "title": "Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods",
+    "abstract": "Neural networks are known to be vulnerable to adversarial examples: inputs that are close to natural inputs but classified incorrectly. In order to better understand the space of adversarial examples, we survey ten recent proposals that are designed for detection and compare their efficacy. We show that all can be defeated by constructing new loss functions. We conclude that adversarial examples are significantly harder to detect than previously appreciated, and the properties believed to be intrinsic to adversarial examples are in fact not. Finally, we propose several simple guidelines for evaluating future proposed defenses.",
+    "published_date": "2017-05-20",
+    "citation_count": 1786,
+    "url": "https://dl.acm.org/doi/10.1145/3128572.3140444"
+  }
+]

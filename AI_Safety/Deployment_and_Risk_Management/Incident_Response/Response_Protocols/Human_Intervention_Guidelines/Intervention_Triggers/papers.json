@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2404.16954",
+    "title": "Taming False Positives in Out-of-Distribution Detection with Human Feedback",
+    "published_date": "2024-04-25",
+    "abstract": "Robustness to out-of-distribution (OOD) samples is crucial for safely deploying machine learning models in the open world. Recent works have focused on designing scoring functions to quantify OOD uncertainty. Setting appropriate thresholds for these scoring functions for OOD detection is challenging as OOD samples are often unavailable up front. Typically, thresholds are set to achieve a desired true positive rate (TPR), e.g., $95\\%$ TPR. However, this can lead to very high false positive rates (FPR), ranging from 60 to 96\\%, as observed in the Open-OOD benchmark. In safety-critical real-life applications, e.g., medical diagnosis, controlling the FPR is essential when dealing with various OOD samples dynamically. To address these challenges, we propose a mathematically grounded OOD detection framework that leverages expert feedback to \\emph{safely} update the threshold on the fly. We provide theoretical results showing that it is guaranteed to meet the FPR constraint at all times while minimizing the use of human feedback. Another key feature of our framework is that it can work with any scoring function for OOD uncertainty quantification. Empirical evaluation of our system on synthetic and benchmark OOD datasets shows that our method can maintain FPR at most $5\\%$ while maximizing TPR.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.18165.pdf",
+    "title": "An Emergency Disposal Decision-making Method with Human-Machine Collaboration",
+    "published_date": "2023-05-29",
+    "abstract": "Rapid developments in artificial intelligence technology have led to unmanned systems replacing human beings in many fields requiring high-precision predictions and decisions. In modern operational environments, all job plans are affected by emergency events such as equipment failures and resource shortages, making a quick resolution critical. The use of unmanned systems to assist decision-making can improve resolution efficiency, but their decision-making is not interpretable and may make the wrong decisions. Current unmanned systems require human supervision and control. Based on this, we propose a collaborative human--machine method for resolving unplanned events using two phases: task filtering and task scheduling. In the task filtering phase, we propose a human--machine collaborative decision-making algorithm for dynamic tasks. The GACRNN model is used to predict the state of the job nodes, locate the key nodes, and generate a machine-predicted resolution task list. A human decision-maker supervises the list in real time and modifies and confirms the machine-predicted list through the human--machine interface. In the task scheduling phase, we propose a scheduling algorithm that integrates human experience constraints. The steps to resolve an event are inserted into the normal job sequence to schedule the resolution. We propose several human--machine collaboration methods in each phase to generate steps to resolve an unplanned event while minimizing the impact on the original job plan."
+  },
+  {
+    "url": "https://arxiv.org/abs/2208.11282",
+    "title": "Multi-AI Complex Systems in Humanitarian Response",
+    "published_date": "2022-08-24",
+    "abstract": "AI is being increasingly used to aid response efforts to humanitarian emergencies at multiple levels of decision-making. Such AI systems are generally understood to be stand-alone tools for decision support, with ethical assessments, guidelines and frameworks applied to them through this lens. However, as the prevalence of AI increases in this domain, such systems will begin to encounter each other through information flow networks created by interacting decision-making entities, leading to multi-AI complex systems which are often ill understood. In this paper we describe how these multi-AI systems can arise, even in relatively simple real-world humanitarian response scenarios, and lead to potentially emergent and erratic erroneous behavior. We discuss how we can better work towards more trustworthy multi-AI systems by exploring some of the associated challenges and opportunities, and how we can design better mechanisms to understand and assess such systems. This paper is designed to be a first exposition on this topic in the field of humanitarian response, raising awareness, exploring the possible landscape of this domain, and providing a starting point for future work within the wider community."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.10765",
+    "title": "When to Ask for Help: Proactive Interventions in Autonomous Reinforcement Learning",
+    "published_date": "2022-10-19",
+    "abstract": "A long-term goal of reinforcement learning is to design agents that can autonomously interact and learn in the world. A critical challenge to such autonomy is the presence of irreversible states which require external assistance to recover from, such as when a robot arm has pushed an object off of a table. While standard agents require constant monitoring to decide when to intervene, we aim to design proactive agents that can request human intervention only when needed. To this end, we propose an algorithm that efficiently learns to detect and avoid states that are irreversible, and proactively asks for help in case the agent does enter them. On a suite of continuous control environments with unknown irreversible states, we find that our algorithm exhibits better sample- and intervention-efficiency compared to existing methods. Our code is publicly available at https://sites.google.com/view/proactive-interventions",
+    "citation_count": 12
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.10859",
+    "title": "A Blockchain Protocol for Human-in-the-Loop AI",
+    "published_date": "2022-11-20",
+    "abstract": "Intelligent human inputs are required both in the training and operation of AI systems, and within the governance of blockchain systems and decentralized autonomous organizations (DAOs). This paper presents a formal deﬁnition of Human Intelligence Primitives (HIPs), and describes the design and implementation of an Ethereum protocol for their on-chain collection, modeling, and integration in machine learning workﬂows."
+  },
+  {
+    "title": "Assessing Human-AI Interaction Early through Factorial Surveys: A Study on the Guidelines for Human-AI Interaction",
+    "abstract": "This work contributes a research protocol for evaluating human-AI interaction in the context of specific AI products. The research protocol enables UX and HCI researchers to assess different human-AI interaction solutions and validate design decisions before investing in engineering. We present a detailed account of the research protocol and demonstrate its use by employing it to study an existing set of human-AI interaction guidelines. We used factorial surveys with a 2 × 2 mixed design to compare user perceptions when a guideline is applied versus violated, under conditions of optimal versus sub-optimal AI performance. The results provided both qualitative and quantitative insights into the UX impact of each guideline. These insights can support creators of user-facing AI systems in their nuanced prioritization and application of the guidelines.",
+    "published_date": "2022-04-14",
+    "citation_count": 24,
+    "url": "https://dl.acm.org/doi/10.1145/3511605"
+  }
+]

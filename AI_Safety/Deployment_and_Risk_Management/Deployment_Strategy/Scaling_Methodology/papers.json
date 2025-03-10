@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://www.lesswrong.com/tag/knuths-up-arrow-notation",
+    "title": "Knuth's Up-Arrow Notation - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Knuth's up-arrow notation provides a concise way to represent extremely large numbers, as demonstrated by 3^^^3, which, despite being easily describable, represents a power tower of threes far exceeding the number of atoms in the observable universe."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2211.07435.pdf",
+    "title": "Enabling Autonomous Teams and Continuous Deployment at Scale",
+    "published_date": "2022-11-01",
+    "abstract": "In this article, we advise on transitioning to a more agile delivery model for large-scale agile development projects based on experience from the Parental Benefit Project of the Norwegian Labour and Welfare Administration. The project modernized a central part of the organization's IT portfolio and included up to ten development teams working in parallel. The project successfully changed from using a delivery model that combined traditional project management elements and agile methods to a more agile delivery model with autonomous teams and continuous deployment. This transition was completed in tandem with the project execution. We identify key lessons learned, which will be useful for other organizations considering similar changes and report how the new delivery model reduced risk and opened up a range of new possibilities for delivering the benefits of digitalization.",
+    "citation_count": 3,
+    "summary": "The Norwegian Labour and Welfare Administration's Parental Benefit Project successfully transitioned a large-scale agile development project from a hybrid to a fully agile delivery model with autonomous teams and continuous deployment, significantly reducing risk and enhancing digitalization benefits. Key lessons learned from this experience are shared to guide similar organizational transformations."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2212.02659.pdf",
+    "title": "Continual learning on deployment pipelines for Machine Learning Systems",
+    "published_date": "2022-12-05",
+    "abstract": "Following the development of digitization, a growing number of large Original Equipment Manufacturers (OEMs) are adapting computer vision or natural language processing in a wide range of applications such as anomaly detection and quality inspection in plants. Deployment of such a system is becoming an extremely important topic. Our work starts with the least-automated deployment technologies of machine learning systems includes several iterations of updates, and ends with a comparison of automated deployment techniques. The objective is, on the one hand, to compare the advantages and disadvantages of various technologies in theory and practice, so as to facilitate later adopters to avoid making the generalized mistakes when implementing actual use cases, and thereby choose a better strategy for their own enterprises. On the other hand, to raise awareness of the evaluation framework for the deployment of machine learning systems, to have more comprehensive and useful evaluation metrics (e.g. table 2), rather than only focusing on a single factor (e.g. company cost). This is especially important for decision-makers in the industry.",
+    "citation_count": 3,
+    "summary": "This paper compares manual and automated deployment techniques for machine learning systems in industrial settings (e.g., OEMs), highlighting their advantages and disadvantages to guide future implementations and advocating for more comprehensive evaluation metrics beyond cost."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rmwAuWXYTo24E5nnX/a-pin-and-a-balloon-anthropic-fragility-increases-chances-of",
+    "author": "avturchin",
+    "title": "A Pin and a Balloon: Anthropic Fragility Increases Chances of Runaway Global Warming",
+    "published_date": "2022-09-11",
+    "summary": "Due to survival bias, we underestimate the likelihood and proximity of climate tipping points, making Earth more vulnerable to human-caused catastrophic global warming than previously thought. This \"anthropic fragility\" suggests a higher probability of runaway climate change and human extinction, necessitating urgent geoengineering research."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.11104.pdf",
+    "title": "Four Ways to Scale Up: Smart, Dumb, Forced, and Fumbled",
+    "published_date": "2021-01-05",
+    "abstract": "Scale-up is the process of growing a venture in size. The paper identifies modularity and speed as keys to successful scale-up. On that basis four types of scale-up are identified: Smart, dumb, forced, and fumbled. Smart scale-up combines modularity and speed. Dumb scale-up is bespoke and slow, and very common. The paper presents examples of each type of scale-up, explaining why they were successful or not. Whether you are a small startup or Elon Musk trying to grow Tesla and SpaceX or Jeff Bezos scaling up Amazon – or you are the US, UK, Chinese, or other government trying to increase power production, expand your infrastructure, or make your health, education, and social services work better – modularity and speed are the answer to effective delivery, or so the paper argues. How well you deal with modularity and speed decides whether your efforts succeed or fail. Most ventures, existing or planned, are neither fully smart nor fully dumb, but have elements of both. Successful organizations work to tip the balance towards smart by (a) introducing elements of smart scale-up into existing ventures and (b) starting new, fully smart-scaled ventures, to make themselves less dumb and ever smarter.",
+    "citation_count": 5,
+    "summary": "The paper categorizes venture scale-up into four types (smart, dumb, forced, and fumbled) based on the interplay of modularity and speed, arguing that successful scale-up prioritizes both. Organizations should strive to increase \"smart\" elements by incorporating modular and speedy approaches into their existing operations and initiating new, fully modular ventures."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.09571v1.pdf",
+    "title": "Towards a Theory on Architecting for Continuous Deployment",
+    "published_date": "2021-08-21",
+    "abstract": "Context: As the adoption of continuous delivery practices increases in software organizations, different scenarios struggle to make it scales for their products in long-term evolution. This study looks at the concrete software architecture as a relevant factor for successfully achieving continuous delivery goals. Objective: This study aims to understand how the design of software architectures impacts the continuous deployment of their software product. Method: We conducted a systematic literature review to identify proper evidence regarding the research objective. We analyzed the selected sources adopting a synthesis and analysis approach based on Grounded Theory. Results: We selected 14 primary sources. Through our analysis process, we developed a theory that explains the phenomenon of Architecting for Continuous Deployment. The theory describes three other phenomena that support Architecting for Continuous Deployment: Supporting Operations, Continuous Evolution, and Improving Deployability. Furthermore, the theory comprises the following elements: contexts, actions and interactions, quality attributes, principles, and effects. We instantiated these elements and identified their interrelationships. The theory is supported by providing bi-directional traceability from the selected sources to the elements and vice-versa. Conclusions: Developing adequate architecture plays a crucial role in enabling continuous delivery. Supporting operations becomes vital to increase the deployability and monitorability of software architecture. These two outcomes require that developers accept responsibility for maintaining the operations. The continuous evolution of the architecture is essential, but it must consider balanced management of technical debt. Finally, improving deployability requires attention to the test strategy and how it affects downtime to enable efficient pipelines.",
+    "summary": "This study uses a systematic literature review and grounded theory to develop a theory explaining how software architecture impacts continuous deployment success, identifying supporting operations, continuous evolution, and improved deployability as key contributing factors. The resulting theory outlines elements like contexts, actions, quality attributes, and principles to guide architecture design for continuous deployment."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.06877v1.pdf",
+    "title": "Fast and Accurate Model Scaling",
+    "published_date": "2021-03-11",
+    "abstract": "In this work we analyze strategies for convolutional neural network scaling; that is, the process of scaling a base convolutional network to endow it with greater computational complexity and consequently representational power. Example scaling strategies may include increasing model width, depth, resolution, etc. While various scaling strategies exist, their tradeoffs are not fully understood. Existing analysis typically focuses on the interplay of accuracy and flops (floating point operations). Yet, as we demonstrate, various scaling strategies affect model parameters, activations, and consequently actual runtime quite differently. In our experiments we show the surprising result that numerous scaling strategies yield networks with similar accuracy but with widely varying properties. This leads us to propose a simple fast compound scaling strategy that encourages primarily scaling model width, while scaling depth and resolution to a lesser extent. Unlike currently popular scaling strategies, which result in about O(s) increase in model activation w.r.t. scaling flops by a factor of s, the proposed fast compound scaling results in close to $O\\left( {\\sqrt s } \\right)$ increase in activations, while achieving excellent accuracy. Fewer activations leads to speedups on modern memory-bandwidth limited hardware (e.g., GPUs). More generally, we hope this work provides a framework for analyzing scaling strategies under various computational constraints.",
+    "citation_count": 90,
+    "summary": "This paper analyzes convolutional neural network scaling strategies, revealing that different scaling methods (width, depth, resolution) yield similar accuracy but vastly different runtime performance due to varying memory access patterns. Consequently, the authors propose a novel compound scaling method prioritizing width scaling for improved speed and accuracy on memory-bandwidth-limited hardware."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.00390.pdf",
+    "title": "Facing the Giant: a Grounded Theory Study of Decision-Making in Microservices Migrations",
+    "published_date": "2021-04-01",
+    "abstract": "Background: Microservices migrations are challenging and expensive projects with many decisions that need to be made in a multitude of dimensions. Existing research tends to focus on technical issues and decisions (e.g., how to split services). Equally important organizational or business issues and their relations with technical aspects often remain out of scope or on a high level of abstraction. Aims: In this study, we aim to holistically chart the decision-making that happens on all dimensions of a migration project towards microservices (including, but not limited to, the technical dimension). Method: We investigate 16 different migration cases in a grounded theory interview study, with 19 participants that recently migrated towards microservices. This study strongly focuses on the human aspects of a migration, through stakeholders and their decisions. Results: We identify 3 decision-making processes consisting of 22 decision-points and their alternative options. The decision-points are related to creating stakeholder engagement and assessing feasibility, technical implementation, and organizational restructuring. Conclusions: Our study provides an initial theory of decisionmaking in migrations to microservices. It also outfits practitioners with a roadmap of which decisions they should be prepared to make and at which point in the migration.",
+    "citation_count": 17,
+    "summary": "This grounded theory study of 16 microservices migrations identifies three key decision-making processes encompassing 22 decision points across technical, organizational, and stakeholder engagement dimensions. The resulting framework offers a roadmap for practitioners navigating the complexities of microservices migration projects."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Zi8vrf2aBCLu3Gh9s/the-simple-solow-model-of-software-engineering",
+    "author": "johnswentworth",
+    "title": "The Simple Solow Model of Software Engineering",
+    "published_date": "2019-04-08",
+    "summary": "The article uses a Solow-type economic model to explain software development, arguing that software, like physical capital, depreciates, requiring maintenance and hindering feature additions. This leads to predictions that larger software projects struggle to add features compared to smaller ones due to increased maintenance burden and that reliance on external APIs accelerates depreciation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/3bcjPhwCnnMonc4EP/stabilize-reflect-execute",
+    "author": "ozziegooen",
+    "title": "Stabilize-Reflect-Execute",
+    "published_date": "2018-11-28",
+    "summary": "The \"Stabilize-Reflect-Execute\" cycle, a framework for managing tasks, involves addressing urgent issues (Stabilize), strategically planning for important but non-urgent ones (Reflect), and then implementing those plans (Execute). This iterative process, similar to but distinct from the Eisenhower Matrix and other decision cycles, emphasizes thoughtful planning before action."
+  }
+]

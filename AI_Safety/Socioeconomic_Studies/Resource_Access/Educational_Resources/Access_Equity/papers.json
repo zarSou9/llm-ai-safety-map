@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/Aq5X9tapacnk2QGY4/pausing-ai-developments-isn-t-enough-we-need-to-shut-it-all",
+    "author": "jacquesthibs",
+    "title": "Pausing AI Developments Isn't Enough. We Need to Shut it All Down by Eliezer Yudkowsky",
+    "published_date": "2024-02-01",
+    "summary": "Eliezer Yudkowsky argues that preventing potential human extinction from advanced AI requires an immediate, indefinite, and global moratorium on large-scale AI training, enforced through international cooperation and even military action if necessary; anything less risks humanity's annihilation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/ai",
+    "author": "Evan Hubinger",
+    "title": "AI - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "Artificial intelligence alignment focuses on ensuring powerful AI systems act according to human values, preventing unintended consequences that could threaten humanity. This involves addressing both narrow goals (e.g., curing a disease) and broader objectives (e.g., creating a beneficial future), while acknowledging the potential for misaligned AI to pursue unintended and harmful objectives."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "President Biden's October 30, 2023 executive order on AI mandates various federal agencies to submit reports and develop plans regarding AI's responsible use, workforce development, and risk mitigation, with deadlines ranging from 30 to 90 days after the order's publication. The order also establishes several task forces and interagency councils to coordinate these efforts."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/6uKG2fjxApmdxeHNd/fli-open-letter-pause-giant-ai-experiments",
+    "author": "Zach Stein-Perlman",
+    "title": "FLI open letter: Pause giant AI experiments",
+    "published_date": "2023-03-29",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/oM9pEezyCb4dCsuKq/pausing-ai-developments-isn-t-enough-we-need-to-shut-it-all-1",
+    "author": "Eliezer Yudkowsky",
+    "title": "Pausing AI Developments Isn't Enough. We Need to Shut it All Down",
+    "published_date": "2023-04-08",
+    "summary": "An open letter calls for a six-month pause on training AI systems more powerful than GPT-4, but the author argues this is insufficient. The author contends that creating superhuman AI under current conditions will likely lead to the extinction of humanity due to the lack of preparedness and control mechanisms."
+  },
+  {
+    "title": "Towards Equity and Algorithmic Fairness in Student Grade Prediction",
+    "abstract": "Equity of educational outcome and fairness of AI with respect to race have been topics of increasing importance in education. In this work, we address both with empirical evaluations of grade prediction in higher education, an important task to improve curriculum design, plan interventions for academic support, and offer course guidance to students. With fairness as the aim, we trial several strategies for both label and instance balancing to attempt to minimize differences in algorithm performance with respect to race. We find that an adversarial learning approach, combined with grade label balancing, achieved by far the fairest results. With equity of educational outcome as the aim, we trial strategies for boosting predictive performance on historically underserved groups and find success in sampling those groups in inverse proportion to their historic outcomes. With AI-infused technology supports increasingly prevalent on campuses, our methodologies fill a need for frameworks to consider performance trade-offs with respect to sensitive student attributes and allow institutions to instrument their AI resources in ways that are attentive to equity and fairness.",
+    "published_date": "2021-05-14",
+    "citation_count": 39,
+    "url": "https://dl.acm.org/doi/10.1145/3461702.3462623",
+    "summary": "This paper investigates methods for improving fairness and equity in student grade prediction algorithms, finding that adversarial learning with label balancing best mitigates racial bias, while inverse-proportionate sampling boosts performance for underserved groups. The research offers practical strategies for institutions deploying AI in education to address equity and fairness concerns."
+  },
+  {
+    "title": "Artificial intelligence for students in postsecondary education",
+    "abstract": "AI-based apps can facilitate learning for all post-secondary students and may also be useful for students with disabilities. Here we share some reflections from discussions that took place during two advisory board meetings on the use of such apps for students with disabilities at the post-secondary level.",
+    "published_date": "2020-12-01",
+    "citation_count": 10,
+    "url": "https://dl.acm.org/doi/10.1145/3446243.3446250",
+    "summary": "This paper discusses the potential of AI applications to enhance learning for all post-secondary students, particularly focusing on their benefits for students with disabilities. The authors share insights from advisory board meetings exploring this topic."
+  },
+  {
+    "title": "The Not So Subtle Inequity of Remote Learning",
+    "abstract": "Abstract The author argues that providing students with access to resources—without the necessary supports to make full use of that access—creates educational inequity.",
+    "published_date": "2020-10-01",
+    "citation_count": 10,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/00228958.2020.1813502",
+    "summary": "Merely providing students with remote learning resources exacerbates educational inequity if adequate support to utilize those resources effectively is absent. This lack of support disproportionately impacts students already facing disadvantages."
+  }
+]

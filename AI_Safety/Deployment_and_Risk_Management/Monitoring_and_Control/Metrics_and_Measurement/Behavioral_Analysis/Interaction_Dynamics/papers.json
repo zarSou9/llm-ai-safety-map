@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2107.05326.pdf",
+    "title": "Learning interaction rules from multi-animal trajectories via augmented behavioral models",
+    "published_date": "2021-07-12",
+    "abstract": "Extracting the interaction rules of biological agents from movement sequences pose challenges in various domains. Granger causality is a practical framework for analyzing the interactions from observed time-series data; however, this framework ignores the structures and assumptions of the generative process in animal behaviors, which may lead to interpretational problems and sometimes erroneous assessments of causality. In this paper, we propose a new framework for learning Granger causality from multi-animal trajectories via augmented theory-based behavioral models with interpretable data-driven models. We adopt an approach for augmenting incomplete multi-agent behavioral models described by time-varying dynamical systems with neural networks. For efficient and interpretable learning, our model leverages theory-based architectures separating navigation and motion processes, and the theory-guided regularization for reliable behavioral modeling. This can provide interpretable signs of Granger-causal effects over time, i.e., when specific others cause the approach or separation. In experiments using synthetic datasets, our method achieved better performance than various baselines. We then analyzed multi-animal datasets of mice, flies, birds, and bats, which verified our method and obtained novel biological insights.",
+    "citation_count": 12
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.01701.pdf",
+    "title": "Does Interaction Improve Bayesian Reasoning with Visualization?",
+    "published_date": "2020-08-18",
+    "abstract": "Interaction enables users to navigate large amounts of data effectively, supports cognitive processing, and increases data representation methods. However, there have been few attempts to empirically demonstrate whether adding interaction to a static visualization improves its function beyond popular beliefs. In this paper, we address this gap. We use a classic Bayesian reasoning task as a testbed for evaluating whether allowing users to interact with a static visualization can improve their reasoning. Through two crowdsourced studies, we show that adding interaction to a static Bayesian reasoning visualization does not improve participants' accuracy on a Bayesian reasoning task. In some cases, it can significantly detract from it. Moreover, we demonstrate that underlying visualization design modulates performance and that people with high versus low spatial ability respond differently to different interaction techniques and underlying base visualizations. Our work suggests that interaction is not as unambiguously good as we often believe; a well designed static visualization can be as, if not more, effective than an interactive one.",
+    "citation_count": 19
+  },
+  {
+    "title": "Defining basic archetypes of an intelligent agent's behaviour in an open-ended interactive environment",
+    "abstract": "ABSTRACT Despite the emergence of advanced technologies, the behavioural complexities remain underexplored, especially from the viewpoint of their potential in interactive installations. This study aims to explore the future interactivity of an agent's behaviour by envisioning speculative future human operations using a human-controlled interactive installation called LumiLand. This empirical study reveals that an agent can craft a user experience by (1) controlling the plot, (2) cocreating content with a user in a social manner, and (3) promptly adjusting undefined behaviours and situations. Based on Janlert and Stolterman's interaction model, we present an interaction flow with four primary classifications: Leading, Responding, Poking, and Linking. We believe that a human-centered approach for understanding agent interactivity could help create entertaining human–computer interactions (HCI) by improving the agent design and exploring the challenges that will be faced during such interactions.",
+    "published_date": "2020-04-02",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/14626268.2020.1761834"
+  },
+  {
+    "title": "Deep Integration of Physical Humanoid Control and Crowd Navigation",
+    "abstract": "Many multi-agent navigation approaches make use of simplified representations such as a disk. These simplifications allow for fast simulation of thousands of agents but limit the simulation accuracy and fidelity. In this paper, we propose a fully integrated physical character control and multi-agent navigation method. In place of sample complex online planning methods, we extend the use of recent deep reinforcement learning techniques. This extension improves on multi-agent navigation models and simulated humanoids by combining Multi-Agent and Hierarchical Reinforcement Learning. We train a single short term goal-conditioned low-level policy to provide directed walking behaviour. This task-agnostic controller can be shared by higher-level policies that perform longer-term planning. The proposed approach produces reciprocal collision avoidance, robust navigation, and emergent crowd behaviours. Furthermore, it offers several key affordances not previously possible in multi-agent navigation including tunable character morphology and physically accurate interactions with agents and the environment. Our results show that the proposed method outperforms prior methods across environments and tasks, as well as, performing well in terms of zero-shot generalization over different numbers of agents and computation time.",
+    "published_date": "2020-10-16",
+    "citation_count": 22,
+    "url": "https://dl.acm.org/doi/10.1145/3424636.3426894"
+  },
+  {
+    "title": "Designing Interaction for Multi-agent Cooperative System in an Office Environment",
+    "abstract": "Future intelligent system will involve various artificial agents, including mobile robots, smart home infrastructure or personal devices, which share data and collaborate with each other to serve users. Designing efficient interactions which can support users to express needs to such intelligent environments, supervise the collaboration of different entities and evaluate the outcomes, will be challengeable. This paper presents the design and implementation of the human-machine interface of Intelligent Cyber-Physical system (ICPS), which is a multi-entity coordination system of robots and other smart agents in a workplace (Honda Research Institute). ICPS gathers sensory data from entities and receives users' inputs, then optimizes plans to utilize the capability of different entities to serve people.",
+    "published_date": "2020-02-15",
+    "citation_count": 5,
+    "url": "https://dl.acm.org/doi/10.1145/3434074.3447277"
+  },
+  {
+    "title": "Generative Model of Agent's Behaviors in Human-Agent Interaction",
+    "abstract": "A social interaction implies a social exchange between two or more persons, where they adapt and adjust their behaviors in response to their interaction partners. With the growing interest in human-agent interactions, it is desirable to make these interactions more natural and human like. In this context, we aim at enhancing the quality of the interaction between user and Embodied Conversational Agent (ECA) by endowing ECA with the capacity to adapt its behavior in real time according the user's behavior. The novelty of our approach is to model the agent's nonverbal behaviors as a function of both agent's and user's behaviors jointly with the agent's communicative intentions creating a dynamic loop between both interactants. Moreover, we encompass the variation of behavior over time through a LSTM-based model. Our model IL-LSTM (Interaction Loop LSTM) predicts the next agent's behavior taking into account the behavior that both, the agent and the user, have displayed within a time window. We have conducted an evaluation study involving an agent interacting with visitors in a science museum. Results of our study show that participants have better experience and are more engaged in the interaction when the agent adapts its behaviors to theirs, thus creating an interactive loop.",
+    "published_date": "2019-10-14",
+    "citation_count": 19,
+    "url": "https://dl.acm.org/doi/10.1145/3340555.3353758"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.00760.pdf",
+    "title": "A Unified Theory of Robust and Distributionally Robust Optimization via the Primal-Worst-Equals-Dual-Best Principle",
+    "published_date": "2021-05-03",
+    "abstract": "A Primal-Worst-Equals-Dual-Best Perspective on Robust and Distributionally Robust Optimization In the paper “A Unified Theory of Robust and Distributionally Robust Optimization via the Primal-Worst-Equals-Dual-Best Principle,” Jianzhe Zhen, Daniel Kuhn, and Wolfram Wiesemann develop a generalized “primal-worst-equals-dual-best” principle that establishes strong duality between semi-infinite primal worst and nonconvex dual best formulations of robust and distributionally robust nonlinear optimization problems. Their theory offers an alternative characterization of (distributionally) robust optimization problems that bypasses the need to mobilize the machinery of abstract semi-infinite duality theory. The paper will be of interest to researchers and practitioners in the field of optimization under uncertainty.",
+    "citation_count": 12
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.14957v2.pdf",
+    "title": "Conformal uncertainty sets for robust optimization",
+    "published_date": "2021-05-31",
+    "abstract": "Decision-making under uncertainty is hugely important for any decisions sensitive to perturbations in observed data. One method of incorporating uncertainty into making optimal decisions is through robust optimization, which minimizes the worst-case scenario over some uncertainty set. We connect conformal prediction regions to robust optimization, providing finite sample valid and conservative ellipsoidal uncertainty sets, aptly named conformal uncertainty sets. In pursuit of this connection we explicitly define Mahalanobis distance as a potential conformity score in full conformal prediction. We also compare the coverage and optimization performance of conformal uncertainty sets, specifically generated with Mahalanobis distance, to traditional ellipsoidal uncertainty sets on a collection of simulated robust optimization examples.",
+    "citation_count": 22
+  },
+  {
+    "url": "https://arxiv.org/pdf/2112.13932v1.pdf",
+    "title": "Distributionally Robust Bootstrap Optimization",
+    "published_date": "2021-12-27",
+    "abstract": "Control architectures and autonomy stacks for complex engineering systems are often divided into layers to decompose a complex problem and solution into distinct, manageable sub-problems. To simplify designs, uncertainties are often ignored across layers, an approach with deep roots in classical notions of separation and certainty equivalence. But to develop robust architectures, especially as interactions between data-driven learning layers and model-based decision-making layers grow more intricate, more sophisticated interfaces between layers are required. We propose a basic architecture that couples a statistical parameter estimation layer with a constrained optimization layer. We show how the layers can be tightly integrated by combining bootstrap resampling with distributionally robust optimization. The approach allows a finite-data out-of-sample safety guarantee and an exact reformulation as a tractable finite-dimensional convex optimization problem.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2004.03069v1.pdf",
+    "title": "Nonparametric Estimation of Uncertainty Sets for Robust Optimization",
+    "published_date": "2020-04-07",
+    "abstract": "We investigate a data-driven approach to constructing uncertainty sets for robust optimization problems, where the uncertain problem parameters are modeled as random variables whose joint probability distribution is not known. Relying only on independent samples drawn from this distribution, we provide a nonparametric method to estimate uncertainty sets whose probability mass is guaranteed to approximate a given target mass within a given tolerance with high confidence. The nonparametric estimators that we consider are also shown to obey distribution-free finite-sample performance bounds that imply their convergence in probability to the given target mass. In addition to being efficient to compute, the proposed estimators result in uncertainty sets that yield computationally tractable robust optimization problems for a large family of constraint functions.",
+    "citation_count": 5
+  },
+  {
+    "url": "https://arxiv.org/pdf/2011.10341v1.pdf",
+    "title": "Recovery-to-Efficiency: A New Robustness Concept for Multi-objective Optimization under Uncertainty",
+    "published_date": "2020-11-20",
+    "abstract": "This paper presents a new robustness concept for uncertain multi-objective optimization problems. More precisely, in the paper the so-called recovery-to-efficiency robustness concept is proposed and investigated. Several approaches for generating recovery-to-efficiency robust sets in the context of multi-objective optimization are proposed as well. An extensive experimental analysis is performed to disclose differences among robust sets obtained using different concepts as well as to deduce some interesting observations. For testing purposes, instances from the bi-objective knapsack problem are considered.",
+    "citation_count": 1
+  }
+]

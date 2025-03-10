@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2304.14997.pdf",
+    "title": "Towards Automated Circuit Discovery for Mechanistic Interpretability",
+    "published_date": "2023-04-28",
+    "abstract": "Through considerable effort and intuition, several recent works have reverse-engineered nontrivial behaviors of transformer models. This paper systematizes the mechanistic interpretability process they followed. First, researchers choose a metric and dataset that elicit the desired model behavior. Then, they apply activation patching to find which abstract neural network units are involved in the behavior. By varying the dataset, metric, and units under investigation, researchers can understand the functionality of each component. We automate one of the process' steps: to identify the circuit that implements the specified behavior in the model's computational graph. We propose several algorithms and reproduce previous interpretability results to validate them. For example, the ACDC algorithm rediscovered 5/5 of the component types in a circuit in GPT-2 Small that computes the Greater-Than operation. ACDC selected 68 of the 32,000 edges in GPT-2 Small, all of which were manually found by previous work. Our code is available at https://github.com/ArthurConmy/Automatic-Circuit-Discovery.",
+    "citation_count": 201
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.00594",
+    "title": "Inching Towards Automated Understanding of the Meaning of Art: An Application to Computational Analysis of Mondrian's Artwork",
+    "published_date": "2022-12-29",
+    "abstract": "Deep Neural Networks (DNNs) have been successfully used in classifying digital images but have been less successful in classifying images with meanings that are not linear combinations of their visualized features, like images of artwork. Moreover, it is unknown what additional features must be included into DNNs, so that they can possibly classify using features beyond visually displayed features, like color, size, and form. Non-displayed features are important in abstract representations, reasoning, and understanding ambiguous expressions, which are arguably topics less studied by current AI methods. This paper attempts to identify capabilities that are related to semantic processing, a current limitation of DNNs. The proposed methodology identifies the missing capabilities by comparing the process of understanding Mondrian's paintings with the process of understanding electronic circuit designs, another creative problem solving instance. The compared entities are cognitive architectures that attempt to loosely mimic cognitive activities. The paper offers a detailed presentation of the characteristics of the architectural components, like goals, concepts, ideas, rules, procedures, beliefs, expectations, and outcomes. To explain the usefulness of the methodology, the paper discusses a new, three-step computational method to distinguish Mondrian's paintings from other artwork. The method includes in a backward order the cognitive architecture's components that operate only with the characteristics of the available data."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rCP5iTYLtfcoC8NXd/self-organised-neural-networks-a-simple-natural-and",
+    "author": "D𝜋",
+    "title": "Self-Organised Neural Networks:\nA simple, natural and efficient way to intelligence",
+    "published_date": "2022-01-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.00293.pdf",
+    "title": "A Single-Layer Asymmetric RNN: Potential Low Hardware Complexity Linear Equation Solver",
+    "published_date": "2021-05-01",
+    "abstract": "A single layer neural network for the solution of linear equations is presented. The proposed circuit is based on the standard Hopfield model albeit with the added flexibility that the interconnection weight matrix need not be symmetric. This results in an asymmetric Hopfield neural network capable of solving linear equations. PSPICE simulation results are given which verify the theoretical predictions. Experimental results for circuits set up to solve small problems further confirm the operation of the proposed circuit."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.12021v1.pdf",
+    "title": "DetectX—Adversarial Input Detection Using Current Signatures in Memristive XBar Arrays",
+    "published_date": "2021-06-22",
+    "abstract": "Adversarial input detection has emerged as a prominent technique to harden Deep Neural Networks (DNNs) against adversarial attacks. Most prior works use neural network-based detectors or complex statistical analysis for adversarial detection. These approaches are computationally intensive and vulnerable to adversarial attacks. To this end, we propose DetectX—A hardware friendly adversarial detection mechanism using hardware signatures like Sum of column Currents (SoI) in memristive crossbars (XBar). We show that adversarial inputs have higher SoI compared to clean inputs. However, the difference is too small for reliable adversarial detection. Hence, we propose a dual-phase training methodology: Phase1 training is geared towards increasing the separation between clean and adversarial SoIs; Phase2 training improves the overall robustness against different strengths of adversarial attacks. For hardware-based adversarial detection, we implement the DetectX module using 32 nm CMOS circuits and integrate it with a Neurosim-like analog crossbar architecture. We perform hardware evaluation of the Neurosim+DetectX system on the Neurosim platform using datasets-CIFAR10(VGG8), CIFAR100(VGG16) and TinyImagenet(ResNet18). Our experiments show that DetectX is 10x-25x more energy efficient and immune to dynamic adversarial attacks compared to previous state-of-the-art works. Moreover, we achieve high detection performance (ROC-AUC>0.95) for strong white-box and black-box attacks.",
+    "citation_count": 6
+  }
+]

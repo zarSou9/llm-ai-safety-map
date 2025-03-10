@@ -1,0 +1,44 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.14047",
+    "title": "Engineering a sustainable world by enhancing the scope of systems of systems engineering and mastering dynamics",
+    "published_date": "2024-01-25",
+    "abstract": "Engineering a sustainable world requires to consider various systems that interact with each other. These systems include ecological systems, economical systems, social systems and tech-nical systems. They are loosely coupled, geographically distributed, evolve permanently and generate emergent behavior. As these are characteristics of systems of systems (SoS), we discuss the engi-neering of a sustainable world from a SoS engineering perspective. We studied SoS engineering in context of a research project, which aims at political recommendations and a research roadmap for engineering dynamic SoS. The project included an exhaustive literature review, interviews and work-shops with representatives from industry and academia from different application domains. Based on these results and observations, we will discuss how suitable the current state-of-the-art in SoS engi-neering is in order to engineer sustainability. Sustainability was a major driver for SoS engineering in all domains, but we argue that the current scope of SoS engineering is too limited in order to engineer sustainability. Further, we argue that mastering dynamics in this larger scope is essential to engineer sustainability and that this is accompanied by dynamic adaptation of technological SoS.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.04659v2.pdf",
+    "title": "Different Environment Feedback in Fast-Slow Eco-Evolutionary Dynamics and Resulting Limit Cycles",
+    "published_date": "2021-05-10",
+    "abstract": "The fast-slow dynamics of eco-evolutionary systems are studied, where we consider the feedback actions of environmental resources that are classified into those that are self-renewing and those externally supplied. We show that although these two types of resources are drastically different, the resulting closed-loop systems bear close resemblances, which include the same equilibria and their stability conditions on the boundary of the phase space, and the similar appearances of equilibria in the interior. After closer examination of specific choices of parameter values, we disclose that the global dynamical behaviors of the two types of closed-loop systems can be fundamentally different in terms of limit cycles: the system with the self-renewing resource undergoes a generalized Hopf bifurcation, and thus one stable and one unstable limit cycle can coexist; the system with the externally supplied resource only has the stable limit cycle.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/abs/2006.12478",
+    "title": "Ecological Reinforcement Learning",
+    "published_date": "2020-06-22",
+    "abstract": "Much of the current work on reinforcement learning studies episodic settings, where the agent is reset between trials to an initial state distribution, often with well-shaped reward functions. Non-episodic settings, where the agent must learn through continuous interaction with the world without resets, and where the agent receives only delayed and sparse reward signals, is substantially more difficult, but arguably more realistic considering real-world environments do not present the learner with a convenient \"reset mechanism\" and easy reward shaping. In this paper, instead of studying algorithmic improvements that can address such non-episodic and sparse reward settings, we instead study the kinds of environment properties that can make learning under such conditions easier. Understanding how properties of the environment impact the performance of reinforcement learning agents can help us to structure our tasks in ways that make learning tractable. We first discuss what we term \"environment shaping\" -- modifications to the environment that provide an alternative to reward shaping, and may be easier to implement. We then discuss an even simpler property that we refer to as \"dynamism,\" which describes the degree to which the environment changes independent of the agent's actions and can be measured by environment transition entropy. Surprisingly, we find that even this property can substantially alleviate the challenges associated with non-episodic RL in sparse reward settings. We provide an empirical evaluation on a set of new tasks focused on non-episodic learning with sparse rewards. Through this study, we hope to shift the focus of the community towards analyzing how properties of the environment can affect learning and the ultimate type of behavior that is learned via RL.",
+    "citation_count": 22
+  },
+  {
+    "url": "https://arxiv.org/pdf/2012.14087.pdf",
+    "title": "Analytical and numerical solutions to ergodic control problems arising in environmental management",
+    "published_date": "2020-12-28",
+    "abstract": "Environmental management optimizing a long‐run objective is an ergodic control problem whose resolution can be achieved by solving an associated non‐local Hamilton–Jacobi–Bellman (HJB) equation having an effective Hamiltonian. Focusing on sediment storage management as a modern engineering problem, we formulate, analyze, and compute a new ergodic control problem under discrete observations: a simple but non‐trivial mathematical problem. We give optimality and comparison results of the corresponding HJB equation having unique non‐smoothness and discontinuity. To numerically compute HJB equations, we propose a new fast‐sweep method resorting to neither pseudo‐time integration nor vanishing discount. The optimal policy and the effective Hamiltonian are then computed simultaneously. Convergence rate of numerical solutions is computationally analyzed. An advanced robust control counterpart where the dynamics involve uncertainties is also numerically considered.",
+    "citation_count": 6
+  },
+  {
+    "title": "Research perspectives in ecodesign",
+    "abstract": "Ecodesign has gained significant traction in recent years ranging from academic research to business applications at a global scale. Initial emphasis on the environmental aspect of design has evolved to include economic and social aspects, with projects ranging from small-scale products to large-scale industrial systems. In this paper, the authors re-analyse 10 of their major ecodesign research projects of the past ten years to identify five categories of challenges and promising future directions for ecodesign research. This paper is primarily a retrospective position paper based on the authors' experience of actual design studies, providing also a relevant literature review and summary of design practices.",
+    "published_date": "2020-04-06",
+    "citation_count": 23,
+    "url": "https://www.cambridge.org/core/journals/design-science/article/research-perspectives-in-ecodesign/2485F1098847037823E79FD933684CB9"
+  },
+  {
+    "title": "Dynamic Building Environment Dashboard: Spatial Simulation Data Visualization in Sustainable Design",
+    "abstract": "When communicating the results of environmental building performance analysis, It Is Important to display resultant information in order (1) to be holistically understood and (2) to guide architectural design decisions. This article proposes a spatial dashboard of environmental performance data as a means to intuitively relate architectural form and performance and achieve the two goals above. The dashboard visualizes daylighting, natural ventilation, and thermal comfort information spatially localized throughout axonometric representations of buildings. Results can be customized by time of day, adding time as another analytical dimension in addition to space. Environmental data, normally hidden, is visually revealed in relation to architectural form. The dashboard enables intuitive design decisions to be made relative to performance measures across time and space.",
+    "published_date": "2017-05-01",
+    "citation_count": 9,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/24751448.2017.1292791"
+  }
+]

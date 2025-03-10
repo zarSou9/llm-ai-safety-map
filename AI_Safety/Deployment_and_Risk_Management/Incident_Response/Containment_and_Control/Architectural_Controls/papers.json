@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.16608",
+    "title": "Barriers on the EDGE: A scalable CBF architecture over EDGE for safe aerial-ground multi-agent coordination",
+    "published_date": "2024-11-25",
+    "abstract": "In this article, we address the problem of designing a scalable control architecture for a safe coordinated operation of a multi-agent system with aerial (UAVs) and ground robots (UGVs) in a confined task space. The proposed method uses Control Barrier Functions (CBFs) to impose constraints associated with (i) collision avoidance between agents, (ii) landing of UAVs on mobile UGVs, and (iii) task space restriction. Further, to account for the rapid increase in the number of constraints for a single agent with the increasing number of agents, the proposed architecture uses a centralized-decentralized Edge cluster, where a centralized node (Watcher) activates the relevant constraints, reducing the need for high onboard processing and network complexity. The distributed nodes run the controller locally to overcome latency and network issues. The proposed Edge architecture is experimentally validated using multiple aerial and ground robots in a confined environment performing a coordinated operation.",
+    "summary": "This paper presents a scalable control architecture for safe multi-agent coordination of aerial and ground robots using Control Barrier Functions (CBFs) to manage collision avoidance and task constraints. A centralized-decentralized Edge computing approach reduces computational burden and network complexity by distributing control while a central node manages constraint activation."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.15185",
+    "title": "Towards a Theory of Control Architecture: A quantitative framework for layered multi-rate control",
+    "published_date": "2024-01-26",
+    "abstract": "This paper focuses on the need for a rigorous theory of layered control architectures (LCAs) for complex engineered and natural systems, such as power systems, communication networks, autonomous robotics, bacteria, and human sensorimotor control. All deliver extraordinary capabilities, but they lack a coherent theory of analysis and design, partly due to the diverse domains across which LCAs can be found. In contrast, there is a core universal set of control concepts and theory that applies very broadly and accommodates necessary domain-specific specializations. However, control methods are typically used only to design algorithms in components within a larger system designed by others, typically with minimal or no theory. This points towards a need for natural but large extensions of robust performance from control to the full decision and control stack. It is encouraging that the successes of extant architectures from bacteria to the Internet are due to strikingly universal mechanisms and design patterns. This is largely due to convergent evolution by natural selection and not intelligent design, particularly when compared with the sophisticated design of components. Our aim here is to describe the universals of architecture and sketch tentative paths towards a useful design theory.",
+    "citation_count": 9,
+    "summary": "This paper argues for a unified theory of layered control architectures (LCAs) applicable across diverse complex systems, emphasizing the need to extend robust performance analysis from individual control algorithms to the entire decision-control stack. The authors propose leveraging universal design patterns observed in both natural and engineered LCAs to develop a more comprehensive design theory."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.10837",
+    "title": "Towards a Generic Software Architecture for IoT Systems",
+    "published_date": "2024-11-16",
+    "abstract": "The complexity of IoT, owing to the inherent distributed and dynamic nature of such systems, brings more challenges to the software development process. A vast number of devices with different communication protocols and data formats is involved and needs to be connected and exchange data with each other in a seamless manner. Traditional software architectures fall short of addressing the requirements of IoT systems and, therefore, a new approach to software architecture is required. This paper presents an attempt to lay out the foundation for a quality attribute driven software architecture for the development of IoT systems. This architecture accommodates the appropriate architectural styles and design patterns necessary for the development of a robust IoT system. These include edge computing, microservices and event driven architectures. The proposed architecture treats IoT systems as autonomic systems which require a closed control loop to regulate and orchestrate the operational aspect of the IoT system.",
+    "summary": "This paper proposes a generic, quality attribute-driven software architecture for IoT systems, incorporating edge computing, microservices, and event-driven architectures to address the complexities of distributed and dynamic IoT environments. The architecture utilizes a closed-loop control system for autonomic management and orchestration."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rQxrSRPJGmksGjK8z/it-s-time-for-a-self-reproducing-machine",
+    "author": "Carl Feynman",
+    "title": "It's time for a self-reproducing machine",
+    "published_date": "2024-08-07",
+    "summary": "The article proposes a design for a self-reproducing machine, called an Autofac, capable of constructing copies of itself using readily available materials and AI-controlled machinery. Its feasibility relies on integrating existing software for arithmetic, project planning, and computer-aided manufacturing (CAM) with a vision-language model to handle complex tasks and request human assistance when needed."
+  },
+  {
+    "url": "https://arxiv.org/abs/2309.11151",
+    "title": "Capacity: Cryptographically-Enforced In-Process Capabilities for Modern ARM Architectures",
+    "published_date": "2023-09-20",
+    "abstract": "In-process compartmentalization and access control have been actively explored to provide in-place and efficient isolation of in-process security domains. Many works have proposed compartmentalization schemes that leverage hardware features, most notably using the new page-based memory isolation feature called Protection Keys for Userspace (PKU) on x86. Unfortunately, the modern ARM architecture does not have an equivalent feature. Instead, newer ARM architectures introduced Pointer Authentication (PA) and Memory Tagging Extension (MTE), adapting the reference validation model for memory safety and runtime exploit mitigation. We argue that those features have been underexplored in the context of compartmentalization and that they can be retrofitted to implement a capability-based in-process access control scheme. This paper presents Capacity, a novel hardware-assisted intra-process access control design that embraces capability-based security principles. Capacity coherently incorporates the new hardware security features on ARM that already exhibit inherent characteristics of capability. It supports the life-cycle protection of the domain's sensitive objects - starting from their import from the file system to their place in memory. With intra-process domains authenticated with unique PA keys, Capacity transforms file descriptors and memory pointers into cryptographically-authenticated references and completely mediates reference usage with its program instrumentation framework and an efficient system call monitor. We evaluate our Capacity-enabled NGINX web server prototype and other common applications in which sensitive resources are isolated into different domains. Our evaluation shows that Capacity incurs a low-performance overhead of approximately 17% for the single-threaded and 13.54% for the multi-threaded webserver.",
+    "citation_count": 6,
+    "summary": "Capacity is a novel hardware-assisted intra-process access control system for ARM architectures that leverages Pointer Authentication and Memory Tagging Extension to implement capability-based security, providing efficient in-process compartmentalization with minimal performance overhead (approx. 13-17%)."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.11332.pdf",
+    "title": "Software Compartmentalization Trade-Offs with Hardware Capabilities",
+    "published_date": "2023-09-20",
+    "abstract": "Compartmentalization is a form of defensive software design in which an application is broken down into isolated but communicating components. Retrofitting compartmentalization into existing applications is often thought to be expensive from the engineering effort and performance overhead points of view. Still, recent years have seen proposals of compartmentalization methods with promises of low engineering efforts and reduced performance impact. ARM Morello combines a modern ARM processor with an implementation of Capability Hardware Enhanced RISC Instructions (CHERI) aiming to provide efficient and secure compartmentalization. Past works exploring CHERI-based compartmentalization were restricted to emulated/FPGA prototypes. In this paper, we explore possible compartmentalization schemes with CHERI on the Morello chip. We propose two approaches representing different trade-offs in terms of engineering effort, security, scalability, and performance impact. We describe and implement these approaches on a prototype OS running bare metal on the Morello chip, compartmentalize two popular applications, and investigate the performance overheads. Furthermore, we show that compartmentalization can be achieved with an engineering cost that can be quite low if one is willing to trade off on scalability and security, and that performance overheads are similar to other intra-address space isolation mechanisms.",
+    "summary": "This paper investigates software compartmentalization techniques using the ARM Morello architecture's CHERI capabilities, proposing two approaches with varying trade-offs between engineering effort, security, scalability, and performance. The authors implement these on a Morello prototype, analyzing performance overhead and demonstrating that low-effort compartmentalization is achievable, albeit with potential sacrifices in scalability and security."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bhH2BqF3fLTCwgjSs/michael-shellenberger-us-has-12-or-more-alien-spacecraft-say",
+    "author": "lc",
+    "title": "Michael Shellenberger: US Has 12 Or More Alien Spacecraft, Say Military And Intelligence Contractors",
+    "published_date": "2023-06-09",
+    "summary": "Multiple high-ranking current and former intelligence officials corroborate David Grusch's claims of a secret government program possessing and reverse-engineering non-human spacecraft, citing secrecy as a major impediment to technological advancement. The government's rejection of proposals to streamline the research process further supports this assertion."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8JXv9ADBGuDzFL4EZ/the-uap-disclosure-act-of-2023-and-its-implications",
+    "author": "andeslodes",
+    "title": "The UAP Disclosure Act of 2023 and its implications",
+    "published_date": "2023-07-21",
+    "summary": "A bipartisan amendment to the 2024 NDAA, sponsored by Senate Majority Leader Chuck Schumer, seeks to declassify U.S. government documents on Unidentified Anomalous Phenomena (UAPs), specifically those exhibiting unexplained technological capabilities, including the potential for non-human intelligence and technologies of unknown origin. The amendment mandates the creation of a public archive of these declassified records."
+  }
+]

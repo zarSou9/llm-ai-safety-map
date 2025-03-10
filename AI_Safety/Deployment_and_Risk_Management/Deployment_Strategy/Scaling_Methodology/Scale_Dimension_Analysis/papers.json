@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2407.00068",
+    "title": "D&A: Resource Optimization in Personalized PageRank Computations Using Multi-Core Machines",
+    "published_date": "2024-06-18",
+    "abstract": "Resource optimization is commonly used in workload management, ensuring efficient and timely task completion utilising available resources. It serves to minimise costs, prompting the development of numerous algorithms tailored to this end. The majority of these techniques focus on scheduling and executing workloads effectively within the provided resource constraints. In this paper, we tackle this problem using another approach. We propose a novel framework D&A to determine the number of cores required in completing a workload under time constraint. We first preprocess a small portion of queries to derive the number of required slots, allowing for the allocation of the remaining workloads into each slot. We introduce a scaling factor in handling the time fluctuation issue caused by random functions. We further establish a lower bound of the number of cores required under this scenario, serving as a baseline for comparison purposes. We examine the framework by computing personalized PageRank values involving intensive computations. Our experimental results show that D&A surpasses the baseline, achieving reductions in the required number of cores ranging from <inline-formula><tex-math notation=\"LaTeX\">$ 38.89\\%$</tex-math><alternatives><mml:math><mml:mrow><mml:mn>38</mml:mn><mml:mo>.</mml:mo><mml:mn>89</mml:mn><mml:mo>%</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href=\"yow-ieq1-3417264.gif\"/></alternatives></inline-formula> to <inline-formula><tex-math notation=\"LaTeX\">$ 73.68\\%$</tex-math><alternatives><mml:math><mml:mrow><mml:mn>73</mml:mn><mml:mo>.</mml:mo><mml:mn>68</mml:mn><mml:mo>%</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href=\"yow-ieq2-3417264.gif\"/></alternatives></inline-formula> across benchmark datasets comprising millions of vertices and edges.",
+    "summary": "The D&A framework optimizes personalized PageRank computation on multi-core machines by pre-processing queries to determine the optimal number of cores needed, achieving significant reductions (38.89% to 73.68%) in core usage compared to a baseline approach."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/knuths-up-arrow-notation",
+    "title": "Knuth's Up-Arrow Notation - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Knuth's up-arrow notation provides a concise way to represent extremely large numbers, as exemplified by 3^^^3, a power tower of threes 7625597484987 high, which is computationally simple despite its incomprehensibly vast magnitude."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.00859.pdf",
+    "title": "DeepScaler: Holistic Autoscaling for Microservices Based on Spatiotemporal GNN with Adaptive Graph Learning",
+    "published_date": "2023-09-02",
+    "abstract": "Autoscaling functions provide the foundation for achieving elasticity in the modern cloud computing paradigm. It enables dynamic provisioning or de-provisioning resources for cloud software services and applications without human intervention to adapt to workload fluctuations. However, autoscaling microservice is challenging due to various factors. In particular, complex, time-varying service dependencies are difficult to quantify accurately and can lead to cascading effects when allocating resources. This paper presents DeepScaler, a deep learning-based holistic autoscaling approach for microservices that focus on coping with service dependencies to optimize service-level agreements (SLA) assurance and cost efficiency. DeepScaler employs (i) an expectation-maximization-based learning method to adaptively generate affinity matrices revealing service dependencies and (ii) an attention-based graph convolutional network to extract spatio-temporal features of microservices by aggregating neighbors' information of graph-structural data. Thus DeepScaler can capture more potential service dependencies and accurately estimate the resource requirements of all services under dynamic workloads. It allows DeepScaler to reconfigure the resources of the interacting services simultaneously in one resource provisioning operation, avoiding the cascading effect caused by service dependencies. Experimental results demonstrate that our method implements a more effective autoscaling mechanism for microservice that not only allocates resources accurately but also adapts to dependencies changes, significantly reducing SLA violations by an average of 41% at lower costs.",
+    "citation_count": 6,
+    "summary": "DeepScaler is a novel autoscaling approach for microservices that uses a spatiotemporal graph neural network and adaptive graph learning to accurately model service dependencies and optimize resource allocation. This holistic approach significantly reduces SLA violations and costs compared to existing methods by simultaneously adjusting resources for interacting services."
+  },
+  {
+    "url": "https://arxiv.org/abs/2208.08489",
+    "title": "Understanding Scaling Laws for Recommendation Models",
+    "published_date": "2022-08-17",
+    "abstract": "Scale has been a major driving force in improving machine learning performance, and understanding scaling laws is essential for strategic planning for a sustainable model quality performance growth, long-term resource planning and developing efficient system infrastructures to support large-scale models. In this paper, we study empirical scaling laws for DLRM style recommendation models, in particular Click-Through Rate (CTR). We observe that model quality scales with power law plus constant in model size, data size and amount of compute used for training. We characterize scaling efficiency along three different resource dimensions, namely data, parameters and compute by comparing the different scaling schemes along these axes. We show that parameter scaling is out of steam for the model architecture under study, and until a higher-performing model architecture emerges, data scaling is the path forward. The key research questions addressed by this study include: Does a recommendation model scale sustainably as predicted by the scaling laws? Or are we far off from the scaling law predictions? What are the limits of scaling? What are the implications of the scaling laws on long-term hardware/system development?",
+    "citation_count": 21,
+    "summary": "This paper empirically investigates scaling laws for DLRM-style recommendation models, finding that model quality scales with a power law plus constant across model size, data size, and compute, and concluding that data scaling, not parameter scaling, is currently the most effective path to improved performance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14",
+    "summary": "The article highlights common statistical errors, particularly the false assumption of Gaussian distributions in areas like finance and the misinterpretation of p-values, leading to inaccurate conclusions. It emphasizes the importance of considering factors like base rates and statistical power to avoid flawed analyses and misleading results."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03",
+    "summary": "For calculating probabilities from binary count data, the Beta distribution is superior to the commonly used Gaussian (normal) distribution approximation, especially with small datasets or probabilities near 0 or 1, where the Gaussian approximation breaks down and produces nonsensical results. The Beta distribution is readily available in common statistical software and provides accurate uncertainty intervals."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25",
+    "summary": "Variational Bayesian methods address the intractability of calculating P(x) in Bayesian inference by approximating the true posterior P(z|x) with a simpler distribution Q(z|x). This approximation minimizes the Kullback-Leibler divergence between Q(z|x) and P(z|x), allowing for a tractable estimate of P(x)."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.00819v1.pdf",
+    "title": "Towards Rigorous Selection and Configuration of Cloud Services: Research Methodology",
+    "published_date": "2021-04-02",
+    "abstract": "Cloud computing has recently emerged as a major trend in distributed computing. We proposed a platform for selecting and configuring automatically an appropriate cloud environment that meets a set of consumer and provider requirements. It can easily adapt its behavior, either at design-time or runtime, to the change of the environment in matters of location, time, activity, interaction abilities, and communication restrictions. The platform based on the principles of dynamic software product lines (SPL), Agent-oriented software engineering, and the MAPE-k reference model. We based on the Design Science Research Methodology to conduct this work. In this article, we present the steps of our research following this methodology's guidelines.",
+    "summary": "This paper details a Design Science Research methodology for developing a platform that automatically selects and configures optimal cloud environments based on user and provider needs, adapting dynamically to changing conditions. The platform leverages dynamic software product lines, agent-oriented software engineering, and the MAPE-k model."
+  }
+]

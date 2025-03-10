@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2402.13375",
+    "title": "Vulnerability Webs: Systemic Risk in Software Networks",
+    "published_date": "2024-02-20",
+    "abstract": "Modern software development is a collaborative effort that re-uses existing code to reduce development and maintenance costs. This practice exposes software to vulnerabilities in the form of undetected bugs in direct and indirect dependencies, as demonstrated by the Crowdstrike and HeartBleed bugs. The economic costs resulting from such vulnerabilities can be staggering. We study a directed network of 52,897 software dependencies across 16,102 Python repositories, guided by a strategic model of network formation that incorporates both observable and unobservable heterogeneity. Using a scalable variational approximation of the conditional distribution of unobserved heterogeneity, we show that outsourcing code to other software packages by creating dependencies generates negative externalities. Modeling the propagation of risk in networks of software packages as an epidemiological process, we show that increasing protection of dependencies based on popular heuristics is ineffective at reducing systemic risk. By contrast, AI-assisted coding enables developers to replace dependencies with in-house code and reduces systemic risk.",
+    "summary": "Analyzing a network of Python software dependencies, the study finds that relying on external code creates systemic risk, and while common mitigation strategies are ineffective, AI-assisted coding that reduces reliance on external dependencies significantly lowers this risk."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uExuQ7ugoh7vYjJwK/how-to-build-new-countries-a-la-1729",
+    "author": "jdcampolargo",
+    "title": "How to Build New Countries à la 1729?",
+    "published_date": "2022-01-17",
+    "summary": "This article explores the concept of a \"Network State,\" a digitally-native nation built online first and later acquiring physical territory. It proposes this as a faster, cheaper alternative to traditional nation-building, outlining key principles and a seven-step process for its creation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2sGZQYytKdwXoZG3L/forecasting-newsletter-looking-back-at-2021",
+    "author": "NunoSempere",
+    "title": "Forecasting Newsletter: Looking back at 2021",
+    "published_date": "2022-01-27",
+    "summary": "The article traces the history of prediction markets in the US, highlighting repeated failures to utilize them effectively for policy analysis and intelligence gathering, despite demonstrated potential and occasional successes. This failure is contrasted with the rise and fall of various prediction market platforms, ultimately suggesting a missed opportunity to improve forecasting and decision-making."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nMNi86hgNjaNnh8iu/a-whirlwind-tour-of-ethereum-finance",
+    "author": "cata",
+    "title": "A whirlwind tour of Ethereum finance",
+    "published_date": "2021-03-02",
+    "summary": "The author explores the decentralized finance (DeFi) ecosystem on Ethereum, explaining its core components—tokenization of assets, liquid exchanges, and lending/borrowing—and potential benefits such as regulatory evasion and reduced intermediaries, while acknowledging existing risks and uncertainties."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06",
+    "summary": "A standard model of COVID-19 transmission struggles to explain the surprisingly similar infection rates across US states despite varying policies and behaviors. A proposed \"vulnerability model,\" incorporating fluctuating individual susceptibility to infection over time, better accounts for the observed data, resolving inconsistencies in transmission rates and infection durations."
+  },
+  {
+    "url": "https://arxiv.org/abs/2001.03853v1",
+    "title": "Supply Network Formation and Fragility",
+    "published_date": "2020-01-12",
+    "abstract": "We model the production of complex goods in a large supply network. Each firm sources several essential inputs through relationships with other firms. Individual supply relationships are at risk of idiosyncratic failure, which threatens to disrupt production. To protect against this, firms multisource inputs and strategically invest to make relationships stronger, trading off the cost of investment against the benefits of increased robustness. A supply network is called fragile if aggregate output is very sensitive to small aggregate shocks. We show that supply networks of intermediate productivity are fragile in equilibrium, even though this is always inefficient. The endogenous configuration of supply networks provides a new channel for the powerful amplification of shocks. (JEL D21, G31, L14)",
+    "citation_count": 78,
+    "summary": "This paper models the formation of complex supply networks where firms strategically manage input sourcing to mitigate individual relationship failures. It finds that networks of intermediate productivity are surprisingly fragile in equilibrium, demonstrating a novel mechanism for shock amplification."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/N7KYWJPmyzB6bJSYT/the-next-ai-winter-will-be-due-to-energy-costs-1",
+    "author": "hippke",
+    "title": "The next AI winter will be due to energy costs",
+    "published_date": "2020-11-24",
+    "summary": "There is no article provided, therefore no summary can be given."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1903.01583.pdf",
+    "title": "Improving the Survivability of Clustered Interdependent Networks by Restructuring Dependencies",
+    "published_date": "2019-03-04",
+    "abstract": "The interdependency between different network layers is commonly observed in cyber physical systems and communication networks adopting the dissociation of logic and hardware implementation, such as software defined networking and network function virtualization. This paper formulates an optimization problem to improve the survivability of interdependent networks by restructuring the provisioning relations. A characteristic of the proposed algorithm is that the continuous availability of the entire system is guaranteed during the restructuring of dependencies by the preservation of certain structures in the original networks. Our simulation results demonstrate that the proposed restructuring algorithm can substantially enhance the survivability of interdependent networks and provide insights into the ideal allocation of dependencies.",
+    "citation_count": 6,
+    "summary": "This paper proposes an optimization algorithm to enhance the survivability of interdependent networks by restructuring their dependencies, guaranteeing continuous system availability during the restructuring process. Simulation results demonstrate significant survivability improvements and offer insights into optimal dependency allocation."
+  }
+]

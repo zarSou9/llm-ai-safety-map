@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2201.02944v4.pdf",
+    "title": "Adaptive Performance Anomaly Detection for Online Service Systems via Pattern Sketching",
+    "published_date": "2022-01-09",
+    "abstract": "To ensure the performance of online service systems, their status is closely monitored with various software and system metrics. Performance anomalies represent the performance degradation issues (e.g., slow response) of the service systems. When performing anomaly detection over the metrics, existing methods often lack the merit of interpretability, which is vital for engineers and analysts to take remediation actions. Moreover, they are unable to effectively accommodate the ever-changing services in an online fashion. To address these limitations, in this paper, we propose ADSketch, an interpretable and adaptive performance anomaly detection approach based on pattern sketching. ADSketch achieves interpretability by identifying groups of anomalous metric patterns, which represent particular types of performance issues. The underlying issues can then be immediately recognized if similar patterns emerge again. In addition, an adaptive learning algorithm is designed to embrace unprecedented patterns induced by service updates or user behavior changes. The proposed approach is evaluated with public data as well as industrial data collected from a representative online service system in Huawei Cloud. The experimental results show that ADSketch outperforms state-of-the-art approaches by a significant margin, and demonstrate the effectiveness of the online algorithm in new pattern discovery. Furthermore, our approach has been successfully deployed in industrial practice.",
+    "citation_count": 29,
+    "summary": "ADSketch is an interpretable and adaptive performance anomaly detection system using pattern sketching, enabling efficient identification and remediation of performance issues in online service systems by grouping anomalous metric patterns and adapting to evolving service characteristics. Its effectiveness is demonstrated through both public and industrial datasets, showing superior performance to existing methods and successful real-world deployment."
+  },
+  {
+    "title": "Measuring Early Detection of Anomalies",
+    "abstract": "Early detection is a matter of growing importance in multiple domains as network security, health conditions over social network services or weather forecasts related disasters. It is not enough to make a good decision but it also needs to be made on time. In this paper, we define a method to evaluate detection of anomalies in time-aware systems. To do so, we present the early detection problem from a generic perspective, examine the evaluation metrics available and propose a new metric, named TaP (Time aware Precision). A set of experiments using three different datasets from different fields are performed in order to compare the behaviour of the different metrics. Two different approaches were followed, first a batch evaluation is performed, followed by a streaming evaluation which allows to present a more realistic behaviour of the systems. For both steps, we propose two sets of experiments. The first one using baseline models, followed by the evaluation of a set of Machine Learning algorithms results. The presented metric allows the amount of items needed to take a decision to be taken into account, not depending on the specific dataset but on the nature of the problem to solve.",
+    "published_date": "2022-01-01",
+    "citation_count": 2,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09963563.pdf",
+    "summary": "This paper introduces a novel metric, TaP (Time-aware Precision), for evaluating the timeliness of anomaly detection in time-aware systems. Experiments using diverse datasets and machine learning algorithms demonstrate the metric's effectiveness in assessing early detection performance compared to existing metrics."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14",
+    "summary": "The article highlights common statistical errors, primarily the false assumption of Gaussian distributions in analyzing data with fat tails, and misinterpretations of p-values, leading to flawed conclusions. It emphasizes the importance of considering base rates and statistical power to avoid inaccurate results, particularly in fields like finance and scientific research."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13",
+    "summary": "This article explains Deep Q-Networks (DQN), a deep reinforcement learning algorithm, at multiple levels of detail. It provides a high-level overview accessible to those familiar with reinforcement learning, and then delves into the technical aspects and implementation for those seeking a deeper understanding."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03",
+    "summary": "For calculating probabilities from binary count data, the Beta distribution is superior to the Gaussian (normal) distribution approximation, especially with small datasets or probabilities near 0 or 1, where the Gaussian approximation can yield nonsensical results like negative probabilities. The Beta distribution is easily implemented and provides accurate uncertainty intervals."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rCP5iTYLtfcoC8NXd/self-organised-neural-networks-a-simple-natural-and",
+    "author": "D𝜋",
+    "title": "Self-Organised Neural Networks:\nA simple, natural and efficient way to intelligence",
+    "published_date": "2022-01-01",
+    "summary": "The article presents a novel spiking neural network architecture achieving state-of-the-art accuracy (98.9%) on the PI-MNIST dataset using a simple, biologically-inspired learning rule based on Hebbian learning and connection decay, requiring only additions and surpassing other methods with significantly fewer connections. The network operates online and is claimed to be mathematically grounded."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25",
+    "summary": "Variational Bayesian methods address the intractability of calculating P(x) in Bayesian inference by approximating the true posterior P(z|x) with an easily computed distribution Q(z|x). This approximation minimizes the Kullback-Leibler divergence between Q(z|x) and P(z|x), yielding a tractable estimate of P(x)."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.15026v1.pdf",
+    "title": "Anomaly Rule Detection in Sequence Data",
+    "published_date": "2021-11-29",
+    "abstract": "Analyzing sequence data usually leads to the discovery of interesting patterns and then anomaly detection. In recent years, numerous frameworks and methods have been proposed to discover interesting patterns in sequence data as well as detect anomalous behavior. However, existing algorithms mainly focus on frequency-driven analytics, and they are challenging to be applied in real-world settings. In this work, we present a new anomaly detection framework called DUOS that enables Discovery of Utility-aware Outlier Sequential rules from a set of sequences. In this pattern-based anomaly detection algorithm, we incorporate both the anomalousness and utility of a group, and then introduce the concept of utility-aware outlier sequential rule (UOSR). We show that this is a more meaningful way for detecting anomalies. Besides, we propose some efficient pruning strategies w.r.t. upper bounds for mining UOSR, as well as the outlier detection. An extensive experimental study conducted on several real-world datasets shows that the proposed DUOS algorithm has a better effectiveness and efficiency. Finally, DUOS outperforms the baseline algorithm and has a suitable scalability.",
+    "citation_count": 12,
+    "summary": "The DUOS framework detects anomalies in sequence data by discovering \"utility-aware outlier sequential rules,\" outperforming existing frequency-driven methods through the incorporation of both anomaly and utility scores and efficient pruning strategies."
+  }
+]

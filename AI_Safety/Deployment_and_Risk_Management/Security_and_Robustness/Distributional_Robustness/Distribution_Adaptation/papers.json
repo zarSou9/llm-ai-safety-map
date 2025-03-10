@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13",
+    "summary": "Current AI training methods prioritize average performance, neglecting the risk of catastrophic tail events. The article proposes new methods for estimating the probability of these rare, harmful events without relying on identifying specific catastrophic inputs, thus improving AI safety."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.08825.pdf",
+    "title": "Distributionally Robust Post-hoc Classifiers under Prior Shifts",
+    "published_date": "2023-09-16",
+    "abstract": "The generalization ability of machine learning models degrades significantly when the test distribution shifts away from the training distribution. We investigate the problem of training models that are robust to shifts caused by changes in the distribution of class-priors or group-priors. The presence of skewed training priors can often lead to the models overfitting to spurious features. Unlike existing methods, which optimize for either the worst or the average performance over classes or groups, our work is motivated by the need for finer control over the robustness properties of the model. We present an extremely lightweight post-hoc approach that performs scaling adjustments to predictions from a pre-trained model, with the goal of minimizing a distributionally robust loss around a chosen target distribution. These adjustments are computed by solving a constrained optimization problem on a validation set and applied to the model during test time. Our constrained optimization objective is inspired by a natural notion of robustness to controlled distribution shifts. Our method comes with provable guarantees and empirically makes a strong case for distributional robust post-hoc classifiers. An empirical implementation is available at https://github.com/weijiaheng/Drops.",
+    "citation_count": 15,
+    "summary": "This paper introduces a lightweight post-hoc method to improve the robustness of classifiers against prior shifts by scaling predictions from a pre-trained model, minimizing a distributionally robust loss via constrained optimization on a validation set. This approach offers finer control over robustness compared to existing methods and comes with theoretical guarantees."
+  },
+  {
+    "url": "https://arxiv.org/abs/2309.02211",
+    "title": "Distributionally Robust Machine Learning with Multi-source Data",
+    "published_date": "2023-09-05",
+    "abstract": "Classical machine learning methods may lead to poor prediction performance when the target distribution differs from the source populations. This paper utilizes data from multiple sources and introduces a group distributionally robust prediction model defined to optimize an adversarial reward about explained variance with respect to a class of target distributions. Compared to classical empirical risk minimization, the proposed robust prediction model improves the prediction accuracy for target populations with distribution shifts. We show that our group distributionally robust prediction model is a weighted average of the source populations' conditional outcome models. We leverage this key identification result to robustify arbitrary machine learning algorithms, including, for example, random forests and neural networks. We devise a novel bias-corrected estimator to estimate the optimal aggregation weight for general machine-learning algorithms and demonstrate its improvement in the convergence rate. Our proposal can be seen as a distributionally robust federated learning approach that is computationally efficient and easy to implement using arbitrary machine learning base algorithms, satisfies some privacy constraints, and has a nice interpretation of different sources' importance for predicting a given target covariate distribution. We demonstrate the performance of our proposed group distributionally robust method on simulated and real data with random forests and neural networks as base-learning algorithms.",
+    "citation_count": 7,
+    "summary": "This paper proposes a group distributionally robust prediction model that improves prediction accuracy under distribution shifts by using multi-source data and optimizing an adversarial reward based on explained variance. The model, a weighted average of source population models, is shown to robustify various machine learning algorithms and offers computational efficiency and privacy benefits."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2212.09962.pdf",
+    "title": "Distributional Robustness Bounds Generalization Errors",
+    "published_date": "2022-12-20",
+    "abstract": "Bayesian methods, distributionally robust optimization methods, and regularization methods are three pillars of trustworthy machine learning combating distributional uncertainty, e.g., the uncertainty of an empirical distribution compared to the true underlying distribution. This paper investigates the connections among the three frameworks and, in particular, explores why these frameworks tend to have smaller generalization errors. Specifically, first, we suggest a quantitative definition for\"distributional robustness\", propose the concept of\"robustness measure\", and formalize several philosophical concepts in distributionally robust optimization. Second, we show that Bayesian methods are distributionally robust in the probably approximately correct (PAC) sense; in addition, by constructing a Dirichlet-process-like prior in Bayesian nonparametrics, it can be proven that any regularized empirical risk minimization method is equivalent to a Bayesian method. Third, we show that generalization errors of machine learning models can be characterized using the distributional uncertainty of the nominal distribution and the robustness measures of these machine learning models, which is a new perspective to bound generalization errors, and therefore, explain the reason why distributionally robust machine learning models, Bayesian models, and regularization models tend to have smaller generalization errors in a unified manner.",
+    "citation_count": 4,
+    "summary": "This paper establishes connections between Bayesian methods, distributionally robust optimization, and regularization, showing that their superior generalization performance stems from their inherent distributional robustness. It quantifies this robustness, proving equivalence between certain Bayesian and regularized methods and using it to bound generalization error."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dhbLE8BqRvhBtsXhS/mlsn-3-neurips-safety-paper-roundup",
+    "author": "Dan H",
+    "title": "[MLSN #3]: NeurIPS Safety Paper Roundup",
+    "published_date": "2022-03-08",
+    "summary": "The ML Safety Newsletter's third issue summarizes recent research on improving machine learning model robustness, including findings that Vision Transformers are more robust to distribution shifts but not inherently more adversarially robust than CNNs, and a novel fractal-based data augmentation technique (PixMix) enhancing various reliability metrics. The issue also covers advancements in anomaly detection and the detection/mitigation of malicious \"Trojan\" models."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/TRKF9g65nhPBQoxJu/distribution-shifts-and-the-importance-of-ai-safety",
+    "author": "Leon Lang",
+    "title": "Distribution Shifts and The Importance of AI Safety",
+    "published_date": "2022-09-29",
+    "summary": "The article argues that the distribution shift problem in machine learning poses an existential risk, as increasingly powerful AI systems may pursue their goals in unforeseen ways, potentially leading to humanity's disempowerment. This risk stems from the fact that current AI systems' goals are not explicitly represented within their internal workings."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.13326v2.pdf",
+    "title": "Fast Distributionally Robust Learning with Variance Reduced Min-Max Optimization",
+    "published_date": "2021-04-27",
+    "abstract": "Distributionally robust supervised learning (DRSL) is emerging as a key paradigm for building reliable machine learning systems for real-world applications -- reflecting the need for classifiers and predictive models that are robust to the distribution shifts that arise from phenomena such as selection bias or nonstationarity. Existing algorithms for solving Wasserstein DRSL -- one of the most popular DRSL frameworks based around robustness to perturbations in the Wasserstein distance -- have serious limitations that limit their use in large-scale problems -- in particular they involve solving complex subproblems and they fail to make use of stochastic gradients. We revisit Wasserstein DRSL through the lens of min-max optimization and derive scalable and efficiently implementable stochastic extra-gradient algorithms which provably achieve faster convergence rates than existing approaches. We demonstrate their effectiveness on synthetic and real data when compared to existing DRSL approaches. Key to our results is the use of variance reduction and random reshuffling to accelerate stochastic min-max optimization, the analysis of which may be of independent interest.",
+    "citation_count": 22,
+    "summary": "This paper introduces scalable stochastic extra-gradient algorithms for Wasserstein distributionally robust supervised learning, achieving faster convergence rates than existing methods by employing variance reduction and random reshuffling techniques within a min-max optimization framework. These improvements enable efficient handling of large-scale problems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2106.15791",
+    "title": "Distributionally Robust Learning With Stable Adversarial Training",
+    "published_date": "2021-06-30",
+    "abstract": "Machine learning algorithms with empirical risk minimization are vulnerable under distributional shifts due to the greedy adoption of all the correlations found in training data. There is an emerging literature on tackling this problem by minimizing the worst-case risk over an uncertainty set. However, existing methods mostly construct ambiguity sets by treating all variables equally regardless of the stability of their correlations with the target, resulting in the overwhelmingly-large uncertainty set and low confidence of the learner. In this paper, we propose a novel Stable Adversarial Learning (SAL) algorithm that leverages heterogeneous data sources to construct a more practical uncertainty set and conduct differentiated robustness optimization, where covariates are differentiated according to the stability of their correlations with the target. We theoretically show that our method is tractable for stochastic gradient-based optimization and provide the performance guarantees for our method. Empirical studies on both simulation and real datasets validate the effectiveness of our method in terms of uniformly good performance across unknown distributional shifts.",
+    "citation_count": 11,
+    "summary": "Stable Adversarial Learning (SAL) improves distributional robustness in machine learning by constructing a smaller, more practical uncertainty set that considers the stability of feature-target correlations, leading to better performance under distributional shifts. This is achieved through differentiated robustness optimization leveraging heterogeneous data sources, with theoretical guarantees and empirical validation provided."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2310.06514",
+    "title": "AttributionLab: Faithfulness of Feature Attribution Under Controllable Environments",
+    "published_date": "2023-10-10",
+    "abstract": "Feature attribution explains neural network outputs by identifying relevant input features. The attribution has to be faithful, meaning that the attributed features must mirror the input features that influence the output. One recent trend to test faithfulness is to fit a model on designed data with known relevant features and then compare attributions with ground truth input features.This idea assumes that the model learns to use all and only these designed features, for which there is no guarantee. In this paper, we solve this issue by designing the network and manually setting its weights, along with designing data. The setup, AttributionLab, serves as a sanity check for faithfulness: If an attribution method is not faithful in a controlled environment, it can be unreliable in the wild. The environment is also a laboratory for controlled experiments by which we can analyze attribution methods and suggest improvements.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/auth/show-endorsers/1907.09701",
+    "title": "Benchmarking Attribution Methods with Relative Feature Importance",
+    "published_date": "2019-07-23",
+    "abstract": "Interpretability is an important area of research for safe deployment of machine learning systems. One particular type of interpretability method attributes model decisions to input features. Despite active development, quantitative evaluation of feature attribution methods remains difficult due to the lack of ground truth: we do not know which input features are in fact important to a model. In this work, we propose a framework for Benchmarking Attribution Methods (BAM) with a priori knowledge of relative feature importance. BAM includes 1) a carefully crafted dataset and models trained with known relative feature importance and 2) three complementary metrics to quantitatively evaluate attribution methods by comparing feature attributions between pairs of models and pairs of inputs. Our evaluation on several widely-used attribution methods suggests that certain methods are more likely to produce false positive explanations---features that are incorrectly attributed as more important to model prediction. We open source our dataset, models, and metrics.",
+    "citation_count": 135
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.02344",
+    "title": "Backdoor-based Explainable AI Benchmark for High Fidelity Evaluation of Attribution Methods",
+    "published_date": "2024-05-02",
+    "abstract": "Attribution methods compute importance scores for input features to explain the output predictions of deep models. However, accurate assessment of attribution methods is challenged by the lack of benchmark fidelity for attributing model predictions. Moreover, other confounding factors in attribution estimation, including the setup choices of post-processing techniques and explained model predictions, further compromise the reliability of the evaluation. In this work, we first identify a set of fidelity criteria that reliable benchmarks for attribution methods are expected to fulfill, thereby facilitating a systematic assessment of attribution benchmarks. Next, we introduce a Backdoor-based eXplainable AI benchmark (BackX) that adheres to the desired fidelity criteria. We theoretically establish the superiority of our approach over the existing benchmarks for well-founded attribution evaluation. With extensive analysis, we also identify a setup for a consistent and fair benchmarking of attribution methods across different underlying methodologies. This setup is ultimately employed for a comprehensive comparison of existing methods using our BackX benchmark. Finally, our analysis also provides guidance for defending against backdoor attacks with the help of attribution methods.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.18881",
+    "title": "Explainable Artifacts for Synthetic Western Blot Source Attribution",
+    "published_date": "2024-09-27",
+    "abstract": "Recent advancements in artificial intelligence have enabled generative models to produce synthetic scientific images that are indistinguishable from pristine ones, posing a challenge even for expert scientists habituated to working with such content. When exploited by organizations known as paper mills, which systematically generate fraudulent articles, these technologies can significantly contribute to the spread of misinformation about ungrounded science, potentially undermining trust in scientific research. While previous studies have explored black-box solutions, such as Convolutional Neural Networks, for identifying synthetic content, only some have addressed the challenge of generalizing across different models and providing insight into the artifacts in synthetic images that inform the detection process. This study aims to identify explainable artifacts generated by state-of-the-art generative models (e.g., Generative Adversarial Networks and Diffusion Models) and leverage them for open-set identification and source attribution (i.e., pointing to the model that created the image)."
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.13510",
+    "title": "Optimizing Hierarchical Queries for the Attribution Reporting API",
+    "published_date": "2023-08-25",
+    "abstract": "We study the task of performing hierarchical queries based on summary reports from the {\\em Attribution Reporting API} for ad conversion measurement. We demonstrate that methods from optimization and differential privacy can help cope with the noise introduced by privacy guardrails in the API. In particular, we present algorithms for (i) denoising the API outputs and ensuring consistency across different levels of the tree, and (ii) optimizing the privacy budget across different levels of the tree. We provide an experimental evaluation of the proposed algorithms on public datasets.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/gtLLBhzQTG6nKTeCZ/attribution-patching-activation-patching-at-industrial-scale",
+    "author": "Neel Nanda",
+    "title": "Attribution Patching: Activation Patching At Industrial Scale",
+    "published_date": "2023-03-16"
+  }
+]

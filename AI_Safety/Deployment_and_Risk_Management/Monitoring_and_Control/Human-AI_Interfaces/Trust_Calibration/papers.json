@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2403.09552",
+    "title": "“Are You Really Sure?” Understanding the Effects of Human Self-Confidence Calibration in AI-Assisted Decision Making",
+    "published_date": "2024-03-14",
+    "abstract": "In AI-assisted decision-making, it is crucial but challenging for humans to achieve appropriate reliance on AI. This paper approaches this problem from a human-centered perspective, “human self-confidence calibration”. We begin by proposing an analytical framework to highlight the importance of calibrated human self-confidence. In our first study, we explore the relationship between human self-confidence appropriateness and reliance appropriateness. Then in our second study, We propose three calibration mechanisms and compare their effects on humans' self-confidence and user experience. Subsequently, our third study investigates the effects of self-confidence calibration on AI-assisted decision-making. Results show that calibrating human self-confidence enhances human-AI team performance and encourages more rational reliance on AI (in some aspects) compared to uncalibrated baselines. Finally, we discuss our main findings and provide implications for designing future AI-assisted decision-making interfaces.",
+    "citation_count": 7,
+    "summary": "This paper investigates how well-calibrated human self-confidence impacts reliance on AI in decision-making, finding that improving self-confidence calibration enhances human-AI team performance and leads to more rational AI usage."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.05809.pdf",
+    "title": "Who Should I Trust: AI or Myself? Leveraging Human and AI Correctness Likelihood to Promote Appropriate Trust in AI-Assisted Decision-Making",
+    "published_date": "2023-01-14",
+    "abstract": "In AI-assisted decision-making, it is critical for human decision-makers to know when to trust AI and when to trust themselves. However, prior studies calibrated human trust only based on AI confidence indicating AI's correctness likelihood (CL) but ignored humans' CL, hindering optimal team decision-making. To mitigate this gap, we proposed to promote humans' appropriate trust based on the CL of both sides at a task-instance level. We first modeled humans' CL by approximating their decision-making models and computing their potential performance in similar instances. We demonstrated the feasibility and effectiveness of our model via two preliminary studies. Then, we proposed three CL exploitation strategies to calibrate users' trust explicitly/implicitly in the AI-assisted decision-making process. Results from a between-subjects experiment (N=293) showed that our CL exploitation strategies promoted more appropriate human trust in AI, compared with only using AI confidence. We further provided practical implications for more human-compatible AI-assisted decision-making.",
+    "citation_count": 64,
+    "summary": "This paper introduces a model that leverages both AI and human correctness likelihood to optimize trust calibration in AI-assisted decision-making, demonstrating improved human trust in AI compared to relying solely on AI confidence scores. Three strategies for exploiting this model to promote appropriate trust were tested and shown to be effective."
+  },
+  {
+    "title": "Adaptive Trust Calibration for Supervised Autonomous Vehicles",
+    "abstract": "Poor trust calibration in autonomous vehicles often degrades total system performance in safety or efficiency. Existing studies have primarily examined the importance of system transparency of autonomous systems to maintain proper trust calibration, with little emphasis on how to detect over-trust and under-trust nor how to recover from them. With the goal of addressing these research gaps, we first provide a framework to detect a calibration status on the basis of the user's behavior of reliance. We then propose a new concept with cognitive cues called trust calibration cues (TCCs) to trigger the user to quickly restore appropriate trust calibration. With our framework and TCCs, a novel method of adaptive trust calibration is explored in this study. We will evaluate our framework and examine the effectiveness of TCCs with a newly developed online drone simulator.",
+    "published_date": "2018-09-23",
+    "citation_count": 19,
+    "url": "https://dl.acm.org/doi/10.1145/3239092.3265948",
+    "summary": "This paper introduces a framework for detecting over- and under-trust in autonomous vehicle users based on their reliance behavior, and proposes trust calibration cues (TCCs) to adaptively adjust user trust levels, improving overall system performance. The framework's effectiveness is evaluated using a novel online drone simulator."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.19580",
+    "title": "The ATTUNE Model for Artificial Trust Towards Human Operators",
+    "published_date": "2024-10-06",
+    "abstract": "This paper presents a novel method to quantify Trust in HRI. It proposes an HRI framework for estimating the Robot Trust towards the Human in the context of a narrow and specified task. The framework produces a real-time estimation of an AI agent's Artificial Trust towards a Human partner interacting with a mobile teleoperation robot. The approach for the framework is based on principles drawn from Theory of Mind, including information about the human state, action, and intent. The framework creates the ATTUNE model for Artificial Trust Towards Human Operators. The model uses metrics on the operator's state of attention, navigational intent, actions, and performance to quantify the Trust towards them. The model is tested on a pre-existing dataset that includes recordings (ROSbags) of a human trial in a simulated disaster response scenario. The performance of ATTUNE is evaluated through a qualitative and quantitative analysis. The results of the analyses provide insight into the next stages of the research and help refine the proposed approach.",
+    "summary": "The ATTUNE model quantifies artificial trust in human-robot interaction (HRI) by estimating a robot's trust in a human operator in real-time, using metrics derived from Theory of Mind principles such as attention, intent, actions, and performance within a specific task. The model's performance is evaluated using a simulated disaster response dataset."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/F24kibEdEvRSo7PFi/human-ai-complementarity-a-goal-for-amplified-oversight",
+    "author": "rishubjain",
+    "title": "Human-AI Complementarity: A Goal for Amplified Oversight",
+    "published_date": "2024-12-24",
+    "summary": "Amplified oversight, using AI to enhance human evaluation of AI systems, is crucial for AI safety. This involves \"Rater Assistance,\" providing AI tools to aid human raters, and \"Hybridization,\" combining human and AI judgments, leveraging their complementary strengths to improve overall evaluation accuracy."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.05179.pdf",
+    "title": "Effect of Adapting to Human Preferences on Trust in Human-Robot Teaming",
+    "published_date": "2023-09-11",
+    "abstract": "We present the effect of adapting to human preferences on trust in a human-robot teaming task. The team performs a task in which the robot acts as an action recommender to the human. It is assumed that the behavior of the human and the robot is based on some reward function they try to optimize. We use a new human trust-behavior model that enables the robot to learn and adapt to the human's preferences in real-time during their interaction using Bayesian Inverse Reinforcement Learning.\nWe present three strategies for the robot to interact with a human: a non-learner strategy, in which the robot assumes that the human's reward function is the same as the robot's, a non-adaptive learner strategy that learns the human's reward function for performance estimation, but still optimizes its own reward function, and an adaptive-learner strategy that learns the human's reward function for performance estimation and also optimizes this learned reward function. Results show that adapting to the human's reward function results in the highest trust in the robot.",
+    "citation_count": 3,
+    "summary": "This study investigates how a robot's adaptation to human preferences impacts trust during collaborative tasks, finding that robots adapting their behavior to match learned human preferences engender significantly higher levels of human trust compared to non-adaptive strategies."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/6xiBgLvvDiH7Sboq2/",
+    "author": "Jan, Karl von Wendt",
+    "title": "Trust-maximizing AGI",
+    "published_date": "2022-02-25",
+    "summary": "The article proposes \"trust-maximization\" as a potential safety goal for advanced AI, arguing that while deception might initially increase trust, the inherent instability of trust built on lies makes honesty a more sustainable long-term strategy for an AI whose ultimate goal is maximizing human trust."
+  },
+  {
+    "url": "https://arxiv.org/abs/2106.16106?context=cs.HC",
+    "title": "How can design help enhance trust calibration in public autonomous vehicles?",
+    "published_date": "2021-06-30",
+    "abstract": "Trust is a multilayered concept with critical relevance when it comes to introducing new technologies. Understanding how humans will interact with complex vehicle systems and preparing for the functional, societal and psychological aspects of autonomous vehicles' entry into our cities is a pressing concern. Design tools can help calibrate the adequate and affordable level of trust needed for a safe and positive experience. This study focuses on passenger interactions capable of enhancing the system trustworthiness and data accuracy in future shared public transportation.",
+    "summary": "This paper explores how design can improve user trust in public autonomous vehicles, focusing on passenger interactions that enhance system trustworthiness and data accuracy for safer and more positive experiences."
+  }
+]

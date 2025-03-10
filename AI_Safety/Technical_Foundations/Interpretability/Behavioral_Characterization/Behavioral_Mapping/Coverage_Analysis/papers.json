@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2209.06316",
+    "title": "Optimizing SLAM Evaluation Footprint Through Dynamic Range Coverage Analysis of Datasets",
+    "published_date": "2022-09-13",
+    "abstract": "Simultaneous Localization and Mapping (SLAM) is considered an ever-evolving problem due to its usage in many applications. Evaluation of SLAM is done typically using publicly available datasets which are increasing in number and the level of difficulty. Each dataset provides a certain level of dynamic range coverage that is a key aspect of measuring the robustness and resilience of SLAM. In this paper, we provide a systematic analysis of the dynamic range coverage of datasets based on a number of characterization metrics, and our analysis shows a huge level of redundancy within and between datasets. Subsequently, we propose a dynamic programming (DP) algorithm for eliminating the redundancy in the evaluation process of SLAM by selecting a subset of sequences that matches a single or multiple dynamic range coverage objectives. It is shown that, with the help of dataset characterization and DP selection algorithm, a reduction in the evaluation effort can be achieved while maintaining the same level of coverage. We also compare our proposed algorithm with other available methods and provide evidence of its superiority regardless of the increase in the number of objectives or dataset sequences."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.11625.pdf",
+    "title": "Volumetric Objectives for Multi-Robot Exploration of Three-Dimensional Environments",
+    "published_date": "2021-03-22",
+    "abstract": "Volumetric objectives for exploration and perception tasks seek to capture a sense of value (or reward) for hypothetical observations at one or more camera views for robots operating in unknown environments. For example, a volumetric objective may reward robots proportionally to the expected volume of unknown space to be observed. We identify connections between existing information-theoretic and coverage objectives in terms of expected coverage, particularly that mutual information without noise is a special case of expected coverage. Likewise, we provide the first comparison, of which we are aware, between information-based approximations and coverage objectives for exploration, and we find, perhaps surprisingly, that coverage objectives can significantly outperform information-based objectives in practice. Additionally, the analysis for information and coverage objectives demonstrates that Randomized Sequential Partitions—a method for efficient distributed sensor planning—applies for both classes of objectives, and we provide simulation results in a variety of environments for as many as 32 robots.",
+    "citation_count": 10
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2012.00724.pdf",
+    "title": "Assessing and Accelerating Coverage in Deep Reinforcement Learning",
+    "published_date": "2020-12-01",
+    "abstract": "Current deep reinforcement learning (DRL) algorithms utilize randomness in simulation environments to assume complete coverage in the state space. However, particularly in high dimensions, relying on randomness may lead to gaps in coverage of the trained DRL neural network model, which in turn may lead to drastic and often fatal real-world situations. To the best of the author's knowledge, the assessment of coverage for DRL is lacking in current research literature. Therefore, in this paper, a novel measure, Approximate Pseudo-Coverage (APC), is proposed for assessing the coverage in DRL applications. We propose to calculate APC by projecting the high dimensional state space on to a lower dimensional manifold and quantifying the occupied space. Furthermore, we utilize an exploration-exploitation strategy for coverage maximization using Rapidly-Exploring Random Tree (RRT). The efficacy of the assessment and the acceleration of coverage is demonstrated on standard tasks such as Cartpole, highway-env.",
+    "citation_count": 2
+  }
+]

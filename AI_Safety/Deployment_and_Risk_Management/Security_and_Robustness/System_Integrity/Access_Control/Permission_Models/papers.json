@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2403.08264",
+    "title": "GPT, ontology, and CAABAC: A tripartite personalized access control model anchored by compliance, context and attribute",
+    "published_date": "2024-03-13",
+    "abstract": "As digital healthcare evolves, the security of electronic health records (EHR) becomes increasingly crucial. This study presents the GPT-Onto-CAABAC framework, integrating Generative Pretrained Transformer (GPT), medical-legal ontologies and Context-Aware Attribute-Based Access Control (CAABAC) to enhance EHR access security. Unlike traditional models, GPT-Onto-CAABAC dynamically interprets policies and adapts to changing healthcare and legal environments, offering customized access control solutions. Through empirical evaluation, this framework is shown to be effective in improving EHR security by accurately aligning access decisions with complex regulatory and situational requirements. The findings suggest its broader applicability in sectors where access control must meet stringent compliance and adaptability standards.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.19021",
+    "title": "IBAC Mathematics and Mechanics: The Case for 'Integer Based Access Control' of Data Security in the Age of AI and AI Automation",
+    "published_date": "2024-10-24",
+    "abstract": "Current methods for data access control, especially regarding AI and AI automation, face unique challenges in ensuring appropriate data access. We introduce Integer-Based Access Control (IBAC), addressing the limitations of Role-Based Access Control (RBAC) and Attribute-Based Access Control (ABAC). IBAC's mathematical foundations enable its application to relational and NoSQL databases, as well as document authorization. We demonstrate IBAC's suitability for filtering relational database row-level information and AI and NLP access based on separation of duty, supporting both\"need to know\"and\"need to share\"data restrictions. IBAC uses security tokens, which are integers representing aggregated security attributes. These tokens maintain orthogonality across encoded attributes but are stored as integers for fast real-time vector comparison and efficient dominance testing. This mechanism allows high-speed row-level result filtering, ensuring unauthorized records are excluded before results reach the requester. We extend the Bell-LaPadula model by incorporating a\"process constraint,\"overcoming RBAC and ABAC limitations with reduced complexity, increased flexibility, and enhanced performance in data filtering. Our theorems demonstrate the extended Dominance relationship, facilitating rapid federated authorization across diverse databases and file systems. This work reaffirms the practical strength of the Bell-LaPadula model in data security through (1) our mathematical extension, (2) a novel IBAC security attribute encoding scheme, and (3) a simplified dominance testing mechanism for security tokens without decoding."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.07489",
+    "title": "RAGent: Retrieval-based Access Control Policy Generation",
+    "published_date": "2024-09-08",
+    "abstract": "Manually generating access control policies from an organization's high-level requirement specifications poses significant challenges. It requires laborious efforts to sift through multiple documents containing such specifications and translate their access requirements into access control policies. Also, the complexities and ambiguities of these specifications often result in errors by system administrators during the translation process, leading to data breaches. However, the automated policy generation frameworks designed to help administrators in this process are unreliable due to limitations, such as the lack of domain adaptation. Therefore, to improve the reliability of access control policy generation, we propose RAGent, a novel retrieval-based access control policy generation framework based on language models. RAGent identifies access requirements from high-level requirement specifications with an average state-of-the-art F1 score of 87.9%. Through retrieval augmented generation, RAGent then translates the identified access requirements into access control policies with an F1 score of 77.9%. Unlike existing frameworks, RAGent generates policies with complex components like purposes and conditions, in addition to subjects, actions, and resources. Moreover, RAGent automatically verifies the generated policies and iteratively refines them through a novel verification-refinement mechanism, further improving the reliability of the process by 3%, reaching the F1 score of 80.6%. We also introduce three annotated datasets for developing access control policy generation frameworks in the future, addressing the data scarcity of the domain.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.14728",
+    "title": "Security Threats in Agentic AI System",
+    "published_date": "2024-10-16",
+    "abstract": "This research paper explores the privacy and security threats posed to an Agentic AI system with direct access to database systems. Such access introduces significant risks, including unauthorized retrieval of sensitive information, potential exploitation of system vulnerabilities, and misuse of personal or confidential data. The complexity of AI systems combined with their ability to process and analyze large volumes of data increases the chances of data leaks or breaches, which could occur unintentionally or through adversarial manipulation. Furthermore, as AI agents evolve with greater autonomy, their capacity to bypass or exploit security measures becomes a growing concern, heightening the need to address these critical vulnerabilities in agentic systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8xN5KYB9xAgSSi494/against-the-open-source-closed-source-dichotomy-regulated",
+    "author": "alex.herwix",
+    "title": "Against the Open Source / Closed Source Dichotomy: Regulated Source as a Model for Responsible AI Development",
+    "published_date": "2023-09-04"
+  }
+]

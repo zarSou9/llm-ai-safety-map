@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/6L9EhCa8Zo2GoThGB/scaling-laws-literature-review",
+    "author": "Pablo Villalobos",
+    "title": "Scaling Laws Literature Review",
+    "published_date": "2023-01-27"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/midXmMb2Xg37F2Kgn/new-scaling-laws-for-large-language-models",
+    "author": "1a3orn",
+    "title": "New Scaling Laws for Large Language Models",
+    "published_date": "2022-04-01"
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.17563",
+    "title": "An exactly solvable model for emergence and scaling laws in the multitask sparse parity problem",
+    "published_date": "2024-04-26",
+    "abstract": "Deep learning models can exhibit what appears to be a sudden ability to solve a new problem as training time, training data, or model size increases, a phenomenon known as emergence. In this paper, we present a framework where each new ability (a skill) is represented as a basis function. We solve a simple multi-linear model in this skill-basis, finding analytic expressions for the emergence of new skills, as well as for scaling laws of the loss with training time, data size, model size, and optimal compute. We compare our detailed calculations to direct simulations of a two-layer neural network trained on multitask sparse parity, where the tasks in the dataset are distributed according to a power-law. Our simple model captures, using a single fit parameter, the sigmoidal emergence of multiple new skills as training time, data size or model size increases in the neural network.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/eYFscbv5BJ8Fezauj/scaling-laws-vs-individual-differences",
+    "author": "beren",
+    "title": "Scaling laws vs individual differences",
+    "published_date": "2023-01-10"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/4xGAmZ9GTGAkszHoH/parameter-scaling-comes-for-rl-maybe",
+    "author": "1a3orn",
+    "title": "Parameter Scaling Comes for RL, Maybe",
+    "published_date": "2023-01-24"
+  },
+  {
+    "url": "https://arxiv.org/abs/2202.01854",
+    "title": "Causal emergence is widespread across measures of causation",
+    "published_date": "2022-02-03",
+    "abstract": "Causal emergence is the theory that macroscales can reduce the noise in causal relationships, leading to stronger causes at the macroscale. First identified using the effective information and later the integrated information in model systems, causal emergence has been analyzed in real data across the sciences since. But is it simply a quirk of these original measures? To answer this question we examined over a dozen popular measures of causation, all independently developed and widely used, and spanning different fields from philosophy to statistics to psychology to genetics. All showed cases of causal emergence. This is because, we prove, measures of causation are based on a small set of related\"causal primitives.\"This consilience of independently-developed measures of causation shows that macroscale causation is a general fact about causal relationships, is scientifically detectable, and is not a quirk of any particular measure of causation. This finding sets the science of emergence on firmer ground, opening the door for the detection of intrinsic scales of function in complex systems, as well as assisting with scientific modeling and experimental interventions.",
+    "citation_count": 12
+  }
+]

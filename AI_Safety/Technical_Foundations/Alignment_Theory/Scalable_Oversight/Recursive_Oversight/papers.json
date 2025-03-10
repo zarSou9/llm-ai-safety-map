@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.lesswrong.com/s/dT7CKGXwq9vt76CeX/p/EoY6P6mpz7ZozhAxm",
+    "author": "Rohin Shah",
+    "title": "[AN #79]: Recursive reward modeling as an alignment technique integrated with deep RL",
+    "published_date": "2020-01-01",
+    "summary": "This Alignment Newsletter discusses Jan Leike's work at DeepMind on recursive reward modeling, a technique aiming to solve the reward specification problem in AI by iteratively refining reward models through human feedback and automated decomposition of tasks. DeepMind's broader AI safety approach involves a portfolio of strategies, including incentive theory and benchmark development."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6x7oExXi32ot6HjJv/approval-directed-bootstrapping",
+    "author": "paulfchristiano",
+    "title": "Approval-directed bootstrapping",
+    "published_date": "2018-11-25",
+    "summary": "The article proposes a bootstrapping method for AI alignment, where a less intelligent agent (\"Arthur\") improves its decision-making by iteratively seeking approval from a slightly more intelligent overseer (\"Hugh\"), progressively increasing the overall intelligence of the system. This process, implemented through predictive modeling of the overseer's judgment, can be learned from examples without complex definitions."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.01641",
+    "title": "Reciprocal Reward Influence Encourages Cooperation From Self-Interested Agents",
+    "published_date": "2024-06-03",
+    "abstract": "Cooperation between self-interested individuals is a widespread phenomenon in the natural world, but remains elusive in interactions between artificially intelligent agents. Instead, naive reinforcement learning algorithms typically converge to Pareto-dominated outcomes in even the simplest of social dilemmas. An emerging literature on opponent shaping has demonstrated the ability to reach prosocial outcomes by influencing the learning of other agents. However, such methods differentiate through the learning step of other agents or optimize for meta-game dynamics, which rely on privileged access to opponents' learning algorithms or exponential sample complexity, respectively. To provide a learning rule-agnostic and sample-efficient alternative, we introduce Reciprocators, reinforcement learning agents which are intrinsically motivated to reciprocate the influence of opponents' actions on their returns. This approach seeks to modify other agents' $Q$-values by increasing their return following beneficial actions (with respect to the Reciprocator) and decreasing it after detrimental actions, guiding them towards mutually beneficial actions without directly differentiating through a model of their policy. We show that Reciprocators can be used to promote cooperation in temporally extended social dilemmas during simultaneous learning. Our code is available at https://github.com/johnlyzhou/reciprocator/.",
+    "summary": "Reciprocators, a novel reinforcement learning agent design, promotes cooperation in social dilemmas by intrinsically motivating agents to reciprocate the influence of opponents' actions on their rewards, thereby guiding them towards mutually beneficial outcomes without requiring access to their learning algorithms. This approach achieves sample efficiency and is agnostic to the learning rules of other agents."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.03865",
+    "title": "AdaSociety: An Adaptive Environment with Social Structures for Multi-Agent Decision-Making",
+    "published_date": "2024-11-06",
+    "abstract": "Traditional interactive environments limit agents' intelligence growth with fixed tasks. Recently, single-agent environments address this by generating new tasks based on agent actions, enhancing task diversity. We consider the decision-making problem in multi-agent settings, where tasks are further influenced by social connections, affecting rewards and information access. However, existing multi-agent environments lack a combination of adaptive physical surroundings and social connections, hindering the learning of intelligent behaviors. To address this, we introduce AdaSociety, a customizable multi-agent environment featuring expanding state and action spaces, alongside explicit and alterable social structures. As agents progress, the environment adaptively generates new tasks with social structures for agents to undertake. In AdaSociety, we develop three mini-games showcasing distinct social structures and tasks. Initial results demonstrate that specific social structures can promote both individual and collective benefits, though current reinforcement learning and LLM-based algorithms show limited effectiveness in leveraging social structures to enhance performance. Overall, AdaSociety serves as a valuable research platform for exploring intelligence in diverse physical and social settings. The code is available at https://github.com/bigai-ai/AdaSociety.",
+    "summary": "AdaSociety is a novel multi-agent environment that dynamically generates tasks influenced by adaptive physical surroundings and evolving social structures, providing a platform to study the interplay between individual and collective intelligence in complex social settings. Initial results highlight the impact of social structures on agent performance, while also revealing limitations of current reinforcement learning and large language model approaches in fully exploiting these structures."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.02960",
+    "title": "Managing multiple agents by automatically adjusting incentives",
+    "published_date": "2024-09-03",
+    "abstract": "In the coming years, AI agents will be used for making more complex decisions, including in situations involving many different groups of people. One big challenge is that AI agent tends to act in its own interest, unlike humans who often think about what will be the best for everyone in the long run. In this paper, we explore a method to get self-interested agents to work towards goals that benefit society as a whole. We propose a method to add a manager agent to mediate agent interactions by assigning incentives to certain actions. We tested our method with a supply-chain management problem and showed that this framework (1) increases the raw reward by 22.2%, (2) increases the agents' reward by 23.8%, and (3) increases the manager's reward by 20.1%.",
+    "summary": "This paper presents a method for managing multiple self-interested AI agents by using a manager agent to adjust incentives, demonstrating improved overall reward and individual agent rewards in a supply-chain management simulation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/F24kibEdEvRSo7PFi/human-ai-complementarity-a-goal-for-amplified-oversight",
+    "author": "rishubjain",
+    "title": "Human-AI Complementarity: A Goal for Amplified Oversight",
+    "published_date": "2024-12-24",
+    "summary": "To ensure safe and aligned AI, amplified oversight techniques like Rater Assistance and Hybridization are crucial. These methods leverage the complementary strengths of humans and AI to improve the evaluation and monitoring of increasingly complex AI systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.02486v1",
+    "title": "Initial Task Allocation for Multi-Human Multi-Robot Teams with Attention-Based Deep Reinforcement Learning",
+    "published_date": "2023-03-04",
+    "abstract": "Multi-human multi-robot teams have great potential for complex and large-scale tasks through the collaboration of humans and robots with diverse capabilities and expertise. To efficiently operate such highly heterogeneous teams and maximize team performance timely, sophisticated initial task allocation strategies that consider individual differences across team members and tasks are required. While existing works have shown promising results in reallocating tasks based on agent state and performance, the neglect of the inherent heterogeneity of the team hinders their effectiveness in realistic scenarios. In this paper, we present a novel formulation of the initial task allocation problem in multi-human multi-robot teams as a contextual multi-attribute decision-make process and propose an attention-based deep reinforcement learning approach. We introduce a cross-attribute attention module to encode the latent and complex dependencies of multiple attributes in the state representation. We conduct a case study in a massive threat surveillance scenario and demonstrate the strengths of our model.",
+    "citation_count": 11,
+    "summary": "This paper proposes a novel attention-based deep reinforcement learning approach for initial task allocation in multi-human multi-robot teams, addressing the limitations of existing methods by explicitly modeling the heterogeneity of team members and tasks through a contextual multi-attribute decision-making process. A cross-attribute attention module encodes complex dependencies between attributes for improved performance, demonstrated via a threat surveillance case study."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "The article explores applying game theory to AI development within organizations, highlighting its limitations in complex bureaucratic settings. It argues that while AI can specialize in certain tasks, human comparative advantage and the inherent limitations of single entities necessitate maintaining hierarchical organizational structures for efficient goal achievement."
+  }
+]

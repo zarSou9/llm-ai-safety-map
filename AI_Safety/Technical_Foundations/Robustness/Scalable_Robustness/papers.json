@@ -1,0 +1,78 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/bBdfbWfWxHN9Chjcq/robustness-to-scale",
+    "author": "Scott Garrabrant",
+    "title": "Robustness to Scale",
+    "published_date": "2018-02-21",
+    "summary": "AI alignment requires \"robustness to scale,\" meaning AI systems should function reliably regardless of their capability level (scaling up or down) and the relative power of their subsystems. Failure to achieve this robustness poses significant risks, especially given the rapid advancement of AI capabilities."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.15311",
+    "title": "Re-evaluating Group Robustness via Adaptive Class-Specific Scaling",
+    "published_date": "2024-12-19",
+    "abstract": "Group distributionally robust optimization, which aims to improve robust accuracies -- worst-group and unbiased accuracies -- is a prominent algorithm used to mitigate spurious correlations and address dataset bias. Although existing approaches have reported improvements in robust accuracies, these gains often come at the cost of average accuracy due to inherent trade-offs. To control this trade-off flexibly and efficiently, we propose a simple class-specific scaling strategy, directly applicable to existing debiasing algorithms with no additional training. We further develop an instance-wise adaptive scaling technique to alleviate this trade-off, even leading to improvements in both robust and average accuracies. Our approach reveals that a na\\\"ive ERM baseline matches or even outperforms the recent debiasing methods by simply adopting the class-specific scaling technique. Additionally, we introduce a novel unified metric that quantifies the trade-off between the two accuracies as a scalar value, allowing for a comprehensive evaluation of existing algorithms. By tackling the inherent trade-off and offering a performance landscape, our approach provides valuable insights into robust techniques beyond just robust accuracy. We validate the effectiveness of our framework through experiments across datasets in computer vision and natural language processing domains.",
+    "summary": "This paper introduces a class-specific scaling strategy to improve the efficiency and flexibility of group distributionally robust optimization, mitigating the trade-off between average and robust accuracies in debiasing algorithms. The proposed adaptive scaling technique often leads to improvements in both accuracies, revealing limitations in existing debiasing methods and offering a novel unified metric for comprehensive evaluation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.10980v2",
+    "title": "MultiRobustBench: Benchmarking Robustness Against Multiple Attacks",
+    "published_date": "2023-02-21",
+    "abstract": "The bulk of existing research in defending against adversarial examples focuses on defending against a single (typically bounded Lp-norm) attack, but for a practical setting, machine learning (ML) models should be robust to a wide variety of attacks. In this paper, we present the first unified framework for considering multiple attacks against ML models. Our framework is able to model different levels of learner's knowledge about the test-time adversary, allowing us to model robustness against unforeseen attacks and robustness against unions of attacks. Using our framework, we present the first leaderboard, MultiRobustBench, for benchmarking multiattack evaluation which captures performance across attack types and attack strengths. We evaluate the performance of 16 defended models for robustness against a set of 9 different attack types, including Lp-based threat models, spatial transformations, and color changes, at 20 different attack strengths (180 attacks total). Additionally, we analyze the state of current defenses against multiple attacks. Our analysis shows that while existing defenses have made progress in terms of average robustness across the set of attacks used, robustness against the worst-case attack is still a big open problem as all existing models perform worse than random guessing.",
+    "citation_count": 7,
+    "summary": "MultiRobustBench is a new benchmark evaluating machine learning model robustness against multiple adversarial attacks, encompassing various attack types and strengths, revealing that while average robustness has improved, robustness against the worst-case attack remains a significant challenge."
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.00046v1",
+    "title": "Edit at your own risk: evaluating the robustness of edited models to distribution shifts",
+    "published_date": "2023-02-28",
+    "abstract": "The current trend toward ever-larger models makes standard retraining procedures an ever-more expensive burden. For this reason, there is growing interest in model editing, which enables computationally inexpensive, interpretable, post-hoc model modifications. While many model editing techniques are promising, research on the properties of edited models is largely limited to evaluation of validation accuracy. The robustness of edited models is an important and yet mostly unexplored topic. In this paper, we employ recently developed techniques from the field of deep learning robustness to investigate both how model editing affects the general robustness of a model, as well as the robustness of the specific behavior targeted by the edit. We find that edits tend to reduce general robustness, but that the degree of degradation depends on the editing algorithm and layers chosen. Motivated by these observations we introduce a new model editing algorithm, 1-layer interpolation (1-LI), which uses weight-space interpolation to navigate the trade-off between editing task accuracy and general robustness.",
+    "citation_count": 8,
+    "summary": "This paper investigates the robustness of post-hoc model edits, finding that while edits often reduce overall model robustness, the impact varies depending on the editing algorithm and layers modified; a new algorithm, 1-layer interpolation, is proposed to mitigate this robustness reduction."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/Epm6CkXrdRyAihMRe/an-66-decomposing-robustness-into-capability-robustness-and",
+    "author": "Rohin Shah",
+    "title": "[AN #66]: Decomposing robustness into capability robustness and alignment robustness - AI Alignment Forum",
+    "published_date": "2023-02-07",
+    "summary": "This Alignment Newsletter discusses the decomposition of robustness in machine learning into \"robust capabilities\" and \"robust alignment,\" highlighting the danger of robustly capable but misaligned AI systems (mesa optimization). It also covers research applying iterated amplification techniques, specifically using \"debate\" between evidence agents to improve model accuracy on multiple-choice questions."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2210.08906.pdf",
+    "title": "A.I. Robustness: a Human-Centered Perspective on Technological Challenges and Opportunities",
+    "published_date": "2022-10-17",
+    "abstract": "Despite the impressive performance of Artificial Intelligence (AI) systems, their robustness remains elusive and constitutes a key issue that impedes large-scale adoption. Besides, robustness is interpreted differently across domains and contexts of AI. In this work, we systematically survey recent progress to provide a reconciled terminology of concepts around AI robustness. We introduce three taxonomies to organize and describe the literature both from a fundamental and applied point of view: 1) methods and approaches that address robustness in different phases of the machine learning pipeline; 2) methods improving robustness in specific model architectures, tasks, and systems; and in addition, 3) methodologies and insights around evaluating the robustness of AI systems, particularly the trade-offs with other trustworthiness properties. Finally, we identify and discuss research gaps and opportunities and give an outlook on the field. We highlight the central role of humans in evaluating and enhancing AI robustness, considering the necessary knowledge they can provide, and discuss the need for better understanding practices and developing supportive tools in the future.",
+    "citation_count": 7,
+    "summary": "This paper surveys current research on AI robustness, offering a unified terminology and taxonomies encompassing methodological approaches, architectural considerations, and evaluation techniques. It emphasizes the crucial role of human expertise in assessing and improving AI robustness, highlighting future research needs."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2205.15624.pdf",
+    "title": "Scalable Distributional Robustness in a Class of Non Convex Optimization with Guarantees",
+    "published_date": "2022-05-31",
+    "abstract": "Distributionally robust optimization (DRO) has shown lot of promise in providing robustness in learning as well as sample based optimization problems. We endeavor to provide DRO solutions for a class of sum of fractionals, non-convex optimization which is used for decision making in prominent areas such as facility location and security games. In contrast to previous work, we find it more tractable to optimize the equivalent variance regularized form of DRO rather than the minimax form. We transform the variance regularized form to a mixed-integer second order cone program (MISOCP), which, while guaranteeing near global optimality, does not scale enough to solve problems with real world data-sets. We further propose two abstraction approaches based on clustering and stratified sampling to increase scalability, which we then use for real world data-sets. Importantly, we provide near global optimality guarantees for our approach and show experimentally that our solution quality is better than the locally optimal ones achieved by state-of-the-art gradient-based methods. We experimentally compare our different approaches and baselines, and reveal nuanced properties of a DRO solution.",
+    "citation_count": 4,
+    "summary": "This paper presents a scalable approach to distributionally robust optimization (DRO) for non-convex sum-of-fractionals problems, transforming the variance-regularized DRO into a mixed-integer second-order cone program and employing clustering/sampling for improved scalability while maintaining near-global optimality guarantees. The method outperforms state-of-the-art gradient-based methods in experiments on real-world datasets."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/robust-agents",
+    "author": "Alyssa Vance",
+    "title": "Robust Agents - AI Alignment Forum",
+    "published_date": "2022-07-14",
+    "summary": "Robust agents are adaptable decision-makers possessing coherent values and decision procedures, allowing them to succeed in diverse and changing situations unlike agents relying on instinct or narrow goals."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.02669v1.pdf",
+    "title": "First-Order Algorithms for Robust Optimization Problems via Convex-Concave Saddle-Point Lagrangian Reformulation",
+    "published_date": "2021-01-07",
+    "abstract": "Robust optimization (RO) is one of the key paradigms for solving optimization problems affected by uncertainty. Two principal approaches for RO, the robust counterpart method and the adversarial approach, potentially lead to excessively large optimization problems. For that reason, first-order approaches, based on online convex optimization, have been proposed as alternatives for the case of large-scale problems. However, existing first-order methods are either stochastic in nature or involve a binary search for the optimal value. We show that this problem can also be solved with deterministic first-order algorithms based on a saddle-point Lagrangian reformulation that avoid both of these issues. Our approach recovers the other approaches' [Formula: see text] convergence rate in the general case and offers an improved [Formula: see text] rate for problems with constraints that are affine both in the decision and in the uncertainty. Experiment involving robust quadratic optimization demonstrates the numerical benefits of our approach. History: Accepted by Antonio Frangioni, Area Editor for Design & Analysis of Algorithms–Continuous. Funding: This work was supported by the Nederlandse Organisatie voor Wetenschappelijk Onderzoek [Grant VI.Veni.191E.035] and the Israel Science Foundation [Grant 1460/19]. Supplemental Material: The software that supports the findings of this study is available within the paper and its Supplemental Information ( https://pubsonline.informs.org/doi/suppl/10.1287/ijoc.2022.0200 ) as well as from the IJOC GitHub software repository ( https://github.com/INFORMSJoC/2022.0200 ). The complete IJOC Software and Data Repository is available at https://informsjoc.github.io/ .",
+    "citation_count": 5,
+    "summary": "This paper presents deterministic first-order algorithms for robust optimization problems, avoiding the stochasticity or binary search inherent in existing methods, by employing a convex-concave saddle-point Lagrangian reformulation. The proposed approach achieves comparable convergence rates to existing methods and improves upon them for specific problem structures."
+  },
+  {
+    "title": "Safety from in-the-loop reachability for cyber-physical systems",
+    "abstract": "We demonstrate a methodology for achieving safe autonomy that relies on computing reachable sets at runtime. Given a system subject to disturbances controlled by an unverified and potentially faulty controller, this methodology computes at each time the reachable set of the system under a backup control law to ensure the system is within reach of a known a priori safe region. Control barrier functions are then used in conjunction with the reachable set to adjust potentially unsafe control actions that would otherwise move the system beyond reach of this safe set. This approach faces several computational challenges: reachable sets for the dynamics must be computed at runtime; sensitivity of the reachable set to initial conditions is required for the control barrier optimization formulation; and the presence of disturbances introduces a large number of constraints in the resulting optimization. The proposed methodology leverages the theory of mixed monotone systems to address these challenges, and the main contribution of this paper is an application of this methodology to a ten dimensional dual planar multirotor system that is implemented on embedded hardware with a controller update rate up to 100Hz.",
+    "published_date": "2021-05-19",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3457335.3461706",
+    "summary": "This paper presents a runtime reachable set computation method for safe autonomous control of cyber-physical systems, using mixed monotone systems theory to overcome computational challenges and enabling real-time implementation on a ten-dimensional multirotor system with a 100Hz update rate. Control barrier functions ensure the system remains within a safe region despite disturbances and potentially faulty controllers."
+  }
+]

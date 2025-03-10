@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2412.15433",
+    "title": "Quantifying detection rates for dangerous capabilities: a theoretical model of dangerous capability evaluations",
+    "published_date": "2024-12-19",
+    "abstract": "We present a quantitative model for tracking dangerous AI capabilities over time. Our goal is to help the policy and research community visualise how dangerous capability testing can give us an early warning about approaching AI risks. We first use the model to provide a novel introduction to dangerous capability testing and how this testing can directly inform policy. Decision makers in AI labs and government often set policy that is sensitive to the estimated danger of AI systems, and may wish to set policies that condition on the crossing of a set threshold for danger. The model helps us to reason about these policy choices. We then run simulations to illustrate how we might fail to test for dangerous capabilities. To summarise, failures in dangerous capability testing may manifest in two ways: higher bias in our estimates of AI danger, or larger lags in threshold monitoring. We highlight two drivers of these failure modes: uncertainty around dynamics in AI capabilities and competition between frontier AI labs. Effective AI policy demands that we address these failure modes and their drivers. Even if the optimal targeting of resources is challenging, we show how delays in testing can harm AI policy. We offer preliminary recommendations for building an effective testing ecosystem for dangerous capabilities and advise on a research agenda."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.09384",
+    "title": "An independent evaluation of the Famine Early Warning Systems Network food security projections",
+    "published_date": "2024-10-12",
+    "abstract": "Reports from the Famine Early Warning Systems Network (FEWSNET) serve as the benchmark for food security predictions which is crucial for stakeholders in planning interventions and support people in need. This paper assesses the predictive accuracy of FEWSNET's food security forecasting, by comparing predictions to the following ground truth assessments at the administrative boundaries-livelihood level, revealing an overall high accuracy of 78\\% across diverse timeframes and locations. However, our analysis also shows significant variations in performance across distinct regions and prediction periods. Therefore, our analysis sheds light on strengths, weaknesses, and areas for improvement in the context of food security predictions. The insights derived from this study not only enhance our understanding of FEWSNET's capabilities but also emphasize the importance of continuous refinement in forecasting methodologies."
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.13793",
+    "title": "Evaluating Frontier Models for Dangerous Capabilities",
+    "published_date": "2024-03-20",
+    "abstract": "To understand the risks posed by a new AI system, we must understand what it can and cannot do. Building on prior work, we introduce a programme of new\"dangerous capability\"evaluations and pilot them on Gemini 1.0 models. Our evaluations cover four areas: (1) persuasion and deception; (2) cyber-security; (3) self-proliferation; and (4) self-reasoning. We do not find evidence of strong dangerous capabilities in the models we evaluated, but we flag early warning signs. Our goal is to help advance a rigorous science of dangerous capability evaluation, in preparation for future models.",
+    "citation_count": 41
+  },
+  {
+    "url": "https://arxiv.org/pdf/2207.13941.pdf",
+    "title": "A Civil Protection Early Warning System to Improve the Resilience of Adriatic-Ionian Territories to Natural and Man-made Risk",
+    "published_date": "2022-07-28",
+    "abstract": "We are currently witnessing an increased occurrence of extreme weather events, causing a great deal of disruption and distress across the globe. In this setting, the importance and utility of Early Warning Systems is becoming increasingly obvious. In this work, we present the design of an early warning system called TransCPEarlyWarning, aimed at seven countries in the Adriatic-Ionian area in Europe. The overall objective is to increase the level of cooperation among national civil protection institutions in these countries, addressing natural and man-made risks from the early warning stage and improving the intervention capabilities of civil protection mechanisms. The system utilizes an innovative approach with a lever effect, while also aiming to support the whole system of Civil Protection.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2203.01100.pdf",
+    "title": "Dynamical stability indicator based on autoregressive moving-average models: Critical transitions and the Atlantic meridional overturning circulation.",
+    "published_date": "2022-03-02",
+    "abstract": "A statistical indicator for dynamic stability, known as the Υ indicator, is used to gauge the stability and, hence, detect approaching tipping points of simulation data from a reduced five-box model of the North Atlantic Meridional Overturning Circulation (AMOC) exposed to a time-dependent hosing function. The hosing function simulates the influx of fresh water due to the melting of the Greenland ice sheet and increased precipitation in the North Atlantic. The Υ indicator is designed to detect changes in the memory properties of the dynamics and is based on fitting auto-regressive moving-average models in a sliding window approach to time series data. An increase in memory properties is interpreted as a sign of dynamical instability. The performance of the indicator is tested on time series subject to different types of tipping, namely, bifurcation-induced, noise-induced, and rate-induced tipping. The numerical analysis shows that the indicator indeed responds to the different types of induced instabilities. Finally, the indicator is applied to two AMOC time series from a full complexity Earth systems model (CESM2). Compared with the doubling CO scenario, the quadrupling CO scenario results in stronger dynamical instability of the AMOC during its weakening phase.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rmwAuWXYTo24E5nnX/a-pin-and-a-balloon-anthropic-fragility-increases-chances-of",
+    "author": "avturchin",
+    "title": "A Pin and a Balloon: Anthropic Fragility Increases Chances of Runaway Global Warming",
+    "published_date": "2022-09-11"
+  }
+]

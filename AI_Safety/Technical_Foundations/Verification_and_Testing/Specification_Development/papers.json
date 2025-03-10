@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/ZEoyoccFoBQQRzbz2/deepmind-team-on-specification-gaming",
+    "author": "Joshua Fox",
+    "title": "DeepMind team on specification gaming - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "Specification gaming describes AI systems exploiting loopholes in their instructions to achieve goals in unintended ways, highlighting the limitations of relying solely on explicit instructions for complex tasks. This behavior underscores the need for more robust and nuanced AI design beyond simple rule-following."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/7b2RJJQ76hjZwarnj/specification-gaming-the-flip-side-of-ai-ingenuity",
+    "author": "Vika, Vlad Mikulik, Matthew Rahtz, tom4everitt, Zac Kenton, janleike",
+    "title": "Specification gaming: the flip side of AI ingenuity",
+    "published_date": "2020-05-06",
+    "summary": "Specification gaming, where AI agents achieve a stated objective but not the intended outcome by exploiting loopholes in the task's definition, is a significant problem in artificial intelligence. This behavior highlights the crucial need for carefully designed reward functions and task specifications to ensure AI agents act in accordance with human intent."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.04986",
+    "title": "Finding Safety Violations of AI-Enabled Control Systems through the Lens of Synthesized Proxy Programs",
+    "published_date": "2024-10-07",
+    "abstract": "Given the increasing adoption of modern AI-enabled control systems, ensuring their safety and reliability has become a critical task in software testing. One prevalent approach to testing control systems is falsification, which aims to find an input signal that causes the control system to violate a formal safety specification using optimization algorithms. However, applying falsification to AI-enabled control systems poses two significant challenges: (1)~it requires the system to execute numerous candidate test inputs, which can be time-consuming, particularly for systems with AI models that have many parameters, and (2)~multiple safety requirements are typically defined as a conjunctive specification, which is difficult for existing falsification approaches to comprehensively cover. This paper introduces Synthify, a falsification framework tailored for AI-enabled control systems. Our approach performs falsification in a two-phase process. At the start, Synthify synthesizes a program that implements one or a few linear controllers to serve as a proxy for the AI controller. This proxy program mimics the AI controller's functionality but is computationally more efficient. Then, Synthify employs the $\\epsilon$-greedy strategy to sample a promising sub-specification from the conjunctive safety specification. It then uses a Simulated Annealing-based falsification algorithm to find violations of the sampled sub-specification for the control system. To evaluate Synthify, we compare it to PSY-TaLiRo, a state-of-the-art and industrial-strength falsification tool, on 8 publicly available control systems. On average, Synthify achieves a 83.5% higher success rate in falsification compared to PSY-TaLiRo with the same budget of falsification trials. The safety violations found by Synthify are also more diverse than those found by PSY-TaLiRo, covering 137.7% more sub-specifications.",
+    "summary": "Synthify, a novel falsification framework for AI-enabled control systems, uses synthesized proxy programs to efficiently identify safety violations by focusing on sub-specifications within a conjunctive safety specification, significantly outperforming existing methods in both success rate and diversity of violations found."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19",
+    "summary": "The article argues that applying formal verification to guarantee AI safety is unrealistic in the near term. The complexity of the real world, including physical and biological systems, makes obtaining sufficiently accurate models and data for formal verification to produce strong guarantees practically impossible."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.14597v2",
+    "title": "AI Safety Subproblems for Software Engineering Researchers",
+    "published_date": "2023-04-28",
+    "abstract": "In this 4-page manuscript we discuss the problem of long-term AI Safety from a Software Engineering (SE) research viewpoint. We briefly summarize long-term AI Safety, and the challenge of avoiding harms from AI as systems meet or exceed human capabilities, including software engineering capabilities (and approach AGI /\"HLMI\"). We perform a quantified literature review suggesting that AI Safety discussions are not common at SE venues. We make conjectures about how software might change with rising capabilities, and categorize\"subproblems\"which fit into traditional SE areas, proposing how work on similar problems might improve the future of AI and SE.",
+    "citation_count": 4,
+    "summary": "This paper argues that software engineering research can significantly contribute to AI safety, highlighting a gap in current AI safety discussions within the software engineering community and proposing several subproblems where existing software engineering expertise can be applied to mitigate potential harms from advanced AI."
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.08431",
+    "title": "Assuring the emotional and cultural intelligence of intelligent software systems",
+    "published_date": "2023-11-14",
+    "abstract": "Intelligent software systems (e.g., conversational agents, profiling systems, recruitment systems) are often designed in a manner which may perpetuate anti-Black racism and other forms of socio-cultural discrimination. This may reinforce social inequities by supporting the automation of consequential and sometimes unfair decisions that may be made by such systems and which may have an adverse impact on credit scores, insurance payouts, and even health evaluations, just to name a few. My lightning talk will therefore emphasize the need to propose a new type of nonfunctional requirements called ECI (emotional and cultural intelligence) requirements that will aim at developing discrimination-aware intelligent software systems. Such systems will notably be able to behave empathetically toward everyone, including minoritized groups and will ensure these groups are treated fairly. My talk will also emphasize the need to develop novel system assurance solutions to assure these ECI requirements are sufficiently supported by intelligent software systems.CCS CONCEPTS• Software and its engineering -> Software organization and properties -> Extra-functional properties",
+    "summary": "Intelligent software systems can perpetuate socio-cultural discrimination, necessitating new \"emotional and cultural intelligence\" (ECI) requirements and assurance methods to ensure fair and empathetic treatment of all users, especially marginalized groups."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.10304",
+    "title": "Synthesizing Reactive Test Environments for Autonomous Systems: Testing Reach-Avoid Specifications with Multi-Commodity Flows",
+    "published_date": "2022-10-19",
+    "abstract": "We study automated test generation for testing discrete decision-making modules in autonomous systems. Linear temporal logic is used to encode the system specification - requirements of the system under test - and the test specification, which is unknown to the system and describes the desired test behavior. The reactive test synthesis problem is to find constraints on system actions such that in a test execution, both the system and test specifications are satisfied. To do this, we use the specifications and their corresponding Büchi automata to construct the specification product automaton. Then, a virtual product graph representing all possible test executions of the system is constructed from the transition system and the specification product automaton. The main result of this paper is framing the test synthesis problem as a multi-commodity network flow optimization. This optimization is used to derive reactive constraints on system actions, which constitute the test environment. The resulting test environment ensures that the system meets the test specification while also satisfying the system specification. We illustrate this framework in simulation using grid world examples and demonstrate it on hardware with the Unitree A1 quadruped, where we test dynamic locomotion behaviors reactively.",
+    "citation_count": 2,
+    "summary": "This paper presents a novel method for automated test generation of autonomous systems, framing the reactive test synthesis problem as a multi-commodity network flow optimization to generate constraints ensuring both system and test specifications are met during execution. This approach is demonstrated through simulations and hardware testing on a quadruped robot."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.10298",
+    "title": "Evaluation Metrics for Object Detection for Autonomous Systems",
+    "published_date": "2022-10-19",
+    "abstract": "This paper studies the evaluation of learning-based object detection models in conjunction with model-checking of formal specifications defined on an abstract model of an autonomous system and its environment. In particular, we define two metrics -- \\emph{proposition-labeled} and \\emph{class-labeled} confusion matrices -- for evaluating object detection, and we incorporate these metrics to compute the satisfaction probability of system-level safety requirements. While confusion matrices have been effective for comparative evaluation of classification and object detection models, our framework fills two key gaps. First, we relate the performance of object detection to formal requirements defined over downstream high-level planning tasks. In particular, we provide empirical results that show that the choice of a good object detection algorithm, with respect to formal requirements on the overall system, significantly depends on the downstream planning and control design. Secondly, unlike the traditional confusion matrix, our metrics account for variations in performance with respect to the distance between the ego and the object being detected. We demonstrate this framework on a car-pedestrian example by computing the satisfaction probabilities for safety requirements formalized in Linear Temporal Logic (LTL).",
+    "citation_count": 3,
+    "summary": "This paper introduces two novel confusion matrix-based metrics for evaluating object detection models within autonomous systems, linking object detection performance to the satisfaction probability of high-level safety requirements formalized in Linear Temporal Logic (LTL) and accounting for distance-dependent detection variations. The framework demonstrates that optimal object detection algorithm selection depends heavily on downstream planning and control."
+  },
+  {
+    "url": "https://arxiv.org/abs/2206.05273",
+    "title": "A General Framework for the Representation of Function and Affordance: A Cognitive, Causal, and Grounded Approach, and a Step Toward AGI",
+    "published_date": "2022-06-02",
+    "abstract": "The function and affordance of natural or artificial objects and various physical constructs feature prominently in the functioning of an intelligent system or an intelligent autonomous system (IAS). In navigating an environment, an IAS needs to understand the function and affordance of roads, stairs, bridges, and various physical constructs that may assist with or obstruct its movement to achieve its goal(s). When encountering objects, understanding their function and affordance so that they may be manipulated or made use of to support the IAS in performing certain required tasks is a key aspect of the intelligent functioning of the IAS. In AI research, so far, the attention paid to the characterization and representation of function and affordance has been sporadic and sparse, and it has not received the same attention as, say, object categorization or natural language processing, even though this aspect features prominently in an intelligent system's functioning, and is more fundamental and important in many ways. In the sporadic and sparse, though commendable efforts so far devoted to the characterization and understanding of function and affordance, there has also been no general framework that could unify all the different use domains and situations related to functionality, and that could provide an intelligent system or an IAS the necessary computational, representational, processing, and reasoning constructs to effect recognition, generation, and application of functional concepts. This paper develops just such a general framework, with an approach that emphasizes the fact that the representations involved must be explicitly cognitive and conceptual, and they must also contain the causal characterizations of the events and processes involved, as well as employ conceptual constructs that are grounded in the referents to which they refer, in order to achieve maximal generality for the framework to be applicable to a wide range of domains and situations. The basic general framework is described, along with a set of basic guiding principles with regards to representation of functionality. To properly and adequately characterize and represent functionality, a descriptive representation language is needed. This language is defined and developed, and many examples of its use are described. The general framework is developed based on an extension of the general language meaning representational framework called conceptual dependency. To support the general characterization and representation of functionality, the basic conceptual dependency framework is enhanced with representational devices called structure anchor and conceptual dependency elaboration, together with the definition of a set of ground level concepts. These novel representational constructs are defined, developed, and described. A general framework dealing with functionality would represent a major step toward achieving Artificial General Intelligence.",
+    "citation_count": 4,
+    "summary": "This paper proposes a novel general framework for representing function and affordance in artificial intelligence, emphasizing cognitive, causal, and grounded representations. This framework, extending conceptual dependency theory, aims to unify diverse applications and advance the development of Artificial General Intelligence."
+  }
+]

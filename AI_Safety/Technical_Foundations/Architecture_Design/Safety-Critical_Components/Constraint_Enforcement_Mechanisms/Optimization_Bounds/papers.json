@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/PbXwdFnSC26Q96FG3/aspiration-based-designs-outlook-dealing-with-complexity",
+    "author": "Jobst Heitzig, jossoliver, thomasfinn, Simon Dima",
+    "title": "[Aspiration-based designs] Outlook: dealing with complexity",
+    "published_date": "2024-04-28"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2304.06104.pdf",
+    "title": "Primal-Dual Contextual Bayesian Optimization for Control System Online Optimization with Time-Average Constraints",
+    "published_date": "2023-04-12",
+    "abstract": "This paper studies the problem of online performance optimization of constrained closed-loop control systems, where both the objective and the constraints are unknown black-box functions affected by exogenous time-varying contextual disturbances. A primal-dual contextual Bayesian optimization algorithm is proposed that achieves sublinear cumulative regret with respect to the dynamic optimal solution under certain regularity conditions. Furthermore, the algorithm achieves zero time-average constraint violation, ensuring that the average value of the constraint function satisfies the desired constraint. The method is applied to both sampled instances from Gaussian processes and a continuous stirred tank reactor parameter tuning problem; simulation results show that the method simultaneously provides close-to-optimal performance and maintains constraint feasibility on average. This contrasts current state-of-the-art methods, which either suffer from large cumulative regret or severe constraint violations for the case studies presented.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Z9P2m462wQ4qmH6uo/aspiration-based-q-learning",
+    "author": "Clément Dumas, Jobst Heitzig",
+    "title": "Aspiration-based Q-Learning",
+    "published_date": "2023-10-27"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.05135v1.pdf",
+    "title": "Regret and Cumulative Constraint Violation Analysis for Online Convex Optimization with Long Term Constraints",
+    "published_date": "2021-06-09",
+    "abstract": "This paper considers online convex optimization with long term constraints, where constraints can be violated in intermediate rounds, but need to be satisfied in the long run. The cumulative constraint violation is used as the metric to measure constraint violations, which excludes the situation that strictly feasible constraints can compensate the effects of violated constraints. A novel algorithm is first proposed and it achieves an $\\mathcal{O}(T^{\\max\\{c,1-c\\}})$ bound for static regret and an $\\mathcal{O}(T^{(1-c)/2})$ bound for cumulative constraint violation, where $c\\in(0,1)$ is a user-defined trade-off parameter, and thus has improved performance compared with existing results. Both static regret and cumulative constraint violation bounds are reduced to $\\mathcal{O}(\\log(T))$ when the loss functions are strongly convex, which also improves existing results. %In order to bound the regret with respect to any comparator sequence, In order to achieve the optimal regret with respect to any comparator sequence, another algorithm is then proposed and it achieves the optimal $\\mathcal{O}(\\sqrt{T(1+P_T)})$ regret and an $\\mathcal{O}(\\sqrt{T})$ cumulative constraint violation, where $P_T$ is the path-length of the comparator sequence. Finally, numerical simulations are provided to illustrate the effectiveness of the theoretical results.",
+    "citation_count": 37
+  },
+  {
+    "title": "Some new optimality conditions for semivector bilevel optimization program",
+    "abstract": "This paper discusses a kind of non-convex, non-smooth optimistic semivector bilevel optimization programs which equipped with a vector lower level problem. We introduce a class of new gap functions and penalty functions to transform this two level program into a one level scalar-objective optimization problem. Furthermore, we derive first-order optimality conditions for this semivector bilevel program in both global and local sense, using calculus of basic subdifferential and partial calmness. By applying new developments in basic subdifferential, we estimate basic subdifferential of gap functions and penalty functions which specify the former mentioned optimality conditions.",
+    "published_date": "2021-01-24",
+    "citation_count": 1,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/02331934.2021.1873989"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.02669v1.pdf",
+    "title": "First-Order Algorithms for Robust Optimization Problems via Convex-Concave Saddle-Point Lagrangian Reformulation",
+    "published_date": "2021-01-07",
+    "abstract": "Robust optimization (RO) is one of the key paradigms for solving optimization problems affected by uncertainty. Two principal approaches for RO, the robust counterpart method and the adversarial approach, potentially lead to excessively large optimization problems. For that reason, first-order approaches, based on online convex optimization, have been proposed as alternatives for the case of large-scale problems. However, existing first-order methods are either stochastic in nature or involve a binary search for the optimal value. We show that this problem can also be solved with deterministic first-order algorithms based on a saddle-point Lagrangian reformulation that avoid both of these issues. Our approach recovers the other approaches' [Formula: see text] convergence rate in the general case and offers an improved [Formula: see text] rate for problems with constraints that are affine both in the decision and in the uncertainty. Experiment involving robust quadratic optimization demonstrates the numerical benefits of our approach. History: Accepted by Antonio Frangioni, Area Editor for Design & Analysis of Algorithms–Continuous. Funding: This work was supported by the Nederlandse Organisatie voor Wetenschappelijk Onderzoek [Grant VI.Veni.191E.035] and the Israel Science Foundation [Grant 1460/19]. Supplemental Material: The software that supports the findings of this study is available within the paper and its Supplemental Information ( https://pubsonline.informs.org/doi/suppl/10.1287/ijoc.2022.0200 ) as well as from the IJOC GitHub software repository ( https://github.com/INFORMSJoC/2022.0200 ). The complete IJOC Software and Data Repository is available at https://informsjoc.github.io/ .",
+    "citation_count": 5
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.18660",
+    "title": "Effects of AI Feedback on Learning, the Skill Gap, and Intellectual Diversity",
+    "published_date": "2024-09-27",
+    "abstract": "Can human decision-makers learn from AI feedback? Using data on 52,000 decision-makers from a large online chess platform, we investigate how their AI use affects three interrelated long-term outcomes: Learning, skill gap, and diversity of decision strategies. First, we show that individuals are far more likely to seek AI feedback in situations in which they experienced success rather than failure. This AI feedback seeking strategy turns out to be detrimental to learning: Feedback on successes decreases future performance, while feedback on failures increases it. Second, higher-skilled decision-makers seek AI feedback more often and are far more likely to seek AI feedback after a failure, and benefit more from AI feedback than lower-skilled individuals. As a result, access to AI feedback increases, rather than decreases, the skill gap between high- and low-skilled individuals. Finally, we leverage 42 major platform updates as natural experiments to show that access to AI feedback causes a decrease in intellectual diversity of the population as individuals tend to specialize in the same areas. Together, those results indicate that learning from AI feedback is not automatic and using AI correctly seems to be a skill itself. Furthermore, despite its individual-level benefits, access to AI feedback can have significant population-level downsides including loss of intellectual diversity and an increasing skill gap.",
+    "summary": "A study of 52,000 online chess players reveals that while AI feedback improves high-skill players' performance, it hinders learning in low-skill players and reduces overall strategic diversity, exacerbating existing skill gaps. This suggests that effectively utilizing AI feedback is a skill itself, and its benefits are not universally distributed."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.02868",
+    "title": "Fine-tuning Reinforcement Learning Models is Secretly a Forgetting Mitigation Problem",
+    "published_date": "2024-02-05",
+    "abstract": "Fine-tuning is a widespread technique that allows practitioners to transfer pre-trained capabilities, as recently showcased by the successful applications of foundation models. However, fine-tuning reinforcement learning (RL) models remains a challenge. This work conceptualizes one specific cause of poor transfer, accentuated in the RL setting by the interplay between actions and observations: forgetting of pre-trained capabilities. Namely, a model deteriorates on the state subspace of the downstream task not visited in the initial phase of fine-tuning, on which the model behaved well due to pre-training. This way, we lose the anticipated transfer benefits. We identify conditions when this problem occurs, showing that it is common and, in many cases, catastrophic. Through a detailed empirical analysis of the challenging NetHack and Montezuma's Revenge environments, we show that standard knowledge retention techniques mitigate the problem and thus allow us to take full advantage of the pre-trained capabilities. In particular, in NetHack, we achieve a new state-of-the-art for neural models, improving the previous best score from $5$K to over $10$K points in the Human Monk scenario.",
+    "citation_count": 10,
+    "summary": "Fine-tuning reinforcement learning models often suffers from catastrophic forgetting of pre-trained capabilities, particularly in unexplored state subspaces of the downstream task. Employing knowledge retention techniques mitigates this issue, significantly improving performance as demonstrated by achieving state-of-the-art results in challenging environments like NetHack."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/mental-models",
+    "title": "Mental Models - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Mental models are internal representations of knowledge that approximate the dynamics of observed situations, reusing components to understand novel ones. They are hypothetical constructs describing how people understand and interact with the world."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MkfaQyxB9PN4h8Bs9/ai-safety-101-capabilities",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 : Capabilities - Human Level AI, What? How? and When?",
+    "published_date": "2024-03-07",
+    "summary": "This significantly expanded and revised article explores the current state-of-the-art in artificial intelligence, focusing on foundation models, their capabilities, and potential risks. It also delves into forecasting future AI development, including the computational requirements and potential trajectories of transformative AI."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.11942",
+    "title": "Skills or Degree? The Rise of Skill-Based Hiring for AI and Green Jobs",
+    "published_date": "2023-12-19",
+    "abstract": "Emerging professions in fields like Artificial Intelligence (AI) and sustainability (green jobs) are experiencing labour shortages as industry demand outpaces labour supply. In this context, our study aims to understand whether employers have begun focusing more on individual skills rather than formal qualifications in their recruitment processes. We analysed a large time-series dataset of approximately eleven million online job vacancies in the UK from 2018 to mid-2024, drawing on diverse literature on technological change and labour market signalling. Our findings provide evidence that employers have initiated\"skill-based hiring\"for AI roles, adopting more flexible hiring practices to expand the available talent pool. From 2018-2023, demand for AI roles grew by 21% as a proportion of all postings (and accelerated into 2024). Simultaneously, mentions of university education requirements for AI roles declined by 15%. Our regression analysis shows that university degrees have a significantly lower wage premium for both AI and green roles. In contrast, AI skills command a wage premium of 23%, exceeding the value of degrees up until the PhD-level (33%). In occupations with high demand for AI skills, the premium for skills is high, and the reward for degrees is relatively low. We recommend leveraging alternative skill-building formats such as apprenticeships, on-the-job training, MOOCs, vocational education and training, micro-certificates, and online bootcamps to fully utilise human capital and address talent shortages.",
+    "citation_count": 3,
+    "summary": "A study of UK job postings from 2018-2024 reveals a shift towards skills-based hiring in AI and green jobs, driven by labor shortages and a demonstrated higher wage premium for AI skills compared to formal education. This suggests that alternative skill-building pathways can effectively address talent gaps in these high-demand sectors."
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.09255",
+    "title": "Artificial intelligence and the skill premium",
+    "published_date": "2023-11-14",
+    "abstract": "What will likely be the effect of the emergence of ChatGPT and other forms of artificial intelligence (AI) on the skill premium? To address this question, we develop a nested constant elasticity of substitution production function that distinguishes between industrial robots and AI. Industrial robots predominantly substitute for low-skill workers, whereas AI mainly helps to perform the tasks of high-skill workers. We show that AI reduces the skill premium as long as it is more substitutable for high-skill workers than low-skill workers are for high-skill workers.",
+    "citation_count": 7,
+    "summary": "This paper models the impact of artificial intelligence (AI) on the skill premium, finding that AI's effect depends on its substitutability for high-skill workers relative to low-skill workers' substitutability for high-skill workers; if AI substitutes more readily for high-skill workers, the skill premium decreases."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.09824",
+    "title": "On the Costs and Benefits of Adopting Lifelong Learning for Software Analytics - Empirical Study on Brown Build and Risk Prediction",
+    "published_date": "2023-05-16",
+    "abstract": "Nowadays, software analytics tools using machine learning (ML) models to, for example, predict the risk of a code change are well established. However, as the goals of a project shift over time, and developers and their habits change, the performance of said models tends to degrade (drift) over time. Current retraining practices typically require retraining a new model from scratch on a large updated dataset when performance decay is observed, thus incurring a computational cost; also there is no continuity between the models as the past model is discarded and ignored during the new model training. Even though the literature has taken interest in online learning approaches, those have rarely been integrated and evaluated in industrial environments. This paper evaluates the use of lifelong learning (LL) for industrial use cases at Ubisoft, evaluating both the performance and the required computational effort in comparison to the retraining-from-scratch approaches commonly used by the industry. LL is used to continuously build and maintain ML-based software analytics tools using an incremental learner that progressively updates the old model using new data. To avoid socalled “catastrophic forgetting” of important older data points, we adopt a replay buffer of older data, which still allows us to drastically reduce the size of the overall training dataset, and hence model training time. Empirical evaluation of our LL approach on two industrial use cases, i.e., a brown build detector and a just-in-time risk prediction tool, shows how LL in practice manages to at least match traditional retraining-from-scratch performance in terms of F1-score, while using 3.3-13.7x less data at each update, thus considerably speeding up the model updating process. Considering both the computational effort of updates and the time between model updates, the LL setup needs 2-40x less computational effort than retraining-from-scratch setups, thus clearly showing the potential of LL setups in the industry.",
+    "citation_count": 3,
+    "summary": "This paper empirically evaluates lifelong learning (LL) for maintaining machine learning models in industrial software analytics, demonstrating that LL achieves comparable performance to retraining-from-scratch methods while requiring significantly less data and computation time. The study, conducted at Ubisoft using brown build detection and risk prediction, shows LL reduces computational effort by 2-40x compared to traditional approaches."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/artificial-general-intelligence",
+    "title": "Artificial General Intelligence - LessWrong",
+    "published_date": "2023-02-06",
+    "summary": "Artificial General Intelligence (AGI) refers to machines capable of intelligent behavior across diverse domains, unlike narrow AI which excels only in specific tasks. While AGI development faces uncertainties regarding timelines and potential risks like existential threats, factors like Moore's Law and advancements in neuroscience suggest its emergence within the next century is possible."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2305.16056.pdf",
+    "title": "Markov Decision Processes under External Temporal Processes",
+    "published_date": "2023-05-25",
+    "abstract": "Most reinforcement learning algorithms treat the context under which they operate as a stationary, isolated, and undisturbed environment. However, in real world applications, environments constantly change due to a variety of external events. To address this problem, we study Markov Decision Processes (MDP) under the influence of an external temporal process. First, we formalize this notion and derive conditions under which the problem becomes tractable with suitable solutions. We propose a policy iteration algorithm to solve this problem and theoretically analyze its performance. Our analysis addresses the non-stationarity present in the MDP as a result of non-Markovian events, necessitating the formulation of policies that are contingent upon both the current state and a history of prior events. Additionally, we derive insights regarding the sample complexity of the algorithm and incorporate factors that define the exogenous temporal process into the established bounds. Finally, we perform experiments to demonstrate our findings within a traditional control environment.",
+    "summary": "This paper introduces a Markov Decision Process (MDP) framework incorporating external, time-dependent processes, proposing a policy iteration algorithm to solve it and analyzing its performance and sample complexity under non-stationary conditions. The algorithm considers both current state and a history of external events for policy decisions."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.02939v1.pdf",
+    "title": "Prescribed-Time Control for Linear Systems in Canonical Form via Nonlinear Feedback",
+    "published_date": "2022-01-09",
+    "abstract": "For systems in canonical form with nonvanishing uncertainties/disturbances, this work presents an approach to full-state regulation within prescribed time irrespective of initial conditions. By introducing the smooth hyperbolic-tangent-like function, a nonlinear and time-varying state-feedback control scheme is constructed, which is further extended to address output-feedback-based prescribed-time regulation by invoking the prescribed-time observer, all are applicable over the entire operational time zone. As an alternative to full-state regulation within the user-assignable time interval, the proposed method analytically bridges the divide between linear and nonlinear feedback-based prescribed-time control and is able to achieve asymptotic stability, exponential stability, and prescribed-time stability with a unified control structure.",
+    "citation_count": 20,
+    "summary": "This paper presents a nonlinear, time-varying state-feedback control scheme for linear systems in canonical form, achieving prescribed-time full-state regulation regardless of initial conditions and uncertainties. It extends this to output feedback and unifies asymptotic, exponential, and prescribed-time stability using a single control structure."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2206.01700v1.pdf",
+    "title": "Composite Adaptive Control for Time-Varying Systems With Dual Adaptation",
+    "published_date": "2022-06-03",
+    "abstract": "This article proposes a composite adaptive control architecture using dual adaptation scheme for dynamical systems comprising time-varying uncertain parameters. While majority of the adaptive control schemes in literature address the case of constant parameters, recent research has conceptualized improved adaptive control techniques for time-varying systems with rigorous stability proofs. The proposed work is an effort toward a similar direction, where a novel dual adaptation mechanism is introduced to efficiently tackle the time-varying nature of the parameters. Projection and $\\sigma$-modification algorithms are strategically combined using congelation of variables to claim a global result for the tracking error space. While the classical adaptive systems demand a restrictive condition of persistence of excitation (PE) for accurate parameter estimation, the proposed work relies on a milder condition, called initial excitation (IE) for the same. A rigorous Lyapunov stability analysis is carried out to establish boundedness of the closed-loop system with a tighter ultimate bound compared to existing results. Further, it is analytically shown that the proposed work can recover the performance of previously designed IE-based adaptive controller in case of time invariant systems.",
+    "citation_count": 3,
+    "summary": "This paper presents a novel composite adaptive control architecture with dual adaptation for systems with time-varying uncertain parameters, leveraging projection and σ-modification algorithms to achieve a globally bounded tracking error under a milder initial excitation condition than traditional persistence of excitation requirements. The controller's performance is rigorously proven via Lyapunov stability analysis and shown to recover the performance of existing IE-based controllers for time-invariant systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rCP5iTYLtfcoC8NXd/self-organised-neural-networks-a-simple-natural-and",
+    "author": "D𝜋",
+    "title": "Self-Organised Neural Networks:\nA simple, natural and efficient way to intelligence",
+    "published_date": "2022-01-01",
+    "summary": "This article presents a novel spiking neural network architecture achieving state-of-the-art accuracy (98.9%) on the PI-MNIST dataset using a simple, biologically-inspired learning method based on Hebbian learning and connection decay. The network operates online, requires only additions, and boasts high accuracy even with a limited number of connections."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13",
+    "summary": "This article explains Deep Q-Networks (DQN), a deep reinforcement learning algorithm, at multiple levels of detail. It provides a high-level overview suitable for those familiar with reinforcement learning, and then delves into the technical aspects and implementation for those seeking a deeper understanding."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.01651.pdf",
+    "title": "Timing configurations affect the macro-properties of multi-scale feedback systems",
+    "published_date": "2021-06-03",
+    "abstract": "Multi-scale feedback systems, where information cycles through micro- and macro-scales leading to adaptation, are ubiquitous across domains, from animal societies and human organisations to electric grids and neural networks. Studies on the effects of timing on system properties are often domain specific. The Multi-Scale Abstraction Feedbacks (MSAF) design pattern aims to generalise the modelling of multi-scale systems where feedback occurs across scales. We expand on MSAF to include timing concerns and illustrate their effects via two models: a hierarchical oscillator (HO) and a hierarchical cellular automata (HCA). Results show how (i) different timing configurations significantly affect system macro-properties and (ii) different regions of time configurations can lead to the same macro-properties. These results contribute to theory, while also providing useful insights for designing and controlling such systems.",
+    "citation_count": 5,
+    "summary": "This paper investigates how timing configurations impact the macroscopic behavior of multi-scale feedback systems, using two models to demonstrate that varied timing significantly affects system properties, and that different timing parameters can yield identical macroscopic outcomes."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.01801v1.pdf",
+    "title": "An Information-oriented Model of Multi-Scale (Feedback) Systems",
+    "published_date": "2021-06-03",
+    "abstract": "Multi-scale structures are prevalent in both natural and artificial systems, as they can handle increasing complexity. Several terms are employed almost interchangeably across various application domains to refer to the multi-scale concept - e.g., hierarchy, holarchy, multi-level, multi-layer, nested, embedded, micro-macro or coarse graining. While the concrete meanings behind these terms may differ slightly, several core commonalities persist across all cases. In this position paper we aim to highlight these common features of the multi-scale concept, as a preliminary basis for a generic theory of multi-scale systems. We discuss the concepts of scale and multi-scale systems in general, and then of multi-scale feedback systems in particular, focusing on the role played by information in such systems. Our long-term objective is to develop a general theory of multi-scale feedback systems, applicable across all domains dealing with complex systems.",
+    "summary": "This paper proposes an information-centric model for understanding multi-scale (feedback) systems, aiming to identify commonalities across diverse applications and lay the groundwork for a unified theoretical framework. The authors focus on the role of information flow in these systems to achieve a general theory applicable to complex systems across domains."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.06343.pdf",
+    "title": "Feedback-Based Optimization With Sub-Weibull Gradient Errors and Intermittent Updates",
+    "published_date": "2021-09-13",
+    "abstract": "This letter considers a feedback-based projected gradient method for optimizing systems modeled as algebraic maps. The focus is on a setup where the gradient is corrupted by random errors that follow a sub-Weibull distribution, and where the measurements of the output – which replace the input-output map of the system in the algorithmic updates – may not be available at each iteration. The sub-Weibull error model is particularly well-suited in frameworks where the cost of the problem is learned via Gaussian Process (GP) regression (from functional evaluations) concurrently with the execution of the algorithm; however, it also naturally models setups where nonparametric methods and neural networks are utilized to estimate the cost. Using the sub-Weibull model, and with Bernoulli random variables modeling missing measurements of the system output, we show that the online algorithm generates points that are within a bounded error from the optimal solutions. In particular, we provide error bounds in expectation and in high probability. Numerical results are presented in the context of a demand response problem in smart power grids.",
+    "citation_count": 3,
+    "summary": "This paper analyzes a feedback-based projected gradient method for optimizing algebraic maps, focusing on scenarios with sub-Weibull distributed gradient errors and intermittent updates. The authors prove bounded error from optimal solutions, both in expectation and high probability, using a model suitable for Gaussian process regression and neural network cost estimations, and demonstrate its application to a smart grid problem."
+  }
+]

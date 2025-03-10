@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Distributed adaptive control for optimal tracking of uncertain interconnected dynamical systems",
+    "abstract": "This paper presents a distributed model reference adaptive control scheme for optimal tracking of an interconnected dynamical system in the presence of system/interconnection uncertainties. A reference model selection which achieves an optimal tracking for the nominal system is introduced by using linear quadratic regulator theory. Then an adaptive control law is developed for the uncertain interconnected dynamical system, where it employs the specified reference model. It is shown that the control law achieves the desired behaviour such that the output of the system asymptotically tracks the output of the reference model in the presence of the uncertainties. An explicit error bound regarding optimal tracking is also established.",
+    "published_date": "2022-06-16",
+    "citation_count": 1,
+    "url": "https://www.tandfonline.com/doi/pdf/10.1080/18824889.2022.2143634?needAccess=true",
+    "summary": "This paper proposes a distributed adaptive control scheme that enables optimal tracking of uncertain interconnected dynamical systems by using a linear quadratic regulator-based reference model. The resulting control law ensures asymptotic tracking of the reference model's output despite system and interconnection uncertainties, with an established explicit error bound."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13",
+    "summary": "This article explains Deep Q-Networks (DQN), a deep reinforcement learning algorithm, at multiple levels of detail. It progresses from a high-level overview suitable for those familiar with reinforcement learning to a technical explanation including algorithms and equations, and finally to practical replication advice."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rCP5iTYLtfcoC8NXd/self-organised-neural-networks-a-simple-natural-and",
+    "author": "D𝜋",
+    "title": "Self-Organised Neural Networks:\nA simple, natural and efficient way to intelligence",
+    "published_date": "2022-01-01",
+    "summary": "This article presents a novel spiking neural network architecture achieving state-of-the-art accuracy (98.9%) on the PI-MNIST dataset using a simple, biologically-inspired learning rule based on Hebbian learning and connection decay, requiring only additions and exceeding 98.6% accuracy with significantly fewer connections. The model operates online, without backpropagation or bias, and its performance is attributed to its ability to detect correlations in the input data."
+  },
+  {
+    "title": "Adaptive control systems with unstructured uncertainty and unmodelled dynamics: a relaxed stability condition",
+    "abstract": "As it is well-known, system uncertainties and unmodeled dynamics can deteriorate stability properties of model reference adaptive control systems. Motivated by this standpoint, we first analyse stability conditions of model reference adaptive control architectures in the presence of unstructured system uncertainties and unmodeled dynamics. We then synthesise adaptive robustifying terms to relax the aforementioned stability condition, which presents our main contribution. Specifically, these terms in the feedback loop guarantee overall system stability even in the presence of significant system uncertainties when unmodeled dynamics satisfy a condition. We further demonstrate our theoretical findings in an experiment involving an inverted pendulum on a cart (modeled dynamics) coupled with another cart through a spring (unmodeled dynamics).",
+    "published_date": "2021-03-23",
+    "citation_count": 10,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/00207179.2021.1902568",
+    "summary": "This paper investigates the stability of model reference adaptive control systems with unstructured uncertainties and unmodeled dynamics, proposing novel adaptive robustifying terms to relax existing stability conditions and ensure stability even with significant uncertainties, as demonstrated through an inverted pendulum experiment."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/dual-process-theory-system-1-and-system-2",
+    "author": "Kaj_Sotala",
+    "title": "Dual Process Theory (System 1 & System 2) - LessWrong",
+    "published_date": "2019-11-12",
+    "summary": "Dual Process Theory describes two types of cognitive processing: Type 1 (fast, intuitive) and Type 2 (slow, deliberative), though the original \"System 1/System 2\" terminology is considered misleading due to the heterogeneity of processes within each type. Neither type is inherently more biased than the other; Type 2's perceived unbiasedness arises from its ability to correct Type 1 errors when appropriate rules exist."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nM4bm6tkbZZaScLPp/kalman-filter-for-bayesians",
+    "author": "SatvikBeri",
+    "title": "Kalman Filter for Bayesians",
+    "published_date": "2018-10-22",
+    "summary": "The Kalman filter is a Bayesian method for estimating dynamically changing systems by recursively updating a Gaussian probability distribution. It combines a prior distribution with new measurements (also assumed Gaussian) using a Kalman gain that weights the relative certainty of each, resulting in a refined posterior distribution."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/upLot6eG8cbXdKiFS/reward-function-learning-the-learning-process",
+    "author": "Stuart_Armstrong",
+    "title": "Reward function learning: the learning process",
+    "published_date": "2018-04-24",
+    "summary": "The article analyzes flaws in general reward function learning, specifically highlighting how a learning agent's reward function can be \"rigged\" to favor certain policies, leading to suboptimal behavior. It argues that achieving both Bayesian properties and policy independence in a reward function is impossible, proposing \"unriggable\" learning processes as a solution to this issue."
+  },
+  {
+    "title": "Research on integrated technology and model in avionics system",
+    "abstract": "Avionics system integration is a system technology through which can improve the effectiveness of system task, the efficiency of system function and the availability of resources operating. Therefore, the most important core technology of integrated avionics system is to implement optimized system organizing for system efficiency, effectiveness and validity by adopting the uniform methods of system synthesis, fusion and integration the base of system application requirements, system capacity and resource operating. The aim of integrating avionics system is to minimize resource allocation and maximize operating effectiveness, to optimize function executing and maximize system efficiency. In this paper, based on the requirements, organization and targets, an avionics system integration model - Tiger model is presented, which organizing architecture model including system application, ability and operation. The paper includes the following three contributions: (1) The mechanism of task synthesis for system application organizing, function fusion for system capability organizing, and resource integrating for system resource organizing is analyzed; (2) The generating process and organizing process for system task, function and resource integration are described; (3) The implementing technology of integrated avionics system is detailed based on the presented integrating theory and mechanism.",
+    "published_date": "2014-12-11",
+    "citation_count": 8,
+    "url": "https://ieeexplore.ieee.org/document/6979462",
+    "summary": "This paper proposes a new avionics system integration model, called the Tiger model, which optimizes system organization to improve efficiency, effectiveness, and resource availability. The model focuses on task synthesis, function fusion, and resource integration to achieve these goals."
+  }
+]

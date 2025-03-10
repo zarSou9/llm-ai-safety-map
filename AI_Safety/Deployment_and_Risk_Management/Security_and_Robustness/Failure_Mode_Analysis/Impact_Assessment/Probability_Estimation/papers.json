@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2305.02449.pdf",
+    "title": "Bayesian Safety Validation for Failure Probability Estimation of Black-Box Systems",
+    "published_date": "2023-05-03",
+    "abstract": "Estimating the probability of failure is an important step in the certification of safety-critical systems. Efficient estimation methods are often needed due to the challenges posed by high-dimensional input spaces, risky test scenarios, and computationally expensive simulators. This work frames the problem of black-box safety validation as a Bayesian optimization problem and introduces a method that iteratively fits a probabilistic surrogate model to efficiently predict failures. The algorithm is designed to search for failures, compute the most-likely failure, and estimate the failure probability over an operating domain using importance sampling. We introduce three acquisition functions that aim to reduce uncertainty by covering the design space, optimize the analytically derived failure boundaries, and sample the predicted failure regions. Results show this Bayesian safety validation approach provides a more accurate estimate of failure probability with orders of magnitude fewer samples and performs well across various safety validation metrics. We demonstrate this approach on three test problems, a stochastic decision-making system, and a neural-network-based runway detection system. This work is open-sourced ( https://github.com/sisl/BayesianSafetyValidation.jl ) and is currently being used to supplement the FAA certification process of the machine learning components for an autonomous cargo aircraft.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2208.07935.pdf",
+    "title": "Demonstrating software reliability using possibly correlated tests: Insights from a conservative Bayesian approach",
+    "published_date": "2022-08-16",
+    "abstract": "This paper presents Bayesian techniques for conservative claims about software reliability, particularly when evidence suggests the software's executions are not statistically independent. We formalise informal notions of “doubting” that the executions are independent, and incorporate such doubts into reliability assessments. We develop techniques that reveal the extent to which independence assumptions can undermine conservatism in assessments, and identify conditions under which this impact is not significant. These techniques – novel extensions of conservative Bayesian inference (CBI) approaches – give conservative confidence bounds on the software's failure probability per execution. With illustrations in two application areas – nuclear power‐plant safety and autonomous vehicle (AV) safety – our analyses reveals: (1) the confidence an assessor should possess before subjecting a system to operational testing. Otherwise, such testing is futile – favourable operational testing evidence will eventually decrease one's confidence in the system being sufficiently reliable; (2) the independence assumption supports conservative claims sometimes; (3) in some scenarios, observing a system operate without failure gives less confidence in the system than if some failures had been observed; (4) building confidence in a system is very sensitive to failures – each additional failure means significantly more operational testing is required, in order to support a reliability claim."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.08546v1.pdf",
+    "title": "Catastrophic failure and cumulative damage models involving two types of extended exponential distributions",
+    "published_date": "2021-09-17",
+    "abstract": "The present study supposes a single unit and investigates cumulative damage and catastrophic failure models for the unit, in situations where the interarrival times between the shocks, and the magnitudes of the shocks, involve two different stochastic processes. In order to consider two essentially different stochastic processes, integer gamma and Weibull distributions are treated as distributions with two parameters and extensions of exponential distributions. With respect to the cumulative damage models, under the assumption that the interarrival times between shocks follow exponential distributions, the case in which the magnitudes of the shocks follow integer gamma distributions is analyzed. With respect to the catastrophic failure models, the respective cases in which the interarrival times between shocks follow integer gamma and Weibull distributions are discussed. Finally, the study provides some characteristic values for reliability in such models."
+  }
+]

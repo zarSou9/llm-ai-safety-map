@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2402.17801",
+    "title": "Generative AI and Copyright: A Dynamic Perspective",
+    "published_date": "2024-02-27",
+    "abstract": "The rapid advancement of generative AI is poised to disrupt the creative industry. Amidst the immense excitement for this new technology, its future development and applications in the creative industry hinge crucially upon two copyright issues: 1) the compensation to creators whose content has been used to train generative AI models (the fair use standard); and 2) the eligibility of AI-generated content for copyright protection (AI-copyrightability). While both issues have ignited heated debates among academics and practitioners, most analysis has focused on their challenges posed to existing copyright doctrines. In this paper, we aim to better understand the economic implications of these two regulatory issues and their interactions. By constructing a dynamic model with endogenous content creation and AI model development, we unravel the impacts of the fair use standard and AI-copyrightability on AI development, AI company profit, creators income, and consumer welfare, and how these impacts are influenced by various economic and operational factors. For example, while generous fair use (use data for AI training without compensating the creator) benefits all parties when abundant training data exists, it can hurt creators and consumers when such data is scarce. Similarly, stronger AI-copyrightability (AI content enjoys more copyright protection) could hinder AI development and reduce social welfare. Our analysis also highlights the complex interplay between these two copyright issues. For instance, when existing training data is scarce, generous fair use may be preferred only when AI-copyrightability is weak. Our findings underscore the need for policymakers to embrace a dynamic, context-specific approach in making regulatory decisions and provide insights for business leaders navigating the complexities of the global regulatory environment.",
+    "citation_count": 3,
+    "summary": "This paper uses a dynamic economic model to analyze the impact of fair use standards and AI-copyrightability on generative AI development, creator income, and consumer welfare, revealing complex interactions and highlighting the need for context-specific policymaking. The authors find that optimal regulatory approaches depend on factors such as data scarcity and the strength of AI copyright protection."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.11857",
+    "title": "AI Royalties - an IP Framework to Compensate Artists & IP Holders for AI-Generated Content",
+    "published_date": "2024-04-05",
+    "abstract": "This article investigates how AI-generated content can disrupt central revenue streams of the creative industries, in particular the collection of dividends from intellectual property (IP) rights. It reviews the IP and copyright questions related to the input and output of generative AI systems. A systematic method is proposed to assess whether AI-generated outputs, especially images, infringe previous copyrights, using a similarity metric (CLIP) between images against historical copyright rulings. An examination (economic and technical feasibility) of previously proposed compensation frameworks reveals their financial implications for creatives and IP holders. Lastly, we propose a novel IP framework for compensation of artists and IP holders based on their published\"licensed AIs\"as a new medium and asset from which to collect AI royalties.",
+    "citation_count": 1,
+    "summary": "This paper analyzes the impact of AI-generated content on artists' intellectual property rights and revenue, proposing a novel framework for compensating artists and IP holders based on royalties derived from AI systems trained on their licensed works. The framework incorporates a similarity metric to assess copyright infringement and evaluates the economic feasibility of various compensation models."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.13964",
+    "title": "An Economic Solution to Copyright Challenges of Generative AI",
+    "published_date": "2024-04-22",
+    "abstract": "Generative artificial intelligence (AI) systems are trained on large data corpora to generate new pieces of text, images, videos, and other media. There is growing concern that such systems may infringe on the copyright interests of training data contributors. To address the copyright challenges of generative AI, we propose a framework that compensates copyright owners proportionally to their contributions to the creation of AI-generated content. The metric for contributions is quantitatively determined by leveraging the probabilistic nature of modern generative AI models and using techniques from cooperative game theory in economics. This framework enables a platform where AI developers benefit from access to high-quality training data, thus improving model performance. Meanwhile, copyright owners receive fair compensation, driving the continued provision of relevant data for generative model training. Experiments demonstrate that our framework successfully identifies the most relevant data sources used in artwork generation, ensuring a fair and interpretable distribution of revenues among copyright owners.",
+    "citation_count": 8,
+    "summary": "This paper proposes an economic framework for compensating copyright holders whose data trains generative AI models, using a game-theoretic approach to proportionally distribute revenue based on each contributor's quantified influence on the generated content. This framework aims to balance the needs of AI developers with the rights of copyright owners."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8gCsRPxvXyAZJLcwd/gdp-per-capita-in-2050",
+    "author": "Hauke Hillebrandt",
+    "title": "GDP per capita in 2050",
+    "published_date": "2024-05-06",
+    "summary": "The article presents GDP per capita forecasts for major economies until 2050, arguing that even without transformative AI growth, the projected increases suggest a significantly different world by 2050 compared to today, with substantial improvements in living standards for many countries."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bdQhzQsHjNrQp7cNS/estimates-of-gpu-or-equivalent-resources-of-large-ai-players",
+    "author": "CharlesD",
+    "title": "Estimates of GPU or equivalent resources of large AI players for 2024/5",
+    "published_date": "2024-11-28",
+    "summary": "The article estimates the amount of AI compute power (primarily Nvidia GPUs) major tech companies will possess in 2024 and 2025, relying on publicly available data and Nvidia's financial reports to project GPU production and distribution, acknowledging significant uncertainties and potential inaccuracies in its estimations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5RX8j4CDqadnffCij/fifteen-lawsuits-against-openai",
+    "author": "Remmelt",
+    "title": "Fifteen Lawsuits against OpenAI",
+    "published_date": "2024-03-09",
+    "summary": "Numerous US-based lawsuits against OpenAI allege copyright infringement, privacy violations, and libel, with additional future litigation anticipated in areas such as worker's rights and product liability. Several cases have been partially dismissed or stalled."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5Dz3ZrwBzzMfaucrH/ai-57-all-the-ai-news-that-s-fit-to-print",
+    "author": "Zvi",
+    "title": "AI #57: All the AI News That's Fit to Print",
+    "published_date": "2024-03-28",
+    "summary": "This weekly AI blog post covers a broad range of topics, from the practical applications of AI to its potential existential risks, including commentary on the ongoing debate surrounding AI regulation and safety. The author also includes related discussions on economics and policy."
+  },
+  {
+    "url": "https://arxiv.org/ftp/arxiv/papers/2304/2304.10578.pdf",
+    "title": "Quantifying the Benefit of Artificial Intelligence for Scientific Research",
+    "published_date": "2023-04-17",
+    "abstract": "The ongoing artificial intelligence (AI) revolution has the potential to change almost every line of work. As AI capabilities continue to improve in accuracy, robustness, and reach, AI may outperform and even replace human experts across many valuable tasks. Despite enormous effort devoted to understanding the impact of AI on labor and the economy and AI's recent successes in accelerating scientific discovery and progress, we lack a systematic understanding of how AI advances may benefit scientific research across disciplines and fields. Here, drawing from the literature on the future of work and the science of science, we develop a measurement framework to estimate both the direct use of AI and the potential benefit of AI in scientific research, applying natural language processing techniques to 74.6 million publications and 7.1 million patents. We find that the use of AI in research is widespread throughout the sciences, growing especially rapidly since 2015, and papers that use AI exhibit a citation premium, more likely to be highly cited both within and outside their disciplines. Moreover, our analysis reveals considerable potential for AI to benefit numerous scientific fields, yet a notable disconnect exists between AI education and its research applications, highlighting a mismatch between the supply of AI expertise and its demand in research. Lastly, we examine demographic disparities in AI's benefits across scientific disciplines and find that disciplines with a higher proportion of women or Black scientists tend to be associated with less benefit, suggesting that AI's growing impact on research may further exacerbate existing inequalities in science. As the connection between AI and scientific research deepens, our findings may become increasingly important, with implications for the equity and sustainability of the research enterprise.",
+    "citation_count": 4,
+    "summary": "This study uses natural language processing to analyze millions of publications and patents, revealing widespread AI adoption in scientific research, a citation advantage for AI-using papers, and substantial untapped potential across various fields; however, it also highlights a concerning disparity, with fields employing more women and Black scientists showing less benefit from AI."
+  }
+]

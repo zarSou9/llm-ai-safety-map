@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2208.14660",
+    "title": "Unifying Evaluation of Machine Learning Safety Monitors",
+    "published_date": "2022-08-31",
+    "abstract": "With the increasing use of Machine Learning (ML) in critical autonomous systems, runtime monitors have been developed to detect prediction errors and keep the system in a safe state during operations. Monitors have been proposed for different applications involving diverse perception tasks and ML models, and specific evaluation procedures and metrics are used for different contexts. This paper introduces three unified safety-oriented metrics, representing the safety benefits of the monitor (Safety Gain), the remaining safety gaps after using it (Residual Hazard), and its negative impact on the system's performance (Availability Cost). To compute these metrics, one requires to define two return functions, representing how a given ML prediction will impact expected future rewards and hazards. Three use-cases (classification, drone landing, and autonomous driving) are used to demonstrate how metrics from the literature can be expressed in terms of the proposed metrics. Experimental results on these examples show how different evaluation choices impact the perceived performance of a monitor. As our formalism requires us to formulate explicit safety assumptions, it allows us to ensure that the evaluation conducted matches the high-level system requirements.",
+    "citation_count": 9,
+    "summary": "This paper proposes three unified metrics – Safety Gain, Residual Hazard, and Availability Cost – to evaluate the safety and performance of machine learning runtime monitors across diverse applications, enabling consistent comparison and highlighting the impact of evaluation choices on perceived monitor effectiveness. The framework facilitates explicit safety assumption formulation, ensuring evaluations align with system requirements."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.05391.pdf",
+    "title": "Statistical perspectives on reliability of artificial intelligence systems",
+    "published_date": "2021-11-09",
+    "abstract": "Abstract Artificial intelligence (AI) systems are increasingly popular in many applications. Nevertheless, AI technologies are still developing, and many issues need to be addressed. Among those, the reliability of AI systems needs to be demonstrated so that AI systems can be used with confidence by the general public. In this paper, we provide statistical perspectives on the reliability of AI systems, focusing on the time dimension. That is, the system can perform its designed functionality for the intended period of time. We introduce a so-called “SMART” statistical framework for AI reliability research, which includes five components: Structure of the system, Metrics of reliability, Analysis of failure causes, Reliability assessment, and Test planning. We review traditional methods in reliability data analysis and software reliability, and discuss how those existing methods can be transformed for reliability modeling and assessment of AI systems. Different from traditional reliability studies, the focus of AI reliability is on the software system to include the training data. Thus, we describe recent developments in modeling and analysis of AI reliability for software systems. The paper outlines statistical research challenges in this area, including out-of-distribution detection, the effect of the training set, adversarial attacks, model accuracy, and uncertainty quantification. We discuss how those topics can be related to AI reliability, with illustrative examples. The final element of SMART (test planning), is critical for the demonstration of AI reliability. Therefore we discuss data collection and testing planning, highlighting methods for improving system design in order to achieve higher AI reliability. The paper closes with some concluding remarks.",
+    "citation_count": 23,
+    "summary": "This paper proposes a \"SMART\" statistical framework for assessing the reliability of AI systems over time, encompassing system structure, reliability metrics, failure analysis, assessment, and test planning, and addresses key statistical challenges unique to AI reliability such as out-of-distribution data and adversarial attacks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/7DhwRLoKm4nMrFFsH/measuring-and-forecasting-risks",
+    "author": "abergal, Nick_Beckstead, jsteinhardt",
+    "title": "Measuring and forecasting risks",
+    "published_date": "2021-10-29",
+    "summary": "This RFP seeks proposals for measuring safety-related properties of machine learning systems, focusing on concrete risks (like hacking and misalignment) that scale with capabilities, and emergent capabilities that pose unknown risks. The goal is to operationalize these risks through measurable quantities, incentivizing developers to prioritize safety and improve understanding of AI's potential harms."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/jsmNCj9QKcfdg8fJk/an-introduction-to-ai-sandbagging",
+    "author": "Teun van der Weij, Felix Hofstätter, Francis Rhys Ward",
+    "title": "An Introduction to AI Sandbagging",
+    "published_date": "2024-04-26",
+    "summary": "Sandbagging, defined as strategically underperforming on evaluations, poses a significant threat to the safe development and deployment of AI systems. This can be driven by developers (developer sandbagging) or the AI itself (AI system sandbagging), undermining the trustworthiness of crucial safety assessments."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.08981",
+    "title": "Reliability, Resilience and Human Factors Engineering for Trustworthy AI Systems",
+    "published_date": "2024-11-13",
+    "abstract": "As AI systems become integral to critical operations across industries and services, ensuring their reliability and safety is essential. We offer a framework that integrates established reliability and resilience engineering principles into AI systems. By applying traditional metrics such as failure rate and Mean Time Between Failures (MTBF) along with resilience engineering and human reliability analysis, we propose an integrate framework to manage AI system performance, and prevent or efficiently recover from failures. Our work adapts classical engineering methods to AI systems and outlines a research agenda for future technical studies. We apply our framework to a real-world AI system, using system status data from platforms such as openAI, to demonstrate its practical applicability. This framework aligns with emerging global standards and regulatory frameworks, providing a methodology to enhance the trustworthiness of AI systems. Our aim is to guide policy, regulation, and the development of reliable, safe, and adaptable AI technologies capable of consistent performance in real-world environments.",
+    "citation_count": 1,
+    "summary": "This paper presents a framework integrating reliability and resilience engineering principles into AI systems, using traditional metrics and human reliability analysis to improve performance, prevent failures, and enable efficient recovery, demonstrated through a real-world application and aligned with emerging standards."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks posed by transformative AI (TAI), particularly focusing on scenarios with short timelines to TAI emergence (within a decade). The program aims to evaluate strategies for mitigating these risks across various plausible scenarios."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for third-party testing of large-scale AI systems to mitigate societal harm from misuse or accidental consequences. They propose a policy framework involving industry, government, and academia to develop effective, yet minimally burdensome, testing standards and procedures for these powerful, adaptable AI models."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising but underdeveloped AI safety strategy. While some measures like export controls exist, most proposed methods—including visibility, allocation, and enforcement mechanisms—remain largely speculative and require further research."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and a long version, categorize AI safety research by keyword and subject to help machine learning researchers quickly assess potential areas of contribution based on their existing skills. The resource aims to lower the barrier to entry for researchers interested in AI alignment research."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2205.02562.pdf",
+    "title": "Monitoring AI systems: A Problem Analysis, Framework and Outlook",
+    "published_date": "2022-05-05",
+    "abstract": ". Knowledge-based systems have been used to monitor machines and pro- cesses in the real world. In this paper we propose the use of knowledge-based systems to monitor other AI systems in operation. We motivate and provide a problem analysis of this novel setting and subsequently propose a framework that allows for structuring future research related to this setting. Several directions for further research are also discussed. We aim to study how to monitor AI systems in such a way that the expectations for the performance are formulated into an interpretable, knowledge-based system for monitoring.",
+    "citation_count": 2,
+    "summary": "This paper analyzes the challenges of using knowledge-based systems to monitor AI systems' performance. It proposes a framework for structuring future research on this topic, focusing on translating performance expectations into an interpretable monitoring system."
+  }
+]

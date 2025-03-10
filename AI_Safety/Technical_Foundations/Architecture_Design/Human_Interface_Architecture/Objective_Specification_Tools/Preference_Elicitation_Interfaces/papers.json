@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.11182",
+    "title": "Improving User Experience in Preference-Based Optimization of Reward Functions for Assistive Robots",
+    "published_date": "2024-11-17",
+    "abstract": "Assistive robots interact with humans and must adapt to different users' preferences to be effective. An easy and effective technique to learn non-expert users' preferences is through rankings of robot behaviors, for example, robot movement trajectories or gestures. Existing techniques focus on generating trajectories for users to rank that maximize the outcome of the preference learning process. However, the generated trajectories do not appear to reflect the user's preference over repeated interactions. In this work, we design an algorithm to generate trajectories for users to rank that we call Covariance Matrix Adaptation Evolution Strategies with Information Gain (CMA-ES-IG). CMA-ES-IG prioritizes the user's experience of the preference learning process. We show that users find our algorithm more intuitive and easier to use than previous approaches across both physical and social robot tasks. This project's code is hosted at github.com/interaction-lab/CMA-ES-IG"
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.06003",
+    "title": "A Generalized Acquisition Function for Preference-based Reward Learning",
+    "published_date": "2024-03-09",
+    "abstract": "Preference-based reward learning is a popular technique for teaching robots and autonomous systems how a human user wants them to perform a task. Previous works have shown that actively synthesizing preference queries to maximize information gain about the reward function parameters improves data efficiency. The information gain criterion focuses on precisely identifying all parameters of the reward function. This can potentially be wasteful as many parameters may result in the same reward, and many rewards may result in the same behavior in the downstream tasks. Instead, we show that it is possible to optimize for learning the reward function up to a behavioral equivalence class, such as inducing the same ranking over behaviors, distribution over choices, or other related definitions of what makes two rewards similar. We introduce a tractable framework that can capture such definitions of similarity. Our experiments in a synthetic environment, an assistive robotics environment with domain transfer, and a natural language processing problem with real datasets demonstrate the superior performance of our querying method over the state-of-the-art information gain method.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.04503",
+    "title": "LRHP: Learning Representations for Human Preferences via Preference Pairs",
+    "published_date": "2024-10-06",
+    "abstract": "To improve human-preference alignment training, current research has developed numerous preference datasets consisting of preference pairs labeled as\"preferred\"or\"dispreferred\". These preference pairs are typically used to encode human preferences into a single numerical value through reward modeling, which acts as a reward signal during reinforcement learning from human feedback (RLHF). However, representing these human preferences as a numerical value complicates the analysis of these preferences and restricts their broader applications other than RLHF. In contrast, in this work, we introduce a preference representation learning task that aims to construct a richer and more structured representation of human preferences. We further develop a more generalizable framework, Learning Representations for Human Preferences via preference pairs (namely LRHP), which extends beyond traditional reward modeling to tackle this task. We verify the utility of preference representations in two downstream tasks: preference data selection and preference margin prediction. Building upon the human preferences in representations, we achieve strong performance in both tasks, significantly outperforming baselines."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.04897",
+    "title": "Centralized Selection with Preferences in the Presence of Biases",
+    "published_date": "2024-09-07",
+    "abstract": "This paper considers the scenario in which there are multiple institutions, each with a limited capacity for candidates, and candidates, each with preferences over the institutions. A central entity evaluates the utility of each candidate to the institutions, and the goal is to select candidates for each institution in a way that maximizes utility while also considering the candidates' preferences. The paper focuses on the setting in which candidates are divided into multiple groups and the observed utilities of candidates in some groups are biased--systematically lower than their true utilities. The first result is that, in these biased settings, prior algorithms can lead to selections with sub-optimal true utility and significant discrepancies in the fraction of candidates from each group that get their preferred choices. Subsequently, an algorithm is presented along with proof that it produces selections that achieve near-optimal group fairness with respect to preferences while also nearly maximizing the true utility under distributional assumptions. Further, extensive empirical validation of these results in real-world and synthetic settings, in which the distributional assumptions may not hold, are presented."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/utility-extraction",
+    "title": "Utility Extraction - LessWrong",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/preference",
+    "title": "Preference - LessWrong",
+    "published_date": "2024-02-01"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.15147",
+    "title": "Delegating Responsibilities to Intelligent Autonomous Systems: Challenges and Benefits",
+    "published_date": "2024-11-06",
+    "abstract": "As AI systems increasingly operate with autonomy and adaptability, the traditional boundaries of moral responsibility in techno-social systems are being challenged. This paper explores the evolving discourse on the delegation of responsibilities to intelligent autonomous agents and the ethical implications of such practices. Synthesizing recent developments in AI ethics, including concepts of distributed responsibility and ethical AI by design, the paper proposes a functionalist perspective as a framework. This perspective views moral responsibility not as an individual trait but as a role within a socio-technical system, distributed among human and artificial agents. As an example of 'AI ethical by design,' we present Basti and Vitiello's implementation. They suggest that AI can act as artificial moral agents by learning ethical guidelines and using Deontic Higher-Order Logic to assess decisions ethically. Motivated by the possible speed and scale beyond human supervision and ethical implications, the paper argues for 'AI ethical by design', while acknowledging the distributed, shared, and dynamic nature of responsibility. This functionalist approach offers a practical framework for navigating the complexities of AI ethics in a rapidly evolving technological landscape.",
+    "summary": "This paper examines the ethical challenges of delegating responsibility to increasingly autonomous AI systems, proposing a functionalist framework that distributes moral responsibility among human and artificial agents within a socio-technical system. It advocates for \"AI ethical by design,\" using Basti and Vitiello's work as an example of how AI can be programmed to make ethically sound decisions."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/machine-ethics",
+    "title": "Machine Ethics - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Machine ethics seeks to create Artificial Moral Agents (AMAs) capable of morally sound actions, a challenge highlighted by the limitations of past attempts like Asimov's Three Laws of Robotics and current narrow AI applications. The urgency of developing machine ethics is amplified by the potential future arrival of superintelligence."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/artificial-general-intelligence-agi",
+    "title": "Artificial General Intelligence (AGI) - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Artificial General Intelligence (AGI) refers to machines exhibiting broad, flexible intelligence across diverse domains, unlike narrow AI which excels only in specific tasks. While AGI's development is anticipated due to various technological advancements, considerable uncertainty remains regarding its timeline and potential risks, including the possibility of an intelligence explosion and loss of human control."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.08759.pdf",
+    "title": "Value Engineering for Autonomous Agents",
+    "published_date": "2023-02-17",
+    "abstract": "Machine Ethics (ME) is concerned with the design of Artificial Moral Agents (AMAs), i.e. autonomous agents capable of reasoning and behaving according to moral values. Previous approaches have treated values as labels associated with some actions or states of the world, rather than as integral components of agent reasoning. It is also common to disregard that a value-guided agent operates alongside other value-guided agents in an environment governed by norms, thus omitting the social dimension of AMAs. In this blue sky paper, we propose a new AMA paradigm grounded in moral and social psychology, where values are instilled into agents as context-dependent goals. These goals intricately connect values at individual levels to norms at a collective level by evaluating the outcomes most incentivized by the norms in place. We argue that this type of normative reasoning, where agents are endowed with an understanding of norms' moral implications, leads to value-awareness in autonomous agents. Additionally, this capability paves the way for agents to align the norms enforced in their societies with respect to the human values instilled in them, by complementing the value-based reasoning on norms with agreement mechanisms to help agents collectively agree on the best set of norms that suit their human values. Overall, our agent model goes beyond the treatment of values as inert labels by connecting them to normative reasoning and to the social functionalities needed to integrate value-aware agents into our modern hybrid human-computer societies.",
+    "citation_count": 3,
+    "summary": "This paper proposes a novel framework for designing Artificial Moral Agents (AMAs) that integrates values as context-dependent goals, connecting individual values to societal norms through normative reasoning and agreement mechanisms to achieve value-aware and socially integrated agents. This approach moves beyond treating values as simple labels, fostering alignment between agent actions and human values within a shared social context."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2308.00868.pdf",
+    "title": "Beneficent Intelligence: A Capability Approach to Modeling Benefit, Assistance, and Associated Moral Failures through AI Systems",
+    "published_date": "2023-08-01",
+    "abstract": "The prevailing discourse around AI ethics lacks the language and formalism necessary to capture the diverse ethical concerns that emerge when AI systems interact with individuals. Drawing on Sen and Nussbaum's capability approach, we present a framework formalizing a network of ethical concepts and entitlements necessary for AI systems to confer meaningful benefit or assistance to stakeholders. Such systems enhance stakeholders' ability to advance their life plans and well-being while upholding their fundamental rights. We characterize two necessary conditions for morally permissible interactions between AI systems and those impacted by their functioning, and two sufficient conditions for realizing the ideal of meaningful benefit. We then contrast this ideal with several salient failure modes, namely, forms of social interactions that constitute unjustified paternalism, coercion, deception, exploitation and domination. The proliferation of incidents involving AI in high-stakes domains underscores the gravity of these issues and the imperative to take an ethics-led approach to AI systems from their inception.",
+    "citation_count": 7,
+    "summary": "This paper proposes a capability approach framework for assessing the ethical implications of AI systems, formalizing concepts of benefit and assistance while identifying moral failures like paternalism, coercion, and exploitation. It uses Sen and Nussbaum's work to define conditions for morally permissible and beneficial AI interactions."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/artificial-general-intelligence",
+    "title": "Artificial General Intelligence - LessWrong",
+    "published_date": "2023-02-06",
+    "summary": "Artificial General Intelligence (AGI) refers to machines capable of intelligent behavior across diverse domains, unlike narrow AI which excels only in specific tasks. While AGI's creation is anticipated by some in the coming decades due to technological advancements, others remain skeptical about its feasibility and potential risks."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2208.14788.pdf",
+    "title": "Negative Human Rights as a Basis for Long-term AI Safety and Regulation",
+    "published_date": "2022-08-31",
+    "abstract": "If autonomous AI systems are to be reliably safe in novel situations, they will need to incorporate general principles guiding them to recognize and avoid harmful behaviours. Such principles may need to be supported by a binding system of regulation, which would need the underlying principles to be widely accepted. They should also be specific enough for technical implementation. Drawing inspiration from law, this article explains how negative human rights could fulfil the role of such principles and serve as a foundation both for an international regulatory system and for building technical safety constraints for future AI systems.\nThis article appears in the AI & Society track.",
+    "citation_count": 9,
+    "summary": "This paper proposes using negative human rights—rights protecting individuals from harm—as foundational principles for AI safety and regulation, arguing that these rights offer a basis for both international legal frameworks and technical constraints on AI systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/human-values",
+    "author": "Quintin Pope, TurnTrout",
+    "title": "Human Values - LessWrong",
+    "published_date": "2022-09-29",
+    "summary": "Human values are the things we cherish and desire a future superintelligence to uphold; however, the complexity and diverse interpretations of these values pose a significant challenge."
+  },
+  {
+    "url": "https://arxiv.org/abs/2110.14419v2",
+    "title": "Toward a Theory of Justice for Artificial Intelligence",
+    "published_date": "2021-10-27",
+    "abstract": "Abstract This essay explores the relationship between artificial intelligence and principles of distributive justice. Drawing upon the political philosophy of John Rawls, it holds that the basic structure of society should be understood as a composite of sociotechnical systems, and that the operation of these systems is increasingly shaped and influenced by AI. Consequently, egalitarian norms of justice apply to the technology when it is deployed in these contexts. These norms entail that the relevant AI systems must meet a certain standard of public justification, support citizens' rights, and promote substantively fair outcomes, something that requires particular attention to the impact they have on the worst-off members of society.",
+    "citation_count": 40,
+    "summary": "This essay argues that principles of distributive justice, particularly Rawls's theory, should apply to the design and deployment of artificial intelligence systems, requiring them to be publicly justifiable, uphold citizens' rights, and promote fair outcomes for all, especially the most disadvantaged."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.12701v1.pdf",
+    "title": "Time for AI (Ethics) Maturity Model Is Now",
+    "published_date": "2021-01-29",
+    "abstract": "There appears to be a common agreement that ethical concerns are of high importance when it comes to systems equipped with some sort of Artificial Intelligence (AI). Demands for ethical AI are declared from all directions. As a response, in recent years, public bodies, governments, and universities have rushed in to provide a set of principles to be considered when AI based systems are designed and used. We have learned, however, that high-level principles do not turn easily into actionable advice for practitioners. Hence, also companies are publishing their own ethical guidelines to guide their AI development. This paper argues that AI software is still software and needs to be approached from the software development perspective. The software engineering paradigm has introduced maturity model thinking, which provides a roadmap for companies to improve their performance from the selected viewpoints known as the key capabilities. We want to voice out a call for action for the development of a maturity model for AI software. We wish to discuss whether the focus should be on AI ethics or, more broadly, the quality of an AI system, called a maturity model for the development of AI systems.",
+    "citation_count": 12,
+    "summary": "This paper advocates for the development of a maturity model for AI software, arguing that ethical considerations should be integrated into existing software engineering best practices rather than treated as separate principles. It proposes considering either a focused model on AI ethics or a broader model encompassing overall AI system quality."
+  }
+]

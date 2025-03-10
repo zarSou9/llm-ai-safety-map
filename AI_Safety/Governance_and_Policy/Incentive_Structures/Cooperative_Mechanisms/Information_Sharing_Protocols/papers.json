@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/jyAerr8txxhiKnxwA/5-reasons-why-governments-militaries-want-ai-for-information-1",
+    "author": "trevor",
+    "title": "5 Reasons Why Governments/Militaries Already Want AI for Information Warfare",
+    "published_date": "2023-10-30",
+    "summary": "Military information warfare, leveraging advanced psychological research, targets influential elites rather than the general population to achieve strategic goals; this approach has intensified significantly in recent decades, with capabilities exponentially increasing."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "Biden's October 30, 2023 Executive Order on AI outlines numerous deadlines for federal agencies, ranging from 30 to 90 days, to conduct assessments, reports, and develop plans related to AI's use in various sectors, including transportation, labor, and national security. These actions aim to address AI risks, promote responsible development, and build a skilled federal workforce in AI."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/XCuwfWFuiGxCWXFtW/homomorphic-encryption-and-bitcoin?commentId=bjcL75iWLnAAifS6k",
+    "author": "Jimrandomh",
+    "title": "Homomorphic encryption and Bitcoin - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "The author proposes a Bitcoin security improvement using a two-device system and homomorphic encryption to require both devices' cooperation for transactions, mitigating the risk of theft from a single compromised computer. This would involve splitting the private key across devices, making it significantly harder for attackers to steal funds."
+  },
+  {
+    "title": "PRShare: A Framework for Privacy-preserving, Interorganizational Data Sharing",
+    "abstract": "We consider the task of interorganizational data sharing, in which data owners, data clients, and data subjects have different and sometimes competing privacy concerns. One real-world scenario in which this problem arises concerns law-enforcement use of phone-call metadata: The data owner is a phone company, the data clients are law-enforcement agencies, and the data subjects are individuals who make phone calls. A key challenge in this type of scenario is that each organization uses its own set of proprietary intraorganizational attributes to describe the shared data; such attributes cannot be shared with other organizations. Moreover, data-access policies are determined by multiple parties and may be specified using attributes that are not directly comparable with the ones used by the owner to specify the data. We propose a system architecture and a suite of protocols that facilitate dynamic and efficient interorganizational data sharing, while allowing each party to use its own set of proprietary attributes to describe the shared data and preserving the confidentiality of both data records and proprietary intraorganizational attributes. We introduce the novel technique of Attribute-Based Encryption with Oblivious Attribute Translation (OTABE), which plays a crucial role in our solution. This extension of attribute-based encryption uses semi-trusted proxies to enable dynamic and oblivious translation between proprietary attributes that belong to different organizations; it supports hidden access policies, direct revocation, and fine-grained, data-centric keys and queries. We prove that our OTABE-based framework is secure in the standard model and provide two real-world use cases.",
+    "published_date": "2022-04-22",
+    "citation_count": 7,
+    "url": "https://dl.acm.org/doi/10.1145/3411497.3420226",
+    "summary": "PRShare is a framework for secure interorganizational data sharing that addresses the challenge of incompatible data attributes and access policies across organizations by using Attribute-Based Encryption with Oblivious Attribute Translation (OTABE). This allows for privacy-preserving data access while maintaining each organization's proprietary attribute sets."
+  },
+  {
+    "title": "POSTER: SecretSVM -- Secret Sharing-Based SVM for Preventing Collusion in IoT Data Analysis",
+    "abstract": "Support vector machine (SVM) is widely used because of its efficiency in data processing. Single source data may not train a nice SVM, since a single entity isn't having enough data with adequate attributes. Thus, multiple source data need to share data to combine a dataset with different attributes, and then jointly train a classifier. However, outsourcing data to a cloud for training induces two security concerns, data privacy and collusion with the cloud and providers. In this paper, we consider a distributed scenario without any centralized party in which IoT data providers will jointly serve as the leader to obtain some parameters. We propose a privacy-preserving and collusion-free SVM (so-called SecretSVM)built from secret sharing and distributed consensus. Participants train intermediate values to provide the necessary interaction andprevent against collusion attacks.",
+    "published_date": "2020-10-05",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3320269.3405439",
+    "summary": "SecretSVM is a privacy-preserving support vector machine (SVM) algorithm that uses secret sharing and distributed consensus to enable multiple IoT data providers to collaboratively train a model without revealing individual data or trusting a central authority. This prevents collusion attacks while overcoming the limitations of single-source data training."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/QJfiKwicwTXYMzJ7q/",
+    "author": "jefftk",
+    "title": "Bleach",
+    "published_date": "2020-03-04",
+    "summary": "Household chlorine bleach, effective for disinfection and sanitization when properly diluted, presents safety concerns due to variable concentrations and degradation; accurate dilution is crucial, varying by application, and safe handling practices are essential to prevent injury from its corrosive and toxic properties."
+  },
+  {
+    "title": "DSSPS: A Data Sharing Security Protection Scheme Based on Consortium Blockchain and Ciphertext-Policy Attribute-Based Encryption",
+    "abstract": "Data sharing plays an important role in the development of the Internet, and it is widely used in various fields. This paper focuses on the security issues in the process of data sharing, combined with blockchain and access control technology, a data sharing security protection scheme (DSSPS) based on consortium chain and Ciphertext-Policy Attribute-Based Encryption (CP-ABE) is proposed, and a resource sharing platform (RSPL) is designed. The scheme first classifies and stores data by setting up a double-chain architecture (record chain, and log chain) based on the consortium chain and three databases (attribute database, file database and index database); secondly, CP-ABE is used to control access to shared files. Achieve fine-grained access control and secure sharing. Finally, the security of the scheme is analyzed.",
+    "published_date": "2019-12-09",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3376044.3376048",
+    "summary": "The DSSPS scheme uses a consortium blockchain with a double-chain architecture and CP-ABE to secure data sharing, enabling fine-grained access control through attribute-based encryption and improving data security. A resource sharing platform (RSPL) is designed to implement this scheme."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24",
+    "summary": "This article explores the mathematical challenges inherent in blockchain technology and proposes mechanism design solutions, such as quadratic voting and funding, to improve cooperation and philanthropic efforts within blockchain systems."
+  }
+]

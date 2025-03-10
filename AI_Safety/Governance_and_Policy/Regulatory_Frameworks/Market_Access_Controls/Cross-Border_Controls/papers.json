@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising but underdeveloped AI safety strategy. While current measures are limited, proposed approaches aim to increase visibility into AI development, allocate compute resources strategically, and enforce regulations through technological and policy mechanisms."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, examines AI model registries—centralized databases tracking AI systems for governance purposes. These registries, drawing parallels to pharmaceutical registration, vary widely in implementation across countries like the US and China, mandating varying levels of information disclosure and pre-release safety assessments."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three strategies for governing transformative AI: Cooperative Development, Strategic Advantage, and Global Moratorium. The effectiveness of each strategy depends heavily on the difficulty of aligning AI and the projected timeline for its development, with preferences shifting across these variables."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8u8x2bSpG9LLa8jfN/report-evaluating-an-ai-chip-registration-policy",
+    "author": "Deric Cheng",
+    "title": "Report: Evaluating an AI Chip Registration Policy",
+    "published_date": "2024-04-12",
+    "summary": "This report analyzes the feasibility and effectiveness of a proposed US policy requiring registration and transfer reporting for high-end AI chips, aiming to enhance export controls, bolster AI governance, and mitigate risks from rapid AI development. The analysis considers policy precedents, implementation requirements, and potential impacts on innovation and competitiveness."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/vzGC4zh73dfcqnFgf/open-source-ai-a-regulatory-review",
+    "author": "Elliot_Mckernon, Deric Cheng",
+    "title": "Open-Source AI: A Regulatory Review",
+    "published_date": "2024-04-29",
+    "summary": "This article examines the implications of open-sourcing AI models, focusing on the trade-offs between collaborative benefits and potential safety risks. While open-source models foster innovation, the unrestricted availability of powerful AI models, even without full transparency, raises concerns about misuse for malicious purposes, highlighting the need for robust safety measures."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for a third-party testing regime for large-scale AI systems to mitigate societal harm from misuse or accidents. This regime, applying only to the most computationally intensive models, would build trust, avoid regulatory overreach, and facilitate international cooperation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ByCwWRgvTsSC6Wxst/what-would-a-compute-monitoring-plan-look-like-linkpost",
+    "author": "Akash",
+    "title": "What would a compute monitoring plan look like? [Linkpost]",
+    "published_date": "2023-03-26",
+    "summary": "Yonadav Shavit's paper proposes a system for verifying compliance with regulations on large-scale neural network training by monitoring compute hardware. This system uses on-chip logging, data center training transcripts, and supply chain monitoring to detect rule violations without compromising model privacy or hindering legitimate use of consumer hardware."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/oNGCgNag2zSMqg2Z7/frontier-model-security",
+    "author": "Vaniver",
+    "title": "Frontier Model Security",
+    "published_date": "2023-07-26",
+    "summary": "Anthropic advocates for enhanced cybersecurity measures in frontier AI development, proposing a \"two-party control\" system and the adoption of existing secure software development frameworks (like NIST SSDF and SLSA) to improve model security and provenance, encouraging both industry best practices and potential government regulation."
+  }
+]

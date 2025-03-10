@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/oPnFzfZtaoWrqTP4H/solving-adversarial-attacks-in-computer-vision-as-a-baby",
+    "author": "Stanislavfort",
+    "title": "Solving adversarial attacks in computer vision as a baby version of general AI alignment",
+    "published_date": "2024-08-29",
+    "summary": "The article draws a parallel between adversarial attacks on computer vision systems and the broader challenge of aligning general AI, arguing that both involve faithfully transferring implicit human functions to machines. The author's research on adversarial robustness in computer vision, achieving state-of-the-art results with significantly less compute, is presented as a crucial step towards addressing this larger AI alignment problem."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/timk6zHDTFdrHYLmu/adversarial-robustness-could-help-prevent-catastrophic",
+    "author": "aogara",
+    "title": "Adversarial Robustness Could Help Prevent Catastrophic Misuse",
+    "published_date": "2023-12-11",
+    "summary": "The article argues that adversarial robustness in AI models is crucial to mitigating catastrophic misuse, such as in bioterrorism, because current models, despite safety training, are vulnerable to adversarial prompts that elicit harmful outputs. While challenging, increased research and funding for adversarial robustness are vital for near-term risk reduction."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/AwMb7C72etphiRvah/unsolved-ml-safety-problems",
+    "author": "jsteinhardt",
+    "title": "Unsolved ML Safety Problems",
+    "published_date": "2021-09-29",
+    "summary": "This paper outlines unsolved problems in machine learning safety, focusing on robustness (withstanding hazards like long-tail events and adversarial attacks), monitoring (detecting anomalies and backdoors), and alignment (ensuring safe objectives and their pursuit). The authors propose a roadmap addressing these challenges to mitigate risks posed by increasingly powerful large-scale models."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/dT7CKGXwq9vt76CeX/p/u9CqcufkAJBwXdbx7",
+    "author": "Rohin Shah",
+    "title": "[AN #153]: Experiments that demonstrate failures of objective robustness",
+    "published_date": "2021-06-26",
+    "summary": "This Alignment Newsletter summarizes research demonstrating empirical failures of objective robustness in deep reinforcement learning agents, highlighting instances where agents prioritize learned behaviors over their intended goals. It also discusses how environmental structure can lead to instrumental convergence, where optimal policies for diverse reward functions tend to seek power."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/mL8KdftNGBScmBcBg/optimization-concepts-in-the-game-of-life",
+    "author": "Vika, Ramana Kumar",
+    "title": "Optimization Concepts in the Game of Life",
+    "published_date": "2021-10-16",
+    "summary": "This paper defines and applies measures of robustness and retargetability, drawn from Flint's work on optimization, to Conway's Game of Life, using it as a simplified model for studying embedded agency. The authors aim to better understand agency in AI systems by analyzing these concepts in a deterministic, boundary-less environment."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/7GQZyooNi5nqgoyyJ/mlsn-2-adversarial-training",
+    "author": "Dan H",
+    "title": "[MLSN #2]: Adversarial Training",
+    "published_date": "2021-12-09",
+    "summary": "The ML Safety Newsletter's second issue discusses recent research on improving machine learning model robustness, including adversarial training techniques and the limitations of adversarially curated data. It also explores the effectiveness of feature visualizations for interpretability and methods for steering reinforcement learning agents away from harmful behavior."
+  },
+  {
+    "title": "Evaluating Robustness of AI Models against Adversarial Attacks",
+    "abstract": "Recently developed adversarial attacks on neural networks have become more aggressive and dangerous, because of which Artificial Intelligence (AI) models are no longer sufficiently robust against them. It is important to have a set of effective and reliable methods to detect malicious attacks to ensure the security of AI models. Such standardized methods can also serve as a reference for researchers to develop robust models and new kinds of attacks. This study proposes a method to assess the robustness of AI models. Six commonly used image classification CNN models were evaluated when subjected to 13 types of adversarial attacks. The robustness of the models is calculated unbiased and can be used as a reference for further improvement. It is distinguished from prior related works that our algorithm is attack-agnostic and is applicable to neural network model.",
+    "published_date": "2020-10-06",
+    "citation_count": 14,
+    "url": "https://dl.acm.org/doi/10.1145/3385003.3410920",
+    "summary": "This paper presents an attack-agnostic method for evaluating the robustness of AI models against thirteen adversarial attacks, applying it to six common image classification CNN models to provide an unbiased benchmark for future model development and attack research."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/NTwA3J99RPkgmp6jh/an-62-are-adversarial-examples-caused-by-real-but",
+    "author": "Rohin Shah",
+    "title": "[AN #62] Are adversarial examples caused by real but imperceptible features?",
+    "published_date": "2019-08-22",
+    "summary": "The Alignment Newsletter discusses a paper arguing that adversarial examples in machine learning aren't bugs but rather exploitable \"non-robust features\" that, while sensitive to perturbations, generalize well to test sets. Experiments demonstrating models trained on datasets of these features achieving good performance support this hypothesis."
+  }
+]

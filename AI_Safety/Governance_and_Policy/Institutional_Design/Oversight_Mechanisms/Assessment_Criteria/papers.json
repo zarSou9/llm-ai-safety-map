@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/gJJEjJpKiddoYGZKk/the-evals-gap",
+    "author": "Marius Hobbhahn",
+    "title": "The Evals Gap",
+    "published_date": "2024-11-11",
+    "summary": "The article highlights a critical \"evals gap\" in AI safety, where existing evaluations of AI models are insufficient in both quality and quantity to inform high-stakes decisions in governance and deployment frameworks. This gap risks overestimating the robustness of current AI safety mechanisms and necessitates increased investment in evaluation research and development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential trajectories of transformative AI (TAI), focusing on the possibility of TAI emerging within the next decade. The program aims to identify existential hazards, evaluate AI safety and governance strategies across various scenarios, and recommend strategies to mitigate existential risks."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/fnc6Sgt3CGCdFmmgX/we-need-a-science-of-evals",
+    "author": "Marius Hobbhahn, Jérémy Scheurer",
+    "title": "We need a Science of Evals",
+    "published_date": "2024-01-22",
+    "summary": "Current AI model evaluations lack scientific rigor, leading to unreliable results easily influenced by minor changes in methodology. A \"Science of Evals\" is needed to improve the trustworthiness and consistency of AI model assessments, particularly given their increasing importance in safety regulations and deployment decisions."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and a long version, have been created to help machine learning researchers quickly assess the AI safety field and identify potential research avenues aligning with their existing skills. These resources list key organizations, researchers, papers, and keywords to facilitate efficient exploration of the field."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that focusing solely on technical aspects is insufficient and potentially dangerous. It proposes a \"top-down design\" of \"civilisational intelligence,\" integrating diverse fields like cognitive science, social sciences, and engineering to develop robust and safe artificial general intelligence."
+  },
+  {
+    "title": "Assessing Human-AI Interaction Early through Factorial Surveys: A Study on the Guidelines for Human-AI Interaction",
+    "abstract": "This work contributes a research protocol for evaluating human-AI interaction in the context of specific AI products. The research protocol enables UX and HCI researchers to assess different human-AI interaction solutions and validate design decisions before investing in engineering. We present a detailed account of the research protocol and demonstrate its use by employing it to study an existing set of human-AI interaction guidelines. We used factorial surveys with a 2 × 2 mixed design to compare user perceptions when a guideline is applied versus violated, under conditions of optimal versus sub-optimal AI performance. The results provided both qualitative and quantitative insights into the UX impact of each guideline. These insights can support creators of user-facing AI systems in their nuanced prioritization and application of the guidelines.",
+    "published_date": "2022-04-14",
+    "citation_count": 24,
+    "url": "https://dl.acm.org/doi/10.1145/3511605",
+    "summary": "This paper introduces a research protocol using factorial surveys to efficiently evaluate human-AI interaction designs early in the development process, demonstrated through an assessment of existing human-AI interaction guidelines. The protocol allows for quantitative and qualitative insights to inform design choices and guideline prioritization."
+  },
+  {
+    "title": "Towards Accountability in the Use of Artificial Intelligence for Public Administrations",
+    "abstract": "We argue that the phenomena of distributed responsibility, induced acceptance, and acceptance through ignorance constitute instances of imperfect delegation when tasks are delegated to computationally-driven systems. Imperfect delegation challenges human accountability. We hold that both direct public accountability via public transparency and indirect public accountability via transparency to auditors in public organizations can be both instrumentally ethically valuable and required as a matter of deontology from the principle of democratic self-government. We analyze the regulatory content of 16 guideline documents about the use of AI in the public sector, by mapping their requirements to those of our philosophical account of accountability, and conclude that while some guidelines refer processes that amount to auditing, it seems that the debate would benefit from more clarity about the nature of the entitlement of auditors and the goals of auditing, also in order to develop ethically meaningful standards with respect to which different forms of auditing can be evaluated and compared.",
+    "published_date": "2021-05-04",
+    "citation_count": 39,
+    "url": "https://dl.acm.org/doi/10.1145/3461702.3462631",
+    "summary": "The paper argues that using AI in public administration creates challenges to accountability due to distributed responsibility and limited transparency, advocating for both direct public and indirect auditor transparency to ensure ethical and democratic governance. Analysis of existing guidelines reveals a need for clearer definitions of auditor roles and auditing goals to develop effective ethical standards for AI in the public sector."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/G4KHuYC3pHry6yMhi/compute-research-questions-and-metrics-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Research Questions and Metrics - Transformative AI and Compute [4/4]",
+    "published_date": "2021-11-28",
+    "summary": "This appendix to a series on transformative AI and compute explores research questions related to AI hardware, compute trends, and scaling hypotheses, including analysis of compute costs and the potential for improved efficiency in AI model training."
+  }
+]

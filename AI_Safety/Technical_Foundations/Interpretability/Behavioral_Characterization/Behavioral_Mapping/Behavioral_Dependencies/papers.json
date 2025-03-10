@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.07948",
+    "title": "Scene Action Maps: Behavioural Maps for Navigation without Metric Information",
+    "published_date": "2024-05-13",
+    "abstract": "Humans are remarkable in their ability to navigate without metric information. We can read abstract 2D maps, such as floor-plans or hand-drawn sketches, and use them to navigate in unseen rich 3D environments, without requiring prior traversals to map out these scenes in detail. We posit that this is enabled by the ability to represent the environment abstractly as interconnected navigational behaviours, e.g., \"follow the corridor\" or \"turn right\", while avoiding detailed, accurate spatial information at the metric level. We introduce the Scene Action Map (SAM), a behavioural topological graph, and propose a learnable map-reading method, which parses a variety of 2D maps into SAMs. Map-reading extracts salient information about navigational behaviours from the overlooked wealth of pre-existing, abstract and inaccurate maps, ranging from floor-plans to sketches. We evaluate the performance of SAMs for navigation, by building and deploying a behavioural navigation stack on a quadrupedal robot. Videos and more information is available at: https://scene-action-maps.github.io.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/hzuSDMx7pd2uxFc5w/causal-diagrams-and-causal-models",
+    "author": "Eliezer Yudkowsky",
+    "title": "Causal Diagrams and Causal Models",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.05567",
+    "title": "Behaviour Driven Development: A Systematic Mapping Study",
+    "published_date": "2023-05-01",
+    "abstract": "Context: Behaviour Driven Development (BDD) uses scenarios written in semi-structured natural language to express software requirements in a way that can be understood by all stakeholders. The resulting natural language specifications can also be executed to reveal correct and problematic parts of a software. Although BDD was introduced about two decades ago, there is a lack of secondary studies in peer-reviewed scientific literature. Objective: To understand the current state of BDD research by conducting a systematic mapping study that covers studies published from 2006 to 2021. Method: By following the guidelines for conducting systematic mapping studies in software engineering, we sought to answer research questions on types of venues in which BDD papers have been published, research, contributions, studied topics and their evolution, and evaluation methods used in published BDD research. Results: The study identified 166 papers which were mapped. Key results include the following: the dominance of conference papers; scarcity of research with insights from the industry; shortage of philosophical papers on BDD; acute shortage of metrics for measuring various aspects of BDD specifications and the processes for producing BDD specifications; the dominance of studies on using BDD for facilitating various software development endeavours, improving the BDD process and associated artefacts, and applying BDD in different contexts; scarcity of studies on using BDD alongside other software techniques and technologies; increase in diversity of studied BDD topics; and notable use of case studies and experiments to study different BDD aspects. Conclusion: The paper improves our understanding of the state of the art of BDD, and highlights important areas of focus for future BDD research.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.08139.pdf",
+    "title": "Towards Mapping Control Theory and Software Engineering Properties using Specification Patterns",
+    "published_date": "2021-08-18",
+    "abstract": "A traditional approach to realize self-adaptation in software engineering (SE) is by means of feedback loops. The goals of the system can be specified as formal properties that are verified against models of the system. On the other hand, control theory (CT) provides a well-established foundation for designing feedback loop systems and providing guarantees for essential properties, such as stability, settling time, and steady state error. Currently, it is an open question whether and how traditional SE approaches to self-adaptation consider properties from CT. Answering this question is challenging given the principle differences in representing properties in both fields. In this paper, we take a first step to answer this question. We follow a bottom up approach where we specify a control design (in Simulink) for a case inspired by Scuderia Ferrari (F1) and provide evidence for stability and safety. The design is then transferred into code (in C) that is further optimized. Next, we define properties that enable verifying whether the control properties still hold at code level. Then, we consolidate the solution by mapping the properties in both worlds using specification patterns as common language and we verify the correctness of this mapping. The mapping offers a reusable artifact to solve similar problems. Finally, we outline opportunities for future work, particularly to refine and extend the mapping and investigate how it can improve the engineering of self-adaptive systems for both SE and CT engineers.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.02153.pdf",
+    "title": "Fast Concept Mapping: The Emergence of Human Abilities in Artificial Neural Networks when Learning Embodied and Self-Supervised",
+    "published_date": "2021-02-03",
+    "abstract": "Most artificial neural networks used for object detection and recognition are trained in a fully supervised setup. This is not only very resource consuming as it requires large data sets of labeled examples but also very different from how humans learn. We introduce a setup in which an artificial agent first learns in a simulated world through self-supervised exploration. Following this, the representations learned through interaction with the world can be used to associate semantic concepts such as different types of doors. To do this, we use a method we call fast concept mapping which uses correlated firing patterns of neurons to define and detect semantic concepts. This association works instantaneous with very few labeled examples, similar to what we observe in humans in a phenomenon called fast mapping. Strikingly, this method already identifies objects with as little as one labeled example which highlights the quality of the encoding learned self-supervised through embodiment using curiosity-driven exploration. It therefor presents a feasible strategy for learning concepts without much supervision and shows that through pure interaction with the world meaningful representations of an environment can be learned.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jqfANkNduyEQC9hvr/five-whys",
+    "author": "lynettebye",
+    "title": "Five Whys",
+    "published_date": "2021-06-07"
+  }
+]

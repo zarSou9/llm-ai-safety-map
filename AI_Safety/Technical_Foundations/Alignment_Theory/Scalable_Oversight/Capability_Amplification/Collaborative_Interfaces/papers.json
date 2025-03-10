@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2406.06051",
+    "title": "On the Utility of Accounting for Human Beliefs about AI Intention in Human-AI Collaboration",
+    "published_date": "2024-06-10",
+    "abstract": "To enable effective human-AI collaboration, merely optimizing AI performance without considering human factors is insufficient. Recent research has shown that designing AI agents that take human behavior into account leads to improved performance in human-AI collaboration. However, a limitation of most existing approaches is their assumption that human behavior remains static, regardless of the AI agent's actions. In reality, humans may adjust their actions based on their beliefs about the AI's intentions, specifically, the subtasks they perceive the AI to be attempting to complete based on its behavior. In this paper, we address this limitation by enabling a collaborative AI agent to consider its human partner's beliefs about its intentions, i.e., what the human partner thinks the AI agent is trying to accomplish, and to design its action plan accordingly to facilitate more effective human-AI collaboration. Specifically, we developed a model of human beliefs that captures how humans interpret and reason about their AI partner's intentions. Using this belief model, we created an AI agent that incorporates both human behavior and human beliefs when devising its strategy for interacting with humans. Through extensive real-world human-subject experiments, we demonstrate that our belief model more accurately captures human perceptions of AI intentions. Furthermore, we show that our AI agent, designed to account for human beliefs over its intentions, significantly enhances performance in human-AI collaboration."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.00170",
+    "title": "CREW: Facilitating Human-AI Teaming Research",
+    "published_date": "2024-07-31",
+    "abstract": "With the increasing deployment of artificial intelligence (AI) technologies, the potential of humans working with AI agents has been growing at a great speed. Human-AI teaming is an important paradigm for studying various aspects when humans and AI agents work together. The unique aspect of Human-AI teaming research is the need to jointly study humans and AI agents, demanding multidisciplinary research efforts from machine learning to human-computer interaction, robotics, cognitive science, neuroscience, psychology, social science, and complex systems. However, existing platforms for Human-AI teaming research are limited, often supporting oversimplified scenarios and a single task, or specifically focusing on either human-teaming research or multi-agent AI algorithms. We introduce CREW, a platform to facilitate Human-AI teaming research in real-time decision-making scenarios and engage collaborations from multiple scientific disciplines, with a strong emphasis on human involvement. It includes pre-built tasks for cognitive studies and Human-AI teaming with expandable potentials from our modular design. Following conventional cognitive neuroscience research, CREW also supports multimodal human physiological signal recording for behavior analysis. Moreover, CREW benchmarks real-time human-guided reinforcement learning agents using state-of-the-art algorithms and well-tuned baselines. With CREW, we were able to conduct 50 human subject studies within a week to verify the effectiveness of our benchmark.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.12056",
+    "title": "Deconstructing Human‐AI Collaboration: Agency, Interaction, and Adaptation",
+    "published_date": "2024-04-18",
+    "abstract": "As full AI‐based automation remains out of reach in most real‐world applications, the focus has instead shifted to leveraging the strengths of both human and AI agents, creating effective collaborative systems. The rapid advances in this area have yielded increasingly more complex systems and frameworks, while the nuance of their characterization has gotten more vague. Similarly, the existing conceptual models no longer capture the elaborate processes of these systems nor describe the entire scope of their collaboration paradigms. In this paper, we propose a new unified set of dimensions through which to analyze and describe human‐AI systems. Our conceptual model is centered around three high‐level aspects ‐ agency, interaction, and adaptation ‐ and is developed through a multi‐step process. Firstly, an initial design space is proposed by surveying the literature and consolidating existing definitions and conceptual frameworks. Secondly, this model is iteratively refined and validated by conducting semi‐structured interviews with nine researchers in this field. Lastly, to illustrate the applicability of our design space, we utilize it to provide a structured description of selected human‐AI systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.12040",
+    "title": "Roots and Requirements for Collaborative AI",
+    "published_date": "2023-03-21",
+    "abstract": "The vision of AI collaborators has long been a staple of stories and science fiction, where artificial agents understand nuances of collaboration and human communication. They assist their human partners and teams and have special talents. Government advisory groups and leaders in AI have advocated for years that AIs should be human compatible and effective collaborators. Nonetheless, robust AIs that collaborate like talented people remain out of reach. The simpler dream of effective information tools that augment human intelligence (IA) has its roots in the 1960s and arguably helped drive an information technology revolution. With the vast increase in hybrid and remote work since the COVID pandemic, the benefits and requirements for better coordination, collaboration, and communication are in focus for the workplace. Many factors (such as the costs of homes near work) are impeding a return to in-person work at the office. If we need better tools, how artificially intelligent (AI) should our tools be? This position paper reviews the arc of technology and calls for human-machine teaming. It draws on psychology and social sciences for an analysis of what effective and robust collaboration requires. It is the context for a second paper (Stefik&Price, 2023) that argues that current mainstream AI cannot produce robust, intelligent, and human-compatible collaborators. Rather, a radical shift in technology and methodology is required."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/CCpoqgHCCbrktCAwG/united-we-align-harnessing-collective-human-intelligence-for",
+    "author": "Shoshannah Tekofsky",
+    "title": "United We Align: Harnessing Collective Human Intelligence for AI Alignment Progress",
+    "published_date": "2023-04-20"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2212.08659.pdf",
+    "title": "A Hierarchical Framework for Collaborative Artificial Intelligence",
+    "published_date": "2022-12-14",
+    "abstract": "We propose a hierarchical framework for collaborative intelligent systems. This framework organizes research challenges based on the nature of the collaborative activity and the information that must be shared, with each level building on capabilities provided by lower levels. We review research paradigms at each level, with a description of classical engineering-based approaches and modern alternatives based on machine learning, illustrated with a running example using a hypothetical personal service robot. We discuss cross-cutting issues that occur at all levels, focusing on the problem of communicating and sharing comprehension, the role of explanation and the social nature of collaboration. We conclude with a summary of research challenges and a discussion of the potential for economic and societal impact provided by technologies that enhance human abilities and empower people and society through collaboration with intelligent systems.",
+    "citation_count": 4
+  }
+]

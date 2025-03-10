@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2305.05816",
+    "title": "Best-Effort Adaptation",
+    "published_date": "2023-05-10",
+    "abstract": "We study a problem of best-effort adaptation motivated by several applications and considerations, which consists of determining an accurate predictor for a target domain, for which a moderate amount of labeled samples are available, while leveraging information from another domain for which substantially more labeled samples are at one's disposal. We present a new and general discrepancy-based theoretical analysis of sample reweighting methods, including bounds holding uniformly over the weights. We show how these bounds can guide the design of learning algorithms that we discuss in detail. We further show that our learning guarantees and algorithms provide improved solutions for standard domain adaptation problems, for which few labeled data or none are available from the target domain. We finally report the results of a series of experiments demonstrating the effectiveness of our best-effort adaptation and domain adaptation algorithms, as well as comparisons with several baselines. We also discuss how our analysis can benefit the design of principled solutions for fine-tuning.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.04051v2.pdf",
+    "title": "Aggregating From Multiple Target-Shifted Sources",
+    "published_date": "2021-05-09",
+    "abstract": "Multi-source domain adaptation aims at leveraging the knowledge from multiple tasks for predicting a related target domain. Hence, a crucial aspect is to properly combine different sources based on their relations. In this paper, we analyzed the problem for aggregating source domains with different label distributions, where most recent source selection approaches fail. Our proposed algorithm differs from previous approaches in two key ways: the model aggregates multiple sources mainly through the similarity of semantic conditional distribution rather than marginal distribution; the model proposes a \\emph{unified} framework to select relevant sources for three popular scenarios, i.e., domain adaptation with limited label on target domain, unsupervised domain adaptation and label partial unsupervised domain adaption. We evaluate the proposed method through extensive experiments. The empirical results significantly outperform the baselines.",
+    "citation_count": 26
+  },
+  {
+    "url": "https://arxiv.org/pdf/2107.03008v2.pdf",
+    "title": "Learning Invariant Representation with Consistency and Diversity for Semi-Supervised Source Hypothesis Transfer",
+    "published_date": "2021-07-07",
+    "abstract": "Semi-supervised Domain adaptation (SSDA) has shown promising results by leveraging unlabeled data and limited labeled samples in the target domain. However, accessibility to source data is hindered by data privacy concerns, giving rise to Semi-supervised Source Hypothesis Transfer (SSHT). Integrating the SSDA methods directly into SSHT tasks is straightforward but poses two significant challenges: i) The hypothesis (classifier) is no longer supervised by source labels, and relying on only a few labels may result in hypothesis collapse; ii) Trained source models often exhibit bias, making them susceptible to misclassifying samples from minority categories into majority ones. We examined the recent methods in the SSHT setting and observed variations in performance compared to SSDA. To address these challenges, we first mitigate model overfitting to target labeled data by promoting prediction consistency between two types of randomly augmented unlabeled data, thereby preventing training collapse. Additionally, we maintain both the prediction diversity and discriminability by leveraging unlabeled data. Experiments on SSHT tasks show that our method yields more stable and competitive results compared with state-of-the-art methods.",
+    "citation_count": 5
+  },
+  {
+    "url": "https://arxiv.org/auth/show-endorsers/2106.03418",
+    "title": "Multi-Target Domain Adaptation with Collaborative Consistency Learning",
+    "published_date": "2021-06-01",
+    "abstract": "Recently unsupervised domain adaptation for the semantic segmentation task has become more and more popular due to high-cost of pixel-level annotation on real-world images. However, most domain adaptation methods are only restricted to single-source-single-target pair, and can not be directly extended to multiple target domains. In this work, we propose a collaborative learning framework to achieve unsupervised multi-target domain adaptation. An unsupervised domain adaptation expert model is first trained for each source-target pair and is further encouraged to collaborate with each other through a bridge built between different target domains. These expert models are further improved by adding the regularization of making the consistent pixel-wise prediction for each sample with the same structured context. To obtain a single model that works across multiple target domains, we propose to simultaneously learn a student model which is trained to not only imitate the output of each expert on the corresponding target domain, but also to pull different expert close to each other with regularization on their weights. Extensive experiments demonstrate that the proposed method can effectively exploit rich structured information contained in both labeled source domain and multiple unlabeled target domains. Not only does it perform well across multiple target domains but also performs favorably against state-of-the-art unsupervised domain adaptation methods specially trained on a single source-target pair. Code is available at https://github.com/junpan19/MTDA.",
+    "citation_count": 79
+  },
+  {
+    "url": "https://www.lesswrong.com/s/tDBYJd4p6EorGLEFA/p/rTYGMbmEsFkxyyXuR",
+    "author": "L Rudolf L",
+    "title": "Understanding and controlling auto-induced distributional shift",
+    "published_date": "2021-12-13"
+  },
+  {
+    "url": "https://www.lesswrong.com/s/dT7CKGXwq9vt76CeX/p/nM99oLhRzrmLWozoM",
+    "author": "Rohin Shah",
+    "title": "[AN #134]: Underspecification as a cause of fragility to distribution shift",
+    "published_date": "2021-01-21"
+  }
+]

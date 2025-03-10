@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2407.12687",
+    "title": "Towards Responsible Development of Generative AI for Education: An Evaluation-Driven Approach",
+    "published_date": "2024-05-21",
+    "abstract": "A major challenge facing the world is the provision of equitable and universal access to quality education. Recent advances in generative AI (gen AI) have created excitement about the potential of new technologies to offer a personal tutor for every learner and a teaching assistant for every teacher. The full extent of this dream, however, has not yet materialised. We argue that this is primarily due to the difficulties with verbalising pedagogical intuitions into gen AI prompts and the lack of good evaluation practices, reinforced by the challenges in defining excellent pedagogy. Here we present our work collaborating with learners and educators to translate high level principles from learning science into a pragmatic set of seven diverse educational benchmarks, spanning quantitative, qualitative, automatic and human evaluations; and to develop a new set of fine-tuning datasets to improve the pedagogical capabilities of Gemini, introducing LearnLM-Tutor. Our evaluations show that LearnLM-Tutor is consistently preferred over a prompt tuned Gemini by educators and learners on a number of pedagogical dimensions. We hope that this work can serve as a first step towards developing a comprehensive educational evaluation framework, and that this can enable rapid progress within the AI and EdTech communities towards maximising the positive impact of gen AI in education.",
+    "citation_count": 17,
+    "summary": "This paper advocates for responsible generative AI development in education, proposing seven benchmarks for evaluating pedagogical effectiveness and introducing LearnLM-Tutor, a fine-tuned Gemini model, which outperforms a prompt-tuned version based on educator and learner preferences."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.13554",
+    "title": "An XAI Social Media Platform for Teaching K-12 Students AI-Driven Profiling, Clustering, and Engagement-Based Recommending",
+    "published_date": "2024-12-18",
+    "abstract": "This paper, submitted to the special track on resources for teaching AI in K-12, presents an explainable AI (XAI) education tool designed for K-12 classrooms, particularly for students in grades 4-9. The tool was designed for interventions on the fundamental processes behind social media platforms, focusing on four AI- and data-driven core concepts: data collection, user profiling, engagement metrics, and recommendation algorithms. An Instagram-like interface and a monitoring tool for explaining the data-driven processes make these complex ideas accessible and engaging for young learners. The tool provides hands-on experiments and real-time visualizations, illustrating how user actions influence both their personal experience on the platform and the experience of others. This approach seeks to enhance learners' data agency, AI literacy, and sensitivity to AI ethics. The paper includes a case example from 12 two-hour test sessions involving 209 children, using learning analytics to demonstrate how they navigated their social media feeds and the browsing patterns that emerged.",
+    "summary": "This paper introduces an explainable AI (XAI) social media platform designed to teach K-12 students (grades 4-9) about AI-driven processes in social media, including data collection, profiling, engagement metrics, and recommendation algorithms, through interactive simulations and real-time visualizations. The platform's effectiveness is demonstrated through a case study involving 209 students."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.14915",
+    "title": "Charting the Future of AI in Project-Based Learning: A Co-Design Exploration with Students",
+    "published_date": "2024-01-26",
+    "abstract": "Students' increasing use of Artificial Intelligence (AI) presents new challenges for assessing their mastery of knowledge and skills in project-based learning (PBL). This paper introduces a co-design study to explore the potential of students' AI usage data as a novel material for PBL assessment. We conducted workshops with 18 college students, encouraging them to speculate an alternative world where they could freely employ AI in PBL while needing to report this process to assess their skills and contributions. Our workshops yielded various scenarios of students' use of AI in PBL and ways of analyzing such usage grounded by students' vision of how educational goals may transform. We also found that students with different attitudes toward AI exhibited distinct preferences in how to analyze and understand their use of AI. Based on these findings, we discuss future research opportunities on student-AI interactions and understanding AI-enhanced learning.",
+    "citation_count": 8,
+    "summary": "This co-design study explored how college students envision using AI in project-based learning (PBL) and how their AI usage data could inform assessment, revealing diverse scenarios and preferences based on students' attitudes toward AI. The findings suggest future research directions in understanding student-AI interactions within educational contexts."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.14200",
+    "title": "ActiveAI: Enabling K-12 AI Literacy Education & Analytics at Scale",
+    "published_date": "2024-12-15",
+    "abstract": "Interest in K-12 AI Literacy education has surged in the past year, yet large-scale learning data remains scarce despite considerable efforts in developing learning materials and running summer programs. To make larger scale dataset available and enable more replicable findings, we developed an intelligent online learning platform featuring AI Literacy modules and assessments, engaging 1,000 users from 12 secondary schools. Preliminary analysis of the data reveals patterns in prior knowledge levels of AI Literacy, gender differences in assessment scores, and the effectiveness of instructional activities. With open access to this de-identified dataset, researchers can perform secondary analyses, advancing the understanding in this emerging field of AI Literacy education.",
+    "citation_count": 1,
+    "summary": "ActiveAI is an online platform providing AI literacy modules and assessments to K-12 students, generating a large-scale dataset to facilitate research on AI literacy education and revealing preliminary findings on student knowledge, gender disparities, and instructional effectiveness. The de-identified dataset is publicly accessible for further analysis."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/37uuuPQKiGisi8cGG/language-and-capabilities-testing-llm-mathematical-abilities",
+    "author": "Ethan Edwards",
+    "title": "Language and Capabilities: Testing LLM Mathematical Abilities Across Languages",
+    "published_date": "2024-04-04",
+    "summary": "This study investigated GPT-4's ability to perform three-digit multiplication in various languages and numeral systems, finding that while performance is best with Arabic numerals, success is context-dependent and influenced by unexpected factors like prompt phrasing and the appearance of restatements within the completion, suggesting GPT-4 relies on learned token patterns rather than abstract mathematical understanding."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/cLfsabkCPtieJ5LoK/investigating-bias-representations-in-llms-via-activation",
+    "author": "DawnLu",
+    "title": "Investigating Bias Representations in LLMs via Activation Steering",
+    "published_date": "2024-01-15",
+    "summary": "This research uses activation steering to assess the societal biases of the Llama-2-7b-chat language model, finding that while the model exhibits gender bias without manipulation, attempts to further amplify biases through activation steering resulted in the model refusing to answer, suggesting a potential limitation of this evaluation method."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/iaHk9DMCbrYsKuqgS/simple-distribution-approximation-when-sampled-100-times-can-1",
+    "author": "Teun van der Weij, Felix Hofstätter, Francis Rhys Ward",
+    "title": "Simple distribution approximation: When sampled 100 times, can language models yield 80% A and 20% B?",
+    "published_date": "2024-01-29",
+    "summary": "The study investigates Large Language Models' (LLMs) ability to control their output distribution to achieve a specified accuracy rate (sandbagging), finding that GPT-4 exhibits better control than GPT-3.5, though both models struggle to consistently meet the target accuracy across different tasks and prompts."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.10892.pdf",
+    "title": "Artificial Intelligence-Enabled Intelligent Assistant for Personalized and Adaptive Learning in Higher Education",
+    "published_date": "2023-09-19",
+    "abstract": "This paper presents a novel framework, artificial intelligence-enabled intelligent assistant (AIIA), for personalized and adaptive learning in higher education. The AIIA system leverages advanced AI and natural language processing (NLP) techniques to create an interactive and engaging learning platform. This platform is engineered to reduce cognitive load on learners by providing easy access to information, facilitating knowledge assessment, and delivering personalized learning support tailored to individual needs and learning styles. The AIIA's capabilities include understanding and responding to student inquiries, generating quizzes and flashcards, and offering personalized learning pathways. The research findings have the potential to significantly impact the design, implementation, and evaluation of AI-enabled virtual teaching assistants (VTAs) in higher education, informing the development of innovative educational tools that can enhance student learning outcomes, engagement, and satisfaction. The paper presents the methodology, system architecture, intelligent services, and integration with learning management systems (LMSs) while discussing the challenges, limitations, and future directions for the development of AI-enabled intelligent assistants in education.",
+    "citation_count": 43,
+    "summary": "This paper introduces AIIA, an AI-powered intelligent assistant designed to personalize higher education learning through interactive features like personalized learning pathways and automated quiz generation, aiming to reduce student cognitive load and improve learning outcomes. The framework's architecture, functionalities, and integration with learning management systems are detailed, along with challenges and future directions."
+  }
+]

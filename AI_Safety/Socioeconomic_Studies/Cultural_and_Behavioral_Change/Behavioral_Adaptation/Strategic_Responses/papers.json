@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/tag/d-and-d-sci",
+    "title": "D&D.Sci - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "D&D.Sci is a Less Wrong series presenting data science challenges framed as Dungeons & Dragons adventures, requiring players to analyze synthetic datasets and deduce underlying rules to optimize solutions. Post-exercise analyses reveal the rules and player scores."
+  },
+  {
+    "title": "Towards the design of user-centric strategy recommendation systems for collaborative Human-AI tasks",
+    "abstract": "Artificial Intelligence is being employed by humans to collaboratively solve complicated tasks for search and rescue, manufacturing, etc. Efficient teamwork can be achieved by understanding user preferences and recommending different strategies for solving the particular task to humans. Prior work has focused on personalization of recommendation systems for relatively well-understood tasks in the context of e-commerce or social networks. In this paper, we seek to understand the important factors to consider while designing user-centric strategy recommendation systems for decision-making. We conducted a human-subjects experiment (n=60) for measuring the preferences of users with different personality types towards different strategy recommendation systems. We conducted our experiment across four types of strategy recommendation modalities that have been established in prior work: (1) Single strategy recommendation, (2) Multiple similar recommendations, (3) Multiple diverse recommendations, (4) All possible strategies recommendations. While these strategy recommendation schemes have been explored independently in prior work, our study is novel in that we employ all of them simultaneously and in the context of strategy recommendations, to provide us an in-depth overview of the perception of different strategy recommendation systems. We found that certain personality traits, such as conscientiousness, notably impact the preference towards a particular type of system (𝑝 < 0.01). Finally, we report an interesting relationship between usability, alignment, and perceived intelligence wherein greater perceived alignment of recommendations with one's own preferences leads to higher perceived intelligence (𝑝 < 0.01) and higher usability (𝑝 < 0.01).",
+    "published_date": "2023-01-17",
+    "citation_count": 6,
+    "url": "https://www.sciencedirect.com/science/article/pii/S1071581923002252?dgcid=coauthor",
+    "summary": "This paper investigates user preferences for different strategy recommendation system modalities in collaborative human-AI tasks, finding that personality traits, particularly conscientiousness, significantly influence these preferences and that perceived alignment of recommendations enhances perceived intelligence and usability."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "This article examines the application of game theory to AI development within organizational structures, highlighting both its strengths in multi-agent systems and limitations in fully capturing complex human organizational dynamics. It argues that even with advanced AI, bureaucratic structures, characterized by hierarchical authority and specialized tasks, will remain necessary due to inherent limitations in a single entity's processing capacity."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Z9P2m462wQ4qmH6uo/aspiration-based-q-learning",
+    "author": "Clément Dumas, Jobst Heitzig",
+    "title": "Aspiration-based Q-Learning",
+    "published_date": "2023-10-27",
+    "summary": "This internship project introduced ℵ-aspiring agents, a novel reinforcement learning approach inspired by satisficing, aiming for a specific expected reward (ℵ) rather than maximization. Preliminary results show promise in simple environments but require further research for complex scenarios."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/aEjckcqHZZny9L2zy/emergent-deception-and-emergent-optimization",
+    "author": "jsteinhardt",
+    "title": "Emergent Deception and Emergent Optimization",
+    "published_date": "2023-02-20",
+    "summary": "The author proposes two principles for predicting emergent capabilities in machine learning: capabilities reducing training loss are likely to emerge, and simpler heuristics are replaced by more complex ones as models scale. These principles are used to analyze the concerning potential emergence of deception and optimization in future AI systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization",
+    "published_date": "2021-06-04",
+    "summary": "This article explores applying game theory to AI development within organizational structures, highlighting the limitations of a purely game-theoretic approach and emphasizing the enduring relevance of bureaucratic principles—hierarchical authority and specialization—even with the integration of AI agents. The continued need for human-AI collaboration, driven by bounded rationality and the complexity of real-world problems, is central to the argument."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/mL8KdftNGBScmBcBg/optimization-concepts-in-the-game-of-life",
+    "author": "Vika, Ramana Kumar",
+    "title": "Optimization Concepts in the Game of Life",
+    "published_date": "2021-10-16",
+    "summary": "This paper defines and applies the concepts of robustness and retargetability (from Flint's work on optimization) to Conway's Game of Life, using it as a simplified model for studying embedded agency. The authors aim to better understand agency in AI systems by analyzing these concepts in a deterministic, boundary-less environment."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/znfkdCoHMANwqc2WE/the-ground-of-optimization-1",
+    "author": "Alex Flint",
+    "title": "The ground of optimization",
+    "published_date": "2020-06-20",
+    "summary": "This paper proposes a definition of an \"optimizing system\" as a physically closed system exhibiting a predictable evolution towards a small set of target configurations from a broad range of starting points, despite perturbations; this definition encompasses both computational and physical optimization processes, unifying seemingly disparate examples."
+  }
+]

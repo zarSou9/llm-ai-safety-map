@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.12820",
+    "title": "Declare and Justify: Explicit assumptions in AI evaluations are necessary for effective regulation",
+    "published_date": "2024-11-19",
+    "abstract": "As AI systems advance, AI evaluations are becoming an important pillar of regulations for ensuring safety. We argue that such regulation should require developers to explicitly identify and justify key underlying assumptions about evaluations as part of their case for safety. We identify core assumptions in AI evaluations (both for evaluating existing models and forecasting future models), such as comprehensive threat modeling, proxy task validity, and adequate capability elicitation. Many of these assumptions cannot currently be well justified. If regulation is to be based on evaluations, it should require that AI development be halted if evaluations demonstrate unacceptable danger or if these assumptions are inadequately justified. Our presented approach aims to enhance transparency in AI development, offering a practical path towards more effective governance of advanced AI systems.",
+    "citation_count": 1,
+    "summary": "The paper argues that AI regulations should mandate explicit declaration and justification of underlying assumptions in AI evaluations, including threat modeling and proxy task validity, to ensure safety and halt development if assumptions are unjustified or evaluations reveal unacceptable risks. This approach promotes transparency and effective governance of advanced AI systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.21279",
+    "title": "Comparative Global AI Regulation: Policy Perspectives from the EU, China, and the US",
+    "published_date": "2024-10-05",
+    "abstract": "As a powerful and rapidly advancing dual-use technology, AI offers both immense benefits and worrisome risks. In response, governing bodies around the world are developing a range of regulatory AI laws and policies. This paper compares three distinct approaches taken by the EU, China and the US. Within the US, we explore AI regulation at both the federal and state level, with a focus on California's pending Senate Bill 1047. Each regulatory system reflects distinct cultural, political and economic perspectives. Each also highlights differing regional perspectives on regulatory risk-benefit tradeoffs, with divergent judgments on the balance between safety versus innovation and cooperation versus competition. Finally, differences between regulatory frameworks reflect contrastive stances in regards to trust in centralized authority versus trust in a more decentralized free market of self-interested stakeholders. Taken together, these varied approaches to AI innovation and regulation influence each other, the broader international community, and the future of AI regulation.",
+    "summary": "This paper compares the distinct approaches to AI regulation in the EU, China, and the US, highlighting the differing cultural, political, and economic perspectives that shape their risk-benefit assessments and choices between centralized control and decentralized market forces. These varied approaches influence each other and the future of global AI governance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.10547",
+    "title": "AI Safety Frameworks Should Include Procedures for Model Access Decisions",
+    "published_date": "2024-11-15",
+    "abstract": "The downstream use cases, benefits, and risks of AI models depend significantly on what sort of access is provided to the model, and who it is provided to. Though existing safety frameworks and AI developer usage policies recognise that the risk posed by a given model depends on the level of access provided to a given audience, the procedures they use to make decisions about model access are ad hoc, opaque, and lacking in empirical substantiation. This paper consequently proposes that frontier AI companies build on existing safety frameworks by outlining transparent procedures for making decisions about model access, which we term Responsible Access Policies (RAPs). We recommend that, at a minimum, RAPs should include the following: i) processes for empirically evaluating model capabilities given different styles of access, ii) processes for assessing the risk profiles of different categories of user, and iii) clear and robust pre-commitments regarding when to grant or revoke specific types of access for particular groups under specified conditions.",
+    "summary": "Current AI safety frameworks inadequately address model access control, leading to ad-hoc and opaque decisions; this paper proposes the development of transparent Responsible Access Policies (RAPs) incorporating empirical risk assessments and pre-commitments regarding access grants and revocations."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2402.08797.pdf",
+    "title": "Computing Power and the Governance of Artificial Intelligence",
+    "published_date": "2024-02-13",
+    "abstract": "Computing power, or\"compute,\"is crucial for the development and deployment of artificial intelligence (AI) capabilities. As a result, governments and companies have started to leverage compute as a means to govern AI. For example, governments are investing in domestic compute capacity, controlling the flow of compute to competing countries, and subsidizing compute access to certain sectors. However, these efforts only scratch the surface of how compute can be used to govern AI development and deployment. Relative to other key inputs to AI (data and algorithms), AI-relevant compute is a particularly effective point of intervention: it is detectable, excludable, and quantifiable, and is produced via an extremely concentrated supply chain. These characteristics, alongside the singular importance of compute for cutting-edge AI models, suggest that governing compute can contribute to achieving common policy objectives, such as ensuring the safety and beneficial use of AI. More precisely, policymakers could use compute to facilitate regulatory visibility of AI, allocate resources to promote beneficial outcomes, and enforce restrictions against irresponsible or malicious AI development and usage. However, while compute-based policies and technologies have the potential to assist in these areas, there is significant variation in their readiness for implementation. Some ideas are currently being piloted, while others are hindered by the need for fundamental research. Furthermore, naive or poorly scoped approaches to compute governance carry significant risks in areas like privacy, economic impacts, and centralization of power. We end by suggesting guardrails to minimize these risks from compute governance.",
+    "citation_count": 16,
+    "summary": "Governments and companies are increasingly using control over computing power to govern artificial intelligence development and deployment, leveraging its quantifiable and concentrated nature to promote beneficial AI use and mitigate risks; however, effective implementation requires careful consideration of potential downsides like privacy violations and power centralization."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, focuses on AI model registries—centralized databases tracking AI systems for governance purposes. These registries, mandated by governments like China's, require information about AI models before public release, enabling oversight and informing future AI legislation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The article advocates for third-party testing of large-scale AI systems to mitigate societal harms stemming from misuse or accidental consequences. This regime, crucial for managing current risks and future AI capabilities, should be precisely scoped to avoid burdening smaller companies while fostering international cooperation and trust."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential trajectories of transformative AI (TAI), focusing on the possibility of TAI emerging within the next decade. The program aims to identify existential hazards, evaluate AI safety and governance strategies across various scenarios, and recommend strategies to mitigate existential risks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/vzGC4zh73dfcqnFgf/open-source-ai-a-regulatory-review",
+    "author": "Elliot_Mckernon, Deric Cheng",
+    "title": "Open-Source AI: A Regulatory Review",
+    "published_date": "2024-04-29",
+    "summary": "This article examines the implications of open-sourcing AI models, focusing on the trade-offs between fostering collaboration and potentially increasing risks from malicious use of powerful, readily available models lacking built-in safety safeguards. The authors highlight the varying degrees of openness (e.g., open weights vs. fully open-source) and their impact on safety and transparency."
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/PbXwdFnSC26Q96FG3/aspiration-based-designs-outlook-dealing-with-complexity",
+    "author": "Jobst Heitzig, jossoliver, thomasfinn, Simon Dima",
+    "title": "[Aspiration-based designs] Outlook: dealing with complexity",
+    "published_date": "2024-04-28"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/79eegMp3EBs8ptFqa/neural-uncertainty-estimation-for-alignment",
+    "author": "Charlie Steiner",
+    "title": "Neural uncertainty estimation review article (for alignment)",
+    "published_date": "2023-12-05"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/csiAvRMGG5aAWvKWb/draft-introduction-to-optimization",
+    "author": "Alex_Altair",
+    "title": "Draft: Introduction to optimization",
+    "published_date": "2023-03-26"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2202.10602v1.pdf",
+    "title": "Optimization Under Connected Uncertainty",
+    "published_date": "2022-01-24",
+    "abstract": "Robust optimization methods have shown practical advantages in a wide range of decision-making applications under uncertainty. Recently, their efficacy has been extended to multiperiod settings. Current approaches model uncertainty either independent of the past or in an implicit fashion by budgeting the aggregate uncertainty. In many applications, however, past realizations directly influence future uncertainties. For this class of problems, we develop a modeling framework that explicitly incorporates this dependence via connected uncertainty sets, whose parameters at each period depend on previous uncertainty realizations. To find optimal here-and-now solutions, we reformulate robust and distributionally robust constraints for popular set structures and demonstrate this modeling framework numerically on broadly applicable knapsack and portfolio-optimization problems.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.00291",
+    "title": "Robust Generation Dispatch With Purchase of Renewable Power and Load Predictions",
+    "published_date": "2022-10-01",
+    "abstract": "The increasing use of renewable energy sources (RESs) and responsive loads has made power systems more uncertain. Meanwhile, thanks to the development of advanced metering and forecasting technologies, predictions by RES and load owners are now attainable. Many recent studies have revealed that pooling the predictions from RESs and loads can help the operators predict more accurately and make better dispatch decisions. However, how the prediction purchase decisions are made during the dispatch processes needs further investigation. This paper fills the research gap by proposing a novel robust generation dispatch model considering the purchase and use of predictions from RESs and loads. The prediction purchase decisions are made in the first stage, which influence the accuracy of predictions from RESs and loads, and further the uncertainty set and the worst-case second-stage dispatch performance. This two-stage procedure is essentially a robust optimization problem with decision-dependent uncertainty (DDU). A mapping-based column-and-constraint generation (C&CG) algorithm is developed to overcome the potential failures of traditional solution methods in detecting feasibility, guaranteeing convergence, and reaching optimal strategies under DDU. Case studies demonstrate the effectiveness, necessity, and scalability of the proposed model and algorithm.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.00760.pdf",
+    "title": "A Unified Theory of Robust and Distributionally Robust Optimization via the Primal-Worst-Equals-Dual-Best Principle",
+    "published_date": "2021-05-03",
+    "abstract": "A Primal-Worst-Equals-Dual-Best Perspective on Robust and Distributionally Robust Optimization In the paper “A Unified Theory of Robust and Distributionally Robust Optimization via the Primal-Worst-Equals-Dual-Best Principle,” Jianzhe Zhen, Daniel Kuhn, and Wolfram Wiesemann develop a generalized “primal-worst-equals-dual-best” principle that establishes strong duality between semi-infinite primal worst and nonconvex dual best formulations of robust and distributionally robust nonlinear optimization problems. Their theory offers an alternative characterization of (distributionally) robust optimization problems that bypasses the need to mobilize the machinery of abstract semi-infinite duality theory. The paper will be of interest to researchers and practitioners in the field of optimization under uncertainty.",
+    "citation_count": 12
+  }
+]

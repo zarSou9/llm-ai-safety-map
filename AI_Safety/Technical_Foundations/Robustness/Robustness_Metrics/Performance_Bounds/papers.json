@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.11432",
+    "title": "On Robust Reinforcement Learning with Lipschitz-Bounded Policy Networks",
+    "published_date": "2024-05-19",
+    "abstract": "This paper presents a study of robust policy networks in deep reinforcement learning. We investigate the benefits of policy parameterizations that naturally satisfy constraints on their Lipschitz bound, analyzing their empirical performance and robustness on two representative problems: pendulum swing-up and Atari Pong. We illustrate that policy networks with smaller Lipschitz bounds are more robust to disturbances, random noise, and targeted adversarial attacks than unconstrained policies composed of vanilla multi-layer perceptrons or convolutional neural networks. However, the structure of the Lipschitz layer is important. We find that the widely-used method of spectral normalization is too conservative and severely impacts clean performance, whereas more expressive Lipschitz layers such as the recently-proposed Sandwich layer can achieve improved robustness without sacrificing clean performance.",
+    "citation_count": 1,
+    "summary": "This paper demonstrates that Lipschitz-bounded policy networks in deep reinforcement learning improve robustness to disturbances and adversarial attacks compared to unconstrained networks. However, the choice of Lipschitz layer significantly impacts performance, with the Sandwich layer offering a superior balance of robustness and clean performance over spectral normalization."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.18219",
+    "title": "On analysis of open optimization algorithms",
+    "published_date": "2024-11-27",
+    "abstract": "We develop analysis results for optimization algorithms that are open, that is, with inputs and outputs. Such algorithms arise for instance, when analyzing the effect of noise or disturbance on an algorithm, or when an algorithm is part of control loop without timescale separation. To be precise, we consider an incremental small gain problem to analyze robustness. Moreover, we investigate the behaviors of the closed loop between incrementally dissipative nonlinear plants and optimization algorithms. The framework we develop is built upon the theories of incremental dissipativity and monotone operators, and yields tests in the form of linear matrix inequalities.",
+    "summary": "This paper analyzes the robustness of \"open\" optimization algorithms, which have both inputs and outputs, using incremental dissipativity and monotone operator theory. The analysis yields linear matrix inequality-based tests for assessing the stability and performance of such algorithms in the presence of disturbances or within control loops."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.08436",
+    "title": "Robust performance for switched systems with constrained switching and its application to weakly hard real-time control systems",
+    "published_date": "2024-11-13",
+    "abstract": "Many cyber-physical systems can naturally be formulated as switched systems with constrained switching. This includes systems where one of the signals in the feedback loop may be lost. Possible sources for losses are shared or unreliable communication media in networked control systems, or signals which are discarded, e.g., when using a shared computation device such as a processor in real-time control applications. The use of switched systems with constrained switching is not limited to cyber-physical systems but, includes many other relevant applications such as power systems and modeling virus mutations. In this chapter, we introduce a framework for analyzing and designing controllers which guarantee robust quadratic performance for switched systems with constrained switching. The possible switching sequences are described by the language of a labeled graph where the labels are linked to the different subsystems. The subsystems are allowed to have different input and output dimensions, and their state-space representations can be affected by a broad class of uncertainties in a rational way. The proposed framework exploits ideas from dissipativity-based linear control theory to derive analysis and synthesis inequalities given by linear matrix inequalities. We demonstrate how the proposed framework can be applied to the design of controllers for uncertain weakly hard real-time control systems - a system class naturally appearing in networked and real-time control.",
+    "citation_count": 3,
+    "summary": "This paper presents a framework for designing robust controllers for switched systems with constrained switching, leveraging linear matrix inequalities and dissipativity theory to guarantee quadratic performance. This framework is applied to the control of uncertain weakly hard real-time systems, addressing challenges like communication losses and shared computation resources."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/yi4pqB6G73dcTnatq/aspiration-based-designs-3-performance-and-safety-criteria",
+    "author": "Jobst Heitzig",
+    "title": "[Aspiration-based designs] 3. Performance and safety criteria, and aspiration intervals",
+    "published_date": "2024-04-28",
+    "summary": "This article extends a previously introduced decision-making algorithm by incorporating criteria for selecting actions and generalizing the goal from achieving a specific expected value to falling within a desired range. The added flexibility allows for prioritizing safer policies while still meeting the aspiration goal."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/zy2AECRAi8Nuu5XMk/time-complexity-for-deterministic-string-machines",
+    "author": "alcatal",
+    "title": "Time complexity for deterministic string machines",
+    "published_date": "2024-04-21",
+    "summary": "This research introduces \"filtered transducers,\" operating on categories enriched over filtered sets, to address the lack of representation-independent complexity bounds in the String Machines framework. By restricting to finite-state filtered transducers, the authors prove constraints on time complexity growth and expressivity."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25",
+    "summary": "The article discusses the challenges of formally verifying neural network behavior, arguing that provable guarantees are unrealistic for large networks due to the difficulty of accounting for all possible interactions. Instead, the authors propose \"heuristic explanations,\" a less rigorous but more practical approach to understanding and quantifying neural network performance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.10980v2",
+    "title": "MultiRobustBench: Benchmarking Robustness Against Multiple Attacks",
+    "published_date": "2023-02-21",
+    "abstract": "The bulk of existing research in defending against adversarial examples focuses on defending against a single (typically bounded Lp-norm) attack, but for a practical setting, machine learning (ML) models should be robust to a wide variety of attacks. In this paper, we present the first unified framework for considering multiple attacks against ML models. Our framework is able to model different levels of learner's knowledge about the test-time adversary, allowing us to model robustness against unforeseen attacks and robustness against unions of attacks. Using our framework, we present the first leaderboard, MultiRobustBench, for benchmarking multiattack evaluation which captures performance across attack types and attack strengths. We evaluate the performance of 16 defended models for robustness against a set of 9 different attack types, including Lp-based threat models, spatial transformations, and color changes, at 20 different attack strengths (180 attacks total). Additionally, we analyze the state of current defenses against multiple attacks. Our analysis shows that while existing defenses have made progress in terms of average robustness across the set of attacks used, robustness against the worst-case attack is still a big open problem as all existing models perform worse than random guessing.",
+    "citation_count": 7,
+    "summary": "MultiRobustBench is the first unified framework and leaderboard for evaluating machine learning model robustness against multiple adversarial attacks, benchmarking 16 defended models against 180 attacks spanning various types and strengths and revealing significant weaknesses in worst-case robustness. The framework models different levels of adversary knowledge, enabling evaluation of robustness against both known and unforeseen attacks."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.13138",
+    "title": "Visibility into AI Agents",
+    "published_date": "2024-01-23",
+    "abstract": "Increased delegation of commercial, scientific, governmental, and personal activities to AI agents—systems capable of pursuing complex goals with limited supervision—may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.",
+    "citation_count": 12,
+    "summary": "This paper examines methods to increase transparency (\"visibility\") in the use of AI agents, focusing on agent identifiers, real-time monitoring, and activity logging, while considering implementation challenges, privacy concerns, and power dynamics across various deployment contexts. The authors propose these measures as crucial for mitigating societal risks associated with increasing AI agent autonomy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.04931",
+    "title": "The Role of Governments in Increasing Interconnected Post-Deployment Monitoring of AI",
+    "published_date": "2024-10-07",
+    "abstract": "Language-based AI systems are diffusing into society, bringing positive and negative impacts. Mitigating negative impacts depends on accurate impact assessments, drawn from an empirical evidence base that makes causal connections between AI usage and impacts. Interconnected post-deployment monitoring combines information about model integration and use, application use, and incidents and impacts. For example, inference time monitoring of chain-of-thought reasoning can be combined with long-term monitoring of sectoral AI diffusion, impacts and incidents. Drawing on information sharing mechanisms in other industries, we highlight example data sources and specific data points that governments could collect to inform AI risk management.",
+    "citation_count": 2,
+    "summary": "Governments can mitigate the negative impacts of AI by promoting interconnected post-deployment monitoring, combining data on model usage, application performance, and incidents to build a robust empirical evidence base for impact assessments. This approach leverages information-sharing mechanisms from other sectors to inform effective AI risk management."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.14462",
+    "title": "AI auditing: The Broken Bus on the Road to AI Accountability",
+    "published_date": "2024-01-25",
+    "abstract": "One of the most concrete measures towards meaningful AI accountability is to consequentially assess and report the systems' performance and impact. However, the practical nature of the \"AI audit\" ecosystem is muddled and imprecise, making it difficult to work through various concepts, practices, and involved (as well as ignored) stakeholders. First, we taxonomize current AI audit practices as completed by regulators, law firms, civil society, journalism, academia, and consulting agencies. Next, we assess the impact of audits done by stakeholders within each domain. We find that only a subset of AI audit studies translate to desired accountability outcomes. We thus assess and isolate practices necessary for effective AI audit results, articulating the observed connections between AI audit design, methodology and institutional context on its effectiveness as a meaningful mechanism for accountability.",
+    "citation_count": 27,
+    "summary": "The paper analyzes the effectiveness of current AI auditing practices across various stakeholders, finding inconsistencies and a lack of standardized methodology hindering meaningful accountability. It identifies key factors influencing audit effectiveness, proposing improvements to bridge the gap between AI audit design and desired accountability outcomes."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.04059",
+    "title": "On the Quest for Effectiveness in Human Oversight: Interdisciplinary Perspectives",
+    "published_date": "2024-04-05",
+    "abstract": "Human oversight is currently discussed as a potential safeguard to counter some of the negative aspects of high-risk AI applications. This prompts a critical examination of the role and conditions necessary for what is prominently termed effective or meaningful human oversight of these systems. This paper investigates effective human oversight by synthesizing insights from psychological, legal, philosophical, and technical domains. Based on the claim that the main objective of human oversight is risk mitigation, we propose a viable understanding of effectiveness in human oversight: for human oversight to be effective, the oversight person has to have (a) sufficient causal power with regard to the system and its effects, (b) suitable epistemic access to relevant aspects of the situation, (c) self-control, and (d) fitting intentions for their role. Furthermore, we argue that this is equivalent to saying that an oversight person is effective if and only if they are morally responsible and have fitting intentions. Against this backdrop, we suggest facilitators and inhibitors of effectiveness in human oversight when striving for practical applicability. We discuss factors in three domains, namely, the technical design of the system, individual factors of oversight persons, and the environmental circumstances in which they operate. Finally, this paper scrutinizes the upcoming AI Act of the European Union – in particular Article 14 on Human Oversight – as an exemplary regulatory framework in which we study the practicality of our understanding of effective human oversight. By analyzing the provisions and implications of the European AI Act proposal, we pinpoint how far that proposal aligns with our analyses regarding effective human oversight as well as how it might get enriched by our conceptual understanding of effectiveness in human oversight.",
+    "citation_count": 7,
+    "summary": "This paper examines effective human oversight of high-risk AI, arguing that effectiveness requires sufficient causal power, epistemic access, self-control, and appropriate intentions—essentially, moral responsibility. The authors analyze factors influencing effectiveness (technical design, individual characteristics, environment) and assess the alignment of the EU AI Act's human oversight provisions with their proposed framework."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, examines AI model registries—centralized databases tracking AI systems used in the real world. These registries, mandated by governments like China's, aim to monitor AI development, inform future legislation, and provide an \"algorithms as an entry point\" governance model, drawing parallels to existing regulations like those for pharmaceuticals."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/gZBgmDFqqyw3Lghok/ai-regulatory-landscape-review-incident-reporting",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Incident Reporting: A Regulatory Review",
+    "published_date": "2024-03-11",
+    "summary": "This article begins a series analyzing the evolving global AI regulatory landscape, focusing on the US, EU, and China. The first installment examines AI incident reporting, exploring its potential benefits and various approaches being developed, drawing parallels with established systems in aviation and occupational safety."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The article advocates for third-party testing of large-scale AI systems to mitigate societal harm from misuse or accidents. This regime, focusing on computationally-intensive models, aims to build trust, avoid hindering small companies, and facilitate international cooperation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.00044",
+    "title": "Advancing AI Audits for Enhanced AI Governance",
+    "published_date": "2023-11-26",
+    "abstract": "As artificial intelligence (AI) is integrated into various services and systems in society, many companies and organizations have proposed AI principles, policies, and made the related commitments. Conversely, some have proposed the need for independent audits, arguing that the voluntary principles adopted by the developers and providers of AI services and systems insufficiently address risk. This policy recommendation summarizes the issues related to the auditing of AI services and systems and presents three recommendations for promoting AI auditing that contribute to sound AI governance. Recommendation1.Development of institutional design for AI audits. Recommendation2.Training human resources for AI audits. Recommendation3. Updating AI audits in accordance with technological progress. In this policy recommendation, AI is assumed to be that which recognizes and predicts data with the last chapter outlining how generative AI should be audited.",
+    "summary": "This policy paper advocates for independent AI audits to supplement voluntary AI principles, proposing three recommendations: establishing an institutional framework for AI audits, training auditors, and adapting audit methods to keep pace with technological advancements in AI, including generative AI."
+  }
+]

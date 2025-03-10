@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2501.08262",
+    "title": "Addressing the sustainable AI trilemma: a case study on LLM agents and RAG",
+    "published_date": "2025-01-14",
+    "abstract": "Large language models (LLMs) have demonstrated significant capabilities, but their widespread deployment and more advanced applications raise critical sustainability challenges, particularly in inference energy consumption. We propose the concept of the Sustainable AI Trilemma, highlighting the tensions between AI capability, digital equity, and environmental sustainability. Through a systematic case study of LLM agents and retrieval-augmented generation (RAG), we analyze the energy costs embedded in memory module designs and introduce novel metrics to quantify the trade-offs between energy consumption and system performance. Our experimental results reveal significant energy inefficiencies in current memory-augmented frameworks and demonstrate that resource-constrained environments face disproportionate efficiency penalties. Our findings challenge the prevailing LLM-centric paradigm in agent design and provide practical insights for developing more sustainable AI systems.",
+    "summary": "This paper introduces the \"Sustainable AI Trilemma,\" encompassing capability, equity, and environmental sustainability, analyzing the energy inefficiency of current large language model (LLM) agents and retrieval-augmented generation (RAG) systems, particularly in resource-constrained settings. The authors propose novel metrics to quantify the trade-offs between energy consumption and performance, advocating for more sustainable AI system design."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.01851",
+    "title": "The Power of Training: How Different Neural Network Setups Influence the Energy Demand",
+    "published_date": "2024-01-03",
+    "abstract": "This work offers a heuristic evaluation of the effects of variations in machine learning training regimes and learning paradigms on the energy consumption of computing, especially HPC hardware with a life-cycle aware perspective. While increasing data availability and innovation in high-performance hardware fuels the training of sophisticated models, it also fosters the fading perception of energy consumption and carbon emission. Therefore, the goal of this work is to raise awareness about the energy impact of general training parameters and processes, from learning rate over batch size to knowledge transfer. Multiple setups with different hyperparameter configurations are evaluated on three different hardware systems. Among many results, we have found out that even with the same model and hardware to reach the same accuracy, improperly set training hyperparameters consume up to 5 times the energy of the optimal setup. We also extensively examined the energy-saving benefits of learning paradigms including recycling knowledge through pretraining and sharing knowledge through multitask training.",
+    "citation_count": 3,
+    "summary": "This study investigates the significant impact of neural network training hyperparameters and learning paradigms on energy consumption, demonstrating that suboptimal configurations can increase energy use by up to fivefold compared to optimal settings, highlighting the need for energy-efficient training practices."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/tJAD2LG9uweeEfjwq/estimating-efficiency-improvements-in-llm-pre-training",
+    "author": "Daan",
+    "title": "Estimating efficiency improvements in LLM pre-training",
+    "published_date": "2024-01-19",
+    "summary": "The author argues that improvements in the efficiency of training large language models (LLMs) have contributed as much to performance gains as increases in computing resources. This contrasts with a common belief that solely increased resources drive progress, suggesting significant implications for AI timelines and governance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/xyL5kb8RBGLiupGLf/scaling-of-ai-training-runs-will-slow-down-after-gpt-5",
+    "author": "Maxime Riché",
+    "title": "Scaling of AI training runs will slow down after GPT-5",
+    "published_date": "2024-04-26",
+    "summary": "The author initially argues that GPT-5 will significantly slow the growth of GPU usage in AI training due to power consumption limitations of existing data centers. However, this prediction is revised downward after considering the potential for decentralized training, reducing the credence to 15%."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bdQhzQsHjNrQp7cNS/estimates-of-gpu-or-equivalent-resources-of-large-ai-players",
+    "author": "CharlesD",
+    "title": "Estimates of GPU or equivalent resources of large AI players for 2024/5",
+    "published_date": "2024-11-28",
+    "summary": "The article estimates the AI compute capacity of major tech companies (Microsoft, Meta, Google, Amazon, and XAI) in 2024 and 2025, based on Nvidia's GPU production and sales figures. Due to data limitations, these are estimations with inherent uncertainties and potential errors."
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.16863",
+    "title": "Power Hungry Processing: Watts Driving the Cost of AI Deployment?",
+    "published_date": "2023-11-28",
+    "abstract": "Recent years have seen a surge in the popularity of commercial AI products based on generative, multi-purpose AI systems promising a unified approach to building machine learning (ML) models into technology. However, this ambition of “generality” comes at a steep cost to the environment, given the amount of energy these systems require and the amount of carbon that they emit. In this work, we propose the first systematic comparison of the ongoing inference cost of various categories of ML systems, covering both task-specific (i.e. finetuned models that carry out a single task) and 'general-purpose' models, (i.e. those trained for multiple tasks). We measure deployment cost as the amount of energy and carbon required to perform 1,000 inferences on representative benchmark dataset using these models. We find that multi-purpose, generative architectures are orders of magnitude more expensive than task-specific systems for a variety of tasks, even when controlling for the number of model parameters. We conclude with a discussion around the current trend of deploying multi-purpose generative ML systems, and caution that their utility should be more intentionally weighed against increased costs in terms of energy and emissions. All the data from our study can be accessed via an interactive demo to carry out further exploration and analysis.",
+    "citation_count": 96,
+    "summary": "This study compares the energy and carbon costs of inference for task-specific and general-purpose machine learning models, finding that multi-purpose generative models are significantly more expensive to deploy than task-specific models, even when accounting for model size. The authors caution against the uncritical adoption of general-purpose models due to their high environmental impact."
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.06522",
+    "title": "Watt For What: Rethinking Deep Learning's Energy-Performance Relationship",
+    "published_date": "2023-10-10",
+    "abstract": "Deep learning models have revolutionized various fields, from image recognition to natural language processing, by achieving unprecedented levels of accuracy. However, their increasing energy consumption has raised concerns about their environmental impact, disadvantaging smaller entities in research and exacerbating global energy consumption. In this paper, we explore the trade-off between model accuracy and electricity consumption, proposing a metric that penalizes large consumption of electricity. We conduct a comprehensive study on the electricity consumption of various deep learning models across different GPUs, presenting a detailed analysis of their accuracy-efficiency trade-offs. By evaluating accuracy per unit of electricity consumed, we demonstrate how smaller, more energy-efficient models can significantly expedite research while mitigating environmental concerns. Our results highlight the potential for a more sustainable approach to deep learning, emphasizing the importance of optimizing models for efficiency. This research also contributes to a more equitable research landscape, where smaller entities can compete effectively with larger counterparts. This advocates for the adoption of efficient deep learning practices to reduce electricity consumption, safeguarding the environment for future generations whilst also helping ensure a fairer competitive landscape.",
+    "citation_count": 9,
+    "summary": "This paper investigates the energy consumption of deep learning models, proposing a new metric that balances accuracy and energy efficiency to show that smaller, more efficient models can achieve comparable accuracy with significantly reduced energy use and promote a more sustainable and equitable research environment."
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.11645",
+    "title": "Exploding AI Power Use: an Opportunity to Rethink Grid Planning and Management",
+    "published_date": "2023-11-20",
+    "abstract": "The unprecedented rapid growth of computing demand for AI is projected to increase global annual datacenter (DC) growth from 7.2% to 11.3%. We project the 5-year AI DC demand for several power grids and assess whether they will allow desired AI growth (resource adequacy). If not, several “desperate measures”—grid policies that enable more load growth and maintain grid reliability by sacrificing new DC reliability are considered. We find that two DC hotspots—EirGrid (Ireland) and Dominion (US)—will have difficulty accommodating new DCs needed by the AI growth. In EirGrid, relaxing new DC reliability guarantees increases the power available to 1.6x–4.1x while maintaining 99.6% actual power availability for the new DCs, sufficient for the 5-year AI demand. In Dominion, relaxing reliability guarantees increases available DC capacity similarly (1.5x–4.6x) but not enough for the 5-year AI demand. New DCs only receive 89% power availability. Study of other US power grids—SPP, CAISO, ERCOT—shows that sufficient capacity exists for the projected AI load growth. Our results suggest the need to rethink adequacy assessment and also grid planning and management. New research opportunities include coordinated planning, reliability models that incorporate load flexibility, and adaptive load abstractions.",
+    "citation_count": 2,
+    "summary": "Rapidly increasing AI computing power demands threaten to overwhelm some power grids, particularly in Ireland and parts of the US, necessitating re-evaluation of grid planning and management to accommodate projected growth, potentially through relaxing reliability standards for new data centers."
+  }
+]

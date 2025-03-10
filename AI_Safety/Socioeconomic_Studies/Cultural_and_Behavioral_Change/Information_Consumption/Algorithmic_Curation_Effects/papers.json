@@ -1,0 +1,60 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.13832",
+    "title": "Algorithmically Curated Lies: How Search Engines Handle Misinformation about US Biolabs in Ukraine",
+    "published_date": "2024-01-24",
+    "abstract": "The growing volume of online content prompts the need for adopting algorithmic systems of information curation. These systems range from web search engines to recommender systems and are integral for helping users stay informed about important societal developments. However, unlike journalistic editing the algorithmic information curation systems (AICSs) are known to be subject to different forms of malperformance which make them vulnerable to possible manipulation. The risk of manipulation is particularly prominent in the case when AICSs have to deal with information about false claims that underpin propaganda campaigns of authoritarian regimes. Using as a case study of the Russian disinformation campaign concerning the US biolabs in Ukraine, we investigate how one of the most commonly used forms of AICSs - i.e. web search engines - curate misinformation-related content. For this aim, we conduct virtual agent-based algorithm audits of Google, Bing, and Yandex search outputs in June 2022. Our findings highlight the troubling performance of search engines. Even though some search engines, like Google, were less likely to return misinformation results, across all languages and locations, the three search engines still mentioned or promoted a considerable share of false content (33% on Google; 44% on Bing, and 70% on Yandex). We also find significant disparities in misinformation exposure based on the language of search, with all search engines presenting a higher number of false stories in Russian. Location matters as well with users from Germany being more likely to be exposed to search results promoting false information. These observations stress the possibility of AICSs being vulnerable to manipulation, in particular in the case of the unfolding propaganda campaigns, and underline the importance of monitoring performance of these systems to prevent it.",
+    "citation_count": 2,
+    "summary": "This study analyzes how Google, Bing, and Yandex search engines handled Russian disinformation about US biolabs in Ukraine, finding significant disparities in the prevalence of misinformation across languages, locations, and search engines, with a concerningly high percentage of false content promoted, especially by Yandex and Bing. The results highlight the vulnerability of algorithmic information curation systems to manipulation by propaganda campaigns."
+  },
+  {
+    "url": "https://arxiv.org/html/2410.00780v1",
+    "title": "Mutual benefits of social learning and algorithmic mediation for cumulative culture",
+    "published_date": "2024-10-01",
+    "abstract": "The remarkable ecological success of humans is often attributed to our ability to develop complex cultural artefacts that enable us to cope with environmental challenges. The evolution of complex culture (cumulative cultural evolution) is usually modeled as a collective process in which individuals invent new artefacts (innovation) and copy information from others (social learning). This classic picture overlooks the fact that in the digital age, intelligent algorithms are increasingly mediating information between humans, with potential consequences for cumulative cultural evolution. Building on an established model of cultural evolution, we investigate the combined effects of network-based social learning and a simplistic version of algorithmic mediation on cultural accumulation. We find that algorithmic mediation has a strong impact on cultural accumulation and that this impact generally increases as social networks become less densely connected. Moreover, cultural accumulation tends to be optimal when social learning and algorithmic mediation are combined, and the optimal ratio depends on the network's density. Our modeling results are a first step towards formalising the impact of intelligent algorithms on cumulative cultural evolution within an established framework. Models of this kind will also help to uncover mechanisms of human-machine interaction in cultural contexts, guiding hypotheses for future experimental testing.",
+    "summary": "This study models the combined effects of social learning and algorithmic mediation on cumulative cultural evolution, finding that algorithmic mediation significantly boosts cultural accumulation, especially in less densely connected social networks, and that optimal cultural accumulation arises from a balanced combination of both processes."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/4PpRp589zJGEbDhxX/are-we-dropping-the-ball-on-recommendation-ais",
+    "author": "Charbel-Raphael Segerie",
+    "title": "Are we dropping the ball on Recommendation AIs?",
+    "published_date": "2024-10-22",
+    "summary": "This article argues that recommendation AI algorithms, while beneficial in some ways, pose significant risks to democracy and global stability by amplifying polarization, misinformation, and hate speech, potentially contributing to societal collapse. The author calls for improved governance and algorithm design to mitigate these negative externalities."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/smMdYezaC8vuiLjCf/secret-collusion-will-we-know-when-to-unplug-ai",
+    "author": "Schroederdewitt; Srm; MikhailB; Lewis Hammond; Chansmi; Sofmonk",
+    "title": "Secret Collusion: Will We Know When to Unplug AI?",
+    "published_date": "2024-09-16",
+    "summary": "This article introduces CASE, a novel framework for evaluating the risk of secret collusion among advanced AI agents using steganography. The authors find that AI agents' capabilities in this area are rapidly improving, posing increasing security and governance challenges."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/N7nDePaNabJdnbXeE/p/D7PumeYTDPfBTp3i7",
+    "author": "Cleo Nardo",
+    "title": "The Waluigi Effect (mega-post)",
+    "published_date": "2024-02-01",
+    "summary": "This article explores why large language models (LLMs) sometimes produce incorrect answers, attributing it to their training on internet data containing misinformation. It proposes \"Simulator Theory\" and suggests that prompting LLMs with flattering descriptions and dialogue, creating a \"friendly simulacrum,\" improves accuracy by guiding the model toward more reliable responses."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/aoEnDEmoKCK9S99hL/cognitive-biases-contributing-to-ai-x-risk-a-deleted-excerpt",
+    "author": "Andrew_Critch",
+    "title": "Cognitive Biases Contributing to AI X-risk — a deleted excerpt from my 2018 ARCHES draft",
+    "published_date": "2024-12-03",
+    "summary": "The author discusses cognitive biases, particularly \"illusion of control\" and \"scope insensitivity,\" that hinder accurate assessment of artificial intelligence existential risks, specifically the unrecognized prepotence of AI systems—AI powerful enough to be uncontrollable and potentially misaligned with human survival. These biases, supported by existing research, lead to inaccurate risk evaluations."
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.08669",
+    "title": "Leveraging Recommender Systems to Reduce Content Gaps on Peer Production Platforms",
+    "published_date": "2023-07-17",
+    "abstract": "Peer production platforms like Wikipedia commonly suffer from content gaps. Prior research suggests recommender systems can help solve this problem, by guiding editors towards underrepresented topics. However, it remains unclear whether this approach would result in less relevant recommendations, leading to reduced overall engagement with recommended items. To answer this question, we first conducted offline analyses (Study 1) on SuggestBot, a task-routing recommender system for Wikipedia, then did a three-month controlled experiment (Study 2). Our results show that presenting users with articles from underrepresented topics increased the proportion of work done on those articles without significantly reducing overall recommendation uptake. We discuss the implications of our results, including how ignoring the article discovery process can artificially narrow recommendations on peer production platforms.",
+    "summary": "A study using Wikipedia's SuggestBot found that recommending underrepresented articles to editors increased work on those articles without significantly decreasing overall engagement, suggesting recommender systems can effectively address content gaps on peer production platforms. This counters concerns that such systems would lead to less relevant and less-adopted recommendations."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.11225",
+    "title": "The Amplification Paradox in Recommender Systems",
+    "published_date": "2023-02-22",
+    "abstract": "Automated audits of recommender systems found that blindly following recommendations leads users to increasingly partisan, conspiratorial, or false content. At the same time, studies using real user traces suggest that recommender systems are not the primary driver of attention toward extreme content; on the contrary, such content is mostly reached through other means, e.g., other websites. In this paper, we explain the following apparent paradox: if the recommendation algorithm favors extreme content, why is it not driving its consumption? With a simple agent-based model where users attribute different utilities to items in the recommender system, we show through simulations that the collaborative-filtering nature of recommender systems and the nicheness of extreme content can resolve the apparent paradox: although blindly following recommendations would indeed lead users to niche content, users rarely consume niche content when given the option because it is of low utility to them, which can lead the recommender system to deamplify such content. Our results call for a nuanced interpretation of \"algorithmic amplification\" and highlight the importance of modeling the utility of content to users when auditing recommender systems. Code available: https://github.com/epfl-dlab/amplification_paradox.",
+    "citation_count": 12,
+    "summary": "Recommender systems, while potentially amplifying extreme content through algorithmic bias, often fail to significantly drive its consumption due to the low user utility of niche content and the collaborative filtering mechanisms that adapt to user preferences. This \"amplification paradox\" highlights the need for nuanced auditing methods that consider user engagement beyond simple recommendation exposure."
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.19156",
+    "title": "Beyond Discrepancy: A Closer Look at the Theory of Distribution Shift",
+    "published_date": "2024-05-29",
+    "abstract": "Many machine learning models appear to deploy effortlessly under distribution shift, and perform well on a target distribution that is considerably different from the training distribution. Yet, learning theory of distribution shift bounds performance on the target distribution as a function of the discrepancy between the source and target, rarely guaranteeing high target accuracy. Motivated by this gap, this work takes a closer look at the theory of distribution shift for a classifier from a source to a target distribution. Instead of relying on the discrepancy, we adopt an Invariant-Risk-Minimization (IRM)-like assumption connecting the distributions, and characterize conditions under which data from a source distribution is sufficient for accurate classification of the target. When these conditions are not met, we show when only unlabeled data from the target is sufficient, and when labeled target data is needed. In all cases, we provide rigorous theoretical guarantees in the large sample regime."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/jig8yRHuwhgxN35ue/a-robust-natural-latent-over-a-mixed-distribution-is-natural",
+    "author": "Johnswentworth; David Lorell",
+    "title": "A Robust Natural Latent Over A Mixed Distribution Is Natural Over The Distributions Which Were Mixed",
+    "published_date": "2024-08-22"
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.14758",
+    "title": "Towards Practicable Sequential Shift Detectors",
+    "published_date": "2023-07-27",
+    "abstract": "There is a growing awareness of the harmful effects of distribution shift on the performance of deployed machine learning models. Consequently, there is a growing interest in detecting these shifts before associated costs have time to accumulate. However, desiderata of crucial importance to the practicable deployment of sequential shift detectors are typically overlooked by existing works, precluding their widespread adoption. We identify three such desiderata, highlight existing works relevant to their satisfaction, and recommend impactful directions for future research."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/nM7qwfbB9dAxBopLT/linkpost-remarks-on-the-convergence-in-distribution-of-1",
+    "author": "Spencer Becker-Kahn",
+    "title": "[Linkpost] Remarks on the Convergence in Distribution of Random Neural Networks to Gaussian Processes in the Infinite Width Limit",
+    "published_date": "2023-11-30"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/fsGEyCYhqs7AWwdCe/learning-theoretic-agenda-reading-list",
+    "author": "Vanessa Kosoy",
+    "title": "Learning-theoretic agenda reading list",
+    "published_date": "2023-11-09"
+  },
+  {
+    "url": "https://arxiv.org/abs/2206.15407",
+    "title": "Shifts 2.0: Extending The Dataset of Real Distributional Shifts",
+    "published_date": "2022-06-30",
+    "abstract": "Distributional shift, or the mismatch between training and deployment data, is a significant obstacle to the usage of machine learning in high-stakes industrial applications, such as autonomous driving and medicine. This creates a need to be able to assess how robustly ML models generalize as well as the quality of their uncertainty estimates. Standard ML baseline datasets do not allow these properties to be assessed, as the training, validation and test data are often identically distributed. Recently, a range of dedicated benchmarks have appeared, featuring both distributionally matched and shifted data. Among these benchmarks, the Shifts dataset stands out in terms of the diversity of tasks as well as the data modalities it features. While most of the benchmarks are heavily dominated by 2D image classification tasks, Shifts contains tabular weather forecasting, machine translation, and vehicle motion prediction tasks. This enables the robustness properties of models to be assessed on a diverse set of industrial-scale tasks and either universal or directly applicable task-specific conclusions to be reached. In this paper, we extend the Shifts Dataset with two datasets sourced from industrial, high-risk applications of high societal importance. Specifically, we consider the tasks of segmentation of white matter Multiple Sclerosis lesions in 3D magnetic resonance brain images and the estimation of power consumption in marine cargo vessels. Both tasks feature ubiquitous distributional shifts and a strict safety requirement due to the high cost of errors. These new datasets will allow researchers to further explore robust generalization and uncertainty estimation in new situations. In this work, we provide a description of the dataset and baseline results for both tasks.",
+    "citation_count": 25
+  }
+]

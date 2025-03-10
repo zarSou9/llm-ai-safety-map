@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2402.06160",
+    "title": "Are Uncertainty Quantification Capabilities of Evidential Deep Learning a Mirage?",
+    "published_date": "2024-02-09",
+    "abstract": "This paper questions the effectiveness of a modern predictive uncertainty quantification approach, called \\emph{evidential deep learning} (EDL), in which a single neural network model is trained to learn a meta distribution over the predictive distribution by minimizing a specific objective function. Despite their perceived strong empirical performance on downstream tasks, a line of recent studies by Bengs et al. identify limitations of the existing methods to conclude their learned epistemic uncertainties are unreliable, e.g., in that they are non-vanishing even with infinite data. Building on and sharpening such analysis, we 1) provide a sharper understanding of the asymptotic behavior of a wide class of EDL methods by unifying various objective functions; 2) reveal that the EDL methods can be better interpreted as an out-of-distribution detection algorithm based on energy-based-models; and 3) conduct extensive ablation studies to better assess their empirical effectiveness with real-world datasets. Through all these analyses, we conclude that even when EDL methods are empirically effective on downstream tasks, this occurs despite their poor uncertainty quantification capabilities. Our investigation suggests that incorporating model uncertainty can help EDL methods faithfully quantify uncertainties and further improve performance on representative downstream tasks, albeit at the cost of additional computational complexity.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/NKmjGS4a3ykriqRNR/analyzing-deepmind-s-probabilistic-methods-for-evaluating",
+    "author": "Axel Højmark; Govind Pimpale; Arjun Panickssery; Marius Hobbhahn; Jérémy Scheurer",
+    "title": "Auto-Enhance: Developing a meta-benchmark to measure LLM agents' ability to improve other agents",
+    "published_date": "2024-07-22"
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.08083",
+    "title": "Training of Neural Networks with Uncertain Data, A Mixture of Experts Approach",
+    "published_date": "2023-12-13",
+    "abstract": "This paper introduces the\"Uncertainty-aware Mixture of Experts\"(uMoE), a novel solution aimed at addressing aleatoric uncertainty within Neural Network (NN) based predictive models. While existing methodologies primarily concentrate on managing uncertainty during inference, uMoE uniquely embeds uncertainty into the training phase. Employing a\"Divide and Conquer\"strategy, uMoE strategically partitions the uncertain input space into more manageable subspaces. It comprises Expert components, individually trained on their respective subspace uncertainties. Overarching the Experts, a Gating Unit, leveraging additional information regarding the distribution of uncertain in-puts across these subspaces, dynamically adjusts the weighting to minimize deviations from ground truth. Our findings demonstrate the superior performance of uMoE over baseline methods in effectively managing data uncertainty. Furthermore, through a comprehensive robustness analysis, we showcase its adaptability to varying uncertainty levels and propose optimal threshold parameters. This innovative approach boasts broad applicability across diverse da-ta-driven domains, including but not limited to biomedical signal processing, autonomous driving, and production quality control."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/79eegMp3EBs8ptFqa/neural-uncertainty-estimation-for-alignment",
+    "author": "Charlie Steiner",
+    "title": "Neural uncertainty estimation review article (for alignment)",
+    "published_date": "2023-12-05"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.05890v1.pdf",
+    "title": "Robust uncertainty estimates with out-of-distribution pseudo-inputs training",
+    "published_date": "2022-01-15",
+    "abstract": "Probabilistic models often use neural networks to control their predictive uncertainty. However, when making out-of-distribution (OOD)} predictions, the often-uncontrollable extrapolation properties of neural networks yield poor uncertainty predictions. Such models then don't know what they don't know, which directly limits their robustness w.r.t unexpected inputs. To counter this, we propose to explicitly train the uncertainty predictor where we are not given data to make it reliable. As one cannot train without data, we provide mechanisms for generating pseudo-inputs in informative low-density regions of the input space, and show how to leverage these in a practical Bayesian framework that casts a prior distribution over the model uncertainty. With a holistic evaluation, we demonstrate that this yields robust and interpretable predictions of uncertainty while retaining state-of-the-art performance on diverse tasks such as regression and generative modelling",
+    "citation_count": 1
+  }
+]

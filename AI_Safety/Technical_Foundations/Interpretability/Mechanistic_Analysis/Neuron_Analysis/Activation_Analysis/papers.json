@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.13163",
+    "title": "Hidden Activations Are Not Enough: A General Approach to Neural Network Predictions",
+    "published_date": "2024-09-20",
+    "abstract": "We introduce a novel mathematical framework for analyzing neural networks using tools from quiver representation theory. This framework enables us to quantify the similarity between a new data sample and the training data, as perceived by the neural network. By leveraging the induced quiver representation of a data sample, we capture more information than traditional hidden layer outputs. This quiver representation abstracts away the complexity of the computations of the forward pass into a single matrix, allowing us to employ simple geometric and statistical arguments in a matrix space to study neural network predictions. Our mathematical results are architecture-agnostic and task-agnostic, making them broadly applicable. As proof of concept experiments, we apply our results for the MNIST and FashionMNIST datasets on the problem of detecting adversarial examples on different MLP architectures and several adversarial attack methods. Our experiments can be reproduced with our \\href{https://github.com/MarcoArmenta/Hidden-Activations-are-not-Enough}{publicly available repository}."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2308.00858.pdf",
+    "title": "Understanding Activation Patterns in Artificial Neural Networks by Exploring Stochastic Processes",
+    "published_date": "2023-08-01",
+    "abstract": "To gain a deeper understanding of the behavior and learning dynamics of (deep) artificial neural networks, it is valuable to employ mathematical abstractions and models. These tools provide a simplified perspective on network performance and facilitate systematic investigations through simulations. In this paper, we propose utilizing the framework of stochastic processes, which has been underutilized thus far. Our approach models activation patterns of thresholded nodes in (deep) artificial neural networks as stochastic processes. We focus solely on activation frequency, leveraging neuroscience techniques used for real neuron spike trains. During a classification task, we extract spiking activity and use an arrival process following the Poisson distribution. We examine observed data from various artificial neural networks in image recognition tasks, fitting the proposed model's assumptions. Through this, we derive parameters describing activation patterns in each network. Our analysis covers randomly initialized, generalizing, and memorizing networks, revealing consistent differences across architectures and training sets. Calculating Mean Firing Rate, Mean Fano Factor, and Variances, we find stable indicators of memorization during learning, providing valuable insights into network behavior. The proposed model shows promise in describing activation patterns and could serve as a general framework for future investigations. It has potential applications in theoretical simulations, pruning, and transfer learning."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rCP5iTYLtfcoC8NXd/self-organised-neural-networks-a-simple-natural-and",
+    "author": "D𝜋",
+    "title": "Self-Organised Neural Networks:\nA simple, natural and efficient way to intelligence",
+    "published_date": "2022-01-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.09957v1.pdf",
+    "title": "Activation Functions in Artificial Neural Networks: A Systematic Overview",
+    "published_date": "2021-01-25",
+    "abstract": "Activation functions shape the outputs of artificial neurons and, therefore, are integral parts of neural networks in general and deep learning in particular. Some activation functions, such as logistic and relu, have been used for many decades. But with deep learning becoming a mainstream research topic, new activation functions have mushroomed, leading to confusion in both theory and practice. This paper provides an analytic yet up-to-date overview of popular activation functions and their properties, which makes it a timely resource for anyone who studies or applies neural networks.",
+    "citation_count": 38
+  },
+  {
+    "title": "A Novel Activation Maximization-based Approach for Insight into Electrophysiology Classifiers",
+    "abstract": "Spectral analysis remains a hallmark approach for gaining insight into electrophysiology modalities like electroencephalography (EEG). As the field of deep learning has progressed, more studies have begun to train deep learning classifiers on raw EEG data, which presents unique problems for explainability. A growing number of studies have presented explainability approaches that provide insight into the spectral features learned by deep learning classifiers. However, existing approaches only attribute importance to different frequency bands. Most of the methods cannot provide insight into the actual spectral values or the relationship between spectral features that models have learned. Here, we present a novel adaptation of activation maximization for electrophysiology time-series that generates samples that indicate the features learned by classifiers by optimizing their spectral content. We evaluate our approach within the context of EEG sleep stage classification with a convolutional neural network, and we find that our approach is able to identify spectral patterns known to be associated with each sleep stage. We also find surprising results suggesting that our classifier may have prioritized the use of eye and motion artifact when identifying Awake samples. Our approach is the first adaptation of activation maximization to the domain of raw electrophysiology classification. Additionally, our approach has implications for explaining any classifier trained on highly dynamic, long time-series.",
+    "published_date": "2021-10-12",
+    "citation_count": 15,
+    "url": "https://www.biorxiv.org/content/10.1101/2021.10.10.463830v1"
+  }
+]

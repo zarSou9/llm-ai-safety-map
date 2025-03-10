@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2406.00104",
+    "title": "Scalable Bayesian Learning with posteriors",
+    "published_date": "2024-05-31",
+    "abstract": "Although theoretically compelling, Bayesian learning with modern machine learning models is computationally challenging since it requires approximating a high dimensional posterior distribution. In this work, we (i) introduce posteriors, an easily extensible PyTorch library hosting general-purpose implementations making Bayesian learning accessible and scalable to large data and parameter regimes; (ii) present a tempered framing of stochastic gradient Markov chain Monte Carlo, as implemented in posteriors, that transitions seamlessly into optimization and unveils a minor modification to deep ensembles to ensure they are asymptotically unbiased for the Bayesian posterior, and (iii) demonstrate and compare the utility of Bayesian approximations through experiments including an investigation into the cold posterior effect and applications with large language models.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/NHKCtSXgFieDAyWt2/calculating-natural-latents-via-resampling",
+    "author": "Johnswentworth; David Lorell",
+    "title": "Calculating Natural Latents via Resampling",
+    "published_date": "2024-06-06"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/9ecpBaAiGQnkmX9Ex/learning-coefficient-estimation-the-details",
+    "author": "Zach Furman",
+    "title": "Learning coefficient estimation: the details",
+    "published_date": "2023-11-16"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03"
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.14024v1",
+    "title": "Toward Unlimited Self-Learning MCMC with Parallel Adaptive Annealing",
+    "published_date": "2022-11-25",
+    "abstract": "Self-learning Monte Carlo (SLMC) methods are recently proposed to accelerate Markov chain Monte Carlo (MCMC) methods using a machine learning model. With latent generative models, SLMC methods realize efficient Monte Carlo updates with less autocorrelation. However, SLMC methods are difficult to directly apply to multimodal distributions for which training data are difficult to obtain. To solve the limitation, we propose parallel adaptive annealing, which makes SLMC methods directly apply to multimodal distributions with a gradually trained proposal while annealing target distribution. Parallel adaptive annealing is based on (i) sequential learning with annealing to inherit and update the model parameters, (ii) adaptive annealing to automatically detect under-learning, and (iii) parallel annealing to mitigate mode collapse of proposal models. We also propose VAE-SLMC method which utilizes a variational autoencoder (VAE) as a proposal of SLMC to make efficient parallel proposals independent of any previous state using recently clarified quantitative properties of VAE. Experiments validate that our method can proficiently obtain accurate samples from multiple multimodal toy distributions and practical multimodal posterior distributions, which is difficult to achieve with the existing SLMC methods."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25"
+  }
+]

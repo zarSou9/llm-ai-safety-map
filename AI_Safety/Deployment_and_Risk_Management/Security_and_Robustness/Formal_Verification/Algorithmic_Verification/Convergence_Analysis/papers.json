@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2309.11365.pdf",
+    "title": "Automated Lyapunov Analysis of Primal-Dual Optimization Algorithms: An Interpolation Approach",
+    "published_date": "2023-09-20",
+    "abstract": "Primal-dual algorithms are frequently used for iteratively solving large-scale convex optimization problems. The analysis of such algorithms is usually done on a case-by-case basis, and the resulting guaranteed rates of convergence can be conservative. Here we consider a class of first-order algorithms for linearly constrained convex optimization problems, and provide a linear matrix inequality (LMI) analysis framework for certifying worst-case exponential convergence rates. Our approach builds on recent results for interpolation of convex functions and linear operators, and our LMI directly constructs a Lyapunov function certifying the guaranteed convergence rate. By comparing to rates established in the literature, we show that our approach can certify significantly faster convergence for this family of algorithms.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.08770v1.pdf",
+    "title": "Learning-to-learn non-convex piecewise-Lipschitz functions",
+    "published_date": "2021-08-19",
+    "abstract": "We analyze the meta-learning of the initialization and step-size of learning algorithms for piecewise-Lipschitz functions, a non-convex setting with applications to both machine learning and algorithms. Starting from recent regret bounds for the exponential forecaster on losses with dispersed discontinuities, we generalize them to be initialization-dependent and then use this result to propose a practical meta-learning procedure that learns both the initialization and the step-size of the algorithm from multiple online learning tasks. Asymptotically, we guarantee that the average regret across tasks scales with a natural notion of task-similarity that measures the amount of overlap between near-optimal regions of different tasks. Finally, we instantiate the method and its guarantee in two important settings: robust meta-learning and multi-task data-driven algorithm design.",
+    "citation_count": 13
+  },
+  {
+    "title": "Convergence analysis of rule-generality on the XCS classifier system",
+    "abstract": "The XCS classifier system adaptively controls a rule-generality of a rule-condition through a rule-discovery process. However, there is no proof that the rule-generality can eventually converge to its optimum value even under some ideal assumptions. This paper conducts a convergence analysis of the rule-generality on the rule-discovery process with the ternary alphabet coding. Our analysis provides the first proof that an average rule-generality of rules in a population can converge to its optimum value under some assumptions. This proof can be used to mathematically conclude that the XCS framework has a natural pressure to explore rules toward optimum rules if XCS satisfies our derived conditions. In addition, our theoretical result returns a rough setting-up guideline for the maximum population size, the mutation rate, and the GA threshold, improving the convergence speed of the rule-generality and the XCS performance.",
+    "published_date": "2021-06-26",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3449639.3459274"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.04410v1.pdf",
+    "title": "Optimistic Dual Extrapolation for Coherent Non-monotone Variational Inequalities",
+    "published_date": "2021-03-07",
+    "abstract": "The optimization problems associated with training generative adversarial neural networks can be largely reduced to certain {\\em non-monotone} variational inequality problems (VIPs), whereas existing convergence results are mostly based on monotone or strongly monotone assumptions. In this paper, we propose {\\em optimistic dual extrapolation (OptDE)}, a method that only performs {\\em one} gradient evaluation per iteration. We show that OptDE is provably convergent to {\\em a strong solution} under different coherent non-monotone assumptions. In particular, when a {\\em weak solution} exists, the convergence rate of our method is $O(1/{\\epsilon^{2}})$, which matches the best existing result of the methods with two gradient evaluations. Further, when a {\\em $\\sigma$-weak solution} exists, the convergence guarantee is improved to the linear rate $O(\\log\\frac{1}{\\epsilon})$. Along the way--as a byproduct of our inquiries into non-monotone variational inequalities--we provide the near-optimal $O\\big(\\frac{1}{\\epsilon}\\log \\frac{1}{\\epsilon}\\big)$ convergence guarantee in terms of restricted strong merit function for monotone variational inequalities. We also show how our results can be naturally generalized to the stochastic setting, and obtain corresponding new convergence results. Taken together, our results contribute to the broad landscape of variational inequality--both non-monotone and monotone alike--by providing a novel and more practical algorithm with the state-of-the-art convergence guarantees.",
+    "citation_count": 46
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.05135v1.pdf",
+    "title": "Regret and Cumulative Constraint Violation Analysis for Online Convex Optimization with Long Term Constraints",
+    "published_date": "2021-06-09",
+    "abstract": "This paper considers online convex optimization with long term constraints, where constraints can be violated in intermediate rounds, but need to be satisfied in the long run. The cumulative constraint violation is used as the metric to measure constraint violations, which excludes the situation that strictly feasible constraints can compensate the effects of violated constraints. A novel algorithm is first proposed and it achieves an $\\mathcal{O}(T^{\\max\\{c,1-c\\}})$ bound for static regret and an $\\mathcal{O}(T^{(1-c)/2})$ bound for cumulative constraint violation, where $c\\in(0,1)$ is a user-defined trade-off parameter, and thus has improved performance compared with existing results. Both static regret and cumulative constraint violation bounds are reduced to $\\mathcal{O}(\\log(T))$ when the loss functions are strongly convex, which also improves existing results. %In order to bound the regret with respect to any comparator sequence, In order to achieve the optimal regret with respect to any comparator sequence, another algorithm is then proposed and it achieves the optimal $\\mathcal{O}(\\sqrt{T(1+P_T)})$ regret and an $\\mathcal{O}(\\sqrt{T})$ cumulative constraint violation, where $P_T$ is the path-length of the comparator sequence. Finally, numerical simulations are provided to illustrate the effectiveness of the theoretical results.",
+    "citation_count": 37
+  },
+  {
+    "title": "Sequence Convergence of Inexact Nonconvex and Nonsmooth Algorithms with More Realistic Assumptions",
+    "abstract": "Abstract The sequence convergence of inexact nonconvex and nonsmooth algorithms is proved with an unrealistic assumption on the noise. In this paper, we focus on removing the assumption. Without the assumption, the algorithm consequently cannot be proved with previous framework and tricks. Thus, we build a new proof framework which employs a pseudo sufficient descent condition and a pseudo relative error condition both related to an auxiliary sequence; and a continuity condition is assumed to hold. In fact, a lot of classical inexact nonconvex and nonsmooth algorithms allow these three conditions. Under an assumption on the auxiliary sequence, we prove the sequence generated by the general algorithm converges to a critical point of the objective function if being assumed semi-algebraic property. The core of the proofs lies in building a new Lyapunov function, whose successive difference provides a bound for the successive difference of the points generated by the algorithm. And then, we apply our findings to the inexact nonconvex proximal inertial gradient algorithm and derive the corresponding convergence results.",
+    "published_date": "2021-01-12",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/01630563.2020.1871362"
+  }
+]

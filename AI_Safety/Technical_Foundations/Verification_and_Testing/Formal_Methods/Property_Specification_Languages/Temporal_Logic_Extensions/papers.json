@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2407.21321",
+    "title": "Hyper Parametric Timed CTL",
+    "published_date": "2024-07-31",
+    "abstract": "Hyperproperties enable simultaneous reasoning about multiple execution traces of a system and are useful to reason about noninterference, opacity, robustness, fairness, observational determinism, etc. We introduce hyper parametric timed computation tree logic (HyperPTCTL), extending hyperlogics with timing reasoning and, notably, parameters to express unknown values. We mainly consider its nest-free fragment, where the temporal operators cannot be nested. However, we allow extensions that enable counting actions and comparing the duration since the most recent occurrence of specific actions. We show that our nest-free fragment with this extension is sufficiently expressive to encode the properties, e.g., opacity, (un)fairness, or robust observational (non)determinism. We propose semi-algorithms for the model checking and synthesis of parametric timed automata (TAs) (an extension of TAs with timing parameters) against this nest-free fragment with the extension via reduction to the PTCTL model checking and synthesis. While the general model checking (and thus synthesis) problem is undecidable, we show that a large part of our extended (yet nest-free) fragment is decidable, provided the parameters only appear in the property, not in the model. We also exhibit additional decidable fragments where the parameters within the model are allowed. We implemented our semi-algorithms on the top of the IMITATOR model checker and performed experiments. Our implementation supports most of the nest-free fragments (beyond the decidable classes). The experimental results highlight our method's practical relevance."
+  },
+  {
+    "title": "Technical Report Column",
+    "abstract": "Welcome to the Technical Reports Column. If your institution publishes technical reports that you'd like to have included here, please contact me at the email address above.",
+    "published_date": "2024-03-26",
+    "url": "https://dl.acm.org/doi/10.1145/3300150.3300156"
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.16905",
+    "title": "Procedural Adherence and Interpretability Through Neuro-Symbolic Generative Agents",
+    "published_date": "2024-02-24",
+    "abstract": "The surge in popularity of large language models (LLMs) has opened doors for new approaches to the creation of interactive agents. However, managing and interpreting the temporal behavior of such agents over the course of a potentially infinite interaction remain challenging. The stateful, long-term horizon reasoning required for coherent agent behavior does not fit well into the LLM paradigm. We propose a combination of formal logic-based program synthesis and LLM content generation to bring guarantees of procedural adherence and interpretability to generative agent behavior. To illustrate the benefit of procedural adherence and interpretability, we use Temporal Stream Logic (TSL) to generate an automaton that enforces an interpretable, high-level temporal structure on an agent. With the automaton tracking the context of the interaction and making decisions to guide the conversation accordingly, we can drive content generation in a way that allows the LLM to focus on a shorter context window. We evaluated our approach on different tasks involved in creating an interactive agent specialized for generating choose-your-own-adventure games. We found that over all of the tasks, an automaton-enhanced agent with procedural guarantees achieves at least 96% adherence to its temporal constraints, whereas a purely LLM-based agent demonstrates as low as 14.67% adherence.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2308.08640.pdf",
+    "title": "Non-Rigid Designators in Epistemic and Temporal Free Description Logics (Extended Version)",
+    "published_date": "2023-08-16",
+    "abstract": "Definite descriptions, such as 'the smallest planet in the Solar System', have been recently recognised as semantically transparent devices for object identification in knowledge representation formalisms. Along with individual names, they have been introduced also in the context of description logic languages, enriching the expressivity of standard nominal constructors. Moreover, in the first-order modal logic literature, definite descriptions have been widely investigated for their non-rigid behaviour, which allows them to denote different objects at different states. In this direction, we introduce epistemic and temporal extensions of standard description logics, with nominals and the universal role, additionally equipped with definite descriptions constructors. Regarding names and descriptions, in these languages we allow for: possible lack of denotation, ensured by partial models, coming from free logic semantics as a generalisation of the classical ones; and non-rigid designation features, obtained by assigning to terms distinct values across states, as opposed to the standard rigidity condition on individual expressions. In the absence of the rigid designator assumption, we show that the satisfiability problem for epistemic free description logics is NExpTime-complete, while satisfiability for temporal free description logics over linear time structures is undecidable.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.16414",
+    "title": "Parameterisation of Reasoning on Temporal Markov Logic Networks",
+    "published_date": "2022-11-29",
+    "abstract": "We aim at improving reasoning on inconsistent and uncertain data. We focus on knowledge-graph data, extended with time intervals to specify their validity, as regularly found in historical sciences. We propose principles on semantics for efficient Maximum A-Posteriori inference on the new Temporal Markov Logic Networks (TMLN) which extend the Markov Logic Networks (MLN) by uncertain temporal facts and rules. We examine total and partial temporal (in)consistency relations between sets of temporal formulae. Then we propose a new Temporal Parametric Semantics, which may combine several sub-functions, allowing to use different assessment strategies. Finally, we expose the constraints that semantics must respect to satisfy our principles.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/yFQkFNCszoJPZTnK6/analogies-and-general-priors-on-intelligence",
+    "author": "riceissa, Sammy Martin",
+    "title": "Analogies and General Priors on Intelligence",
+    "published_date": "2021-08-20"
+  }
+]

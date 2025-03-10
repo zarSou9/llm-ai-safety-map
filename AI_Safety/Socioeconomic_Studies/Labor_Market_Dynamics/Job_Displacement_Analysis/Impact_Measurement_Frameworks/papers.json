@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/8gCsRPxvXyAZJLcwd/gdp-per-capita-in-2050",
+    "author": "Hauke Hillebrandt",
+    "title": "GDP per capita in 2050",
+    "published_date": "2024-05-06",
+    "summary": "The article projects GDP per capita for major economies until 2050, arguing that even without transformative AI growth, the projected increases suggest a significantly different world by 2050 compared to today, with substantial improvements in living standards for many countries."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06",
+    "summary": "The standard epidemiological model for COVID-19 transmission poorly predicts the observed relatively small variation in infection rates across US states despite differing policies. A proposed alternative \"vulnerability model,\" positing that individual susceptibility fluctuates over time, better explains the observed data and avoids inconsistencies of the standard model."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/iBFThJGupS6B5HL3r/the-effectiveness-of-masks-is-limited",
+    "author": "Mike Harris",
+    "title": "The Effectiveness Of Masks is Limited",
+    "published_date": "2021-09-21",
+    "summary": "The author critiques a study claiming a 25% reduction in R0 due to mask-wearing, arguing that the study's Bayesian model, while sophisticated, obscures a weak correlation between absolute mask usage and transmission rates. A simpler linear model, focusing on changes in mask usage relative to baseline, reveals a stronger correlation, potentially explaining the study's findings."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/vnseRoExq9BCK2NRZ/fhi-paper-on-covid-19-government-countermeasures",
+    "author": "jacobjacob",
+    "title": "FHI paper on COVID-19 government countermeasures",
+    "published_date": "2020-06-04",
+    "summary": "A large-scale Bayesian hierarchical model analyzing data from 41 countries found that school closures, closing non-essential businesses, and limiting gathering sizes were highly effective COVID-19 countermeasures, while stay-at-home orders showed limited additional benefit despite high perceived burden."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/yKYg6D7HNxLuJDcLS/hammer-and-mask-wide-spread-use-of-reusable-particle",
+    "author": "EGI",
+    "title": "Hammer and Mask -\nWide spread use of reusable particle filtering masks as a SARS-CoV-2 eradication strategy",
+    "published_date": "2020-04-14",
+    "summary": "The author proposes widespread use of high-quality reusable particle filtering masks as a cost-effective, long-term strategy to control the spread of SARS-CoV-2, allowing for the lifting of other restrictive measures while maintaining exponential decay of new cases. This approach aims to reduce the effective reproduction number (R<sub>eff</sub>) without causing widespread death or significant economic disruption."
+  },
+  {
+    "title": "Job Displacement and Financial Outcomes",
+    "abstract": "Using two proprietary datasets on earnings and credit outcomes, this paper finds that both high- and low-earners take a significant and persistent hit to income after job displacement. But these losses only translate into worse credit conditions – higher credit card utilization, lower FICO scores, and a pick up in the rate of card accounts that are delinquent or over limit – among low- earners. We observe no negative implications among higher income households, providing novel empirical evidence of the economically disparate impact of job loss.",
+    "published_date": "2018-11-01",
+    "citation_count": 5,
+    "url": "https://www.sciencedirect.com/science/article/pii/S016517651930014X",
+    "summary": "Job displacement negatively impacts income for both high- and low-income earners, but only low-income earners experience consequential declines in credit scores and increased credit delinquency. This highlights the unequal economic impact of job loss."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/K3d93AfFE5owfpkx4/counterfactual-outcome-state-transition-parameters",
+    "author": "Anders_H",
+    "title": "Counterfactual outcome state transition parameters",
+    "published_date": "2018-07-27",
+    "summary": "The article introduces a new method for analyzing randomized controlled trials, focusing on how the choice of effect measure (e.g., risk ratio, risk difference) impacts the generalizability of results to different populations. The author argues that the commonly used risk ratio is problematic due to its asymmetry and proposes a novel approach using counterfactual outcome state transition parameters to address this issue and improve the reporting of clinical trials."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/3RLSqqfP5oQE2WDrr/new-paper-long-term-trajectories-of-human-civilization",
+    "author": "Kaj_Sotala",
+    "title": "New paper: Long-Term Trajectories of Human Civilization",
+    "published_date": "2018-08-12",
+    "summary": "Fourteen scholars advocate for the scientific study of humanity's long-term future, identifying four potential trajectories—status quo, catastrophe, technological transformation, and astronomical expansion—and arguing that present-day decisions significantly impact these distant outcomes."
+  }
+]

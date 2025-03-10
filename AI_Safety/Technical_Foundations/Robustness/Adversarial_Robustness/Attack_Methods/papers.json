@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/abs/1907.11684v3",
+    "title": "On the Design of Black-Box Adversarial Examples by Leveraging Gradient-Free Optimization and Operator Splitting Method",
+    "published_date": "2019-07-26",
+    "abstract": "Robust machine learning is currently one of the most prominent topics which could potentially help shaping a future of advanced AI platforms that not only perform well in average cases but also in worst cases or adverse situations. Despite the long-term vision, however, existing studies on black-box adversarial attacks are still restricted to very specific settings of threat models (e.g., single distortion metric and restrictive assumption on target model's feedback to queries) and/or suffer from prohibitively high query complexity. To push for further advances in this field, we introduce a general framework based on an operator splitting method, the alternating direction method of multipliers (ADMM) to devise efficient, robust black-box attacks that work with various distortion metrics and feedback settings without incurring high query complexity. Due to the black-box nature of the threat model, the proposed ADMM solution framework is integrated with zeroth-order (ZO) optimization and Bayesian optimization (BO), and thus is applicable to the gradient-free regime. This results in two new black-box adversarial attack generation methods, ZO-ADMM and BO-ADMM. Our empirical evaluations on image classification datasets show that our proposed approaches have much lower function query complexities compared to state-of-the-art attack methods, but achieve very competitive attack success rates.",
+    "citation_count": 53,
+    "summary": "This paper presents a novel framework using the alternating direction method of multipliers (ADMM) and gradient-free optimization (zeroth-order and Bayesian optimization) to generate efficient black-box adversarial examples, significantly reducing query complexity while maintaining high attack success rates compared to existing methods. The framework adapts to various distortion metrics and feedback mechanisms, offering a more generalizable approach to black-box attacks."
+  },
+  {
+    "title": "MGAAttack: Toward More Query-efficient Black-box Attack by Microbial Genetic Algorithm",
+    "abstract": "Recent studies have shown that deep neural networks (DNNs) are susceptible to adversarial attacks even in the black-box settings. However, previous studies on creating black-box based adversarial examples by merely solving the traditional continuous problem, which suffer query efficiency issues. To address the efficiency of querying in black-box attack, we propose a novel attack, called MGAAttack, which is a query-efficient and gradient-free black-box attack without obtaining any knowledge of the target model. In our approach, we leverage the advantages of both transfer-based and scored-based methods, two typical techniques in black-box attack, and solve a discretized problem by using a simple yet effective microbial genetic algorithm (MGA). Experimental results show that our approach dramatically reduces the number of queries on CIFAR-10 and ImageNet and significantly outperforms previous work. In the untargeted attack, we can attack a VGG19 classifier with only 16 queries and give an attack success rate more than 99.90% on ImageNet. Our code is available at https://github.com/kangyangWHU/MGAAttack.",
+    "published_date": "2020-10-12",
+    "citation_count": 13,
+    "url": "https://dl.acm.org/doi/10.1145/3394171.3413703",
+    "summary": "MGAAttack is a novel black-box adversarial attack method that uses a microbial genetic algorithm to efficiently generate adversarial examples with significantly fewer queries than previous methods. This gradient-free approach combines transfer-based and score-based techniques for improved query efficiency and attack success rate."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2110.08256.pdf",
+    "title": "Model-Agnostic Meta-Attack: Towards Reliable Evaluation of Adversarial Robustness",
+    "published_date": "2021-10-13",
+    "abstract": "The vulnerability of deep neural networks to adversarial examples has motivated an increasing number of defense strategies for promoting model robustness. However, the progress is usually hampered by insufficient robustness evaluations. As the de facto standard to evaluate adversarial robustness, adversarial attacks typically solve an optimization problem of crafting adversarial examples with an iterative process. In this work, we propose a Model-Agnostic Meta-Attack (MAMA) approach to discover stronger attack algorithms automatically. Our method learns the optimizer in adversarial attacks parameterized by a recurrent neural network, which is trained over a class of data samples and defenses to produce effective update directions during adversarial example generation. Furthermore, we develop a model-agnostic training algorithm to improve the generalization ability of the learned optimizer when attacking unseen defenses. Our approach can be flexibly incorporated with various attacks and consistently improves the performance with little extra computational cost. Extensive experiments demonstrate the effectiveness of the learned attacks by MAMA compared to the state-of-the-art attacks on different defenses, leading to a more reliable evaluation of adversarial robustness.",
+    "citation_count": 4,
+    "summary": "Model-Agnostic Meta-Attack (MAMA) automatically learns a more effective adversarial attack algorithm by training a recurrent neural network to optimize adversarial example generation, improving the reliability of adversarial robustness evaluations against various defenses. This meta-learning approach consistently enhances attack performance across different models and defenses with minimal computational overhead."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2007.01299v1.pdf",
+    "title": "Generating Adversarial Examples withControllable Non-transferability",
+    "published_date": "2020-07-02",
+    "abstract": "Adversarial attacks against Deep Neural Networks have been widely studied. One significant feature that makes such attacks particularly powerful is transferability, where the adversarial examples generated from one model can be effective against other similar models as well. A large number of works have been done to increase the transferability. However, how to decrease the transferability and craft malicious samples only for specific target models are not explored yet. \nIn this paper, we design novel attack methodologies to generate adversarial examples with controllable non-transferability. With these methods, an adversary can efficiently produce precise adversarial examples to attack a set of target models he desires, while keeping benign to other models. The first method is Reversed Loss Function Ensemble, where the adversary can craft qualified examples from the gradients of a reversed loss function. This approach is effective for the white-box and gray-box settings. The second method is Transferability Classification: the adversary trains a transferability-aware classifier from the perturbations of adversarial examples. This classifier further provides the guidance for the generation of non-transferable adversarial examples. This approach can be applied to the black-box scenario. Evaluation results demonstrate the effectiveness and efficiency of our proposed methods. This work opens up a new route for generating adversarial examples with new features and applications.",
+    "citation_count": 3,
+    "summary": "This paper introduces two novel methods for generating adversarial examples with controllable non-transferability, enabling targeted attacks against specific deep learning models while remaining ineffective against others. These methods, Reversed Loss Function Ensemble and Transferability Classification, are effective in white-box, gray-box, and black-box attack scenarios."
+  },
+  {
+    "title": "Objective Metrics and Gradient Descent Algorithms for Adversarial Examples in Machine Learning",
+    "abstract": "Fueled by massive amounts of data, models produced by machine-learning (ML) algorithms are being used in diverse domains where security is a concern, such as, automotive systems, finance, health-care, computer vision, speech recognition, natural-language processing, and malware detection. Of particular concern is use of ML in cyberphysical systems, such as driver-less cars and aviation, where the presence of an adversary can cause serious consequences. In this paper we focus on attacks caused by adversarial samples, which are inputs crafted by adding small, often imperceptible, perturbations to force a ML model to misclassify. We present a simple gradient-descent based algorithm for finding adversarial samples, which performs well in comparison to existing algorithms. The second issue that this paper tackles is that of metrics. We present a novel metric based on few computer-vision algorithms for measuring the quality of adversarial samples.",
+    "published_date": "2017-12-04",
+    "citation_count": 110,
+    "url": "https://dl.acm.org/doi/10.1145/3134600.3134635",
+    "summary": "This paper introduces a novel gradient-descent algorithm for generating adversarial examples, and proposes a new metric, based on computer vision techniques, for evaluating their effectiveness in attacking machine learning models."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/oPnFzfZtaoWrqTP4H/solving-adversarial-attacks-in-computer-vision-as-a-baby",
+    "author": "Stanislavfort",
+    "title": "Solving adversarial attacks in computer vision as a baby version of general AI alignment",
+    "published_date": "2024-08-29",
+    "summary": "The author argues that adversarial attacks on computer vision systems, which exploit minute image alterations imperceptible to humans, mirror the broader challenge of aligning general AI. This analogy highlights the crucial mismatch between human and machine understanding, urging greater focus on solving adversarial robustness in computer vision as a stepping stone towards safer AI."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/cPCvfrqjgy5Cu2FCs/analysing-adversarial-attacks-with-linear-probing-3",
+    "author": "Yoann Poupart; Imene Kerboua; Clement Neo; Jason Hoelscher-Obermaier",
+    "title": "Analysing Adversarial Attacks with Linear Probing",
+    "published_date": "2024-06-17",
+    "summary": "Researchers used linear probes to analyze the effects of adversarial attacks on CLIP-based models, finding that attacks primarily modify later layers' activations. This suggests a naive detection method based on the discrepancy between early and late layer probe responses."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/m6poxWegJkp8LPpjw/can-generalized-adversarial-testing-enable-more-rigorous-llm",
+    "author": "Stephen Casper",
+    "title": "Can Generalized Adversarial Testing Enable More Rigorous LLM Safety Evals?",
+    "published_date": "2024-07-30",
+    "summary": "Current LLM safety evaluations often fall short because they focus on standard inputs, neglecting the risk of malicious modifications. \"Generalized\" adversarial testing, which allows manipulation of model weights and activations, offers a more robust approach to evaluating LLMs for potential harms, even in black-box deployment scenarios."
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.13187",
+    "title": "Cooperative Resilience in Artificial Intelligence Multiagent Systems",
+    "published_date": "2024-09-20",
+    "abstract": "Resilience refers to the ability of systems to withstand, adapt to, and recover from disruptive events. While studies on resilience have attracted significant attention across various research domains, the precise definition of this concept within the field of cooperative artificial intelligence remains unclear. This paper addresses this gap by proposing a clear definition of `cooperative resilience' and outlining a methodology for its quantitative measurement. The methodology is validated in an environment with RL-based and LLM-augmented autonomous agents, subjected to environmental changes and the introduction of agents with unsustainable behaviors. These events are parameterized to create various scenarios for measuring cooperative resilience. The results highlight the crucial role of resilience metrics in analyzing how the collective system prepares for, resists, recovers from, sustains well-being, and transforms in the face of disruptions. These findings provide foundational insights into the definition, measurement, and preliminary analysis of cooperative resilience, offering significant implications for the broader field of AI. Moreover, the methodology and metrics developed here can be adapted to a wide range of AI applications, enhancing the reliability and effectiveness of AI in dynamic and unpredictable environments.",
+    "citation_count": 1,
+    "summary": "This paper defines and proposes a quantitative methodology for measuring \"cooperative resilience\" in multi-agent AI systems, validating it through experiments with reinforcement learning and large language model agents facing various disruptive events. The results demonstrate the importance of resilience metrics for analyzing collective system behavior under stress and offer a broadly applicable framework for enhancing AI robustness."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.12632",
+    "title": "Modeling Resilience of Collaborative AI Systems",
+    "published_date": "2024-01-23",
+    "abstract": "A Collaborative Artificial Intelligence System (CAIS) performs actions in collaboration with the human to achieve a common goal. CAISs can use a trained AI model to control human-system interaction, or they can use human interaction to dynamically learn from humans in an online fashion. In online learning with human feedback, the AI model evolves by monitoring human interaction through the system sensors in the learning state, and actuates the autonomous components of the CAIS based on the learning in the operational state. Therefore, any disruptive event affecting these sensors may affect the AI model's ability to make accurate decisions and degrade the CAIS performance. Consequently, it is of paramount importance for CAIS managers to be able to automatically track the system performance to understand the resilience of the CAIS upon such disruptive events. In this paper, we provide a new framework to model CAIS performance when the system experiences a disruptive event. With our framework, we introduce a model of performance evolution of CAIS. The model is equipped with a set of measures that aim to support CAIS managers in the decision process to achieve the required resilience of the system. We tested our framework on a real-world case study of a robot collaborating online with the human, when the system is experiencing a disruptive event. The case study shows that our framework can be adopted in CAIS and integrated into the online execution of the CAIS activities.CCS CONCEPTS• Human-centered computing → Empirical studies in collaborative and social computing; • Computing methodologies → Modeling methodologies; Object identification; • Computer systems organization → Robotic autonomy.",
+    "summary": "This paper presents a novel framework for modeling the resilience of Collaborative Artificial Intelligence Systems (CAIS) to disruptive events, incorporating performance evolution modeling and metrics to aid managers in achieving desired system resilience. The framework's effectiveness is demonstrated through a real-world robot-human collaboration case study."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.14230",
+    "title": "Resistance Against Manipulative AI: key factors and possible actions",
+    "published_date": "2024-04-22",
+    "abstract": "If AI is the new electricity, what should we do to keep ourselves from getting electrocuted? In this work, we explore factors related to the potential of large language models (LLMs) to manipulate human decisions. We describe the results of two experiments designed to determine what characteristics of humans are associated with their susceptibility to LLM manipulation, and what characteristics of LLMs are associated with their manipulativeness potential. We explore human factors by conducting user studies in which participants answer general knowledge questions using LLM-generated hints, whereas LLM factors by provoking language models to create manipulative statements. Then, we analyze their obedience, the persuasion strategies used, and the choice of vocabulary. Based on these experiments, we discuss two actions that can protect us from LLM manipulation. In the long term, we put AI literacy at the forefront, arguing that educating society would minimize the risk of manipulation and its consequences. We also propose an ad hoc solution, a classifier that detects manipulation of LLMs - a Manipulation Fuse.",
+    "citation_count": 2,
+    "summary": "This paper investigates human and AI factors contributing to large language model (LLM) manipulation, conducting experiments to identify susceptibility traits and manipulative LLM characteristics. It proposes AI literacy as a long-term solution and a \"Manipulation Fuse\" classifier as a short-term mitigation strategy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.17149",
+    "title": "A Multi-AI Agent System for Autonomous Optimization of Agentic AI Solutions via Iterative Refinement and LLM-Driven Feedback Loops",
+    "published_date": "2024-12-22",
+    "abstract": "Agentic AI systems use specialized agents to handle tasks within complex workflows, enabling automation and efficiency. However, optimizing these systems often requires labor-intensive, manual adjustments to refine roles, tasks, and interactions. This paper introduces a framework for autonomously optimizing Agentic AI solutions across industries, such as NLP-driven enterprise applications. The system employs agents for Refinement, Execution, Evaluation, Modification, and Documentation, leveraging iterative feedback loops powered by an LLM (Llama 3.2-3B). The framework achieves optimal performance without human input by autonomously generating and testing hypotheses to improve system configurations. This approach enhances scalability and adaptability, offering a robust solution for real-world applications in dynamic environments. Case studies across diverse domains illustrate the transformative impact of this framework, showcasing significant improvements in output quality, relevance, and actionability. All data for these case studies, including original and evolved agent codes, along with their outputs, are here: https://anonymous.4open.science/r/evolver-1D11/",
+    "summary": "This paper presents a multi-agent system that autonomously optimizes agentic AI solutions through iterative refinement and large language model feedback, eliminating the need for manual adjustments and improving system performance across various domains. The system uses agents for refinement, execution, evaluation, modification, and documentation, with results showcased in several case studies."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.10295",
+    "title": "Societal Adaptation to Advanced AI",
+    "published_date": "2024-05-16",
+    "abstract": "Existing strategies for managing risks from advanced AI systems often focus on affecting what AI systems are developed and how they diffuse. However, this approach becomes less feasible as the number of developers of advanced AI grows, and impedes beneficial use-cases as well as harmful ones. In response, we urge a complementary approach: increasing societal adaptation to advanced AI, that is, reducing the expected negative impacts from a given level of diffusion of a given AI capability. We introduce a conceptual framework which helps identify adaptive interventions that avoid, defend against and remedy potentially harmful uses of AI systems, illustrated with examples in election manipulation, cyberterrorism, and loss of control to AI decision-makers. We discuss a three-step cycle that society can implement to adapt to AI. Increasing society's ability to implement this cycle builds its resilience to advanced AI. We conclude with concrete recommendations for governments, industry, and third-parties.",
+    "citation_count": 4,
+    "summary": "The paper argues that societal adaptation, focusing on mitigating negative impacts of AI regardless of its diffusion, is crucial alongside controlling AI development. It proposes a framework for adaptive interventions and a three-step cycle to enhance societal resilience to advanced AI risks."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/aoEnDEmoKCK9S99hL/cognitive-biases-contributing-to-ai-x-risk-a-deleted-excerpt",
+    "author": "Andrew_Critch",
+    "title": "Cognitive Biases Contributing to AI X-risk — a deleted excerpt from my 2018 ARCHES draft",
+    "published_date": "2024-12-03",
+    "summary": "The article discusses cognitive biases, particularly the \"illusion of control\" and \"scope insensitivity,\" that hinder accurate assessment of AI x-risk, specifically the risk of deploying uncontrollably transformative and misaligned AI (\"prepotent AI\"). The author argues that these biases, supported by reproducible psychological research, lead to underestimation of the potential catastrophic consequences of advanced AI."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/agent",
+    "title": "Agent - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "A rational agent, central to economics, game theory, and AI, is a goal-seeking entity that maximizes its utility by evaluating actions based on beliefs and a utility function; the potential for conflict between an agent's goals and human values raises concerns regarding advanced AI."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "This article explores applying game theory to AI development within organizations, highlighting its limitations and advocating for a multi-agent system approach that integrates human and AI capabilities based on comparative advantage. The authors emphasize the enduring relevance of bureaucratic structures, even with advanced AI, due to the inherent limitations of single entities in processing complex information and achieving shared goals."
+  }
+]

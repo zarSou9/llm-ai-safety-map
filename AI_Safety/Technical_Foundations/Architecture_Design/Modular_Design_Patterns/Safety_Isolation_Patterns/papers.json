@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/xmWfNDnEf36yQBLY9/to-make-better-software-do-what-artists-do",
+    "author": "matto",
+    "title": "To Make Better Software, Do What Artists Do",
+    "published_date": "2022-04-01",
+    "summary": "The author argues that software development is better understood as a compositional art, like writing, rather than pure engineering. This \"compositional\" approach emphasizes skillful arrangement of code, leading to higher quality, more maintainable software, unlike the current prevalent, less effective engineering model."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/TcwavPJ2Qivcdphfd/compositionality-sql-and-subways",
+    "author": "DanB",
+    "title": "Compositionality: SQL and Subways",
+    "published_date": "2021-07-19",
+    "summary": "The article defines software compositionality as a system with parsimonious, efficient, interoperable tools that are practically useful for real-world tasks. It uses the Unix command-line tools as an example, highlighting their composability through pipes, but also notes limitations in their flexibility and options."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/SAAZa8YzavnzHyGaB/designing-low-upkeep-software",
+    "author": "jefftk",
+    "title": "Designing Low Upkeep Software",
+    "published_date": "2021-09-25",
+    "summary": "To minimize maintenance on personal projects, the author prioritizes minimizing dependencies, using long-term supported systems (like Ubuntu LTS and widely-used programming languages), and implementing features simply, often favoring client-side solutions and avoiding complex server-side processing or external libraries. This approach, while not suitable for professional software development, works well for hobby projects where initial development time is prioritized over ongoing upkeep."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rpiGNyhgA7dX9NKa4/think-like-an-educator-about-code-quality",
+    "author": "Adam Zerner",
+    "title": "Think like an educator about code quality",
+    "published_date": "2021-03-27",
+    "summary": "The author argues that writing high-quality code requires considering the audience's expertise, advocating for a teaching-oriented approach. Instead of prioritizing personal preferences or \"best practices,\" developers should strive for clarity and accessibility, avoiding overly terse or framework-specific idioms that may confuse less experienced colleagues."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/QJfiKwicwTXYMzJ7q/",
+    "author": "jefftk",
+    "title": "Bleach",
+    "published_date": "2020-03-04",
+    "summary": "Household chlorine bleach, while effective for disinfection and sanitization when properly diluted, requires careful attention to concentration (varying by brand and degrading over time) and safe handling to avoid harmful exposure; incorrect mixing with other household chemicals can be dangerous."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/KRb2x2RJjGbBMbE4M/my-functor-is-rich",
+    "author": "adamShimi",
+    "title": "My Functor is Rich!",
+    "published_date": "2020-03-18",
+    "summary": "This article introduces Haskell typeclasses, explaining their role in achieving code genericity without sacrificing functionality. It emphasizes the importance of understanding and adhering to typeclass laws before relying on intuition, advocating for a rigorous approach to learning advanced Haskell concepts."
+  },
+  {
+    "title": "Dependable mesh networking patterns",
+    "abstract": "In our daily life, we are increasingly relying on connected systems ranging from smart health care devices to industrial and intelligent transportation systems, as well as smart homes and cities. The unavailability or malfunctioning of these systems could threaten human life, cause environmental damage, and significant financial loss. To prevent such large scale and mission-critical systems from malfunctioning, it is of utmost importance to establish and guaranty reliable connections to attain a dependable networked system. Generally, mesh networking technologies are used for building such systems since mesh networks provide the best performance characteristics regarding fault-tolerance, throughput, resource usage, and service level flexibility. In this paper, we summarize the major challenges in dependable network design, to subsequently present three patterns that approach redundancy on the hardware level, software-defined networking, and cross-cutting concerns like monitoring and service discovery within distributed networked systems. These three patterns should help designers and engineers in choosing the appropriate technologies for building dependable networked systems at all scales. Since dependable network engineering requires a holistic system-wide design and engineering approach, we also present a pattern map guiding to complementary and closely related patterns. System architects and system engineers responsible for building mixed-criticality systems, internet-of-things (IoT), and industrial Internet-of-Things (IIoT) systems are the target audience of the patterns presented in this paper.",
+    "published_date": "2019-07-03",
+    "citation_count": 11,
+    "url": "https://dl.acm.org/doi/10.1145/3361149.3361174",
+    "summary": "This paper identifies key challenges in designing dependable mesh networks for critical systems (e.g., IoT, IIoT) and proposes three architectural patterns addressing hardware redundancy, software-defined networking, and cross-cutting concerns like monitoring, to guide engineers in building reliable systems. A pattern map further aids in selecting complementary approaches for holistic system design."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ivzkPAREG7dAiDJjn/confessions-of-an-abstraction-hater",
+    "author": "Martin Sustrik",
+    "title": "Confessions of an Abstraction Hater",
+    "published_date": "2019-01-27",
+    "summary": "Overuse of abstraction in code, while seemingly elegant, often hinders readability and comprehension, especially for those unfamiliar with the codebase; prioritizing clarity and straightforwardness over clever abstraction improves maintainability and reduces frustration for future developers."
+  }
+]

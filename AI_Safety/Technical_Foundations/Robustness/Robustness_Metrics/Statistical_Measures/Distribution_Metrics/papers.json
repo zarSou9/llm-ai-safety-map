@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/7tSthxSgnNxbt4Hk6/what-s-in-the-box-towards-interpretability-by-distinguishing-1",
+    "author": "Joshua Clancy",
+    "title": "What's in the box?! – Towards interpretability by distinguishing niches of value within neural networks.",
+    "published_date": "2024-02-29"
+  },
+  {
+    "title": "From Multiple Independent Metrics to Single Performance Measure Based on Objective Function",
+    "abstract": "It is extremely common in engineering to design algorithms to perform various tasks. In data-driven decision making in any field one needs to ascertain the quality of an algorithm. Therefore, a robust assessment of algorithms is essential in deciding the best algorithm as well as in improving algorithms. To perform such an assessment objectively is obvious in the case of a single performance metric, but it is unclear in the case of multiple metrics. Nonetheless, $F_{1}$ measure is widely used in cases with two metrics; $F_{1}$ measure represents the harmonic mean (HM) of two metrics. Of course, there are other means, e.g., the arithmetic mean (AM) and the geometric mean (GM). As motivations for using them are intuitive and none of them are based on any objective function, it is difficult to judge objectively which is the best one. In this paper, the single metric case is examined to develop two objective functions that are applicable for any number of metrics. These two objective functions lead to two different performance measures - the distance from the origin (DO) and the distance from the ideal position (DIP). It introduces a new concept of the remaining phase space for the evaluation of the quality of a performance measure. On further and closer examinations of the original goal and the phase space of the metrics, amongst these five measures, either HM or DIP is found to be the best. Specifically, it is found that HM is the best measure at the lower performance end, while DIP is clearly the best measure at the higher performance end and is of much practical interest. Rules for deciding the best algorithm and the order of a set of algorithms are presented. These results are derived in the context of multiple independent and bounded metrics. Furthermore, several properties and detailed discussions are provided, following which some published results are reviewed in the present context to elucidate some points.",
+    "published_date": "2023-01-01",
+    "citation_count": 4,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10011403.pdf"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/nM7qwfbB9dAxBopLT/linkpost-remarks-on-the-convergence-in-distribution-of-1",
+    "author": "Spencer Becker-Kahn",
+    "title": "[Linkpost] Remarks on the Convergence in Distribution of Random Neural Networks to Gaussian Processes in the Infinite Width Limit",
+    "published_date": "2023-11-30"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/PDLfpRwSynu73mxGw/basic-facts-about-language-model-internals-1",
+    "author": "beren, Eric Winsor",
+    "title": "Basic Facts about Language Model Internals",
+    "published_date": "2023-01-04"
+  },
+  {
+    "url": "https://www.lesswrong.com/s/czrXjvCLsqGepybHC/p/4eZtmwaqhAgdJQDEg",
+    "author": "Liam Carroll",
+    "title": "DSLT 1. The RLCT Measures the Effective Dimension of Neural Networks",
+    "published_date": "2023-06-16"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2202.00769.pdf",
+    "title": "Distributional Reinforcement Learning with Regularized Wasserstein Loss",
+    "published_date": "2022-02-01",
+    "abstract": "The empirical success of distributional reinforcement learning (RL) highly relies on the choice of distribution divergence equipped with an appropriate distribution representation. In this paper, we propose \\textit{Sinkhorn distributional RL (SinkhornDRL)}, which leverages Sinkhorn divergence, a regularized Wasserstein loss, to minimize the difference between current and target Bellman return distributions. Theoretically, we prove the contraction properties of SinkhornDRL, aligning with the interpolation nature of Sinkhorn divergence between Wasserstein distance and Maximum Mean Discrepancy (MMD). The introduced SinkhornDRL enriches the family of distributional RL algorithms, contributing to interpreting the algorithm behaviors compared with existing approaches by our investigation into their relationships. Empirically, we show that SinkhornDRL consistently outperforms or matches existing algorithms on the Atari games suite and particularly stands out in the multi-dimensional reward setting. \\thanks{Code is available in \\url{https://github.com/datake/SinkhornDistRL}.}."
+  }
+]

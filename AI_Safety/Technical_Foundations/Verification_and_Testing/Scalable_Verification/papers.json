@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2207.00759v1.pdf",
+    "title": "Abstraction and Refinement: Towards Scalable and Exact Verification of Neural Networks",
+    "published_date": "2022-07-02",
+    "abstract": "As a new programming paradigm, deep neural networks (DNNs) have been increasingly deployed in practice, but the lack of robustness hinders their applications in safety-critical domains. While there are techniques for verifying DNNs with formal guarantees, they are limited in scalability and accuracy. In this article, we present a novel counterexample-guided abstraction refinement (CEGAR) approach for scalable and exact verification of DNNs. Specifically, we propose a novel abstraction to break down the size of DNNs by over-approximation. The result of verifying the abstract DNN is conclusive if no spurious counterexample is reported. To eliminate each spurious counterexample introduced by abstraction, we propose a novel counterexample-guided refinement that refines the abstract DNN to exclude the spurious counterexample while still over-approximating the original one, leading to a sound, complete yet efficient CEGAR approach. Our approach is orthogonal to and can be integrated with many existing verification techniques. For demonstration, we implement our approach using two promising tools, Marabou and Planet, as the underlying verification engines, and evaluate on widely used benchmarks for three datasets ACAS, Xu, MNIST, and CIFAR-10. The results show that our approach can boost their performance by solving more problems in the same time limit, reducing on average 13.4%–86.3% verification time of Marabou on almost all the verification tasks, and reducing on average 8.3%–78.0% verification time of Planet on all the verification tasks. Compared to the most relevant CEGAR-based approach, our approach is 11.6–26.6 times faster.",
+    "citation_count": 7,
+    "summary": "This paper introduces a novel counterexample-guided abstraction refinement (CEGAR) approach for verifying deep neural networks (DNNs), improving scalability and accuracy by efficiently handling spurious counterexamples through a refined abstraction process. The method integrates with existing verification tools, demonstrating significant performance gains compared to state-of-the-art techniques."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.10491",
+    "title": "Achieving the Tightest Relaxation of Sigmoids for Formal Verification",
+    "published_date": "2024-08-20",
+    "abstract": "In the field of formal verification, Neural Networks (NNs) are typically reformulated into equivalent mathematical programs which are optimized over. To overcome the inherent non-convexity of these reformulations, convex relaxations of nonlinear activation functions are typically utilized. Common relaxations (i.e., static linear cuts) of\"S-shaped\"activation functions, however, can be overly loose, slowing down the overall verification process. In this paper, we derive tuneable hyperplanes which upper and lower bound the sigmoid activation function. When tuned in the dual space, these affine bounds smoothly rotate around the nonlinear manifold of the sigmoid activation function. This approach, termed $\\alpha$-sig, allows us to tractably incorporate the tightest possible, element-wise convex relaxation of the sigmoid activation function into a formal verification framework. We embed these relaxations inside of large verification tasks and compare their performance to LiRPA and $\\alpha$-CROWN, a state-of-the-art verification duo.",
+    "summary": "This paper introduces $\\alpha$-sig, a novel method for generating tight convex relaxations of sigmoid activation functions in neural networks, significantly improving the efficiency of formal verification by using tuneable hyperplanes that dynamically adapt to the function's nonlinearity. The authors demonstrate its superior performance compared to existing state-of-the-art verification techniques."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12",
+    "summary": "This article proposes a delay-based location verification mechanism for on-chip AI governance, using the speed of light to limit compute usage based on location. However, the authors identify a potential problem with frequent false positives due to network latency inconsistencies and suggest a solution to mitigate this issue."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25",
+    "summary": "The article discusses the challenges of formally verifying neural networks, arguing that the required proofs become impractically long for large networks due to needing to account for all possible interactions. Instead, the authors propose \"heuristic explanations,\" a less rigorous but more scalable approach to understanding and potentially mitigating risky network behaviors."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19",
+    "summary": "The article argues that applying formal verification to guarantee AI safety is currently impractical due to the inherent complexity of the real world and the limitations of modeling physical systems. The author expresses skepticism towards claims that formal verification can provide strong, near-term guarantees against major AI threats."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.05331",
+    "title": "Generalization Analysis on Learning with a Concurrent Verifier",
+    "published_date": "2022-10-11",
+    "abstract": "Machine learning technologies have been used in a wide range of practical systems. In practical situations, it is natural to expect the input-output pairs of a machine learning model to satisfy some requirements. However, it is difficult to obtain a model that satisfies requirements by just learning from examples. A simple solution is to add a module that checks whether the input-output pairs meet the requirements and then modifies the model's outputs. Such a module, which we call a {\\em concurrent verifier} (CV), can give a certification, although how the generalizability of the machine learning model changes using a CV is unclear. This paper gives a generalization analysis of learning with a CV. We analyze how the learnability of a machine learning model changes with a CV and show a condition where we can obtain a guaranteed hypothesis using a verifier only in the inference time. We also show that typical error bounds based on Rademacher complexity will be no larger than that of the original model when using a CV in multi-class classification and structured prediction settings.",
+    "summary": "This paper analyzes the impact of a concurrent verifier (CV) on the generalization ability of machine learning models, demonstrating that using a CV during inference can guarantee a hypothesis under certain conditions and showing that typical error bounds are not increased in multi-class classification and structured prediction."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/HvqQm6o8KnwxbdmhZ/estimating-training-compute-of-deep-learning-models",
+    "author": "lennart, Jsevillamol, Marius Hobbhahn, Tamay Besiroglu, anson.ho",
+    "title": "Estimating training compute of Deep Learning models",
+    "published_date": "2022-01-20",
+    "summary": "The article presents two methods for estimating the compute used to train deep learning models: directly counting operations within the model, or estimating it from GPU training time. Both methods yield comparable estimates, with the authors recommending a 30-40% utilization rate for GPU time estimations depending on the model type."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.05844v2.pdf",
+    "title": "Scaling the Convex Barrier with Sparse Dual Algorithms",
+    "published_date": "2021-01-14",
+    "abstract": "Tight and efficient neural network bounding is crucial to the scaling of neural network verification systems. Many efficient bounding algorithms have been presented recently, but they are often too loose to verify more challenging properties. This is due to the weakness of the employed relaxation, which is usually a linear program of size linear in the number of neurons. While a tighter linear relaxation for piecewise-linear activations exists, it comes at the cost of exponentially many constraints and currently lacks an efficient customized solver. We alleviate this deficiency by presenting two novel dual algorithms: one operates a subgradient method on a small active set of dual variables, the other exploits the sparsity of Frank-Wolfe type optimizers to incur only a linear memory cost. Both methods recover the strengths of the new relaxation: tightness and a linear separation oracle. At the same time, they share the benefits of previous dual approaches for weaker relaxations: massive parallelism, GPU implementation, low cost per iteration and valid bounds at any time. As a consequence, we can obtain better bounds than off-the-shelf solvers in only a fraction of their running time, attaining significant formal verification speed-ups.",
+    "citation_count": 10,
+    "summary": "This paper introduces two novel dual algorithms for tighter neural network bounding, overcoming the computational limitations of existing methods by leveraging sparsity and active-set strategies. These algorithms achieve significantly faster and more accurate verification compared to existing solvers."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.06624.pdf",
+    "title": "Beta-CROWN: Efficient Bound Propagation with Per-neuron Split Constraints for Neural Network Robustness Verification",
+    "published_date": "2021-03-11",
+    "abstract": "Bound propagation based incomplete neural network verifiers such as CROWN are very efficient and can significantly accelerate branch-and-bound (BaB) based complete verification of neural networks. However, bound propagation cannot fully handle the neuron split constraints introduced by BaB commonly handled by expensive linear programming (LP) solvers, leading to loose bounds and hurting verification efficiency. In this work, we develop $\\beta$-CROWN, a new bound propagation based method that can fully encode neuron splits via optimizable parameters $\\beta$ constructed from either primal or dual space. When jointly optimized in intermediate layers, $\\beta$-CROWN generally produces better bounds than typical LP verifiers with neuron split constraints, while being as efficient and parallelizable as CROWN on GPUs. Applied to complete robustness verification benchmarks, $\\beta$-CROWN with BaB is up to three orders of magnitude faster than LP-based BaB methods, and is notably faster than all existing approaches while producing lower timeout rates. By terminating BaB early, our method can also be used for efficient incomplete verification. We consistently achieve higher verified accuracy in many settings compared to powerful incomplete verifiers, including those based on convex barrier breaking techniques. Compared to the typically tightest but very costly semidefinite programming (SDP) based incomplete verifiers, we obtain higher verified accuracy with three orders of magnitudes less verification time. Our algorithm empowered the $\\alpha,\\!\\beta$-CROWN (alpha-beta-CROWN) verifier, the winning tool in VNN-COMP 2021. Our code is available at http://PaperCode.cc/BetaCROWN",
+    "citation_count": 160,
+    "summary": "β-CROWN is a novel bound propagation method for neural network robustness verification that efficiently handles neuron split constraints via optimizable parameters, resulting in significantly faster and more accurate verification than existing LP or SDP-based methods, particularly within a branch-and-bound framework. This leads to improved verified accuracy and reduced timeout rates compared to state-of-the-art techniques."
+  }
+]

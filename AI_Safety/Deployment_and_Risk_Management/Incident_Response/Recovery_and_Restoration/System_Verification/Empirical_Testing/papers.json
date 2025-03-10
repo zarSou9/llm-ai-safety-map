@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Directed Test Generation for Activation of Security Assertions in RTL Models",
+    "abstract": "Assertions are widely used for functional validation as well as coverage analysis for both software and hardware designs. Assertions enable runtime error detection as well as faster localization of errors. While there is a vast literature on both software and hardware assertions for monitoring functional scenarios, there is limited effort in utilizing assertions to monitor System-on-Chip (SoC) security vulnerabilities. We have identified common SoC security vulnerabilities and defined several classes of assertions to enable runtime checking of security vulnerabilities. A major challenge in assertion-based validation is how to activate the security assertions to ensure that they are valid. While existing test generation using model checking is promising, it cannot generate directed tests for large designs due to state space explosion. We propose an automated and scalable mechanism to generate directed tests using a combination of symbolic execution and concrete simulation of RTL models. Experimental results on diverse benchmarks demonstrate that the directed tests are able to activate security assertions non-vacuously.",
+    "published_date": "2021-01-15",
+    "citation_count": 12,
+    "url": "https://dl.acm.org/doi/10.1145/3441297"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06"
+  },
+  {
+    "title": "Probabilistic conformance for cyber-physical systems",
+    "abstract": "In system analysis, conformance indicates that two systems simultaneously satisfy the same set of specifications of interest; thus, the results from analyzing one system automatically transfer to the other, or one system can safely replace the other in practice. In this work, we study the probabilistic conformance of cyber-physical systems (CPS). We propose a notion of (approximate) probabilistic conformance for sets of complex specifications expressed by the Signal Temporal Logic (STL). Based on a novel statistical test, we develop the first statistical verification methods for the probabilistic conformance of a wide class of CPS. Using this method, we verify the conformance of the startup time of the widely-used full and simplified model of Toyota powertrain systems, the settling time of model-predictive-control-based and neural-network-based automotive lane-keeping controllers, as well as the maximal voltage deviation of full and simplified power grid systems.",
+    "published_date": "2020-08-03",
+    "citation_count": 8,
+    "url": "https://dl.acm.org/doi/10.1145/3450267.3450534"
+  },
+  {
+    "title": "Property-based Testing for LG Home Appliances using Accelerated Software-in-the-Loop Simulation",
+    "abstract": "As LG home appliances promise more convenience features to end-users, the complexity of their control software is also increasing, creating a higher pressure for software verification. However, since the embedded software is tightly coupled with its hardware counterpart, the development and verification schedules are dependent upon hardware development and this hinders integration testing to be performed as thoroughly as it deserves. Furthermore, the manually-crafted test cases have had limitations, both in terms of the thoroughness of state-space exploration and the power of test oracles.To overcome these problems and facilitate a more efficient software verification, we introduce a property-based testing framework using software-in-the-loop simulation (SILS). SILS allows the software to be integrated virtually and tested before the hardware is fully developed, and, further, it enables an acceleration in test executions of up to a few tens of thousand times. Property-based testing is achieved by translating the formalized properties to synchronous observers which can concurrently check the violation of the verification property during test executions. In the field application, we discovered two fault cases in real products under development using our framework. According to our analysis, these cases could not have been found using manual testing, but made possible by our testing framework. These cases could have cost the company tens of million dollars each, if they were not discovered until after sale.CCS CONCEPTS• Computer systems organization → Embedded software; • Software and its engineering → Software testing and debugging; Extra-functional properties.",
+    "published_date": "2020-06-27",
+    "citation_count": 8,
+    "url": "https://dl.acm.org/doi/10.1145/3377813.3381346"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ouQNu3hhfKLBRuwR7/no-nonsense-version-of-the-racial-algorithm-bias",
+    "author": "Yuxi_Liu",
+    "title": "No nonsense version of the \"racial algorithm bias\"",
+    "published_date": "2019-07-13"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/as6fgfjY9nAMq5bWZ/induction-deduction-and-the-collatz-conjecture-the-decidedly",
+    "author": "Ronny Fernandez",
+    "title": "Induction, Deduction, and the Collatz Conjecture: the Decidedly Undecidable Propositions.",
+    "published_date": "2011-06-15"
+  }
+]

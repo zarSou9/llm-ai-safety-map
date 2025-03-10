@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/JDrxA3vwZAKZfmShz/degeneracies-are-sticky-for-sgd",
+    "author": "Guillaume Corlouer; Nicolas Macé",
+    "title": "Degeneracies are sticky for SGD",
+    "published_date": "2024-06-16",
+    "summary": "This study investigates how the degeneracy of loss landscapes affects stochastic gradient descent (SGD) in deep learning. The authors find that degeneracy slows convergence and influences the direction SGD escapes degenerate manifolds, showing discrepancies between SGD dynamics and Bayesian posterior predictions due to factors like learning rate and degeneracy degree."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13",
+    "summary": "This article explains Deep Q-Networks (DQN), a deep reinforcement learning algorithm, at various levels of detail. It provides a high-level overview suitable for those familiar with reinforcement learning, and also includes more technical sections covering the underlying mathematics and implementation details for those interested in replicating the algorithm."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rCP5iTYLtfcoC8NXd/self-organised-neural-networks-a-simple-natural-and",
+    "author": "D𝜋",
+    "title": "Self-Organised Neural Networks:\nA simple, natural and efficient way to intelligence",
+    "published_date": "2022-01-01",
+    "summary": "The article presents a novel spiking neural network architecture achieving state-of-the-art accuracy (98.9%) on the PI-MNIST dataset using a simple, biologically-inspired learning rule based on Hebbian principles and requiring only addition operations. The network operates online, without backpropagation or biases, and its performance is attributed to its inherent ability to detect correlations within the input data."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14",
+    "summary": "The article discusses common statistical errors, primarily focusing on the flawed assumption of Gaussian distributions in many fields (especially finance), misinterpretations of p-values, the base rate fallacy, and the neglect of statistical power in research, leading to unreliable conclusions and inflated results. These errors frequently undermine the validity of studies and the effectiveness of data-driven decision-making."
+  },
+  {
+    "title": "Measuring local sensitivity in Bayesian inference using a new class of metrics",
+    "abstract": "Abstract The local sensitivity analysis is recognized for its computational simplicity, and potential use in multi-dimensional and complex problems. Unfortunately, its major drawback is its asymptotic behavior where the prior to posterior convergence in terms of the standard metrics (and also computed by Fréchet derivative) used as a local sensitivity measure is not appropriate. The constructed local sensitivity measures do not converge to zero, and even diverge for the most multidimensional classes of prior distributions. Restricting the classes of priors or using other -divergence metrics have been proposed as the ways to resolve this issue which were not successful. We overcome this issue, by proposing a new flexible class of metrics so-called credible metrics whose asymptotic behavior is far more promising and no restrictions are required to impose. Using these metrics, the stability of Bayesian inference to the structure of the prior distribution will be then investigated. Under appropriate condition, we present a uniform bound in a sense that a close credible metric a priori will give a close credible metric a posteriori. As a result, we do not get the sort of divergence based on other metrics. We finally show that the posterior predictive distributions are more stable and robust.",
+    "published_date": "2021-09-16",
+    "citation_count": 2,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/03610926.2021.1977956",
+    "summary": "This paper introduces a new class of \"credible metrics\" to measure local sensitivity in Bayesian inference, addressing the asymptotic divergence issues of existing metrics by ensuring convergence to zero without restrictive prior assumptions and improving the stability and robustness of posterior predictive distributions."
+  },
+  {
+    "title": "Meaningful sensitivities: A new family of simulation sensitivity measures",
+    "abstract": "Abstract Sensitivity analysis quantifies how a model output responds to variations in its inputs. However, the following sensitivity question has never been rigorously answered: How sensitive is the mean or variance of a stochastic simulation output to the mean or variance of a stochastic input distribution? This question does not have a simple answer because there is often more than one way of changing the mean or variance of an input distribution, which leads to correspondingly different impacts on the simulation outputs. In this article we propose a new family of output-property-with-respect-to-input-property sensitivity measures for stochastic simulation. We focus on four useful members of this general family: sensitivity of output mean or variance with respect to input-distribution mean or variance. Based on problem-specific characteristics of the simulation we identify appropriate point and error estimators for these sensitivities that require no additional simulation effort beyond the nominal experiment. Two representative examples are provided to illustrate the family, estimators and interpretation of results.",
+    "published_date": "2021-05-19",
+    "citation_count": 3,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/24725854.2021.1931571",
+    "summary": "This paper introduces a new family of sensitivity measures for stochastic simulations, addressing how the mean and variance of a simulation output change in response to variations in the mean and variance of its stochastic input distributions, offering efficient estimators requiring no extra simulation runs."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/a7YgzDYx4FhdB3TmR/an-155-a-minecraft-benchmark-for-algorithms-that-learn",
+    "author": "Rohin Shah",
+    "title": "[AN #155]: A Minecraft benchmark for algorithms that learn without reward functions",
+    "published_date": "2021-07-08",
+    "summary": "The MineRL BASALT competition introduces a new benchmark for AI systems learning from human feedback, using Minecraft's open-ended environment to evaluate agents based on human judgment rather than a pre-defined reward function, addressing limitations of traditional benchmarks like Atari and MuJoCo. This approach aims to improve the development of AI systems that better understand and respond to human preferences."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06",
+    "summary": "A standard model of COVID-19 transmission struggles to explain the surprisingly similar infection rates across US states despite varying levels of restrictions. A proposed alternative \"vulnerability model,\" suggesting fluctuating individual susceptibility to infection over time, better accounts for the observed data and avoids inconsistencies of the standard model."
+  }
+]

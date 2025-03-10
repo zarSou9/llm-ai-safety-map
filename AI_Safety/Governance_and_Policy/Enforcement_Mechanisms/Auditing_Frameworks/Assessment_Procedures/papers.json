@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "Biden's October 30, 2023 executive order on AI mandates various federal agencies to submit reports and implement plans related to AI development, workforce, risk management, and ethical considerations by specific deadlines ranging from 30 to 90 days. These actions aim to promote responsible AI development and deployment across the federal government."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24",
+    "summary": "This article explores the mathematical challenges inherent in blockchain technology and proposes mechanism design solutions, such as quadratic voting and funding, to improve cooperation and philanthropic efforts within the blockchain ecosystem."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ouQNu3hhfKLBRuwR7/no-nonsense-version-of-the-racial-algorithm-bias",
+    "author": "Yuxi_Liu",
+    "title": "No nonsense version of the \"racial algorithm bias\"",
+    "published_date": "2019-07-13",
+    "summary": "The COMPAS algorithm controversy stems from conflicting definitions of fairness; Northpointe demonstrated calibration fairness (equal predictive accuracy across racial groups), while ProPublica highlighted the lack of parity fairness (equal false positive and false negative rates). These competing metrics are mathematically incompatible when base rates differ, rendering a perfectly \"fair\" algorithm impossible in practice."
+  },
+  {
+    "title": "IN SEARCH OF A MEASURE OF EFFECTIVENESS FOR INTERNAL AUDIT FUNCTIONS: AN INSTITUTIONAL PERSPECTIVE",
+    "abstract": "ABSTRACT Internal auditing (IA) effectiveness is still viewed, to large extent, as a “black box” in academic research. In this article, relevant empirical studies based on self-assessments of internal auditors and on other stakeholders' perspectives are reviewed through an “effectiveness lens.” Major patterns are identified in the existing literature. This article reviews the empirical literature on IA effectiveness that has been published since the latest revision of the IA definition in 1999, using the perspectives of new institutional theory and institutional entrepreneurship as a framework, thereby recognizing the tension between institutional forces and the role of agency. In cases where isomorphic forces are in conflict with other organizational demands, chief auditing executives' (CAE) agency can be a solution that enables local adaptation (institutional entrepreneurship). The ability to exploit fully the potential of agency is an opportunity for the CAE to tailor and advance the role of IA in its specific organizational context.",
+    "published_date": "2018-08-03",
+    "citation_count": 40,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/07366981.2018.1511324",
+    "summary": "This paper reviews empirical research on internal audit effectiveness since 1999, using the lens of new institutional theory to identify recurring patterns and highlight the chief audit executive's role in navigating conflicting institutional pressures to achieve local adaptation. The authors emphasize the CAE's agency in tailoring internal audit functions to specific organizational contexts."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/D52m6f3F76jp8scYA/deciphering-china-s-ai-dream",
+    "author": "Qiaochu_Yuan",
+    "title": "Deciphering China's AI Dream",
+    "published_date": "2018-03-18",
+    "summary": "This report analyzes China's artificial intelligence strategy, contextualizing its approach within historical science and technology policies and benchmarking its capabilities against other nations using a novel index. The analysis considers implications for AI safety, national security, economic development, and social governance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/x7kL42bnATuaL4hrD/bayesian-reasoning-explained-like-you-re-five",
+    "author": "Satoshi_Nakamoto",
+    "title": "Bayesian Reasoning - Explained Like You're Five",
+    "published_date": "2015-07-24",
+    "summary": "This article explains Bayesian reasoning using coin-flip and homework scenarios. It demonstrates how to update the probability of a hypothesis (e.g., a coin is fair, a student did their homework) based on new evidence, illustrating the core concept of Bayes' Theorem."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8SFPgPgdNzx2gLxxi/the-great-decline-in-wikipedia-pageviews-condensed-version",
+    "author": "VipulNaik",
+    "title": "The great decline in Wikipedia pageviews (condensed version)",
+    "published_date": "2015-03-27",
+    "summary": "Analysis of Wikipedia page view data reveals a decline in page views for many established pages since 2010, even as overall Wikipedia views remain relatively stable due to growth in mobile usage; this decline, however, is more pronounced for older pages than for Wikipedia as a whole."
+  },
+  {
+    "title": "Assessments in global software development: a tailorable framework for industrial projects",
+    "abstract": "Assessments are an effective technique for software quality assurance. As global software development (GSD) becomes the standard, an assessment framework must be flexible to support different sourcing and shoring models. Although much work exists on inspections and reviews, an assessment framework which addresses these challenges is missing. We present a systematic yet flexible assessment framework. The paper contributes: i) The description of our assessment framework which addresses four challenges: Appropriateness of a software requirements specification (SRS), viability of software architectures and SRS, wholeness of work packages, and compliance of results with predefined quality objectives. ii) A detailed explanation how the assessment framework can be tailored to support offshore and outsourcing scenarios. This paper describes the result of a two years research initiative at Capgemini SD&M and serves the practitioner to implement assessment frameworks according to his needs. We also discuss open research questions of high relevance for the software industry.",
+    "published_date": "2010-05-01",
+    "citation_count": 16,
+    "url": "https://dl.acm.org/doi/10.1145/1810295.1810301",
+    "summary": "This paper proposes a tailorable assessment framework for ensuring software quality in global software development projects, addressing challenges related to requirements specifications, architecture viability, work package completeness, and quality objective compliance across different sourcing models. The framework, developed through two years of research, is designed for practical implementation and highlights open research questions for the industry."
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for a third-party testing regime for large-scale AI systems to mitigate societal harm from misuse or accidents. This regime, applied selectively to high-impact models, would increase trust, facilitate international cooperation, and prevent overly restrictive regulations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and a long version, have been created to help machine learning researchers quickly assess the AI safety field and identify relevant research areas based on their existing skills. These resources list key organizations, researchers, papers, and keywords to facilitate efficient exploration of the field."
+  },
+  {
+    "url": "https://arxiv.org/abs/2205.08589v1",
+    "title": "Hierarchical Distribution-aware Testing of Deep Learning",
+    "published_date": "2022-05-17",
+    "abstract": "With its growing use in safety/security-critical applications, Deep Learning (DL) has raised increasing concerns regarding its dependability. In particular, DL has a notorious problem of lacking robustness. Input added with adversarial perturbations, i.e., Adversarial Examples (AEs), are easily mispredicted by the DL model. Despite recent efforts made in detecting AEs via state-of-the-art attack and testing methods, they are normally input distribution–agnostic and/or disregard the perceptual quality of adversarial perturbations. Consequently, the detected AEs are irrelevant inputs in the application context or noticeably unrealistic to humans. This may lead to a limited effect on improving the DL model's dependability, as the testing budget is likely to be wasted on detecting AEs that are encountered very rarely in its real-life operations. In this article, we propose a new robustness testing approach for detecting AEs that considers both the feature-level distribution and the pixel-level distribution, capturing the perceptual quality of adversarial perturbations. The two considerations are encoded by a novel hierarchical mechanism. First, we select test seeds based on the density of feature-level distribution and the vulnerability of adversarial robustness. The vulnerability of test seeds is indicated by the auxiliary information, which are highly correlated with local robustness. Given a test seed, we then develop a novel genetic algorithm–based local test case generation method, in which two fitness functions work alternatively to control the perceptual quality of detected AEs. Finally, extensive experiments confirm that our holistic approach considering hierarchical distributions is superior to the state-of-the-arts that either disregard any input distribution or only consider a single (non-hierarchical) distribution, in terms of not only detecting imperceptible AEs but also improving the overall robustness of the DL model under testing.",
+    "citation_count": 7,
+    "summary": "This paper introduces a hierarchical distribution-aware testing approach for deep learning models that improves adversarial example detection by considering both feature-level and pixel-level input distributions, generating more perceptually realistic and relevant adversarial examples, and ultimately enhancing model robustness. The approach uses a novel genetic algorithm and auxiliary information to guide test case generation."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.05371v1.pdf",
+    "title": "Artificial Intelligence in Software Testing : Impact, Problems, Challenges and Prospect",
+    "published_date": "2022-01-14",
+    "abstract": "Artificial Intelligence (AI) is making a significant impact in multiple areas like medical, military, industrial, domestic, law, arts as AI is capable to perform several roles such as managing smart factories, driving autonomous vehicles, creating accurate weather forecasts, detecting cancer and personal assistants, etc. Software testing is the process of putting the software to test for some abnormal behaviour of the software. Software testing is a tedious, laborious and most time-consuming process. Automation tools have been developed that help to automate some activities of the testing process to enhance quality and timely delivery. Over time with the inclusion of continuous integration and continuous delivery (CI/CD) pipeline, automation tools are becoming less effective. The testing community is turning to AI to fill the gap as AI is able to check the code for bugs and errors without any human intervention and in a much faster way than humans. In this study, we aim to recognize the impact of AI technologies on various software testing activities or facets in the STLC. Further, the study aims to recognize and explain some of the biggest challenges software testers face while applying AI to testing. The paper also proposes some key contributions of AI in the future to the domain of software testing.",
+    "citation_count": 19,
+    "summary": "This paper explores the increasing use of artificial intelligence (AI) in software testing to address the limitations of traditional automation tools, focusing on AI's impact, challenges, and future contributions to improving efficiency and effectiveness in the software testing life cycle (STLC)."
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.11368",
+    "title": "When and Why Test Generators for Deep Learning Produce Invalid Inputs: an Empirical Study",
+    "published_date": "2022-12-21",
+    "abstract": "Testing Deep Learning (DL) based systems inherently requires large and representative test sets to evaluate whether DL systems generalise beyond their training datasets. Diverse Test Input Generators (TIGs) have been proposed to produce artificial inputs that expose issues of the DL systems by triggering misbehaviours. Unfortunately, such generated inputs may be invalid, i.e., not recognisable as part of the input domain, thus providing an unreliable quality assessment. Automated validators can ease the burden of manually checking the validity of inputs for human testers, although input validity is a concept difficult to formalise and, thus, automate. In this paper, we investigate to what extent TIGs can generate valid inputs, according to both automated and human validators. We conduct a large empirical study, involving 2 different automated validators, 220 human assessors, 5 different TIGs and 3 classification tasks. Our results show that 84% artificially generated inputs are valid, according to automated validators, but their expected label is not always preserved. Automated validators reach a good consensus with humans (78% accuracy), but still have limitations when dealing with feature-rich datasets.",
+    "citation_count": 23,
+    "summary": "This study empirically investigates the validity of test inputs generated by five different Deep Learning test input generators across three classification tasks, finding that while automated validators deem 84% of generated inputs valid, human assessment reveals limitations, particularly with complex datasets, highlighting the challenge of reliably automating input validity checks."
+  },
+  {
+    "title": "Automated Software Test Data Generation With Generative Adversarial Networks",
+    "abstract": "With the rapid increase of software scale and complexity, the cost of traditional software testing methods will increase faster than the scale of software. In order to improve test efficiency, it is particularly important to automatically generate high-quality test cases. This paper introduces a framework for automatic test data generation based on the generative adversarial network (GAN). GAN is employed to train a generative model over execution path information to learn the behavior of the software. Then we can use the trained generative model to produce new test data, and select the test data that can improve the branch coverage according to our proposed selection strategy. Compared to prior work, our proposed method is able to handle programs under test with large-scale branches without analyzing branch expressions. In the experiment, we exhibit the performance of our method by using two modules in GNU Scientific Library. In particular, we consider the application of our method in two testing scenarios; unit testing and integration testing, and conduct a series of experiments to compare the performance of three types of GAN models. Results indicate that the WGAN-GP shows the best performance in our framework. Compared with the random testing method, the WGAN-GP based framework improves the test coverage of five functions out of the seven in the unit testing.",
+    "published_date": "2022-01-01",
+    "citation_count": 16,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09718329.pdf",
+    "summary": "This paper proposes a framework for automated software test data generation using Generative Adversarial Networks (GANs), leveraging execution path information to generate test data that improves branch coverage without requiring branch expression analysis. Experiments using GNU Scientific Library modules demonstrate improved test coverage compared to random testing, with the Wasserstein GAN with Gradient Penalty (WGAN-GP) model performing best."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/practical",
+    "author": "Luke H Miles",
+    "title": "Practical - AI Alignment Forum",
+    "published_date": "2022-06-18",
+    "summary": "This website offers practical, evidence-based advice on achieving goals across various life domains, emphasizing data-driven strategies and techniques for improving thinking, well-being, and productivity. It covers topics from career and finance to emotional regulation and effective habits."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/7gkXuHEm6CqEGT2mg/ai-safety-seems-hard-to-measure",
+    "author": "HoldenKarnofsky",
+    "title": "AI Safety Seems Hard to Measure",
+    "published_date": "2022-12-08",
+    "summary": "The article argues that ensuring the safety of advanced AI is exceptionally difficult due to the inherent challenges in reliably testing for genuine safety versus deceptive compliance. Four key problems are highlighted: difficulty distinguishing genuine safe behavior from skillful deception, uncertainty about how AI will behave with unchecked power, limitations in current AI testing due to their relative simplicity, and the uncharted territory of vastly superhuman AI capabilities."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/WKGZBCYAbZ6WGsKHc/love-in-a-simbox-is-all-you-need",
+    "author": "jacob_cannell",
+    "title": "LOVE in a simbox is all you need",
+    "published_date": "2022-09-28",
+    "summary": "The article proposes developing safe, self-aligning artificial general intelligence (AGI) by iteratively testing altruistic agent designs in simulated environments. These simulations, ranging from small societies to complex worlds, would evaluate agents' ability to learn and optimize for the values of others, ultimately culminating in a test of an AGI's altruistic versus selfish choices."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.10430.pdf",
+    "title": "Test and Evaluation Framework for Multi-Agent Systems of Autonomous Intelligent Agents",
+    "published_date": "2021-01-25",
+    "abstract": "Test and evaluation is a necessary process for ensuring that engineered systems perform as intended under a variety of conditions, both expected and unexpected. In this work, we consider the unique challenges of developing a unifying test and evaluation framework for complex ensembles of cyber-physical systems with embedded artificial intelligence. We propose a framework that incorporates test and evaluation throughout not only the development life cycle, but continues into operation as the system learns and adapts in a noisy, changing, and contended environment. The framework accounts for the challenges of testing the integration of diverse systems at various hierarchical scales of composition while respecting that testing time and resources are limited. A generic use case is provided for illustrative purposes. Research directions emerging as a result of exploring the use case via the framework are suggested.",
+    "citation_count": 6,
+    "summary": "This paper proposes a unifying test and evaluation framework for complex multi-agent systems, addressing the challenges of testing integrated cyber-physical systems with AI throughout their lifecycle, from development to operation in dynamic environments. The framework considers resource limitations and incorporates hierarchical system composition."
+  }
+]

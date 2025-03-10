@@ -1,0 +1,57 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2312.17479",
+    "title": "Culturally-Attuned Moral Machines: Implicit Learning of Human Value Systems by AI through Inverse Reinforcement Learning",
+    "published_date": "2023-12-29",
+    "abstract": "Constructing a universal moral code for artificial intelligence (AI) is difficult or even impossible, given that different human cultures have different definitions of morality and different societal norms. We therefore argue that the value system of an AI should be culturally attuned: just as a child raised in a particular culture learns the specific values and norms of that culture, we propose that an AI agent operating in a particular human community should acquire that community's moral, ethical, and cultural codes. How AI systems might acquire such codes from human observation and interaction has remained an open question. Here, we propose using inverse reinforcement learning (IRL) as a method for AI agents to acquire a culturally-attuned value system implicitly. We test our approach using an experimental paradigm in which AI agents use IRL to learn different reward functions, which govern the agents' moral values, by observing the behavior of different cultural groups in an online virtual world requiring real-time decision making. We show that an AI agent learning from the average behavior of a particular cultural group can acquire altruistic characteristics reflective of that group's behavior, and this learned value system can generalize to new scenarios requiring altruistic judgments. Our results provide, to our knowledge, the first demonstration that AI agents could potentially be endowed with the ability to continually learn their values and norms from observing and interacting with humans, thereby becoming attuned to the culture they are operating in.",
+    "citation_count": 1,
+    "summary": "This paper proposes using inverse reinforcement learning to enable AI agents to implicitly learn culturally-specific moral values by observing human behavior in a virtual world, demonstrating that AI can acquire and generalize altruistic characteristics reflective of a specific cultural group."
+  },
+  {
+    "url": "https://arxiv.org/abs/2501.07751",
+    "title": "Rethinking AI Cultural Evaluation",
+    "published_date": "2025-01-13",
+    "abstract": "As AI systems become more integrated into society, evaluating their capacity to align with diverse cultural values is crucial for their responsible deployment. Current evaluation methods predominantly rely on multiple-choice question (MCQ) datasets. In this study, we demonstrate that MCQs are insufficient for capturing the complexity of cultural values expressed in open-ended scenarios. Our findings highlight significant discrepancies between MCQ-based assessments and the values conveyed in unconstrained interactions. Based on these findings, we recommend moving beyond MCQs to adopt more open-ended, context-specific assessments that better reflect how AI models engage with cultural values in realistic settings.",
+    "summary": "Current AI cultural value assessments using multiple-choice questions are insufficient, failing to capture the complexity revealed in open-ended scenarios; research suggests a shift towards more nuanced, context-specific evaluation methods is necessary."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.12880",
+    "title": "Navigating the Cultural Kaleidoscope: A Hitchhiker's Guide to Sensitivity in Large Language Models",
+    "published_date": "2024-10-15",
+    "abstract": "As LLMs are increasingly deployed in global applications, the importance of cultural sensitivity becomes paramount, ensuring that users from diverse backgrounds feel respected and understood. Cultural harm can arise when these models fail to align with specific cultural norms, resulting in misrepresentations or violations of cultural values. This work addresses the challenges of ensuring cultural sensitivity in LLMs, especially in small-parameter models that often lack the extensive training data needed to capture global cultural nuances. We present two key contributions: (1) A cultural harm test dataset, created to assess model outputs across different cultural contexts through scenarios that expose potential cultural insensitivities, and (2) A culturally aligned preference dataset, aimed at restoring cultural sensitivity through fine-tuning based on feedback from diverse annotators. These datasets facilitate the evaluation and enhancement of LLMs, ensuring their ethical and safe deployment across different cultural landscapes. Our results show that integrating culturally aligned feedback leads to a marked improvement in model behavior, significantly reducing the likelihood of generating culturally insensitive or harmful content. Ultimately, this work paves the way for more inclusive and respectful AI systems, fostering a future where LLMs can safely and ethically navigate the complexities of diverse cultural landscapes.",
+    "summary": "This paper introduces a cultural harm test dataset and a culturally aligned preference dataset to evaluate and improve the cultural sensitivity of large language models (LLMs), particularly smaller models lacking extensive training data. Fine-tuning with the preference dataset significantly reduces the generation of culturally insensitive content."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.15453",
+    "title": "CROPE: Evaluating In-Context Adaptation of Vision and Language Models to Culture-Specific Concepts",
+    "published_date": "2024-10-20",
+    "abstract": "As Vision and Language models (VLMs) become accessible across the globe, it is important that they demonstrate cultural knowledge. In this paper, we introduce CROPE, a visual question answering benchmark designed to probe the knowledge of culture-specific concepts and evaluate the capacity for cultural adaptation through contextual information. This allows us to distinguish between parametric knowledge acquired during training and contextual knowledge provided during inference via visual and textual descriptions. Our evaluation of several state-of-the-art open VLMs shows large performance disparities between culture-specific and common concepts in the parametric setting. Moreover, experiments with contextual knowledge indicate that models struggle to effectively utilize multimodal information and bind culture-specific concepts to their depictions. Our findings reveal limitations in the cultural understanding and adaptability of current VLMs that need to be addressed toward more culturally inclusive models.",
+    "summary": "CROPE, a new benchmark, assesses the cultural knowledge of vision-language models (VLMs) by evaluating their ability to answer questions about culture-specific concepts, revealing significant limitations in both inherent knowledge and the effective use of contextual information for cultural adaptation. The study highlights the need for more culturally inclusive VLMs."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.11495",
+    "title": "Online Context Learning for Socially-compliant Navigation",
+    "published_date": "2024-06-17",
+    "abstract": "Robot social navigation needs to adapt to different human factors and environmental contexts. However, since these factors and contexts are difficult to predict and cannot be exhaustively enumerated, traditional learning-based methods have difficulty in ensuring the social attributes of robots in long-term and cross-environment deployments. This letter introduces an online context learning method that aims to empower robots to adapt to new social environments online. The proposed method adopts a two-layer structure. The bottom layer is built using a deep reinforcement learning-based method to ensure the output of basic robot navigation commands. The upper layer is implemented using an online robot learning-based method to socialize the control commands suggested by the bottom layer. Experiments using a community-wide simulator show that our method outperforms the state-of-the-art ones. Experimental results in the most challenging scenarios show that our method improves the performance of the state-of-the-art by 8%. The source code of the proposed method, the data used, and the tools for the per-training step will be publicly available at https://github.com/Nedzhaken/SOCSARL-OL.",
+    "citation_count": 1,
+    "summary": "This paper presents an online context learning method for socially compliant robot navigation, using a two-layer architecture combining deep reinforcement learning for basic navigation with an online learning layer for social adaptation, demonstrating an 8% performance improvement over state-of-the-art methods in challenging scenarios."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/guess-ask-tell-culture",
+    "title": "Guess/Ask/Tell Culture - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "The article describes three cultural approaches to decision-making, particularly regarding shared resources: \"Guess Culture\" relies on indirect communication and avoiding direct requests to prevent conflict, \"Ask Culture\" allows for direct requests with the understanding that refusal is acceptable, and \"Tell Culture\" involves explicitly stating preferences and negotiating based on shared information."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/least-convenient-possible-world",
+    "title": "Least Convenient Possible World - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "The Least Convenient Possible World (LCPW) technique strengthens arguments by evaluating them under the most unfavorable conditions, ensuring objections aren't mere rationalizations and promoting intellectual honesty. This involves assuming all circumstances support the opposing viewpoint."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/understanding",
+    "title": "Understanding - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "True understanding surpasses rote memorization; it involves comprehending interconnected concepts and applying them across diverse situations. This necessitates moving beyond detached facts to grasp implications within various contexts."
+  }
+]

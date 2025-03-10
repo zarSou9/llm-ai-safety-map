@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/dPpA79MjPdDd87YoW/understanding-goedel-s-completeness-theorem",
+    "author": "Jessicata",
+    "title": "Understanding Gödel's completeness theorem",
+    "published_date": "2024-05-27",
+    "summary": "This article presents a proof of a variant of Gödel's completeness theorem using sequent calculus, aiming for intuitive understanding rather than symbolic manipulation. The proof relies on a first-order theory with a countably infinite set of constants not appearing in axioms, and defines judgments and inference rules to demonstrate the theorem's soundness."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.09347.pdf",
+    "title": "Verified reductions for optimization",
+    "published_date": "2023-01-23",
+    "abstract": "Numerical and symbolic methods for optimization are used extensively in engineering, industry, and finance. Various methods are used to reduce problems of interest to ones that are amenable to solution by such software. We develop a framework for designing and applying such reductions, using the Lean programming language and interactive proof assistant. Formal verification makes the process more reliable, and the availability of an interactive framework and ambient mathematical library provides a robust environment for constructing the reductions and reasoning about them.",
+    "citation_count": 1,
+    "summary": "This paper presents a framework for formally verifying reductions used in optimization problems, leveraging the Lean programming language and its interactive proof assistant to ensure reliable transformations of complex problems into solvable forms. This approach enhances the trustworthiness of numerical and symbolic optimization methods."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/L6Ynch3CYMxXZkiq8/a-proof-of-loeb-s-theorem-using-computability-theory",
+    "author": "jessicata",
+    "title": "A Proof of Löb's Theorem using Computability Theory",
+    "published_date": "2023-08-16",
+    "summary": "The article presents a proof of Löb's theorem by reformulating it as a version of Gödel's second incompleteness theorem applied to Peano arithmetic with an added axiom. The proof leverages computability theory, specifically the unsolvability of the halting problem, to demonstrate the inconsistency that arises if the system proves its own consistency."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/EKPSgN8LsiEJzX5ni/a-well-defined-history-in-measurable-factor-spaces",
+    "author": "Matthias G. Mayer",
+    "title": "A well-defined history in measurable factor spaces",
+    "published_date": "2023-10-05",
+    "summary": "This paper investigates minimal index functions, termed \"histories,\" in infinite factor spaces, showing the existence of an almost surely minimal index function that determines a variable X given a feature Z, extending concepts from the finite case. The existence is proven using a constructive method involving a countable subset of an index set."
+  },
+  {
+    "url": "https://arxiv.org/abs/2204.09796",
+    "title": "Distributed Runtime Verification of Metric Temporal Properties for Cross-Chain Protocols",
+    "published_date": "2022-04-20",
+    "abstract": "Transactions involving multiple blockchains are implemented by cross-chain protocols. These protocols are based on smart contracts, programs that run on blockchains, executed by a network of computers. Verifying the runtime correctness of smart contracts is a problem of compelling practical interest since, smart contracts can automatically transfer ownership of cryptocurrencies, electronic securities, and other valuable assets among untrusting parties. Such verification is challenging since smart contract execution is time sensitive, and the clocks on different blockchains may not be perfectly synchronized. This paper describes a method for runtime monitoring of blockchain executions. First, we propose a generalized runtime verification technique for verifying partially synchronous distributed computations for the metric temporal logic (MTL) by exploiting bounded-skew clock synchronization. Second, we introduce a progression-based formula rewriting scheme for monitoring MTL specifications which employs SMT solving techniques and report experimental results.",
+    "citation_count": 11,
+    "summary": "This paper presents a distributed runtime verification method for metric temporal logic (MTL) properties in cross-chain protocols, addressing the challenges of asynchronous blockchain execution and clock discrepancies by using bounded-skew clock synchronization and SMT solving. The method employs a novel progression-based formula rewriting scheme for efficient monitoring."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.02991v1.pdf",
+    "title": "Abstraction Logic: The Marriage of Contextual Refinement and Separation Logic",
+    "published_date": "2021-09-07",
+    "abstract": "Contextual refinement and separation logics are successful verification techniques that are very different in nature. First, the former guarantees behavioral refinement between a concrete program and an abstract program while the latter guarantees safety of a concrete program under certain conditions (expressed in terms of pre and post conditions). Second, the former does not allow any assumption about the context when locally reasoning about a module while the latter allows rich assumptions. In this paper, we present a new verification technique, called abstraction logic (AL), that inherently combines contextual refinement and separation logics such as Iris and VST, thereby taking the advantages of both. Specifically, AL allows us to locally verify a concrete module against an abstract module under separation-logic-style pre and post conditions about external modules. AL are fully formalized in Coq and provides a proof mode that supports a combination of simulation-style reasoning using our own tactics and SL-style reasoning using IPM (Iris Proof Mode). Using the proof mode, we verified various examples to demonstrate reasoning about ownership (based on partial commutative monoids) and purity ($i.e.$, termination with no system call), cyclic and higher-order reasoning about mutual recursion and function pointers, and reusable and gradual verification via intermediate abstractions. Also, the verification results are combined with CompCert, so that we formally establish behavioral refinement from top-level abstract programs, all the way down to their assembly code.",
+    "summary": "Abstraction logic (AL) integrates contextual refinement and separation logic, enabling modular verification of programs by proving behavioral refinement between concrete and abstract modules under separation-logic-style pre- and post-conditions; this is formalized in Coq and demonstrated through examples including ownership, purity, and higher-order reasoning, ultimately linking abstract programs to their assembly code via CompCert."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.03322v1.pdf",
+    "title": "Automatic Repair and Deadlock Detection for Parameterized Systems",
+    "published_date": "2021-11-05",
+    "abstract": "We present an algorithm for the repair of parameterized systems. The repair problem is, for a given process implementation, to find a refinement such that a given safety property is satisfied by the resulting parameterized system, and deadlocks are avoided. Our algorithm uses a parameterized model checker to determine the correctness of candidate solutions and employs a constraint system to rule out candidates. We apply this algorithm on systems that can be represented as well-structured transition systems (WSTS), including disjunctive systems, pairwise rendezvous systems, and broadcast protocols. Moreover, we show that parameterized deadlock detection can be decided in EXPTIME for disjunctive systems, and that deadlock detection is in general undecidable for broadcast protocols.",
+    "citation_count": 3,
+    "summary": "This paper introduces an algorithm that automatically repairs parameterized systems to satisfy safety properties and avoid deadlocks, using a parameterized model checker and constraint system; its applicability is demonstrated on well-structured transition systems like disjunctive and pairwise rendezvous systems, with complexity analysis provided for deadlock detection."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.11991v2.pdf",
+    "title": "Being Correct Is Not Enough: Efficient Verification Using Robust Linear Temporal Logic",
+    "published_date": "2021-02-24",
+    "abstract": "While most approaches in formal methods address system correctness, ensuring robustness has remained a challenge. In this article, we present and study the logic rLTL, which provides a means to formally reason about both correctness and robustness in system design. Furthermore, we identify a large fragment of rLTL for which the verification problem can be efficiently solved, i.e., verification can be done by using an automaton, recognizing the behaviors described by the rLTL formula φ, of size at most O(3 |φ |), where |φ | is the length of φ. This result improves upon the previously known bound of O(5|φ |) for rLTL verification and is closer to the LTL bound of O(2|φ |). The usefulness of this fragment is demonstrated by a number of case studies showing its practical significance in terms of expressiveness, the ability to describe robustness, and the fine-grained information that rLTL brings to the process of system verification. Moreover, these advantages come at a low computational overhead with respect to LTL verification.",
+    "citation_count": 17,
+    "summary": "This paper introduces rLTL, a logic for verifying both correctness and robustness of system designs, and presents an efficient verification algorithm with a significantly improved time complexity bound compared to previous approaches, enabling practical application through demonstrated case studies."
+  }
+]

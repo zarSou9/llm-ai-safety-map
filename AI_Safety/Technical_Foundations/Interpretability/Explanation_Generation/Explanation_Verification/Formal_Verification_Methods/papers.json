@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25"
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/good-explanations-advice",
+    "title": "Good Explanations (Advice) - AI Alignment Forum",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19"
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.03380v2",
+    "title": "On Formal Feature Attribution and Its Approximation",
+    "published_date": "2023-07-07",
+    "abstract": "Recent years have witnessed the widespread use of artificial intelligence (AI) algorithms and machine learning (ML) models. Despite their tremendous success, a number of vital problems like ML model brittleness, their fairness, and the lack of interpretability warrant the need for the active developments in explainable artificial intelligence (XAI) and formal ML model verification. The two major lines of work in XAI include feature selection methods, e.g. Anchors, and feature attribution techniques, e.g. LIME and SHAP. Despite their promise, most of the existing feature selection and attribution approaches are susceptible to a range of critical issues, including explanation unsoundness and out-of-distribution sampling. A recent formal approach to XAI (FXAI) although serving as an alternative to the above and free of these issues suffers from a few other limitations. For instance and besides the scalability limitation, the formal approach is unable to tackle the feature attribution problem. Additionally, a formal explanation despite being formally sound is typically quite large, which hampers its applicability in practical settings. Motivated by the above, this paper proposes a way to apply the apparatus of formal XAI to the case of feature attribution based on formal explanation enumeration. Formal feature attribution (FFA) is argued to be advantageous over the existing methods, both formal and non-formal. Given the practical complexity of the problem, the paper then proposes an efficient technique for approximating exact FFA. Finally, it offers experimental evidence of the effectiveness of the proposed approximate FFA in comparison to the existing feature attribution algorithms not only in terms of feature importance and but also in terms of their relative order.",
+    "citation_count": 6
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.08637",
+    "title": "Formal Proofs as Structured Explanations: Proposing Several Tasks on Explainable Natural Language Inference",
+    "published_date": "2023-11-15",
+    "abstract": "In this position paper, we propose a way of exploiting formal proofs to put forward several explainable natural language inference (NLI) tasks. The formal proofs will be produced by a reliable and high-performing logic-based NLI system. Taking advantage of the in-depth information available in the generated formal proofs, we show how it can be used to define NLI tasks with structured explanations. The proposed tasks can be ordered according to difficulty defined in terms of the granularity of explanations. We argue that the tasks will suffer with substantially fewer shortcomings than the existing explainable NLI tasks (or datasets)."
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.03048v1",
+    "title": "From Robustness to Explainability and Back Again",
+    "published_date": "2023-06-05",
+    "abstract": "Formal explainability guarantees the rigor of computed explanations, and so it is paramount in domains where rigor is critical, including those deemed high-risk. Unfortunately, since its inception formal explainability has been hampered by poor scalability. At present, this limitation still holds true for some families of classifiers, the most significant being deep neural networks. This paper addresses the poor scalability of formal explainability and proposes novel efficient algorithms for computing formal explanations. The novel algorithm computes explanations by answering instead a number of robustness queries, and such that the number of such queries is at most linear on the number of features. Consequently, the proposed algorithm establishes a direct relationship between the practical complexity of formal explainability and that of robustness. To achieve the proposed goals, the paper generalizes the definition of formal explanations, thereby allowing the use of robustness tools that are based on different distance norms, and also by reasoning in terms of some target degree of robustness. Preliminary experiments validate the practical efficiency of the proposed approach.",
+    "citation_count": 10
+  }
+]

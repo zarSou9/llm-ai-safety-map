@@ -1,0 +1,78 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2408.02205",
+    "title": "Designing Multi-layered Runtime Guardrails for Foundation Model Based Agents: Swiss Cheese Model for AI Safety by Design",
+    "published_date": "2024-08-05",
+    "abstract": "Foundation Model (FM)-based agents are revolutionizing application development across various domains. However, their rapidly growing capabilities and autonomy have raised significant concerns about AI safety. Researchers are exploring better ways to design guardrails to ensure that the runtime behavior of FM-based agents remains within specific boundaries. Nevertheless, designing effective runtime guardrails is challenging due to the agents' autonomous and non-deterministic behavior. The involvement of multiple pipeline stages and agent artifacts, such as goals, plans, tools, at runtime further complicates these issues. Addressing these challenges at runtime requires multi-layered guardrails that operate effectively at various levels of the agent architecture. Thus, in this paper, we present a comprehensive taxonomy of runtime guardrails for FM-based agents to identify the key quality attributes for guardrails and design dimensions based on the results of a systematic literature review. Inspired by the Swiss Cheese Model, we also propose a reference architecture for designing multi-layered runtime guardrails for FM-based agents, which includes three dimensions: quality attributes, pipelines, and artifacts. The proposed taxonomy and reference architecture provide concrete and robust guidance for researchers and practitioners to build AI-safety-by-design from a software architecture perspective.",
+    "citation_count": 1,
+    "summary": "This paper proposes a multi-layered, \"Swiss Cheese Model\" architecture for runtime guardrails in foundation model-based agents, addressing AI safety concerns by leveraging a taxonomy of guardrail quality attributes and considering agent pipelines and artifacts. The architecture provides a framework for designing robust safety mechanisms within the agent's software architecture."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.12935",
+    "title": "Trustworthy, Responsible, and Safe AI: A Comprehensive Architectural Framework for AI Safety with Challenges and Mitigations",
+    "published_date": "2024-08-23",
+    "abstract": "AI Safety is an emerging area of critical importance to the safe adoption and deployment of AI systems. With the rapid proliferation of AI and especially with the recent advancement of Generative AI (or GAI), the technology ecosystem behind the design, development, adoption, and deployment of AI systems has drastically changed, broadening the scope of AI Safety to address impacts on public safety and national security. In this paper, we propose a novel architectural framework for understanding and analyzing AI Safety; defining its characteristics from three perspectives: Trustworthy AI, Responsible AI, and Safe AI. We provide an extensive review of current research and advancements in AI safety from these perspectives, highlighting their key challenges and mitigation approaches. Through examples from state-of-the-art technologies, particularly Large Language Models (LLMs), we present innovative mechanism, methodologies, and techniques for designing and testing AI safety. Our goal is to promote advancement in AI safety research, and ultimately enhance people's trust in digital transformation.",
+    "citation_count": 3,
+    "summary": "This paper proposes a novel architectural framework for AI safety encompassing trustworthy, responsible, and safe AI, reviewing existing research, highlighting challenges, and presenting mitigation approaches and innovative mechanisms using Large Language Models as examples. The framework aims to enhance trust in AI systems and promote advancements in AI safety research."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.08138",
+    "title": "Architecting Safer Autonomous Aviation Systems",
+    "published_date": "2023-01-09",
+    "abstract": "The aviation literature gives relatively little guidance to practitioners about the specifics of architecting systems for safety, particularly the impact of architecture on allocating safety requirements, or the relative ease of system assurance resulting from system or subsystem level architectural choices. As an exemplar, this paper considers common architectural patterns used within traditional aviation systems and explores their safety and safety assurance implications when applied in the context of integrating artificial intelligence (AI) and machine learning ( ML ) based functionality. Considering safety as an architectural property, we discuss both the allocation of safety requirements and the architectural trade-offs involved early in the design lifecycle. This approach could be extended to other assured properties, similar to safety, such as security. We conclude with a discussion of the safety considerations that emerge in the context of candidate architectural patterns that have been proposed in the recent literature for enabling autonomy capabilities by integrating AI and ML. A recommendation is made for the generation of a property-driven architectural pattern catalogue.",
+    "citation_count": 2,
+    "summary": "This paper examines how architectural choices impact safety and assurance in autonomous aviation systems, particularly when integrating AI/ML, advocating for early consideration of safety requirements and proposing a property-driven architectural pattern catalogue. It analyzes common architectural patterns' safety implications in this context."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2304.07984.pdf",
+    "title": "A Unified Safety Protection and Extension Governor",
+    "published_date": "2023-04-17",
+    "abstract": "In this paper, we propose a supervisory control scheme that unifies the abilities of safety protection and safety extension. It produces a control that is able to keep the system safe indefinitely when such a control exists. When such a control does not exist due to abnormal system states, it optimizes the control to maximize the time before any safety violation, which translates into more time to seek recovery and/or mitigate any harm. We describe the scheme and develop an approach that integrates the two capabilities into a single constrained optimization problem with only continuous variables. For linear systems with convex constraints, the problem reduces to a convex quadratic program and is easy to solve. We illustrate the proposed safety supervisor with an automotive example.",
+    "citation_count": 1,
+    "summary": "This paper presents a unified supervisory control scheme that ensures system safety by either maintaining safe operation indefinitely or, if impossible, maximizing the time before safety violation. This is achieved through a constrained optimization problem solvable as a convex quadratic program for linear systems with convex constraints."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of posts aims to provide a comprehensive introduction to AI safety. The content and order of posts are still under development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jiXMZHGmEf7qPrKPc/systems-that-cannot-be-unsafe-cannot-be-safe",
+    "author": "Davidmanheim",
+    "title": "Systems that cannot be unsafe cannot be safe",
+    "published_date": "2023-05-02",
+    "summary": "The author argues that assessing the safety of machine learning models, unlike traditional engineering systems, is currently meaningless because there are no established safety standards or specifications defining acceptable behavior and usage. Therefore, claims of \"safe\" or \"partly safe\" AI models are misleading without pre-defined criteria and verification against those criteria."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2211.17218.pdf",
+    "title": "Specification Architectural Viewpoint for Benefit-Cost-Risk-Aware Decision-Making in Self-Adaptive Systems",
+    "published_date": "2022-11-30",
+    "abstract": "Over the past two decades, researchers and engineers have extensively studied the problem of how to enable a software system to deal with uncertain operating conditions. One prominent solution to this problem is self-adaptation, which equips a software system with a feedback loop that resolves uncertainties during operation and adapts the system to deal with them when necessary. Most self-adaptation approaches developed so far use decision-making mechanisms that focus on achieving a set of goals, i.e., that select for execution the adaptation option with the best estimated benefit. A few approaches have also considered the estimated (one-off) cost of executing the candidate adaptation options. We argue that besides benefit and cost, decision-making in self-adaptive systems should also consider the estimated risk the system or its users would be exposed to if an adaptation option were selected for execution. Balancing all three factors when evaluating the options for adaptation when mitigating uncertainty is essential, not only for satisfying the concerns of the stakeholders, but also to ensure safety and public acceptance of self-adaptive systems. In this paper, we present an ISO/IEC/IEEE 42010 compatible architectural viewpoint that considers the estimated benefit, cost, and risk as core factors of each adaptation option considered in self-adaptation. The viewpoint aims to support software architects responsible for designing robust decision-making mechanisms for self-adaptive systems.",
+    "summary": "This paper proposes a new architectural viewpoint, compliant with ISO/IEC/IEEE 42010, for designing robust decision-making mechanisms in self-adaptive systems by explicitly incorporating benefit, cost, and risk estimations into the selection of adaptation options. This approach aims to improve stakeholder satisfaction, safety, and public acceptance of self-adaptive systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.00905",
+    "title": "Responsible-AI-by-Design: a Pattern Collection for Designing Responsible AI Systems",
+    "published_date": "2022-03-02",
+    "abstract": "Although AI has significant potential to transform society, there are serious concerns about its ability to behave and make decisions responsibly. Many ethical regulations, principles, and guidelines for responsible AI have been issued recently. However, these principles are high-level and difficult to put into practice. In the meantime much effort has been put into responsible AI from the algorithm perspective, but they are limited to a small subset of ethical principles amenable to mathematical analysis. Responsible AI issues go beyond data and algorithms and are often at the system-level crosscutting many system components and the entire software engineering lifecycle. Based on the result of a systematic literature review, this paper identifies one missing element as the system-level guidance - how to design the architecture of responsible AI systems. We present a summary of design patterns that can be embedded into the AI systems as product features to contribute to responsible-AI-by-design.",
+    "citation_count": 17,
+    "summary": "This paper addresses the lack of system-level guidance for designing responsible AI systems, presenting a collection of design patterns identified through a literature review to facilitate the incorporation of responsible AI principles into system architecture and the software development lifecycle. These patterns aim to move beyond algorithm-centric approaches to achieve responsible AI-by-design."
+  },
+  {
+    "title": "Safety-Assured Design and Adaptation of Learning-Enabled Autonomous Systems",
+    "abstract": "Future autonomous systems will employ sophisticated machine learning techniques for the sensing and perception of the surroundings and the making corresponding decisions for planning, control, and other actions. They often operate in highly dynamic, uncertain and challenging environment, and need to meet stringent timing, resource, and mission requirements. In particular, it is critical and yet very challenging to ensure the safety of these autonomous systems, given the uncertainties of the system inputs, the constant disturbances on the system operations, and the lack of analyzability for many machine learning methods (particularly those based on neural networks). In this paper, we will discuss some of these challenges, and present our work in developing automated, quantitative, and formalized methods and tools for ensuring the safety of autonomous systems in their design and during their runtime adaptation. We argue that it is essential to take a holistic approach in addressing system safety and other safety-related properties, vertically across the functional, software, and hardware layers, and horizontally across the autonomy pipeline of sensing, perception, planning, and control modules. This approach could be further extended from a single autonomous system to a multi-agent system where multiple autonomous agents perform tasks in a collaborative manner. We will use connected and autonomous vehicles (CAVs) as the main application domain to illustrate the importance of such holistic approach and show our initial efforts in this direction.",
+    "published_date": "2021-01-18",
+    "citation_count": 23,
+    "url": "https://dl.acm.org/doi/10.1145/3394885.3431623",
+    "summary": "This paper addresses the critical challenge of ensuring safety in learning-enabled autonomous systems, proposing a holistic, automated, and formalized approach encompassing hardware, software, and functional layers across the entire autonomy pipeline to address uncertainties inherent in machine learning methods. The approach is illustrated using connected and autonomous vehicles."
+  }
+]

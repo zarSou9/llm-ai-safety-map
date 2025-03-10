@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2402.02639",
+    "title": "”It's how you do things that matters”: Attending to Process to Better Serve Indigenous Communities with Language Technologies",
+    "published_date": "2024-02-04",
+    "abstract": "Indigenous languages are historically under-served by Natural Language Processing (NLP) technologies, but this is changing for some languages with the recent scaling of large multilingual models and an increased focus by the NLP community on endangered languages. This position paper explores ethical considerations in building NLP technologies for Indigenous languages, based on the premise that such projects should primarily serve Indigenous communities. We report on interviews with 17 researchers working in or with Aboriginal and/or Torres Strait Islander communities on language technology projects in Australia. Drawing on insights from the interviews, we recommend practices for NLP researchers to increase attention to the process of engagements with Indigenous communities, rather than focusing only on decontextualised artefacts.",
+    "citation_count": 6,
+    "summary": "This paper argues that ethical NLP development for Indigenous languages requires prioritizing community needs and engagement processes, advocating for collaborative approaches that move beyond solely focusing on technological outputs. Researchers should emphasize community-driven processes over solely technical advancements."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.12620",
+    "title": "Harnessing the Power of Artificial Intelligence to Vitalize Endangered Indigenous Languages: Technologies and Experiences",
+    "published_date": "2024-07-17",
+    "abstract": "Since 2022 we have been exploring application areas and technologies in which Artificial Intelligence (AI) and modern Natural Language Processing (NLP), such as Large Language Models (LLMs), can be employed to foster the usage and facilitate the documentation of Indigenous languages which are in danger of disappearing. We start by discussing the decreasing diversity of languages in the world and how working with Indigenous languages poses unique ethical challenges for AI and NLP. To address those challenges, we propose an alternative development AI cycle based on community engagement and usage. Then, we report encouraging results in the development of high-quality machine learning translators for Indigenous languages by fine-tuning state-of-the-art (SOTA) translators with tiny amounts of data and discuss how to avoid some common pitfalls in the process. We also present prototypes we have built in projects done in 2023 and 2024 with Indigenous communities in Brazil, aimed at facilitating writing, and discuss the development of Indigenous Language Models (ILMs) as a replicable and scalable way to create spell-checkers, next-word predictors, and similar tools. Finally, we discuss how we envision a future for language documentation where dying languages are preserved as interactive language models.",
+    "summary": "This paper explores using AI and NLP, particularly LLMs, to revitalize endangered Indigenous languages, emphasizing community-driven development to address ethical concerns and showcasing successful applications like machine translation and Indigenous Language Models for tools such as spell-checkers."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three AI governance strategies—Cooperative Development, Strategic Advantage, and Global Moratorium—evaluating their effectiveness based on alignment difficulty and development timelines. The optimal strategy shifts depending on these factors, with Cooperative Development favored for longer timelines and easier alignment, Strategic Advantage for shorter timelines and moderate difficulty, and Global Moratorium as a last resort for extremely challenging scenarios."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for third-party testing of large-scale AI systems to mitigate societal harms stemming from misuse or accidental consequences. They propose a policy framework involving industry, government, and academia to develop effective, yet minimally burdensome, testing standards and procedures for these powerful, adaptable AI models."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.10215.pdf",
+    "title": "In Consideration of Indigenous Data Sovereignty: Data Mining as a Colonial Practice",
+    "published_date": "2023-09-19",
+    "abstract": "Data mining reproduces colonialism, and Indigenous voices are being left out of the development of technology that relies on data, such as artificial intelligence. This research stresses the need for the inclusion of Indigenous Data Sovereignty and centers on the importance of Indigenous rights over their own data. Inclusion is necessary in order to integrate Indigenous knowledge into the design, development, and implementation of data-reliant technology. To support this hypothesis and address the problem, the CARE Principles for Indigenous Data Governance (Collective Benefit, Authority to Control, Responsibility, and Ethics) are applied. We cover how the colonial practices of data mining do not align with Indigenous convictions. The included case studies highlight connections to Indigenous rights in relation to the protection of data and environmental ecosystems, thus establishing how data governance can serve both the people and the Earth. By applying the CARE Principles to the issues that arise from data mining and neocolonialism, our goal is to provide a framework that can be used in technological development. The theory is that this could reflect outwards to promote data sovereignty generally and create new relationships between people and data that are ethical as opposed to driven by speed and profit.",
+    "summary": "Data mining practices often replicate colonialism by excluding Indigenous voices and perspectives; this paper advocates for Indigenous Data Sovereignty using the CARE Principles to ensure ethical data governance and the integration of Indigenous knowledge in technology development."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.08467",
+    "title": "Culturally Responsive Artificial Intelligence - Problems, Challenges and Solutions",
+    "published_date": "2023-12-13",
+    "abstract": "In the contemporary interconnected world, the concept of cultural responsibility occupies paramount importance. As the lines between nations become less distinct, it is incumbent upon individuals, communities, and institutions to assume the responsibility of safeguarding and valuing the landscape of diverse cultures that constitute our global society. This paper explores the socio-cultural and ethical challenges stemming from the implementation of AI algorithms and highlights the necessity for their culturally responsive development. It also offers recommendations on essential elements required to enhance AI systems' adaptability to meet the demands of contemporary multicultural societies. The paper highlights the need for further multidisciplinary research to create AI models that effectively address these challenges. It also advocates the significance of AI enculturation and underlines the importance of regulatory measures to promote cultural responsibility in AI systems.",
+    "citation_count": 1,
+    "summary": "This paper examines the socio-cultural and ethical challenges of culturally insensitive AI algorithms, advocating for culturally responsive AI development through multidisciplinary research, AI enculturation, and regulatory measures. It emphasizes the need for AI systems adaptable to diverse multicultural societies."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that achieving safe artificial general intelligence (AGI) requires integrating diverse theoretical and empirical perspectives, including cognitive science, social sciences, and engineering, to design and evaluate \"civilisational intelligence\" architectures. This holistic approach prioritizes practical considerations and collaboration over isolated theoretical development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/FsYbie3qkqj84D98c/ai-safety-camp-2024",
+    "author": "Linda Linsefors",
+    "title": "AI Safety Camp 2024",
+    "published_date": "2023-11-18",
+    "summary": "The AI Safety Camp is a 4-month online research program (January-April 2024) offering diverse roles to collaborate on projects focused on ensuring safe AI development. Applications are due December 1st, requiring a commitment of 5 hours/week and weekly team calls."
+  }
+]

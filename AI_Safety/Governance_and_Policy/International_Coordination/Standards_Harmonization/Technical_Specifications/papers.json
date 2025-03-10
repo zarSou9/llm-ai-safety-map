@@ -1,0 +1,60 @@
+[
+  {
+    "title": "The Role of ETSI in the EU's Regulation and Governance of Artificial Intelligence",
+    "abstract": "As artificial intelligence (AI) technologies rapidly advance, they bring about important societal implications involving privacy, fairness, non-discrimination, and other relevant ethical considerations. Legislators and policymakers are joined by a common drive to provide legislative solutions and regulatory frameworks that guarantee that the ongoing integration of AI systems into society is consistent with fundamental rights and democratic values. This article explores the significant role that standardisation plays in this regulatory process and how it impacts the regulation and governance of AI within the European Union (EU). In particular, the paper provides a critical analysis of the regulatory approach adopted by the EU legislator for the AI Act, which delegates the definition of essential requirements for high-risk AI systems to harmonised standards, underlining the significance of standardisation in ensuring technical feasibility and compliance with EU laws and values. At the forefront of this discussion, there is the increasing influence of AI-related standardisation across social, economic, and geopolitical domains, with a particular focus on the crucial role played by Standard Developing Organisations (SDOs) in the regulatory and governance processes. This paper contributes to the legal scholarship by critically analysing the regulatory approach chosen for the EU's AI Act, contesting the adequacy of the New Legislative Framework for AI governance, and arguing that the reliance on harmonised standards risks undermining democratic accountability and fails to sufficiently safeguard fundamental rights without a more inclusive and transparent standard-setting process. The article focuses on the exclusion of the European Telecommunications Standards Institute (ETSI) from the European Commission's standardisation request in support of the AI Act and assesses its potential impact on EU law-making and regulatory consistency. Ultimately, the analysis aims to contribute to understanding standardisation dynamics, offering insights into its profound implications for AI governance and the broader digital sphere.",
+    "published_date": "2024-05-29",
+    "citation_count": 8,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/13511610.2024.2349627",
+    "summary": "This paper analyzes the EU AI Act's reliance on harmonized standards for regulating high-risk AI systems, criticizing the exclusion of ETSI from the standardization process and arguing that this approach risks undermining democratic accountability and insufficiently safeguarding fundamental rights. The authors contend that a more inclusive and transparent standard-setting process is needed."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, examines AI model registries—centralized databases tracking AI systems for governance purposes. These registries, varying widely in implementation across countries like the US and China, aim to monitor AI models before public release, providing a foundation for targeted AI regulation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The article advocates for third-party testing of large-scale AI systems to mitigate societal harms, arguing that such a regime is crucial for managing the risks of powerful AI models while fostering innovation and avoiding overly restrictive regulation. This approach would involve establishing trustworthy testing procedures and standards, ideally with international cooperation, to build confidence in AI and prevent misuse."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising but underdeveloped AI safety strategy. While current measures are limited, proposed approaches aim to increase visibility into AI development, allocate compute resources strategically, and enforce regulations on its use to mitigate existential risks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that \"purely technical\" solutions are insufficient and that a broader perspective encompassing social, political, and numerous scientific fields is necessary to design \"safe\" and beneficial artificial general intelligence (AGI). This approach prioritizes a top-down design of civilizational intelligence rather than a purely reactive, empirically-driven approach."
+  },
+  {
+    "title": "Safety-Assured Design and Adaptation of Learning-Enabled Autonomous Systems",
+    "abstract": "Future autonomous systems will employ sophisticated machine learning techniques for the sensing and perception of the surroundings and the making corresponding decisions for planning, control, and other actions. They often operate in highly dynamic, uncertain and challenging environment, and need to meet stringent timing, resource, and mission requirements. In particular, it is critical and yet very challenging to ensure the safety of these autonomous systems, given the uncertainties of the system inputs, the constant disturbances on the system operations, and the lack of analyzability for many machine learning methods (particularly those based on neural networks). In this paper, we will discuss some of these challenges, and present our work in developing automated, quantitative, and formalized methods and tools for ensuring the safety of autonomous systems in their design and during their runtime adaptation. We argue that it is essential to take a holistic approach in addressing system safety and other safety-related properties, vertically across the functional, software, and hardware layers, and horizontally across the autonomy pipeline of sensing, perception, planning, and control modules. This approach could be further extended from a single autonomous system to a multi-agent system where multiple autonomous agents perform tasks in a collaborative manner. We will use connected and autonomous vehicles (CAVs) as the main application domain to illustrate the importance of such holistic approach and show our initial efforts in this direction.",
+    "published_date": "2021-01-18",
+    "citation_count": 23,
+    "url": "https://dl.acm.org/doi/10.1145/3394885.3431623",
+    "summary": "This paper addresses the critical challenge of ensuring safety in learning-enabled autonomous systems, proposing a holistic, automated, and formalized approach encompassing hardware, software, and functional layers across the entire autonomy pipeline, from sensing to control. The approach is illustrated using connected and autonomous vehicles."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/bJi3hd8E8qjBeHz9Z",
+    "author": "lennart",
+    "title": "Transformative AI and Compute - LessWrong",
+    "published_date": "2021-09-23",
+    "summary": "The article analyzes the crucial role of computational resources in the development of advanced AI systems, examining the relationship between compute requirements, AI capabilities, and timelines for transformative AI, while also discussing the need for compute governance."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes AI safety-relevant content, reflecting the author's belief in the importance of careful reading and summarization."
+  }
+]

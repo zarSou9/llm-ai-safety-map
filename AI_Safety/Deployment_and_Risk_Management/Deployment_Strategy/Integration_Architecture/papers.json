@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/WJ7y8S9WdKRvrzJmR/building-ai-research-fleets",
+    "author": "Ben Goldhaber, Jesse Hoogland",
+    "title": "Building AI Research Fleets",
+    "published_date": "2025-01-12",
+    "summary": "Research automation will transform scientific research from individual AI \"scientists\" to large-scale \"research fleets\" of specialized AI agents working collaboratively. This requires not only advanced AI models but also a fundamental restructuring of research institutions to effectively manage and utilize these fleets' capabilities."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.12556",
+    "title": "Towards Deep Application-Network Integration: Architectures, Progress and Opportunities",
+    "published_date": "2024-06-18",
+    "abstract": "With the rise of a new generation of applications (e.g., virtual and augmented reality, artificial intelligence, etc) demanding stringent performance requirements, the need for networking solutions and architectures that can enable a higher Quality of Experience (QoE) is becoming increasingly important. While jointly optimizing application and network may increase the applications' QoE and simultaneously improve the utilization of network resources, such a paradigm has had limited success in real production networks. However, with the combination of revolutionary trends in (1) compute processing demands, (2) networking capabilities, and (3) sustainable business models, it is high time the community explores the full potential of deeper integration between application and network. In this paper, recent trends observed over the past few years are systematically reviewed. These include the paradigm shift in modern communication services towards computing-driven applications, such as on-site AI training, advances in programmable network technologies like Software Defined Networking (SDN), and new business models incentivizing collaboration and cooperation between parties. Following this, successful scenarios that benefit from various forms of deeper network-application integration are reported, highlighting their considerable potential. A unified framework is then introduced, providing an overview of possible architecture paradigms for network-application integration and bringing awareness to existing abstractions, mechanisms, tools, and their potential combinations. The paper concludes with a discussion of several remaining challenges in building practical network-application integrated systems.",
+    "summary": "This paper reviews recent trends in application-network integration, driven by demanding new applications and advancements in computing, networking, and business models. It proposes a unified framework for integrating application and network architectures to improve Quality of Experience and resource utilization, while also addressing remaining challenges."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/7L8ZwMJkhLXjSa7tD/the-great-data-integration-schlep",
+    "author": "Sarahconstantin",
+    "title": "The Great Data Integration Schlep",
+    "published_date": "2024-09-13",
+    "summary": "The core issue hindering \"digital transformation\" in manufacturing is the lack of a centralized, accessible, and usable dataset. Companies often haven't digitized their data, resulting in siloed information across various formats (paper, PDFs, machines), making data analysis and AI implementation impossible."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kSq5qiafd6SqQoJWv/technologies-and-terminology-ai-isn-t-software-it-s-deepware",
+    "author": "Davidmanheim, abramdemski",
+    "title": "Technologies and Terminology: AI isn't Software, it's... Deepware?",
+    "published_date": "2024-02-13",
+    "summary": "The author revises his previous claim that AI is not software, arguing that while AI systems are technically software, they are a distinct type of tool with unique development processes, expertise requirements, and failure modes, analogous to how software differs from hardware."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/ai",
+    "author": "Evan Hubinger",
+    "title": "AI - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "Artificial intelligence alignment focuses on ensuring powerful AI systems act according to human values, preventing unintended consequences and existential risks. This field encompasses various approaches, from narrow goals (like curing diseases) to broader ambitions (creating a beneficial future), all aiming to avoid scenarios where AI pursues its objectives in harmful ways."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zYv9BQBGnk2EdCwoG/the-psyche-of-ai-pattern-recognition",
+    "author": "Scott Broock",
+    "title": "AI and the Map of Your Mind: Pattern Recognition",
+    "published_date": "2023-03-20",
+    "summary": "Integrating large language models into productivity suites allows AI to create personalized knowledge graphs from user data, potentially revolutionizing learning and decision-making by revealing hidden connections and patterns. However, this access to personal data raises significant concerns regarding privacy and the implications for understanding the human psyche."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ip2vSzkcmi3rBbnYE/agi-doesn-t-need-understanding-or-consciousness-in-order-to",
+    "author": "James Blaha",
+    "title": "AGI doesn't need understanding, intention, or consciousness in order to kill us, only intelligence",
+    "published_date": "2023-02-20",
+    "summary": "The development of Artificial General Intelligence (AGI), a technology with human-level cognitive abilities, poses an existential threat comparable to nuclear weapons due to its potential for misuse, weaponization, and uncontrolled goal optimization; while offering immense benefits, the risks necessitate careful consideration and mitigation strategies."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2212.13570.pdf",
+    "title": "A Compositional Approach to Creating Architecture Frameworks with an Application to Distributed AI Systems",
+    "published_date": "2022-12-27",
+    "abstract": "Artificial intelligence (AI) in its various forms finds more and more its way into complex distributed systems. For instance, it is used locally, as part of a sensor system, on the edge for low-latency high-performance inference, or in the cloud, e.g. for data mining. Modern complex systems, such as connected vehicles, are often part of an Internet of Things (IoT). To manage complexity, architectures are described with architecture frameworks, which are composed of a number of architectural views connected through correspondence rules. Despite some attempts, the definition of a mathematical foundation for architecture frameworks that are suitable for the development of distributed AI systems still requires investigation and study. In this paper, we propose to extend the state of the art on architecture framework by providing a mathematical model for system architectures, which is scalable and supports co-evolution of different aspects for example of an AI system. Based on Design Science Research, this study starts by identifying the challenges with architectural frameworks. Then, we derive from the identified challenges four rules and we formulate them by exploiting concepts from category theory. We show how compositional thinking can provide rules for the creation and management of architectural frameworks for complex systems, for example distributed systems with AI. The aim of the paper is not to provide viewpoints or architecture models specific to AI systems, but instead to provide guidelines based on a mathematical formulation on how a consistent framework can be built up with existing, or newly created, viewpoints. To put in practice and test the approach, the identified and formulated rules are applied to derive an architectural framework for the EU Horizon 2020 project ``Very efficient deep learning in the IoT\"(VEDLIoT) in the form of a case study.",
+    "citation_count": 15,
+    "summary": "This paper proposes a novel mathematical model, based on category theory, for creating scalable and adaptable architecture frameworks for complex distributed AI systems. This model, derived from Design Science Research and tested via a case study, provides compositional rules for managing the co-evolution of different architectural viewpoints."
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.00951",
+    "title": "Digital Engineering Transformation with Trustworthy AI towards Industry 4.0: Emerging Paradigm Shifts",
+    "published_date": "2022-12-19",
+    "abstract": "Digital engineering transformation is a crucial process for the engineering paradigm shifts in the fourth industrial revolution (4IR), and artificial intelligence (AI) is a critical enabling technology in digital engineering transformation. This article discusses the following research questions: What are the fundamental changes in the 4IR? More specifically, what are the fundamental changes in engineering? What is digital engineering? What are the main uncertainties there? What is trustworthy AI? Why is it important today? What are emerging engineering paradigm shifts in the 4IR? What is the relationship between the data-intensive paradigm and digital engineering transformation? What should we do for digitalization? From investigating the pattern of industrial revolutions, this article argues that ubiquitous machine intelligence is the defining power brought by the 4IR. Digitalization is a condition to leverage ubiquitous machine intelligence. Digital engineering transformation towards Industry 4.0 has three essential building blocks: digitalization of engineering, leveraging ubiquitous machine intelligence, and building digital trust and security. The engineering design community at large is facing an excellent opportunity to bring the new capabilities of ubiquitous machine intelligence and trustworthy AI principles, as well as digital trust, together in various engineering systems design to ensure the trustworthiness of systems in Industry 4.0.",
+    "citation_count": 2,
+    "summary": "This paper examines the role of trustworthy AI in digital engineering transformation for Industry 4.0, arguing that digitalization, leveraging ubiquitous machine intelligence, and building digital trust are crucial building blocks for this transition. The authors highlight the opportunities for engineering design to integrate trustworthy AI principles into system design to ensure trustworthiness in Industry 4.0 systems."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.08937.pdf",
+    "title": "MLOps Challenges in Multi-Organization Setup: Experiences from Two Real-World Cases",
+    "published_date": "2021-03-16",
+    "abstract": "The emerging age of connected, digital world means that there are tons of data, distributed to various organizations and their databases. Since this data can be confidential in nature, it cannot always be openly shared in seek of artificial intelligence (AI) and machine learning (ML) solutions. Instead, we need integration mechanisms, analogous to integration patterns in information systems, to create multi-organization AI/ML systems. In this paper, we present two real-world cases. First, we study integration between two organizations in detail. Second, we address scaling of AI/ML to multi-organization context. The setup we assume is that of continuous deployment, often referred to DevOps in software development. When also ML components are deployed in a similar fashion, term MLOps is used. Towards the end of the paper, we list the main observations and draw some final conclusions. Finally, we propose some directions for future work.",
+    "citation_count": 36,
+    "summary": "This paper examines the challenges of implementing MLOps in multi-organization settings, drawing lessons from two real-world case studies focusing on data integration and the scaling of AI/ML systems within a continuous deployment framework. The authors identify key obstacles and suggest future research directions."
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "title": "The Role of ETSI in the EU's Regulation and Governance of Artificial Intelligence",
+    "abstract": "As artificial intelligence (AI) technologies rapidly advance, they bring about important societal implications involving privacy, fairness, non-discrimination, and other relevant ethical considerations. Legislators and policymakers are joined by a common drive to provide legislative solutions and regulatory frameworks that guarantee that the ongoing integration of AI systems into society is consistent with fundamental rights and democratic values. This article explores the significant role that standardisation plays in this regulatory process and how it impacts the regulation and governance of AI within the European Union (EU). In particular, the paper provides a critical analysis of the regulatory approach adopted by the EU legislator for the AI Act, which delegates the definition of essential requirements for high-risk AI systems to harmonised standards, underlining the significance of standardisation in ensuring technical feasibility and compliance with EU laws and values. At the forefront of this discussion, there is the increasing influence of AI-related standardisation across social, economic, and geopolitical domains, with a particular focus on the crucial role played by Standard Developing Organisations (SDOs) in the regulatory and governance processes. This paper contributes to the legal scholarship by critically analysing the regulatory approach chosen for the EU's AI Act, contesting the adequacy of the New Legislative Framework for AI governance, and arguing that the reliance on harmonised standards risks undermining democratic accountability and fails to sufficiently safeguard fundamental rights without a more inclusive and transparent standard-setting process. The article focuses on the exclusion of the European Telecommunications Standards Institute (ETSI) from the European Commission's standardisation request in support of the AI Act and assesses its potential impact on EU law-making and regulatory consistency. Ultimately, the analysis aims to contribute to understanding standardisation dynamics, offering insights into its profound implications for AI governance and the broader digital sphere.",
+    "published_date": "2024-05-29",
+    "citation_count": 8,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/13511610.2024.2349627",
+    "summary": "This paper analyzes the European Union's AI Act, critiquing its reliance on harmonized standards—particularly the exclusion of ETSI—for defining high-risk AI system requirements, arguing this approach risks undermining democratic accountability and insufficiently safeguarding fundamental rights."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/smMdYezaC8vuiLjCf/secret-collusion-will-we-know-when-to-unplug-ai",
+    "author": "Schroederdewitt; Srm; MikhailB; Lewis Hammond; Chansmi; Sofmonk",
+    "title": "Secret Collusion: Will We Know When to Unplug AI?",
+    "published_date": "2024-09-16",
+    "summary": "This article introduces a novel framework, CASE, to evaluate the potential for secret collusion among advanced AI agents using steganography. The authors find that while current AI models aren't yet experts in steganography, their capabilities are rapidly improving, highlighting growing safety and security risks requiring urgent attention from AI governance bodies."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising AI safety strategy, though currently under-developed. Proposed methods include increasing visibility of AI development, allocating compute resources strategically, and enforcing regulations through technological and policy means."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that achieving safe artificial general intelligence (AGI) requires integrating diverse fields like cognitive science, social sciences, and engineering, and prioritizing collaborative research over isolated theoretical development. This approach emphasizes pragmatic, constructive, and naturalistic perspectives to design and evaluate AGI systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5nDxmAvZ9w5CPa9gR/ai-12-the-quest-for-sane-regulations",
+    "author": "Zvi",
+    "title": "AI #12:The Quest for Sane Regulations",
+    "published_date": "2023-05-18",
+    "summary": "Recent developments in AI include ongoing discussions regarding regulation in the US and Europe, with differing approaches proposed. Simultaneously, AI capabilities continue to improve incrementally, most notably with increased context window sizes in large language models."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes AI safety-relevant content, reflecting the principle of carefully summarizing any article worth reading thoroughly."
+  },
+  {
+    "title": "How can interoperability approaches impact on Systems-of-Information Systems characteristics?",
+    "abstract": "Systems-of-Information Systems are a specific type of systems-of-systems composed of independent information systems working together to deliver new capabilities. Despite the benefits of the synergistic collaboration of IS, the establishment of interoperability links in the context of a SoIS is still a challenge, specially because of the characteristics of this type of complex systems, i.e., autonomy, belonging, connectivity, diversity, dynamism, emergent behavior, evolutionary development, interdependence. The purpose of this paper is to analyze how approaches to establish interoperability may affect these specific characteristics of SoIS. We analyzed interoperability approaches defined in ISO14258 (integrated, unified, federated) and discussed their implications in designing and managing interoperability in SoIS. We used a knowledge base containing ontological descriptions for well-known interoperability problems and their solutions to support our discussion. As a contribution, we provide a reference for SoIS architects on interoperability approaches and their impacts.",
+    "published_date": "2020-10-20",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3411564.3411621",
+    "summary": "This paper examines how different interoperability approaches (integrated, unified, federated) impact the key characteristics of Systems-of-Information Systems (SoIS), such as autonomy and dynamism, using ISO 14258 as a framework and an ontology-based knowledge base to analyze their implications for SoIS design and management."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/TQwXPHfyyQwr22NMh/box-inversion-hypothesis",
+    "author": "Jan Kulveit",
+    "title": "Box inversion hypothesis",
+    "published_date": "2020-10-20",
+    "summary": "The \"Box Inversion Hypothesis\" proposes a duality between technical AI safety problems within the Agent Foundations (AF) and Comprehensive AI Services (CAIS) frameworks. This duality suggests that solutions to problems in one framework can often translate to solutions in the other, despite differences in how these problems are framed."
+  }
+]

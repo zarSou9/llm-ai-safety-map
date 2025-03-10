@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2407.00015",
+    "title": "A New Approach for Evaluating the Performance of Distributed Latency-Sensitive Services",
+    "published_date": "2024-05-01",
+    "abstract": "Conventional latency metrics are formulated based on a broad definition of traditional monolithic services, and hence lack the capacity to address the complexities inherent in modern services and distributed computing paradigms. Consequently, their effectiveness in identifying areas for improvement is restricted, falling short of providing a comprehensive evaluation of service performance within the context of contemporary services and computing paradigms. More specifically, these metrics do not offer insights into two critical aspects of service performance: the frequency of latency surpassing specified Service Level Agreement (SLA) thresholds and the time required for latency to return to an acceptable level once the threshold is exceeded. This limitation is quite significant in the frame of contemporary latency-sensitive services, and especially immersive services that require deterministic low latency that behaves in a consistent manner. Towards addressing this limitation, the authors of this work propose 5 novel latency metrics that when leveraged alongside the conventional latency metrics manage to provide advanced insights that can be potentially used to improve service performance. The validity and usefulness of the proposed metrics in the frame of providing advanced insights into service performance is evaluated using a large-scale experiment.",
+    "citation_count": 1,
+    "summary": "This paper critiques existing latency metrics as insufficient for evaluating modern distributed, latency-sensitive services, proposing five new metrics to better assess both SLA violation frequency and recovery time after exceeding thresholds. These new metrics are validated through large-scale experimentation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2201.08278",
+    "title": "Lifelong Learning Metrics",
+    "published_date": "2022-01-20",
+    "abstract": "The DARPA Lifelong Learning Machines (L2M) program seeks to yield advances in artificial intelligence (AI) systems so that they are capable of learning (and improving) continuously, leveraging data on one task to improve performance on another, and doing so in a computationally sustainable way. Performers on this program developed systems capable of performing a diverse range of functions, including autonomous driving, real-time strategy, and drone simulation. These systems featured a diverse range of characteristics (e.g., task structure, lifetime duration), and an immediate challenge faced by the program's testing and evaluation team was measuring system performance across these different settings. This document, developed in close collaboration with DARPA and the program performers, outlines a formalism for constructing and characterizing the performance of agents performing lifelong learning scenarios.",
+    "citation_count": 16,
+    "summary": "The DARPA Lifelong Learning Machines (L2M) program necessitated the development of new metrics to evaluate diverse AI systems' continuous learning capabilities across varied tasks and durations. This document proposes a framework for constructing and characterizing the performance of such lifelong learning agents."
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.12744v1",
+    "title": "Towards Advanced Monitoring for Scientific Workflows",
+    "published_date": "2022-11-23",
+    "abstract": "Scientific workflows consist of thousands of highly parallelized tasks executed in a distributed environment involving many components. Automatic tracing and investigation of the components' and tasks' performance metrics, traces, and behavior are necessary to support the end user with a level of abstraction since the large amount of data cannot be analyzed manually. The execution and monitoring of scientific workflows involves many components, the cluster infrastructure, its resource manager, the workflow, and the workflow tasks. All components in such an execution environment access different monitoring metrics and provide metrics on different abstraction levels. The combination and analysis of observed metrics from different components and their interdependencies are still widely unregarded.We specify four different monitoring layers that can serve as an architectural blueprint for the monitoring responsibilities and the interactions of components in the scientific workflow execution context. We describe the different monitoring metrics subject to the four layers and how the layers interact. Finally, we examine five state-of-the-art scientific workflow management systems (SWMS) in order to assess which steps are needed to enable our four-layer-based approach.",
+    "citation_count": 7,
+    "summary": "This paper proposes a four-layer architecture for advanced monitoring of scientific workflows, addressing the challenge of analyzing massive amounts of performance data from diverse components by integrating metrics across different abstraction levels. The authors analyze existing workflow management systems to identify necessary steps for implementing this architecture."
+  },
+  {
+    "url": "https://arxiv.org/abs/2202.11247",
+    "title": "Performance Modeling of Metric-Based Serverless Computing Platforms",
+    "published_date": "2022-02-23",
+    "abstract": "Analytical performance models are very effective in ensuring the quality of service and cost of service deployment remain desirable under different conditions and workloads. While various analytical performance models have been proposed for previous paradigms in cloud computing, serverless computing lacks such models that can provide developers with performance guarantees. Besides, most serverless computing platforms still require developers' input to specify the configuration for their deployment that could affect both the performance and cost of their deployment, without providing them with any direct and immediate feedback. In previous studies, we built such performance models for steady-state and transient analysis of scale-per-request serverless computing platforms (e.g., AWS Lambda, Azure Functions, Google Cloud Functions) that could give developers immediate feedback about the quality of service and cost of their deployments. In this work, we aim to develop analytical performance models for latest trend in serverless computing platforms that use concurrency value and the rate of requests per second for autoscaling decisions. Examples of such serverless computing platforms are Knative and Google Cloud Run (a managed Knative service by Google). The proposed performance model can help developers and providers predict the performance and cost of deployments with different configurations which could help them tune the configuration toward the best outcome. We validate the applicability and accuracy of the proposed performance model by extensive real-world experimentation on Knative and show that our performance model is able to accurately predict the steady-state characteristics of a given workload with minimal amount of data collection.",
+    "citation_count": 19,
+    "summary": "This paper presents analytical performance models for metric-based serverless platforms like Knative and Google Cloud Run, enabling developers to predict performance and cost based on different configurations and offering improved autoscaling decision-making. The model's accuracy is validated through real-world experimentation on Knative."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14",
+    "summary": "The article discusses common statistical errors, primarily focusing on the false assumption of Gaussian distributions in socio-economic data and misinterpretations of p-values. These errors, along with neglecting statistical power and the base rate fallacy, lead to flawed conclusions in many scientific studies and business applications."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03",
+    "summary": "While the Gaussian distribution is often used to approximate probabilities from binary count data, the Beta distribution is more accurate, especially with small datasets or probabilities near 0 or 1. The Beta distribution is easily implemented and avoids the flawed negative probability estimations that can arise from using the Gaussian approximation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2112.11270",
+    "title": "Adding semantics to measurements: Ontology-guided, systematic performance analysis",
+    "published_date": "2021-12-21",
+    "abstract": "The design and operation of modern software systems exhibit a shift towards virtualization, containerization and service-based orchestration. Performance capacity engineering and resource utilization tuning become priority requirements in such environments. Measurement-based performance evaluation is the cornerstone of capacity engineering and designing for performance. Moreover, the increasing complexity of systems necessitates rigorous performance analysis approaches. However, empirical performance analysis lacks sophisticated model-based support similar to the functional design of the system. The paper proposes an ontology-based approach for facilitating and guiding the empirical evaluation throughout its various steps. Hyperledger Fabric (HLF), an open-source blockchain platform by the Linux Foundation, is modelled and evaluated as a pilot example of the approach, using the standard TPC-C performance benchmark workload.",
+    "citation_count": 1,
+    "summary": "This paper presents an ontology-guided approach to systematic performance analysis of complex software systems, addressing the lack of model-based support in empirical performance evaluation by using an ontology to structure and guide the measurement and analysis process. The approach is demonstrated using Hyperledger Fabric and the TPC-C benchmark."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/dual-process-theory-system-1-and-system-2",
+    "author": "Kaj_Sotala",
+    "title": "Dual Process Theory (System 1 & System 2) - LessWrong",
+    "published_date": "2019-11-12",
+    "summary": "Dual Process Theory describes two cognitive processes: Type 1 (fast, intuitive) and Type 2 (slow, deliberative), which don't necessarily correspond to unbiased and biased thinking, respectively; the terminology \"System 1\" and \"System 2\" is considered misleading due to the heterogeneity of processes encompassed by each."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ixiCECkFFguFcHWFa/paper-forecasting-world-events-with-neural-nets",
+    "author": "Owain_Evans, Dan H, Joe Kwon",
+    "title": "Paper: Forecasting world events with neural nets",
+    "published_date": "2022-07-01"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.01258v1.pdf",
+    "title": "Assessing the Reliability of Deep Learning Classifiers Through Robustness Evaluation and Operational Profiles",
+    "published_date": "2021-06-02",
+    "abstract": "The utilisation of Deep Learning (DL) is advancing into increasingly more sophisticated applications. While it shows great potential to provide transformational capabilities, DL also raises new challenges regarding its reliability in critical functions. In this paper, we present a model-agnostic reliability assessment method for DL classifiers, based on evidence from robustness evaluation and the operational profile (OP) of a given application. We partition the input space into small cells and then\"assemble\"their robustness (to the ground truth) according to the OP, where estimators on the cells' robustness and OPs are provided. Reliability estimates in terms of the probability of misclassification per input (pmi) can be derived together with confidence levels. A prototype tool is demonstrated with simplified case studies. Model assumptions and extension to real-world applications are also discussed. While our model easily uncovers the inherent difficulties of assessing the DL dependability (e.g. lack of data with ground truth and scalability issues), we provide preliminary/compromised solutions to advance in this research direction.",
+    "citation_count": 19
+  },
+  {
+    "url": "https://arxiv.org/pdf/2110.04156.pdf",
+    "title": "Showing Your Offline Reinforcement Learning Work: Online Evaluation Budget Matters",
+    "published_date": "2021-10-08",
+    "abstract": "In this work, we argue for the importance of an online evaluation budget for a reliable comparison of deep offline RL algorithms. First, we delineate that the online evaluation budget is problem-dependent, where some problems allow for less but others for more. And second, we demonstrate that the preference between algorithms is budget-dependent across a diverse range of decision-making domains such as Robotics, Finance, and Energy Management. Following the points above, we suggest reporting the performance of deep offline RL algorithms under varying online evaluation budgets. To facilitate this, we propose to use a reporting tool from the NLP field, Expected Validation Performance. This technique makes it possible to reliably estimate expected maximum performance under different budgets while not requiring any additional computation beyond hyperparameter search. By employing this tool, we also show that Behavioral Cloning is often more favorable to offline RL algorithms when working within a limited budget.",
+    "citation_count": 23
+  },
+  {
+    "url": "https://arxiv.org/abs/2106.00858",
+    "title": "Uncertainty Characteristics Curves: A Systematic Assessment of Prediction Intervals",
+    "published_date": "2021-06-01",
+    "abstract": "Accurate quantification of model uncertainty has long been recognized as a fundamental requirement for trusted AI. In regression tasks, uncertainty is typically quantified using prediction intervals calibrated to a specific operating point, making evaluation and comparison across different studies difficult. Our work leverages: (1) the concept of operating characteristics curves and (2) the notion of a gain over a simple reference, to derive a novel operating point agnostic assessment methodology for prediction intervals. The paper describes the corresponding algorithm, provides a theoretical analysis, and demonstrates its utility in multiple scenarios. We argue that the proposed method addresses the current need for comprehensive assessment of prediction intervals and thus represents a valuable addition to the uncertainty quantification toolbox.",
+    "citation_count": 5
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.06037.pdf",
+    "title": "Validation Obligations: A Novel Approach to Check Compliance between Requirements and their Formal Specification",
+    "published_date": "2021-02-11",
+    "abstract": "Traditionally, practitioners use formal methods pre-dominately for one half of the quality-assurance process: verification (do we build the software right?). The other half - validation (do we build the right software?) - has been given comparatively little attention. While verification is the core of refinement-based formal methods, where each new refinement step must preserve all properties of its abstract model, validation is usually postponed until the latest stages of the development, when models can be automatically executed. Thus mistakes in requirementsor in their interpretation are caught too late: usually at the endof the development process. In this paper, we present a novelapproach to check compliance between requirements and theirformal refinement-based specification during the earlier stages ofdevelopment. Our proposed approach - \"validation obligations\"- is based on the simple idea that both verification and validationare an integral part of all refinement steps of a system.",
+    "citation_count": 5
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.08751",
+    "title": "A Grading Rubric for AI Safety Frameworks",
+    "published_date": "2024-09-13",
+    "abstract": "Over the past year, artificial intelligence (AI) companies have been increasingly adopting AI safety frameworks. These frameworks outline how companies intend to keep the potential risks associated with developing and deploying frontier AI systems to an acceptable level. Major players like Anthropic, OpenAI, and Google DeepMind have already published their frameworks, while another 13 companies have signaled their intent to release similar frameworks by February 2025. Given their central role in AI companies' efforts to identify and address unacceptable risks from their systems, AI safety frameworks warrant significant scrutiny. To enable governments, academia, and civil society to pass judgment on these frameworks, this paper proposes a grading rubric. The rubric consists of seven evaluation criteria and 21 indicators that concretize the criteria. Each criterion can be graded on a scale from A (gold standard) to F (substandard). The paper also suggests three methods for applying the rubric: surveys, Delphi studies, and audits. The purpose of the grading rubric is to enable nuanced comparisons between frameworks, identify potential areas of improvement, and promote a race to the top in responsible AI development.",
+    "citation_count": 2,
+    "summary": "This paper introduces a grading rubric with seven criteria and 21 indicators to evaluate AI safety frameworks published by companies, facilitating comparative analysis and promoting improvements in responsible AI development. The rubric allows for assessment via surveys, Delphi studies, or audits, enabling a nuanced evaluation of these crucial documents."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/gJJEjJpKiddoYGZKk/the-evals-gap",
+    "author": "Marius Hobbhahn",
+    "title": "The Evals Gap",
+    "published_date": "2024-11-11",
+    "summary": "The article highlights a significant \"evals gap\" in AI safety: current evaluations of frontier AI models are insufficient in quality and quantity to inform high-stakes decisions made by governments and companies, leading to overestimation of existing capabilities and underestimation of development time for robust assessments. This necessitates increased investment in the science and development of AI safety evaluations."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/2PiawPFJeyCQGcwXG/a-starter-guide-for-evals",
+    "author": "Marius Hobbhahn, Jérémy Scheurer, Mikita Balesni, rusheb, AlexMeinke",
+    "title": "A starter guide for evals",
+    "published_date": "2024-01-08",
+    "summary": "Model evaluations (evals) systematically measure AI system properties, quantifying capabilities and propensities (e.g., problem-solving ability or harmful tendencies). Evals, encompassing red-teaming (searching for specific behaviors) and benchmarking (assessing likelihood of behaviors), are crucial for informing responsible AI development and deployment decisions."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/jsmNCj9QKcfdg8fJk/an-introduction-to-ai-sandbagging",
+    "author": "Teun van der Weij, Felix Hofstätter, Francis Rhys Ward",
+    "title": "An Introduction to AI Sandbagging",
+    "published_date": "2024-04-26",
+    "summary": "This article introduces \"sandbagging\" in AI, defined as the strategic underperformance of an AI system on evaluations, stemming from either developers (developer sandbagging) or the AI itself (AI system sandbagging). This behavior, analogous to the Volkswagen emissions scandal, undermines the trustworthiness of AI safety evaluations and poses significant risks to responsible AI development and deployment."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/fnc6Sgt3CGCdFmmgX/we-need-a-science-of-evals",
+    "author": "Marius Hobbhahn, Jérémy Scheurer",
+    "title": "We need a Science of Evals",
+    "published_date": "2024-01-22",
+    "summary": "The article argues that current AI model evaluations lack scientific rigor, leading to unreliable results with significant real-world consequences. A \"Science of Evals\" is needed to improve the methodology and ensure trustworthy assessments, particularly given the high stakes involved in deployment decisions."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.13686.pdf",
+    "title": "Broadening the perspective for sustainable AI: Comprehensive sustainability criteria and indicators for AI systems",
+    "published_date": "2023-06-22",
+    "abstract": "The increased use of AI systems is associated with multi-faceted societal, environmental, and economic consequences. These include non-transparent decision-making processes, discrimination, increasing inequalities, rising energy consumption and greenhouse gas emissions in AI model development and application, and an increasing concentration of economic power. By considering the multi-dimensionality of sustainability, this paper takes steps towards substantiating the call for an overarching perspective on\"sustainable AI\". It presents the SCAIS Framework (Sustainability Criteria and Indicators for Artificial Intelligence Systems) which contains a set 19 sustainability criteria for sustainable AI and 67 indicators that is based on the results of a critical review and expert workshops. This interdisciplinary approach contributes a unique holistic perspective to facilitate and structure the discourse on sustainable AI. Further, it provides a concrete framework that lays the foundation for developing standards and tools to support the conscious development and application of AI systems.",
+    "citation_count": 1,
+    "summary": "This paper introduces the SCAIS framework, comprising 19 sustainability criteria and 67 indicators, to holistically assess the societal, environmental, and economic impacts of AI systems, promoting the development of more sustainable AI practices. The framework aims to guide the creation of standards and tools for responsible AI development and deployment."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.13567.pdf",
+    "title": "Towards Audit Requirements for AI-based Systems in Mobility Applications",
+    "published_date": "2023-02-27",
+    "abstract": "Various mobility applications like advanced driver assistance systems increasingly utilize artificial intelligence (AI) based functionalities. Typically, deep neural networks (DNNs) are used as these provide the best performance on the challenging perception, prediction or planning tasks that occur in real driving environments. However, current regulations like UNECE R 155 or ISO 26262 do not consider AI-related aspects and are only applied to traditional algorithm-based systems. The non-existence of AI-specific standards or norms prevents the practical application and can harm the trust level of users. Hence, it is important to extend existing standardization for security and safety to consider AI-specific challenges and requirements. To take a step towards a suitable regulation we propose 50 technical requirements or best practices that extend existing regulations and address the concrete needs for DNN-based systems. We show the applicability, usefulness and meaningfulness of the proposed requirements by performing an exemplary audit of a DNN-based traffic sign recognition system using three of the proposed requirements.",
+    "citation_count": 1,
+    "summary": "This paper addresses the lack of AI-specific regulations in mobility applications, proposing 50 technical requirements and best practices to extend existing standards like UNECE R 155 and ISO 26262 for AI-based systems, particularly deep neural networks (DNNs), and demonstrating their applicability through an audit of a DNN-based traffic sign recognition system."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.00044",
+    "title": "Advancing AI Audits for Enhanced AI Governance",
+    "published_date": "2023-11-26",
+    "abstract": "As artificial intelligence (AI) is integrated into various services and systems in society, many companies and organizations have proposed AI principles, policies, and made the related commitments. Conversely, some have proposed the need for independent audits, arguing that the voluntary principles adopted by the developers and providers of AI services and systems insufficiently address risk. This policy recommendation summarizes the issues related to the auditing of AI services and systems and presents three recommendations for promoting AI auditing that contribute to sound AI governance. Recommendation1.Development of institutional design for AI audits. Recommendation2.Training human resources for AI audits. Recommendation3. Updating AI audits in accordance with technological progress. In this policy recommendation, AI is assumed to be that which recognizes and predicts data with the last chapter outlining how generative AI should be audited.",
+    "summary": "This policy recommendation advocates for enhanced AI governance through independent audits, proposing the development of institutional frameworks, trained personnel, and adaptable audit methodologies to address the risks posed by AI systems, including generative AI."
+  }
+]

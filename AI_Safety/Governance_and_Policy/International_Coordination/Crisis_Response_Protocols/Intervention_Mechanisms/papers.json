@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.11069",
+    "title": "Data-Driven Dynamic Intervention Design in Network Games",
+    "published_date": "2024-09-17",
+    "abstract": "Targeted interventions in games present a challenging problem due to the asymmetric information available to the regulator and the agents. This note addresses the problem of steering the actions of self-interested agents in quadratic network games towards a target action profile. A common starting point in the literature assumes prior knowledge of utility functions and/or network parameters. The goal of the results presented here is to remove this assumption and address scenarios where such a priori knowledge is unavailable. To this end, we design a data-driven dynamic intervention mechanism that relies solely on historical observations of agent actions and interventions. Additionally, we modify this mechanism to limit the amount of interventions, thereby considering budget constraints. Analytical convergence guarantees are provided for both mechanisms, and a numerical case study further demonstrates their effectiveness.",
+    "summary": "This paper proposes data-driven dynamic intervention mechanisms to guide self-interested agents in network games towards a desired action profile, without requiring prior knowledge of utility functions or network parameters. The mechanisms are proven to converge analytically and demonstrated numerically, also incorporating budget constraints to limit intervention frequency."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/hwtt9zM3MxoKnwgbd/carl-sagan-nuking-the-moon-and-not-nuking-the-moon",
+    "author": "eukaryote",
+    "title": "Carl Sagan, nuking the moon, and not nuking the moon",
+    "published_date": "2024-04-13",
+    "summary": "During the Cold War, both the US (Project A119) and the USSR (Project E-4) independently explored the possibility of detonating a nuclear weapon on the moon, primarily as a demonstration of technological prowess and military capabilities, though scientific research was also a secondary consideration. These plans were ultimately abandoned due to various technical and political concerns."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.04508.pdf",
+    "title": "A Deployment-First Methodology to Mechanism Design and Refinement in Distributed Systems",
+    "published_date": "2023-01-11",
+    "abstract": "Catalyzed by the popularity of blockchain technology, there has recently been a renewed interest in the design, implementation and evaluation of decentralized systems. Most of these systems are intended to be deployed at scale and in heterogeneous environments with real users and unpredictable workloads. Nevertheless, most research in this field evaluates such systems in controlled environments that poorly reflect the complex conditions of real-world environments. In this work, we argue that deployment is crucial to understanding decentralized mechanisms in a real-world environment and an enabler to building more robust and sustainable systems. We highlight the merits of deployment by comparing this approach with other experimental setups and show how our lab applied a deployment-first methodology. We then outline how we use Tribler, our peer-to-peer file-sharing application, to deploy and monitor decentralized mechanisms at scale. We illustrate the application of our methodology by describing a deployment trial in experimental tokenomics. Finally, we summarize four lessons learned from multiple deployment trials where we applied our methodology.",
+    "citation_count": 1,
+    "summary": "This paper advocates for a \"deployment-first\" methodology in decentralized systems research, arguing that real-world deployment, exemplified by their experience with the Tribler P2P system, is crucial for understanding and improving mechanism design compared to controlled experiments. The authors highlight lessons learned from deploying and monitoring decentralized mechanisms at scale."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jyAerr8txxhiKnxwA/5-reasons-why-governments-militaries-want-ai-for-information-1",
+    "author": "trevor",
+    "title": "5 Reasons Why Governments/Militaries Already Want AI for Information Warfare",
+    "published_date": "2023-10-30",
+    "summary": "Military information warfare, leveraging advanced psychological research, increasingly targets high-intelligence elites to influence policy and undermine adversaries, a strategy whose sophistication is rapidly accelerating."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2205.15673.pdf",
+    "title": "Dynamic Interventions With Limited Knowledge in Network Games",
+    "published_date": "2022-05-31",
+    "abstract": "This article studies the problem of intervention design for steering the actions of noncooperative players in quadratic network games to the social optimum. The players choose their actions with the aim of maximizing their individual payoff functions, while a central regulator uses interventions to modify their marginal returns and maximize the social welfare function. This work builds on the key observation that the solution to the steering problem depends on the knowledge of the regulator on the players' parameters and the underlying network. We therefore consider different scenarios based on limited knowledge and propose suitable static, dynamic, and adaptive intervention protocols. We formally prove convergence to the social optimum under the proposed mechanisms. We demonstrate our theoretical findings on a case study of Cournot competition with differentiated goods.",
+    "citation_count": 4,
+    "summary": "This paper investigates designing interventions to guide players in network games towards socially optimal outcomes, even with limited knowledge of player parameters and network structure. It proposes and proves the convergence of static, dynamic, and adaptive intervention protocols under various knowledge constraints, demonstrating their effectiveness through a Cournot competition example."
+  },
+  {
+    "url": "https://arxiv.org/abs/2106.12329",
+    "title": "Games in the Time of COVID-19: Promoting Mechanism Design for Pandemic Response",
+    "published_date": "2021-06-23",
+    "abstract": "Most governments employ a set of quasi-standard measures to fight COVID-19, including wearing masks, social distancing, virus testing, contact tracing, and vaccination. However, combining these measures into an efficient holistic pandemic response instrument is even more involved than anticipated. We argue that some non-trivial factors behind the varying effectiveness of these measures are selfish decision making and the differing national implementations of the response mechanism. In this article, through simple games, we show the effect of individual incentives on the decisions made with respect to mask wearing, social distancing, and vaccination, and how these may result in sub-optimal outcomes. We also demonstrate the responsibility of national authorities in designing these games properly regarding data transparency, the chosen policies, and their influence on the preferred outcome. We promote a mechanism design approach: It is in the best interest of every government to carefully balance social good and response costs when implementing their respective pandemic response mechanism; moreover, there is no one-size-fits-all solution when designing an effective solution.",
+    "citation_count": 4,
+    "summary": "This paper uses game theory to model individual decision-making regarding COVID-19 preventative measures (masking, distancing, vaccination), revealing how selfish incentives can lead to suboptimal outcomes. It advocates for a mechanism design approach where governments carefully balance social good with response costs to create effective, context-specific pandemic strategies."
+  },
+  {
+    "url": "https://arxiv.org/abs/2112.13650",
+    "title": "Multiagent Transition Systems for Composing Fault-Resilient Protocol Stacks",
+    "published_date": "2021-12-27",
+    "abstract": "We present a novel mathematical framework for the specification and analysis of fault-resilient distributed protocols and their implementations, with the following components: 1. Transition systems that allow the specification and analysis of computations with safety and liveness faults and their fault resilience. 2. Notions of safe, live and complete implementations among transition systems and their composition, with which the correctness (safety and liveness) and completeness of a protocol stack as a whole follows from each protocol implementing correctly and completely the protocol above it in the stack. 3. Applying the notion of monotonicity, pertinent to histories of distributed computing systems, to ease the specification and proof of correctness of implementations among distributed computing systems. 4. Multiagent transition systems, further characterized as centralized/distributed and synchronous/asynchronous; safety and liveness fault-resilience of implementations among them and their composition. The framework is being employed in the specification of a grassroots ordering consensus protocol stack, with a grassroots dissemination protocol and its implementation of grassroots social networking and of sovereign cryptocurrencies, and an efficient Byzantine atomic broadcast protocols as initial applications.",
+    "summary": "This paper introduces a multiagent transition system framework for specifying and analyzing fault-tolerant distributed protocols, enabling compositional verification of protocol stacks by proving correctness and completeness of individual protocols and their hierarchical composition. The framework utilizes notions of safety, liveness, and monotonicity to facilitate analysis and is applied to a grassroots ordering consensus protocol stack."
+  },
+  {
+    "title": "Responding to information asymmetry in crisis situations: innovation in the time of the COVID-19 pandemic",
+    "abstract": "ABSTRACT Crises test the resilience of public service organizations. Healthcare providers must respond and innovate within tight constraints to address challenges. Presenting COVID-19 as a knowable unknown (black swan event), we adopt information processing theory to investigate how healthcare providers and their suppliers address information asymmetry to support decision-making. Building on primary and secondary datasets, we demonstrate managers were innovating internal structural responses. For black swan events, in-house 'intelligent clients' are intrinsic not only in managing information uncertainty associated with early stages of the crisis, but also in addressing information equivocality and joint decision-making with other organizations associated with implementing solutions.",
+    "published_date": "2021-08-06",
+    "citation_count": 45,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/14719037.2021.1960737",
+    "summary": "The study uses information processing theory to examine how healthcare providers and suppliers responded to information asymmetry during the COVID-19 pandemic, revealing that internal structural innovation and \"intelligent clients\" were crucial for managing uncertainty and facilitating collaborative decision-making."
+  }
+]

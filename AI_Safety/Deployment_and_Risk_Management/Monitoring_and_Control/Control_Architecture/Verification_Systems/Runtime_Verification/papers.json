@@ -1,0 +1,35 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/N7KYWJPmyzB6bJSYT/the-next-ai-winter-will-be-due-to-energy-costs-1",
+    "author": "hippke",
+    "title": "The next AI winter will be due to energy costs",
+    "published_date": "2020-11-24"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24"
+  },
+  {
+    "title": "Runtime Enforcement of Parametric Timed Properties with Practical Applications",
+    "abstract": "Runtime enforcement (RE) is a technique where a so-called monitor modifies the execution of a system to comply with a desired property. RE consists in using a so called monitor to modify an input sequence of events so that it complies with the property. Very few convincing applications of runtime enforcement have been proposed so far since most of the proposed approaches remain on the theoretical level. In network security, RE monitors can detect and prevent Denial-of-Service attacks. In resource allocation, RE monitors can ensure fairness. Specifications in these domains express data-constraints over the received events where the timing between events matters. To formalize these requirements, we introduce Parameterized Timed Automata with Variables (PTAVs), an extension of Timed Automata (TAs) with internal and external variables. We then extend enforcement for TAs to enforcement for PTAVs. We model requirements from the considered application domains and show how enforcement monitors can ensure system correctness w.r.t. these requirements. Finally, we propose a prototype implementation to experiment RE monitors on some properties. Our experiments and the performance of RE monitors demonstrate the feasibility of our approach.",
+    "published_date": "2014-11-05",
+    "citation_count": 19,
+    "url": "https://www.sciencedirect.com/science/article/pii/S1474667015374371"
+  },
+  {
+    "title": "Runtime enforcement of regular timed properties",
+    "abstract": "Runtime enforcement is a verification/validation technique aiming at correcting (possibly incorrect) executions of a system of interest. In this paper, we consider enforcement monitoring for systems with timed specifications (modeled as timed automata). We consider runtime enforcement of any regular timed property specified by a timed automaton. To ease their design and their correctness-proof, enforcement mechanisms are described at several levels: enforcement functions that specify the input-output behavior, constraints that should be satisfied by such functions, enforcement monitors that implement an enforcement function as a transition system, and enforcement algorithms that describe the implementation of enforcement monitors. The feasibility of enforcement monitoring for timed properties is validated by prototyping the synthesis of enforcement monitors.",
+    "published_date": "2014-03-24",
+    "citation_count": 48,
+    "url": "https://dl.acm.org/doi/10.1145/2554850.2554967"
+  },
+  {
+    "title": "Logical Reliability of Interacting Real-Time Tasks",
+    "abstract": "We propose the notion of logical reliability for real-time program tasks that interact through periodically updated program variables. We describe a reliability analysis that checks if the given short-term (e.g., single-period) reliability of a program variable update in an implementation is sufficient to meet the logical reliability requirement (of the program variable) in the long run. We then present a notion of design by refinement where a task can be refined by another task that writes to program variables with less logical reliability. The resulting analysis can be combined with an incremental schedulability analysis for interacting real-time tasks proposed earlier for the Hierarchical Timing Language (HTL), a coordination language for distributed real-time systems. We implemented a logical-reliability- enhanced prototype of the compiler and runtime infrastructure for HTL.",
+    "published_date": "2008-03-10",
+    "citation_count": 20,
+    "url": "https://dl.acm.org/doi/10.1145/1403375.1403595"
+  }
+]

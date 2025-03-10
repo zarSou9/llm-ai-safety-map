@@ -1,0 +1,39 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.09574",
+    "title": "Towards Scalable and Robust Model Versioning",
+    "published_date": "2024-01-17",
+    "abstract": "As the deployment of deep learning models continues to expand across industries, the threat of malicious incursions aimed at gaining access to these deployed models is on the rise. Should an attacker gain access to a deployed model, whether through server breaches, insider attacks, or model inversion techniques, they can then construct white-box adversarial attacks to manipulate the model's classification outcomes, thereby posing significant risks to organizations that rely on these models for critical tasks. Model owners need mechanisms to protect themselves against such losses without the necessity of acquiring fresh training data - a process that typically demands substantial investments in time and capital.In this paper, we explore the feasibility of generating multiple versions of a model that possess different attack properties, without acquiring new training data or changing model architecture. The model owner can deploy one version at a time and replace a leaked version immediately with a new version. The newly deployed model version can resist adversarial attacks generated leveraging white-box access to one or all previously leaked versions. We show theoretically that this can be accomplished by incorporating parameterized hidden distributions into the model training data, forcing the model to learn task-irrelevant features uniquely defined by the chosen data. Additionally, optimal choices of hidden distributions can produce a sequence of model versions capable of resisting compound transferability attacks over time. Leveraging our analytical insights, we design and implement a practical model versioning method for DNN classifiers, which leads to significant robustness improvements over existing methods. We believe our work presents a promising direction for safeguarding DNN services beyond their initial deployment."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.19988",
+    "title": "Enhancing Security Using Random Binary Weights in Privacy-Preserving Federated Learning",
+    "published_date": "2024-09-30",
+    "abstract": "In this paper, we propose a novel method for enhancing security in privacy-preserving federated learning using the Vision Transformer. In federated learning, learning is performed by collecting updated information without collecting raw data from each client. However, the problem is that this raw data may be inferred from the updated information. Conventional data-guessing countermeasures (security enhancement methods) for addressing this issue have a trade-off relationship between privacy protection strength and learning efficiency, and they generally degrade model performance. In this paper, we propose a novel method of federated learning that does not degrade model performance and that is robust against data-guessing attacks on updated information. In the proposed method, each client independently prepares a sequence of binary (0 or 1) random numbers, multiplies it by the updated information, and sends it to a server for model learning. In experiments, the effectiveness of the proposed method is confirmed in terms of model performance and resistance to the APRIL (Attention PRIvacy Leakage) restoration attack."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.09796",
+    "title": "A Fast, Performant, Secure Distributed Training Framework For LLM",
+    "published_date": "2024-01-18",
+    "abstract": "The distributed (federated) LLM is an important method for co-training the domain-specific LLM using siloed data. However, maliciously stealing model parameters and data from the server or client side has become an urgent problem to be solved. In this paper, we propose a secure distributed LLM based on model slicing. In this case, we deploy the Trusted Execution Environment (TEE) on both the client and server side, and put the fine-tuned structure (LoRA or embedding of P-tuning v2) into the TEE. Then, secure communication is executed in the TEE and general environments through lightweight encryption. In order to further reduce the equipment cost as well as increase the model performance and accuracy, we propose a split fine-tuning scheme. In particular, we split the LLM by layers and place the latter layers in a server-side TEE (the client does not need a TEE). We then combine the proposed Sparsification Parameter Fine-tuning (SPF) with the LoRA part to improve the accuracy of the downstream task. Numerous experiments have shown that our method guarantees accuracy while maintaining security.",
+    "citation_count": 10
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.16669",
+    "title": "Label Privacy in Split Learning for Large Models with Parameter-Efficient Training",
+    "published_date": "2024-12-21",
+    "abstract": "As deep learning models become larger and more expensive, many practitioners turn to fine-tuning APIs. These web services allow fine-tuning a model between two parties: the client that provides the data, and the server that hosts the model. While convenient, these APIs raise a new concern: the data of the client is at risk of privacy breach during the training procedure. This challenge presents an important practical case of vertical federated learning, where the two parties perform parameter-efficient fine-tuning (PEFT) of a large model. In this study, we systematically search for a way to fine-tune models over an API while keeping the labels private. We analyze the privacy of LoRA, a popular approach for parameter-efficient fine-tuning when training over an API. Using this analysis, we propose P$^3$EFT, a multi-party split learning algorithm that takes advantage of existing PEFT properties to maintain privacy at a lower performance overhead. To validate our algorithm, we fine-tune DeBERTa-v2-XXLarge, Flan-T5 Large and LLaMA-2 7B using LoRA adapters on a range of NLP tasks. We find that P$^3$EFT is competitive with existing privacy-preserving methods in multi-party and two-party setups while having higher accuracy."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nLRKKCTtwQgvozLTN/gradient-routing-masking-gradients-to-localize-computation",
+    "author": "cloud, Jacob G-W, Evzen, Joseph Miller, TurnTrout",
+    "title": "Gradient Routing: Masking Gradients to Localize Computation in Neural Networks",
+    "published_date": "2024-12-06"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/69CRFgqbQyFBoYcg5/navigating-the-open-source-ai-landscape-data-funding-and",
+    "author": "André Ferretti, mic",
+    "title": "Navigating the Open-Source AI Landscape: Data, Funding, and Safety",
+    "published_date": "2023-04-13"
+  }
+]

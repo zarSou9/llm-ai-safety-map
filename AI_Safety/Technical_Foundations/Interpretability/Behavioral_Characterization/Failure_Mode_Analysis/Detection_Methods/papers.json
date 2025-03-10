@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2406.08221",
+    "title": "FAIL: Analyzing Software Failures from the News Using LLMs",
+    "published_date": "2024-06-12",
+    "abstract": "Software failures inform engineering work, standards, regulations. For example, the Log4J vulnerability brought government and industry attention to evaluating and securing software supply chains. Retrospective failure analysis is thus a valuable line of software engineering research. Accessing private engineering records is difficult, so such analyses tend to use information reported by the news media. However, prior works in this direction have relied on manual analysis. That has limited the scale of their analyses. The community lacks automated support to enable such analyses to consider a wide range of news sources and incidents.To fill this gap, we propose the Failure Analysis Investigation with LLMs (FAIL) system. FAIL is a novel LLM-based pipeline that collects, analyzes, and summarizes software failures as reported in the news. FAIL groups articles that describe the same incidents. It then analyzes incidents using existing taxonomies for postmortems, faults, and system characteristics. To tune and evaluate FAIL, we followed the methods of prior works by manually analyzing 31 software failures. FAIL achieved an F1 score of 90% for collecting news about software failures, a V-measure of 0.98 for merging articles reporting on the same incident, and extracted 90% of the facts about failures. We then applied FAIL to a total of 137,427 news articles from 11 providers published between 2010 and 2022. FAIL identified and analyzed 2,457 distinct failures reported across 4,184 articles. Our findings include: (1) current generation of large language models are capable of identifying news articles that describe failures, and analyzing them according to structured taxonomies; (2) high recurrences of similar failures within organizations and across organizations; and (3) severity of the consequences of software failures have increased over the past decade. The full FAIL database is available so that researchers, engineers, and policymakers can learn from a diversity of software failures.CCS CONCEPTS• Software and its engineering → Software defect analysis.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.00134",
+    "title": "Towards Implementing ML-Based Failure Detectors",
+    "published_date": "2022-09-30",
+    "abstract": "Most existing failure detection algorithms rely on statistical methods, and very few use machine learning (ML). This paper explores the viability of ML in the field of failure detection: is it possible to implement an ML-based detector that achieves a satisfactory quality of service? We implement a prototype that uses a basic long short-term memory neural network algorithm, and study its behavior with real traces. Although ML model has comparatively longer computing time, our prototype performs well in terms of accuracy and detection time.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.15469",
+    "title": "Learning Failure-Inducing Models for Testing Software-Defined Networks",
+    "published_date": "2022-10-27",
+    "abstract": "Software-defined networks (SDN) enable flexible and effective communication systems that are managed by centralized software controllers. However, such a controller can undermine the underlying communication network of an SDN-based system and thus must be carefully tested. When an SDN-based system fails, in order to address such a failure, engineers need to precisely understand the conditions under which it occurs. In this article, we introduce a machine learning-guided fuzzing method, named FuzzSDN, aiming at both (1) generating effective test data leading to failures in SDN-based systems and (2) learning accurate failure-inducing models that characterize conditions under which such system fails. To our knowledge, no existing work simultaneously addresses these two objectives for SDNs. We evaluate FuzzSDN by applying it to systems controlled by two open-source SDN controllers. Furthermore, we compare FuzzSDN with two state-of-the-art methods for fuzzing SDNs and two baselines for learning failure-inducing models. Our results show that (1) compared to the state-of-the-art methods, FuzzSDN generates at least 12 times more failures, within the same time budget, with a controller that is fairly robust to fuzzing and (2) our failure-inducing models have, on average, a precision of 98% and a recall of 86%, significantly outperforming the baselines."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.12464v1.pdf",
+    "title": "Using Dynamic Binary Instrumentation to Detect Failures in Robotics Software",
+    "published_date": "2022-01-29",
+    "abstract": "Autonomous and Robotics Systems (ARSs) are widespread, complex, and increasingly coming into contact with the public. Many of these systems are safety-critical, and it is vital to detect software errors to protect against harm. We propose a family of novel techniques to detect unusual program executions and incorrect program behavior. We model execution behavior by collecting low-level signals at run time and using those signals to build machine learning models. These models can identify previously-unseen executions that are more likely to exhibit errors. We describe a tractable approach for collecting dynamic binary runtime signals on ARSs, allowing the systems to absorb most of the overhead from dynamic instrumentation. The architecture of ARSs is particularly well-adapted to hiding the overhead from instrumentation. We demonstrate the efficiency of these approaches on ARDUPILOT -- a popular open-source autopilot software system -- and HUSKY -- an unmanned ground vehicle -- in simulation. We instrument executions to gather data from which we build supervised machine learning models of executions and evaluate the accuracy of these models. We also analyze the amount of training data needed to develop models with various degrees of accuracy, measure the overhead added to executions that use the analysis tool, and analyze which runtime signals are most useful for detecting unusual behavior on the program under test. In addition, we analyze the effects of timing delays on the functional behavior of ARSs.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03"
+  }
+]

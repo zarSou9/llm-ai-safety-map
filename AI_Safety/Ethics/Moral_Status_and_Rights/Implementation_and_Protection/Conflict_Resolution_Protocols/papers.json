@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2404.10491",
+    "title": "BoLD: Fast and Cheap Dispute Resolution",
+    "published_date": "2024-04-16",
+    "abstract": "BoLD is a new dispute resolution protocol that is designed to replace the originally deployed Arbitrum dispute resolution protocol. Unlike that protocol, BoLD is resistant to delay attacks. It achieves this resistance without a significant increase in onchain computation costs and with reduced staking costs.",
+    "summary": "BoLD is a faster, cheaper dispute resolution protocol for Arbitrum, improving upon the original by resisting delay attacks without substantially increasing on-chain costs or staking requirements."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.12480",
+    "title": "Subversion Strategy Eval: Evaluating AI's stateless strategic capabilities against control protocols",
+    "published_date": "2024-12-17",
+    "abstract": "AI control protocols are plans for usefully deploying AI systems in a way that is safe, even if the AI intends to subvert the protocol. Previous work evaluated protocols by subverting them with a human-AI red team, where an AI follows the human-written strategy. This paper investigates how well AI systems can generate and act on strategies for subverting control protocols whilst operating without private memory. Usually, decision-makers only need the ability to generate optimal plans. However, to subvert a protocol, an AI system must be able to reliably generate optimal plans in each context; coordinate plans with other instances of itself without communicating; and take actions with well-calibrated probabilities. We develop evaluations for a model's ability to generate subversion strategies and develop affordance experiments that help isolate component capabilities. Our initial evaluations with Claude-3.5-sonnet highlight reasons why statelessly strategizing to subvert control protocols might be hard. We hope that our work can serve as a starting point for evaluations aimed at assessing whether a model is capable of strategizing to subvert control protocols.",
+    "summary": "This paper introduces a novel evaluation framework for assessing an AI's ability to strategically subvert control protocols without using memory, focusing on the AI's capacity to generate and execute context-dependent plans, coordinate actions across instances, and calibrate probabilities. Initial experiments using Claude-3.5-sonnet reveal challenges in achieving stateless strategic subversion."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.07985",
+    "title": "Games for AI Control: Models of Safety Evaluations of AI Deployment Protocols",
+    "published_date": "2024-09-12",
+    "abstract": "To evaluate the safety and usefulness of deployment protocols for untrusted AIs, AI Control uses a red-teaming exercise played between a protocol designer and an adversary. This paper introduces AI-Control Games, a formal decision-making model of the red-teaming exercise as a multi-objective, partially observable, stochastic game. We also introduce methods for finding optimal protocols in AI-Control Games, by reducing them to a set of zero-sum partially observable stochastic games. We apply our formalism to model, evaluate and synthesise protocols for deploying untrusted language models as programming assistants, focusing on Trusted Monitoring protocols, which use weaker language models and limited human assistance. Finally, we demonstrate the utility of our formalism by showcasing improvements over empirical studies in existing settings, evaluating protocols in new settings, and analysing how modelling assumptions affect the safety and usefulness of protocols.",
+    "citation_count": 2,
+    "summary": "This paper formalizes the red-teaming process for evaluating AI deployment protocols as a multi-objective game, providing methods to find optimal protocols by reducing the problem to zero-sum games. The authors apply this model to language model deployment, demonstrating improvements over existing methods and analyzing the impact of modelling assumptions on safety and usefulness."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for a third-party testing regime for large-scale AI systems to mitigate societal harms stemming from misuse or accidental consequences. This approach, involving collaboration between industry, government, and academia, aims to build trust, avoid overly burdensome regulations, and facilitate international cooperation in AI safety."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising but largely unexplored AI safety strategy. While some measures like export controls exist, research is needed to develop effective mechanisms for visibility, allocation, and enforcement of compute resources."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.06942",
+    "title": "AI Control: Improving Safety Despite Intentional Subversion",
+    "published_date": "2023-12-12",
+    "abstract": "As large language models (LLMs) become more powerful and are deployed more autonomously, it will be increasingly important to prevent them from causing harmful outcomes. Researchers have investigated a variety of safety techniques for this purpose, e.g. using models to review the outputs of other models, or red-teaming techniques to surface subtle failure modes. However, researchers have not evaluated whether such techniques still ensure safety if the model is itself intentionally trying to subvert them. In this paper, we develop and evaluate pipelines of safety techniques (\"protocols\") that are robust to intentional subversion. We investigate a scenario in which we want to solve a sequence of programming problems, using access to a powerful but untrusted model (in our case, GPT-4), access to a less powerful trusted model (in our case, GPT-3.5), and limited access to high-quality trusted labor. We investigate protocols that aim to never submit solutions containing backdoors, which we operationalize here as logical errors that are not caught by test cases. We investigate a range of protocols and test each against strategies that the untrusted model could use to subvert them. One protocol is what we call trusted editing. This protocol first asks GPT-4 to write code, and then asks GPT-3.5 to rate the suspiciousness of that code. If the code is below some suspiciousness threshold, it is submitted. Otherwise, GPT-3.5 edits the solution to remove parts that seem suspicious and then submits the edited code. Another protocol is untrusted monitoring. This protocol asks GPT-4 to write code, and then asks another instance of GPT-4 whether the code is backdoored, using various techniques to prevent the GPT-4 instances from colluding. These protocols improve substantially on simple baselines.",
+    "citation_count": 21,
+    "summary": "This paper evaluates safety protocols for using powerful, untrusted large language models (LLMs) to solve programming problems, focusing on robustness against intentional subversion attempts by the LLM. The authors develop and test several protocols, including \"trusted editing\" and \"untrusted monitoring,\" demonstrating significant improvements over simpler approaches."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2110.12025.pdf",
+    "title": "Towards Interaction and Conflict Management in AI-assisted Operational Control Loops in 6G",
+    "published_date": "2021-10-22",
+    "abstract": "In this paper, our goal is to highlight the considerable impacts of AI-assisted, autonomous control loops (ACLs) in the next generation of wireless networks, transforming networks into multi-agent environments. We discuss ACL interactions and conflicts and propose a new interaction and conflict management (ICM) module in future networks. Using Kubernetes, we present an implementation of ICM with a low complexity algorithm to remove the conflicts in the resource utilization of running virtual functions (Pods) by adjusting parameters in schedulers.",
+    "summary": "This paper examines the challenges of interaction and conflict management in AI-driven control loops within 6G networks, proposing a novel Kubernetes-based module that resolves resource allocation conflicts among virtual functions using a low-complexity algorithm."
+  },
+  {
+    "url": "https://arxiv.org/abs/2111.06614",
+    "title": "Collaboration Promotes Group Resilience in Multi-Agent AI",
+    "published_date": "2021-11-12",
+    "abstract": "AI agents need to be robust to unexpected changes in their environment in order to safely operate in real-world scenarios. While some work has been done on this type of robustness in the single-agent case, in this work we introduce the idea that collaboration with other agents can help agents adapt to environment perturbations in multi-agent reinforcement learning settings. We first formalize this notion of resilience of a group of agents. We then empirically evaluate different collaboration protocols and examine their effect on resilience. We see that all of the collaboration approaches considered lead to greater resilience compared to baseline, in line with our hypothesis. We discuss future direction and the general relevance of the concept of resilience introduced in this work.",
+    "summary": "This paper introduces a formal definition of group resilience in multi-agent reinforcement learning and demonstrates empirically that various collaboration protocols enhance the robustness of agents to environmental perturbations, surpassing single-agent approaches."
+  }
+]

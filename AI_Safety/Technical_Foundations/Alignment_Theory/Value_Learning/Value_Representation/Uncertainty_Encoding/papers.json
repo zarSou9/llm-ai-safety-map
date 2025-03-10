@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2311.14219",
+    "title": "Hierarchical Structure of Uncertainty",
+    "published_date": "2023-11-23",
+    "abstract": "We introduce a new concept called uncertainty spaces which is an extended concept of probability spaces. Then, we express n-layer uncertainty which we call hierarchical uncertainty by a hierarchically constructed sequence of uncertainty spaces, called a U-sequence. We use U-sequences for providing examples that illustrate Ellsberg's paradox. We will use the category theory to get a bird's eye view of the hierarchical structure of uncertainty. We discuss maps between uncertainty spaces and maps between U-sequences, seeing that they form categories of uncertainty spaces and the category of U-sequences, respectively. We construct an endofunctor of the category of measurable spaces in order to embed a given U-sequence into it. Then, by the iterative application of the endofunctor, we construct the universal uncertainty space which may be able to serve as a basis for multi-layer uncertainty theory."
+  },
+  {
+    "title": "Multi-criteria group decision-making method for green supplier selection based on distributed interval variables",
+    "abstract": "Abstract Addressing the multi-criteria group decision making problem with interval attribute values and attribute weights, this paper proposes a decision method based on attribute distribution information. The selection of green suppliers is taken as an example for decision analysis. First, in the case of group decision-making, the quantitative values of the evaluation attributes of green suppliers are imputed by decision-makers, and the relevant distributions are constructed for each attribute. Next, combined with the ranges of attribute values, the random interval values are used to describe the information represented by each attribute to overcome the loss caused by the aggregation of individual expert information into group information. We then propose the distributed interval weighted arithmetic average (DIWAA) operator and corresponding operation rules, which realizes the fusion of qualitative data and quantitative judgment. Thus, the proposed approach allows ensuring reasonable results of the multi-criteria analysis. We also construct a ranking method for alternatives based on distributed interval comprehensive scores. Finally, we verify the feasibility and effectiveness of the proposed method for the task of green supplier selection through numerical experiments.",
+    "published_date": "2021-06-21",
+    "citation_count": 6,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/1331677X.2021.1931916"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2112.14243v1.pdf",
+    "title": "An AGM Approach to Revising Preferences",
+    "published_date": "2021-12-28",
+    "abstract": "We look at preference change arising out of an interaction between two elements: the first is an initial preference ranking encoding a pre-existing attitude; the second element is new preference information signaling input from an authoritative source, which may come into conflict with the initial preference. The aim is to adjust the initial preference and bring it in line with the new preference, without having to give up more information than necessary. We model this process using the formal machinery of belief change, along the lines of the well-known AGM approach. We propose a set of fundamental rationality postulates, and derive the main results of the paper: a set of representation theorems showing that preference change according to these postulates can be rationalized as a choice function guided by a ranking on the comparisons in the initial preference order. We conclude by presenting operators satisfying our proposed postulates. Our approach thus allows us to situate preference revision within the larger family of belief change operators.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.04662v2.pdf",
+    "title": "Multi-Objective Controller Synthesis with Uncertain Human Preferences",
+    "published_date": "2021-05-10",
+    "abstract": "Complex real-world applications of cyber-physical systems give rise to the need for multi-objective controller synthesis, which con-cerns the problem of computing an optimal controller subject to multiple (possibly conflicting) criteria. The relative importance of objectives is often specified by human decision-makers. However, there is inherent uncertainty in human preferences (e.g., due to artifacts resulting from different preference elicitation methods). In this paper, we formalize the notion of uncertain human preferences, and present a novel approach that accounts for this uncertainty in the context of multi-objective controller synthesis for Markov decision processes (MDPs). Our approach is based on mixed-integer linear programming and synthesizes an optimally permissive multi-strategy that satisfies uncertain human preferences with respect to a multi-objective property. Experimental results on a range of large case studies show that the proposed approach is feasible and scalable across varying MDP model sizes and uncertainty levels of human preferences. Evaluation via an online user study also demon-strates the quality and benefits of the synthesized controllers.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2012.07509v1.pdf",
+    "title": "Decision Making under Uncertainty: A Game of Two Selves",
+    "published_date": "2020-12-14",
+    "abstract": "In this paper we characterize the niveloidal preferences that satisfy the Weak Order, Monotonicity, Archimedean, and Weak C-Independence Axioms from the point of view of an intra-personal, leader-follower game. We also show that the leader's strategy space can serve as an ambiguity aversion index.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/kYgWmKJnqq8QkbjFj/bayesian-utility-representing-preference-by-probability",
+    "author": "Vladimir_Nesov",
+    "title": "Bayesian Utility: Representing Preference by Probability Measures",
+    "published_date": "2009-07-27"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/dPpA79MjPdDd87YoW/understanding-goedel-s-completeness-theorem",
+    "author": "Jessicata",
+    "title": "Understanding Gödel's completeness theorem",
+    "published_date": "2024-05-27"
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/knuths-up-arrow-notation",
+    "title": "Knuth's Up-Arrow Notation - LessWrong",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24"
+  },
+  {
+    "title": "Synthesizing partial component-level behavior models from system specifications",
+    "abstract": "Initial system specifications, such as use-case scenarios and properties, only partially specify the future system. We posit that synthesizing partial component-level behavior models from these early specifications can improve software development practices. In this paper, we provide a novel algorithm for deriving a Modal Transition System (MTS) for individual system components from system-level scenario and property specifications. The generated MTSs capture the possible component implementations that (1) necessarily provide the behavior required by the scenarios, (2) restrict behavior forbidden by the properties, and (3) leave the behavior that is neither explicitly required nor forbidden as undefined. We also show how our algorithm helps to discover potential design flaws.",
+    "published_date": "2009-08-24",
+    "citation_count": 48,
+    "url": "https://dl.acm.org/doi/10.1145/1595696.1595756"
+  },
+  {
+    "title": "A hierarchical abstraction model for software engineering",
+    "abstract": "Abstraction is a basic foundation and a powerful means in science and engineering, such as philosophy, mathematics, cognitive informatics, computing, and software engineering, because any complex inference process is based on it. A Hierarchical Abstraction Model (HAM) is presented in this paper, which elaborates the five levels of abstraction known as the analogue objects, diagrams, natural languages, professional notation systems, and mathematics. On the basis of the HAM model, main roles of abstraction in software engineering are explained, and a number of fundamental principles for software engineering practice are derived. The cognitive constraints, limitations of conventional descriptive means and modeling methodologies, as well as the need for more powerful denotational mathematics for software engineering are identified.",
+    "published_date": "2008-05-11",
+    "citation_count": 9,
+    "url": "https://dl.acm.org/doi/10.1145/1370164.1370174"
+  },
+  {
+    "title": "Abstraction abstracted",
+    "abstract": "An abstraction is the reification and conceptualization of a distinction. We use the process of forming abstractions to make sense of the world, i.e., to form concepts. Once created we are often able to externalize these concepts as software. Abstractions are what give software elegance. Abstractions build on each other, producing a hierarchical dependency structure that often creates challenges for understanding. We can teach the use of pre-packaged abstractions. It is more difficult to teach the self-awareness necessary for inventing new abstractions. The process of building abstractions is bottom-up. Thought externalization is where top-down meets bottom-up.",
+    "published_date": "2008-05-11",
+    "citation_count": 18,
+    "url": "https://dl.acm.org/doi/10.1145/1370164.1370171"
+  }
+]

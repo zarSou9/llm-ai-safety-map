@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/7tSthxSgnNxbt4Hk6/what-s-in-the-box-towards-interpretability-by-distinguishing-1",
+    "author": "Joshua Clancy",
+    "title": "What's in the box?! – Towards interpretability by distinguishing niches of value within neural networks.",
+    "published_date": "2024-02-29",
+    "summary": "This paper proposes a novel theoretical model of neural network internal representations, using an economic and information theory framework to identify \"niches of value\" for different representational units. The model combines top-down deductions from a general learning network model with bottom-up analysis of representational unit input-output mappings to predict neuron roles based on context and internal structure."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.03460.pdf",
+    "title": "Mind the Gap! Bridging Explainable Artificial Intelligence and Human Understanding with Luhmann's Functional Theory of Communication",
+    "published_date": "2023-02-07",
+    "abstract": "Over the past decade explainable artificial intelligence has evolved from a predominantly technical discipline into a field that is deeply intertwined with social sciences. Insights such as human preference for contrastive -- more precisely, counterfactual -- explanations have played a major role in this transition, inspiring and guiding the research in computer science. Other observations, while equally important, have nevertheless received much less consideration. The desire of human explainees to communicate with artificial intelligence explainers through a dialogue-like interaction has been mostly neglected by the community. This poses many challenges for the effectiveness and widespread adoption of such technologies as delivering a single explanation optimised according to some predefined objectives may fail to engender understanding in its recipients and satisfy their unique needs given the diversity of human knowledge and intention. Using insights elaborated by Niklas Luhmann and, more recently, Elena Esposito we apply social systems theory to highlight challenges in explainable artificial intelligence and offer a path forward, striving to reinvigorate the technical research in the direction of interactive and iterative explainers. Specifically, this paper demonstrates the potential of systems theoretical approaches to communication in elucidating and addressing the problems and limitations of human-centred explainable artificial intelligence.",
+    "citation_count": 5,
+    "summary": "This paper argues that current explainable AI (XAI) methods, focusing on single, optimized explanations, are insufficient for fostering genuine human understanding; it proposes leveraging Luhmann's social systems theory to develop more interactive and iterative XAI systems that better accommodate diverse human needs and communication styles."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rEMpTapcAzjTiSckf/on-developing-a-mathematical-theory-of-interpretability",
+    "author": "Spencer Becker-Kahn",
+    "title": "On Developing a Mathematical Theory of Interpretability",
+    "published_date": "2023-02-09",
+    "summary": "Developing a robust mathematical framework for interpreting deep learning models is crucial for safe and reliable AI, but this is a slow and challenging process hampered by the rapid pace of technological advancements. The author suggests that, while initially reactive, a more abstract, mathematically driven approach, similar to algebraic topology, could ultimately yield significant insights and predictions."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/AaABQpuoNC8gpHf2n/a-barebones-guide-to-mechanistic-interpretability",
+    "author": "Neel Nanda",
+    "title": "A Barebones Guide to Mechanistic Interpretability Prerequisites",
+    "published_date": "2022-10-24",
+    "summary": "This guide outlines essential skills for entering mechanistic interpretability research, emphasizing that the required knowledge is less than often assumed. It details necessary competencies in linear algebra, probability, calculus, Python programming (including NumPy and PyTorch), and a deep understanding of transformer architectures."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kqxEJkq5Big9nNKxy/beyond-kolmogorov-and-shannon",
+    "author": "Alexander Gietelink Oldenziel, Adam Shai",
+    "title": "Beyond Kolmogorov and Shannon",
+    "published_date": "2022-10-25",
+    "summary": "This article introduces James Crutchfield's Computational Mechanics framework as a promising approach to understanding transformer models and interpretability. It argues that standard complexity measures like Shannon entropy and Kolmogorov complexity are insufficient for capturing the structure of language data, motivating the need for more sophisticated measures to be explored in subsequent articles."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/jef8ntrWuJ7SvZjCM",
+    "author": "Evan R. Murphy",
+    "title": "Interpretability Research for the Most Important Century - AI Alignment Forum",
+    "published_date": "2022-04-25",
+    "summary": "This article series explores the value of interpretability research in advancing AI alignment, addressing Holden Karnofsky's question on high-leverage research activities for longtermism. It argues that interpretability research is a particularly promising area."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/eDicGjD9yte6FLSie/interpreting-neural-networks-through-the-polytope-lens",
+    "author": "Sid Black, Lee Sharkey, Connor Leahy, beren, CRG, merizian, Eric Winsor, Dan Braun",
+    "title": "Interpreting Neural Networks through the Polytope Lens",
+    "published_date": "2022-09-23",
+    "summary": "This research proposes a novel \"polytope lens\" for mechanistic interpretability of neural networks, arguing that analyzing the activation space partitioned by piecewise linear activation functions (like ReLU) into polytopes offers a more accurate and less polysemantic description of network representations than previous methods focusing on individual neurons or directions. Experiments support the hypothesis that polytopes reveal monosemantic regions and reflect semantic boundaries."
+  },
+  {
+    "url": "https://arxiv.org/auth/show-endorsers/2102.07048",
+    "title": "Connecting Interpretability and Robustness in Decision Trees through Separation",
+    "published_date": "2021-02-14",
+    "abstract": "Recent research has recognized interpretability and robustness as essential properties of trustworthy classification. Curiously, a connection between robustness and interpretability was empirically observed, but the theoretical reasoning behind it remained elusive. In this paper, we rigorously investigate this connection. Specifically, we focus on interpretation using decision trees and robustness to $l_{\\infty}$-perturbation. Previous works defined the notion of $r$-separation as a sufficient condition for robustness. We prove upper and lower bounds on the tree size in case the data is $r$-separated. We then show that a tighter bound on the size is possible when the data is linearly separated. We provide the first algorithm with provable guarantees both on robustness, interpretability, and accuracy in the context of decision trees. Experiments confirm that our algorithm yields classifiers that are both interpretable and robust and have high accuracy. The code for the experiments is available at https://github.com/yangarbiter/interpretable-robust-trees .",
+    "citation_count": 20,
+    "summary": "This paper establishes a theoretical connection between the interpretability (tree size) and robustness ($l_{\\infty}$-perturbation) of decision trees, proving bounds on tree size for $r$-separated and linearly separated data. It also presents a new algorithm with provable guarantees on robustness, interpretability, and accuracy."
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.20517",
+    "title": "SMLE: Safe Machine Learning via Embedded Overapproximation",
+    "published_date": "2024-09-30",
+    "abstract": "Despite the extent of recent advances in Machine Learning (ML) and Neural Networks, providing formal guarantees on the behavior of these systems is still an open problem, and a crucial requirement for their adoption in regulated or safety-critical scenarios. We consider the task of training differentiable ML models guaranteed to satisfy designer-chosen properties, stated as input-output implications. This is very challenging, due to the computational complexity of rigorously verifying and enforcing compliance in modern neural models. We provide an innovative approach based on three components: 1) a general, simple architecture enabling efficient verification with a conservative semantic; 2) a rigorous training algorithm based on the Projected Gradient Method; 3) a formulation of the problem of searching for strong counterexamples. The proposed framework, being only marginally affected by model complexity, scales well to practical applications, and produces models that provide full property satisfaction guarantees. We evaluate our approach on properties defined by linear inequalities in regression, and on mutually exclusive classes in multilabel classification. Our approach is competitive with a baseline that includes property enforcement during preprocessing, i.e. on the training data, as well as during postprocessing, i.e. on the model predictions. Finally, our contributions establish a framework that opens up multiple research directions and potential improvements."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25"
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.08287",
+    "title": "On the Verification of Embeddings with Hybrid Markov Logic",
+    "published_date": "2023-12-01",
+    "abstract": "The standard approach to verify representations learned by Deep Neural Networks is to use them in specific tasks such as classification or regression, and measure their performance based on accuracy in such tasks. However, in many cases, we would want to verify more complex properties of a learned representation. To do this, we propose a framework based on a probabilistic first-order language, namely, Hybrid Markov Logic Networks (HMLNs) where we specify properties over embeddings mixed with symbolic domain knowledge. We present an approach to learn parameters for the properties within this framework. Further, we develop a verification method to test embeddings in this framework by encoding this task as a Mixed Integer Linear Program for which we can leverage existing state-of-the-art solvers. We illustrate verification in Graph Neural Networks, Deep Knowledge Tracing and Intelligent Tutoring Systems to demonstrate the generality of our approach.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/yFofRxg7RRQYCcwFA/new-report-scheming-ais-will-ais-fake-alignment-during",
+    "author": "Joe Carlsmith",
+    "title": "AI as a science, and three obstacles to alignment strategies",
+    "published_date": "2023-10-25"
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.09945v5",
+    "title": "VeriCompress: A Tool to Streamline the Synthesis of Verified Robust Compressed Neural Networks from Scratch",
+    "published_date": "2022-11-17",
+    "abstract": "AI's widespread integration has led to neural networks (NN) deployment on edge and similar limited-resource platforms for safety-critical scenarios. Yet, NN's fragility raises concerns about reliable inference. Moreover, constrained platforms demand compact networks. This study introduces VeriCompress, a tool that automates the search and training of compressed models with robustness guarantees. These models are well-suited for safety-critical applications and adhere to predefined architecture and size limitations, making them deployable on resource-restricted platforms. The method trains models 2-3 times faster than the state-of-the-art approaches, surpassing them by average accuracy and robustness gains of 15.1 and 9.8 percentage points, respectively. When deployed on a resource-restricted generic platform, these models require 5-8 times less memory and 2-4 times less inference time than models used in verified robustness literature. Our comprehensive evaluation across various model architectures and datasets, including MNIST, CIFAR, SVHN, and a relevant pedestrian detection dataset, showcases VeriCompress's capacity to identify compressed verified robust models with reduced computation overhead compared to current standards. This underscores its potential as a valuable tool for end users, such as developers of safety-critical applications on edge or Internet of Things platforms, empowering them to create suitable models for safety-critical, resource-constrained platforms in their respective domains."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.05864.pdf",
+    "title": "Verifiable and Compositional Reinforcement Learning Systems",
+    "published_date": "2021-06-07",
+    "abstract": "We propose a framework for verifiable and compositional reinforcement learning (RL) in which a collection of RL subsystems, each of which learns to accomplish a separate subtask, are composed to achieve an overall task. The framework consists of a high-level model, represented as a parametric Markov decision process (pMDP) which is used to plan and to analyze compositions of subsystems, and of the collection of low-level subsystems themselves. By defining interfaces between the subsystems, the framework enables automatic decompositions of task specifications, e.g., reach a target set of states with a probability of at least 0.95, into individual subtask specifications, i.e. achieve the subsystem's exit conditions with at least some minimum probability, given that its entry conditions are met. This in turn allows for the independent training and testing of the subsystems; if they each learn a policy satisfying the appropriate subtask specification, then their composition is guaranteed to satisfy the overall task specification. Conversely, if the subtask specifications cannot all be satisfied by the learned policies, we present a method, formulated as the problem of finding an optimal set of parameters in the pMDP, to automatically update the subtask specifications to account for the observed shortcomings. The result is an iterative procedure for defining subtask specifications, and for training the subsystems to meet them. As an additional benefit, this procedure allows for particularly challenging or important components of an overall task to be identified automatically, and focused on, during training. Experimental results demonstrate the presented framework's novel capabilities in both discrete and continuous RL settings. A collection of RL subsystems are trained, using proximal policy optimization algorithms, to navigate different portions of a labyrinth environment. A cross-labyrinth task specification is then decomposed into subtask specifications. Challenging portions of the labyrinth are automatically avoided if their corresponding subsystems cannot learn satisfactory policies within allowed training budgets. Unnecessary subsystems are not trained at all. The result is a compositional RL system that efficiently learns to satisfy task specifications.",
+    "citation_count": 15
+  }
+]

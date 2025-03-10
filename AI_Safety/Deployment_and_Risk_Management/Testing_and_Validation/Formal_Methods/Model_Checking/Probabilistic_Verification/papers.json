@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2301.06136v1",
+    "title": "Quantitative Verification With Neural Networks For Probabilistic Programs and Stochastic Systems",
+    "published_date": "2023-01-15",
+    "abstract": "We present a data-driven approach to the quantitative verification of probabilistic programs and stochastic dynamical models. Our approach leverages neural networks to compute tight and sound bounds for the probability that a stochastic process hits a target condition within finite time. This problem subsumes a variety of quantitative verification questions, from the reachability and safety analysis of discrete-time stochastic dynamical models, to the study of assertion-violation and termination analysis of probabilistic programs. We rely on neural networks to represent supermartingale certificates that yield such probability bounds, which we compute using a counterexample-guided inductive synthesis loop: we train the neural certificate while tightening the probability bound over samples of the state space using stochastic optimisation, and then we formally check the certificate's validity over every possible state using satisfiability modulo theories; if we receive a counterexample, we add it to our set of samples and repeat the loop until validity is confirmed. We demonstrate on a diverse set of benchmarks that, thanks to the expressive power of neural networks, our method yields smaller or comparable probability bounds than existing symbolic methods in all cases, and that our approach succeeds on models that are entirely beyond the reach of such alternative techniques.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.06082.pdf",
+    "title": "Lower Bounds for Possibly Divergent Probabilistic Programs",
+    "published_date": "2023-02-13",
+    "abstract": "We present a new proof rule for verifying lower bounds on quantities of probabilistic programs. Our proof rule is not confined to almost-surely terminating programs -- as is the case for existing rules -- and can be used to establish non-trivial lower bounds on, e.g., termination probabilities and expected values, for possibly divergent probabilistic loops, e.g., the well-known three-dimensional random walk on a lattice.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://arxiv.org/abs/2102.09479",
+    "title": "Make Sure You're Unsure: A Framework for Verifying Probabilistic Specifications",
+    "published_date": "2021-02-18",
+    "abstract": "Most real world applications require dealing with stochasticity like sensor noise or predictive uncertainty, where formal specifications of desired behavior are inherently probabilistic. Despite the promise of formal verification in ensuring the reliability of neural networks, progress in the direction of probabilistic specifications has been limited. In this direction, we first introduce a general formulation of probabilistic specifications for neural networks, which captures both probabilistic networks (e.g., Bayesian neural networks, MC-Dropout networks) and uncertain inputs (distributions over inputs arising from sensor noise or other perturbations). We then propose a general technique to verify such specifications by generalizing the notion of Lagrangian duality, replacing standard Lagrangian multipliers with\"functional multipliers\"that can be arbitrary functions of the activations at a given layer. We show that an optimal choice of functional multipliers leads to exact verification (i.e., sound and complete verification), and for specific forms of multipliers, we develop tractable practical verification algorithms. We empirically validate our algorithms by applying them to Bayesian Neural Networks (BNNs) and MC Dropout Networks, and certifying properties such as adversarial robustness and robust detection of out-of-distribution (OOD) data. On these tasks we are able to provide significantly stronger guarantees when compared to prior work -- for instance, for a VGG-64 MC-Dropout CNN trained on CIFAR-10, we improve the certified AUC (a verified lower bound on the true AUC) for robust OOD detection (on CIFAR-100) from $0\\% \\rightarrow 29\\%$. Similarly, for a BNN trained on MNIST, we improve on the robust accuracy from $60.2\\% \\rightarrow 74.6\\%$. Further, on a novel specification -- distributionally robust OOD detection -- we improve the certified AUC from $5\\% \\rightarrow 23\\%$.",
+    "citation_count": 13
+  },
+  {
+    "url": "https://arxiv.org/pdf/2001.04289v1.pdf",
+    "title": "Symblicit exploration and elimination for probabilistic model checking",
+    "published_date": "2020-01-08",
+    "abstract": "Binary decision diagrams can compactly represent vast sets of states, mitigating the state space explosion problem in model checking. Probabilistic systems, however, require multi-terminal diagrams storing rational numbers. They are inefficient for models with many distinct probabilities and for iterative numeric algorithms like value iteration. In this paper, we present a new \"symblicit\" approach to checking Markov chains and related probabilistic models: We first generate a decision diagram that symbolically collects all reachable states and their predecessors. We then concretise states one-by-one into an explicit partial state space representation. Whenever all predecessors of a state have been concretised, we eliminate it from the explicit state space in a way that preserves all relevant probabilities and rewards. We thus keep few explicit states in memory at any time. Experiments show that very large models can be model-checked in this way with very low memory consumption.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/1904.01117v3.pdf",
+    "title": "Aiming low is harder: induction for lower bounds in probabilistic program verification",
+    "published_date": "2019-04-01",
+    "abstract": "We present a new inductive rule for verifying lower bounds on expected values of random variables after execution of probabilistic loops as well as on their expected runtimes. Our rule is simple in the sense that loop body semantics need to be applied only finitely often in order to verify that the candidates are indeed lower bounds. In particular, it is not necessary to find the limit of a sequence as in many previous rules.",
+    "citation_count": 32
+  },
+  {
+    "url": "https://arxiv.org/pdf/1812.02795v1.pdf",
+    "title": "Verification of deep probabilistic models",
+    "published_date": "2018-12-06",
+    "abstract": "Probabilistic models are a critical part of the modern deep learning toolbox - ranging from generative models (VAEs, GANs), sequence to sequence models used in machine translation and speech processing to models over functional spaces (conditional neural processes, neural processes). Given the size and complexity of these models, safely deploying them in applications requires the development of tools to analyze their behavior rigorously and provide some guarantees that these models are consistent with a list of desirable properties or specifications. For example, a machine translation model should produce semantically equivalent outputs for innocuous changes in the input to the model. A functional regression model that is learning a distribution over monotonic functions should predict a larger value at a larger input. Verification of these properties requires a new framework that goes beyond notions of verification studied in deterministic feedforward networks, since requiring worst-case guarantees in probabilistic models is likely to produce conservative or vacuous results. We propose a novel formulation of verification for deep probabilistic models that take in conditioning inputs and sample latent variables in the course of producing an output: We require that the output of the model satisfies a linear constraint with high probability over the sampling of latent variables and for every choice of conditioning input to the model. We show that rigorous lower bounds on the probability that the constraint is satisfied can be obtained efficiently. Experiments with neural processes show that several properties of interest while modeling functional spaces can be modeled within this framework (monotonicity, convexity) and verified efficiently using our algorithms",
+    "citation_count": 23
+  }
+]

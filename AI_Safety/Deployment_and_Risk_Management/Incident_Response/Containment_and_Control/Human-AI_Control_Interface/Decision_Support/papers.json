@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/ZD5meZwgfFJD2wDB5/a-framework-of-prediction-technologies-1",
+    "author": "isaduan",
+    "title": "A Framework of Prediction Technologies",
+    "published_date": "2021-10-03"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kfY2JegjuzLewWyZd/oracles-informers-and-controllers",
+    "author": "ozziegooen",
+    "title": "Oracles, Informers, and Controllers",
+    "published_date": "2021-05-25"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization",
+    "published_date": "2021-06-04"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/QYJo82ixxjFFfN9za/summary-of-ai-research-considerations-for-human-existential",
+    "author": "peterbarnett",
+    "title": "Summary of AI Research Considerations for Human Existential Safety (ARCHES)",
+    "published_date": "2020-12-09"
+  },
+  {
+    "title": "Probabilistic Human Intent Recognition for Shared Autonomy in Assistive Robotics",
+    "abstract": "Effective human-robot collaboration in shared autonomy requires reasoning about the intentions of the human partner. To provide meaningful assistance, the autonomy has to first correctly predict, or infer, the intended goal of the human collaborator. In this work, we present a mathematical formulation for intent inference during assistive teleoperation under shared autonomy. Our recursive Bayesian filtering approach models and fuses multiple non-verbal observations to probabilistically reason about the intended goal of the user without explicit communication. In addition to contextual observations, we model and incorporate the human agent's behavior as goal-directed actions with adjustable rationality to inform intent recognition. Furthermore, we introduce a user-customized optimization of this adjustable rationality to achieve user personalization. We validate our approach with a human subjects study that evaluates intent inference performance under a variety of goal scenarios and tasks. Importantly, the studies are performed using multiple control interfaces that are typically available to users in the assistive domain, which differ in the continuity and dimensionality of the issued control signals. The implications of the control interface limitations on intent inference are analyzed. The study results show that our approach in many scenarios outperforms existing solutions for intent inference in assistive teleoperation and otherwise performs comparably. Our findings demonstrate the benefit of probabilistic modeling and the incorporation of human agent behavior as goal-directed actions where the adjustable rationality model is user customized. Results further show that the underlying intent inference approach directly affects shared autonomy performance, as do control interface limitations.",
+    "published_date": "2019-12-01",
+    "citation_count": 93,
+    "url": "https://dl.acm.org/doi/10.1145/3359614"
+  },
+  {
+    "title": "Human-autonomy teaming interface design considerations for multi-unmanned vehicle control",
+    "abstract": "ABSTRACT Future applications are envisioned in which a single human operator manages multiple heterogeneous unmanned vehicles (UVs) by working together with an autonomy teammate that consists of several intelligent decision-aiding agents/services. This article describes recent advancements in developing a new interface paradigm that will support human-autonomy teaming for air, ground, and surface (sea craft) UVs in defence of a military base. Several concise and integrated candidate control station interfaces are described by which the operator determines the role of autonomy in UV management using an adaptable automation control scheme. An extended play calling based control approach is used to support human-autonomy communication and teaming in managing how UV assets respond to potential threats (e.g. asset allocation, routing, and execution details). The design process for the interfaces is also described including: analysis of a base defence scenario used to guide this effort, consideration of ecological interface design constructs, and generation of UV and task-related pictorial symbology.",
+    "published_date": "2018-02-23",
+    "citation_count": 43,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/1463922X.2017.1315751"
+  }
+]

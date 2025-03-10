@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2412.15445",
+    "title": "Cross-System Software Log-based Anomaly Detection Using Meta-Learning",
+    "published_date": "2024-12-19",
+    "abstract": "Modern software systems produce vast amounts of logs, serving as an essential resource for anomaly detection. Artificial Intelligence for IT Operations (AIOps) tools have been developed to automate the process of log-based anomaly detection for software systems. Three practical challenges are widely recognized in this field: high data labeling costs, evolving logs in dynamic systems, and adaptability across different systems. In this paper, we propose CroSysLog, an AIOps tool for log-event level anomaly detection, specifically designed in response to these challenges. Following prior approaches, CroSysLog uses a neural representation approach to gain a nuanced understanding of logs and generate representations for individual log events accordingly. CroSysLog can be trained on source systems with sufficient labeled logs from open datasets to achieve robustness, and then efficiently adapt to target systems with a few labeled log events for effective anomaly detection. We evaluate CroSysLog using open datasets of four large-scale distributed supercomputing systems: BGL, Thunderbird, Liberty, and Spirit. We used random log splits, maintaining the chronological order of consecutive log events, from these systems to train and evaluate CroSysLog. These splits were widely distributed across a one/two-year span of each system's log collection duration, thereby capturing the evolving nature of the logs in each system. Our results show that, after training CroSysLog on Liberty and BGL as source systems, CroSysLog can efficiently adapt to target systems Thunderbird and Spirit using a few labeled log events from each target system, effectively performing anomaly detection for these target systems. The results demonstrate that CroSysLog is a practical, scalable, and adaptable tool for log-event level anomaly detection in operational and maintenance contexts of software systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.12364",
+    "title": "LogBabylon: A Unified Framework for Cross-Log File Integration and Analysis",
+    "published_date": "2024-12-16",
+    "abstract": "Logs are critical resources that record events, activities, or messages produced by software applications, operating systems, servers, and network devices. However, consolidating the heterogeneous logs and cross-referencing them is challenging and complicated. Manually analyzing the log data is time-consuming and prone to errors. LogBabylon is a centralized log data consolidating solution that leverages Large Language Models (LLMs) integrated with Retrieval-Augmented Generation (RAG) technology. LogBabylon interprets the log data in a human-readable way and adds insight analysis of the system performance and anomaly alerts. It provides a paramount view of the system landscape, enabling proactive management and rapid incident response. LogBabylon consolidates diverse log sources and enhances the extracted information's accuracy and relevancy. This facilitates a deeper understanding of log data, supporting more effective decision-making and operational efficiency. Furthermore, LogBabylon streamlines the log analysis process, significantly reducing the time and effort required to interpret complex datasets. Its capabilities extend to generating context-aware insights, offering an invaluable tool for continuous monitoring, performance optimization, and security assurance in dynamic computing environments."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/knuths-up-arrow-notation",
+    "title": "Knuth's Up-Arrow Notation - LessWrong",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.07846.pdf",
+    "title": "ClusterLog: Clustering Logs for Effective Log-based Anomaly Detection",
+    "published_date": "2022-11-01",
+    "abstract": "With the increasing prevalence of scalable file systems in the context of High Performance Computing (HPC), the importance of accurate anomaly detection on runtime logs is increasing. But as it currently stands, many state-of-the-art methods for log-based anomaly detection, such as DeepLog, have encountered numerous challenges when applied to logs from many parallel file systems (PF-Ses), often due to their irregularity and ambiguity in time-based log sequences. To circumvent these problems, this study proposes ClusterLog, a log pre-processing method that clusters the temporal sequence of log keys based on their semantic similarity. By grouping semantically and sentimentally similar logs, this approach aims to represent log sequences with the smallest amount of unique log keys, intending to improve the ability for a downstream sequence-based model to effectively learn the log patterns. The preliminary results of ClusterLog indicate not only its effectiveness in reducing the granularity of log sequences without the loss of important sequence information but also its generalizability to different file systems' logs.",
+    "citation_count": 6
+  },
+  {
+    "url": "https://arxiv.org/abs/2207.03206",
+    "title": "Leveraging Log Instructions in Log-based Anomaly Detection",
+    "published_date": "2022-07-01",
+    "abstract": "Artificial Intelligence for IT Operations (AIOps) describes the process of maintaining and operating large IT systems using diverse AI-enabled methods and tools for, e.g., anomaly detection and root cause analysis, to support the remediation, optimization, and automatic initiation of self-stabilizing IT activities. The core step of any AIOps workflow is anomaly detection, typically performed on high-volume heterogeneous data such as log messages (logs), metrics (e.g., CPU utilization), and distributed traces. In this paper, we propose a method for reliable and practical anomaly detection from system logs. It overcomes the common disadvantage of related works, i.e., the need for a large amount of manually labeled training data, by building an anomaly detection model with log instructions from the source code of 1000+ GitHub projects. The instructions from diverse systems contain rich and heterogenous information about many different normal and abnormal IT events and serve as a foundation for anomaly detection. The proposed method, named ADLILog, combines the log instructions and the data from the system of interest (target system) to learn a deep neural network model through a two-phase learning procedure. The experimental results show that ADLILog outperforms the related approaches by up to 60% on the F1 score while satisfying core non-functional requirements for industrial deployments such as unsupervised design, efficient model updates, and small model sizes.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/abs/2202.07504",
+    "title": "vue4logs - Automatic Structuring of Heterogeneous Computer System Logs",
+    "published_date": "2022-02-14",
+    "abstract": "Computer system log data is commonly used in system monitoring, performance characteristic investigation, workflow modeling and anomaly detection. Log data is inherently unstructured or semi-structured, which makes it harder to understand the event flow or other important information of a system by reading raw logs. The process of structuring log files first identifies the log message groups based on the system events that triggered them, and extracts an event template to represent the log messages of each event. This paper introduces a novel method to extract event templates from raw system log files, by using the vector space model commonly used in the field of Information Retrieval to vectorize log data and group log messages into event templates based on their vector similarity. Template extraction process is further enhanced with the use of character and length based filters. When evaluated on publicly available real-world log data benchmarks, this proposed method outperforms all the available state-of-the-art systems in terms of accuracy and robustness.",
+    "citation_count": 2
+  }
+]

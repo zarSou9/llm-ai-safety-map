@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2308.08168",
+    "title": "Emergent Software Service Platform and its Application in a Smart Mobility Setting",
+    "published_date": "2023-08-16",
+    "abstract": "The development dynamics of digital innovations for industry, business, and society are producing complex system conglomerates that can no longer be designed centrally and hierarchically in classic development processes. Instead, systems are evolving in DevOps processes in which heterogeneous actors act together on an open platform. Influencing and controlling such dynamically and autonomously changing system landscapes is currently a major challenge and a fundamental interest of service users and providers, as well as operators of the platform infrastructures. In this paper, we propose an architecture for such an emergent software service platform. A software platform that implements this architecture with the underlying engineering methodology is demonstrated by a smart parking lot scenario.",
+    "citation_count": 1,
+    "summary": "This paper proposes an architecture for an emergent software service platform, enabling decentralized development and management of complex systems through DevOps processes, as demonstrated by a smart parking lot application."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jyAerr8txxhiKnxwA/5-reasons-why-governments-militaries-want-ai-for-information-1",
+    "author": "trevor",
+    "title": "5 Reasons Why Governments/Militaries Already Want AI for Information Warfare",
+    "published_date": "2023-10-30",
+    "summary": "Modern militaries increasingly prioritize information warfare, leveraging advanced psychological research to influence high-intelligence elites rather than the general population, a strategy amplified by exponentially growing technological capabilities. This approach reflects a shift in geopolitical power dynamics, where soft power and the manipulation of narratives are crucial for achieving strategic objectives."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03",
+    "summary": "The Gaussian distribution is an inaccurate approximation for calculating probabilities from binary count data, especially with small sample sizes or probabilities near 0 or 1; the Beta distribution provides a more accurate and readily available alternative in statistical software."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.00819v1.pdf",
+    "title": "Towards Rigorous Selection and Configuration of Cloud Services: Research Methodology",
+    "published_date": "2021-04-02",
+    "abstract": "Cloud computing has recently emerged as a major trend in distributed computing. We proposed a platform for selecting and configuring automatically an appropriate cloud environment that meets a set of consumer and provider requirements. It can easily adapt its behavior, either at design-time or runtime, to the change of the environment in matters of location, time, activity, interaction abilities, and communication restrictions. The platform based on the principles of dynamic software product lines (SPL), Agent-oriented software engineering, and the MAPE-k reference model. We based on the Design Science Research Methodology to conduct this work. In this article, we present the steps of our research following this methodology's guidelines.",
+    "summary": "This paper details a Design Science Research approach to creating a platform for automated cloud service selection and configuration, adapting dynamically to changing environmental conditions using dynamic software product lines, agent-oriented engineering, and the MAPE-k model. The research methodology employed is the focus of the presented work."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.05584v1.pdf",
+    "title": "PDMA: Probabilistic service migration approach for delay‐aware and mobility‐aware mobile edge computing",
+    "published_date": "2021-06-10",
+    "abstract": "As a key technology in the 5G era, mobile edge computing (MEC) has developed rapidly in recent years. MEC aims to reduce the service delay of mobile users, while alleviating the processing pressure on the core network. MEC can be regarded as an extension of cloud computing on the user side, which can deploy edge servers and bring computing resources closer to mobile users, and provide more efficient interactions. However, due to the user's dynamic mobility, the distance between the user and the edge server will change dynamically, which may cause fluctuations in Quality of Service. Therefore, when a mobile user moves in the MEC environment, certain approaches are needed to schedule services deployed on the edge server to ensure the user experience. In this article, we model service scheduling in MEC scenarios and propose a delay‐aware and mobility‐aware service management approach based on concise probabilistic methods. This approach has low computational complexity and can effectively reduce service delay and migration costs. Furthermore, we conduct experiments by utilizing multiple realistic datasets and use iFogSim to evaluate the performance of the algorithm. The results show that our proposed approach can optimize the performance on service delay, with 8%–20% improvement and reduce the migration cost by more than 75% compared with baselines during the rush hours.",
+    "citation_count": 24,
+    "summary": "PDMA, a novel probabilistic service migration approach for mobile edge computing, minimizes service delay and migration costs by dynamically scheduling services based on user mobility and predicted network conditions, achieving significant performance improvements over existing methods. Experimental results using realistic datasets demonstrate substantial reductions in service delay and migration costs."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.10697.pdf",
+    "title": "Towards a Staging Environment for the Internet of Things",
+    "published_date": "2021-01-26",
+    "abstract": "Internet of Things (IoT) applications promise to make many aspects of our lives more efficient and adaptive through the use of distributed sensing and computing nodes. A central aspect of such applications is their complex communication behavior that is heavily influenced by the physical environment of the system. To continuously improve IoT applications, a staging environment is needed that can provide operating conditions representative of deployments in the actual production environments – similar to what is common practice in cloud application development today. Towards such a staging environment, we present Marvis, a framework that orchestrates hybrid testbeds, co-simulated domain environments, and a central network simulation for testing distributed IoT applications. Our preliminary results include an open source prototype and a demonstration of a Vehicle-to-everything (V2X) communication scenario.",
+    "citation_count": 15,
+    "summary": "Marvis is a framework for creating a staging environment for Internet of Things (IoT) applications, using hybrid testbeds, co-simulated domains, and network simulation to mimic real-world deployment conditions and improve application development. This allows for more robust testing of complex IoT communication behaviors before production deployment."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.05537v1.pdf",
+    "title": "How to Integrate with Real Cars - Minimizing Lead Time at Volkswagen",
+    "published_date": "2021-03-09",
+    "abstract": "The most successful tech companies of the world release new software versions to production multiple times a day. Thereby, they are able to quickly fix emerging bugs and rapidly deliver new features to their customers. This leads to short development cycles, minimal lead times and a high customer-centricity. Short development cycles are easy to achieve if you start a software project on a green field. Nevertheless, this does not apply to brown field environments which are usually found in big corporates such as traditional car manufacturers. For instance, if you want to integrate with real cars you have to interface legacy systems with development cycles of up to several months. We present a solution, which worked for one of the world's largest car manufacturer, leveraging in-house core development teams, dynamic stages and feature-toggles to overcome a brown field environment, allow for short development cycles and minimize the lead time.",
+    "summary": "Volkswagen minimized lead time for integrating new software into real cars by implementing a solution using in-house teams, dynamic staging, and feature toggles to overcome challenges inherent in a legacy system environment. This allowed for shorter development cycles despite the complexities of a large, established organization."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.09571.pdf",
+    "title": "Towards a Theory on Architecting for Continuous Deployment",
+    "published_date": "2021-08-21",
+    "abstract": "Context: As the adoption of continuous delivery practices increases in software organizations, different scenarios struggle to make it scales for their products in long-term evolution. This study looks at the concrete software architecture as a relevant factor for successfully achieving continuous delivery goals. Objective: This study aims to understand how the design of software architectures impacts the continuous deployment of their software product. Method: We conducted a systematic literature review to identify proper evidence regarding the research objective. We analyzed the selected sources adopting a synthesis and analysis approach based on Grounded Theory. Results: We selected 14 primary sources. Through our analysis process, we developed a theory that explains the phenomenon of Architecting for Continuous Deployment. The theory describes three other phenomena that support Architecting for Continuous Deployment: Supporting Operations, Continuous Evolution, and Improving Deployability. Furthermore, the theory comprises the following elements: contexts, actions and interactions, quality attributes, principles, and effects. We instantiated these elements and identified their interrelationships. The theory is supported by providing bi-directional traceability from the selected sources to the elements and vice-versa. Conclusions: Developing adequate architecture plays a crucial role in enabling continuous delivery. Supporting operations becomes vital to increase the deployability and monitorability of software architecture. These two outcomes require that developers accept responsibility for maintaining the operations. The continuous evolution of the architecture is essential, but it must consider balanced management of technical debt. Finally, improving deployability requires attention to the test strategy and how it affects downtime to enable efficient pipelines.",
+    "summary": "This study investigates the impact of software architecture on continuous deployment success, developing a theory based on a systematic literature review that highlights supporting operations, continuous evolution, and improved deployability as key architectural factors enabling continuous delivery. The resulting theory identifies elements such as contexts, actions, quality attributes, principles, and effects, and their interrelationships to achieve successful continuous deployment."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.00390.pdf",
+    "title": "Facing the Giant: a Grounded Theory Study of Decision-Making in Microservices Migrations",
+    "published_date": "2021-04-01",
+    "abstract": "Background: Microservices migrations are challenging and expensive projects with many decisions that need to be made in a multitude of dimensions. Existing research tends to focus on technical issues and decisions (e.g., how to split services). Equally important organizational or business issues and their relations with technical aspects often remain out of scope or on a high level of abstraction. Aims: In this study, we aim to holistically chart the decision-making that happens on all dimensions of a migration project towards microservices (including, but not limited to, the technical dimension). Method: We investigate 16 different migration cases in a grounded theory interview study, with 19 participants that recently migrated towards microservices. This study strongly focuses on the human aspects of a migration, through stakeholders and their decisions. Results: We identify 3 decision-making processes consisting of 22 decision-points and their alternative options. The decision-points are related to creating stakeholder engagement and assessing feasibility, technical implementation, and organizational restructuring. Conclusions: Our study provides an initial theory of decisionmaking in migrations to microservices. It also outfits practitioners with a roadmap of which decisions they should be prepared to make and at which point in the migration.",
+    "citation_count": 17,
+    "summary": "This grounded theory study examines decision-making processes in microservices migrations across technical, organizational, and business dimensions, identifying three key processes encompassing 22 decision points to guide practitioners through complex migration projects. The research, based on interviews with 19 participants from 16 migration cases, emphasizes the human aspects of these transitions."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BY5f7iEzHtEDJLXS7/prediction-what-war-between-the-usa-and-china-would-look",
+    "author": "lsusr",
+    "title": "[Prediction] What war between the USA and China would look like in 2050",
+    "published_date": "2021-05-26",
+    "summary": "The article analyzes a potential US-China conflict, assuming no AI or nuclear weapons. It argues that while the US currently holds military dominance, China's economic growth and geographic focus could lead to a future where US naval power is less decisive in a conflict, particularly regarding Taiwan."
+  }
+]

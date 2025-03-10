@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.10547",
+    "title": "AI Safety Frameworks Should Include Procedures for Model Access Decisions",
+    "published_date": "2024-11-15",
+    "abstract": "The downstream use cases, benefits, and risks of AI models depend significantly on what sort of access is provided to the model, and who it is provided to. Though existing safety frameworks and AI developer usage policies recognise that the risk posed by a given model depends on the level of access provided to a given audience, the procedures they use to make decisions about model access are ad hoc, opaque, and lacking in empirical substantiation. This paper consequently proposes that frontier AI companies build on existing safety frameworks by outlining transparent procedures for making decisions about model access, which we term Responsible Access Policies (RAPs). We recommend that, at a minimum, RAPs should include the following: i) processes for empirically evaluating model capabilities given different styles of access, ii) processes for assessing the risk profiles of different categories of user, and iii) clear and robust pre-commitments regarding when to grant or revoke specific types of access for particular groups under specified conditions.",
+    "summary": "Current AI safety frameworks inadequately address model access control, leading to inconsistent and potentially risky deployment; this paper proposes the creation of transparent \"Responsible Access Policies\" (RAPs) with empirically-grounded procedures for evaluating model capabilities, user risk profiles, and access granting/revoking."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.19351",
+    "title": "AccessShare: Co-designing Data Access and Sharing with Blind People",
+    "published_date": "2024-07-27",
+    "abstract": "Blind people are often called to contribute image data to datasets for AI innovation with the hope for future accessibility and inclusion. Yet, the visual inspection of the contributed images is inaccessible. To this day, we lack mechanisms for data inspection and control that are accessible to the blind community. To address this gap, we engage 10 blind participants in a scenario where they wear smartglasses and collect image data using an AI-infused application in their homes. We also engineer a design probe, a novel data access interface called AccessShare, and conduct a co-design study to discuss participants' needs, preferences, and ideas on consent, data inspection, and control. Our findings reveal the impact of interactive informed consent and the complementary role of data inspection systems such as AccessShare in facilitating communication between data stewards and blind data contributors. We discuss how key insights can guide future informed consent and data control to promote inclusive and responsible data practices in AI.",
+    "summary": "AccessShare is a co-designed data access interface enabling blind individuals to inspect and control their image data contributed to AI projects, addressing the inaccessibility of visual data verification. The study highlights the importance of interactive informed consent and accessible data inspection tools for promoting responsible and inclusive AI development."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.01121",
+    "title": "Being Accountable is Smart: Navigating the Technical and Regulatory Landscape of AI-based Services for Power Grid",
+    "published_date": "2024-08-02",
+    "abstract": "The emergence of artificial intelligence and digitization of the power grid introduced numerous effective application scenarios for AI-based services for the smart grid. Nevertheless, adopting AI in critical infrastructures presents challenges due to unclear regulations and lacking risk quantification techniques. Regulated and accountable approaches for integrating AI-based services into the smart grid could accelerate the adoption of innovative methods in daily practices and address society's general safety concerns. This paper contributes to this objective by defining accountability and highlighting its importance for AI-based services in the energy sector. It underlines the current shortcomings of the AI Act and proposes an approach to address these issues in a potential delegated act. The proposed technical approach for developing and operating accountable AI-based smart grid services allows for assessing different service life cycle phases and identifying related accountability risks.",
+    "summary": "This paper argues that accountability is crucial for integrating AI into power grids, addressing regulatory gaps and safety concerns. It proposes a technical approach for assessing and mitigating accountability risks throughout the lifecycle of AI-based smart grid services, suggesting improvements to existing AI regulations."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three AI governance strategies—Cooperative Development, Strategic Advantage, and Global Moratorium—evaluating their effectiveness based on the difficulty of aligning AI and development timelines. The optimal strategy shifts depending on these factors, with Cooperative Development favored for longer timelines and easier alignment, Strategic Advantage for shorter timelines and moderate alignment difficulty, and Global Moratorium reserved for scenarios with very hard alignment or extremely short timelines."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/LjgcRbptarrRfJWtR/a-breakdown-of-ai-capability-levels-focused-on-ai-r-and-d",
+    "author": "ryan_greenblatt",
+    "title": "A breakdown of AI capability levels focused on AI R&D labor acceleration",
+    "published_date": "2024-12-22",
+    "summary": "The author proposes measuring AI capability by its ability to accelerate AI R&D labor, defining \"3x AI\" as a system increasing R&D efficiency as much as tripling human researcher speed. This metric is favored over others as it focuses on AI's inherent power, minimizing dependence on external factors like compute availability."
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.15065",
+    "title": "Synergizing Human-AI Agency: A Guide of 23 Heuristics for Service Co-Creation with LLM-Based Agents",
+    "published_date": "2023-10-23",
+    "abstract": "This empirical study serves as a primer for interested service providers to determine if and how Large Language Models (LLMs) technology will be integrated for their practitioners and the broader community. We investigate the mutual learning journey of non-AI experts and AI through CoAGent, a service co-creation tool with LLM-based agents. Engaging in a three-stage participatory design processes, we work with with 23 domain experts from public libraries across the U.S., uncovering their fundamental challenges of integrating AI into human workflows. Our findings provide 23 actionable\"heuristics for service co-creation with AI\", highlighting the nuanced shared responsibilities between humans and AI. We further exemplar 9 foundational agency aspects for AI, emphasizing essentials like ownership, fair treatment, and freedom of expression. Our innovative approach enriches the participatory design model by incorporating AI as crucial stakeholders and utilizing AI-AI interaction to identify blind spots. Collectively, these insights pave the way for synergistic and ethical human-AI co-creation in service contexts, preparing for workforce ecosystems where AI coexists.",
+    "citation_count": 3,
+    "summary": "This study examines the integration of Large Language Models (LLMs) into human workflows, developing 23 heuristics for synergistic human-AI service co-creation based on participatory design with library experts. The research highlights the shared responsibilities and ethical considerations involved in this collaboration, emphasizing AI agency and avoiding blind spots."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.04844",
+    "title": "The Gradient of Generative AI Release: Methods and Considerations",
+    "published_date": "2023-02-05",
+    "abstract": "As increasingly powerful generative AI systems are developed, the release method greatly varies. We propose a framework to assess six levels of access to generative AI systems: fully closed; gradual or staged access; hosted access; cloud-based or API access; downloadable access; and fully open. Each level, from fully closed to fully open, can be viewed as an option along a gradient. We outline key considerations across this gradient: release methods come with tradeoffs, especially around the tension between concentrating power and mitigating risks. Diverse and multidisciplinary perspectives are needed to examine and mitigate risk in generative AI systems from conception to deployment. We show trends in generative system release over time, noting closedness among large companies for powerful systems and openness among organizations founded on principles of openness. We also enumerate safety controls and guardrails for generative systems and necessary investments to improve future releases.",
+    "citation_count": 91,
+    "summary": "The paper proposes a six-level gradient for assessing generative AI release methods, ranging from fully closed to fully open access, highlighting the trade-offs between power concentration and risk mitigation inherent in each. It emphasizes the need for diverse perspectives and safety controls throughout the AI lifecycle to inform responsible release strategies."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "Biden's October 30, 2023 Executive Order on AI outlines numerous deadlines for various federal agencies to submit reports, conduct assessments, and develop strategies related to AI's responsible use and workforce development, with deadlines ranging from 30 to 90 days after the order's publication. The order also initiates several long-term projects, such as the creation of an AI talent task force and a national AI research resource."
+  }
+]

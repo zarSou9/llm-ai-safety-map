@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2305.07721.pdf",
+    "title": "Designing optimal behavioral experiments using machine learning",
+    "published_date": "2023-05-12",
+    "abstract": "Computational models are powerful tools for understanding human cognition and behavior. They let us express our theories clearly and precisely and offer predictions that can be subtle and often counter-intuitive. However, this same richness and ability to surprise means our scientific intuitions and traditional tools are ill-suited to designing experiments to test and compare these models. To avoid these pitfalls and realize the full potential of computational modeling, we require tools to design experiments that provide clear answers about what models explain human behavior and the auxiliary assumptions those models must make. Bayesian optimal experimental design (BOED) formalizes the search for optimal experimental designs by identifying experiments that are expected to yield informative data. In this work, we provide a tutorial on leveraging recent advances in BOED and machine learning to find optimal experiments for any kind of model that we can simulate data from, and show how by-products of this procedure allow for quick and straightforward evaluation of models and their parameters against real experimental data. As a case study, we consider theories of how people balance exploration and exploitation in multi-armed bandit decision-making tasks. We validate the presented approach using simulations and a real-world experiment. As compared to experimental designs commonly used in the literature, we show that our optimal designs more efficiently determine which of a set of models best account for individual human behavior, and more efficiently characterize behavior given a preferred model. At the same time, formalizing a scientific question such that it can be adequately addressed with BOED can be challenging and we discuss several potential caveats and pitfalls that practitioners should be aware of. We provide code to replicate all analyses as well as tutorial notebooks and pointers to adapt the methodology to different experimental settings.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2206.12492",
+    "title": "Guidelines for Artifacts to Support Industry-Relevant Research on Self-Adaptation",
+    "published_date": "2022-06-24",
+    "abstract": "Artifacts support evaluating new research results and help comparing them with the state of the art in a field of interest. Over the past years, several artifacts have been introduced to support research in the field of self-adaptive systems. While these artifacts have shown their value, it is not clear to what extent these artifacts support research on problems in self-adaptation that are relevant to industry. This paper provides a set of guidelines for artifacts that aim at supporting industry-relevant research on selfadaptation. The guidelines that are grounded on data obtained from a survey with practitioners were derived during working sessions at the 17th International Symposium on Software Engineering for Adaptive and Self-Managing Systems. Artifact providers can use the guidelines for aligning future artifacts with industry needs; they can also be used to evaluate the industrial relevance of existing artifacts. We also propose an artifact template.",
+    "citation_count": 5
+  },
+  {
+    "url": "https://arxiv.org/abs/2204.06251",
+    "title": "Experimental Standards for Deep Learning in Natural Language Processing Research",
+    "published_date": "2022-04-13",
+    "abstract": "The field of Deep Learning (DL) has undergone explosive growth during the last decade, with a substantial impact on Natural Language Processing (NLP) as well. Yet, compared to more established disciplines, a lack of common experimental standards remains an open challenge to the field at large. Starting from fundamental scientific principles, we distill ongoing discussions on experimental standards in NLP into a single, widely-applicable methodology. Following these best practices is crucial to strengthen experimental evidence, improve reproducibility and support scientific progress. These standards are further collected in a public repository to help them transparently adapt to future needs.",
+    "citation_count": 10
+  },
+  {
+    "title": "Assessing Human-AI Interaction Early through Factorial Surveys: A Study on the Guidelines for Human-AI Interaction",
+    "abstract": "This work contributes a research protocol for evaluating human-AI interaction in the context of specific AI products. The research protocol enables UX and HCI researchers to assess different human-AI interaction solutions and validate design decisions before investing in engineering. We present a detailed account of the research protocol and demonstrate its use by employing it to study an existing set of human-AI interaction guidelines. We used factorial surveys with a 2 × 2 mixed design to compare user perceptions when a guideline is applied versus violated, under conditions of optimal versus sub-optimal AI performance. The results provided both qualitative and quantitative insights into the UX impact of each guideline. These insights can support creators of user-facing AI systems in their nuanced prioritization and application of the guidelines.",
+    "published_date": "2022-04-14",
+    "citation_count": 24,
+    "url": "https://dl.acm.org/doi/10.1145/3511605"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.10430.pdf",
+    "title": "Test and Evaluation Framework for Multi-Agent Systems of Autonomous Intelligent Agents",
+    "published_date": "2021-01-25",
+    "abstract": "Test and evaluation is a necessary process for ensuring that engineered systems perform as intended under a variety of conditions, both expected and unexpected. In this work, we consider the unique challenges of developing a unifying test and evaluation framework for complex ensembles of cyber-physical systems with embedded artificial intelligence. We propose a framework that incorporates test and evaluation throughout not only the development life cycle, but continues into operation as the system learns and adapts in a noisy, changing, and contended environment. The framework accounts for the challenges of testing the integration of diverse systems at various hierarchical scales of composition while respecting that testing time and resources are limited. A generic use case is provided for illustrative purposes. Research directions emerging as a result of exploring the use case via the framework are suggested.",
+    "citation_count": 6
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.05391.pdf",
+    "title": "Statistical perspectives on reliability of artificial intelligence systems",
+    "published_date": "2021-11-09",
+    "abstract": "Abstract Artificial intelligence (AI) systems are increasingly popular in many applications. Nevertheless, AI technologies are still developing, and many issues need to be addressed. Among those, the reliability of AI systems needs to be demonstrated so that AI systems can be used with confidence by the general public. In this paper, we provide statistical perspectives on the reliability of AI systems, focusing on the time dimension. That is, the system can perform its designed functionality for the intended period of time. We introduce a so-called “SMART” statistical framework for AI reliability research, which includes five components: Structure of the system, Metrics of reliability, Analysis of failure causes, Reliability assessment, and Test planning. We review traditional methods in reliability data analysis and software reliability, and discuss how those existing methods can be transformed for reliability modeling and assessment of AI systems. Different from traditional reliability studies, the focus of AI reliability is on the software system to include the training data. Thus, we describe recent developments in modeling and analysis of AI reliability for software systems. The paper outlines statistical research challenges in this area, including out-of-distribution detection, the effect of the training set, adversarial attacks, model accuracy, and uncertainty quantification. We discuss how those topics can be related to AI reliability, with illustrative examples. The final element of SMART (test planning), is critical for the demonstration of AI reliability. Therefore we discuss data collection and testing planning, highlighting methods for improving system design in order to achieve higher AI reliability. The paper closes with some concluding remarks.",
+    "citation_count": 23
+  }
+]

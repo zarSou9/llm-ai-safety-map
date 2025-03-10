@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Labour and technology at the time of Covid-19. Can artificial intelligence mitigate the need for proximity?",
+    "abstract": "Social distancing has become worldwide the key public policy to be implemented during the COVID-19 epidemic and reducing the degree of proximity among workers turned out to be an important dimension. An emerging literature looks at the role of automation in supporting the work of humans but the potential of Artiﬁcial Intelligence (AI) to inﬂuence the need for physical proximity on the workplace has been left largely unexplored. By using a unique and innovative dataset that combines data on advancements of AI at the occupational level with information on the required proximity in the job-place and administrative employer-employee data on job ﬂows, our results show that AI and proximity stand in an inverse U-shape relationship at the sectoral level, with high advancements in AI that are negatively associated with proximity. We detect this pattern among sectors that were closed due to the lockdown measures as well as among sectors that remained open. We argue that, apart from the expected gains in productivity and competitiveness, preserving jobs and economic activities in a situation of high contagion may be the additional beneﬁts of a policy favouring digitization.",
+    "published_date": "2024-06-16",
+    "citation_count": 6,
+    "url": "https://www.econstor.eu/bitstream/10419/228711/1/GLO-DP-0765.pdf",
+    "summary": "This paper investigates the relationship between AI adoption and workplace proximity, finding an inverse U-shaped correlation where high AI advancements are negatively associated with the need for physical proximity, even across sectors impacted differently by COVID-19 lockdowns. This suggests AI can mitigate the need for proximity, offering benefits beyond productivity gains by preserving jobs during health crises."
+  },
+  {
+    "title": "Artificial Intelligence and Industrial Innovation: Evidence From Firm-Level Data",
+    "abstract": "Artificial Intelligence (AI) represents a set of techniques that enable new ways of innovation and allows firms to offer new features of products and services, to improve production, marketing and administration processes, and to introduce new business models. This paper analyses the extent to which the use of AI contributes to the innovation performance of firms. Based on firm-level data from the German part of the Community Innovation Survey (CIS) 2018, we examine the contribution of different AI methods and applications to product and process innovation outcomes. The representative nature of the survey allows extrapolating the findings to the macroeconomic level. The results show that 5.8% of firms in Germany were actively using AI in their business operations or products and services in 2019. The use of AI generated additional sales with world-first product innovations in these firms of about €16 billion, which corresponds to 18% of total sales of world-first innovations in the German business sector. Firms that developed AI by combining in-house and external resources obtained significantly higher innovation results. The same is true for firms that apply AI in a broad way and have already several years of experience in using AI.",
+    "published_date": "2024-06-14",
+    "citation_count": 7,
+    "url": "https://www.econstor.eu/bitstream/10419/233213/1/1755479085.pdf",
+    "summary": "Using German firm-level data from 2018, this study finds that AI adoption, particularly when combining internal and external resources and applied broadly, significantly boosts firm innovation and sales, contributing €16 billion to world-first product innovations. This represents a substantial portion (18%) of total sales from such innovations in the German business sector."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three AI governance strategies—Cooperative Development, Strategic Advantage, and Global Moratorium—evaluating their effectiveness based on the difficulty of aligning AI and the timeline for its development. The optimal strategy shifts depending on these factors, with Cooperative Development favored for longer timelines and easier alignment, Strategic Advantage for shorter timelines or moderate difficulty, and Global Moratorium potentially necessary only under extreme circumstances."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "The article examines the application of game theory to AI development within organizational structures, highlighting the limitations of a purely game-theoretic approach and emphasizing the enduring relevance of bureaucratic principles like hierarchical authority and job specialization, even with the integration of AI agents. Human-AI collaboration, leveraging comparative advantage, is presented as crucial for efficient problem-solving in complex systems."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi/p/HvqQm6o8KnwxbdmhZ",
+    "author": "lennart, Jsevillamol, Marius Hobbhahn, Tamay Besiroglu, anson.ho",
+    "title": "Estimating training compute of Deep Learning models",
+    "published_date": "2022-01-20",
+    "summary": "The article presents two methods for estimating the compute used to train deep learning models: directly counting operations within the model, and estimating from GPU time. Both methods yield similar estimates, with the GPU time method using an estimated utilization rate (30% for LLMs, 40% for others)."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization",
+    "published_date": "2021-06-04",
+    "summary": "This article explores applying game theory to AI development within organizations, highlighting its strengths in multi-agent systems but acknowledging limitations. It then analyzes how bureaucratic structures, with their hierarchical and specialized roles, can leverage AI's capabilities while retaining human comparative advantages in complex decision-making, emphasizing the continued necessity of organizational collaboration even with advanced AI."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/M3xpp7CZ2JaSafDJB/computer-governance-and-conclusions-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Governance and Conclusions - Transformative AI and Compute [3/4]",
+    "published_date": "2021-10-14",
+    "summary": "This article explores the governance of artificial intelligence (AI) through the control of computing resources. The author argues that the physical, energy, and supply chain constraints of high-performance computing offer unique opportunities for regulating access to powerful AI development, potentially improving AI safety."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/bJi3hd8E8qjBeHz9Z",
+    "author": "lennart",
+    "title": "Transformative AI and Compute - LessWrong",
+    "published_date": "2021-09-23",
+    "summary": "The article analyzes the crucial role of computational resources in the development of modern AI systems, examining their compute requirements, impact on timelines for transformative AI, and the need for effective compute governance."
+  }
+]

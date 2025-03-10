@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.16193",
+    "title": "The Critical Canvas-How to regain information autonomy in the AI era",
+    "published_date": "2024-11-25",
+    "abstract": "In the era of AI, recommendation algorithms and generative AI challenge information autonomy by creating echo chambers and blurring the line between authentic and fabricated content. The Critical Canvas addresses these challenges with a novel information exploration platform designed to restore balance between algorithmic efficiency and human agency. It employs three key mechanisms: multi-dimensional exploration across logical, temporal, and geographical perspectives; dynamic knowledge entry generation to capture complex relationships between concepts; and a phase space to evaluate the credibility of both the content and its sources. Particularly relevant to technical AI governance, where stakeholders must navigate intricate specifications and safety frameworks, the platform transforms overwhelming technical information into actionable insights. The Critical Canvas empowers users to regain autonomy over their information consumption through structured yet flexible exploration pathways, creative visualization, human-centric navigation, and transparent source evaluation. It fosters a comprehensive understanding of nuanced topics, enabling more informed decision-making and effective policy development in the age of AI.",
+    "summary": "The Critical Canvas is an information exploration platform designed to counter the limitations of AI-driven information systems by enabling users to navigate information across multiple dimensions, evaluate source credibility, and foster more informed decision-making. It prioritizes human agency in information consumption, contrasting with the often-limiting nature of algorithmic filtering."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.18945",
+    "title": "CogNarr Ecosystem: Facilitating Group Cognition at Scale",
+    "published_date": "2024-07-11",
+    "abstract": "Human groups of all sizes and kinds engage in deliberation, problem solving, strategizing, decision making, and more generally, cognition. Some groups are large, and that setting presents unique challenges. The small-group setting often involves face-to-face dialogue, but group cognition in the large-group setting typically requires some form of online interaction. New approaches are needed to facilitate the kind of rich communication and information processing that are required for effective, functional cognition in the online setting, especially for groups characterized by thousands to millions of participants who wish to share potentially complex, nuanced, and dynamic perspectives. This concept paper proposes the CogNarr (Cognitive Narrative) ecosystem, which is designed to facilitate functional cognition in the large-group setting. The paper's contribution is a novel vision as to how recent developments in cognitive science, artificial intelligence, natural language processing, and related fields might be scaled and applied to large-group cognition, using an approach that itself promotes further scientific advancement. A key perspective is to view a group as an organism that uses some form of cognitive architecture to sense the world, process information, remember, learn, predict, make decisions, and adapt to changing conditions. The CogNarr ecosystem is designed to serve as a component within that architecture.",
+    "summary": "The CogNarr ecosystem is a proposed framework leveraging advancements in AI and cognitive science to facilitate effective large-group online cognition, addressing challenges inherent in scaling human group problem-solving to thousands or millions of participants. It views the group as a cognitive organism and aims to be a key component of its information processing architecture."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2308.13841.pdf",
+    "title": "Cura: Curation at Social Media Scale",
+    "published_date": "2023-08-26",
+    "abstract": "How can online communities execute a focused vision for their space? Curation offers one approach, where community leaders manually select content to share with the community. Curation enables leaders to shape a space that matches their taste, norms, and values, but the practice is often intractable at social media scale: curators cannot realistically sift through hundreds or thousands of submissions daily. In this paper, we contribute algorithmic and interface foundations enabling curation at scale, and manifest these foundations in a system called Cura. Our approach draws on the observation that, while curators' attention is limited, other community members' upvotes are plentiful and informative of curators' likely opinions. We thus contribute a transformer-based curation model that predicts whether each curator will upvote a post based on previous community upvotes. Cura applies this curation model to create a feed of content that it predicts the curator would want in the community. Evaluations demonstrate that the curation model accurately estimates opinions of diverse curators, that changing curators for a community results in clearly recognizable shifts in the community's content, and that, consequently, curation can reduce anti-social behavior by half without extra moderation effort. By sampling different types of curators, Cura lowers the threshold to genres of curated social media ranging from editorial groups to stakeholder roundtables to democracies.",
+    "citation_count": 6,
+    "summary": "Cura is a system that uses a transformer-based model to predict which posts a curator will upvote, enabling efficient content curation at scale for online communities. This allows for effective community shaping and demonstrably reduces anti-social behavior."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2304.00132.pdf",
+    "title": "Understanding Journalists' Workflows in News Curation",
+    "published_date": "2023-03-31",
+    "abstract": "With the increasing dominance of internet as a source of news consumption, there has been a rise in the production and popularity of email newsletters compiled by individual journalists. However, there is little research on the processes of aggregation, and how these differ between expert journalists and trained machines. In this paper, we interviewed journalists who curate newsletters from around the world. Through an in-depth understanding of journalists' workflows, our findings lay out the role of their prior experience in the value they bring into the curation process, their own use of algorithms in finding stories for their newsletter, and their internalization of their readers' interests and the context they are curating for. While identifying the role of human expertise, we highlight the importance of hybrid curation and provide design insights on how technology can support the work of these experts.",
+    "citation_count": 5,
+    "summary": "This paper investigates the workflows of journalists curating online news newsletters, revealing the crucial role of human expertise alongside algorithmic tools in aggregating and contextualizing news for their audience. The findings highlight the value of hybrid curation models that leverage both human judgment and technology."
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.06430",
+    "title": "Mapping the Design Space of Interactions in Human-AI Text Co-creation Tasks",
+    "published_date": "2023-03-11",
+    "abstract": "Large Language Models (LLMs) have demonstrated impressive text generation capabilities, prompting us to reconsider the future of human-AI co-creation and how humans interact with LLMs. In this paper, we present a spectrum of content generation tasks and their corresponding human-AI interaction patterns. These tasks include: 1) fixed-scope content curation tasks with minimal human-AI interactions, 2) independent creative tasks with precise human-AI interactions, and 3) complex and interdependent creative tasks with iterative human-AI interactions. We encourage the generative AI and HCI research communities to focus on the more complex and interdependent tasks, which require greater levels of human involvement.",
+    "citation_count": 17,
+    "summary": "This paper maps the design space of human-AI text co-creation, categorizing interactions across tasks ranging from minimally interactive content curation to iteratively collaborative complex creative endeavors. It advocates for future research to prioritize the more complex, interdependent tasks demanding substantial human involvement."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.07878",
+    "title": "New Kids on the Block: On the impact of information retrieval on contextual resource integration patterns",
+    "published_date": "2023-12-13",
+    "abstract": "The rise of new modes of interaction with AI skyrocketed the popularity, applicability, and amount of use cases. Despite this evolution, conceptual integration is falling behind. Studies suggest that there is hardly a systematization in using AI in organizations. Thus, by taking a service-dominant logic perspective, specifically, the concept of resource integration patterns, the most potent application of AI for organizational use - namely information retrieval - is analyzed. In doing so, we propose a systematization that can be applied to deepen understanding of core technical concepts, further investigate AI in contexts, and help explore research directions guided by SDL.",
+    "summary": "This paper examines the impact of information retrieval, a key AI application, on organizational resource integration patterns using a service-dominant logic perspective. It proposes a systematization to improve understanding and research of AI's contextual use within organizations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zYv9BQBGnk2EdCwoG/the-psyche-of-ai-pattern-recognition",
+    "author": "Scott Broock",
+    "title": "AI and the Map of Your Mind: Pattern Recognition",
+    "published_date": "2023-03-20",
+    "summary": "Integrating large language models into productivity suites allows AI to create personalized knowledge graphs from user data, potentially revolutionizing learning and decision-making by revealing hidden connections and patterns. However, this raises concerns about granting AI unrestricted access to personal information and its implications for understanding the human psyche."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/oqvsR2LmHWamyKDcj/large-language-models-will-be-great-for-censorship",
+    "author": "Ethan Edwards",
+    "title": "Large Language Models will be Great for Censorship",
+    "published_date": "2023-08-21",
+    "summary": "The article discusses how large language models (LLMs) could dramatically enhance the censorship capabilities of authoritarian regimes, surpassing the limitations of traditional human-based censorship which relied on deterrence rather than comprehensive monitoring. While total surveillance remains impractical, LLMs offer the potential for significantly increased efficiency in identifying and suppressing dissent."
+  }
+]

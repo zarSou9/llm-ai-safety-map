@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.06178v1.pdf",
+    "title": "Certified Control: An Architecture for Verifiable Safety of Autonomous Vehicles",
+    "published_date": "2021-03-29",
+    "abstract": "Widespread adoption of autonomous cars will require greater confidence in their safety than is currently possible. Certified control is a new safety architecture whose goal is two-fold: to achieve a very high level of safety, and to provide a framework for justifiable confidence in that safety. The key idea is a runtime monitor that acts, along with sensor hardware and low-level control and actuators, as a small trusted base, ensuring the safety of the system as a whole. Unfortunately, in current systems complex perception makes the verification even of a runtime monitor challenging. Unlike traditional runtime monitoring, therefore, a certified control monitor does not perform perception and analysis itself. Instead, the main controller assembles evidence that the proposed action is safe into a certificate that is then checked independently by the monitor. This exploits the classic gap between the costs of finding and checking. The controller is assigned the task of finding the certificate, and can thus use the most sophisticated algorithms available (including learning-enabled software); the monitor is assigned only the task of checking, and can thus run quickly and be smaller and formally verifiable. This paper explains the key ideas of certified control and illustrates them with a certificate for LiDAR data and its formal verification. It shows how the architecture dramatically reduces the amount of code to be verified, providing an end-to-end safety analysis that would likely not be achievable in a traditional architecture.",
+    "citation_count": 5,
+    "summary": "Certified control enhances autonomous vehicle safety by separating complex, potentially unreliable perception from verifiable safety monitoring; a main controller generates a safety certificate, independently checked by a small, formally verifiable runtime monitor, significantly reducing the verification burden."
+  },
+  {
+    "title": "Verifying the Safety of Autonomous Systems with Neural Network Controllers",
+    "abstract": "This article addresses the problem of verifying the safety of autonomous systems with neural network (NN) controllers. We focus on NNs with sigmoid/tanh activations and use the fact that the sigmoid/tanh is the solution to a quadratic differential equation. This allows us to convert the NN into an equivalent hybrid system and cast the problem as a hybrid system verification problem, which can be solved by existing tools. Furthermore, we improve the scalability of the proposed method by approximating the sigmoid with a Taylor series with worst-case error bounds. Finally, we provide an evaluation over four benchmarks, including comparisons with alternative approaches based on mixed integer linear programming as well as on star sets.",
+    "published_date": "2020-12-07",
+    "citation_count": 54,
+    "url": "https://dl.acm.org/doi/10.1145/3419742",
+    "summary": "This paper presents a method for verifying the safety of autonomous systems using neural network controllers by converting the neural network into an equivalent hybrid system, enabling verification using existing hybrid system tools. Scalability is improved via Taylor series approximation of the sigmoid activation function, and the method is evaluated on four benchmarks against alternative approaches."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.15185",
+    "title": "Towards a Theory of Control Architecture: A quantitative framework for layered multi-rate control",
+    "published_date": "2024-01-26",
+    "abstract": "This paper focuses on the need for a rigorous theory of layered control architectures (LCAs) for complex engineered and natural systems, such as power systems, communication networks, autonomous robotics, bacteria, and human sensorimotor control. All deliver extraordinary capabilities, but they lack a coherent theory of analysis and design, partly due to the diverse domains across which LCAs can be found. In contrast, there is a core universal set of control concepts and theory that applies very broadly and accommodates necessary domain-specific specializations. However, control methods are typically used only to design algorithms in components within a larger system designed by others, typically with minimal or no theory. This points towards a need for natural but large extensions of robust performance from control to the full decision and control stack. It is encouraging that the successes of extant architectures from bacteria to the Internet are due to strikingly universal mechanisms and design patterns. This is largely due to convergent evolution by natural selection and not intelligent design, particularly when compared with the sophisticated design of components. Our aim here is to describe the universals of architecture and sketch tentative paths towards a useful design theory.",
+    "citation_count": 9,
+    "summary": "This paper argues for a unified theory of layered control architectures (LCAs) applicable across diverse complex systems, emphasizing the need to extend robust performance analysis from individual control algorithms to the entire control stack. It proposes that a focus on universal architectural principles, inspired by successful LCAs in nature and engineering, can guide the development of such a theory."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.18798",
+    "title": "Formal Verification of Digital Twins with TLA and Information Leakage Control",
+    "published_date": "2024-11-27",
+    "abstract": "Verifying the correctness of a digital twin provides a formal guarantee that the digital twin operates as intended. Digital twin verification is challenging due to the presence of uncertainties in the virtual representation, the physical environment, and the bidirectional flow of information between physical and virtual. A further challenge is that a digital twin of a complex system is composed of distributed components. This paper presents a methodology to specify and verify digital twin behavior, translating uncertain processes into a formally verifiable finite state machine. We use the Temporal Logic of Actions (TLA) to create a specification, an implementation abstraction that defines the properties required for correct system behavior. Our approach includes a novel weakening of formal security properties, allowing controlled information leakage while preserving theoretical guarantees. We demonstrate this approach on a digital twin of an unmanned aerial vehicle, verifying synchronization of physical-to-virtual and virtual-to-digital data flows to detect unintended misalignments.",
+    "summary": "This paper proposes a methodology for formally verifying digital twin behavior using TLA, addressing challenges posed by uncertainties and distributed components by modeling uncertain processes as finite state machines and incorporating controlled information leakage. The approach is demonstrated on an unmanned aerial vehicle digital twin, verifying data synchronization between physical and virtual representations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12",
+    "summary": "This article proposes a delay-based on-chip compute governance mechanism for AI, using the speed of light to verify a chip's location. While feasible, the mechanism suffers from potential false positives due to network latency inconsistencies, requiring a proposed solution to mitigate this issue."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19",
+    "summary": "The article argues that claims of using formal verification to guarantee AI safety are overly optimistic. The inherent complexity of the real world, coupled with the practical limitations of applying formal verification to physical systems, makes strong safety guarantees highly unlikely in the near term."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.06090.pdf",
+    "title": "A General Framework for Verification and Control of Dynamical Models via Certificate Synthesis",
+    "published_date": "2023-09-12",
+    "abstract": "An emerging branch of control theory specialises in certificate learning, concerning the specification of a desired (possibly complex) system behaviour for an autonomous or control model, which is then analytically verified by means of a function-based proof. However, the synthesis of controllers abiding by these complex requirements is in general a non-trivial task and may elude the most expert control engineers. This results in a need for automatic techniques that are able to design controllers and to analyse a wide range of elaborate specifications. In this paper, we provide a general framework to encode system specifications and define corresponding certificates, and we present an automated approach to formally synthesise controllers and certificates. Our approach contributes to the broad field of safe learning for control, exploiting the flexibility of neural networks to provide candidate control and certificate functions, whilst using SMT-solvers to offer a formal guarantee of correctness. We test our framework by developing a prototype software tool, and assess its efficacy at verification via control and certificate synthesis over a large and varied suite of benchmarks.",
+    "citation_count": 4,
+    "summary": "This paper presents a general framework for automatically synthesizing controllers and verifying their correctness against complex specifications for dynamical models, using neural networks for candidate functions and SMT solvers for formal verification. The framework is evaluated on a diverse set of benchmarks using a prototype software tool."
+  }
+]

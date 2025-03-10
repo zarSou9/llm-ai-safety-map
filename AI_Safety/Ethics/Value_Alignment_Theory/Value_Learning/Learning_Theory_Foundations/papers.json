@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/fsGEyCYhqs7AWwdCe/learning-theoretic-agenda-reading-list",
+    "author": "Vanessa Kosoy",
+    "title": "Learning-theoretic agenda reading list",
+    "published_date": "2023-11-09",
+    "summary": "This article provides a self-study reading list for learning-theoretic AI, encompassing mathematical prerequisites, AI theory, reinforcement learning, agent foundations, and alignment research, with suggested chapters and alternative resources included. The author acknowledges the list's imperfections but prioritizes dissemination over delaying for unattainable perfection."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/uEwECj53prjKLcBC5/vc-theory-overview",
+    "author": "Joar Skalse",
+    "title": "VC Theory Overview",
+    "published_date": "2023-07-02",
+    "summary": "Computational learning theory (CLT) combines complexity theory with machine learning to determine the learnability of problems, identifying those solvable with limited data. A key framework, probably approximately correct (PAC) learning, mathematically models supervised learning by defining conditions under which an algorithm can learn a function with high probability and low error given a polynomial amount of data."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/ZwshvqiqCvXPsZEct/the-learning-theoretic-agenda-status-2023",
+    "author": "Vanessa Kosoy",
+    "title": "The Learning-Theoretic Agenda: Status 2023",
+    "published_date": "2023-04-19",
+    "summary": "This article provides an overview of the learning-theoretic AI alignment research agenda, detailing its key problems, current insights, and future research directions. It also introduces \"Physicalist Superimitation,\" a proposed alignment protocol aimed at reliably aligning AI with human values."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/shard-theory",
+    "author": "Quintin Pope, TurnTrout",
+    "title": "Shard Theory - LessWrong",
+    "published_date": "2022-09-29",
+    "summary": "Shard theory posits that neural networks, both biological and artificial, contain numerous \"shards\"—contextually activated, behavior-steering computations—whose interactions, shaped by reinforcement learning, explain learned values and potentially complex psychological phenomena like akrasia. This framework offers a mechanistic account of human values and a potential path to aligning reinforcement learning agents."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/reward-functions",
+    "author": "TurnTrout",
+    "title": "Reward Functions - LessWrong",
+    "published_date": "2022-07-25",
+    "summary": "In reinforcement learning, a reward function assigns numerical values to actions or outcomes, guiding an AI towards desirable behaviors. Designing effective reward functions that prevent unintended consequences is a crucial, and often difficult, aspect of AI development."
+  },
+  {
+    "title": "Self-adaptation of XCS learning parameters based on learning theory",
+    "abstract": "This paper proposes a self-adaptation technique of parameter settings used in the XCS learning scheme. Since we adaptively set those settings to their optimum values derived by the recent XCS learning theory, our proposal does not require any trial and error process to find their proper values. Thus, our proposal can always satisfy the optimality of XCS learning scheme, i.e. to distinguish accurate rules from inaccurate rules with the minimum update number of rules. Experimental results on artificial classification problems including overlapping problems show that XCS with our self-adaptation technique significantly outperforms the standard XCS.",
+    "published_date": "2020-06-25",
+    "citation_count": 5,
+    "url": "https://dl.acm.org/doi/10.1145/3377930.3389814",
+    "summary": "This paper introduces a self-adaptive parameter tuning method for the XCS learning algorithm, leveraging recent learning theory to optimize parameter settings and eliminate the need for manual tuning. This automated optimization significantly improves XCS performance, as demonstrated by experiments on artificial classification problems."
+  },
+  {
+    "title": "A Learning Framework for Distribution-Based Game-Theoretic Solution Concepts",
+    "abstract": "The past few years have seen several works exploring learning economic solutions from data; these include optimal auction design, function optimization, stable payoffs in cooperative games and more. In this work, we provide a unified learning-theoretic methodology for modeling such problems, and establish tools for determining whether a given solution concept can be efficiently learned from data. Our learning theoretic framework generalizes a notion of function space dimension --- the graph dimension --- adapting it to the solution concept learning domain. We identify sufficient conditions for efficient solution learnability, and show that results in existing works can be immediately derived using our methodology. Finally, we apply our methods in other economic domains, yielding learning variants of competitive equilibria and Condorcet winners.",
+    "published_date": "2019-03-20",
+    "citation_count": 13,
+    "url": "https://dl.acm.org/doi/10.1145/3391403.3399509",
+    "summary": "This paper presents a unified learning-theoretic framework for efficiently learning game-theoretic solution concepts from data, using a generalized notion of function space dimension (graph dimension) to identify sufficient conditions for learnability. The framework encompasses various economic solution concepts, including competitive equilibria and Condorcet winners."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/oH8KMnXHnw964QyS6/preface-to-the-sequence-on-value-learning",
+    "author": "Rohin Shah",
+    "title": "Preface to the sequence on value learning",
+    "published_date": "2018-10-30",
+    "summary": "This meta-post announces a forthcoming sequence on ambitious value learning, a method of aligning AI by inferring its utility function from human behavior. The sequence will explore the feasibility and conceptual challenges of this approach, highlighting existing research and potential future directions."
+  }
+]

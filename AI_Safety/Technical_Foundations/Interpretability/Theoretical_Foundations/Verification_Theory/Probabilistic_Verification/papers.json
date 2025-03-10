@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19"
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.06136v1",
+    "title": "Quantitative Verification With Neural Networks For Probabilistic Programs and Stochastic Systems",
+    "published_date": "2023-01-15",
+    "abstract": "We present a data-driven approach to the quantitative verification of probabilistic programs and stochastic dynamical models. Our approach leverages neural networks to compute tight and sound bounds for the probability that a stochastic process hits a target condition within finite time. This problem subsumes a variety of quantitative verification questions, from the reachability and safety analysis of discrete-time stochastic dynamical models, to the study of assertion-violation and termination analysis of probabilistic programs. We rely on neural networks to represent supermartingale certificates that yield such probability bounds, which we compute using a counterexample-guided inductive synthesis loop: we train the neural certificate while tightening the probability bound over samples of the state space using stochastic optimisation, and then we formally check the certificate's validity over every possible state using satisfiability modulo theories; if we receive a counterexample, we add it to our set of samples and repeat the loop until validity is confirmed. We demonstrate on a diverse set of benchmarks that, thanks to the expressive power of neural networks, our method yields smaller or comparable probability bounds than existing symbolic methods in all cases, and that our approach succeeds on models that are entirely beyond the reach of such alternative techniques.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.06082.pdf",
+    "title": "Lower Bounds for Possibly Divergent Probabilistic Programs",
+    "published_date": "2023-02-13",
+    "abstract": "We present a new proof rule for verifying lower bounds on quantities of probabilistic programs. Our proof rule is not confined to almost-surely terminating programs -- as is the case for existing rules -- and can be used to establish non-trivial lower bounds on, e.g., termination probabilities and expected values, for possibly divergent probabilistic loops, e.g., the well-known three-dimensional random walk on a lattice.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/uEwECj53prjKLcBC5/vc-theory-overview",
+    "author": "Joar Skalse",
+    "title": "VC Theory Overview",
+    "published_date": "2023-07-02"
+  }
+]

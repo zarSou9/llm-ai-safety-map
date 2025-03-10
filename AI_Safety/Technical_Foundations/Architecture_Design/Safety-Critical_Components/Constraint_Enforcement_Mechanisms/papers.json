@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2008.07019v1.pdf",
+    "title": "Enforcing Safety at Runtime for Systems with Disturbances",
+    "published_date": "2020-08-16",
+    "abstract": "An assured controller is one that enforces safety online by filtering a desired control input at runtime, and control barrier functions (CBFs) provide an assured controller that renders a safe subset of the statespace forward invariant. In this work, we present a problem formulation for CBF-based runtime assurance for systems with disturbances, and controllers that solve this problem must, in some way, incorporate the online computation of reachable sets. In general, computing reachable sets in the presence of disturbances is computationally costly and cannot be directly incorporated in a CBF framework. To that end, we present a particular solution to the problem, whereby reachable sets are approximated via the mixed-monotonicity property. Efficient algorithms exist for over-approximating reachable sets for mixed-monotone systems with hyperrectangles, and we show that such approximations are suitable for incorporating into a CBF-based runtime assurance framework.",
+    "citation_count": 16,
+    "summary": "This paper addresses the challenge of ensuring safety in control systems subject to disturbances by using control barrier functions (CBFs) to enforce safety constraints online. It proposes a solution that efficiently approximates reachable sets using the mixed-monotonicity property to enable practical CBF-based runtime assurance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.16608",
+    "title": "Barriers on the EDGE: A scalable CBF architecture over EDGE for safe aerial-ground multi-agent coordination",
+    "published_date": "2024-11-25",
+    "abstract": "In this article, we address the problem of designing a scalable control architecture for a safe coordinated operation of a multi-agent system with aerial (UAVs) and ground robots (UGVs) in a confined task space. The proposed method uses Control Barrier Functions (CBFs) to impose constraints associated with (i) collision avoidance between agents, (ii) landing of UAVs on mobile UGVs, and (iii) task space restriction. Further, to account for the rapid increase in the number of constraints for a single agent with the increasing number of agents, the proposed architecture uses a centralized-decentralized Edge cluster, where a centralized node (Watcher) activates the relevant constraints, reducing the need for high onboard processing and network complexity. The distributed nodes run the controller locally to overcome latency and network issues. The proposed Edge architecture is experimentally validated using multiple aerial and ground robots in a confined environment performing a coordinated operation.",
+    "summary": "This paper presents a scalable, centralized-decentralized control architecture using Control Barrier Functions (CBFs) for safe multi-agent coordination between UAVs and UGVs in confined spaces, addressing collision avoidance and task constraints via an Edge computing cluster to reduce onboard processing demands. Experimental validation using multiple robots demonstrates the architecture's effectiveness."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.11171",
+    "title": "Preventing Unconstrained CBF Safety Filters Caused by Invalid Relative Degree Assumptions",
+    "published_date": "2024-09-17",
+    "abstract": "Control barrier function (CBF)-based safety filters are used to certify and modify potentially unsafe control inputs to a system such as those provided by a reinforcement learning agent or a non-expert user. In this context, safety is defined as the satisfaction of state constraints. Originally designed for continuous-time systems, CBF safety filters typically assume that the system's relative degree is well-defined and is constant across the domain; however, this assumption is restrictive and rarely verified -- even linear system dynamics with a quadratic CBF candidate may not satisfy this assumption. In real-world applications, continuous-time CBF safety filters are implemented in discrete time, exacerbating issues related to violating the condition on the relative degree. These violations can lead to the safety filter being unconstrained (any control input may be certified) for a finite time interval and result in chattering issues and constraint violations. We propose an alternative formulation to address these challenges. Specifically, we present a theoretically sound method that employs multiple CBFs to generate bounded control inputs at each state within the safe set, thereby preventing incorrect certification of arbitrary control inputs. Using this approach, we derive conditions on the maximum sampling time to ensure safety in discrete-time implementations. We demonstrate the effectiveness of our proposed method through simulations and real-world quadrotor experiments, successfully preventing chattering and constraint violations. Finally, we discuss the implications of violating the relative degree condition on CBF synthesis and learning-based CBF methods.",
+    "summary": "Control barrier function (CBF) safety filters, while effective for ensuring system safety, often rely on restrictive assumptions about relative degree that are frequently violated, leading to unconstrained filters and safety issues. This paper introduces a novel method using multiple CBFs to overcome these limitations, guaranteeing bounded control inputs and preventing constraint violations, even in discrete-time implementations."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2304.08685.pdf",
+    "title": "Sample-and-Hold Safety with Control Barrier Functions",
+    "published_date": "2023-04-18",
+    "abstract": "A common assumption on the deployment of safeguarding controllers on the digital platform is that high sampling frequency translates to a small violation of safety. This paper investigates and formalizes this assumption through the lens of Input-to-State Safety. From this perspective, and leveraging control barrier functions (CBFs), we propose an alternative solution for maintaining safety of sample-and-hold control systems without any violation to the original safe set. Our approach centers around modulating the sampled control input in order to guarantee a more robust safety condition. We analyze both the time-triggered and the event-triggered sample-and-hold implementations, including the characterization of sampling frequency requirements and trigger conditions. We demonstrate the effectiveness of our approach in the context of adaptive cruise control through simulations.",
+    "citation_count": 2,
+    "summary": "This paper challenges the assumption that high sampling rates guarantee safety in sample-and-hold control systems, proposing a novel control barrier function (CBF) approach that ensures safety without violating the safe set. This method modulates the sampled control input and analyzes both time-triggered and event-triggered implementations, demonstrating its effectiveness through simulation of adaptive cruise control."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.13913v2",
+    "title": "Stress Testing Control Loops in Cyber-physical Systems",
+    "published_date": "2023-02-27",
+    "abstract": "Cyber-physical Systems (CPSs) are often safety-critical and deployed in uncertain environments. Identifying scenarios where CPSs do not comply with requirements is fundamental but difficult due to the multidisciplinary nature of CPSs. We investigate the testing of control-based CPSs, where control and software engineers develop the software collaboratively. Control engineers make design assumptions during system development to leverage control theory and obtain guarantees on CPS behaviour. In the implemented system, however, such assumptions are not always satisfied, and their falsification can lead the loss of guarantees. We define stress testing of control-based CPSs as generating tests to falsify such design assumptions. We highlight different types of assumptions, focusing on the use of linearised physics models. To generate stress tests falsifying such assumptions, we leverage control theory to qualitatively characterise the input space of a control-based CPS. We propose a novel test parametrisation for control-based CPSs and use it with the input space characterisation to develop a stress testing approach. We evaluate our approach on three case study systems, including a drone, a continuous-current motor (in five configurations), and an aircraft. Our results show the effectiveness of the proposed testing approach in falsifying the design assumptions and highlighting the causes of assumption violations.",
+    "citation_count": 3,
+    "summary": "This paper proposes a novel stress testing approach for cyber-physical systems (CPSs) that focuses on falsifying design assumptions made during control system development, specifically those related to linearized physics models. The approach leverages control theory to characterize the input space and generate effective test parameters, demonstrated through case studies on a drone, motor, and aircraft."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "President Biden's October 30, 2023 executive order on AI outlines numerous deadlines for federal agencies, ranging from 30 to 90 days, to produce reports, assessments, and plans related to AI development, implementation, workforce needs, risk management, and ethical considerations across various sectors. These actions aim to coordinate federal AI efforts and mitigate potential risks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.14364",
+    "title": "Safe and Robust Observer-Controller Synthesis Using Control Barrier Functions",
+    "published_date": "2022-11-25",
+    "abstract": "This letter addresses the synthesis of safety-critical controllers using estimate feedback. We propose an observer-controller interconnection to ensure that the nonlinear system remains safe despite bounded disturbances on the system dynamics and measurements that correspond to partial state information. The co-design of observers and controllers is critical, since even in undisturbed cases, observers and controllers designed independently may not render the system safe. We propose two approaches to synthesize observer-controller interconnections. The first approach utilizes Input-to-State Stable observers, and the second uses Bounded Error observers. Using these stability and boundedness properties of the observation error, we construct novel Control Barrier Functions that impose inequality constraints on the control inputs which, when satisfied, certifies safety. We propose quadratic program-based controllers to satisfy these constraints, and prove Lipschitz continuity of the derived controllers. Simulations and experiments on a quadrotor demonstrate the efficacy of the proposed methods.",
+    "citation_count": 42,
+    "summary": "This paper presents two methods for synthesizing safe and robust observer-controllers for nonlinear systems subject to bounded disturbances and partial state information, using Control Barrier Functions to guarantee safety despite estimation errors. The methods leverage Input-to-State Stable or Bounded Error observers and quadratic program-based controllers to ensure Lipschitz continuity and safety."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13",
+    "summary": "This article explains Deep Q-Networks (DQN), a deep reinforcement learning algorithm, at various levels of detail. It provides a high-level overview suitable for those familiar with reinforcement learning, and then delves into the mathematical and implementation specifics for those seeking a deeper understanding."
+  }
+]

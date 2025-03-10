@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.07948",
+    "title": "Scene Action Maps: Behavioural Maps for Navigation without Metric Information",
+    "published_date": "2024-05-13",
+    "abstract": "Humans are remarkable in their ability to navigate without metric information. We can read abstract 2D maps, such as floor-plans or hand-drawn sketches, and use them to navigate in unseen rich 3D environments, without requiring prior traversals to map out these scenes in detail. We posit that this is enabled by the ability to represent the environment abstractly as interconnected navigational behaviours, e.g., \"follow the corridor\" or \"turn right\", while avoiding detailed, accurate spatial information at the metric level. We introduce the Scene Action Map (SAM), a behavioural topological graph, and propose a learnable map-reading method, which parses a variety of 2D maps into SAMs. Map-reading extracts salient information about navigational behaviours from the overlooked wealth of pre-existing, abstract and inaccurate maps, ranging from floor-plans to sketches. We evaluate the performance of SAMs for navigation, by building and deploying a behavioural navigation stack on a quadrupedal robot. Videos and more information is available at: https://scene-action-maps.github.io.",
+    "citation_count": 2,
+    "summary": "Scene Action Maps (SAMs) represent environments as interconnected behavioral actions (e.g., \"turn right\") rather than metric details, enabling robots to navigate using abstract 2D maps like floor plans or sketches without needing precise spatial information. A learnable method parses these maps into SAMs for robot navigation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/7tSthxSgnNxbt4Hk6/what-s-in-the-box-towards-interpretability-by-distinguishing-1",
+    "author": "Joshua Clancy",
+    "title": "What's in the box?! – Towards interpretability by distinguishing niches of value within neural networks.",
+    "published_date": "2024-02-29",
+    "summary": "This paper proposes a novel theoretical model of neural network internal representations, using an economic and information-theoretic framework to identify \"niches of value\" where different representational structures specialize. The model combines top-down deductions from a general learning network model with bottom-up analysis of representational units to predict a neuron's function based on its context and internal structure."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/hincdPwgBTfdnBzFf/mapping-the-semantic-void-ii-above-below-and-between-token",
+    "author": "mwatkins",
+    "title": "Mapping the semantic void II: Above, below and between token embeddings",
+    "published_date": "2024-02-15",
+    "summary": "This study investigates how GPT-J's word definitions change along rays emanating from the centroid of its embedding space, revealing a \"stratified ontology\" where definitions shift from specific to generic as distance from a word's embedding increases. The author observes consistent patterns in these definitional shifts across multiple words, providing numerous examples."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.05567",
+    "title": "Behaviour Driven Development: A Systematic Mapping Study",
+    "published_date": "2023-05-01",
+    "abstract": "Context: Behaviour Driven Development (BDD) uses scenarios written in semi-structured natural language to express software requirements in a way that can be understood by all stakeholders. The resulting natural language specifications can also be executed to reveal correct and problematic parts of a software. Although BDD was introduced about two decades ago, there is a lack of secondary studies in peer-reviewed scientific literature. Objective: To understand the current state of BDD research by conducting a systematic mapping study that covers studies published from 2006 to 2021. Method: By following the guidelines for conducting systematic mapping studies in software engineering, we sought to answer research questions on types of venues in which BDD papers have been published, research, contributions, studied topics and their evolution, and evaluation methods used in published BDD research. Results: The study identified 166 papers which were mapped. Key results include the following: the dominance of conference papers; scarcity of research with insights from the industry; shortage of philosophical papers on BDD; acute shortage of metrics for measuring various aspects of BDD specifications and the processes for producing BDD specifications; the dominance of studies on using BDD for facilitating various software development endeavours, improving the BDD process and associated artefacts, and applying BDD in different contexts; scarcity of studies on using BDD alongside other software techniques and technologies; increase in diversity of studied BDD topics; and notable use of case studies and experiments to study different BDD aspects. Conclusion: The paper improves our understanding of the state of the art of BDD, and highlights important areas of focus for future BDD research.",
+    "citation_count": 1,
+    "summary": "This systematic mapping study analyzed 166 papers on Behavior Driven Development (BDD) published between 2006 and 2021, revealing a dominance of conference papers, a scarcity of industry insights and rigorous metrics, and a need for more research on BDD's integration with other techniques."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/iaJFJ5Qm29ixtrWsn/sparse-coding-for-mechanistic-interpretability-and",
+    "author": "David Udell",
+    "title": "Sparse Coding, for Mechanistic Interpretability and Activation Engineering",
+    "published_date": "2023-09-23",
+    "summary": "To interpret the internal representations of large language models, the author trains a sparse autoencoder on a layer's activations. The resulting autoencoder's neurons then offer a more readily interpretable representation of the model's internal concepts."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "This article examines the application of game theory to AI development within organizational structures, highlighting both its benefits in multi-agent systems and its limitations. It argues that while AI can enhance bureaucratic efficiency through job specialization, human oversight and collaborative organizational structures remain crucial due to AI's bounded rationality and the inherent complexity of problem-solving."
+  },
+  {
+    "url": "https://arxiv.org/abs/2205.08487",
+    "title": "Systematic Mapping Protocol: Variability Management in Dynamic Software Product Lines for Self-Adaptive Systems",
+    "published_date": "2022-05-17",
+    "abstract": "Context: The Importance of Dynamic Variability Management in Dynamic Software Product Lines. Objective: Define a protocol for conducting a systematic mapping study to summarize and synthesize evidence on dynamic variability management for Dynamic Software Product Lines in self-adaptive systems. Method: Application the protocol to conduct a systematic mapping study according the guidelines of K. Petersen. Results: A validated protocol to conduct a systematic mapping study. Conclusions: First findings show that it is necessary to visualize new ways to manage variability in dynamic software product lines.",
+    "summary": "This paper presents a protocol for a systematic mapping study investigating dynamic variability management in dynamic software product lines for self-adaptive systems. The resulting protocol reveals a need for innovative approaches to managing variability in these systems."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.08139.pdf",
+    "title": "Towards Mapping Control Theory and Software Engineering Properties using Specification Patterns",
+    "published_date": "2021-08-18",
+    "abstract": "A traditional approach to realize self-adaptation in software engineering (SE) is by means of feedback loops. The goals of the system can be specified as formal properties that are verified against models of the system. On the other hand, control theory (CT) provides a well-established foundation for designing feedback loop systems and providing guarantees for essential properties, such as stability, settling time, and steady state error. Currently, it is an open question whether and how traditional SE approaches to self-adaptation consider properties from CT. Answering this question is challenging given the principle differences in representing properties in both fields. In this paper, we take a first step to answer this question. We follow a bottom up approach where we specify a control design (in Simulink) for a case inspired by Scuderia Ferrari (F1) and provide evidence for stability and safety. The design is then transferred into code (in C) that is further optimized. Next, we define properties that enable verifying whether the control properties still hold at code level. Then, we consolidate the solution by mapping the properties in both worlds using specification patterns as common language and we verify the correctness of this mapping. The mapping offers a reusable artifact to solve similar problems. Finally, we outline opportunities for future work, particularly to refine and extend the mapping and investigate how it can improve the engineering of self-adaptive systems for both SE and CT engineers.",
+    "citation_count": 3,
+    "summary": "This paper investigates the relationship between control theory (CT) properties and software engineering (SE) properties in self-adaptive systems, using a case study and specification patterns to map properties between a Simulink control design and its C code implementation, demonstrating a potential for improved cross-disciplinary engineering of self-adaptive systems."
+  }
+]

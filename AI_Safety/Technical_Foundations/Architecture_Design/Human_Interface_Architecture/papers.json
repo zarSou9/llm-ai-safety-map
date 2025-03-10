@@ -1,0 +1,75 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.05115",
+    "title": "Unpacking Human-AI interactions: From interaction primitives to a design space",
+    "published_date": "2024-01-10",
+    "abstract": "This paper aims to develop a semi-formal representation for Human-AI (HAI) interactions, by building a set of interaction primitives which can specify the information exchanges between users and AI systems during their interaction. We show how these primitives can be combined into a set of interaction patterns which can capture common interactions between humans and AI/ML models. The motivation behind this is twofold: firstly, to provide a compact generalisation of existing practices for the design and implementation of HAI interactions; and secondly, to support the creation of new interactions by extending the design space of HAI interactions. Taking into consideration frameworks, guidelines and taxonomies related to human-centered design and implementation of AI systems, we define a vocabulary for describing information exchanges based on the model's characteristics and interactional capabilities. Based on this vocabulary, a message passing model for interactions between humans and models is presented, which we demonstrate can account for existing HAI interaction systems and approaches. Finally, we build this into design patterns which can describe common interactions between users and models, and we discuss how this approach can be used towards a design space for HAI interactions that creates new possibilities for designs as well as keeping track of implementation issues and concerns.",
+    "citation_count": 1,
+    "summary": "This paper proposes a semi-formal representation of Human-AI interaction using interaction primitives and patterns, aiming to generalize existing design practices and expand the design space for creating novel and effective Human-AI systems. This is achieved through a message-passing model and vocabulary for describing information exchanges between humans and AI models."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.11576",
+    "title": "Toward Humanity-Centered Design without Hubris",
+    "published_date": "2024-02-18",
+    "abstract": "Humanity-centered design is a concept of emerging interest in HCI, one motivated by the limitations of human-centered design. As discussed to date, humanity-centered design is compatible with but goes beyond human-centered design in that it considers entire ecosystems and populations over the long term and centers participatory design. Though the intentions of humanity-centered design are laudable, current articulations of humanity-centered design are incoherent in a number of ways, leading to questions of how exactly it can or should be implemented. In this article, I delineate four ways in which humanity-centered design is incoherent—which can be boiled down to a tendency toward hubris—and propose a more fruitful way forward, a humble approach to humanity-centered design. Rather than a contradiction in terms, “humility” here refers to an organic, piecemeal, patterns-based approach to design that will be good for our being on this earth.",
+    "summary": "This paper critiques the incoherence and hubris inherent in current conceptualizations of humanity-centered design, proposing a more humble, organic, and piecemeal approach grounded in participatory design and long-term ecosystem considerations. It argues for a shift from a potentially overreaching approach to a more sustainable and ethically sound design practice."
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.16600",
+    "title": "Research Challenges for Adaptive Architecture: Empowering Occupants of Multi-Occupancy Buildings",
+    "published_date": "2024-03-25",
+    "abstract": "This positional paper outlines our vision of 'adaptive architecture', which involves the integration of robotic technology to physically change an architectural space in supporting the changing needs of its occupants, in response to the CHI'24 workshop\"HabiTech - Inhabiting Buildings, Data&Technology\"call on\"How do new technologies enable and empower the inhabitants of multi-occupancy buildings?\". Specifically, while adaptive architecture holds promise for enhancing occupant satisfaction, comfort, and overall health and well-being, there remains a range of research challenges of (1) how it can effectively support individual occupants, while (2) mediating the conflicting needs of collocated others, and (3) integrating meaningfully into the sociocultural characteristics of their building community.",
+    "summary": "This paper proposes \"adaptive architecture\" using robotics to modify building spaces based on occupant needs, highlighting key research challenges in balancing individual needs with those of others within a shared space and integrating this technology into the building's social context."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.14078",
+    "title": "The Adaptive Architectural Layout: How the Control of a Semi-Autonomous Mobile Robotic Partition was Shared to Mediate the Environmental Demands and Resources of an Open-Plan Office",
+    "published_date": "2024-01-25",
+    "abstract": "A typical open-plan office layout is unable to optimally host multiple collocated work activities, personal needs, and situational events, as its space exerts a range of environmental demands on workers in terms of maintaining their acoustic, visual or privacy comfort. As we hypothesise that these demands could be coped by optimising the environmental resources of the architectural layout, we deployed a mobile robotic partition that autonomously manoeuvres between predetermined locations. During a five-weeks in-the-wild study within a real-world open-plan office, we studied how 13 workers adopted four distinct adaptation strategies when sharing the spatiotemporal control of the robotic partition. Based on their logged and self-reported reasoning, we present six initiation regulating factors that determine the appropriateness of each adaptation strategy. This study thus contributes to how future human-building interaction could autonomously improve the experience, comfort, performance, and even the health and wellbeing of multiple workers that share the same workplace.",
+    "citation_count": 3,
+    "summary": "A five-week study examined how 13 office workers adapted to a semi-autonomous mobile robotic partition designed to optimize workspace acoustics, visual privacy, and comfort in an open-plan office, revealing six factors influencing their control and use strategies. The findings contribute to understanding how autonomous systems can improve the workplace experience for multiple occupants."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.14521",
+    "title": "Dynamic User Interface Generation for Enhanced Human-Computer Interaction Using Variational Autoencoders",
+    "published_date": "2024-12-19",
+    "abstract": "This study presents a novel approach for intelligent user interaction interface generation and optimization, grounded in the variational autoencoder (VAE) model. With the rapid advancement of intelligent technologies, traditional interface design methods struggle to meet the evolving demands for diversity and personalization, often lacking flexibility in real-time adjustments to enhance the user experience. Human-Computer Interaction (HCI) plays a critical role in addressing these challenges by focusing on creating interfaces that are functional, intuitive, and responsive to user needs. This research leverages the RICO dataset to train the VAE model, enabling the simulation and creation of user interfaces that align with user aesthetics and interaction habits. By integrating real-time user behavior data, the system dynamically refines and optimizes the interface, improving usability and underscoring the importance of HCI in achieving a seamless user experience. Experimental findings indicate that the VAE-based approach significantly enhances the quality and precision of interface generation compared to other methods, including autoencoders (AE), generative adversarial networks (GAN), conditional GANs (cGAN), deep belief networks (DBN), and VAE-GAN. This work contributes valuable insights into HCI, providing robust technical solutions for automated interface generation and enhanced user experience optimization.",
+    "summary": "This paper proposes a variational autoencoder (VAE)-based system for dynamically generating and optimizing user interfaces, improving upon existing methods by incorporating real-time user behavior data to personalize and enhance the user experience. Experimental results show this approach outperforms other generative models in interface generation quality and precision."
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.14876",
+    "title": "A Conceptual Framework for Designing Interactive Human-Centred Building Spaces to Enhance User Experience in Specific-Purpose Buildings",
+    "published_date": "2023-08-28",
+    "abstract": "Human/User interaction with buildings are mostly restricted to interacting with building automation systems through user-interfaces that mainly aim to improve energy efficiency of buildings and ensure comfort of occupants. This research builds on the existing theories of Human-Building Interaction (HBI) and proposes a novel conceptual framework for HBI that combines the concepts of Human-Computer Interaction (HCI) and Ambient Intelligence (AmI). The proposed framework aims to study the needs of occupants in specific-purpose buildings, which is currently undermined. Specifically, we explore the application of the proposed HBI framework to improve the learning experience of students in academic buildings. Focus groups and semi-structured interviews were conducted among students who are considered primary occupants of Goodwin Hall, a flagship smart engineering building at Virginia Tech. Qualitative coding and concept mapping were used to analyze the qualitative data and determine the impact of occupant-specific needs on the learning experience of students in academic buildings. The occupant-specific problem that was found to have the highest direct impact on learning experience was finding study space and highest indirect impact was Indoor Environment Quality (IEQ). We discuss new ideas for designing Intelligent User Interfaces (IUI), e.g. Augmented Reality (AR), increase the perceivable affordances for building occupants and considering a context-aware ubiquitous analytics-based strategy to provide services that are tailored to address the identified needs.",
+    "citation_count": 2,
+    "summary": "This research proposes a novel Human-Building Interaction (HBI) framework, integrating Human-Computer Interaction (HCI) and Ambient Intelligence (AmI), to design interactive building spaces enhancing user experience. Applying this framework to a smart academic building, the study identifies finding study spaces and Indoor Environmental Quality as key factors impacting student learning, suggesting design improvements using intelligent user interfaces like augmented reality."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.11520",
+    "title": "Implementing biosensing based user preference visualisation in architectural spaces",
+    "published_date": "2023-12-12",
+    "abstract": "This study delves into the interplay between architectural spaces and human emotions, leveraging the emergent field of neuroarchitecture. It examines the functional and aesthetic influence of architectural design on individual users, with a focus on biosensing data such as brainwave and eye tracking information to understand user preferences.",
+    "summary": "This research uses biosensing technologies, like brainwave and eye tracking, to understand how architectural design impacts user preferences and emotions, bridging the fields of architecture and neuroarchitecture. The goal is to visualize user preferences within built spaces based on their physiological responses."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/ai",
+    "author": "Evan Hubinger",
+    "title": "AI - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "Artificial intelligence alignment focuses on ensuring powerful AI systems act according to human values, preventing potentially catastrophic unintended consequences. This involves addressing the challenge of aligning AI goals with human goals, ranging from narrow tasks to achieving a beneficial future for humanity."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/hCnyK5EjPSpvKS9YS/ufos-ai-and-first-contact-with-the-collective-unconscious",
+    "author": "Scott Broock",
+    "title": "AI as Contact with our Collective Unconscious",
+    "published_date": "2023-04-15",
+    "summary": "The article argues that AI, like previous technological advancements, acts as a new medium shaping our understanding of reality and self, creating anxieties mirroring the 1950s anxieties around Cold War technology and UFO sightings. These anxieties reflect the uncertain nature of AI's impact and our collective unconscious grappling with disruptive change."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/6uKG2fjxApmdxeHNd/fli-open-letter-pause-giant-ai-experiments",
+    "author": "Zach Stein-Perlman",
+    "title": "FLI open letter: Pause giant AI experiments",
+    "published_date": "2023-03-29",
+    "summary": "There is no article provided to summarize."
+  }
+]

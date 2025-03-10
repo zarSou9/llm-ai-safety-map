@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/WJ7y8S9WdKRvrzJmR/building-ai-research-fleets",
+    "author": "Ben Goldhaber, Jesse Hoogland",
+    "title": "Building AI Research Fleets",
+    "published_date": "2025-01-12",
+    "summary": "Research automation will not simply replace individual scientists with AI counterparts, but instead transform research into coordinated \"fleets\" of specialized AI agents working in parallel. This requires a restructuring of research institutions to manage the new workflows and potential inefficiencies inherent in this massively parallel approach, mirroring the organizational changes that accompanied past technological revolutions."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bdQhzQsHjNrQp7cNS/estimates-of-gpu-or-equivalent-resources-of-large-ai-players",
+    "author": "CharlesD",
+    "title": "Estimates of GPU or equivalent resources of large AI players for 2024/5",
+    "published_date": "2024-11-28",
+    "summary": "The article estimates the amount of AI compute capacity (primarily Nvidia GPUs) major tech companies will possess in 2024 and 2025, based on publicly available data and Nvidia's financial reports. These estimates, acknowledged as imprecise, suggest significant growth in AI compute availability but highlight the difficulty in obtaining precise figures."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2307.02651.pdf",
+    "title": "The geography of innovation dynamics",
+    "published_date": "2023-07-05",
+    "abstract": "Cities and metropolitan areas are major drivers of creativity and innovation in all possible sectors: scientific, technological, social, artistic, etc. The critical concentration and proximity of diverse mindsets and opportunities, supported by efficient infrastructures, enable new technologies and ideas to emerge, thrive, and trigger further innovation. Though this pattern seems well established, geography's role in the emergence and diffusion of new technologies still needs to be clarified. An additional important question concerns the identification of the innovation pathways of metropolitan areas. Here, we explore the factors that influence the spread of technology among metropolitan areas worldwide and how geography and political borders impact this process. Our evidence suggests that political geography has been highly important for the diffusion of innovation till around two decades ago, slowly declining afterwards in favour of a more global innovation ecosystem. Further, the visualisation of the evolution of countries and metropolitan areas in a 2d space of competitiveness and diversification reveals the existence of two main innovation pathways, discriminating between different strategies towards progress. Our work provides insights for policymakers seeking to promote economic growth and technological advancement through tailored investments in prioritarian innovation areas.",
+    "summary": "This paper investigates the geographical factors influencing the diffusion of innovation globally, finding that political geography's role has diminished in recent decades in favor of a more global innovation ecosystem. Two distinct innovation pathways, characterized by differing competitiveness and diversification strategies, are identified."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.09843",
+    "title": "Drivers and Barriers of AI Adoption and Use in Scientific Research",
+    "published_date": "2023-12-15",
+    "abstract": "New technologies have the power to revolutionize science. It has happened in the past and is happening again with the emergence of new computational tools, such as artificial intelligence and machine learning. Despite the documented impact of these technologies, there remains a significant gap in understanding the process of their adoption within the scientific community. In this paper, we draw on theories of scientific and technical human capital to study the integration of AI in scientific research, focusing on the human capital of scientists and the external resources available within their network of collaborators and institutions. We validate our hypotheses on a large sample of publications from OpenAlex, covering all sciences from 1980 to 2020, and identify a set key drivers and inhibitors of AI adoption and use in science. Our results suggest that AI is pioneered by domain scientists with a `taste for exploration' and who are embedded in a network rich of computer scientists, experienced AI scientists and early-career researchers; they come from institutions with high citation impact and a relatively strong publication history on AI. The access to computing resources only matters for a few scientific disciplines, such as chemistry and medical sciences. Once AI is integrated into research, most adoption factors continue to influence its subsequent reuse. Implications for the organization and management of science in the evolving era of AI-driven discovery are discussed.",
+    "summary": "This study uses publication data to identify factors driving and hindering AI adoption in scientific research, finding that researchers with exploratory tendencies, strong collaborative networks (including computer scientists), and affiliation with high-impact institutions are key adopters, while computing resource access is less universally crucial."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zYv9BQBGnk2EdCwoG/the-psyche-of-ai-pattern-recognition",
+    "author": "Scott Broock",
+    "title": "AI and the Map of Your Mind: Pattern Recognition",
+    "published_date": "2023-03-20",
+    "summary": "Integrating large language models into productivity suites allows AI to create personalized knowledge graphs from user data, offering benefits like enhanced learning and decision-making. However, this raises concerns about granting AI unrestricted access to personal information and its implications for understanding the human psyche."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mmxPbFz7wvthvHCxq/sparks-of-artificial-general-intelligence-early-experiments",
+    "author": "DragonGod",
+    "title": "Sparks of Artificial General Intelligence: Early experiments with GPT-4 | Microsoft Research",
+    "published_date": "2023-03-23",
+    "summary": "This paper investigates an early version of OpenAI's GPT-4, arguing that it and similar LLMs represent a significant leap towards artificial general intelligence (AGI) due to their human-level performance across diverse complex tasks. The authors highlight GPT-4's capabilities while also acknowledging its limitations and the challenges in developing truly comprehensive AGI."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/69CRFgqbQyFBoYcg5/navigating-the-open-source-ai-landscape-data-funding-and",
+    "author": "André Ferretti, mic",
+    "title": "Navigating the Open-Source AI Landscape: Data, Funding, and Safety",
+    "published_date": "2023-04-13",
+    "summary": "Open-source AI, while democratizing technology and accelerating development through shared code and models like LLaMA and Stable Diffusion, raises ethical and safety concerns due to its potential for misuse and the lack of control over its deployment. The article explores the funding, data sourcing, and potential solutions to balance innovation with responsible development and mitigate risks."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/dall-e",
+    "author": "DirectedEvolution",
+    "title": "DALL-E - LessWrong",
+    "published_date": "2022-07-22",
+    "summary": "DALL-E is a series of OpenAI's machine learning models capable of creating images from textual descriptions. These models, including DALL-E 2, translate text prompts into corresponding visuals."
+  }
+]

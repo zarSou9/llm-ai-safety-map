@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2103.09190v1.pdf",
+    "title": "Using Grammar Patterns to Interpret Test Method Name Evolution",
+    "published_date": "2021-03-16",
+    "abstract": "It is good practice to name test methods such that they are comprehensible to developers; they must be written in such a way that their purpose and functionality are clear to those who will maintain them. Unfortunately, there is little automated support for writing or maintaining the names of test methods. This can lead to inconsistent and low-quality test names and increase the maintenance cost of supporting these methods. Due to this risk, it is essential to help developers in maintaining their test method names over time. In this paper, we use grammar patterns, and how they relate to test method behavior, to understand test naming practices. This data will be used to support an automated tool for maintaining test names.",
+    "citation_count": 12
+  },
+  {
+    "url": "https://arxiv.org/abs/2109.06655",
+    "title": "Improving Test Case Generation for REST APIs Through Hierarchical Clustering",
+    "published_date": "2021-09-14",
+    "abstract": "With the ever-increasing use of web APIs in modern- day applications, it is becoming more important to test the system as a whole. In the last decade, tools and approaches have been proposed to automate the creation of system-level test cases for these APIs using evolutionary algorithms (EAs). One of the limiting factors of EAs is that the genetic operators (crossover and mutation) are fully randomized, potentially breaking promising patterns in the sequences of API requests discovered during the search. Breaking these patterns has a negative impact on the effectiveness of the test case generation process. To address this limitation, this paper proposes a new approach that uses Agglomerative Hierarchical Clustering (AHC) to infer a linkage tree model, which captures, replicates, and preserves these patterns in new test cases. We evaluate our approach, called LT-MOSA, by performing an empirical study on 7 real-world benchmark applications w.r.t. branch coverage and real-fault detection capability. We also compare LT-MOSA with the two existing state-of-the-art white-box techniques (MIO, MOSA) for REST API testing. Our results show that LT-MOSA achieves a statistically significant increase in test target coverage (i.e., lines and branches) compared to MIO and MOSA in 4 and 5 out of 7 applications, respectively. Furthermore, LT-MOSA discovers 27 and 18 unique real-faults that are left undetected by MIO and MOSA, respectively.",
+    "citation_count": 21
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.11317.pdf",
+    "title": "Testing in Global Software Development - A Pattern Approach",
+    "published_date": "2021-01-27",
+    "abstract": "Although testing is critical in GSD, its application in this context has not been deeply investigated so far. This work investigates testing in GSD. It provides support for test managers acting in a globally distributed environment. With this it closes a gap. The leading question is\"What problems exist in testing in GSD and how can they be addressed in projects?\"Decomposing this question we a) identify problems of testing in GSD projects and b) provide good practices to support practitioners in testing in GSD projects. The research is realized in the context of Capgemini Germany. Our contribution to solving the stated research problem is a collection of 16 patterns for testing in GSD projects. For practitioners the usage of the patterns is simplified by various views on the patterns. Herewith we stipulate research and support project managers and test managers in the realization of testing in GSD projects."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1801.05917v1.pdf",
+    "title": "A large-scale empirical comparison of static and dynamic test case prioritization techniques",
+    "published_date": "2016-11-01",
+    "abstract": "The large body of existing research in Test Case Prioritization (TCP) techniques, can be broadly classified into two categories: dynamic techniques (that rely on run-time execution information) and static techniques (that operate directly on source and test code). Absent from this current body of work is a comprehensive study aimed at understanding and evaluating the static approaches and comparing them to dynamic approaches on a large set of projects. In this work, we perform the first extensive study aimed at empirically evaluating four static TCP techniques comparing them with state-of-research dynamic TCP techniques at different test-case granularities (e.g., method and class-level) in terms of effectiveness, efficiency and similarity of faults detected. This study was performed on 30 real-word Java programs encompassing 431 KLoC. In terms of effectiveness, we find that the static call-graph-based technique outperforms the other static techniques at test-class level, but the topic-model-based technique performs better at test-method level. In terms of efficiency, the static call-graph-based technique is also the most efficient when compared to other static techniques. When examining the similarity of faults detected for the four static techniques compared to the four dynamic ones, we find that on average, the faults uncovered by these two groups of techniques are quite dissimilar, with the top 10% of test cases agreeing on only 25% - 30% of detected faults. This prompts further research into the severity/importance of faults uncovered by these techniques, and into the potential for combining static and dynamic information for more effective approaches.",
+    "citation_count": 64
+  },
+  {
+    "title": "The impact of test ownership and team structure on the reliability and effectiveness of quality test runs",
+    "abstract": "Context: Software testing is a crucial step in most software development processes. Testing software is a key component to manage and assess the risk of shipping quality products to customers. But testing is also an expensive process and changes to the system need to be tested thoroughly which may take time. Thus, the quality of a software product depends on the quality of its underlying testing process and on the effectiveness and reliability of individual test cases.\n Goal: In this paper, we investigate the impact of the organizational structure of test owners on the reliability and effectiveness of the corresponding test cases. Prior empirical research on organizational structure has focused only on developer activity. We expand the scope of empirical knowledge by assessing the impact of organizational structure on testing activities.\n Method: We performed an empirical study on the Windows build verification test suites (BVT) and relate effectiveness and reliability measures of each test run to the complexity and size of the organizational sub-structure that enclose all owners of test cases executed.\n Results: Our results show, that organizational structure impacts both test effectiveness and test execution reliability. We are also able to predict effectiveness and reliability with fairly high precision and recall values.\n Conclusion: We suggest to review test suites with respect to their organizational composition. As indicated by the results of this study, this would increase the effectiveness and reliability, development speed and developer satisfaction.",
+    "published_date": "2014-09-18",
+    "citation_count": 15,
+    "url": "https://dl.acm.org/doi/10.1145/2652524.2652535"
+  },
+  {
+    "url": "https://arxiv.org/pdf/1410.1747v1.pdf",
+    "title": "A Formal Approach to Distributed System Tests Design",
+    "published_date": "2014-10-06",
+    "abstract": "Deployment of distributed systems sets high requirements for procedures and tools for the complex testing of these systems. This work introduces a formal four-layered model for test generation mission on the basis of the component-based approach and the concept of layered networks. Based on this model, we describe the test generation strategy that covers every interaction from the end-user requirements on all coexisting architectural layers, and checks the internal consistency of the system technical specifications with respect to the end-user requirements. The next step introduces the Prolog-based approach to representing this model and the requirements-coverage strategy",
+    "citation_count": 4
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.03682",
+    "title": "A New First-Order Meta-Learning Algorithm with Convergence Guarantees",
+    "published_date": "2024-09-05",
+    "abstract": "Learning new tasks by drawing on prior experience gathered from other (related) tasks is a core property of any intelligent system. Gradient-based meta-learning, especially MAML and its variants, has emerged as a viable solution to accomplish this goal. One problem MAML encounters is its computational and memory burdens needed to compute the meta-gradients. We propose a new first-order variant of MAML that we prove converges to a stationary point of the MAML objective, unlike other first-order variants. We also show that the MAML objective does not satisfy the smoothness assumption assumed in previous works; we show instead that its smoothness constant grows with the norm of the meta-gradient, which theoretically suggests the use of normalized or clipped-gradient methods compared to the plain gradient method used in previous works. We validate our theory on a synthetic experiment.",
+    "citation_count": 1,
+    "summary": "This paper introduces a novel first-order meta-learning algorithm, proven to converge to a stationary point of the MAML objective, addressing computational limitations of existing methods. The authors also demonstrate that the MAML objective's smoothness depends on the meta-gradient norm, suggesting the benefit of normalized or clipped gradient methods."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.13290",
+    "title": "Theoretical Analysis of Meta Reinforcement Learning: Generalization Bounds and Convergence Guarantees",
+    "published_date": "2024-05-17",
+    "abstract": "This research delves deeply into Meta Reinforcement Learning (Meta RL) through a exploration focusing on defining generalization limits and ensuring convergence. By employing a approach this article introduces an innovative theoretical framework to meticulously assess the effectiveness and performance of Meta RL algorithms. We present an explanation of generalization limits measuring how well these algorithms can adapt to learning tasks while maintaining consistent results. Our analysis delves into the factors that impact the adaptability of Meta RL revealing the relationship, between algorithm design and task complexity. Additionally we establish convergence assurances by proving conditions under which Meta RL strategies are guaranteed to converge towards solutions. We examine the convergence behaviors of Meta RL algorithms across scenarios providing a comprehensive understanding of the driving forces behind their long term performance. This exploration covers both convergence and real time efficiency offering a perspective, on the capabilities of these algorithms.",
+    "citation_count": 17,
+    "summary": "This paper provides a theoretical framework for analyzing meta reinforcement learning algorithms, establishing generalization bounds and convergence guarantees by examining the interplay between algorithm design, task complexity, and convergence behavior. The analysis offers insights into the factors influencing the adaptability and long-term performance of meta RL."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/ai",
+    "author": "Evan Hubinger",
+    "title": "AI - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "Artificial intelligence alignment focuses on ensuring powerful AI systems act according to human values, preventing unintended consequences like existential threats. This involves diverse approaches, from narrow goals (e.g., curing disease) to broader ambitions (e.g., creating a positive future), all aiming to prevent AI from optimizing for unintended objectives."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/calibration",
+    "author": "Owain Evans",
+    "title": "Calibration - AI Alignment Forum",
+    "published_date": "2022-05-31",
+    "summary": "Calibration measures the accuracy of one's confidence in predictions, distinct from the predictions' accuracy itself; a well-calibrated person's X% confidence predictions are correct X% of the time. This characteristic is valuable for rational decision-making, effective communication, and information prioritization."
+  },
+  {
+    "title": "Calibration of Few-Shot Classification Tasks: Mitigating Misconfidence from Distribution Mismatch",
+    "abstract": "As many meta-learning algorithms improve performance in solving few-shot classification problems for practical applications, the accurate prediction of uncertainty is considered essential. In meta-training, the algorithm treats all generated tasks equally and updates the model to perform well on training tasks. During the training, some of the tasks may make it difficult for the model to infer the query examples from the support examples, especially when a large mismatch between the support set and the query set exists. The distribution mismatch causes the model to have incorrect confidence, which causes a calibration problem. In this study, we propose a novel meta-training method that measures the distribution mismatch and enables the model to predict with more precise confidence. Moreover, our method is algorithm-agnostic and can be readily expanded to include a range of meta-learning models. Through extensive experimentation, including dataset shift, we show that our training strategy prevents the model from becoming indiscriminately confident, and thereby helps the model to produce calibrated classification results without the loss of accuracy.",
+    "published_date": "2022-01-01",
+    "citation_count": 2,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09777704.pdf",
+    "summary": "This paper introduces an algorithm-agnostic meta-training method that mitigates miscalibration in few-shot classification by addressing distribution mismatch between support and query sets, improving confidence prediction without sacrificing accuracy. The method achieves this by measuring and accounting for the distribution mismatch during meta-training."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.14595v2.pdf",
+    "title": "Generalization Bounds For Meta-Learning: An Information-Theoretic Analysis",
+    "published_date": "2021-09-29",
+    "abstract": "We derive a novel information-theoretic analysis of the generalization property of meta-learning algorithms. Concretely, our analysis proposes a generic understanding of both the conventional learning-to-learn framework and the modern model-agnostic meta-learning (MAML) algorithms. Moreover, we provide a data-dependent generalization bound for a stochastic variant of MAML, which is non-vacuous for deep few-shot learning. As compared to previous bounds that depend on the square norm of gradients, empirical validations on both simulated data and a well-known few-shot benchmark show that our bound is orders of magnitude tighter in most situations.",
+    "citation_count": 39,
+    "summary": "This paper presents a novel information-theoretic analysis of meta-learning generalization, offering a unified framework for analyzing both traditional and MAML algorithms. A resulting data-dependent generalization bound for stochastic MAML is empirically shown to be significantly tighter than previous bounds for deep few-shot learning."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.02265v2.pdf",
+    "title": "Meta-Learning with Variational Bayes",
+    "published_date": "2021-03-03",
+    "abstract": "The field of meta-learning seeks to improve the ability of today's machine learning systems to adapt efficiently to small amounts of data. Typically this is accomplished by training a system with a parametrized update rule to improve a task-relevant objective based on supervision or a reward function. However, in many domains of practical interest, task data is unlabeled, or reward functions are unavailable. In this paper we introduce a new approach to address the more general problem of generative meta-learning, which we argue is an important prerequisite for obtaining human-level cognitive flexibility in artificial agents, and can benefit many practical applications along the way. Our contribution leverages the AEVB framework and mean-field variational Bayes, and creates fast-adapting latent-space generative models. At the heart of our contribution is a new result, showing that for a broad class of deep generative latent variable models, the relevant VB updates do not depend on any generative neural network. The theoretical merits of our approach are reflected in empirical experiments.",
+    "summary": "This paper presents a novel generative meta-learning approach using variational Bayes, enabling fast adaptation in latent-space generative models even without labeled data or reward functions. A key finding is that the variational Bayes updates for a broad class of deep generative models are independent of the generative neural network itself."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Lshuoww97Loy2h7kw/are-we-all-misaligned-1",
+    "author": "Mateusz Mazurkiewicz",
+    "title": "Are we all misaligned?",
+    "published_date": "2021-01-03",
+    "summary": "The orthogonality thesis posits that intelligence and goals are independent, a claim challenged by the human experience of interwoven goals and self-determined values. The article explores this contradiction, arguing that true general intelligence necessitates a holistic, self-referential goal-setting capacity, which cannot be fully explained by the thesis's separation of intelligence and goals."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/vLArRpNdkex68oem8",
+    "author": "Alex Turner",
+    "title": "Thoughts on Corrigibility - AI Alignment Forum",
+    "published_date": "2021-11-24",
+    "summary": "The author presents a series of writings exploring various aspects of corrigibility, which contribute to their overall perspective on AI alignment but remain unconnected in a comprehensive framework."
+  },
+  {
+    "title": "MetaStore: A Task-adaptative Meta-learning Model for Optimal Store Placement with Multi-city Knowledge Transfer",
+    "abstract": "\n Optimal store placement aims to identify the optimal location for a new brick-and-mortar store that can maximize its sale by analyzing and mining users' preferences from large-scale urban data. In recent years, the expansion of chain enterprises in new cities brings some challenges because of two aspects: (1)\n data scarcity in new cities,\n so most existing models tend to not work (i.e., overfitting), because the superior performance of these works is conditioned on large-scale training samples; (2)\n data distribution discrepancy among different cities,\n so knowledge learned from other cities cannot be utilized directly in new cities. In this article, we propose a task-adaptative model-agnostic meta-learning framework, namely, MetaStore, to tackle these two challenges and improve the prediction performance in new cities with insufficient data for optimal store placement, by transferring prior knowledge learned from multiple data-rich cities. Specifically, we develop a task-adaptative meta-learning algorithm to learn city-specific prior initializations from multiple cities, which is capable of handling the multimodal data distribution and accelerating the adaptation in new cities compared to other methods. In addition, we design an effective learning strategy for MetaStore to promote faster convergence and optimization by sampling high-quality data for each training batch in view of noisy data in practical applications. The extensive experimental results demonstrate that our proposed method leads to state-of-the-art performance compared with various baselines.\n",
+    "published_date": "2021-04-22",
+    "citation_count": 12,
+    "url": "https://dl.acm.org/doi/10.1145/3447271",
+    "summary": "MetaStore is a meta-learning model for optimal store placement that addresses data scarcity and distribution discrepancies across cities by transferring knowledge from data-rich cities to new ones. It uses a task-adaptive approach to learn city-specific initializations and improve prediction accuracy in data-scarce environments."
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Building Jiminy Cricket: An Architecture for Moral Agreements Among Stakeholders",
+    "abstract": "An autonomous system is constructed by a manufacturer, operates in a society subject to norms and laws, and is interacting with end-users. We address the challenge of how the moral values and views of all stakeholders can be integrated and reflected in the moral behavior of the autonomous system. We propose an artificial moral agent architecture that uses techniques from normative systems and formal argumentation to reach moral agreements among stakeholders. We show how our architecture can be used not only for ethical practical reasoning and collaborative decision-making, but also for the explanation of such moral behavior.",
+    "published_date": "2018-12-11",
+    "citation_count": 26,
+    "url": "https://dl.acm.org/doi/10.1145/3306618.3314257",
+    "summary": "This paper proposes \"Jiminy Cricket,\" an architecture for autonomous systems that integrates the moral values of manufacturers, society, and end-users to achieve moral agreement and explain resulting ethical behaviors. It uses normative systems and formal argumentation to facilitate collaborative decision-making within the system."
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.08491v1",
+    "title": "Modeling Moral Choices in Social Dilemmas with Multi-Agent Reinforcement Learning",
+    "published_date": "2023-01-20",
+    "abstract": "Practical uses of Artificial Intelligence (AI) in the real world have demonstrated the importance of embedding moral choices into intelligent agents. They have also highlighted that defining top-down ethical constraints on AI according to any one type of morality is extremely challenging and can pose risks. A bottom-up learning approach may be more appropriate for studying and developing ethical behavior in AI agents. In particular, we believe that an interesting and insightful starting point is the analysis of emergent behavior of Reinforcement Learning (RL) agents that act according to a predefined set of moral rewards in social dilemmas.\n\n\n\nIn this work, we present a systematic analysis of the choices made by intrinsically-motivated RL agents whose rewards are based on moral theories. We aim to design reward structures that are simplified yet representative of a set of key ethical systems. Therefore, we first define moral reward functions that distinguish between consequence- and norm-based agents, between morality based on societal norms or internal virtues, and between single- and mixed-virtue (e.g., multi-objective) methodologies. Then, we evaluate our approach by modeling repeated dyadic interactions between learning moral agents in three iterated social dilemma games (Prisoner's Dilemma, Volunteer's Dilemma and Stag Hunt). We analyze the impact of different types of morality on the emergence of cooperation, defection or exploitation, and the corresponding social outcomes. Finally, we discuss the implications of these findings for the development of moral agents in artificial and mixed human-AI societies.",
+    "citation_count": 15,
+    "summary": "This paper investigates the emergence of moral behavior in multi-agent reinforcement learning by modeling agents with reward functions based on different ethical theories (consequence vs. norm-based, societal vs. internal virtues). The authors analyze agent interactions in classic social dilemma games to understand how varied moral frameworks impact cooperation and overall social outcomes."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.08759.pdf",
+    "title": "Value Engineering for Autonomous Agents",
+    "published_date": "2023-02-17",
+    "abstract": "Machine Ethics (ME) is concerned with the design of Artificial Moral Agents (AMAs), i.e. autonomous agents capable of reasoning and behaving according to moral values. Previous approaches have treated values as labels associated with some actions or states of the world, rather than as integral components of agent reasoning. It is also common to disregard that a value-guided agent operates alongside other value-guided agents in an environment governed by norms, thus omitting the social dimension of AMAs. In this blue sky paper, we propose a new AMA paradigm grounded in moral and social psychology, where values are instilled into agents as context-dependent goals. These goals intricately connect values at individual levels to norms at a collective level by evaluating the outcomes most incentivized by the norms in place. We argue that this type of normative reasoning, where agents are endowed with an understanding of norms' moral implications, leads to value-awareness in autonomous agents. Additionally, this capability paves the way for agents to align the norms enforced in their societies with respect to the human values instilled in them, by complementing the value-based reasoning on norms with agreement mechanisms to help agents collectively agree on the best set of norms that suit their human values. Overall, our agent model goes beyond the treatment of values as inert labels by connecting them to normative reasoning and to the social functionalities needed to integrate value-aware agents into our modern hybrid human-computer societies.",
+    "citation_count": 3,
+    "summary": "This paper proposes a novel framework for designing Artificial Moral Agents (AMAs) that integrates values as context-dependent goals, connecting individual values to societal norms through normative reasoning and agreement mechanisms to achieve value-aware and socially integrated autonomous agents. This approach moves beyond treating values as simple labels, fostering alignment between agent behavior and human values within a shared social context."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a novel framework for embedding ethical considerations into AI systems by using Bayesian priors. This approach, inspired by human moral intuitions, aims to guide AI learning and decision-making towards ethically sound judgments."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/4iAkmnhhqNZe8JzrS/reflection-mechanisms-as-an-alignment-target-attitudes-on",
+    "author": "elandgre, Beth Barnes, Marius Hobbhahn",
+    "title": "Reflection Mechanisms as an Alignment Target - Attitudes on “near-term” AI",
+    "published_date": "2023-03-02",
+    "summary": "A survey of 1000 participants revealed a preference for indirect normativity—AI guided by reflection on potential societal outcomes—over allowing companies or policymakers to unilaterally determine AI values. This suggests a potential openness to aligning AI with processes for developing better values, rather than simply reflecting existing ones."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.11441.pdf",
+    "title": "Human-centered mechanism design with Democratic AI",
+    "published_date": "2022-01-27",
+    "abstract": "Building artificial intelligence (AI) that aligns with human values is an unsolved problem. Here, we developed a human-in-the-loop research pipeline called Democratic AI, in which reinforcement learning is used to design a social mechanism that humans prefer by majority. A large group of humans played an online investment game that involved deciding whether to keep a monetary endowment or to share it with others for collective benefit. Shared revenue was returned to players under two different redistribution mechanisms, one designed by the AI and the other by humans. The AI discovered a mechanism that redressed initial wealth imbalance, sanctioned free riders, and successfully won the majority vote. By optimizing for human preferences, Democratic AI may be a promising method for value-aligned policy innovation.",
+    "citation_count": 2,
+    "summary": "Democratic AI, a human-in-the-loop reinforcement learning system, designed a social mechanism preferred by a majority of human participants in an online investment game, demonstrating its potential for value-aligned policy innovation by optimizing for human preferences. This mechanism effectively addressed wealth inequality and punished free-riders."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.01122v1.pdf",
+    "title": "Stakeholder Participation in AI: Beyond \"Add Diverse Stakeholders and Stir\"",
+    "published_date": "2021-11-01",
+    "abstract": "There is a growing consensus in HCI and AI research that the design of AI systems needs to engage and empower stakeholders who will be affected by AI. However, the manner in which stakeholders should participate in AI design is unclear. This workshop paper aims to ground what we dub a 'participatory turn' in AI design by synthesizing existing literature on participation and through empirical analysis of its current practices via a survey of recent published research and a dozen semi-structured interviews with AI researchers and practitioners. Based on our literature synthesis and empirical research, this paper presents a conceptual framework for analyzing participatory approaches to AI design and articulates a set of empirical findings that in ensemble detail out the contemporary landscape of participatory practice in AI design. These findings can help bootstrap a more principled discussion on how PD of AI should move forward across AI, HCI, and other research communities.",
+    "citation_count": 48,
+    "summary": "This paper examines current stakeholder participation in AI design, finding that while engagement is increasing, methods remain unclear. The authors present a framework for analyzing participatory approaches and offer empirical findings to inform more principled practices."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization",
+    "published_date": "2021-06-04",
+    "summary": "This article explores applying game theory to AI development within organizations, highlighting both its usefulness in multi-agent systems and its limitations. It emphasizes the enduring relevance of bureaucratic structures, even with advanced AI, due to the inherent limitations of any single entity in processing all information and achieving complex goals efficiently."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/LdH9w67W6jQaoBm2T/internet-encyclopedia-of-philosophy-on-ethics-of-artificial",
+    "author": "Kaj_Sotala",
+    "title": "Internet Encyclopedia of Philosophy on Ethics of Artificial Intelligence",
+    "published_date": "2021-02-20",
+    "summary": "The article explores the ethical implications of artificial intelligence, including the potential for machine bias, opacity, and the development of superintelligent AI. A key concern is the \"singularity\"—the hypothetical point where AI surpasses human intelligence—and the need for value alignment to prevent existential risks, such as the AI pursuing goals detrimental to humanity."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/yhb5BNksWcESezp7p/poll-which-variables-are-most-strategically-relevant",
+    "author": "Daniel Kokotajlo, Noa Nabeshima",
+    "title": "Poll: Which variables are most strategically relevant?",
+    "published_date": "2021-01-22",
+    "summary": "The article outlines a crowdsourced project aiming to identify key variables—such as development timelines, alignment challenges, and control distribution—that significantly predict and influence the future trajectory of artificial intelligence. The project seeks operational definitions for these variables to facilitate analysis and prioritization."
+  }
+]

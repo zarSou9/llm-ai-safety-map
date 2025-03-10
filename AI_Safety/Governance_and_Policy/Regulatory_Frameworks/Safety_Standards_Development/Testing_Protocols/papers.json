@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.22151",
+    "title": "Standardization Trends on Safety and Trustworthiness Technology for Advanced AI",
+    "published_date": "2024-10-29",
+    "abstract": "Artificial Intelligence (AI) has rapidly evolved over the past decade and has advanced in areas such as language comprehension, image and video recognition, programming, and scientific reasoning. Recent AI technologies based on large language models and foundation models are approaching or surpassing artificial general intelligence. These systems demonstrate superior performance in complex problem solving, natural language processing, and multi-domain tasks, and can potentially transform fields such as science, industry, healthcare, and education. However, these advancements have raised concerns regarding the safety and trustworthiness of advanced AI, including risks related to uncontrollability, ethical conflicts, long-term socioeconomic impacts, and safety assurance. Efforts are being expended to develop internationally agreed-upon standards to ensure the safety and reliability of AI. This study analyzes international trends in safety and trustworthiness standardization for advanced AI, identifies key areas for standardization, proposes future directions and strategies, and draws policy implications. The goal is to support the safe and trustworthy development of advanced AI and enhance international competitiveness through effective standardization.",
+    "citation_count": 1,
+    "summary": "This paper examines international standardization efforts for ensuring the safety and trustworthiness of advanced AI systems, identifying key areas needing standardization and proposing future strategies to promote safe AI development and global competitiveness."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.04986",
+    "title": "Finding Safety Violations of AI-Enabled Control Systems through the Lens of Synthesized Proxy Programs",
+    "published_date": "2024-10-07",
+    "abstract": "Given the increasing adoption of modern AI-enabled control systems, ensuring their safety and reliability has become a critical task in software testing. One prevalent approach to testing control systems is falsification, which aims to find an input signal that causes the control system to violate a formal safety specification using optimization algorithms. However, applying falsification to AI-enabled control systems poses two significant challenges: (1)~it requires the system to execute numerous candidate test inputs, which can be time-consuming, particularly for systems with AI models that have many parameters, and (2)~multiple safety requirements are typically defined as a conjunctive specification, which is difficult for existing falsification approaches to comprehensively cover. This paper introduces Synthify, a falsification framework tailored for AI-enabled control systems. Our approach performs falsification in a two-phase process. At the start, Synthify synthesizes a program that implements one or a few linear controllers to serve as a proxy for the AI controller. This proxy program mimics the AI controller's functionality but is computationally more efficient. Then, Synthify employs the $\\epsilon$-greedy strategy to sample a promising sub-specification from the conjunctive safety specification. It then uses a Simulated Annealing-based falsification algorithm to find violations of the sampled sub-specification for the control system. To evaluate Synthify, we compare it to PSY-TaLiRo, a state-of-the-art and industrial-strength falsification tool, on 8 publicly available control systems. On average, Synthify achieves a 83.5% higher success rate in falsification compared to PSY-TaLiRo with the same budget of falsification trials. The safety violations found by Synthify are also more diverse than those found by PSY-TaLiRo, covering 137.7% more sub-specifications.",
+    "summary": "Synthify is a novel falsification framework for AI-enabled control systems that uses synthesized proxy programs to efficiently find safety violations, significantly outperforming existing methods like PSY-TaLiRo in both success rate and diversity of violations found. This improvement is achieved through a two-phase process involving proxy program synthesis and targeted sub-specification falsification."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.07985",
+    "title": "Games for AI Control: Models of Safety Evaluations of AI Deployment Protocols",
+    "published_date": "2024-09-12",
+    "abstract": "To evaluate the safety and usefulness of deployment protocols for untrusted AIs, AI Control uses a red-teaming exercise played between a protocol designer and an adversary. This paper introduces AI-Control Games, a formal decision-making model of the red-teaming exercise as a multi-objective, partially observable, stochastic game. We also introduce methods for finding optimal protocols in AI-Control Games, by reducing them to a set of zero-sum partially observable stochastic games. We apply our formalism to model, evaluate and synthesise protocols for deploying untrusted language models as programming assistants, focusing on Trusted Monitoring protocols, which use weaker language models and limited human assistance. Finally, we demonstrate the utility of our formalism by showcasing improvements over empirical studies in existing settings, evaluating protocols in new settings, and analysing how modelling assumptions affect the safety and usefulness of protocols.",
+    "citation_count": 2,
+    "summary": "This paper formalizes the red-teaming evaluation of AI deployment protocols as multi-objective partially observable stochastic games, offering methods to find optimal protocols and demonstrating improved protocol design and analysis compared to empirical methods, specifically for untrusted language models."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.03793",
+    "title": "Safeguarding AI Agents: Developing and Analyzing Safety Architectures",
+    "published_date": "2024-09-03",
+    "abstract": "AI agents, specifically powered by large language models, have demonstrated exceptional capabilities in various applications where precision and efficacy are necessary. However, these agents come with inherent risks, including the potential for unsafe or biased actions, vulnerability to adversarial attacks, lack of transparency, and tendency to generate hallucinations. As AI agents become more prevalent in critical sectors of the industry, the implementation of effective safety protocols becomes increasingly important. This paper addresses the critical need for safety measures in AI systems, especially ones that collaborate with human teams. We propose and evaluate three frameworks to enhance safety protocols in AI agent systems: an LLM-powered input-output filter, a safety agent integrated within the system, and a hierarchical delegation-based system with embedded safety checks. Our methodology involves implementing these frameworks and testing them against a set of unsafe agentic use cases, providing a comprehensive evaluation of their effectiveness in mitigating risks associated with AI agent deployment. We conclude that these frameworks can significantly strengthen the safety and security of AI agent systems, minimizing potential harmful actions or outputs. Our work contributes to the ongoing effort to create safe and reliable AI applications, particularly in automated operations, and provides a foundation for developing robust guardrails to ensure the responsible use of AI agents in real-world applications.",
+    "summary": "This paper proposes and evaluates three safety architectures—an input-output filter, a safety agent, and a hierarchical delegation system—for mitigating risks associated with AI agents, particularly large language models, demonstrating their effectiveness in preventing unsafe actions and outputs. The research contributes to safer AI development and deployment, especially in collaborative human-AI systems."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for third-party testing of large-scale AI systems to mitigate societal harm, arguing that a robust testing regime, involving industry, government, and academia, is crucial for managing the risks of powerful AI models while fostering innovation. This approach would complement existing regulations and facilitate international cooperation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential trajectories of transformative AI (TAI), focusing on the possibility of TAI emerging within the next decade. The program aims to identify existential hazards posed by TAI, evaluate strategies for mitigating those risks, and recommend effective approaches across various scenarios."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2311.10538.pdf",
+    "title": "Testing Language Model Agents Safely in the Wild",
+    "published_date": "2023-11-17",
+    "abstract": "A prerequisite for safe autonomy-in-the-wild is safe testing-in-the-wild. Yet real-world autonomous tests face several unique safety challenges, both due to the possibility of causing harm during a test, as well as the risk of encountering new unsafe agent behavior through interactions with real-world and potentially malicious actors. We propose a framework for conducting safe autonomous agent tests on the open internet: agent actions are audited by a context-sensitive monitor that enforces a stringent safety boundary to stop an unsafe test, with suspect behavior ranked and logged to be examined by humans. We design a basic safety monitor (AgentMonitor) that is flexible enough to monitor existing LLM agents, and, using an adversarial simulated agent, we measure its ability to identify and stop unsafe situations. Then we apply the AgentMonitor on a battery of real-world tests of AutoGPT, and we identify several limitations and challenges that will face the creation of safe in-the-wild tests as autonomous agents grow more capable.",
+    "citation_count": 16,
+    "summary": "The paper introduces a framework for safely testing language model agents in real-world environments, using a context-sensitive monitor to prevent unsafe actions and log suspicious behavior for human review, highlighting challenges encountered during real-world testing of AutoGPT."
+  }
+]

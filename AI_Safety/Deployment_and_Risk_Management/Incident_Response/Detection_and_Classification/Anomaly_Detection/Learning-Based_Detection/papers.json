@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2201.09172v1.pdf",
+    "title": "An Attention-based ConvLSTM Autoencoder with Dynamic Thresholding for Unsupervised Anomaly Detection in Multivariate Time Series",
+    "published_date": "2022-01-23",
+    "abstract": "As a substantial amount of multivariate time series data is being produced by the complex systems in smart manufacturing (SM), improved anomaly detection frameworks are needed to reduce the operational risks and the monitoring burden placed on the system operators. However, building such frameworks is challenging, as a sufficiently large amount of defective training data is often not available and frameworks are required to capture both the temporal and contextual dependencies across different time steps while being robust to noise. In this paper, we propose an unsupervised Attention-Based Convolutional Long Short-Term Memory (ConvLSTM) Autoencoder with Dynamic Thresholding (ACLAE-DT) framework for anomaly detection and diagnosis in multivariate time series. The framework starts by pre-processing and enriching the data, before constructing feature images to characterize the system statuses across different time steps by capturing the inter-correlations between pairs of time series. Afterwards, the constructed feature images are fed into an attention-based ConvLSTM autoencoder, which aims to encode the constructed feature images and capture the temporal behavior, followed by decoding the compressed knowledge representation to reconstruct the feature images' input. The reconstruction errors are then computed and subjected to a statistical-based, dynamic thresholding mechanism to detect and diagnose the anomalies. Evaluation results conducted on real-life manufacturing data demonstrate the performance strengths of the proposed approach over state-of-the-art methods under different experimental settings.",
+    "citation_count": 31
+  },
+  {
+    "url": "https://arxiv.org/pdf/2212.02303.pdf",
+    "title": "Lossy Compression for Robust Unsupervised Time-Series Anomaly Detection",
+    "published_date": "2022-12-05",
+    "abstract": "A new Lossy Causal Temporal Convolutional Neural Network Autoencoder for anomaly detection is proposed in this work. Our framework uses a rate-distortion loss and an entropy bottleneck to learn a compressed latent representation for the task. The main idea of using a rate-distortion loss is to introduce representation flexibility that ignores or becomes robust to unlikely events with distinctive patterns, such as anomalies. These anomalies manifest as unique distortion features that can be accurately detected in testing conditions. This new architecture allows us to train a fully unsupervised model that has high accuracy in detecting anomalies from a distortion score despite being trained with some portion of unlabelled anomalous data. This setting is in stark contrast to many of the state-of-the-art unsupervised methodologies that require the model to be only trained on\"normal data\". We argue that this partially violates the concept of unsupervised training for anomaly detection as the model uses an informed decision that selects what is normal from abnormal for training. Additionally, there is evidence to suggest it also effects the models ability at generalisation. We demonstrate that models that succeed in the paradigm where they are only trained on normal data fail to be robust when anomalous data is injected into the training. In contrast, our compression-based approach converges to a robust representation that tolerates some anomalous distortion. The robust representation achieved by a model using a rate-distortion loss can be used in a more realistic unsupervised anomaly detection scheme."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rCP5iTYLtfcoC8NXd/self-organised-neural-networks-a-simple-natural-and",
+    "author": "D𝜋",
+    "title": "Self-Organised Neural Networks:\nA simple, natural and efficient way to intelligence",
+    "published_date": "2022-01-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.12998v2.pdf",
+    "title": "Including Sparse Production Knowledge into Variational Autoencoders to Increase Anomaly Detection Reliability",
+    "published_date": "2021-03-24",
+    "abstract": "Digitalization leads to data transparency for production systems that we can benefit from with data-driven analysis methods like neural networks. For example, automated anomaly detection enables saving resources and optimizing the production. We study using rarely occurring information about labeled anomalies into Variational Autoencoder neural network structures to overcome information deficits of supervised and unsupervised approaches. This method outperforms all other models in terms of accuracy, precision, and recall. We evaluate the following methods: Principal Component Analysis, Isolation Forest, Classifying Neural Networks, and Variational Autoencoders on seven time series datasets to find the best performing detection methods. We extend this idea to include more infrequently occurring meta information about production processes. This use of sparse labels, both of anomalies or production data, allows to harness any additional information available for increasing anomaly detection performance.",
+    "citation_count": 2
+  }
+]

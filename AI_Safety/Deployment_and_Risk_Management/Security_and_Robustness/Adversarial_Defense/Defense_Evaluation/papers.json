@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://arxiv.org/abs/1902.06705",
+    "title": "On Evaluating Adversarial Robustness",
+    "published_date": "2019-02-18",
+    "abstract": "Correctly evaluating defenses against adversarial examples has proven to be extremely difficult. Despite the significant amount of recent work attempting to design defenses that withstand adaptive attacks, few have succeeded; most papers that propose defenses are quickly shown to be incorrect. \nWe believe a large contributing factor is the difficulty of performing security evaluations. In this paper, we discuss the methodological foundations, review commonly accepted best practices, and suggest new methods for evaluating defenses to adversarial examples. We hope that both researchers developing defenses as well as readers and reviewers who wish to understand the completeness of an evaluation consider our advice in order to avoid common pitfalls.",
+    "citation_count": 844,
+    "summary": "This paper addresses the difficulty of reliably evaluating adversarial robustness in machine learning, arguing that flawed evaluation methodologies contribute to the overestimation of defense effectiveness and proposing improved evaluation methods to mitigate this problem."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2003.01690v1.pdf",
+    "title": "Reliable evaluation of adversarial robustness with an ensemble of diverse parameter-free attacks",
+    "published_date": "2020-03-03",
+    "abstract": "The field of defense strategies against adversarial attacks has significantly grown over the last years, but progress is hampered as the evaluation of adversarial defenses is often insufficient and thus gives a wrong impression of robustness. Many promising defenses could be broken later on, making it difficult to identify the state-of-the-art. Frequent pitfalls in the evaluation are improper tuning of hyperparameters of the attacks, gradient obfuscation or masking. In this paper we first propose two extensions of the PGD-attack overcoming failures due to suboptimal step size and problems of the objective function. We then combine our novel attacks with two complementary existing ones to form a parameter-free, computationally affordable and user-independent ensemble of attacks to test adversarial robustness. We apply our ensemble to over 50 models from papers published at recent top machine learning and computer vision venues. In all except one of the cases we achieve lower robust test accuracy than reported in these papers, often by more than $10\\%$, identifying several broken defenses.",
+    "citation_count": 1626,
+    "summary": "The paper introduces a parameter-free ensemble of diverse attacks to reliably evaluate adversarial robustness, revealing that many published defenses are less robust than previously reported, often by over 10%, due to insufficient evaluation methodologies. This ensemble overcomes limitations of existing attacks by addressing issues like hyperparameter tuning and gradient masking."
+  },
+  {
+    "url": "https://arxiv.org/abs/2002.08347",
+    "title": "On Adaptive Attacks to Adversarial Example Defenses",
+    "published_date": "2020-02-19",
+    "abstract": "Adaptive attacks have (rightfully) become the de facto standard for evaluating defenses to adversarial examples. We find, however, that typical adaptive evaluations are incomplete. We demonstrate that thirteen defenses recently published at ICLR, ICML and NeurIPS---and chosen for illustrative and pedagogical purposes---can be circumvented despite attempting to perform evaluations using adaptive attacks. While prior evaluation papers focused mainly on the end result---showing that a defense was ineffective---this paper focuses on laying out the methodology and the approach necessary to perform an adaptive attack. We hope that these analyses will serve as guidance on how to properly perform adaptive attacks against defenses to adversarial examples, and thus will allow the community to make further progress in building more robust models.",
+    "citation_count": 786,
+    "summary": "The paper reveals flaws in the standard methodology for evaluating adversarial example defenses, demonstrating that thirteen recently published defenses, while seemingly effective under typical adaptive attacks, can be circumvented using a more comprehensive approach. The authors thus provide a refined methodology for conducting adaptive attacks to improve future defense evaluations."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.11126",
+    "title": "CARE: Ensemble Adversarial Robustness Evaluation Against Adaptive Attackers for Security Applications",
+    "published_date": "2024-01-20",
+    "abstract": "Ensemble defenses, are widely employed in various security-related applications to enhance model performance and robustness. The widespread adoption of these techniques also raises many questions: Are general ensembles defenses guaranteed to be more robust than individuals? Will stronger adaptive attacks defeat existing ensemble defense strategies as the cybersecurity arms race progresses? Can ensemble defenses achieve adversarial robustness to different types of attacks simultaneously and resist the continually adjusted adaptive attacks? Unfortunately, these critical questions remain unresolved as there are no platforms for comprehensive evaluation of ensemble adversarial attacks and defenses in the cybersecurity domain. In this paper, we propose a general Cybersecurity Adversarial Robustness Evaluation (CARE) platform aiming to bridge this gap.",
+    "citation_count": 1,
+    "summary": "The CARE platform addresses the lack of comprehensive evaluation methods for ensemble adversarial defenses in cybersecurity by providing a framework to assess their robustness against adaptive attacks. This platform aims to resolve key questions regarding the effectiveness and limitations of ensemble defenses against evolving attack strategies."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.10980v2",
+    "title": "MultiRobustBench: Benchmarking Robustness Against Multiple Attacks",
+    "published_date": "2023-02-21",
+    "abstract": "The bulk of existing research in defending against adversarial examples focuses on defending against a single (typically bounded Lp-norm) attack, but for a practical setting, machine learning (ML) models should be robust to a wide variety of attacks. In this paper, we present the first unified framework for considering multiple attacks against ML models. Our framework is able to model different levels of learner's knowledge about the test-time adversary, allowing us to model robustness against unforeseen attacks and robustness against unions of attacks. Using our framework, we present the first leaderboard, MultiRobustBench, for benchmarking multiattack evaluation which captures performance across attack types and attack strengths. We evaluate the performance of 16 defended models for robustness against a set of 9 different attack types, including Lp-based threat models, spatial transformations, and color changes, at 20 different attack strengths (180 attacks total). Additionally, we analyze the state of current defenses against multiple attacks. Our analysis shows that while existing defenses have made progress in terms of average robustness across the set of attacks used, robustness against the worst-case attack is still a big open problem as all existing models perform worse than random guessing.",
+    "citation_count": 7,
+    "summary": "MultiRobustBench introduces a unified framework and leaderboard for evaluating machine learning model robustness against multiple adversarial attacks, revealing that while average robustness has improved, defenses still struggle against worst-case attacks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.13464",
+    "title": "Randomness in ML Defenses Helps Persistent Attackers and Hinders Evaluators",
+    "published_date": "2023-02-27",
+    "abstract": "It is becoming increasingly imperative to design robust ML defenses. However, recent work has found that many defenses that initially resist state-of-the-art attacks can be broken by an adaptive adversary. In this work we take steps to simplify the design of defenses and argue that white-box defenses should eschew randomness when possible. We begin by illustrating a new issue with the deployment of randomized defenses that reduces their security compared to their deterministic counterparts. We then provide evidence that making defenses deterministic simplifies robustness evaluation, without reducing the effectiveness of a truly robust defense. Finally, we introduce a new defense evaluation framework that leverages a defense's deterministic nature to better evaluate its adversarial robustness.",
+    "citation_count": 7,
+    "summary": "This paper argues that randomness in machine learning defenses can be detrimental, making them easier for persistent attackers to break and harder for evaluators to assess effectively. The authors propose that deterministic defenses are preferable, leading to simpler evaluation and potentially stronger security."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2202.13711v2.pdf",
+    "title": "Evaluating the Adversarial Robustness of Adaptive Test-time Defenses",
+    "published_date": "2022-02-28",
+    "abstract": "Adaptive defenses, which optimize at test time, promise to improve adversarial robustness. We categorize such adaptive test-time defenses, explain their potential benefits and drawbacks, and evaluate a representative variety of the latest adaptive defenses for image classification. Unfortunately, none significantly improve upon static defenses when subjected to our careful case study evaluation. Some even weaken the underlying static model while simultaneously increasing inference computation. While these results are disappointing, we still believe that adaptive test-time defenses are a promising avenue of research and, as such, we provide recommendations for their thorough evaluation. We extend the checklist of Carlini et al. (2019) by providing concrete steps specific to adaptive defenses.",
+    "citation_count": 60,
+    "summary": "This paper evaluates several state-of-the-art adaptive test-time defenses against adversarial attacks, finding that none significantly outperform static defenses and some even degrade performance; despite these negative results, the authors advocate for continued research and provide recommendations for improved future evaluation."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2203.05154.pdf",
+    "title": "Practical Evaluation of Adversarial Robustness via Adaptive Auto Attack",
+    "published_date": "2022-03-10",
+    "abstract": "Defense models against adversarial attacks have grown significantly, but the lack of practical evaluation methods has hindered progress. Evaluation can be defined as looking for defense models' lower bound of robustness given a budget number of iterations and a test dataset. A practical evaluation method should be convenient (i.e., parameter-free), efficient (i.e., fewer iterations) and reliable (i.e., approaching the lower bound of robustness). Towards this target, we propose a parameter-free Adaptive Auto Attack (A3) evaluation method which addresses the efficiency and reliability in a test-time-training fashion. Specifically, by observing that adversarial examples to a specific defense model follow some regularities in their starting points, we design an Adaptive Direction Initialization strategy to speed up the evaluation. Furthermore, to approach the lower bound of robustness under the budget number of iterations, we propose an online statistics-based discarding strategy that automatically identifies and abandons hard-to-attack images. Extensive experiments on nearly 50 widely-used defense models demonstrate the effectiveness of our A3. By consuming much fewer iterations than existing methods, i.e., 1/10 on average (10× speed up), we achieve lower robust accuracy in all cases. Notably, we won first place out of 1681 teams in CVPR 2021 White-box Adversarial Attacks on Defense Models competitions with this method. Code is available at: https://github.com/liuye6666/adaptive_auto_attack",
+    "citation_count": 53,
+    "summary": "Adaptive Auto Attack (A3) is a parameter-free adversarial attack evaluation method that significantly improves efficiency and reliability by using adaptive direction initialization and an online discarding strategy, achieving lower robust accuracy with far fewer iterations than existing methods. A3's superior performance was demonstrated by winning a CVPR 2021 competition."
+  }
+]

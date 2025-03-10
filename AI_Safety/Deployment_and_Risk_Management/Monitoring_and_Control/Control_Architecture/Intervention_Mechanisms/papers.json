@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that successful AGI development requires integrating diverse fields (cognitive science, social sciences, engineering) and utilizing multiple theoretical frameworks to design \"safe\" and beneficial AI systems, rather than relying solely on technical solutions in isolation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/iwCRYnGYMvxgzrCMf/complex-systems-are-hard-to-control",
+    "author": "jsteinhardt",
+    "title": "Complex Systems are Hard to Control",
+    "published_date": "2023-04-04",
+    "summary": "Deep learning systems, as complex adaptive systems, present unique safety challenges beyond those addressed by traditional engineering approaches. Their emergent behavior and intricate feedback loops lead to unpredictable responses to control efforts, necessitating safety measures that account for this inherent complexity."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/FeY4tXMYdTQSM4go3/how-rl-agents-behave-when-their-actions-are-modified",
+    "author": "PabloAMC",
+    "title": "How RL Agents Behave When Their Actions Are Modified? [Distillation post]",
+    "published_date": "2022-05-20",
+    "summary": "The paper explores Modified Action Markov Decision Processes (MAMDPs), extending standard MDPs to model scenarios where an agent's actions can be overridden. It analyzes how different reinforcement learning agents behave in MAMDPs, revealing that some standard algorithms may unexpectedly become corrigible due to their ignorance of action modification possibilities."
+  },
+  {
+    "title": "Safety from in-the-loop reachability for cyber-physical systems",
+    "abstract": "We demonstrate a methodology for achieving safe autonomy that relies on computing reachable sets at runtime. Given a system subject to disturbances controlled by an unverified and potentially faulty controller, this methodology computes at each time the reachable set of the system under a backup control law to ensure the system is within reach of a known a priori safe region. Control barrier functions are then used in conjunction with the reachable set to adjust potentially unsafe control actions that would otherwise move the system beyond reach of this safe set. This approach faces several computational challenges: reachable sets for the dynamics must be computed at runtime; sensitivity of the reachable set to initial conditions is required for the control barrier optimization formulation; and the presence of disturbances introduces a large number of constraints in the resulting optimization. The proposed methodology leverages the theory of mixed monotone systems to address these challenges, and the main contribution of this paper is an application of this methodology to a ten dimensional dual planar multirotor system that is implemented on embedded hardware with a controller update rate up to 100Hz.",
+    "published_date": "2021-05-19",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3457335.3461706",
+    "summary": "This paper presents a runtime safety verification method for cyber-physical systems using reachable set computations and control barrier functions, addressing computational challenges through mixed monotone system theory and demonstrating its application on a high-dimensional multirotor system with a high update rate."
+  },
+  {
+    "title": "FaiR-IoT: Fairness-aware Human-in-the-Loop Reinforcement Learning for Harnessing Human Variability in Personalized IoT",
+    "abstract": "Thanks to the rapid growth in wearable technologies, monitoring complex human context becomes feasible, paving the way to develop human-in-the-loop IoT systems that naturally evolve to adapt to the human and environment state autonomously. Nevertheless, a central challenge in designing such personalized IoT applications arises from human variability. Such variability stems from the fact that different humans exhibit different behaviors when interacting with IoT applications (intra-human variability), the same human may change the behavior over time when interacting with the same IoT application (inter-human variability), and human behavior may be affected by the behaviors of other people in the same environment (multi-human variability). To that end, we propose FaiR-IoT, a general reinforcement learning-based framework for adaptive and fairness-aware human-in-the-loop IoT applications. In FaiR-IoT, three levels of reinforcement learning agents interact to continuously learn human preferences and maximize the system's performance and fairness while taking into account the intra-, inter-, and multi-human variability. We validate the proposed framework on two applications, namely (i) Human-in-the-Loop Automotive Advanced Driver Assistance Systems and (ii) Human-in-the-Loop Smart House. Results obtained on these two applications validate the generality of FaiR-IoT and its ability to provide a personalized experience while enhancing the system's performance by 40%-60% compared to non-personalized systems and enhancing the fairness of the multi-human systems by 1.5 orders of magnitude.",
+    "published_date": "2021-03-30",
+    "citation_count": 25,
+    "url": "https://dl.acm.org/doi/10.1145/3450268.3453525",
+    "summary": "FaiR-IoT is a reinforcement learning framework for personalized IoT systems that addresses human variability (intra-, inter-, and multi-human) by using three interacting agents to learn user preferences, optimize system performance, and ensure fairness. This approach improves performance by 40-60% and fairness by 1.5 orders of magnitude compared to non-personalized systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BZKLf629NDNfEkZzJ/creating-agi-safety-interlocks",
+    "author": "Koen.Holtman",
+    "title": "Creating AGI Safety Interlocks",
+    "published_date": "2021-02-05",
+    "summary": "This article proposes a counterfactual planning agent with three safety interlocks—a manual emergency stop, an automatic time-based shutdown, and a power-based limit—to mitigate risks associated with advanced AI, particularly the \"corrigibility\" problem and potential intelligence explosions. These interlocks aim to enable human oversight even when the agent's reward function doesn't fully align with human intentions."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/wxbMsGgdHEgZ65Zyi/stop-button-towards-a-causal-solution",
+    "author": "tailcalled",
+    "title": "Stop button: towards a causal solution",
+    "published_date": "2021-11-12",
+    "summary": "The article proposes a solution to the \"stop button problem\" in artificial general intelligence (AGI) using a counterfactual utility function. This function prioritizes respecting human intent to stop the AI while still pursuing its primary goals, mitigating the AI's incentive to prevent its own shutdown."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes AI safety-relevant content, reflecting the principle that careful reading should be followed by summarization."
+  }
+]

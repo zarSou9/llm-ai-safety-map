@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential trajectories of transformative AI (TAI), focusing on scenarios where TAI emerges within the next decade. This research aims to identify existential hazards, evaluate AI safety and governance strategies across those scenarios, and recommend strategies to mitigate existential risk."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/4XeD5goRb3N6Ch2ji/upskilling-bridge-building-research-on-security-cryptography",
+    "author": "Allison Duettmann",
+    "title": "Upskilling, bridge-building, research on security/cryptography and AI safety",
+    "published_date": "2023-04-20",
+    "summary": "This five-part series explores applying cybersecurity and cryptography principles to AI safety, covering areas like hardware security, AI alignment parallels with security practices, boundary-based security approaches, and specific cryptographic techniques. The author also highlights the need for increased collaboration between security/cryptography experts and AI safety researchers, emphasizing career opportunities in this intersectional field."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, emphasizing the need to integrate theoretical and empirical research across diverse fields (cognitive science, social sciences, engineering) to design \"safe\" AGI systems within a framework of \"civilizational intelligence.\" This holistic approach prioritizes pragmatism and considers various theoretical perspectives, even \"competing\" ones, to robustly evaluate AI alignment paradigms and architectures."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kvk2ZorXui4YB4zvc/part-1-direct-help-with-ai-info-and-computer-security",
+    "author": "Allison Duettmann",
+    "title": "AI infosec: first strikes, zero-day markets, hardware supply chains, adoption barriers",
+    "published_date": "2023-04-01",
+    "summary": "The article discusses the significant security risks associated with Artificial General Intelligence (AGI) development, emphasizing the potential for preemptive cyberattacks by nation-states fearing an AGI arms race. These attacks, unlike traditional kinetic warfare, are harder to attribute and could lead to increased global instability due to the proliferation of zero-day exploits and the inherent vulnerabilities within existing computer systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2oAxpRuadyjN2ERhe/information-security-considerations-for-ai-and-the-long-term",
+    "author": "Jeffrey Ladish, lennart",
+    "title": "Information security considerations for AI and the long term future",
+    "published_date": "2022-05-02",
+    "summary": "The authors argue that the development of artificial general intelligence (AGI) poses an existential risk, exacerbated by potential hacking by state actors seeking a competitive advantage. Therefore, significantly improving the information security of AGI development organizations and their supply chains is crucial to mitigating this risk."
+  },
+  {
+    "title": "A Data Sharing Scheme Based on Blockchain System and Attribute-Based Encryption",
+    "abstract": "Blockchain systems offer a decentralized, immutable and transparent architecture that can give the ownership and control of data back to users, empower trusted and accountable data sharing. However, there still exist different scalability, security and potential privacy issues in blockchain networks, such as on-chain data privacy, data origin authentication, or compliance with privacy regulations (e.g. GDPR). To address these challenges, we propose a privacy-preserving and user-controlled architecture for data sharing based on blockchain system and Ciphertext-Policy Attribute-Based Encryption (CP-ABE), called ThemisABE. The proposed scheme has properties including one-to-many data encrypting and fined-grained access control. In the ThemisABE, any party can be an authority and the algorithm of CP-ABE generates the secret key corresponding to attributes for data user through any chosen set of nodes in blockchain system. Moreover, in order to realize accountability of CP-ABE algorithm and avoid performance bottleneck incurred by smart contracts, a kind of data structure of transactions is designed to record in the ledger, following an approaches to off-chain computations. The results of security analysis and experimental simulation show that the proposed scheme can solves the problems of privacy security and localization of data sharing. At the same time, the data sharing scheme has better performance and could be applied in some scenarios, such as eHealth, eGovernment or cross-border paperless trade.",
+    "published_date": "2021-03-26",
+    "citation_count": 5,
+    "url": "https://dl.acm.org/doi/10.1145/3460537.3460559",
+    "summary": "ThemisABE, a data sharing scheme combining blockchain and ciphertext-policy attribute-based encryption (CP-ABE), offers fine-grained access control and enhanced privacy by leveraging off-chain computations to mitigate blockchain scalability issues and improve performance. This approach enables secure and accountable data sharing while addressing privacy concerns."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This is a periodically published collection of materials related to artificial intelligence safety. The publication emphasizes the importance of summarizing read articles for better comprehension and retention."
+  },
+  {
+    "title": "Introduction to Secure Collaborative Intelligence (SCI) Lab",
+    "abstract": "With the rapid development of technology, user privacy and data security are drawing much attention over the recent years. On one hand, how to protect user privacy while making use of customers? data is a challenging task. On the other hand, data silos are becoming one of the most prominent issues for the society. How to bridge these isolated data islands to build better AI and BI systems while meeting the data privacy and regulatory compliance requirements has imposed great challenges. Secure Collaborative Intelligence (SCI) lab at Ant Group dedicates to leverage multiple privacy-preserving technologies on AI and BI to solve these challenges. The goal of SCI lab is to build enterprise-level solutions that allow multiple data owners to achieve joint risk control, joint marketing, joint data analysis and other cross-organization collaboration scenarios without compromising information privacy or violating any related security policy. Compared with other solution providers, SCI lab has been working with top universities and research organizations to build the first privacy-preserving open platform for collaborative intelligence computation in the world. It is the first platform that combines all three cutting-edge privacy-preserving technologies, secure multi-party computation (MPC), differential privacy (DP) and trusted execution environment (TEE) that are based on cryptography, information theory and computer hardware respectively, on multi-party AI and BI collaboration scenarios. During multi-party collaboration, all inputs, computations and results are protected under specific security policy dedicatedly designed for each data owner. At this time, the platform has been applied to various business scenarios in Ant group and Alibaba Group, including joint lending, collaborative data analysis, joint payment fraud detection, etc. More than 20 financial organizations, have been benefited from the secure data collaboration and computing services provided by SCI lab.",
+    "published_date": "2020-11-09",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3411501.3418606",
+    "summary": "Ant Group's Secure Collaborative Intelligence (SCI) lab develops and deploys a privacy-preserving platform, combining MPC, DP, and TEE, enabling multiple organizations to collaboratively utilize data for AI and BI applications without compromising privacy or security. This platform has been successfully implemented across various business scenarios within Ant Group and Alibaba, and benefits over 20 financial institutions."
+  }
+]

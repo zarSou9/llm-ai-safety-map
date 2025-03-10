@@ -1,0 +1,62 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.13138",
+    "title": "Visibility into AI Agents",
+    "published_date": "2024-01-23",
+    "abstract": "Increased delegation of commercial, scientific, governmental, and personal activities to AI agents—systems capable of pursuing complex goals with limited supervision—may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.",
+    "citation_count": 12,
+    "summary": "This paper examines methods to increase \"visibility\" into AI agents—understanding their use, deployment, and impact—by analyzing agent identifiers, real-time monitoring, and activity logging, considering their implications for privacy and power concentration. The authors propose these measures as crucial for mitigating the societal risks associated with increased AI agent autonomy."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising but largely unexplored AI safety strategy. Current efforts include export controls and reporting requirements, while future possibilities range from enhancing transparency and influencing resource allocation to enforcing regulations through technological means."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), particularly focusing on short timelines (within a decade). The program aims to evaluate strategies for AI safety and governance across these scenarios to mitigate existential risks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, focuses on AI model registries—centralized databases tracking AI systems for governance purposes. These registries, drawing parallels to pharmaceutical regulations, vary widely in implementation across countries like the US and China, mandating varying levels of model information and pre-release safety assessments."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for third-party testing of large-scale AI systems to mitigate societal harms stemming from misuse or accidents. They propose a policy framework involving industry, government, and academia to develop and implement this testing regime, balancing safety concerns with the beneficial deployment of AI."
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.15514",
+    "title": "International Governance of Civilian AI: A Jurisdictional Certification Approach",
+    "published_date": "2023-08-29",
+    "abstract": "This report describes trade-offs in the design of international governance arrangements for civilian artificial intelligence (AI) and presents one approach in detail. This approach represents the extension of a standards, licensing, and liability regime to the global level. We propose that states establish an International AI Organization (IAIO) to certify state jurisdictions (not firms or AI projects) for compliance with international oversight standards. States can give force to these international standards by adopting regulations prohibiting the import of goods whose supply chains embody AI from non-IAIO-certified jurisdictions. This borrows attributes from models of existing international organizations, such as the International Civilian Aviation Organization (ICAO), the International Maritime Organization (IMO), and the Financial Action Task Force (FATF). States can also adopt multilateral controls on the export of AI product inputs, such as specialized hardware, to non-certified jurisdictions. Indeed, both the import and export standards could be required for certification. As international actors reach consensus on risks of and minimum standards for advanced AI, a jurisdictional certification regime could mitigate a broad range of potential harms, including threats to public safety.",
+    "citation_count": 19,
+    "summary": "This report proposes an international AI governance framework where a new organization certifies state jurisdictions on AI safety standards, leveraging import/export controls to incentivize compliance globally. This jurisdictional certification approach aims to mitigate risks associated with advanced AI through a system analogous to existing international organizations regulating aviation, maritime transport, and finance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.11350",
+    "title": "An Alternative to Regulation: The Case for Public AI",
+    "published_date": "2023-11-19",
+    "abstract": "Can governments build AI? In this paper, we describe an ongoing effort to develop ``public AI'' -- publicly accessible AI models funded, provisioned, and governed by governments or other public bodies. Public AI presents both an alternative and a complement to standard regulatory approaches to AI, but it also suggests new technical and policy challenges. We present a roadmap for how the ML research community can help shape this initiative and support its implementation, and how public AI can complement other responsible AI initiatives.",
+    "citation_count": 2,
+    "summary": "This paper proposes \"public AI,\" government-funded and -controlled AI models, as an alternative and complement to AI regulation. It outlines a roadmap for researchers to contribute to the development and implementation of this approach."
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.04448",
+    "title": "Dual Governance: The intersection of centralized regulation and crowdsourced safety mechanisms for Generative AI",
+    "published_date": "2023-08-02",
+    "abstract": "Generative Artificial Intelligence (AI) has seen mainstream adoption lately, especially in the form of consumer-facing, open-ended, text and image generating models. However, the use of such systems raises significant ethical and safety concerns, including privacy violations, misinformation and intellectual property theft. The potential for generative AI to displace human creativity and livelihoods has also been under intense scrutiny. To mitigate these risks, there is an urgent need of policies and regulations responsible and ethical development in the field of generative AI. Existing and proposed centralized regulations by governments to rein in AI face criticisms such as not having sufficient clarity or uniformity, lack of interoperability across lines of jurisdictions, restricting innovation, and hindering free market competition. Decentralized protections via crowdsourced safety tools and mechanisms are a potential alternative. However, they have clear deficiencies in terms of lack of adequacy of oversight and difficulty of enforcement of ethical and safety standards, and are thus not enough by themselves as a regulation mechanism. We propose a marriage of these two strategies via a framework we call Dual Governance. This framework proposes a cooperative synergy between centralized government regulations in a U.S. specific context and safety mechanisms developed by the community to protect stakeholders from the harms of generative AI. By implementing the Dual Governance framework, we posit that innovation and creativity can be promoted while ensuring safe and ethical deployment of generative AI.",
+    "citation_count": 3,
+    "summary": "This paper proposes \"Dual Governance,\" a framework combining centralized government regulations with decentralized, crowdsourced safety mechanisms to mitigate the ethical and safety risks of generative AI, aiming to balance innovation with responsible development. This approach seeks to overcome limitations inherent in solely centralized or decentralized regulatory approaches."
+  }
+]

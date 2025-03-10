@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.07878",
+    "title": "Mapping Technical Safety Research at AI Companies: A literature review and incentives analysis",
+    "published_date": "2024-09-12",
+    "abstract": "As AI systems become more advanced, concerns about large-scale risks from misuse or accidents have grown. This report analyzes the technical research into safe AI development being conducted by three leading AI companies: Anthropic, Google DeepMind, and OpenAI. We define safe AI development as developing AI systems that are unlikely to pose large-scale misuse or accident risks. This encompasses a range of technical approaches aimed at ensuring AI systems behave as intended and do not cause unintended harm, even as they are made more capable and autonomous. We analyzed all papers published by the three companies from January 2022 to July 2024 that were relevant to safe AI development, and categorized the 80 included papers into nine safety approaches. Additionally, we noted two categories representing nascent approaches explored by academia and civil society, but not currently represented in any research papers by these leading AI companies. Our analysis reveals where corporate attention is concentrated and where potential gaps lie. Some AI research may stay unpublished for good reasons, such as to not inform adversaries about the details of security techniques they would need to overcome to misuse AI systems. Therefore, we also considered the incentives that AI companies have to research each approach, regardless of how much work they have published on the topic. We identified three categories where there are currently no or few papers and where we do not expect AI companies to become much more incentivized to pursue this research in the future. These are model organisms of misalignment, multi-agent safety, and safety by design. Our findings provide an indication that these approaches may be slow to progress without funding or efforts from government, civil society, philanthropists, or academia.",
+    "summary": "This literature review analyzes publicly available research on AI safety from Anthropic, Google DeepMind, and OpenAI, categorizing 80 papers into nine safety approaches and identifying three under-researched areas (model organisms of misalignment, multi-agent safety, and safety by design) where increased external funding may be needed to drive progress."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.18393",
+    "title": "Exploring the Impact of Rewards on Developers' Proactive AI Accountability Behavior",
+    "published_date": "2024-11-27",
+    "abstract": "The rapid integration of Artificial Intelligence (AI)-based systems offers benefits for various domains of the economy and society but simultaneously raises concerns due to emerging scandals. These scandals have led to the increasing importance of AI accountability to ensure that actors provide justification and victims receive compensation. However, AI accountability has a negative connotation due to its emphasis on penalizing sanctions, resulting in reactive approaches to emerging concerns. To counteract the prevalent negative view and offer a proactive approach to facilitate the AI accountability behavior of developers, we explore rewards as an alternative mechanism to sanctions. We develop a theoretical model grounded in Self-Determination Theory to uncover the potential impact of rewards and sanctions on AI developers. We further identify typical sanctions and bug bounties as potential reward mechanisms by surveying related research from various domains, including cybersecurity.",
+    "summary": "This paper investigates the use of rewards, specifically bug bounties, as a proactive approach to fostering AI accountability among developers, contrasting this with the typically negative and reactive approach of sanctions. A theoretical model based on Self-Determination Theory is used to explore the impact of both reward and sanction mechanisms."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.17114",
+    "title": "Decentralized Governance of Autonomous AI Agents",
+    "published_date": "2024-12-22",
+    "abstract": "Autonomous AI agents present transformative opportunities and significant governance challenges. Existing frameworks, such as the EU AI Act and the NIST AI Risk Management Framework, fall short of addressing the complexities of these agents, which are capable of independent decision-making, learning, and adaptation. To bridge these gaps, we propose the ETHOS (Ethical Technology and Holistic Oversight System) framework, a decentralized governance (DeGov) model leveraging Web3 technologies, including blockchain, smart contracts, and decentralized autonomous organizations (DAOs). ETHOS establishes a global registry for AI agents, enabling dynamic risk classification, proportional oversight, and automated compliance monitoring through tools like soulbound tokens and zero-knowledge proofs. Furthermore, the framework incorporates decentralized justice systems for transparent dispute resolution and introduces AI specific legal entities to manage limited liability, supported by mandatory insurance to ensure financial accountability and incentivize ethical design. By integrating philosophical principles of rationality, ethical grounding, and goal alignment, ETHOS aims to create a robust research agenda for promoting trust, transparency, and participatory governance. This innovative framework offers a scalable and inclusive strategy for regulating AI agents, balancing innovation with ethical responsibility to meet the demands of an AI-driven future.",
+    "summary": "The ETHOS framework proposes a decentralized governance model for autonomous AI agents using Web3 technologies, addressing limitations of current regulatory frameworks by establishing a global registry, automated compliance monitoring, and decentralized justice systems for ethical and accountable AI development. This approach aims to balance innovation with responsible AI governance through transparency and participatory mechanisms."
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.09510",
+    "title": "Trust AI Regulation? Discerning users are vital to build trust and effective AI regulation",
+    "published_date": "2024-03-14",
+    "abstract": "There is general agreement that some form of regulation is necessary both for AI creators to be incentivised to develop trustworthy systems, and for users to actually trust those systems. But there is much debate about what form these regulations should take and how they should be implemented. Most work in this area has been qualitative, and has not been able to make formal predictions. Here, we propose that evolutionary game theory can be used to quantitatively model the dilemmas faced by users, AI creators, and regulators, and provide insights into the possible effects of different regulatory regimes. We show that creating trustworthy AI and user trust requires regulators to be incentivised to regulate effectively. We demonstrate the effectiveness of two mechanisms that can achieve this. The first is where governments can recognise and reward regulators that do a good job. In that case, if the AI system is not too risky for users then some level of trustworthy development and user trust evolves. We then consider an alternative solution, where users can condition their trust decision on the effectiveness of the regulators. This leads to effective regulation, and consequently the development of trustworthy AI and user trust, provided that the cost of implementing regulations is not too high. Our findings highlight the importance of considering the effect of different regulatory regimes from an evolutionary game theoretic perspective.",
+    "citation_count": 7,
+    "summary": "This paper uses evolutionary game theory to model the interplay between AI creators, users, and regulators, demonstrating that effective AI regulation, leading to trustworthy AI and user trust, requires incentivizing regulators through either governmental reward systems or user-conditional trust mechanisms. The effectiveness of these mechanisms depends on factors such as the riskiness of AI systems and the cost of regulation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to analyze potential trajectories of transformative AI (TAI), focusing on scenarios with short timelines (within a decade) due to their high risk. The program aims to identify existential hazards, evaluate AI safety and governance strategies across these scenarios, and recommend strategies to mitigate existential risk."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, examines AI model registries—centralized databases tracking AI systems for governance purposes. These registries, varying widely in implementation across countries like China and the US, require AI model information and aim to facilitate regulation by focusing on individual models rather than entire companies or use cases."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.02561.pdf",
+    "title": "Beneficence Signaling in AI Development Dynamics",
+    "published_date": "2023-05-04",
+    "abstract": "This paper motivates and develops a framework for understanding how the socio-technical systems surrounding AI development interact with social welfare. It introduces the concept of ``signaling'' from evolutionary game theory and demonstrates how it can enhance existing theory and practice surrounding the evaluation and governance of AI systems.",
+    "summary": "This paper proposes a framework using \"beneficence signaling\" from evolutionary game theory to analyze how AI development's socio-technical systems impact social welfare. It argues that this framework improves AI system evaluation and governance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and a long version, categorize AI safety research by keywords and subject areas to help machine learning researchers quickly assess potential research avenues based on their existing expertise. The resource aims to facilitate entry into the AI safety field by connecting researchers with relevant organizations, papers, and individuals."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/AKBkDNeFLZxaMqjQG/a-practical-incremental-pathway-to-safe-tai-oaa-in-the-real",
+    "author": "Roman Leventov, Rafael Kaufmann Nedal",
+    "title": "Gaia Network: a practical, incremental pathway to Open Agency Architecture",
+    "published_date": "2023-12-20",
+    "summary": "The article proposes Gaia, a decentralized network leveraging existing technologies and economic mechanisms to build a world model for safe AI development, aligning with the Open Agency Architecture's goals by fostering collaboration and iterative improvement through a distributed, competitive knowledge economy. This bottom-up approach aims to achieve wide adoption and address AI safety alongside broader global challenges."
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.04754v1",
+    "title": "System Cards for AI-Based Decision-Making for Public Policy",
+    "published_date": "2022-03-01",
+    "abstract": "Decisions impacting human lives are increasingly being made or assisted by automated decision-making algorithms. Many of these algorithms process personal data for predicting recidivism, credit risk analysis, identifying individuals using face recognition, and more. While potentially improving efficiency and effectiveness, such algorithms are not inherently free from bias, opaqueness, lack of explainability, maleficence, and the like. Given that the outcomes of these algorithms have a significant impact on individuals and society and are open to analysis and contestation after deployment, such issues must be accounted for before deployment. Formal audits are a way of ensuring algorithms meet the appropriate accountability standards. This work, based on an extensive analysis of the literature and an expert focus group study, proposes a unifying framework for a system accountability benchmark for formal audits of artificial intelligence-based decision-aiding systems. This work also proposes system cards to serve as scorecards presenting the outcomes of such audits. It consists of 56 criteria organized within a four-by-four matrix composed of rows focused on (i) data, (ii) model, (iii) code, (iv) system, and columns focused on (a) development, (b) assessment, (c) mitigation, and (d) assurance. The proposed system accountability benchmark reflects the state-of-the-art developments for accountable systems, serves as a checklist for algorithm audits, and paves the way for sequential work in future research.",
+    "citation_count": 12,
+    "summary": "This paper proposes a system accountability benchmark and accompanying \"system cards\" for auditing AI-based public policy decision-making systems, using a 56-criteria framework to assess data, model, code, and system aspects across development, assessment, mitigation, and assurance stages. This framework aims to improve the transparency and accountability of AI systems impacting human lives."
+  }
+]

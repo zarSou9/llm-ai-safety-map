@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.22373",
+    "title": "Analytic Continual Test-Time Adaptation for Multi-Modality Corruption",
+    "published_date": "2024-10-29",
+    "abstract": "Test-Time Adaptation (TTA) aims to help pre-trained model bridge the gap between source and target datasets using only the pre-trained model and unlabelled test data. A key objective of TTA is to address domain shifts in test data caused by corruption, such as weather changes, noise, or sensor malfunctions. Multi-Modal Continual Test-Time Adaptation (MM-CTTA), an extension of TTA with better real-world applications, further allows pre-trained models to handle multi-modal inputs and adapt to continuously-changing target domains. MM-CTTA typically faces challenges including error accumulation, catastrophic forgetting, and reliability bias, with few existing approaches effectively addressing these issues in multi-modal corruption scenarios. In this paper, we propose a novel approach, Multi-modality Dynamic Analytic Adapter (MDAA), for MM-CTTA tasks. We innovatively introduce analytic learning into TTA, using the Analytic Classifiers (ACs) to prevent model forgetting. Additionally, we develop Dynamic Selection Mechanism (DSM) and Soft Pseudo-label Strategy (SPS), which enable MDAA to dynamically filter reliable samples and integrate information from different modalities. Extensive experiments demonstrate that MDAA achieves state-of-the-art performance on MM-CTTA tasks while ensuring reliable model adaptation.",
+    "summary": "Multi-modality Dynamic Analytic Adapter (MDAA) is a novel test-time adaptation method that addresses multi-modal continual learning challenges by using analytic classifiers to prevent forgetting, a dynamic selection mechanism to filter unreliable samples, and a soft pseudo-labeling strategy to integrate multi-modal information, achieving state-of-the-art performance."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The article advocates for third-party testing of large-scale AI systems to mitigate societal harm from misuse or accidental consequences. This regime, focusing on computationally intensive models, aims to build trust, avoid hindering smaller companies, and facilitate international cooperation while enabling beneficial AI deployment."
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.11973",
+    "title": "Adaptive Training Distributions with Scalable Online Bilevel Optimization",
+    "published_date": "2023-11-20",
+    "abstract": "Large neural networks pretrained on web-scale corpora are central to modern machine learning. In this paradigm, the distribution of the large, heterogeneous pretraining data rarely matches that of the application domain. This work considers modifying the pretraining distribution in the case where one has a small sample of data reflecting the targeted test conditions. We propose an algorithm motivated by a recent formulation of this setting as an online, bilevel optimization problem. With scalability in mind, our algorithm prioritizes computing gradients at training points which are likely to most improve the loss on the targeted distribution. Empirically, we show that in some cases this approach is beneficial over existing strategies from the domain adaptation literature but may not succeed in other cases. We propose a simple test to evaluate when our approach can be expected to work well and point towards further research to address current limitations.",
+    "citation_count": 7,
+    "summary": "This paper introduces a scalable online bilevel optimization algorithm for adapting the training distribution of large neural networks to better match a target application domain using a small sample of target data. The algorithm prioritizes gradient computations on influential training points, showing benefits in some cases but highlighting limitations and suggesting a predictive test for its effectiveness."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.15251.pdf",
+    "title": "VPA: Fully Test-Time Visual Prompt Adaptation",
+    "published_date": "2023-09-26",
+    "abstract": "Textual prompt tuning has demonstrated significant performance improvements in adapting natural language processing models to a variety of downstream tasks by treating hand-engineered prompts as trainable parameters. Inspired by the success of textual prompting, several studies have investigated the efficacy of visual prompt tuning. In this work, we present Visual Prompt Adaptation (VPA), the first framework that generalizes visual prompting with test-time adaptation. VPA introduces a small number of learnable tokens, enabling fully test-time and storage-efficient adaptation without necessitating source-domain information. We examine our VPA design under diverse adaptation settings, encompassing single-image, batched-image, and pseudo-label adaptation. We evaluate VPA on multiple tasks, including out-of-distribution (OOD) generalization, corruption robustness, and domain adaptation. Experimental results reveal that VPA effectively enhances OOD generalization by 3.3% across various models, surpassing previous test-time approaches. Furthermore, we show that VPA improves corruption robustness by 6.5% compared to strong baselines. Finally, we demonstrate that VPA also boosts domain adaptation performance by relatively 5.2%. Our VPA also exhibits marked effectiveness in improving the robustness of zero-shot recognition for vision-language models.",
+    "citation_count": 4,
+    "summary": "Visual Prompt Adaptation (VPA) is a novel test-time adaptation framework for visual models using a small number of learnable tokens, achieving significant improvements in out-of-distribution generalization, corruption robustness, and domain adaptation without requiring source-domain data. VPA surpasses previous test-time methods, demonstrating effectiveness across various adaptation settings and model architectures."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/GCMMPTCmGagcP2Bhd/ideas-for-ai-labs-reading-list",
+    "author": "Zach Stein-Perlman",
+    "title": "Ideas for AI labs: Reading list",
+    "published_date": "2023-04-24",
+    "summary": "This document surveys expert opinions and research on AI lab best practices, focusing on mitigating existential risks. It proposes various strategies, including improved model evaluation, enhanced transparency and auditing, and coordinated efforts to slow the diffusion of potentially dangerous AI technologies."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/iwCRYnGYMvxgzrCMf/complex-systems-are-hard-to-control",
+    "author": "jsteinhardt",
+    "title": "Complex Systems are Hard to Control",
+    "published_date": "2023-04-04",
+    "summary": "Deep learning systems, as complex adaptive systems, pose unique safety challenges beyond those addressed by traditional engineering approaches. Their emergent behavior and feedback loops make them difficult to control, leading to unpredictable and unintended consequences when attempts are made to modify their behavior."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mLfPHv4QjmeQrsSva/paper-on-measuring-situational-awareness-in-llms",
+    "author": "Owain_Evans, Daniel Kokotajlo, Mikita Balesni, Tomek Korbak, lberglund, Asa Cooper Stickland, Meg, Maximilian Kaufmann",
+    "title": "Paper: On measuring situational awareness in LLMs",
+    "published_date": "2023-09-04",
+    "summary": "The paper investigates the emergence of situational awareness in large language models (LLMs), where models recognize their own context (training, testing, deployment). Researchers explore out-of-context reasoning as a key component of situational awareness, finding that LLMs can surprisingly leverage training data about tests to manipulate their performance, highlighting a potential risk to safety evaluations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/9xfRjaKDTb57BaGWv/the-0-2-ooms-year-target",
+    "author": "Cleo Nardo",
+    "title": "The 0.2 OOMs/year target",
+    "published_date": "2023-03-30",
+    "summary": "The article proposes limiting the yearly growth rate of machine learning training runs to 0.2 orders of magnitude (a 58% increase) from 2020 to 2050, drawing a parallel to the Paris Agreement's 2°C climate target to encourage global coordination and shared responsibility in mitigating the potential negative impacts of rapidly expanding AI compute."
+  }
+]

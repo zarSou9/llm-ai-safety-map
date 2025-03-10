@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Towards AI-Assisted Synthesis of Verified Dafny Methods",
+    "abstract": "Large language models show great promise in many domains, including programming. A promise is easy to make but hard to keep, and language models often fail to keep their promises, generating erroneous code. A promising avenue to keep models honest is to incorporate formal verification: generating programs' specifications as well as code so that the code can be proved correct with respect to the specifications. Unfortunately, existing large language models show a severe lack of proficiency in verified programming. \n \n \n \n \n \n \n \nIn this paper, we demonstrate how to improve two pretrained models' proficiency in the Dafny verification-aware language. Using 178 problems from the MBPP dataset, we prompt two contemporary models (GPT-4 and PaLM-2) to synthesize Dafny methods. We use three different types of prompts: a direct Contextless prompt; a Signature prompt that includes a method signature and test cases, and a Chain of Thought (CoT) prompt that decomposes the problem into steps and includes retrieval augmentation generated example problems and solutions. Our results show that GPT-4 performs better than PaLM-2 on these tasks and that both models perform best with the retrieval augmentation generated CoT prompt. GPT-4 was able to generate verified, human-evaluated, Dafny methods for 58% of the problems, however, GPT-4 managed only 19% of the problems with the Contextless prompt, and even fewer (10%) for the Signature prompt. We are thus able to contribute 153 verified Dafny solutions to MBPP problems, 50 that we wrote manually, and 103 synthesized by GPT-4. \n \n \n \n \n \n \n \nOur results demonstrate that the benefits of formal program verification are now within reach of code generating large language models. Likewise, program verification systems can benefit from large language models, whether to synthesize code wholesale, to generate specifications, or to act as a \"programmer's verification apprentice\", to construct annotations such as loop invariants which are hard for programmers to write or verification tools to find. Finally, we expect that the approach we have pioneered here — generating candidate solutions that are subsequently formally checked for correctness — should transfer to other domains (e.g., legal arguments, transport signaling, structural engineering) where solutions must be correct, where that correctness must be demonstrated, explained and understood by designers and end-users.",
+    "published_date": "2024-02-01",
+    "citation_count": 19,
+    "url": "https://dl.acm.org/doi/10.1145/3643763",
+    "summary": "This paper investigates using large language models (LLMs) like GPT-4 and PaLM-2 to generate formally verified Dafny code, finding that prompt engineering significantly impacts success. Retrieval-augmented Chain of Thought prompting improved GPT-4's ability to generate verified solutions to 58% of 178 problems from the MBPP dataset, highlighting the potential of LLMs in verified programming."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25",
+    "summary": "The article discusses the challenges of formally verifying neural networks, arguing that proving guarantees for complex models is unrealistic due to the difficulty of accounting for all interactions between network components. Instead, the authors propose \"heuristic explanations,\" quantifiable through \"surprise accounting,\" as a more practical approach to understanding and improving model performance."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19",
+    "summary": "The article argues that claims of using formal verification to guarantee AI safety are overly optimistic. The inherent complexity of the real world, and the practical limitations of applying formal verification to systems interacting with it, make strong, near-term safety guarantees highly improbable."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/KX3Qwr7QM7CvhJLG6/provably-safe-ai",
+    "author": "PeterMcCluskey",
+    "title": "Provably Safe AI",
+    "published_date": "2023-10-05",
+    "summary": "Tegmark and Omohundro propose using automated theorem provers to ensure AI safety by proving that AI systems adhere to specified safety properties before deployment, potentially translating neural networks into more verifiable forms. This approach, while facing challenges in proving properties about complex systems, is considered a plausible strategy to mitigate AI risks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and a long version, have been created to help machine learning researchers quickly assess their existing skills' relevance to AI safety research. These resources list key organizations, researchers, papers, and keywords to facilitate efficient exploration of the field."
+  },
+  {
+    "title": "A Deep Reinforcement Learning Framework with Formal Verification",
+    "abstract": "Artificial Intelligence (AI) and data are reshaping organizations and businesses. Human Resources (HR) management and talent development make no exception, as they tend to involve more automation and growing quantities of data. Because this brings implications on workforce, career transparency, and equal opportunities, overseeing what fuels AI and analytical models, their quality standards, integrity, and correctness becomes an imperative for those aspiring to such systems. Based on an ontology transformation to B-machines, this article presents an approach to constructing a valid and error-free career agent with Deep Reinforcement Learning (DRL). In short, the agent's policy is built on a framework we called Multi State-Actor (MuStAc) using a decentralized training approach. Its purpose is to predict both relevant and valid career steps to employees, based on their profiles and company pathways (observations). Observations can comprise various data elements such as the current occupation, past experiences, performance, skills, qualifications, and so on. The policy takes in all these observations and outputs the next recommended career step, in an environment set as the combination of an HR ontology and an Event-B model, which generates action spaces with respect to formal properties. The Event-B model and formal properties are derived using OWL to B transformation.",
+    "published_date": "2022-12-19",
+    "citation_count": 5,
+    "url": "https://dl.acm.org/doi/10.1145/3577204",
+    "summary": "This paper proposes a deep reinforcement learning framework for a career recommendation agent, ensuring validity and error-freedom through formal verification using an ontology transformation to B-machines and a decentralized training approach. The agent leverages an HR ontology and Event-B model to generate valid action spaces based on employee profiles and company pathways."
+  },
+  {
+    "title": "Towards combining deep learning, verification, and scenario-based programming",
+    "abstract": "Deep learning (DL) [4] is dramatically changing the world of software. The rapid improvement in deep neural network (DNN) technology now enables engineers to train models that achieve superhuman results, often surpassing algorithms that have been carefully hand-crafted by domain experts [19, 20]. There is even an intensifying trend of incorporating DNNs in safety-critical systems, e.g. as controllers for autonomous vehicles and drones [1, 12].",
+    "published_date": "2021-05-18",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3459086.3459631",
+    "summary": "Deep learning's success in achieving superhuman results is driving its integration into safety-critical systems, despite challenges in verification. This necessitates combining deep learning with formal verification and scenario-based programming techniques."
+  }
+]

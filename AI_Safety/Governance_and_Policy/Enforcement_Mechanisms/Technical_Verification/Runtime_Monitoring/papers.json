@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.06770",
+    "title": "Demonstrating Reinforcement Learning and Run Time Assurance for Spacecraft Inspection Using Unmanned Aerial Vehicles",
+    "published_date": "2024-05-10",
+    "abstract": "On-orbit spacecraft inspection is an important capability for enabling servicing and manufacturing missions and extending the life of spacecraft. However, as space operations become increasingly more common and complex, autonomous control methods are needed to reduce the burden on operators to individually monitor each mission. In order for autonomous control methods to be used in space, they must exhibit safe behavior that demonstrates robustness to real world disturbances and uncertainty. In this paper, neural network controllers (NNCs) trained with reinforcement learning are used to solve an inspection task, which is a foundational capability for servicing missions. Run time assurance (RTA) is used to assure safety of the NNC in real time, enforcing several different constraints on position and velocity. The NNC and RTA are tested in the real world using unmanned aerial vehicles designed to emulate spacecraft dynamics. The results show this emulation is a useful demonstration of the capability of the NNC and RTA, and the algorithms demonstrate robustness to real world disturbances.",
+    "summary": "This paper demonstrates a reinforcement learning-trained neural network controller for autonomous spacecraft inspection using unmanned aerial vehicles, incorporating real-time run-time assurance to ensure safe operation and robustness to real-world disturbances. Real-world testing validates the approach's effectiveness for this foundational servicing mission capability."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.12996",
+    "title": "Neural Control and Certificate Repair via Runtime Monitoring",
+    "published_date": "2024-12-17",
+    "abstract": "Learning-based methods provide a promising approach to solving highly non-linear control tasks that are often challenging for classical control methods. To ensure the satisfaction of a safety property, learning-based methods jointly learn a control policy together with a certificate function for the property. Popular examples include barrier functions for safety and Lyapunov functions for asymptotic stability. While there has been significant progress on learning-based control with certificate functions in the white-box setting, where the correctness of the certificate function can be formally verified, there has been little work on ensuring their reliability in the black-box setting where the system dynamics are unknown. In this work, we consider the problems of certifying and repairing neural network control policies and certificate functions in the black-box setting. We propose a novel framework that utilizes runtime monitoring to detect system behaviors that violate the property of interest under some initially trained neural network policy and certificate. These violating behaviors are used to extract new training data, that is used to re-train the neural network policy and the certificate function and to ultimately repair them. We demonstrate the effectiveness of our approach empirically by using it to repair and to boost the safety rate of neural network policies learned by a state-of-the-art method for learning-based control on two autonomous system control tasks.",
+    "summary": "This paper presents a framework for improving the reliability of neural network controllers and their associated safety certificates in black-box systems by using runtime monitoring to detect violations, generate new training data, and retrain the controller and certificate for enhanced safety. The method is demonstrated on two autonomous system control tasks, showing improved safety rates."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.00069",
+    "title": "Meta-Sealing: A Revolutionizing Integrity Assurance Protocol for Transparent, Tamper-Proof, and Trustworthy AI System",
+    "published_date": "2024-10-31",
+    "abstract": "The Artificial intelligence in critical sectors-healthcare, finance, and public safety-has made system integrity paramount for maintaining societal trust. Current verification methods for AI systems lack comprehensive lifecycle assurance, creating significant vulnerabilities in deployment of both powerful and trustworthy AI. This research introduces Meta-Sealing, a cryptographic framework that fundamentally changes integrity verification in AI systems throughout their operational lifetime. Meta-Sealing surpasses traditional integrity protocols through its implementation of cryptographic seal chains, establishing verifiable, immutable records for all system decisions and transformations. The framework combines advanced cryptography with distributed verification, delivering tamper-evident guarantees that achieve both mathematical rigor and computational efficiency. Our implementation addresses urgent regulatory requirements for AI system transparency and auditability. The framework integrates with current AI governance standards, specifically the EU's AI Act and FDA's healthcare AI guidelines, enabling organizations to maintain operational efficiency while meeting compliance requirements. Testing on financial institution data demonstrated Meta-Sealing's capability to reduce audit timeframes by 62% while enhancing stakeholder confidence by 47%. Results can establish a new benchmark for integrity assurance in enterprise AI deployments. This research presents Meta-Sealing not merely as a technical solution, but as a foundational framework ensuring AI system integrity aligns with human values and regulatory requirements. As AI continues to influence critical decisions, provides the necessary bridge between technological advancement and verifiable trust. Meta-Sealing serves as a guardian of trust, ensuring that the AI systems we depend on are as reliable and transparent as they are powerful.",
+    "summary": "Meta-Sealing is a novel cryptographic framework providing comprehensive, tamper-proof integrity assurance for AI systems throughout their lifecycle, using cryptographic seal chains to create verifiable records of all system actions and significantly improving audit efficiency and stakeholder trust. It aligns with existing AI governance standards and offers a solution for ensuring trustworthy AI in critical sectors."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.11795",
+    "title": "Run Time Assured Reinforcement Learning for Six Degree-of-Freedom Spacecraft Inspection",
+    "published_date": "2024-06-17",
+    "abstract": "The trial and error approach of reinforcement learning (RL) results in high performance across many complex tasks, but it can also lead to unsafe behavior. Run time assurance (RTA) approaches can be used to assure safety of the agent during training, allowing it to safely explore the environment. This paper investigates the application of RTA during RL training for a 6-Degree-of-Freedom spacecraft inspection task, where the agent must control its translational motion and attitude to inspect a passive chief spacecraft. Several safety constraints are developed based on position, velocity, attitude, temperature, and power of the spacecraft, and are all enforced simultaneously during training through the use of control barrier functions. This paper also explores simulating the RL agent and RTA at different frequencies to best balance training performance and safety assurance. The agent is trained with and without RTA, and the performance is compared across several metrics including inspection percentage and fuel usage.",
+    "citation_count": 1,
+    "summary": "This paper applies run time assurance (RTA) with control barrier functions to a reinforcement learning (RL) agent controlling a spacecraft for inspection, ensuring safety during training by enforcing constraints on position, velocity, attitude, temperature, and power. The study compares the performance of the RL agent trained with and without RTA, analyzing the trade-off between safety and training efficiency at different simulation frequencies."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.02205",
+    "title": "Designing Multi-layered Runtime Guardrails for Foundation Model Based Agents: Swiss Cheese Model for AI Safety by Design",
+    "published_date": "2024-08-05",
+    "abstract": "Foundation Model (FM)-based agents are revolutionizing application development across various domains. However, their rapidly growing capabilities and autonomy have raised significant concerns about AI safety. Researchers are exploring better ways to design guardrails to ensure that the runtime behavior of FM-based agents remains within specific boundaries. Nevertheless, designing effective runtime guardrails is challenging due to the agents' autonomous and non-deterministic behavior. The involvement of multiple pipeline stages and agent artifacts, such as goals, plans, tools, at runtime further complicates these issues. Addressing these challenges at runtime requires multi-layered guardrails that operate effectively at various levels of the agent architecture. Thus, in this paper, we present a comprehensive taxonomy of runtime guardrails for FM-based agents to identify the key quality attributes for guardrails and design dimensions based on the results of a systematic literature review. Inspired by the Swiss Cheese Model, we also propose a reference architecture for designing multi-layered runtime guardrails for FM-based agents, which includes three dimensions: quality attributes, pipelines, and artifacts. The proposed taxonomy and reference architecture provide concrete and robust guidance for researchers and practitioners to build AI-safety-by-design from a software architecture perspective.",
+    "citation_count": 1,
+    "summary": "This paper proposes a multi-layered runtime guardrail architecture for foundation model-based agents, inspired by the Swiss Cheese Model, to mitigate AI safety risks by addressing challenges stemming from agent autonomy and non-deterministic behavior across various pipeline stages and artifacts. The architecture is based on a taxonomy of guardrails and considers quality attributes, pipeline stages, and agent artifacts."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12",
+    "summary": "This article explores a proposed on-chip compute governance mechanism using speed-of-light-based location verification to regulate AI development. While feasible, the mechanism faces challenges from false positives due to network latency inconsistencies, prompting suggestions for mitigating this issue."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising but underdeveloped AI safety strategy. While current measures are limited, proposed approaches aim to increase visibility into AI development, allocate compute resources strategically, and enforce regulations through various technological and policy mechanisms."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/GCqoks9eZDfpL8L3Q/how-to-prevent-collusion-when-using-untrusted-models-to",
+    "author": "Buck Shlegeris",
+    "title": "How to prevent collusion when using untrusted models to monitor each other",
+    "published_date": "2024-09-24",
+    "summary": "The article analyzes the vulnerability of \"untrusted monitoring,\" a safety technique for AI agents, to collusion between instances of the model. While simple anti-collusion mechanisms can mitigate some collusion strategies, more sophisticated coordination by the AI, particularly in significantly superhuman models, can potentially defeat these safeguards."
+  }
+]

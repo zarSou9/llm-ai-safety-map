@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.10295",
+    "title": "Societal Adaptation to Advanced AI",
+    "published_date": "2024-05-16",
+    "abstract": "Existing strategies for managing risks from advanced AI systems often focus on affecting what AI systems are developed and how they diffuse. However, this approach becomes less feasible as the number of developers of advanced AI grows, and impedes beneficial use-cases as well as harmful ones. In response, we urge a complementary approach: increasing societal adaptation to advanced AI, that is, reducing the expected negative impacts from a given level of diffusion of a given AI capability. We introduce a conceptual framework which helps identify adaptive interventions that avoid, defend against and remedy potentially harmful uses of AI systems, illustrated with examples in election manipulation, cyberterrorism, and loss of control to AI decision-makers. We discuss a three-step cycle that society can implement to adapt to AI. Increasing society's ability to implement this cycle builds its resilience to advanced AI. We conclude with concrete recommendations for governments, industry, and third-parties.",
+    "citation_count": 4,
+    "summary": "The paper argues that mitigating advanced AI risks requires not only controlling AI development and deployment, but also enhancing societal adaptation through proactive interventions that prevent, mitigate, and remedy potential harms. This involves a three-step cycle of societal response to build resilience against negative AI impacts."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.04554",
+    "title": "Generative AI Needs Adaptive Governance",
+    "published_date": "2024-06-06",
+    "abstract": "Because of the speed of its development, broad scope of application, and its ability to augment human performance, generative AI challenges the very notions of governance, trust, and human agency. The technology's capacity to mimic human knowledge work, feedback loops including significant uptick in users, research, investor, policy, and media attention, data and compute resources, all lead to rapidly increasing capabilities. For those reasons, adaptive governance, where AI governance and AI co-evolve, is essential for governing generative AI. In sharp contrast to traditional governance's regulatory regimes that are based on a mix of rigid one-and-done provisions for disclosure, registration and risk management, which in the case of AI carry the potential for regulatory misalignment, this paper argues that generative AI calls for adaptive governance. We define adaptive governance in the context of AI and outline an adaptive AI governance framework. We outline actors, roles, as well as both shared and actors-specific policy activities. We further provide examples of how the framework could be operationalized in practice. We then explain that the adaptive AI governance stance is not without its risks and limitations, such as insufficient oversight, insufficient depth, regulatory uncertainty, and regulatory capture, and provide potential approaches to fix these shortcomings.",
+    "citation_count": 1,
+    "summary": "Generative AI's rapid advancement and broad impact necessitate adaptive governance, where AI and its regulation co-evolve, unlike traditional rigid regulatory frameworks that risk misalignment with the technology's dynamic nature. This paper proposes an adaptive AI governance framework addressing key actors, roles, and activities while acknowledging and mitigating potential risks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.17216",
+    "title": "Data-Centric AI Governance: Addressing the Limitations of Model-Focused Policies",
+    "published_date": "2024-09-25",
+    "abstract": "Current regulations on powerful AI capabilities are narrowly focused on\"foundation\"or\"frontier\"models. However, these terms are vague and inconsistently defined, leading to an unstable foundation for governance efforts. Critically, policy debates often fail to consider the data used with these models, despite the clear link between data and model performance. Even (relatively)\"small\"models that fall outside the typical definitions of foundation and frontier models can achieve equivalent outcomes when exposed to sufficiently specific datasets. In this work, we illustrate the importance of considering dataset size and content as essential factors in assessing the risks posed by models both today and in the future. More broadly, we emphasize the risk posed by over-regulating reactively and provide a path towards careful, quantitative evaluation of capabilities that can lead to a simplified regulatory environment.",
+    "citation_count": 1,
+    "summary": "Current AI governance focuses too narrowly on powerful models, neglecting the crucial role of data in determining model capabilities; a data-centric approach, emphasizing dataset size and content, is necessary for effective and less reactive AI regulation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.17149",
+    "title": "A Multi-AI Agent System for Autonomous Optimization of Agentic AI Solutions via Iterative Refinement and LLM-Driven Feedback Loops",
+    "published_date": "2024-12-22",
+    "abstract": "Agentic AI systems use specialized agents to handle tasks within complex workflows, enabling automation and efficiency. However, optimizing these systems often requires labor-intensive, manual adjustments to refine roles, tasks, and interactions. This paper introduces a framework for autonomously optimizing Agentic AI solutions across industries, such as NLP-driven enterprise applications. The system employs agents for Refinement, Execution, Evaluation, Modification, and Documentation, leveraging iterative feedback loops powered by an LLM (Llama 3.2-3B). The framework achieves optimal performance without human input by autonomously generating and testing hypotheses to improve system configurations. This approach enhances scalability and adaptability, offering a robust solution for real-world applications in dynamic environments. Case studies across diverse domains illustrate the transformative impact of this framework, showcasing significant improvements in output quality, relevance, and actionability. All data for these case studies, including original and evolved agent codes, along with their outputs, are here: https://anonymous.4open.science/r/evolver-1D11/",
+    "summary": "This paper presents a multi-agent system that autonomously optimizes agentic AI solutions through iterative refinement and large language model feedback, eliminating the need for manual adjustments and improving system performance across various domains. The system uses agents for refinement, execution, evaluation, modification, and documentation, achieving optimal configurations without human intervention."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), particularly focusing on short timelines (within a decade). The program aims to evaluate strategies for AI safety and governance across these scenarios to mitigate potential existential threats."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.04616",
+    "title": "Can apparent bystanders distinctively shape an outcome? Global south countries and global catastrophic risk-focused governance of artificial intelligence",
+    "published_date": "2023-12-07",
+    "abstract": "Increasingly, there is well-grounded concern that through perpetual scaling-up of computation power and data, current deep learning techniques will create highly capable artificial intelligence that could pursue goals in a manner that is not aligned with human values. In turn, such AI could have the potential of leading to a scenario in which there is serious global-scale damage to human wellbeing. Against this backdrop, a number of researchers and public policy professionals have been developing ideas about how to govern AI in a manner that reduces the chances that it could lead to a global catastrophe. The jurisdictional focus of a vast majority of their assessments so far has been the United States, China, and Europe. That preference seems to reveal an assumption underlying most of the work in this field: That global south countries can only have a marginal role in attempts to govern AI development from a global catastrophic risk -focused perspective. Our paper sets out to undermine this assumption. We argue that global south countries like India and Singapore (and specific coalitions) could in fact be fairly consequential in the global catastrophic risk-focused governance of AI. We support our position using 4 key claims. 3 are constructed out of the current ways in which advanced foundational AI models are built and used while one is constructed on the strategic roles that global south countries and coalitions have historically played in the design and use of multilateral rules and institutions. As each claim is elaborated, we also suggest some ways through which global south countries can play a positive role in designing, strengthening and operationalizing global catastrophic risk-focused AI governance.",
+    "summary": "This paper challenges the prevailing assumption that Global South countries have only a marginal role in AI governance focused on global catastrophic risk, arguing that nations like India and Singapore can significantly influence AI development and the creation of effective multilateral regulations. The authors support this claim by analyzing the current structure of AI development and the historical influence of Global South nations in international governance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that focusing solely on technical aspects is insufficient. It emphasizes a top-down design of \"civilizational intelligence,\" incorporating diverse fields like neuroscience, social sciences, and engineering to ensure safe and beneficial AGI development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/AKBkDNeFLZxaMqjQG/a-practical-incremental-pathway-to-safe-tai-oaa-in-the-real",
+    "author": "Roman Leventov, Rafael Kaufmann Nedal",
+    "title": "Gaia Network: a practical, incremental pathway to Open Agency Architecture",
+    "published_date": "2023-12-20",
+    "summary": "The article proposes Gaia, a decentralized network leveraging existing technologies and economic mechanisms to build a world model for aligning advanced AI with human values, addressing AI safety within a broader framework of improving global governance and decision-making. This approach prioritizes incremental progress through a collaborative, competitive ecosystem rather than a top-down solution."
+  }
+]

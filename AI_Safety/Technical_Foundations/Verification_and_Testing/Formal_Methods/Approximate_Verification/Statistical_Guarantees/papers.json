@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Probabilistic conformance for cyber-physical systems",
+    "abstract": "In system analysis, conformance indicates that two systems simultaneously satisfy the same set of specifications of interest; thus, the results from analyzing one system automatically transfer to the other, or one system can safely replace the other in practice. In this work, we study the probabilistic conformance of cyber-physical systems (CPS). We propose a notion of (approximate) probabilistic conformance for sets of complex specifications expressed by the Signal Temporal Logic (STL). Based on a novel statistical test, we develop the first statistical verification methods for the probabilistic conformance of a wide class of CPS. Using this method, we verify the conformance of the startup time of the widely-used full and simplified model of Toyota powertrain systems, the settling time of model-predictive-control-based and neural-network-based automotive lane-keeping controllers, as well as the maximal voltage deviation of full and simplified power grid systems.",
+    "published_date": "2020-08-03",
+    "citation_count": 8,
+    "url": "https://dl.acm.org/doi/10.1145/3450267.3450534"
+  },
+  {
+    "title": "Probabilistic verification of fairness properties via concentration",
+    "abstract": "As machine learning systems are increasingly used to make real world legal and financial decisions, it is of paramount importance that we develop algorithms to verify that these systems do not discriminate against minorities. We design a scalable algorithm for verifying fairness specifications. Our algorithm obtains strong correctness guarantees based on adaptive concentration inequalities; such inequalities enable our algorithm to adaptively take samples until it has enough data to make a decision. We implement our algorithm in a tool called VeriFair, and show that it scales to large machine learning models, including a deep recurrent neural network that is more than five orders of magnitude larger than the largest previously-verified neural network. While our technique only gives probabilistic guarantees due to the use of random samples, we show that we can choose the probability of error to be extremely small.",
+    "published_date": "2018-12-02",
+    "citation_count": 68,
+    "url": "https://dl.acm.org/doi/10.1145/3360544"
+  }
+]

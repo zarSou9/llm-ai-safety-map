@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2406.02064",
+    "title": "Advancing Generalized Transfer Attack with Initialization Derived Bilevel Optimization and Dynamic Sequence Truncation",
+    "published_date": "2024-06-04",
+    "abstract": "Transfer attacks generate significant interest for real-world black-box applications by crafting transferable adversarial examples through surrogate models. Whereas, existing works essentially directly optimize the single-level objective w.r.t. the surrogate model, which always leads to poor interpretability of attack mechanism and limited generalization performance over unknown victim models. In this work, we propose the BilEvel Transfer AttacK (BETAK) framework by establishing an initialization derived bilevel optimization paradigm, which explicitly reformulates the nested constraint relationship between the Upper-Level (UL) pseudo-victim attacker and the Lower-Level (LL) surrogate attacker. Algorithmically, we introduce the Hyper Gradient Response (HGR) estimation as an effective feedback for the transferability over pseudo-victim attackers, and propose the Dynamic Sequence Truncation (DST) technique to dynamically adjust the back-propagation path for HGR and reduce computational overhead simultaneously. Meanwhile, we conduct detailed algorithmic analysis and provide convergence guarantee to support non-convexity of the LL surrogate attacker. Extensive evaluations demonstrate substantial improvement of BETAK (e.g., 53.41% increase of attack success rates against IncRes-v2_ens victim) against different victims and defense methods in targeted and untargeted attack scenarios."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.10980v2",
+    "title": "MultiRobustBench: Benchmarking Robustness Against Multiple Attacks",
+    "published_date": "2023-02-21",
+    "abstract": "The bulk of existing research in defending against adversarial examples focuses on defending against a single (typically bounded Lp-norm) attack, but for a practical setting, machine learning (ML) models should be robust to a wide variety of attacks. In this paper, we present the first unified framework for considering multiple attacks against ML models. Our framework is able to model different levels of learner's knowledge about the test-time adversary, allowing us to model robustness against unforeseen attacks and robustness against unions of attacks. Using our framework, we present the first leaderboard, MultiRobustBench, for benchmarking multiattack evaluation which captures performance across attack types and attack strengths. We evaluate the performance of 16 defended models for robustness against a set of 9 different attack types, including Lp-based threat models, spatial transformations, and color changes, at 20 different attack strengths (180 attacks total). Additionally, we analyze the state of current defenses against multiple attacks. Our analysis shows that while existing defenses have made progress in terms of average robustness across the set of attacks used, robustness against the worst-case attack is still a big open problem as all existing models perform worse than random guessing.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://arxiv.org/pdf/2202.09465v1.pdf",
+    "title": "Attacks, Defenses, And Tools: A Framework To Facilitate Robust AI/ML Systems",
+    "published_date": "2022-02-18",
+    "abstract": "Software systems are increasingly relying on Artificial Intelligence (AI) and Machine Learning (ML) components. The emerging popularity of AI techniques in various application domains attracts malicious actors and adversaries. Therefore, the developers of AI-enabled software systems need to take into account various novel cyber-attacks and vulnerabilities that these systems may be susceptible to. This paper presents a framework to characterize attacks and weaknesses associated with AI-enabled systems and provide mitigation techniques and defense strategies. This framework aims to support software designers in taking proactive measures in developing AI-enabled software, understanding the attack surface of such systems, and developing products that are resilient to various emerging attacks associated with ML. The developed framework covers a broad spectrum of attacks, mitigation techniques, and defensive and offensive tools. In this paper, we demonstrate the framework architecture and its major components, describe their attributes, and discuss the long-term goals of this research.",
+    "citation_count": 5
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.08618v1.pdf",
+    "title": "Extractor: Extracting Attack Behavior from Threat Reports",
+    "published_date": "2021-04-17",
+    "abstract": "The knowledge on attacks contained in Cyber Threat Intelligence (CTI) reports is very important to effectively identify and quickly respond to cyber threats. However, this knowledge is often embedded in large amounts of text, and therefore difficult to use effectively. To address this challenge, we propose a novel approach and tool called Extractor that allows precise automatic extraction of concise attack behaviors from CTI reports. Extractor makes no strong assumptions about the text and is capable of extracting attack behaviors as provenance graphs from unstructured text. We evaluate Extractor using real-world incident reports from various sources as well as reports of DARPA adversarial engagements that involve several attack campaigns on various OS platforms of Windows, Linux, and FreeBSD. Our evaluation results show that Extractor can extract concise provenance graphs from CTI reports and show that these graphs can successfully be used by cyber-analytics tools in threat-hunting.",
+    "citation_count": 74
+  },
+  {
+    "url": "https://arxiv.org/pdf/2112.01156v2.pdf",
+    "title": "A Unified Framework for Adversarial Attack and Defense in Constrained Feature Space",
+    "published_date": "2021-12-02",
+    "abstract": "The generation of feasible adversarial examples is necessary for properly assessing models that work in constrained feature space. However, it remains a challenging task to enforce constraints into attacks that were designed for computer vision. We propose a unified framework to generate feasible adversarial examples that satisfy given domain constraints. Our framework can handle both linear and non-linear constraints. We instantiate our framework into two algorithms: a gradient-based attack that introduces constraints in the loss function to maximize, and a multi-objective search algorithm that aims for misclassification, perturbation minimization, and constraint satisfaction. We show that our approach is effective in four different domains, with a success rate of up to 100%, where state-of-the-art attacks fail to generate a single feasible example. In addition to adversarial retraining, we propose to introduce engineered non-convex constraints to improve model adversarial robustness. We demonstrate that this new defense is as effective as adversarial retraining. Our framework forms the starting point for research on constrained adversarial attacks and provides relevant baselines and datasets that future research can exploit.",
+    "citation_count": 19
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.08673.pdf",
+    "title": "System Component-Level Self-Adaptations for Security via Bayesian Games",
+    "published_date": "2021-03-12",
+    "abstract": "Security attacks present unique challenges to self-adaptive system design due to the adversarial nature of the environment. However, modeling the system as a single player, as done in prior works in security domain, is insufficient for the system under partial compromise and for the design of fine-grained defensive strategies where the rest of the system with autonomy can cooperate to mitigate the impact of attacks. To deal with such issues, we propose a new self-adaptive framework incorporating Bayesian game and model the defender (i.e., the system) at the granularity of components in system architecture. The system architecture model is translated into a Bayesian multi-player game, where each component is modeled as an independent player while security attacks are encoded as variant types for the components. The defensive strategy for the system is dynamically computed by solving the pure equilibrium to achieve the best possible system utility, improving the resiliency of the system against security attacks.",
+    "citation_count": 1
+  }
+]

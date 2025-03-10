@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/rmwAuWXYTo24E5nnX/a-pin-and-a-balloon-anthropic-fragility-increases-chances-of",
+    "author": "avturchin",
+    "title": "A Pin and a Balloon: Anthropic Fragility Increases Chances of Runaway Global Warming",
+    "published_date": "2022-09-11",
+    "summary": "Due to survival bias, we likely underestimate the proximity of climate tipping points, making Earth more fragile to human actions than previously thought. This increased fragility raises the probability of human extinction via runaway global warming."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06",
+    "summary": "The standard model of COVID-19 transmission struggles to explain the surprisingly similar infection rates across US states despite varying policies and behaviors. A proposed \"vulnerability model,\" suggesting fluctuating individual susceptibility to infection over time, better accounts for the observed data and avoids inconsistencies inherent in the standard model."
+  },
+  {
+    "title": "Chance-Constrained Peer-to-Peer Joint Energy and Reserve Market Considering Renewable Generation Uncertainty",
+    "abstract": "Due to the fast development of distributed energy resources and demand-side response management, agents in electricity markets are becoming more proactive, which boosts the development of peer-to-peer (P2P) market mechanisms. However, to our knowledge, none of the existing works considers clearing both energy and reserve via a P2P market mechanism in order to compensate for the uncertainty originating from renewable generation and allocate the reserve cost induced by uncertainty fairly. In this article, a novel P2P joint energy and reserve market is proposed, where each agent can negotiate with neighboring agents to determine the quantities and prices of traded energy and reserve. We model the renewable generation uncertainty by versatile distribution and determine the required reserve based on a chance-constrained optimization approach. Then, a fully decentralized P2P market based on consensus alternating direction method of multipliers (ADMM) theory is proposed. In addition, to further lower the social cost, we exploit the correlation and complementarity among uncertainties and design a renewable community-based market, where all renewable agents share uncertainty information to community manager for calculating total required reserve. Finally, simulation results show the convergence performance, fairness and scalability of our market mechanism.",
+    "published_date": "2020-08-26",
+    "citation_count": 100,
+    "url": "https://ieeexplore.ieee.org/document/9178314/",
+    "summary": "This paper proposes a novel decentralized peer-to-peer (P2P) electricity market mechanism that jointly clears energy and reserve, accounting for renewable generation uncertainty using a chance-constrained optimization approach and a consensus ADMM algorithm. A community-based market extension further reduces social cost by leveraging correlation among renewable uncertainties."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24",
+    "summary": "This article explores the intersection of rationalism and blockchain technology, focusing on mathematical challenges within blockchain and proposing mechanism design solutions, such as quadratic voting and funding, to improve cooperation and philanthropy."
+  },
+  {
+    "title": "Democratizing Authority in the Built Environment",
+    "abstract": "Operating systems and applications in the built environment have relied upon central authorization and management mechanisms that restrict their scalability, especially with respect to administrative overhead. We propose a new set of primitives encompassing syndication, security, and service execution that unifies the management of applications and services across the built environment, while enabling participants to individually delegate privilege across multiple administrative domains with no loss of security or manageability. We show how to leverage a decentralized authorization syndication platform to extend the design of building operating systems beyond the single administrative domain of a building. The authorization system leveraged is based on blockchain smart contracts to permit decentralized and democratized delegation of authorization without central trust. Upon this, a publish/subscribe syndication tier and a containerized service execution environment are constructed. Combined, these mechanisms solve problems of delegation, federation, device protection and service execution that arise throughout the built environment. We leverage a high-fidelity city-scale emulation to verify the scalability of the authorization tier, and briefly describe a prototypical democratized operating system for the built environment using this foundation. This is an extension of work presented in Ref. [3].",
+    "published_date": "2018-12-04",
+    "citation_count": 31,
+    "url": "https://dl.acm.org/doi/10.1145/3199665",
+    "summary": "This paper proposes a decentralized authorization system for the built environment, using blockchain smart contracts to enable democratized privilege delegation across multiple administrative domains without sacrificing security or scalability. This system, combined with a publish/subscribe architecture and containerized services, addresses challenges in managing and securing applications across large-scale built environments."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Tx6dGzYLtfzzkuGtF/the-vulnerable-world-hypothesis-by-bostrom",
+    "author": "Ben Pace",
+    "title": "The Vulnerable World Hypothesis (by Bostrom)",
+    "published_date": "2018-11-06",
+    "summary": "Nick Bostrom's \"The Vulnerable World Hypothesis\" argues that continued technological advancement significantly increases the likelihood of civilizational collapse unless global governance improves. This risk stems from various technological vulnerabilities, categorized by the ease of causing devastation and the incentives driving actors to do so, highlighting the need for stronger preventative measures and international cooperation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/3RLSqqfP5oQE2WDrr/new-paper-long-term-trajectories-of-human-civilization",
+    "author": "Kaj_Sotala",
+    "title": "New paper: Long-Term Trajectories of Human Civilization",
+    "published_date": "2018-08-12",
+    "summary": "This paper proposes a new field of study focusing on the long-term trajectories of human civilization, identifying four potential paths: status quo, catastrophe, technological transformation, and astronomical expansion. The authors argue that understanding these trajectories is crucial for present-day decision-making, as current actions can significantly impact humanity's far-future fate."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/wE3CRBTpSSBXf9EHK/strategyproof-mechanisms-impossibilities",
+    "author": "badger",
+    "title": "Strategyproof Mechanisms: Impossibilities",
+    "published_date": "2014-05-16",
+    "summary": "The Gibbard-Satterthwaite theorem proves that only dictatorial social choice functions are strategyproof (dominant-strategy incentive compatible) when choosing from three or more options; this severely limits the possibility of creating fair and universally applicable mechanisms."
+  }
+]

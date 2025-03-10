@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2407.12687",
+    "title": "Towards Responsible Development of Generative AI for Education: An Evaluation-Driven Approach",
+    "published_date": "2024-05-21",
+    "abstract": "A major challenge facing the world is the provision of equitable and universal access to quality education. Recent advances in generative AI (gen AI) have created excitement about the potential of new technologies to offer a personal tutor for every learner and a teaching assistant for every teacher. The full extent of this dream, however, has not yet materialised. We argue that this is primarily due to the difficulties with verbalising pedagogical intuitions into gen AI prompts and the lack of good evaluation practices, reinforced by the challenges in defining excellent pedagogy. Here we present our work collaborating with learners and educators to translate high level principles from learning science into a pragmatic set of seven diverse educational benchmarks, spanning quantitative, qualitative, automatic and human evaluations; and to develop a new set of fine-tuning datasets to improve the pedagogical capabilities of Gemini, introducing LearnLM-Tutor. Our evaluations show that LearnLM-Tutor is consistently preferred over a prompt tuned Gemini by educators and learners on a number of pedagogical dimensions. We hope that this work can serve as a first step towards developing a comprehensive educational evaluation framework, and that this can enable rapid progress within the AI and EdTech communities towards maximising the positive impact of gen AI in education.",
+    "citation_count": 17,
+    "summary": "This paper advocates for responsible generative AI development in education, proposing a novel evaluation framework with seven benchmarks and a fine-tuned model (LearnLM-Tutor) which outperforms a baseline in educator and learner preference tests. The framework aims to bridge the gap between pedagogical principles and effective AI implementation for educational applications."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.16453",
+    "title": "The Evolving Usage of GenAI by Computing Students",
+    "published_date": "2024-12-21",
+    "abstract": "Help-seeking is a critical aspect of learning and problem-solving for computing students. Recent research has shown that many students are aware of generative AI (GenAI) tools; however, there are gaps in the extent and effectiveness of how students use them. With over two years of widespread GenAI usage, it is crucial to understand whether students' help-seeking behaviors with these tools have evolved and how. This paper presents findings from a repeated cross-sectional survey conducted among computing students across North American universities (n=95). Our results indicate shifts in GenAI usage patterns. In 2023, 34.1% of students (n=47) reported never using ChatGPT for help, ranking it fourth after online searches, peer support, and class forums. By 2024, this figure dropped sharply to 6.3% (n=48), with ChatGPT nearly matching online search as the most commonly used help resource. Despite this growing prevalence, there has been a decline in students' hourly and daily usage of GenAI tools, which may be attributed to a common tendency to underestimate usage frequency. These findings offer new insights into the evolving role of GenAI in computing education, highlighting its increasing acceptance and solidifying its position as a key help resource.",
+    "summary": "A survey of North American computing students revealed a significant increase in ChatGPT usage for help-seeking between 2023 and 2024, surpassing class forums and peer support to nearly match online searches; however, reported daily and hourly usage decreased, possibly due to underestimation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.12667",
+    "title": "Remote Possibilities: Where there is a WIL, is there a Way? AI Education for Remote Learners in a New Era of Work-Integrated-Learning",
+    "published_date": "2024-02-20",
+    "abstract": "Increasing diversity in educational settings is challenging in part due to the lack of access to resources for non-traditional learners in remote communities. Post-pandemic platforms designed specifically for remote and hybrid learning---supporting team-based collaboration online---are positioned to bridge this gap. Our work combines the use of these new platforms with co-creation and collaboration tools for AI assisted remote Work-Integrated-Learning (WIL) opportunities, including efforts in community and with the public library system. This paper outlines some of our experiences to date, and proposes methods to further integrate AI education into community-driven applications for remote WIL.",
+    "summary": "This paper explores using post-pandemic online platforms and AI to expand access to Work-Integrated Learning (WIL) opportunities for remote learners, focusing on collaborative projects with community partners like public libraries. The authors detail their experiences and propose methods for further integrating AI education into these remote WIL initiatives."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.05181",
+    "title": "Instructors as Innovators: A future-focused approach to new AI learning opportunities, with prompts",
+    "published_date": "2024-04-23",
+    "abstract": "This paper explores how instructors can leverage generative AI to create personalized learning experiences for students that transform teaching and learning. We present a range of AI-based exercises that enable novel forms of practice and application including simulations, mentoring, coaching, and co-creation. For each type of exercise, we provide prompts that instructors can customize, along with guidance on classroom implementation, assessment, and risks to consider. We also provide blueprints, prompts that help instructors create their own original prompts. Instructors can leverage their content and pedagogical expertise to design these experiences, putting them in the role of builders and innovators. We argue that this instructor-driven approach has the potential to democratize the development of educational technology by enabling individual instructors to create AI exercises and tools tailored to their students' needs. While the exercises in this paper are a starting point, not a definitive solutions, they demonstrate AI's potential to expand what is possible in teaching and learning.",
+    "citation_count": 6,
+    "summary": "This paper advocates for instructors to utilize generative AI to design personalized learning experiences, offering various AI-based exercises with customizable prompts and implementation guidance to empower educators as innovators in educational technology. The approach emphasizes instructor-led creation of tailored AI tools to meet specific student needs."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.14200",
+    "title": "ActiveAI: Enabling K-12 AI Literacy Education & Analytics at Scale",
+    "published_date": "2024-12-15",
+    "abstract": "Interest in K-12 AI Literacy education has surged in the past year, yet large-scale learning data remains scarce despite considerable efforts in developing learning materials and running summer programs. To make larger scale dataset available and enable more replicable findings, we developed an intelligent online learning platform featuring AI Literacy modules and assessments, engaging 1,000 users from 12 secondary schools. Preliminary analysis of the data reveals patterns in prior knowledge levels of AI Literacy, gender differences in assessment scores, and the effectiveness of instructional activities. With open access to this de-identified dataset, researchers can perform secondary analyses, advancing the understanding in this emerging field of AI Literacy education.",
+    "citation_count": 1,
+    "summary": "ActiveAI is an online platform providing AI literacy modules and assessments to K-12 students, generating a large-scale dataset to facilitate research on AI literacy education and reveal patterns in student performance and learning. The open-access dataset enables further analysis of factors influencing AI literacy acquisition."
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.10509",
+    "title": "Can We Trust AI-Generated Educational Content? Comparative Analysis of Human and AI-Generated Learning Resources",
+    "published_date": "2023-06-18",
+    "abstract": "As an increasing number of students move to online learning platforms that deliver personalized learning experiences, there is a great need for the production of high-quality educational content. Large language models (LLMs) appear to offer a promising solution to the rapid creation of learning materials at scale, reducing the burden on instructors. In this study, we investigated the potential for LLMs to produce learning resources in an introductory programming context, by comparing the quality of the resources generated by an LLM with those created by students as part of a learnersourcing activity. Using a blind evaluation, students rated the correctness and helpfulness of resources generated by AI and their peers, after both were initially provided with identical exemplars. Our results show that the quality of AI-generated resources, as perceived by students, is equivalent to the quality of resources generated by their peers. This suggests that AI-generated resources may serve as viable supplementary material in certain contexts. Resources generated by LLMs tend to closely mirror the given exemplars, whereas student-generated resources exhibit greater variety in terms of content length and specific syntax features used. The study highlights the need for further research exploring different types of learning resources and a broader range of subject areas, and understanding the long-term impact of AI-generated resources on learning outcomes.",
+    "citation_count": 19,
+    "summary": "A study comparing AI-generated and student-generated introductory programming resources found student perception of quality to be equivalent between the two, suggesting AI could supplement educational materials; however, AI-generated content showed less variety than that created by students."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/fsGEyCYhqs7AWwdCe/learning-theoretic-agenda-reading-list",
+    "author": "Vanessa Kosoy",
+    "title": "Learning-theoretic agenda reading list",
+    "published_date": "2023-11-09",
+    "summary": "This article provides a self-study reading list on learning-theoretic AI, encompassing mathematical prerequisites, AI theory, reinforcement learning, agent foundations, and alignment research, with suggested chapters or sections for focused study and encouragement for community contributions of alternative resources. The author acknowledges the list's imperfections but prioritizes its publication over delayed perfection."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and long version, catalog AI safety research, organizations, and researchers to help machine learning experts quickly assess potential areas of contribution based on their existing skills and interests. The resource aims to facilitate entry into AI safety research for those with relevant backgrounds."
+  }
+]

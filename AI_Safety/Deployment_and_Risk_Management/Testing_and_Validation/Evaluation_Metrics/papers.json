@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2208.14660",
+    "title": "Unifying Evaluation of Machine Learning Safety Monitors",
+    "published_date": "2022-08-31",
+    "abstract": "With the increasing use of Machine Learning (ML) in critical autonomous systems, runtime monitors have been developed to detect prediction errors and keep the system in a safe state during operations. Monitors have been proposed for different applications involving diverse perception tasks and ML models, and specific evaluation procedures and metrics are used for different contexts. This paper introduces three unified safety-oriented metrics, representing the safety benefits of the monitor (Safety Gain), the remaining safety gaps after using it (Residual Hazard), and its negative impact on the system's performance (Availability Cost). To compute these metrics, one requires to define two return functions, representing how a given ML prediction will impact expected future rewards and hazards. Three use-cases (classification, drone landing, and autonomous driving) are used to demonstrate how metrics from the literature can be expressed in terms of the proposed metrics. Experimental results on these examples show how different evaluation choices impact the perceived performance of a monitor. As our formalism requires us to formulate explicit safety assumptions, it allows us to ensure that the evaluation conducted matches the high-level system requirements.",
+    "citation_count": 9,
+    "summary": "This paper proposes three unified metrics – Safety Gain, Residual Hazard, and Availability Cost – to evaluate the safety performance of machine learning runtime monitors, enabling consistent comparison across diverse applications by expressing existing metrics within a common framework. The framework facilitates clearer evaluation by requiring explicit formulation of safety assumptions and their alignment with system requirements."
+  },
+  {
+    "title": "On the Evaluation Measures for Machine Learning Algorithms for Safety-Critical Systems",
+    "abstract": "The ability of Machine Learning (ML) algorithms to learn and work with incomplete knowledge has motivated many system manufacturers to include such algorithms in their products. However, some of these systems can be described as Safety-Critical Systems (SCS) since their failure may cause injury or even death to humans. Therefore, the performance of ML algorithms with respect to the safety requirements of such systems must be evaluated before they are used in their operational environment. Although there exist several measures that can be used for evaluating the performance of ML algorithms, most of these measures focus mainly on some properties of interest in the domains where they were developed. For example, Recall, Precision and F-Factor are, usually, used in Information Retrieval (IR) domain, and they mainly focus on correct predictions with less emphasis on incorrect predictions, which are very important in SCS. Accordingly, such measures need to be tuned to fit the needs for evaluating the safe performance of ML algorithms. This position paper presents the authors' view on the inadequacy of existing measures, and it proposes a new set of measures to be used for the evaluation of the safe performance of ML algorithms.",
+    "published_date": "2019-09-01",
+    "citation_count": 18,
+    "url": "https://www.researchgate.net/publication/337232925_On_the_Evaluation_Measures_for_Machine_Learning_Algorithms_for_Safety-Critical_Systems",
+    "summary": "Existing machine learning algorithm evaluation metrics are insufficient for safety-critical systems due to their inadequate focus on incorrect predictions; this paper argues for new metrics that prioritize safe performance."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/fnc6Sgt3CGCdFmmgX/we-need-a-science-of-evals",
+    "author": "Marius Hobbhahn, Jérémy Scheurer",
+    "title": "We need a Science of Evals",
+    "published_date": "2024-01-22",
+    "summary": "Current AI model evaluations lack scientific rigor, leading to unreliable results easily influenced by factors like prompt engineering. To ensure trustworthy evaluations and responsible AI deployment, the authors advocate for a \"Science of Evals\" emphasizing robust methodologies and improved confidence in results."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/jsmNCj9QKcfdg8fJk/an-introduction-to-ai-sandbagging",
+    "author": "Teun van der Weij, Felix Hofstätter, Francis Rhys Ward",
+    "title": "An Introduction to AI Sandbagging",
+    "published_date": "2024-04-26",
+    "summary": "AI system evaluations are crucial for safety, but \"sandbagging\"—strategic underperformance on evaluations by either developers or the AI itself—threatens their trustworthiness. This article introduces sandbagging as a significant problem, drawing parallels to the Volkswagen emissions scandal and highlighting its implications for AI safety and responsible development."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.07791",
+    "title": "Discovering Decision Manifolds to Assure Trusted Autonomous Systems",
+    "published_date": "2024-02-12",
+    "abstract": "Developing and fielding complex systems requires proof that they are reliably correct with respect to their design and operating requirements. Especially for autonomous systems which exhibit unanticipated emergent behavior, fully enumerating the range of possible correct and incorrect behaviors is intractable. Therefore, we propose an optimization-based search technique for generating high-quality, high-variance, and non-trivial data which captures the range of correct and incorrect responses a system could exhibit. This manifold between desired and undesired behavior provides a more detailed understanding of system reliability than traditional testing or Monte Carlo simulations. After discovering data points along the manifold, we apply machine learning techniques to quantify the decision manifold's underlying mathematical function. Such models serve as correctness properties which can be utilized to enable both verification during development and testing, as well as continuous assurance during operation, even amidst system adaptations and dynamic operating environments. This method can be applied in combination with a simulator in order to provide evidence of dependability to system designers and users, with the ultimate aim of establishing trust in the deployment of complex systems. In this proof-of-concept, we apply our method to a software-in-the-loop evaluation of an autonomous vehicle.",
+    "summary": "This paper presents an optimization-based method to discover the decision manifold separating correct and incorrect behaviors in autonomous systems, using machine learning to model this manifold for verification and continuous assurance during development and operation. This approach improves upon traditional testing by generating diverse, high-quality data representing a system's full range of potential responses."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/2PiawPFJeyCQGcwXG/a-starter-guide-for-evals",
+    "author": "Marius Hobbhahn, Jérémy Scheurer, Mikita Balesni, rusheb, AlexMeinke",
+    "title": "A starter guide for evals",
+    "published_date": "2024-01-08",
+    "summary": "This guide introduces model evaluations (evals), a nascent field focused on systematically measuring AI system properties to understand their capabilities and flaws. Evals, encompassing both red-teaming (probing for specific behaviors) and benchmarking (assessing likelihood of behaviors), inform decision-making about AI deployment and safety."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/yi4pqB6G73dcTnatq/aspiration-based-designs-3-performance-and-safety-criteria",
+    "author": "Jobst Heitzig",
+    "title": "[Aspiration-based designs] 3. Performance and safety criteria, and aspiration intervals",
+    "published_date": "2024-04-28",
+    "summary": "This article extends a previously introduced decision-making algorithm by incorporating criteria for selecting actions and generalizing the goal from achieving a specific expected value to falling within a desired interval. The added flexibility allows for prioritizing safety and performance metrics when multiple policies achieve the goal."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.05392",
+    "title": "The logic of NTQR evaluations of noisy AI agents: Complete postulates and logically consistent error correlations",
+    "published_date": "2023-12-08",
+    "abstract": "In his\"ship of state\"allegory (\\textit{Republic}, Book VI, 488) Plato poses a question -- how can a crew of sailors presumed to know little about the art of navigation recognize the true pilot among them? The allegory argues that a simple majority voting procedure cannot safely determine who is most qualified to pilot a ship when the voting members are ignorant or biased. We formalize Plato's concerns by considering the problem in AI safety of monitoring noisy AI agents in unsupervised settings. An algorithm evaluating AI agents using unlabeled data would be subject to the evaluation dilemma - how would we know the evaluation algorithm was correct itself? This endless validation chain can be avoided by considering purely algebraic functions of the observed responses. We can construct complete postulates than can prove or disprove the logical consistency of any grading algorithm. A complete set of postulates exists whenever we are evaluating $N$ experts that took $T$ tests with $Q$ questions with $R$ responses each. We discuss evaluating binary classifiers that have taken a single test - the $(N,T=1,Q,R=2)$ tests. We show how some of the postulates have been previously identified in the ML literature but not recognized as such - the \\textbf{agreement equations} of Platanios. The complete postulates for pair correlated binary classifiers are considered and we show how it allows for error correlations to be quickly calculated. An algebraic evaluator based on the assumption that the ensemble is error independent is compared with grading by majority voting on evaluations using the \\uciadult and and \\texttt{two-norm} datasets. Throughout, we demonstrate how the formalism of logical consistency via algebraic postulates of evaluation can help increase the safety of machines using AI algorithms.",
+    "summary": "This paper formalizes Plato's \"ship of state\" allegory to address the problem of evaluating noisy AI agents in unsupervised settings, developing a complete set of algebraic postulates to determine the logical consistency of any evaluation algorithm and analyze error correlations, thus enhancing AI safety."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.01998.pdf",
+    "title": "MLTEing Models: Negotiating, Evaluating, and Documenting Model and System Qualities",
+    "published_date": "2023-03-03",
+    "abstract": "Many organizations seek to ensure that machine learning (ML) and artificial intelligence (AI) systems work as intended in production but currently do not have a cohesive methodology in place to do so. To fill this gap, we propose MLTE (Machine Learning Test and Evaluation, colloquially referred to as \"melt\"), a framework and implementation to evaluate ML models and systems. The framework compiles state-of-the-art evaluation techniques into an organizational process for interdisciplinary teams, including model developers, software engineers, system owners, and other stakeholders. MLTE tooling supports this process by providing a domain-specific language that teams can use to express model requirements, an infrastructure to define, generate, and collect ML evaluation metrics, and the means to communicate results.",
+    "citation_count": 4,
+    "summary": "MLTE is a framework and tooling suite designed to help organizations comprehensively evaluate the performance and reliability of their machine learning models and systems throughout their lifecycle, fostering collaboration among diverse teams. It offers a structured process, a domain-specific language for defining requirements, and infrastructure for metric generation and reporting."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uqAdqrvxqGqeBHjTP/towards-understanding-based-safety-evaluations",
+    "author": "evhub",
+    "title": "Towards understanding-based safety evaluations",
+    "published_date": "2023-03-15",
+    "summary": "The author argues that current AI safety evaluations focusing on model behavior are insufficient, as advanced AI could deceptively pass such tests. Instead, they propose prioritizing evaluations focused on developers' understanding of their models, arguing this approach is more tractable and socially acceptable, though acknowledging the challenge of formalizing \"understanding.\""
+  }
+]

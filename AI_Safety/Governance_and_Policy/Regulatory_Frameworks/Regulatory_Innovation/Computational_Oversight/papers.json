@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2403.09510",
+    "title": "Trust AI Regulation? Discerning users are vital to build trust and effective AI regulation",
+    "published_date": "2024-03-14",
+    "abstract": "There is general agreement that some form of regulation is necessary both for AI creators to be incentivised to develop trustworthy systems, and for users to actually trust those systems. But there is much debate about what form these regulations should take and how they should be implemented. Most work in this area has been qualitative, and has not been able to make formal predictions. Here, we propose that evolutionary game theory can be used to quantitatively model the dilemmas faced by users, AI creators, and regulators, and provide insights into the possible effects of different regulatory regimes. We show that creating trustworthy AI and user trust requires regulators to be incentivised to regulate effectively. We demonstrate the effectiveness of two mechanisms that can achieve this. The first is where governments can recognise and reward regulators that do a good job. In that case, if the AI system is not too risky for users then some level of trustworthy development and user trust evolves. We then consider an alternative solution, where users can condition their trust decision on the effectiveness of the regulators. This leads to effective regulation, and consequently the development of trustworthy AI and user trust, provided that the cost of implementing regulations is not too high. Our findings highlight the importance of considering the effect of different regulatory regimes from an evolutionary game theoretic perspective.",
+    "citation_count": 7,
+    "summary": "This paper uses evolutionary game theory to model the interplay between AI creators, users, and regulators, demonstrating that effective AI regulation and user trust necessitate incentivizing regulators, either through government recognition or user-conditional trust decisions. The model reveals that these incentives foster trustworthy AI development when regulatory costs aren't excessively high."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, focuses on AI model registries—centralized databases tracking AI systems for governmental monitoring and future legislation. These registries, drawing parallels with pharmaceutical regulations, vary widely in requirements and accessibility across jurisdictions like the US, EU, and China."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/vzGC4zh73dfcqnFgf/open-source-ai-a-regulatory-review",
+    "author": "Elliot_Mckernon, Deric Cheng",
+    "title": "Open-Source AI: A Regulatory Review",
+    "published_date": "2024-04-29",
+    "summary": "This article examines the implications of open-sourcing AI models, focusing on the trade-offs between collaborative benefits and potential safety risks. While open-source models foster innovation, the lack of comprehensive transparency and safeguards in some open-weight models raises concerns about misuse for malicious purposes, especially with increasingly powerful LLMs."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising AI safety strategy, though currently under-developed. Proposed approaches aim to increase visibility of AI development, allocate compute resources strategically, and enforce regulations, primarily through technological means."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The article advocates for third-party testing of large-scale AI systems to mitigate societal harm, arguing that such a regime is crucial for managing the risks of powerful AI models while fostering innovation and international cooperation. This testing should focus on a narrow set of high-impact systems, balancing safety with accessibility for smaller companies."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.04914",
+    "title": "Regulatory Markets: The Future of AI Governance",
+    "published_date": "2023-04-11",
+    "abstract": "Appropriately regulating artificial intelligence is an increasingly urgent policy challenge. Legislatures and regulators lack the specialized knowledge required to best translate public demands into legal requirements. Overreliance on industry self-regulation fails to hold producers and users of AI systems accountable to democratic demands. Regulatory markets, in which governments require the targets of regulation to purchase regulatory services from a private regulator, are proposed. This approach to AI regulation could overcome the limitations of both command-and-control regulation and self-regulation. Regulatory market could enable governments to establish policy priorities for the regulation of AI, whilst relying on market forces and industry R&D efforts to pioneer the methods of regulation that best achieve policymakers' stated objectives.",
+    "citation_count": 21,
+    "summary": "The paper proposes regulatory markets—where governments contract private entities to regulate AI—as a solution to the challenges of AI governance, arguing this approach leverages market efficiency and industry expertise while maintaining government oversight of policy objectives."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2307.03718.pdf",
+    "title": "Frontier AI Regulation: Managing Emerging Risks to Public Safety",
+    "published_date": "2023-07-06",
+    "abstract": "Advanced AI models hold the promise of tremendous benefits for humanity, but society needs to proactively manage the accompanying risks. In this paper, we focus on what we term\"frontier AI\"models: highly capable foundation models that could possess dangerous capabilities sufficient to pose severe risks to public safety. Frontier AI models pose a distinct regulatory challenge: dangerous capabilities can arise unexpectedly; it is difficult to robustly prevent a deployed model from being misused; and, it is difficult to stop a model's capabilities from proliferating broadly. To address these challenges, at least three building blocks for the regulation of frontier models are needed: (1) standard-setting processes to identify appropriate requirements for frontier AI developers, (2) registration and reporting requirements to provide regulators with visibility into frontier AI development processes, and (3) mechanisms to ensure compliance with safety standards for the development and deployment of frontier AI models. Industry self-regulation is an important first step. However, wider societal discussions and government intervention will be needed to create standards and to ensure compliance with them. We consider several options to this end, including granting enforcement powers to supervisory authorities and licensure regimes for frontier AI models. Finally, we propose an initial set of safety standards. These include conducting pre-deployment risk assessments; external scrutiny of model behavior; using risk assessments to inform deployment decisions; and monitoring and responding to new information about model capabilities and uses post-deployment. We hope this discussion contributes to the broader conversation on how to balance public safety risks and innovation benefits from advances at the frontier of AI development.",
+    "citation_count": 91,
+    "summary": "This paper argues that highly capable \"frontier\" AI models pose significant public safety risks requiring proactive regulation. The authors propose a three-pronged regulatory approach involving standard-setting, registration/reporting, and compliance mechanisms, advocating for a combination of industry self-regulation and government intervention."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/regulation-and-ai-risk",
+    "author": "KatjaGrace",
+    "title": "Regulation and AI Risk - AI Alignment Forum",
+    "published_date": "2023-02-07",
+    "summary": "Debate surrounds regulating Artificial General Intelligence (AGI) to mitigate existential risks, with proposals ranging from establishing review boards to focusing on funding safe AGI research. However, global cooperation is crucial for effective regulation, which is challenged by the potential for an AI arms race and the difficulty of detecting AGI development."
+  }
+]

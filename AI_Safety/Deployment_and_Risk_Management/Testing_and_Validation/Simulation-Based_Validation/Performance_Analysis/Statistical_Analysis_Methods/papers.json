@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2403.05698",
+    "title": "SimEngine: A Modular Framework for Statistical Simulations in R",
+    "published_date": "2024-03-08",
+    "abstract": "This article describes SimEngine, an open-source R package for structuring, maintaining, running, and debugging statistical simulations on both local and cluster-based computing environments. Several R packages exist for structuring simulations, but SimEngine is the only package specifically designed for running simulations in parallel via job schedulers on high-performance cluster computing systems. The package provides structure and functionality for common simulation tasks, such as setting simulation levels, managing seeds for random number generation, and calculating summary metrics (such as bias and confidence interval coverage). SimEngine also brings several unique features, such as automatic calculation of Monte Carlo error and information-sharing across simulation replicates. We provide an overview of the package and demonstrate some of its advanced functionality.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.10042",
+    "title": "Guarantees for Comprehensive Simulation Assessment of Statistical Methods",
+    "published_date": "2022-12-20",
+    "abstract": "Simulation can evaluate a statistical method for properties such as Type I Error, FDR, or bias on a grid of hypothesized parameter values. But what about the gaps between the grid-points? Continuous Simulation Extension (CSE) is a proof-by-simulation framework which can supplement simulations with (1) confidence bands valid over regions of parameter space or (2) calibration of rejection thresholds to provide rigorous proof of strong Type I Error control. CSE extends simulation estimates at grid-points into bounds over nearby space using a model shift bound related to the Renyi divergence, which we analyze for models in exponential family or canonical GLM form. CSE can work with adaptive sampling, nuisance parameters, administrative censoring, multiple arms, multiple testing, Bayesian randomization, Bayesian decision-making, and inference algorithms of arbitrary complexity. As a case study, we calibrate for strong Type I Error control a Phase II/III Bayesian selection design with 4 unknown statistical parameters. Potential applications include calibration of new statistical procedures or streamlining regulatory review of adaptive trial designs. Our open-source software implementation imprint is available athttps://github.com/Confirm-Solutions/imprint"
+  },
+  {
+    "url": "https://arxiv.org/abs/2209.09299",
+    "title": "Finite- and Large- Sample Inference for Model and Coefficients in High-dimensional Linear Regression with Repro Samples",
+    "published_date": "2022-09-19",
+    "abstract": "In this paper, we present a new and effective simulation-based approach to conduct both finite- and large-sample inference for high-dimensional linear regression models. This approach is developed under the so-called repro samples framework, in which we conduct statistical inference by creating and studying the behavior of artificial samples that are obtained by mimicking the sampling mechanism of the data. We obtain confidence sets for (a) the true model corresponding to the nonzero coefficients, (b) a single or any collection of regression coefficients, and (c) both the model and regression coefficients jointly. We also extend our approaches to drawing inferences on functions of the regression coefficients. The proposed approach fills in two major gaps in the high-dimensional regression literature: (1) lack of effective approaches to address model selection uncertainty and provide valid inference for the underlying true model; (2) lack of effective inference approaches that guarantee finite-sample performances. We provide both finite-sample and asymptotic results to theoretically guarantee the performances of the proposed methods. In addition, our numerical results demonstrate that the proposed methods are valid and achieve better coverage with smaller confidence sets than the existing state-of-art approaches, such as debiasing and bootstrap approaches.",
+    "citation_count": 5
+  },
+  {
+    "title": "Novel Approaches to Feasibility Determination",
+    "abstract": "This article proposes two-stage Bayesian and frequentist procedures for determining whether a number of systems—each characterized by the same number of performance measures—belongs to a set Γ defined by a finite collection of linear inequalities. A system is “in (not in) Γ” if the vector of the means is in (not in) Γ, where the means must be estimated using Monte Carlo simulation. We develop algorithms for classifying the systems with a user-specified level of confidence using the minimum number of simulation replications so the probability of correct classification over all r systems satisfies a user-specified minimum value. Once the analyst provides prior values for the means and standard deviations of the random variables in each system, an initial number of simulation replications is performed to obtain current estimates of the means and standard deviations to assess whether the systems can be classified with the desired level of confidence. For any system that cannot be classified, heuristics are proposed to determine the number of additional simulation replications that would enable correct classification. Our contributions include the introduction of intuitive algorithms that are not only easy to implement, but also effective with their performance. Compared to other feasibility determination approaches, they also appear to be competitive. While the algorithms were initially developed in settings where system variance is assumed to be known and the random variables are independent, their performance remains satisfactory when those assumptions are relaxed.",
+    "published_date": "2021-01-08",
+    "citation_count": 3,
+    "url": "https://dl.acm.org/doi/10.1145/3426359"
+  },
+  {
+    "url": "https://arxiv.org/pdf/1912.08772.pdf",
+    "title": "Assessing Inference Methods",
+    "published_date": "2019-12-18",
+    "abstract": "We analyze different types of simulations that applied researchers may use to assess their inference methods. We show that different types of simulations vary in many dimensions when considered as inference assessments. Moreover, we show that natural ways of running simulations may lead to misleading conclusions, and we propose alternatives. We then provide evidence that even some simple assessments can detect problems in many different settings. Alternative assessments that potentially better approximate the true data generating process may detect problems that simpler assessments would not detect. However, they are not uniformly dominant in this dimension, and may imply some costs.",
+    "citation_count": 12
+  },
+  {
+    "url": "https://arxiv.org/abs/1904.11912?context=stat.ME",
+    "title": "Assessing and Visualizing Simultaneous Simulation Error",
+    "published_date": "2019-04-26",
+    "abstract": "Abstract Monte Carlo experiments produce samples to estimate features such as means and quantiles of a given distribution. However, simultaneous estimation of means and quantiles has received little attention. In this setting, we establish a multivariate central limit theorem for any finite combination of sample means and quantiles under the assumption of a strongly mixing process, which includes the standard Monte Carlo and Markov chain Monte Carlo settings. We build on this to provide a fast algorithm for constructing hyperrectangular confidence regions having the desired simultaneous coverage probability and a convenient marginal interpretation. The methods are incorporated into standard ways of visualizing the results of Monte Carlo experiments enabling the practitioner to more easily assess the reliability of the results. We demonstrate the utility of this approach in various Monte Carlo settings including simulation studies based on independent and identically distributed samples and Bayesian analyses using Markov chain Monte Carlo sampling. Supplementary materials for this article are available online.",
+    "citation_count": 15
+  }
+]

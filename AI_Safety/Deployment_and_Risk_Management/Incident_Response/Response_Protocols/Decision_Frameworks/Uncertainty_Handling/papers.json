@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2406.18884",
+    "title": "Sequential three-way group decision-making for double hierarchy hesitant fuzzy linguistic term set",
+    "published_date": "2024-06-27",
+    "abstract": "Group decision-making (GDM) characterized by complexity and uncertainty is an essential part of various life scenarios. Most existing researches lack tools to fuse information quickly and interpret decision results for partially formed decisions. This limitation is particularly noticeable when there is a need to improve the efficiency of GDM. To address this issue, a novel multi-level sequential three-way decision for group decision-making (S3W-GDM) method is constructed from the perspective of granular computing. This method simultaneously considers the vagueness, hesitation, and variation of GDM problems under double hierarchy hesitant fuzzy linguistic term sets (DHHFLTS) environment. First, for fusing information efficiently, a novel multi-level expert information fusion method is proposed, and the concepts of expert decision table and the extraction/aggregation of decision-leveled information based on the multi-level granularity are defined. Second, the neighborhood theory, outranking relation and regret theory (RT) are utilized to redesign the calculations of conditional probability and relative loss function. Then, the granular structure of DHHFLTS based on the sequential three-way decision (S3WD) is defined to improve the decision-making efficiency, and the decision-making strategy and interpretation of each decision-level are proposed. Furthermore, the algorithm of S3W-GDM is given. Finally, an illustrative example of diagnosis is presented, and the comparative and sensitivity analysis with other methods are performed to verify the efficiency and rationality of the proposed method."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.00291",
+    "title": "Robust Generation Dispatch With Purchase of Renewable Power and Load Predictions",
+    "published_date": "2022-10-01",
+    "abstract": "The increasing use of renewable energy sources (RESs) and responsive loads has made power systems more uncertain. Meanwhile, thanks to the development of advanced metering and forecasting technologies, predictions by RES and load owners are now attainable. Many recent studies have revealed that pooling the predictions from RESs and loads can help the operators predict more accurately and make better dispatch decisions. However, how the prediction purchase decisions are made during the dispatch processes needs further investigation. This paper fills the research gap by proposing a novel robust generation dispatch model considering the purchase and use of predictions from RESs and loads. The prediction purchase decisions are made in the first stage, which influence the accuracy of predictions from RESs and loads, and further the uncertainty set and the worst-case second-stage dispatch performance. This two-stage procedure is essentially a robust optimization problem with decision-dependent uncertainty (DDU). A mapping-based column-and-constraint generation (C&CG) algorithm is developed to overcome the potential failures of traditional solution methods in detecting feasibility, guaranteeing convergence, and reaching optimal strategies under DDU. Case studies demonstrate the effectiveness, necessity, and scalability of the proposed model and algorithm.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2203.16484v1.pdf",
+    "title": "Two-Stage Robust Optimization with Decision Dependent Uncertainty",
+    "published_date": "2022-03-30",
+    "abstract": "The type of decision dependent uncertainties (DDUs) imposes a great challenge in decision making, while existing methodologies are not suﬃcient to support many real practices. In this paper, we present a systematic study to handle this challenge in two-stage robust optimization (RO). Our main contributions include three sophisticated variants of column-and-constraint generation method to exactly compute DDU-based two-stage RO. By a novel application of core concepts of linear programming, we provide rigorous analyses on their computational behaviors. Interestingly, in terms of the iteration complexity of those algorithms, DDU-based two-stage RO is not more demanding than its decision independent uncertainty (DIU) based counterpart. It is worth highlighting a counterintuitive discovery that converting a DIU set into a DDU set by making use of “deep knowledge” and then computing the resulting DDU-based formulation may lead to a signiﬁcant improvement. Indeed, as shown in this paper, in addition to capturing the actual dependence existing in the real world, DDU is a powerful and ﬂexible tool to represent and leverage analytical properties or simply domain expertise to achieve a strong solution capacity. So, we believe it will open a new direction to solve large-scale DIU- or DDU-based RO. Other important results include basic structural properties for two-stage RO, an approximation scheme to deal with mixed integer recourse, and a couple of enhancement techniques for the developed algorithms, as well as an organized numerical study to help us appreciate all algorithms and enhancement techniques' computational performances.",
+    "citation_count": 15
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.11597v2.pdf",
+    "title": "Generalized-TODIM Method for Multi-criteria Decision Making with Basic Uncertain Information and its Application",
+    "published_date": "2021-04-19",
+    "abstract": "Abstract: Due to the fact that basic uncertain information provides a simple form for decision information with certainty degree, it has been developed to reflect the quality of observed or subjective assessments. In order to study the algebra structure and preference relation of basic uncertain information, we develop some algebra operations for basic uncertain information. The order relation of such type of information has also been considered. Finally, to apply the developed algebra operations and order relations, a generalized TODIM method for multi-attribute decision making with basic uncertain information is given. The numerical example shows that the developed decision procedure is valid."
+  }
+]

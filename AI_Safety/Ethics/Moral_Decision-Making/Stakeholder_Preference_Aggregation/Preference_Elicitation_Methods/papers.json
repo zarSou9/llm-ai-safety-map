@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Parameterized preference aggregation operators with improved adjustability",
+    "abstract": "ABSTRACT This study proposes some extended aggregation operators to model Extreme Conformity and Bounded Extreme Conformity which were proposed in a recent work. In detail, we propose Interval Judged s-t-A extreme operators and Selective Leveled-Preferences Ordered Weighted Averaging operators, respectively, and analyze some of their properties such as the related degenerations and monotonicities. Both types of operators have more flexibility and adjustability. An application of Interval Judged s-t-A extreme operators in project evaluation and decision-making is also introduced.",
+    "published_date": "2020-06-30",
+    "citation_count": 5,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/03081079.2020.1786822",
+    "summary": "This paper introduces two new parameterized aggregation operators, Interval Judged s-t-A extreme operators and Selective Leveled-Preferences Ordered Weighted Averaging operators, offering improved flexibility and adjustability over existing methods for modeling extreme conformity in preference aggregation. The paper analyzes their properties and demonstrates an application in project evaluation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/kYgWmKJnqq8QkbjFj/bayesian-utility-representing-preference-by-probability",
+    "author": "Vladimir_Nesov",
+    "title": "Bayesian Utility: Representing Preference by Probability Measures",
+    "published_date": "2009-07-27",
+    "summary": "Expected utility can be reformulated as the ratio of two probability measures, \"probability\" (P) and \"shouldness\" (Q), offering a conceptually clearer representation where utility and probability are treated symmetrically and updated via Bayesian methods. This reformulation reveals that preferences are defined by the relationship between P and Q, not solely by Q (utility) given a fixed P (probability)."
+  }
+]

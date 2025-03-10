@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/cLfsabkCPtieJ5LoK/investigating-bias-representations-in-llms-via-activation",
+    "author": "DawnLu",
+    "title": "Investigating Bias Representations in LLMs via Activation Steering",
+    "published_date": "2024-01-15",
+    "summary": "This research uses activation steering to assess the societal biases of the Llama-2-7b-chat language model, finding that while the model exhibits gender bias in unsteered responses, attempts to further steer it towards biased outputs using contrastive activation addition resulted in the model refusing to answer, suggesting a potential robustness against overt bias manipulation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/bsXPTiAhhwt5nwBW3/do-sparse-autoencoders-saes-transfer-across-base-and",
+    "author": "Taras Kutsyk; Tommaso Mencattini; Ciprian Florea",
+    "title": "Do Sparse Autoencoders (SAEs) transfer across base and finetuned language models?",
+    "published_date": "2024-09-29",
+    "summary": "This study investigates the transferability of Sparse Autoencoders (SAEs) from base language models (Gemma-2b and Mistral-7B) to their fine-tuned counterparts for coding and mathematics. Results show transferability is model-dependent and sensitive to the fine-tuning process, with Mistral-7B exhibiting significantly better SAE transfer than Gemma-2b."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/37uuuPQKiGisi8cGG/language-and-capabilities-testing-llm-mathematical-abilities",
+    "author": "Ethan Edwards",
+    "title": "Language and Capabilities: Testing LLM Mathematical Abilities Across Languages",
+    "published_date": "2024-04-04",
+    "summary": "This research investigated GPT-4's ability to perform three-digit multiplication in various languages and numeral systems, finding that while performance was best with Arabic numerals, success depended heavily on prompt phrasing and unexpected emergent properties of specific language/numeral combinations, suggesting GPT-4's mathematical abilities rely on learned token patterns rather than abstract understanding."
+  },
+  {
+    "title": "Community Colleges Can Increase Credential Stacking by Introducing New Programs Within Established Technical Pathways",
+    "abstract": "ABSTRACT “Stackable” credentials offer opportunities for college students to start by earning short-term credentials in vocational and technical fields, then stack additional credentials as they progress in careers, building skills in the classroom and in the workforce. Stackable credentials come at a cost: colleges expend resources in developing and offering stackable credential programs, students pay to enroll, and government aid programs support colleges and students. Given these investments, it is important to know whether stackable programs generate value for students and local economies. This study analyzes the introduction of new certificate or associate degree program options at Ohio community colleges during school years 2004–2005 to 2016–2017. Comparing among students who had just completed a credential, the students whose college had an additional program within their field of study were more likely to re-enroll and earn additional credentials within two years. The additional short-term enrollment did not significantly decrease students' participation in employment or transfers to a university, indicating that stackable credentials fit with their career and educational progression.",
+    "published_date": "2023-02-10",
+    "citation_count": 1,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/00221546.2023.2171211",
+    "summary": "This study found that Ohio community colleges offering new certificate or associate degree programs within established technical pathways increased student re-enrollment and subsequent credential attainment without negatively impacting employment or university transfer rates. This suggests that expanding stackable credential options within existing programs is a valuable strategy for community colleges."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/BDTZBPunnvffCfKff/uncovering-latent-human-wellbeing-in-llm-embeddings",
+    "author": "ChengCheng, Pedro Freire, Dan H, Scott Emmons",
+    "title": "Uncovering Latent Human Wellbeing in LLM Embeddings",
+    "published_date": "2023-09-14",
+    "summary": "A one-dimensional PCA projection of OpenAI's text-embedding-ada-002 achieved 73.7% accuracy on the ETHICS Util dataset, comparable to a fine-tuned BERT model, suggesting that large language models implicitly represent human utility without explicit training."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/ai",
+    "author": "Evan Hubinger",
+    "title": "AI - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "Artificial intelligence alignment focuses on ensuring powerful AI systems act in accordance with human values, addressing the risk of unintended consequences and existential threats. This involves diverse approaches, from narrow goals like curing diseases to broader ambitions of creating a beneficial future for humanity."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/xNgdJEep9DQQWhSbv/understanding-the-information-flow-inside-large-language",
+    "author": "Felix Hofstätter, cozyfractal",
+    "title": "Understanding the Information Flow inside Large Language Models",
+    "published_date": "2023-08-15",
+    "summary": "This capstone project developed a novel method for visualizing the internal information flow of language models, represented as \"information-flow graphs,\" to better understand how they process long-range dependencies. The approach uses interventions to measure the importance of information transfer between tokens and offers potential for future research in AI alignment and safety."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi/p/HvqQm6o8KnwxbdmhZ",
+    "author": "lennart, Jsevillamol, Marius Hobbhahn, Tamay Besiroglu, anson.ho",
+    "title": "Estimating training compute of Deep Learning models",
+    "published_date": "2022-01-20",
+    "summary": "The article presents two methods for estimating the computational cost of training deep learning models: directly counting operations within the model and estimating from GPU training time. Both methods yield comparable results, with the authors suggesting utilization rates of 30% for LLMs and 40% for other models when using the GPU time method."
+  }
+]

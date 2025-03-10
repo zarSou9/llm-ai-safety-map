@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/bBdfbWfWxHN9Chjcq/robustness-to-scale",
+    "author": "Scott Garrabrant",
+    "title": "Robustness to Scale",
+    "published_date": "2018-02-21",
+    "summary": "AI alignment requires \"robustness to scale,\" meaning AI systems should function reliably regardless of their capability level (scaling up or down) and the relative power of their subsystems. Lack of this robustness, particularly concerning unexpected emergent behavior at larger scales, poses a significant risk in AI development."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.09678",
+    "title": "Integrating Graceful Degradation and Recovery Through Requirement-Driven Adaptation",
+    "published_date": "2024-01-18",
+    "abstract": "Cyber-physical systems (CPS) are subject to environmental uncertainties such as adverse operating conditions, malicious attacks, and hardware degradation. These uncertainties may lead to failures that put the system in a sub-optimal or unsafe state. Systems that are resilient to such uncertainties rely on two types of operations: (1) graceful degradation, for ensuring that the system maintains an acceptable level of safety during unexpected environmental conditions and (2) recovery, to facilitate the resumption of normal system functions. Typically, mechanisms for degradation and recovery are developed independently from each other, and later integrated into a system, requiring the designer to develop an additional, ad-hoc logic for activating and coordinating between the two operations. In this paper, we propose a self-adaptation approach for improving system resiliency through automated triggering and coordination of graceful degradation and recovery. The key idea behind our approach is to treat degradation and recovery as requirement-driven adaptation tasks: Degradation can be thought of as temporarily weakening original (i.e., ideal) system requirements to be achieved by the system, and recovery as strengthening the weakened requirements when the environment returns within an expected operating boundary. Furthermore, by treating weakening and strengthening as dual operations, we argue that a single requirement-based adaptation method is sufficient to enable coordination between degradation and recovery. Given system requirements specified in signal temporal logic (STL), we propose a run-time adaptation framework that performs degradation and recovery in response to environmental changes. We describe a prototype implementation of our framework and demonstrate the feasibility of the proposed approach using a case study in unmanned underwater vehicles.",
+    "summary": "This paper presents a self-adaptation approach for improving the resilience of cyber-physical systems by integrating graceful degradation and recovery mechanisms through requirement-driven adaptation using signal temporal logic (STL), enabling automated coordination between these functionalities. The approach treats degradation and recovery as dual operations on system requirements, simplifying implementation and improving system robustness."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.11157",
+    "title": "RPCBF: Constructing Safety Filters Robust to Model Error and Disturbances via Policy Control Barrier Functions",
+    "published_date": "2024-10-15",
+    "abstract": "Control Barrier Functions (CBFs) have proven to be an effective tool for performing safe control synthesis for nonlinear systems. However, guaranteeing safety in the presence of disturbances and input constraints for high relative degree systems is a difficult problem. In this work, we propose the Robust Policy CBF (RPCBF), a practical method of constructing CBF approximations that is easy to implement and robust to disturbances via the estimation of a value function. We demonstrate the effectiveness of our method in simulation on a variety of high relative degree input-constrained systems. Finally, we demonstrate the benefits of RPCBF in compensating for model errors on a hardware quadcopter platform by treating the model errors as disturbances. The project page can be found at https://oswinso.xyz/rpcbf.",
+    "summary": "RPCBF is a novel method for constructing robust Control Barrier Functions (CBFs) that effectively guarantee safety for high relative-degree systems with disturbances and input constraints by leveraging value function estimation. Its effectiveness is demonstrated through simulations and hardware experiments on a quadcopter, showcasing robustness to both disturbances and model errors."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.16608",
+    "title": "Barriers on the EDGE: A scalable CBF architecture over EDGE for safe aerial-ground multi-agent coordination",
+    "published_date": "2024-11-25",
+    "abstract": "In this article, we address the problem of designing a scalable control architecture for a safe coordinated operation of a multi-agent system with aerial (UAVs) and ground robots (UGVs) in a confined task space. The proposed method uses Control Barrier Functions (CBFs) to impose constraints associated with (i) collision avoidance between agents, (ii) landing of UAVs on mobile UGVs, and (iii) task space restriction. Further, to account for the rapid increase in the number of constraints for a single agent with the increasing number of agents, the proposed architecture uses a centralized-decentralized Edge cluster, where a centralized node (Watcher) activates the relevant constraints, reducing the need for high onboard processing and network complexity. The distributed nodes run the controller locally to overcome latency and network issues. The proposed Edge architecture is experimentally validated using multiple aerial and ground robots in a confined environment performing a coordinated operation.",
+    "summary": "This paper presents a scalable control architecture using Control Barrier Functions (CBFs) for safe multi-agent coordination between UAVs and UGVs in confined spaces, leveraging a centralized-decentralized Edge computing approach to manage constraints efficiently and reduce computational burden. Experimental validation demonstrates its effectiveness in a real-world scenario."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MkfaQyxB9PN4h8Bs9/ai-safety-101-capabilities",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 : Capabilities - Human Level AI, What? How? and When?",
+    "published_date": "2024-03-07",
+    "summary": "This revised article provides a comprehensive overview of current advancements in artificial intelligence, focusing on foundation models and their capabilities. It explores key concepts like scaling laws, forecasting AI's future trajectory, and the potential risks associated with increasingly powerful AI systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), focusing on scenarios with short timelines (within a decade). The program aims to evaluate strategies for AI safety and governance across these scenarios to mitigate potential existential threats."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.08700.pdf",
+    "title": "Wasserstein Distributionally Robust Control Barrier Function using Conditional Value-at-Risk with Differentiable Convex Programming",
+    "published_date": "2023-09-15",
+    "abstract": "Control Barrier functions (CBFs) have attracted extensive attention for designing safe controllers for their deployment in real-world safety-critical systems. However, the perception of the surrounding environment is often subject to stochasticity and further distributional shift from the nominal one. In this paper, we present distributional robust CBF (DR-CBF) to achieve resilience under distributional shift while keeping the advantages of CBF, such as computational efficacy and forward invariance. To achieve this goal, we first propose a single-level convex reformulation to estimate the conditional value at risk (CVaR) of the safety constraints under distributional shift measured by a Wasserstein metric, which is by nature tri-level programming. Moreover, to construct a control barrier condition to enforce the forward invariance of the CVaR, the technique of differentiable convex programming is applied to enable differentiation through the optimization layer of CVaR estimation. We also provide an approximate variant of DR-CBF for higher-order systems. Simulation results are presented to validate the chance-constrained safety guarantee under the distributional shift in both first and second-order systems.",
+    "citation_count": 3,
+    "summary": "This paper introduces a distributional robust control barrier function (DR-CBF) that ensures safety under environmental uncertainty by using a Wasserstein metric to measure distributional shifts and a differentiable convex programming approach to estimate the conditional value at risk (CVaR) of safety constraints. The DR-CBF maintains computational efficiency and guarantees forward invariance, even with higher-order systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.10980v2",
+    "title": "MultiRobustBench: Benchmarking Robustness Against Multiple Attacks",
+    "published_date": "2023-02-21",
+    "abstract": "The bulk of existing research in defending against adversarial examples focuses on defending against a single (typically bounded Lp-norm) attack, but for a practical setting, machine learning (ML) models should be robust to a wide variety of attacks. In this paper, we present the first unified framework for considering multiple attacks against ML models. Our framework is able to model different levels of learner's knowledge about the test-time adversary, allowing us to model robustness against unforeseen attacks and robustness against unions of attacks. Using our framework, we present the first leaderboard, MultiRobustBench, for benchmarking multiattack evaluation which captures performance across attack types and attack strengths. We evaluate the performance of 16 defended models for robustness against a set of 9 different attack types, including Lp-based threat models, spatial transformations, and color changes, at 20 different attack strengths (180 attacks total). Additionally, we analyze the state of current defenses against multiple attacks. Our analysis shows that while existing defenses have made progress in terms of average robustness across the set of attacks used, robustness against the worst-case attack is still a big open problem as all existing models perform worse than random guessing.",
+    "citation_count": 7,
+    "summary": "MultiRobustBench introduces a unified framework and leaderboard for evaluating machine learning model robustness against multiple adversarial attacks, revealing that while average robustness has improved, achieving robustness against the worst-case attack remains a significant challenge."
+  }
+]

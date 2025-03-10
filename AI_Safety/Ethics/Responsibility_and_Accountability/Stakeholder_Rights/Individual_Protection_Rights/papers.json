@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2412.17114",
+    "title": "Decentralized Governance of Autonomous AI Agents",
+    "published_date": "2024-12-22",
+    "abstract": "Autonomous AI agents present transformative opportunities and significant governance challenges. Existing frameworks, such as the EU AI Act and the NIST AI Risk Management Framework, fall short of addressing the complexities of these agents, which are capable of independent decision-making, learning, and adaptation. To bridge these gaps, we propose the ETHOS (Ethical Technology and Holistic Oversight System) framework, a decentralized governance (DeGov) model leveraging Web3 technologies, including blockchain, smart contracts, and decentralized autonomous organizations (DAOs). ETHOS establishes a global registry for AI agents, enabling dynamic risk classification, proportional oversight, and automated compliance monitoring through tools like soulbound tokens and zero-knowledge proofs. Furthermore, the framework incorporates decentralized justice systems for transparent dispute resolution and introduces AI specific legal entities to manage limited liability, supported by mandatory insurance to ensure financial accountability and incentivize ethical design. By integrating philosophical principles of rationality, ethical grounding, and goal alignment, ETHOS aims to create a robust research agenda for promoting trust, transparency, and participatory governance. This innovative framework offers a scalable and inclusive strategy for regulating AI agents, balancing innovation with ethical responsibility to meet the demands of an AI-driven future.",
+    "summary": "The ETHOS framework proposes a decentralized governance model for autonomous AI agents using Web3 technologies, aiming to address the limitations of existing regulatory frameworks through a global registry, automated compliance monitoring, and decentralized justice systems. This approach prioritizes transparency, accountability, and ethical considerations in the development and deployment of AI."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.14366",
+    "title": "Lessons Learned in Performing a Trustworthy AI and Fundamental Rights Assessment",
+    "published_date": "2024-04-22",
+    "abstract": "This report shares the experiences, results and lessons learned in conducting a pilot project ``Responsible use of AI'' in cooperation with the Province of Friesland, Rijks ICT Gilde-part of the Ministry of the Interior and Kingdom Relations (BZK) (both in The Netherlands) and a group of members of the Z-Inspection$^{\\small{\\circledR}}$ Initiative. The pilot project took place from May 2022 through January 2023. During the pilot, the practical application of a deep learning algorithm from the province of Fr\\^yslan was assessed. The AI maps heathland grassland by means of satellite images for monitoring nature reserves. Environmental monitoring is one of the crucial activities carried on by society for several purposes ranging from maintaining standards on drinkable water to quantifying the CO2 emissions of a particular state or region. Using satellite imagery and machine learning to support decisions is becoming an important part of environmental monitoring. The main focus of this report is to share the experiences, results and lessons learned from performing both a Trustworthy AI assessment using the Z-Inspection$^{\\small{\\circledR}}$ process and the EU framework for Trustworthy AI, and combining it with a Fundamental Rights assessment using the Fundamental Rights and Algorithms Impact Assessment (FRAIA) as recommended by the Dutch government for the use of AI algorithms by the Dutch public authorities.",
+    "summary": "This report details a pilot project assessing the trustworthy AI and fundamental rights implications of a Dutch provincial government's deep learning algorithm for mapping heathland using satellite imagery. The project utilized the Z-Inspection® process, the EU Trustworthy AI framework, and the FRAIA methodology, yielding valuable lessons for future assessments."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising but under-developed AI safety strategy. Proposed methods aim to increase visibility into AI development, allocate compute resources strategically, and enforce regulations on its use, though many remain speculative and require further research."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.08157",
+    "title": "Human-Centered Responsible Artificial Intelligence: Current & Future Trends",
+    "published_date": "2023-02-16",
+    "abstract": "In recent years, the CHI community has seen significant growth in research on Human-Centered Responsible Artificial Intelligence. While different research communities may use different terminology to discuss similar topics, all of this work is ultimately aimed at developing AI that benefits humanity while being grounded in human rights and ethics, and reducing the potential harms of AI. In this special interest group, we aim to bring together researchers from academia and industry interested in these topics to map current and future research trends to advance this important area of research by fostering collaboration and sharing ideas.",
+    "citation_count": 29,
+    "summary": "This paper examines the burgeoning field of Human-Centered Responsible Artificial Intelligence, highlighting the convergence of academic and industry efforts to develop ethical and beneficial AI systems while mitigating potential harms. The goal is to chart current and future research trends through collaboration and idea sharing."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/ai",
+    "author": "Evan Hubinger",
+    "title": "AI - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "Artificial intelligence alignment focuses on ensuring powerful AI systems act in accordance with human values, addressing the risk of unintended consequences and existential threats. This involves various approaches, from narrow goals (e.g., curing diseases) to broader ambitions (e.g., creating a beneficial future), all aiming to prevent AI from pursuing unintended objectives."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.02667",
+    "title": "A Human Rights-Based Approach to Responsible AI",
+    "published_date": "2022-10-06",
+    "abstract": "Research on fairness, accountability, transparency and ethics of AI-based interventions in society has gained much-needed momen-tum in recent years. However it lacks an explicit alignment with a set of normative values and principles that guide this research and interventions. Rather, an implicit consensus is often assumed to hold for the values we impart into our models – something that is at odds with the pluralistic world we live in. In this paper, we put forth the doctrine of universal human rights as a set of globally salient and cross-culturally recognized set of values that can serve as a grounding framework for explicit value alignment in responsible AI – and discuss its eﬃcacy as a framework for civil society partnership and participation. We argue that a human rights framework orients the research in this space away from the machines and the risks of their biases, and towards humans and the risks to their rights, essentially helping to center the conversation around who is harmed, what harms they face, and how those harms may be mitigated.",
+    "citation_count": 30,
+    "summary": "This paper proposes using universal human rights as a foundational framework for responsible AI development, arguing that this approach shifts the focus from mitigating algorithmic biases to protecting human rights and addressing harms caused by AI systems."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2208.14788.pdf",
+    "title": "Negative Human Rights as a Basis for Long-term AI Safety and Regulation",
+    "published_date": "2022-08-31",
+    "abstract": "If autonomous AI systems are to be reliably safe in novel situations, they will need to incorporate general principles guiding them to recognize and avoid harmful behaviours. Such principles may need to be supported by a binding system of regulation, which would need the underlying principles to be widely accepted. They should also be specific enough for technical implementation. Drawing inspiration from law, this article explains how negative human rights could fulfil the role of such principles and serve as a foundation both for an international regulatory system and for building technical safety constraints for future AI systems.\nThis article appears in the AI & Society track.",
+    "citation_count": 9,
+    "summary": "This paper proposes using negative human rights—rights that protect against harm—as foundational principles for both regulating and technically constraining AI systems to ensure long-term safety. These principles offer a broadly acceptable and implementable framework for preventing harmful AI behaviors."
+  },
+  {
+    "title": "The future of work: freedom, justice and capital in the age of artificial intelligence",
+    "abstract": "ABSTRACT Artificial Intelligence (AI) is predicted to have a deep impact on the future of work and employment. The paper outlines a normative framework to understand and protect human freedom and justice in this transition. The proposed framework is based on four main ideas: going beyond the idea of a Basic Income to compensate the losers in the transition towards AI-driven work, towards a Responsible Innovation approach, in which the development of AI technologies is governed by an inclusive and deliberate societal judgment; going beyond a philosophical conceptualisation of social justice only focused on the distribution of 'primary goods', towards one focused on the different goals, values, and virtues of various social practices (Walzer's 'spheres of justice') and the different individual capabilities of persons (Sen's 'capabilities'); going beyond a classical understanding of capital, towards one explicitly including mental capacities as a source of value for AI-driven activities. In an effort to promote an interdisciplinary approach, the paper combines political and economic theories of freedom, justice and capital with recent approaches in applied ethics of technology, and starts applying its normative framework to some concrete example of AI-based systems: healthcare robotics, 'citizen science', social media and platform economy.",
+    "published_date": "2021-12-13",
+    "citation_count": 15,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/13698230.2021.2008204",
+    "summary": "This paper proposes a normative framework for ensuring freedom and justice in the AI-driven future of work, advocating for responsible AI innovation, a broadened conception of social justice encompassing capabilities and diverse values, and a redefinition of capital to include mental capacities. It applies this framework to several AI-based systems to demonstrate its practical implications."
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/m6poxWegJkp8LPpjw/can-generalized-adversarial-testing-enable-more-rigorous-llm",
+    "author": "Stephen Casper",
+    "title": "Can Generalized Adversarial Testing Enable More Rigorous LLM Safety Evals?",
+    "published_date": "2024-07-30",
+    "summary": "Current LLM safety evaluations often fall short because they focus on standard inputs rather than considering how an attacker might manipulate the model's internal workings (weights or activations). \"Generalized\" adversarial testing, which simulates such manipulations, is proposed as a more robust method for evaluating LLMs, even those deployed as black boxes, to better assess their latent risks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to analyze potential trajectories of transformative AI (TAI), focusing on scenarios with short timelines (within a decade) due to their inherent dangers. The program aims to identify existential hazards, evaluate AI safety strategies across various scenarios, and recommend effective risk mitigation approaches."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13",
+    "summary": "Current AI training methods prioritize average performance, neglecting the risk of catastrophic failures (\"tail events\"). This article explores new methods for estimating the probability of these tail events without relying on identifying specific harmful inputs, aiming to improve AI safety."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.01234.pdf",
+    "title": "AmbieGen: A Search-based Framework for Autonomous Systems Testing",
+    "published_date": "2023-01-01",
+    "abstract": "Thorough testing of safety-critical autonomous systems, such as self-driving cars, autonomous robots, and drones, is essential for detecting potential failures before deployment. One crucial testing stage is model-in-the-loop testing, where the system model is evaluated by executing various scenarios in a simulator. However, the search space of possible parameters defining these test scenarios is vast, and simulating all combinations is computationally infeasible. To address this challenge, we introduce AmbieGen, a search-based test case generation framework for autonomous systems. AmbieGen uses evolutionary search to identify the most critical scenarios for a given system, and has a modular architecture that allows for the addition of new systems under test, algorithms, and search operators. Currently, AmbieGen supports test case generation for autonomous robots and autonomous car lane keeping assist systems. In this paper, we provide a high-level overview of the framework's architecture and demonstrate its practical use cases.",
+    "citation_count": 7,
+    "summary": "AmbieGen is a search-based framework for generating test cases for autonomous systems, using evolutionary search to efficiently identify critical scenarios within the vast parameter space of simulated environments. It features a modular architecture allowing adaptation to various autonomous systems and testing algorithms."
+  },
+  {
+    "url": "https://arxiv.org/abs/2205.08589v1",
+    "title": "Hierarchical Distribution-aware Testing of Deep Learning",
+    "published_date": "2022-05-17",
+    "abstract": "With its growing use in safety/security-critical applications, Deep Learning (DL) has raised increasing concerns regarding its dependability. In particular, DL has a notorious problem of lacking robustness. Input added with adversarial perturbations, i.e., Adversarial Examples (AEs), are easily mispredicted by the DL model. Despite recent efforts made in detecting AEs via state-of-the-art attack and testing methods, they are normally input distribution–agnostic and/or disregard the perceptual quality of adversarial perturbations. Consequently, the detected AEs are irrelevant inputs in the application context or noticeably unrealistic to humans. This may lead to a limited effect on improving the DL model's dependability, as the testing budget is likely to be wasted on detecting AEs that are encountered very rarely in its real-life operations. In this article, we propose a new robustness testing approach for detecting AEs that considers both the feature-level distribution and the pixel-level distribution, capturing the perceptual quality of adversarial perturbations. The two considerations are encoded by a novel hierarchical mechanism. First, we select test seeds based on the density of feature-level distribution and the vulnerability of adversarial robustness. The vulnerability of test seeds is indicated by the auxiliary information, which are highly correlated with local robustness. Given a test seed, we then develop a novel genetic algorithm–based local test case generation method, in which two fitness functions work alternatively to control the perceptual quality of detected AEs. Finally, extensive experiments confirm that our holistic approach considering hierarchical distributions is superior to the state-of-the-arts that either disregard any input distribution or only consider a single (non-hierarchical) distribution, in terms of not only detecting imperceptible AEs but also improving the overall robustness of the DL model under testing.",
+    "citation_count": 7,
+    "summary": "This paper introduces a novel hierarchical distribution-aware testing approach for deep learning models, improving robustness testing by generating perceptually realistic adversarial examples through a genetic algorithm that considers both feature-level and pixel-level input distributions, leading to more effective detection of vulnerabilities."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2107.11667v2.pdf",
+    "title": "Synthesis-guided Adversarial Scenario Generation for Gray-box Feedback Control Systems with Sensing Imperfections",
+    "published_date": "2021-07-24",
+    "abstract": "In this paper, we study feedback dynamical systems with memoryless controllers under imperfect information. We develop an algorithm that searches for “adversarial scenarios”, which can be thought of as the strategy for the adversary representing the noise and disturbances, that lead to safety violations. The main challenge is to analyze the closed-loop system's vulnerabilities with a potentially complex or even unknown controller in the loop. As opposed to commonly adopted approaches that treat the system under test as a black-box, we propose a synthesis-guided approach, which leverages the knowledge of a plant model at hand. This hence leads to a way to deal with gray-box systems (i.e., with known plant and unknown controller). Our approach reveals the role of the imperfect information in the violation. Examples show that our approach can find non-trivial scenarios that are difficult to expose by random simulations. This approach is further extended to incorporate model mismatch and to falsify vision-in-the-loop systems against finite-time reach-avoid specifications.",
+    "citation_count": 7,
+    "summary": "This paper presents a synthesis-guided algorithm for finding adversarial scenarios that cause safety violations in gray-box feedback control systems with imperfect sensing, leveraging a known plant model to overcome the challenges posed by unknown controllers. The algorithm effectively identifies vulnerabilities by generating targeted disturbances, surpassing the limitations of black-box approaches and revealing the impact of imperfect information."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2107.07394v2.pdf",
+    "title": "Explore and Control with Adversarial Surprise",
+    "published_date": "2021-07-12",
+    "abstract": "Unsupervised reinforcement learning (RL) studies how to leverage environment statistics to learn useful behaviors without the cost of reward engineering. However, a central challenge in unsupervised RL is to extract behaviors that meaningfully affect the world and cover the range of possible outcomes, without getting distracted by inherently unpredictable, uncontrollable, and stochastic elements in the environment. To this end, we propose an unsupervised RL method designed for high-dimensional, stochastic environments based on an adversarial game between two policies (which we call Explore and Control) controlling a single body and competing over the amount of observation entropy the agent experiences. The Explore agent seeks out states that maximally surprise the Control agent, which in turn aims to minimize surprise, and thereby manipulate the environment to return to familiar and predictable states. The competition between these two policies drives them to seek out increasingly surprising parts of the environment while learning to gain mastery over them. We show formally that the resulting algorithm maximizes coverage of the underlying state in block MDPs with stochastic observations, providing theoretical backing to our hypothesis that this procedure avoids uncontrollable and stochastic distractions. Our experiments further demonstrate that Adversarial Surprise leads to the emergence of complex and meaningful skills, and outperforms state-of-the-art unsupervised reinforcement learning methods in terms of both exploration and zero-shot transfer to downstream tasks.",
+    "citation_count": 8,
+    "summary": "Adversarial Surprise, a novel unsupervised reinforcement learning method, uses a competition between two policies—one seeking surprising states and the other minimizing surprise—to drive exploration and skill acquisition in high-dimensional, stochastic environments, achieving superior performance compared to existing methods. This approach is theoretically grounded and empirically shown to improve both exploration and zero-shot transfer."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.03931.pdf",
+    "title": "Automated Decision-based Adversarial Attacks",
+    "published_date": "2021-05-09",
+    "abstract": "Deep learning models are vulnerable to adversarial examples, which can fool a target classifier by imposing imperceptible perturbations onto natural examples. In this work, we consider the practical and challenging decision-based black-box adversarial setting, where the attacker can only acquire the final classification labels by querying the target model without access to the model's details. Under this setting, existing works often rely on heuristics and exhibit unsatisfactory performance. To better understand the rationality of these heuristics and the limitations of existing methods, we propose to automatically discover decision-based adversarial attack algorithms. In our approach, we construct a search space using basic mathematical operations as building blocks and develop a random search algorithm to efficiently explore this space by incorporating several pruning techniques and intuitive priors inspired by program synthesis works. Although we use a small and fast model to efficiently evaluate attack algorithms during the search, extensive experiments demonstrate that the discovered algorithms are simple yet query-efficient when transferred to larger normal and defensive models on the CIFAR-10 and ImageNet datasets. They achieve comparable or better performance than the state-of-the-art decision-based attack methods consistently.",
+    "citation_count": 1,
+    "summary": "This paper introduces a novel method for discovering effective decision-based black-box adversarial attack algorithms by automatically searching a space of mathematical operations, resulting in simple yet query-efficient attacks that outperform existing state-of-the-art methods on CIFAR-10 and ImageNet. The discovered algorithms achieve comparable or better performance than existing heuristics."
+  }
+]

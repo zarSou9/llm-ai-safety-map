@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/ae3HecTe2uKscabPe/a-gentle-introduction-to-risk-frameworks-beyond-forecasting",
+    "author": "pendingsurvival",
+    "title": "A Gentle Introduction to Risk Frameworks Beyond Forecasting",
+    "published_date": "2024-04-11"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2208.03484.pdf",
+    "title": "Towards Interdependent Safety Security Assessments using Bowties",
+    "published_date": "2022-08-06",
+    "abstract": "We present a way to combine security and safety assessments using Bowtie Diagrams. Bowties model both the causes leading up to a central failure event and consequences which arise from that event, as well as barriers which impede events. Bowties have previously been used separately for security and safety assessments, but we suggest that a unified treatment in a single model can elegantly capture safety-security interdependencies of several kinds. We showcase our approach with the example of the October 2021 Facebook DNS shutdown, examining the chains of events and the interplay between the security and safety barriers which caused the outage.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2208.11282",
+    "title": "Multi-AI Complex Systems in Humanitarian Response",
+    "published_date": "2022-08-24",
+    "abstract": "AI is being increasingly used to aid response efforts to humanitarian emergencies at multiple levels of decision-making. Such AI systems are generally understood to be stand-alone tools for decision support, with ethical assessments, guidelines and frameworks applied to them through this lens. However, as the prevalence of AI increases in this domain, such systems will begin to encounter each other through information flow networks created by interacting decision-making entities, leading to multi-AI complex systems which are often ill understood. In this paper we describe how these multi-AI systems can arise, even in relatively simple real-world humanitarian response scenarios, and lead to potentially emergent and erratic erroneous behavior. We discuss how we can better work towards more trustworthy multi-AI systems by exploring some of the associated challenges and opportunities, and how we can design better mechanisms to understand and assess such systems. This paper is designed to be a first exposition on this topic in the field of humanitarian response, raising awareness, exploring the possible landscape of this domain, and providing a starting point for future work within the wider community."
+  },
+  {
+    "url": "https://arxiv.org/abs/2208.14660",
+    "title": "Unifying Evaluation of Machine Learning Safety Monitors",
+    "published_date": "2022-08-31",
+    "abstract": "With the increasing use of Machine Learning (ML) in critical autonomous systems, runtime monitors have been developed to detect prediction errors and keep the system in a safe state during operations. Monitors have been proposed for different applications involving diverse perception tasks and ML models, and specific evaluation procedures and metrics are used for different contexts. This paper introduces three unified safety-oriented metrics, representing the safety benefits of the monitor (Safety Gain), the remaining safety gaps after using it (Residual Hazard), and its negative impact on the system's performance (Availability Cost). To compute these metrics, one requires to define two return functions, representing how a given ML prediction will impact expected future rewards and hazards. Three use-cases (classification, drone landing, and autonomous driving) are used to demonstrate how metrics from the literature can be expressed in terms of the proposed metrics. Experimental results on these examples show how different evaluation choices impact the perceived performance of a monitor. As our formalism requires us to formulate explicit safety assumptions, it allows us to ensure that the evaluation conducted matches the high-level system requirements.",
+    "citation_count": 9
+  },
+  {
+    "url": "https://arxiv.org/abs/2112.10356",
+    "title": "An Investigation into Inconsistency of Software Vulnerability Severity across Data Sources",
+    "published_date": "2021-12-20",
+    "abstract": "Software Vulnerability (SV) severity assessment is a vital task for informing SV remediation and triage. Ranking of SV severity scores is often used to advise prioritization of patching efforts. However, severity assessment is a difficult and subjective manual task that relies on expertise, knowledge, and standardized reporting schemes. Consequently, different data sources that perform independent analysis may provide conflicting severity rankings. Inconsistency across these data sources affects the reliability of severity assessment data, and can consequently impact SV prioritization and fixing. In this study, we investigate severity ranking inconsistencies over the SV reporting lifecycle. Our analysis helps characterize the nature of this problem, identify correlated factors, and determine the impacts of inconsistency on downstream tasks. Our findings observe that SV severity often lacks consideration or is underestimated during initial reporting, and such SVs consequently receive lower prioritization. We identify six potential attributes that are correlated to this misjudgment, and show that inconsistency in severity reporting schemes can severely degrade the performance of downstream severity prediction by up to 77%. Our findings help raise awareness of SV severity data inconsistencies and draw attention to this data quality problem. These insights can help developers better consider SV severity data sources, and improve the reliability of consequent SV prioritization. Furthermore, we encourage researchers to provide more attention to SV severity data selection.",
+    "citation_count": 15
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13"
+  },
+  {
+    "url": "https://www.lesswrong.com/s/GiZ6puwmHozLuBrph/p/99gWh9jxeumcmuduw",
+    "author": "Erik Jenner; Viktor Rehnberg; Oliver Daniels-Koch",
+    "title": "Concrete empirical research projects in mechanistic anomaly detection",
+    "published_date": "2024-04-03"
+  },
+  {
+    "url": "https://arxiv.org/abs/1911.11132v2",
+    "title": "Scaling Out-of-Distribution Detection for Real-World Settings",
+    "published_date": "2023-02-27",
+    "abstract": "Detecting out-of-distribution examples is important for safety-critical machine learning applications such as medical screening and self-driving cars. However, existing research mainly focuses on simple small-scale settings. To set the stage for more realistic out-of-distribution detection, we depart from small-scale settings and explore large-scale multiclass and multi-label settings with high-resolution images and hundreds of classes. To make future work in real-world settings possible, we also create a new benchmark for anomaly segmentation by introducing the Combined Anomalous Object Segmentation benchmark. Our novel benchmark combines two datasets for anomaly segmentation that incorporate both realism and anomaly diversity. Using both real images and those from a simulated driving environment, we ensure the background context and a wide variety of anomalous objects are naturally integrated, unlike before. We conduct extensive experiments in these more realistic settings for out-of-distribution detection and find that a surprisingly simple detector based on the maximum logit outperforms prior methods in all the large-scale multi-class, multi-label, and segmentation tasks we consider, establishing a new baseline for future work. These results, along with our new anomaly segmentation benchmark, open the door to future research in out-of-distribution detection.",
+    "citation_count": 391
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.02966.pdf",
+    "title": "Non-Parametric Outlier Synthesis",
+    "published_date": "2023-03-06",
+    "abstract": "Out-of-distribution (OOD) detection is indispensable for safely deploying machine learning models in the wild. One of the key challenges is that models lack supervision signals from unknown data, and as a result, can produce overconfident predictions on OOD data. Recent work on outlier synthesis modeled the feature space as parametric Gaussian distribution, a strong and restrictive assumption that might not hold in reality. In this paper, we propose a novel framework, Non-Parametric Outlier Synthesis (NPOS), which generates artificial OOD training data and facilitates learning a reliable decision boundary between ID and OOD data. Importantly, our proposed synthesis approach does not make any distributional assumption on the ID embeddings, thereby offering strong flexibility and generality. We show that our synthesis approach can be mathematically interpreted as a rejection sampling framework. Extensive experiments show that NPOS can achieve superior OOD detection performance, outperforming the competitive rivals by a significant margin. Code is publicly available at https://github.com/deeplearning-wisc/npos.",
+    "citation_count": 76
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.13763",
+    "title": "Sobolev Space Regularised Pre Density Models",
+    "published_date": "2023-07-25",
+    "abstract": "We propose a new approach to non-parametric density estimation that is based on regularizing a Sobolev norm of the density. This method is statistically consistent, and makes the inductive bias of the model clear and interpretable. While there is no closed analytic form for the associated kernel, we show that one can approximate it using sampling. The optimization problem needed to determine the density is non-convex, and standard gradient methods do not perform well. However, we show that with an appropriate initialization and using natural gradients, one can obtain well performing solutions. Finally, while the approach provides pre-densities (i.e. not necessarily integrating to 1), which prevents the use of log-likelihood for cross validation, we show that one can instead adapt Fisher divergence based score matching methods for this task. We evaluate the resulting method on the comprehensive recent anomaly detection benchmark suite, ADBench, and find that it ranks second best, among more than 15 algorithms."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/PDLfpRwSynu73mxGw/basic-facts-about-language-model-internals-1",
+    "author": "beren, Eric Winsor",
+    "title": "Basic Facts about Language Model Internals",
+    "published_date": "2023-01-04"
+  }
+]

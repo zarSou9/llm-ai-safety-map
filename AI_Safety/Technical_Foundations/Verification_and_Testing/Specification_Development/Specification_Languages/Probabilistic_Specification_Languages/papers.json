@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/nEFAno6PsCKnNgkd5/infra-bayesian-logic",
+    "author": "harfe, Yegreg",
+    "title": "Infra-Bayesian Logic",
+    "published_date": "2023-07-05"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jtMXj24Masrnq3SpS/logical-induction-for-software-engineers",
+    "author": "Alex Flint",
+    "title": "Logical induction for software engineers",
+    "published_date": "2022-12-03"
+  },
+  {
+    "title": "Vate: Runtime Adaptable Probabilistic Programming for Java",
+    "abstract": "Inspired by earlier work on Augur, Vate is a probabilistic programming language for the construction of JVM based probabilistic models with an Object-Oriented interface. As a compiled language it is able to examine the dependency graph of the model to produce optimised code that can be dynamically targeted to different platforms. Using Gibbs Sampling, Metropolis-Hastings and variable marginalisation it can handle a range of model types and is able to efficiently infer values, estimate probabilities, and execute models.",
+    "published_date": "2021-04-26",
+    "url": "https://dl.acm.org/doi/10.1145/3437984.3458835"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Zd5Bsra7ar2pa3bwS/probability-theory-and-logical-induction-as-lenses",
+    "author": "Alex Flint",
+    "title": "Probability theory and logical induction as lenses",
+    "published_date": "2021-04-23"
+  },
+  {
+    "title": "SPPL: probabilistic programming with fast exact symbolic inference",
+    "abstract": "We present the Sum-Product Probabilistic Language (SPPL), a new probabilistic programming language that automatically delivers exact solutions to a broad range of probabilistic inference queries. SPPL translates probabilistic programs into sum-product expressions, a new symbolic representation and associated semantic domain that extends standard sum-product networks to support mixed-type distributions, numeric transformations, logical formulas, and pointwise and set-valued constraints. We formalize SPPL via a novel translation strategy from probabilistic programs to sum-product expressions and give sound exact algorithms for conditioning on and computing probabilities of events. SPPL imposes a collection of restrictions on probabilistic programs to ensure they can be translated into sum-product expressions, which allow the system to leverage new techniques for improving the scalability of translation and inference by automatically exploiting probabilistic structure. We implement a prototype of SPPL with a modular architecture and evaluate it on benchmarks the system targets, showing that it obtains up to 3500x speedups over state-of-the-art symbolic systems on tasks such as verifying the fairness of decision tree classifiers, smoothing hidden Markov models, conditioning transformed random variables, and computing rare event probabilities.",
+    "published_date": "2020-10-07",
+    "citation_count": 36,
+    "url": "https://dl.acm.org/doi/10.1145/3453483.3454078"
+  },
+  {
+    "title": "Relatively complete verification of probabilistic programs: an expressive language for expectation-based reasoning",
+    "abstract": "We study a syntax for specifying quantitative assertions—functions mapping program states to numbers—for probabilistic program verification. We prove that our syntax is expressive in the following sense: Given any probabilistic program C, if a function f is expressible in our syntax, then the function mapping each initial state σ to the expected value of evaluated in the final states reached after termination of C on σ (also called the weakest preexpectation wp[C](f)) is also expressible in our syntax. As a consequence, we obtain a relatively complete verification system for reasoning about expected values and probabilities in the sense of Cook: Apart from proving a single inequality between two functions given by syntactic expressions in our language, given f, g, and C, we can check whether g ≼ wp[C](f).",
+    "published_date": "2020-10-27",
+    "citation_count": 20,
+    "url": "https://dl.acm.org/doi/10.1145/3434320"
+  }
+]

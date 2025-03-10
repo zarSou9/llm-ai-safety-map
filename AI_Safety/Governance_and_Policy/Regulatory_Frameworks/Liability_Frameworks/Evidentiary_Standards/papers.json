@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.12820",
+    "title": "Declare and Justify: Explicit assumptions in AI evaluations are necessary for effective regulation",
+    "published_date": "2024-11-19",
+    "abstract": "As AI systems advance, AI evaluations are becoming an important pillar of regulations for ensuring safety. We argue that such regulation should require developers to explicitly identify and justify key underlying assumptions about evaluations as part of their case for safety. We identify core assumptions in AI evaluations (both for evaluating existing models and forecasting future models), such as comprehensive threat modeling, proxy task validity, and adequate capability elicitation. Many of these assumptions cannot currently be well justified. If regulation is to be based on evaluations, it should require that AI development be halted if evaluations demonstrate unacceptable danger or if these assumptions are inadequately justified. Our presented approach aims to enhance transparency in AI development, offering a practical path towards more effective governance of advanced AI systems.",
+    "citation_count": 1,
+    "summary": "The paper advocates for AI regulations requiring developers to explicitly declare and justify key assumptions underlying AI safety evaluations, arguing that halting development should occur if evaluations reveal unacceptable risks or insufficiently justified assumptions. This approach promotes transparency and effective governance of advanced AI systems."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/X8NhKh2g2ECPrm5eo/post-series-on-liability-law-for-reducing-existential-risk",
+    "author": "Nora_Ammann",
+    "title": "Post series on \"Liability Law for reducing Existential Risk from AI\"",
+    "published_date": "2024-02-29",
+    "summary": "Gabriel Weil argues that current liability law inadequately addresses existential risks from AI due to its negligence requirement and limited punitive damages. He proposes shifting to strict liability and expanding punitive damages, potentially through legislative action and insurance mandates, to better incentivize AI safety."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/gZBgmDFqqyw3Lghok/ai-regulatory-landscape-review-incident-reporting",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Incident Reporting: A Regulatory Review",
+    "published_date": "2024-03-11",
+    "summary": "This article begins a series analyzing the 2024 AI regulatory landscape, focusing on incident reporting mechanisms in the US, EU, and China. It examines existing and developing regulations, drawing parallels to successful incident reporting systems in other industries like aviation and occupational safety."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, examines AI model registries—centralized databases tracking AI systems for governance purposes. These registries, drawing precedents from pharmaceutical regulations, vary widely in their requirements and accessibility across countries like the US and China, but generally aim to monitor AI models before public release and inform future legislation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for third-party testing of large-scale AI systems to mitigate societal harm, arguing that such a regime, involving industry, government, and academia, is crucial for managing the risks of powerful AI models while fostering innovation. This approach aims to build trust, avoid overly burdensome regulations for smaller companies, and facilitate international cooperation."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.12321.pdf",
+    "title": "A Case for AI Safety via Law",
+    "published_date": "2023-07-31",
+    "abstract": "How to make artificial intelligence (AI) systems safe and aligned with human values is an open research question. Proposed solutions tend toward relying on human intervention in uncertain situations, learning human values and intentions through training or observation, providing off-switches, implementing isolation or simulation environments, or extrapolating what people would want if they had more knowledge and more time to think. Law-based approaches--such as inspired by Isaac Asimov--have not been well regarded. This paper makes a case that effective legal systems are the best way to address AI safety. Law is defined as any rules that codify prohibitions and prescriptions applicable to particular agents in specified domains/contexts and includes processes for enacting, managing, enforcing, and litigating such rules.",
+    "summary": "This paper argues that legal frameworks, encompassing rules, enforcement, and litigation, offer the most effective approach to ensuring AI safety, surpassing other proposed solutions like technical safeguards or value alignment algorithms. It challenges the common dismissal of law-based approaches to AI safety."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2308.02608.pdf",
+    "title": "Unravelling Responsibility for AI",
+    "published_date": "2023-08-04",
+    "abstract": "It is widely acknowledged that we need to establish where responsibility lies for the outputs and impacts of AI-enabled systems. But without a clear and precise understanding of what\"responsibility\"means, deliberations about where responsibility lies will be, at best, unfocused and incomplete and, at worst, misguided. To address this concern, this paper draws upon central distinctions in philosophy and law to clarify the concept of responsibility for AI for policymakers, practitioners, researchers and students from non-philosophical and non-legal backgrounds. Taking the three-part formulation\"Actor A is responsible for Occurrence O,\"the paper unravels the concept of responsibility to clarify that there are different possibilities of who is responsible for AI, the senses in which they are responsible, and aspects of events they are responsible for. Criteria and conditions for fitting attributions of responsibility in the core senses (causal responsibility, role-responsibility, liability responsibility and moral responsibility) are articulated to promote an understanding of when responsibility attributions would be inappropriate or unjust. The analysis is presented with a graphical notation to facilitate informal diagrammatic reasoning and discussion about specific cases. It is illustrated by application to a scenario of a fatal collision between an autonomous AI-enabled ship and a traditional, crewed vessel at sea.",
+    "summary": "This paper clarifies the multifaceted concept of responsibility for AI outcomes by distinguishing between causal, role, liability, and moral responsibility, offering criteria for appropriate attribution and illustrating its application through a case study. The authors aim to provide a framework for policymakers, practitioners, and researchers to better understand and assign responsibility in AI-related incidents."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of blog posts aims to provide a comprehensive introduction to AI safety, though the content and order are still under development."
+  }
+]

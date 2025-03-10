@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Anomaly Detection for a Large Number of Streams: A Permutation-Based Higher Criticism Approach",
+    "abstract": "Abstract Anomaly detection when observing a large number of data streams is essential in a variety of applications, ranging from epidemiological studies to monitoring of complex systems. High-dimensional scenarios are usually tackled with scan-statistics and related methods, requiring stringent modeling assumptions for proper calibration. In this work we take a nonparametric stance, and propose a permutation-based variant of the higher criticism statistic not requiring knowledge of the null distribution. This results in an exact test in finite samples which is asymptotically optimal in the wide class of exponential models. We demonstrate the power loss in finite samples is minimal with respect to the oracle test. Furthermore, since the proposed statistic does not rely on asymptotic approximations it typically performs better than popular variants of higher criticism that rely on such approximations. We include recommendations such that the test can be readily applied in practice, and demonstrate its applicability in monitoring the content uniformity of an active ingredient for a batch-produced drug product. Supplementary materials for this article are available online.",
+    "published_date": "2020-09-07",
+    "citation_count": 5,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/01621459.2022.2126361?src=&"
+  },
+  {
+    "title": "Distribution-free monitoring schemes based on order statistics: a general approach",
+    "abstract": "In this article, we establish a new class of distribution-free Shewhart-type monitoring schemes based on order statistics. The setup of the proposed family of nonparametric control charts is presented in detail. Specific monitoring schemes, already introduced in the literature, are confirmed to be members of the new class. In addition, a new nonparametric monitoring scheme that belongs to the class is established, while explicit formulae for its basic characteristics are reached. The numerical study carried out reveals that the proposed scheme achieves adversarial in-control and out-of-control performance.",
+    "published_date": "2019-12-28",
+    "citation_count": 9,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/02664763.2019.1707518"
+  },
+  {
+    "title": "A new test for two-sample location problem based on empirical distribution function",
+    "abstract": "ABSTRACT We propose a new test for testing the equality of location parameter of two populations based on empirical distribution function (ECDF). The test statistics is obtained as a power divergence between two ECDFs. The test is shown to be distribution free, and its null distribution is obtained. We conducted empirical power comparison of the proposed test with several other available tests in the literature. We found that the proposed test performs better than its competitors considered here under several population structures. We also used two real datasets to illustrate the procedure.",
+    "published_date": "2017-02-21",
+    "citation_count": 3,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/03610926.2017.1295158"
+  },
+  {
+    "title": "Statistical change detection for multi-dimensional data",
+    "abstract": "This paper deals with detecting change of distribution in multi-dimensional data sets. For a given baseline data set and a set of newly observed data points, we define a statistical test called the density test for deciding if the observed data points are sampled from the underlying distribution that produced the baseline data set. We define a test statistic that is strictly distribution-free under the null hypothesis. Our experimental results show that the density test has substantially more power than the two existing methods for multi-dimensional change detection.",
+    "published_date": "2007-08-12",
+    "citation_count": 154,
+    "url": "https://dl.acm.org/doi/10.1145/1281192.1281264"
+  }
+]

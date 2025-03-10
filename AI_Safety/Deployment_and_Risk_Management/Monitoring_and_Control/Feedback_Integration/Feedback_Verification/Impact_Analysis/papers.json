@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2302.13913v2",
+    "title": "Stress Testing Control Loops in Cyber-physical Systems",
+    "published_date": "2023-02-27",
+    "abstract": "Cyber-physical Systems (CPSs) are often safety-critical and deployed in uncertain environments. Identifying scenarios where CPSs do not comply with requirements is fundamental but difficult due to the multidisciplinary nature of CPSs. We investigate the testing of control-based CPSs, where control and software engineers develop the software collaboratively. Control engineers make design assumptions during system development to leverage control theory and obtain guarantees on CPS behaviour. In the implemented system, however, such assumptions are not always satisfied, and their falsification can lead the loss of guarantees. We define stress testing of control-based CPSs as generating tests to falsify such design assumptions. We highlight different types of assumptions, focusing on the use of linearised physics models. To generate stress tests falsifying such assumptions, we leverage control theory to qualitatively characterise the input space of a control-based CPS. We propose a novel test parametrisation for control-based CPSs and use it with the input space characterisation to develop a stress testing approach. We evaluate our approach on three case study systems, including a drone, a continuous-current motor (in five configurations), and an aircraft. Our results show the effectiveness of the proposed testing approach in falsifying the design assumptions and highlighting the causes of assumption violations.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.02939v1.pdf",
+    "title": "Prescribed-Time Control for Linear Systems in Canonical Form via Nonlinear Feedback",
+    "published_date": "2022-01-09",
+    "abstract": "For systems in canonical form with nonvanishing uncertainties/disturbances, this work presents an approach to full-state regulation within prescribed time irrespective of initial conditions. By introducing the smooth hyperbolic-tangent-like function, a nonlinear and time-varying state-feedback control scheme is constructed, which is further extended to address output-feedback-based prescribed-time regulation by invoking the prescribed-time observer, all are applicable over the entire operational time zone. As an alternative to full-state regulation within the user-assignable time interval, the proposed method analytically bridges the divide between linear and nonlinear feedback-based prescribed-time control and is able to achieve asymptotic stability, exponential stability, and prescribed-time stability with a unified control structure.",
+    "citation_count": 20
+  },
+  {
+    "title": "Distributed adaptive control for optimal tracking of uncertain interconnected dynamical systems",
+    "abstract": "This paper presents a distributed model reference adaptive control scheme for optimal tracking of an interconnected dynamical system in the presence of system/interconnection uncertainties. A reference model selection which achieves an optimal tracking for the nominal system is introduced by using linear quadratic regulator theory. Then an adaptive control law is developed for the uncertain interconnected dynamical system, where it employs the specified reference model. It is shown that the control law achieves the desired behaviour such that the output of the system asymptotically tracks the output of the reference model in the presence of the uncertainties. An explicit error bound regarding optimal tracking is also established.",
+    "published_date": "2022-06-16",
+    "citation_count": 1,
+    "url": "https://www.tandfonline.com/doi/pdf/10.1080/18824889.2022.2143634?needAccess=true"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.06343.pdf",
+    "title": "Feedback-Based Optimization With Sub-Weibull Gradient Errors and Intermittent Updates",
+    "published_date": "2021-09-13",
+    "abstract": "This letter considers a feedback-based projected gradient method for optimizing systems modeled as algebraic maps. The focus is on a setup where the gradient is corrupted by random errors that follow a sub-Weibull distribution, and where the measurements of the output – which replace the input-output map of the system in the algorithmic updates – may not be available at each iteration. The sub-Weibull error model is particularly well-suited in frameworks where the cost of the problem is learned via Gaussian Process (GP) regression (from functional evaluations) concurrently with the execution of the algorithm; however, it also naturally models setups where nonparametric methods and neural networks are utilized to estimate the cost. Using the sub-Weibull model, and with Bernoulli random variables modeling missing measurements of the system output, we show that the online algorithm generates points that are within a bounded error from the optimal solutions. In particular, we provide error bounds in expectation and in high probability. Numerical results are presented in the context of a demand response problem in smart power grids.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.10320v1.pdf",
+    "title": "Feedback Stabilization and Output Tracking for Discrete-Time Lipschitz Nonlinear Systems via Iterative Convex Approximations",
+    "published_date": "2021-04-21",
+    "abstract": "The stabilization of unstable nonlinear systems and tracking control are challenging engineering problems due to the encompassed nonlinearities in dynamic systems and their scale. In the past decades, numerous observer-based control designs for dynamic systems in which the nonlinearity belongs to Lipschitz functions have been proposed. However, most of them only focus on output feedback and consequently, state feedback design remains less developed. To that end, this paper is dedicated to the problem of full-state feedback controller design for discrete-time Lipschitz nonlinear systems. In addition, we present a simple iterative method for improving the convergence of the closed-loop performance. It is later demonstrated that our approach can be conveniently extended and utilized for output tracking."
+  },
+  {
+    "url": "https://arxiv.org/abs/2010.04600v3",
+    "title": "Robust Adaptive Control of Linear Parameter-Varying Systems with Unmatched Uncertainties",
+    "published_date": "2020-10-09",
+    "abstract": "In control of aerospace systems with large operating envelopes, it is often necessary to adjust the desired dynamics according to operating conditions. This paper presents a robust adaptive control architecture for linear parameter-varying (LPV) systems that allows for the desired dynamics to be systematically scheduled, while being able to handle a broad class of uncertainties, both matched and unmatched, which can depend on both time and states. The proposed controller adopts an [Formula: see text] adaptive control architecture for designing the adaptive control law and peak-to-peak gain (PPG) minimization for designing the robust control law to mitigate the effect of unmatched uncertainties. Leveraging the PPG bound of a LPV system, we derive transient and steady-state performance bounds in terms of the input and output signals of the actual closed-loop system with respect to a nominal system. The proposed control architecture is applied to control the longitudinal motion of an F-16 aircraft operating within a large envelope. Simulation results using both LPV and fully nonlinear models validate the efficacy of the proposed method.",
+    "citation_count": 11
+  }
+]

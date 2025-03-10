@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/AaABQpuoNC8gpHf2n/a-barebones-guide-to-mechanistic-interpretability",
+    "author": "Neel Nanda",
+    "title": "A Barebones Guide to Mechanistic Interpretability Prerequisites",
+    "published_date": "2022-10-24"
+  },
+  {
+    "title": "Learning Invariant Representations using Inverse Contrastive Loss",
+    "abstract": "Learning invariant representations is a critical first step in a number of machine learning tasks. A common approach corresponds to the so-called information bottleneck principle in which an application dependent function of mutual information is carefully chosen and optimized. Unfortunately, in practice, these functions are not suitable for optimization purposes since these losses are agnostic of the metric structure of the parameters of the model. We introduce a class of losses for learning representations that are invariant to some extraneous variable of interest by inverting the class of contrastive losses, i.e., inverse contrastive loss (ICL). We show that if the extraneous variable is binary, then optimizing ICL is equivalent to optimizing a regularized MMD divergence. More generally, we also show that if we are provided a metric on the sample space, our formulation of ICL can be decomposed into a sum of convex functions of the given distance metric. Our experimental results indicate that models obtained by optimizing ICL achieve significantly better invariance to the extraneous variable for a fixed desired level of accuracy. In a variety of experimental settings, we show applicability of ICL for learning invariant representations for both continuous and discrete extraneous variables. The project page with code is available at https://github.com/adityakumarakash/ICL.",
+    "published_date": "2021-02-01",
+    "citation_count": 8,
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8366266/"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8Gv5zSCnGeLxK5FAF/mlsn-1-iclr-safety-paper-roundup",
+    "author": "Dan H",
+    "title": "[MLSN #1]: ICLR Safety Paper Roundup",
+    "published_date": "2021-10-18"
+  },
+  {
+    "title": "Learning Disentangled Representation for Cross-Modal Retrieval with Deep Mutual Information Estimation",
+    "abstract": "Cross-modal retrieval has become a hot research topic in recent years for its theoretical and practical significance. This paper proposes a new technique for learning such deep visual-semantic embedding that is more effective and interpretable for cross-modal retrieval. The proposed method employs a two-stage strategy to fulfill the task. In the first stage, deep mutual information estimation is incorporated into the objective to maximize the mutual information between the input data and its embedding. In the second stage, an expelling branch is added to the network to disentangle the modality-exclusive information from the learned representations. This helps to reduce the impact of modality-exclusive information to the common subspace representation as well as improve the interpretability of the learned feature. Extensive experiments on two large-scale benchmark datasets demonstrate that our method can learn better visual-semantic embedding and achieve state-of-the-art cross-modal retrieval results.",
+    "published_date": "2019-10-15",
+    "citation_count": 31,
+    "url": "https://dl.acm.org/doi/10.1145/3343031.3351053"
+  }
+]

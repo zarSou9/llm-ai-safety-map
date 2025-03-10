@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes AI safety-relevant content, emphasizing the importance of careful reading and summarization."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/G4KHuYC3pHry6yMhi/compute-research-questions-and-metrics-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Research Questions and Metrics - Transformative AI and Compute [4/4]",
+    "published_date": "2021-11-28",
+    "summary": "This appendix to a series on transformative AI and compute explores research questions related to AI hardware and compute trends, analyzes compute metrics and their limitations, and lists AI hardware startups. It emphasizes the need for more data acquisition, analysis, and interpretation to understand and forecast the field's development."
+  },
+  {
+    "title": "Chance-Constrained Peer-to-Peer Joint Energy and Reserve Market Considering Renewable Generation Uncertainty",
+    "abstract": "Due to the fast development of distributed energy resources and demand-side response management, agents in electricity markets are becoming more proactive, which boosts the development of peer-to-peer (P2P) market mechanisms. However, to our knowledge, none of the existing works considers clearing both energy and reserve via a P2P market mechanism in order to compensate for the uncertainty originating from renewable generation and allocate the reserve cost induced by uncertainty fairly. In this article, a novel P2P joint energy and reserve market is proposed, where each agent can negotiate with neighboring agents to determine the quantities and prices of traded energy and reserve. We model the renewable generation uncertainty by versatile distribution and determine the required reserve based on a chance-constrained optimization approach. Then, a fully decentralized P2P market based on consensus alternating direction method of multipliers (ADMM) theory is proposed. In addition, to further lower the social cost, we exploit the correlation and complementarity among uncertainties and design a renewable community-based market, where all renewable agents share uncertainty information to community manager for calculating total required reserve. Finally, simulation results show the convergence performance, fairness and scalability of our market mechanism.",
+    "published_date": "2020-08-26",
+    "citation_count": 100,
+    "url": "https://ieeexplore.ieee.org/document/9178314/",
+    "summary": "This paper proposes a novel decentralized peer-to-peer (P2P) electricity market mechanism that jointly clears energy and reserve, addressing renewable generation uncertainty through chance-constrained optimization and a consensus ADMM algorithm. A community-based market extension further improves efficiency by leveraging correlation among renewable uncertainties."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/market-making-ai-safety-technique",
+    "author": "Evan Hubinger",
+    "title": "Market making (AI safety technique)  - AI Alignment Forum",
+    "published_date": "2020-06-26",
+    "summary": "The provided text is a placeholder indicating an incomplete article. No information or summary can be provided."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/mechanism-design",
+    "author": "johnswentworth",
+    "title": "Mechanism Design - AI Alignment Forum",
+    "published_date": "2020-11-08",
+    "summary": "Mechanism design is the engineering of incentive systems to guide self-interested agents toward a desired outcome. Its applications range from auction design to regulatory policy, using principles like incentive compatibility and the revelation principle."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/YWwzccGbcHMJMpT45/ai-safety-via-market-making",
+    "author": "evhub",
+    "title": "AI safety via market making",
+    "published_date": "2020-06-26",
+    "summary": "This article proposes a novel AI safety method using a debate-style training approach. Two models, one predicting a human's answer to a question and another attempting to contradict the prediction, iteratively refine their outputs until the first model accurately reflects the human's informed judgment."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/EGvtZMvSFELxoRqkZ/ai-benefits-post-1-introducing-ai-benefits",
+    "author": "Cullen",
+    "title": "AI Benefits Post 1: Introducing “AI Benefits”",
+    "published_date": "2020-06-22",
+    "summary": "The author introduces a series exploring AI applications beneficial to humanity, focusing on benefits unlikely to arise from profit-maximizing businesses alone. This includes addressing positive externalities and the disparity between consumer willingness to pay and actual social welfare improvement."
+  }
+]

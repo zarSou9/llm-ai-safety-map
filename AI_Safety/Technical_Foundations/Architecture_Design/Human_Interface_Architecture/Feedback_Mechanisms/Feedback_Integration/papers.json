@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.09573",
+    "title": "Decentralized Safe and Scalable Multi-Agent Control under Limited Actuation",
+    "published_date": "2024-09-15",
+    "abstract": "To deploy safe and agile robots in cluttered environments, there is a need to develop fully decentralized controllers that guarantee safety, respect actuation limits, prevent deadlocks, and scale to thousands of agents. Current approaches fall short of meeting all these goals: optimization-based methods ensure safety but lack scalability, while learning-based methods scale but do not guarantee safety. We propose a novel algorithm to achieve safe and scalable control for multiple agents under limited actuation. Specifically, our approach includes: $(i)$ learning a decentralized neural Integral Control Barrier function (neural ICBF) for scalable, input-constrained control, $(ii)$ embedding a lightweight decentralized Model Predictive Control-based Integral Control Barrier Function (MPC-ICBF) into the neural network policy to ensure safety while maintaining scalability, and $(iii)$ introducing a novel method to minimize deadlocks based on gradient-based optimization techniques from machine learning to address local minima in deadlocks. Our numerical simulations show that this approach outperforms state-of-the-art multi-agent control algorithms in terms of safety, input constraint satisfaction, and minimizing deadlocks. Additionally, we demonstrate strong generalization across scenarios with varying agent counts, scaling up to 1000 agents."
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.15925v2",
+    "title": "Asynchronous, Option-Based Multi-Agent Policy Gradient: A Conditional Reasoning Approach",
+    "published_date": "2022-03-29",
+    "abstract": "Cooperative multi-agent problems often require coordination between agents, which can be achieved through a centralized policy that considers the global state. Multi-agent policy gradient (MAPG) methods are commonly used to learn such policies, but they are often limited to problems with low-level action spaces. In complex problems with large state and action spaces, it is advantageous to extend MAPG methods to use higher-level actions, also known as options, to improve the policy search efficiency. However, multi-robot option executions are often asynchronous, that is, agents may select and complete their options at different time steps. This makes it difficult for MAPG methods to derive a centralized policy and evaluate its gradient, as centralized policy always select new options at the same time. In this work, we propose a novel, conditional reasoning approach to address this problem and demonstrate its effectiveness on representative option-based multi-agent cooperative tasks through empirical validation. Find code and videos at: https://sites.google.com/view/mahrlsupp/",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2206.08364",
+    "title": "Interaction-Grounded Learning with Action-inclusive Feedback",
+    "published_date": "2022-06-16",
+    "abstract": "Consider the problem setting of Interaction-Grounded Learning (IGL), in which a learner's goal is to optimally interact with the environment with no explicit reward to ground its policies. The agent observes a context vector, takes an action, and receives a feedback vector, using this information to effectively optimize a policy with respect to a latent reward function. Prior analyzed approaches fail when the feedback vector contains the action, which significantly limits IGL's success in many potential scenarios such as Brain-computer interface (BCI) or Human-computer interface (HCI) applications. We address this by creating an algorithm and analysis which allows IGL to work even when the feedback vector contains the action, encoded in any fashion. We provide theoretical guarantees and large-scale experiments based on supervised datasets to demonstrate the effectiveness of the new approach.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.02939v1.pdf",
+    "title": "Prescribed-Time Control for Linear Systems in Canonical Form via Nonlinear Feedback",
+    "published_date": "2022-01-09",
+    "abstract": "For systems in canonical form with nonvanishing uncertainties/disturbances, this work presents an approach to full-state regulation within prescribed time irrespective of initial conditions. By introducing the smooth hyperbolic-tangent-like function, a nonlinear and time-varying state-feedback control scheme is constructed, which is further extended to address output-feedback-based prescribed-time regulation by invoking the prescribed-time observer, all are applicable over the entire operational time zone. As an alternative to full-state regulation within the user-assignable time interval, the proposed method analytically bridges the divide between linear and nonlinear feedback-based prescribed-time control and is able to achieve asymptotic stability, exponential stability, and prescribed-time stability with a unified control structure.",
+    "citation_count": 20
+  },
+  {
+    "url": "https://arxiv.org/auth/show-endorsers/2110.00284",
+    "title": "Learning Reward Functions from Scale Feedback",
+    "published_date": "2021-10-01",
+    "abstract": "Today's robots are increasingly interacting with people and need to efficiently learn inexperienced user's preferences. A common framework is to iteratively query the user about which of two presented robot trajectories they prefer. While this minimizes the users effort, a strict choice does not yield any information on how much one trajectory is preferred. We propose scale feedback, where the user utilizes a slider to give more nuanced information. We introduce a probabilistic model on how users would provide feedback and derive a learning framework for the robot. We demonstrate the performance benefit of slider feedback in simulations, and validate our approach in two user studies suggesting that scale feedback enables more effective learning in practice.",
+    "citation_count": 29
+  },
+  {
+    "url": "https://arxiv.org/auth/show-endorsers/2110.07910",
+    "title": "SaLinA: Sequential Learning of Agents",
+    "published_date": "2021-10-15",
+    "abstract": "SaLinA is a simple library that makes implementing complex sequential learning models easy, including reinforcement learning algorithms. It is built as an extension of PyTorch: algorithms coded with \\SALINA{} can be understood in few minutes by PyTorch users and modified easily. Moreover, SaLinA naturally works with multiple CPUs and GPUs at train and test time, thus being a good fit for the large-scale training use cases. In comparison to existing RL libraries, SaLinA has a very low adoption cost and capture a large variety of settings (model-based RL, batch RL, hierarchical RL, multi-agent RL, etc.). But SaLinA does not only target RL practitioners, it aims at providing sequential learning capabilities to any deep learning programmer.",
+    "citation_count": 11
+  }
+]

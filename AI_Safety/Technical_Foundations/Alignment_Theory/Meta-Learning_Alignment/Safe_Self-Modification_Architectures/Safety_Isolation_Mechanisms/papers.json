@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.03793",
+    "title": "Safeguarding AI Agents: Developing and Analyzing Safety Architectures",
+    "published_date": "2024-09-03",
+    "abstract": "AI agents, specifically powered by large language models, have demonstrated exceptional capabilities in various applications where precision and efficacy are necessary. However, these agents come with inherent risks, including the potential for unsafe or biased actions, vulnerability to adversarial attacks, lack of transparency, and tendency to generate hallucinations. As AI agents become more prevalent in critical sectors of the industry, the implementation of effective safety protocols becomes increasingly important. This paper addresses the critical need for safety measures in AI systems, especially ones that collaborate with human teams. We propose and evaluate three frameworks to enhance safety protocols in AI agent systems: an LLM-powered input-output filter, a safety agent integrated within the system, and a hierarchical delegation-based system with embedded safety checks. Our methodology involves implementing these frameworks and testing them against a set of unsafe agentic use cases, providing a comprehensive evaluation of their effectiveness in mitigating risks associated with AI agent deployment. We conclude that these frameworks can significantly strengthen the safety and security of AI agent systems, minimizing potential harmful actions or outputs. Our work contributes to the ongoing effort to create safe and reliable AI applications, particularly in automated operations, and provides a foundation for developing robust guardrails to ensure the responsible use of AI agents in real-world applications."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.19414",
+    "title": "Safety through Permissibility: Shield Construction for Fast and Safe Reinforcement Learning",
+    "published_date": "2024-05-29",
+    "abstract": "Designing Reinforcement Learning (RL) solutions for real-life problems remains a significant challenge. A major area of concern is safety.\"Shielding\"is a popular technique to enforce safety in RL by turning user-defined safety specifications into safe agent behavior. However, these methods either suffer from extreme learning delays, demand extensive human effort in designing models and safe domains in the problem, or require pre-computation. In this paper, we propose a new permissibility-based framework to deal with safety and shield construction. Permissibility was originally designed for eliminating (non-permissible) actions that will not lead to an optimal solution to improve RL training efficiency. This paper shows that safety can be naturally incorporated into this framework, i.e. extending permissibility to include safety, and thereby we can achieve both safety and improved efficiency. Experimental evaluation using three standard RL applications shows the effectiveness of the approach."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17"
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.14364",
+    "title": "Safe and Robust Observer-Controller Synthesis Using Control Barrier Functions",
+    "published_date": "2022-11-25",
+    "abstract": "This letter addresses the synthesis of safety-critical controllers using estimate feedback. We propose an observer-controller interconnection to ensure that the nonlinear system remains safe despite bounded disturbances on the system dynamics and measurements that correspond to partial state information. The co-design of observers and controllers is critical, since even in undisturbed cases, observers and controllers designed independently may not render the system safe. We propose two approaches to synthesize observer-controller interconnections. The first approach utilizes Input-to-State Stable observers, and the second uses Bounded Error observers. Using these stability and boundedness properties of the observation error, we construct novel Control Barrier Functions that impose inequality constraints on the control inputs which, when satisfied, certifies safety. We propose quadratic program-based controllers to satisfy these constraints, and prove Lipschitz continuity of the derived controllers. Simulations and experiments on a quadrotor demonstrate the efficacy of the proposed methods.",
+    "citation_count": 42
+  },
+  {
+    "title": "Safety from in-the-loop reachability for cyber-physical systems",
+    "abstract": "We demonstrate a methodology for achieving safe autonomy that relies on computing reachable sets at runtime. Given a system subject to disturbances controlled by an unverified and potentially faulty controller, this methodology computes at each time the reachable set of the system under a backup control law to ensure the system is within reach of a known a priori safe region. Control barrier functions are then used in conjunction with the reachable set to adjust potentially unsafe control actions that would otherwise move the system beyond reach of this safe set. This approach faces several computational challenges: reachable sets for the dynamics must be computed at runtime; sensitivity of the reachable set to initial conditions is required for the control barrier optimization formulation; and the presence of disturbances introduces a large number of constraints in the resulting optimization. The proposed methodology leverages the theory of mixed monotone systems to address these challenges, and the main contribution of this paper is an application of this methodology to a ten dimensional dual planar multirotor system that is implemented on embedded hardware with a controller update rate up to 100Hz.",
+    "published_date": "2021-05-19",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3457335.3461706"
+  },
+  {
+    "title": "Safety-Assured Design and Adaptation of Learning-Enabled Autonomous Systems",
+    "abstract": "Future autonomous systems will employ sophisticated machine learning techniques for the sensing and perception of the surroundings and the making corresponding decisions for planning, control, and other actions. They often operate in highly dynamic, uncertain and challenging environment, and need to meet stringent timing, resource, and mission requirements. In particular, it is critical and yet very challenging to ensure the safety of these autonomous systems, given the uncertainties of the system inputs, the constant disturbances on the system operations, and the lack of analyzability for many machine learning methods (particularly those based on neural networks). In this paper, we will discuss some of these challenges, and present our work in developing automated, quantitative, and formalized methods and tools for ensuring the safety of autonomous systems in their design and during their runtime adaptation. We argue that it is essential to take a holistic approach in addressing system safety and other safety-related properties, vertically across the functional, software, and hardware layers, and horizontally across the autonomy pipeline of sensing, perception, planning, and control modules. This approach could be further extended from a single autonomous system to a multi-agent system where multiple autonomous agents perform tasks in a collaborative manner. We will use connected and autonomous vehicles (CAVs) as the main application domain to illustrate the importance of such holistic approach and show our initial efforts in this direction.",
+    "published_date": "2021-01-18",
+    "citation_count": 23,
+    "url": "https://dl.acm.org/doi/10.1145/3394885.3431623"
+  }
+]

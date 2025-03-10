@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.13269",
+    "title": "Towards Specification-Driven LLM-Based Generation of Embedded Automotive Software",
+    "published_date": "2024-11-20",
+    "abstract": "The paper studies how code generation by LLMs can be combined with formal verification to produce critical embedded software. The first contribution is a general framework, spec2code, in which LLMs are combined with different types of critics that produce feedback for iterative backprompting and fine-tuning. The second contribution presents a first feasibility study, where a minimalistic instantiation of spec2code, without iterative backprompting and fine-tuning, is empirically evaluated using three industrial case studies from the heavy vehicle manufacturer Scania. The goal is to automatically generate industrial-quality code from specifications only. Different combinations of formal ACSL specifications and natural language specifications are explored. The results indicate that formally correct code can be generated even without the application of iterative backprompting and fine-tuning.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.06221",
+    "title": "Synchronous Programming with Refinement Types",
+    "published_date": "2024-06-10",
+    "abstract": "Cyber-Physical Systems (CPS) consist of software interacting with the physical world, such as robots, vehicles, and industrial processes. CPS are frequently responsible for the safety of lives, property, or the environment, and so software correctness must be determined with a high degree of certainty. To that end, simply testing a CPS is insufficient, as its interactions with the physical world may be difficult to predict, and unsafe conditions may not be immediately obvious. Formal verification can provide stronger safety guarantees but relies on the accuracy of the verified system in representing the real system. Bringing together verification and implementation can be challenging, as languages that are typically used to implement CPS are not easy to formally verify, and languages that lend themselves well to verification often abstract away low-level implementation details. Translation between verification and implementation languages is possible, but requires additional assurances in the translation process and increases software complexity; having both in a single language is desirable. This paper presents a formalization of MARVeLus, a CPS language which combines verification and implementation. We develop a metatheory for its synchronous refinement type system and demonstrate verified synchronous programs executing on real systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.16186",
+    "title": "Formal Modeling and Verification of Publisher-Subscriber Paradigm in ROS 2",
+    "published_date": "2024-12-12",
+    "abstract": "The Robot Operating System (ROS) is one of the most popular middleware for developing robot applications, but it is subject to major shortcomings when applied to real-time robotic systems in safety-critical environments. For this reason, ROS 2 was released in 2017 for implementing real-time capabilities in distributed robotic systems while supporting the most prominent aspects of the original ROS. There is still not much work done to provide formal guarantees and correctness of a ROS program. In this paper, we propose a framework to address this challenging problem of guaranteeing the correct behaviour of robotic systems. We propose a formal modelling of a ROS 2 program, and also describe the program using a network of timed automata. We then prove that the sets of executions of a ROS program in the model and in the network of timed automata are the same. Thus to analyze a publisher-subscriber scenario of ROS 2 program, our algorithm first converts the program into the model, and then into the network of timed automata. The applicability and validity of our approach are verified by conducting several experiments on a simplified system and an actual robotic system, and the results and limitations are discussed."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dPpA79MjPdDd87YoW/understanding-goedel-s-completeness-theorem",
+    "author": "Jessicata",
+    "title": "Understanding Gödel's completeness theorem",
+    "published_date": "2024-05-27"
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.13517",
+    "title": "Leveraging Compositional Methods for Modeling and Verification of an Autonomous Taxi System",
+    "published_date": "2023-04-26",
+    "abstract": "We apply a compositional formal modeling and verification method to an autonomous aircraft taxi system. We provide insights into the modeling approach and we identify several research areas where further development is needed. Specifically, we identify the following needs: (1) semantics of composition of viewpoints expressed in different specification languages, and tools to reason about heterogeneous declarative models; (2) libraries of formal models for autonomous systems to speed up modeling and enable efficient reasoning; (3) methods to lift verification results generated by automated reasoning tools to the specification level; (4) probabilistic contract frameworks to reason about imperfect implementations; (5) standard high-level functional architectures for autonomous systems; and (6) a theory of higher-order contracts. We believe that addressing these research needs, among others, could improve the adoption of formal methods in the design of autonomous systems including learning-enabled systems, and increase confidence in their safe operations.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.10304",
+    "title": "Synthesizing Reactive Test Environments for Autonomous Systems: Testing Reach-Avoid Specifications with Multi-Commodity Flows",
+    "published_date": "2022-10-19",
+    "abstract": "We study automated test generation for testing discrete decision-making modules in autonomous systems. Linear temporal logic is used to encode the system specification - requirements of the system under test - and the test specification, which is unknown to the system and describes the desired test behavior. The reactive test synthesis problem is to find constraints on system actions such that in a test execution, both the system and test specifications are satisfied. To do this, we use the specifications and their corresponding Büchi automata to construct the specification product automaton. Then, a virtual product graph representing all possible test executions of the system is constructed from the transition system and the specification product automaton. The main result of this paper is framing the test synthesis problem as a multi-commodity network flow optimization. This optimization is used to derive reactive constraints on system actions, which constitute the test environment. The resulting test environment ensures that the system meets the test specification while also satisfying the system specification. We illustrate this framework in simulation using grid world examples and demonstrate it on hardware with the Unitree A1 quadruped, where we test dynamic locomotion behaviors reactively.",
+    "citation_count": 2
+  }
+]

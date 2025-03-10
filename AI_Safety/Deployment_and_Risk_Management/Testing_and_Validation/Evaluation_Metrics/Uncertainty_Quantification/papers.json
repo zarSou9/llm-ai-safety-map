@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25",
+    "summary": "Variational Bayesian methods address the intractability of calculating P(x) in Bayesian inference by approximating the true posterior P(z|x) with a simpler distribution Q(z|x). This approximation minimizes the Kullback-Leibler divergence between Q(z|x) and P(z|x), allowing for a tractable computation of P(x)."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03",
+    "summary": "For calculating probabilities from binary count data, the Beta distribution is more accurate than the commonly used Gaussian (normal) distribution, especially with small datasets or probabilities near 0 or 1; the Gaussian approximation, while simpler, can produce nonsensical results in these cases."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13",
+    "summary": "This article explains Deep Q-Networks (DQN), a deep reinforcement learning algorithm, at multiple levels of detail. It provides a high-level overview accessible to those familiar with reinforcement learning, and then delves into the technical aspects and implementation for those wanting a deeper understanding."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ixiCECkFFguFcHWFa/paper-forecasting-world-events-with-neural-nets",
+    "author": "Owain_Evans, Dan H, Joe Kwon",
+    "title": "Paper: Forecasting world events with neural nets",
+    "published_date": "2022-07-01",
+    "summary": "Researchers introduced Autocast, a dataset of thousands of forecasting questions from real-world tournaments, paired with a large news corpus, to benchmark machine learning models' ability to perform judgmental forecasting. While current models underperform human experts, the dataset enables research into improving AI forecasting capabilities."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14",
+    "summary": "The article highlights common statistical errors, particularly the false assumption of Gaussian distributions in many fields and misinterpretations of p-values. These errors, along with neglecting statistical power and the base rate fallacy, lead to inaccurate conclusions and unreliable results in scientific research and practical applications."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/a7YgzDYx4FhdB3TmR/an-155-a-minecraft-benchmark-for-algorithms-that-learn",
+    "author": "Rohin Shah",
+    "title": "[AN #155]: A Minecraft benchmark for algorithms that learn without reward functions",
+    "published_date": "2021-07-08",
+    "summary": "The MineRL BASALT competition introduces a new benchmark for AI systems learning from human feedback, using Minecraft's open-ended environment to evaluate agents based on human judgment rather than a pre-defined reward function, addressing limitations of traditional benchmarks like Atari and MuJoCo. This approach aims to better assess AI's ability to learn and adapt to nuanced, complex objectives."
+  },
+  {
+    "title": "Predictive monitoring with uncertainty for deep learning enabled smart cities: poster abstract",
+    "abstract": "In order to prevent safety violations, predictive monitoring with uncertainty is crucial for deep learning-enabled services in smart cities. We develop a novel predictive monitoring system for smart city applications, which consists of an RNN-based predictor with uncertainty estimation and a new specification language, named Signal Temporal Logic with Uncertainty. The solution first predicts a sequence of distributions representing city's future states with uncertainty estimation and then checks the predicted results against STL-U specified safety and performance requirements. The system supports decision making by providing a quantitative satisfaction degree with confidence guarantees. We receive promising results from evaluations on two large-scale city datasets, and on a case study on real-time predictive monitoring in a simulated smart city.",
+    "published_date": "2020-11-16",
+    "url": "https://dl.acm.org/doi/10.1145/3384419.3430445",
+    "summary": "This paper presents a novel predictive monitoring system for smart cities using RNNs to forecast future states with uncertainty, which are then evaluated against safety requirements specified using a new Signal Temporal Logic with Uncertainty (STL-U). The system provides quantitative satisfaction degrees with confidence guarantees, demonstrating promising results on real and simulated datasets."
+  },
+  {
+    "title": "Uncertainty Management in Situation Awareness for Cyber-Physical Systems: State of the Art and Challenge",
+    "abstract": "Cyber-Physical Systems (CPS) are a result of highly cross-disciplinary processes and are evolving to perform increasingly challenging tasks in dynamically changing environments. This leads to an increasing CPS complexity and therefore the management of uncertainty to ensure the trustworthiness of these systems is needed. Our paper focuses on uncertainty management (UM) both in general and more specifically in the context of CPS situation awareness (SA). The motivation behind this is the important role of SA and its many inherent uncertainties. To this end, firstly, a literature review is conducted to acquire the state of the art of UM. Later, we present findings and observations from the literature review, with two main challenges identified - inconsistent understanding and terminology among a multitude of uncertainty perspectives, and a lack of collaboration among different communities. On this basis, lastly, two case studies are conducted to exemplify the challenges and provide brief ideas on how to deal with them. The whole investigation in the paper suggests an urgent strengthening of common understanding through enhanced collaboration and regulations.",
+    "published_date": "2020-04-23",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3404555.3404558",
+    "summary": "This paper reviews uncertainty management (UM) techniques in cyber-physical systems (CPS), focusing on their application to situation awareness. It highlights inconsistent terminology and a lack of interdisciplinary collaboration as major challenges hindering effective UM in CPS."
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2403.13694",
+    "title": "Overview of Publicly Available Degradation Data Sets for Tasks within Prognostics and Health Management",
+    "published_date": "2024-03-20",
+    "abstract": "Central to the efficacy of prognostics and health management methods is the acquisition and analysis of degradation data, which encapsulates the evolving health condition of engineering systems over time. Degradation data serves as a rich source of information, offering invaluable insights into the underlying degradation processes, failure modes, and performance trends of engineering systems. This paper provides an overview of publicly available degradation data sets.",
+    "citation_count": 1,
+    "summary": "This paper surveys publicly available datasets used in prognostics and health management research, focusing on the degradation data crucial for analyzing the evolving condition of engineering systems. These datasets are valuable resources for developing and evaluating predictive maintenance models."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.09678",
+    "title": "Integrating Graceful Degradation and Recovery Through Requirement-Driven Adaptation",
+    "published_date": "2024-01-18",
+    "abstract": "Cyber-physical systems (CPS) are subject to environmental uncertainties such as adverse operating conditions, malicious attacks, and hardware degradation. These uncertainties may lead to failures that put the system in a sub-optimal or unsafe state. Systems that are resilient to such uncertainties rely on two types of operations: (1) graceful degradation, for ensuring that the system maintains an acceptable level of safety during unexpected environmental conditions and (2) recovery, to facilitate the resumption of normal system functions. Typically, mechanisms for degradation and recovery are developed independently from each other, and later integrated into a system, requiring the designer to develop an additional, ad-hoc logic for activating and coordinating between the two operations. In this paper, we propose a self-adaptation approach for improving system resiliency through automated triggering and coordination of graceful degradation and recovery. The key idea behind our approach is to treat degradation and recovery as requirement-driven adaptation tasks: Degradation can be thought of as temporarily weakening original (i.e., ideal) system requirements to be achieved by the system, and recovery as strengthening the weakened requirements when the environment returns within an expected operating boundary. Furthermore, by treating weakening and strengthening as dual operations, we argue that a single requirement-based adaptation method is sufficient to enable coordination between degradation and recovery. Given system requirements specified in signal temporal logic (STL), we propose a run-time adaptation framework that performs degradation and recovery in response to environmental changes. We describe a prototype implementation of our framework and demonstrate the feasibility of the proposed approach using a case study in unmanned underwater vehicles.",
+    "summary": "This paper presents a novel self-adaptation approach for improving the resilience of cyber-physical systems by integrating graceful degradation and recovery mechanisms through requirement-driven adaptation using signal temporal logic (STL), enabling automated triggering and coordination of these operations in response to environmental changes. A prototype implementation and case study demonstrate the feasibility of this approach."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/SacB4mg6nJWATKB3Y/a-proposal-for-a-cryogenic-grave-for-cryonics",
+    "author": "Roko",
+    "title": "A proposal for a cryogenic grave for cryonics",
+    "published_date": "2024-02-01",
+    "summary": "This article proposes a solution to the risk of cryonics facility failure: individually insulated cryogenic graves, designed to passively maintain cryogenic temperatures for centuries using advanced insulation materials, thereby safeguarding cryopreserved bodies without ongoing maintenance or human intervention. The author explores the engineering feasibility and cost of such a system, suggesting smaller, independent units as a safer alternative to large centralized facilities."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.01487.pdf",
+    "title": "Automated Misconfiguration Repair of Configurable Cyber-Physical Systems with Search: an Industrial Case Study on Elevator Dispatching Algorithms",
+    "published_date": "2023-01-04",
+    "abstract": "Real-world Cyber-Physical Systems (CPSs) are usually configurable. Through parameters, it is possible to configure, select or unselect different system functionalities. While this provides high flexibility, it also becomes a source for failures due to misconfigurations. The large number of parameters these systems have and the long test execution time in this context due to the use of simulation-based testing make the manual repair process a cumbersome activity. Subsequently, in this context, automated repairing methods are paramount. In this paper, we propose an approach to automatically repair CPSs' misconfigurations. Our approach is evaluated with an industrial CPS case study from the elevation domain. Experiments with a real building and data obtained from operation suggests that our approach outperforms a baseline algorithm as well as the state of the practice (i.e., manual repair carried out by domain experts).",
+    "citation_count": 7,
+    "summary": "This paper presents an automated approach for repairing misconfigurations in configurable cyber-physical systems (CPS), demonstrated through an industrial case study on elevator dispatching algorithms; the automated approach outperforms both a baseline algorithm and manual repair by domain experts."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.12368.pdf",
+    "title": "Power System Recovery Coordinated with (Non-)Black-Start Generators",
+    "published_date": "2023-02-23",
+    "abstract": "Power restoration is an urgent task after a black-out, and recovery efficiency is critical when quantifying system resilience. Multiple elements should be considered to restore the power system quickly and safely. This paper proposes a recovery model to solve a direct-current optimal power flow (DCOPF) based on mixed-integer linear programming (MILP). Since most of the generators cannot start independently, the interaction between black-start (BS) and non-black-start (NBS) generators must be modeled appropriately. The energization status of the NBS is coordinated with the recovery status of transmission lines, and both of them are modeled as binary variables. Also, only after an NBS unit receives cranking power through connected transmission lines, will it be allowed to participate in the following system dispatch. The amount of cranking power is estimated as a fixed proportion of the maximum generation capacity. The proposed model is validated on several test systems, as well as a 1393-bus representation system of the Puerto Rican electric power grid. Test results demonstrate how the recovery of NBS units and damaged transmission lines can be optimized, resulting in an efficient and well-coordinated recovery procedure.",
+    "citation_count": 2,
+    "summary": "This paper presents a mixed-integer linear programming model for power system restoration after a blackout, optimizing the coordinated recovery of black-start and non-black-start generators and transmission lines by considering the necessary cranking power for non-black-start units. The model's effectiveness is demonstrated through simulations on various test systems, including a large-scale representation of the Puerto Rican grid."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jyAerr8txxhiKnxwA/5-reasons-why-governments-militaries-want-ai-for-information-1",
+    "author": "trevor",
+    "title": "5 Reasons Why Governments/Militaries Already Want AI for Information Warfare",
+    "published_date": "2023-10-30",
+    "summary": "Military information warfare, leveraging advanced psychological research, prioritizes influencing high-intelligence elites rather than the general population, and its capabilities are rapidly increasing. This approach has been crucial in conflicts like the US-China rivalry, building upon centuries of military exploitation of human psychology."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2203.16746v1.pdf",
+    "title": "Resilient Distribution System Restoration With Communication Recovery by Drone Small Cells",
+    "published_date": "2022-03-31",
+    "abstract": "Distribution system (DS) restoration after natural disasters often faces the challenge of communication failures to feeder automation (FA) facilities, resulting in prolonged load pick-up process. This letter discusses the utilization of drone small cells for wireless communication recovery of FA, and proposes an integrated DS restoration strategy with communication recovery. Demonstrative case studies are conducted to validate the proposed model, and its advantages are illustrated by comparing to benchmark strategies.",
+    "citation_count": 15,
+    "summary": "This paper proposes using drone-deployed small cells to restore communication to feeder automation facilities in distribution systems after natural disasters, thus enabling faster and more resilient grid restoration. Case studies demonstrate the effectiveness of this integrated communication and distribution system restoration strategy compared to existing methods."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2202.08543.pdf",
+    "title": "Resilience-Motivated Distribution System Restoration Considering Electricity-Water-Gas Interdependency",
+    "published_date": "2021-11-01",
+    "abstract": "A major outage in the electricity distribution system may affect the operation of water and natural gas supply systems, leading to an interruption of multiple services to critical customers. Therefore, enhancing resilience of critical infrastructures requires joint efforts of multiple sectors. In this paper, a distribution system service restoration method considering the electricity-water-gas interdependency is proposed. The objective is to provide electricity, water, and natural gas supplies to critical customers in the desired ratio according to their needs after an extreme event. The operational constraints of electricity, water, and natural gas networks are considered. The characteristics of electricity-driven coupling components, including water pumps and gas compressors, are also modeled. Relaxation techniques are applied to nonconvex constraints posed by physical laws of those networks. Consequently, the restoration problem is formulated as a mixed-integer second-order cone program, which can readily be solved by the off-the-shelf solvers. The proposed method is validated by numerical simulations on electricity-water-gas integrated systems, developed based on benchmark models of the subsystems. The results indicate that considering the interdependency refines the allocation of limited generation resources and demonstrate the exactness of the proposed convex relaxation.",
+    "citation_count": 31,
+    "summary": "This paper proposes a novel distribution system restoration method that considers the interdependency of electricity, water, and natural gas networks to prioritize critical customer service restoration after a major outage. The method, formulated as a mixed-integer second-order cone program, optimizes resource allocation based on customer needs and network constraints, demonstrating improved resilience through numerical simulations."
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/79eegMp3EBs8ptFqa/neural-uncertainty-estimation-for-alignment",
+    "author": "Charlie Steiner",
+    "title": "Neural uncertainty estimation review article (for alignment)",
+    "published_date": "2023-12-05",
+    "summary": "The article surveys methods for estimating uncertainty in neural network predictions, focusing on Bayesian neural networks and ensemble methods. While Bayesian methods offer a theoretically sound approach, practical application often requires computationally expensive approximations; ensembles, though less theoretically grounded, provide a more computationally feasible alternative."
+  },
+  {
+    "url": "https://arxiv.org/abs/2106.04015v2",
+    "title": "Uncertainty Baselines: Benchmarks for Uncertainty & Robustness in Deep Learning",
+    "published_date": "2021-06-07",
+    "abstract": "High-quality estimates of uncertainty and robustness are crucial for numerous real-world applications, especially for deep learning which underlies many deployed ML systems. The ability to compare techniques for improving these estimates is therefore very important for research and practice alike. Yet, competitive comparisons of methods are often lacking due to a range of reasons, including: compute availability for extensive tuning, incorporation of sufficiently many baselines, and concrete documentation for reproducibility. In this paper we introduce Uncertainty Baselines: high-quality implementations of standard and state-of-the-art deep learning methods on a variety of tasks. As of this writing, the collection spans 19 methods across 9 tasks, each with at least 5 metrics. Each baseline is a self-contained experiment pipeline with easily reusable and extendable components. Our goal is to provide immediate starting points for experimentation with new methods or applications. Additionally we provide model checkpoints, experiment outputs as Python notebooks, and leaderboards for comparing results. Code available at https://github.com/google/uncertainty-baselines.",
+    "citation_count": 95,
+    "summary": "Uncertainty Baselines is a resource providing high-quality implementations of various deep learning methods for evaluating uncertainty and robustness, offering standardized benchmarks, reproducible pipelines, and readily available code and results to facilitate comparative research and development. It aims to overcome limitations in current comparative studies by providing a comprehensive and easily accessible collection of baselines."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.21952",
+    "title": "On the Robustness of Adversarial Training Against Uncertainty Attacks",
+    "published_date": "2024-10-29",
+    "abstract": "In learning problems, the noise inherent to the task at hand hinders the possibility to infer without a certain degree of uncertainty. Quantifying this uncertainty, regardless of its wide use, assumes high relevance for security-sensitive applications. Within these scenarios, it becomes fundamental to guarantee good (i.e., trustworthy) uncertainty measures, which downstream modules can securely employ to drive the final decision-making process. However, an attacker may be interested in forcing the system to produce either (i) highly uncertain outputs jeopardizing the system's availability or (ii) low uncertainty estimates, making the system accept uncertain samples that would instead require a careful inspection (e.g., human intervention). Therefore, it becomes fundamental to understand how to obtain robust uncertainty estimates against these kinds of attacks. In this work, we reveal both empirically and theoretically that defending against adversarial examples, i.e., carefully perturbed samples that cause misclassification, additionally guarantees a more secure, trustworthy uncertainty estimate under common attack scenarios without the need for an ad-hoc defense strategy. To support our claims, we evaluate multiple adversarial-robust models from the publicly available benchmark RobustBench on the CIFAR-10 and ImageNet datasets.",
+    "summary": "This paper demonstrates that adversarial training, a defense against misclassification attacks, also improves the robustness of uncertainty estimates against attacks aiming to manipulate confidence levels, empirically and theoretically validating this on CIFAR-10 and ImageNet datasets. This finding suggests that adversarial training provides a single, effective defense against both misclassification and uncertainty manipulation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.12019",
+    "title": "System-Level Analysis of Module Uncertainty Quantification in the Autonomy Pipeline",
+    "published_date": "2024-10-15",
+    "abstract": "We present a novel perspective on the design, use, and role of uncertainty measures for learned modules in an autonomous system. While in the current literature uncertainty measures are produced for standalone modules without considering the broader system context, in our work we explicitly consider the role of decision-making under uncertainty in illuminating how\"good'\"an uncertainty measure is. Our insights are centered around quantifying the ways in which being uncertainty-aware makes a system more robust. Firstly, we use level set generation tools to produce a measure for system robustness and use this measure to compare system designs, thus placing uncertainty quantification in the context of system performance and evaluation metrics. Secondly, we use the concept of specification generation from systems theory to produce a formulation under which a designer can simultaneously constrain the properties of an uncertainty measure and analyze the efficacy of the decision-making-under-uncertainty algorithm used by the system. We apply our analyses to two real-world and complex autonomous systems, one for autonomous driving and another for aircraft runway incursion detection, helping to form a toolbox for an uncertainty-aware system designer to produce more effective and robust systems.",
+    "summary": "This paper introduces a system-level approach to uncertainty quantification in autonomous systems, evaluating uncertainty measures not in isolation but by their impact on overall system robustness and decision-making under uncertainty, using real-world examples from autonomous driving and aircraft safety."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13",
+    "summary": "Current methods for assessing the risk of catastrophic AI behavior rely on finding problematic inputs, which is insufficient due to the vast input space. This article proposes novel techniques for estimating the probability of such \"tail events\" without relying on directly identifying harmful inputs, aiming to improve AI safety."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential trajectories of transformative AI (TAI), focusing on the possibility of TAI emerging within the next decade. The program aims to identify existential hazards, evaluate AI safety and governance strategies across different scenarios, and recommend strategies to mitigate existential risk."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25",
+    "summary": "The article discusses the challenges of formally verifying neural network behavior, arguing that the strictness of formal proofs makes them impractical for large networks. Instead, the authors propose \"heuristic explanations,\" a less rigorous but more scalable approach to understanding and quantifying a model's performance, illustrated through a concept called \"surprise accounting.\""
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.10586.pdf",
+    "title": "Adversarial Attacks Against Uncertainty Quantification",
+    "published_date": "2023-09-19",
+    "abstract": "Machine-learning models can be fooled by adversarial examples, i.e., carefully-crafted input perturbations that force models to output wrong predictions. While uncertainty quantification has been recently proposed to detect adversarial inputs, under the assumption that such attacks exhibit a higher prediction uncertainty than pristine data, it has been shown that adaptive attacks specifically aimed at reducing also the uncertainty estimate can easily bypass this defense mechanism. In this work, we focus on a different adversarial scenario in which the attacker is still interested in manipulating the uncertainty estimate, but regardless of the correctness of the prediction; in particular, the goal is to undermine the use of machine-learning models when their outputs are consumed by a downstream module or by a human operator. Following such direction, we: (i) design a threat model for attacks targeting uncertainty quantification; (ii) devise different attack strategies on conceptually different UQ techniques spanning for both classification and semantic segmentation problems; (iii) conduct a first complete and extensive analysis to compare the differences between some of the most employed UQ approaches under attack. Our extensive experimental analysis shows that our attacks are more effective in manipulating uncertainty quantification measures than attacks aimed to also induce misclassifications.",
+    "citation_count": 2,
+    "summary": "This paper investigates adversarial attacks designed to manipulate the uncertainty quantification (UQ) of machine learning models, regardless of prediction accuracy, demonstrating that attacks focused solely on manipulating UQ are more effective than those aiming for both misclassification and UQ manipulation. The authors propose novel attack strategies and evaluate their effectiveness across various UQ techniques for both classification and segmentation tasks."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.05890v1.pdf",
+    "title": "Robust uncertainty estimates with out-of-distribution pseudo-inputs training",
+    "published_date": "2022-01-15",
+    "abstract": "Probabilistic models often use neural networks to control their predictive uncertainty. However, when making out-of-distribution (OOD)} predictions, the often-uncontrollable extrapolation properties of neural networks yield poor uncertainty predictions. Such models then don't know what they don't know, which directly limits their robustness w.r.t unexpected inputs. To counter this, we propose to explicitly train the uncertainty predictor where we are not given data to make it reliable. As one cannot train without data, we provide mechanisms for generating pseudo-inputs in informative low-density regions of the input space, and show how to leverage these in a practical Bayesian framework that casts a prior distribution over the model uncertainty. With a holistic evaluation, we demonstrate that this yields robust and interpretable predictions of uncertainty while retaining state-of-the-art performance on diverse tasks such as regression and generative modelling",
+    "citation_count": 1,
+    "summary": "This paper addresses poor uncertainty predictions in probabilistic models when encountering out-of-distribution inputs by training the uncertainty predictor using generated pseudo-inputs in low-density regions of the input space, resulting in more robust and interpretable uncertainty estimates. This approach leverages a Bayesian framework and improves performance across various tasks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.06828",
+    "title": "An Exploratory Study of AI System Risk Assessment from the Lens of Data Distribution and Uncertainty",
+    "published_date": "2022-12-13",
+    "abstract": "Deep learning (DL) has become a driving force and has been widely adopted in many domains and applications with competitive performance. In practice, to solve the nontrivial and complicated tasks in real-world applications, DL is often not used standalone, but instead contributes as a piece of gadget of a larger complex AI system. Although there comes a fast increasing trend to study the quality issues of deep neural networks (DNNs) at the model level, few studies have been performed to investigate the quality of DNNs at both the unit level and the potential impacts on the system level. More importantly, it also lacks systematic investigation on how to perform the risk assessment for AI systems from unit level to system level. To bridge this gap, this paper initiates an early exploratory study of AI system risk assessment from both the data distribution and uncertainty angles to address these issues. We propose a general framework with an exploratory study for analyzing AI systems. After large-scale (700+ experimental configurations and 5000+ GPU hours) experiments and in-depth investigations, we reached a few key interesting findings that highlight the practical need and opportunities for more in-depth investigations into AI systems.",
+    "citation_count": 2,
+    "summary": "This paper explores AI system risk assessment, focusing on the impact of data distribution and uncertainty on deep learning models within larger systems. Through extensive experiments, the authors propose a framework for analyzing AI system risks from unit to system level and identify key areas needing further research."
+  }
+]

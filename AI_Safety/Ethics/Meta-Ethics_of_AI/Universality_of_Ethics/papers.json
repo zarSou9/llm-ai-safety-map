@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.12862",
+    "title": "Toward Constraint Compliant Goal Formulation and Planning",
+    "published_date": "2024-05-21",
+    "abstract": "One part of complying with norms, rules, and preferences is incorporating constraints (such as knowledge of ethics) into one's goal formulation and planning processing. We explore in a simple domain how the encoding of knowledge in different ethical frameworks influences an agent's goal formulation and planning processing and demonstrate ability of an agent to satisfy and satisfice when its collection of relevant constraints includes a mix of\"hard\"and\"soft\"constraints of various types. How the agent attempts to comply with ethical constraints depends on the ethical framing and we investigate tradeoffs between deontological framing and utilitarian framing for complying with an ethical norm. Representative scenarios highlight how performing the same task with different framings of the same norm leads to different behaviors. Our explorations suggest an important role for metacognitive judgments in resolving ethical conflicts during goal formulation and planning.",
+    "summary": "This paper investigates how different ethical frameworks influence an agent's goal formulation and planning by encoding ethical constraints as \"hard\" and \"soft\" constraints. The authors demonstrate how varying ethical framings (deontological vs. utilitarian) lead to different agent behaviors and highlight the importance of metacognitive judgments in resolving ethical conflicts."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/machine-ethics",
+    "title": "Machine Ethics - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Machine ethics aims to create artificial moral agents (AMAs) capable of morally sound actions, a challenge highlighted by limitations in current narrow AI applications and the urgent need to address ethical considerations before the emergence of superintelligence. Early attempts, like Asimov's Three Laws of Robotics, illustrate the complexities involved in programming moral reasoning into machines."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/TKdpSzmcezNbfmGAy/the-urgent-meta-ethics-of-friendly-artificial-intelligence",
+    "author": "lukeprog",
+    "title": "The Urgent Meta-Ethics of Friendly Artificial Intelligence",
+    "published_date": "2024-02-01",
+    "summary": "The impending technological singularity necessitates the rapid resolution of fundamental meta-ethical questions—regarding the nature of morality itself—to ensure a beneficial outcome for the future of the galaxy, as these questions underpin the values and decision-making processes of future artificial intelligences. The urgency of this task surpasses the traditional pace of philosophical inquiry."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/artificial-general-intelligence-agi",
+    "title": "Artificial General Intelligence (AGI) - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Artificial General Intelligence (AGI) refers to machines exhibiting intelligent behavior across diverse domains, unlike narrow AI which excels only in specific tasks. The development of AGI is anticipated within the next few decades, but concerns exist regarding its potential risks, including the possibility of an intelligence explosion and loss of human control."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.17479",
+    "title": "Culturally-Attuned Moral Machines: Implicit Learning of Human Value Systems by AI through Inverse Reinforcement Learning",
+    "published_date": "2023-12-29",
+    "abstract": "Constructing a universal moral code for artificial intelligence (AI) is difficult or even impossible, given that different human cultures have different definitions of morality and different societal norms. We therefore argue that the value system of an AI should be culturally attuned: just as a child raised in a particular culture learns the specific values and norms of that culture, we propose that an AI agent operating in a particular human community should acquire that community's moral, ethical, and cultural codes. How AI systems might acquire such codes from human observation and interaction has remained an open question. Here, we propose using inverse reinforcement learning (IRL) as a method for AI agents to acquire a culturally-attuned value system implicitly. We test our approach using an experimental paradigm in which AI agents use IRL to learn different reward functions, which govern the agents' moral values, by observing the behavior of different cultural groups in an online virtual world requiring real-time decision making. We show that an AI agent learning from the average behavior of a particular cultural group can acquire altruistic characteristics reflective of that group's behavior, and this learned value system can generalize to new scenarios requiring altruistic judgments. Our results provide, to our knowledge, the first demonstration that AI agents could potentially be endowed with the ability to continually learn their values and norms from observing and interacting with humans, thereby becoming attuned to the culture they are operating in.",
+    "citation_count": 1,
+    "summary": "This paper proposes using inverse reinforcement learning (IRL) to enable AI agents to implicitly learn culturally-attuned moral values by observing and interacting with humans in a simulated environment, demonstrating that AI can acquire and generalize altruistic behaviors reflective of specific cultural groups."
+  },
+  {
+    "url": "https://arxiv.org/abs/2110.07574",
+    "title": "CAN MACHINES LEARN MORALITY? THE DELPHI EXPERIMENT",
+    "published_date": "2023-02-06",
+    "abstract": "As AI systems become increasingly powerful and pervasive, there are growing concerns about machines' morality or a lack thereof. Yet, teaching morality to machines is a formidable task, as morality remains among the most intensely debated questions in humanity, let alone for AI. Existing AI systems deployed to millions of users, however, are already making decisions loaded with moral implications, which poses a seemingly impossible challenge: teaching machines moral sense, while humanity continues to grapple with it.\r\n\r\nTo explore this challenge, we introduce Delphi, an experimental framework based on deep neural networks trained directly to reason about descriptive ethical judgments, e.g., “helping a friend” is generally good, while “helping a friend spread fake news” is not. Empirical results shed novel insights on the promises and limits of machine ethics; Delphi demonstrates strong generalization capabilities in the face of novel ethical situations, while off-the-shelf neural network models exhibit markedly poor judgment including unjust biases, confirming the need for explicitly teaching machines moral sense.\r\n\r\nYet, Delphi is not perfect, exhibiting susceptibility to pervasive biases and inconsistencies. Despite that, we demonstrate positive use cases of imperfect Delphi, including using it as a component model within other imperfect AI systems. Importantly, we interpret the operationalization of Delphi in light of prominent ethical theories, which leads us to important future research questions.",
+    "citation_count": 93,
+    "summary": "The Delphi experiment uses deep neural networks to train AI on ethical judgments, revealing both promising generalization capabilities and persistent biases in machine morality. This research highlights the challenges and potential of teaching ethical reasoning to AI, suggesting imperfect models can still contribute to improved AI systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a novel framework for building ethically aligned AI systems by incorporating ethical principles as Bayesian priors. These \"ethical priors,\" analogous to human moral intuitions, guide the AI's learning and decision-making process, offering a flexible and less data-intensive approach compared to purely rule-based systems."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2204.05151v1.pdf",
+    "title": "Metaethical Perspectives on 'Benchmarking' AI Ethics",
+    "published_date": "2022-04-11",
+    "abstract": "Benchmarks are seen as the cornerstone for measuring technical progress in Artificial Intelligence (AI) research and have been developed for a variety of tasks ranging from question answering to facial recognition. An increasingly prominent research area in AI is ethics, which currently has no set of benchmarks nor commonly accepted way for measuring the 'ethicality' of an AI system. In this paper, drawing upon research in moral philosophy and metaethics, we argue that it is impossible to develop such a benchmark. As such, alternative mechanisms are necessary for evaluating whether an AI system is 'ethical'. This is especially pressing in light of the prevalence of applied, industrial AI research. We argue that it makes more sense to talk about 'values' (and 'value alignment') rather than 'ethics' when considering the possible actions of present and future AI systems. We further highlight that, because values are unambiguously relative, focusing on values forces us to consider explicitly what the values are and whose values they are. Shifting the emphasis from ethics to values therefore gives rise to several new ways of understanding how researchers might advance research programmes for robustly safe or beneficial AI. We conclude by highlighting a number of possible ways forward for the field as a whole, and we advocate for different approaches towards more value-aligned AI research.",
+    "citation_count": 5,
+    "summary": "The paper argues that creating a benchmark for measuring the \"ethicality\" of AI systems is impossible due to the inherent subjectivity of ethics, advocating instead for a focus on values and value alignment to guide AI development. This shift necessitates explicit consideration of whose values are prioritized and how these values are implemented in AI systems."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2204.07612v1.pdf",
+    "title": "Contextualizing Artificially Intelligent Morality: A Meta-Ethnography of Top-Down, Bottom-Up, and Hybrid Models for Theoretical and Applied Ethics in Artificial Intelligence",
+    "published_date": "2022-04-15",
+    "abstract": "In this meta-ethnography,we explore three different angles of Ethical AI design and implementation in a top-down/bottom-up framework, including the philosophical ethical viewpoint, the technical perspective, and framing through a political lens. We will discuss the values and drawbacks of individual and hybrid approaches within this framework. Examples of approaches include ethics either being determined by corporations and governments (coming from the top), or ethics being called for by the people (coming from the bottom), as well as top-down, bottom-up, and hybrid technical-ities of how AI is developed within a moral construct, in consideration of its developers and users, with expected and unexpected consequences and long-term impact. This investigation includes real-world case studies, philosophical debate, and theoretical future thought experimentation based on historical fact, current world circumstances, and possible ensuing realities.",
+    "summary": "This meta-ethnography analyzes top-down, bottom-up, and hybrid approaches to ethically designing and implementing AI, considering philosophical, technical, and political perspectives, and evaluating their respective strengths and weaknesses through case studies and theoretical analysis. The study examines how ethical considerations, originating from corporations/governments or the public, influence AI development and its societal impact."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.14062v1.pdf",
+    "title": "P4AI: Approaching AI Ethics through Principlism",
+    "published_date": "2021-11-28",
+    "abstract": "The field of computer vision is rapidly evolving, particularly in the context of new methods of neural architecture design. These models contribute to (1) the Climate Crisis - increased CO2 emissions and (2) the Privacy Crisis - data leakage concerns. To address the often overlooked impact the Computer Vision (CV) community has on these crises, we outline a novel ethical framework, \\textit{P4AI}: Principlism for AI, an augmented principlistic view of ethical dilemmas within AI. We then suggest using P4AI to make concrete recommendations to the community to mitigate the climate and privacy crises.",
+    "citation_count": 1,
+    "summary": "P4AI, a novel ethical framework based on principlism, addresses the climate and privacy impacts of computer vision's rapid advancements by offering concrete recommendations to mitigate these crises. The framework augments existing principlistic approaches to address specific ethical dilemmas within AI."
+  }
+]

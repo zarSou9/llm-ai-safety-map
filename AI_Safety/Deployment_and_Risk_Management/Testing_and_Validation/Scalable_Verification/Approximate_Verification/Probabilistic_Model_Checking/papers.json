@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Relatively complete verification of probabilistic programs: an expressive language for expectation-based reasoning",
+    "abstract": "We study a syntax for specifying quantitative assertions—functions mapping program states to numbers—for probabilistic program verification. We prove that our syntax is expressive in the following sense: Given any probabilistic program C, if a function f is expressible in our syntax, then the function mapping each initial state σ to the expected value of evaluated in the final states reached after termination of C on σ (also called the weakest preexpectation wp[C](f)) is also expressible in our syntax. As a consequence, we obtain a relatively complete verification system for reasoning about expected values and probabilities in the sense of Cook: Apart from proving a single inequality between two functions given by syntactic expressions in our language, given f, g, and C, we can check whether g ≼ wp[C](f).",
+    "published_date": "2020-10-27",
+    "citation_count": 20,
+    "url": "https://dl.acm.org/doi/10.1145/3434320"
+  },
+  {
+    "title": "Probabilistic conformance for cyber-physical systems",
+    "abstract": "In system analysis, conformance indicates that two systems simultaneously satisfy the same set of specifications of interest; thus, the results from analyzing one system automatically transfer to the other, or one system can safely replace the other in practice. In this work, we study the probabilistic conformance of cyber-physical systems (CPS). We propose a notion of (approximate) probabilistic conformance for sets of complex specifications expressed by the Signal Temporal Logic (STL). Based on a novel statistical test, we develop the first statistical verification methods for the probabilistic conformance of a wide class of CPS. Using this method, we verify the conformance of the startup time of the widely-used full and simplified model of Toyota powertrain systems, the settling time of model-predictive-control-based and neural-network-based automotive lane-keeping controllers, as well as the maximal voltage deviation of full and simplified power grid systems.",
+    "published_date": "2020-08-03",
+    "citation_count": 8,
+    "url": "https://dl.acm.org/doi/10.1145/3450267.3450534"
+  },
+  {
+    "title": "Proving expected sensitivity of probabilistic programs with randomized variable-dependent termination time",
+    "abstract": "The notion of program sensitivity (aka Lipschitz continuity) specifies that changes in the program input result in proportional changes to the program output. For probabilistic programs the notion is naturally extended to expected sensitivity. A previous approach develops a relational program logic framework for proving expected sensitivity of probabilistic while loops, where the number of iterations is fixed and bounded. In this work, we consider probabilistic while loops where the number of iterations is not fixed, but randomized and depends on the initial input values. We present a sound approach for proving expected sensitivity of such programs. Our sound approach is martingale-based and can be automated through existing martingale-synthesis algorithms. Furthermore, our approach is compositional for sequential composition of while loops under a mild side condition. We demonstrate the effectiveness of our approach on several classical examples from Gambler's Ruin, stochastic hybrid systems and stochastic gradient descent. We also present experimental results showing that our automated approach can handle various probabilistic programs in the literature.",
+    "published_date": "2019-02-13",
+    "citation_count": 13,
+    "url": "https://dl.acm.org/doi/10.1145/3371093"
+  },
+  {
+    "title": "Leveraging Weighted Automata in Compositional Reasoning about Concurrent Probabilistic Systems",
+    "abstract": "We propose the first sound and complete learning-based compositional verification technique for probabilistic safety properties on concurrent systems where each component is an Markov decision process. Different from previous works, weighted assumptions are introduced to attain completeness of our framework. Since weighted assumptions can be implicitly represented by multi-terminal binary decision diagrams (MTBDD's), we give an L*-based learning algorithm for MTBDD's to infer weighted assumptions. Experimental results suggest promising outlooks for our compositional technique.",
+    "published_date": "2015-01-14",
+    "citation_count": 12,
+    "url": "https://dl.acm.org/doi/10.1145/2775051.2676998"
+  },
+  {
+    "title": "Approximate Verification of the Symbolic Dynamics of Markov Chains",
+    "abstract": "A finite state Markov chain M is often viewed as a probabilistic transition system. An alternative view - which we follow here - is to regard M as a linear transform operating on the space of probability distributions over its set of nodes. The novel idea here is to discretize the probability value space [0,1] into a finite set of intervals. A concrete probability distribution over the nodes is then symbolically represented as a tuple D of such intervals. The i-th component of the discretized distribution D will be the interval in which the probability of node i falls. The set of discretized distributions is a finite set and each trajectory, generated by repeated applications of M to an initial distribution, will induce a unique infinite string over this finite set of letters. Hence, given a set of initial distributions, the symbolic dynamics of M will consist of an infinite language L over the finite alphabet of discretized distributions. We investigate whether L meets a specification given as a linear time temporal logic formula whose atomic propositions will assert that the current probability of a node falls in an interval. Unfortunately, even for restricted Markov chains (for instance, irreducible and aperiodic chains), we do not know at present if and when L is an (omega)-regular language. To get around this we develop the notion of an epsilon-approximation, based on the transient and long term behaviors of M. Our main results are that, one can effectively check whether (i) for each infinite word in L, at least one of its epsilon-approximations satisfies the specification; (ii) for each infinite word in L all its epsilon approximations satisfy the specification. These verification results are strong in that they apply to all finite state Markov chains. Further, the study of the symbolic dynamics of Markov chains initiated here is of independent interest and can lead to other applications.",
+    "published_date": "2012-06-01",
+    "citation_count": 49,
+    "url": "https://dl.acm.org/doi/10.1145/2629417"
+  },
+  {
+    "title": "Robust PCTL model checking",
+    "abstract": "This paper deals with the notion of approximate probabilistic bisimulation (APB) relation for discrete-time labeled Markov Chains (LMC). In order to provide a quantified upper bound on a metric over probabilistic realizations for LMC, we exploit the structure and properties of the APB and leverage the mathematical framework of Markov set-Chains. Based on this bound, the article proves that the existence of an APB implies the preservation of robust PCTL formulae, which are formulae that allow being properly relaxed or strengthened, according to the underlying APB. This leads to a notion of robustness for probabilistic model checking.",
+    "published_date": "2012-04-17",
+    "citation_count": 37,
+    "url": "https://dl.acm.org/doi/10.1145/2185632.2185673"
+  }
+]

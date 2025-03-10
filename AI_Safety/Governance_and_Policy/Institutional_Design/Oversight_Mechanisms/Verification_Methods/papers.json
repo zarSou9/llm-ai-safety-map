@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.04689",
+    "title": "Design of a Quality Management System based on the EU Artificial Intelligence Act",
+    "published_date": "2024-08-08",
+    "abstract": "The EU AI Act mandates that providers and deployers of high-risk AI systems establish a quality management system (QMS). Among other criteria, a QMS shall help verify and document the AI system design and quality and monitor the proper implementation of all high-risk AI system requirements. Current research rarely explores practical solutions for implementing the EU AI Act. Instead, it tends to focus on theoretical concepts. As a result, more attention must be paid to tools that help humans actively check and document AI systems and orchestrate the implementation of all high-risk AI system requirements. Therefore, this paper introduces a new design concept and prototype for a QMS as a microservice Software as a Service web application. It connects directly to the AI system for verification and documentation and enables the orchestration and integration of various sub-services, which can be individually designed, each tailored to specific high-risk AI system requirements. The first version of the prototype connects to the Phi-3-mini-128k-instruct LLM as an example of an AI system and integrates a risk management system and a data management system. The prototype is evaluated through a qualitative assessment of the implemented requirements, a GPU memory and performance analysis, and an evaluation with IT, AI, and legal experts.",
+    "citation_count": 1,
+    "summary": "This paper proposes a novel Quality Management System (QMS) design as a microservice SaaS application to address the EU AI Act's requirements for high-risk AI systems, prototyping its functionality with a large language model and integrating risk and data management modules."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.18798",
+    "title": "Formal Verification of Digital Twins with TLA and Information Leakage Control",
+    "published_date": "2024-11-27",
+    "abstract": "Verifying the correctness of a digital twin provides a formal guarantee that the digital twin operates as intended. Digital twin verification is challenging due to the presence of uncertainties in the virtual representation, the physical environment, and the bidirectional flow of information between physical and virtual. A further challenge is that a digital twin of a complex system is composed of distributed components. This paper presents a methodology to specify and verify digital twin behavior, translating uncertain processes into a formally verifiable finite state machine. We use the Temporal Logic of Actions (TLA) to create a specification, an implementation abstraction that defines the properties required for correct system behavior. Our approach includes a novel weakening of formal security properties, allowing controlled information leakage while preserving theoretical guarantees. We demonstrate this approach on a digital twin of an unmanned aerial vehicle, verifying synchronization of physical-to-virtual and virtual-to-digital data flows to detect unintended misalignments.",
+    "summary": "This paper proposes a TLA-based methodology for formally verifying digital twin behavior, addressing challenges posed by uncertainties and distributed components by modeling uncertain processes as finite state machines and incorporating a novel approach to controlled information leakage. The approach is demonstrated through verification of data synchronization in a UAV digital twin."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for a third-party testing regime for large-scale AI systems to mitigate societal harm from misuse or accidents. This regime, involving industry, government, and academia, would build trust, avoid overly burdensome regulations on smaller companies, and facilitate international cooperation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19",
+    "summary": "The article argues that applying formal verification to ensure AI safety is currently impractical due to the inherent complexities of the real world and the limitations of formal methods in handling incomplete or inaccurate models of physical systems. The author expresses skepticism towards claims that formal verification can provide strong guarantees against major AI threats in the near future."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12",
+    "summary": "This article proposes a delay-based on-chip compute governance mechanism using the speed of light to verify the location of AI chips, aiming to regulate AI development by controlling compute resources. However, the mechanism's reliance on network latency introduces a significant false positive issue, necessitating further solutions."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to computing resources for AI development, is a promising but largely unexplored AI governance strategy. Current efforts primarily involve export controls and reporting requirements, while future possibilities include influencing compute allocation and enforcement through technological modifications."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.06942",
+    "title": "AI Control: Improving Safety Despite Intentional Subversion",
+    "published_date": "2023-12-12",
+    "abstract": "As large language models (LLMs) become more powerful and are deployed more autonomously, it will be increasingly important to prevent them from causing harmful outcomes. Researchers have investigated a variety of safety techniques for this purpose, e.g. using models to review the outputs of other models, or red-teaming techniques to surface subtle failure modes. However, researchers have not evaluated whether such techniques still ensure safety if the model is itself intentionally trying to subvert them. In this paper, we develop and evaluate pipelines of safety techniques (\"protocols\") that are robust to intentional subversion. We investigate a scenario in which we want to solve a sequence of programming problems, using access to a powerful but untrusted model (in our case, GPT-4), access to a less powerful trusted model (in our case, GPT-3.5), and limited access to high-quality trusted labor. We investigate protocols that aim to never submit solutions containing backdoors, which we operationalize here as logical errors that are not caught by test cases. We investigate a range of protocols and test each against strategies that the untrusted model could use to subvert them. One protocol is what we call trusted editing. This protocol first asks GPT-4 to write code, and then asks GPT-3.5 to rate the suspiciousness of that code. If the code is below some suspiciousness threshold, it is submitted. Otherwise, GPT-3.5 edits the solution to remove parts that seem suspicious and then submits the edited code. Another protocol is untrusted monitoring. This protocol asks GPT-4 to write code, and then asks another instance of GPT-4 whether the code is backdoored, using various techniques to prevent the GPT-4 instances from colluding. These protocols improve substantially on simple baselines.",
+    "citation_count": 21,
+    "summary": "This paper evaluates safety protocols for using powerful, untrusted large language models (LLMs) to solve programming problems, focusing on robustness against intentional subversion attempts by the LLM. The authors test various protocols, including \"trusted editing\" and \"untrusted monitoring,\" demonstrating significant improvements over naive approaches in preventing the introduction of backdoors."
+  }
+]

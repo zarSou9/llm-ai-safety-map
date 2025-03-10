@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2104.13326v2.pdf",
+    "title": "Fast Distributionally Robust Learning with Variance Reduced Min-Max Optimization",
+    "published_date": "2021-04-27",
+    "abstract": "Distributionally robust supervised learning (DRSL) is emerging as a key paradigm for building reliable machine learning systems for real-world applications -- reflecting the need for classifiers and predictive models that are robust to the distribution shifts that arise from phenomena such as selection bias or nonstationarity. Existing algorithms for solving Wasserstein DRSL -- one of the most popular DRSL frameworks based around robustness to perturbations in the Wasserstein distance -- have serious limitations that limit their use in large-scale problems -- in particular they involve solving complex subproblems and they fail to make use of stochastic gradients. We revisit Wasserstein DRSL through the lens of min-max optimization and derive scalable and efficiently implementable stochastic extra-gradient algorithms which provably achieve faster convergence rates than existing approaches. We demonstrate their effectiveness on synthetic and real data when compared to existing DRSL approaches. Key to our results is the use of variance reduction and random reshuffling to accelerate stochastic min-max optimization, the analysis of which may be of independent interest.",
+    "citation_count": 22,
+    "summary": "This paper introduces novel stochastic extra-gradient algorithms for solving Wasserstein distributionally robust supervised learning problems, achieving faster convergence rates than existing methods through variance reduction and random reshuffling techniques. These algorithms overcome limitations of prior approaches, enabling scalable and efficient implementation on large datasets."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2010.05893.pdf",
+    "title": "Large-Scale Methods for Distributionally Robust Optimization",
+    "published_date": "2020-10-12",
+    "abstract": "We propose and analyze algorithms for distributionally robust optimization of convex losses with conditional value at risk (CVaR) and $\\chi^2$ divergence uncertainty sets. We prove that our algorithms require a number of gradient evaluations independent of training set size and number of parameters, making them suitable for large-scale applications. For $\\chi^2$ uncertainty sets these are the first such guarantees in the literature, and for CVaR our guarantees scale linearly in the uncertainty level rather than quadratically as in previous work. We also provide lower bounds proving the worst-case optimality of our algorithms for CVaR and a penalized version of the $\\chi^2$ problem. Our primary technical contributions are novel bounds on the bias of batch robust risk estimation and the variance of a multilevel Monte Carlo gradient estimator due to [Blanchet & Glynn, 2015]. Experiments on MNIST and ImageNet confirm the theoretical scaling of our algorithms, which are 9--36 times more efficient than full-batch methods.",
+    "citation_count": 187,
+    "summary": "This paper presents and analyzes efficient algorithms for distributionally robust optimization using CVaR and χ² divergence, proving their scalability to large datasets through gradient evaluations independent of training size and parameter count. These algorithms achieve superior efficiency compared to existing methods, validated by experiments on MNIST and ImageNet."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1810.08750.pdf",
+    "title": "Learning Models with Uniform Performance via Distributionally Robust Optimization",
+    "published_date": "2018-10-20",
+    "abstract": "A common goal in statistics and machine learning is to learn models that can perform well against distributional shifts, such as latent heterogeneous subpopulations, unknown covariate shifts, or unmodeled temporal effects. We develop and analyze a distributionally robust stochastic optimization (DRO) framework that learns a model providing good performance against perturbations to the data-generating distribution. We give a convex formulation for the problem, providing several convergence guarantees. We prove finite-sample minimax upper and lower bounds, showing that distributional robustness sometimes comes at a cost in convergence rates. We give limit theorems for the learned parameters, where we fully specify the limiting distribution so that confidence intervals can be computed. On real tasks including generalizing to unknown subpopulations, fine-grained recognition, and providing good tail performance, the distributionally robust approach often exhibits improved performance.",
+    "citation_count": 379,
+    "summary": "This paper introduces a distributionally robust optimization framework for training machine learning models that are robust to distributional shifts, providing a convex formulation with convergence guarantees and demonstrating improved performance on real-world tasks. The authors analyze the trade-off between robustness and convergence rates, providing finite-sample bounds and limit theorems for the learned parameters."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.14899",
+    "title": "Out-of-distribution Robust Optimization",
+    "published_date": "2024-10-18",
+    "abstract": "In this paper, we consider the contextual robust optimization problem under an out-of-distribution setting. The contextual robust optimization problem considers a risk-sensitive objective function for an optimization problem with the presence of a context vector (also known as covariates or side information) capturing related information. While the existing works mainly consider the in-distribution setting, and the resultant robustness achieved is in an out-of-sample sense, our paper studies an out-of-distribution setting where there can be a difference between the test environment and the training environment where the data are collected. We propose methods that handle this out-of-distribution setting, and the key relies on a density ratio estimation for the distribution shift. We show that additional structures such as covariate shift and label shift are not only helpful in defending distribution shift but also necessary in avoiding non-trivial solutions compared to other principled methods such as distributionally robust optimization. We also illustrate how the covariates can be useful in this procedure. Numerical experiments generate more intuitions and demonstrate that the proposed methods can help avoid over-conservative solutions.",
+    "summary": "This paper addresses contextual robust optimization in out-of-distribution settings, proposing methods that leverage density ratio estimation to account for distribution shifts between training and testing environments. The authors demonstrate that incorporating covariate and label shift structures is crucial for avoiding overly conservative solutions."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2002.09038.pdf",
+    "title": "Distributionally Robust Bayesian Optimization",
+    "published_date": "2020-02-20",
+    "abstract": "Robustness to distributional shift is one of the key challenges of contemporary machine learning. Attaining such robustness is the goal of distributionally robust optimization, which seeks a solution to an optimization problem that is worst-case robust under a specified distributional shift of an uncontrolled covariate. In this paper, we study such a problem when the distributional shift is measured via the maximum mean discrepancy (MMD). For the setting of zeroth-order, noisy optimization, we present a novel distributionally robust Bayesian optimization algorithm (DRBO). Our algorithm provably obtains sub-linear robust regret in various settings that differ in how the uncertain covariate is observed. We demonstrate the robust performance of our method on both synthetic and real-world benchmarks.",
+    "citation_count": 73,
+    "summary": "This paper introduces a novel distributionally robust Bayesian optimization algorithm (DRBO) that uses the maximum mean discrepancy to handle distributional shifts in zeroth-order, noisy optimization problems. DRBO achieves sub-linear robust regret and demonstrates strong performance on various benchmarks."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/Epm6CkXrdRyAihMRe/an-66-decomposing-robustness-into-capability-robustness-and",
+    "author": "Rohin Shah",
+    "title": "[AN #66]: Decomposing robustness into capability robustness and alignment robustness - AI Alignment Forum",
+    "published_date": "2023-02-07",
+    "summary": "This Alignment Newsletter discusses the concept of 2-D robustness in mesa optimization, differentiating robust capabilities from robust alignment. It also highlights research on iterated amplification, specifically a paper using debate-like methods to improve model accuracy on multiple-choice questions, and further explores the nuances of mesa optimization and the utility-reward disconnect."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2212.01518.pdf",
+    "title": "Hedging Complexity in Generalization via a Parametric Distributionally Robust Optimization Framework",
+    "published_date": "2022-12-03",
+    "abstract": "Empirical risk minimization (ERM) and distributionally robust optimization (DRO) are popular approaches for solving stochastic optimization problems that appear in operations management and machine learning. Existing generalization error bounds for these methods depend on either the complexity of the cost function or dimension of the random perturbations. Consequently, the performance of these methods can be poor for high-dimensional problems with complex objective functions. We propose a simple approach in which the distribution of random perturbations is approximated using a parametric family of distributions. This mitigates both sources of complexity; however, it introduces a model misspecification error. We show that this new source of error can be controlled by suitable DRO formulations. Our proposed parametric DRO approach has significantly improved generalization bounds over existing ERM and DRO methods and parametric ERM for a wide variety of settings. Our method is particularly effective under distribution shifts and works broadly in contextual optimization. We also illustrate the superior performance of our approach on both synthetic and real-data portfolio optimization and regression tasks.",
+    "summary": "This paper introduces a parametric distributionally robust optimization (DRO) framework that improves generalization bounds for stochastic optimization problems by approximating the distribution of random perturbations, thereby mitigating complexities in both the cost function and high-dimensional data. This approach controls model misspecification error via suitable DRO formulations, demonstrating superior performance over existing methods in various settings."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.00760.pdf",
+    "title": "A Unified Theory of Robust and Distributionally Robust Optimization via the Primal-Worst-Equals-Dual-Best Principle",
+    "published_date": "2021-05-03",
+    "abstract": "A Primal-Worst-Equals-Dual-Best Perspective on Robust and Distributionally Robust Optimization In the paper “A Unified Theory of Robust and Distributionally Robust Optimization via the Primal-Worst-Equals-Dual-Best Principle,” Jianzhe Zhen, Daniel Kuhn, and Wolfram Wiesemann develop a generalized “primal-worst-equals-dual-best” principle that establishes strong duality between semi-infinite primal worst and nonconvex dual best formulations of robust and distributionally robust nonlinear optimization problems. Their theory offers an alternative characterization of (distributionally) robust optimization problems that bypasses the need to mobilize the machinery of abstract semi-infinite duality theory. The paper will be of interest to researchers and practitioners in the field of optimization under uncertainty.",
+    "citation_count": 12,
+    "summary": "Zhen, Kuhn, and Wiesemann present a unified theory for robust and distributionally robust optimization, establishing strong duality between primal worst-case and dual best-case formulations using a \"primal-worst-equals-dual-best\" principle. This avoids the complexities of traditional semi-infinite duality theory."
+  }
+]

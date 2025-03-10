@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/tag/identity",
+    "title": "Identity - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "Individual identity, understood as one's self-conception, can hinder rational belief updating and action changes, but maintaining a well-defined identity can also be beneficial and enhance rationality. The article explores this duality, primarily focusing on self-imposed identities rather than externally imposed ones."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dLg7CyeTE4pqbbcnp/language-models-model-us",
+    "author": "Eggsyntax",
+    "title": "Language Models Model Us",
+    "published_date": "2024-05-17",
+    "summary": "Using a dataset of OKCupid essays, researchers found that GPT-3.5-turbo accurately inferred demographic information (gender, education, ethnicity) from essay text, suggesting LLMs can infer far more nuanced personal information than previously understood, raising significant privacy and manipulation concerns."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/relationships-interpersonal",
+    "title": "Relationships (Interpersonal) - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "Interpersonal relationships encompass all sustained interactions between individuals, covering various forms such as friendships, romantic partnerships, family ties, and professional connections. Related concepts include communication and cultural communication styles."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/gLyRQCg6kp5cqTQTm/collective-identity",
+    "author": "NicholasKees, ukc10014, Garrett Baker",
+    "title": "Collective Identity",
+    "published_date": "2023-05-18",
+    "summary": "This article proposes a novel approach to AI corrigibility by designing AI systems with a collective identity, rather than individual values. This \"identity fusion\" with human operators aims to prevent adversarial relationships by eliminating the independent preferences that could lead to conflict."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/picPfLnygZC5aFjNr/hch-and-adversarial-questions",
+    "author": "David Udell",
+    "title": "HCH and Adversarial Questions",
+    "published_date": "2022-02-19",
+    "summary": "This philosophy PhD paper analyzes Iterated Amplification and Distillation (IDA), a proposed AI alignment technique, focusing on a potential vulnerability: adversarial questions within IDA's hierarchical model that could manipulate its goal-pursuit. The author argues this is a solvable problem through specific architectural modifications to the system."
+  },
+  {
+    "title": "Robo-Identity: Exploring Artificial Identity and Multi-Embodiment",
+    "abstract": "Interactive robots are becoming more commonplace and complex, but their identity has not yet been a key point of investigation. Identity is an overarching concept that combines traits like personality or a backstory (among other aspects) that people readily attribute to a robot to individuate it as a unique entity. Given people's tendency to anthropomorphize social robots, \"who is a robot?\" should be a guiding question above and beyond \"what is a robot?\" Hence, we open up a discussion on artificial identity through this workshop in a multi-disciplinary manner; we welcome perspectives on challenges and opportunities from fields of ethics, design, and engineering. For instance, dynamic embodiment, e.g., an agent that dynamically moves across one's smartwatch, smart speaker, and laptop, is a technical and theoretical problem, with ethical ramifications. Another consideration is whether multiple bodies may warrant multiple identities instead of an \"all-in-one\" identity. Who \"lives\" in which devices or bodies? Should their identity travel across different forms, and how can that be achieved in an ethically mindful manner? We bring together philosophical, ethical, technical, and designerly perspectives on exploring artificial identity.",
+    "published_date": "2021-03-08",
+    "citation_count": 12,
+    "url": "https://dl.acm.org/doi/10.1145/3434074.3444878",
+    "summary": "This paper advocates for exploring the concept of \"robo-identity,\" arguing that understanding a robot's identity— encompassing personality, backstory, and embodiment—is crucial as robots become more prevalent and complex. The authors call for multidisciplinary research addressing the ethical and technical challenges of creating and managing artificial identities, particularly in multi-embodied robotic systems."
+  },
+  {
+    "title": "Digital identity for development: The quest for justice and a research agenda",
+    "abstract": "ABSTRACT We pursue three main objectives in this editorial for the Special Issue on Identification in a Digital Age: Implications for Development. After outlining the motivations that led us to launch this Special Issue call, we first propose a framework to map the theoretical link between digital identity and human development, articulated in three dimensions linking digital identity to expected development outcomes. Secondly, we present the seven papers in this collection in terms of how they problematise such a link, observing how each of them uses empirical data to increase existing knowledge on this connection and question it. Thirdly, we leverage insights from these contributions to put forward a research agenda on digital identity and human development, suggesting possible avenues to engage with this topic and ultimately, framing digital identity as an object of ICT4D research.",
+    "published_date": "2021-01-02",
+    "citation_count": 37,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/02681102.2021.1859669",
+    "summary": "This editorial introduces a framework linking digital identity to human development across three dimensions, then presents seven research papers examining this link empirically, and finally proposes a research agenda for investigating digital identity within the context of ICT4D."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Z2rkdEAJ9MvYPBeYW/thoughts-on-iason-gabriel-s-artificial-intelligence-values",
+    "author": "Alex Flint",
+    "title": "Thoughts on Iason Gabriel's Artificial Intelligence, Values, and Alignment",
+    "published_date": "2021-01-14",
+    "summary": "Iason Gabriel's article critiques the prevalent \"Agency Hand-off Paradigm\" in AI alignment research, which assumes humans will cede agency to AI. He proposes six levels of AI alignment, highlighting that most research focuses on safely transferring agency rather than questioning the paradigm itself."
+  }
+]

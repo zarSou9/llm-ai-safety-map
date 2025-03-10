@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, examines AI model registries—centralized databases tracking AI systems for governance purposes. These registries, drawing parallels with pharmaceutical regulations, vary widely in their requirements and accessibility across jurisdictions like the US, EU, and China, but aim to facilitate targeted AI regulation by focusing on individual models rather than broader industry practices."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/copenhagen-interpretation-of-ethics",
+    "title": "Copenhagen Interpretation of Ethics - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "The Copenhagen Interpretation of Ethics holds that any interaction with a problem, regardless of intent, constitutes culpability. This implies responsibility extends beyond direct causation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/vzGC4zh73dfcqnFgf/open-source-ai-a-regulatory-review",
+    "author": "Elliot_Mckernon, Deric Cheng",
+    "title": "Open-Source AI: A Regulatory Review",
+    "published_date": "2024-04-29",
+    "summary": "This article examines the implications of open-sourcing AI models, focusing on the trade-offs between collaborative benefits and potential safety risks. While open-source models foster innovation, the unfettered access to powerful AI, even without full transparency, raises concerns about malicious use and the spread of information hazards."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising but underdeveloped AI safety strategy. While currently limited to measures like export controls and reporting requirements, research explores using compute governance to improve visibility into AI development, allocate resources strategically, and enforce regulations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), particularly focusing on scenarios with short timelines (within a decade). The program will then evaluate strategies for AI safety and governance to determine which best mitigate these risks across various scenarios."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/X8NhKh2g2ECPrm5eo/post-series-on-liability-law-for-reducing-existential-risk",
+    "author": "Nora_Ammann",
+    "title": "Post series on \"Liability Law for reducing Existential Risk from AI\"",
+    "published_date": "2024-02-29",
+    "summary": "Professor Gabriel Weil argues that modifying liability law, specifically by implementing strict liability and expanding punitive damages, could significantly mitigate AI existential risks. This legal approach, potentially requiring legislative action, addresses current shortcomings in proving negligence and limiting punitive damages in the context of AI harm."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The article advocates for third-party testing of large-scale AI systems to mitigate societal harms stemming from misuse or accidental consequences. This testing regime, crucial for managing risks posed by powerful AI models like generative AI, should be carefully designed to balance safety with innovation and avoid burdening smaller companies."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8xN5KYB9xAgSSi494/against-the-open-source-closed-source-dichotomy-regulated",
+    "author": "alex.herwix",
+    "title": "Against the Open Source / Closed Source Dichotomy: Regulated Source as a Model for Responsible AI Development",
+    "published_date": "2023-09-04",
+    "summary": "The author challenges the conventional open-source versus closed-source dichotomy in AI development, arguing that neither model fully addresses responsible AI. They propose \"Regulated Source\" as a potential alternative, aiming to foster a more nuanced discussion about accountability and control in AI development."
+  }
+]

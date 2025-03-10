@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06"
+  },
+  {
+    "title": "Enhancing FSCS-ART through Test Input Quantization and Inverted Lists",
+    "abstract": "Fixed-size-candidate-set adaptive random testing (FSCS-ART) is an ART technique well-known for its best failure-detection effectiveness and usages in testing many real-life applications. However, it faces substantial computational overhead in terms of O(n2) time cost for generating n test inputs, which becomes worse for high dimensional input domains (number of inputs a software takes). As real-life programs generally have low failure-rates and have high dimensional input domains, it is vital to reduce the computational overhead while preserving the failure-detection effectiveness for efficient software testing. In this work, we adopted Quantization and InVerted File structure approach to enhance the original FSCS-ART, called QIVFSCS-ART. The proposed method preprocesses the software input domain by partitioning it into discrete cells by using K-means clustering using a uniform random dataset. After this, the quantized form of each executed test input is stored in the inverted list of its cell's center, called centroid. Results show that the proposed method significantly relieves the computational overhead of FSCS-ART while preserving its failure-detection effectiveness, especially for the high-dimensional software input domains.",
+    "published_date": "2020-11-01",
+    "url": "https://dl.acm.org/doi/10.1145/3457913.3457916"
+  },
+  {
+    "title": "Semiautomated Metamorphic Testing Approach for Geographic Information Systems: An Empirical Study",
+    "abstract": "A geographic information system (GIS) provides basic location-enabled services for many different applications related to navigation, education, and telecommunications. It is a foundation for analysis and visualization. Testing GIS is critical, but challenging due to the difficulty to assess the correctness of GIS outputs, which is called the test oracle problem of software testing. Metamorphic testing alleviates the problem by constructing metamorphic relations (MRs) among multiple inputs and outputs of the program under test. In this article, a semiautomated metamorphic testing (SAMT) method, based on the formal MR model and an improved adaptive random testing algorithm, was proposed to the GIS. To evaluate the performance of our approach, we conducted a case study on a superficial area calculation program, a typical component of GIS. Six kinds of MR construction methods were suggested for the GIS domain program testing. The experimental results show that SAMT can detect the mutations effectively that could solve the test oracle problem efficiently. More importantly, there is no need to manual participation in the testing process, except for the MR construction.",
+    "published_date": "2020-06-01",
+    "citation_count": 7,
+    "url": "https://ieeexplore.ieee.org/document/8852865/"
+  },
+  {
+    "title": "Effective Concurrency Testing for Distributed Systems",
+    "abstract": "Despite their wide deployment, distributed systems remain notoriously hard to reason about. Unexpected interleavings of concurrent operations and failures may lead to undefined behaviors and cause serious consequences. We present Morpheus, the first concurrency testing tool leveraging partial order sampling, a randomized testing method formally analyzed and empirically validated to provide strong probabilistic guarantees of error-detection, for real-world distributed systems. Morpheus introduces conflict analysis to further improve randomized testing by predicting and focusing on operations that affect the testing result. Inspired by the recent shift in building distributed systems using higher-level languages and frameworks, Morpheus targets Erlang. Evaluation on four popular distributed systems in Erlang including RabbitMQ, a message broker service, and Mnesia, a distributed database in the Erlang standard libraries, shows that Morpheus is effective: It found previously unknown errors in every system checked, 11 total, all of which are flaws in their core protocols that may cause deadlocks, unexpected crashes, or inconsistent states.",
+    "published_date": "2020-03-09",
+    "citation_count": 27,
+    "url": "https://dl.acm.org/doi/10.1145/3373376.3378484"
+  }
+]

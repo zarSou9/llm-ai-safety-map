@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Robustness certification with generative models",
+    "abstract": "Generative neural networks are powerful models capable of learning a wide range of rich semantic image transformations such as altering person's age, head orientation, adding mustache, changing the hair color and many more. At a high level, a generative model effectively produces new and previously unseen images with the desired properties, which can then be used to improve the accuracy of existing models. In this work, we advance the state-of-the-art in verification by bridging the gap between (i) the well studied but limited norm-based and geometric transformations, and (ii) the rich set of semantic transformations used in practice. This problem is especially hard since the images are generated from a highly non-convex image manifold, preventing the use of most existing verifiers, which often rely on convex relaxations. We present a new verifier, called GenProve, which is capable of certifying the rich set of semantic transformations of generative models. GenProve can provide both sound deterministic and probabilistic guarantees, by capturing infinite non-convex sets of activation vectors and distributions over them, while scaling to realistic networks.",
+    "published_date": "2021-06-18",
+    "citation_count": 3,
+    "url": "https://dl.acm.org/doi/10.1145/3453483.3454100"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8Gv5zSCnGeLxK5FAF/mlsn-1-iclr-safety-paper-roundup",
+    "author": "Dan H",
+    "title": "[MLSN #1]: ICLR Safety Paper Roundup",
+    "published_date": "2021-10-18"
+  },
+  {
+    "title": "Probabilistic conformance for cyber-physical systems",
+    "abstract": "In system analysis, conformance indicates that two systems simultaneously satisfy the same set of specifications of interest; thus, the results from analyzing one system automatically transfer to the other, or one system can safely replace the other in practice. In this work, we study the probabilistic conformance of cyber-physical systems (CPS). We propose a notion of (approximate) probabilistic conformance for sets of complex specifications expressed by the Signal Temporal Logic (STL). Based on a novel statistical test, we develop the first statistical verification methods for the probabilistic conformance of a wide class of CPS. Using this method, we verify the conformance of the startup time of the widely-used full and simplified model of Toyota powertrain systems, the settling time of model-predictive-control-based and neural-network-based automotive lane-keeping controllers, as well as the maximal voltage deviation of full and simplified power grid systems.",
+    "published_date": "2020-08-03",
+    "citation_count": 8,
+    "url": "https://dl.acm.org/doi/10.1145/3450267.3450534"
+  },
+  {
+    "title": "Towards Certifiable Adversarial Sample Detection",
+    "abstract": "Convolutional Neural Networks (CNNs) are deployed in more and more classification systems, but adversarial samples can be maliciously crafted to trick them, and are becoming a real threat. There have been various proposals to improve CNNs' adversarial robustness but these all suffer performance penalties or have other limitations. In this paper, we offer a new approach in the form of a certifiable adversarial detection scheme, the Certifiable Taboo Trap (CTT). This system, in theory, can provide certifiable guarantees of detectability of a range of adversarial inputs for certain l-∞ sizes. We develop and evaluate several versions of CTT with different defense capabilities, training overheads and certifiability on adversarial samples. In practice, against adversaries with various l-p norms, CTT outperforms existing defense methods that focus purely on improving network robustness. We show that CTT has small false positive rates on clean test data, minimal compute overheads when deployed, and can support complex security policies.",
+    "published_date": "2020-02-20",
+    "citation_count": 13,
+    "url": "https://dl.acm.org/doi/10.1145/3411508.3421381"
+  },
+  {
+    "title": "The Safe and Effective Application of Probabilistic Techniques in Safety-Critical Systems",
+    "abstract": "The use of randomized algorithms in safety-critical systems is investigated. Under the vast majority of circumstances, randomized algorithms out-perform deterministic ones on average; however, it is not obvious how one goes about establishing the correctness of safety-critical systems that use such algorithms. The approach advocated in this work is to exploit the fact that many safety standards allow for small probabilities of failure of even the most critical functionalities. We explore the use of concentration bounds - probabilistic bounds on the likelihood of the performance of a randomized algorithm deviating from its expected performance - to bound the probability of failure of systems that incorporate randomized algorithms, thereby showing compliance with safety standards that allow for small probabilities of failure. We illustrate the use of the proposed approach on several examples that both explain how the approach is to be applied, and demonstrate the benefits of doing so.",
+    "published_date": "2020-11-02",
+    "url": "https://dl.acm.org/doi/10.1145/3400302.3415674"
+  },
+  {
+    "title": "Proving expected sensitivity of probabilistic programs with randomized variable-dependent termination time",
+    "abstract": "The notion of program sensitivity (aka Lipschitz continuity) specifies that changes in the program input result in proportional changes to the program output. For probabilistic programs the notion is naturally extended to expected sensitivity. A previous approach develops a relational program logic framework for proving expected sensitivity of probabilistic while loops, where the number of iterations is fixed and bounded. In this work, we consider probabilistic while loops where the number of iterations is not fixed, but randomized and depends on the initial input values. We present a sound approach for proving expected sensitivity of such programs. Our sound approach is martingale-based and can be automated through existing martingale-synthesis algorithms. Furthermore, our approach is compositional for sequential composition of while loops under a mild side condition. We demonstrate the effectiveness of our approach on several classical examples from Gambler's Ruin, stochastic hybrid systems and stochastic gradient descent. We also present experimental results showing that our automated approach can handle various probabilistic programs in the literature.",
+    "published_date": "2019-02-13",
+    "citation_count": 13,
+    "url": "https://dl.acm.org/doi/10.1145/3371093"
+  }
+]

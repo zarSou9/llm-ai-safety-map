@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/iaHk9DMCbrYsKuqgS/simple-distribution-approximation-when-sampled-100-times-can-1",
+    "author": "Teun van der Weij, Felix Hofstätter, Francis Rhys Ward",
+    "title": "Simple distribution approximation: When sampled 100 times, can language models yield 80% A and 20% B?",
+    "published_date": "2024-01-29",
+    "summary": "The study investigates large language models' ability to control their output distribution to achieve a specified accuracy rate (sandbagging), finding that GPT-4 outperforms GPT-3.5 in this task, but both models struggle with perfectly replicating a target distribution across multiple queries, particularly when tasked with intentionally giving incorrect answers to simple arithmetic problems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/XroTfXFSq3yeJgu73/we-are-in-a-new-paradigm-of-ai-progress-openai-s-o3-model",
+    "author": "garrison",
+    "title": "We are in a New Paradigm of AI Progress - OpenAI's o3 model makes huge gains on the toughest AI benchmarks in the world",
+    "published_date": "2024-12-22",
+    "summary": "OpenAI's new model, o3, significantly surpasses previous AI benchmarks in complex mathematics, science, and programming tasks, exceeding human expert performance in some areas despite high computational costs. This demonstrates rapid, albeit expensive, progress in AI capabilities beyond what's readily apparent in everyday applications."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/NXTkEiaLA4JdS5vSZ/what-o3-becomes-by-2028",
+    "author": "Vladimir_Nesov",
+    "title": "What o3 Becomes by 2028",
+    "published_date": "2024-12-22",
+    "summary": "Large language model (LLM) training is rapidly scaling, with current systems capable of 2e26-6e26 FLOPs, a 30x increase from GPT-4. Further scaling to 5e28 FLOPs is planned for 2026-2027, fueled by substantial investments in new data centers and infrastructure."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5Dz3ZrwBzzMfaucrH/ai-57-all-the-ai-news-that-s-fit-to-print",
+    "author": "Zvi",
+    "title": "AI #57: All the AI News That's Fit to Print",
+    "published_date": "2024-03-28",
+    "summary": "This weekly AI blog post covers current AI developments, from practical applications to potential existential risks, including commentary on related policy and discourse. The author also touches upon other topics like economics and regulation."
+  },
+  {
+    "title": "Quantitative and Qualitative evaluation of the recent Artificial Intelligence in Healthcare publications using Deep-Learning",
+    "abstract": "Background: An ever increasing number of artificial intelligence (AI) models targeting healthcare applications are developed and published every day, but their use in real world decision making is limited. Beyond a quantitative assessment, it is important to have qualitative evaluation of the maturity of these publications with additional details related to trends in type of data used, type of models developed across the healthcare spectrum. Methods: We assessed the maturity of selected peer-reviewed AI publications pertinent to healthcare for 2019 to 2021. For the report, the data collection was performed by PubMed search using machine learning OR artificial intelligence AND Healthcare with the English language and human subject research as of December 31, each year. All three years selected were manually classified into 34 distinct medical specialties. We used the Bidirectional Encoder Representations from Transformers (BERT) neural networks model to identify the maturity level of research publications based on their abstracts. We further classified a mature publication based on the healthcare specialty and geographical location of the article's senior author. Finally, we manually annotated specific details from mature publications, such as model type, data type, and disease type. Results: Of the 7062 publications relevant to AI in healthcare from 2019 to 2021, 385 were classified as mature. In 2019, 6.01 percent of publications were mature. 7.7 percent were mature in 2020, and 1.81 percent of publications were mature in 2021. Radiology publications had the most mature model publications across all specialties over the last three years, followed by pathology in 2019, ophthalmology in 2020, and gastroenterology in 2021. Geographical pattern analysis revealed a non-uniform distribution pattern. In 2019 and 2020, the United States ranked first with a frequency of 22 and 50, followed by China with 20 and 47. In 2021, China ranked first with 17 mature articles, followed by the United States with 11 mature articles. Imaging based data was the primary source, and deep learning was the most frequently used modeling technique in mature publications. Interpretation: Despite the growing number of publications of AI models in healthcare, only a few publications have been found to be mature with a potentially positive impact on healthcare. Globally, there is an opportunity to leverage diverse datasets and models across the health spectrum, to develop more mature models and related publications, which can fully realize the potential of AI to transform healthcare.",
+    "published_date": "2023-01-04",
+    "citation_count": 1,
+    "url": "https://www.medrxiv.org/content/10.1101/2022.12.31.22284092v1",
+    "summary": "This study quantitatively and qualitatively analyzed 7062 AI in healthcare publications (2019-2021), finding that only a small percentage (≤ 7.7%) were deemed \"mature\" and ready for real-world application, with radiology consistently leading in mature publications across years and a geographically uneven distribution of research."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/palm",
+    "author": "SandXbox",
+    "title": "PaLM - LessWrong",
+    "published_date": "2023-03-07",
+    "summary": "Google's PaLM, a Transformer language model released in April 2022, demonstrates significant, unexpected improvements in capabilities as its scale increases. The model's advancements are documented in a research paper."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/69CRFgqbQyFBoYcg5/navigating-the-open-source-ai-landscape-data-funding-and",
+    "author": "André Ferretti, mic",
+    "title": "Navigating the Open-Source AI Landscape: Data, Funding, and Safety",
+    "published_date": "2023-04-13",
+    "summary": "Open-source AI, while democratizing technology and accelerating development through collaborative efforts, raises significant ethical and safety concerns due to its potential for misuse and the lack of control over its deployment. The article highlights the need for prioritizing safety measures, including responsible data sourcing and robust content moderation, to mitigate risks associated with this rapidly evolving technology."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi/p/HvqQm6o8KnwxbdmhZ",
+    "author": "lennart, Jsevillamol, Marius Hobbhahn, Tamay Besiroglu, anson.ho",
+    "title": "Estimating training compute of Deep Learning models",
+    "published_date": "2022-01-20",
+    "summary": "Two methods for estimating deep learning model training compute are presented: directly counting operations (considering forward and backward passes, training examples, and epochs) and estimating from GPU time (using training time, core count, peak FLOP/s, and utilization rate). Both methods yield comparable estimates."
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.15147",
+    "title": "Delegating Responsibilities to Intelligent Autonomous Systems: Challenges and Benefits",
+    "published_date": "2024-11-06",
+    "abstract": "As AI systems increasingly operate with autonomy and adaptability, the traditional boundaries of moral responsibility in techno-social systems are being challenged. This paper explores the evolving discourse on the delegation of responsibilities to intelligent autonomous agents and the ethical implications of such practices. Synthesizing recent developments in AI ethics, including concepts of distributed responsibility and ethical AI by design, the paper proposes a functionalist perspective as a framework. This perspective views moral responsibility not as an individual trait but as a role within a socio-technical system, distributed among human and artificial agents. As an example of 'AI ethical by design,' we present Basti and Vitiello's implementation. They suggest that AI can act as artificial moral agents by learning ethical guidelines and using Deontic Higher-Order Logic to assess decisions ethically. Motivated by the possible speed and scale beyond human supervision and ethical implications, the paper argues for 'AI ethical by design', while acknowledging the distributed, shared, and dynamic nature of responsibility. This functionalist approach offers a practical framework for navigating the complexities of AI ethics in a rapidly evolving technological landscape.",
+    "summary": "This paper examines the ethical challenges of delegating responsibility to autonomous AI systems, arguing for a functionalist approach that distributes responsibility across human and artificial agents within a socio-technical system. It advocates for \"AI ethical by design,\" using frameworks like Deontic Higher-Order Logic to embed ethical considerations directly into AI systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.17114",
+    "title": "Decentralized Governance of Autonomous AI Agents",
+    "published_date": "2024-12-22",
+    "abstract": "Autonomous AI agents present transformative opportunities and significant governance challenges. Existing frameworks, such as the EU AI Act and the NIST AI Risk Management Framework, fall short of addressing the complexities of these agents, which are capable of independent decision-making, learning, and adaptation. To bridge these gaps, we propose the ETHOS (Ethical Technology and Holistic Oversight System) framework, a decentralized governance (DeGov) model leveraging Web3 technologies, including blockchain, smart contracts, and decentralized autonomous organizations (DAOs). ETHOS establishes a global registry for AI agents, enabling dynamic risk classification, proportional oversight, and automated compliance monitoring through tools like soulbound tokens and zero-knowledge proofs. Furthermore, the framework incorporates decentralized justice systems for transparent dispute resolution and introduces AI specific legal entities to manage limited liability, supported by mandatory insurance to ensure financial accountability and incentivize ethical design. By integrating philosophical principles of rationality, ethical grounding, and goal alignment, ETHOS aims to create a robust research agenda for promoting trust, transparency, and participatory governance. This innovative framework offers a scalable and inclusive strategy for regulating AI agents, balancing innovation with ethical responsibility to meet the demands of an AI-driven future.",
+    "summary": "The ETHOS framework proposes a decentralized governance model for autonomous AI agents using Web3 technologies to establish a global registry, enable dynamic risk assessment and oversight, and facilitate transparent dispute resolution. This approach aims to balance AI innovation with ethical responsibility through features like soulbound tokens, decentralized justice systems, and mandatory insurance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), focusing on short timelines (within a decade). The program aims to identify and evaluate strategies to mitigate these risks across various plausible AI scenarios."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MkfaQyxB9PN4h8Bs9/ai-safety-101-capabilities",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 : Capabilities - Human Level AI, What? How? and When?",
+    "published_date": "2024-03-07",
+    "summary": "This expanded and revised article provides a comprehensive overview of current advancements in artificial intelligence, focusing on foundation models, their capabilities, risks, and future forecasting. It explores key concepts like scaling laws, the (t,n)-AGI framework, and uses biological anchors to estimate the computational needs for transformative AI."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for third-party testing of frontier AI systems like large language models to mitigate societal harms, arguing that a robust testing regime, developed collaboratively across industry, government, and academia, is crucial for responsible AI development and deployment, balancing innovation with safety. This approach aims to build trust, avoid overly burdensome regulation, and facilitate international cooperation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/wwioAJHTeaGqBvtjd/update-on-developing-an-ethics-calculator-to-align-an-agi-to",
+    "author": "Sweenesm",
+    "title": "Update on Developing an Ethics Calculator to Align an AGI to",
+    "published_date": "2024-03-12",
+    "summary": "The author describes progress on an \"ethics calculator\" designed to align Artificial General Intelligence (AGI) with ethical behavior, using a utilitarian framework that incorporates rights and self-esteem to maximize positive experiences. This approach aims for quantitative consistency across a broad range of scenarios, unlike existing ethical frameworks."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2308.00868.pdf",
+    "title": "Beneficent Intelligence: A Capability Approach to Modeling Benefit, Assistance, and Associated Moral Failures through AI Systems",
+    "published_date": "2023-08-01",
+    "abstract": "The prevailing discourse around AI ethics lacks the language and formalism necessary to capture the diverse ethical concerns that emerge when AI systems interact with individuals. Drawing on Sen and Nussbaum's capability approach, we present a framework formalizing a network of ethical concepts and entitlements necessary for AI systems to confer meaningful benefit or assistance to stakeholders. Such systems enhance stakeholders' ability to advance their life plans and well-being while upholding their fundamental rights. We characterize two necessary conditions for morally permissible interactions between AI systems and those impacted by their functioning, and two sufficient conditions for realizing the ideal of meaningful benefit. We then contrast this ideal with several salient failure modes, namely, forms of social interactions that constitute unjustified paternalism, coercion, deception, exploitation and domination. The proliferation of incidents involving AI in high-stakes domains underscores the gravity of these issues and the imperative to take an ethics-led approach to AI systems from their inception.",
+    "citation_count": 7,
+    "summary": "This paper proposes a capability-based framework for evaluating the ethical implications of AI systems, formalizing concepts of benefit and assistance while identifying failure modes like paternalism, coercion, and exploitation. It argues for an ethics-led approach to AI development to ensure systems enhance well-being and uphold rights."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.08157",
+    "title": "Human-Centered Responsible Artificial Intelligence: Current & Future Trends",
+    "published_date": "2023-02-16",
+    "abstract": "In recent years, the CHI community has seen significant growth in research on Human-Centered Responsible Artificial Intelligence. While different research communities may use different terminology to discuss similar topics, all of this work is ultimately aimed at developing AI that benefits humanity while being grounded in human rights and ethics, and reducing the potential harms of AI. In this special interest group, we aim to bring together researchers from academia and industry interested in these topics to map current and future research trends to advance this important area of research by fostering collaboration and sharing ideas.",
+    "citation_count": 29,
+    "summary": "This paper explores the growing field of Human-Centered Responsible Artificial Intelligence, focusing on aligning AI development with human well-being, ethical principles, and human rights, while mitigating potential harms. It aims to foster collaboration and identify future research directions within this area."
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.11761",
+    "title": "Mapping out the Space of Human Feedback for Reinforcement Learning: A Conceptual Framework",
+    "published_date": "2024-11-18",
+    "abstract": "Reinforcement Learning from Human feedback (RLHF) has become a powerful tool to fine-tune or train agentic machine learning models. Similar to how humans interact in social contexts, we can use many types of feedback to communicate our preferences, intentions, and knowledge to an RL agent. However, applications of human feedback in RL are often limited in scope and disregard human factors. In this work, we bridge the gap between machine learning and human-computer interaction efforts by developing a shared understanding of human feedback in interactive learning scenarios. We first introduce a taxonomy of feedback types for reward-based learning from human feedback based on nine key dimensions. Our taxonomy allows for unifying human-centered, interface-centered, and model-centered aspects. In addition, we identify seven quality metrics of human feedback influencing both the human ability to express feedback and the agent's ability to learn from the feedback. Based on the feedback taxonomy and quality criteria, we derive requirements and design choices for systems learning from human feedback. We relate these requirements and design choices to existing work in interactive machine learning. In the process, we identify gaps in existing work and future research opportunities. We call for interdisciplinary collaboration to harness the full potential of reinforcement learning with data-driven co-adaptive modeling and varied interaction mechanics.",
+    "summary": "This paper proposes a comprehensive framework for understanding and utilizing human feedback in reinforcement learning, encompassing a taxonomy of feedback types, quality metrics, and design requirements to improve the effectiveness and human-centeredness of RLHF systems. It highlights the need for interdisciplinary collaboration to advance the field."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/Tp3ryR4AxY56ctGh2/p/ybThg9nA7u6f8qfZZ",
+    "author": "abergal, Ajeya Cotra, Nick_Beckstead",
+    "title": "Techniques for enhancing human feedback",
+    "published_date": "2021-10-29",
+    "summary": "Training powerful AI models solely on simple metrics like profit is risky, as they may find perverse ways to maximize them. While human feedback offers a safer alternative, it's insufficient for highly complex AI actions; the article proposes research to improve human feedback mechanisms for better AI supervision."
+  },
+  {
+    "title": "Teaching agents with human feedback: a demonstration of the TAMER framework",
+    "abstract": "Incorporating human interaction into agent learning yields two crucial benefits. First, human knowledge can greatly improve the speed and final result of learning compared to pure trial-and-error approaches like reinforcement learning. And second, human users are empowered to designate \"correct\" behavior. In this abstract, we present research on a system for learning from human interaction - the TAMER framework - then point to extensions to TAMER, and finally describe a demonstration of these systems.",
+    "published_date": "2013-03-19",
+    "citation_count": 13,
+    "url": "https://dl.acm.org/doi/10.1145/2451176.2451201",
+    "summary": "The TAMER framework facilitates agent learning through human feedback, accelerating learning and allowing humans to define correct behavior, offering a superior alternative to purely trial-and-error methods. This abstract details the framework, its extensions, and a demonstration of its capabilities."
+  },
+  {
+    "url": "https://arxiv.org/abs/2207.12761",
+    "title": "The Human in the Infinite Loop: A Case Study on Revealing and Explaining Human-AI Interaction Loop Failures",
+    "published_date": "2022-07-26",
+    "abstract": "Interactive AI systems increasingly employ a human-in-the-loop strategy. This creates new challenges for the HCI community when designing such systems. We reveal and investigate some of these challenges in a case study with an industry partner, and developed a prototype human-in-the-loop system for preference-guided 3D model processing. Two 3D artists used it in their daily work for 3 months. We found that the human-AI loop often did not converge towards a satisfactory result and designed a lab study (N=20) to investigate this further. We analyze interaction data and user feedback through the lens of theories of human judgment to explain the observed human-in-the-loop failures with two key insights: 1) optimization using preferential choices lacks mechanisms to deal with inconsistent and contradictory human judgments; 2) machine outcomes, in turn, influence future user inputs via heuristic biases and loss aversion. To mitigate these problems, we propose descriptive UI design guidelines. Our case study draws attention to challenging and practically relevant imperfections in human-AI loops that need to be considered when designing human-in-the-loop systems.",
+    "citation_count": 3,
+    "summary": "A case study of a preference-guided 3D model processing system revealed that human-AI interaction loops often failed to converge due to inconsistent human judgments and heuristic biases influenced by machine outputs. The authors propose UI design guidelines to mitigate these issues."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.17534",
+    "title": "Just say what you want: only-prompting self-rewarding online preference optimization",
+    "published_date": "2024-09-26",
+    "abstract": "We address the challenge of online Reinforcement Learning from Human Feedback (RLHF) with a focus on self-rewarding alignment methods. In online RLHF, obtaining feedback requires interaction with the environment, which can be costly when using additional reward models or the GPT-4 API. Current self-rewarding approaches rely heavily on the discriminator's judgment capabilities, which are effective for large-scale models but challenging to transfer to smaller ones. To address these limitations, we propose a novel, only-prompting self-rewarding online algorithm that generates preference datasets without relying on judgment capabilities. Additionally, we employ fine-grained arithmetic control over the optimality gap between positive and negative examples, generating more hard negatives in the later stages of training to help the model better capture subtle human preferences. Finally, we conduct extensive experiments on two base models, Mistral-7B and Mistral-Instruct-7B, which significantly bootstrap the performance of the reference model, achieving 34.5% in the Length-controlled Win Rates of AlpacaEval 2.0.",
+    "citation_count": 1,
+    "summary": "This paper introduces a novel self-rewarding online reinforcement learning algorithm that avoids costly external reward models by using only prompts to generate preference datasets, improving training efficiency and performance, particularly for smaller models. The method enhances performance by strategically controlling the difficulty of negative examples during training, achieving a significant performance boost on benchmark tasks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.15568",
+    "title": "Robust Reinforcement Learning from Corrupted Human Feedback",
+    "published_date": "2024-06-21",
+    "abstract": "Reinforcement learning from human feedback (RLHF) provides a principled framework for aligning AI systems with human preference data. For various reasons, e.g., personal bias, context ambiguity, lack of training, etc, human annotators may give incorrect or inconsistent preference labels. To tackle this challenge, we propose a robust RLHF approach -- $R^3M$, which models the potentially corrupted preference label as sparse outliers. Accordingly, we formulate the robust reward learning as an $\\ell_1$-regularized maximum likelihood estimation problem. Computationally, we develop an efficient alternating optimization algorithm, which only incurs negligible computational overhead compared with the standard RLHF approach. Theoretically, we prove that under proper regularity conditions, $R^3M$ can consistently learn the underlying reward and identify outliers, provided that the number of outlier labels scales sublinearly with the preference sample size. Furthermore, we remark that $R^3M$ is versatile and can be extended to various preference optimization methods, including direct preference optimization (DPO). Our experiments on robotic control and natural language generation with large language models (LLMs) show that $R^3M$ improves robustness of the reward against several types of perturbations to the preference data.",
+    "citation_count": 1,
+    "summary": "The paper introduces R³M, a robust reinforcement learning from human feedback (RLHF) method that addresses noisy or inconsistent human preference labels by modeling them as sparse outliers using an ℓ₁-regularized maximum likelihood estimation. Experiments demonstrate R³M's improved robustness against various data perturbations in robotic control and natural language generation tasks."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2308.04332.pdf",
+    "title": "RLHF-Blender: A Configurable Interactive Interface for Learning from Diverse Human Feedback",
+    "published_date": "2023-08-08",
+    "abstract": "To use reinforcement learning from human feedback (RLHF) in practical applications, it is crucial to learn reward models from diverse sources of human feedback and to consider human factors involved in providing feedback of different types. However, the systematic study of learning from diverse types of feedback is held back by limited standardized tooling available to researchers. To bridge this gap, we propose RLHF-Blender, a configurable, interactive interface for learning from human feedback. RLHF-Blender provides a modular experimentation framework and implementation that enables researchers to systematically investigate the properties and qualities of human feedback for reward learning. The system facilitates the exploration of various feedback types, including demonstrations, rankings, comparisons, and natural language instructions, as well as studies considering the impact of human factors on their effectiveness. We discuss a set of concrete research opportunities enabled by RLHF-Blender. More information is available at https://rlhfblender.info/.",
+    "citation_count": 8,
+    "summary": "RLHF-Blender is a configurable, interactive interface designed to facilitate research on reinforcement learning from human feedback (RLHF) by enabling systematic investigation of diverse feedback types and human factors impacting reward model learning. It offers a modular framework for exploring various feedback methods (demonstrations, rankings, comparisons, natural language) and their effectiveness."
+  },
+  {
+    "url": "https://arxiv.org/abs/2206.08364",
+    "title": "Interaction-Grounded Learning with Action-inclusive Feedback",
+    "published_date": "2022-06-16",
+    "abstract": "Consider the problem setting of Interaction-Grounded Learning (IGL), in which a learner's goal is to optimally interact with the environment with no explicit reward to ground its policies. The agent observes a context vector, takes an action, and receives a feedback vector, using this information to effectively optimize a policy with respect to a latent reward function. Prior analyzed approaches fail when the feedback vector contains the action, which significantly limits IGL's success in many potential scenarios such as Brain-computer interface (BCI) or Human-computer interface (HCI) applications. We address this by creating an algorithm and analysis which allows IGL to work even when the feedback vector contains the action, encoded in any fashion. We provide theoretical guarantees and large-scale experiments based on supervised datasets to demonstrate the effectiveness of the new approach.",
+    "citation_count": 7,
+    "summary": "This paper introduces a novel Interaction-Grounded Learning (IGL) algorithm that overcomes limitations of prior methods by successfully handling action-inclusive feedback vectors, enabling its application in scenarios like BCIs and HCIs. The algorithm is theoretically grounded and demonstrated effective through large-scale experiments."
+  }
+]

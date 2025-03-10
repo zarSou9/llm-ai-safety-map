@@ -1,0 +1,77 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2203.04754v1",
+    "title": "System Cards for AI-Based Decision-Making for Public Policy",
+    "published_date": "2022-03-01",
+    "abstract": "Decisions impacting human lives are increasingly being made or assisted by automated decision-making algorithms. Many of these algorithms process personal data for predicting recidivism, credit risk analysis, identifying individuals using face recognition, and more. While potentially improving efficiency and effectiveness, such algorithms are not inherently free from bias, opaqueness, lack of explainability, maleficence, and the like. Given that the outcomes of these algorithms have a significant impact on individuals and society and are open to analysis and contestation after deployment, such issues must be accounted for before deployment. Formal audits are a way of ensuring algorithms meet the appropriate accountability standards. This work, based on an extensive analysis of the literature and an expert focus group study, proposes a unifying framework for a system accountability benchmark for formal audits of artificial intelligence-based decision-aiding systems. This work also proposes system cards to serve as scorecards presenting the outcomes of such audits. It consists of 56 criteria organized within a four-by-four matrix composed of rows focused on (i) data, (ii) model, (iii) code, (iv) system, and columns focused on (a) development, (b) assessment, (c) mitigation, and (d) assurance. The proposed system accountability benchmark reflects the state-of-the-art developments for accountable systems, serves as a checklist for algorithm audits, and paves the way for sequential work in future research.",
+    "citation_count": 12,
+    "summary": "This paper proposes a system accountability benchmark and accompanying \"system cards\" for auditing AI-based public policy decision-making systems, using a 56-criteria framework to assess data, model, code, and system aspects across development, assessment, mitigation, and assurance phases. This aims to improve transparency and accountability in AI systems impacting human lives."
+  },
+  {
+    "url": "https://arxiv.org/abs/2103.14976v2",
+    "title": "A Multistakeholder Approach Towards Evaluating AI Transparency Mechanisms",
+    "published_date": "2021-03-27",
+    "abstract": "Given that there are a variety of stakeholders involved in, and affected by, decisions from machine learning (ML) models, it is important to consider that different stakeholders have different transparency needs. Previous work found that the majority of deployed transparency mechanisms primarily serve technical stakeholders. In our work, we want to investigate how well transparency mechanisms might work in practice for a more diverse set of stakeholders by conducting a large-scale, mixed-methods user study across a range of organizations, within a particular industry such as health care, criminal justice, or content moderation. In this paper, we outline the setup for our study.",
+    "citation_count": 4,
+    "summary": "This paper proposes a multistakeholder user study to evaluate the effectiveness of AI transparency mechanisms across diverse groups (e.g., in healthcare or criminal justice), addressing the current bias towards technical stakeholders in existing methods. The study design is detailed, aiming to assess practical applicability for a broader range of transparency needs."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.09385v1.pdf",
+    "title": "Outlining Traceability: A Principle for Operationalizing Accountability in Computing Systems",
+    "published_date": "2021-01-23",
+    "abstract": "Accountability is widely understood as a goal for well governed computer systems, and is a sought-after value in many governance contexts. But how can it be achieved? Recent work on standards for governable artificial intelligence systems offers a related principle: traceability. Traceability requires establishing not only how a system worked but how it was created and for what purpose, in a way that explains why a system has particular dynamics or behaviors. It connects records of how the system was constructed and what the system did mechanically to the broader goals of governance, in a way that highlights human understanding of that mechanical operation and the decision processes underlying it. We examine the various ways in which the principle of traceability has been articulated in AI principles and other policy documents from around the world, distill from these a set of requirements on software systems driven by the principle, and systematize the technologies available to meet those requirements. From our map of requirements to supporting tools, techniques, and procedures, we identify gaps and needs separating what traceability requires from the toolbox available for practitioners. This map reframes existing discussions around accountability and transparency, using the principle of traceability to show how, when, and why transparency can be deployed to serve accountability goals and thereby improve the normative fidelity of systems and their development processes.",
+    "citation_count": 46,
+    "summary": "This paper argues that traceability, encompassing a system's creation, purpose, and operation, is crucial for achieving accountability in computing systems. It analyzes existing traceability principles, identifies necessary technological requirements, and highlights gaps between current tools and the needs for operationalizing accountability."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.04201v2.pdf",
+    "title": "Reviewable Automated Decision-Making: A Framework for Accountable Algorithmic Systems",
+    "published_date": "2021-01-26",
+    "abstract": "This paper introduces reviewability as a framework for improving the accountability of automated and algorithmic decisionmaking (ADM) involving machine learning. We draw on an understanding of ADM as a socio-technical process involving both human and technical elements, beginning before a decision is made and extending beyond the decision itself. While explanations and other model-centric mechanisms may assist some accountability concerns, they often provide insufficient information of these broader ADM processes for regulatory oversight and assessments of legal compliance. Reviewability involves breaking down the ADM process into technical and organisational elements to provide a systematic framework for determining the contextually appropriate record-keeping mechanisms to facilitate meaningful review - both of individual decisions and of the process as a whole. We argue that a reviewability framework, drawing on administrative law's approach to reviewing human decision-making, offers a practical way forward towards more a more holistic and legally-relevant form of accountability for ADM.",
+    "citation_count": 63,
+    "summary": "This paper proposes \"reviewability\" as a framework for improving accountability in automated decision-making, advocating for a systematic breakdown of the process (technical and organizational elements) to enable comprehensive review of both individual decisions and the overall system, drawing on administrative law principles."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.15147",
+    "title": "Delegating Responsibilities to Intelligent Autonomous Systems: Challenges and Benefits",
+    "published_date": "2024-11-06",
+    "abstract": "As AI systems increasingly operate with autonomy and adaptability, the traditional boundaries of moral responsibility in techno-social systems are being challenged. This paper explores the evolving discourse on the delegation of responsibilities to intelligent autonomous agents and the ethical implications of such practices. Synthesizing recent developments in AI ethics, including concepts of distributed responsibility and ethical AI by design, the paper proposes a functionalist perspective as a framework. This perspective views moral responsibility not as an individual trait but as a role within a socio-technical system, distributed among human and artificial agents. As an example of 'AI ethical by design,' we present Basti and Vitiello's implementation. They suggest that AI can act as artificial moral agents by learning ethical guidelines and using Deontic Higher-Order Logic to assess decisions ethically. Motivated by the possible speed and scale beyond human supervision and ethical implications, the paper argues for 'AI ethical by design', while acknowledging the distributed, shared, and dynamic nature of responsibility. This functionalist approach offers a practical framework for navigating the complexities of AI ethics in a rapidly evolving technological landscape.",
+    "summary": "This paper examines the ethical challenges of delegating responsibilities to increasingly autonomous AI systems, proposing a functionalist framework that distributes moral responsibility across human and artificial agents within a socio-technical system. It advocates for \"AI ethical by design,\" using Deontic Higher-Order Logic as a potential mechanism for ethical decision-making in AI."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2308.02608.pdf",
+    "title": "Unravelling Responsibility for AI",
+    "published_date": "2023-08-04",
+    "abstract": "It is widely acknowledged that we need to establish where responsibility lies for the outputs and impacts of AI-enabled systems. But without a clear and precise understanding of what\"responsibility\"means, deliberations about where responsibility lies will be, at best, unfocused and incomplete and, at worst, misguided. To address this concern, this paper draws upon central distinctions in philosophy and law to clarify the concept of responsibility for AI for policymakers, practitioners, researchers and students from non-philosophical and non-legal backgrounds. Taking the three-part formulation\"Actor A is responsible for Occurrence O,\"the paper unravels the concept of responsibility to clarify that there are different possibilities of who is responsible for AI, the senses in which they are responsible, and aspects of events they are responsible for. Criteria and conditions for fitting attributions of responsibility in the core senses (causal responsibility, role-responsibility, liability responsibility and moral responsibility) are articulated to promote an understanding of when responsibility attributions would be inappropriate or unjust. The analysis is presented with a graphical notation to facilitate informal diagrammatic reasoning and discussion about specific cases. It is illustrated by application to a scenario of a fatal collision between an autonomous AI-enabled ship and a traditional, crewed vessel at sea.",
+    "summary": "This paper clarifies the ambiguous concept of responsibility in the context of AI systems by distinguishing between causal, role, liability, and moral responsibility. It uses a three-part formulation and graphical notation to analyze who is responsible for AI actions and under what conditions, illustrated with a case study of a fatal maritime collision."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "The article examines the application of game theory to AI development within organizational structures, highlighting its limitations in complex scenarios. It argues that bureaucratic principles, including hierarchical authority and job specialization, remain crucial for efficient goal achievement, even with the integration of AI agents, due to the bounded rationality of current AI and the inherent need for collaboration among multiple entities."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/interpretability-ml-and-ai",
+    "author": "Lee Sharkey, Dan Braun, Beren Millidge",
+    "title": "Interpretability (ML & AI) - AI Alignment Forum",
+    "published_date": "2023-04-30",
+    "summary": "AI interpretability focuses on making the decision-making processes of machine learning models understandable, a crucial aspect given the current lack of transparency in many systems. This includes understanding both the overall mechanisms of the model and how specific inputs influence outputs."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that solely focusing on technical aspects is insufficient and potentially dangerous. It proposes a \"top-down design\" of \"civilisational intelligence,\" integrating diverse fields like cognitive science, social sciences, and engineering to evaluate AI alignment paradigms and build safer AGI systems."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2205.05306.pdf",
+    "title": "The Conflict Between Explainable and Accountable Decision-Making Algorithms",
+    "published_date": "2022-05-11",
+    "abstract": "Decision-making algorithms are being used in important decisions, such as who should be enrolled in health care programs and be hired. Even though these systems are currently deployed in high-stakes scenarios, many of them cannot explain their decisions. This limitation has prompted the Explainable Artificial Intelligence (XAI) initiative, which aims to make algorithms explainable to comply with legal requirements, promote trust, and maintain accountability. This paper questions whether and to what extent explainability can help solve the responsibility issues posed by autonomous AI systems. We suggest that XAI systems that provide post-hoc explanations could be seen as blameworthy agents, obscuring the responsibility of developers in the decision-making process. Furthermore, we argue that XAI could result in incorrect attributions of responsibility to vulnerable stakeholders, such as those who are subjected to algorithmic decisions (i.e., patients), due to a misguided perception that they have control over explainable algorithms. This conflict between explainability and accountability can be exacerbated if designers choose to use algorithms and patients as moral and legal scapegoats. We conclude with a set of recommendations for how to approach this tension in the socio-technical process of algorithmic decision-making and a defense of hard regulation to prevent designers from escaping responsibility.",
+    "citation_count": 30,
+    "summary": "This paper argues that while explainable AI (XAI) aims to improve accountability in algorithmic decision-making, it may paradoxically shift blame from developers to algorithms or users, hindering true responsibility. Therefore, strong regulation is needed to prevent designers from evading accountability through the use of XAI."
+  }
+]

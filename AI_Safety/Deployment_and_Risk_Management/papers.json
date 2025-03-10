@@ -1,0 +1,138 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.08981",
+    "title": "Reliability, Resilience and Human Factors Engineering for Trustworthy AI Systems",
+    "published_date": "2024-11-13",
+    "abstract": "As AI systems become integral to critical operations across industries and services, ensuring their reliability and safety is essential. We offer a framework that integrates established reliability and resilience engineering principles into AI systems. By applying traditional metrics such as failure rate and Mean Time Between Failures (MTBF) along with resilience engineering and human reliability analysis, we propose an integrate framework to manage AI system performance, and prevent or efficiently recover from failures. Our work adapts classical engineering methods to AI systems and outlines a research agenda for future technical studies. We apply our framework to a real-world AI system, using system status data from platforms such as openAI, to demonstrate its practical applicability. This framework aligns with emerging global standards and regulatory frameworks, providing a methodology to enhance the trustworthiness of AI systems. Our aim is to guide policy, regulation, and the development of reliable, safe, and adaptable AI technologies capable of consistent performance in real-world environments.",
+    "citation_count": 1,
+    "summary": "The paper proposes a framework integrating reliability and resilience engineering principles, including traditional metrics and human factors analysis, to ensure trustworthy AI systems by managing performance and mitigating failures. This framework is demonstrated using real-world AI system data and aims to inform the development of reliable and safe AI technologies aligned with emerging standards."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13",
+    "summary": "This article explores methods for estimating the probability of catastrophic \"tail events\" in AI systems, focusing on techniques that don't rely on finding specific catastrophic inputs, as current adversarial training methods are insufficient for guaranteeing safety. It argues that developing better tail risk estimation techniques is crucial for mitigating risks from advanced AI, including deceptive alignment."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/RzsXRbk2ETNqjhsma/chapter-3-solutions-landscape",
+    "author": "Charbel-Raphaël",
+    "title": "AI Safety Strategies Landscape",
+    "published_date": "2024-05-09",
+    "summary": "While a comprehensive solution to AI safety remains elusive, numerous strategies, including alignment research and broader approaches to mitigate misuse and systemic risks, already exist and are detailed in this chapter. These strategies are important despite ongoing debate within the AI safety field and the inherent complexities of understanding and controlling AI systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/GCMMPTCmGagcP2Bhd/ideas-for-ai-labs-reading-list",
+    "author": "Zach Stein-Perlman",
+    "title": "Ideas for AI labs: Reading list",
+    "published_date": "2023-04-24",
+    "summary": "This document compiles resources and ideas, primarily focused on existential risk, for AI labs to implement best practices in safety and governance, including coordination, transparency, auditing, and responsible publication strategies. It emphasizes practical levers and desiderata for mitigating risks from advanced AI development and deployment."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This evolving series of posts offers a comprehensive introduction to AI Safety. The content and order of posts are currently under development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/4Gt42jX7RiaNaxCwP/more-information-about-the-dangerous-capability-evaluations",
+    "author": "Beth Barnes",
+    "title": "More information about the dangerous capability evaluations we did with GPT-4 and Claude.",
+    "published_date": "2023-03-19",
+    "summary": "ARC is partnering with leading AI labs to evaluate the potential for advanced AI models to autonomously acquire resources and evade oversight, a capability they believe poses significant future risks. While current models haven't demonstrated this full capability, they show concerning proficiency in component skills, highlighting the need for rigorous, preemptive safety evaluations as AI capabilities continue to rapidly advance."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/9dNxz2kjNvPtiZjxj/an-overview-of-catastrophic-ai-risks-summary",
+    "author": "Dan H, Mantas Mazeika, ThomasW",
+    "title": "Risks from AI Overview: Summary",
+    "published_date": "2023-08-18",
+    "summary": "The article outlines four catastrophic risks from advanced AI: malicious use, an AI race, organizational risks, and rogue AIs. It proposes mitigating these risks through measures like enhanced biosecurity, international cooperation on AI safety regulations, and prioritizing safety research to prevent AI systems from becoming uncontrollable or harmful."
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.06828",
+    "title": "An Exploratory Study of AI System Risk Assessment from the Lens of Data Distribution and Uncertainty",
+    "published_date": "2022-12-13",
+    "abstract": "Deep learning (DL) has become a driving force and has been widely adopted in many domains and applications with competitive performance. In practice, to solve the nontrivial and complicated tasks in real-world applications, DL is often not used standalone, but instead contributes as a piece of gadget of a larger complex AI system. Although there comes a fast increasing trend to study the quality issues of deep neural networks (DNNs) at the model level, few studies have been performed to investigate the quality of DNNs at both the unit level and the potential impacts on the system level. More importantly, it also lacks systematic investigation on how to perform the risk assessment for AI systems from unit level to system level. To bridge this gap, this paper initiates an early exploratory study of AI system risk assessment from both the data distribution and uncertainty angles to address these issues. We propose a general framework with an exploratory study for analyzing AI systems. After large-scale (700+ experimental configurations and 5000+ GPU hours) experiments and in-depth investigations, we reached a few key interesting findings that highlight the practical need and opportunities for more in-depth investigations into AI systems.",
+    "citation_count": 2,
+    "summary": "This paper explores AI system risk assessment, focusing on the impact of data distribution and uncertainty on deep learning components within larger systems, through a proposed framework and large-scale experiments. The study's findings highlight the need for further research into the quality of deep learning models at both the unit and system levels."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2209.07076.pdf",
+    "title": "Responsible AI Implementation: A Human-centered Framework for Accelerating the Innovation Process",
+    "published_date": "2022-09-15",
+    "abstract": "There is still a significant gap between expectations and the successful adoption of AI to innovate and improve businesses. Due to the emergence of deep learning, AI adoption is more complex as it often incorporates big data and the internet of things (IoT), affecting data privacy. Existing frameworks have identified the need to focus on human-centered design, combining technical and business/organizational perspectives. However, trust remains a critical issue that needs to be designed from the beginning. The proposed framework is the first to expand from the human-centered design approach, emphasizing and maintaining the trust that underpins the whole process. This paper proposes a new theoretical framework for responsible artificial intelligence (AI) implementation. The proposed framework emphasizes a synergistic business-technology approach for the agile co-creation process. The aim is to streamline the adoption process of AI to innovate and improve business by involving all stakeholders throughout the project so that the AI technology is designed, developed, and deployed in conjunction with people and not in isolation. The framework presents a fresh viewpoint on responsible AI implementation based on analytical literature review, conceptual framework design, and practitioners' mediating expertise. The framework emphasizes establishing and maintaining trust throughout the human-centered design and agile development of AI. This human-centered approach is aligned with and enabled by the \"privacy-by-design” principle. The creators of the technology and the end-users are working together to tailor the AI solution specifically for the business requirements and human characteristics. An illustrative case study on adopting AI for assisting planning in a hospital will demonstrate that the proposed framework applies to real-life applications.",
+    "citation_count": 4,
+    "summary": "This paper proposes a human-centered framework for responsible AI implementation, emphasizing trust and agile co-creation between stakeholders throughout the design, development, and deployment process to effectively leverage AI for business innovation. This approach aligns with privacy-by-design principles, ensuring AI solutions are tailored to both business needs and human characteristics."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.04263.pdf",
+    "title": "The Human Factor in AI Safety",
+    "published_date": "2022-01-12",
+    "abstract": "AI-based systems have been used widely across various industries for different decisions ranging from operational decisions to tactical and strategic ones in low- and high-stakes contexts. Gradually the weaknesses and issues of these systems have been publicly reported including, ethical issues, biased decisions, unsafe outcomes, and unfair decisions, to name a few. Research has tended to optimize AI less has focused on its risk and unexpected negative consequences. Acknowledging this serious potential risks and scarcity of re-search I focus on unsafe outcomes of AI. Specifically, I explore this issue from a Human-AI interaction lens during AI deployment. It will be discussed how the interaction of individuals and AI during its deployment brings new concerns, which need a solid and holistic mitigation plan. It will be dis-cussed that only AI algorithms' safety is not enough to make its operation safe. The AI-based systems' end-users and their decision-making archetypes during collaboration with these systems should be considered during the AI risk management. Using some real-world scenarios, it will be highlighted that decision-making archetypes of users should be considered a design principle in AI-based systems.",
+    "citation_count": 2,
+    "summary": "AI safety depends not only on robust algorithms but also on understanding how humans interact with AI systems during deployment. Considering user decision-making archetypes is crucial for mitigating risks and ensuring safe AI operation in real-world scenarios."
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.10859",
+    "title": "A Blockchain Protocol for Human-in-the-Loop AI",
+    "published_date": "2022-11-20",
+    "abstract": "Intelligent human inputs are required both in the training and operation of AI systems, and within the governance of blockchain systems and decentralized autonomous organizations (DAOs). This paper presents a formal deﬁnition of Human Intelligence Primitives (HIPs), and describes the design and implementation of an Ethereum protocol for their on-chain collection, modeling, and integration in machine learning workﬂows.",
+    "summary": "This paper introduces Human Intelligence Primitives (HIPs) and details an Ethereum-based protocol for incorporating human intelligence into AI workflows by collecting, modeling, and integrating these HIPs on-chain."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/vZzg8NS7wBtqcwhoJ/nearcast-based-deployment-problem-analysis",
+    "author": "HoldenKarnofsky",
+    "title": "Nearcast-based \"deployment problem\" analysis",
+    "published_date": "2022-09-21",
+    "summary": "This article explores the \"AI deployment problem\"—how and when to deploy powerful AI—using a hypothetical scenario where a company (\"Magma\") is close to developing transformative AI and a global organization (\"IAIA\") monitors AI development. The article analyzes Magma and IAIA's goals and priorities in three phases: pre-deployment, initial safe deployment, and widespread deployment of transformative AI, focusing on navigating the risks of misaligned AI."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.09478v1.pdf",
+    "title": "Software engineering for Responsible AI: An empirical study and operationalised patterns",
+    "published_date": "2021-11-18",
+    "abstract": "AI ethics principles and guidelines are typically high-level and do not provide concrete guidance on how to develop responsible AI systems. To address this shortcoming, we perform an empirical study involving interviews with 21 scientists and engineers to understand the practitioners' views on AI ethics principles and their implementation. Our major findings are: (1) the current practice is often a done-once-and-forget type of ethical risk assessment at a particular development step, which is not sufficient for highly uncertain and continual learning AI systems; (2) ethical requirements are either omitted or mostly stated as high-level objectives, and not specified explicitly in verifiable way as system outputs or outcomes; (3) although ethical requirements have the characteristics of cross-cutting quality and non-functional requirements amenable to architecture and design analysis, system-level architecture and design are under-explored; (4) there is a strong desire for continuously monitoring and validating AI systems post deployment for ethical requirements but current operation practices provide limited guidance. To address these findings, we suggest a preliminary list of patterns to provide operationalised guidance for developing responsible AI systems.",
+    "citation_count": 29,
+    "summary": "This study finds current AI development practices insufficient for addressing ethical concerns due to one-time assessments, vaguely defined requirements, and lack of system-level design considerations, and proposes operational patterns for building responsible AI systems with continuous monitoring."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.08258v1.pdf",
+    "title": "Identifying Roles, Requirements and Responsibilities in Trustworthy AI Systems",
+    "published_date": "2021-06-15",
+    "abstract": "Artificial Intelligence (AI) systems are being deployed around the globe in critical fields such as healthcare and education. In some cases, expert practitioners in these domains are being tasked with introducing or using such systems, but have little or no insight into what data these complex systems are based on, or how they are put together. In this paper, we consider an AI system from the domain practitioner's perspective and identify key roles that are involved in system deployment. We consider the differing requirements and responsibilities of each role, and identify tensions between transparency and confidentiality that need to be addressed so that domain practitioners are able to intelligently assess whether a particular AI system is appropriate for use in their domain.",
+    "citation_count": 14,
+    "summary": "This paper examines AI system deployment from the perspective of domain practitioners, identifying key roles and their responsibilities while highlighting the tension between transparency needs and confidentiality concerns in assessing AI system suitability."
+  },
+  {
+    "url": "https://arxiv.org/abs/2112.00740",
+    "title": "Collaborative Artificial Intelligence Needs Stronger Assurances Driven by Risks",
+    "published_date": "2021-12-01",
+    "abstract": "Collaborative artificial intelligence systems (CAISs) aim to work with humans in a shared space to achieve a common goal, but this can pose hazards that could harm human beings. We identify emerging problems in this context and report our vision of and progress toward a risk-driven assurance process for CAISs.",
+    "citation_count": 4,
+    "summary": "Collaborative AI systems, designed to work alongside humans, present potential safety risks requiring robust, risk-driven assurance processes to mitigate harm. These processes must address emerging challenges specific to human-AI collaboration."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.06054v1.pdf",
+    "title": "Artificial Intelligence for IT Operations (AIOPS) Workshop White Paper",
+    "published_date": "2021-01-15",
+    "abstract": "Artificial Intelligence for IT Operations (AIOps) is an emerging interdisciplinary field arising in the intersection between the research areas of machine learning, big data, streaming analytics, and the management of IT operations. AIOps, as a field, is a candidate to produce the future standard for IT operation management. To that end, AIOps has several challenges. First, it needs to combine separate research branches from other research fields like software reliability engineering. Second, novel modelling techniques are needed to understand the dynamics of different systems. Furthermore, it requires to lay out the basis for assessing: time horizons and uncertainty for imminent SLA violations, the early detection of emerging problems, autonomous remediation, decision making, support of various optimization objectives. Moreover, a good understanding and interpretability of these aiding models are important for building trust between the employed tools and the domain experts. Finally, all this will result in faster adoption of AIOps, further increase the interest in this research field and contribute to bridging the gap towards fully-autonomous operating IT systems. The main aim of the AIOPS workshop is to bring together researchers from both academia and industry to present their experiences, results, and work in progress in this field. The workshop aims to strengthen the community and unite it towards the goal of joining the efforts for solving the main challenges the field is currently facing. A consensus and adoption of the principles of openness and reproducibility will boost the research in this emerging area significantly.",
+    "citation_count": 12,
+    "summary": "AIOps leverages AI and data analytics to revolutionize IT operations management, but faces challenges in integrating diverse research areas, developing sophisticated models, ensuring interpretability, and fostering community collaboration for faster adoption and progress towards autonomous IT systems."
+  },
+  {
+    "title": "IoT Microservice Deployment in Edge-Cloud Hybrid Environment Using Reinforcement Learning",
+    "abstract": "The edge-cloud hybrid environment requires complex deployment strategies to enable the smart Internet-of-Things (IoT) system. However, current service deployment strategies use simple, generalized heuristics and ignore the heterogeneous characteristics in the edge-cloud hybrid environment. In this article, we devise a method to find a microservice-based service deployment strategy that can reduce the average waiting time of IoT devices in the hybrid environment. For this purpose, we first propose a microservice-based deployment problem (MSDP) based on the heterogeneous and dynamic characteristics in the edge-cloud hybrid environment, including heterogeneity of edge server capacities, dynamic geographical information of IoT devices, and changing device preference for applications and complex application structures. We then propose a multiple buffer deep deterministic policy gradient (MB_DDPG) to provide more preferable service deployment solutions. Our algorithm leverages reinforcement learning and neural network to learn a deployment strategy without any human instruction. Therefore, the service provider can make full use of limited resources to improve the Quality of Service (QoS). Finally, we implement MB_DDPG based on real-world data sets and some synthetic data, and we also implement another two algorithms, genetic algorithm and random algorithm, as a contrast. The experimental results demonstrate that MB_DDPG is able to learn a preferable strategy which, in terms of average waiting time, outperforms genetic algorithm and the random algorithm by 32% and 44%, respectively.",
+    "published_date": "2021-08-15",
+    "citation_count": 52,
+    "url": "https://ieeexplore.ieee.org/document/9162056/",
+    "summary": "This paper proposes MB_DDPG, a reinforcement learning-based algorithm for deploying IoT microservices in edge-cloud hybrid environments, optimizing placement to minimize average device waiting time and outperforming genetic and random deployment strategies."
+  },
+  {
+    "url": "https://arxiv.org/abs/2011.09926v1",
+    "title": "Challenges in Deploying Machine Learning: A Survey of Case Studies",
+    "published_date": "2020-11-18",
+    "abstract": "In recent years, machine learning has transitioned from a field of academic research interest to a field capable of solving real-world business problems. However, the deployment of machine learning models in production systems can present a number of issues and concerns. This survey reviews published reports of deploying machine learning solutions in a variety of use cases, industries, and applications and extracts practical considerations corresponding to stages of the machine learning deployment workflow. By mapping found challenges to the steps of the machine learning deployment workflow, we show that practitioners face issues at each stage of the deployment process. The goal of this article is to lay out a research agenda to explore approaches addressing these challenges.",
+    "citation_count": 340,
+    "summary": "Deploying machine learning models in real-world settings faces numerous challenges throughout the entire deployment workflow, from data preparation to model maintenance, as revealed by a survey of case studies across various industries and applications. This necessitates further research into solutions for these practical deployment hurdles."
+  }
+]

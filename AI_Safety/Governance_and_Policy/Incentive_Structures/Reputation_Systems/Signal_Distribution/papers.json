@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/jyAerr8txxhiKnxwA/5-reasons-why-governments-militaries-want-ai-for-information-1",
+    "author": "trevor",
+    "title": "5 Reasons Why Governments/Militaries Already Want AI for Information Warfare",
+    "published_date": "2023-10-30",
+    "summary": "Military information warfare leverages advanced psychological research to influence high-intelligence elites, not just the general population, a strategy significantly amplified by modern technology and the increasing sophistication of propaganda techniques. This approach reflects a shift towards prioritizing soft power and manipulating perceptions over brute force."
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.06436",
+    "title": "Survey on social reputation mechanisms: Someone told me I can trust you",
+    "published_date": "2022-12-13",
+    "abstract": "Nowadays, most business and social interactions have moved to the internet, highlighting the relevance of creating online trust. One way to obtain a measure of trust is through reputation mechanisms, which record one's past performance and interactions to generate a reputational value. We observe that numerous existing reputation mechanisms share similarities with actual social phenomena; we call such mechanisms 'social reputation mechanisms'. The aim of this paper is to discuss several social phenomena and map these to existing social reputation mechanisms in a variety of scopes. First, we focus on reputation mechanisms in the individual scope, in which everyone is responsible for their own reputation. Subjective reputational values may be communicated to different entities in the form of recommendations. Secondly, we discuss social reputation mechanisms in the acquaintances scope, where one's reputation can be tied to another through vouching or invite-only networks. Finally, we present existing social reputation mechanisms in the neighbourhood scope. In such systems, one's reputation can heavily be affected by the behaviour of others in their neighbourhood or social group.",
+    "summary": "This paper surveys online social reputation mechanisms, categorizing them by scope—individual, acquaintances, and neighborhood—and drawing parallels between these mechanisms and real-world social phenomena to understand how trust is established and maintained online. The survey maps existing mechanisms onto these scopes to illustrate the diverse approaches to building online reputation."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.08092.pdf",
+    "title": "Improving the Performance of Reputation Evaluation by Combining a Network Structure With Nonlinear Recovery",
+    "published_date": "2021-11-15",
+    "abstract": "Characterizing the reputation of an evaluator is particularly significant for consumers to obtain useful information from online rating systems. Furthermore, overcoming the difficulties of spam attacks on a rating system and determining the reliability and reputation of evaluators are important topics in the research. We have noticed that most existing reputation evaluation methods rely only on using the evaluator's rating information and abnormal behaviour to establish a reputation system, which disregards the systematic aspects of the rating systems, by including the structure of the evaluator-object bipartite network and nonlinear effects. In this study, we propose an improved reputation evaluation method by combining the structure of the evaluator-object bipartite network with rating information and introducing penalty and reward factors. The proposed method is empirically analyzed on a large-scale artificial data set and two real data sets. The results have shown that this method has better performance than the original correlation-based and IARR2 in the presence of spamming attacks. Our work contributes a new idea to build reputation evaluation models in sparse bipartite rating networks.",
+    "citation_count": 1,
+    "summary": "This paper proposes a novel reputation evaluation method that enhances existing systems by incorporating evaluator-object network structure and nonlinear recovery mechanisms, demonstrating improved performance against spam attacks compared to correlation-based and IARR2 methods. Empirical analysis on real and artificial datasets supports its effectiveness in sparse bipartite rating networks."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1902.03857v1.pdf",
+    "title": "A Reputation System for Marketplaces - Viability Assessment",
+    "published_date": "2019-02-11",
+    "abstract": "In this work we explore the implementation of the reputation system for a generic marketplace, describe details of the algorithm and parameters driving its operation, justify an approach to simulation modeling, and explore how various kinds of reputation systems with different parameters impact the economic security of the marketplace. Our emphasis here is on the protection of consumers by means of an ability to distinguish between cheating participants and honest participants, as well as the ability to minimize losses of honest participants due to scam.",
+    "citation_count": 3,
+    "summary": "This paper assesses the viability of a reputation system for online marketplaces by simulating various system parameters and algorithms, focusing on its effectiveness in protecting consumers from dishonest participants and minimizing their financial losses. The simulation explores how different reputation system designs impact marketplace economic security."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24",
+    "summary": "This article explores the intersection of rationalism and blockchain technology, focusing on mathematical challenges within blockchain and proposing mechanism design solutions, such as quadratic voting and funding, for cooperation and philanthropic endeavors."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1811.08149.pdf",
+    "title": "Reputation System for Online Communities (in Russian)",
+    "published_date": "2018-11-20",
+    "abstract": "Understanding the principles of consensus in communities and finding ways to optimal solutions beneficial for entire community becomes crucial as the speeds and scales of interaction in modern distributed systems increase. Such systems can be both social and information computer networks that unite the masses of people as well as multi-agent computing platforms based on peer-to-peer interactions including those operating on the basis of distributed ledgers. It is now becoming possible for hybrid ecosystems to emerge, having such systems including both humans and computer systems using artificial intelligence. We propose a new form of consensus for all of the listed systems, based on the reputation of the participants, calculated according to the principle of\"liquid democracy\". We believe that such a system will be more resistant to social engineering and reputation manipulation than the existing systems. In this article, we discuss the basic principles and options for implementing such a system, and also present preliminary practical results.",
+    "citation_count": 1,
+    "summary": "This paper proposes a novel reputation system for online communities, based on \"liquid democracy\" principles, aiming to improve consensus-building and resilience against manipulation in diverse online environments including social networks and multi-agent systems. The authors outline the system's principles, implementation options, and initial practical results."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/X5RyaEDHNq5qutSHK/anti-social-punishment",
+    "author": "Martin Sustrik",
+    "title": "Anti-social Punishment",
+    "published_date": "2018-09-27",
+    "summary": "A study using a public goods game with and without punishment mechanisms investigated cooperation levels across various societies. The results, based on university students, revealed significant differences in cooperation and punishment behaviors between these societies."
+  },
+  {
+    "title": "A Reputation Model for Aggregating Ratings based on Beta Distribution Function",
+    "abstract": "With the speed growth of financial technology (Fintech), modern electronic marketing has typically deployed the use of the World Wide Web. This has come with great challenges especially in decision making and in engaging the pre-tail for launching new products and services in an open environment susceptible to high risks and threats. A prodigious need to build a sellers reputation and trust between the seller and the buyer so as to diminish such risks and threats in online trading birthed the idea of reputation systems. The emergence of reputation systems has attracted a lot of researchers to propose rating aggregation methods such as simple mean and normal distribution based method. However, the existing methods cannot accurately produce reputation score in some cases. Hence, this paper proposes a new model aiming to producing even more accurate and effective reputation score. Our model uses the standard beta-distribution considering the received rating distribution, so as to generate the weights of each ratings and then derive the level weights of ratings. The final reputation score is the level weighted aggregation of the rating levels. The proposed model is innovative in the aspect that the ratings are not directly aggregated to the reputation score, but are treated as the samples in evaluating each respective rating levels. Through case studies, the model is demonstrated to achieve desired accuracy and effectiveness, and even performs better than the existing models.",
+    "published_date": "2017-07-06",
+    "citation_count": 9,
+    "url": "https://dl.acm.org/doi/10.1145/3126973.3126992",
+    "summary": "This paper proposes a new reputation model for online trading that uses a beta distribution to weight individual ratings before aggregation, improving accuracy over existing methods like simple mean aggregation. The model treats ratings as samples to evaluate rating levels, then weights these levels to calculate a final reputation score."
+  }
+]

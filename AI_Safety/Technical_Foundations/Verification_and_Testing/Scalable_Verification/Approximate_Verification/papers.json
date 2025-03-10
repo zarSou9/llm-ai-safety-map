@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2103.06624.pdf",
+    "title": "Beta-CROWN: Efficient Bound Propagation with Per-neuron Split Constraints for Neural Network Robustness Verification",
+    "published_date": "2021-03-11",
+    "abstract": "Bound propagation based incomplete neural network verifiers such as CROWN are very efficient and can significantly accelerate branch-and-bound (BaB) based complete verification of neural networks. However, bound propagation cannot fully handle the neuron split constraints introduced by BaB commonly handled by expensive linear programming (LP) solvers, leading to loose bounds and hurting verification efficiency. In this work, we develop $\\beta$-CROWN, a new bound propagation based method that can fully encode neuron splits via optimizable parameters $\\beta$ constructed from either primal or dual space. When jointly optimized in intermediate layers, $\\beta$-CROWN generally produces better bounds than typical LP verifiers with neuron split constraints, while being as efficient and parallelizable as CROWN on GPUs. Applied to complete robustness verification benchmarks, $\\beta$-CROWN with BaB is up to three orders of magnitude faster than LP-based BaB methods, and is notably faster than all existing approaches while producing lower timeout rates. By terminating BaB early, our method can also be used for efficient incomplete verification. We consistently achieve higher verified accuracy in many settings compared to powerful incomplete verifiers, including those based on convex barrier breaking techniques. Compared to the typically tightest but very costly semidefinite programming (SDP) based incomplete verifiers, we obtain higher verified accuracy with three orders of magnitudes less verification time. Our algorithm empowered the $\\alpha,\\!\\beta$-CROWN (alpha-beta-CROWN) verifier, the winning tool in VNN-COMP 2021. Our code is available at http://PaperCode.cc/BetaCROWN",
+    "citation_count": 160,
+    "summary": "β-CROWN is a novel bound propagation method for neural network robustness verification that efficiently handles neuron split constraints, significantly outperforming existing LP and SDP-based methods in speed and accuracy, achieving up to three orders of magnitude faster verification while improving verified accuracy. Its efficiency stems from encoding splits via optimizable parameters, enabling parallelization and faster branch-and-bound verification."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.06594",
+    "title": "How to Verify Any (Reasonable) Distribution Property: Computationally Sound Argument Systems for Distributions",
+    "published_date": "2024-09-10",
+    "abstract": "As statistical analyses become more central to science, industry and society, there is a growing need to ensure correctness of their results. Approximate correctness can be verified by replicating the entire analysis, but can we verify without replication? Building on a recent line of work, we study proof-systems that allow a probabilistic verifier to ascertain that the results of an analysis are approximately correct, while drawing fewer samples and using less computational resources than would be needed to replicate the analysis. We focus on distribution testing problems: verifying that an unknown distribution is close to having a claimed property. Our main contribution is a interactive protocol between a verifier and an untrusted prover, which can be used to verify any distribution property that can be decided in polynomial time given a full and explicit description of the distribution. If the distribution is at statistical distance $\\varepsilon$ from having the property, then the verifier rejects with high probability. This soundness property holds against any polynomial-time strategy that a cheating prover might follow, assuming the existence of collision-resistant hash functions (a standard assumption in cryptography). For distributions over a domain of size $N$, the protocol consists of $4$ messages and the communication complexity and verifier runtime are roughly $\\widetilde{O}\\left(\\sqrt{N} / \\varepsilon^2 \\right)$. The verifier's sample complexity is $\\widetilde{O}\\left(\\sqrt{N} / \\varepsilon^2 \\right)$, and this is optimal up to $\\polylog(N)$ factors (for any protocol, regardless of its communication complexity). Even for simple properties, approximately deciding whether an unknown distribution has the property can require quasi-linear sample complexity and running time. For any such property, our protocol provides a quadratic speedup over replicating the analysis.",
+    "summary": "This paper presents an interactive protocol for verifying properties of unknown distributions, achieving a quadratic speedup over replication by leveraging a computationally sound argument system. The protocol verifies any polynomially decidable property with optimal sample complexity, assuming collision-resistant hash functions."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.13583",
+    "title": "Tools at the Frontiers of Quantitative Verification",
+    "published_date": "2024-05-22",
+    "abstract": "The analysis of formal models that include quantitative aspects such as timing or probabilistic choices is performed by quantitative verification tools. Broad and mature tool support is available for computing basic properties such as expected rewards on basic models such as Markov chains. Previous editions of QComp, the comparison of tools for the analysis of quantitative formal models, focused on this setting. Many application scenarios, however, require more advanced property types such as LTL and parameter synthesis queries as well as advanced models like stochastic games and partially observable MDPs. For these, tool support is in its infancy today. This paper presents the outcomes of QComp 2023: a survey of the state of the art in quantitative verification tool support for advanced property types and models. With tools ranging from first research prototypes to well-supported integrations into established toolsets, this report highlights today's active areas and tomorrow's challenges in tool-focused research for quantitative verification.",
+    "citation_count": 3,
+    "summary": "QComp 2023 surveyed the current capabilities of quantitative verification tools, revealing a growing need for support beyond basic models and properties to handle advanced features like LTL queries and stochastic games. The report highlights both existing tools and future research challenges in this rapidly developing field."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25",
+    "summary": "The article explores the challenges of formally verifying neural networks, arguing that proving guarantees for complex models is unrealistic due to the need to account for all possible interactions. Instead, the authors propose \"heuristic explanations,\" a less rigorous approach that focuses on quantifying a model's behavior and identifying surprising outcomes, offering a more practical alternative to formal verification."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19",
+    "summary": "The article argues that claims of using formal verification to guarantee AI safety are overly optimistic. The inherent complexity of the real world, and the impossibility of creating complete symbolic models of physical systems, make achieving strong, verifiable safety guarantees for AI systems operating in the real world practically infeasible in the near term."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12",
+    "summary": "This article proposes a delay-based on-chip compute governance mechanism using the speed of light to verify a chip's location, aiming to regulate AI development by controlling compute resources. However, the mechanism faces challenges from network latency inconsistencies potentially causing frequent false positives, a problem the author attempts to address."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/euwMMxwuBeS5QZkC4/goodheart-s-law-example-training-verifiers-to-solve-math",
+    "author": "Chris_Leong",
+    "title": "Goodhart's Law Example: Training Verifiers to Solve Math Word Problems",
+    "published_date": "2023-11-25",
+    "summary": "Increasing the number of solutions considered during model verification initially improves performance but eventually decreases it due to adversarial solutions; a majority vote among top-ranked solutions mitigates this risk by reducing the influence of misleading outputs."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.11567",
+    "title": "Deterministic Multi-stage Constellation Reconfiguration Using Integer Linear Programing and Sequential Decision-Making Methods",
+    "published_date": "2024-01-21",
+    "abstract": "This paper addresses the problem of reconfiguring Earth observation satellite constellation systems through multiple stages. The Multistage Constellation Reconfiguration Problem (MCRP) aims to maximize the total observation rewards obtained by covering a set of targets of interest through the active manipulation of the orbits and relative phasing of constituent satellites. This paper considers deterministic problem settings in which the targets of interest are known a priori. We propose a novel integer linear programming formulation for MCRP, capable of obtaining provably optimal solutions. To overcome computational intractability due to the combinatorial explosion in solving large-scale instances, we introduce two computationally efficient sequential decision-making methods based on the principles of a myopic policy and a rolling horizon procedure. The computational experiments demonstrate that the devised sequential decision-making approaches yield high-quality solutions with improved computational efficiency over the baseline MCRP. Finally, a case study using Hurricane Harvey data showcases the advantages of multistage constellation reconfiguration over single-stage and no-reconfiguration scenarios.",
+    "summary": "This paper presents an integer linear programming formulation for optimally reconfiguring Earth observation satellite constellations over multiple stages to maximize target coverage, along with two computationally efficient sequential decision-making methods to handle large-scale problems, demonstrated effective through computational experiments and a case study."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.13523.pdf",
+    "title": "Dynamic Prioritization and Adaptive Scheduling Using Deep Deterministic Policy Gradient for Deploying Microservice-Based VNFs",
+    "published_date": "2023-02-17",
+    "abstract": "The Network Function Virtualization (NFV)-Resource Allocation (RA) problem is NP-Hard. Traditional deployment methods revealed the existence of a starvation problem, which the researchers failed to recognize. Basically, starvation here, means the longer waiting times and eventual rejection of low-priority services due to a 'time out'. The contribution of this work is threefold: a) explain the existence of the starvation problem in the existing methods and their drawbacks, b) introduce 'Adaptive Scheduling' (AdSch) which is an 'intelligent scheduling' scheme using a three-factor approach (priority, threshold waiting time, and reliability), which proves to be more reasonable than traditional methods solely based on priority, and c) a 'Dynamic Prioritization' (DyPr), allocation method is also proposed for unseen services and the importance of macro- and micro-level priority. We presented a zero-touch solution using Deep Deterministic Policy Gradient (DDPG) for adaptive scheduling and an online-Ridge Regression (RR) model for dynamic prioritization. The DDPG successfully identified the 'Beneficial and Starving' services, efficiently deploying twice as many low-priority services as others, reducing the starvation problem. Our online-RR model learns the pattern in less than 100 transitions, and the prediction model has an accuracy rate of more than 80%.",
+    "citation_count": 1,
+    "summary": "This paper addresses the NP-hard Network Function Virtualization resource allocation problem, proposing a novel adaptive scheduling (AdSch) and dynamic prioritization (DyPr) approach using Deep Deterministic Policy Gradient (DDPG) and online Ridge Regression, respectively, to mitigate service starvation and improve low-priority service deployment. The system significantly reduces starvation by intelligently scheduling services based on priority, waiting time, and reliability, while dynamically prioritizing unseen services with high accuracy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.00015",
+    "title": "Maintaining User Trust Through Multistage Uncertainty Aware Inference",
+    "published_date": "2023-12-28",
+    "abstract": "This paper describes and evaluates a multistage approach to AI deployment. Each stage involves a more accurate method of inference, yet engaging each comes with an increasing cost. In outlining the architecture, we present a method for quantifying model uncertainty that facilitates confident deferral decisions. The architecture is currently under active deployment to thousands of cotton farmers across India. The broader idea however is applicable to a growing sector of AI deployments in challenging low resources settings.",
+    "summary": "This paper proposes a multistage AI deployment strategy that balances inference accuracy and cost by using uncertainty quantification to defer to more accurate (but expensive) methods when necessary. This approach is being implemented for Indian cotton farmers and is broadly applicable to resource-constrained AI deployments."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jyAerr8txxhiKnxwA/5-reasons-why-governments-militaries-want-ai-for-information-1",
+    "author": "trevor",
+    "title": "5 Reasons Why Governments/Militaries Already Want AI for Information Warfare",
+    "published_date": "2023-10-30",
+    "summary": "Military institutions have long used psychological research in warfare, with information warfare increasingly crucial in the 20th and 21st centuries. This warfare focuses on influencing high-intelligence elites rather than the general population, leveraging sophisticated psychological manipulation techniques that are rapidly advancing."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2204.02189v2.pdf",
+    "title": "Automating Staged Rollout with Reinforcement Learning",
+    "published_date": "2022-04-01",
+    "abstract": "Staged rollout is a strategy of incrementally releasing software updates to portions of the user population in order to accelerate defect discovery without incurring catastrophic outcomes such as system wide outages. Some past studies have examined how to quantify and automate staged rollout, but stop short of simultaneously considering multiple product or process metrics explicitly. This paper demonstrates the potential to automate staged rollout with multi-objective reinforcement learning in order to dynamically balance stakeholder needs such as time to deliver new features and downtime incurred by failures due to latent defects. CCS CONCEPTS • Software and its engineering → Software testing and debugging.",
+    "citation_count": 1,
+    "summary": "This paper proposes automating staged software rollouts using multi-objective reinforcement learning, dynamically balancing faster feature delivery with minimized downtime by optimizing multiple product and process metrics simultaneously. This improves upon previous methods by explicitly considering multiple stakeholder needs."
+  },
+  {
+    "url": "https://arxiv.org/abs/2201.00258",
+    "title": "The Parametric Cost Function Approximation: A new approach for multistage stochastic programming",
+    "published_date": "2022-01-01",
+    "abstract": "The most common approaches for solving multistage stochastic programming problems in the research literature have been to either use value functions (\"dynamic programming\") or scenario trees (\"stochastic programming\") to approximate the impact of a decision now on the future. By contrast, common industry practice is to use a deterministic approximation of the future which is easier to understand and solve, but which is criticized for ignoring uncertainty. We show that a parameterized version of a deterministic optimization model can be an effective way of handling uncertainty without the complexity of either stochastic programming or dynamic programming. We present the idea of a parameterized deterministic optimization model, and in particular a deterministic lookahead model, as a powerful strategy for many complex stochastic decision problems. This approach can handle complex, high-dimensional state variables, and avoids the usual approximations associated with scenario trees or value function approximations. Instead, it introduces the offline challenge of designing and tuning the parameterization. We illustrate the idea by using a series of application settings, and demonstrate its use in a nonstationary energy storage problem with rolling forecasts.",
+    "citation_count": 6,
+    "summary": "This paper proposes a parameterized deterministic optimization model as a simpler alternative to traditional stochastic programming and dynamic programming methods for solving multistage stochastic problems, effectively handling uncertainty through parameter tuning rather than explicit uncertainty representation. This approach is shown to be effective in complex, high-dimensional settings, avoiding the approximation challenges of other methods."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.00819v1.pdf",
+    "title": "Towards Rigorous Selection and Configuration of Cloud Services: Research Methodology",
+    "published_date": "2021-04-02",
+    "abstract": "Cloud computing has recently emerged as a major trend in distributed computing. We proposed a platform for selecting and configuring automatically an appropriate cloud environment that meets a set of consumer and provider requirements. It can easily adapt its behavior, either at design-time or runtime, to the change of the environment in matters of location, time, activity, interaction abilities, and communication restrictions. The platform based on the principles of dynamic software product lines (SPL), Agent-oriented software engineering, and the MAPE-k reference model. We based on the Design Science Research Methodology to conduct this work. In this article, we present the steps of our research following this methodology's guidelines.",
+    "summary": "This research proposes a platform for automated cloud service selection and configuration, adapting to dynamic environmental changes using dynamic software product lines, agent-oriented engineering, and the MAPE-k model. The research methodology employed is Design Science Research."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2107.10446v2.pdf",
+    "title": "Online Service Caching and Routing at the Edge with Unknown Arrivals",
+    "published_date": "2021-07-22",
+    "abstract": "This paper studies a problem of jointly optimizing two important operations in mobile edge computing without knowing future requests, namely service caching, which deter-mines which services to be hosted at the edge, and service routing, which determines which requests to be processed locally at the edge. We aim to address several practical challenges, including limited storage and computation capacities of edge servers and unknown future request arrival patterns. To this end, we formulate the problem as an online optimization problem, in which the objective function includes costs of forwarding requests, processing requests, and reconfiguring edge servers. By leveraging a natural timescale separation between service routing and service caching, namely, the former happens faster than the latter, we propose an online two-stage algorithm and its randomized variant. Both algorithms have low complexity, and our fractional solution achieves sublinear regret. Simulation results show that our algorithms significantly outperform other state-of-the-art online policies.",
+    "citation_count": 8,
+    "summary": "This paper proposes online algorithms for jointly optimizing service caching and routing in mobile edge computing under unknown request arrivals and limited edge resources. The algorithms leverage a timescale separation between routing and caching to achieve sublinear regret and outperform existing methods."
+  }
+]

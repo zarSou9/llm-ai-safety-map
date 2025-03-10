@@ -1,0 +1,62 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.13138",
+    "title": "Visibility into AI Agents",
+    "published_date": "2024-01-23",
+    "abstract": "Increased delegation of commercial, scientific, governmental, and personal activities to AI agents—systems capable of pursuing complex goals with limited supervision—may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.",
+    "citation_count": 12,
+    "summary": "This paper examines methods to increase \"visibility\" into AI agents—understanding their use, purpose, and deployment—by analyzing agent identifiers, real-time monitoring, and activity logging, considering their implementation across centralized and decentralized contexts and potential privacy implications. The authors argue that improved visibility is crucial for mitigating societal risks associated with increased AI agent autonomy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.13821",
+    "title": "Towards Responsible Governing AI Proliferation",
+    "published_date": "2024-12-18",
+    "abstract": "This paper argues that existing governance mechanisms for mitigating risks from AI systems are based on the `Big Compute' paradigm -- a set of assumptions about the relationship between AI capabilities and infrastructure -- that may not hold in the future. To address this, the paper introduces the `Proliferation' paradigm, which anticipates the rise of smaller, decentralized, open-sourced AI models which are easier to augment, and easier to train without being detected. It posits that these developments are both probable and likely to introduce both benefits and novel risks that are difficult to mitigate through existing governance mechanisms. The final section explores governance strategies to address these risks, focusing on access governance, decentralized compute oversight, and information security. Whilst these strategies offer potential solutions, the paper acknowledges their limitations and cautions developers to weigh benefits against developments that could lead to a `vulnerable world'.",
+    "summary": "This paper argues that current AI governance frameworks, built on the \"Big Compute\" paradigm, are insufficient to address the emerging risks posed by the proliferation of smaller, decentralized, and easily replicated AI models. It proposes alternative governance strategies focusing on access control, decentralized compute oversight, and information security, while acknowledging their limitations and urging careful consideration of potential negative consequences."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.12137",
+    "title": "IDs for AI Systems",
+    "published_date": "2024-06-17",
+    "abstract": "AI systems are increasingly pervasive, yet information needed to decide whether and how to engage with them may not exist or be accessible. A user may not be able to verify whether a system has certain safety certifications. An investigator may not know whom to investigate when a system causes an incident. It may not be clear whom to contact to shut down a malfunctioning system. Across a number of domains, IDs address analogous problems by identifying particular entities (e.g., a particular Boeing 747) and providing information about other entities of the same class (e.g., some or all Boeing 747s). We propose a framework in which IDs are ascribed to instances of AI systems (e.g., a particular chat session with Claude 3), and associated information is accessible to parties seeking to interact with that system. We characterize IDs for AI systems, provide concrete examples where IDs could be useful, argue that there could be significant demand for IDs from key actors, analyze how those actors could incentivize ID adoption, explore a potential implementation of our framework for deployers of AI systems, and highlight limitations and risks. IDs seem most warranted in settings where AI systems could have a large impact upon the world, such as in making financial transactions or contacting real humans. With further study, IDs could help to manage a world where AI systems pervade society.",
+    "citation_count": 2,
+    "summary": "This paper proposes a framework for assigning unique identifiers (IDs) to AI systems, enabling access to crucial information about their capabilities, safety certifications, and responsible parties, thereby addressing accountability and safety concerns in increasingly pervasive AI deployments. The authors argue that IDs are particularly important for high-impact AI systems and explore potential implementation and incentivization strategies."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three AI governance strategies—Cooperative Development, Strategic Advantage, and Global Moratorium—evaluating their effectiveness based on the difficulty of aligning AI and development timelines. Optimal strategy selection depends heavily on these factors, with Cooperative Development favored for longer timelines and easier alignment, while Strategic Advantage and Global Moratorium become more relevant under shorter timelines and harder alignment challenges, respectively."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "The article explores applying game theory to AI development within organizations, highlighting its strengths in multi-agent systems but also its limitations concerning organizational structure and decision-making. It argues that despite AI advancements, bureaucratic structures—characterized by hierarchical authority and specialized tasks—will remain necessary due to inherent limitations in a single AI agent's ability to handle complex problems efficiently."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that focusing solely on technical solutions is insufficient and that a broader perspective incorporating social, political, and various scientific fields is crucial for designing safe and beneficial artificial general intelligence. This approach prioritizes a holistic, top-down design of \"civilisational intelligence\" rather than a reactive, bottom-up approach."
+  },
+  {
+    "url": "https://arxiv.org/abs/2112.01516",
+    "title": "Ownership and Creativity in Generative Models",
+    "published_date": "2021-12-02",
+    "abstract": "Machine learning generated content such as image artworks, textual poems and music become prominent in recent years. These tools attract much attention from the media, artists, researchers, and investors. Because these tools are data-driven, they are inherently different than the traditional creative tools which arises the question - who may own the content that is generated by these tools? In this paper we aim to address this question, we start by providing a background to this problem, raising several candidates that may own the content and arguments for each one of them. Then we propose a possible algorithmic solution in the vision-based model's regime. Finally, we discuss the broader implications of this problem.",
+    "citation_count": 2,
+    "summary": "This paper examines the question of ownership for content generated by machine learning models, exploring potential owners and proposing an algorithmic solution for image-based models, while also discussing wider implications."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.09065v1.pdf",
+    "title": "Regulating Ownership Verification for Deep Neural Networks: Scenarios, Protocols, and Prospects",
+    "published_date": "2021-08-20",
+    "abstract": "With the broad application of deep neural networks, the necessity of protecting them as intellectual properties has become evident. Numerous watermarking schemes have been proposed to identify the owner of a deep neural network and verify the ownership. However, most of them focused on the watermark embedding rather than the protocol for provable verification. To bridge the gap between those proposals and real-world demands, we study the deep learning model intellectual property protection in three scenarios: the ownership proof, the federated learning, and the intellectual property transfer. We present three protocols respectively. These protocols raise several new requirements for the bottom-level watermarking schemes.",
+    "citation_count": 7,
+    "summary": "This paper addresses the need for deep neural network intellectual property protection by proposing three verification protocols for ownership proof, federated learning, and intellectual property transfer scenarios. These protocols highlight new requirements for underlying watermarking techniques to ensure robust ownership verification."
+  }
+]

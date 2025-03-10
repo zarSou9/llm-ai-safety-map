@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Technical Report Column",
+    "abstract": "Welcome to the Technical Reports Column. If your institution publishes technical reports that you'd like to have included here, please contact me at the email address above.",
+    "published_date": "2024-03-26",
+    "url": "https://dl.acm.org/doi/10.1145/3388392.3388397"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.06420.pdf",
+    "title": "A distribution-free change-point monitoring scheme in high-dimensional settings with application to industrial image surveillance",
+    "published_date": "2023-04-21",
+    "abstract": "Existing monitoring tools for multivariate data are often asymptotically distribution-free, computationally intensive, or require a large stretch of stable data. Many of these methods are not applicable to 'high dimension, low sample size' scenarios. With rapid technological advancement, high-dimensional data has become omnipresent in industrial applications. We propose a distribution-free change point monitoring method applicable to high dimensional data. Through an extensive simulation study, performance comparison has been done for different parameter values, under different multivariate distributions with complex dependence structures. The proposed method is robust and efficient in detecting change points under a wide range of shifts in the process distribution. A real-life application illustrated with the help of high-dimensional image surveillance dataset.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.02283.pdf",
+    "title": "Screening Methods for Classification Based on Non-parametric Bayesian Tests",
+    "published_date": "2023-01-05",
+    "abstract": ": Feature or variable selection is a problem inherent to large data sets. While many methods have been proposed to deal with this problem, some can scale poorly with the number of predictors in a data set. Screening methods scale linearly with the number of predictors by checking each predictor one at a time, and are a tool used to decrease the number of variables to consider before further analysis or variable selection. For classiﬁcation, there is a variety of techniques. There are parametric based screening tests, such as t -test or SIS based screening, and non-parametric based screening tests, such as Kolmogorov distance based screening [Mai and Zou, 2012], and MV-SIS [Cui et al., 2015]. We propose a method for variable screening that uses Bayesian-motivated tests, compare it to SIS based screening, and provide example applications of the method on simulated and real data. It is shown that our screening method can lead to improvements in classiﬁcation rate. This is so even when our method is used in conjunction with a classiﬁer, such as DART, which is designed to select a sparse subset of variables. Finally, we propose a classiﬁer based on kernel density estimates that in some cases can produce dramatic improvements in classiﬁcation rates relative to DART."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.09424v1.pdf",
+    "title": "A change-point–based control chart for detecting sparse mean changes in high-dimensional heteroscedastic data",
+    "published_date": "2021-01-23",
+    "abstract": "Abstract Because of the “curse of dimensionality,” high-dimensional processes present challenges to traditional multivariate statistical process monitoring (SPM) techniques. In addition, the unknown underlying distribution of and complicated dependency among variables such as heteroscedasticity increase the uncertainty of estimated parameters and decrease the effectiveness of control charts. In addition, the requirement of sufficient reference samples limits the application of traditional charts in high-dimension, low-sample-size scenarios (small n, large p). More difficulties appear when detecting and diagnosing abnormal behaviors caused by a small set of variables (i.e., sparse changes). In this article, we propose two change-point–based control charts to detect sparse shifts in the mean vector of high-dimensional heteroscedastic processes. Our proposed methods can start monitoring when the number of observations is a lot smaller than the dimensionality. The simulation results show that the proposed methods are robust to nonnormality and heteroscedasticity. Two real data examples are used to illustrate the effectiveness of the proposed control charts in high-dimensional applications. The R codes are provided online.",
+    "citation_count": 6
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.03306v3.pdf",
+    "title": "New Hard-thresholding Rules based on Data Splitting in High-dimensional Imbalanced Classification",
+    "published_date": "2021-11-05",
+    "abstract": ": In binary classiﬁcation, imbalance refers to situations in which one class is heavily under-represented. This issue is due to either a data collection process or because one class is indeed rare in a population. Im- balanced classiﬁcation frequently arises in applications such as biology, medicine, engineering, and social sciences. In this paper, for the ﬁrst time, we theoretically study the impact of imbalance class sizes on the linear discriminant analysis (LDA) in high dimensions. We show that due to data scarcity in one class, referred to as the minority class, and high-dimensionality of the feature space, the LDA ignores the minority class yielding a maximum misclassiﬁcation rate. We then propose a new construction of hard-thresholding rules based on a data splitting technique that reduces the large diﬀerence between the misclassiﬁcation rates. We show that the proposed method is asymptotically optimal. We further study two well-known sparse versions of the LDA in imbalanced cases. We evaluate the ﬁnite-sample performance of diﬀerent methods using simulations and by analyzing two real data sets. The results show that our method either outperforms its competitors or has comparable performance based on a much smaller subset of selected features, while being computationally more eﬃcient."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.06775.pdf",
+    "title": "Exploring the Intrinsic Probability Distribution for Hyperspectral Anomaly Detection",
+    "published_date": "2021-05-14",
+    "abstract": "In recent years, neural network-based anomaly detection methods have attracted considerable attention in the hyperspectral remote sensing domain due to their powerful reconstruction ability compared with traditional methods. However, actual probability distribution statistics hidden in the latent space are not discovered by exploiting the reconstruction error because the probability distribution of anomalies is not explicitly modeled. To address the issue, we propose a novel probability distribution representation detector (PDRD) that explores the intrinsic distribution of both the background and the anomalies for hyperspectral anomaly detection in this paper. First, we represent the hyperspectral data with multivariate Gaussian distributions from a probabilistic perspective. Then, we combine the local statistics with the obtained distributions to leverage the spatial information. Finally, the difference between the test pixel and the average expectation of the pixels in the Chebyshev neighborhood is measured by computing the modified Wasserstein distance to acquire the detection map. We conduct the experiments on three real data sets to evaluate the performance of our proposed method. The experimental results demonstrate the accuracy and efficiency of our proposed method compared to the state-of-the-art detection methods.",
+    "citation_count": 4
+  }
+]

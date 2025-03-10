@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/SacB4mg6nJWATKB3Y/a-proposal-for-a-cryogenic-grave-for-cryonics",
+    "author": "Roko",
+    "title": "A proposal for a cryogenic grave for cryonics",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.12368.pdf",
+    "title": "Power System Recovery Coordinated with (Non-)Black-Start Generators",
+    "published_date": "2023-02-23",
+    "abstract": "Power restoration is an urgent task after a black-out, and recovery efficiency is critical when quantifying system resilience. Multiple elements should be considered to restore the power system quickly and safely. This paper proposes a recovery model to solve a direct-current optimal power flow (DCOPF) based on mixed-integer linear programming (MILP). Since most of the generators cannot start independently, the interaction between black-start (BS) and non-black-start (NBS) generators must be modeled appropriately. The energization status of the NBS is coordinated with the recovery status of transmission lines, and both of them are modeled as binary variables. Also, only after an NBS unit receives cranking power through connected transmission lines, will it be allowed to participate in the following system dispatch. The amount of cranking power is estimated as a fixed proportion of the maximum generation capacity. The proposed model is validated on several test systems, as well as a 1393-bus representation system of the Puerto Rican electric power grid. Test results demonstrate how the recovery of NBS units and damaged transmission lines can be optimized, resulting in an efficient and well-coordinated recovery procedure.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2204.02504",
+    "title": "Recursive Restoration Refinement: A Fast Heuristic for Near-Optimal Restoration Prioritization in Power Systems",
+    "published_date": "2022-04-05",
+    "abstract": "The prioritization of restoration actions after large power system outages plays a key role in how quickly power can be restored. It has been shown that fast and intuitive heuristics for restoration prioritization most often result in low-quality restoration plans. Meanwhile, mathematical optimization tools that find high-quality restoration plans are too slow to be applied to restoration planning problems of practical interest. This work makes a significant step in closing this quality vs compute time gap by proposing the Recursive Restoration Refinement heuristic for power system restoration. This heuristic is shown to produce near-optimal restoration plans up to 1,000 times faster than other state-of-the-art solution methods on a range of test cases with up to 500 buses and 700 damaged components. The potential impact of this new heuristic is demonstrated by a preliminary analysis of the key features of high-quality restoration plans. The recursive restoration refinement algorithm and other methods explored in this work have been made available as part of the open-source software package, PowerModelsRestoration, to support ongoing research in power restoration algorithms.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2010.16035",
+    "title": "Considerations in the Automatic Development of Electric Grid Restoration Plans",
+    "published_date": "2020-10-30",
+    "abstract": "Power system restoration is a highly complex task that must be performed in a timely manner following a blackout. It is crucial to have the capability of developing a reliable restoration plan that can be adjusted quickly to different system conditions. This paper introduces a framework of an automated process that creates a restoration plan for a given power system. The required input includes the original system data under normal operating conditions and the status of the resources in the system that can be used for restoration. With a set of criteria to select as an option, the presented process can produce a restoration sequence in terms of which generator, load, branches, and breakers to close until a stopping criterion is met. The algorithm of the restoration process is described, and its application to a synthetic 200-bus case provides a restoration sequence from blackstart generating units to critical loads first and then to the rest of the system without violating any limits for frequency, voltage and branch loading.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/QJfiKwicwTXYMzJ7q/",
+    "author": "jefftk",
+    "title": "Bleach",
+    "published_date": "2020-03-04"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.06355.pdf",
+    "title": "Rapid Method for Generation Prioritization during System Restoration with Renewable Resources",
+    "published_date": "2019-05-01",
+    "abstract": "Quick and reliable power system restoration is critically important after natural disasters or other sudden threats, such as cyber-attacks. Leveraging renewable resources in system restoration shortens recovery times, resulting in prevented life-loss and avoided economic-loss, and improves the resilience of the entire grid. However, it is not a common practice today; the inherent variability of these resources represents a challenge for a streamlined restoration process. This paper presents a prioritized method - starting with renewable generator units then lowering priority to conventional units - to plan the operational schedule of a power system during the restoration process. The goal is to achieve a well balanced system in the presence of significant renewable penetration. Validation and benchmarking experiments were performed on a customized version of the RTS-GMLC test system using six months out of year-long data, tested through hourly simulations. After evaluating the performance and computational costs, this method proved faster than common approaches: a MILP Unit Commitment algorithm, widely used today, and an “enable-and-try” algorithm. In summary, herein a more convenient method is provided to be utilized during time-sensitive restoration, as an online operation-planning aid.",
+    "citation_count": 2
+  }
+]

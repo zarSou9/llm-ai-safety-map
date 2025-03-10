@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Insufficiency-Driven DNN Error Detection in the Context of SOTIF on Traffic Sign Recognition Use Case",
+    "abstract": "Deep Neural Networks (DNNs) are used in various domains and industry fields with great success due to their ability to learn complex tasks from high-dimensional data. However, the data-driven approach within deep learning results in various DNN-specific insufficiencies (e.g., robustness limitations, overconfidence, lack of interpretability), which makes the usage in safety-critical applications, like automated driving, challenging. An important safety strategy to address these limitations is the detection of DNN errors (e.g., false positives) during runtime. In this work, we present a general error detection approach for DNNs, which combines diverse monitoring methods to address different safety-related DNN insufficiencies simultaneously. To ensure consistency with the automotive safety domain, we take into account established concepts of the automotive safety standard ISO 21448 (SOTIF). We apply our error detection method on the safety-related use case of traffic sign recognition by using self-created 3D driving scenarios. In doing so, we consider different types of DNN errors related to in distribution, out of distribution, and adversarial data. We demonstrate that our approach is able to handle all these error types. Furthermore, we show the performance benefit of our method compared to a baseline DNN and to state of the art DNN monitoring methods.",
+    "published_date": "2023-01-01",
+    "citation_count": 9,
+    "url": "https://ieeexplore.ieee.org/ielx7/8784355/9999144/10016638.pdf"
+  },
+  {
+    "title": "Robust out-of-distribution motion detection and localization in autonomous CPS: wip abstract",
+    "abstract": "Highly complex deep learning models are increasingly integrated into modern cyber-physical systems (CPS), many of which have strict safety requirements. One problem arising from this is that deep learning lacks interpretability, operating as a black box. The reliability of deep learning is heavily impacted by how well the model training data represents runtime test data, especially when the input space dimension is high as natural images. In response, we propose a robust out-of-distribution (OOD) detection framework. Our approach detects unusual movements from driving video in real-time by combining classical optic flow operation with representation learning via variational autoencoder (VAE). We also design a method to locate OOD factors in images. Evaluation on a driving simulation data set shows that our approach is statistically more robust than related works.",
+    "published_date": "2021-05-19",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3450267.3452000"
+  },
+  {
+    "title": "Embedded out-of-distribution detection on an autonomous robot platform",
+    "abstract": "Machine learning (ML) is actively finding its way into modern cyber-physical systems (CPS), many of which are safety-critical real-time systems. It is well known that ML outputs are not reliable when testing data are novel with regards to model training and validation data, i.e., out-of-distribution (OOD) test data. We implement an unsupervised deep neural network-based OOD detector on a real-time embedded autonomous Duckiebot and evaluate detection performance. Our OOD detector produces a success rate of 87.5% for emergency stopping a Duckiebot on a braking test bed we designed. We also provide case analysis on computing resource challenges specific to the Robot Operating System (ROS) middleware on the Duckiebot.",
+    "published_date": "2021-05-18",
+    "citation_count": 13,
+    "url": "https://dl.acm.org/doi/10.1145/3445034.3460509"
+  },
+  {
+    "title": "Safety-Assured Design and Adaptation of Learning-Enabled Autonomous Systems",
+    "abstract": "Future autonomous systems will employ sophisticated machine learning techniques for the sensing and perception of the surroundings and the making corresponding decisions for planning, control, and other actions. They often operate in highly dynamic, uncertain and challenging environment, and need to meet stringent timing, resource, and mission requirements. In particular, it is critical and yet very challenging to ensure the safety of these autonomous systems, given the uncertainties of the system inputs, the constant disturbances on the system operations, and the lack of analyzability for many machine learning methods (particularly those based on neural networks). In this paper, we will discuss some of these challenges, and present our work in developing automated, quantitative, and formalized methods and tools for ensuring the safety of autonomous systems in their design and during their runtime adaptation. We argue that it is essential to take a holistic approach in addressing system safety and other safety-related properties, vertically across the functional, software, and hardware layers, and horizontally across the autonomy pipeline of sensing, perception, planning, and control modules. This approach could be further extended from a single autonomous system to a multi-agent system where multiple autonomous agents perform tasks in a collaborative manner. We will use connected and autonomous vehicles (CAVs) as the main application domain to illustrate the importance of such holistic approach and show our initial efforts in this direction.",
+    "published_date": "2021-01-18",
+    "citation_count": 23,
+    "url": "https://dl.acm.org/doi/10.1145/3394885.3431623"
+  },
+  {
+    "title": "Predictive monitoring with uncertainty for deep learning enabled smart cities: poster abstract",
+    "abstract": "In order to prevent safety violations, predictive monitoring with uncertainty is crucial for deep learning-enabled services in smart cities. We develop a novel predictive monitoring system for smart city applications, which consists of an RNN-based predictor with uncertainty estimation and a new specification language, named Signal Temporal Logic with Uncertainty. The solution first predicts a sequence of distributions representing city's future states with uncertainty estimation and then checks the predicted results against STL-U specified safety and performance requirements. The system supports decision making by providing a quantitative satisfaction degree with confidence guarantees. We receive promising results from evaluations on two large-scale city datasets, and on a case study on real-time predictive monitoring in a simulated smart city.",
+    "published_date": "2020-11-16",
+    "url": "https://dl.acm.org/doi/10.1145/3384419.3430445"
+  }
+]

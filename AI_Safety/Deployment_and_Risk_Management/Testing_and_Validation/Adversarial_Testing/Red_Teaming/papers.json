@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/daPKk4coxx5xha7A3/red-teaming-challenges-and-research-directions",
+    "author": "Joshc",
+    "title": "Red teaming: challenges and research directions",
+    "published_date": "2023-05-10",
+    "summary": "This article proposes research directions for AI red-teaming organizations, focusing on identifying hazards like unauthorized access, harmful use, and unintended AI propensities. Red teamers would assess AI systems' vulnerabilities through various adversarial techniques, such as prompt engineering, model fine-tuning, and integration with other tools, to inform regulatory decisions about AI deployment and usage."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2501.07238",
+    "title": "Lessons From Red Teaming 100 Generative AI Products",
+    "published_date": "2025-01-13",
+    "abstract": "In recent years, AI red teaming has emerged as a practice for probing the safety and security of generative AI systems. Due to the nascency of the field, there are many open questions about how red teaming operations should be conducted. Based on our experience red teaming over 100 generative AI products at Microsoft, we present our internal threat model ontology and eight main lessons we have learned: 1. Understand what the system can do and where it is applied 2. You don't have to compute gradients to break an AI system 3. AI red teaming is not safety benchmarking 4. Automation can help cover more of the risk landscape 5. The human element of AI red teaming is crucial 6. Responsible AI harms are pervasive but difficult to measure 7. LLMs amplify existing security risks and introduce new ones 8. The work of securing AI systems will never be complete By sharing these insights alongside case studies from our operations, we offer practical recommendations aimed at aligning red teaming efforts with real world risks. We also highlight aspects of AI red teaming that we believe are often misunderstood and discuss open questions for the field to consider.",
+    "summary": "Microsoft's experience red-teaming over 100 generative AI products yielded eight key lessons, emphasizing the importance of understanding system capabilities, diverse attack methods beyond gradient-based approaches, and the crucial role of human expertise in identifying and mitigating pervasive, yet hard-to-quantify, responsible AI harms."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.01606",
+    "title": "Automated Red Teaming with GOAT: the Generative Offensive Agent Tester",
+    "published_date": "2024-10-02",
+    "abstract": "Red teaming assesses how large language models (LLMs) can produce content that violates norms, policies, and rules set during their safety training. However, most existing automated methods in the literature are not representative of the way humans tend to interact with AI models. Common users of AI models may not have advanced knowledge of adversarial machine learning methods or access to model internals, and they do not spend a lot of time crafting a single highly effective adversarial prompt. Instead, they are likely to make use of techniques commonly shared online and exploit the multiturn conversational nature of LLMs. While manual testing addresses this gap, it is an inefficient and often expensive process. To address these limitations, we introduce the Generative Offensive Agent Tester (GOAT), an automated agentic red teaming system that simulates plain language adversarial conversations while leveraging multiple adversarial prompting techniques to identify vulnerabilities in LLMs. We instantiate GOAT with 7 red teaming attacks by prompting a general-purpose model in a way that encourages reasoning through the choices of methods available, the current target model's response, and the next steps. Our approach is designed to be extensible and efficient, allowing human testers to focus on exploring new areas of risk while automation covers the scaled adversarial stress-testing of known risk territory. We present the design and evaluation of GOAT, demonstrating its effectiveness in identifying vulnerabilities in state-of-the-art LLMs, with an ASR@10 of 97% against Llama 3.1 and 88% against GPT-4 on the JailbreakBench dataset.",
+    "summary": "GOAT is an automated red teaming system that simulates realistic user interactions to identify vulnerabilities in large language models (LLMs) by employing various adversarial prompting techniques, offering a more efficient alternative to manual testing. Its effectiveness is demonstrated by high accuracy scores against leading LLMs in identifying vulnerabilities."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.04249",
+    "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+    "published_date": "2024-02-06",
+    "abstract": "Automated red teaming holds substantial promise for uncovering and mitigating the risks associated with the malicious use of large language models (LLMs), yet the field lacks a standardized evaluation framework to rigorously assess new methods. To address this issue, we introduce HarmBench, a standardized evaluation framework for automated red teaming. We identify several desirable properties previously unaccounted for in red teaming evaluations and systematically design HarmBench to meet these criteria. Using HarmBench, we conduct a large-scale comparison of 18 red teaming methods and 33 target LLMs and defenses, yielding novel insights. We also introduce a highly efficient adversarial training method that greatly enhances LLM robustness across a wide range of attacks, demonstrating how HarmBench enables codevelopment of attacks and defenses. We open source HarmBench at https://github.com/centerforaisafety/HarmBench.",
+    "citation_count": 181,
+    "summary": "HarmBench is a standardized evaluation framework for automated red teaming of large language models (LLMs), enabling rigorous comparison of attack and defense methods and promoting the co-development of more robust AI systems. The framework's open-source release facilitates community-wide progress in mitigating LLM risks."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/m6poxWegJkp8LPpjw/can-generalized-adversarial-testing-enable-more-rigorous-llm",
+    "author": "Stephen Casper",
+    "title": "Can Generalized Adversarial Testing Enable More Rigorous LLM Safety Evals?",
+    "published_date": "2024-07-30",
+    "summary": "Current LLM safety evaluations often fail to account for attackers modifying the model itself, not just its inputs. \"Generalized\" adversarial testing, which allows manipulation of model weights and activations, offers a more robust evaluation method even for black-box deployments, better reflecting real-world risks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.16783",
+    "title": "Holistic Automated Red Teaming for Large Language Models through Top-Down Test Case Generation and Multi-turn Interaction",
+    "published_date": "2024-09-25",
+    "abstract": "Automated red teaming is an effective method for identifying misaligned behaviors in large language models (LLMs). Existing approaches, however, often focus primarily on improving attack success rates while overlooking the need for comprehensive test case coverage. Additionally, most of these methods are limited to single-turn red teaming, failing to capture the multi-turn dynamics of real-world human-machine interactions. To overcome these limitations, we propose **HARM** (**H**olistic **A**utomated **R**ed tea**M**ing), which scales up the diversity of test cases using a top-down approach based on an extensible, fine-grained risk taxonomy. Our method also leverages a novel fine-tuning strategy and reinforcement learning techniques to facilitate multi-turn adversarial probing in a human-like manner. Experimental results demonstrate that our framework enables a more systematic understanding of model vulnerabilities and offers more targeted guidance for the alignment process.",
+    "summary": "HARM (Holistic Automated Red Teaming) addresses limitations in existing LLM red teaming by generating diverse multi-turn test cases using a top-down risk taxonomy, improving test coverage and revealing vulnerabilities missed by single-turn approaches. This framework leverages fine-tuning and reinforcement learning to simulate human-like interactions, providing more targeted alignment guidance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.07786",
+    "title": "The Human Factor in AI Red Teaming: Perspectives from Social and Collaborative Computing",
+    "published_date": "2024-07-10",
+    "abstract": "Rapid progress in general-purpose AI has sparked significant interest in\"red teaming,\"a practice of adversarial testing originating in military and cybersecurity applications. AI red teaming raises many questions about the human factor, such as how red teamers are selected, biases and blindspots in how tests are conducted, and harmful content's psychological effects on red teamers. A growing body of HCI and CSCW literature examines related practices-including data labeling, content moderation, and algorithmic auditing. However, few, if any have investigated red teaming itself. Future studies may explore topics ranging from fairness to mental health and other areas of potential harm. We aim to facilitate a community of researchers and practitioners who can begin to meet these challenges with creativity, innovation, and thoughtful reflection.",
+    "citation_count": 1,
+    "summary": "This paper highlights the crucial, yet understudied, human element in AI red teaming, emphasizing the need for research on red teamer selection, bias mitigation, and the psychological impact of adversarial testing. It calls for collaborative research to address these challenges in AI safety and security."
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.04893",
+    "title": "A Safe Harbor for AI Evaluation and Red Teaming",
+    "published_date": "2024-03-07",
+    "abstract": "Independent evaluation and red teaming are critical for identifying the risks posed by generative AI systems. However, the terms of service and enforcement strategies used by prominent AI companies to deter model misuse have disincentives on good faith safety evaluations. This causes some researchers to fear that conducting such research or releasing their findings will result in account suspensions or legal reprisal. Although some companies offer researcher access programs, they are an inadequate substitute for independent research access, as they have limited community representation, receive inadequate funding, and lack independence from corporate incentives. We propose that major AI developers commit to providing a legal and technical safe harbor, indemnifying public interest safety research and protecting it from the threat of account suspensions or legal reprisal. These proposals emerged from our collective experience conducting safety, privacy, and trustworthiness research on generative AI systems, where norms and incentives could be better aligned with public interests, without exacerbating model misuse. We believe these commitments are a necessary step towards more inclusive and unimpeded community efforts to tackle the risks of generative AI.",
+    "citation_count": 20,
+    "summary": "The paper argues that current AI company terms of service hinder independent safety research and proposes a \"safe harbor\" – legal and technical protections – to incentivize and safeguard such crucial evaluations of generative AI systems. This would mitigate the risk of reprisal for researchers publicly disclosing vulnerabilities."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14"
+  },
+  {
+    "title": "MARLINE: Multi-Source Mapping Transfer Learning for Non-Stationary Environments",
+    "abstract": "Concept drift is a major problem in online learning due to its impact on the predictive performance of data stream mining systems. Recent studies have started exploring data streams from different sources as a strategy to tackle concept drift in a given target domain. These approaches make the assumption that at least one of the source models represents a concept similar to the target concept, which may not hold in many real-world scenarios. In this paper, we propose a novel approach called Multi-source mApping with tRansfer LearnIng for Nonstationary Environments (MARLINE). MARLINE can benefit from knowledge from multiple data sources in non-stationary environments even when source and target concepts do not match. This is achieved by projecting the target concept to the space of each source concept, enabling multiple source sub-classifiers to contribute towards the prediction of the target concept as part of an ensemble. Experiments on several synthetic and real-world datasets show that MARLINE was more accurate than several state-of-the-art data stream learning approaches.",
+    "published_date": "2020-11-01",
+    "citation_count": 8,
+    "url": "https://zenodo.org/record/5140070/files/DuICDM2020.pdf"
+  },
+  {
+    "title": "Adaptation Algorithm and Theory Based on Generalized Discrepancy",
+    "abstract": "We present a new algorithm for domain adaptation improving upon the discrepancy minimization algorithm (DM), which was previously shown to outperform a number of popular algorithms designed for this task. Unlike most previous approaches adopted for domain adaptation, our algorithm does not consist of a fixed reweighting of the losses over the training sample. Instead, it uses a reweighting that depends on the hypothesis considered and is based on the minimization of a new measure of generalized discrepancy. We give a detailed description of our algorithm and show that it can be formulated as a convex optimization problem. We also present a detailed theoretical analysis of its learning guarantees, which helps us select its parameters. Finally, we report the results of experiments demonstrating that it improves upon the DM algorithm in several tasks.",
+    "published_date": "2014-05-06",
+    "citation_count": 64,
+    "url": "https://dl.acm.org/doi/10.1145/2783258.2783368"
+  }
+]

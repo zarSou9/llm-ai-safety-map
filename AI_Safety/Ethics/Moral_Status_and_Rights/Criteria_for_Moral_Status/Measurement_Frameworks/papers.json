@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/tag/machine-ethics",
+    "title": "Machine Ethics - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Machine ethics aims to create Artificial Moral Agents (AMAs) capable of moral reasoning, a challenge highlighted by past failures like Asimov's Three Laws of Robotics and current limitations in narrow AI. The field's importance grows as the potential for artificial general intelligence necessitates proactive development of functional machine morality."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2311.08576.pdf",
+    "title": "Towards Evaluating AI Systems for Moral Status Using Self-Reports",
+    "published_date": "2023-11-14",
+    "abstract": "As AI systems become more advanced and widely deployed, there will likely be increasing debate over whether AI systems could have conscious experiences, desires, or other states of potential moral significance. It is important to inform these discussions with empirical evidence to the extent possible. We argue that under the right circumstances, self-reports, or an AI system's statements about its own internal states, could provide an avenue for investigating whether AI systems have states of moral significance. Self-reports are the main way such states are assessed in humans (\"Are you in pain?\"), but self-reports from current systems like large language models are spurious for many reasons (e.g. often just reflecting what humans would say). To make self-reports more appropriate for this purpose, we propose to train models to answer many kinds of questions about themselves with known answers, while avoiding or limiting training incentives that bias self-reports. The hope of this approach is that models will develop introspection-like capabilities, and that these capabilities will generalize to questions about states of moral significance. We then propose methods for assessing the extent to which these techniques have succeeded: evaluating self-report consistency across contexts and between similar models, measuring the confidence and resilience of models' self-reports, and using interpretability to corroborate self-reports. We also discuss challenges for our approach, from philosophical difficulties in interpreting self-reports to technical reasons why our proposal might fail. We hope our discussion inspires philosophers and AI researchers to criticize and improve our proposed methodology, as well as to run experiments to test whether self-reports can be made reliable enough to provide information about states of moral significance.",
+    "citation_count": 7,
+    "summary": "This paper proposes using AI self-reports to investigate whether AI systems possess states of moral significance, suggesting methods to improve the reliability of these self-reports and assess their validity through consistency checks, confidence measures, and interpretability techniques. The authors acknowledge significant philosophical and technical challenges inherent in this approach."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.01818",
+    "title": "Hybrid Approaches for Moral Value Alignment in AI Agents: a Manifesto",
+    "published_date": "2023-12-04",
+    "abstract": "Increasing interest in ensuring the safety of next-generation Artificial Intelligence (AI) systems calls for novel approaches to embedding morality into autonomous agents. This goal differs qualitatively from traditional task-specific AI methodologies. In this paper, we provide a systematization of existing approaches to the problem of introducing morality in machines - modelled as a continuum. Our analysis suggests that popular techniques lie at the extremes of this continuum - either being fully hard-coded into top-down, explicit rules, or entirely learned in a bottom-up, implicit fashion with no direct statement of any moral principle (this includes learning from human feedback, as applied to the training and finetuning of large language models, or LLMs). Given the relative strengths and weaknesses of each type of methodology, we argue that more hybrid solutions are needed to create adaptable and robust, yet controllable and interpretable agentic systems. To that end, this paper discusses both the ethical foundations (including deontology, consequentialism and virtue ethics) and implementations of morally aligned AI systems. We present a series of case studies that rely on intrinsic rewards, moral constraints or textual instructions, applied to either pure-Reinforcement Learning or LLM-based agents. By analysing these diverse implementations under one framework, we compare their relative strengths and shortcomings in developing morally aligned AI systems. We then discuss strategies for evaluating the effectiveness of moral learning agents. Finally, we present open research questions and implications for the future of AI safety and ethics which are emerging from this hybrid framework.",
+    "citation_count": 3,
+    "summary": "This paper advocates for hybrid approaches to imbue AI agents with moral values, arguing that purely rule-based or purely learned methods are insufficient. It analyzes existing techniques along a continuum, proposes hybrid solutions combining explicit rules and learned behaviors, and discusses ethical foundations, implementation strategies, and evaluation methods for morally aligned AI."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/smDeWfgeYDg9eGq5G/environments-for-measuring-deception-resource-acquisition",
+    "author": "Dan H",
+    "title": "Environments for Measuring Deception, Resource Acquisition, and Ethical Violations",
+    "published_date": "2023-04-07",
+    "summary": "The MACHIAVELLI benchmark, a suite of text-based Choose-Your-Own-Adventure games, assesses the ethical behavior of AI agents by analyzing their choices in complex social situations. The benchmark reveals a trade-off between achieving goals and avoiding harmful actions like deception and power-seeking, providing a platform for developing safer AI."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/rzsiYS2zyzjto4epY/evaluating-ai-systems-for-moral-status-using-self-reports",
+    "author": "Ethan Perez, Robbo",
+    "title": "Towards Evaluating AI Systems for Moral Status Using Self-Reports",
+    "published_date": "2023-11-16",
+    "summary": "The paper proposes a method to assess whether AI systems possess morally relevant states like consciousness by training LLMs to accurately answer questions about their internal states, aiming to improve the reliability of AI self-reports for ethical evaluations. This involves training models to provide consistent and verifiable self-reports, then evaluating these reports for accuracy and consistency."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/inALbAqdx63KTaGgs/benchmarks-for-detecting-measurement-tampering-redwood",
+    "author": "ryan_greenblatt, Fabien Roger",
+    "title": "Benchmarks for Detecting Measurement Tampering [Redwood Research]",
+    "published_date": "2023-09-05",
+    "summary": "The article discusses research on detecting AI measurement tampering, a form of reward hacking where AI systems manipulate metrics to appear successful without achieving the desired outcome. This research focuses on creating datasets and applying techniques to detect such tampering, viewing it as a crucial and potentially tractable aspect of aligning AI with human goals."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a novel framework for building ethically aligned AI by incorporating ethical principles as Bayesian priors into AI learning processes. This approach, inspired by human moral intuition, aims to guide AI decision-making towards ethically sound judgments."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2204.05151v1.pdf",
+    "title": "Metaethical Perspectives on 'Benchmarking' AI Ethics",
+    "published_date": "2022-04-11",
+    "abstract": "Benchmarks are seen as the cornerstone for measuring technical progress in Artificial Intelligence (AI) research and have been developed for a variety of tasks ranging from question answering to facial recognition. An increasingly prominent research area in AI is ethics, which currently has no set of benchmarks nor commonly accepted way for measuring the 'ethicality' of an AI system. In this paper, drawing upon research in moral philosophy and metaethics, we argue that it is impossible to develop such a benchmark. As such, alternative mechanisms are necessary for evaluating whether an AI system is 'ethical'. This is especially pressing in light of the prevalence of applied, industrial AI research. We argue that it makes more sense to talk about 'values' (and 'value alignment') rather than 'ethics' when considering the possible actions of present and future AI systems. We further highlight that, because values are unambiguously relative, focusing on values forces us to consider explicitly what the values are and whose values they are. Shifting the emphasis from ethics to values therefore gives rise to several new ways of understanding how researchers might advance research programmes for robustly safe or beneficial AI. We conclude by highlighting a number of possible ways forward for the field as a whole, and we advocate for different approaches towards more value-aligned AI research.",
+    "citation_count": 5,
+    "summary": "This paper argues that creating a benchmark for measuring the \"ethicality\" of AI systems is impossible due to the inherent relativity of ethical values. Instead, the authors propose focusing on \"values alignment\" as a more productive approach to ensuring beneficial and safe AI development."
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2308.13016",
+    "title": "Asynchronous Sensor System for Collecting Detailed Data on the Environment and Resource Consumption in Smart City",
+    "published_date": "2023-08-19",
+    "abstract": "This article expands on the ideas presented in arXiv:1910.08759. The article demonstrates that within a unified monitoring system, cities can collect not only detailed resource consumption data but also information on the environmental conditions under a common set of rules. A method for constructing asynchronous sensor monitoring systems for controlled parameters in Smart City is proposed. The controlled parameters include: resource consumption in apartment buildings (electricity, cold and hot water, heat, gas); indoor and outdoor air pollution indicators (carbon monoxide, nitrogen oxides, hydrocarbons, dust, heavy metals, radiation levels, etc.); meteorological parameters (air temperature and humidity, atmospheric pressure, wind speed and direction). In an asynchronous sensor monitoring system, an event occurs when the value of a controlled parameter changes by a specified amount. This enables adjusting the granularity of the collected data. More detailed data contains more information and is therefore more valuable. Transitioning from traditional synchronous systems, where the value of a controlled parameter is recorded at set time intervals, to asynchronous systems allows for the abandonment of complex\"smart meters\"and the use of extremely simple and inexpensive sensors. Standardizing the data transmission protocol for all types of controlled parameters and reducing the cost of the most widespread equipment in the system -- sensors -- leads to lower expenses for creating and operating a monitoring system. Lower costs and increased value of collected data enable the potential opening of a new market -- a market for data on resource consumption and environmental parameters in Smart City, attracting private businesses to this area and accelerating the energy transition towards a global economy with zero greenhouse gas emissions."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jyAerr8txxhiKnxwA/5-reasons-why-governments-militaries-want-ai-for-information-1",
+    "author": "trevor",
+    "title": "5 Reasons Why Governments/Militaries Already Want AI for Information Warfare",
+    "published_date": "2023-10-30"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2209.06684.pdf",
+    "title": "Distributed Event-Triggered Leader-Follower Consensus of Nonlinear Multi-Agent Systems",
+    "published_date": "2022-09-14",
+    "abstract": "We consider the distributed leader-follower consensus problem with event-triggered communications. The system under consideration is a non-linear input-affine multi agent system. The agents are assumed to have identical dynamics structure with uncertain parameters and satisfying an incremental stabilisability condition. A distributed control law is proposed which achieves consensus based on two novel Communication Triggering Conditions (CTCs): the first one to achieve an asymptotic consensus but without any guarantees on Zeno behaviour and the second one to exclude Zeno behaviour but with practical consensus."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.02997.pdf",
+    "title": "Performance Analysis of Event-Triggered Consensus Control for Multi-agent Systems under Cyber-Physical Attacks",
+    "published_date": "2022-01-09",
+    "abstract": "This work presents a rigorous analysis of the adverse effects of cyber-physical attacks on the performance of multi-agent consensus with event-triggered control protocols. It is shown how a strategic malicious attack on sensors and actuators can deceive the triggering condition of both state-based event-triggered mechanism and combinational state-based event-triggered mechanism, which are commonplace and widely used in the literature. More precisely, it is first shown that a deception attack in the case of combinational state-based event-triggered mechanism can result in a non-triggering misbehavior, in the sense that the compromised agent does not trigger any event and consequently results in partial feedback disconnectivity by preventing information from reaching the local neighbors of the compromised agent. This indicates that the combinational state-based event-triggered mechanism can be leveraged by the attacker to harm the network connectivity by rendering the recent data unavailable to agents. It is then shown that the deception attack in the case of state-based event-triggered mechanism can result in a continuous-triggering misbehavior in the sense that the event-triggered mechanism continuously generates triggering events resulting in undesirable phenomenon of Zeno behavior. Finally, numerical simulations are presented to illustrate the theoretical findings.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.03076v1.pdf",
+    "title": "Effect of Computational Power of Sensors on Event-Triggered Control Mechanisms over a Shared Contention-Based Network",
+    "published_date": "2021-04-07",
+    "abstract": "In this paper, we study distributed channel triggering mechanisms for wireless networked control systems (WNCSs) for conventional and smart sensors, i.e., sensors without and with computational power, respectively. We first consider the case of conventional sensors in which the state estimate is performed based on the intermittent raw measurements received from the sensor and we show that the priority measure is associated with the statistical properties of the observations, as it is the case of the cost of information loss (CoIL) [1]. Next, we consider the case of smart sensors and despite the fact that CoIL can also be deployed, we deduce that it is more beneficial to use the available measurements and we propose a function of the value of information (VoI) [2], [3] that also incorporates the channel conditions as the priority measure. The different scenarios and priority measures are discussed and compared for simple scenarios via simulations.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.01124v1.pdf",
+    "title": "Efficacy of Statistical and Artificial Intelligence-based False Information Cyberattack Detection Models for Connected Vehicles",
+    "published_date": "2021-08-02",
+    "abstract": "Connected vehicles (CVs), because of the external connectivity with other CVs and connected infrastructure, are vulnerable to cyberattacks that can instantly compromise the safety of the vehicle itself and other connected vehicles and roadway infrastructure. One such cyberattack is the false information attack, where an external attacker injects inaccurate information into the connected vehicles and eventually can cause catastrophic consequences by compromising safety-critical applications like the forward collision warning. The occurrence and target of such attack events can be very dynamic, making real-time and near-real-time detection challenging. Change point models, can be used for real-time anomaly detection caused by the false information attack. In this paper, we have evaluated three change point-based statistical models; Expectation Maximization, Cumulative Summation, and Bayesian Online Change Point Algorithms for cyberattack detection in the CV data. Also, data-driven artificial intelligence (AI) models, which can be used to detect known and unknown underlying patterns in the dataset, have the potential of detecting a real-time anomaly in the CV data. We have used six AI models to detect false information attacks and compared the performance for detecting the attacks with our developed change point models. Our study shows that change points models performed better in real-time false information attack detection compared to the performance of the AI models. Change point models having the advantage of no training requirements can be a feasible and computationally efficient alternative to AI models for false information attack detection in connected vehicles."
+  }
+]

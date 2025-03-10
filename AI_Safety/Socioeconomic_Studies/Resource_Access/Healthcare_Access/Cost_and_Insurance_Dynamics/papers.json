@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.21284",
+    "title": "AI-driven innovation in medicaid: enhancing access, cost efficiency, and population health management",
+    "published_date": "2024-10-11",
+    "abstract": "The U.S. Medicaid program is experiencing critical challenges that include rapidly increasing healthcare costs, uneven care accessibility, and the challenge associated with addressing a varied set of population health needs. This paper investigates the transformative potential of Artificial Intelligence (AI) in reshaping Medicaid by streamlining operations, improving patient results, and lowering costs. We delve into the pivotal role of AI in predictive analytics, care coordination, the detection of fraud, and personalized medicine. By leveraging insights from advanced data models and addressing challenges particular to Medicaid, we put forward AI-driven solutions that prioritize equitable care and improved public health outcomes. This study underscores the urgency of integrating AI into Medicaid to not only improve operational effectiveness but also to create a more accessible and equitable healthcare system for all beneficiaries.",
+    "citation_count": 2,
+    "summary": "This paper explores how artificial intelligence can revolutionize the US Medicaid program by improving operational efficiency, enhancing patient care, and reducing costs through applications like predictive analytics, fraud detection, and personalized medicine. The authors advocate for AI integration to create a more equitable and accessible healthcare system for Medicaid beneficiaries."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.10539",
+    "title": "Overcoming Medical Overuse with AI Assistance: An Experimental Investigation",
+    "published_date": "2024-05-17",
+    "abstract": "This study evaluates the effectiveness of Artificial Intelligence (AI) in mitigating medical overtreatment, a significant issue characterized by unnecessary interventions that inflate healthcare costs and pose risks to patients. We conducted a lab-in-the-field experiment at a medical school, utilizing a novel medical prescription task, manipulating monetary incentives and the availability of AI assistance among medical students using a three-by-two factorial design. We tested three incentive schemes: Flat (constant pay regardless of treatment quantity), Progressive (pay increases with the number of treatments), and Regressive (penalties for overtreatment) to assess their influence on the adoption and effectiveness of AI assistance. Our findings demonstrate that AI significantly reduced overtreatment rates by up to 62% in the Regressive incentive conditions where (prospective) physician and patient interests were most aligned. Diagnostic accuracy improved by 17% to 37%, depending on the incentive scheme. Adoption of AI advice was high, with approximately half of the participants modifying their decisions based on AI input across all settings. For policy implications, we quantified the monetary (57%) and non-monetary (43%) incentives of overtreatment and highlighted AI's potential to mitigate non-monetary incentives and enhance social welfare. Our results provide valuable insights for healthcare administrators considering AI integration into healthcare systems.",
+    "summary": "A lab experiment showed that AI assistance significantly reduced medical overtreatment (up to 62%), particularly when financial penalties were in place, aligning physician and patient interests; this improvement was accompanied by increased diagnostic accuracy (17-37%)."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/health-medicine-disease",
+    "title": "Health / Medicine / Disease - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "The provided text is not an article; it's a brief note indicating that information about the 2019 coronavirus outbreak is located elsewhere. No health-related content is included in this snippet."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/dDzHJGmyeQa2tGmqH/the-greedy-doctor-problem-turns-out-to-be-relevant-to-the",
+    "author": "Jan Hendrik Kirchner",
+    "title": "The Greedy Doctor Problem... turns out to be relevant to the ELK problem? - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "The article introduces the \"Greedy Doctor Problem,\" a thought experiment exploring how to incentivize a more intelligent, self-interested agent (a doctor) to act in the best interest of a less intelligent principal (the patient). It connects this problem to the principal-agent problem and Vinge's principle, arguing for unconventional solutions unbound by practical limitations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "The article explores applying game theory to AI development within organizations, highlighting its strengths in multi-agent systems but also its limitations regarding organizational structure and decision-making. It argues that even with advanced AI, bureaucratic structures—characterized by hierarchical authority and specialized tasks—will remain necessary for efficient goal achievement due to inherent limitations in any single entity's processing capacity."
+  },
+  {
+    "url": "https://arxiv.org/abs/2205.01066",
+    "title": "Quantifying Health Inequalities Induced by Data and AI Models",
+    "published_date": "2022-04-24",
+    "abstract": "AI technologies are being increasingly tested and applied in critical environments including healthcare. Without an effective way to detect and mitigate AI induced inequalities, AI might do more harm than good, potentially leading to the widening of underlying inequalities. This paper proposes a generic allocation-deterioration framework for detecting and quantifying AI induced inequality. Specifically, AI induced inequalities are quantified as the area between two allocation-deterioration curves. To assess the framework's performance, experiments were conducted on ten synthetic datasets (N>33,000) generated from HiRID - a real-world Intensive Care Unit (ICU) dataset, showing its ability to accurately detect and quantify inequality proportionally to controlled inequalities. Extensive analyses were carried out to quantify health inequalities (a) embedded in two real-world ICU datasets; (b) induced by AI models trained for two resource allocation scenarios. Results showed that compared to men, women had up to 33% poorer deterioration in markers of prognosis when admitted to HiRID ICUs. All four AI models assessed were shown to induce significant inequalities (2.45% to 43.2%) for non-White compared to White patients. The models exacerbated data embedded inequalities significantly in 3 out of 8 assessments, one of which was >9 times worse.",
+    "citation_count": 5,
+    "summary": "This paper introduces a framework to quantify AI-induced health inequalities by measuring the area between allocation-deterioration curves, demonstrating its effectiveness on synthetic and real-world ICU datasets where AI models exacerbated existing inequalities, particularly for women and non-White patients."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dDzHJGmyeQa2tGmqH/the-greedy-doctor-problem-turns-out-to-be-relevant-to-the",
+    "author": "Jan",
+    "title": "The Greedy Doctor Problem... turns out to be relevant to the ELK problem?",
+    "published_date": "2022-01-14",
+    "summary": "The article introduces the \"Greedy Doctor Problem,\" a thought experiment exploring how to incentivize a superior, self-interested agent (a doctor) to act in the best interest of a less intelligent principal (the patient). It connects this problem to the principal-agent problem and Vinge's principle, suggesting novel solutions beyond those found in existing economic literature."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi/p/HvqQm6o8KnwxbdmhZ",
+    "author": "lennart, Jsevillamol, Marius Hobbhahn, Tamay Besiroglu, anson.ho",
+    "title": "Estimating training compute of Deep Learning models",
+    "published_date": "2022-01-20",
+    "summary": "The article presents two methods for estimating the computational cost of training deep learning models: directly counting operations within the model's architecture or indirectly estimating it from GPU training time, finding both methods yield comparable results."
+  }
+]

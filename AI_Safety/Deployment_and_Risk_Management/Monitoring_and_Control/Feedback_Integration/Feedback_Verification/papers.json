@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.18798",
+    "title": "Formal Verification of Digital Twins with TLA and Information Leakage Control",
+    "published_date": "2024-11-27",
+    "abstract": "Verifying the correctness of a digital twin provides a formal guarantee that the digital twin operates as intended. Digital twin verification is challenging due to the presence of uncertainties in the virtual representation, the physical environment, and the bidirectional flow of information between physical and virtual. A further challenge is that a digital twin of a complex system is composed of distributed components. This paper presents a methodology to specify and verify digital twin behavior, translating uncertain processes into a formally verifiable finite state machine. We use the Temporal Logic of Actions (TLA) to create a specification, an implementation abstraction that defines the properties required for correct system behavior. Our approach includes a novel weakening of formal security properties, allowing controlled information leakage while preserving theoretical guarantees. We demonstrate this approach on a digital twin of an unmanned aerial vehicle, verifying synchronization of physical-to-virtual and virtual-to-digital data flows to detect unintended misalignments.",
+    "summary": "This paper proposes a TLA-based methodology for formally verifying digital twin behavior, addressing challenges posed by uncertainties and distributed components by modeling uncertain processes as finite state machines and introducing a novel approach to controlled information leakage. The method is demonstrated through verification of data synchronization in a UAV digital twin."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.11171",
+    "title": "Preventing Unconstrained CBF Safety Filters Caused by Invalid Relative Degree Assumptions",
+    "published_date": "2024-09-17",
+    "abstract": "Control barrier function (CBF)-based safety filters are used to certify and modify potentially unsafe control inputs to a system such as those provided by a reinforcement learning agent or a non-expert user. In this context, safety is defined as the satisfaction of state constraints. Originally designed for continuous-time systems, CBF safety filters typically assume that the system's relative degree is well-defined and is constant across the domain; however, this assumption is restrictive and rarely verified -- even linear system dynamics with a quadratic CBF candidate may not satisfy this assumption. In real-world applications, continuous-time CBF safety filters are implemented in discrete time, exacerbating issues related to violating the condition on the relative degree. These violations can lead to the safety filter being unconstrained (any control input may be certified) for a finite time interval and result in chattering issues and constraint violations. We propose an alternative formulation to address these challenges. Specifically, we present a theoretically sound method that employs multiple CBFs to generate bounded control inputs at each state within the safe set, thereby preventing incorrect certification of arbitrary control inputs. Using this approach, we derive conditions on the maximum sampling time to ensure safety in discrete-time implementations. We demonstrate the effectiveness of our proposed method through simulations and real-world quadrotor experiments, successfully preventing chattering and constraint violations. Finally, we discuss the implications of violating the relative degree condition on CBF synthesis and learning-based CBF methods.",
+    "summary": "Control barrier function (CBF) safety filters, often used to ensure system safety by modifying potentially unsafe control inputs, can become unconstrained due to violated relative degree assumptions, leading to chattering and constraint violations; this paper proposes a multi-CBF approach to prevent this, providing theoretical guarantees and demonstrating effectiveness through simulations and experiments."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.22672",
+    "title": "IM-GIV: an effective integrity monitoring scheme for tightly-coupled GNSS/INS/Vision integration based on factor graph optimization",
+    "published_date": "2024-10-30",
+    "abstract": "Global Navigation Satellite System/Inertial Navigation System (GNSS/INS)/Vision integration based on factor graph optimization (FGO) has recently attracted extensive attention in navigation and robotics community. Integrity monitoring (IM) capability is required when FGO-based integrated navigation system is used for safety-critical applications. However, traditional researches on IM of integrated navigation system are mostly based on Kalman filter. It is urgent to develop effective IM scheme for FGO-based GNSS/INS/Vision integration. In this contribution, the position error bounding formula to ensure the integrity of the GNSS/INS/Vision integration based on FGO is designed and validated for the first time. It can be calculated by the linearized equations from the residuals of GNSS pseudo-range, IMU pre-integration and visual measurements. The specific position error bounding is given in the case of GNSS, INS and visual measurement faults. Field experiments were conducted to evaluate and validate the performance of the proposed position error bounding. Experimental results demonstrate that the proposed position error bounding for the GNSS/INS/Vision integration based on FGO can correctly fit the position error against different fault modes, and the availability of integrity in six fault modes is 100% after correct and timely fault exclusion.",
+    "summary": "This paper proposes IM-GIV, a novel integrity monitoring scheme for tightly-coupled GNSS/INS/Vision integration using factor graph optimization, providing a position error bounding formula derived from linearized residual equations to ensure system integrity even with sensor faults. Field experiments demonstrate 100% availability across six fault modes after fault exclusion."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.00145",
+    "title": "Constraint-Aware Refinement for Safety Verification of Neural Feedback Loops",
+    "published_date": "2024-09-30",
+    "abstract": "This letter presents a method to efficiently reduce conservativeness in reachable set over approximations (RSOAs) to verify safety for neural feedback loops (NFLs), i.e., systems that have neural networks in their control pipelines. While generating RSOAs is a tractable alternative to calculating exact reachable sets, RSOAs can be overly conservative, especially when generated over long time horizons or for highly nonlinear NN control policies. Refinement strategies such as partitioning or symbolic propagation are typically used to limit the conservativeness of RSOAs, but these approaches come with a high computational cost and often can only be used to verify safety for simple reachability problems. This letter presents Constraint-Aware Refinement for Verification (CARV): an efficient refinement strategy that reduces the conservativeness of RSOAs by explicitly using the safety constraints on the NFL. Unlike existing approaches that seek to refine RSOAs over the entire time horizon, CARV limits the computational cost of refinement by refining RSOAs only where necessary to verify safety. We demonstrate that CARV can verify the safety of an NFL where other approaches either fail or take more than <inline-formula> <tex-math notation=\"LaTeX\">$60\\times $ </tex-math></inline-formula> longer and <inline-formula> <tex-math notation=\"LaTeX\">$40\\times $ </tex-math></inline-formula> the memory.",
+    "summary": "CARV, a novel constraint-aware refinement strategy, improves the efficiency of verifying neural feedback loop safety by focusing refinement efforts only on regions necessary to satisfy safety constraints, significantly outperforming existing methods in both speed and memory usage. This reduces the conservativeness of reachable set over-approximations without the computational burden of global refinement."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/s6wew6qerE4XHmbTL/greedy-advantage-aware-rlhf",
+    "author": "sej2020",
+    "title": "Greedy-Advantage-Aware RLHF",
+    "published_date": "2024-12-27",
+    "summary": "The article introduces Greedy-Advantage-Aware RLHF, an algorithm designed to mitigate the negative side effects of misspecified reward functions in reinforcement learning, particularly within language models. This approach reduces agents' tendency to exploit flawed reward functions, offering an improvement over traditional RLHF methods."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/3ag99iJEgFFwyj64Z/complete-feedback",
+    "author": "Abram Demski",
+    "title": "Complete Feedback",
+    "published_date": "2024-11-01",
+    "summary": "The article proposes a notion of corrigibility based on a \"complete\" feedback interface where a trainer can introduce arbitrary \"traders\" influencing the system's predictions. This contrasts with incomplete feedback systems (like RL) prone to uncorrectable hypotheses; the proposed approach, while not sufficient for safety, is argued to be necessary by allowing the trainer to directly counteract undesirable behaviors."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/3P8WBwLyfPBEkbG3c/proveably-safe-self-driving-cars",
+    "author": "Davidmanheim",
+    "title": "Proveably Safe Self Driving Cars",
+    "published_date": "2024-09-15",
+    "summary": "The article argues that \"provably safe AI,\" while not a complete solution to AI safety, offers near-term practical applications. It uses the example of autonomous vehicles, suggesting that by combining proven, formally verified components with robust engineering reliability estimations and risk analysis, we can achieve provable safety guarantees, conditional on the accuracy of underlying models."
+  }
+]

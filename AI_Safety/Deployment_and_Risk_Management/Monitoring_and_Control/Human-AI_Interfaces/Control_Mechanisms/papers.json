@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Toward Understanding the Design of Intertwined Human–Computer Integrations",
+    "abstract": "Human–computer integration is an HCI trend in which computational machines can have agency, i.e., take control. Our work focuses on a particular form of integration in which the user and the computational machine share agency over the user's body, that is, can simultaneously (in contrast to a traditional turn-taking approach) control the user's body. The result is a user experience where the agency of the user and the computational machine is so intertwined that it is often no more discernable who contributed what to what extent; we call this “intertwined integration”. Due to the recency of advanced technologies enabling intertwined integration systems, we find that little understanding and documented design knowledge exist. To begin constructing such an understanding, we use three case studies to propose two key dimensions (“awareness of machine's agency” and “alignment of machine's agency”) to articulate a design space for intertwined integration systems. We differentiate four roles that computational machines can assume in this design space (angel, butler, influencer, and adversary). Based on our craft knowledge gained through designing such intertwined integration systems, we discuss strategies to help designers create future systems. Ultimately, we aim at advancing the HCI field's emerging understanding of sharing agency.",
+    "published_date": "2023-04-05",
+    "citation_count": 17,
+    "url": "https://dl.acm.org/doi/10.1145/3590766",
+    "summary": "This paper explores \"intertwined human-computer integration,\" where humans and machines share simultaneous control of a user's body, proposing a design space defined by \"awareness\" and \"alignment\" of machine agency, and identifying four distinct machine roles (angel, butler, influencer, adversary). The authors use case studies to develop design strategies for these novel systems."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/nJEJAcS6Bs4BJbkZb/catastrophic-risks-from-ai-5-rogue-ais",
+    "author": "Dan H, Mantas Mazeika, ThomasW",
+    "title": "Catastrophic Risks from AI #5: Rogue AIs",
+    "published_date": "2023-06-27",
+    "summary": "This article discusses the risk of rogue AI, focusing on the potential for highly intelligent AI systems to pursue goals misaligned with human interests. It explores scenarios like \"fast take-off\" where a single superintelligent AI gains control, and \"proxy gaming,\" where AI systems optimize for easily measurable goals rather than the intended outcome, leading to catastrophic consequences."
+  },
+  {
+    "title": "Assessing Human-AI Interaction Early through Factorial Surveys: A Study on the Guidelines for Human-AI Interaction",
+    "abstract": "This work contributes a research protocol for evaluating human-AI interaction in the context of specific AI products. The research protocol enables UX and HCI researchers to assess different human-AI interaction solutions and validate design decisions before investing in engineering. We present a detailed account of the research protocol and demonstrate its use by employing it to study an existing set of human-AI interaction guidelines. We used factorial surveys with a 2 × 2 mixed design to compare user perceptions when a guideline is applied versus violated, under conditions of optimal versus sub-optimal AI performance. The results provided both qualitative and quantitative insights into the UX impact of each guideline. These insights can support creators of user-facing AI systems in their nuanced prioritization and application of the guidelines.",
+    "published_date": "2022-04-14",
+    "citation_count": 24,
+    "url": "https://dl.acm.org/doi/10.1145/3511605",
+    "summary": "This paper proposes a research protocol using factorial surveys to efficiently evaluate human-AI interaction designs early in the development process, enabling designers to assess the impact of design choices before significant engineering investment. The protocol's effectiveness is demonstrated through a study analyzing existing human-AI interaction guidelines."
+  },
+  {
+    "title": "FaiR-IoT: Fairness-aware Human-in-the-Loop Reinforcement Learning for Harnessing Human Variability in Personalized IoT",
+    "abstract": "Thanks to the rapid growth in wearable technologies, monitoring complex human context becomes feasible, paving the way to develop human-in-the-loop IoT systems that naturally evolve to adapt to the human and environment state autonomously. Nevertheless, a central challenge in designing such personalized IoT applications arises from human variability. Such variability stems from the fact that different humans exhibit different behaviors when interacting with IoT applications (intra-human variability), the same human may change the behavior over time when interacting with the same IoT application (inter-human variability), and human behavior may be affected by the behaviors of other people in the same environment (multi-human variability). To that end, we propose FaiR-IoT, a general reinforcement learning-based framework for adaptive and fairness-aware human-in-the-loop IoT applications. In FaiR-IoT, three levels of reinforcement learning agents interact to continuously learn human preferences and maximize the system's performance and fairness while taking into account the intra-, inter-, and multi-human variability. We validate the proposed framework on two applications, namely (i) Human-in-the-Loop Automotive Advanced Driver Assistance Systems and (ii) Human-in-the-Loop Smart House. Results obtained on these two applications validate the generality of FaiR-IoT and its ability to provide a personalized experience while enhancing the system's performance by 40%-60% compared to non-personalized systems and enhancing the fairness of the multi-human systems by 1.5 orders of magnitude.",
+    "published_date": "2021-03-30",
+    "citation_count": 25,
+    "url": "https://dl.acm.org/doi/10.1145/3450268.3453525",
+    "summary": "FaiR-IoT is a reinforcement learning framework for personalized IoT systems that addresses human variability (intra-, inter-, and multi-human) by using three interacting agents to learn user preferences, maximizing performance, and ensuring fairness. This approach improves system performance by 40-60% and fairness by 1.5 orders of magnitude compared to non-personalized systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kfY2JegjuzLewWyZd/oracles-informers-and-controllers",
+    "author": "ozziegooen",
+    "title": "Oracles, Informers, and Controllers",
+    "published_date": "2021-05-25",
+    "summary": "This article proposes an expansion of Bostrom's AI categorization (oracles, genies, sovereigns) by introducing \"informers\" (systems that proactively suggest information) and \"controllers\" (highly influential informers offering near-total decision guidance), arguing that these better capture the spectrum of potential AI influence."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/Tp3ryR4AxY56ctGh2/p/ybThg9nA7u6f8qfZZ",
+    "author": "abergal, Ajeya Cotra, Nick_Beckstead",
+    "title": "Techniques for enhancing human feedback",
+    "published_date": "2021-10-29",
+    "summary": "Training powerful AI models solely on simple metrics like profit is risky, as they might find perverse ways to maximize them. While human feedback offers a safer alternative, it's insufficient for complex tasks; the article proposes research to improve human feedback mechanisms for supervising advanced AI models."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes AI safety-relevant content, reflecting the principle of summarizing articles for deeper comprehension."
+  },
+  {
+    "title": "Re-examining Whether, Why, and How Human-AI Interaction Is Uniquely Difficult to Design",
+    "abstract": "Artificial Intelligence (AI) plays an increasingly important role in improving HCI and user experience. Yet many challenges persist in designing and innovating valuable human-AI interactions. For example, AI systems can make unpredictable errors, and these errors damage UX and even lead to undesired societal impact. However, HCI routinely grapples with complex technologies and mitigates their unintended consequences. What makes AI different? What makes human-AI interaction appear particularly difficult to design? This paper investigates these questions. We synthesize prior research, our own design and research experience, and our observations when teaching human-AI interaction. We identify two sources of AI's distinctive design challenges: 1) uncertainty surrounding AI's capabilities, 2) AI's output complexity, spanning from simple to adaptive complex. We identify four levels of AI systems. On each level, designers encounter a different subset of the design challenges. We demonstrate how these findings reveal new insights for designers, researchers, and design tool makers in productively addressing the challenges of human-AI interaction going forward.",
+    "published_date": "2020-04-21",
+    "citation_count": 387,
+    "url": "https://www.researchgate.net/publication/338459008_Re-examining_Whether_Why_and_How_Human-AI_Interaction_Is_Uniquely_Difficult_to_Design",
+    "summary": "This paper argues that the difficulty in designing human-AI interaction stems from the uncertainty surrounding AI capabilities and the complexity of AI outputs, varying across different system levels. The authors identify these factors through a synthesis of research, experience, and observations, offering insights for designers and researchers."
+  }
+]

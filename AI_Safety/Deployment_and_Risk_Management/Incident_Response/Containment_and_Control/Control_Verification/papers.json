@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Verification and runtime assurance for dynamical systems with uncertainty",
+    "abstract": "In this work, we show how controlled robustly forward invariant sets for systems with disturbances are efficiently identified via the application of the mixed monotonicity property. A mixed monotone system can be embedded in a related deterministic embedding system with twice as many states but for which the dynamics are monotone; one can then apply the powerful theory of monotone dynamical systems to the embedding system to conclude useful properties of the initial mixed monotone system. Using this technique, we present a method for verifying state-feedback controllers against safety (set invariance) constraints, and our approach involves evaluating a control barrier function type condition that requires the vector field of the embedding system to point into a certain southeast cone. This approach also facilitates the construction of runtime assurance mechanisms for controlled systems with disturbances, and we study system safety in the presence of state uncertainty as well. The results and findings of this work are demonstrated through two numerical examples where we study (i) the verification of a controlled spacecraft system against a safety constraint, and (ii) the formation of a runtime assurance mechanism that functions in the presence of uncertain state measurements.",
+    "published_date": "2021-05-19",
+    "citation_count": 8,
+    "url": "https://dl.acm.org/doi/10.1145/3447928.3456656",
+    "summary": "This paper presents a method for verifying and ensuring runtime safety of dynamical systems with uncertainty by leveraging the mixed monotonicity property to efficiently identify robustly forward invariant sets. This involves embedding the system in a monotone system, analyzing a control barrier function, and constructing runtime assurance mechanisms handling state uncertainty."
+  },
+  {
+    "title": "Verification of Real-Time Coordination in VirtuosoNext (extended version)",
+    "abstract": "VirtuosoNext TM is a distributed real-time operating system (RTOS) featuring a generic programming model dubbed Interacting Entities . This paper focuses on these interactions, implemented as so-called Hubs . Hubs act as synchronisation and communication mechanisms between the application tasks and implement the services provided by the kernel as a kind of Guarded Protected Action with a well deﬁned semantics. While the kernel provides the most basic services, each carefully designed, tested and optimised, tasks are limited to this handful of basic hubs, leaving the development of more complex mechanisms up to application speciﬁc implementations. In this work we investigate how to support a programming paradigm to compositionally build new services, using notions borrowed from the Reo coordination language, and relieving tasks from coordination aspects while delegating them to the hubs. We formalise the semantics of hubs using an automata model with notions of dataﬂow and time, identify the behaviour of existing hubs, and propose an approach to build new hubs by composing simpler ones. We also provide open-source tools and methods to analyse and verify hubs under our automata interpretation, including time-sensitive behaviour via the Uppaal model checker, usable on http://arcatools.org/hubs . In a ﬁrst experiment several hub interactions are combined into a single more complex hub, which raises the level of abstraction and contributes to a higher productivity for the programmer. We illustrate the proposed tools and methods by verifying key properties on diﬀerent interaction scenarios between tasks and the speciﬁed hub. Finally, we investigate the impact on the performance by comparing diﬀerent implementations on an embedded board.",
+    "published_date": "2020-05-08",
+    "citation_count": 1,
+    "url": "https://zenodo.org/records/3818020",
+    "summary": "This paper presents a formal verification method for the real-time coordination mechanisms (Hubs) within the VirtuosoNext RTOS, using an automata model and Uppaal model checker to ensure correct and timely behavior. The approach allows compositional construction of complex Hubs from simpler ones, improving programmer productivity and enabling verification of resulting system properties."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24",
+    "summary": "This article explores the mathematical challenges within blockchain technology and proposes mechanism design solutions, such as quadratic voting and funding, to improve cooperation and philanthropic efforts within its framework."
+  },
+  {
+    "title": "Discrete supervisory control application to computing systems administration",
+    "abstract": "Abstract A recent and novel research movement has seen the application of Control Theory and Techniques to the administration of computing systems, in a closed-loop management. While most previous works rely on continuous models, we more originally consider the issues that can be posed and solved as discrete supervisory control problems. We adopt a tool-based approach, with a reactive programming language, and its compiler based on discrete controller synthesis (DCS). We illustrate our approach on networks and servers management problems.",
+    "published_date": "2012-05-23",
+    "citation_count": 3,
+    "url": "https://www.sciencedirect.com/science/article/pii/S1474667016331512",
+    "summary": "This paper applies discrete supervisory control theory to computing system administration, using a reactive programming language and discrete controller synthesis for closed-loop management of networks and servers. This contrasts with previous work primarily focused on continuous models."
+  },
+  {
+    "title": "Control software model checking using bisimulation functions for nonlinear systems",
+    "abstract": "This paper extends a method for integrating source-code model checking with dynamic system analysis to verify properties of controllers for nonlinear dynamic systems. Source-code model checking verifies the correctness of control systems including features that are introduced by the software implementation, such as concurrency and task interleaving. Sets of reachable continuous states are computed using numerical simulation and bisimulation functions. The technique as originally proposed handles stable dynamic systems with affine state equations for which quadratic bisimulation functions can be computed easily. The extension in this paper handles nonlinear systems with polynomial state equations for which bisimulation functions can be computed in some cases using sum-of-squares (SoS) techniques. The paper presents the convex optimizations required to perform control system verification using a source-code model checker, and the method is illustrated for an example of a supervisory control system.",
+    "published_date": "2008-12-01",
+    "citation_count": 18,
+    "url": "https://ieeexplore.ieee.org/document/4739247",
+    "summary": "This paper extends a source-code model checking method to verify controllers for nonlinear polynomial systems, leveraging sum-of-squares techniques to compute bisimulation functions and approximate reachable continuous states, thereby enabling verification of properties including software-introduced concurrency. The method integrates numerical simulation with a model checker for improved accuracy."
+  },
+  {
+    "title": "Ensuring code safety without runtime checks for real-time control systems",
+    "abstract": "This paper considers the problem of providing safe programming support and enabling secure online software upgrades for control software in real-time control systems. In such systems, offline techniques for ensuring code safety are greatly preferable to online techniques. We propose a language called Control-C that is essentially a subset of C, but with key restrictions designed to ensure that memory safety of code can be verified entirely by static checking, under certain system assumptions. The language permits pointer-based data structures, restricted dynamic memory allocation, and restricted array operations, without requiring any runtime checks on memory operations and without garbage collection. The language restrictions have been chosen based on an understanding of both compiler technology and the needs of real-time control systems. The paper describes the language design and a compiler implementation for Control-C. We use control codes from three different experimental control systems to evaluate the suitability of the language for these codes, the effort required to port them to Control-C, and the effectiveness of the compiler in detecting a wide range of potential security violations for one of the systems.",
+    "published_date": "2002-10-08",
+    "citation_count": 58,
+    "url": "https://dl.acm.org/citation.cfm?doid=581630.581678",
+    "summary": "Control-C, a C subset, enables static verification of memory safety in real-time control systems without runtime checks by imposing restrictions on pointers, dynamic memory allocation, and array operations. The paper details the language design, compiler implementation, and evaluation using real-world control system code."
+  },
+  {
+    "title": "Verification of a safety-critical railway interlocking system with real-time constraints",
+    "abstract": "Ensuring the correctness of computer systems used in life-critical applications is very difficult. The most commonly used verification methods, simulation and testing, are not exhaustive and can miss errors. The work describes an alternative verification technique based on symbolic model checking that can automatically and exhaustively search the state space of the system and verify if properties are satisfied or not. The method also provides useful quantitative timing information about the behavior of the system. The authors have applied this technique using the Verus tool to a complex safety-critical system designed to control medium and large-size railway stations. They have identified some anomalous behavior in the model with serious potential consequences in the actual implementation. The fact that errors can be identified before a safety-critical system is deployed in the field not only eliminates sources of very serious problems, but also makes it significantly less expensive to debug the system.",
+    "published_date": "1998-06-23",
+    "citation_count": 48,
+    "url": "https://www.sciencedirect.com/science/article/pii/S0167642399000167",
+    "summary": "This paper presents a symbolic model checking approach, using the Verus tool, to verify a safety-critical railway interlocking system, exhaustively checking its state space and timing properties to identify and prevent potentially serious errors before deployment. The method successfully revealed anomalous behavior in the system model, highlighting the cost-effectiveness and safety benefits of this verification technique."
+  }
+]

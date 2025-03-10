@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/tag/reinforcement-learning",
+    "author": "Alex Turner",
+    "title": "Reinforcement Learning - AI Alignment Forum",
+    "published_date": "2023-06-02",
+    "summary": "Reinforcement learning (RL) trains agents to perform tasks by providing feedback signals, rewarding desirable actions. A key challenge in RL is balancing exploration of action possibilities with exploitation of known good actions to achieve optimal performance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/wf83tBACPM9aiykPn/a-survey-of-foundational-methods-in-inverse-reinforcement",
+    "author": "Adamk",
+    "title": "A Survey of Foundational Methods in Inverse Reinforcement Learning",
+    "published_date": "2022-09-01",
+    "summary": "Inverse Reinforcement Learning (IRL) aims to infer an agent's goals by observing its behavior, unlike Reinforcement Learning which focuses on optimal action selection given known goals. IRL finds applications in understanding human and animal behavior, apprenticeship learning, and determining the relative importance of multiple reward factors."
+  },
+  {
+    "title": "Inverse Reinforcement Learning in Contextual MDPs",
+    "abstract": "We consider the Inverse Reinforcement Learning (IRL) problem in Contextual Markov Decision Processes (CMDPs). Here, the reward of the environment, which is not available to the agent, depends on a static parameter referred to as the context. Each context defines an MDP (with a different reward signal), and the agent is provided demonstrations by an expert, for different contexts. The goal is to learn a mapping from contexts to rewards, such that planning with respect to the induced reward will perform similarly to the expert, even for unseen contexts. We suggest two learning algorithms for this scenario. (1) For rewards that are a linear function of the context, we provide a method that is guaranteed to return an $\\epsilon$-optimal solution after a polynomial number of demonstrations. (2) For general reward functions, we propose black-box descent methods based on evolutionary strategies capable of working with nonlinear estimators (e.g., neural networks). We evaluate our algorithms in autonomous driving and medical treatment simulations and demonstrate their ability to learn and generalize to unseen contexts.",
+    "published_date": "2019-05-23",
+    "citation_count": 17,
+    "url": "https://link.springer.com/content/pdf/10.1007/s10994-021-05984-x.pdf",
+    "summary": "This paper addresses inverse reinforcement learning in contextual Markov Decision Processes (CMDPs), proposing two algorithms: one guaranteeing near-optimal reward function learning for linear context-dependent rewards, and another using black-box optimization for general reward functions, both demonstrated on autonomous driving and medical treatment simulations."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/CSEdLLEkap2pubjof/research-agenda-v0-9-synthesising-a-human-s-preferences-into",
+    "author": "Stuart_Armstrong",
+    "title": "Research Agenda v0.9: Synthesising a human's preferences into a utility function",
+    "published_date": "2019-06-17",
+    "summary": "This research agenda proposes a novel approach to safe artificial intelligence development using Inverse Reinforcement Learning, focusing on synthesizing a utility function that accurately reflects human preferences. The approach prioritizes a robust, albeit potentially inelegant, solution over a theoretically elegant but potentially unsafe one."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/JxWggFXcKrPKy7p8t/an-64-using-deep-rl-and-reward-uncertainty-to-incentivize",
+    "author": "Rohin Shah",
+    "title": "[AN #64]: Using Deep RL and Reward Uncertainty to Incentivize Preference Learning",
+    "published_date": "2019-09-16",
+    "summary": "This Alignment Newsletter discusses a paper exploring cooperative inverse reinforcement learning, where an AI assistant learns a human's task by jointly maximizing rewards in a grid-world environment, exhibiting emergent interaction and demonstrating potential for human-AI collaboration. It also mentions a separate post proposing four ways impact measures could aid AI alignment."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/dT7CKGXwq9vt76CeX/p/2dt8miopNAvhKZPNf",
+    "author": "Rohin Shah",
+    "title": "Alignment Newsletter #42",
+    "published_date": "2019-01-22",
+    "summary": "The article discusses Cooperative Inverse Reinforcement Learning (CIRL) as a framework for human-AI rationality, highlighting challenges like the assumption of static human preferences. It also presents empirical evidence comparing different human-robot interaction (HRI) approaches, finding that theory-of-mind methods have advantages in data efficiency and robustness, but black-box model-based learning surpasses them with sufficient data."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/4dHMdK5TLN6xcqtyc/p/cnC2RMWEGiGpJv8go",
+    "author": "Owain_Evans, jsteinhardt",
+    "title": "Model Mis-specification and Inverse Reinforcement Learning",
+    "published_date": "2018-11-09",
+    "summary": "This article discusses the challenges of inverse reinforcement learning (IRL), particularly the problem of model mis-specification when inferring human values from observed actions. The authors highlight how inaccurate assumptions about an agent's capabilities, information access, and long-term goals can lead to flawed inferences about their underlying values."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/dT7CKGXwq9vt76CeX/p/KHLnzFgBtXxJQaDxj",
+    "author": "Rohin Shah",
+    "title": "The Alignment Newsletter #8: 05/28/18",
+    "published_date": "2018-05-28",
+    "summary": "This article summarizes two papers on reinforcement learning: one detailing a novel method (\"Autodidactic Iteration\") for solving problems with sparse rewards by training from the goal state, and another focusing on inverse reinforcement learning with fallible human experts, proposing a method to infer the expert's inaccurate model of the environment's dynamics to improve reward function inference."
+  }
+]

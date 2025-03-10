@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/iaJFJ5Qm29ixtrWsn/sparse-coding-for-mechanistic-interpretability-and",
+    "author": "David Udell",
+    "title": "Sparse Coding, for Mechanistic Interpretability and Activation Engineering",
+    "published_date": "2023-09-23"
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/pcdHisDEGLbxrbSHD/p/9ag5JGBnMsayBidwh",
+    "author": "tom4everitt, Lewis Hammond, Jonathan Richens, Francis Rhys Ward, RyanCarey, sbenthall, James Fox",
+    "title": "Causality: A Brief Introduction",
+    "published_date": "2023-06-20"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2206.06469v1.pdf",
+    "title": "Invariant Structure Learning for Better Generalization and Causal Explainability",
+    "published_date": "2022-06-13",
+    "abstract": "Learning the causal structure behind data is invaluable for improving generalization and obtaining high-quality explanations. We propose a novel framework, Invariant Structure Learning (ISL), that is designed to improve causal structure discovery by utilizing generalization as an indication. ISL splits the data into different environments, and learns a structure that is invariant to the target across different environments by imposing a consistency constraint. An aggregation mechanism then selects the optimal classifier based on a graph structure that reflects the causal mechanisms in the data more accurately compared to the structures learnt from individual environments. Furthermore, we extend ISL to a self-supervised learning setting where accurate causal structure discovery does not rely on any labels. This self-supervised ISL utilizes invariant causality proposals by iteratively setting different nodes as targets. On synthetic and real-world datasets, we demonstrate that ISL accurately discovers the causal structure, outperforms alternative methods, and yields superior generalization for datasets with significant distribution shifts.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/FZL4ftXvcuKmmobmj/causal-confusion-as-an-argument-against-the-scaling",
+    "author": "RobertKirk, David Scott Krueger (formerly: capybaralet)",
+    "title": "Causal confusion as an argument against the scaling hypothesis",
+    "published_date": "2022-06-20"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5BkEoJFEqQEWy9GcL/an-open-philanthropy-grant-proposal-causal-representation",
+    "author": "PabloAMC",
+    "title": "An Open Philanthropy grant proposal: Causal representation learning of human preferences",
+    "published_date": "2022-01-11"
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/causality",
+    "author": "Magdalena Wache",
+    "title": "Causality - AI Alignment Forum",
+    "published_date": "2022-12-19"
+  }
+]

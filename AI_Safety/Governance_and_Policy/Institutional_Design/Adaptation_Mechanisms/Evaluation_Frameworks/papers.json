@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2303.15025",
+    "title": "On the Need for Artifacts to Support Research on Self-Adaptation Mature for Industrial Adoption",
+    "published_date": "2023-03-27",
+    "abstract": "Despite the vast body of knowledge developed by the self-adaptive systems community and the wide use of self-adaptation in industry, it is unclear whether or to what extent industry leverages output of academics. Hence, it is important for the research community to answer the question: Are the solutions developed by the self-adaptive systems community mature enough for industrial adoption? Leveraging a set of empirically-grounded guidelines for industry-relevant artifacts in self-adaptation, we develop a position to answer this question from the angle of using artifacts for evaluating research results in self-adaptation, which is actively stimulated and applied by the community",
+    "summary": "This paper argues that a lack of readily available, industry-relevant artifacts hinders the adoption of academic research on self-adaptive systems. It proposes using empirically-grounded guidelines for creating such artifacts to better assess the maturity and industrial applicability of self-adaptation research."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.09275.pdf",
+    "title": "Rapid Adaptation in Online Continual Learning: Are We Evaluating It Right?",
+    "published_date": "2023-05-16",
+    "abstract": "We revisit the common practice of evaluating adaptation of Online Continual Learning (OCL) algorithms through the metric of online accuracy, which measures the accuracy of the model on the immediate next few samples. However, we show that this metric is unreliable, as even vacuous blind classifiers, which do not use input images for prediction, can achieve unrealistically high online accuracy by exploiting spurious label correlations in the data stream. Our study reveals that existing OCL algorithms can also achieve high online accuracy, but perform poorly in retaining useful information, suggesting that they unintentionally learn spurious label correlations. To address this issue, we propose a novel metric for measuring adaptation based on the accuracy on the near-future samples, where spurious correlations are removed. We benchmark existing OCL approaches using our proposed metric on large-scale datasets under various computational budgets and find that better generalization can be achieved by retaining and reusing past seen information. We believe that our proposed metric can aid in the development of truly adaptive OCL methods. We provide code to reproduce our results at https://github.com/drimpossible/EvalOCL.",
+    "citation_count": 11,
+    "summary": "The paper argues that online accuracy is a flawed metric for evaluating online continual learning (OCL) algorithms because it's easily inflated by spurious correlations; it proposes a new metric focusing on near-future accuracy after removing such correlations, revealing that effective OCL requires retaining and reusing past information."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2202.13711v2.pdf",
+    "title": "Evaluating the Adversarial Robustness of Adaptive Test-time Defenses",
+    "published_date": "2022-02-28",
+    "abstract": "Adaptive defenses, which optimize at test time, promise to improve adversarial robustness. We categorize such adaptive test-time defenses, explain their potential benefits and drawbacks, and evaluate a representative variety of the latest adaptive defenses for image classification. Unfortunately, none significantly improve upon static defenses when subjected to our careful case study evaluation. Some even weaken the underlying static model while simultaneously increasing inference computation. While these results are disappointing, we still believe that adaptive test-time defenses are a promising avenue of research and, as such, we provide recommendations for their thorough evaluation. We extend the checklist of Carlini et al. (2019) by providing concrete steps specific to adaptive defenses.",
+    "citation_count": 60,
+    "summary": "This paper evaluates the effectiveness of adaptive test-time defenses against adversarial attacks in image classification, finding that none significantly outperform static defenses and some even degrade performance; despite these negative results, the authors suggest improvements to future research methodologies and maintain that adaptive defenses remain a promising area of investigation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rmwAuWXYTo24E5nnX/a-pin-and-a-balloon-anthropic-fragility-increases-chances-of",
+    "author": "avturchin",
+    "title": "A Pin and a Balloon: Anthropic Fragility Increases Chances of Runaway Global Warming",
+    "published_date": "2022-09-11",
+    "summary": "Due to survival bias, we may underestimate the likelihood and proximity of climate tipping points, making Earth more fragile to human actions than previously thought. This increased fragility raises the probability of human extinction via runaway global warming."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.11481.pdf",
+    "title": "How do we Evaluate Self-adaptive Software Systems?: A Ten-Year Perspective of SEAMS",
+    "published_date": "2021-03-21",
+    "abstract": "With the increase of research in self-adaptive systems, there is a need to better understand the way research contributions are evaluated. Such insights will support researchers to better compare new findings when developing new knowledge for the community. However, so far there is no clear overview of how evaluations are performed in self-adaptive systems. To address this gap, we conduct a mapping study. The study focuses on experimental evaluations published in the last decade at the prime venue of research in software engineering for self-adaptive systems—the International Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS). Results point out that specifics of self-adaptive systems require special attention in the experimental process, including the distinction of the managing system (i.e., the target of evaluation) and the managed system, the presence of uncertainties that affect the system behavior and hence need to be taken into account in data analysis, and the potential of managed systems to be reused across experiments, beyond replications. To conclude, we offer a set of suggestions derived from our study that can be used as input to enhance future experiments in self-adaptive systems.",
+    "citation_count": 15,
+    "summary": "This paper analyzes ten years of experimental evaluations in self-adaptive systems published at SEAMS, identifying key challenges such as distinguishing between managing and managed systems, handling uncertainties, and reusing managed systems across experiments. The authors offer suggestions to improve future experimental designs in this field."
+  },
+  {
+    "title": "Interrogating 'effectiveness' in climate change adaptation: 11 guiding principles for adaptation research and practice",
+    "abstract": "ABSTRACT\n The Paris Agreement articulates a global goal on adaptation, which aims to ensure an 'adequate adaptation response' to the 'global temperature goal', and requires countries to report progress through periodic global stocktakes. However, there remain conceptual and methodological challenges in defining an adaptation goal and mixed evidence on what effective adaptation looks like and how it can be enabled. In this review, we demonstrate how different normative views on adaptation outcomes, arising from different epistemological and disciplinary entry points, can lead to very different interpretations of adaptation effectiveness. We argue that how effectiveness is framed will significantly impact adaptation implementation and outcomes. This, furthermore, represents a way of exercising influence in adaptation decision-making. Eleven principles of effective adaptation are distilled as a way to pluralize guidance in international processes such as the Global Stocktake as well as national and sub-national exercises on tracking and monitoring adaptation.",
+    "published_date": "2021-08-24",
+    "citation_count": 120,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/17565529.2021.1964937",
+    "summary": "This paper highlights the diverse interpretations of \"effective\" climate change adaptation stemming from varied perspectives, arguing that framing significantly influences implementation and outcomes. It proposes eleven principles to guide adaptation research and practice, promoting a more pluralistic approach to evaluating and monitoring progress."
+  },
+  {
+    "title": "Multi-Method Evaluation of Adaptive Systems",
+    "abstract": "When evaluating personalized or adaptive systems, we frequently rely on one single evaluation objective and one single method. This remains us with “blind spots”. A comprehensive evaluation may require a thoughtful integration of multiple methods. This tutorial (i) demonstrates the wide variety of dimensions to be evaluated, (ii) outlines the methodological approaches to evaluate these dimensions, (iii) pinpoints the blind spots when using only one approach, (iv) demonstrates the benefits of multi-method evaluation, and (v) outlines the basic options how multiple methods can be integrated into one evaluation design. Participants familiarize with the wide spectrum of opportunities how adaptive or personalized systems may be evaluated, and have the opportunity to come up with evaluation designs that comply with the four basic options of multi-method evaluation. The ultimate learning objective is to stimulate the critical reflection of one's own evaluation practices and those of the community at large.",
+    "published_date": "2021-06-21",
+    "url": "https://dl.acm.org/doi/10.1145/3450613.3457122",
+    "summary": "This tutorial advocates for multi-method evaluation of adaptive systems, arguing that relying on single methods creates blind spots and demonstrating various evaluation dimensions, methods, and integration strategies for a more comprehensive assessment. The goal is to promote critical reflection on current evaluation practices."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.10847v1.pdf",
+    "title": "Towards Better Adaptive Systems by Combining MAPE, Control Theory, and Machine Learning",
+    "published_date": "2021-03-19",
+    "abstract": "Two established approaches to engineer adaptive systems are architecture-based adaptation that uses a Monitor-Analysis-Planning-Executing (MAPE) loop that reasons over architectural models (aka Knowledge) to make adaptation decisions, and control-based adaptation that relies on principles of control theory (CT) to realize adaptation. Recently, we also observe a rapidly growing interest in applying machine learning (ML) to support different adaptation mechanisms. While MAPE and CT have particular characteristics and strengths to be applied independently, in this paper, we are concerned with the question of how these approaches are related with one another and whether combining them and supporting them with ML can produce better adaptive systems. We motivate the combined use of different adaptation approaches using a scenario of a cloud-based enterprise system and illustrate the analysis when combining the different approaches. To conclude, we offer a set of open questions for further research in this interesting area.",
+    "citation_count": 20,
+    "summary": "This paper explores the synergy between Model-Analyze-Plan-Execute (MAPE) loops, control theory, and machine learning in building adaptive systems, arguing that combining these approaches offers superior performance compared to using them individually. The authors analyze this synergy using a cloud-based enterprise system scenario and propose further research questions."
+  }
+]

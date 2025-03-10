@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Abstract interpretation of distributed network control planes",
+    "abstract": "The control plane of most computer networks runs distributed routing protocols that determine if and how traffic is forwarded. Errors in the configuration of network control planes frequently knock down critical online services, leading to economic damage for service providers and significant hardship for users. Validation via ahead-of-time simulation can help find configuration errors but such techniques are expensive or even intractable for large industrial networks. We explore the use of abstract interpretation to address this fundamental scaling challenge and find that the right abstractions can reduce the asymptotic complexity of network simulation. Based on this observation, we build a tool called ShapeShifter for reachability analysis. On a suite of 127 production networks from a large cloud provider, ShapeShifter provides an asymptotic improvement in runtime and memory over the state-of-the-art simulator. These gains come with a minimal loss in precision. Our abstract analysis accurately predicts reachability for all destinations for 95% of the networks and for most destinations for the remaining 5%. We also find that abstract interpretation of network control planes not only speeds up existing analyses but also facilitates new kinds of analyses. We illustrate this advantage through a new destination \"hijacking\" analysis for the border gateway protocol (BGP), the globally-deployed routing protocol.",
+    "published_date": "2019-12-20",
+    "citation_count": 44,
+    "url": "https://dl.acm.org/doi/10.1145/3371110",
+    "summary": "This paper presents ShapeShifter, a tool using abstract interpretation to efficiently analyze the reachability of distributed network control planes, achieving significant runtime and memory improvements over existing simulators on large-scale production networks with minimal precision loss, and enabling new analyses like BGP hijack detection."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.00824",
+    "title": "A Lazy Abstraction Algorithm for Markov Decision Processes: Theory and Initial Evaluation",
+    "published_date": "2024-06-02",
+    "abstract": "Analysis of Markov Decision Processes (MDP) is often hindered by state space explosion. Abstraction is a well-established technique in model checking to mitigate this issue. This paper presents a novel lazy abstraction method for MDP analysis based on adaptive simulation graphs. Refinement is performed only when new parts of the state space are explored, which makes partial exploration techniques like Bounded Real-Time Dynamic Programming (BRTDP) retain more merged states. Therefore, we propose a combination of lazy abstraction and BRTDP. To evaluate the performance of our algorithm, we conduct initial experiments using the Quantitative Verification Benchmark Set.",
+    "summary": "This paper introduces a novel lazy abstraction algorithm for Markov Decision Processes (MDPs) that combines adaptive simulation graphs with Bounded Real-Time Dynamic Programming (BRTDP) to improve efficiency by refining abstractions only when necessary. Initial experiments using a benchmark set demonstrate the algorithm's performance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19",
+    "summary": "The article argues that applying formal verification to guarantee AI safety is unrealistic in the near term. Practical limitations, such as the complexity of the real world and the lack of complete symbolic rule sets for natural sciences, make obtaining strong guarantees for AI systems operating in the real world highly improbable."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25",
+    "summary": "The article discusses the challenges of formally verifying neural network behavior, arguing that proving guarantees is unrealistic due to the complexity of interactions within large networks. Instead, it proposes \"heuristic explanations,\" a less rigorous but more practical approach to understanding and quantifying a model's performance, illustrated by a method called \"surprise accounting.\""
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/3P8WBwLyfPBEkbG3c/proveably-safe-self-driving-cars",
+    "author": "Davidmanheim",
+    "title": "Proveably Safe Self Driving Cars",
+    "published_date": "2024-09-15",
+    "summary": "The article argues that \"provably safe AI,\" while not a complete solution to AI safety, has near-term applications, using the example of autonomous vehicles. By building upon formally verifiable components like microkernels and incorporating proven reliability estimates for sensors and engineering systems, a layered approach to achieving provable safety guarantees, conditional on model accuracy, is feasible."
+  },
+  {
+    "url": "https://arxiv.org/abs/2202.12016",
+    "title": "Practical Abstraction for Model Checking of Multi-Agent Systems",
+    "published_date": "2022-02-24",
+    "abstract": "Model checking of multi-agent systems (MAS) is known to be hard, both theoretically and in practice. A smart abstraction of the state space may significantly reduce the model,and facilitate the verification. In this paper, we propose and study an intuitive agent-based abstraction scheme, based on the removal of variables in the representation of a MAS. This allows to achieve a desired reduction of a state space without generating the global model of the system. Moreover, the process is easy to understand and control even for domain experts with little knowledge of computer science. We formally prove the correctness of the approach, and evaluate the gains experimentally on a family of a postal voting models.",
+    "citation_count": 4,
+    "summary": "This paper introduces an agent-based abstraction method for model checking multi-agent systems, simplifying the state space by removing variables while preserving correctness, making verification more tractable and accessible to domain experts. The approach's efficacy is demonstrated through experimental evaluation on postal voting models."
+  },
+  {
+    "url": "https://arxiv.org/abs/2105.07277",
+    "title": "Delay-Bounded Scheduling Without Delay! (Extended Technical Report)",
+    "published_date": "2021-05-15",
+    "abstract": "We consider the broad problem of analyzing safety properties of asynchronous concurrent programs under arbitrary thread interleavings. Delay-bounded deterministic scheduling, introduced in prior work, is an efficient bug-finding technique to curb the large cost associated with full scheduling nondeterminism. In this paper we first present a technique to lift the delay bound for the case of finite-domain variable programs, thus adding to the efficiency of bug detection the ability to prove safety of programs under arbitrary thread interleavings. Second, we demonstrate how, combined with predicate abstraction, our technique can both refute and verify safety properties of programs with unbounded variable domains, even for unbounded thread counts. Previous work has established that, for non-trivial concurrency routines, predicate abstraction induces a highly complex abstract program semantics. Our technique, however, never statically constructs an abstract parametric program; it only requires some abstract-states set to be closed under certain actions, thus eliminating the dependence on the existence of verification algorithms for abstract programs. We demonstrate the efficiency of our technique on many examples used in prior work, and showcase its simplicity compared to earlier approaches on the unbounded-thread Ticket Lock protocol.",
+    "summary": "This paper presents a technique for verifying safety properties of concurrent programs, removing the delay bound limitation of previous delay-bounded scheduling methods for finite-domain programs and extending verification to unbounded-domain programs with unbounded threads using predicate abstraction without explicitly constructing an abstract program. This improves efficiency and scalability of safety verification compared to existing approaches."
+  }
+]

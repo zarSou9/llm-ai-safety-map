@@ -1,0 +1,43 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.14244",
+    "title": "Contract Usage and Evolution in Android Mobile Applications",
+    "published_date": "2024-01-25",
+    "abstract": "Formal contracts and assertions are effective methods to enhance software quality by enforcing preconditions, postconditions, and invariants. Previous research has demonstrated the value of contracts in traditional software development contexts. However, the adoption and impact of contracts in the context of mobile application development, particularly of Android applications, remain unexplored. To address this, we present the first large-scale empirical study on the presence and use of contracts in Android applications, written in Java or Kotlin. We consider different types of contract elements divided into five categories: conditional runtime exceptions, APIs, annotations, assertions, and other. We analyzed 2,390 Android applications from the F-Droid repository and processed more than 51,749 KLOC to determine 1) how and to what extent contracts are used, 2) how contract usage evolves, and 3) whether contracts are used safely in the context of program evolution and inheritance. Our findings include: 1) although most applications do not specify contracts, annotation-based approaches are the most popular among practitioners; 2) applications that use contracts continue to use them in later versions, but the number of methods increases at a higher rate than the number of contracts; and 3) there are many potentially unsafe specification changes when applications evolve and in subtyping relationships, which indicates a lack of specification stability. Our findings show that it would be desirable to have libraries that standardize contract specifications in Java and Kotlin, and tools that aid practitioners in writing stronger contracts and in detecting contract violations in the context of program evolution and inheritance.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.17751",
+    "title": "Pacti: Scaling Assume-Guarantee Reasoning for System Analysis and Design",
+    "published_date": "2023-03-31",
+    "abstract": "Contract-based design is a method to facilitate modular design of systems. While there has been substantial progress on the theory of contracts, there has been less progress on practical algorithms for the algebraic operations in the theory. In this paper, we present 1) principles to implement a contract-based design tool at scale and 2) Pacti, a tool that can efficiently compute these operations. We illustrate the use of Pacti in a variety of case studies.",
+    "citation_count": 9
+  },
+  {
+    "url": "https://arxiv.org/pdf/2205.06535.pdf",
+    "title": "Design-by-Contract for Flexible Multiparty Session Protocols - Extended Version",
+    "published_date": "2022-05-13",
+    "abstract": "Choreographic models support a correctness-by-construction principle in distributed programming. Also, they enable the automatic generation of correct message-based communication patterns from a global specification of the desired system behaviour. In this paper we extend the theory of choreography automata, a choreographic model based on finite-state automata, with two key features. First, we allow participants to act only in some of the scenarios described by the choreography automaton. While this seems natural, many choreographic approaches in the literature, and choreography automata in particular, forbid this behaviour. Second, we equip communications with assertions constraining the values that can be communicated, enabling a design-by-contract approach. We provide a toolchain allowing to exploit the theory above to generate APIs for TypeScript web programming. Programs communicating via the generated APIs follow, by construction, the prescribed communication pattern and are free from communication errors such as deadlocks.",
+    "citation_count": 8
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.12919.pdf",
+    "title": "Failure-Tolerant Contract-Based Design of an Automated Valet Parking System using a Directive-Response Architecture",
+    "published_date": "2021-03-24",
+    "abstract": "Increased complexity in cyber-physical systems calls for modular system design methodologies that guarantee correct and reliable behavior, both in normal operations and in the presence of failures. This paper aims to extend the contract-based design approach using a directive-response architecture to enable reactivity to failure scenarios. The architecture is demonstrated on a modular automated valet parking (AVP) system. The contracts for the different components in the AVP system are explicitly defined, implemented, and validated against a Python implementation."
+  },
+  {
+    "url": "https://arxiv.org/abs/1911.10353",
+    "title": "Seamless Object-Oriented Requirements",
+    "published_date": "2019-10-01",
+    "abstract": "Design by Contract enables seamless software development by unifying software requirements with their implementations. In its pure form, however, Design by Contract leaves some problems with contracts' expressiveness, verifiability, and reusability open. These problems significantly reduce practical applicability of seamless development. The present article introduces seamless object-oriented requirements – a novel approach to seamless development that builds upon Design by Contract and now-available advanced program proving tools. The article explains and illustrates the new approach, concluding with a quantitative evaluation of the extent to which the approach fixes the problems of traditional contracts.",
+    "citation_count": 9
+  },
+  {
+    "title": "Coherent Extension, Composition, and Merging Operators in Contract Models for System Design",
+    "abstract": "Contract models have been proposed to promote and facilitate reuse and distributed development. In this paper, we cast contract models into a coherent formalism used to derive general results about the properties of their operators. We study several extensions of the basic model, including the distinction between weak and strong assumptions and maximality of the specification. We then analyze the disjunction and conjunction operators, and show how they can be broken up into a sequence of simpler operations. This leads to the definition of a new contract viewpoint merging operator, which better captures the design intent in contrast to the more traditional conjunction. The adjoint operation, which we call separation, can be used to re-partition the specification into different viewpoints. We show the symmetries of these operations with respect to composition and quotient.",
+    "published_date": "2019-10-08",
+    "citation_count": 15,
+    "url": "https://dl.acm.org/doi/10.1145/3358216"
+  }
+]

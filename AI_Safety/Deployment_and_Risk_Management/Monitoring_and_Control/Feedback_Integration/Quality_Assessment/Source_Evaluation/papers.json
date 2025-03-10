@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.08596v1.pdf",
+    "title": "Reinforcement Learning with Feedback from Multiple Humans with Diverse Skills",
+    "published_date": "2021-11-16",
+    "abstract": "A promising approach to improve the robustness and exploration in Reinforcement Learning is collecting human feedback and that way incorporating prior knowledge of the target environment. It is, however, often too expensive to obtain enough feedback of good quality. To mitigate the issue, we aim to rely on a group of multiple experts (and non-experts) with different skill levels to generate enough feedback. Such feedback can therefore be inconsistent and infrequent. In this paper, we build upon prior work -- Advise, a Bayesian approach attempting to maximise the information gained from human feedback -- extending the algorithm to accept feedback from this larger group of humans, the trainers, while also estimating each trainer's reliability. We show how aggregating feedback from multiple trainers improves the total feedback's accuracy and make the collection process easier in two ways. Firstly, this approach addresses the case of some of the trainers being adversarial. Secondly, having access to the information about each trainer reliability provides a second layer of robustness and offers valuable information for people managing the whole system to improve the overall trust in the system. It offers an actionable tool for improving the feedback collection process or modifying the reward function design if needed. We empirically show that our approach can accurately learn the reliability of each trainer correctly and use it to maximise the information gained from the multiple trainers' feedback, even if some of the sources are adversarial.",
+    "citation_count": 5
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.00492",
+    "title": "Principled Multi-Aspect Evaluation Measures of Rankings",
+    "published_date": "2021-10-26",
+    "abstract": "Information Retrieval evaluation has traditionally focused on defining principled ways of assessing the relevance of a ranked list of documents with respect to a query. Several methods extend this type of evaluation beyond relevance, making it possible to evaluate different aspects of a document ranking (e.g., relevance, usefulness, or credibility) using a single measure (multi-aspect evaluation). However, these methods either are (i) tailor-made for specific aspects and do not extend to other types or numbers of aspects, or (ii) have theoretical anomalies, e.g. assign maximum score to a ranking where all documents are labelled with the lowest grade with respect to all aspects (e.g., not relevant, not credible, etc.). We present a theoretically principled multi-aspect evaluation method that can be used for any number, and any type, of aspects. A thorough empirical evaluation using up to 5 aspects and a total of 425 runs officially submitted to 10 TREC tracks shows that our method is more discriminative than the state-of-the-art and overcomes theoretical limitations of the state-of-the-art.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.06171v1.pdf",
+    "title": "Probabilistic Inference for Learning from Untrusted Sources",
+    "published_date": "2021-01-15",
+    "abstract": "Federated learning brings potential benefits of faster learning, better solutions, and a greater propensity to transfer when heterogeneous data from different parties increases diversity. However, because federated learning tasks tend to be large and complex, and training times non-negligible, it is important for the aggregation algorithm to be robust to non-IID data and corrupted parties. This robustness relies on the ability to identify, and appropriately weight, incompatible parties. Recent work assumes that a \\textit{reference dataset} is available through which to perform the identification. We consider settings where no such reference dataset is available; rather, the quality and suitability of the parties needs to be \\textit{inferred}. We do so by bringing ideas from crowdsourced predictions and collaborative filtering, where one must infer an unknown ground truth given proposals from participants with unknown quality. We propose novel federated learning aggregation algorithms based on Bayesian inference that adapt to the quality of the parties. Empirically, we show that the algorithms outperform standard and robust aggregation in federated learning on both synthetic and real data."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.12247v1.pdf",
+    "title": "Equal Affection or Random Selection: the Quality of Subjective Feedback from a Group Perspective",
+    "published_date": "2021-02-24",
+    "abstract": "In the setting where a group of agents is asked a single subjective multi-choice question (e.g. which one do you prefer? cat or dog?), we are interested in evaluating the quality of the collected feedback. However, the collected statistics are not sufficient to reflect how informative the feedback is since fully informative feedback (equal affection of the choices) and fully uninformative feedback (random selection) have the same uniform statistics. Here we distinguish the above two scenarios by additionally asking for respondents' predictions about others' choices. We assume that informative respondents' predictions strongly depend on their own choices while uninformative respondents' do not. With this assumption, we propose a new definition for uninformative feedback and correspondingly design a family of evaluation metrics, called f-variety, for group-level feedback which can 1) distinguish informative feedback and uninformative feedback (separation) even if their statistics are both uniform and 2) decrease as the ratio of uninformative respondents increases (monotonicity). We validate our approach both theoretically and numerically. Moreover, we conduct two real-world case studies about 1) comparisons about athletes and 2) comparisons about stand-up comedians to show the superiority of our approach."
+  },
+  {
+    "title": "Multi-Method Evaluation: Leveraging Multiple Methods to Answer What You Were Looking For",
+    "abstract": "Research in the field of information retrieval and recommendation mostly focuses on one single evaluation method and one single quality objective. On the one hand, many research endeavors focus on system-centric evaluation from an algorithmic perspective and consider the context of use only to a minor extent. On the other hand, there are research endeavors focusing on user-centric approaches to the design and evaluation of systems. However, algorithmic quality and perceived quality of user experience do not necessarily match. Thus, it is essential for system evaluation to substantially integrate multiple evaluation methods that cover a variety of relevant aspects and perspectives. Only such an integrated combination of methods may lead to a deep understanding of users, their behavior, and experience in their interaction with a system. This half-day tutorial follows the objective to raise awareness in the CHIIR community concerning the significance of using multiple methods in the evaluation of information retrieval and recommender systems. The tutorial illustrates the \"blind spots'' when using single methods. It introduces the concept of \"multi-method evaluation'' and discusses its benefits and challenges. While multi-method evaluations may be designed very flexibly, the tutorial presents broadly-defined basic options of how multiple methods may be integrated in an evaluation design. In group work, participants are encouraged to select and fine-tune a specific design that best matches their research endeavor's purpose.",
+    "published_date": "2020-03-14",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3343413.3378015"
+  }
+]

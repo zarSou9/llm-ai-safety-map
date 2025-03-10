@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/GNhMPAWcfBCASy8e6/a-central-ai-alignment-problem-capabilities-generalization?commentId=niebr2TctxkDWWirC",
+    "author": "So",
+    "title": "A central AI alignment problem: capabilities generalization, and the sharp left turn - LessWrong",
+    "published_date": "2023-04-13"
+  },
+  {
+    "url": "https://www.lesswrong.com/s/v55BhXbpJuaExkpcD/p/GNhMPAWcfBCASy8e6",
+    "author": "So8res",
+    "title": "A central AI alignment problem: capabilities generalization, and the sharp left turn",
+    "published_date": "2022-06-15"
+  },
+  {
+    "title": "Effects, capabilities, and boxes: from scope-based reasoning to type-based reasoning and back",
+    "abstract": "Reasoning about the use of external resources is an important aspect of many practical applications. Effect systems enable tracking such information in types, but at the cost of complicating signatures of common functions. Capabilities coupled with escape analysis offer safety and natural signatures, but are often overly coarse grained and restrictive. We present System C, which builds on and generalizes ideas from type-based escape analysis and demonstrates that capabilities and effects can be reconciled harmoniously. By assuming that all functions are second class, we can admit natural signatures for many common programs. By introducing a notion of boxed values, we can lift the restrictions of second-class values at the cost of needing to track degree-of-impurity information in types. The system we present is expressive enough to support effect handlers in full capacity. We practically evaluate System C in an implementation and prove its soundness.",
+    "published_date": "2022-04-29",
+    "citation_count": 19,
+    "url": "https://dl.acm.org/doi/10.1145/3527320"
+  },
+  {
+    "title": "Efficient and provable local capability revocation using uninitialized capabilities",
+    "abstract": "Capability machines are a special form of CPUs that offer fine-grained privilege separation using a form of authority-carrying values known as capabilities. The CHERI capability machine offers local capabilities, which could be used as a cheap but restricted form of capability revocation. Unfortunately, local capability revocation is unrealistic in practice because large amounts of stack memory need to be cleared as a security precaution. In this paper, we address this shortcoming by introducing uninitialized capabilities: a new form of capabilities that represent read/write authority to a block of memory without exposing the memory's initial contents. We provide a mechanically verified program logic for reasoning about programs on a capability machine with the new feature and we formalize and prove capability safety in the form of a universal contract for untrusted code. We use uninitialized capabilities for making a previously-proposed secure calling convention efficient and prove its security using the program logic. Finally, we report on a proof-of-concept implementation of uninitialized capabilities on the CHERI capability machine.",
+    "published_date": "2021-01-04",
+    "citation_count": 28,
+    "url": "https://dl.acm.org/doi/10.1145/3434287"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/mL8KdftNGBScmBcBg/optimization-concepts-in-the-game-of-life",
+    "author": "Vika, Ramana Kumar",
+    "title": "Optimization Concepts in the Game of Life",
+    "published_date": "2021-10-16"
+  },
+  {
+    "title": "Safety from in-the-loop reachability for cyber-physical systems",
+    "abstract": "We demonstrate a methodology for achieving safe autonomy that relies on computing reachable sets at runtime. Given a system subject to disturbances controlled by an unverified and potentially faulty controller, this methodology computes at each time the reachable set of the system under a backup control law to ensure the system is within reach of a known a priori safe region. Control barrier functions are then used in conjunction with the reachable set to adjust potentially unsafe control actions that would otherwise move the system beyond reach of this safe set. This approach faces several computational challenges: reachable sets for the dynamics must be computed at runtime; sensitivity of the reachable set to initial conditions is required for the control barrier optimization formulation; and the presence of disturbances introduces a large number of constraints in the resulting optimization. The proposed methodology leverages the theory of mixed monotone systems to address these challenges, and the main contribution of this paper is an application of this methodology to a ten dimensional dual planar multirotor system that is implemented on embedded hardware with a controller update rate up to 100Hz.",
+    "published_date": "2021-05-19",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3457335.3461706"
+  }
+]

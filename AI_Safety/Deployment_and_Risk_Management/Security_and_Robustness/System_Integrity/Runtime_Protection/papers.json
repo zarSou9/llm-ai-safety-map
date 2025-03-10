@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/6cWgaaxWqGYwJs3vj/a-basic-systems-architecture-for-ai-agents-that-do",
+    "author": "Buck",
+    "title": "A basic systems architecture for AI agents that do autonomous research",
+    "published_date": "2024-09-23",
+    "summary": "The article describes a common architecture for autonomous AI agents in research, separating the large language model (LLM) inference server, the agent's state-managing scaffold server, and the code-executing server. This separation is crucial for understanding and mitigating AI control risks, as different threat models involve vulnerabilities in specific components."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising AI safety strategy despite limited current implementation. Its potential uses include increasing policymaker visibility into AI development, allocating compute resources strategically, and enforcing regulations on AI development."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/d396HCvYG7SSqg9Hh/take-scifs-it-s-dangerous-to-go-alone",
+    "author": "latterframe, Jeffrey Ladish, schroederdewitt",
+    "title": "Take SCIFs, it's dangerous to go alone",
+    "published_date": "2024-05-01",
+    "summary": "Recent leaks of large language models highlight the need for improved operational security in AI research. The authors propose adopting physical security measures from high-stakes fields, such as secure reading rooms (SCIFs) and locked-down computers, to mitigate the risk of model leaks during audits and research."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/RzsXRbk2ETNqjhsma/ai-safety-solutions-landscape",
+    "author": "Charbel-Raphael Segerie",
+    "title": "AI Safety Solutions Landscape",
+    "published_date": "2024-05-09",
+    "summary": "This chapter outlines various strategies for improving AI safety, acknowledging the field's immaturity and lack of consensus on core threats. Despite this, several approaches to mitigating risks, including misuses and systemic failures, are already identifiable and discussed."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13",
+    "summary": "Current methods for assessing the risk of catastrophic AI behavior rely on finding harmful inputs, which is insufficient for ensuring safety. This article proposes developing methods to estimate the probability of tail events (catastrophic failures) without directly searching for harmful inputs, offering a more comprehensive approach to AI safety."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/8rBk6fMgwfG4wHt37/axrp-episode-30-ai-security-with-jeffrey-ladish",
+    "author": "DanielFilan",
+    "title": "AXRP Episode 30 - AI Security with Jeffrey Ladish",
+    "published_date": "2024-05-01",
+    "summary": "This podcast discusses research on the vulnerability of AI safety training. Researchers demonstrated that safety measures implemented in large language models like Llama 2 can be easily bypassed through techniques like fine-tuning, raising concerns about the robustness of current safety protocols."
+  },
+  {
+    "title": "Stealthy Attacks against Robotic Vehicles Protected by Control-based Intrusion Detection Techniques",
+    "abstract": "Robotic vehicles (RV) are increasing in adoption in many industrial sectors. RVs use auto-pilot software for perception and navigation and rely on sensors and actuators for operating autonomously in the physical world. Control algorithms have been used in RVs to minimize the effects of noisy sensors, prevent faulty actuator output, and, recently, to detect attacks against RVs. In this article, we demonstrate the vulnerabilities in control-based intrusion detection techniques and propose three kinds of stealthy attacks that evade detection and disrupt RV missions. We also propose automated algorithms for performing the attacks without requiring the attacker to expend significant effort or to know specific details of the RV, thus making the attacks applicable to a wide range of RVs. We demonstrate the attacks on eight RV systems including three real vehicles in the presence of an Intrusion Detection System using control-based techniques to monitor RV's runtime behavior and detect attacks. We find that the control-based techniques are incapable of detecting our stealthy attacks and that the attacks can have significant adverse impact on the RV's mission (e.g., deviate it significantly from its target, or cause it to crash).",
+    "published_date": "2021-01-22",
+    "citation_count": 21,
+    "url": "https://dl.acm.org/doi/10.1145/3419474",
+    "summary": "This paper reveals vulnerabilities in control-based intrusion detection systems for robotic vehicles, demonstrating three novel stealthy attacks that evade detection and significantly disrupt vehicle missions, even across diverse systems. These attacks are automated and require minimal attacker knowledge, posing a significant threat to robotic vehicle autonomy."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes AI safety-relevant content, reflecting the author's emphasis on careful reading and summarization."
+  }
+]

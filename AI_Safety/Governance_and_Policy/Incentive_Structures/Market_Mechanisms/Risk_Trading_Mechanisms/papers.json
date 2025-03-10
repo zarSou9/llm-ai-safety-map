@@ -1,0 +1,62 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.04289",
+    "title": "Expiring Assets in Automated Market Makers",
+    "published_date": "2024-01-09",
+    "abstract": "An automated market maker (AMM) is a state machine that manages pools of assets, allowing parties to buy and sell those assets according to a fixed mathematical formula. AMMs are typically implemented as smart contracts on blockchains, and its prices are kept in line with the overall market price by arbitrage: if the AMM undervalues an asset with respect to the market, an\"arbitrageur\"can make a risk-free profit by buying just enough of that asset to bring the AMM's price back in line with the market. AMMs, however, are not designed for assets that expire: that is, assets that cannot be produced or resold after a specified date. As assets approach expiration, arbitrage may not be able to reconcile supply and demand, and the liquidity providers that funded the AMM may have excessive exposure to risk due to rapid price variations. This paper formally describes the design of a decentralized exchange (DEX) for assets that expire, combining aspects of AMMs and limit-order books. We ensure liveness and market clearance, providing mechanisms for liquidity providers to control their exposure to risk and adjust prices dynamically in response to situations where arbitrage may fail.",
+    "summary": "This paper proposes a novel decentralized exchange design for expiring assets, addressing the limitations of traditional automated market makers (AMMs) in handling such assets by combining AMM features with a limit-order book to manage risk and ensure market efficiency near expiration. The system allows liquidity providers greater control and dynamic price adjustments to compensate for arbitrage failures."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that focusing solely on technical aspects is insufficient and potentially dangerous. It proposes a \"top-down\" design of \"civilisational intelligence,\" integrating diverse fields like cognitive science, sociology, and political science to evaluate AI alignment paradigms and ensure the safe development of advanced AI."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ngpC5PFAgxHJMhicM/agi-and-the-emh-markets-are-not-expecting-aligned-or-1",
+    "author": "basil.halperin, J. Zachary Mazlish, tmychow",
+    "title": "AGI and the EMH: markets are not expecting aligned or unaligned AI in the next 30 years",
+    "published_date": "2023-01-10",
+    "summary": "Low current long-term real interest rates suggest either that transformative AI is far off (supporting longer timelines), or that markets significantly underestimate AI's imminent arrival, presenting investment opportunities. The authors argue that, based on standard economic models, advanced AI (aligned or unaligned) should cause significantly higher real interest rates."
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.16590",
+    "title": "Artificial prediction markets present a novel opportunity for human-AI collaboration",
+    "published_date": "2022-11-29",
+    "abstract": "Despite high-profile successes in the field of Artificial Intelligence, machine-driven technologies still suffer important limitations, particularly for complex tasks where creativity, planning, common sense, intuition, or learning from limited data is required. These limitations motivate effective methods for human-machine collaboration. Our work makes two primary contributions. We thoroughly experiment with an artificial prediction market model to understand the effects of market parameters on model performance for benchmark classification tasks. We then demonstrate, through simulation, the impact of exogenous agents in the market, where these exogenous agents represent primitive human behaviors. This work lays the foundation for a novel set of hybrid human-AI machine learning algorithms.",
+    "citation_count": 5,
+    "summary": "This paper explores artificial prediction markets as a novel human-AI collaboration framework, experimentally investigating the impact of market parameters and simulated human agent behaviors on model performance for benchmark classification tasks. The findings lay groundwork for hybrid human-AI machine learning algorithms."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2205.15056v1.pdf",
+    "title": "Stock Trading Optimization through Model-based Reinforcement Learning with Resistance Support Relative Strength (preprint)",
+    "published_date": "2022-05-30",
+    "abstract": "Reinforcement learning (RL) is gaining attention by more and more researchers in quantitative finance as the agent-environment interaction framework is aligned with decision making process in many business problems. Most of the current financial applications using RL algorithms are based on model-free method, which still faces stability and adaptivity challenges. As lots of cutting-edge model-based reinforcement learning (MBRL) algorithms mature in applications such as video games or robotics, we design a new approach that leverages resistance and support (RS) level as regularization terms for action in MBRL, to improve the algorithm's efficiency and stability. From the experiment results, we can see RS level, as a market timing technique, enhances the performance of pure MBRL models in terms of various measurements and obtains better profit gain with less riskiness. Besides, our proposed method even resists big drop (less maximum drawdown) during COVID-19 pandemic period when the financial market got unpredictable crisis. Explanations on why control of resistance and support level can boost MBRL is also investigated through numerical experiments, such as loss of actor-critic network and prediction error of the transition dynamical model. It shows that RS indicators indeed help the MBRL algorithms to converge faster at early stage and obtain smaller critic loss as training episodes increase.",
+    "summary": "This paper proposes a novel model-based reinforcement learning approach for stock trading that incorporates resistance and support levels as regularization terms to improve stability and efficiency. Empirical results demonstrate enhanced performance, including increased profit and reduced risk, compared to model-free RL methods, particularly during market crises."
+  },
+  {
+    "url": "https://arxiv.org/abs/2209.15418",
+    "title": "Equitable Marketplace Mechanism Design",
+    "published_date": "2022-09-22",
+    "abstract": "We consider a trading marketplace that is populated by traders with diverse trading strategies and objectives. The marketplace allows the suppliers to list their goods and facilitates matching between buyers and sellers. In return, such a marketplace typically charges fees for facilitating trade. The goal of this work is to design a dynamic fee schedule for the marketplace that is equitable and profitable to all traders while being profitable to the marketplace at the same time (from charging fees). Since the traders adapt their strategies to the fee schedule, we present a reinforcement learning framework for simultaneously learning a marketplace fee schedule and trading strategies that adapt to this fee schedule using a weighted optimization objective of profits and equitability. We illustrate the use of the proposed approach in detail on a simulated stock exchange with different types of investors, specifically market makers and consumer investors. As we vary the equitability weights across different investor classes, we see that the learnt exchange fee schedule starts favoring the class of investors with the highest weight. We further discuss the observed insights from the simulated stock exchange in light of the general framework of equitable marketplace mechanism design.",
+    "citation_count": 1,
+    "summary": "This paper proposes a reinforcement learning framework to design equitable and profitable dynamic fee schedules for trading marketplaces, simultaneously optimizing for trader profits and equitability while ensuring marketplace profitability. The approach is demonstrated on a simulated stock exchange, showing how fee schedules adapt to prioritize investor classes based on assigned equitability weights."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2206.05410v1.pdf",
+    "title": "Cooperation between independent market makers",
+    "published_date": "2022-06-11",
+    "abstract": "With the digitalization of the financial market, dealers are increasingly handling market-making activities by algorithms. Recent antitrust literature raises concerns on collusion caused by artificial intelligence. This paper studies the possibility of cooperation between market makers via independent Q-learning. with inventory risk is formulated as a repeated general-sum game. Under a stag-hunt type payoff, we find that market makers can learn cooperative strategies without communication. In general, high spreads can have the largest probability even when the lowest spread is the unique Nash equilibrium. Moreover, introducing more agents into the game does not necessarily eliminate the presence of supra-competitive spreads.",
+    "citation_count": 3,
+    "summary": "This paper uses a repeated game model to show that independent algorithmic market makers using Q-learning can achieve cooperative, high-spread outcomes even without communication, suggesting potential for tacit collusion despite the existence of a lower-spread Nash equilibrium. The likelihood of high spreads persists even with increased market maker participation."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.03913v1.pdf",
+    "title": "Deep Hedging, Generative Adversarial Networks, and Beyond",
+    "published_date": "2021-03-05",
+    "abstract": "This paper introduces a potential application of deep learning and artificial intelligence in finance, particularly its application in hedging. The major goal encompasses two objectives. First, we present a framework of a direct policy search reinforcement agent replicating a simple vanilla European call option and use the agent for the model-free delta hedging. Through the first part of this paper, we demonstrate how the RNN-based direct policy search RL agents can perform delta hedging better than the classic Black-Scholes model in Q-world based on parametrically generated underlying scenarios, particularly minimizing tail exposures at higher values of the risk aversion parameter. In the second part of this paper, with the non-parametric paths generated by time-series GANs from multi-variate temporal space, we illustrate its delta hedging performance on various values of the risk aversion parameter via the basic RNN-based RL agent introduced in the first part of the paper, showing that we can potentially achieve higher average profits with a rather evident risk-return trade-off. We believe that this RL-based hedging framework is a more efficient way of performing hedging in practice, addressing some of the inherent issues with the classic models, providing promising/intuitive hedging results, and rendering a flexible framework that can be easily paired with other AI-based models for many other purposes.",
+    "citation_count": 2,
+    "summary": "This paper explores using reinforcement learning agents, particularly RNN-based models, for model-free delta hedging of European call options, demonstrating improved performance over the Black-Scholes model, especially in minimizing tail risk. The authors further enhance this approach by integrating generative adversarial networks (GANs) to generate more realistic underlying asset price paths, leading to potentially higher average profits with a clear risk-return trade-off."
+  }
+]

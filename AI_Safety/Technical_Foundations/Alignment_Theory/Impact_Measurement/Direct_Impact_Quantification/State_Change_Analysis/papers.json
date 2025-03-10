@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2309.13889.pdf",
+    "title": "Resilient State Estimation for Nonlinear Discrete-Time Systems via Input and State Interval Observer Synthesis",
+    "published_date": "2023-09-25",
+    "abstract": "This paper addresses the problem of resilient state estimation and attack reconstruction for bounded-error nonlinear discrete-time systems with nonlinear observations/constraints, where both sensors and actuators can be compromised by false data injection attack signals/unknown inputs. By leveraging mixed-monotone decomposition of non-linear functions, as well as affine parallel outer-approximation of the observation functions, along with introducing auxiliary states to cancel out the effect of the attacks/unknown inputs, our proposed observer recursively computes interval estimates that by construction, contain the true states and unknown inputs of the system. Moreover, we provide several semi-definite programs to synthesize observer gains to ensure input-to-state stability of the proposed observer and optimality of the design in the sense of minimum $\\mathcal{H}_{\\infty}$ gain.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.11640.pdf",
+    "title": "An Observer-based Switching Algorithm for Safety under Sensor Denial-of-Service Attacks",
+    "published_date": "2023-03-21",
+    "abstract": "The design of safe-critical control algorithms for systems under Denial-of-Service (DoS) attacks on the system output is studied in this work. We aim to address scenarios where attack-mitigation approaches are not feasible, and the system needs to maintain safety under adversarial attacks. We propose an attack-recovery strategy by designing a switching observer and characterizing bounds in the error of a state estimation scheme by specifying tolerable limits on the time length of attacks. Then, we propose a switching control algorithm that renders forward invariant a set for the observer. Thus, by satisfying the error bounds of the state estimation, we guarantee that the safe set is rendered conditionally invariant with respect to a set of initial conditions. A numerical example illustrates the efficacy of the approach.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2209.14976",
+    "title": "Parameter-Conditioned Reachable Sets for Updating Safety Assurances Online",
+    "published_date": "2022-09-29",
+    "abstract": "Hamilton-Jacobi (HJ) reachability analysis is a powerful tool for analyzing the safety of autonomous systems. However, the provided safety assurances are often predicated on the assumption that once deployed, the system or its environment does not evolve. Online, however, an autonomous system might experience changes in system dynamics, control authority, external disturbances, and/or the surrounding environment, requiring updated safety assurances. Rather than restarting the safety analysis from scratch, which can be timeconsuming and often intractable to perform online, we propose to compute parameter-conditioned reachable sets. Assuming expected system and environment changes can be parameterized, we treat these parameters as virtual states in the system and leverage recent advances in high-dimensional reachability analysis to solve the corresponding reachability problem offline. This results in a family of reachable sets that is parameterized by the environment and system factors. Online, as these factors change, the system can simply query the corresponding safety function from this family to ensure system safety, enabling a real-time update of the safety assurances. Through various simulation studies, we demonstrate the capability of our approach in maintaining system safety despite the system and environment evolution.",
+    "citation_count": 10
+  },
+  {
+    "url": "https://arxiv.org/pdf/2204.07629.pdf",
+    "title": "Navigation between initial and desired community states using shortcuts.",
+    "published_date": "2022-04-15",
+    "abstract": "Ecological management problems often involve navigating from an initial to a desired community state. We ask whether navigation without brute-force additions and deletions of species is possible via: adding/deleting a small number of individuals of a species, changing the environment, and waiting. Navigation can yield direct paths (single sequence of actions) or shortcut paths (multiple sequences of actions with lower cost than a direct path). We ask (1) when is non-brute-force navigation possible?; (2) do shortcuts exist and what are their properties?; and (3) what heuristics predict shortcut existence? Using a state diagram framework applied to several empirical datasets, we show that (1) non-brute-force navigation is only possible between some state pairs, (2) shortcuts exist between many state pairs; and (3) changes in abundance and richness are the strongest predictors of shortcut existence, independent of dataset and algorithm choices. State diagrams thus unveil hidden strategies for manipulating species coexistence and efficiently navigating between states.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rmwAuWXYTo24E5nnX/a-pin-and-a-balloon-anthropic-fragility-increases-chances-of",
+    "author": "avturchin",
+    "title": "A Pin and a Balloon: Anthropic Fragility Increases Chances of Runaway Global Warming",
+    "published_date": "2022-09-11"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.03389v1.pdf",
+    "title": "Equalized Recovery State Estimators for Linear Systems With Delayed and Missing Observations",
+    "published_date": "2021-01-09",
+    "abstract": "This letter presents a dynamic state observer design for discrete-time linear time-varying systems that robustly achieves equalized recovery despite delayed or missing observations, where the set of all temporal patterns for the missing or delayed data is modeled by a finite-length language. By introducing a mapping of the language onto a reduced event-based language, we design a state estimator that adapts based on the history of available data at each step, and satisfies equalized recovery for all patterns in the reduced language. In contrast to existing equalized recovery estimators, the proposed design considers the equalized recovery level as a decision variable, which enables us to directly obtain the global minimum for the intermediate recovery levels, resulting in improved estimation performance. Finally, we demonstrate the effectiveness of the proposed observer when compared to existing approaches using several illustrative examples.",
+    "citation_count": 3
+  }
+]

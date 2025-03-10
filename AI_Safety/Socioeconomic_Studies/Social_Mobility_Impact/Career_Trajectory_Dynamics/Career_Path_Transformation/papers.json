@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2412.14612",
+    "title": "KARRIEREWEGE: A Large Scale Career Path Prediction Dataset",
+    "published_date": "2024-12-19",
+    "abstract": "Accurate career path prediction can support many stakeholders, like job seekers, recruiters, HR, and project managers. However, publicly available data and tools for career path prediction are scarce. In this work, we introduce KARRIEREWEGE, a comprehensive, publicly available dataset containing over 500k career paths, significantly surpassing the size of previously available datasets. We link the dataset to the ESCO taxonomy to offer a valuable resource for predicting career trajectories. To tackle the problem of free-text inputs typically found in resumes, we enhance it by synthesizing job titles and descriptions resulting in KARRIEREWEGE+. This allows for accurate predictions from unstructured data, closely aligning with real-world application challenges. We benchmark existing state-of-the-art (SOTA) models on our dataset and a prior benchmark and observe improved performance and robustness, particularly for free-text use cases, due to the synthesized data.",
+    "summary": "KARRIEREWEGE is a new, large-scale (500k+ career paths) publicly available dataset linked to the ESCO taxonomy, designed to improve career path prediction accuracy; it includes a synthesized version (KARRIEREWEGE+) handling free-text job data for improved real-world applicability and model benchmarking."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.15620",
+    "title": "CAPER: Enhancing Career Trajectory Prediction using Temporal Knowledge Graph and Ternary Relationship",
+    "published_date": "2024-08-28",
+    "abstract": "The problem of career trajectory prediction (CTP) aims to predict one's future employer or job position. While several CTP methods have been developed for this problem, we posit that none of these methods (1) jointly considers the mutual ternary dependency between three key units (i.e., user, position, and company) of a career and (2) captures the characteristic shifts of key units in career over time, leading to an inaccurate understanding of the job movement patterns in the labor market. To address the above challenges, we propose a novel solution, named as CAPER, that solves the challenges via sophisticated temporal knowledge graph (TKG) modeling. It enables the utilization of a graph-structured knowledge base with rich expressiveness, effectively preserving the changes in job movement patterns. Furthermore, we devise an extrapolated career reasoning task on TKG for a realistic evaluation. The experiments on a real-world career trajectory dataset demonstrate that CAPER consistently and significantly outperforms four baselines, two recent TKG reasoning methods, and five state-of-the-art CTP methods in predicting one's future companies and positions--i.e., on average, yielding 6.80% and 34.58% more accurate predictions, respectively. The codebase of CAPER is available at https://github.com/Bigdasgit/CAPER.",
+    "citation_count": 1,
+    "summary": "CAPER, a novel career trajectory prediction model, leverages a temporal knowledge graph to capture the ternary relationships between users, positions, and companies, improving prediction accuracy compared to existing methods by considering temporal changes in career patterns. Experiments show significant performance gains in predicting future employers and job positions."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.15373",
+    "title": "Occupation Life Cycle",
+    "published_date": "2024-04-15",
+    "abstract": "This paper explores the evolution of occupations within the context of industry and technology life cycles, highlighting the critical yet underexplored intersection between occupational trends and broader economic dynamics. Introducing the Occupation Life Cycle (OLC) model, we delineate five stages (i.e., growth, peak, fluctuation, maturity, and decline) to systematically explore the trajectory of occupations. Utilizing job posting data from one of China's largest recruitment platforms as a novel proxy, our study meticulously tracks the fluctuations and emerging trends in the labor market from 2018 to 2023. Through a detailed examination of representative roles, such as short video operators and data analysts, alongside emerging occupations within the artificial intelligence (AI) sector, our findings allocate occupations to specific life cycle stages, revealing insightful patterns of occupational development and decline. Our findings offer a unique perspective on the interplay between occupational evolution and economic factors, with a particular focus on the rapidly changing Chinese labor market. This study not only contributes to the theoretical understanding of OLC but also provides practical insights for policymakers, educators, and industry leaders facing the challenges of workforce planning and development in the face of technological advancement and market shifts.",
+    "summary": "The paper introduces the Occupation Life Cycle (OLC) model, a five-stage framework (growth, peak, fluctuation, maturity, decline) analyzing occupational trajectories, using Chinese job posting data from 2018-2023 to illustrate its application and reveal patterns of occupational evolution linked to economic factors."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.16835",
+    "title": "Quantifying Lifetime Productivity Changes: A Longitudinal Study of 325,000 Late-Career Scientists",
+    "published_date": "2024-01-19",
+    "abstract": "The present study focuses on persistence in research productivity over the course of an individual's entire scientific career. We track 'late-career' scientists - scientists with at least 25 years of publishing experience (N=320,564) - in 16 STEMM (science, technology, engineering, mathematics, and medicine) and social science disciplines from 38 OECD countries for up to five decades. Our OECD sample includes 79.42% of late-career scientists globally. We examine the details of their mobility patterns as early-career, mid-career, and late-career scientists between decile-based productivity classes, from the bottom 10% to top 10% of the productivity distribution. Methodologically, we turn a large-scale bibliometric dataset (Scopus raw data) into a comprehensive, longitudinal data source for research on careers in science. The global science system is highly immobile: half of global top performers continue their careers as top performers and one-third of global bottom performers as bottom performers. Jumpers-Up and Droppers-Down are extremely rare in science. The chances of moving radically up or down in productivity classes are marginal (1% or less). Our regression analyses show that productivity classes are highly path dependent: there is a single most important predictor of being a top performer, which is being a top performer at an earlier career stage.",
+    "citation_count": 3,
+    "summary": "A longitudinal study of 320,564 late-career scientists across 38 OECD countries reveals strong path dependency in research productivity, with high persistence in performance levels throughout careers; mobility between productivity deciles is rare, indicating that early career success is a powerful predictor of later achievement."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.17972",
+    "title": "LABOR-LLM: Language-Based Occupational Representations with Large Language Models",
+    "published_date": "2024-06-25",
+    "abstract": "Vafa et al. (2024) introduced a transformer-based econometric model, CAREER, that predicts a worker's next job as a function of career history (an\"occupation model\"). CAREER was initially estimated (\"pre-trained\") using a large, unrepresentative resume dataset, which served as a\"foundation model,\"and parameter estimation was continued (\"fine-tuned\") using data from a representative survey. CAREER had better predictive performance than benchmarks. This paper considers an alternative where the resume-based foundation model is replaced by a large language model (LLM). We convert tabular data from the survey into text files that resemble resumes and fine-tune the LLMs using these text files with the objective to predict the next token (word). The resulting fine-tuned LLM is used as an input to an occupation model. Its predictive performance surpasses all prior models. We demonstrate the value of fine-tuning and further show that by adding more career data from a different population, fine-tuning smaller LLMs surpasses the performance of fine-tuning larger models.",
+    "citation_count": 2,
+    "summary": "This paper replaces the resume-based foundation model in the CAREER econometric model with a large language model (LLM), fine-tuned on text-based career data, significantly improving job prediction accuracy compared to previous models. Adding diverse career data to fine-tune smaller LLMs even outperforms using larger, less-diversely trained LLMs."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.16943",
+    "title": "A Career Interview Dialogue System using Large Language Model-based Dynamic Slot Generation",
+    "published_date": "2024-12-22",
+    "abstract": "This study aims to improve the efficiency and quality of career interviews conducted by nursing managers. To this end, we have been developing a slot-filling dialogue system that engages in pre-interviews to collect information on staff careers as a preparatory step before the actual interviews. Conventional slot-filling-based interview dialogue systems have limitations in the flexibility of information collection because the dialogue progresses based on predefined slot sets. We therefore propose a method that leverages large language models (LLMs) to dynamically generate new slots according to the flow of the dialogue, achieving more natural conversations. Furthermore, we incorporate abduction into the slot generation process to enable more appropriate and effective slot generation. To validate the effectiveness of the proposed method, we conducted experiments using a user simulator. The results suggest that the proposed method using abduction is effective in enhancing both information-collecting capabilities and the naturalness of the dialogue.",
+    "summary": "This paper presents a novel career interview dialogue system for nursing managers that uses large language models to dynamically generate interview slots, improving the flexibility and naturalness of information gathering compared to traditional systems with predefined slots. Experimental results using a user simulator demonstrate the effectiveness of this approach, particularly when incorporating abductive reasoning."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/careers",
+    "author": "Nora_Ammann, Lucas Teixeira, DusanDNesic",
+    "title": "Careers - AI Alignment Forum",
+    "published_date": "2024-04-09",
+    "summary": "The article contains content related to employment and career advancement. This likely includes job postings, advice, or discussions on career development topics."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program aims to mitigate existential risks posed by transformative AI (TAI), focusing on short-timeline scenarios (TAI emerging within a decade). Using scenario planning, it will explore potential TAI pathways and hazards, then evaluate strategies to best mitigate risks across these scenarios."
+  }
+]

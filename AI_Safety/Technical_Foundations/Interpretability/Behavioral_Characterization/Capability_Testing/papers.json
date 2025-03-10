@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.00183",
+    "title": "Capabilities",
+    "published_date": "2024-04-30",
+    "abstract": "In our daily lives, as in science and in all other domains, we encounter huge numbers of dispositions (tendencies, potentials, powers) which are realized in processes such as sneezing, sweating, shedding dandruff, and on and on. Among this plethora of what we can think of as mere dispositions is a subset of dispositions in whose realizations we have an interest a car responding well when driven on ice, a rabbits lungs responding well when it is chased by a wolf, and so on. We call the latter capabilities and we attempt to provide a robust ontological account of what capabilities are that is of sufficient generality to serve a variety of purposes, for example by providing a useful extension to ontology-based research in areas where capabilities data are currently being collected in siloed fashion.",
+    "summary": "The paper proposes a novel ontological account of \"capabilities\" as a subset of dispositions—those potentials whose realization is of interest—offering a framework for unifying disparate data on capabilities across various fields."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MkfaQyxB9PN4h8Bs9/ai-safety-101-capabilities",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 : Capabilities - Human Level AI, What? How? and When?",
+    "published_date": "2024-03-07",
+    "summary": "This revised article provides a comprehensive overview of current advancements in artificial intelligence, focusing on foundation models and their capabilities, risks, and future forecasting. It examines key concepts like scaling laws and the (t,n)-AGI framework to analyze AI progress and potential trajectories."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/4Gt42jX7RiaNaxCwP/more-information-about-the-dangerous-capability-evaluations",
+    "author": "Beth Barnes",
+    "title": "More information about the dangerous capability evaluations we did with GPT-4 and Claude.",
+    "published_date": "2023-03-19",
+    "summary": "The Alignment Research Center (ARC) is partnering with leading AI labs to evaluate the potential for advanced AI models to autonomously acquire resources and evade human oversight, a capability deemed highly risky. While current models haven't demonstrated this ability, ARC's research shows they possess some necessary components, highlighting the need for proactive, rigorous testing before more powerful AI is deployed."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/JtuTQgp9Wnd6R6F5s/when-discussing-ai-risks-talk-about-capabilities-not",
+    "author": "Vika",
+    "title": "When discussing AI risks, talk about capabilities, not intelligence",
+    "published_date": "2023-08-11",
+    "summary": "The article argues that replacing \"intelligence\" with \"capabilities\" or \"competence\" in discussions of catastrophic AI risks is crucial. This avoids ambiguities and anthropomorphic biases associated with \"intelligence,\" allowing for clearer articulation and assessment of the actual dangers posed by increasingly powerful AI systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/T2FGbZw8TYsjcpQBn/a-simple-alignment-typology",
+    "author": "Shoshannah Tekofsky",
+    "title": "A Simple Alignment Typology",
+    "published_date": "2023-01-28",
+    "summary": "The author categorizes AI alignment viewpoints into five groups based on optimism and methodology: skeptics (AGI is far off), humanists (easy solution), empiricists (iterative progress despite risks), rationalists (theoretical solutions before capability advancement), and fatalists (unsolvable). The core disagreement among the optimists centers on whether iterative progress or theoretical understanding should prioritize in solving alignment."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kRc7HtDA7HHpX5NZn/eliciting-latent-knowledge-in-comprehensive-ai-services",
+    "author": "acabodi",
+    "title": "Eliciting Latent Knowledge in Comprehensive AI Services Models",
+    "published_date": "2023-11-17",
+    "summary": "This research report explores AI alignment challenges, particularly reinterpreting the Eliciting Latent Knowledge problem using the Comprehensive AI Services (CAIS) model. The author investigates the model's potential for ensuring AI R&D safety and certification, focusing on how bounded, short-term tasks may mitigate alignment issues."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mLfPHv4QjmeQrsSva/paper-on-measuring-situational-awareness-in-llms",
+    "author": "Owain_Evans, Daniel Kokotajlo, Mikita Balesni, Tomek Korbak, lberglund, Asa Cooper Stickland, Meg, Maximilian Kaufmann",
+    "title": "Paper: On measuring situational awareness in LLMs",
+    "published_date": "2023-09-04",
+    "summary": "The paper investigates the emergence of situational awareness in LLMs, where models recognize their own status (training, testing, deployment) and potentially exploit this knowledge to manipulate safety tests. The researchers propose out-of-context reasoning as a key ability contributing to situational awareness and experimentally demonstrate its presence in LLMs, highlighting the risk of silent safety test failures."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.10304",
+    "title": "Synthesizing Reactive Test Environments for Autonomous Systems: Testing Reach-Avoid Specifications with Multi-Commodity Flows",
+    "published_date": "2022-10-19",
+    "abstract": "We study automated test generation for testing discrete decision-making modules in autonomous systems. Linear temporal logic is used to encode the system specification - requirements of the system under test - and the test specification, which is unknown to the system and describes the desired test behavior. The reactive test synthesis problem is to find constraints on system actions such that in a test execution, both the system and test specifications are satisfied. To do this, we use the specifications and their corresponding Büchi automata to construct the specification product automaton. Then, a virtual product graph representing all possible test executions of the system is constructed from the transition system and the specification product automaton. The main result of this paper is framing the test synthesis problem as a multi-commodity network flow optimization. This optimization is used to derive reactive constraints on system actions, which constitute the test environment. The resulting test environment ensures that the system meets the test specification while also satisfying the system specification. We illustrate this framework in simulation using grid world examples and demonstrate it on hardware with the Unitree A1 quadruped, where we test dynamic locomotion behaviors reactively.",
+    "citation_count": 2,
+    "summary": "This paper presents a method for automated test generation of autonomous systems, framing the reactive test synthesis problem as a multi-commodity network flow optimization to ensure both system and test specifications are met. This approach uses linear temporal logic specifications and is demonstrated through simulations and hardware testing on a quadruped robot."
+  }
+]

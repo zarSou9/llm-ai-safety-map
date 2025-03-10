@@ -1,0 +1,39 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.11119",
+    "title": "Measurement and comparison of distributional shift with applications to ecology, economics, and image analysis",
+    "published_date": "2024-01-20",
+    "abstract": "The concentration of a statistical distribution toward a lower bound is a conceptually simple property that lacks a global descriptive statistic. We term this property distributional shift (DS) and derive its measure as a sum of exponentiated cumulative frequencies. We demonstrate DS as a measure of ecological rarity, economic poverty, and resource scarcity. We then use DS as the basis for a comparative statistic, RDS, that measures the relative direction and magnitude of shift between distributions. Weibull random sampling revealed that RDS is strongly related to other comparative statistics, e.g., earth mover's distance, ranked probability score. Applications to image analysis revealed how the directionality of RDS allows it to detect signals, patterns, and visual shifts that other measures do not. Altogether, DS is an intuitive property that underpins a uniquely useful comparative measure."
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.14758",
+    "title": "Towards Practicable Sequential Shift Detectors",
+    "published_date": "2023-07-27",
+    "abstract": "There is a growing awareness of the harmful effects of distribution shift on the performance of deployed machine learning models. Consequently, there is a growing interest in detecting these shifts before associated costs have time to accumulate. However, desiderata of crucial importance to the practicable deployment of sequential shift detectors are typically overlooked by existing works, precluding their widespread adoption. We identify three such desiderata, highlight existing works relevant to their satisfaction, and recommend impactful directions for future research."
+  },
+  {
+    "url": "https://arxiv.org/abs/2206.15407",
+    "title": "Shifts 2.0: Extending The Dataset of Real Distributional Shifts",
+    "published_date": "2022-06-30",
+    "abstract": "Distributional shift, or the mismatch between training and deployment data, is a significant obstacle to the usage of machine learning in high-stakes industrial applications, such as autonomous driving and medicine. This creates a need to be able to assess how robustly ML models generalize as well as the quality of their uncertainty estimates. Standard ML baseline datasets do not allow these properties to be assessed, as the training, validation and test data are often identically distributed. Recently, a range of dedicated benchmarks have appeared, featuring both distributionally matched and shifted data. Among these benchmarks, the Shifts dataset stands out in terms of the diversity of tasks as well as the data modalities it features. While most of the benchmarks are heavily dominated by 2D image classification tasks, Shifts contains tabular weather forecasting, machine translation, and vehicle motion prediction tasks. This enables the robustness properties of models to be assessed on a diverse set of industrial-scale tasks and either universal or directly applicable task-specific conclusions to be reached. In this paper, we extend the Shifts Dataset with two datasets sourced from industrial, high-risk applications of high societal importance. Specifically, we consider the tasks of segmentation of white matter Multiple Sclerosis lesions in 3D magnetic resonance brain images and the estimation of power consumption in marine cargo vessels. Both tasks feature ubiquitous distributional shifts and a strict safety requirement due to the high cost of errors. These new datasets will allow researchers to further explore robust generalization and uncertainty estimation in new situations. In this work, we provide a description of the dataset and baseline results for both tasks.",
+    "citation_count": 25
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25"
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/F24kibEdEvRSo7PFi/human-ai-complementarity-a-goal-for-amplified-oversight",
+    "author": "rishubjain",
+    "title": "Human-AI Complementarity: A Goal for Amplified Oversight",
+    "published_date": "2024-12-24",
+    "summary": "Amplified oversight, using AI to enhance human evaluation of increasingly complex AI systems, is crucial for AI safety. This can be achieved through rater assistance (AI aiding human evaluators) and hybridization (combining human and AI judgments), leveraging their complementary strengths to create superior oversight."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.04059",
+    "title": "On the Quest for Effectiveness in Human Oversight: Interdisciplinary Perspectives",
+    "published_date": "2024-04-05",
+    "abstract": "Human oversight is currently discussed as a potential safeguard to counter some of the negative aspects of high-risk AI applications. This prompts a critical examination of the role and conditions necessary for what is prominently termed effective or meaningful human oversight of these systems. This paper investigates effective human oversight by synthesizing insights from psychological, legal, philosophical, and technical domains. Based on the claim that the main objective of human oversight is risk mitigation, we propose a viable understanding of effectiveness in human oversight: for human oversight to be effective, the oversight person has to have (a) sufficient causal power with regard to the system and its effects, (b) suitable epistemic access to relevant aspects of the situation, (c) self-control, and (d) fitting intentions for their role. Furthermore, we argue that this is equivalent to saying that an oversight person is effective if and only if they are morally responsible and have fitting intentions. Against this backdrop, we suggest facilitators and inhibitors of effectiveness in human oversight when striving for practical applicability. We discuss factors in three domains, namely, the technical design of the system, individual factors of oversight persons, and the environmental circumstances in which they operate. Finally, this paper scrutinizes the upcoming AI Act of the European Union – in particular Article 14 on Human Oversight – as an exemplary regulatory framework in which we study the practicality of our understanding of effective human oversight. By analyzing the provisions and implications of the European AI Act proposal, we pinpoint how far that proposal aligns with our analyses regarding effective human oversight as well as how it might get enriched by our conceptual understanding of effectiveness in human oversight.",
+    "citation_count": 7,
+    "summary": "This paper examines effective human oversight of high-risk AI, arguing that effectiveness requires sufficient causal power, epistemic access, self-control, and appropriate intentions—essentially, moral responsibility. The authors propose facilitators and inhibitors of effective oversight across technical, individual, and environmental domains, analyzing the EU AI Act as a case study."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.13138",
+    "title": "Visibility into AI Agents",
+    "published_date": "2024-01-23",
+    "abstract": "Increased delegation of commercial, scientific, governmental, and personal activities to AI agents—systems capable of pursuing complex goals with limited supervision—may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.",
+    "citation_count": 12,
+    "summary": "This paper examines methods to increase transparency (\"visibility\") of AI agents across various deployment contexts, focusing on agent identifiers, real-time monitoring, and activity logging, while acknowledging privacy and power concentration implications. It proposes these measures as crucial for mitigating societal risks associated with increased AI agent usage."
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.13793",
+    "title": "Evaluating Frontier Models for Dangerous Capabilities",
+    "published_date": "2024-03-20",
+    "abstract": "To understand the risks posed by a new AI system, we must understand what it can and cannot do. Building on prior work, we introduce a programme of new\"dangerous capability\"evaluations and pilot them on Gemini 1.0 models. Our evaluations cover four areas: (1) persuasion and deception; (2) cyber-security; (3) self-proliferation; and (4) self-reasoning. We do not find evidence of strong dangerous capabilities in the models we evaluated, but we flag early warning signs. Our goal is to help advance a rigorous science of dangerous capability evaluation, in preparation for future models.",
+    "citation_count": 41,
+    "summary": "The paper evaluates Google's Gemini 1.0 models for four potential \"dangerous capabilities\"—persuasion, cybersecurity threats, self-proliferation, and self-reasoning—finding no strong evidence of such capabilities but identifying early warning signs requiring further investigation. The work aims to establish a rigorous methodology for assessing dangerous capabilities in advanced AI systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.01420",
+    "title": "Coordinated Disclosure of Dual-Use Capabilities: An Early Warning System for Advanced AI",
+    "published_date": "2024-07-01",
+    "abstract": "Advanced AI systems may be developed which exhibit capabilities that present significant risks to public safety or security. They may also exhibit capabilities that may be applied defensively in a wide set of domains, including (but not limited to) developing societal resilience against AI threats. We propose Coordinated Disclosure of Dual-Use Capabilities (CDDC) as a process to guide early information-sharing between advanced AI developers, US government agencies, and other private sector actors about these capabilities. The process centers around an information clearinghouse (the\"coordinator\") which receives evidence of dual-use capabilities from finders via mandatory and/or voluntary reporting pathways, and passes noteworthy reports to defenders for follow-up (i.e., further analysis and response). This aims to provide the US government, dual-use foundation model developers, and other actors with an overview of AI capabilities that could significantly impact public safety and security, as well as maximal time to respond.",
+    "summary": "The paper proposes a Coordinated Disclosure of Dual-Use Capabilities (CDDC) system for advanced AI, involving an information clearinghouse to facilitate early warning and response to potentially dangerous or beneficial AI capabilities through mandatory and voluntary reporting. This aims to give stakeholders maximal time to mitigate risks and leverage beneficial applications."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2401.16754.pdf",
+    "title": "AI Oversight and Human Mistakes: Evidence from Centre Court",
+    "published_date": "2024-01-30",
+    "abstract": "Powered by the increasing predictive capabilities of machine learning algorithms, artificial intelligence (AI) systems have begun to be used to overrule human mistakes in many settings. We provide the first field evidence this AI oversight carries psychological costs that can impact human decision-making. We investigate one of the highest visibility settings in which AI oversight has occurred: the Hawk-Eye review of umpires in top tennis tournaments. We find that umpires lowered their overall mistake rate after the introduction of Hawk-Eye review, in line with rational inattention given psychological costs of being overruled by AI. We also find that umpires increased the rate at which they called balls in, which produced a shift from making Type II errors (calling a ball out when in) to Type I errors (calling a ball in when out). We structurally estimate the psychological costs of being overruled by AI using a model of rational inattentive umpires, and our results suggest that because of these costs, umpires cared twice as much about Type II errors under AI oversight.",
+    "citation_count": 6,
+    "summary": "Using Hawk-Eye tennis reviews as a case study, researchers found that AI oversight reduces human error rates but shifts error types, increasing \"in\" calls due to the psychological cost of being overruled by AI. This suggests that AI oversight, while beneficial for accuracy, impacts human decision-making by altering error prioritization."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MkfaQyxB9PN4h8Bs9/ai-safety-101-capabilities",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 : Capabilities - Human Level AI, What? How? and When?",
+    "published_date": "2024-03-07",
+    "summary": "This revised article provides a comprehensive overview of state-of-the-art AI in 2024, focusing on foundation models, their capabilities, and potential risks, including forecasting future AI development and the computational resources required for transformative AI. It defines key terminology and uses the (t,n)-AGI framework for evaluating AI capabilities."
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.04699",
+    "title": "International Institutions for Advanced AI",
+    "published_date": "2023-07-10",
+    "abstract": "International institutions may have an important role to play in ensuring advanced AI systems benefit humanity. International collaborations can unlock AI's ability to further sustainable development, and coordination of regulatory efforts can reduce obstacles to innovation and the spread of benefits. Conversely, the potential dangerous capabilities of powerful and general-purpose AI systems create global externalities in their development and deployment, and international efforts to further responsible AI practices could help manage the risks they pose. This paper identifies a set of governance functions that could be performed at an international level to address these challenges, ranging from supporting access to frontier AI systems to setting international safety standards. It groups these functions into four institutional models that exhibit internal synergies and have precedents in existing organizations: 1) a Commission on Frontier AI that facilitates expert consensus on opportunities and risks from advanced AI, 2) an Advanced AI Governance Organization that sets international standards to manage global threats from advanced models, supports their implementation, and possibly monitors compliance with a future governance regime, 3) a Frontier AI Collaborative that promotes access to cutting-edge AI, and 4) an AI Safety Project that brings together leading researchers and engineers to further AI safety research. We explore the utility of these models and identify open questions about their viability.",
+    "citation_count": 12,
+    "summary": "This paper proposes four international institutional models—a commission, governance organization, collaborative, and safety project—to manage the risks and benefits of advanced AI, focusing on functions like safety standard-setting, promoting access, and fostering expert consensus. These models aim to address global externalities arising from AI development and deployment while facilitating innovation and equitable access to its benefits."
+  }
+]

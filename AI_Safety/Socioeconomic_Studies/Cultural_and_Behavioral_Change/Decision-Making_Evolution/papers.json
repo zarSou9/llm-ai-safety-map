@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2501.09434",
+    "title": "Agile System Development Lifecycle for AI Systems: Decision Architecture",
+    "published_date": "2025-01-16",
+    "abstract": "Agile system development life cycle (SDLC) focuses on typical functional and non-functional system requirements for developing traditional software systems. However, Artificial Intelligent (AI) systems are different in nature and have distinct attributes such as (1) autonomy, (2) adaptiveness, (3) content generation, (4) decision-making, (5) predictability and (6) recommendation. Agile SDLC needs to be enhanced to support the AI system development and ongoing post-deployment adaptation. The challenge is: how can agile SDLC be enhanced to support AI systems? The scope of this paper is limited to AI system enabled decision automation. Thus, this paper proposes the use of decision science to enhance the agile SDLC to support the AI system development. Decision science is the study of decision-making, which seems useful to identify, analyse and describe decisions and their architecture subject to automation via AI systems. Specifically, this paper discusses the decision architecture in detail within the overall context of agile SDLC for AI systems. The application of the proposed approach is demonstrated with the help of an example scenario of insurance claim processing. This initial work indicated the usability of a decision science to enhancing the agile SDLC for designing and implementing the AI systems for decision-automation. This work provides an initial foundation for further work in this new area of decision architecture and agile SDLC for AI systems.",
+    "summary": "This paper proposes enhancing the Agile SDLC for AI system development by incorporating decision science, focusing on decision architecture to address the unique challenges of AI systems' autonomy, adaptability, and decision-making capabilities. The approach is illustrated through an insurance claim processing example."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.17149",
+    "title": "A Multi-AI Agent System for Autonomous Optimization of Agentic AI Solutions via Iterative Refinement and LLM-Driven Feedback Loops",
+    "published_date": "2024-12-22",
+    "abstract": "Agentic AI systems use specialized agents to handle tasks within complex workflows, enabling automation and efficiency. However, optimizing these systems often requires labor-intensive, manual adjustments to refine roles, tasks, and interactions. This paper introduces a framework for autonomously optimizing Agentic AI solutions across industries, such as NLP-driven enterprise applications. The system employs agents for Refinement, Execution, Evaluation, Modification, and Documentation, leveraging iterative feedback loops powered by an LLM (Llama 3.2-3B). The framework achieves optimal performance without human input by autonomously generating and testing hypotheses to improve system configurations. This approach enhances scalability and adaptability, offering a robust solution for real-world applications in dynamic environments. Case studies across diverse domains illustrate the transformative impact of this framework, showcasing significant improvements in output quality, relevance, and actionability. All data for these case studies, including original and evolved agent codes, along with their outputs, are here: https://anonymous.4open.science/r/evolver-1D11/",
+    "summary": "This paper presents a multi-agent system that autonomously optimizes agentic AI solutions through iterative refinement and large language model feedback, eliminating the need for manual adjustments and improving system performance across various domains. The system uses agents for refinement, execution, evaluation, modification, and documentation, leveraging LLMs to generate and test hypotheses for improved configurations."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.02133",
+    "title": "Learning from Evolution: Improving Collective Decision-Making Mechanisms using Insights from Evolutionary Robotics",
+    "published_date": "2024-05-03",
+    "abstract": "Collective decision-making enables multi-robot systems to act autonomously in real-world environments. Existing collective decision-making mechanisms suffer from the so-called speed versus accuracy trade-off or rely on high complexity, e.g., by including global communication. Recent work has shown that more efficient collective decision-making mechanisms based on artificial neural networks can be generated using methods from evolutionary computation. A major drawback of these decision-making neural networks is their limited interpretability. Analyzing evolved decision-making mechanisms can help us improve the efficiency of hand-coded decision-making mechanisms while maintaining a higher interpretability. In this paper, we analyze evolved collective decision-making mechanisms in detail and hand-code two new decision-making mechanisms based on the insights gained. In benchmark experiments, we show that the newly implemented collective decision-making mechanisms are more efficient than the state-of-the-art collective decision-making mechanisms voter model and majority rule.",
+    "summary": "This paper analyzes evolved neural networks for collective robot decision-making, extracting insights to design novel, highly interpretable, and efficient hand-coded mechanisms that outperform existing methods like voter models and majority rule. These new mechanisms achieve a better balance between speed and accuracy in collective decision-making."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.06161",
+    "title": "Trustworthy human-centric based Automated Decision-Making Systems",
+    "published_date": "2023-12-22",
+    "abstract": "Automated Decision-Making Systems (ADS) have become pervasive across various fields, activities, and occupations, to enhance performance. However, this widespread adoption introduces potential risks, including the misuse of ADS. Such misuse may manifest when ADS is employed in situations where it is unnecessary or when essential requirements, conditions, and terms are overlooked, leading to unintended consequences. This research paper presents a thorough examination of the implications, distinctions, and ethical considerations associated with digitalization, digital transformation, and the utilization of ADS in contemporary society and future contexts. Emphasis is placed on the imperative need for regulation, transparency, and ethical conduct in the deployment of ADS.",
+    "summary": "This paper examines the ethical and societal implications of widespread Automated Decision-Making Systems (ADS), highlighting the risks of misuse and advocating for increased regulation, transparency, and ethical considerations in their development and deployment. The authors emphasize the need for responsible ADS implementation to mitigate unintended consequences."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/YyzmcCxLcvDBEQezH/the-case-for-agi-the-divine-move-paradox-and-thinking-as-a",
+    "author": "Christopher James Hart",
+    "title": "The Divine Move Paradox & Thinking as a Species",
+    "published_date": "2023-05-31",
+    "summary": "The \"Divine Move Paradox\" highlights the potential conflict between objectively optimal actions and human understanding. Even with access to perfect information, a lack of comprehension can render the best move ineffective, necessitating strategies for bridging the intelligence gap between humans and superior AI."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/AKBkDNeFLZxaMqjQG/a-practical-incremental-pathway-to-safe-tai-oaa-in-the-real",
+    "author": "Roman Leventov, Rafael Kaufmann Nedal",
+    "title": "Gaia Network: a practical, incremental pathway to Open Agency Architecture",
+    "published_date": "2023-12-20",
+    "summary": "The article proposes Gaia, a decentralized network leveraging existing technologies and economic mechanisms to address AI safety by building a shared world model, incrementally improving predictions, and facilitating safer AI development through open collaboration and competitive incentives. This bottom-up approach, inspired by natural evolution and the internet's development, aims to achieve the goals of the Open Agency Architecture (OAA) without relying on a single centralized authority."
+  },
+  {
+    "url": "https://arxiv.org/abs/2201.07050",
+    "title": "Combining Fast and Slow Thinking for Human-like and Efficient Navigation in Constrained Environments",
+    "published_date": "2022-01-18",
+    "abstract": "Current AI systems lack several important human capabilities, such as adaptability, generalizability, self-control, consistency, common sense, and causal reasoning. We believe that existing cognitive theories of human decision making, such as the thinking fast and slow theory, can provide insights on how to advance AI systems towards some of these capabilities. In this paper, we propose a general architecture that is based on fast/slow solvers and a metacognitive component. We then present experimental results on the behavior of an instance of this architecture, for AI systems that make decisions about navigating in a constrained environment. We show how combining the fast and slow decision modalities allows the system to evolve over time and gradually pass from slow to fast thinking with enough experience, and that this greatly helps in decision quality, resource consumption, and efficiency.",
+    "citation_count": 6,
+    "summary": "This paper proposes an AI navigation architecture combining \"fast\" and \"slow\" decision-making systems, mimicking human cognitive processes, demonstrating improved efficiency and decision quality through experience-driven transition from slow to fast thinking."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.13827.pdf",
+    "title": "Intelligent Decision Assistance Versus Automated Decision-Making: Enhancing Knowledge Work Through Explainable Artificial Intelligence",
+    "published_date": "2021-09-28",
+    "abstract": "While recent advances in AI-based automated decision-making have shown many benefits for businesses and society, they also come at a cost. It has for long been known that a high level of automation of decisions can lead to various drawbacks, such as automation bias and deskilling. In particular, the deskilling of knowledge workers is a major issue, as they are the same people who should also train, challenge and evolve AI. To address this issue, we conceptualize a new class of DSS, namely Intelligent Decision Assistance (IDA) based on a literature review of two different research streams -- DSS and automation. IDA supports knowledge workers without influencing them through automated decision-making. Specifically, we propose to use techniques of Explainable AI (XAI) while withholding concrete AI recommendations. To test this conceptualization, we develop hypotheses on the impacts of IDA and provide first evidence for their validity based on empirical studies in the literature.",
+    "citation_count": 9,
+    "summary": "This paper argues that Intelligent Decision Assistance (IDA), utilizing Explainable AI (XAI) without automated recommendations, mitigates the negative consequences of automated decision-making, such as deskilling, by empowering knowledge workers instead of replacing them. Empirical evidence supports the proposed benefits of this approach."
+  },
+  {
+    "url": "https://arxiv.org/abs/2112.04751",
+    "title": "Co-evolutionary hybrid intelligence",
+    "published_date": "2021-09-13",
+    "abstract": "Artificial intelligence is one of the drivers of modern technological development. The current approach to the development of intelligent systems is data centric. It has several limitations: it is fundamentally impossible to collect data for modeling complex objects and processes; training neural networks requires huge computational and energy resources; solutions are not explainable. The article discusses an alternative approach to the development of artificial intelligence systems based on the human-machine hybridization and their co-evolution.",
+    "citation_count": 16,
+    "summary": "This paper proposes co-evolutionary hybrid intelligence as an alternative to data-centric AI, addressing limitations in data acquisition, computational cost, and explainability by integrating human and machine intelligence. The approach focuses on the joint evolution and improvement of both human and artificial systems."
+  },
+  {
+    "title": "Learning algorithm for an intelligent decision making system based on multi-agent neurocognitive architectures",
+    "abstract": "Abstract The paper presents the formalism of an intelligent decision-making system based on multi-agent neurocognitive architectures, which has an architectural similarity to the human brain. An invariant of the organizational and functional structure of the intellectual decision-making process based on the multi-agent neurocognitive architecture is developed. An algorithm for teaching intelligent decision-making systems based on the self-organization of the invariant of multi-agent neurocognitive architectures is presented. Using this algorithm, an intelligent agent was trained and the architecture of the learning process was built on the basis of an invariant of neurocognitive architecture. Further research is related to training an intelligent agent in more complex behavior and expanding the capabilities of an intelligent decision-making system based on multi-agent neurocognitive architectures.",
+    "published_date": "2021-03-01",
+    "citation_count": 16,
+    "url": "https://www.sciencedirect.com/science/article/pii/S1389041720300899",
+    "summary": "This paper proposes a novel learning algorithm for an intelligent decision-making system modeled on multi-agent neurocognitive architectures, mirroring human brain structure, and demonstrates its application in training an intelligent agent. Further work will explore more complex behaviors and system capabilities."
+  }
+]

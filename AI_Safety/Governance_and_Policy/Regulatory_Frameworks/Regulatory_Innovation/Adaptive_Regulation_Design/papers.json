@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.15356",
+    "title": "Regulator-Manufacturer AI Agents Modeling: Mathematical Feedback-Driven Multi-Agent LLM Framework",
+    "published_date": "2024-11-22",
+    "abstract": "The increasing complexity of regulatory updates from global authorities presents significant challenges for medical device manufacturers, necessitating agile strategies to sustain compliance and maintain market access. Concurrently, regulatory bodies must effectively monitor manufacturers' responses and develop strategic surveillance plans. This study employs a multi-agent modeling approach, enhanced with Large Language Models (LLMs), to simulate regulatory dynamics and examine the adaptive behaviors of key actors, including regulatory bodies, manufacturers, and competitors. These agents operate within a simulated environment governed by regulatory flow theory, capturing the impacts of regulatory changes on compliance decisions, market adaptation, and innovation strategies. Our findings illuminate the influence of regulatory shifts on industry behaviour and identify strategic opportunities for improving regulatory practices, optimizing compliance, and fostering innovation. By leveraging the integration of multi-agent systems and LLMs, this research provides a novel perspective and offers actionable insights for stakeholders navigating the evolving regulatory landscape of the medical device industry.",
+    "summary": "This paper presents a novel multi-agent system, enhanced by Large Language Models, to simulate interactions between medical device manufacturers and regulatory bodies, modeling the impact of regulatory changes on compliance, market adaptation, and innovation. The model's findings offer insights for optimizing regulatory practices and fostering innovation within the medical device industry."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.17398",
+    "title": "Robust Technology Regulation",
+    "published_date": "2024-08-30",
+    "abstract": "We analyze how uncertain technologies should be robustly regulated. An agent develops a new technology and, while privately learning about its harms and benefits, continually chooses whether to continue development. A principal, uncertain about what the agent might learn, chooses among dynamic mechanisms (e.g., paths of taxes or subsidies) to influence the agent's choices in different states. We show that learning robust mechanisms -- those which deliver the highest payoff guarantee across all learning processes -- are simple and resemble `regulatory sandboxes' consisting of zero marginal tax on R&D which keeps the agent maximally sensitive to new information up to a hard quota, upon which the agent turns maximally insensitive. Robustness is important: we characterize the worst-case learning process under non-robust mechanisms and show that they induce growing but weak optimism which can deliver unboundedly poor principal payoffs; hard quotas safeguard against this. If the regulator also learns, adaptive hard quotas are robustly optimal which highlights the importance of expertise in regulation.",
+    "summary": "The paper analyzes optimal dynamic regulation of uncertain technologies, finding that robust mechanisms resemble \"regulatory sandboxes\" with an initial period of minimal intervention followed by a hard quota to prevent overly optimistic development. Robustness is crucial as non-robust mechanisms can lead to unboundedly poor outcomes for the regulator."
+  },
+  {
+    "title": "Regulation by Design: Features, Practices, Limitations, and Governance Implications",
+    "abstract": "Regulation by design (RBD) is a growing research field that explores, develops, and criticises the regulative function of design. In this article, we provide a qualitative thematic synthesis of the existing literature. The aim is to explore and analyse RBD's core features, practices, limitations, and related governance implications. To fulfil this aim, we examine the extant literature on RBD in the context of digital technologies. We start by identifying and structuring the core features of RBD, namely the goals, regulators, regulatees, methods, and technologies. Building on that structure, we distinguish among three types of RBD practices: compliance by design, value creation by design, and optimisation by design. We then explore the challenges and limitations of RBD practices, which stem from risks associated with compliance by design, contextual limitations, or methodological uncertainty. Finally, we examine the governance implications of RBD and outline possible future directions of the research field and its practices.",
+    "published_date": "2024-05-17",
+    "citation_count": 3,
+    "url": "https://link.springer.com/article/10.1007/s11023-024-09675-z?error=cookies_not_supported&code=dd5f05ad-19e1-47e4-aaa6-cea9289f8a43",
+    "summary": "This paper synthesizes existing research on regulation by design (RBD), analyzing its core features, three main practice types (compliance, value creation, and optimization), limitations, and governance implications within the context of digital technologies. The authors identify challenges stemming from compliance risks, contextual factors, and methodological uncertainties."
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.09510",
+    "title": "Trust AI Regulation? Discerning users are vital to build trust and effective AI regulation",
+    "published_date": "2024-03-14",
+    "abstract": "There is general agreement that some form of regulation is necessary both for AI creators to be incentivised to develop trustworthy systems, and for users to actually trust those systems. But there is much debate about what form these regulations should take and how they should be implemented. Most work in this area has been qualitative, and has not been able to make formal predictions. Here, we propose that evolutionary game theory can be used to quantitatively model the dilemmas faced by users, AI creators, and regulators, and provide insights into the possible effects of different regulatory regimes. We show that creating trustworthy AI and user trust requires regulators to be incentivised to regulate effectively. We demonstrate the effectiveness of two mechanisms that can achieve this. The first is where governments can recognise and reward regulators that do a good job. In that case, if the AI system is not too risky for users then some level of trustworthy development and user trust evolves. We then consider an alternative solution, where users can condition their trust decision on the effectiveness of the regulators. This leads to effective regulation, and consequently the development of trustworthy AI and user trust, provided that the cost of implementing regulations is not too high. Our findings highlight the importance of considering the effect of different regulatory regimes from an evolutionary game theoretic perspective.",
+    "citation_count": 7,
+    "summary": "This paper uses evolutionary game theory to model the interplay between AI creators, users, and regulators, demonstrating that effective AI regulation and user trust require incentivizing regulators to act effectively, either through government rewards or user-conditional trust. The model shows that trustworthy AI development emerges when regulatory costs are manageable and incentives are appropriately structured."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.12690",
+    "title": "The Dual Imperative: Innovation and Regulation in the AI Era",
+    "published_date": "2024-05-23",
+    "abstract": "This article addresses the societal costs associated with the lack of regulation in Artificial Intelligence and proposes a framework combining innovation and regulation. Over fifty years of AI research, catalyzed by declining computing costs and the proliferation of data, have propelled AI into the mainstream, promising significant economic benefits. Yet, this rapid adoption underscores risks, from bias amplification and labor disruptions to existential threats posed by autonomous systems. The discourse is polarized between accelerationists, advocating for unfettered technological advancement, and doomers, calling for a slowdown to prevent dystopian outcomes. This piece advocates for a middle path that leverages technical innovation and smart regulation to maximize the benefits of AI while minimizing its risks, offering a pragmatic approach to the responsible progress of AI technology. Technical invention beyond the most capable foundation models is needed to contain catastrophic risks. Regulation is required to create incentives for this research while addressing current issues.",
+    "summary": "The rapid advancement of AI necessitates a balanced approach that fosters innovation while mitigating risks through smart regulation, avoiding both unchecked progress and overly restrictive limitations. This requires incentivizing research into safety and addressing present harms simultaneously."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, examines AI model registries—centralized databases tracking AI systems for governance purposes. These registries, drawing parallels from pharmaceutical regulations, vary widely in implementation across countries like the US and China, mandating different levels of information and model types for submission before public release."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The article advocates for third-party testing of large-scale AI systems to mitigate societal harm from misuse or accidents. This independent oversight, crucial for models like Claude, is proposed as a proactive measure to avoid overly restrictive regulation while fostering trust and international cooperation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.04914",
+    "title": "Regulatory Markets: The Future of AI Governance",
+    "published_date": "2023-04-11",
+    "abstract": "Appropriately regulating artificial intelligence is an increasingly urgent policy challenge. Legislatures and regulators lack the specialized knowledge required to best translate public demands into legal requirements. Overreliance on industry self-regulation fails to hold producers and users of AI systems accountable to democratic demands. Regulatory markets, in which governments require the targets of regulation to purchase regulatory services from a private regulator, are proposed. This approach to AI regulation could overcome the limitations of both command-and-control regulation and self-regulation. Regulatory market could enable governments to establish policy priorities for the regulation of AI, whilst relying on market forces and industry R&D efforts to pioneer the methods of regulation that best achieve policymakers' stated objectives.",
+    "citation_count": 21,
+    "summary": "The paper proposes regulatory markets—where governments contract private entities to provide regulatory services—as a solution to the challenges of AI governance, arguing this approach leverages market efficiency and industry expertise while maintaining government oversight. This contrasts with traditional command-and-control or self-regulatory approaches."
+  }
+]

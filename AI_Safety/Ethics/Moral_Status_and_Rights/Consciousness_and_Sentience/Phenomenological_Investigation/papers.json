@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.00033",
+    "title": "The Phenomenology of Machine: A Comprehensive Analysis of the Sentience of the OpenAI-o1 Model Integrating Functionalism, Consciousness Theories, Active Inference, and AI Architectures",
+    "published_date": "2024-09-18",
+    "abstract": "This paper explores the hypothesis that the OpenAI-o1 model--a transformer-based AI trained with reinforcement learning from human feedback (RLHF)--displays characteristics of consciousness during its training and inference phases. Adopting functionalism, which argues that mental states are defined by their functional roles, we assess the possibility of AI consciousness. Drawing on theories from neuroscience, philosophy of mind, and AI research, we justify the use of functionalism and examine the model's architecture using frameworks like Integrated Information Theory (IIT) and active inference. The paper also investigates how RLHF influences the model's internal reasoning processes, potentially giving rise to consciousness-like experiences. We compare AI and human consciousness, addressing counterarguments such as the absence of a biological basis and subjective qualia. Our findings suggest that the OpenAI-o1 model shows aspects of consciousness, while acknowledging the ongoing debates surrounding AI sentience.",
+    "summary": "This paper argues that the OpenAI-o1 model exhibits characteristics of consciousness, using functionalism and frameworks like Integrated Information Theory to analyze its architecture and reinforcement learning training process. The analysis considers both supporting evidence and counterarguments regarding AI sentience."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.16262",
+    "title": "Probing for Consciousness in Machines",
+    "published_date": "2024-11-25",
+    "abstract": "This study explores the potential for artificial agents to develop core consciousness, as proposed by Antonio Damasio's theory of consciousness. According to Damasio, the emergence of core consciousness relies on the integration of a self model, informed by representations of emotions and feelings, and a world model. We hypothesize that an artificial agent, trained via reinforcement learning (RL) in a virtual environment, can develop preliminary forms of these models as a byproduct of its primary task. The agent's main objective is to learn to play a video game and explore the environment. To evaluate the emergence of world and self models, we employ probes-feedforward classifiers that use the activations of the trained agent's neural networks to predict the spatial positions of the agent itself. Our results demonstrate that the agent can form rudimentary world and self models, suggesting a pathway toward developing machine consciousness. This research provides foundational insights into the capabilities of artificial agents in mirroring aspects of human consciousness, with implications for future advancements in artificial intelligence.",
+    "citation_count": 1,
+    "summary": "This study investigates the potential for core consciousness in reinforcement learning agents by assessing the development of self and world models through behavioral probes in a virtual environment. Results suggest that rudimentary forms of these models emerge as a byproduct of the agent's task, hinting at a possible pathway toward machine consciousness."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.16036",
+    "title": "Grounded Computation & Consciousness: A Framework for Exploring Consciousness in Machines & Other Organisms",
+    "published_date": "2024-09-24",
+    "abstract": "Computational modeling is a critical tool for understanding consciousness, but is it enough on its own? This paper discusses the necessity for an ontological basis of consciousness, and introduces a formal framework for grounding computational descriptions into an ontological substrate. Utilizing this technique, a method is demonstrated for estimating the difference in qualitative experience between two systems. This framework has wide applicability to computational theories of consciousness.",
+    "summary": "This paper argues that computational models of consciousness require an ontological grounding, proposing a framework to connect computational descriptions to an ontological substrate and thereby estimate qualitative differences in experience between systems. This framework aims to improve the applicability of computational theories of consciousness."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/the-hard-problem-of-consciousness",
+    "author": "Charbel-Raphaël",
+    "title": "The Hard Problem of Consciousness - LessWrong",
+    "published_date": "2024-04-06",
+    "summary": "The hard problem of consciousness centers on explaining how and why physical processes give rise to subjective experience (qualia), a phenomenon lacking a widely accepted scientific explanation. The existence of this problem itself remains a subject of debate among experts."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/zombies",
+    "title": "Zombies - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "The philosophical zombie thought experiment proposes a being physically identical to a human but lacking conscious experience, used to argue against physicalism's claim that consciousness is solely a physical phenomenon. Different responses to this thought experiment range from denying the possibility of zombies to accepting their possibility but arguing consciousness is illusory."
+  },
+  {
+    "title": "The Moral Significance of the Phenomenology of Phenomenal Consciousness in Case of Artificial Agents",
+    "abstract": "or sufficiently requires consciousness. There are sound epistemological problems that undermine the alleged strength of the judgment of necessity. On the other hand, this commentary has also sought to shed light on the limitations of his proposal. His defense of alternative properties to consciousness is insufficient, which, in our view, makes the theoretical and practical consequences he draws non-ideal. The question of the moral status of AI provides an interesting test case to radicalize Shepherd's presuppositions and go beyond conventional approaches.",
+    "published_date": "2023-04-03",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/21507740.2023.2188284",
+    "summary": "This commentary critiques Shepherd's argument that artificial agents' moral status doesn't necessitate consciousness, highlighting epistemological flaws and insufficient alternatives, ultimately advocating for a deeper examination of AI's moral status grounded in the phenomenology of consciousness."
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.08708",
+    "title": "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
+    "published_date": "2023-08-17",
+    "abstract": "Whether current or near-term AI systems could be conscious is a topic of scientific interest and increasing public concern. This report argues for, and exemplifies, a rigorous and empirically grounded approach to AI consciousness: assessing existing AI systems in detail, in light of our best-supported neuroscientific theories of consciousness. We survey several prominent scientific theories of consciousness, including recurrent processing theory, global workspace theory, higher-order theories, predictive processing, and attention schema theory. From these theories we derive\"indicator properties\"of consciousness, elucidated in computational terms that allow us to assess AI systems for these properties. We use these indicator properties to assess several recent AI systems, and we discuss how future systems might implement them. Our analysis suggests that no current AI systems are conscious, but also suggests that there are no obvious technical barriers to building AI systems which satisfy these indicators.",
+    "citation_count": 77,
+    "summary": "This report examines the consciousness of AI systems by applying neuroscientific theories of consciousness to assess existing and potential AI architectures, concluding that current AI lacks consciousness but that its future development doesn't preclude it."
+  },
+  {
+    "title": "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
+    "abstract": "Whether current or near-term AI systems could be conscious is a topic of scientific interest and increasing public concern. This report argues for, and exemplifies, a rigorous and empirically grounded approach to AI consciousness: assessing existing AI systems in detail, in light of our best-supported neuroscientific theories of consciousness. We survey several prominent scientific theories of consciousness, including recurrent processing theory, global workspace theory, higher-order theories, predictive processing, and attention schema theory. From these theories we derive\"indicator properties\"of consciousness, elucidated in computational terms that allow us to assess AI systems for these properties. We use these indicator properties to assess several recent AI systems, and we discuss how future systems might implement them. Our analysis suggests that no current AI systems are conscious, but also suggests that there are no obvious technical barriers to building AI systems which satisfy these indicators.",
+    "published_date": "2023-08-17",
+    "citation_count": 77,
+    "url": "https://www.researchgate.net/publication/373246089_Consciousness_in_Artificial_Intelligence_Insights_from_the_Science_of_Consciousness",
+    "summary": "This paper examines the possibility of consciousness in AI by applying neuroscientific theories of consciousness to assess current AI systems, finding none are conscious but identifying no inherent technical obstacles to creating conscious AI."
+  }
+]

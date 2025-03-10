@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.16608",
+    "title": "Barriers on the EDGE: A scalable CBF architecture over EDGE for safe aerial-ground multi-agent coordination",
+    "published_date": "2024-11-25",
+    "abstract": "In this article, we address the problem of designing a scalable control architecture for a safe coordinated operation of a multi-agent system with aerial (UAVs) and ground robots (UGVs) in a confined task space. The proposed method uses Control Barrier Functions (CBFs) to impose constraints associated with (i) collision avoidance between agents, (ii) landing of UAVs on mobile UGVs, and (iii) task space restriction. Further, to account for the rapid increase in the number of constraints for a single agent with the increasing number of agents, the proposed architecture uses a centralized-decentralized Edge cluster, where a centralized node (Watcher) activates the relevant constraints, reducing the need for high onboard processing and network complexity. The distributed nodes run the controller locally to overcome latency and network issues. The proposed Edge architecture is experimentally validated using multiple aerial and ground robots in a confined environment performing a coordinated operation."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.09678",
+    "title": "Integrating Graceful Degradation and Recovery Through Requirement-Driven Adaptation",
+    "published_date": "2024-01-18",
+    "abstract": "Cyber-physical systems (CPS) are subject to environmental uncertainties such as adverse operating conditions, malicious attacks, and hardware degradation. These uncertainties may lead to failures that put the system in a sub-optimal or unsafe state. Systems that are resilient to such uncertainties rely on two types of operations: (1) graceful degradation, for ensuring that the system maintains an acceptable level of safety during unexpected environmental conditions and (2) recovery, to facilitate the resumption of normal system functions. Typically, mechanisms for degradation and recovery are developed independently from each other, and later integrated into a system, requiring the designer to develop an additional, ad-hoc logic for activating and coordinating between the two operations. In this paper, we propose a self-adaptation approach for improving system resiliency through automated triggering and coordination of graceful degradation and recovery. The key idea behind our approach is to treat degradation and recovery as requirement-driven adaptation tasks: Degradation can be thought of as temporarily weakening original (i.e., ideal) system requirements to be achieved by the system, and recovery as strengthening the weakened requirements when the environment returns within an expected operating boundary. Furthermore, by treating weakening and strengthening as dual operations, we argue that a single requirement-based adaptation method is sufficient to enable coordination between degradation and recovery. Given system requirements specified in signal temporal logic (STL), we propose a run-time adaptation framework that performs degradation and recovery in response to environmental changes. We describe a prototype implementation of our framework and demonstrate the feasibility of the proposed approach using a case study in unmanned underwater vehicles."
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.08168",
+    "title": "Emergent Software Service Platform and its Application in a Smart Mobility Setting",
+    "published_date": "2023-08-16",
+    "abstract": "The development dynamics of digital innovations for industry, business, and society are producing complex system conglomerates that can no longer be designed centrally and hierarchically in classic development processes. Instead, systems are evolving in DevOps processes in which heterogeneous actors act together on an open platform. Influencing and controlling such dynamically and autonomously changing system landscapes is currently a major challenge and a fundamental interest of service users and providers, as well as operators of the platform infrastructures. In this paper, we propose an architecture for such an emergent software service platform. A software platform that implements this architecture with the underlying engineering methodology is demonstrated by a smart parking lot scenario.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.04980",
+    "title": "A Capability-based Distributed Authorization System to Enforce Context-aware Permission Sequences",
+    "published_date": "2022-06-07",
+    "abstract": "Controlled sharing is fundamental to distributed systems. We consider a capability-based distributed authorization system where a client receives capabilities (access tokens) from an authorization server to access the resources of resource servers. Capability-based authorization systems have been widely used on the Web, in mobile applications and other distributed systems. A common requirement of such systems is that the user uses tokens of multiple servers in a particular order. A related requirement is the token may be used if certain environmental conditions hold. We introduce a secure capability-based system that supports \"permission sequence\" and \"context\". This allows a finite sequence of permissions to be enforced, each with their own specific context. We prove the safety property of this system for these conditions and integrate the system into OAuth 2.0 with proof-of-possession tokens. We evaluate our implementation and compare it with plain OAuth with respect to the average time for obtaining an authorization token and acquiring access to the resource.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2202.05732",
+    "title": "CAP-VMs: Capability-Based Isolation and Sharing in the Cloud",
+    "published_date": "2022-02-11",
+    "abstract": "Cloud stacks must isolate application components, while permitting efficient data sharing between components deployed on the same physical host. Traditionally, the MMU enforces isolation and permits sharing at page granularity. MMU approaches, however, lead to cloud stacks with large TCBs in kernel space, and page granularity requires inefficient OS interfaces for data sharing. Forthcoming CPUs with hardware support for memory capabilities offer new opportunities to implement isolation and sharing at a finer granularity. We describe cVMs, a new VM-like abstraction that uses memory capabilities to isolate application components while supporting efficient data sharing, all without mandating application code to be capability-aware. cVMs share a single virtual address space safely, each having only capabilities to access its own memory. A cVM may include a library OS, thus minimizing its dependency on the cloud environment. cVMs efficiently exchange data through two capability-based primitives assisted by a small trusted monitor: (i) an asynchronous read-write interface to buffers shared between cVMs; and (ii) a call interface to transfer control between cVMs. Using these two primitives, we build more expressive mechanisms for efficient cross-cVM communication. Our prototype implementation using CHERI RISC-V capabilities shows that cVMs isolate services (Redis and Python) with low overhead while improving data sharing.",
+    "citation_count": 14
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rmwAuWXYTo24E5nnX/a-pin-and-a-balloon-anthropic-fragility-increases-chances-of",
+    "author": "avturchin",
+    "title": "A Pin and a Balloon: Anthropic Fragility Increases Chances of Runaway Global Warming",
+    "published_date": "2022-09-11"
+  }
+]

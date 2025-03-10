@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.03092",
+    "title": "Strategic Insights from Simulation Gaming of AI Race Dynamics",
+    "published_date": "2024-10-04",
+    "abstract": "We present insights from\"Intelligence Rising\", a scenario exploration exercise about possible AI futures. Drawing on the experiences of facilitators who have overseen 43 games over a four-year period, we illuminate recurring patterns, strategies, and decision-making processes observed during gameplay. Our analysis reveals key strategic considerations about AI development trajectories in this simulated environment, including: the destabilising effects of AI races, the crucial role of international cooperation in mitigating catastrophic risks, the challenges of aligning corporate and national interests, and the potential for rapid, transformative change in AI capabilities. We highlight places where we believe the game has been effective in exposing participants to the complexities and uncertainties inherent in AI governance. Key recurring gameplay themes include the emergence of international agreements, challenges to the robustness of such agreements, the critical role of cybersecurity in AI development, and the potential for unexpected crises to dramatically alter AI trajectories. By documenting these insights, we aim to provide valuable foresight for policymakers, industry leaders, and researchers navigating the complex landscape of AI development and governance.",
+    "summary": "Analysis of 43 simulation games reveals recurring strategic patterns in AI development, highlighting the destabilizing nature of AI races, the need for international cooperation, and the challenges of aligning diverse interests to mitigate catastrophic risks. Key gameplay themes included fragile international agreements, cybersecurity vulnerabilities, and the potential for unforeseen crises to significantly impact AI trajectories."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.16443",
+    "title": "The Turing Valley: How AI Capabilities Shape Labor Income",
+    "published_date": "2024-08-29",
+    "abstract": "Do improvements in Artificial Intelligence (AI) benefit workers? We study how AI capabilities influence labor income in a competitive economy where production requires multidimensional knowledge, and firms organize production by matching humans and AI-powered machines in hierarchies designed to use knowledge efficiently. We show that advancements in AI in dimensions where machines underperform humans decrease total labor income, while advancements in dimensions where machines outperform humans increase it. Hence, if AI initially underperforms humans in all dimensions and improves gradually, total labor income initially declines before rising. We also characterize the AI that maximizes labor income. When humans are sufficiently weak in all knowledge dimensions, labor income is maximized when AI is as good as possible in all dimensions. Otherwise, labor income is maximized when AI simultaneously performs as poorly as possible in the dimensions where humans are relatively strong and as well as possible in the dimensions where humans are relatively weak. Our results suggest that choosing the direction of AI development can create significant divisions between the interests of labor and capital.",
+    "summary": "The paper models how AI advancements affect labor income, finding that improvements in AI capabilities where machines initially underperform humans decrease total labor income, while improvements where machines outperform humans increase it, leading to a potential initial decline before overall income rises. This highlights a potential conflict between labor and capital interests in directing AI development."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.15433",
+    "title": "Quantifying detection rates for dangerous capabilities: a theoretical model of dangerous capability evaluations",
+    "published_date": "2024-12-19",
+    "abstract": "We present a quantitative model for tracking dangerous AI capabilities over time. Our goal is to help the policy and research community visualise how dangerous capability testing can give us an early warning about approaching AI risks. We first use the model to provide a novel introduction to dangerous capability testing and how this testing can directly inform policy. Decision makers in AI labs and government often set policy that is sensitive to the estimated danger of AI systems, and may wish to set policies that condition on the crossing of a set threshold for danger. The model helps us to reason about these policy choices. We then run simulations to illustrate how we might fail to test for dangerous capabilities. To summarise, failures in dangerous capability testing may manifest in two ways: higher bias in our estimates of AI danger, or larger lags in threshold monitoring. We highlight two drivers of these failure modes: uncertainty around dynamics in AI capabilities and competition between frontier AI labs. Effective AI policy demands that we address these failure modes and their drivers. Even if the optimal targeting of resources is challenging, we show how delays in testing can harm AI policy. We offer preliminary recommendations for building an effective testing ecosystem for dangerous capabilities and advise on a research agenda.",
+    "summary": "This paper develops a quantitative model to predict the detection rate of dangerous AI capabilities, revealing how testing failures—driven by uncertainty and inter-lab competition—can lead to biased danger estimates and delayed policy responses. The model informs policy decisions by illustrating the impact of testing failures on threshold monitoring for dangerous AI capabilities."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The paper analyzes three strategies for governing transformative AI: Cooperative Development, Strategic Advantage, and Global Moratorium. The effectiveness of each strategy depends heavily on the difficulty of aligning AI and the projected timeline for its development, with preferences shifting significantly across different scenarios."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), focusing on short timelines (within a decade). The program will then evaluate strategies for AI safety and governance across these scenarios to mitigate potential existential threats."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/LjgcRbptarrRfJWtR/a-breakdown-of-ai-capability-levels-focused-on-ai-r-and-d",
+    "author": "ryan_greenblatt",
+    "title": "A breakdown of AI capability levels focused on AI R&D labor acceleration",
+    "published_date": "2024-12-22",
+    "summary": "The author proposes measuring AI capability by its ability to accelerate AI R&D labor, defining levels like \"3x AI\" (3x acceleration) and \"TEDAI\" (Top-human-Expert-Dominating AI). This approach focuses on AI's intrinsic capabilities, minimizing dependence on external factors like compute availability."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.00052",
+    "title": "A Case for Competent AI Systems $-$ A Concept Note",
+    "published_date": "2023-11-28",
+    "abstract": "The efficiency of an AI system is contingent upon its ability to align with the specified requirements of a given task. How-ever, the inherent complexity of tasks often introduces the potential for harmful implications or adverse actions. This note explores the critical concept of capability within AI systems, representing what the system is expected to deliver. The articulation of capability involves specifying well-defined out-comes. Yet, the achievement of this capability may be hindered by deficiencies in implementation and testing, reflecting a gap in the system's competency (what it can do vs. what it does successfully). A central challenge arises in elucidating the competency of an AI system to execute tasks effectively. The exploration of system competency in AI remains in its early stages, occasionally manifesting as confidence intervals denoting the probability of success. Trust in an AI system hinges on the explicit modeling and detailed specification of its competency, connected intricately to the system's capability. This note explores this gap by proposing a framework for articulating the competency of AI systems. Motivated by practical scenarios such as the Glass Door problem, where an individual inadvertently encounters a glass obstacle due to a failure in their competency, this research underscores the imperative of delving into competency dynamics. Bridging the gap between capability and competency at a detailed level, this note contributes to advancing the discourse on bolstering the reliability of AI systems in real-world applications.",
+    "summary": "This paper argues that achieving reliable AI systems requires a clear distinction between capability (intended function) and competency (successful execution), proposing a framework to explicitly model and specify AI competency to improve trust and reduce harmful outcomes. The authors highlight the critical need to bridge the gap between what an AI system *can* do and what it *actually* does successfully."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.07878",
+    "title": "New Kids on the Block: On the impact of information retrieval on contextual resource integration patterns",
+    "published_date": "2023-12-13",
+    "abstract": "The rise of new modes of interaction with AI skyrocketed the popularity, applicability, and amount of use cases. Despite this evolution, conceptual integration is falling behind. Studies suggest that there is hardly a systematization in using AI in organizations. Thus, by taking a service-dominant logic perspective, specifically, the concept of resource integration patterns, the most potent application of AI for organizational use - namely information retrieval - is analyzed. In doing so, we propose a systematization that can be applied to deepen understanding of core technical concepts, further investigate AI in contexts, and help explore research directions guided by SDL.",
+    "summary": "This paper analyzes the impact of information retrieval, a key AI application in organizations, on contextual resource integration patterns using a service-dominant logic perspective. It proposes a systematization to improve understanding of AI's organizational use and guide future research."
+  }
+]

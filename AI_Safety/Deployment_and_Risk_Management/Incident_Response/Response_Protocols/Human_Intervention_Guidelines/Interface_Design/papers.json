@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Toward Understanding the Design of Intertwined Human–Computer Integrations",
+    "abstract": "Human–computer integration is an HCI trend in which computational machines can have agency, i.e., take control. Our work focuses on a particular form of integration in which the user and the computational machine share agency over the user's body, that is, can simultaneously (in contrast to a traditional turn-taking approach) control the user's body. The result is a user experience where the agency of the user and the computational machine is so intertwined that it is often no more discernable who contributed what to what extent; we call this “intertwined integration”. Due to the recency of advanced technologies enabling intertwined integration systems, we find that little understanding and documented design knowledge exist. To begin constructing such an understanding, we use three case studies to propose two key dimensions (“awareness of machine's agency” and “alignment of machine's agency”) to articulate a design space for intertwined integration systems. We differentiate four roles that computational machines can assume in this design space (angel, butler, influencer, and adversary). Based on our craft knowledge gained through designing such intertwined integration systems, we discuss strategies to help designers create future systems. Ultimately, we aim at advancing the HCI field's emerging understanding of sharing agency.",
+    "published_date": "2023-04-05",
+    "citation_count": 17,
+    "url": "https://dl.acm.org/doi/10.1145/3590766"
+  },
+  {
+    "title": "Assessing Human-AI Interaction Early through Factorial Surveys: A Study on the Guidelines for Human-AI Interaction",
+    "abstract": "This work contributes a research protocol for evaluating human-AI interaction in the context of specific AI products. The research protocol enables UX and HCI researchers to assess different human-AI interaction solutions and validate design decisions before investing in engineering. We present a detailed account of the research protocol and demonstrate its use by employing it to study an existing set of human-AI interaction guidelines. We used factorial surveys with a 2 × 2 mixed design to compare user perceptions when a guideline is applied versus violated, under conditions of optimal versus sub-optimal AI performance. The results provided both qualitative and quantitative insights into the UX impact of each guideline. These insights can support creators of user-facing AI systems in their nuanced prioritization and application of the guidelines.",
+    "published_date": "2022-04-14",
+    "citation_count": 24,
+    "url": "https://dl.acm.org/doi/10.1145/3511605"
+  },
+  {
+    "title": "Re-examining Whether, Why, and How Human-AI Interaction Is Uniquely Difficult to Design",
+    "abstract": "Artificial Intelligence (AI) plays an increasingly important role in improving HCI and user experience. Yet many challenges persist in designing and innovating valuable human-AI interactions. For example, AI systems can make unpredictable errors, and these errors damage UX and even lead to undesired societal impact. However, HCI routinely grapples with complex technologies and mitigates their unintended consequences. What makes AI different? What makes human-AI interaction appear particularly difficult to design? This paper investigates these questions. We synthesize prior research, our own design and research experience, and our observations when teaching human-AI interaction. We identify two sources of AI's distinctive design challenges: 1) uncertainty surrounding AI's capabilities, 2) AI's output complexity, spanning from simple to adaptive complex. We identify four levels of AI systems. On each level, designers encounter a different subset of the design challenges. We demonstrate how these findings reveal new insights for designers, researchers, and design tool makers in productively addressing the challenges of human-AI interaction going forward.",
+    "published_date": "2020-04-21",
+    "citation_count": 387,
+    "url": "https://www.researchgate.net/publication/338459008_Re-examining_Whether_Why_and_How_Human-AI_Interaction_Is_Uniquely_Difficult_to_Design"
+  },
+  {
+    "title": "Designing Safety Critical Interactions: Hunting Down Human Error",
+    "abstract": "Human error at the time of operation (i.e. when the system is in use) are implicated in most incidents involving safety critical systems.. In many domains, control and command interfaces are composed of a multitude of devices and machines from different brands in different generations have been crammed together. The resultant bridging of functions across devices, the decision making, the overview, the handling of partially imprecise or conflicting information are often just offloaded to the human. Thus, there appears to be a need to shift the attention from avoiding human error (at operation time) to avoiding error during design. In this workshop, we aim to provide a forum to discuss such a paradigm shift and the implication on the methods and tools for designing and evaluating HCI technology in safety-critical environments",
+    "published_date": "2020-04-23",
+    "citation_count": 3,
+    "url": "https://dl.acm.org/doi/10.1145/3334480.3375148"
+  },
+  {
+    "title": "Re-examining Whether, Why, and How Human-AI Interaction Is Uniquely Difficult to Design",
+    "abstract": "Artificial Intelligence (AI) plays an increasingly important role in improving HCI and user experience. Yet many challenges persist in designing and innovating valuable human-AI interactions. For example, AI systems can make unpredictable errors, and these errors damage UX and even lead to undesired societal impact. However, HCI routinely grapples with complex technologies and mitigates their unintended consequences. What makes AI different? What makes human-AI interaction appear particularly difficult to design? This paper investigates these questions. We synthesize prior research, our own design and research experience, and our observations when teaching human-AI interaction. We identify two sources of AI's distinctive design challenges: 1) uncertainty surrounding AI's capabilities, 2) AI's output complexity, spanning from simple to adaptive complex. We identify four levels of AI systems. On each level, designers encounter a different subset of the design challenges. We demonstrate how these findings reveal new insights for designers, researchers, and design tool makers in productively addressing the challenges of human-AI interaction going forward.",
+    "published_date": "2020-04-21",
+    "citation_count": 387,
+    "url": "https://dl.acm.org/doi/10.1145/3313831.3376301"
+  },
+  {
+    "title": "Ten Objectives and Ten Rules for Designing Automations in Interaction Techniques, User Interfaces and Interactive Systems",
+    "abstract": "Automation, as a design goal, focusses mainly on the migration of tasks from a human operator to a mechanical or digital system. Designing automation thus usually consists in removing tasks or activities from that operator and in designing systems that will be able to perform them. When these automations are not adequately designed (or correctly understood by the operator), they may result in so called automation surprises [1], [2] that degrade, instead of enhance, the overall performance of the couple (operator, system). Usually, these tasks are considered at a high level of abstraction (related to work and work objectives) leaving unconsidered low-level, repetitive tasks. This paper proposes a decomposition of automation for interactive systems highlighting the diverse objectives it may target at. Beyond, multiple complementary views of automation for interactive systems design are presented to better define the multiform concept of automation. It provides numerous concrete examples illustrating each view and identifies ten rules for designing interactive systems embedding automations.",
+    "published_date": "2020-09-28",
+    "citation_count": 7,
+    "url": "https://dl.acm.org/doi/10.1145/3399715.3400872"
+  }
+]

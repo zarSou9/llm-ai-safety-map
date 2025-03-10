@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/s/sv2CwqTCso8wDdmmi",
+    "author": "Gordon Seidoh Worley",
+    "title": "Formal Alignment - AI Alignment Forum",
+    "published_date": "2019-12-04",
+    "summary": "The article introduces a research project aiming to formally define AI alignment—currently a loosely defined concept—using mathematical methods to enable formal verification of alignment mechanisms. This will allow for precise evaluation of whether proposed solutions actually achieve alignment."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.18798",
+    "title": "Formal Verification of Digital Twins with TLA and Information Leakage Control",
+    "published_date": "2024-11-27",
+    "abstract": "Verifying the correctness of a digital twin provides a formal guarantee that the digital twin operates as intended. Digital twin verification is challenging due to the presence of uncertainties in the virtual representation, the physical environment, and the bidirectional flow of information between physical and virtual. A further challenge is that a digital twin of a complex system is composed of distributed components. This paper presents a methodology to specify and verify digital twin behavior, translating uncertain processes into a formally verifiable finite state machine. We use the Temporal Logic of Actions (TLA) to create a specification, an implementation abstraction that defines the properties required for correct system behavior. Our approach includes a novel weakening of formal security properties, allowing controlled information leakage while preserving theoretical guarantees. We demonstrate this approach on a digital twin of an unmanned aerial vehicle, verifying synchronization of physical-to-virtual and virtual-to-digital data flows to detect unintended misalignments.",
+    "summary": "This paper proposes a TLA-based methodology for formally verifying digital twin behavior, addressing challenges posed by uncertainties and distributed components by modeling uncertain processes as finite state machines and introducing a novel approach to controlled information leakage. The method is demonstrated through verification of data synchronization in a UAV digital twin."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.06624",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-10",
+    "abstract": "Ensuring that AI systems reliably and robustly avoid harmful or dangerous behaviours is a crucial challenge, especially for AI systems with a high degree of autonomy and general intelligence, or systems used in safety-critical contexts. In this paper, we will introduce and define a family of approaches to AI safety, which we will refer to as guaranteed safe (GS) AI. The core feature of these approaches is that they aim to produce AI systems which are equipped with high-assurance quantitative safety guarantees. This is achieved by the interplay of three core components: a world model (which provides a mathematical description of how the AI system affects the outside world), a safety specification (which is a mathematical description of what effects are acceptable), and a verifier (which provides an auditable proof certificate that the AI satisfies the safety specification relative to the world model). We outline a number of approaches for creating each of these three core components, describe the main technical challenges, and suggest a number of potential solutions to them. We also argue for the necessity of this approach to AI safety, and for the inadequacy of the main alternative approaches.",
+    "citation_count": 33,
+    "summary": "This paper proposes a \"guaranteed safe\" (GS) AI framework for ensuring reliable and robust AI systems, achieving high-assurance safety guarantees through a combination of a world model, safety specification, and a verifier that mathematically proves the AI meets the specification within the modeled world."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.04986",
+    "title": "Finding Safety Violations of AI-Enabled Control Systems through the Lens of Synthesized Proxy Programs",
+    "published_date": "2024-10-07",
+    "abstract": "Given the increasing adoption of modern AI-enabled control systems, ensuring their safety and reliability has become a critical task in software testing. One prevalent approach to testing control systems is falsification, which aims to find an input signal that causes the control system to violate a formal safety specification using optimization algorithms. However, applying falsification to AI-enabled control systems poses two significant challenges: (1)~it requires the system to execute numerous candidate test inputs, which can be time-consuming, particularly for systems with AI models that have many parameters, and (2)~multiple safety requirements are typically defined as a conjunctive specification, which is difficult for existing falsification approaches to comprehensively cover. This paper introduces Synthify, a falsification framework tailored for AI-enabled control systems. Our approach performs falsification in a two-phase process. At the start, Synthify synthesizes a program that implements one or a few linear controllers to serve as a proxy for the AI controller. This proxy program mimics the AI controller's functionality but is computationally more efficient. Then, Synthify employs the $\\epsilon$-greedy strategy to sample a promising sub-specification from the conjunctive safety specification. It then uses a Simulated Annealing-based falsification algorithm to find violations of the sampled sub-specification for the control system. To evaluate Synthify, we compare it to PSY-TaLiRo, a state-of-the-art and industrial-strength falsification tool, on 8 publicly available control systems. On average, Synthify achieves a 83.5% higher success rate in falsification compared to PSY-TaLiRo with the same budget of falsification trials. The safety violations found by Synthify are also more diverse than those found by PSY-TaLiRo, covering 137.7% more sub-specifications.",
+    "summary": "Synthify, a novel falsification framework for AI-enabled control systems, uses synthesized proxy programs to efficiently find safety violations by focusing on promising sub-specifications within a conjunctive safety specification, outperforming existing methods like PSY-TaLiRo in both success rate and diversity of violations found."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19",
+    "summary": "The article argues that claims of using formal verification to guarantee AI safety are overly optimistic. The inherent complexity of the real world, particularly in domains like biology and physics, makes obtaining the necessary complete models and data for rigorous formal verification practically impossible in the near term."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2304.12508.pdf",
+    "title": "Fulfilling Formal Specifications ASAP by Model-free Reinforcement Learning",
+    "published_date": "2023-04-25",
+    "abstract": "We propose a model-free reinforcement learning solution, namely the ASAP-Phi framework, to encourage an agent to fulfill a formal specification ASAP. The framework leverages a piece-wise reward function that assigns quantitative semantic reward to traces not satisfying the specification, and a high constant reward to the remaining. Then, it trains an agent with an actor-critic-based algorithm, such as soft actor-critic (SAC), or deep deterministic policy gradient (DDPG). Moreover, we prove that ASAP-Phi produces policies that prioritize fulfilling a specification ASAP. Extensive experiments are run, including ablation studies, on state-of-the-art benchmarks. Results show that our framework succeeds in finding sufficiently fast trajectories for up to 97\\% test cases and defeats baselines.",
+    "citation_count": 3,
+    "summary": "The ASAP-Phi framework uses model-free reinforcement learning with a piecewise reward function to train agents that prioritize fulfilling formal specifications as quickly as possible, achieving high success rates on benchmark tests compared to existing methods."
+  },
+  {
+    "url": "https://arxiv.org/abs/2309.01933",
+    "title": "Provably safe systems: the only path to controllable AGI",
+    "published_date": "2023-09-05",
+    "abstract": "We describe a path to humanity safely thriving with powerful Artificial General Intelligences (AGIs) by building them to provably satisfy human-specified requirements. We argue that this will soon be technically feasible using advanced AI for formal verification and mechanistic interpretability. We further argue that it is the only path which guarantees safe controlled AGI. We end with a list of challenge problems whose solution would contribute to this positive outcome and invite readers to join in this work.",
+    "citation_count": 15,
+    "summary": "The paper advocates for building provably safe AGIs by using advanced AI techniques for verification and interpretability, arguing this is the only path to guaranteeing safe and controlled AGI development. It proposes challenge problems to facilitate this approach."
+  }
+]

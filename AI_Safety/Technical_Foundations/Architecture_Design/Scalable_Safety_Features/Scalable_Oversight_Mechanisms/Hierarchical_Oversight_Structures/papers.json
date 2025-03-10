@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2412.17114",
+    "title": "Decentralized Governance of Autonomous AI Agents",
+    "published_date": "2024-12-22",
+    "abstract": "Autonomous AI agents present transformative opportunities and significant governance challenges. Existing frameworks, such as the EU AI Act and the NIST AI Risk Management Framework, fall short of addressing the complexities of these agents, which are capable of independent decision-making, learning, and adaptation. To bridge these gaps, we propose the ETHOS (Ethical Technology and Holistic Oversight System) framework, a decentralized governance (DeGov) model leveraging Web3 technologies, including blockchain, smart contracts, and decentralized autonomous organizations (DAOs). ETHOS establishes a global registry for AI agents, enabling dynamic risk classification, proportional oversight, and automated compliance monitoring through tools like soulbound tokens and zero-knowledge proofs. Furthermore, the framework incorporates decentralized justice systems for transparent dispute resolution and introduces AI specific legal entities to manage limited liability, supported by mandatory insurance to ensure financial accountability and incentivize ethical design. By integrating philosophical principles of rationality, ethical grounding, and goal alignment, ETHOS aims to create a robust research agenda for promoting trust, transparency, and participatory governance. This innovative framework offers a scalable and inclusive strategy for regulating AI agents, balancing innovation with ethical responsibility to meet the demands of an AI-driven future."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.15147",
+    "title": "Delegating Responsibilities to Intelligent Autonomous Systems: Challenges and Benefits",
+    "published_date": "2024-11-06",
+    "abstract": "As AI systems increasingly operate with autonomy and adaptability, the traditional boundaries of moral responsibility in techno-social systems are being challenged. This paper explores the evolving discourse on the delegation of responsibilities to intelligent autonomous agents and the ethical implications of such practices. Synthesizing recent developments in AI ethics, including concepts of distributed responsibility and ethical AI by design, the paper proposes a functionalist perspective as a framework. This perspective views moral responsibility not as an individual trait but as a role within a socio-technical system, distributed among human and artificial agents. As an example of 'AI ethical by design,' we present Basti and Vitiello's implementation. They suggest that AI can act as artificial moral agents by learning ethical guidelines and using Deontic Higher-Order Logic to assess decisions ethically. Motivated by the possible speed and scale beyond human supervision and ethical implications, the paper argues for 'AI ethical by design', while acknowledging the distributed, shared, and dynamic nature of responsibility. This functionalist approach offers a practical framework for navigating the complexities of AI ethics in a rapidly evolving technological landscape."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.08997",
+    "title": "Hierarchical Universal Value Function Approximators",
+    "published_date": "2024-10-11",
+    "abstract": "There have been key advancements to building universal approximators for multi-goal collections of reinforcement learning value functions -- key elements in estimating long-term returns of states in a parameterized manner. We extend this to hierarchical reinforcement learning, using the options framework, by introducing hierarchical universal value function approximators (H-UVFAs). This allows us to leverage the added benefits of scaling, planning, and generalization expected in temporal abstraction settings. We develop supervised and reinforcement learning methods for learning embeddings of the states, goals, options, and actions in the two hierarchical value functions: $Q(s, g, o; \\theta)$ and $Q(s, g, o, a; \\theta)$. Finally we demonstrate generalization of the HUVFAs and show they outperform corresponding UVFAs."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xud7Mti9jS4tbWqQE/hierarchical-agency-a-missing-piece-in-ai-alignment",
+    "author": "Jan_Kulveit",
+    "title": "Hierarchical Agency: A Missing Piece in AI Alignment",
+    "published_date": "2024-11-27"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/F24kibEdEvRSo7PFi/human-ai-complementarity-a-goal-for-amplified-oversight",
+    "author": "rishubjain",
+    "title": "Human-AI Complementarity: A Goal for Amplified Oversight",
+    "published_date": "2024-12-24"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07"
+  }
+]

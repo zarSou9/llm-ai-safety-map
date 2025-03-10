@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2501.08933",
+    "title": "Separation Assurance in Urban Air Mobility Systems using Shared Scheduling Protocols",
+    "published_date": "2025-01-15",
+    "abstract": "Ensuring safe separation between aircraft is a critical challenge in air traffic management, particularly in urban air mobility (UAM) environments where high traffic density and low altitudes require precise control. In these environments, conflicts often arise at the intersections of flight corridors, posing significant risks. We propose a tactical separation approach leveraging shared scheduling protocols, originally designed for Ethernet networks and operating systems, to coordinate access to these intersections. Using a decentralized Markov decision process framework, the proposed approach enables aircraft to autonomously adjust their speed and timing as they navigate these critical areas, maintaining safe separation without a central controller. We evaluate the effectiveness of this approach in simulated UAM scenarios, demonstrating its ability to reduce separation violations to zero while acknowledging trade-offs in flight times as traffic density increases. Additionally, we explore the impact of non-compliant aircraft, showing that while shared scheduling protocols can no longer guarantee safe separation, they still provide significant improvements over systems without scheduling protocols."
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.02486v1",
+    "title": "Initial Task Allocation for Multi-Human Multi-Robot Teams with Attention-Based Deep Reinforcement Learning",
+    "published_date": "2023-03-04",
+    "abstract": "Multi-human multi-robot teams have great potential for complex and large-scale tasks through the collaboration of humans and robots with diverse capabilities and expertise. To efficiently operate such highly heterogeneous teams and maximize team performance timely, sophisticated initial task allocation strategies that consider individual differences across team members and tasks are required. While existing works have shown promising results in reallocating tasks based on agent state and performance, the neglect of the inherent heterogeneity of the team hinders their effectiveness in realistic scenarios. In this paper, we present a novel formulation of the initial task allocation problem in multi-human multi-robot teams as a contextual multi-attribute decision-make process and propose an attention-based deep reinforcement learning approach. We introduce a cross-attribute attention module to encode the latent and complex dependencies of multiple attributes in the state representation. We conduct a case study in a massive threat surveillance scenario and demonstrate the strengths of our model.",
+    "citation_count": 11
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8JXv9ADBGuDzFL4EZ/the-uap-disclosure-act-of-2023-and-its-implications",
+    "author": "andeslodes",
+    "title": "The UAP Disclosure Act of 2023 and its implications",
+    "published_date": "2023-07-21"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bhH2BqF3fLTCwgjSs/michael-shellenberger-us-has-12-or-more-alien-spacecraft-say",
+    "author": "lc",
+    "title": "Michael Shellenberger: US Has 12 Or More Alien Spacecraft, Say Military And Intelligence Contractors",
+    "published_date": "2023-06-09"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2203.12673v1.pdf",
+    "title": "Decision-making of Emergent Incident based on P-MADDPG",
+    "published_date": "2022-03-19",
+    "abstract": "In recent years, human casualties and damage to resources caused by emergent incidents have become a serious problem worldwide. In this paper, we model the emergency decision-making problem and use Multi-agent System (MAS) to solve the problem that the decision speed cannot keep up with the spreading speed. MAS can play an important role in the automated execution of these tasks to reduce mission completion time. In this paper, we propose a P-MADDPG algorithm to solve the emergency decision-making problem of emergent incidents, which predicts the nodes where an incident may occur in the next time by GRU model and makes decisions before the incident occurs, thus solving the problem that the decision speed cannot keep up with the spreading speed. A simulation environment was established for realistic scenarios, and three scenarios were selected to test the performance of P-MADDPG in emergency decision-making problems for emergent incidents: unmanned storage, factory assembly line, and civil airport baggage transportation. Simulation results using the P-MADDPG algorithm are compared with the greedy algorithm and the MADDPG algorithm, and the final experimental results show that the P-MADDPG algorithm converges faster and better than the other algorithms in scenarios of different sizes. This shows that the P-MADDP algorithm is effective for emergency decision-making in emergent incident."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2202.13424v2.pdf",
+    "title": "The Art of Manipulation: Threat of Multi-Step Manipulative Attacks in Security Games",
+    "published_date": "2022-02-27",
+    "abstract": "This paper studies the problem of multi-step manipulative attacks in Stackelberg security games, in which a clever attacker attempts to orchestrate its attacks over multiple time steps to mislead the defender's learning of the attacker's behavior. This attack manipulation eventually influences the defender's patrol strategy towards the attacker's benefit. Previous work along this line of research only focuses on one-shot games in which the defender learns the attacker's behavior and then designs a corresponding strategy only once. Our work, on the other hand, investigates the long-term impact of the attacker's manipulation in which current attack and defense choices of players determine the future learning and patrol planning of the defender. This paper has three key contributions. First, we introduce a new multi-step manipulative attack game model that captures the impact of sequential manipulative attacks carried out by the attacker over the entire time horizon. Second, we propose a new algorithm to compute an optimal manipulative attack plan for the attacker, which tackles the challenge of multiple connected optimization components involved in the computation across multiple time steps. Finally, we present extensive experimental results on the impact of such misleading attacks, showing a significant benefit for the attacker and loss for the defender."
+  }
+]

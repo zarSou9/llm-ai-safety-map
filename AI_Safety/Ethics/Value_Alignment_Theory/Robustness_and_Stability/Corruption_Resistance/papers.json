@@ -1,0 +1,64 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2402.19401",
+    "title": "Assessing Visually-Continuous Corruption Robustness of Neural Networks Relative to Human Performance",
+    "published_date": "2024-02-29",
+    "abstract": "While Neural Networks (NNs) have surpassed human accuracy in image classification on ImageNet, they often lack robustness against image corruption, i.e., corruption robustness. Yet such robustness is seemingly effortless for human perception. In this paper, we propose visually-continuous corruption robustness (VCR) -- an extension of corruption robustness to allow assessing it over the wide and continuous range of changes that correspond to the human perceptive quality (i.e., from the original image to the full distortion of all perceived visual information), along with two novel human-aware metrics for NN evaluation. To compare VCR of NNs with human perception, we conducted extensive experiments on 14 commonly used image corruptions with 7,718 human participants and state-of-the-art robust NN models with different training objectives (e.g., standard, adversarial, corruption robustness), different architectures (e.g., convolution NNs, vision transformers), and different amounts of training data augmentation. Our study showed that: 1) assessing robustness against continuous corruption can reveal insufficient robustness undetected by existing benchmarks; as a result, 2) the gap between NN and human robustness is larger than previously known; and finally, 3) some image corruptions have a similar impact on human perception, offering opportunities for more cost-effective robustness assessments. Our validation set with 14 image corruptions, human robustness data, and the evaluation code is provided as a toolbox and a benchmark.",
+    "summary": "This paper introduces visually-continuous corruption robustness (VCR) to evaluate neural network robustness against image corruption across a perceptually continuous range, revealing a larger-than-previously-understood gap between human and machine performance. The study uses novel human-aware metrics and a large-scale human experiment to benchmark state-of-the-art models, offering insights into more efficient robustness assessment strategies."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.02251.pdf",
+    "title": "Certified Robust Neural Networks: Generalization and Corruption Resistance",
+    "published_date": "2023-03-03",
+    "abstract": "Recent work have demonstrated that robustness (to\"corruption\") can be at odds with generalization. Adversarial training, for instance, aims to reduce the problematic susceptibility of modern neural networks to small data perturbations. Surprisingly, overfitting is a major concern in adversarial training despite being mostly absent in standard training. We provide here theoretical evidence for this peculiar\"robust overfitting\"phenomenon. Subsequently, we advance a novel distributionally robust loss function bridging robustness and generalization. We demonstrate both theoretically as well as empirically the loss to enjoy a certified level of robustness against two common types of corruption--data evasion and poisoning attacks--while ensuring guaranteed generalization. We show through careful numerical experiments that our resulting holistic robust (HR) training procedure yields SOTA performance. Finally, we indicate that HR training can be interpreted as a direct extension of adversarial training and comes with a negligible additional computational burden. A ready-to-use python library implementing our algorithm is available at https://github.com/RyanLucas3/HR_Neural_Networks.",
+    "citation_count": 8,
+    "summary": "This paper explains the phenomenon of \"robust overfitting\" in adversarial training of neural networks and proposes a novel distributionally robust loss function, HR training, which achieves certified robustness against data corruption and poisoning attacks while maintaining strong generalization performance. HR training offers state-of-the-art results with minimal added computational cost."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.18543",
+    "title": "Robust Lipschitz Bandits to Adversarial Corruptions",
+    "published_date": "2023-05-29",
+    "abstract": "Lipschitz bandit is a variant of stochastic bandits that deals with a continuous arm set defined on a metric space, where the reward function is subject to a Lipschitz constraint. In this paper, we introduce a new problem of Lipschitz bandits in the presence of adversarial corruptions where an adaptive adversary corrupts the stochastic rewards up to a total budget $C$. The budget is measured by the sum of corruption levels across the time horizon $T$. We consider both weak and strong adversaries, where the weak adversary is unaware of the current action before the attack, while the strong one can observe it. Our work presents the first line of robust Lipschitz bandit algorithms that can achieve sub-linear regret under both types of adversary, even when the total budget of corruption $C$ is unrevealed to the agent. We provide a lower bound under each type of adversary, and show that our algorithm is optimal under the strong case. Finally, we conduct experiments to illustrate the effectiveness of our algorithms against two classic kinds of attacks.",
+    "citation_count": 6,
+    "summary": "This paper introduces Lipschitz bandits with adversarial corruptions, where a bounded-budget adversary corrupts rewards, and proposes novel algorithms achieving sublinear regret against both weak and strong adversaries with unknown corruption budget. The algorithms' optimality is proven for the strong adversary case, supported by lower bounds and experimental validation."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.06630.pdf",
+    "title": "Corruption-Robust Offline Reinforcement Learning",
+    "published_date": "2021-06-11",
+    "abstract": "We study the adversarial robustness in offline reinforcement learning. Given a batch dataset consisting of tuples $(s, a, r, s')$, an adversary is allowed to arbitrarily modify $\\epsilon$ fraction of the tuples. From the corrupted dataset the learner aims to robustly identify a near-optimal policy. We first show that a worst-case $\\Omega(d\\epsilon)$ optimality gap is unavoidable in linear MDP of dimension $d$, even if the adversary only corrupts the reward element in a tuple. This contrasts with dimension-free results in robust supervised learning and best-known lower-bound in the online RL setting with corruption. Next, we propose robust variants of the Least-Square Value Iteration (LSVI) algorithm utilizing robust supervised learning oracles, which achieve near-matching performances in cases both with and without full data coverage. The algorithm requires the knowledge of $\\epsilon$ to design the pessimism bonus in the no-coverage case. Surprisingly, in this case, the knowledge of $\\epsilon$ is necessary, as we show that being adaptive to unknown $\\epsilon$ is impossible.This again contrasts with recent results on corruption-robust online RL and implies that robust offline RL is a strictly harder problem.",
+    "citation_count": 36,
+    "summary": "This paper investigates the robustness of offline reinforcement learning (RL) algorithms to adversarial data corruption, proving a lower bound on achievable performance and proposing robust Least-Squares Value Iteration variants that achieve near-optimal results. Crucially, the paper demonstrates that unlike robust online RL, achieving robustness in offline RL necessitates knowledge of the corruption level."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.05800.pdf",
+    "title": "Robust Policy Gradient against Strong Data Corruption",
+    "published_date": "2021-02-11",
+    "abstract": "We study the problem of robust reinforcement learning under adversarial corruption on both rewards and transitions. Our attack model assumes an \\textit{adaptive} adversary who can arbitrarily corrupt the reward and transition at every step within an episode, for at most $\\epsilon$-fraction of the learning episodes. Our attack model is strictly stronger than those considered in prior works. Our first result shows that no algorithm can find a better than $O(\\epsilon)$-optimal policy under our attack model. Next, we show that surprisingly the natural policy gradient (NPG) method retains a natural robustness property if the reward corruption is bounded, and can find an $O(\\sqrt{\\epsilon})$-optimal policy. Consequently, we develop a Filtered Policy Gradient (FPG) algorithm that can tolerate even unbounded reward corruption and can find an $O(\\epsilon^{1/4})$-optimal policy. We emphasize that FPG is the first that can achieve a meaningful learning guarantee when a constant fraction of episodes are corrupted. Complimentary to the theoretical results, we show that a neural implementation of FPG achieves strong robust learning performance on the MuJoCo continuous control benchmarks.",
+    "citation_count": 33,
+    "summary": "This paper analyzes reinforcement learning's robustness against adversarial reward and transition corruptions, proving a lower bound on achievable optimality and showing that natural policy gradient methods, particularly a novel Filtered Policy Gradient (FPG) algorithm, achieve surprisingly strong performance even with a constant fraction of corrupted episodes. FPG is the first algorithm with meaningful guarantees under such strong corruption."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.12357.pdf",
+    "title": "Using the Overlapping Score to Improve Corruption Benchmarks",
+    "published_date": "2021-05-26",
+    "abstract": "Neural Networks are sensitive to various corruptions that usually occur in real-world applications such as blurs, noises, low-lighting conditions, etc. To estimate the robustness of neural networks to these common corruptions, we generally use a group of modeled corruptions gathered into a benchmark. Unfortunately, no objective criterion exists to determine whether a benchmark is representative of a large diversity of independent corruptions. In this paper, we propose a metric called corruption overlapping score, which can be used to reveal flaws in corruption benchmarks. Two corruptions overlap when the robustnesses of neural networks to these corruptions are correlated. We argue that taking into account overlappings between corruptions can help to improve existing benchmarks or build better ones.",
+    "citation_count": 2,
+    "summary": "This paper introduces a new metric, the corruption overlapping score, to assess the diversity and representativeness of corruption benchmarks used to evaluate the robustness of neural networks. High overlap between corruptions in a benchmark indicates redundancy and suggests improvements are needed for more comprehensive robustness evaluation."
+  },
+  {
+    "title": "Robustness meets algorithms",
+    "abstract": "In every corner of machine learning and statistics, there is a need for estimators that work not just in an idealized model, but even when their assumptions are violated. Unfortunately, in high dimensions, being provably robust and being efficiently computable are often at odds with each other. We give the first efficient algorithm for estimating the parameters of a high-dimensional Gaussian that is able to tolerate a constant fraction of corruptions that is independent of the dimension. Prior to our work, all known estimators either needed time exponential in the dimension to compute or could tolerate only an inverse-polynomial fraction of corruptions. Not only does our algorithm bridge the gap between robustness and algorithms, but also it turns out to be highly practical in a variety of settings.",
+    "published_date": "2021-04-26",
+    "citation_count": 17,
+    "url": "https://dl.acm.org/doi/10.1145/3453935",
+    "summary": "This paper presents the first efficient algorithm for robustly estimating high-dimensional Gaussian parameters, tolerating a constant fraction of corrupted data independent of the dimension, unlike previous methods which were either computationally expensive or had limited corruption tolerance. The algorithm is both theoretically sound and practically effective."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/vLArRpNdkex68oem8",
+    "author": "Alex Turner",
+    "title": "Thoughts on Corrigibility - AI Alignment Forum",
+    "published_date": "2021-11-24",
+    "summary": "The author explores various types of corrigibility, presenting related ideas that contribute to their overall perspective on AI alignment but haven't yet been fully integrated."
+  }
+]

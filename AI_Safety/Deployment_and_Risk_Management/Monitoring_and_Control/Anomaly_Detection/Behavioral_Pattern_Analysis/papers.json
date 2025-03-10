@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13",
+    "summary": "This article explains Deep Q-Networks (DQN), a deep reinforcement learning algorithm, at multiple levels of detail. It progressively builds understanding from a high-level overview to a technical explanation including algorithms and implementation tips, catering to readers with varying levels of prior knowledge."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rCP5iTYLtfcoC8NXd/self-organised-neural-networks-a-simple-natural-and",
+    "author": "D𝜋",
+    "title": "Self-Organised Neural Networks:\nA simple, natural and efficient way to intelligence",
+    "published_date": "2022-01-01",
+    "summary": "This article presents a novel spiking neural network architecture achieving state-of-the-art accuracy (98.9%) on the PI-MNIST dataset using a simple, biologically-inspired learning rule involving only additions, no backpropagation, and a minimal number of connections. The system's design and performance are described, along with its underlying mathematical basis and relation to real cortical structures."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25",
+    "summary": "Variational Bayesian methods address the intractability of calculating P(x) in Bayesian inference by approximating the true posterior P(z|x) with a simpler distribution Q(z|x). This approximation minimizes the Kullback-Leibler divergence between Q(z|x) and P(z|x), enabling efficient computation of P(x)."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03",
+    "summary": "The Gaussian distribution is often incorrectly used to model binary count data; the Beta distribution is more appropriate, especially for small datasets or probabilities near 0 or 1 where the Gaussian approximation breaks down and produces nonsensical results like negative probabilities. The Beta distribution offers a superior and readily available alternative in statistical software."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14",
+    "summary": "The article highlights common statistical errors, primarily the false assumption of Gaussian distributions in many fields (leading to inaccurate forecasting), misinterpretations of p-values, and the base rate fallacy. These errors, often found in scientific literature and industry applications, result in flawed conclusions and unreliable predictions."
+  },
+  {
+    "title": "An Auto Encoder Network Based Method for Abnormal behavior detection",
+    "abstract": "With the continuous development of wireless communication technology and positioning technology, the acquisition of spatiotemporal trajectory data has become easier. Through data mining, discovering valuable knowledge hidden in trajectory data can be widely used in activities recommendation, urban planning, military and other fields, which has important research value. So this paper studies the behavior mining technology for trajectory data, the main contents is abnormal behavior detection based on deep learning. A trajectory anomaly detection algorithm based on variational self-encoding network is proposed. This method uses GRU as the basic unit of encoding and decoding, the reconstruction probability as the anomaly score. The proportion of suspected anomalies is introduced to adaptively adjust the abnormality judgment threshold. From the experiment, the accuracy and recall rate of the anomaly detection algorithm are both higher than 90%, and the real-time detection efficiency is high, which can meet the needs in actual scenarios.",
+    "published_date": "2021-01-16",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3451471.3451509",
+    "summary": "This paper proposes a trajectory anomaly detection algorithm using a variational autoencoder network with GRU units, achieving over 90% accuracy and recall by reconstructing trajectories and using a dynamically adjusted anomaly threshold. The method is designed for real-time detection of abnormal behaviors in spatiotemporal trajectory data."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/DFG2SzkMCeTFXFnFr/perceptrons-explained",
+    "author": "by [anonymous]1 min read14th Feb 20202 comments",
+    "title": "Perceptrons Explained",
+    "published_date": "2020-02-14",
+    "summary": "This article introduces the perceptron learning algorithm, proving its convergence and providing visualizations to aid understanding of this basic machine learning concept. It aims for an accessible, educational explanation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/PQu2YPtcm2dQLSsu9/the-unreasonable-effectiveness-of-deep-learning",
+    "author": "Richard_Ngo",
+    "title": "The Unreasonable Effectiveness of Deep Learning",
+    "published_date": "2018-09-30",
+    "summary": "This article explores why deep learning works, focusing on its ability to approximate functions, achieve low training loss, and generalize well. It examines the challenges of optimization and overfitting, highlighting the surprising capacity of deep neural networks to memorize random data and the role of stochastic gradient descent as an implicit regularizer promoting generalization."
+  }
+]

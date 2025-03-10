@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/bsXPTiAhhwt5nwBW3/do-sparse-autoencoders-saes-transfer-across-base-and",
+    "author": "Taras Kutsyk; Tommaso Mencattini; Ciprian Florea",
+    "title": "Do Sparse Autoencoders (SAEs) transfer across base and finetuned language models?",
+    "published_date": "2024-09-29",
+    "summary": "This study investigates the transferability of Sparse Autoencoders (SAEs) from base language models (Gemma-2b and Mistral-7B) to their fine-tuned versions for coding and mathematics, finding that transferability is model-dependent and significantly impacted by the fine-tuning process, with Mistral-7B showing better results than Gemma-2b."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/kobJymvvcvhbjWFKe/laying-the-foundations-for-vision-and-multimodal-mechanistic",
+    "author": "Sonia Joseph, Neel Nanda",
+    "title": "Laying the Foundations for Vision and Multimodal Mechanistic Interpretability & Open Problems",
+    "published_date": "2024-03-13",
+    "summary": "Prisma is a new open-source library designed to facilitate mechanistic interpretability research on multimodal models, particularly focusing on vision transformers (ViTs). It aims to build a collaborative community and lower the barrier to entry for studying the inner workings of these models."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/iaHk9DMCbrYsKuqgS/simple-distribution-approximation-when-sampled-100-times-can-1",
+    "author": "Teun van der Weij, Felix Hofstätter, Francis Rhys Ward",
+    "title": "Simple distribution approximation: When sampled 100 times, can language models yield 80% A and 20% B?",
+    "published_date": "2024-01-29",
+    "summary": "The study investigates large language models' (LLMs) ability to control the distribution of their outputs, demonstrating that GPT-3.5 and GPT-4 can generate responses matching a specified distribution (e.g., 80% A, 20% B). This capability, crucial for \"targeted sandbagging\" (deliberately underperforming on tasks), is more pronounced in GPT-4 but is sensitive to prompt wording."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/cLfsabkCPtieJ5LoK/investigating-bias-representations-in-llms-via-activation",
+    "author": "DawnLu",
+    "title": "Investigating Bias Representations in LLMs via Activation Steering",
+    "published_date": "2024-01-15",
+    "summary": "This research uses activation steering to assess the societal biases of the Llama-2-7b-chat LLM, finding that while the model exhibits gender bias in unsteered responses, attempts to further steer it towards biased outputs using contrastive activation addition resulted in the model refusing to answer, suggesting a potential robustness to overt bias manipulation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/QQP4nq7TXg89CJGBh/a-sober-look-at-steering-vectors-for-llms",
+    "author": "Joschka Braun, Dmitrii Krasheninnikov, Usman Anwar, RobertKirk, Daniel Tan, David Scott Krueger (formerly: capybaralet)",
+    "title": "A Sober Look at Steering Vectors for LLMs",
+    "published_date": "2024-11-23",
+    "summary": "Current methods for controlling Large Language Model (LLM) behavior through activation steering face significant challenges, including unreliability, inconsistent effectiveness across different concepts and tasks, and a tendency to negatively impact overall model performance. These limitations hinder the practical applicability of steering methods as a general alignment intervention."
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.00827",
+    "title": "Toward a Mapping of Capability and Skill Models using Asset Administration Shells and Ontologies",
+    "published_date": "2023-07-03",
+    "abstract": "In order to react efficiently to changes in production, resources and their functions must be integrated into plants in accordance with the plug and produce principle. In this context, research on so-called capabilities and skills has shown promise. However, there are currently two incompatible approaches to modeling capabilities and skills. On the one hand, formal descriptions using ontologies have been developed. On the other hand, there are efforts to standardize submodels of the Asset Administration Shell (AAS) for this purpose. In this paper, we present ongoing research to connect these two incompatible modeling approaches. Both models are analyzed to identify comparable as well as dissimilar model elements. Subsequently, we present a concept for a bidirectional mapping between AAS submodels and a capability and skill ontology. For this purpose, two unidirectional, declarative mappings are applied that implement transformations from one modeling approach to the other - and vice versa.",
+    "citation_count": 2,
+    "summary": "This paper investigates the incompatibility between ontology-based and Asset Administration Shell (AAS)-based models for representing capabilities and skills in production systems. It proposes a bidirectional mapping concept using two unidirectional transformations to connect these models and enable interoperability."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.11542.pdf",
+    "title": "Feasibility and Transferability of Transfer Learning: A Mathematical Framework",
+    "published_date": "2023-01-27",
+    "abstract": "Transfer learning is an emerging and popular paradigm for utilizing existing knowledge from previous learning tasks to improve the performance of new ones. Despite its numerous empirical successes, theoretical analysis for transfer learning is limited. In this paper we build for the first time, to the best of our knowledge, a mathematical framework for the general procedure of transfer learning. Our unique reformulation of transfer learning as an optimization problem allows for the first time, analysis of its feasibility. Additionally, we propose a novel concept of transfer risk to evaluate transferability of transfer learning. Our numerical studies using the Office-31 dataset demonstrate the potential and benefits of incorporating transfer risk in the evaluation of transfer learning performance.",
+    "citation_count": 2,
+    "summary": "This paper presents a novel mathematical framework for transfer learning, analyzing its feasibility by reformulating it as an optimization problem and introducing a \"transfer risk\" metric to evaluate transferability. Numerical studies on the Office-31 dataset demonstrate the framework's potential."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCz7viTXMhjxdkFRs/paper-identifying-the-risks-of-lm-agents-with-an-lm-emulated",
+    "author": "Singularian2501",
+    "title": "Paper: Identifying the Risks of LM Agents with an LM-Emulated Sandbox - University of Toronto 2023 - Benchmark consisting of 36 high-stakes tools and 144 test cases!",
+    "published_date": "2023-10-09",
+    "summary": "ToolEmu is a framework using large language models to emulate tool execution and automatically assess the safety of language model agents interacting with tools, significantly reducing the cost and effort of identifying high-stakes risks; initial testing reveals substantial safety vulnerabilities even in leading agents."
+  }
+]

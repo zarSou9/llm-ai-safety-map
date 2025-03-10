@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2310.13144",
+    "title": "Optimal Symbolic Bound Synthesis",
+    "published_date": "2023-10-19",
+    "abstract": "The problem of finding a constant bound on a term given a set of assumptions has wide applications in optimization as well as program analysis. However, in many contexts the objective term may be unbounded. Still, some sort of symbolic bound may be useful. In this paper we introduce the optimal symbolic-bound synthesis problem, and a technique that tackles this problem for non-linear arithmetic with function symbols. This allows us to automatically produce symbolic bounds on complex arithmetic expressions from a set of both equality and inequality assumptions. Our solution employs a novel combination of powerful mathematical objects -- Gr\\\"obner bases together with polyhedral cones -- to represent an infinite set of implied inequalities. We obtain a sound symbolic bound by reducing the objective term by this infinite set. We implemented our method in a tool, AutoBound, which we tested on problems originating from real Solidity programs. We find that AutoBound yields relevant bounds in each case, matching or nearly-matching upper bounds produced by a human analyst on the same set of programs."
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.10032",
+    "title": "Taming Large Bounds in Synthesis from Bounded-Liveness Specifications (Full Version)",
+    "published_date": "2023-01-24",
+    "abstract": "Automatic synthesis from temporal logic specifications is an attractive alternative to manual system design, due to its ability to generate correct-by-construction implementations from high-level specifications. Due to the high complexity of the synthesis problem, significant research efforts have been directed at developing practically efficient approaches for restricted specification language fragments. In this paper, we focus on the Safety LTL fragment of Linear Temporal Logic (LTL) syntactically extended with bounded temporal operators. We propose a new synthesis approach with the primary motivation to solve efficiently the synthesis problem for specifications with bounded temporal operators, in particular those with large bounds. The experimental evaluation of our method shows that for this type of specifications, it outperforms state-of-art synthesis tools, demonstrating that it is a promising approach to efficiently treating quantitative timing constraints in safety specifications."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.03739",
+    "title": "Bounding Optimality Gaps for Non-Convex Optimization Problems: Applications to Nonlinear Safety-Critical Systems",
+    "published_date": "2023-04-07",
+    "abstract": "Efficient methods to provide sub-optimal solutions to non-convex optimization problems with knowledge of the solution's sub-optimality would facilitate the widespread application of nonlinear optimal control algorithms. To that end, leveraging recent work in risk-aware verification, we provide two algorithms to (1) probabilistically bound the optimality gaps of solutions reported by novel percentile optimization techniques, and (2) probabilistically bound the maximum optimality gap reported by percentile approaches for repetitive applications, e.g. Model Predictive Control (MPC). Notably, our results work for a large class of optimization problems. We showcase the efficacy and repeatability of our results on a few, benchmark non-convex optimization problems and the utility of our results for controls in a Nonlinear MPC setting."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1903.11734v3.pdf",
+    "title": "A Posteriori Probabilistic Bounds of Convex Scenario Programs With Validation Tests",
+    "published_date": "2019-03-27",
+    "abstract": "Scenario programs have established themselves as efficient tools toward decision-making under uncertainty. To assess the quality of scenario-based solutions a posteriori, validation tests based on Bernoulli trials have been widely adopted in practice. However, to reach a theoretically reliable judgment of risk, one typically needs to collect massive validation samples. In this article, we propose new a posteriori bounds for convex scenario programs with validation tests, which are dependent on both realizations of support constraints, and performance on out-of-sample validation data. The proposed bounds enjoy wide generality in that many existing theoretical results can be incorporated as particular cases. To facilitate practical use, a systematic approach for parameterizing a posteriori probability bounds is also developed, which is shown to possess a variety of desirable properties allowing for easy implementations and clear interpretations. By synthesizing comprehensive information about support constraints and validation tests, improved risk evaluation can be achieved for randomized solutions in comparison with existing a posteriori bounds. Case studies on controller design of aircraft lateral motion are presented to validate the effectiveness of the proposed a posteriori bounds.",
+    "citation_count": 9
+  },
+  {
+    "title": "Bounded refinement types",
+    "abstract": "We present a notion of bounded quantification for refinement types and show how it expands the expressiveness of refinement typing by using it to develop typed combinators for: (1) relational algebra and safe database access, (2) Floyd-Hoare logic within a state transformer monad equipped with combinators for branching and looping, and (3) using the above to implement a refined IO monad that tracks capabilities and resource usage. This leap in expressiveness comes via a translation to ``ghost\" functions, which lets us retain the automated and decidable SMT based checking and inference that makes refinement typing effective in practice.",
+    "published_date": "2015-07-01",
+    "citation_count": 45,
+    "url": "https://dl.acm.org/doi/10.1145/2784731.2784745"
+  },
+  {
+    "title": "Towards automatic determination of problem bounds for object instantiation in static model verification",
+    "abstract": "The application of formal methods in the detection of inconsistencies and design flaws within models has been intensely studied in recent years. Since consistency checking is in principle undecidable due to the infinite number of possible system states, problem bounds have to be defined making the analysis tractable. However, defining these problem bounds requires detailed design knowledge and, thus, impedes an automatic verification flow.\n In this paper, we present first ideas and results of how to automatically determine valid problem bounds for consistency checking algorithms. For this purpose, we make use of automatic proof engines for linear integer arithmetic. We describe the approach by means of class diagrams given in the Unified Modeling Language (UML) extended by constraints given in the Object Constraint Language (OCL).",
+    "published_date": "2011-10-17",
+    "citation_count": 8,
+    "url": "https://dl.acm.org/doi/10.1145/2095654.2095657"
+  }
+]

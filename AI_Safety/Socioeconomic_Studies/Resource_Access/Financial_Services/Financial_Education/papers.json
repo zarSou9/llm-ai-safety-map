@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.15951",
+    "title": "Redefining Finance: The Influence of Artificial Intelligence (AI) and Machine Learning (ML)",
+    "published_date": "2024-10-21",
+    "abstract": "With rapid transformation of technologies, the fusion of Artificial Intelligence (AI) and Machine Learning (ML) in finance is disrupting the entire ecosystem and operations which were followed for decades. The current landscape is where decisions are increasingly data-driven by financial institutions with an appetite for automation while mitigating risks. The segments of financial institutions which are getting heavily influenced are retail banking, wealth management, corporate banking&payment ecosystem. The solution ranges from onboarding the customers all the way fraud detection&prevention to enhancing the customer services. Financial Institutes are leap frogging with integration of Artificial Intelligence and Machine Learning in mainstream applications and enhancing operational efficiency through advanced predictive analytics, extending personalized customer experiences, and automation to minimize risk with fraud detection techniques. However, with Adoption of AI&ML, it is imperative that the financial institute also needs to address ethical and regulatory challenges, by putting in place robust governance frameworks and responsible AI practices.",
+    "summary": "Artificial intelligence and machine learning are revolutionizing finance, automating processes, improving risk management, and personalizing customer experiences across various sectors like retail banking and wealth management. However, ethical and regulatory challenges necessitate robust governance frameworks for responsible AI implementation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.15278",
+    "title": "Economic and Financial Learning with Artificial Intelligence: A Mixed-Methods Study on ChatGPT",
+    "published_date": "2024-02-23",
+    "abstract": "In the evolving landscape of digital education, chatbots have emerged as potential game-changers, promising personalized and adaptive learning experiences. This research undertook an in-depth exploration of ChatGPT's potential as an educational tool, focusing on user perceptions, experiences and learning outcomes. Through a mixed-methods approach, a diverse group of 102 participants engaged with ChatGPT, providing insights pre- and postinteraction. The study reveals a notable positive shift in perceptions after exposure, underscoring the efficacy of ChatGPT. However, challenges such as prompting effectiveness and information accuracy emerged as pivotal concerns. Introducing the concept of 'AI-learning-competence', this study lays the groundwork for future research, emphasizing the need for formal training and pedagogical integration of AI tools.",
+    "citation_count": 1,
+    "summary": "A mixed-methods study of 102 participants found that ChatGPT positively impacted perceptions of its efficacy as an educational tool for economic and financial learning, although challenges regarding prompt effectiveness and accuracy remain. The study introduces the concept of \"AI-learning-competence\" and highlights the need for further research and pedagogical integration of AI tools."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.12171",
+    "title": "AI Adoption to Combat Financial Crime: Study on Natural Language Processing in Adverse Media Screening of Financial Services in English and Bangla multilingual interpretation",
+    "published_date": "2024-12-12",
+    "abstract": "This document explores the potential of employing Artificial Intelligence (AI), specifically Natural Language Processing (NLP), to strengthen the detection and prevention of financial crimes within the Mobile Financial Services(MFS) of Bangladesh with multilingual scenario. The analysis focuses on the utilization of NLP for adverse media screening, a vital aspect of compliance with anti-money laundering (AML) and combating financial terrorism (CFT) regulations. Additionally, it investigates the overall reception and obstacles related to the integration of AI in Bangladeshi banks. This report measures the effectiveness of NLP is promising with an accuracy around 94\\%. NLP algorithms display substantial promise in accurately identifying adverse media content linked to financial crimes. The lack of progress in this aspect is visible in Bangladesh, whereas globally the technology is already being used to increase effectiveness and efficiency. Hence, it is clear there is an issue with the acceptance of AI in Bangladesh. Some AML \\&CFT concerns are already being addressed by AI technology. For example, Image Recognition OCR technology are being used in KYC procedures. Primary hindrances to AI integration involve a lack of technical expertise, high expenses, and uncertainties surrounding regulations. This investigation underscores the potential of AI-driven NLP solutions in fortifying efforts to prevent financial crimes in Bangladesh.",
+    "summary": "This study investigates the application of Natural Language Processing (NLP) for adverse media screening in Bangladeshi financial services, finding high accuracy (94%) in detecting financial crime-related content in both English and Bangla. However, it also highlights significant barriers to AI adoption in Bangladesh, including lack of expertise, high costs, and regulatory uncertainty."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.11898",
+    "title": "Enhancing Financial Inclusion and Regulatory Challenges: A Critical Analysis of Digital Banks and Alternative Lenders Through Digital Platforms, Machine Learning, and Large Language Models Integration",
+    "published_date": "2024-04-18",
+    "abstract": "This paper explores the dual impact of digital banks and alternative lenders on financial inclusion and the regulatory challenges posed by their business models. It discusses the integration of digital platforms, machine learning (ML), and Large Language Models (LLMs) in enhancing financial services accessibility for underserved populations. Through a detailed analysis of operational frameworks and technological infrastructures, this research identifies key mechanisms that facilitate broader financial access and mitigate traditional barriers. Additionally, the paper addresses significant regulatory concerns involving data privacy, algorithmic bias, financial stability, and consumer protection. Employing a mixed-methods approach, which combines quantitative financial data analysis with qualitative insights from industry experts, this paper elucidates the complexities of leveraging digital technology to foster financial inclusivity. The findings underscore the necessity of evolving regulatory frameworks that harmonize innovation with comprehensive risk management. This paper concludes with policy recommendations for regulators, financial institutions, and technology providers, aiming to cultivate a more inclusive and stable financial ecosystem through prudent digital technology integration.",
+    "citation_count": 1,
+    "summary": "This paper analyzes how digital banks and alternative lenders, utilizing digital platforms, machine learning, and LLMs, enhance financial inclusion while also highlighting the resulting regulatory challenges concerning data privacy, bias, stability, and consumer protection. The research proposes policy recommendations to balance innovation with responsible risk management in this evolving financial landscape."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/cLfsabkCPtieJ5LoK/investigating-bias-representations-in-llms-via-activation",
+    "author": "DawnLu",
+    "title": "Investigating Bias Representations in LLMs via Activation Steering",
+    "published_date": "2024-01-15",
+    "summary": "This research uses activation steering to assess the societal biases of the Llama-2-7b-chat LLM, finding that while the model exhibits gender bias in unsteered responses, attempts to further steer it towards biased responses using contrastive activation addition resulted in the model refusing to answer, claiming the prompts were offensive."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/T9i9gX58ZckHx6syw/representation-tuning",
+    "author": "Christopher Ackerman",
+    "title": "Representation Tuning",
+    "published_date": "2024-06-27",
+    "summary": "This research explores improving the honesty of a large language model (LLM) by fine-tuning activation vectors associated with honesty, either directly into the model's weights or via online steering. Fine-tuning using a cosine similarity loss function proved most effective in promoting honest responses and resisting subsequent attempts to steer the model toward dishonesty."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/37uuuPQKiGisi8cGG/language-and-capabilities-testing-llm-mathematical-abilities",
+    "author": "Ethan Edwards",
+    "title": "Language and Capabilities: Testing LLM Mathematical Abilities Across Languages",
+    "published_date": "2024-04-04",
+    "summary": "This research investigates GPT-4's ability to perform three-digit multiplication in various languages and numeral systems, finding that while performance is best with Arabic numerals, success is heavily context-dependent and influenced by unexpected factors like prompt phrasing and the model's generated completion, suggesting GPT-4 relies on learned token patterns rather than abstract mathematical understanding."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2308.16538.pdf",
+    "title": "The AI Revolution: Opportunities and Challenges for the Finance Sector",
+    "published_date": "2023-08-31",
+    "abstract": "This report examines Artificial Intelligence (AI) in the financial sector, outlining its potential to revolutionise the industry and identify its challenges. It underscores the criticality of a well-rounded understanding of AI, its capabilities, and its implications to effectively leverage its potential while mitigating associated risks. The potential of AI potential extends from augmenting existing operations to paving the way for novel applications in the finance sector. The application of AI in the financial sector is transforming the industry. Its use spans areas from customer service enhancements, fraud detection, and risk management to credit assessments and high-frequency trading. However, along with these benefits, AI also presents several challenges. These include issues related to transparency, interpretability, fairness, accountability, and trustworthiness. The use of AI in the financial sector further raises critical questions about data privacy and security. A further issue identified in this report is the systemic risk that AI can introduce to the financial sector. Being prone to errors, AI can exacerbate existing systemic risks, potentially leading to financial crises. Regulation is crucial to harnessing the benefits of AI while mitigating its potential risks. Despite the global recognition of this need, there remains a lack of clear guidelines or legislation for AI use in finance. This report discusses key principles that could guide the formation of effective AI regulation in the financial sector, including the need for a risk-based approach, the inclusion of ethical considerations, and the importance of maintaining a balance between innovation and consumer protection. The report provides recommendations for academia, the finance industry, and regulators.",
+    "citation_count": 17,
+    "summary": "This report explores the transformative potential of AI in finance, highlighting its applications in various areas while emphasizing the crucial need to address associated challenges such as transparency, fairness, and systemic risk through effective regulation. Recommendations are provided for academia, industry, and regulators to harness AI's benefits while mitigating its risks."
+  }
+]

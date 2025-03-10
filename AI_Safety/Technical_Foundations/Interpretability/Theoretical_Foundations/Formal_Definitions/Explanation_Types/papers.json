@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/tag/good-explanations-advice",
+    "title": "Good Explanations (Advice) - AI Alignment Forum",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/zy2AECRAi8Nuu5XMk/time-complexity-for-deterministic-string-machines",
+    "author": "alcatal",
+    "title": "Time complexity for deterministic string machines",
+    "published_date": "2024-04-21"
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.03048v1",
+    "title": "From Robustness to Explainability and Back Again",
+    "published_date": "2023-06-05",
+    "abstract": "Formal explainability guarantees the rigor of computed explanations, and so it is paramount in domains where rigor is critical, including those deemed high-risk. Unfortunately, since its inception formal explainability has been hampered by poor scalability. At present, this limitation still holds true for some families of classifiers, the most significant being deep neural networks. This paper addresses the poor scalability of formal explainability and proposes novel efficient algorithms for computing formal explanations. The novel algorithm computes explanations by answering instead a number of robustness queries, and such that the number of such queries is at most linear on the number of features. Consequently, the proposed algorithm establishes a direct relationship between the practical complexity of formal explainability and that of robustness. To achieve the proposed goals, the paper generalizes the definition of formal explanations, thereby allowing the use of robustness tools that are based on different distance norms, and also by reasoning in terms of some target degree of robustness. Preliminary experiments validate the practical efficiency of the proposed approach.",
+    "citation_count": 10
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/AaABQpuoNC8gpHf2n/a-barebones-guide-to-mechanistic-interpretability",
+    "author": "Neel Nanda",
+    "title": "A Barebones Guide to Mechanistic Interpretability Prerequisites",
+    "published_date": "2022-10-24"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.12437.pdf",
+    "title": "Towards Rigorous Interpretations: a Formalisation of Feature Attribution",
+    "published_date": "2021-04-26",
+    "abstract": "Feature attribution is often loosely presented as the process of selecting a subset of relevant features as a rationale of a prediction. Task-dependent by nature, precise definitions of\"relevance\"encountered in the literature are however not always consistent. This lack of clarity stems from the fact that we usually do not have access to any notion of ground-truth attribution and from a more general debate on what good interpretations are. In this paper we propose to formalise feature selection/attribution based on the concept of relaxed functional dependence. In particular, we extend our notions to the instance-wise setting and derive necessary properties for candidate selection solutions, while leaving room for task-dependence. By computing ground-truth attributions on synthetic datasets, we evaluate many state-of-the-art attribution methods and show that, even when optimised, some fail to verify the proposed properties and provide wrong solutions.",
+    "citation_count": 15
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.00752.pdf",
+    "title": "Reasons, Values, Stakeholders: A Philosophical Framework for Explainable Artificial Intelligence",
+    "published_date": "2021-03-01",
+    "abstract": "The societal and ethical implications of the use of opaque artificial intelligence systems in consequential decisions, such as welfare allocation and criminal justice, have generated a lively debate among multiple stakeholders, including computer scientists, ethicists, social scientists, policy makers, and end users. However, the lack of a common language or a multi-dimensional framework to appropriately bridge the technical, epistemic, and normative aspects of this debate nearly prevents the discussion from being as productive as it could be. Drawing on the philosophical literature on the nature and value of explanations, this paper offers a multi-faceted framework that brings more conceptual precision to the present debate by identifying the types of explanations that are most pertinent to artificial intelligence predictions, recognizing the relevance and importance of the social and ethical values for the evaluation of these explanations, and demonstrating the importance of these explanations for incorporating a diversified approach to improving the design of truthful algorithmic ecosystems. The proposed philosophical framework thus lays the groundwork for establishing a pertinent connection between the technical and ethical aspects of artificial intelligence systems.",
+    "citation_count": 21
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13",
+    "summary": "This article explains Deep Q-Networks (DQN), a foundational deep reinforcement learning algorithm, at multiple levels of detail. It provides a high-level overview suitable for those familiar with reinforcement learning, and also includes more technical sections detailing the mathematics and implementation for those seeking a deeper understanding."
+  },
+  {
+    "title": "Energy-Performance Co-Management of Mixed-Sensitivity Workloads on Heterogeneous Multi-core Systems",
+    "abstract": "Satisfying performance of complex workload scenarios with respect to energy consumption on Heterogeneous Multicore Platforms (HMPs) is challenging when considering i) the increasing variety of applications, and ii) the large space of resource management configurations. Existing run-time resource management approaches use online and oﬄine learning to handle such complexity. However, they focus on one type of application, neglecting concurrent execution of mixed sensitivity workloads. In this work, we propose an energy-performance co-management method which prioritizes mixed type of applications at run-time, and searches in the configuration space to find the optimal configuration for each application which satisfies the performance requirements while saving energy. We evaluate our approach on a real Odroid XU3 platform over mixed-sensitivity embedded workloads. Experimental results show our approach provides 54% lower performance violation with 50% higher energy saving compared to the existing approaches.",
+    "published_date": "2021-01-18",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3394885.3431516",
+    "summary": "This paper presents a novel energy-performance co-management method for heterogeneous multi-core systems, optimizing resource allocation for mixed-sensitivity workloads and achieving significant improvements in energy savings and performance compared to existing approaches. Experimental results on an Odroid XU3 platform demonstrate substantial reductions in performance violations and increased energy efficiency."
+  },
+  {
+    "title": "Modular and Distributed Management of Many-Core SoCs",
+    "abstract": "Many-Core Systems-on-Chip increasingly require Dynamic Multi-objective Management (DMOM) of resources. DMOM uses different management components for objectives and resources to implement comprehensive and self-adaptive system resource management. DMOMs are challenging because they require a scalable and well-organized framework to make each component modular, allowing it to be instantiated or redesigned with a limited impact on other components. This work evaluates two state-of-the-art distributed management paradigms and, motivated by their drawbacks, proposes a new one called Management Application (MA), along with a DMOM framework based on MA. MA is a distributed application, specific for management, where each task implements a management role. This paradigm favors scalability and modularity because the management design assumes different and parallel modules, decoupled from the OS. An experiment with a task mapping case study shows that MA reduces the overhead of management resources (-61.5%), latency (-66%), and communication volume (-96%) compared to state-of-the-art per-application management. Compared to cluster-based management (CBM) implemented directly as part of the OS, MA is similar in resources and communication volume, increasing only the mapping latency (+16%). Results targeting a complete DMOM control loop addressing up to three different objectives show the scalability regarding system size and adaptation frequency compared to CBM, presenting an overall management latency reduction of 17.2% and an overall monitoring messages' latency reduction of 90.2%.",
+    "published_date": "2021-07-01",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3458511",
+    "summary": "This paper proposes a novel distributed management application (MA) paradigm for many-core SoCs, demonstrating significant reductions in overhead, latency, and communication volume compared to existing per-application and cluster-based management approaches while maintaining scalability for dynamic multi-objective management. Experimental results show MA's superior performance in managing resources and adapting to changing objectives in large-scale systems."
+  },
+  {
+    "title": "FogBus2: a lightweight and distributed container-based framework for integration of IoT-enabled systems with edge and cloud computing",
+    "abstract": "Edge/Fog computing is a novel computing paradigm that provides resource-limited Internet of Things (IoT) devices with scalable computing and storage resources. Compared to cloud computing, edge/fog servers have fewer resources, but they can be accessed with higher bandwidth and less communication latency. Thus, integrating edge/fog and cloud infrastructures can support the execution of diverse latency-sensitive and computation-intensive IoT applications. Although some frameworks attempt to provide such integration, there are still several challenges to be addressed, such as dynamic scheduling of different IoT applications, scalability mechanisms, multi-platform support, and supporting different interaction models. To overcome these challenges, we propose a lightweight and distributed container-based framework, called FogBus2. It provides a mechanism for scheduling heterogeneous IoT applications and implements several scheduling policies. Also, it proposes an optimized genetic algorithm to obtain fast convergence to well-suited solutions. Besides, it offers a scalability mechanism to ensure efficient responsiveness when either the number of IoT devices increases or the resources become overburdened. Also, the dynamic resource discovery mechanism of FogBus2 assists new entities to quickly join the system. We have also developed two IoT applications, called Conway's Game of Life and Video Optical Character Recognition to demonstrate the effectiveness of FogBus2 for handling real-time and non-real-time IoT applications. Experimental results show FogBus2's scheduling policy improves the response time of IoT applications by 53% compared to other policies. Also, the scalability mechanism can reduce up to 48% of the queuing waiting time compared to frameworks that do not support scalability.",
+    "published_date": "2021-06-20",
+    "citation_count": 38,
+    "url": "https://dl.acm.org/doi/10.1145/3460866.3461768",
+    "summary": "FogBus2 is a lightweight, distributed container-based framework integrating IoT devices with edge and cloud computing, addressing challenges like dynamic scheduling and scalability through optimized resource management and a genetic algorithm for efficient application deployment. Experimental results demonstrate significant improvements in response time and reduced queuing delays compared to existing solutions."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/fnjKpBoWJXcSDwhZk/what-s-the-backward-forward-flop-ratio-for-nns",
+    "author": "Marius Hobbhahn, Jsevillamol",
+    "title": "What's the backward-forward FLOP ratio for Neural Networks?",
+    "published_date": "2021-12-13",
+    "summary": "The backward-forward FLOP ratio in neural network training is typically near 2:1 for common settings (deep networks with convolutional layers and large batch sizes), but can range from 1:1 to 3:1 depending on factors like layer type, batch size, and network depth; the ratio is heavily influenced by the computational cost of convolutional layers and weight updates relative to forward passes."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Madwb2t79LGrLqWLH/a-simple-introduction-to-neural-networks",
+    "author": "Rafael Harth",
+    "title": "A Simple Introduction to Neural Networks",
+    "published_date": "2020-02-09",
+    "summary": "This article introduces neural networks, explaining their structure (neurons, edges, layers) and function as layered, feed-forward networks processing inputs through weighted connections and activation functions. The article also briefly describes how a neural network's output is calculated."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/qscAeYE67GoSffDDA/walkthrough-the-transformer-architecture-part-1-2",
+    "author": "Matthew Barnett",
+    "title": "Walkthrough: The Transformer Architecture [Part 1/2]",
+    "published_date": "2019-07-30",
+    "summary": "This blog post begins a series explaining the Transformer architecture in machine learning, starting with an overview of its attention mechanism. The author uses the example of self-attention within a sentence to illustrate how the Transformer identifies relationships between words, leading to improved natural language processing capabilities."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/brhWPoNsBN7za3xjs/competitive-markets-as-distributed-backprop",
+    "author": "johnswentworth",
+    "title": "Competitive Markets as Distributed Backprop",
+    "published_date": "2018-11-10",
+    "summary": "Backpropagation is a method for calculating the derivative of a complex function by applying the chain rule line-by-line in reverse order, propagating derivatives backward through the function's steps. This process is analogous to determining optimal pricing in a supply chain where each company's profit maximization depends on the prices and production functions of upstream companies."
+  }
+]

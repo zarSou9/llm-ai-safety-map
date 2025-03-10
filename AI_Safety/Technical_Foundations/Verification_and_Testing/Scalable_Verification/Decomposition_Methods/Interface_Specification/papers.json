@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2501.08670",
+    "title": "Augmenting Smart Contract Decompiler Output through Fine-grained Dependency Analysis and LLM-facilitated Semantic Recovery",
+    "published_date": "2025-01-15",
+    "abstract": "Decompiler is a specialized type of reverse engineering tool extensively employed in program analysis tasks, particularly in program comprehension and vulnerability detection. However, current Solidity smart contract decompilers face significant limitations in reconstructing the original source code. In particular, the bottleneck of SOTA decompilers lies in inaccurate method identification, incorrect variable type recovery, and missing contract attributes. These deficiencies hinder downstream tasks and understanding of the program logic. To address these challenges, we propose SmartHalo, a new framework that enhances decompiler output by combining static analysis (SA) and large language models (LLM). SmartHalo leverages the complementary strengths of SA's accuracy in control and data flow analysis and LLM's capability in semantic prediction. More specifically, \\system{} constructs a new data structure - Dependency Graph (DG), to extract semantic dependencies via static analysis. Then, it takes DG to create prompts for LLM optimization. Finally, the correctness of LLM outputs is validated through symbolic execution and formal verification. Evaluation on a dataset consisting of 465 randomly selected smart contract methods shows that SmartHalo significantly improves the quality of the decompiled code, compared to SOTA decompilers (e.g., Gigahorse). Notably, integrating GPT-4o with SmartHalo further enhances its performance, achieving precision rates of 87.39% for method boundaries, 90.39% for variable types, and 80.65% for contract attributes."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dPpA79MjPdDd87YoW/understanding-goedel-s-completeness-theorem",
+    "author": "Jessicata",
+    "title": "Understanding Gödel's completeness theorem",
+    "published_date": "2024-05-27"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BQKKQiBmc63fwjDrj/graphical-tensor-notation-for-interpretability",
+    "author": "Jordan Taylor",
+    "title": "Graphical tensor notation for interpretability",
+    "published_date": "2023-10-04"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/L6Ynch3CYMxXZkiq8/a-proof-of-loeb-s-theorem-using-computability-theory",
+    "author": "jessicata",
+    "title": "A Proof of Löb's Theorem using Computability Theory",
+    "published_date": "2023-08-16"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.02991v1.pdf",
+    "title": "Abstraction Logic: The Marriage of Contextual Refinement and Separation Logic",
+    "published_date": "2021-09-07",
+    "abstract": "Contextual refinement and separation logics are successful verification techniques that are very different in nature. First, the former guarantees behavioral refinement between a concrete program and an abstract program while the latter guarantees safety of a concrete program under certain conditions (expressed in terms of pre and post conditions). Second, the former does not allow any assumption about the context when locally reasoning about a module while the latter allows rich assumptions. In this paper, we present a new verification technique, called abstraction logic (AL), that inherently combines contextual refinement and separation logics such as Iris and VST, thereby taking the advantages of both. Specifically, AL allows us to locally verify a concrete module against an abstract module under separation-logic-style pre and post conditions about external modules. AL are fully formalized in Coq and provides a proof mode that supports a combination of simulation-style reasoning using our own tactics and SL-style reasoning using IPM (Iris Proof Mode). Using the proof mode, we verified various examples to demonstrate reasoning about ownership (based on partial commutative monoids) and purity ($i.e.$, termination with no system call), cyclic and higher-order reasoning about mutual recursion and function pointers, and reusable and gradual verification via intermediate abstractions. Also, the verification results are combined with CompCert, so that we formally establish behavioral refinement from top-level abstract programs, all the way down to their assembly code."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.12919.pdf",
+    "title": "Failure-Tolerant Contract-Based Design of an Automated Valet Parking System using a Directive-Response Architecture",
+    "published_date": "2021-03-24",
+    "abstract": "Increased complexity in cyber-physical systems calls for modular system design methodologies that guarantee correct and reliable behavior, both in normal operations and in the presence of failures. This paper aims to extend the contract-based design approach using a directive-response architecture to enable reactivity to failure scenarios. The architecture is demonstrated on a modular automated valet parking (AVP) system. The contracts for the different components in the AVP system are explicitly defined, implemented, and validated against a Python implementation."
+  }
+]

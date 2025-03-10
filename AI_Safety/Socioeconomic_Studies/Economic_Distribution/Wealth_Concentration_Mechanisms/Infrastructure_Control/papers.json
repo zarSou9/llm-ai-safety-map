@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/bmmFLoBAWGnuhnqq5/capital-ownership-will-not-prevent-human-disempowerment",
+    "author": "beren",
+    "title": "Capital Ownership Will Not Prevent Human Disempowerment",
+    "published_date": "2025-01-05",
+    "summary": "The author argues that, contrary to common belief, humanity's ownership of capital may not guarantee continued dominance in a future AI-driven economy. Drawing a parallel to the Industrial Revolution's displacement of the landowning aristocracy, the author suggests that shifts in the form and nature of capital, along with other factors, could similarly diminish humanity's control even with initial capital ownership."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2402.08797.pdf",
+    "title": "Computing Power and the Governance of Artificial Intelligence",
+    "published_date": "2024-02-13",
+    "abstract": "Computing power, or\"compute,\"is crucial for the development and deployment of artificial intelligence (AI) capabilities. As a result, governments and companies have started to leverage compute as a means to govern AI. For example, governments are investing in domestic compute capacity, controlling the flow of compute to competing countries, and subsidizing compute access to certain sectors. However, these efforts only scratch the surface of how compute can be used to govern AI development and deployment. Relative to other key inputs to AI (data and algorithms), AI-relevant compute is a particularly effective point of intervention: it is detectable, excludable, and quantifiable, and is produced via an extremely concentrated supply chain. These characteristics, alongside the singular importance of compute for cutting-edge AI models, suggest that governing compute can contribute to achieving common policy objectives, such as ensuring the safety and beneficial use of AI. More precisely, policymakers could use compute to facilitate regulatory visibility of AI, allocate resources to promote beneficial outcomes, and enforce restrictions against irresponsible or malicious AI development and usage. However, while compute-based policies and technologies have the potential to assist in these areas, there is significant variation in their readiness for implementation. Some ideas are currently being piloted, while others are hindered by the need for fundamental research. Furthermore, naive or poorly scoped approaches to compute governance carry significant risks in areas like privacy, economic impacts, and centralization of power. We end by suggesting guardrails to minimize these risks from compute governance.",
+    "citation_count": 16,
+    "summary": "Governments and companies are increasingly using control over computing power to govern artificial intelligence development and deployment, leveraging its quantifiable and controllable nature to promote beneficial AI while mitigating risks. However, effective implementation requires careful consideration of potential downsides related to privacy, economic impact, and power centralization."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.13138",
+    "title": "Visibility into AI Agents",
+    "published_date": "2024-01-23",
+    "abstract": "Increased delegation of commercial, scientific, governmental, and personal activities to AI agents—systems capable of pursuing complex goals with limited supervision—may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.",
+    "citation_count": 12,
+    "summary": "This paper examines methods to increase \"visibility\" into AI agents—understanding their use, deployment, and impact—by analyzing agent identifiers, real-time monitoring, and activity logging, considering their implications for privacy and power dynamics across various deployment contexts. The authors propose these measures as crucial for mitigating societal risks associated with increased AI agent autonomy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.01722",
+    "title": "On Labs and Fabs: Mapping How Alliances, Acquisitions, and Antitrust are Shaping the Frontier AI Industry",
+    "published_date": "2024-06-03",
+    "abstract": "As frontier AI models advance, policy proposals for safe AI development are gaining increasing attention from researchers and policymakers. This paper explores the current integration in the AI supply chain, focusing on vertical relationships and strategic partnerships among AI labs, cloud providers, chip manufacturers, and lithography companies. It aims to lay the groundwork for a deeper understanding of the implications of various governance interventions, including antitrust measures. The study has two main contributions. First, it profiles 25 leading companies in the AI supply chain, analyzing 300 relationships and noting 80 significant mergers and acquisitions along with 40 antitrust cases. Second, we discuss potential market definitions and the integration drivers based on the observed trends. The analysis reveals predominant horizontal integration through natural growth rather than acquisitions and notable trends of backward vertical integration in the semiconductor supply chain. Strategic partnerships are also significant downstream, especially between AI companies and cloud providers, with large tech companies often pursuing conglomerate integration by acquiring specialized AI startups or forming alliances with frontier AI labs. To further understand the strategic partnerships in the industry, we provide three brief case studies featuring companies like OpenAI and Nvidia. We conclude by posing open research questions on market dynamics and possible governance interventions, such as licensing and safety audits.",
+    "summary": "This paper analyzes the evolving AI supply chain, mapping relationships between AI labs, cloud providers, and hardware manufacturers through an examination of mergers, acquisitions, alliances, and antitrust cases to inform future governance interventions. The study reveals prevalent horizontal integration and significant backward vertical integration in the semiconductor sector, highlighting the strategic importance of partnerships, particularly between AI companies and cloud providers."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mXD53GFvMCWQhcCwt/distinguishing-ways-ai-can-be-concentrated",
+    "author": "Matthew Barnett",
+    "title": "Distinguishing ways AI can be \"concentrated\"",
+    "published_date": "2024-10-21",
+    "summary": "The article argues that discussions of AI concentration lack clarity, proposing three distinct dimensions: concentration of AI development, service provision, and control. These dimensions, which can vary independently, are crucial for accurately predicting AI's trajectory and informing policy."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to computing resources used in AI development, is a promising but underdeveloped AI governance strategy. While current measures are limited, proposed approaches aim to improve visibility into AI development, allocate compute resources strategically, and enforce regulations through various technological and policy mechanisms."
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.11342",
+    "title": "Exploring Antitrust and Platform Power in Generative AI",
+    "published_date": "2023-06-20",
+    "abstract": "The concentration of power in a few digital technology companies has become a subject of increasing interest in both academic and non-academic discussions. One of the most noteworthy contributions to the debate is Lina Khan's Amazon's Antitrust Paradox. In this work, Khan contends that Amazon has systematically exerted its dominance in online retail to eliminate competitors and subsequently charge above-market prices. This work contributed to Khan's appointment as the chair of the US Federal Trade Commission (FTC), one of the most influential antitrust organisations. Today, several ongoing antitrust lawsuits in the US and Europe involve major technology companies like Apple, Google/Alphabet, and Facebook/Meta. In the realm of generative AI, we are once again witnessing the same companies taking the lead in technological advancements, leaving little room for others to compete. This article examines the market dominance of these corporations in the technology stack behind generative AI from an antitrust law perspective.",
+    "summary": "This paper examines the antitrust implications of the concentrated power of a few major tech companies in the rapidly developing generative AI market, arguing that their dominance mirrors past concerns about anti-competitive practices. The authors analyze this market concentration through the lens of existing antitrust law and prior cases."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.14562",
+    "title": "Measuring the Concentration of Control in Contemporary Ethereum",
+    "published_date": "2023-12-22",
+    "abstract": "Ethereum is undergoing significant changes to its architecture as it evolves. These changes include its switch to PoS consensus and the introduction of significant infrastructural changes that do not require a change to the core protocol, but that fundamentally affect the way users interact with the network. These changes represent an evolution toward a more modular architecture, in which there exists new exogenous vectors for centralization. This paper builds on previous studies of decentralization of Ethereum to reflect these recent significant changes, and Ethereum's new modular paradigm.",
+    "citation_count": 1,
+    "summary": "This paper analyzes the evolving centralization of Ethereum, considering its shift to Proof-of-Stake and the impact of modular architectural changes on control concentration within the network. It updates previous decentralization studies to account for these recent developments."
+  }
+]

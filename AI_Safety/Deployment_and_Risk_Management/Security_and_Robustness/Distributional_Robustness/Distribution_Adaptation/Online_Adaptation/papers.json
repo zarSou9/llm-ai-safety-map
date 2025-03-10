@@ -1,0 +1,42 @@
+[
+  {
+    "title": "A survey on concept drift adaptation",
+    "abstract": "Concept drift primarily refers to an online supervised learning scenario when the relation between the input data and the target variable changes over time. Assuming a general knowledge of supervised learning in this article, we characterize adaptive learning processes; categorize existing strategies for handling concept drift; overview the most representative, distinct, and popular techniques and algorithms; discuss evaluation methodology of adaptive algorithms; and present a set of illustrative applications. The survey covers the different facets of concept drift in an integrated way to reflect on the existing scattered state of the art. Thus, it aims at providing a comprehensive introduction to the concept drift adaptation for researchers, industry analysts, and practitioners.",
+    "published_date": "2014-03-01",
+    "citation_count": 2737,
+    "url": "https://dl.acm.org/doi/10.1145/2523813"
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.05662",
+    "title": "Federated Learning with Dynamic Client Arrival and Departure: Convergence and Rapid Adaptation via Initial Model Construction",
+    "published_date": "2024-10-08",
+    "abstract": "While most existing federated learning (FL) approaches assume a fixed set of clients in the system, in practice, clients can dynamically leave or join the system depending on their needs or interest in the specific task. This dynamic FL setting introduces several key challenges: (1) the objective function dynamically changes depending on the current set of clients, unlike traditional FL approaches that maintain a static optimization goal; (2) the current global model may not serve as the best initial point for the next FL rounds and could potentially lead to slow adaptation, given the possibility of clients leaving or joining the system. In this paper, we consider a dynamic optimization objective in FL that seeks the optimal model tailored to the currently active set of clients. Building on our probabilistic framework that provides direct insights into how the arrival and departure of different types of clients influence the shifts in optimal points, we establish an upper bound on the optimality gap, accounting for factors such as stochastic gradient noise, local training iterations, non-IIDness of data distribution, and deviations between optimal points caused by dynamic client pattern. We also propose an adaptive initial model construction strategy that employs weighted averaging guided by gradient similarity, prioritizing models trained on clients whose data characteristics align closely with the current one, thereby enhancing adaptability to the current clients. The proposed approach is validated on various datasets and FL algorithms, demonstrating robust performance across diverse client arrival and departure patterns, underscoring its effectiveness in dynamic FL environments."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nLRKKCTtwQgvozLTN/gradient-routing-masking-gradients-to-localize-computation",
+    "author": "cloud, Jacob G-W, Evzen, Joseph Miller, TurnTrout",
+    "title": "Gradient Routing: Masking Gradients to Localize Computation in Neural Networks",
+    "published_date": "2024-12-06"
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.01630",
+    "title": "Learning to Adapt to Online Streams with Distribution Shifts",
+    "published_date": "2023-03-02",
+    "abstract": "Test-time adaptation (TTA) is a technique used to reduce distribution gaps between the training and testing sets by leveraging unlabeled test data during inference. In this work, we expand TTA to a more practical scenario, where the test data comes in the form of online streams that experience distribution shifts over time. Existing approaches face two challenges: reliance on a large test data batch from the same domain and the absence of explicitly modeling the continual distribution evolution process. To address both challenges, we propose a meta-learning approach that teaches the network to adapt to distribution-shifting online streams during meta-training. As a result, the trained model can perform continual adaptation to distribution shifts in testing, regardless of the batch size restriction, as it has learned during training. We conducted extensive experiments on benchmarking datasets for TTA, incorporating a broad range of online distribution-shifting settings. Our results showed consistent improvements over state-of-the-art methods, indicating the effectiveness of our approach. In addition, we achieved superior performance in the video segmentation task, highlighting the potential of our method for real-world applications.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2307.15941.pdf",
+    "title": "Continual Learning in Predictive Autoscaling",
+    "published_date": "2023-07-29",
+    "abstract": "Predictive Autoscaling is used to forecast the workloads of servers and prepare the resources in advance to ensure service level objectives (SLOs) in dynamic cloud environments. However, in practice, its prediction task often suffers from performance degradation under abnormal traffics caused by external events (such as sales promotional activities and applications' re-configurations), for which a common solution is to re-train the model with data of a long historical period, but at the expense of high computational and storage costs. To better address this problem, we propose a replay-based continual learning method, i.e., Density-based Memory Selection and Hint-based Network Learning Model (DMSHM), using only a small part of the historical log to achieve accurate predictions. First, we discover the phenomenon of sample overlap when applying replay-based continual learning in prediction tasks. In order to surmount this challenge and effectively integrate new sample distribution, we propose a density-based sample selection strategy that utilizes kernel density estimation to calculate sample density as a reference to compute sample weight, and employs weight sampling to construct a new memory set. Then we implement hint-based network learning based on hint representation to optimize the parameters. Finally, we conduct experiments on public and industrial datasets to demonstrate that our proposed method outperforms state-of-the-art continual learning methods in terms of memory capacity and prediction accuracy. Furthermore, we demonstrate remarkable practicability of DMSHM in real industrial applications.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.12578",
+    "title": "Online Federated Learning via Non-Stationary Detection and Adaptation Amidst Concept Drift",
+    "published_date": "2022-11-22",
+    "abstract": "Federated Learning (FL) is an emerging domain in the broader context of artificial intelligence research. Methodologies pertaining to FL assume distributed model training, consisting of a collection of clients and a server, with the main goal of achieving optimal global model with restrictions on data sharing due to privacy concerns. It is worth highlighting that the diverse existing literature in FL mostly assume stationary data generation processes; such an assumption is unrealistic in real-world conditions where concept drift occurs due to, for instance, seasonal or period observations, faults in sensor measurements. In this paper, we introduce a multiscale algorithmic framework which combines theoretical guarantees of FedAvg and FedOMD algorithms in near stationary settings with a non-stationary detection and adaptation technique to ameliorate FL generalization performance in the presence of concept drifts. We present a multi-scale algorithmic framework leading to <inline-formula> <tex-math notation=\"LaTeX\">$\\tilde {\\mathcal {O}} (\\min \\{ \\sqrt {LT}, \\Delta ^{({1}/{3})}T^{({2}/{3})} + \\sqrt {T} \\})$ </tex-math></inline-formula> dynamic regret for <inline-formula> <tex-math notation=\"LaTeX\">$T$ </tex-math></inline-formula> rounds with an underlying general convex loss function, where <inline-formula> <tex-math notation=\"LaTeX\">$L$ </tex-math></inline-formula> is the number of times non-stationary drifts occurred and <inline-formula> <tex-math notation=\"LaTeX\">$\\Delta $ </tex-math></inline-formula> is the cumulative magnitude of drift experienced within <inline-formula> <tex-math notation=\"LaTeX\">$T$ </tex-math></inline-formula> rounds.",
+    "citation_count": 7
+  }
+]

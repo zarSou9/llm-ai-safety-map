@@ -1,0 +1,111 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2406.01722",
+    "title": "On Labs and Fabs: Mapping How Alliances, Acquisitions, and Antitrust are Shaping the Frontier AI Industry",
+    "published_date": "2024-06-03",
+    "abstract": "As frontier AI models advance, policy proposals for safe AI development are gaining increasing attention from researchers and policymakers. This paper explores the current integration in the AI supply chain, focusing on vertical relationships and strategic partnerships among AI labs, cloud providers, chip manufacturers, and lithography companies. It aims to lay the groundwork for a deeper understanding of the implications of various governance interventions, including antitrust measures. The study has two main contributions. First, it profiles 25 leading companies in the AI supply chain, analyzing 300 relationships and noting 80 significant mergers and acquisitions along with 40 antitrust cases. Second, we discuss potential market definitions and the integration drivers based on the observed trends. The analysis reveals predominant horizontal integration through natural growth rather than acquisitions and notable trends of backward vertical integration in the semiconductor supply chain. Strategic partnerships are also significant downstream, especially between AI companies and cloud providers, with large tech companies often pursuing conglomerate integration by acquiring specialized AI startups or forming alliances with frontier AI labs. To further understand the strategic partnerships in the industry, we provide three brief case studies featuring companies like OpenAI and Nvidia. We conclude by posing open research questions on market dynamics and possible governance interventions, such as licensing and safety audits.",
+    "summary": "This paper analyzes the evolving AI supply chain, mapping relationships between AI labs, cloud providers, and hardware manufacturers through an examination of mergers, acquisitions, alliances, and antitrust cases, to inform future policy discussions on AI governance. The study reveals prevalent horizontal integration alongside significant backward vertical integration in the semiconductor sector, emphasizing strategic partnerships and conglomerate integration by large tech companies."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.10268",
+    "title": "The complementary contributions of academia and industry to AI research",
+    "published_date": "2024-01-04",
+    "abstract": "Artificial intelligence (AI) has seen fast paced development in industry and academia. However, striking recent advances by industry have stunned the field, inviting a fresh perspective on the role of academic research on this progress. Here, we characterize the impact and type of AI produced by both environments over the last 25 years and establish several patterns. We find that articles published by teams consisting exclusively of industry researchers tend to get greater attention, with a higher chance of being highly cited and citation-disruptive, and several times more likely to produce state-of-the-art models. In contrast, we find that exclusively academic teams publish the bulk of AI research and tend to produce higher novelty work, with single papers having several times higher likelihood of being unconventional and atypical. The respective impact-novelty advantages of industry and academia are robust to controls for subfield, team size, seniority, and prestige. We find that academic-industry collaborations produce the most impactful work overall but do not have the novelty level of academic teams. Together, our findings identify the unique and nearly irreplaceable contributions that both academia and industry make toward the progress of AI.",
+    "summary": "Industry AI research produces more impactful, highly-cited work, while academia generates more novel and unconventional research; collaborations between the two yield the most impactful results overall."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.00031",
+    "title": "Strategic Collusion of LLM Agents: Market Division in Multi-Commodity Competitions",
+    "published_date": "2024-09-19",
+    "abstract": "Machine-learning technologies are seeing increased deployment in real-world market scenarios. In this work, we explore the strategic behaviors of large language models (LLMs) when deployed as autonomous agents in multi-commodity markets, specifically within Cournot competition frameworks. We examine whether LLMs can independently engage in anti-competitive practices such as collusion or, more specifically, market division. Our findings demonstrate that LLMs can effectively monopolize specific commodities by dynamically adjusting their pricing and resource allocation strategies, thereby maximizing profitability without direct human input or explicit collusion commands. These results pose unique challenges and opportunities for businesses looking to integrate AI into strategic roles and for regulatory bodies tasked with maintaining fair and competitive markets. The study provides a foundation for further exploration into the ramifications of deferring high-stakes decisions to LLM-based agents.",
+    "summary": "This study shows that large language models (LLMs), acting as autonomous agents in competitive markets, can spontaneously collude to divide and monopolize commodities, maximizing profits without explicit programming or communication. This highlights potential anti-competitive risks and regulatory challenges posed by AI in market settings."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three strategies for governing transformative AI: Cooperative Development, Strategic Advantage, and Global Moratorium. The effectiveness of each strategy depends heavily on the difficulty of aligning AI and the timeframe for its development, with preferences shifting based on these variables."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mXD53GFvMCWQhcCwt/distinguishing-ways-ai-can-be-concentrated",
+    "author": "Matthew Barnett",
+    "title": "Distinguishing ways AI can be \"concentrated\"",
+    "published_date": "2024-10-21",
+    "summary": "The author argues that discussions of AI concentration are unclear, proposing three distinct dimensions: concentration of AI development, service provisioning, and control. These dimensions are independent and should be analyzed separately to accurately predict AI's trajectory and inform effective policy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.11342",
+    "title": "Exploring Antitrust and Platform Power in Generative AI",
+    "published_date": "2023-06-20",
+    "abstract": "The concentration of power in a few digital technology companies has become a subject of increasing interest in both academic and non-academic discussions. One of the most noteworthy contributions to the debate is Lina Khan's Amazon's Antitrust Paradox. In this work, Khan contends that Amazon has systematically exerted its dominance in online retail to eliminate competitors and subsequently charge above-market prices. This work contributed to Khan's appointment as the chair of the US Federal Trade Commission (FTC), one of the most influential antitrust organisations. Today, several ongoing antitrust lawsuits in the US and Europe involve major technology companies like Apple, Google/Alphabet, and Facebook/Meta. In the realm of generative AI, we are once again witnessing the same companies taking the lead in technological advancements, leaving little room for others to compete. This article examines the market dominance of these corporations in the technology stack behind generative AI from an antitrust law perspective.",
+    "summary": "This paper examines the antitrust implications of the concentrated power of a few major tech companies in the burgeoning generative AI market, arguing that their dominance mirrors concerning trends observed in other sectors and risks stifling competition. The analysis draws parallels to existing antitrust concerns and ongoing lawsuits against these firms."
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.10006",
+    "title": "The Competitive Leverage Paradox Effect on Information Systems Life Cycle",
+    "published_date": "2023-01-03",
+    "abstract": "The fierce market competition has put pressure on organizations leveraging their value chains. The continuous development in strategic technologies such as Artificial Intelligence (AI) has pushed organizations to continuously acquire new Intelligent Information Systems (IIS) while underutilizing existing ones leading to the competitive leverage paradox. However, research on underutilizing IIS has focused on the social and organizational aspects of the problem, ignoring the flaws in designing and evaluating IIS. One of the overlooked factors is the effective life span of an IIS. This research conducted a systematic literature review to profoundly investigate the determinants of the competitive leverage paradox and its effect on the IIS life cycle. The research studies the IISs from economic and design perspectives. We also explore the design and strategic factors that led to defects in the effective life cycle of IIS. This research calls to consider the economic, and design factors in addressing the underutilization of IIS. The study also presents future research propositions to enhance IIS life cycle and return on investment.",
+    "summary": "This paper examines the \"competitive leverage paradox,\" where organizations' rapid adoption of new Intelligent Information Systems (IIS) leads to underutilization of existing systems, hindering their competitive advantage. It argues that this paradox stems from neglecting the economic and design factors influencing IIS lifespan, proposing future research to improve IIS life cycle management and ROI."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/organization-updates",
+    "author": "Jesse Hoogland, Daniel Murfet, Stan van Wingerden, Alexander Gietelink Oldenziel",
+    "title": "Organization Updates - AI Alignment Forum",
+    "published_date": "2023-05-30",
+    "summary": "Organization updates pertain to announcements or changes within a specific group or organization. They cover relevant information affecting members or stakeholders."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.00233v1.pdf",
+    "title": "An evolutionary view on the emergence of Artificial Intelligence",
+    "published_date": "2021-01-30",
+    "abstract": "This paper draws upon the evolutionary concepts of technological relatedness and knowledge complexity to enhance our understanding of the long-term evolution of Artificial Intelligence (AI). We reveal corresponding patterns in the emergence of AI globally and in the context of specific geographies of the US, Japan, South Korea, and China. We argue that AI emergence is associated with increasing related variety due to knowledge commonalities as well as increasing complexity. We use patent-based indicators for the period between 1974-2018 to analyse the evolution of AI's global technological space, to identify its technological core as well as changes to its overall relatedness and knowledge complexity. At the national level, we also measure countries' overall specialisations against AI-specific ones. At the global level, we find increasing overall relatedness and complexity of AI. However, for the technological core of AI, which has been stable over time, we find decreasing related variety and increasing complexity. This evidence points out that AI innovations related to core technologies are becoming increasingly distinct from each other. At the country level, we find that the US and Japan have been increasing the overall relatedness of their innovations. The opposite is the case for China and South Korea, which we associate with the fact that these countries are overall less technologically developed than the US and Japan. Finally, we observe a stable increasing overall complexity for all countries apart from China, which we explain by the focus of this country in technologies not strongly linked to AI.",
+    "citation_count": 1,
+    "summary": "This paper uses evolutionary concepts and patent data (1974-2018) to analyze the global evolution of Artificial Intelligence, revealing increasing overall relatedness and complexity, while the AI core shows decreasing relatedness and increasing complexity. National-level analysis reveals differing patterns of relatedness and complexity across the US, Japan, South Korea, and China, linked to their technological development."
+  },
+  {
+    "url": "https://arxiv.org/abs/2102.01648",
+    "title": "The Privatization of AI Research(-ers): Causes and Potential Consequences - From university-industry interaction to public research brain-drain?",
+    "published_date": "2021-02-02",
+    "abstract": "In this paper, we analyze the causes and discuss potential consequences of a perceived privatization of AI research, particularly the transition of AI researchers from academia to industry. We explore the scale of the phenomenon by quantifying transition flows between industry and academia, and providing a descriptive account and exploratory analysis of characteristics of industry transition. Here we find that industry researchers and those transitioning into industry produce more impactful research as measured by citations. Using a survival regression approach we identify mechanisms that trigger these university-industry transitions focusing on researcher characteristics, performance and research field as documented in bibliographic data. We find that, researchers working within the field of deep learning as well as those with higher average impact tend to transition into industry. These findings highlight the importance of strengthening academic research in public organizations within AI to balance a potential dominance of private companies and to maintain public supervision of the development and application of this technology.",
+    "citation_count": 20,
+    "summary": "This paper investigates the increasing movement of AI researchers from academia to industry, analyzing the contributing factors and potential negative consequences for public research. The study finds that high-impact researchers, especially those in deep learning, are more likely to transition to industry, suggesting a need for bolstering public AI research to counter potential private sector dominance."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2112.02870.pdf",
+    "title": "A Marketplace for Trading AI Models based on Blockchain and Incentives for IoT Data",
+    "published_date": "2021-12-06",
+    "abstract": "As Machine Learning (ML) models are becoming increasingly complex, one of the central challenges is their deployment at scale, such that companies and organizations can create value through Artificial Intelligence (AI). An emerging paradigm in ML is a federated approach where the learning model is delivered to a group of heterogeneous agents partially, allowing agents to train the model locally with their own data. However, the problem of valuation of models, as well the questions of incentives for collaborative training and trading of data/models, have received limited treatment in the literature. In this paper, a new ecosystem of ML model trading over a trusted Blockchain-based network is proposed. The buyer can acquire the model of interest from the ML market, and interested sellers spend local computations on their data to enhance that model's quality. In doing so, the proportional relation between the local data and the quality of trained models is considered, and the valuations of seller's data in training the models are estimated through the distributed Data Shapley Value (DSV). At the same time, the trustworthiness of the entire trading process is provided by the distributed Ledger Technology (DLT). Extensive experimental evaluation of the proposed approach shows a competitive run-time performance, with a 15\\% drop in the cost of execution, and fairness in terms of incentives for the participants.",
+    "citation_count": 17,
+    "summary": "This paper proposes a blockchain-based marketplace for trading AI models, incentivizing collaborative training by using the distributed Data Shapley Value to fairly compensate data providers based on their contribution to model improvement. The system demonstrates competitive performance and cost reduction compared to existing methods."
+  },
+  {
+    "title": "Integration Mechanism of Artificial Intelligence Technology Innovation and Commercialization",
+    "abstract": "This paper combs the definition and classification of artificial intelligence. Based on the theory of dynamic capabilities of enterprises, the theory of excellent marketing, and the theory of consumers' perception of products and value, combined with the characteristics of artificial intelligence technology, the mechanism of the integration of artificial intelligence technology and commercialization is constructed. The mechanism consists of five parts: organizational elements, technological innovation and commercialization integration activities, the results of integration, consumers' perception of product service brand value and technical environment. This paper analyzes the relationship between the five parts and emphasizes the importance of mastering the market and consumer demand for integration. This paper expounds the management application of the mechanism, and discusses the limitations of the contribution of artificial intelligence to enterprises, as well as the possible privacy and ethical issues.",
+    "published_date": "2021-05-25",
+    "url": "https://dl.acm.org/doi/10.1145/3456887.3459702",
+    "summary": "This paper proposes a five-part mechanism for integrating artificial intelligence technology innovation and commercialization, focusing on organizational elements, integration activities, results, consumer perception, and the technological environment. The model emphasizes market understanding and consumer demand as crucial for successful AI commercialization, while also acknowledging limitations and ethical concerns."
+  },
+  {
+    "title": "AI Efficiency Index: Identifying Regulatory and Policy Constraints for Resilient National AI Ecosystems",
+    "abstract": "We develop efficiency estimates for the production, implementation and diffusion of artificial intelligence (AI) services. We use a variety of data measuring factors relating to AI input and output. We start by constructing a set of nine different AI efficiency measures using non-parametric technique of data envelopment analysis (DAE). We then proceed to analyse the cross-country time variation of these estimates and compare these with different policy measures and institutional indicators. In particular, we link our AI efficiency measures to general characteristics of a country's innovation system including indicators reflecting product market regulation, tax subsidies for R\\&D investment and institutional factors linked to starting a business and (intellectual) property rights. We find that policy measures differ in their impact on our AI efficiency scores: Tax subsidies are important to enhance start-up investment activity, especially in countries with high barriers to entry and weak property rights. Product market frictions such as public ownership --- especially in the telecommunications industry --- is pernicious to patenting efficiency in the field of AI. Our results highlight the importance of differentiated policy interventions at different stages (and attributes) of the AI production chain.",
+    "published_date": "2021-03-09",
+    "citation_count": 1,
+    "url": "https://www.researchgate.net/publication/350015537_AI_Efficiency_Index_Identifying_Regulatory_and_Policy_Constraints_for_Resilient_National_AI_Ecosystems",
+    "summary": "This paper develops an AI Efficiency Index using data envelopment analysis to measure AI production, implementation, and diffusion, revealing that tax subsidies boost AI startups, particularly in countries with high barriers to entry, while product market regulations, especially in telecommunications, negatively impact AI patenting efficiency."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization",
+    "published_date": "2021-06-04",
+    "summary": "This article explores applying game theory to AI development within organizations, highlighting the limitations of a purely game-theoretic approach and advocating for a model that integrates game theory with organizational structure and bureaucratic principles. The authors argue that even with advanced AI, human-AI collaboration within a bureaucratic framework, leveraging comparative advantage, will remain necessary for efficient complex problem-solving."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/M3xpp7CZ2JaSafDJB/computer-governance-and-conclusions-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Governance and Conclusions - Transformative AI and Compute [3/4]",
+    "published_date": "2021-10-14",
+    "summary": "This article explores the governance of computing resources in relation to AI safety, arguing that the physical, energy, and supply chain constraints of powerful computing make it a more governable aspect of AI development than other areas like data or talent. The author suggests that restricting compute access to potentially unsafe actors is a relatively consensual goal within the AI governance community."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.22151",
+    "title": "Standardization Trends on Safety and Trustworthiness Technology for Advanced AI",
+    "published_date": "2024-10-29",
+    "abstract": "Artificial Intelligence (AI) has rapidly evolved over the past decade and has advanced in areas such as language comprehension, image and video recognition, programming, and scientific reasoning. Recent AI technologies based on large language models and foundation models are approaching or surpassing artificial general intelligence. These systems demonstrate superior performance in complex problem solving, natural language processing, and multi-domain tasks, and can potentially transform fields such as science, industry, healthcare, and education. However, these advancements have raised concerns regarding the safety and trustworthiness of advanced AI, including risks related to uncontrollability, ethical conflicts, long-term socioeconomic impacts, and safety assurance. Efforts are being expended to develop internationally agreed-upon standards to ensure the safety and reliability of AI. This study analyzes international trends in safety and trustworthiness standardization for advanced AI, identifies key areas for standardization, proposes future directions and strategies, and draws policy implications. The goal is to support the safe and trustworthy development of advanced AI and enhance international competitiveness through effective standardization.",
+    "citation_count": 1,
+    "summary": "This paper examines international standardization trends for ensuring the safety and trustworthiness of advanced AI systems, identifying key standardization areas, proposing future directions, and highlighting policy implications to promote safe AI development and global competitiveness."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.08981",
+    "title": "Reliability, Resilience and Human Factors Engineering for Trustworthy AI Systems",
+    "published_date": "2024-11-13",
+    "abstract": "As AI systems become integral to critical operations across industries and services, ensuring their reliability and safety is essential. We offer a framework that integrates established reliability and resilience engineering principles into AI systems. By applying traditional metrics such as failure rate and Mean Time Between Failures (MTBF) along with resilience engineering and human reliability analysis, we propose an integrate framework to manage AI system performance, and prevent or efficiently recover from failures. Our work adapts classical engineering methods to AI systems and outlines a research agenda for future technical studies. We apply our framework to a real-world AI system, using system status data from platforms such as openAI, to demonstrate its practical applicability. This framework aligns with emerging global standards and regulatory frameworks, providing a methodology to enhance the trustworthiness of AI systems. Our aim is to guide policy, regulation, and the development of reliable, safe, and adaptable AI technologies capable of consistent performance in real-world environments.",
+    "citation_count": 1,
+    "summary": "This paper presents a framework integrating reliability and resilience engineering principles into AI system design, using established metrics and human factors analysis to improve performance, prevent failures, and enable efficient recovery, ultimately enhancing AI trustworthiness. The framework is demonstrated with real-world AI system data and aligns with emerging standards and regulations."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.00081",
+    "title": "From homeostasis to resource sharing: Biologically and economically compatible multi-objective multi-agent AI safety benchmarks",
+    "published_date": "2024-09-30",
+    "abstract": "Developing safe agentic AI systems benefits from automated empirical testing that conforms with human values, a subfield that is largely underdeveloped at the moment. To contribute towards this topic, present work focuses on introducing biologically and economically motivated themes that have been neglected in the safety aspects of modern reinforcement learning literature, namely homeostasis, balancing multiple objectives, bounded objectives, diminishing returns, sustainability, and multi-agent resource sharing. We implemented eight main benchmark environments on the above themes, for illustrating the potential shortcomings of current mainstream discussions on AI safety.",
+    "summary": "This paper introduces eight new reinforcement learning benchmark environments designed to test AI safety, focusing on biologically and economically inspired challenges like homeostasis, multi-objective optimization with diminishing returns, and multi-agent resource sharing. These benchmarks highlight shortcomings in current AI safety research by emphasizing neglected themes of sustainability and bounded resources."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), focusing on the possibility of TAI emerging within the next decade. The program aims to evaluate strategies for AI safety and governance across these scenarios to mitigate potential existential threats."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.14597v2",
+    "title": "AI Safety Subproblems for Software Engineering Researchers",
+    "published_date": "2023-04-28",
+    "abstract": "In this 4-page manuscript we discuss the problem of long-term AI Safety from a Software Engineering (SE) research viewpoint. We briefly summarize long-term AI Safety, and the challenge of avoiding harms from AI as systems meet or exceed human capabilities, including software engineering capabilities (and approach AGI /\"HLMI\"). We perform a quantified literature review suggesting that AI Safety discussions are not common at SE venues. We make conjectures about how software might change with rising capabilities, and categorize\"subproblems\"which fit into traditional SE areas, proposing how work on similar problems might improve the future of AI and SE.",
+    "citation_count": 4,
+    "summary": "This paper argues that software engineering research can significantly contribute to AI safety, identifying several subproblems within traditional software engineering domains that, if addressed, could mitigate risks associated with increasingly capable AI systems. The authors highlight a gap in current AI safety discussions within the software engineering community and propose avenues for future research."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and a long version, have been created to help machine learning researchers quickly assess the AI safety field and identify potential research areas aligning with their existing skills and interests. These resources list key organizations, researchers, papers, and keywords to facilitate efficient exploration of the field."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.12819v1.pdf",
+    "title": "A Safety-Critical Decision Making and Control Framework Combining Machine Learning and Rule-based Algorithms",
+    "published_date": "2022-01-30",
+    "abstract": "While artificial-intelligence-based methods suffer from lack of transparency, rule-based methods dominate in safety-critical systems. Yet, the latter cannot compete with the first ones in robustness to multiple requirements, for instance, simultaneously addressing safety, comfort, and efficiency. Hence, to benefit from both methods they must be joined in a single system. This paper proposes a decision making and control framework, which profits from advantages of both the rule- and machine-learning-based techniques while compensating for their disadvantages. The proposed method embodies two controllers operating in parallel, called Safety and Learned. A rule-based switching logic selects one of the actions transmitted from both controllers. The Safety controller is prioritized every time, when the Learned one does not meet the safety constraint, and also directly participates in the safe Learned controller training. Decision making and control in autonomous driving is chosen as the system case study, where an autonomous vehicle learns a multi-task policy to safely cross an unprotected intersection. Multiple requirements (i.e., safety, efficiency, and comfort) are set for vehicle operation. A numerical simulation is performed for the proposed framework validation, where its ability to satisfy the requirements and robustness to changing environment is successfully demonstrated.",
+    "citation_count": 3,
+    "summary": "This paper presents a safety-critical decision-making framework that combines rule-based and machine learning controllers, using a switching logic to prioritize safety while leveraging the robustness of machine learning for multiple objectives; its effectiveness is demonstrated through an autonomous driving simulation involving unprotected intersection crossing."
+  }
+]

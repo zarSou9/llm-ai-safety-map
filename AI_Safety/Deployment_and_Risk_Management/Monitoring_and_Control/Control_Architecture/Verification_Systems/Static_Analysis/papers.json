@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2309.06090.pdf",
+    "title": "A General Framework for Verification and Control of Dynamical Models via Certificate Synthesis",
+    "published_date": "2023-09-12",
+    "abstract": "An emerging branch of control theory specialises in certificate learning, concerning the specification of a desired (possibly complex) system behaviour for an autonomous or control model, which is then analytically verified by means of a function-based proof. However, the synthesis of controllers abiding by these complex requirements is in general a non-trivial task and may elude the most expert control engineers. This results in a need for automatic techniques that are able to design controllers and to analyse a wide range of elaborate specifications. In this paper, we provide a general framework to encode system specifications and define corresponding certificates, and we present an automated approach to formally synthesise controllers and certificates. Our approach contributes to the broad field of safe learning for control, exploiting the flexibility of neural networks to provide candidate control and certificate functions, whilst using SMT-solvers to offer a formal guarantee of correctness. We test our framework by developing a prototype software tool, and assess its efficacy at verification via control and certificate synthesis over a large and varied suite of benchmarks.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.13913v2",
+    "title": "Stress Testing Control Loops in Cyber-physical Systems",
+    "published_date": "2023-02-27",
+    "abstract": "Cyber-physical Systems (CPSs) are often safety-critical and deployed in uncertain environments. Identifying scenarios where CPSs do not comply with requirements is fundamental but difficult due to the multidisciplinary nature of CPSs. We investigate the testing of control-based CPSs, where control and software engineers develop the software collaboratively. Control engineers make design assumptions during system development to leverage control theory and obtain guarantees on CPS behaviour. In the implemented system, however, such assumptions are not always satisfied, and their falsification can lead the loss of guarantees. We define stress testing of control-based CPSs as generating tests to falsify such design assumptions. We highlight different types of assumptions, focusing on the use of linearised physics models. To generate stress tests falsifying such assumptions, we leverage control theory to qualitatively characterise the input space of a control-based CPS. We propose a novel test parametrisation for control-based CPSs and use it with the input space characterisation to develop a stress testing approach. We evaluate our approach on three case study systems, including a drone, a continuous-current motor (in five configurations), and an aircraft. Our results show the effectiveness of the proposed testing approach in falsifying the design assumptions and highlighting the causes of assumption violations.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.04026v2",
+    "title": "Value Functions are Control Barrier Functions: Verification of Safe Policies using Control Theory",
+    "published_date": "2023-06-06",
+    "abstract": "Guaranteeing safe behaviour of reinforcement learning (RL) policies poses significant challenges for safety-critical applications, despite RL's generality and scalability. To address this, we propose a new approach to apply verification methods from control theory to learned value functions. By analyzing task structures for safety preservation, we formalize original theorems that establish links between value functions and control barrier functions. Further, we propose novel metrics for verifying value functions in safe control tasks and practical implementation details to improve learning. Our work presents a novel method for certificate learning, which unlocks a diversity of verification techniques from control theory for RL policies, and marks a significant step towards a formal framework for the general, scalable, and verifiable design of RL-based control systems. Code and videos are available at this https url: https://rl-cbf.github.io/",
+    "citation_count": 2
+  },
+  {
+    "title": "Static analysis",
+    "abstract": "The fundamental challenge of software engineering is one of complexity.",
+    "published_date": "2021-12-17",
+    "url": "https://link.springer.com/book/10.1007/978-3-030-88806-0"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.02813v1.pdf",
+    "title": "Improving Dynamic Code Analysis by Code Abstraction",
+    "published_date": "2021-09-06",
+    "abstract": "In this paper, our aim is to propose a model for code abstraction, based on abstract interpretation, allowing us to improve the precision of a recently proposed static analysis by abstract interpretation of dynamic languages. The problem we tackle here is that the analysis may add some spurious code to the string-to-execute abstract value and this code may need some abstract representations in order to make it analyzable. This is precisely what we propose here, where we drive the code abstraction by the analysis we have to perform."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.01928v2.pdf",
+    "title": "Verifying Switched System Stability With Logic",
+    "published_date": "2021-11-02",
+    "abstract": "Switched systems are known to exhibit subtle (in)stability behaviors requiring system designers to carefully analyze the stability of closed-loop systems that arise from their proposed switching control laws. This paper presents a formal approach for verifying switched system stability that blends classical ideas from the controls and verification literature using differential dynamic logic (dL), a logic for deductive verification of hybrid systems. From controls, we use standard stability notions for various classes of switching mechanisms and their corresponding Lyapunov function-based analysis techniques. From verification, we use dL's ability to verify quantified properties of hybrid systems and dL models of switched systems as looping hybrid programs whose stability can be formally specified and proven by finding appropriate loop invariants, i.e., properties that are preserved across each loop iteration. This blend of ideas enables a trustworthy implementation of switched system stability verification in the KeYmaera X prover based on dL. For standard classes of switching mechanisms, the implementation provides fully automated stability proofs, including searching for suitable Lyapunov functions. Moreover, the generality of the deductive approach also enables verification of switching control laws that require non-standard stability arguments through the design of loop invariants that suitably express specific intuitions behind those control laws. This flexibility is demonstrated on three case studies: a model for longitudinal flight control by Branicky, an automatic cruise controller, and Brockett's nonholonomic integrator.",
+    "citation_count": 10
+  }
+]

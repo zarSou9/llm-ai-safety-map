@@ -1,0 +1,37 @@
+[
+  {
+    "title": "ParaDefender: A Scenario-Driven Parallel System for Defending Metaverses",
+    "abstract": "The metaverse, as an instance of cyber–physical–social systems (CPSS) that originates in cyber–physical systems (CPS), features growing complexity, and diversity in terms of functionalities, as well as the exponentially increasing demand in network bandwidth and computational resources, thereby leading to exaggerated security threats. However, compared with the extensive attention received by the metaverse, solutions defending against the threats have not kept pace. A major obstacle to such solutions is virtuality–reality-synthesized threats. Therefore, it is imperative to design new paradigms to defend the metaverse effectively. In this article, we advance a parallel system, dubbed ParaDefender, to defend the metaverse against emerging new threats effectively. Inspired by parallel intelligence, ParaDefender comprises artificial cyberspace, computational experiments, and parallel execution. The basic idea is to make artificial and real cyberspaces executed in parallel to mutually guide each other for enhanced security, wherein the parallel execution is scenario driven in the sense that the scenarios originate from all possible spatial–temporal combinations of security threats in the metaverse. We also demonstrate how to land ParaDefender onto real-world applications, including the Industrial Internet of Things (IIoT) security operation application in the industrial metaverse, and the social governance application.",
+    "published_date": "2023-04-01",
+    "citation_count": 19,
+    "url": "https://ieeexplore.ieee.org/ielx7/6221021/6376248/09997137.pdf"
+  },
+  {
+    "title": "SAIBERSOC: Synthetic Attack Injection to Benchmark and Evaluate the Performance of Security Operation Centers",
+    "abstract": "In this paper we introduce SAIBERSOC, a tool and methodology enabling security researchers and operators to evaluate the performance of deployed and operational Security Operation Centers (SOCs) (or any other security monitoring infrastructure). The methodology relies on the MITRE ATT&CK Framework to define a procedure to generate and automatically inject synthetic attacks in an operational SOC to evaluate any output metric of interest (e.g., detection accuracy, time-to-investigation, etc.). To evaluate the effectiveness of the proposed methodology, we devise an experiment with n = 124 students playing the role of SOC analysts. The experiment relies on a real SOC infrastructure and assigns students to either a BADSOC or a GOODSOC experimental condition. Our results show that the proposed methodology is effective in identifying variations in SOC performance caused by (minimal) changes in SOC configuration. We release the SAIBERSOC tool implementation as free and open source software.",
+    "published_date": "2020-10-16",
+    "citation_count": 8,
+    "url": "https://dl.acm.org/doi/10.1145/3427228.3427233"
+  },
+  {
+    "title": "Automated security test generation for MQTT using attack patterns",
+    "abstract": "The dramatic increase of attacks and malicious activities has made security a major concern in the development of interconnected cyber-physical systems and raised the need to address this concern also in testing. The goal of security testing is to discover vulnerabilities in the system under test so that they can be fixed before an attacker finds and abuses them. However, testing for security issues faces the challenge of systematically exploring a potentially non-tractable number of interaction scenarios that have to include also invalid inputs and possible harmful interaction attempts. In this paper, we describe an approach for automated generation of test cases for security testing, which are based on attack patterns. These patterns are blueprints that can be used for exploiting common vulnerabilities. The approach combines random test case generation with attack patterns implemented for the Message Queuing Telemetry Transport (MQTT) protocol. We have applied the proposed testing approach to five popular and widely available MQTT brokers, generating 1,804 interaction sequences in form of executable test cases which resulted in numerous test failures, unhandled exceptions and crashes. A detailed manual analysis of these cases have revealed 28 security-relevant issues and critical shortcomings in the tested MQTT broker implementations.",
+    "published_date": "2020-08-25",
+    "citation_count": 7,
+    "url": "https://dl.acm.org/doi/10.1145/3407023.3407078"
+  },
+  {
+    "title": "A scenario generation framework for automating instructional support in scenario-based training",
+    "abstract": "Within training, scenario creation can be a long and costly activity. This often results in the same scenarios being re-used. While this can work with new trainees, it does not provide effective training for those using a system for continuing training. In order to provide an easier capability for instruction, the authors are pursuing a line of research in scenario generation. While this includes methods for instructors to build scenarios easily via a manual process, automated approaches for scenario generation are also being investigated.\n The authors have previously completed efforts in reviewing the needs of a scenario generation system (Martin et al., 2009) and in building a conceptual model for scenarios and how varying complexity can be achieved. This paper provides a review of this work and then presents a computational approach to automated scenario generation. The authors are pursuing research investigating processes and tools for scenario generation, both manual and automated.\n A recently re-discovered approach (Shape Grammars) and a newly-developed approach (Functional L-systems) each shows great promise for their use in automated scenario generation. However, based on their additional expressive power, the authors have chosen to use Functional L-systems within their software, which will be reviewed.",
+    "published_date": "2010-04-11",
+    "citation_count": 12,
+    "url": "https://dl.acm.org/doi/10.1145/1878537.1878574"
+  },
+  {
+    "title": "Automated red teaming: a proposed framework for military application",
+    "abstract": "In this paper, we describe Automated Red Teaming (ART), a concept that uses Evolutionary Algorithm (EA), Parallel Computing and Simulation to complement the manual Red Teaming effort to uncover system vulnerabilities or to find exploitable gaps in military operational concepts. The overall goal is to reduce surprises, improve and ensure the robustness of the Blue ops concepts. The design of key components and techniques that are required to develop an ART framework are described and discussed. An experiment with a military scenario in Urban Operations (UO) was conducted and the results analyzed to demonstrate the capability of the ART framework. Results showed that Red Force survivability can be improved by 27% just by modifying behavioral parameters alone. These findings could be used by Blue Force to refine their tactics and strategy thereby ensuring robustness of plans and higher mission success.",
+    "published_date": "2007-07-07",
+    "citation_count": 38,
+    "url": "https://dl.acm.org/doi/10.1145/1276958.1277345"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.03142",
+    "title": "Causal Temporal Representation Learning with Nonstationary Sparse Transition",
+    "published_date": "2024-09-05",
+    "abstract": "Causal Temporal Representation Learning (Ctrl) methods aim to identify the temporal causal dynamics of complex nonstationary temporal sequences. Despite the success of existing Ctrl methods, they require either directly observing the domain variables or assuming a Markov prior on them. Such requirements limit the application of these methods in real-world scenarios when we do not have such prior knowledge of the domain variables. To address this problem, this work adopts a sparse transition assumption, aligned with intuitive human understanding, and presents identifiability results from a theoretical perspective. In particular, we explore under what conditions on the significance of the variability of the transitions we can build a model to identify the distribution shifts. Based on the theoretical result, we introduce a novel framework, Causal Temporal Representation Learning with Nonstationary Sparse Transition (CtrlNS), designed to leverage the constraints on transition sparsity and conditional independence to reliably identify both distribution shifts and latent factors. Our experimental evaluations on synthetic and real-world datasets demonstrate significant improvements over existing baselines, highlighting the effectiveness of our approach."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.22617",
+    "title": "Bayesian Inference for Relational Graph in a Causal Vector Autoregressive Time Series",
+    "published_date": "2024-10-30",
+    "abstract": "We propose a method for simultaneously estimating a contemporaneous graph structure and autocorrelation structure for a causal high-dimensional vector autoregressive process (VAR). The graph is estimated by estimating the stationary precision matrix using a Bayesian framework. We introduce a novel parameterization that is convenient for jointly estimating the precision matrix and the autocovariance matrices. The methodology based on the new parameterization has several desirable properties. A key feature of the proposed methodology is that it maintains causality of the process in its estimates and also provides a fast feasible way for computing the reduced rank likelihood for a high-dimensional Gaussian VAR. We use sparse priors along with the likelihood under the new parameterization to obtain the posterior of the graphical parameters as well as that of the temporal parameters. An efficient Markov Chain Monte Carlo (MCMC) algorithm is developed for posterior computation. We also establish theoretical consistency properties for the high-dimensional posterior. The proposed methodology shows excellent performance in simulations and real data applications."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.13264",
+    "title": "Transformers with Sparse Attention for Granger Causality",
+    "published_date": "2024-11-20",
+    "abstract": "Temporal causal analysis means understanding the underlying causes behind observed variables over time. Deep learning based methods such as transformers are increasingly used to capture temporal dynamics and causal relationships beyond mere correlations. Recent works suggest self-attention weights of transformers as a useful indicator of causal links. We leverage this to propose a novel modification to the self-attention module to establish causal links between the variables of multivariate time-series data with varying lag dependencies. Our Sparse Attention Transformer captures causal relationships using a two-fold approach - performing temporal attention first followed by attention between the variables across the time steps masking them individually to compute Granger Causality indices. The key novelty in our approach is the ability of the model to assert importance and pick the most significant past time instances for its prediction task against manually feeding a fixed time lag value. We demonstrate the effectiveness of our approach via extensive experimentation on several synthetic benchmark datasets. Furthermore, we compare the performance of our model with the traditional Vector Autoregression based Granger Causality method that assumes fixed lag length."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/hzuSDMx7pd2uxFc5w/causal-diagrams-and-causal-models",
+    "author": "Eliezer Yudkowsky",
+    "title": "Causal Diagrams and Causal Models",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.00624.pdf",
+    "title": "From Temporal to Contemporaneous Iterative Causal Discovery in the Presence of Latent Confounders",
+    "published_date": "2023-06-01",
+    "abstract": "We present a constraint-based algorithm for learning causal structures from observational time-series data, in the presence of latent confounders. We assume a discrete-time, stationary structural vector autoregressive process, with both temporal and contemporaneous causal relations. One may ask if temporal and contemporaneous relations should be treated differently. The presented algorithm gradually refines a causal graph by learning long-term temporal relations before short-term ones, where contemporaneous relations are learned last. This ordering of causal relations to be learnt leads to a reduction in the required number of statistical tests. We validate this reduction empirically and demonstrate that it leads to higher accuracy for synthetic data and more plausible causal graphs for real-world data compared to state-of-the-art algorithms.",
+    "citation_count": 8
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.13647",
+    "title": "Temporally Disentangled Representation Learning",
+    "published_date": "2022-10-24",
+    "abstract": "Recently in the field of unsupervised representation learning, strong identifiability results for disentanglement of causally-related latent variables have been established by exploiting certain side information, such as class labels, in addition to independence. However, most existing work is constrained by functional form assumptions such as independent sources or further with linear transitions, and distribution assumptions such as stationary, exponential family distribution. It is unknown whether the underlying latent variables and their causal relations are identifiable if they have arbitrary, nonparametric causal influences in between. In this work, we establish the identifiability theories of nonparametric latent causal processes from their nonlinear mixtures under fixed temporal causal influences and analyze how distribution changes can further benefit the disentanglement. We propose \\textbf{\\texttt{TDRL}}, a principled framework to recover time-delayed latent causal variables and identify their relations from measured sequential data under stationary environments and under different distribution shifts. Specifically, the framework can factorize unknown distribution shifts into transition distribution changes under fixed and time-varying latent causal relations, and under observation changes in observation. Through experiments, we show that time-delayed latent causal influences are reliably identified and that our approach considerably outperforms existing baselines that do not correctly exploit this modular representation of changes. Our code is available at: \\url{https://github.com/weirayao/tdrl}.",
+    "citation_count": 36
+  }
+]

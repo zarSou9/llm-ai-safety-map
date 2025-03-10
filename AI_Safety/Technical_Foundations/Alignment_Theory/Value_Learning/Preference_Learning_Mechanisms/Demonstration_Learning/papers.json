@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.lesswrong.com/tag/utility-extraction",
+    "title": "Utility Extraction - LessWrong",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/preference",
+    "title": "Preference - LessWrong",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2304.14115.pdf",
+    "title": "Inferring Preferences from Demonstrations in Multi-objective Reinforcement Learning: A Dynamic Weight-based Approach",
+    "published_date": "2023-04-27",
+    "abstract": "Many decision-making problems feature multiple objectives. In such problems, it is not always possible to know the preferences of a decision-maker for different objectives. However, it is often possible to observe the behavior of decision-makers. In multi-objective decision-making, preference inference is the process of inferring the preferences of a decision-maker for different objectives. This research proposes a Dynamic Weight-based Preference Inference (DWPI) algorithm that can infer the preferences of agents acting in multi-objective decision-making problems, based on observed behavior trajectories in the environment. The proposed method is evaluated on three multi-objective Markov decision processes: Deep Sea Treasure, Traffic, and Item Gathering. The performance of the proposed DWPI approach is compared to two existing preference inference methods from the literature, and empirical results demonstrate significant improvements compared to the baseline algorithms, in terms of both time requirements and accuracy of the inferred preferences. The Dynamic Weight-based Preference Inference algorithm also maintains its performance when inferring preferences for sub-optimal behavior demonstrations. In addition to its impressive performance, the Dynamic Weight-based Preference Inference algorithm does not require any interactions during training with the agent whose preferences are inferred, all that is required is a trajectory of observed behavior.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/pdf/2304.14126.pdf",
+    "title": "Preference Inference from Demonstration in Multi-objective Multi-agent Decision Making",
+    "published_date": "2023-04-27",
+    "abstract": "It is challenging to quantify numerical preferences for different objectives in a multi-objective decision-making problem. However, the demonstrations of a user are often accessible. We propose an algorithm to infer linear preference weights from either optimal or near-optimal demonstrations. The algorithm is evaluated in three environments with two baseline methods. Empirical results demonstrate significant improvements compared to the baseline algorithms, in terms of both time requirements and accuracy of the inferred preferences. In future work, we plan to evaluate the algorithm's effectiveness in a multi-agent system, where one of the agents is enabled to infer the preferences of an opponent using our preference inference algorithm.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/reinforcement-learning",
+    "author": "TurnTrout",
+    "title": "Reinforcement Learning - LessWrong",
+    "published_date": "2023-06-02"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/wf83tBACPM9aiykPn/a-survey-of-foundational-methods-in-inverse-reinforcement",
+    "author": "Adamk",
+    "title": "A Survey of Foundational Methods in Inverse Reinforcement Learning",
+    "published_date": "2022-09-01"
+  }
+]

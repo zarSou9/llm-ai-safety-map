@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/tag/lottery-ticket-hypothesis",
+    "author": "Neel Nanda, Tom Lieberum",
+    "title": "Lottery Ticket Hypothesis - LessWrong",
+    "published_date": "2022-09-20",
+    "summary": "The Lottery Ticket Hypothesis posits that successful neural networks contain pre-existing sub-networks (\"winning tickets\") which, when trained, achieve most of the network's performance. Training effectively amplifies these winning tickets while suppressing other network components."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13",
+    "summary": "This article explains Deep Q-Networks (DQN), a deep reinforcement learning algorithm, at various levels of detail. It provides a high-level overview, a more technical explanation with equations, and practical tips for replication, allowing readers to choose the level of depth appropriate for their background."
+  },
+  {
+    "title": "An incentive scheme for federated learning in the sky",
+    "abstract": "The enhanced capabilities of Unmanned Aerial Vehicles have promoted the rapid growth of the Drones-as-a-Service (DaaS) market. To enable privacy-preserving collaborative machine learning among independent DaaS providers, we propose a Federated Learning (FL) based approach. There exists a tradeoff between Service Latency (SL), i.e., the time taken for the training request to be completed, and Age of Information (AoI), i.e., the time elapsed between data aggregation to completion of the FL based training. Given that different training tasks may have varying AoI requirements, we propose a contract-theoretic task-aware incentive scheme that can be calibrated based on the weighted preferences of the model owner. Performance evaluation validates the incentive compatibility and flexibility of our contract design amid information asymmetry.",
+    "published_date": "2020-09-25",
+    "citation_count": 5,
+    "url": "https://dl.acm.org/doi/10.1145/3414045.3415935",
+    "summary": "This paper proposes a contract-theoretic incentive scheme for federated learning among drone-based service providers, balancing service latency and age of information to meet varying task requirements and model owner preferences. The scheme addresses information asymmetry to ensure incentive compatibility and flexibility."
+  },
+  {
+    "title": "Risk Minimization Against Transmission Failures of Federated Learning in Mobile Edge Networks",
+    "abstract": "A variety of modern AI products essentially require raw user data for training diverse machine learning models. With the increasing concern on data privacy, federated learning, a decentralized learning framework, enables privacy-preserving training of models by iteratively aggregating model updates from participants, instead of aggregating raw data. Since all the participants, i.e., mobile devices, need to transfer their local model updates concurrently and iteratively over mobile edge networks, the network is easily overloaded, leading to a high risk of transmission failures. Although previous works on transmission protocols have already tried their best to avoid transmission collisions, the number of iterative concurrent transmissions should be fundamentally decreased. Inspired by the fact that raw data are often generated unevenly among devices, those devices with a small proportion of data could be properly excluded since they have little effect on the convergence of models. To further guarantee the accuracy of models, we propose to properly select a subset of devices as participants to ensure the given proportion of involved data. Correspondingly, we propose to minimize the risk against the transmission failures during model updates. Afterwards, we design a randomized algorithm ( $ran$ RFL) to choose suitable participants by using a series of delicately calculated probabilities, and prove that the result is concentrated on its optimum with high probability. Extensive simulations show that through delicate participant selection, $ran$ RFL decreases the maximal error rate of model updates by up to 38.3% compared with the state-of-the-art schemas.",
+    "published_date": "2020-01-01",
+    "citation_count": 5,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09097889.pdf",
+    "summary": "This paper addresses transmission failures in federated learning over mobile edge networks by proposing a randomized algorithm that selectively chooses participating devices based on their data contribution, thereby reducing concurrent transmissions and improving model accuracy. The algorithm minimizes the risk of transmission failures while maintaining model accuracy, achieving up to a 38.3% reduction in maximal error rate compared to existing methods."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/DFG2SzkMCeTFXFnFr/perceptrons-explained",
+    "author": "by [anonymous]1 min read14th Feb 20202 comments",
+    "title": "Perceptrons Explained",
+    "published_date": "2020-02-14",
+    "summary": "This article introduces the perceptron learning algorithm, proving its convergence and providing visualizations to aid understanding of this fundamental machine learning concept. It aims for an accessible, educational explanation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/brhWPoNsBN7za3xjs/competitive-markets-as-distributed-backprop",
+    "author": "johnswentworth",
+    "title": "Competitive Markets as Distributed Backprop",
+    "published_date": "2018-11-10",
+    "summary": "Backpropagation is a method for calculating the derivative of a complex function by applying the chain rule iteratively in reverse order of operations, line by line. This technique, analogous to calculating intermediate prices in a supply chain, allows efficient computation of derivatives even for functions with loops or recursion."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/PQu2YPtcm2dQLSsu9/the-unreasonable-effectiveness-of-deep-learning",
+    "author": "Richard_Ngo",
+    "title": "The Unreasonable Effectiveness of Deep Learning",
+    "published_date": "2018-09-30",
+    "summary": "This article explores why deep learning works, focusing on its ability to approximate functions, achieve low training loss, and generalize well. It examines the surprising capacity of deep neural networks to memorize random labels, highlighting the role of stochastic gradient descent as an implicit regularizer that facilitates generalization despite overparameterization."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BGv98aKicyT8eH4AY/making-a-difference-tempore-insights-from-reinforcement",
+    "author": "TurnTrout",
+    "title": "Making a Difference Tempore: Insights from 'Reinforcement Learning: An Introduction'",
+    "published_date": "2018-07-05",
+    "summary": "This article provides an overview of reinforcement learning, covering concepts like multi-armed bandits, Markov decision processes, dynamic programming, Monte Carlo methods, temporal-difference learning (including TD(0), SARSA, and Q-learning), and the importance of addressing issues like variance in importance sampling and bias in Q-learning. The safety implications of reinforcement learning applications are highlighted as a key concern."
+  }
+]

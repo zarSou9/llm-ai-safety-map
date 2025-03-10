@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2304.10203",
+    "title": "Robust Market Potential Assessment: Designing optimal policies for low-carbon technology adoption in an increasingly uncertain world",
+    "published_date": "2023-04-20",
+    "abstract": "Increasing the adoption of alternative technologies is vital to ensure a successful transition to net-zero emissions in the manufacturing sector. Yet there is no model to analyse technology adoption and the impact of policy interventions in generating sufficient demand to reduce cost. Such a model is vital for assessing policy-instruments for the implementation of future energy scenarios. The design of successful policies for technology uptake becomes increasingly difficult when associated market forces/factors are uncertain, such as energy prices or technology efficiencies. In this paper we formulate a novel robust market potential assessment problem under uncertainty, resulting in policies that are immune to uncertain factors. We demonstrate two case studies: the potential use of carbon capture and storage for iron and steel production across the EU, and the transition to hydrogen from natural gas in steam boilers across the chemicals industry in the UK. Each robust optimisation problem is solved using an iterative cutting planes algorithm which enables existing models to be solved under uncertainty. By taking advantage of parallelisation we are able to solve the nonlinear robust market assessment problem for technology adoption in times within the same order of magnitude as the nominal problem. Policy makers often wish to trade-off certainty with effectiveness of a solution. Therefore, we apply an approximation to chance constraints, varying the amount of uncertainty to locate less certain but more effective solutions. Our results demonstrate the possibility of locating robust policies for the implementation of low-carbon technologies, as well as providing direct insights for policy-makers into the decrease in policy effectiveness resulting from increasing robustness. The approach we present is extensible to a large number of policy design and alternative technology adoption problems.",
+    "citation_count": 1,
+    "summary": "This paper presents a novel robust optimization model for assessing the market potential of low-carbon technologies under uncertainty, generating policies resilient to fluctuating factors like energy prices. The model, demonstrated through case studies on carbon capture and hydrogen adoption, allows policymakers to trade off policy effectiveness for robustness against uncertainty."
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.06625",
+    "title": "Streamlining Energy Transition Scenarios to Key Policy Decisions",
+    "published_date": "2023-11-11",
+    "abstract": "Uncertainties surrounding the energy transition often lead modelers to present large sets of scenarios that are challenging for policymakers to interpret and act upon. An alternative approach is to define a few qualitative storylines from stakeholder discussions, which can be affected by biases and infeasibilities. Leveraging decision trees, a popular machine-learning technique, we derive interpretable storylines from many quantitative scenarios and show how the key decisions in the energy transition are interlinked. Specifically, our results demonstrate that choosing a high deployment of renewables and sector coupling makes global decarbonization scenarios robust against uncertainties in climate sensitivity and demand. Also, the energy transition to a fossil-free Europe is primarily determined by choices on the roles of bioenergy, storage, and heat electrification. Our transferrable approach translates vast energy model results into a small set of critical decisions, guiding decision-makers in prioritizing the key factors that will shape the energy transition.",
+    "summary": "This paper uses machine learning to distill numerous energy transition scenarios into a concise set of key policy decisions, revealing crucial interdependencies and highlighting robust strategies for decarbonization, such as prioritizing renewable energy deployment and sector coupling. The approach translates complex model outputs into actionable insights for policymakers."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.10023.pdf",
+    "title": "Discovering Transition Pathways Towards Coviability with Machine Learning",
+    "published_date": "2023-01-06",
+    "abstract": "Coviability refers to the multiple socio-ecological arrange- ments and governance structures under which humans and nature can coexist in functional, fair, and persistent ways. Transitioning to a coviable state in environmentally degraded and socially vulnerable territories is challenging. This paper presents an ongoing French-Brazilian joint research project combining machine learning, agroecology, and social sci- ences to discover coviability pathways that can be adopted and implemented by local populations in the North-East re- gion of Brazil.",
+    "citation_count": 1,
+    "summary": "This research uses machine learning, agroecology, and social sciences to identify potential pathways to coviability—the sustainable coexistence of humans and nature—in environmentally degraded regions of Northeastern Brazil. The project aims to discover and implement locally adaptable solutions."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2209.06055.pdf",
+    "title": "Exploring the use of Transition Path Theory in building an oil spill prediction scheme",
+    "published_date": "2022-09-13",
+    "abstract": "The Transition Path Theory (TPT) of complex systems has proven to be a robust means to statistically characterize the ensemble of trajectories that connect any two preset flow regions, say 𝒜 and ℬ, directly. More specifically, transition paths are such that they start in 𝒜 and then go to ℬ without detouring back to 𝒜 or ℬ. This way, they make an effective contribution to the transport from 𝒜 to ℬ. Here, we explore its use for building a scheme that enables predicting the evolution of an oil spill in the ocean. This involves appropriately adapting TPT such that it includes a reservoir that pumps oil into a typically open domain. Additionally, we lift up the restriction of the oil not to return to the spill site en route to a region that is targeted to be protected. TPT is applied on oil trajectories available up to the present, e.g., as integrated using velocities produced by a data assimilative system or as inferred from high-frequency radars, to make a prediction of transition oil paths beyond, without relying on forecasted oil trajectories. As a proof of concept, we consider a hypothetical oil spill in the Trion oil field, under development within the Perdido Foldbelt in the northwestern Gulf of Mexico, and the Deepwater Horizon oil spill. This is done using trajectories integrated from climatological and hindcast surface velocity and winds as well as produced by satellite-tracked surface drifting buoys, in each case discretized into a Markov chain that provides a framework for the TPT-based prediction.",
+    "citation_count": 3,
+    "summary": "This paper proposes using Transition Path Theory (TPT) to predict oil spill evolution by analyzing past oil trajectory data to identify likely future paths, adapting TPT to account for continuous oil release and potential return to the spill source. The method is demonstrated using hypothetical and real-world oil spill scenarios in the Gulf of Mexico."
+  },
+  {
+    "url": "https://arxiv.org/abs/2102.10691",
+    "title": "Climate Change Valuation Adjustment (CCVA) Using Parameterized Climate Change Impacts",
+    "published_date": "2021-02-21",
+    "abstract": "We introduce Climate Change Valuation Adjustment (CCVA) to capture climate change impacts on XVA that are currently invisible assuming typical market practice. To discuss such impacts on XVA from changes to instantaneous hazard rates we introduce a flexible and expressive parameterization to capture the path of this impact to climate change endpoints, and transition effects. Finally we provide quantification of examples of typical interest where there is risk of economic stress from sea level change up to 2101, and from transformations of business models. We find that even with the slowest possible uniform approach to a climate change impact in 2101 there can still be significant XVA impacts on interest rate swaps of 20 years or more maturity. Transformation effects on XVA are strongly dependent on timing and duration of business model transformation. Using a parameterized approach enables discussion with stakeholders of economic impacts on XVA, whatever the details behind the climate impact.",
+    "citation_count": 1,
+    "summary": "The paper introduces a Climate Change Valuation Adjustment (CCVA) to account for climate change impacts on XVA, using a parameterized approach to model the effects of hazard rate changes and business model transformations on long-term financial instruments. The authors demonstrate significant potential XVA impacts, particularly for long-maturity interest rate swaps and businesses undergoing transformations."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/t7f6gF2kpafCMw6rv/modeling-the-impact-of-safety-agendas",
+    "author": "Ben Cottier",
+    "title": "Modeling the impact of safety agendas",
+    "published_date": "2021-11-05",
+    "summary": "This article presents a model assessing the impact of AI safety research agendas on the risk of misaligned highly capable AI (HLMI). The model analyzes various research approaches and highlights key uncertainties in predicting their effectiveness, emphasizing the need for clearer theories of change and understanding of potential spillover effects."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dBBqHxZqvXKW3ZsGa/an-exploratory-toy-ai-takeoff-model",
+    "author": "niplav",
+    "title": "An Exploratory Toy AI Takeoff Model",
+    "published_date": "2021-01-13",
+    "summary": "This article proposes a computational model of AI takeoff, focusing on how an AI's increasing intelligence allows it to more effectively search for better optimization algorithms. The model explores this through a multi-dimensional search space, using hill-climbing and brute-force search methods, suggesting potential discontinuities in AI development due to the discovery of superior algorithms."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2012.11046.pdf",
+    "title": "Policy Transforms and Learning Optimal Policies",
+    "published_date": "2020-12-20",
+    "abstract": "We study the problem of choosing optimal policy rules in uncertain environments using models that may be incomplete and/or partially identified. We consider a policymaker who wishes to choose a policy to maximize a particular counterfactual quantity called a policy transform. We characterize learnability of a set of policy options by the existence of a decision rule that closely approximates the maximin optimal value of the policy transform with high probability. Sufficient conditions are provided for the existence of such a rule. However, learnability of an optimal policy is an ex-ante notion (i.e. before observing a sample), and so ex-post (i.e. after observing a sample) theoretical guarantees for certain policy rules are also provided. Our entire approach is applicable when the distribution of unobservables is not parametrically specified, although we discuss how semiparametric restrictions can be used. Finally, we show possible applications of the procedure to a simultaneous discrete choice example and a program evaluation example.",
+    "citation_count": 6,
+    "summary": "This paper analyzes optimal policy selection under uncertainty and incomplete models, focusing on maximizing a \"policy transform\" by characterizing learnability both before and after observing data, providing sufficient conditions for finding near-optimal policies even with non-parametrically specified distributions."
+  }
+]

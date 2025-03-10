@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2403.08501",
+    "title": "Governing Through the Cloud: The Intermediary Role of Compute Providers in AI Regulation",
+    "published_date": "2024-03-13",
+    "abstract": "As jurisdictions around the world take their first steps toward regulating the most powerful AI systems, such as the EU AI Act and the US Executive Order 14110, there is a growing need for effective enforcement mechanisms that can verify compliance and respond to violations. We argue that compute providers should have legal obligations and ethical responsibilities associated with AI development and deployment, both to provide secure infrastructure and to serve as intermediaries for AI regulation. Compute providers can play an essential role in a regulatory ecosystem via four key capacities: as securers, safeguarding AI systems and critical infrastructure; as record keepers, enhancing visibility for policymakers; as verifiers of customer activities, ensuring oversight; and as enforcers, taking actions against rule violations. We analyze the technical feasibility of performing these functions in a targeted and privacy-conscious manner and present a range of technical instruments. In particular, we describe how non-confidential information, to which compute providers largely already have access, can provide two key governance-relevant properties of a computational workload: its type-e.g., large-scale training or inference-and the amount of compute it has consumed. Using AI Executive Order 14110 as a case study, we outline how the US is beginning to implement record keeping requirements for compute providers. We also explore how verification and enforcement roles could be added to establish a comprehensive AI compute oversight scheme. We argue that internationalization will be key to effective implementation, and highlight the critical challenge of balancing confidentiality and privacy with risk mitigation as the role of compute providers in AI regulation expands.",
+    "citation_count": 4,
+    "summary": "This paper proposes that cloud compute providers should play a central role in AI regulation by acting as intermediaries, leveraging their access to data on AI system development and deployment to ensure compliance with regulations like the EU AI Act and US Executive Order 14110. This intermediary role encompasses securing infrastructure, maintaining records, verifying compliance, and enforcing regulations."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.17350",
+    "title": "Towards an Enforceable GDPR Specification",
+    "published_date": "2024-02-27",
+    "abstract": "While Privacy by Design (PbD) is prescribed by modern privacy regulations such as the EU's GDPR, achieving PbD in real software systems is a notoriously difficult task. One emerging technique to realize PbD is Runtime enforcement (RE), in which an enforcer, loaded with a specification of a system's privacy requirements, observes the actions performed by the system and instructs it to perform actions that will ensure compliance with these requirements at all times. To be able to use RE techniques for PbD, privacy regulations first need to be translated into an enforceable specification. In this paper, we report on our ongoing work in formalizing the GDPR. We first present a set of requirements and an iterative methodology for creating enforceable formal specifications of legal provisions. Then, we report on a preliminary case study in which we used our methodology to derive an enforceable specification of part of the GDPR. Our case study suggests that our methodology can be effectively used to develop accurate enforceable specifications.",
+    "summary": "This paper proposes a methodology for translating the GDPR into an enforceable formal specification using runtime enforcement techniques, aiming to improve Privacy by Design in software systems. A preliminary case study demonstrates the methodology's effectiveness in creating accurate and enforceable specifications from legal provisions."
+  },
+  {
+    "url": "https://arxiv.org/abs/2309.00382",
+    "title": "Towards Cross-Provider Analysis of Transparency Information for Data Protection",
+    "published_date": "2023-09-01",
+    "abstract": "Transparency and accountability are indispensable principles for modern data protection, from both, legal and technical viewpoints. Regulations such as the GDPR, therefore, require specific transparency information to be provided including, e.g., purpose specifications, storage periods, or legal bases for personal data processing. However, it has repeatedly been shown that all too often, this information is practically hidden in legalese privacy policies, hindering data subjects from exercising their rights. This paper presents a novel approach to enable large-scale transparency information analysis across service providers, leveraging machine-readable formats and graph data science methods. More specifically, we propose a general approach for building a transparency analysis platform (TAP) that is used to identify data transfers empirically, provide evidence-based analyses of sharing clusters of more than 70 real-world data controllers, or even to simulate network dynamics using synthetic transparency information for large-scale data-sharing scenarios. We provide the general approach for advanced transparency information analysis, an open source architecture and implementation in the form of a queryable analysis platform, and versatile analysis examples. These contributions pave the way for more transparent data processing for data subjects, and evidence-based enforcement processes for data protection authorities. Future work can build upon our contributions to gain more insights into so-far hidden data-sharing practices.",
+    "summary": "This paper introduces a novel transparency analysis platform (TAP) using machine-readable formats and graph data science to analyze data protection transparency information across multiple service providers, enabling large-scale empirical analysis of data transfers and informing both data subjects and regulatory authorities. The platform offers an open-source architecture and versatile analysis examples to improve data processing transparency."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2308.12955.pdf",
+    "title": "A new framework for global data regulation",
+    "published_date": "2023-08-24",
+    "abstract": "Under the current regulatory framework for data protections, the protection of human rights writ large and the corresponding outcomes are regulated largely independently from the data and tools that both threaten those rights and are needed to protect them. This separation between tools and the outcomes they generate risks overregulation of the data and tools themselves when not linked to sensitive use cases. In parallel, separation risks under-regulation if the data can be collected and processed under a less-restrictive framework, but used to drive an outcome that requires additional sensitivity and restrictions. A new approach is needed to support differential protections based on the genuinely high-risk use cases within each sector. Here, we propose a regulatory framework designed to apply not to specific data or tools themselves, but to the outcomes and rights that are linked to the use of these data and tools in context. This framework is designed to recognize, address, and protect a broad range of human rights, including privacy, and suggests a more flexible approach to policy making that is aligned with current engineering tools and practices. We test this framework in the context of open banking and describe how current privacy-enhancing technologies and other engineering strategies can be applied in this context and that of contract tracing applications. This approach for data protection regulations more effectively builds on existing engineering tools and protects the wide range of human rights defined by legislation and constitutions around the globe.",
+    "summary": "Current data protection regulations are insufficient because they focus on data and tools rather than the outcomes and human rights affected by their use. This paper proposes a new framework that regulates outcomes and rights, offering a more flexible and effective approach aligned with existing engineering practices."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "Biden's October 30, 2023 Executive Order on AI outlines numerous deadlines for federal agencies, ranging from 30 to 90 days, to conduct assessments, develop plans, and issue reports on AI's impact across various sectors, including transportation, labor, and national security. These actions aim to promote responsible AI development and deployment while addressing workforce needs and potential risks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/g5XLHKyApAFXi3fso/president-biden-issues-executive-order-on-safe-secure-and",
+    "author": "Tristan Williams",
+    "title": "President Biden Issues Executive Order on Safe, Secure, and Trustworthy Artificial Intelligence",
+    "published_date": "2023-10-30",
+    "summary": "The U.S. government issued a sweeping executive order addressing AI risks, mandating safety testing transparency for powerful AI systems, establishing standards for AI safety and security, and promoting international collaboration on AI governance. It also includes provisions to mitigate AI-related fraud, discrimination, and misuse in various sectors like healthcare and criminal justice."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jyAerr8txxhiKnxwA/5-reasons-why-governments-militaries-want-ai-for-information-1",
+    "author": "trevor",
+    "title": "5 Reasons Why Governments/Militaries Already Want AI for Information Warfare",
+    "published_date": "2023-10-30",
+    "summary": "Military information warfare, leveraging advanced psychological research, prioritizes influencing high-intelligence elites rather than the general population, and its sophistication is rapidly increasing. This strategic approach reflects a shift in modern warfare where soft power and credibility contests are increasingly crucial."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8JXv9ADBGuDzFL4EZ/the-uap-disclosure-act-of-2023-and-its-implications",
+    "author": "andeslodes",
+    "title": "The UAP Disclosure Act of 2023 and its implications",
+    "published_date": "2023-07-21",
+    "summary": "A bipartisan amendment to the 2024 NDAA, sponsored by Senate Majority Leader Schumer, seeks to declassify government documents on Unidentified Anomalous Phenomena (UAPs), specifically those exhibiting technologically advanced capabilities defying known physics, including potential evidence of non-human intelligence. The amendment aims for public release of these records after a security review."
+  }
+]

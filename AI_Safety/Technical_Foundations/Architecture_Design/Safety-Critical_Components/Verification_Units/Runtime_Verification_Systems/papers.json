@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/fnjKpBoWJXcSDwhZk/what-s-the-backward-forward-flop-ratio-for-nns",
+    "author": "Marius Hobbhahn, Jsevillamol",
+    "title": "What's the backward-forward FLOP ratio for Neural Networks?",
+    "published_date": "2021-12-13"
+  },
+  {
+    "title": "Verification of Real-Time Coordination in VirtuosoNext (extended version)",
+    "abstract": "VirtuosoNext TM is a distributed real-time operating system (RTOS) featuring a generic programming model dubbed Interacting Entities . This paper focuses on these interactions, implemented as so-called Hubs . Hubs act as synchronisation and communication mechanisms between the application tasks and implement the services provided by the kernel as a kind of Guarded Protected Action with a well deﬁned semantics. While the kernel provides the most basic services, each carefully designed, tested and optimised, tasks are limited to this handful of basic hubs, leaving the development of more complex mechanisms up to application speciﬁc implementations. In this work we investigate how to support a programming paradigm to compositionally build new services, using notions borrowed from the Reo coordination language, and relieving tasks from coordination aspects while delegating them to the hubs. We formalise the semantics of hubs using an automata model with notions of dataﬂow and time, identify the behaviour of existing hubs, and propose an approach to build new hubs by composing simpler ones. We also provide open-source tools and methods to analyse and verify hubs under our automata interpretation, including time-sensitive behaviour via the Uppaal model checker, usable on http://arcatools.org/hubs . In a ﬁrst experiment several hub interactions are combined into a single more complex hub, which raises the level of abstraction and contributes to a higher productivity for the programmer. We illustrate the proposed tools and methods by verifying key properties on diﬀerent interaction scenarios between tasks and the speciﬁed hub. Finally, we investigate the impact on the performance by comparing diﬀerent implementations on an embedded board.",
+    "published_date": "2020-05-08",
+    "citation_count": 1,
+    "url": "https://zenodo.org/records/3818020"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/N7KYWJPmyzB6bJSYT/the-next-ai-winter-will-be-due-to-energy-costs-1",
+    "author": "hippke",
+    "title": "The next AI winter will be due to energy costs",
+    "published_date": "2020-11-24"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24"
+  },
+  {
+    "title": "Runtime Enforcement of Parametric Timed Properties with Practical Applications",
+    "abstract": "Runtime enforcement (RE) is a technique where a so-called monitor modifies the execution of a system to comply with a desired property. RE consists in using a so called monitor to modify an input sequence of events so that it complies with the property. Very few convincing applications of runtime enforcement have been proposed so far since most of the proposed approaches remain on the theoretical level. In network security, RE monitors can detect and prevent Denial-of-Service attacks. In resource allocation, RE monitors can ensure fairness. Specifications in these domains express data-constraints over the received events where the timing between events matters. To formalize these requirements, we introduce Parameterized Timed Automata with Variables (PTAVs), an extension of Timed Automata (TAs) with internal and external variables. We then extend enforcement for TAs to enforcement for PTAVs. We model requirements from the considered application domains and show how enforcement monitors can ensure system correctness w.r.t. these requirements. Finally, we propose a prototype implementation to experiment RE monitors on some properties. Our experiments and the performance of RE monitors demonstrate the feasibility of our approach.",
+    "published_date": "2014-11-05",
+    "citation_count": 19,
+    "url": "https://www.sciencedirect.com/science/article/pii/S1474667015374371"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/as6fgfjY9nAMq5bWZ/induction-deduction-and-the-collatz-conjecture-the-decidedly",
+    "author": "Ronny Fernandez",
+    "title": "Induction, Deduction, and the Collatz Conjecture: the Decidedly Undecidable Propositions.",
+    "published_date": "2011-06-15"
+  }
+]

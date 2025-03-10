@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that a solely technical focus is insufficient. It emphasizes the need to integrate diverse fields like cognitive science, sociology, and political science to design \"safe\" artificial general intelligence, viewing this as a project of designing \"civilisational intelligence.\""
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/FeY4tXMYdTQSM4go3/how-rl-agents-behave-when-their-actions-are-modified",
+    "author": "PabloAMC",
+    "title": "How RL Agents Behave When Their Actions Are Modified? [Distillation post]",
+    "published_date": "2022-05-20",
+    "summary": "The paper examines Modified Action Markov Decision Processes (MAMDPs), extending standard MDPs to model scenarios where an agent's actions can be overridden. It analyzes how different reinforcement learning algorithms behave in MAMDPs, revealing that some common agents may ignore action modifications, making them corrigible."
+  },
+  {
+    "title": "Safety from in-the-loop reachability for cyber-physical systems",
+    "abstract": "We demonstrate a methodology for achieving safe autonomy that relies on computing reachable sets at runtime. Given a system subject to disturbances controlled by an unverified and potentially faulty controller, this methodology computes at each time the reachable set of the system under a backup control law to ensure the system is within reach of a known a priori safe region. Control barrier functions are then used in conjunction with the reachable set to adjust potentially unsafe control actions that would otherwise move the system beyond reach of this safe set. This approach faces several computational challenges: reachable sets for the dynamics must be computed at runtime; sensitivity of the reachable set to initial conditions is required for the control barrier optimization formulation; and the presence of disturbances introduces a large number of constraints in the resulting optimization. The proposed methodology leverages the theory of mixed monotone systems to address these challenges, and the main contribution of this paper is an application of this methodology to a ten dimensional dual planar multirotor system that is implemented on embedded hardware with a controller update rate up to 100Hz.",
+    "published_date": "2021-05-19",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3457335.3461706",
+    "summary": "This paper presents a runtime safety verification method for cyber-physical systems using reachable set computations and control barrier functions, addressing computational challenges through mixed monotone system theory and demonstrating its application on a ten-dimensional multirotor system with a 100Hz update rate."
+  },
+  {
+    "title": "Adaptive control systems with unstructured uncertainty and unmodelled dynamics: a relaxed stability condition",
+    "abstract": "As it is well-known, system uncertainties and unmodeled dynamics can deteriorate stability properties of model reference adaptive control systems. Motivated by this standpoint, we first analyse stability conditions of model reference adaptive control architectures in the presence of unstructured system uncertainties and unmodeled dynamics. We then synthesise adaptive robustifying terms to relax the aforementioned stability condition, which presents our main contribution. Specifically, these terms in the feedback loop guarantee overall system stability even in the presence of significant system uncertainties when unmodeled dynamics satisfy a condition. We further demonstrate our theoretical findings in an experiment involving an inverted pendulum on a cart (modeled dynamics) coupled with another cart through a spring (unmodeled dynamics).",
+    "published_date": "2021-03-23",
+    "citation_count": 10,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/00207179.2021.1902568",
+    "summary": "This paper investigates the stability of model reference adaptive control systems with unstructured uncertainties and unmodeled dynamics, proposing novel adaptive robustifying terms to relax existing stability conditions and ensuring stability even with significant uncertainties, provided the unmodeled dynamics satisfy a specific condition. This is demonstrated experimentally using an inverted pendulum system with coupled unmodeled dynamics."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/vLArRpNdkex68oem8",
+    "author": "Alex Turner",
+    "title": "Thoughts on Corrigibility - AI Alignment Forum",
+    "published_date": "2021-11-24",
+    "summary": "The author explores various aspects of corrigibility, presenting interconnected but not yet unified ideas contributing to their overall perspective on AI alignment."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/mechanism-design",
+    "author": "johnswentworth",
+    "title": "Mechanism Design - AI Alignment Forum",
+    "published_date": "2020-11-08",
+    "summary": "Mechanism design is the engineering branch of game theory, focusing on creating incentive structures that guide self-interested agents towards a pre-defined outcome. Its applications range from voting systems to market design."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/znfkdCoHMANwqc2WE/the-ground-of-optimization-1",
+    "author": "Alex Flint",
+    "title": "The ground of optimization",
+    "published_date": "2020-06-20",
+    "summary": "The article proposes a definition of an \"optimizing system\" as a physically closed system exhibiting a predictable evolution towards a small set of target configurations from a broad range of initial states, despite perturbations; this definition is compared to existing work and applied to various biological, computational, and physical examples."
+  }
+]

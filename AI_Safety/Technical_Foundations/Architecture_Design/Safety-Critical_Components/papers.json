@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.16608",
+    "title": "Barriers on the EDGE: A scalable CBF architecture over EDGE for safe aerial-ground multi-agent coordination",
+    "published_date": "2024-11-25",
+    "abstract": "In this article, we address the problem of designing a scalable control architecture for a safe coordinated operation of a multi-agent system with aerial (UAVs) and ground robots (UGVs) in a confined task space. The proposed method uses Control Barrier Functions (CBFs) to impose constraints associated with (i) collision avoidance between agents, (ii) landing of UAVs on mobile UGVs, and (iii) task space restriction. Further, to account for the rapid increase in the number of constraints for a single agent with the increasing number of agents, the proposed architecture uses a centralized-decentralized Edge cluster, where a centralized node (Watcher) activates the relevant constraints, reducing the need for high onboard processing and network complexity. The distributed nodes run the controller locally to overcome latency and network issues. The proposed Edge architecture is experimentally validated using multiple aerial and ground robots in a confined environment performing a coordinated operation.",
+    "summary": "This paper presents a scalable control architecture using Control Barrier Functions (CBFs) for safe multi-agent coordination between UAVs and UGVs in confined spaces, leveraging a centralized-decentralized Edge computing approach to manage constraints efficiently and mitigate computational and network limitations. Experimental validation demonstrates its effectiveness in a real-world scenario."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.02205",
+    "title": "Designing Multi-layered Runtime Guardrails for Foundation Model Based Agents: Swiss Cheese Model for AI Safety by Design",
+    "published_date": "2024-08-05",
+    "abstract": "Foundation Model (FM)-based agents are revolutionizing application development across various domains. However, their rapidly growing capabilities and autonomy have raised significant concerns about AI safety. Researchers are exploring better ways to design guardrails to ensure that the runtime behavior of FM-based agents remains within specific boundaries. Nevertheless, designing effective runtime guardrails is challenging due to the agents' autonomous and non-deterministic behavior. The involvement of multiple pipeline stages and agent artifacts, such as goals, plans, tools, at runtime further complicates these issues. Addressing these challenges at runtime requires multi-layered guardrails that operate effectively at various levels of the agent architecture. Thus, in this paper, we present a comprehensive taxonomy of runtime guardrails for FM-based agents to identify the key quality attributes for guardrails and design dimensions based on the results of a systematic literature review. Inspired by the Swiss Cheese Model, we also propose a reference architecture for designing multi-layered runtime guardrails for FM-based agents, which includes three dimensions: quality attributes, pipelines, and artifacts. The proposed taxonomy and reference architecture provide concrete and robust guidance for researchers and practitioners to build AI-safety-by-design from a software architecture perspective.",
+    "citation_count": 1,
+    "summary": "This paper proposes a multi-layered, \"Swiss Cheese Model\" architecture for runtime guardrails in foundation model-based agents, addressing AI safety concerns by leveraging a taxonomy of guardrail quality attributes and considering pipeline stages and agent artifacts. The architecture offers a structured approach for designing robust safety mechanisms from a software architecture perspective."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.08583",
+    "title": "Defining a Reference Architecture for Edge Systems in Highly-Uncertain Environments",
+    "published_date": "2024-06-04",
+    "abstract": "Increasing rate of progress in hardware and artificial intelligence (AI) solutions is enabling a range of software systems to be deployed closer to their users, increasing application of edge software system paradigms. Edge systems support scenarios in which computation is placed closer to where data is generated and needed, and provide benefits such as reduced latency, bandwidth optimization, and higher resiliency and availability. Users who operate in highly-uncertain and resource-constrained environments, such as first responders, law enforcement, and soldiers, can greatly benefit from edge systems to support timelier decision making. Unfortunately, understanding how different architecture approaches for edge systems impact priority quality concerns is largely neglected by industry and research, yet crucial for national and local safety, optimal resource utilization, and timely decision making. Much of industry is focused on the hardware and networking aspects of edge systems, with very little attention to the software that enables edge capabilities. This paper presents our work to fill this gap, defining a reference architecture for edge systems in highly-uncertain environments, and showing examples of how it has been implemented in practice.",
+    "summary": "This paper proposes a reference architecture for edge systems designed for highly uncertain environments, addressing the current lack of focus on software architecture in such systems to improve resource utilization and timely decision-making for users like first responders. The architecture is illustrated through practical implementation examples."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising AI safety strategy, though currently under-developed. Proposed approaches aim to increase visibility into AI development, allocate compute resources strategically, and enforce regulations through various technological and policy mechanisms."
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.08138",
+    "title": "Architecting Safer Autonomous Aviation Systems",
+    "published_date": "2023-01-09",
+    "abstract": "The aviation literature gives relatively little guidance to practitioners about the specifics of architecting systems for safety, particularly the impact of architecture on allocating safety requirements, or the relative ease of system assurance resulting from system or subsystem level architectural choices. As an exemplar, this paper considers common architectural patterns used within traditional aviation systems and explores their safety and safety assurance implications when applied in the context of integrating artificial intelligence (AI) and machine learning ( ML ) based functionality. Considering safety as an architectural property, we discuss both the allocation of safety requirements and the architectural trade-offs involved early in the design lifecycle. This approach could be extended to other assured properties, similar to safety, such as security. We conclude with a discussion of the safety considerations that emerge in the context of candidate architectural patterns that have been proposed in the recent literature for enabling autonomy capabilities by integrating AI and ML. A recommendation is made for the generation of a property-driven architectural pattern catalogue.",
+    "citation_count": 2,
+    "summary": "This paper analyzes how architectural choices impact safety and assurance in autonomous aviation systems, particularly when integrating AI/ML, emphasizing early allocation of safety requirements and proposing a property-driven architectural pattern catalogue."
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.08413",
+    "title": "The Safety Shell: An Architecture to Handle Functional Insufficiencies in Automated Driving",
+    "published_date": "2023-10-20",
+    "abstract": "To enable highly automated vehicles where the driver is no longer a safety backup, the vehicle must deal with various Functional Insufficiencies (FIs). Thus-far, there is no widely accepted functional architecture that maximizes the availability of autonomy and ensures safety in complex vehicle operational design domains. In this paper, we present a survey of existing methods that strive to prevent or handle FIs. We observe that current design-time methods of preventing FIs lack completeness guarantees. Complementary solutions for on-line handling cannot suitably increase safety without seriously impacting availability of journey continuing autonomous functionality. To fill this gap, we propose the Safety Shell, a scalable multi-channel architecture and arbitration design, built upon preexisting functional safety redundant channel architectures. We compare this novel approach to existing architectures using numerical case studies. The results show that the Safety Shell architecture allows the automated vehicle to be as safe or safer compared to alternatives, while simultaneously improving availability of vehicle autonomy, thereby increasing the possible coverage of on-line functional insufficiency handling.",
+    "citation_count": 4,
+    "summary": "This paper proposes the Safety Shell architecture for handling functional insufficiencies in automated driving, improving both safety and the availability of autonomous functionality compared to existing methods by using a scalable multi-channel approach with arbitration. Numerical case studies demonstrate its effectiveness."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.10429.pdf",
+    "title": "An Architectural Design Decision Model for Resilient IoT Application",
+    "published_date": "2023-06-17",
+    "abstract": "The Internet of Things is a paradigm that refers to the ubiquitous presence around us of physical objects equipped with sensing, networking, and processing capabilities that allow them to cooperate with their environment to reach common goals. However, any threat affecting the availability of IoT applications can be crucial financially and for the safety of the physical integrity of users. This feature calls for IoT applications that remain operational and efficiently handle possible threats. However, designing an IoT application that can handle threats is challenging for stakeholders due to the high susceptibility to threats of IoT applications and the lack of modeling mechanisms that contemplate resilience as a first-class representation. In this paper, an architectural Design Decision Model for Resilient IoT applications is presented to reduce the difficulty of stakeholders in designing resilient IoT applications. Our approach is illustrated and demonstrates the value through the modeling of a case.",
+    "summary": "This paper proposes an architectural design decision model to aid in the development of resilient Internet of Things (IoT) applications, addressing the challenges posed by IoT's vulnerability to threats and the lack of suitable modeling tools. The model's value is demonstrated through a case study."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of posts aims to provide a comprehensive introduction to AI safety. The content and order of the posts are still under development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that solely focusing on technical aspects is insufficient and potentially dangerous. It proposes a \"top-down design\" of \"civilizational intelligence,\" integrating various fields like cognitive science, social sciences, and engineering to ensure the safe development of advanced AI."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jiXMZHGmEf7qPrKPc/systems-that-cannot-be-unsafe-cannot-be-safe",
+    "author": "Davidmanheim",
+    "title": "Systems that cannot be unsafe cannot be safe",
+    "published_date": "2023-05-02",
+    "summary": "The author argues that assessing the \"safety\" of machine learning models is currently meaningless because there are no established safety standards or specifications defining acceptable behavior and application limits. Until such standards exist, claims of a model's safety are fundamentally flawed."
+  }
+]

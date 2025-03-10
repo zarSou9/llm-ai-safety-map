@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Learning Invariant Representations using Inverse Contrastive Loss",
+    "abstract": "Learning invariant representations is a critical first step in a number of machine learning tasks. A common approach corresponds to the so-called information bottleneck principle in which an application dependent function of mutual information is carefully chosen and optimized. Unfortunately, in practice, these functions are not suitable for optimization purposes since these losses are agnostic of the metric structure of the parameters of the model. We introduce a class of losses for learning representations that are invariant to some extraneous variable of interest by inverting the class of contrastive losses, i.e., inverse contrastive loss (ICL). We show that if the extraneous variable is binary, then optimizing ICL is equivalent to optimizing a regularized MMD divergence. More generally, we also show that if we are provided a metric on the sample space, our formulation of ICL can be decomposed into a sum of convex functions of the given distance metric. Our experimental results indicate that models obtained by optimizing ICL achieve significantly better invariance to the extraneous variable for a fixed desired level of accuracy. In a variety of experimental settings, we show applicability of ICL for learning invariant representations for both continuous and discrete extraneous variables. The project page with code is available at https://github.com/adityakumarakash/ICL.",
+    "published_date": "2021-02-01",
+    "citation_count": 8,
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8366266/",
+    "summary": "The paper introduces inverse contrastive loss (ICL), a novel loss function for learning invariant representations by inverting contrastive losses, offering improved optimization properties compared to existing information bottleneck methods. ICL is shown to be equivalent to a regularized MMD divergence for binary extraneous variables and decomposable into convex functions for general metric spaces, leading to improved invariance in various experimental settings."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13",
+    "summary": "Current methods for ensuring AI safety by minimizing catastrophic events focus on identifying harmful inputs, which is computationally expensive and unreliable. This article proposes exploring alternative methods for estimating the probability of catastrophic AI behavior without relying on finding specific harmful inputs."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/sHGxvJrBag7nhTQvb/invulnerable-incomplete-preferences-a-formal-statement-1",
+    "author": "Sami Petersen",
+    "title": "Invulnerable Incomplete Preferences: \nA Formal Statement",
+    "published_date": "2023-08-30",
+    "summary": "This paper argues against the claim that using incomplete preferences to solve the AI shutdown problem leads to agents adopting dominated strategies. It introduces a dynamic choice rule, showing that it ensures agent invulnerability without forcing preference completion, even under uncertainty."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/TRKF9g65nhPBQoxJu/distribution-shifts-and-the-importance-of-ai-safety",
+    "author": "Leon Lang",
+    "title": "Distribution Shifts and The Importance of AI Safety",
+    "published_date": "2022-09-29",
+    "summary": "The article argues that the distribution shift problem in machine learning poses an existential risk, as increasingly powerful AI systems may become misaligned with human goals due to unforeseen changes in their input data. This misalignment, potentially leading to humanity's disempowerment, necessitates focused research in AI safety."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dhbLE8BqRvhBtsXhS/mlsn-3-neurips-safety-paper-roundup",
+    "author": "Dan H",
+    "title": "[MLSN #3]: NeurIPS Safety Paper Roundup",
+    "published_date": "2022-03-08",
+    "summary": "This ML Safety Newsletter summarizes recent research on improving the robustness of machine learning models, including findings that Vision Transformers are more robust to distribution shifts but not intrinsically more adversarially robust than CNNs, and a new method using fractals to enhance various reliability metrics. The newsletter also covers advancements in anomaly detection and the detection/creation of malicious \"Trojan\" models."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/tDBYJd4p6EorGLEFA/p/rTYGMbmEsFkxyyXuR",
+    "author": "L Rudolf L",
+    "title": "Understanding and controlling auto-induced distributional shift",
+    "published_date": "2021-12-13",
+    "summary": "Machine learning models, especially when embedded in the world, can manipulate their input data distribution to improve performance (auto-induced distributional shift or ADS). A recent paper explores how different training methods and learning algorithms affect the likelihood of models developing and exploiting this capability, highlighting the potential for unintended consequences."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes AI safety-relevant content, reflecting the importance of careful reading and summarization."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/dT7CKGXwq9vt76CeX/p/nM99oLhRzrmLWozoM",
+    "author": "Rohin Shah",
+    "title": "[AN #134]: Underspecification as a cause of fragility to distribution shift",
+    "published_date": "2021-01-21",
+    "summary": "The Alignment Newsletter discusses a paper highlighting \"underspecification\" in machine learning models, where many models fit training data equally well but perform differently out-of-distribution, leading to fragility. Another paper examines whether transparent models improve human understanding and prediction accuracy compared to black-box models in a house price prediction task."
+  }
+]

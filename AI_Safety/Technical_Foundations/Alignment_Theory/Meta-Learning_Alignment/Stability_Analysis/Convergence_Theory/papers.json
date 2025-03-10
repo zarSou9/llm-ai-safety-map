@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.00224",
+    "title": "Prescribed-Time Stability Properties of Interconnected Systems",
+    "published_date": "2024-04-30",
+    "abstract": "Achieving control objectives (e.g., stabilization or convergence of tracking error to zero, input-to-state stabilization) in\"prescribed time\"has attracted significant research interest in recent years. The key property of prescribed-time results unlike traditional\"asymptotic\"results is that the convergence or other control objectives are achieved within an arbitrary designer-specified time interval instead of asymptotically as time goes to infinity. In this paper, we consider cascade and feedback interconnections of prescribed-time input-to-state stable (ISS) systems and study conditions under which the overall states of such interconnected systems also converge to the origin in the prescribed time interval. We show that these conditions are intrinsically related to properties of the time-varying\"blow-up\"functions that are central to prescribed-time control designs. We also generalize the results to interconnections of an arbitrary number of systems. As an illustrative example, we consider an interconnection of two uncertain systems that are prescribed-time stabilized using two different control design methods and show that the two separate controllers can be put together to achieve prescribed-time stability of the interconnected system."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.02939v1.pdf",
+    "title": "Prescribed-Time Control for Linear Systems in Canonical Form via Nonlinear Feedback",
+    "published_date": "2022-01-09",
+    "abstract": "For systems in canonical form with nonvanishing uncertainties/disturbances, this work presents an approach to full-state regulation within prescribed time irrespective of initial conditions. By introducing the smooth hyperbolic-tangent-like function, a nonlinear and time-varying state-feedback control scheme is constructed, which is further extended to address output-feedback-based prescribed-time regulation by invoking the prescribed-time observer, all are applicable over the entire operational time zone. As an alternative to full-state regulation within the user-assignable time interval, the proposed method analytically bridges the divide between linear and nonlinear feedback-based prescribed-time control and is able to achieve asymptotic stability, exponential stability, and prescribed-time stability with a unified control structure.",
+    "citation_count": 20
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XKwKJCXgSKhSr9bZY/project-intro-selection-theorems-for-modularity",
+    "author": "CallumMcDougall, Avery, Lucius Bushnaq",
+    "title": "Project Intro: Selection Theorems for Modularity",
+    "published_date": "2022-04-04"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/X3uxRXHonFYTu6zjW/a-dynamical-systems-primer-for-entropy-and-optimization",
+    "author": "Alex_Altair",
+    "title": "A dynamical systems primer for entropy and optimization",
+    "published_date": "2022-12-10"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.03736v1.pdf",
+    "title": "Prescribed‐time regulation of nonlinear uncertain systems with unknown input gain and appended dynamics",
+    "published_date": "2021-08-08",
+    "abstract": "The prescribed‐time stabilization problem for a general class of uncertain nonlinear systems with unknown input gain and appended dynamics (with unmeasured state) is addressed. Unlike the asymptotic stabilization problem, the prescribed‐time stabilization objective requires convergence of the state vector to the origin in a finite time interval that can be arbitrarily picked (i.e., “prescribed”) by the control system designer irrespective of the system's initial condition. The class of systems considered is allowed to have general nonlinear uncertain terms throughout the system dynamics as well as uncertain appended dynamics (that effectively generate a time‐varying non‐vanishing disturbance signal input into the nominal system). The control design is based on a nonlinear transformation of the time scale, dynamic high‐gain scaling, adaptation dynamics with temporal forcing terms, and a composite control law that includes two components. The first component in the composite control law is analogous to prior dynamic high‐gain scaling‐based control designs, but with a time‐dependent function in place of the unknown input gain, while the second component has a non‐smooth form with time‐dependent terms that ensure prescribed‐time convergence in spite of the unknown input gain and the disturbances. The efficacy of the proposed control design is illustrated through numerical simulation studies on two example systems (a “synthetic” fifth‐order system and a “real‐world” electromechanical system).",
+    "citation_count": 4
+  }
+]

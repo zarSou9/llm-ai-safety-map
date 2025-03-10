@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/7yEFHisCQSCpLnqWQ/mr-meeseeks-as-an-ai-capability-tripwire",
+    "author": "Eric Zhang",
+    "title": "Mr. Meeseeks as an AI capability tripwire",
+    "published_date": "2023-05-19"
+  },
+  {
+    "title": "Enforcing Policy Feasibility Constraints through Differentiable Projection for Energy Optimization",
+    "abstract": "While reinforcement learning (RL) is gaining popularity in energy systems control, its real-world applications are limited due to the fact that the actions from learned policies may not satisfy functional requirements or be feasible for the underlying physical system. In this work, we propose PROjected Feasibility (PROF), a method to enforce convex operational constraints within neural policies. Specifically, we incorporate a differentiable projection layer within a neural network-based policy to enforce that all learned actions are feasible. We then update the policy end-to-end by propagating gradients through this differentiable projection layer, making the policy cognizant of the operational constraints. We demonstrate our method on two applications: energy-efficient building operation and inverter control. In the building operation setting, we show that PROF maintains thermal comfort requirements while improving energy efficiency by 4% over state-of-the-art methods. In the inverter control setting, PROF perfectly satisfies voltage constraints on the IEEE 37-bus feeder system, as it learns to curtail as little renewable energy as possible within its safety set.",
+    "published_date": "2021-05-19",
+    "citation_count": 49,
+    "url": "https://dl.acm.org/doi/10.1145/3447555.3464874"
+  },
+  {
+    "title": "Safety-Assured Design and Adaptation of Learning-Enabled Autonomous Systems",
+    "abstract": "Future autonomous systems will employ sophisticated machine learning techniques for the sensing and perception of the surroundings and the making corresponding decisions for planning, control, and other actions. They often operate in highly dynamic, uncertain and challenging environment, and need to meet stringent timing, resource, and mission requirements. In particular, it is critical and yet very challenging to ensure the safety of these autonomous systems, given the uncertainties of the system inputs, the constant disturbances on the system operations, and the lack of analyzability for many machine learning methods (particularly those based on neural networks). In this paper, we will discuss some of these challenges, and present our work in developing automated, quantitative, and formalized methods and tools for ensuring the safety of autonomous systems in their design and during their runtime adaptation. We argue that it is essential to take a holistic approach in addressing system safety and other safety-related properties, vertically across the functional, software, and hardware layers, and horizontally across the autonomy pipeline of sensing, perception, planning, and control modules. This approach could be further extended from a single autonomous system to a multi-agent system where multiple autonomous agents perform tasks in a collaborative manner. We will use connected and autonomous vehicles (CAVs) as the main application domain to illustrate the importance of such holistic approach and show our initial efforts in this direction.",
+    "published_date": "2021-01-18",
+    "citation_count": 23,
+    "url": "https://dl.acm.org/doi/10.1145/3394885.3431623"
+  },
+  {
+    "title": "Synthesis-Based Resolution of Feature Interactions in Cyber-Physical Systems",
+    "abstract": "The feature interaction problem arises when two or more independent features interact with each other in an undesirable manner. Feature interactions remain a challenging and important problem in emerging domains of cyber-physical systems (CPS), such as intelligent vehicles, unmanned aerial vehicles (UAVs) and the Internet of Things (IoT), where the outcome of an unexpected interaction may result in a safety failure. Existing approaches to resolving feature interactions rely on priority lists or fixed strategies, but may not be effective in scenarios where none of the competing feature actions are satisfactory with respect to system requirements. This paper proposes a novel synthesis-based approach to resolution, where a conflict among features is resolved by synthesizing an action that best satisfies the specification of desirable system behaviors in the given environmental context. Unlike existing resolution methods, our approach is capable of producing a desirable system outcome even when none of the conflicting actions are satisfactory. The effectiveness of the proposed approach is demonstrated using a case study involving interactions among safety-critical features in an autonomous drone.",
+    "published_date": "2020-09-01",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3324884.3416630"
+  },
+  {
+    "title": "Using the Crowd to Prevent Harmful AI Behavior",
+    "abstract": "To prevent harmful AI behavior, people need to specify constraints that forbid undesirable actions. Unfortunately, this is a complex task, since writing rules that distinguish harmful from non-harmful actions tends to be quite difficult in real-world situations. Therefore, such decisions have historically been made by a small group of powerful AI companies and developers, with limited community input. In this paper, we study how to enable a crowd of non-AI experts to work together to communicate high-quality, reliable constraints to AI systems. We first focus on understanding how humans reason about temporal dynamics in the context of AI behavior, finding through experiments on a novel game-based testbed that participants tend to adopt a long-term notion of harm, even in uncertain situations that do not affect them directly. Building off of this insight, we explore task design for long-term constraint specification, developing new filtering approaches and new methods of promoting user reflection. Next, we develop a novel rule-based interface which allows people to craft rules in an accessible fashion without programming knowledge. We test our approaches on a real-world AI problem in the domain of education, and find that our new filtering mechanisms and interfaces significantly improve constraint quality and human efficiency. We also demonstrate how these systems can be applied to other real-world AI problems (e.g. in social networks).",
+    "published_date": "2020-10-14",
+    "citation_count": 11,
+    "url": "https://dl.acm.org/doi/10.1145/3415168"
+  },
+  {
+    "title": "Towards Assurance Evaluation of Autonomous Systems",
+    "abstract": "Due to the probabilistic and uncertain nature of learning-enabled autonomous systems, new assurance technologies appropriate for such systems are becoming critical for their acceptance. Runtime monitors are among the key assurance technologies to address these challenges. In the DARPA Assured Autonomy program, our Boeing team is performing autonomous platform integration and assurance technology evaluation. In this paper, we present our preliminary evaluation results for runtime monitor technologies, which were developed by our three partner teams during Phase I for learning-enabled autonomous systems. The evaluation was completed using a flight simulator and real platforms. In the evaluation, the demonstrated assurance technologies showed significant promise in addressing the assurance shortfall currently facing learning enabled cyber physical systems, and the evaluation approach defined here provides a solid starting point for evaluations of the maturing assurance technologies in the future phases of the DARPA Assured Autonomy project.",
+    "published_date": "2020-11-02",
+    "citation_count": 10,
+    "url": "https://dl.acm.org/doi/10.1145/3400302.3415785"
+  }
+]

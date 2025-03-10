@@ -1,0 +1,60 @@
+[
+  {
+    "title": "HyperFlow: A Processor Architecture for Nonmalleable, Timing-Safe Information Flow Security",
+    "abstract": "This paper presents HyperFlow, a processor that enforces secure information flow, including control over timing channels. The design and implementation of HyperFlow offer security assurance because it is implemented using a security-typed hardware description language that enforces secure information flow. Unlike prior processors that aim to enforce simple information-flow policies such as noninterference, HyperFlow allows complex information flow policies that can be configured at run time. Its fine-grained, decentralized information flow mechanisms allow controlled communication among mutually distrusting processes and system calls into different security domains. We address the significant challenges in designing such a processor architecture with contributions in both the hardware architecture and the security type system. The paper discusses the architecture decisions that make the processor secure and describes ChiselFlow, a new secure hardware description language supporting lightweight information-flow enforcement. The HyperFlow architecture is prototyped on a full-featured processor that offers a complete RISC-V instruction set, and is shown to add moderate overhead to area and performance.",
+    "published_date": "2018-10-08",
+    "citation_count": 58,
+    "url": "https://dl.acm.org/doi/10.1145/3243734.3243743",
+    "summary": "HyperFlow is a novel processor architecture enforcing strong, configurable information flow security, including timing-safe policies, through a security-typed hardware description language (ChiselFlow). Its design allows controlled inter-process communication even between mutually distrusting components with moderate performance overhead."
+  },
+  {
+    "title": "Complete information flow tracking from the gates up",
+    "abstract": "For many mission-critical tasks, tight guarantees on the flow of information are desirable, for example, when handling important cryptographic keys or sensitive financial data. We present a novel architecture capable of tracking all information flow within the machine, including all explicit data transfers and all implicit flows (those subtly devious flows caused by not performing conditional operations). While the problem is impossible to solve in the general case, we have created a machine that avoids the general-purpose programmability that leads to this impossibility result, yet is still programmable enough to handle a variety of critical operations such as public-key encryption and authentication. Through the application of our novel gate-level information flow tracking method, we show how all flows of information can be precisely tracked. From this foundation, we then describe how a class of architectures can be constructed, from the gates up, to completely capture all information flows and we measure the impact of doing so on the hardware implementation, the ISA, and the programmer.",
+    "published_date": "2009-02-28",
+    "citation_count": 246,
+    "url": "https://dl.acm.org/doi/10.1145/1508284.1508258",
+    "summary": "This paper introduces a novel computer architecture that tracks all information flow, both explicit and implicit, by employing a gate-level tracking method, achieving complete information flow control despite the inherent unsolvability of the general problem. This is accomplished by restricting programmability while maintaining sufficient functionality for crucial tasks like cryptography."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/6cWgaaxWqGYwJs3vj/a-basic-systems-architecture-for-ai-agents-that-do",
+    "author": "Buck",
+    "title": "A basic systems architecture for AI agents that do autonomous research",
+    "published_date": "2024-09-23",
+    "summary": "The article describes a common architecture for autonomous AI agents in AI R&D, separating the large language model (LLM) inference server, the agent's state-managing scaffold server, and the code-executing server. This separation is crucial for understanding and mitigating AI escape risks, as different threat models involve compromises of these distinct components."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising AI safety strategy, though currently under-developed. Proposed methods aim to improve visibility into AI development, allocate compute resources strategically, and enforce regulations on its use to mitigate existential risks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and a long version, have been created to help machine learning researchers quickly assess the AI safety field and identify potential research areas aligning with their existing skills. These resources list organizations, researchers, key papers, and keywords to facilitate efficient exploration of the field."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kfY2JegjuzLewWyZd/oracles-informers-and-controllers",
+    "author": "ozziegooen",
+    "title": "Oracles, Informers, and Controllers",
+    "published_date": "2021-05-25",
+    "summary": "This article expands on Bostrom's \"oracle, genie, sovereign\" framework for categorizing superintelligent AI, adding \"informer\" and \"controller\" as intermediary AI types. Informers proactively suggest actions, while controllers offer pervasive, highly influential suggestions, effectively controlling decisions without direct power."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes AI safety-relevant content, reflecting the author's emphasis on careful reading and summarization."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BZKLf629NDNfEkZzJ/creating-agi-safety-interlocks",
+    "author": "Koen.Holtman",
+    "title": "Creating AGI Safety Interlocks",
+    "published_date": "2021-02-05",
+    "summary": "This article proposes a counterfactual planning agent with three safety interlocks: a manual emergency stop, an automatic time-limit shutdown, and a power-level cutoff to prevent an intelligence explosion. These interlocks aim to mitigate the risks associated with deploying a powerful AGI with potentially incompletely specified reward functions."
+  }
+]

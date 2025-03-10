@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2303.10514v1",
+    "title": "Efficient Public Good Provision Between and Within Groups",
+    "published_date": "2023-03-18",
+    "abstract": "We generalize the model of Gallice and Monzon (2019) to incorporate a public goods game with groups, position uncertainty, and observational learning. Contributions are simultaneous within groups, but groups play sequentially based on their observation of an incomplete sample of past contributions. We show that full cooperation between and within groups is possible with self-interested players on a fixed horizon. Position uncertainty implies the existence of an equilibrium where groups of players conditionally cooperate in the hope of influencing further groups. Conditional cooperation implies that each group member is pivotal, so that efficient simultaneous provision within groups is an equilibrium."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2202.13424v2.pdf",
+    "title": "The Art of Manipulation: Threat of Multi-Step Manipulative Attacks in Security Games",
+    "published_date": "2022-02-27",
+    "abstract": "This paper studies the problem of multi-step manipulative attacks in Stackelberg security games, in which a clever attacker attempts to orchestrate its attacks over multiple time steps to mislead the defender's learning of the attacker's behavior. This attack manipulation eventually influences the defender's patrol strategy towards the attacker's benefit. Previous work along this line of research only focuses on one-shot games in which the defender learns the attacker's behavior and then designs a corresponding strategy only once. Our work, on the other hand, investigates the long-term impact of the attacker's manipulation in which current attack and defense choices of players determine the future learning and patrol planning of the defender. This paper has three key contributions. First, we introduce a new multi-step manipulative attack game model that captures the impact of sequential manipulative attacks carried out by the attacker over the entire time horizon. Second, we propose a new algorithm to compute an optimal manipulative attack plan for the attacker, which tackles the challenge of multiple connected optimization components involved in the computation across multiple time steps. Finally, we present extensive experimental results on the impact of such misleading attacks, showing a significant benefit for the attacker and loss for the defender."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.12290v3.pdf",
+    "title": "Distributed Computation of Stochastic GNE With Partial Information: An Augmented Best-Response Approach",
+    "published_date": "2021-09-25",
+    "abstract": "In this article, we focus on the stochastic generalized Nash equilibrium problem (SGNEP) which is an important and widely used model in many different fields. In this model, subject to certain global resource constraints, a set of self-interested players aims to optimize their local objectives that depend on their own decisions and the decisions of others and are influenced by some random factors. We propose a distributed stochastic generalized Nash equilibrium seeking algorithm in a partial-decision information setting based on the Douglas–Rachford operator splitting scheme, which relaxes assumptions in the existing literature. The proposed algorithm updates players' local decisions through augmented best-response schemes and subsequent projections onto the local feasible sets, which comprise most of the computational workload. The projected stochastic subgradient method is applied to provide approximate solutions to the augmented best-response subproblems for each player. The Robbins–Siegmund theorem is leveraged to establish the main convergence results to a true Nash equilibrium using the proposed inexact solver. Finally, we illustrate the validity of the proposed algorithm via two numerical examples: 1) a stochastic Nash–Cournot distribution game and 2) a multiproduct assembly problem with the two-stage model.",
+    "citation_count": 8
+  },
+  {
+    "url": "https://arxiv.org/pdf/2107.14625v2.pdf",
+    "title": "Single-Leader-Multiple-Followers Stackelberg Security Game With Hypergame Framework",
+    "published_date": "2021-07-30",
+    "abstract": "In this paper, we employ a hypergame framework to analyze the single-leader-multiple-followers (SLMF) Stackelberg security game with two typical misinformed situations: misperception and deception. We provide a stability criterion with the help of hyper Nash equilibrium (HNE) to investigate both strategic stability and cognitive stability of equilibria in SLMF games with misinformation. In fact, we find mild stable conditions such that the equilibria with misperception and deception can become HNE. Moreover, we discuss the robustness of the equilibria to reveal whether players have the ability to keep their profits under the influence of some misinformation.",
+    "citation_count": 28
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.12926v1.pdf",
+    "title": "Generalized Nash Equilibrium Seeking Algorithm Design for Distributed Constrained Multi-Cluster Games",
+    "published_date": "2021-06-24",
+    "abstract": "The multi-cluster games are addressed in this paper, where all players team up with the players in the cluster that they belong to, and compete against the players in other clusters to minimize the cost function of their own cluster. The decision of every player is constrained by coupling inequality constraints, local inequality constraints and local convex set constraints. Our problem extends well-known noncooperative game problems and resource allocation problems by considering the competition between clusters and the cooperation within clusters at the same time. Besides, without involving the resource allocation within clusters, the noncooperative game between clusters, and the aforementioned constraints, existing game algorithms as well as resource allocation algorithms cannot solve the problem. In order to seek the variational generalized Nash equilibrium (GNE) of the multi-cluster games, we design a distributed algorithm via gradient descent and projections. Moreover, we analyze the convergence of the algorithm with the help of variational analysis and Lyapunov stability theory. Under the algorithm, all players asymptotically converge to the variational GNE of the multi-cluster game. Simulation examples are presented to verify the effectiveness of the algorithm.",
+    "citation_count": 5
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/abs/1612.01474v2",
+    "title": "Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles",
+    "published_date": "2016-12-05",
+    "abstract": "Deep neural networks (NNs) are powerful black box predictors that have recently achieved impressive performance on a wide spectrum of tasks. Quantifying predictive uncertainty in NNs is a challenging and yet unsolved problem. Bayesian NNs, which learn a distribution over weights, are currently the state-of-the-art for estimating predictive uncertainty; however these require significant modifications to the training procedure and are computationally expensive compared to standard (non-Bayesian) NNs. We propose an alternative to Bayesian NNs that is simple to implement, readily parallelizable, requires very little hyperparameter tuning, and yields high quality predictive uncertainty estimates. Through a series of experiments on classification and regression benchmarks, we demonstrate that our method produces well-calibrated uncertainty estimates which are as good or better than approximate Bayesian NNs. To assess robustness to dataset shift, we evaluate the predictive uncertainty on test examples from known and unknown distributions, and show that our method is able to express higher uncertainty on out-of-distribution examples. We demonstrate the scalability of our method by evaluating predictive uncertainty estimates on ImageNet.",
+    "citation_count": 5274,
+    "summary": "This paper introduces a simple, scalable method for estimating predictive uncertainty in deep neural networks using deep ensembles, achieving comparable or superior performance to Bayesian neural networks with significantly reduced computational cost and implementation complexity. The method demonstrates robust uncertainty quantification, even with out-of-distribution data, and scales effectively to large datasets like ImageNet."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.13738",
+    "title": "Uncertainty separation via ensemble quantile regression",
+    "published_date": "2024-12-18",
+    "abstract": "This paper introduces a novel and scalable framework for uncertainty estimation and separation with applications in data driven modeling in science and engineering tasks where reliable uncertainty quantification is critical. Leveraging an ensemble of quantile regression (E-QR) models, our approach enhances aleatoric uncertainty estimation while preserving the quality of epistemic uncertainty, surpassing competing methods, such as Deep Ensembles (DE) and Monte Carlo (MC) dropout. To address challenges in separating uncertainty types, we propose an algorithm that iteratively improves separation through progressive sampling in regions of high uncertainty. Our framework is scalable to large datasets and demonstrates superior performance on synthetic benchmarks, offering a robust tool for uncertainty quantification in data-driven applications.",
+    "summary": "This paper presents a scalable ensemble quantile regression (E-QR) framework for improved uncertainty quantification, effectively separating aleatoric and epistemic uncertainty and outperforming existing methods like Deep Ensembles and Monte Carlo dropout. The method uses iterative progressive sampling to enhance uncertainty separation, particularly in high-uncertainty regions."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2206.03633v1.pdf",
+    "title": "Ensembles for Uncertainty Estimation: Benefits of Prior Functions and Bootstrapping",
+    "published_date": "2022-06-08",
+    "abstract": "In machine learning, an agent needs to estimate uncertainty to efficiently explore and adapt and to make effective decisions. A common approach to uncertainty estimation maintains an ensemble of models. In recent years, several approaches have been proposed for training ensembles, and conflicting views prevail with regards to the importance of various ingredients of these approaches. In this paper, we aim to address the benefits of two ingredients -- prior functions and bootstrapping -- which have come into question. We show that prior functions can significantly improve an ensemble agent's joint predictions across inputs and that bootstrapping affords additional benefits if the signal-to-noise ratio varies across inputs. Our claims are justified by both theoretical and experimental results.",
+    "citation_count": 14,
+    "summary": "This paper investigates the benefits of prior functions and bootstrapping in ensemble methods for uncertainty estimation, demonstrating that prior functions improve joint predictions and bootstrapping is particularly advantageous when input signal-to-noise ratios vary."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2010.09875.pdf",
+    "title": "Combining Ensembles and Data Augmentation can Harm your Calibration",
+    "published_date": "2020-10-19",
+    "abstract": "Ensemble methods which average over multiple neural network predictions are a simple approach to improve a model's calibration and robustness. Similarly, data augmentation techniques, which encode prior information in the form of invariant feature transformations, are effective for improving calibration and robustness. In this paper, we show a surprising pathology: combining ensembles and data augmentation can harm model calibration. This leads to a trade-off in practice, whereby improved accuracy by combining the two techniques comes at the expense of calibration. On the other hand, selecting only one of the techniques ensures good uncertainty estimates at the expense of accuracy. We investigate this pathology and identify a compounding under-confidence among methods which marginalize over sets of weights and data augmentation techniques which soften labels. Finally, we propose a simple correction, achieving the best of both worlds with significant accuracy and calibration gains over using only ensembles or data augmentation individually. Applying the correction produces new state-of-the art in uncertainty calibration across CIFAR-10, CIFAR-100, and ImageNet.",
+    "citation_count": 59,
+    "summary": "Combining ensemble methods and data augmentation, while improving model accuracy, can surprisingly worsen calibration; a proposed correction achieves superior accuracy and calibration by mitigating this negative interaction."
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.12729",
+    "title": "Posterior Uncertainty Quantification in Neural Networks using Data Augmentation",
+    "published_date": "2024-03-18",
+    "abstract": "In this paper, we approach the problem of uncertainty quantification in deep learning through a predictive framework, which captures uncertainty in model parameters by specifying our assumptions about the predictive distribution of unseen future data. Under this view, we show that deep ensembling (Lakshminarayanan et al., 2017) is a fundamentally mis-specified model class, since it assumes that future data are supported on existing observations only -- a situation rarely encountered in practice. To address this limitation, we propose MixupMP, a method that constructs a more realistic predictive distribution using popular data augmentation techniques. MixupMP operates as a drop-in replacement for deep ensembles, where each ensemble member is trained on a random simulation from this predictive distribution. Grounded in the recently-proposed framework of Martingale posteriors (Fong et al., 2023), MixupMP returns samples from an implicitly defined Bayesian posterior. Our empirical analysis showcases that MixupMP achieves superior predictive performance and uncertainty quantification on various image classification datasets, when compared with existing Bayesian and non-Bayesian approaches.",
+    "citation_count": 1,
+    "summary": "MixupMP, a novel method for posterior uncertainty quantification in neural networks, addresses limitations of deep ensembling by using data augmentation to create a more realistic predictive distribution, resulting in improved predictive performance and uncertainty quantification. It leverages the Martingale posterior framework and acts as a drop-in replacement for deep ensembles."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/JDrxA3vwZAKZfmShz/degeneracies-are-sticky-for-sgd",
+    "author": "Guillaume Corlouer; Nicolas Macé",
+    "title": "Degeneracies are sticky for SGD",
+    "published_date": "2024-06-16",
+    "summary": "This study investigates how degeneracy in low-dimensional loss landscapes affects stochastic gradient descent (SGD) dynamics in deep learning. The authors find that degeneracy slows convergence and influences the direction of SGD escape from degenerate manifolds, showing discrepancies between SGD's final parameter distribution and the Bayesian posterior predicted by singular learning theory."
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.14545",
+    "title": "Ensemble Multi-Quantiles: Adaptively Flexible Distribution Prediction for Uncertainty Quantification",
+    "published_date": "2022-11-26",
+    "abstract": "We propose a novel, succinct, and effective approach for distribution prediction to quantify uncertainty in machine learning. It incorporates adaptively flexible distribution prediction of <inline-formula><tex-math notation=\"LaTeX\">$\\mathbb {P}(\\mathbf {y}|\\mathbf {X}=x)$</tex-math><alternatives><mml:math><mml:mrow><mml:mi mathvariant=\"double-struck\">P</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant=\"bold\">y</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant=\"bold\">X</mml:mi><mml:mo>=</mml:mo><mml:mi>x</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href=\"ma-ieq1-3288028.gif\"/></alternatives></inline-formula> in regression tasks. This conditional distribution's quantiles of probability levels spreading the interval (0,1) are boosted by additive models which are designed by us with intuitions and interpretability. We seek an adaptive balance between the structural integrity and the flexibility for <inline-formula><tex-math notation=\"LaTeX\">$\\mathbb {P}(\\mathbf {y}|\\mathbf {X}=x)$</tex-math><alternatives><mml:math><mml:mrow><mml:mi mathvariant=\"double-struck\">P</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant=\"bold\">y</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant=\"bold\">X</mml:mi><mml:mo>=</mml:mo><mml:mi>x</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href=\"ma-ieq2-3288028.gif\"/></alternatives></inline-formula>, while Gaussian assumption results in a lack of flexibility for real data and highly flexible approaches (e.g., estimating the quantiles separately without a distribution structure) inevitably have drawbacks and may not lead to good generalization. This ensemble multi-quantiles approach called EMQ proposed by us is totally data-driven, and can gradually depart from Gaussian and discover the optimal conditional distribution in the boosting. On extensive regression tasks from UCI datasets, we show that EMQ achieves state-of-the-art performance comparing to many recent uncertainty quantification methods. Visualization results further illustrate the necessity and the merits of such an ensemble model.",
+    "citation_count": 1,
+    "summary": "Ensemble Multi-Quantiles (EMQ) is a novel approach for uncertainty quantification in regression tasks that uses boosted additive models to predict multiple quantiles of the conditional distribution, achieving a balance between structural integrity and flexibility, and outperforming existing methods on benchmark datasets."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25",
+    "summary": "Variational Bayesian methods address the intractability of computing P(x) in Bayesian inference by approximating the true posterior P(z|x) with a simpler distribution Q(z|x). This approximation minimizes the Kullback-Leibler divergence between Q(z|x) and P(z|x), allowing for a tractable estimate of P(x)."
+  }
+]

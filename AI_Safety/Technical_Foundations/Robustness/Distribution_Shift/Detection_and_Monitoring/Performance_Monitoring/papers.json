@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2412.12910",
+    "title": "Sequential Harmful Shift Detection Without Labels",
+    "published_date": "2024-12-17",
+    "abstract": "We introduce a novel approach for detecting distribution shifts that negatively impact the performance of machine learning models in continuous production environments, which requires no access to ground truth data labels. It builds upon the work of Podkopaev and Ramdas [2022], who address scenarios where labels are available for tracking model errors over time. Our solution extends this framework to work in the absence of labels, by employing a proxy for the true error. This proxy is derived using the predictions of a trained error estimator. Experiments show that our method has high power and false alarm control under various distribution shifts, including covariate and label shifts and natural shifts over geography and time."
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.14758",
+    "title": "Towards Practicable Sequential Shift Detectors",
+    "published_date": "2023-07-27",
+    "abstract": "There is a growing awareness of the harmful effects of distribution shift on the performance of deployed machine learning models. Consequently, there is a growing interest in detecting these shifts before associated costs have time to accumulate. However, desiderata of crucial importance to the practicable deployment of sequential shift detectors are typically overlooked by existing works, precluding their widespread adoption. We identify three such desiderata, highlight existing works relevant to their satisfaction, and recommend impactful directions for future research."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2308.07223.pdf",
+    "title": "Distance Matters For Improving Performance Estimation Under Covariate Shift",
+    "published_date": "2023-08-14",
+    "abstract": "Performance estimation under covariate shift is a crucial component of safe AI model deployment, especially for sensitive use-cases. Recently, several solutions were proposed to tackle this problem, most leveraging model predictions or softmax confidence to derive accuracy estimates. However, under dataset shifts confidence scores may become ill-calibrated if samples are too far from the training distribution. In this work, we show that taking into account distances of test samples to their expected training distribution can significantly improve performance estimation under covariate shift. Precisely, we introduce a \"distance-check\" to flag samples that lie too far from the expected distribution, to avoid relying on their untrustworthy model outputs in the accuracy estimation step. We demonstrate the effectiveness of this method on 13 image classification tasks, across a wide-range of natural and synthetic distribution shifts and hundreds of models, with a median relative MAE improvement of 27% over the best baseline across all tasks, and SOTA performance on 10 out of 13 tasks. Our code is publicly available at https://github.com/melanibe/distance_matters_performance_estimation.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.00775.pdf",
+    "title": "Model Monitoring and Robustness of In-Use Machine Learning Models: Quantifying Data Distribution Shifts Using Population Stability Index",
+    "published_date": "2023-02-01",
+    "abstract": "Safety goes first. Meeting and maintaining industry safety standards for robustness of artificial intelligence (AI) and machine learning (ML) models require continuous monitoring for faults and performance drops. Deep learning models are widely used in industrial applications, e.g., computer vision, but the susceptibility of their performance to environment changes (e.g., noise) \\emph{after deployment} on the product, are now well-known. A major challenge is detecting data distribution shifts that happen, comparing the following: {\\bf (i)} development stage of AI and ML models, i.e., train/validation/test, to {\\bf (ii)} deployment stage on the product (i.e., even after `testing') in the environment. We focus on a computer vision example related to autonomous driving and aim at detecting shifts that occur as a result of adding noise to images. We use the population stability index (PSI) as a measure of presence and intensity of shift and present results of our empirical experiments showing a promising potential for the PSI. We further discuss multiple aspects of model monitoring and robustness that need to be analyzed \\emph{simultaneously} to achieve robustness for industry safety standards. We propose the need for and the research direction toward \\emph{categorizations} of problem classes and examples where monitoring for robustness is required and present challenges and pointers for future work from a \\emph{practical} perspective.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.02011v2",
+    "title": "Diagnosing Model Performance Under Distribution Shift",
+    "published_date": "2023-03-03",
+    "abstract": "Prediction models can perform poorly when deployed to target distributions different from the training distribution. To understand these operational failure modes, we develop a method, called DIstribution Shift DEcomposition (DISDE), to attribute a drop in performance to different types of distribution shifts. Our approach decomposes the performance drop into terms for 1) an increase in harder but frequently seen examples from training, 2) changes in the relationship between features and outcomes, and 3) poor performance on examples infrequent or unseen during training. These terms are defined by fixing a distribution on $X$ while varying the conditional distribution of $Y \\mid X$ between training and target, or by fixing the conditional distribution of $Y \\mid X$ while varying the distribution on $X$. In order to do this, we define a hypothetical distribution on $X$ consisting of values common in both training and target, over which it is easy to compare $Y \\mid X$ and thus predictive performance. We estimate performance on this hypothetical distribution via reweighting methods. Empirically, we show how our method can 1) inform potential modeling improvements across distribution shifts for employment prediction on tabular census data, and 2) help to explain why certain domain adaptation methods fail to improve model performance for satellite image classification.",
+    "citation_count": 22
+  },
+  {
+    "url": "https://arxiv.org/pdf/2211.06239.pdf",
+    "title": "A monitoring framework for deployed machine learning models with supply chain examples",
+    "published_date": "2022-11-11",
+    "abstract": "Actively monitoring machine learning models during production operations helps ensure prediction quality and detection and remediation of unexpected or undesired conditions. Monitoring models already deployed in big data environments brings the additional challenges of adding monitoring in parallel to the existing modelling workflow and controlling resource requirements. In this paper, we describe (1) a framework for monitoring machine learning models; and, (2) its implementation for a big data supply chain application. We use our implementation to study drift in model features, predictions, and performance on three real data sets. We compare hypothesis test and information theoretic approaches to drift detection in features and predictions using the Kolmogorov-Smirnov distance and Bhattacharyya coefficient. Results showed that model performance was stable over the evaluation period. Features and predictions showed statistically significant drifts; however, these drifts were not linked to changes in model performance during the time of our study.",
+    "citation_count": 3
+  }
+]

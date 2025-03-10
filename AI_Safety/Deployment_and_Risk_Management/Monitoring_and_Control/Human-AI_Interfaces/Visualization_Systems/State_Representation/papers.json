@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2310.01405",
+    "title": "Representation Engineering: A Top-Down Approach to AI Transparency",
+    "published_date": "2023-10-02",
+    "abstract": "In this paper, we identify and characterize the emerging area of representation engineering (RepE), an approach to enhancing the transparency of AI systems that draws on insights from cognitive neuroscience. RepE places population-level representations, rather than neurons or circuits, at the center of analysis, equipping us with novel methods for monitoring and manipulating high-level cognitive phenomena in deep neural networks (DNNs). We provide baselines and an initial analysis of RepE techniques, showing that they offer simple yet effective solutions for improving our understanding and control of large language models. We showcase how these methods can provide traction on a wide range of safety-relevant problems, including honesty, harmlessness, power-seeking, and more, demonstrating the promise of top-down transparency research. We hope that this work catalyzes further exploration of RepE and fosters advancements in the transparency and safety of AI systems.",
+    "citation_count": 264
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.00654.pdf",
+    "title": "Representations and Exploration for Deep Reinforcement Learning using Singular Value Decomposition",
+    "published_date": "2023-05-01",
+    "abstract": "Representation learning and exploration are among the key challenges for any deep reinforcement learning agent. In this work, we provide a singular value decomposition based method that can be used to obtain representations that preserve the underlying transition structure in the domain. Perhaps interestingly, we show that these representations also capture the relative frequency of state visitations, thereby providing an estimate for pseudo-counts for free. To scale this decomposition method to large-scale domains, we provide an algorithm that never requires building the transition matrix, can make use of deep networks, and also permits mini-batch training. Further, we draw inspiration from predictive state representations and extend our decomposition method to partially observable environments. With experiments on multi-task settings with partially observable domains, we show that the proposed method can not only learn useful representation on DM-Lab-30 environments (that have inputs involving language instructions, pixel images, and rewards, among others) but it can also be effective at hard exploration tasks in DM-Hard-8 environments.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.12482.pdf",
+    "title": "State2Explanation: Concept-Based Explanations to Benefit Agent Learning and User Understanding",
+    "published_date": "2023-09-21",
+    "abstract": "As more non-AI experts use complex AI systems for daily tasks, there has been an increasing effort to develop methods that produce explanations of AI decision making that are understandable by non-AI experts. Towards this effort, leveraging higher-level concepts and producing concept-based explanations have become a popular method. Most concept-based explanations have been developed for classification techniques, and we posit that the few existing methods for sequential decision making are limited in scope. In this work, we first contribute a desiderata for defining concepts in sequential decision making settings. Additionally, inspired by the Protege Effect which states explaining knowledge often reinforces one's self-learning, we explore how concept-based explanations of an RL agent's decision making can in turn improve the agent's learning rate, as well as improve end-user understanding of the agent's decision making. To this end, we contribute a unified framework, State2Explanation (S2E), that involves learning a joint embedding model between state-action pairs and concept-based explanations, and leveraging such learned model to both (1) inform reward shaping during an agent's training, and (2) provide explanations to end-users at deployment for improved task performance. Our experimental validations, in Connect 4 and Lunar Lander, demonstrate the success of S2E in providing a dual-benefit, successfully informing reward shaping and improving agent learning rate, as well as significantly improving end user task performance at deployment time.",
+    "citation_count": 15
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.07016v1.pdf",
+    "title": "Accelerating Representation Learning with View-Consistent Dynamics in Data-Efficient Reinforcement Learning",
+    "published_date": "2022-01-18",
+    "abstract": "Learning informative representations from image-based observations is of fundamental concern in deep Reinforcement Learning (RL). However, data-inefficiency remains a significant barrier to this objective. To overcome this obstacle, we propose to accelerate state representation learning by enforcing view-consistency on the dynamics. Firstly, we introduce a formalism of Multi-view Markov Decision Process (MMDP) that incorporates multiple views of the state. Following the structure of MMDP, our method, View-Consistent Dynamics (VCD), learns state representations by training a view-consistent dynamics model in the latent space, where views are generated by applying data augmentation to states. Empirical evaluation on DeepMind Control Suite and Atari-100k demonstrates VCD to be the SoTA data-efficient algorithm on visual control tasks.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.13596v2.pdf",
+    "title": "Exploratory State Representation Learning",
+    "published_date": "2021-09-28",
+    "abstract": "Not having access to compact and meaningful representations is known to significantly increase the complexity of reinforcement learning (RL). For this reason, it can be useful to perform state representation learning (SRL) before tackling RL tasks. However, obtaining a good state representation can only be done if a large diversity of transitions is observed, which can require a difficult exploration, especially if the environment is initially reward-free. To solve the problems of exploration and SRL in parallel, we propose a new approach called XSRL (eXploratory State Representation Learning). On one hand, it jointly learns compact state representations and a state transition estimator which is used to remove unexploitable information from the representations. On the other hand, it continuously trains an inverse model, and adds to the prediction error of this model a k-step learning progress bonus to form the maximization objective of a discovery policy. This results in a policy that seeks complex transitions from which the trained models can effectively learn. Our experimental results show that the approach leads to efficient exploration in challenging environments with image observations, and to state representations that significantly accelerate learning in RL tasks.",
+    "citation_count": 6
+  },
+  {
+    "url": "https://arxiv.org/auth/show-endorsers/2102.05599",
+    "title": "Improving Model-Based Reinforcement Learning with Internal State Representations through Self-Supervision",
+    "published_date": "2021-02-10",
+    "abstract": "Using a model of the environment, reinforcement learning agents can plan their future moves and achieve superhuman performance in board games like Chess, Shogi, and Go, while remaining relatively sample-efficient. As demonstrated by the MuZero Algorithm, the environment model can even be learned dynamically, generalizing the agent to many more tasks while at the same time achieving state-of-the-art performance. Notably, MuZero uses internal state representations derived from real environment states for its predictions. In this paper, we bind the model's predicted internal state representation to the environment state via two additional terms: a reconstruction model loss and a simpler consistency loss, both of which work independently and unsupervised, acting as constraints to stabilize the learning process. Our experiments show that this new integration of reconstruction model loss and simpler consistency loss provide a significant performance increase in OpenAI Gym environments. Our modifications also enable self-supervised pretraining for MuZero, so the algorithm can learn about environment dynamics before a goal is made available.",
+    "citation_count": 3
+  }
+]

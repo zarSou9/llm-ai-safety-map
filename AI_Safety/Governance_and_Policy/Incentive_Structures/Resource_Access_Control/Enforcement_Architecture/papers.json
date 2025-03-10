@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.15749",
+    "title": "Collaborative Access Control for IoT - A Blockchain Approach",
+    "published_date": "2024-05-24",
+    "abstract": "The Internet of Things (IoT) necessitates robust access control mechanisms to secure a vast array of interconnected devices. We adopt the blockchain based decentralized access control approach and identify the gaps in existing works. Then, We develop a blockchain embedded access control (BEAC) framework to bridge the gaps. First, blockchain based solutions for access control require an enabling P2P network while existing P2P overlays do not support some required features. We develop a novel P2P infrastructure to seamlessly support our BEAC framework. Second, most of the works consider blockchain based access control for a single access control model, and we develop a generic blockchain mechanism and show that it can support the embedding of various access control models. Finally, existing works adopt existing blockchain platforms which may incur a high communication overhead. We design a more efficient consortium blockchain solution by leveraging more advanced components to achieve better performance. Our experiments demonstrate that our design can cut the communication cost to half compared to the most recent Hyperledger Fabric platform.",
+    "summary": "This paper proposes a novel blockchain-based access control framework (BEAC) for IoT, addressing limitations in existing approaches by developing a new P2P infrastructure and a generic mechanism supporting various access control models, resulting in a more efficient and cost-effective system compared to Hyperledger Fabric."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "Biden's October 30, 2023 executive order on AI mandates various federal agencies to submit reports and implement plans related to AI development, workforce, and risk management, with deadlines ranging from 30 to 90 days after the order's publication. These actions aim to address AI's impact across sectors, including transportation, labor, and national security."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.03209v1.pdf",
+    "title": "Semantic Access Control for Privacy Management of Personal Sensing in Smart Cities",
+    "published_date": "2021-01-08",
+    "abstract": "Personal and home sensors generate valuable information that could be used in Smart Cities. Unfortunately, typically, this data is locked out and used only by application/system developers. While vendors are partially to blame, one should consider also the “binary nature” of data access. Specifically, either the owner has full control over her data (e.g., in a “closed system”), or she completely looses control, when the data is “opened”. In this context, we propose, a semantic technologies-based, authorization and privacy control framework that enables user to maintain flexible, yet manageable data access control policies. The proposed approach is described in detail, including implementation and testing.",
+    "citation_count": 6,
+    "summary": "This paper proposes a semantic technology-based framework for flexible and manageable access control of personal sensor data in smart cities, addressing the limitations of existing binary access control models that offer either complete owner control or complete data loss. The framework allows users to maintain granular control over their data's usage."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.13263v1.pdf",
+    "title": "Aker: A Design and Verification Framework for Safe and Secure SoC Access Control",
+    "published_date": "2021-06-24",
+    "abstract": "Modern systems on a chip (SoCs) utilize heterogeneous architectures where multiple IP cores have concurrent access to on-chip shared resources. In security-critical applications, IP cores have different privilege levels for accessing shared resources, which must be regulated by an access control system. Aker is a design and verification framework for SoC access control. Aker builds upon the Access Control Wrapper (ACW) - a high performance and easy-to-integrate hardware module that dynamically manages access to shared resources. To build an SoC access control system, Aker distributes the ACWs throughout the SoC, wrapping controller IP cores, and configuring the ACWs to perform local access control. To ensure the access control system is functioning correctly and securely, Aker provides a property-driven security verification using MITRE common weakness enumerations. Aker verifies the SoC access control at the IP level to ensure the absence of bugs in the functionalities of the ACW module, at the firmware level to confirm the secure operation of the ACW when integrated with a hardware root-of-trust (HRoT), and at the system level to evaluate security threats due to the interactions among shared resources. The performance, resource usage, and security of access control systems implemented through Aker is experimentally evaluated on a Xilinx UltraScale+ programmable SoC, it is integrated with the OpenTitan hardware root-of-trust, and it is used to design an access control system for the OpenPULP multicore architecture.",
+    "citation_count": 23,
+    "summary": "Aker is a framework for designing and verifying secure System-on-Chip (SoC) access control using Access Control Wrappers (ACWs), enabling efficient resource management and rigorous verification at the IP, firmware, and system levels. It leverages property-driven security verification based on MITRE common weakness enumerations to ensure correct and secure operation."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2009.02933v1.pdf",
+    "title": "Attribute-Based Access Control for Smart Cities: A Smart-Contract-Driven Framework",
+    "published_date": "2020-09-07",
+    "abstract": "Efficient and reliable access control in smart cities is critical for the protection of various resources for decision making and task execution. Existing centralized access control schemes suffer from the limitations of single point of failure, low reliability, and poor scalability. This article, therefore, proposes a distributed and reliable access control framework for smart cities by combining the blockchain smart contract technology and the attribute-based access control (ABAC) model. The framework consists of one policy management contract (PMC) for managing the ABAC policies, one subject attribute management contract (SAMC) for managing the attributes of subjects (i.e., entities accessing resources), one object attribute management contract (OAMC) for managing the attributes of objects (i.e., resources being accessed), and one access control contract (ACC) for performing the access control. To show the feasibility of the proposed framework, we construct a local private Ethereum blockchain system to implement the four smart contracts and also conduct experiments to evaluate the monetary cost as well as to compare the proposed framework with an existing access control list (ACL)-based scheme. The experimental results show that although the proposed scheme consumes more money than the ACL-based scheme at the deployment stage, it introduces less monetary cost during the system running especially for large-scale smart cities.",
+    "citation_count": 58,
+    "summary": "This paper proposes a smart-contract-based framework for attribute-based access control (ABAC) in smart cities, addressing limitations of centralized systems by utilizing a distributed architecture with separate contracts for policy, subject attributes, object attributes, and access control enforcement. Experimental results demonstrate its cost-effectiveness, particularly in large-scale deployments, compared to traditional Access Control List (ACL) methods."
+  },
+  {
+    "url": "https://arxiv.org/abs/1903.07009",
+    "title": "Multi-Authority Attribute-Based Access Control with Smart Contract",
+    "published_date": "2019-03-15",
+    "abstract": "Attribute-based access control makes access control decisions based on the assigned attributes of subjects and the access policies to protect objects by mediating operations from the subjects. Authority, which validates attributes of subjects, is one key component to facilitate attribute-based access control. In an increasingly decentralized society, multiple attributes possessed by subjects may need to be validated by multiple different authorities. This paper proposes a multi-authority attribute-based access control scheme by using Ethereum's smart contracts. In the proposed scheme, Ethereum smart contracts are created to define the interactions between data owner, data user, and multiple attribute authorities. A data user presents its attributes to different attribute authorities, and after successful validation of attributes, obtains attribute tokens from respective attribute authorities. After collecting enough attribute tokens, a smart contract will be executed to issue secret key to the data user to access the requested object. The smart contracts for multi-authority attribute-based access control have been prototyped in Solidity, and their performance has been evaluated on the Rinkeby Ethereum Testnet.",
+    "citation_count": 61,
+    "summary": "This paper presents a multi-authority attribute-based access control system implemented using Ethereum smart contracts, where users obtain attribute tokens from multiple authorities to unlock access to data after verification. The system's functionality and performance were evaluated on the Rinkeby testnet."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24",
+    "summary": "This article explores the mathematical challenges inherent in blockchain technology and proposes using mechanism design, such as quadratic voting and funding, to improve cooperation and philanthropic efforts within its framework."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/C3WxJHPRERzJqxxeF/why-referer",
+    "author": "jefftk",
+    "title": "Why \"Referer\"?",
+    "published_date": "2019-10-23",
+    "summary": "The misspelling of \"Referer\" in HTTP headers stems from its initial inclusion in the HTTP/1.0 specification around 1992, with conflicting accounts attributing the error to either Phillip Hallam-Baker or Tim Berners-Lee; the error persisted due to the widespread adoption of the incorrect spelling before correction could be implemented."
+  }
+]

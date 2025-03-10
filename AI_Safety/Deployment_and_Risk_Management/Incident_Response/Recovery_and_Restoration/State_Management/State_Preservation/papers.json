@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.15831",
+    "title": "Rethinking State Management in Actor Systems for Cloud-Native Applications",
+    "published_date": "2024-10-21",
+    "abstract": "The actor model has gained increasing popularity. However, it lacks support for complex state management tasks, such as enforcing foreign key constraints and ensuring data replication consistency across actors. These are crucial properties in partitioned application designs, such as microservices. To fill this gap, we start by analyzing the key impediments in state-of-the-art actor systems. We find it difficult for developers to express complex data relationships across actors and reason about the impact of state updates on performance due to opaque state management abstractions. To solve this conundrum, we develop SmSa, a novel data management layer for actor systems, allowing developers to declare data dependencies that cut across actors, including foreign keys, data replications, and other dependencies. SmSa can transparently enforce the declared dependencies, reducing the burden on developers. Furthermore, SmSa employs novel logging and concurrency control algorithms to support transactional maintenance of data dependencies. We demonstrate SmSa can support core data management tasks where dependencies across components appear frequently without jeopardizing application logic expressiveness and performance. Our experiments show SmSa significantly reduces the logging overhead and leads to increased concurrency level, improving by up to 2X the performance of state-of-the-art deterministic scheduling approaches. As a result, SmSa will make it easier to design and implement highly partitioned and distributed applications.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2309.04873",
+    "title": "From Reversible Computation to Checkpoint-Based Rollback Recovery for Message-Passing Concurrent Programs",
+    "published_date": "2023-09-09",
+    "abstract": "The reliability of concurrent and distributed systems often depends on some well-known techniques for fault tolerance. One such technique is based on checkpointing and rollback recovery. Checkpointing involves processes to take snapshots of their current states regularly, so that a rollback recovery strategy is able to bring the system back to a previous consistent state whenever a failure occurs. In this paper, we consider a message-passing concurrent programming language and propose a novel rollback recovery strategy that is based on some explicit checkpointing operators and the use of a (partially) reversible semantics for rolling back the system.",
+    "citation_count": 3
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.00087",
+    "title": "An Asynchronous Scheme for Rollback Recovery in Message-Passing Concurrent Programming Languages",
+    "published_date": "2023-12-29",
+    "abstract": "Rollback recovery strategies are well-known in concurrent and distributed systems. In this context, recovering from unexpected failures is even more relevant given the non-deterministic nature of execution, which means that it is practically impossible to foresee all possible process interactions. In this work, we consider a message-passing concurrent programming language where processes interact through message sending and receiving, but shared memory is not allowed. In this context, we design a checkpoint-based rollback recovery strategy that does not need a central coordination. For this purpose, we extend the language with three new operators: check, commit, and rollback. Furthermore, our approach is purely asynchronous, which is an essential ingredient to developing a source-to-source program instrumentation implementing a rollback recovery strategy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2209.08826",
+    "title": "Rapid Recovery of Program Execution Under Power Failures for Embedded Systems with NVM",
+    "published_date": "2022-09-19",
+    "abstract": "After power is switched on, recovering the interrupted program from the initial state can cause negative impact. Some programs are even unrecoverable. To rapid recovery of program execution under power failures, the execution states of checkpoints are backed up by NVM under power failures for embedded systems with NVM. However, frequent checkpoints will shorten the lifetime of the NVM and incur significant write overhead. In this paper, the technique of checkpoint setting triggered by function calls is proposed to reduce the write on NVM. The evaluation results show an average of 99.8% and 80.5$% reduction on NVM backup size for stack backup, compared to the log-based method and step-based method. In order to better achieve this, we also propose pseudo-function calls to increase backup points to reduce recovery costs, and exponential incremental call-based backup methods to reduce backup costs in the loop. To further avoid the content on NVM is cluttered and out of NVM, a method to clean the contents on the NVM that are useless for restoration is proposed. Based on aforementioned problems and techniques, the recovery technology is proposed, and the case is used to analyze how to recover rapidly under different power failures.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13"
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/lottery-ticket-hypothesis",
+    "author": "Neel Nanda, Tom Lieberum",
+    "title": "Lottery Ticket Hypothesis - LessWrong",
+    "published_date": "2022-09-20"
+  }
+]

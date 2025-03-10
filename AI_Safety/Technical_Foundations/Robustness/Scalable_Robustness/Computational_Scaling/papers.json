@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.18419",
+    "title": "Robust Network Learning via Inverse Scale Variational Sparsification",
+    "published_date": "2024-09-27",
+    "abstract": "While neural networks have made significant strides in many AI tasks, they remain vulnerable to a range of noise types, including natural corruptions, adversarial noise, and low-resolution artifacts. Many existing approaches focus on enhancing robustness against specific noise types, limiting their adaptability to others. Previous studies have addressed general robustness by adopting a spectral perspective, which tends to blur crucial features like texture and object contours. Our proposed solution, however, introduces an inverse scale variational sparsification framework within a time-continuous inverse scale space formulation. This framework progressively learns finer-scale features by discerning variational differences between pixels, ultimately preserving only large-scale features in the smoothed image. Unlike frequency-based methods, our approach not only removes noise by smoothing small-scale features where corruptions often occur but also retains high-contrast details such as textures and object contours. Moreover, our framework offers simplicity and efficiency in implementation. By integrating this algorithm into neural network training, we guide the model to prioritize learning large-scale features. We show the efficacy of our approach through enhanced robustness against various noise types.",
+    "summary": "This paper introduces a novel inverse scale variational sparsification framework for enhancing neural network robustness to various noise types. The method achieves this by progressively learning and preserving large-scale features while removing noise from smaller scales, unlike spectral methods that blur important details."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.15311",
+    "title": "Re-evaluating Group Robustness via Adaptive Class-Specific Scaling",
+    "published_date": "2024-12-19",
+    "abstract": "Group distributionally robust optimization, which aims to improve robust accuracies -- worst-group and unbiased accuracies -- is a prominent algorithm used to mitigate spurious correlations and address dataset bias. Although existing approaches have reported improvements in robust accuracies, these gains often come at the cost of average accuracy due to inherent trade-offs. To control this trade-off flexibly and efficiently, we propose a simple class-specific scaling strategy, directly applicable to existing debiasing algorithms with no additional training. We further develop an instance-wise adaptive scaling technique to alleviate this trade-off, even leading to improvements in both robust and average accuracies. Our approach reveals that a na\\\"ive ERM baseline matches or even outperforms the recent debiasing methods by simply adopting the class-specific scaling technique. Additionally, we introduce a novel unified metric that quantifies the trade-off between the two accuracies as a scalar value, allowing for a comprehensive evaluation of existing algorithms. By tackling the inherent trade-off and offering a performance landscape, our approach provides valuable insights into robust techniques beyond just robust accuracy. We validate the effectiveness of our framework through experiments across datasets in computer vision and natural language processing domains.",
+    "summary": "This paper introduces a class-specific scaling technique that improves the efficiency and flexibility of group distributionally robust optimization, mitigating the trade-off between average and robust accuracies in mitigating dataset bias; the method, applicable to existing debiasing algorithms, often leads to improvements in both metrics and reveals limitations of current state-of-the-art methods."
+  },
+  {
+    "title": "Technical Report Column",
+    "abstract": "Welcome to the Technical Reports Column. If your institution publishes technical reports that you'd like to have included here, please contact me at the email address above.",
+    "published_date": "2024-03-26",
+    "url": "https://dl.acm.org/doi/10.1145/3388392.3388397",
+    "summary": "This is an announcement for a column featuring technical reports; authors are invited to submit reports for inclusion."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/fQZRFM3FuQ2YnBxdb/does-robustness-improve-with-scale",
+    "author": "ChengCheng; AdamGleave; Ian McKenzie; Oskar Hollinsworth; Tom Tseng",
+    "title": "Does robustness improve with scale?",
+    "published_date": "2024-07-25",
+    "summary": "Larger language models (LLMs) don't inherently become more robust to adversarial attacks as they scale; however, larger models benefit more from robustness-enhancing techniques like adversarial training than smaller models. This was demonstrated through experiments on classification tasks using adversarial suffix attacks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.10980v2",
+    "title": "MultiRobustBench: Benchmarking Robustness Against Multiple Attacks",
+    "published_date": "2023-02-21",
+    "abstract": "The bulk of existing research in defending against adversarial examples focuses on defending against a single (typically bounded Lp-norm) attack, but for a practical setting, machine learning (ML) models should be robust to a wide variety of attacks. In this paper, we present the first unified framework for considering multiple attacks against ML models. Our framework is able to model different levels of learner's knowledge about the test-time adversary, allowing us to model robustness against unforeseen attacks and robustness against unions of attacks. Using our framework, we present the first leaderboard, MultiRobustBench, for benchmarking multiattack evaluation which captures performance across attack types and attack strengths. We evaluate the performance of 16 defended models for robustness against a set of 9 different attack types, including Lp-based threat models, spatial transformations, and color changes, at 20 different attack strengths (180 attacks total). Additionally, we analyze the state of current defenses against multiple attacks. Our analysis shows that while existing defenses have made progress in terms of average robustness across the set of attacks used, robustness against the worst-case attack is still a big open problem as all existing models perform worse than random guessing.",
+    "citation_count": 7,
+    "summary": "MultiRobustBench is a new benchmark evaluating machine learning model robustness against multiple adversarial attacks, encompassing diverse attack types and strengths, revealing that while average robustness has improved, worst-case attack robustness remains a significant challenge."
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.00046v1",
+    "title": "Edit at your own risk: evaluating the robustness of edited models to distribution shifts",
+    "published_date": "2023-02-28",
+    "abstract": "The current trend toward ever-larger models makes standard retraining procedures an ever-more expensive burden. For this reason, there is growing interest in model editing, which enables computationally inexpensive, interpretable, post-hoc model modifications. While many model editing techniques are promising, research on the properties of edited models is largely limited to evaluation of validation accuracy. The robustness of edited models is an important and yet mostly unexplored topic. In this paper, we employ recently developed techniques from the field of deep learning robustness to investigate both how model editing affects the general robustness of a model, as well as the robustness of the specific behavior targeted by the edit. We find that edits tend to reduce general robustness, but that the degree of degradation depends on the editing algorithm and layers chosen. Motivated by these observations we introduce a new model editing algorithm, 1-layer interpolation (1-LI), which uses weight-space interpolation to navigate the trade-off between editing task accuracy and general robustness.",
+    "citation_count": 8,
+    "summary": "This paper investigates the robustness of post-hoc model editing techniques, finding that while edits improve targeted behavior, they generally reduce overall model robustness; a novel 1-layer interpolation algorithm is proposed to mitigate this trade-off."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.13131",
+    "title": "Scaling Compute Is Not All You Need for Adversarial Robustness",
+    "published_date": "2023-12-20",
+    "abstract": "The last six years have witnessed significant progress in adversarially robust deep learning. As evidenced by the CIFAR-10 dataset category in RobustBench benchmark, the accuracy under $\\ell_\\infty$ adversarial perturbations improved from 44\\% in \\citet{Madry2018Towards} to 71\\% in \\citet{peng2023robust}. Although impressive, existing state-of-the-art is still far from satisfactory. It is further observed that best-performing models are often very large models adversarially trained by industrial labs with significant computational budgets. In this paper, we aim to understand: ``how much longer can computing power drive adversarial robustness advances?\"To answer this question, we derive \\emph{scaling laws for adversarial robustness} which can be extrapolated in the future to provide an estimate of how much cost we would need to pay to reach a desired level of robustness. We show that increasing the FLOPs needed for adversarial training does not bring as much advantage as it does for standard training in terms of performance improvements. Moreover, we find that some of the top-performing techniques are difficult to exactly reproduce, suggesting that they are not robust enough for minor changes in the training setup. Our analysis also uncovers potentially worthwhile directions to pursue in future research. Finally, we make our benchmarking framework (built on top of \\texttt{timm}~\\citep{rw2019timm}) publicly available to facilitate future analysis in efficient robust deep learning.",
+    "citation_count": 6,
+    "summary": "This paper investigates the relationship between computational resources and adversarial robustness in deep learning, finding diminishing returns from increased compute power for adversarial training and highlighting reproducibility issues with top-performing models. The authors propose scaling laws for adversarial robustness and release a benchmarking framework to facilitate future research in efficient robust deep learning."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.02251.pdf",
+    "title": "Certified Robust Neural Networks: Generalization and Corruption Resistance",
+    "published_date": "2023-03-03",
+    "abstract": "Recent work have demonstrated that robustness (to\"corruption\") can be at odds with generalization. Adversarial training, for instance, aims to reduce the problematic susceptibility of modern neural networks to small data perturbations. Surprisingly, overfitting is a major concern in adversarial training despite being mostly absent in standard training. We provide here theoretical evidence for this peculiar\"robust overfitting\"phenomenon. Subsequently, we advance a novel distributionally robust loss function bridging robustness and generalization. We demonstrate both theoretically as well as empirically the loss to enjoy a certified level of robustness against two common types of corruption--data evasion and poisoning attacks--while ensuring guaranteed generalization. We show through careful numerical experiments that our resulting holistic robust (HR) training procedure yields SOTA performance. Finally, we indicate that HR training can be interpreted as a direct extension of adversarial training and comes with a negligible additional computational burden. A ready-to-use python library implementing our algorithm is available at https://github.com/RyanLucas3/HR_Neural_Networks.",
+    "citation_count": 8,
+    "summary": "This paper explains the phenomenon of \"robust overfitting\" in adversarially trained neural networks and proposes a novel distributionally robust loss function to mitigate it, achieving state-of-the-art certified robustness against data corruption and guaranteed generalization with minimal computational overhead."
+  }
+]

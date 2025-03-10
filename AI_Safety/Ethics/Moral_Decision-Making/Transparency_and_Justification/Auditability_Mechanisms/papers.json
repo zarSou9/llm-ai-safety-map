@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.00069",
+    "title": "Meta-Sealing: A Revolutionizing Integrity Assurance Protocol for Transparent, Tamper-Proof, and Trustworthy AI System",
+    "published_date": "2024-10-31",
+    "abstract": "The Artificial intelligence in critical sectors-healthcare, finance, and public safety-has made system integrity paramount for maintaining societal trust. Current verification methods for AI systems lack comprehensive lifecycle assurance, creating significant vulnerabilities in deployment of both powerful and trustworthy AI. This research introduces Meta-Sealing, a cryptographic framework that fundamentally changes integrity verification in AI systems throughout their operational lifetime. Meta-Sealing surpasses traditional integrity protocols through its implementation of cryptographic seal chains, establishing verifiable, immutable records for all system decisions and transformations. The framework combines advanced cryptography with distributed verification, delivering tamper-evident guarantees that achieve both mathematical rigor and computational efficiency. Our implementation addresses urgent regulatory requirements for AI system transparency and auditability. The framework integrates with current AI governance standards, specifically the EU's AI Act and FDA's healthcare AI guidelines, enabling organizations to maintain operational efficiency while meeting compliance requirements. Testing on financial institution data demonstrated Meta-Sealing's capability to reduce audit timeframes by 62% while enhancing stakeholder confidence by 47%. Results can establish a new benchmark for integrity assurance in enterprise AI deployments. This research presents Meta-Sealing not merely as a technical solution, but as a foundational framework ensuring AI system integrity aligns with human values and regulatory requirements. As AI continues to influence critical decisions, provides the necessary bridge between technological advancement and verifiable trust. Meta-Sealing serves as a guardian of trust, ensuring that the AI systems we depend on are as reliable and transparent as they are powerful.",
+    "summary": "Meta-Sealing is a novel cryptographic framework providing comprehensive, tamper-proof integrity assurance for AI systems throughout their lifecycle, using cryptographic seal chains to create verifiable records of all system actions and significantly improving audit efficiency and stakeholder trust. This framework aligns with emerging AI regulations and enhances transparency."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.17114",
+    "title": "Decentralized Governance of Autonomous AI Agents",
+    "published_date": "2024-12-22",
+    "abstract": "Autonomous AI agents present transformative opportunities and significant governance challenges. Existing frameworks, such as the EU AI Act and the NIST AI Risk Management Framework, fall short of addressing the complexities of these agents, which are capable of independent decision-making, learning, and adaptation. To bridge these gaps, we propose the ETHOS (Ethical Technology and Holistic Oversight System) framework, a decentralized governance (DeGov) model leveraging Web3 technologies, including blockchain, smart contracts, and decentralized autonomous organizations (DAOs). ETHOS establishes a global registry for AI agents, enabling dynamic risk classification, proportional oversight, and automated compliance monitoring through tools like soulbound tokens and zero-knowledge proofs. Furthermore, the framework incorporates decentralized justice systems for transparent dispute resolution and introduces AI specific legal entities to manage limited liability, supported by mandatory insurance to ensure financial accountability and incentivize ethical design. By integrating philosophical principles of rationality, ethical grounding, and goal alignment, ETHOS aims to create a robust research agenda for promoting trust, transparency, and participatory governance. This innovative framework offers a scalable and inclusive strategy for regulating AI agents, balancing innovation with ethical responsibility to meet the demands of an AI-driven future.",
+    "summary": "The paper proposes ETHOS, a decentralized governance framework using Web3 technologies to manage autonomous AI agents, addressing limitations of current regulatory approaches by incorporating a global registry, dynamic risk classification, decentralized justice, and AI-specific legal entities. This aims to foster ethical AI development through transparency, accountability, and participatory governance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), focusing on short timelines (within a decade). The program aims to identify and evaluate strategies for mitigating these risks across various plausible scenarios."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.08275v1",
+    "title": "Implementing Responsible AI: Tensions and Trade-Offs Between Ethics Aspects",
+    "published_date": "2023-04-17",
+    "abstract": "Many sets of ethics principles for responsible AI have been proposed to allay concerns about misuse and abuse of AI/ML systems. The underlying aspects of such sets of principles include privacy, accuracy, fairness, robustness, explainability, and transparency. However, there are potential tensions between these aspects that pose difficulties for AI/ML developers seeking to follow these principles. For example, increasing the accuracy of an AI/ML system may reduce its explainability. As part of the ongoing effort to operationalise the principles into practice, in this work we compile and discuss a catalogue of 10 notable tensions, trade-offs and other interactions between the underlying aspects. We primarily focus on two-sided interactions, drawing on support spread across a diverse literature. This catalogue can be helpful in raising awareness of the possible interactions between aspects of ethics principles, as well as facilitating well-supported judgements by the designers and developers of AI/ML systems.",
+    "citation_count": 8,
+    "summary": "This paper identifies and analyzes ten significant tensions and trade-offs between ethical principles (e.g., accuracy vs. explainability) in the development of responsible AI systems. This catalogue aims to assist AI developers in navigating these competing considerations during the design and implementation process."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/ai",
+    "author": "Evan Hubinger",
+    "title": "AI - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "Artificial intelligence alignment focuses on ensuring powerful AI systems act according to human values, preventing unintended consequences that could threaten humanity. This involves addressing the challenge of aligning AI goals with human goals, ranging from narrow tasks to achieving a beneficial future for civilization."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/interpretability-ml-and-ai",
+    "author": "Lee Sharkey, Dan Braun, Beren Millidge",
+    "title": "Interpretability (ML & AI) - AI Alignment Forum",
+    "published_date": "2023-04-30",
+    "summary": "AI interpretability focuses on making the decision-making processes of machine learning models understandable, a crucial aspect currently lacking in many systems, hindering bias detection and understanding. Mechanistic interpretability, a key subfield, aims to understand how neural networks function internally, contrasting with methods focused on attributing outputs to specific inputs."
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.04754v1",
+    "title": "System Cards for AI-Based Decision-Making for Public Policy",
+    "published_date": "2022-03-01",
+    "abstract": "Decisions impacting human lives are increasingly being made or assisted by automated decision-making algorithms. Many of these algorithms process personal data for predicting recidivism, credit risk analysis, identifying individuals using face recognition, and more. While potentially improving efficiency and effectiveness, such algorithms are not inherently free from bias, opaqueness, lack of explainability, maleficence, and the like. Given that the outcomes of these algorithms have a significant impact on individuals and society and are open to analysis and contestation after deployment, such issues must be accounted for before deployment. Formal audits are a way of ensuring algorithms meet the appropriate accountability standards. This work, based on an extensive analysis of the literature and an expert focus group study, proposes a unifying framework for a system accountability benchmark for formal audits of artificial intelligence-based decision-aiding systems. This work also proposes system cards to serve as scorecards presenting the outcomes of such audits. It consists of 56 criteria organized within a four-by-four matrix composed of rows focused on (i) data, (ii) model, (iii) code, (iv) system, and columns focused on (a) development, (b) assessment, (c) mitigation, and (d) assurance. The proposed system accountability benchmark reflects the state-of-the-art developments for accountable systems, serves as a checklist for algorithm audits, and paves the way for sequential work in future research.",
+    "citation_count": 12,
+    "summary": "This paper proposes a system accountability benchmark and accompanying \"system cards\" for auditing AI-based public policy decision-making systems, using a 56-criteria framework addressing data, model, code, and system aspects across development, assessment, mitigation, and assurance stages. This framework aims to improve transparency and accountability in AI systems impacting human lives."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2112.07773v1.pdf",
+    "title": "Filling gaps in trustworthy development of AI",
+    "published_date": "2021-12-10",
+    "abstract": "Description Incident sharing, auditing, and other concrete mechanisms could help verify the trustworthiness of actors The range of application of artificial intelligence (AI) is vast, as is the potential for harm. Growing awareness of potential risks from AI systems has spurred action to address those risks while eroding confidence in AI systems and the organizations that develop them. A 2019 study (1) found more than 80 organizations that have published and adopted “AI ethics principles,” and more have joined since. But the principles often leave a gap between the “what” and the “how” of trustworthy AI development. Such gaps have enabled questionable or ethically dubious behavior, which casts doubts on the trustworthiness of specific organizations, and the field more broadly. There is thus an urgent need for concrete methods that both enable AI developers to prevent harm and allow them to demonstrate their trustworthiness through verifiable behavior. Below, we explore mechanisms [drawn from (2)] for creating an ecosystem where AI developers can earn trust—if they are trustworthy (see the figure). Better assessment of developer trustworthiness could inform user choice, employee actions, investment decisions, legal recourse, and emerging governance regimes.",
+    "citation_count": 36,
+    "summary": "The paper argues that while many AI organizations have adopted ethical principles, a lack of concrete mechanisms for verifying trustworthiness hinders responsible AI development. It proposes using incident sharing, auditing, and other methods to bridge this gap and foster greater trust in AI systems and their developers."
+  }
+]

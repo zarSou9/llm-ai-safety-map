@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The article advocates for third-party testing of large-scale AI systems to mitigate societal harms, arguing that such a regime, involving industry, government, and academia, is crucial for managing the risks of powerful AI models while fostering innovation. This approach would build trust, avoid overly burdensome regulations on smaller companies, and facilitate international cooperation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/m6poxWegJkp8LPpjw/can-generalized-adversarial-testing-enable-more-rigorous-llm",
+    "author": "Stephen Casper",
+    "title": "Can Generalized Adversarial Testing Enable More Rigorous LLM Safety Evals?",
+    "published_date": "2024-07-30",
+    "summary": "The article argues that current LLM safety evaluations are insufficient because they primarily focus on input-space attacks, neglecting the potential for attackers to manipulate the model's internal weights or activations. It proposes \"generalized\" adversarial testing, which simulates a wider range of threats, including post-deployment modifications, to better assess and mitigate LLMs' latent harmful capabilities."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13",
+    "summary": "Current methods for assessing the risk of catastrophic AI behavior are insufficient because they rely on finding specific harmful inputs, which is computationally prohibitive. The article proposes developing methods to estimate the probability of such events without directly searching for harmful inputs, thereby improving AI safety."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to analyze potential trajectories of transformative AI (TAI), focusing on scenarios where TAI emerges within a decade. The program aims to identify existential hazards, evaluate AI safety and governance strategies across these scenarios, and recommend strategies to mitigate existential risk."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dZFpEdKyb9Bf4xYn7/tips-for-empirical-alignment-research",
+    "author": "Ethan Perez",
+    "title": "Tips for Empirical Alignment Research",
+    "published_date": "2024-02-29",
+    "summary": "This article offers advice for success in empirical AI alignment research, focusing on prioritizing rapid experimentation and implementation speed to quickly test ideas and achieve results. Key success criteria include swiftly executing experiments, efficiently designing minimal tests, and proactively seeking help when needed."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes AI safety-relevant content, reflecting the principle of summarizing material for careful consideration."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/mL8KdftNGBScmBcBg/optimization-concepts-in-the-game-of-life",
+    "author": "Vika, Ramana Kumar",
+    "title": "Optimization Concepts in the Game of Life",
+    "published_date": "2021-10-16",
+    "summary": "This paper defines and applies measures of robustness and retargetability—aspects of optimization—to Conway's Game of Life, using it as a simplified model for studying embedded agency. The authors aim to better understand agency in AI systems by analyzing these concepts in a deterministic, unconstrained environment."
+  },
+  {
+    "title": "ARTDL: Adaptive Random Testing for Deep Learning Systems",
+    "abstract": "With recent breakthroughs in Deep Learning (DL), DL systems are increasingly deployed in safety-critical fields. Hence, some software testing methods are required to ensure the reliability and safety of DL systems. Since the rules of DL systems are inferred from training data, it is difficult to know the implementation rules about each behavior of DL systems. At the same time, Random Testing (RT) is a popular testing method and the knowledge about software implementation is not needed when we use RT. Therefore, RT is very suitable for the testing of DL systems. And the existing mechanisms for testing DL systems also depend heavily on RT by the labeled test data. In order to increase the effectiveness of RT for DL systems, we design, implement and evaluate the Adaptive Random Testing for DL systems (ARTDL), which is the first Adaptive Random Testing (ART) method to improve the effectiveness of RT for DL systems. ARTDL refers to the idea of ART. That is, fewer test cases are needed to detect failures by selecting the test case with the furthest distance from non-failure-causing test cases. Firstly, we propose the Feature-based Euclidean Distance (FED) as the distance metric that can be used to measure the difference between failure-causing inputs and non-failure-causing inputs. Secondly, we verify the availability of FED by presenting the failure pattern of DL models. Finally, we design ARTDL algorithm to generate the test cases that are more likely to cause failures based on the FED. We implement ARTDL to test top performing DL models in the field of image classification and automatic driving. The results show that, on average, the number of test cases used to find the first bug is reduced by 62.74% through ARTDL, compared with RT.",
+    "published_date": "2020-01-01",
+    "citation_count": 11,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08944083.pdf",
+    "summary": "ARTDL is an adaptive random testing method for deep learning systems that uses a feature-based Euclidean distance metric to select test cases likely to reveal failures, resulting in a 62.74% reduction in the number of test cases needed to find the first bug compared to standard random testing."
+  }
+]

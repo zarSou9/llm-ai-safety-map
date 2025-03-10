@@ -1,0 +1,61 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.10268",
+    "title": "The complementary contributions of academia and industry to AI research",
+    "published_date": "2024-01-04",
+    "abstract": "Artificial intelligence (AI) has seen fast paced development in industry and academia. However, striking recent advances by industry have stunned the field, inviting a fresh perspective on the role of academic research on this progress. Here, we characterize the impact and type of AI produced by both environments over the last 25 years and establish several patterns. We find that articles published by teams consisting exclusively of industry researchers tend to get greater attention, with a higher chance of being highly cited and citation-disruptive, and several times more likely to produce state-of-the-art models. In contrast, we find that exclusively academic teams publish the bulk of AI research and tend to produce higher novelty work, with single papers having several times higher likelihood of being unconventional and atypical. The respective impact-novelty advantages of industry and academia are robust to controls for subfield, team size, seniority, and prestige. We find that academic-industry collaborations produce the most impactful work overall but do not have the novelty level of academic teams. Together, our findings identify the unique and nearly irreplaceable contributions that both academia and industry make toward the progress of AI.",
+    "summary": "Industry AI research produces highly impactful, state-of-the-art models, while academia generates more novel, albeit less widely cited, work; collaborations between the two yield the most impactful research overall."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.01545",
+    "title": "In the Shadow of Smith's Invisible Hand: Risks to Economic Stability and Social Wellbeing in the Age of Intelligence",
+    "published_date": "2024-04-22",
+    "abstract": "Work is fundamental to societal prosperity and mental health, providing financial security, identity, purpose, and social integration. The emergence of generative artificial intelligence (AI) has catalysed debate on job displacement. Some argue that many new jobs and industries will emerge to offset the displacement, while others foresee a widespread decoupling of economic productivity from human input threatening jobs on an unprecedented scale. This study explores the conditions under which both may be true and examines the potential for a self-reinforcing cycle of recessionary pressures that would necessitate sustained government intervention to maintain job security and economic stability. A system dynamics model was developed to undertake ex ante analysis of the effect of AI-capital deepening on labour underutilisation and demand in the economy. Results indicate that even a moderate increase in the AI-capital-to-labour ratio could increase labour underutilisation to double its current level, decrease per capita disposable income by 26% (95% interval, 20.6% - 31.8%), and decrease the consumption index by 21% (95% interval, 13.6% - 28.3%) by mid-2050. To prevent a reduction in per capita disposable income due to the estimated increase in underutilization, at least a 10.8-fold increase in the new job creation rate would be necessary. Results demonstrate the feasibility of an AI-capital- to-labour ratio threshold beyond which even high rates of new job creation cannot prevent declines in consumption. The precise threshold will vary across economies, emphasizing the urgent need for empirical research tailored to specific contexts. This study underscores the need for governments, civic organisations, and business to work together to ensure a smooth transition to an AI- dominated economy to safeguard the Mental Wealth of nations.",
+    "citation_count": 2,
+    "summary": "A system dynamics model predicts that even moderate increases in AI adoption could significantly increase unemployment and decrease disposable income by mid-2050, highlighting the urgent need for proactive government intervention and job creation to mitigate the negative economic and social consequences. The study suggests a threshold exists beyond which job creation cannot offset AI-driven economic decline."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mXD53GFvMCWQhcCwt/distinguishing-ways-ai-can-be-concentrated",
+    "author": "Matthew Barnett",
+    "title": "Distinguishing ways AI can be \"concentrated\"",
+    "published_date": "2024-10-21",
+    "summary": "The author argues that discussions of AI concentration are unclear, proposing three distinct dimensions: concentration of AI development, service provision, and control. These dimensions are independent and should be analyzed separately to accurately assess AI's trajectory and inform policy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.04714",
+    "title": "The potential impact of AI innovations on US occupations",
+    "published_date": "2023-12-07",
+    "abstract": "Abstract An occupation is comprised of interconnected tasks, and it is these tasks, not occupations themselves, that are affected by Artificial Intelligence (AI). To evaluate how tasks may be impacted, previous approaches utilized manual annotations or coarse-grained matching. Leveraging recent advancements in machine learning, we replace coarse-grained matching with more precise deep learning approaches. Introducing the AI Impact measure, we employ Deep Learning Natural Language Processing to automatically identify AI patents that may impact various occupational tasks at scale. Our methodology relies on a comprehensive dataset of 17,879 task descriptions and quantifies AI's potential impact through analysis of 24,758 AI patents filed with the United States Patent and Trademark Office between 2015 and 2022. Our results reveal that some occupations will potentially be impacted, and that impact is intricately linked to specific skills. These include not only routine tasks (codified as a series of steps), as previously thought but also nonroutine ones (e.g. diagnosing health conditions, programming computers, and tracking flight routes). However, AI's impact on labor is limited by the fact that some of the occupations affected are augmented rather than replaced (e.g. neurologists, software engineers, air traffic controllers), and the sectors affected are experiencing labor shortages (e.g. IT, Healthcare, Transport).",
+    "citation_count": 3,
+    "summary": "Using deep learning, this study analyzes the potential impact of AI on US occupations by examining AI patents' effects on individual tasks within those occupations. The findings show AI's impact extends beyond routine tasks to affect various skill sets, but augmentation rather than complete replacement is more common, particularly in sectors experiencing labor shortages."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2304.10578.pdf",
+    "title": "Quantifying the Benefit of Artificial Intelligence for Scientific Research",
+    "published_date": "2023-04-17",
+    "abstract": "The ongoing artificial intelligence (AI) revolution has the potential to change almost every line of work. As AI capabilities continue to improve in accuracy, robustness, and reach, AI may outperform and even replace human experts across many valuable tasks. Despite enormous effort devoted to understanding the impact of AI on labor and the economy and AI's recent successes in accelerating scientific discovery and progress, we lack a systematic understanding of how AI advances may benefit scientific research across disciplines and fields. Here, drawing from the literature on the future of work and the science of science, we develop a measurement framework to estimate both the direct use of AI and the potential benefit of AI in scientific research, applying natural language processing techniques to 74.6 million publications and 7.1 million patents. We find that the use of AI in research is widespread throughout the sciences, growing especially rapidly since 2015, and papers that use AI exhibit a citation premium, more likely to be highly cited both within and outside their disciplines. Moreover, our analysis reveals considerable potential for AI to benefit numerous scientific fields, yet a notable disconnect exists between AI education and its research applications, highlighting a mismatch between the supply of AI expertise and its demand in research. Lastly, we examine demographic disparities in AI's benefits across scientific disciplines and find that disciplines with a higher proportion of women or Black scientists tend to be associated with less benefit, suggesting that AI's growing impact on research may further exacerbate existing inequalities in science. As the connection between AI and scientific research deepens, our findings may become increasingly important, with implications for the equity and sustainability of the research enterprise.",
+    "citation_count": 4,
+    "summary": "This study uses a novel framework and NLP techniques to analyze the widespread and growing use of AI in scientific research, finding a citation advantage for AI-assisted papers but also revealing a concerning disparity in AI's benefits across disciplines, potentially exacerbating existing inequalities."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "The article explores applying game theory to AI development within organizational structures, highlighting its limitations and suggesting that a multi-agent approach incorporating bureaucratic principles—hierarchical authority and job specialization—is necessary for efficient collaboration between humans and AI agents, even in the face of potential superintelligence. This collaborative model leverages comparative advantages, with humans maintaining superiority in complex, uncertain tasks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ngpC5PFAgxHJMhicM/agi-and-the-emh-markets-are-not-expecting-aligned-or-1",
+    "author": "basil.halperin, J. Zachary Mazlish, tmychow",
+    "title": "AGI and the EMH: markets are not expecting aligned or unaligned AI in the next 30 years",
+    "published_date": "2023-01-10",
+    "summary": "Low current long-term real interest rates suggest either that transformative AI is unlikely within the next 30-50 years (efficient market hypothesis), or that markets significantly underestimate AI's development speed, presenting investment opportunities."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/iRhSi5KcnnD9qsAGo/observed-patterns-around-major-technological-advancements",
+    "author": "Richard Korzekwa",
+    "title": "Observed patterns around major technological advancements",
+    "published_date": "2022-02-03",
+    "summary": "The article identifies recurring patterns in major technological advancements: initial versions offer low practical value, followed by rapid improvement; significant breakthroughs are often preceded by lesser-known advancements after periods of stagnation; and major advances typically arise amidst expert disagreement on effective approaches."
+  }
+]

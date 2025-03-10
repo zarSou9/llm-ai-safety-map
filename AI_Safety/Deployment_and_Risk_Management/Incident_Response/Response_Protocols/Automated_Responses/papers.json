@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2501.08933",
+    "title": "Separation Assurance in Urban Air Mobility Systems using Shared Scheduling Protocols",
+    "published_date": "2025-01-15",
+    "abstract": "Ensuring safe separation between aircraft is a critical challenge in air traffic management, particularly in urban air mobility (UAM) environments where high traffic density and low altitudes require precise control. In these environments, conflicts often arise at the intersections of flight corridors, posing significant risks. We propose a tactical separation approach leveraging shared scheduling protocols, originally designed for Ethernet networks and operating systems, to coordinate access to these intersections. Using a decentralized Markov decision process framework, the proposed approach enables aircraft to autonomously adjust their speed and timing as they navigate these critical areas, maintaining safe separation without a central controller. We evaluate the effectiveness of this approach in simulated UAM scenarios, demonstrating its ability to reduce separation violations to zero while acknowledging trade-offs in flight times as traffic density increases. Additionally, we explore the impact of non-compliant aircraft, showing that while shared scheduling protocols can no longer guarantee safe separation, they still provide significant improvements over systems without scheduling protocols.",
+    "summary": "This paper proposes a decentralized, shared scheduling protocol for ensuring safe separation in high-density urban air mobility (UAM) systems, enabling autonomous aircraft to coordinate their movements at intersection points and minimizing separation violations even with non-compliant actors. Simulation results demonstrate its effectiveness in maintaining safe separation, though at the potential cost of increased flight times under heavy traffic."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.17816",
+    "title": "Towards Hypermedia Environments for Adaptive Coordination in Industrial Automation",
+    "published_date": "2024-06-25",
+    "abstract": "Electromechanical systems manage physical processes through a network of inter-connected components. Today, programming the interactions required for coordinating these components is largely a manual process. This process is time-consuming and requires manual adaptation when system features change. To overcome this issue, we use autonomous software agents that process semantic descriptions of the system to determine coordination requirements and constraints; on this basis, they then interact with one another to control the system in a decentralized and coordinated manner. Our core insight is that coordination requirements between individual components are, ultimately, largely due to underlying physical interdependencies between the components, which can be (and, in many cases, already are) semantically modeled in automation projects. Agents then use hypermedia to discover, at run time, the plans and protocols required for enacting the coordination. A key novelty of our approach is the use of hypermedia-driven interaction: it reduces coupling in the system and enables its run-time adaptation as features change.",
+    "summary": "This paper proposes using autonomous software agents and hypermedia to enable adaptive coordination in industrial automation systems, overcoming the limitations of manual programming by leveraging semantic descriptions of component interdependencies for decentralized control and run-time adaptation. The hypermedia approach reduces system coupling and facilitates adaptation to changing system features."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.13967.pdf",
+    "title": "REGARD: Rules of EngaGement for Automated cybeR Defense to aid in Intrusion Response",
+    "published_date": "2023-05-23",
+    "abstract": "Automated Intelligent Cyberdefense Agents (AICAs) that are part Intrusion Detection Systems (IDS) and part Intrusion Response Systems (IRS) are being designed to protect against sophisticated and automated cyber-attacks. An AICA based on the ideas of Self-Adaptive Autonomic Computing Systems (SA-ACS) can be considered as a managing system that protects a managed system like a personal computer, web application, critical infrastructure, etc. An AICA, specifically the IRS components, can compute a wide range of potential responses to meet its security goals and objectives, such as taking actions to prevent the attack from completing, restoring the system to comply with the organizational security policy, containing or confining an attack, attack eradication, deploying forensics measures to enable future attack analysis, counterattack, and so on. To restrict its activities in order to minimize collateral/organizational damage, such an automated system must have set Rules of Engagement (RoE). Automated systems must determine which operations can be completely automated (and when), which actions require human operator confirmation, and which actions must never be undertaken. In this paper, to enable this control functionality over an IRS, we create Rules of EngaGement for Automated cybeR Defense (REGARD) system which holds a set of Rules of Engagement (RoE) to protect the managed system according to the instructions provided by the human operator. These rules help limit the action of the IRS on the managed system in compliance with the recommendations of the domain expert. We provide details of execution, management, operation, and conflict resolution for Rules of Engagement (RoE) to constrain the actions of an automated IRS. We also describe REGARD system implementation, security case studies for cyber defense, and RoE demonstrations.",
+    "summary": "The REGARD system establishes Rules of Engagement (RoE) to govern the actions of automated intrusion response systems (IRS), limiting their autonomous responses and ensuring compliance with human-defined security policies to minimize collateral damage. This paper details the REGARD system's design, implementation, and application in cyber defense scenarios, including conflict resolution mechanisms."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "President Biden's October 30, 2023 executive order on AI outlines numerous deadlines for various federal agencies to submit reports, develop strategies, and implement initiatives related to AI development, deployment, workforce, and risk mitigation, spanning from late November 2023 to January 2024 and beyond."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2202.11932.pdf",
+    "title": "Collective Conditioned Reflex: A Bio-Inspired Fast Emergency Reaction Mechanism for Designing Safe Multi-Robot Systems",
+    "published_date": "2022-02-24",
+    "abstract": "A multi-robot system (MRS) is a group of coordinated robots designed to cooperate with each other and accomplish given tasks. Due to the uncertainties in operating environments, the system may encounter emergencies, such as unobserved obstacles, moving vehicles, and extreme weather. Animal groups such as bee colonies initiate collective emergency reaction behaviors such as bypassing obstacles and avoiding predators, similar to muscle conditioned reflex which organizes local muscles to avoid hazards in the first response without delaying passage through the brain. Inspired by this, we develop a similar collective conditioned reflex mechanism for multi-robot systems to respond to emergencies. In this study, Collective Conditioned Reflex (CCR), a bio-inspired emergency reaction mechanism, is developed based on animal collective behavior analysis and multi-agent reinforcement learning (MARL). The algorithm uses a physical model to determine if the robots are experiencing an emergency; then, rewards for robots involved in the emergency are augmented with corresponding heuristic rewards, which evaluate emergency magnitudes and consequences and decide local robots' participation. CCR is validated on three typical emergency scenarios: turbulence, strong wind, and hidden obstacle. Simulation results demonstrate that CCR improves robot teams' emergency reaction capability with faster reaction speed and safer trajectory adjustment compared with baseline methods.",
+    "citation_count": 3,
+    "summary": "This paper proposes Collective Conditioned Reflex (CCR), a bio-inspired mechanism for multi-robot systems to rapidly respond to emergencies, using a multi-agent reinforcement learning approach inspired by animal collective behavior and conditioned reflexes. CCR improves emergency response speed and safety compared to baseline methods through heuristic reward augmentation based on emergency severity."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rmwAuWXYTo24E5nnX/a-pin-and-a-balloon-anthropic-fragility-increases-chances-of",
+    "author": "avturchin",
+    "title": "A Pin and a Balloon: Anthropic Fragility Increases Chances of Runaway Global Warming",
+    "published_date": "2022-09-11",
+    "summary": "Due to survival bias, we underestimate the likelihood and imminence of climate tipping points, making Earth more vulnerable to human-caused catastrophes. This \"anthropic fragility\" increases the probability of runaway global warming and human extinction, necessitating urgent geoengineering research."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.12919.pdf",
+    "title": "Failure-Tolerant Contract-Based Design of an Automated Valet Parking System using a Directive-Response Architecture",
+    "published_date": "2021-03-24",
+    "abstract": "Increased complexity in cyber-physical systems calls for modular system design methodologies that guarantee correct and reliable behavior, both in normal operations and in the presence of failures. This paper aims to extend the contract-based design approach using a directive-response architecture to enable reactivity to failure scenarios. The architecture is demonstrated on a modular automated valet parking (AVP) system. The contracts for the different components in the AVP system are explicitly defined, implemented, and validated against a Python implementation.",
+    "summary": "This paper presents a failure-tolerant, contract-based design for an automated valet parking system, using a directive-response architecture to ensure reliable operation even during failures, and validates the approach through Python implementation."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.00528v1.pdf",
+    "title": "How to Measure Cyber Resilience of an Autonomous Agent: Approaches and Challenges",
+    "published_date": "2021-01-31",
+    "abstract": "Several approaches have been used to assess the performance of cyberphysical systems and their exposure to various types of risks. Such assessments have become increasingly important as autonomous attackers ramp up the frequency, duration and intensity of threats while autonomous agents have the potential to respond to cyber-attacks with unprecedented speed and scale. However, most assessment approaches have limitations with respect to measuring cyber resilience, or the ability of systems to absorb, recover from, and adapt to cyberattacks. In this paper, we provide an overview of several common approaches, discuss practical challenges and propose research directions for the development of effective cyber resilience measures.",
+    "citation_count": 1,
+    "summary": "This paper reviews existing methods for assessing the cyber resilience of autonomous agents, highlighting their limitations in measuring the ability to absorb, recover from, and adapt to cyberattacks. It also proposes future research directions to develop more effective cyber resilience metrics."
+  }
+]

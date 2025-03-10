@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.18195",
+    "title": "Scalable Multi-Objective Reinforcement Learning with Fairness Guarantees using Lorenz Dominance",
+    "published_date": "2024-11-27",
+    "abstract": "Multi-Objective Reinforcement Learning (MORL) aims to learn a set of policies that optimize trade-offs between multiple, often conflicting objectives. MORL is computationally more complex than single-objective RL, particularly as the number of objectives increases. Additionally, when objectives involve the preferences of agents or groups, ensuring fairness is socially desirable. This paper introduces a principled algorithm that incorporates fairness into MORL while improving scalability to many-objective problems. We propose using Lorenz dominance to identify policies with equitable reward distributions and introduce {\\lambda}-Lorenz dominance to enable flexible fairness preferences. We release a new, large-scale real-world transport planning environment and demonstrate that our method encourages the discovery of fair policies, showing improved scalability in two large cities (Xi'an and Amsterdam). Our methods outperform common multi-objective approaches, particularly in high-dimensional objective spaces."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/s6wew6qerE4XHmbTL/greedy-advantage-aware-rlhf",
+    "author": "sej2020",
+    "title": "Greedy-Advantage-Aware RLHF",
+    "published_date": "2024-12-27"
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.01961",
+    "title": "Soda: An Object-Oriented Functional Language for Specifying Human-Centered Problems",
+    "published_date": "2023-10-03",
+    "abstract": "We present Soda (Symbolic Objective Descriptive Analysis), a language that helps to treat qualities and quantities in a natural way and greatly simplifies the task of checking their correctness. We present key properties for the language motivated by the design of a descriptive language to encode complex requirements on computer systems, and we explain how these key properties must be addressed to model these requirements with simple definitions. We give an overview of a tool that helps to describe problems in an easy way that we consider more transparent and less error-prone.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/ZEoyoccFoBQQRzbz2/deepmind-team-on-specification-gaming",
+    "author": "Joshua Fox",
+    "title": "DeepMind team on specification gaming - AI Alignment Forum",
+    "published_date": "2023-02-06"
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.10304",
+    "title": "Synthesizing Reactive Test Environments for Autonomous Systems: Testing Reach-Avoid Specifications with Multi-Commodity Flows",
+    "published_date": "2022-10-19",
+    "abstract": "We study automated test generation for testing discrete decision-making modules in autonomous systems. Linear temporal logic is used to encode the system specification - requirements of the system under test - and the test specification, which is unknown to the system and describes the desired test behavior. The reactive test synthesis problem is to find constraints on system actions such that in a test execution, both the system and test specifications are satisfied. To do this, we use the specifications and their corresponding Büchi automata to construct the specification product automaton. Then, a virtual product graph representing all possible test executions of the system is constructed from the transition system and the specification product automaton. The main result of this paper is framing the test synthesis problem as a multi-commodity network flow optimization. This optimization is used to derive reactive constraints on system actions, which constitute the test environment. The resulting test environment ensures that the system meets the test specification while also satisfying the system specification. We illustrate this framework in simulation using grid world examples and demonstrate it on hardware with the Unitree A1 quadruped, where we test dynamic locomotion behaviors reactively.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2105.04662",
+    "title": "Multi-Objective Controller Synthesis with Uncertain Human Preferences",
+    "published_date": "2021-05-10",
+    "abstract": "Complex real-world applications of cyber-physical systems give rise to the need for multi-objective controller synthesis, which con-cerns the problem of computing an optimal controller subject to multiple (possibly conflicting) criteria. The relative importance of objectives is often specified by human decision-makers. However, there is inherent uncertainty in human preferences (e.g., due to artifacts resulting from different preference elicitation methods). In this paper, we formalize the notion of uncertain human preferences, and present a novel approach that accounts for this uncertainty in the context of multi-objective controller synthesis for Markov decision processes (MDPs). Our approach is based on mixed-integer linear programming and synthesizes an optimally permissive multi-strategy that satisfies uncertain human preferences with respect to a multi-objective property. Experimental results on a range of large case studies show that the proposed approach is feasible and scalable across varying MDP model sizes and uncertainty levels of human preferences. Evaluation via an online user study also demon-strates the quality and benefits of the synthesized controllers.",
+    "citation_count": 1
+  }
+]

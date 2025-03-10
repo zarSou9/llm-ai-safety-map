@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.21446",
+    "title": "Improving DeFi Mechanisms with Dynamic Games and Optimal Control: A Case Study in Stablecoins",
+    "published_date": "2024-10-28",
+    "abstract": "Stablecoins are a class of cryptocurrencies which aim at providing consistency and predictability, typically by pegging the token's value to that of a real world asset. Designing resilient decentralized stablecoins is a challenge, and prominent stablecoins today either (i) give up on decentralization, or (ii) rely on user-owned cryptocurrencies as collateral, exposing the token to exogenous price fluctuations. In this latter category, it is increasingly common to employ algorithmic mechanisms to automate risk management, helping maintain the peg. One example of this is Reflexer's RAI, which adapts its system-internal exchange rate (redemption price) to secondary market conditions according to a proportional control law. In this paper, we take this idea of active management a step further, and introduce a new kind of control scheme based on a Stackelberg game model between the token protocol and its users. By doing so, we show that (i) we can mitigate adverse depeg events that inevitably arise in a fixed-redemption scheme such as MakerDao's DAI and (ii) generally outperform a simpler, adaptive-redemption scheme such as RAI in the task of targeting a desired market price. We demonstrate these results through extensive simulations over a range of market conditions."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.07985",
+    "title": "Games for AI Control: Models of Safety Evaluations of AI Deployment Protocols",
+    "published_date": "2024-09-12",
+    "abstract": "To evaluate the safety and usefulness of deployment protocols for untrusted AIs, AI Control uses a red-teaming exercise played between a protocol designer and an adversary. This paper introduces AI-Control Games, a formal decision-making model of the red-teaming exercise as a multi-objective, partially observable, stochastic game. We also introduce methods for finding optimal protocols in AI-Control Games, by reducing them to a set of zero-sum partially observable stochastic games. We apply our formalism to model, evaluate and synthesise protocols for deploying untrusted language models as programming assistants, focusing on Trusted Monitoring protocols, which use weaker language models and limited human assistance. Finally, we demonstrate the utility of our formalism by showcasing improvements over empirical studies in existing settings, evaluating protocols in new settings, and analysing how modelling assumptions affect the safety and usefulness of protocols.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.07241v2",
+    "title": "Incentives and Coevolution: Steering Linear Dynamical Systems With Noncooperative Agents",
+    "published_date": "2023-03-13",
+    "abstract": "Modern sociotechnical systems typically consist of many interconnected users and competing service providers, where notions like market equilibrium are tightly connected to the “evolution” of the network of users. In this article, we model the users' dynamics as a linear dynamical system and the service providers as agents taking part in a generalized Nash game, whose outcome coincides with the input of the users' dynamics. We thus characterize the notion of coevolution of the market and the network dynamics and derive dissipativity-based conditions leading to a pertinent notion of equilibrium. We then focus on the control design and adopt the light-touch policy to incentivize or penalize the service providers as little as possible, while steering the networked system to a desirable outcome. We also provide a dimensionality reduction procedure, which offers network-size-independent conditions. Finally, we illustrate our novel notions and algorithms on a simulation setup stemming from digital market regulations for influencers, a topic of growing interest.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.06593v1.pdf",
+    "title": "Emergent Prosociality in Multi-Agent Games Through Gifting",
+    "published_date": "2021-05-13",
+    "abstract": "Coordination is often critical to forming prosocial behaviors -- behaviors that increase the overall sum of rewards received by all agents in a multi-agent game. However, state of the art reinforcement learning algorithms often suffer from converging to socially less desirable equilibria when multiple equilibria exist. Previous works address this challenge with explicit reward shaping, which requires the strong assumption that agents can be forced to be prosocial. We propose using a less restrictive peer-rewarding mechanism, gifting, that guides the agents toward more socially desirable equilibria while allowing agents to remain selfish and decentralized. Gifting allows each agent to give some of their reward to other agents. We employ a theoretical framework that captures the benefit of gifting in converging to the prosocial equilibrium by characterizing the equilibria's basins of attraction in a dynamical system. With gifting, we demonstrate increased convergence of high risk, general-sum coordination games to the prosocial equilibrium both via numerical analysis and experiments.",
+    "citation_count": 23
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.13475v2.pdf",
+    "title": "Robust Stochastic Stability in Dynamic and Reactive Environments",
+    "published_date": "2021-03-24",
+    "abstract": "The theory of learning in games has extensively studied situations where agents respond dynamically to each other by optimizing a fixed utility function. However, in many settings of interest, agent utility functions themselves vary as a result of past agent choices. The ongoing COVID-19 pandemic provides an example: a highly prevalent virus may incentivize individuals to wear masks, but extensive adoption of mask-wearing reduces virus prevalence which in turn reduces individual incentives for mask-wearing. This paper develops a general framework using probabilistic coupling methods that can be used to derive the stochastically stable states of log-linear learning in certain games which feature such game-environment feedback. As a case study, we apply this framework to a simple dynamic game-theoretic model of social precautions in an epidemic and give conditions under which maximally-cautious social behavior in this model is stochastically stable.",
+    "citation_count": 4
+  }
+]

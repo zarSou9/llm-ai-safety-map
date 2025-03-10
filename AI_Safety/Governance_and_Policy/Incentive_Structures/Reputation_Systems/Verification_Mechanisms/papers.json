@@ -1,0 +1,59 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.16759",
+    "title": "Sandi: A System for Accountability and Applications in Direct Communication",
+    "published_date": "2024-01-30",
+    "abstract": "We construct a system, Sandi, to bring trust in online communication through accountability. Sandi is based on a unique\"somewhat monotone\"accountability score, with strong privacy and security properties. A registered sender can request from Sandi a cryptographic tag encoding its score. The score measures the sender's trustworthiness based on its previous communications. The tag is sent to a receiver with whom the sender wants to initiate a conversation and signals the sender's\"endorsement\"for the communication channel. Receivers can use the sender's score to decide how to proceed with the sender. If a receiver finds the sender's communication inappropriate, it can use the tag to report the sender to Sandi, thus decreasing the sender's score. Sandi aims to benefit both senders and receivers. Senders benefit, as receivers are more likely to react to communication on an endorsed channel. Receivers benefit, as they can make better choices regarding who they interact with based on indisputable evidence from prior receivers. Receivers do not need registered accounts. Neither senders nor receivers are required to maintain long-term secret keys. Sandi provides a score integrity guarantee for the senders, a full communication privacy guarantee for the senders and receivers, a reporter privacy guarantee to protect reporting receivers, and an unlinkability guarantee to protect senders. The design of Sandi ensures compatibility with any communication system that allows for small binary data transfer. Finally, we provide a game-theoretic analysis for the sender. We prove that Sandi drives rational senders towards a strategy that reduces the amount of inappropriate communication.",
+    "summary": "Sandi is a system enhancing online communication trust by assigning users a trustworthiness score, cryptographically verifiable by senders and usable by receivers to assess communication partners. This score, based on past behavior and reports, incentivizes responsible communication while preserving user privacy and security."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12",
+    "summary": "This article proposes a delay-based location verification mechanism for on-chip compute governance, using the speed of light to verify the location of AI chips. However, the mechanism's reliance on network latency introduces a significant false positive problem, necessitating a solution to improve reliability."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/3P8WBwLyfPBEkbG3c/proveably-safe-self-driving-cars",
+    "author": "Davidmanheim",
+    "title": "Proveably Safe Self Driving Cars",
+    "published_date": "2024-09-15",
+    "summary": "The author argues that \"provably safe AI,\" while not a complete solution to AI safety, offers near-term practical applications, using the example of autonomous vehicles. By building upon existing formally verifiable components and integrating proven reliability analyses of sensors and mechanical systems, a layered approach to proving safety within defined limits is achievable."
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.04861",
+    "title": "Sandi: A System for Accountability and Applications in Direct Communication (Extended Abstract)",
+    "published_date": "2023-11-08",
+    "abstract": "Reputation systems guide our decision making both in life and work: which restaurant to eat at, which vendor to buy from, which software dependencies to use, and who or what to trust. These systems are often based on old ideas and are failing in the face of modern threats. Fraudsters have found ways to manipulate them, undermining their integrity and utility. Generative AI adds to the problem by enabling the creation of real-looking fake narratives at scale, creating a false sense of consensus. Meanwhile, the need for reliable reputation concepts is more important than ever, as wrong decisions lead to increasingly severe outcomes: wasted time, poor service, and a feeling of injustice at best, fraud, identity theft, and ransomware at worst. In this extended abstract we introduce Sandi, a new kind of reputation system with a single well-defined purpose: to create trust through accountability in one-to-one transactions. Examples of such transactions include sending an email or making a purchase online. Sandi has strong security and privacy properties that make it suitable for use also in sensitive contexts. Furthermore, Sandi can guarantee reputation integrity and transparency for its registered users. As a primary application, we envision how Sandi could counter fraud and abuse in direct communication. Concretely, message senders request a cryptographic tag from Sandi that they send along with their message. If the receiver finds the message inappropriate, they can report the sender using this tag. Notably, only senders need registered accounts and do not need to manage long-term keys. The design of Sandi ensures compatibility with any communication system that allows for small binary data transmission.",
+    "summary": "Sandi is a novel reputation system designed to foster accountability in one-to-one digital transactions by cryptographically tagging messages, allowing recipients to report abuse while prioritizing user privacy and security. This system aims to combat fraud and enhance trust in direct communication."
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.06436",
+    "title": "Survey on social reputation mechanisms: Someone told me I can trust you",
+    "published_date": "2022-12-13",
+    "abstract": "Nowadays, most business and social interactions have moved to the internet, highlighting the relevance of creating online trust. One way to obtain a measure of trust is through reputation mechanisms, which record one's past performance and interactions to generate a reputational value. We observe that numerous existing reputation mechanisms share similarities with actual social phenomena; we call such mechanisms 'social reputation mechanisms'. The aim of this paper is to discuss several social phenomena and map these to existing social reputation mechanisms in a variety of scopes. First, we focus on reputation mechanisms in the individual scope, in which everyone is responsible for their own reputation. Subjective reputational values may be communicated to different entities in the form of recommendations. Secondly, we discuss social reputation mechanisms in the acquaintances scope, where one's reputation can be tied to another through vouching or invite-only networks. Finally, we present existing social reputation mechanisms in the neighbourhood scope. In such systems, one's reputation can heavily be affected by the behaviour of others in their neighbourhood or social group.",
+    "summary": "This survey paper categorizes online social reputation mechanisms based on their similarity to real-world social phenomena, examining individual, acquaintance-based, and neighborhood-based systems where reputation is built and shared. The paper maps these social phenomena to existing online reputation mechanisms across different scopes."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/LBwpubeZSi3ottfjs/aisc5-retrospective-mechanisms-for-avoiding-tragedy-of-the",
+    "author": "Ariel Kwiatkowski, Quinn, bengr",
+    "title": "AISC5 Retrospective: Mechanisms for Avoiding Tragedy of the Commons in Common Pool Resource Problems",
+    "published_date": "2021-09-27",
+    "summary": "This paper investigates mitigating the tragedy of the commons using a reputation system in a simulated multi-agent environment. The authors explore whether a transparent reputation system incentivizes cooperation and sustainable resource use, reducing the need for violent conflict resolution."
+  },
+  {
+    "title": "Foundations of Peer-to-Peer Reputation",
+    "abstract": "Successful classification of good or bad behavior in the digital domain is limited to central governance, as can be seen with trading platforms, search engines and news feeds. We explore and consolidate existing work on decentralized reputation systems to form a common denominator for what makes a reputation system successful when applied without a centralized reputation authority, formalized in 7 axioms and 3 postulates. Reputation must start from nothing and always reward performed work, respectively lowering and increasing as work is consumed and performed. However, it is impossible for nodes to perform work in a purely synchronous attack-proof work model and real systems must necessarily employ relaxations to such a work model. We show how the relaxations of performing parallel work, allowing unconsumed work and seeding well-known identities with work satisfy our model. Our formalizations allow constraint driven design of decentralized reputation mechanisms.",
+    "published_date": "2020-12-07",
+    "citation_count": 3,
+    "url": "https://dl.acm.org/doi/10.1145/3428662.3428790",
+    "summary": "This paper establishes seven axioms and three postulates defining successful decentralized reputation systems, arguing that such systems must reward performed work while acknowledging the impossibility of purely synchronous, attack-proof operation in real-world applications. The authors demonstrate how relaxations like parallel work and seeding can satisfy their model, enabling constraint-driven design of these systems."
+  }
+]

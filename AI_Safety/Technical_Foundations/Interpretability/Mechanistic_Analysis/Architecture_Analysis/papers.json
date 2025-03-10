@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/JDrxA3vwZAKZfmShz/degeneracies-are-sticky-for-sgd",
+    "author": "Guillaume Corlouer; Nicolas Macé",
+    "title": "Degeneracies are sticky for SGD",
+    "published_date": "2024-06-16",
+    "summary": "This study investigates how the degeneracy of loss landscapes impacts stochastic gradient descent (SGD) in deep learning. The authors find that degeneracy slows convergence and influences the direction of SGD escape from degenerate manifolds, showing discrepancies between SGD dynamics and Bayesian posterior predictions due to factors like learning rate and degeneracy degree."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BQKKQiBmc63fwjDrj/graphical-tensor-notation-for-interpretability",
+    "author": "Jordan Taylor",
+    "title": "Graphical tensor notation for interpretability",
+    "published_date": "2023-10-04",
+    "summary": "This article introduces graphical tensor notation, a visual method for representing tensor operations, using examples from the QUIMB Python package. It explains how this notation simplifies understanding and visualizing tensor manipulations, including decompositions (SVD, CP, Tucker) and operations within transformer circuits."
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.14135",
+    "title": "Concentration‐Flux‐Steered Mechanism Exploration with an Organocatalysis Application",
+    "published_date": "2022-12-29",
+    "abstract": "Investigating a reactive chemical system with automated reaction network exploration algorithms provides a more detailed picture of its chemical mechanism than what would be accessible by manual investigation. In general, exploration algorithms cannot uncover reaction networks exhaustively for feasibility reasons. They should therefore decide which part of a network is kinetically relevant under some external conditions given. Here, we propose an automated algorithm that identifies and explores kinetically accessible regions of a reaction network on the fly by explicit modeling of concentration fluxes through an (incomplete) reaction network that is emerging during automated first-principles exploration. Key compounds are automatically identified and selected for the continuation of the exploration. As an example, we explore the reaction network of the multi-component proline-catalyzed Michael addition of propanal and nitropropene. Our algorithm provides a mechanistic picture of the Michael addition in unprecedented detail.",
+    "citation_count": 9,
+    "summary": "The paper presents a novel algorithm for automated exploration of chemical reaction networks, focusing on kinetically relevant pathways by explicitly modeling concentration fluxes. This algorithm is applied to the proline-catalyzed Michael addition, revealing a highly detailed mechanistic picture."
+  },
+  {
+    "url": "https://arxiv.org/abs/2110.10821",
+    "title": "On the feasibility of dynamical analysis of network models of biochemical regulation",
+    "published_date": "2021-10-20",
+    "abstract": "a properties that predictive of the dynamical behavior of multivariate, discrete models of biochemical regulation. the structure of network interactions to predict are most involved in automata network dynamics. dynamical analysis of large automata network models feasible'. on this it is to that effective dynamical analysis of automata network models, to the is in the graph-based analysis of static features is the only analytical for large systems biology models of regulation and signaling dynam- ics there are dynamical methods that are, scalable . By scalable we that the computational complexity of methods employed to analyze multivariate dynamical systems in regard to their dynamical behavior (e.g. controllability, conver- gence to attractors, robustness to perturbations, etc.) is manage-able. is, a is scalable if can be computed in finite (and reasonable) time, with finite memory, for a system of a reasonable size—ideally for network models in Systems up to thousands of",
+    "citation_count": 6,
+    "summary": "This paper investigates the feasibility of dynamically analyzing large biochemical regulatory networks modeled as automata networks. It argues that scalable graph-based analysis of static network features is currently the most practical approach for large systems, due to the computational limitations of analyzing the dynamics directly."
+  },
+  {
+    "url": "https://arxiv.org/abs/2111.13612",
+    "title": "Optimal Design of Experiments for Simulation-Based Inference of Mechanistic Acyclic Biological Networks",
+    "published_date": "2021-11-26",
+    "abstract": "Biological signaling pathways based upon proteins binding to one another to relay a signal for genetic expression, such as the Bone Morphogenetic Protein (BMP) signaling pathway, can be modeled by mass action kinetics and conservation laws that result in non-closed form polynomial equations. Accurately determining parameters of biological pathways that represent physically relevant features, such as binding affinity of proteins and their associated uncertainty, presents a challenge for biological models lacking an explicit likelihood function. Additionally, parameterizing non-closed form biological models requires copious amounts of data from expensive perturbation-response experiments to fit model parameters. We present an algorithm (SBIDOEMAN) for determining optimal experiments and parameters of systems biology models with implicit likelihoods. We evaluate our algorithm using simulations of held-out true parameter values and demonstrate an improvement in the rate of accurate parameter inference over random and equidistant experimental designs when evaluated on two simple models of the BMP signaling pathway with an implicit likelihood function.",
+    "citation_count": 1,
+    "summary": "The paper introduces SBIDOEMAN, an algorithm optimizing experimental design for parameter inference in complex biological models lacking explicit likelihood functions, improving accuracy compared to random designs through simulation studies on simplified BMP signaling pathway models."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/fnjKpBoWJXcSDwhZk/what-s-the-backward-forward-flop-ratio-for-nns",
+    "author": "Marius Hobbhahn, Jsevillamol",
+    "title": "What's the backward-forward FLOP ratio for Neural Networks?",
+    "published_date": "2021-12-13",
+    "summary": "The backward-to-forward FLOP ratio in neural network training is typically close to 2:1 for deep networks with convolutional layers and large batch sizes, but can vary between 1:1 and 3:1 depending on factors like layer type, batch size, and network depth. The weight update's computational cost relative to the forward pass significantly influences this ratio."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06",
+    "summary": "The standard epidemiological model poorly predicts COVID-19 infection rates across US states, failing to explain the surprisingly similar infection levels despite varying policy responses. A proposed \"vulnerability model,\" which incorporates fluctuating individual susceptibility to infection over time, better accounts for the observed data and resolves inconsistencies of the standard model."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Madwb2t79LGrLqWLH/a-simple-introduction-to-neural-networks",
+    "author": "Rafael Harth",
+    "title": "A Simple Introduction to Neural Networks",
+    "published_date": "2020-02-09",
+    "summary": "This article introduces neural networks, explaining their structure (neurons, edges, layers) and function as layered, feed-forward networks processing input data through weighted connections and activation functions to produce an output. The article also briefly covers the training process, though details are left for later."
+  }
+]

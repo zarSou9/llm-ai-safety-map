@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2402.13530",
+    "title": "Best of Many in Both Worlds: Online Resource Allocation with Predictions under Unknown Arrival Model",
+    "published_date": "2024-02-21",
+    "abstract": "Online decision-makers often obtain predictions on future variables, such as arrivals, demands, inventories, and so on. These predictions can be generated from simple forecasting algorithms for univariate time-series, all the way to state-of-the-art machine learning models that leverage multiple time-series and additional feature information. However, the prediction accuracy is unknown to decision-makers a priori, hence blindly following the predictions can be harmful. In this paper, we address this problem by developing algorithms that utilize predictions in a manner that is robust to the unknown prediction accuracy. We consider the Online Resource Allocation Problem, a generic model for online decision-making, in which a limited amount of resources may be used to satisfy a sequence of arriving requests. Prior work has characterized the best achievable performances when the arrivals are either generated stochastically (i.i.d.) or completely adversarially, and shown that algorithms exist which match these bounds under both arrival models, without ``knowing'' the underlying model. To this backdrop, we introduce predictions in the form of shadow prices on each type of resource. Prediction accuracy is naturally defined to be the distance between the predictions and the actual shadow prices. We tightly characterize, via a formal lower bound, the extent to which any algorithm can optimally leverage predictions (that is, to ``follow'' the predictions when accurate, and ``ignore'' them when inaccurate) without knowing the prediction accuracy or the underlying arrival model. Our main contribution is then an algorithm which achieves this lower bound. Finally, we empirically validate our algorithm with a large-scale experiment on real data from the retailer H&M."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.13831",
+    "title": "Data-Driven Performance Guarantees for Classical and Learned Optimizers",
+    "published_date": "2024-04-22",
+    "abstract": "We introduce a data-driven approach to analyze the performance of continuous optimization algorithms using generalization guarantees from statistical learning theory. We study classical and learned optimizers to solve families of parametric optimization problems. We build generalization guarantees for classical optimizers, using a sample convergence bound, and for learned optimizers, using the Probably Approximately Correct (PAC)-Bayes framework. To train learned optimizers, we use a gradient-based algorithm to directly minimize the PAC-Bayes upper bound. Numerical experiments in signal processing, control, and meta-learning showcase the ability of our framework to provide strong generalization guarantees for both classical and learned optimizers given a fixed budget of iterations. For classical optimizers, our bounds are much tighter than those that worst-case guarantees provide. For learned optimizers, our bounds outperform the empirical outcomes observed in their non-learned counterparts.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.12173.pdf",
+    "title": "Interpolation Constraints for Computing Worst-Case Bounds in Performance Estimation Problems",
+    "published_date": "2023-09-21",
+    "abstract": "The Performance Estimation Problem (PEP) approach consists in computing worst-case performance bounds on optimization algorithms by solving an optimization problem: one maximizes an error criterion over all initial conditions allowed and all functions in a given class of interest. The maximal value is then a worst-case bound, and the maximizer provides an example reaching that worst case. This approach was introduced for optimization algorithms but could in principle be applied to many other contexts involving worst-case bounds. The key challenge is the representation of infinite-dimensional objects involved in these optimization problems such as functions, and complex or non-convex objects as linear operators and their powers, networks in decentralized optimization etc. This challenge can be resolved by interpolation constraints, which allow representing the effect of these objects on vectors of interest, rather than the whole object, leading to tractable finite dimensional problems. We review several recent interpolation results and their implications in obtaining of worst-case bounds via PEP.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2202.00129v2",
+    "title": "Fundamental limits for sensor-based robot control",
+    "published_date": "2022-01-31",
+    "abstract": "Our goal is to develop theory and algorithms for establishing fundamental limits on performance imposed by a robot's sensors for a given task. In order to achieve this, we define a quantity that captures the amount of task-relevant information provided by a sensor. Using a novel version of the generalized Fano's inequality from information theory, we demonstrate that this quantity provides an upper bound on the highest achievable expected reward for one-step decision-making tasks. We then extend this bound to multi-step problems via a dynamic programming approach. We present algorithms for numerically computing the resulting bounds, and demonstrate our approach on three examples: (i) the lava problem from the literature on partially observable Markov decision processes, (ii) an example with continuous state and observation spaces corresponding to a robot catching a freely-falling object, and (iii) obstacle avoidance using a depth sensor with non-Gaussian noise. We demonstrate the ability of our approach to establish strong limits on achievable performance for these problems by comparing our upper bounds with achievable lower bounds (computed by synthesizing or learning concrete control policies).",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.09868",
+    "title": "Non-Submodular Maximization via the Greedy Algorithm and the Effects of Limited Information in Multi-Agent Execution",
+    "published_date": "2022-10-18",
+    "abstract": "We provide theoretical bounds on the worst case performance of the greedy algorithm in seeking to maximize a normalized, monotone, but not necessarily submodular ob-jective function under a simple partition matroid constraint. We also provide worst case bounds on the performance of the greedy algorithm in the case that limited information is available at each planning step. We specifically consider limited information as a result of unreliable communications during distributed execution of the greedy algorithm. We utilize notions of curvature for normalized, monotone set functions to develop the bounds provided in this work. To demonstrate the value of the bounds provided in this work, we analyze a variant of the benefit of search objective function and show, using real-world data collected by an autonomous underwater vehicle, that theoretical approximation guarantees are achieved despite non-submodularity of the objective function.",
+    "citation_count": 2
+  },
+  {
+    "title": "Decomposition methods for solving Markov decision processes with multiple models of the parameters",
+    "abstract": "Abstract We consider the problem of decision-making in Markov decision processes (MDPs) when the reward or transition probability parameters are not known with certainty. We study an approach in which the decision maker considers multiple models of the parameters for an MDP and wishes to find a policy that optimizes an objective function that considers the performance with respect to each model, such as maximizing the expected performance or maximizing worst-case performance. Existing solution methods rely on mixed-integer program (MIP) formulations, but have previously been limited to small instances, due to the computational complexity. In this article, we present branch-and-cut and policy-based branch-and-bound (PB-B&B) solution methods that leverage the decomposable structure of the problem and allow for the solution of MDPs that consider many models of the parameters. Numerical experiments show that a customized implementation of PB-B&B significantly outperforms the MIP-based solution methods and that the variance among model parameters can be an important factor in the value of solving these problems.",
+    "published_date": "2021-03-08",
+    "citation_count": 10,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/24725854.2020.1869351"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.08386",
+    "title": "Self-Supervised Inference of Agents in Trustless Environments",
+    "published_date": "2024-09-12",
+    "abstract": "In this paper, we propose a novel approach where agents can form swarms to produce high-quality responses effectively. This is accomplished by utilizing agents capable of data inference and ranking, which can be effectively implemented using LLMs as response classifiers. We assess existing approaches for trustless agent inference, define our methodology, estimate practical parameters, and model various types of malicious agent attacks. Our method leverages the collective intelligence of swarms, ensuring robust and efficient decentralized AI inference with better accuracy, security, and reliability. We show that our approach is an order of magnitude faster than other trustless inference strategies reaching less than 125 ms validation latency."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.15014",
+    "title": "Acting for the Right Reasons: Creating Reason-Sensitive Artificial Moral Agents",
+    "published_date": "2024-09-23",
+    "abstract": "We propose an extension of the reinforcement learning architecture that enables moral decision-making of reinforcement learning agents based on normative reasons. Central to this approach is a reason-based shield generator yielding a moral shield that binds the agent to actions that conform with recognized normative reasons so that our overall architecture restricts the agent to actions that are (internally) morally justified. In addition, we describe an algorithm that allows to iteratively improve the reason-based shield generator through case-based feedback from a moral judge."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.00790.pdf",
+    "title": "Knowledge-based Reasoning and Learning under Partial Observability in Ad Hoc Teamwork",
+    "published_date": "2023-06-01",
+    "abstract": "\n Ad hoc teamwork (AHT) refers to the problem of enabling an agent to collaborate with teammates without prior coordination. State of the art methods in AHT are data-driven, using a large labeled dataset of prior observations to model the behavior of other agent types and to determine the ad hoc agent's behavior. These methods are computationally expensive, lack transparency, and make it difficult to adapt to previously unseen changes. Our recent work introduced an architecture that determined an ad hoc agent's behavior based on non-monotonic logical reasoning with prior commonsense domain knowledge and models learned from limited examples to predict the behavior of other agents. This paper describes KAT, a knowledge-driven architecture for AHT that substantially expands our prior architecture's capabilities to support: (a) online selection, adaptation, and learning of the behavior prediction models; and (b) collaboration with teammates in the presence of partial observability and limited communication. We illustrate and experimentally evaluate KAT's capabilities in two simulated benchmark domains for multiagent collaboration: Fort Attack and Half Field Offense. We show that KAT's performance is better than a purely knowledge-driven baseline, and comparable with or better than a state of the art data-driven baseline, particularly in the presence of limited training data, partial observability, and changes in team composition.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/pdf/2203.02844.pdf",
+    "title": "Recursive Reasoning Graph for Multi-Agent Reinforcement Learning",
+    "published_date": "2022-03-06",
+    "abstract": "Multi-agent reinforcement learning (MARL) provides an efficient way for simultaneously learning policies for multiple agents interacting with each other. However, in scenarios requiring complex interactions, existing algorithms can suffer from an inability to accurately anticipate the influence of self-actions on other agents. Incorporating an ability to reason about other agents' potential responses can allow an agent to formulate more effective strategies. This paper adopts a recursive reasoning model in a centralized-training-decentralized-execution framework to help learning agents better cooperate with or compete against others. \n The proposed algorithm, referred to as the Recursive Reasoning Graph (R2G), shows state-of-the-art performance on multiple multi-agent particle and robotics games.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.15925v2",
+    "title": "Asynchronous, Option-Based Multi-Agent Policy Gradient: A Conditional Reasoning Approach",
+    "published_date": "2022-03-29",
+    "abstract": "Cooperative multi-agent problems often require coordination between agents, which can be achieved through a centralized policy that considers the global state. Multi-agent policy gradient (MAPG) methods are commonly used to learn such policies, but they are often limited to problems with low-level action spaces. In complex problems with large state and action spaces, it is advantageous to extend MAPG methods to use higher-level actions, also known as options, to improve the policy search efficiency. However, multi-robot option executions are often asynchronous, that is, agents may select and complete their options at different time steps. This makes it difficult for MAPG methods to derive a centralized policy and evaluate its gradient, as centralized policy always select new options at the same time. In this work, we propose a novel, conditional reasoning approach to address this problem and demonstrate its effectiveness on representative option-based multi-agent cooperative tasks through empirical validation. Find code and videos at: https://sites.google.com/view/mahrlsupp/",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/FeY4tXMYdTQSM4go3/how-rl-agents-behave-when-their-actions-are-modified",
+    "author": "PabloAMC",
+    "title": "How RL Agents Behave When Their Actions Are Modified? [Distillation post]",
+    "published_date": "2022-05-20"
+  }
+]

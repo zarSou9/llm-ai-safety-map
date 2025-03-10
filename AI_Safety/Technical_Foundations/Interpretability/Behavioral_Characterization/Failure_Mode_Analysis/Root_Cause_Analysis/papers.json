@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2406.08221",
+    "title": "FAIL: Analyzing Software Failures from the News Using LLMs",
+    "published_date": "2024-06-12",
+    "abstract": "Software failures inform engineering work, standards, regulations. For example, the Log4J vulnerability brought government and industry attention to evaluating and securing software supply chains. Retrospective failure analysis is thus a valuable line of software engineering research. Accessing private engineering records is difficult, so such analyses tend to use information reported by the news media. However, prior works in this direction have relied on manual analysis. That has limited the scale of their analyses. The community lacks automated support to enable such analyses to consider a wide range of news sources and incidents.To fill this gap, we propose the Failure Analysis Investigation with LLMs (FAIL) system. FAIL is a novel LLM-based pipeline that collects, analyzes, and summarizes software failures as reported in the news. FAIL groups articles that describe the same incidents. It then analyzes incidents using existing taxonomies for postmortems, faults, and system characteristics. To tune and evaluate FAIL, we followed the methods of prior works by manually analyzing 31 software failures. FAIL achieved an F1 score of 90% for collecting news about software failures, a V-measure of 0.98 for merging articles reporting on the same incident, and extracted 90% of the facts about failures. We then applied FAIL to a total of 137,427 news articles from 11 providers published between 2010 and 2022. FAIL identified and analyzed 2,457 distinct failures reported across 4,184 articles. Our findings include: (1) current generation of large language models are capable of identifying news articles that describe failures, and analyzing them according to structured taxonomies; (2) high recurrences of similar failures within organizations and across organizations; and (3) severity of the consequences of software failures have increased over the past decade. The full FAIL database is available so that researchers, engineers, and policymakers can learn from a diversity of software failures.CCS CONCEPTS• Software and its engineering → Software defect analysis.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/html/2410.21680v1",
+    "title": "Revisiting Reliability in Large-Scale Machine Learning Research Clusters",
+    "published_date": "2024-10-29",
+    "abstract": "Reliability is a fundamental challenge in operating large-scale machine learning (ML) infrastructures, particularly as the scale of ML models and training clusters continues to grow. Despite decades of research on infrastructure failures, the impact of job failures across different scales remains unclear. This paper presents a view of managing two large, multi-tenant ML clusters, providing quantitative analysis, operational experience, and our own perspective in understanding and addressing reliability concerns at scale. Our analysis reveals that while large jobs are most vulnerable to failures, smaller jobs make up the majority of jobs in the clusters and should be incorporated into optimization objectives. We identify key workload properties, compare them across clusters, and demonstrate essential reliability requirements for pushing the boundaries of ML training at scale. We hereby introduce a taxonomy of failures and key reliability metrics, analyze 11 months of data from two state-of-the-art ML environments with over 150 million A100 GPU hours and 4 million jobs. Building on our data, we fit a failure model to project Mean Time to Failure for various GPU scales. We further propose a method to estimate a related metric, Effective Training Time Ratio, as a function of job parameters, and we use this model to gauge the efficacy of potential software mitigations at scale. Our work provides valuable insights and future research directions for improving the reliability of AI supercomputer clusters, emphasizing the need for flexible, workload-agnostic, and reliability-aware infrastructure, system software, and algorithms."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/baJyjpktzmcmRfosq/stitching-saes-of-different-sizes",
+    "author": "Bart Bussmann; Patrick Leask; Joseph Bloom; Curt Tigges; Neel Nanda",
+    "title": "Stitching SAEs of different sizes",
+    "published_date": "2024-07-13"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/93nKtsDL6YY5fRbQv/case-studies-in-reverse-engineering-sparse-autoencoder",
+    "author": "Jacob Dunefsky, Philippe Chlenski, Senthooran Rajamanoharan, Neel Nanda",
+    "title": "Case Studies in Reverse-Engineering Sparse Autoencoder Features by Using MLP Linearization",
+    "published_date": "2024-01-14"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.06086.pdf",
+    "title": "Reliability Assurance for Deep Neural Network Architectures Against Numerical Defects",
+    "published_date": "2023-02-13",
+    "abstract": "With the widespread deployment of deep neural networks (DNNs), ensuring the reliability of DNN-based systems is of great importance. Serious reliability issues such as system failures can be caused by numerical defects, one of the most frequent defects in DNNs. To assure high reliability against numerical defects, in this paper, we propose the RANUM approach including novel techniques for three reliability assurance tasks: detection of potential numerical defects, confirmation of potential-defect feasibility, and suggestion of defect fixes. To the best of our knowledge, RANUM is the first approach that confirms potential-defect feasibility with failure-exhibiting tests and suggests fixes automatically. Extensive experiments on the benchmarks of 63 real-world DNN architectures show that RANUM outperforms state-of-the-art approaches across the three reliability assurance tasks. In addition, when the RANUM-generated fixes are compared with developers' fixes on open-source projects, in 37 out of 40 cases, RANUM-generated fixes are equivalent to or even better than human fixes.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2JJtxitp6nqu6ffak/basic-facts-about-language-models-during-training-1",
+    "author": "beren",
+    "title": "Basic facts about language models during training",
+    "published_date": "2023-02-21"
+  }
+]

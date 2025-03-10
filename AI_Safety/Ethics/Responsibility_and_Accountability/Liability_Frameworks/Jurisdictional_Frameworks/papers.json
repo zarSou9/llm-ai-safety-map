@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.06673",
+    "title": "Liability and Insurance for Catastrophic Losses: the Nuclear Power Precedent and Lessons for AI",
+    "published_date": "2024-09-10",
+    "abstract": "As AI systems become more autonomous and capable, experts warn of them potentially causing catastrophic losses. Drawing on the successful precedent set by the nuclear power industry, this paper argues that developers of frontier AI models should be assigned limited, strict, and exclusive third party liability for harms resulting from Critical AI Occurrences (CAIOs) - events that cause or easily could have caused catastrophic losses. Mandatory insurance for CAIO liability is recommended to overcome developers' judgment-proofness, mitigate winner's curse dynamics, and leverage insurers' quasi-regulatory abilities. Based on theoretical arguments and observations from the analogous nuclear power context, insurers are expected to engage in a mix of causal risk-modeling, monitoring, lobbying for stricter regulation, and providing loss prevention guidance in the context of insuring against heavy-tail risks from AI. While not a substitute for regulation, clear liability assignment and mandatory insurance can help efficiently allocate resources to risk-modeling and safe design, facilitating future regulatory efforts.",
+    "citation_count": 1,
+    "summary": "To mitigate the catastrophic risks posed by advanced AI, the authors propose a liability regime mirroring the nuclear power industry: assigning developers limited, strict liability for Critical AI Occurrences and mandating insurance to address potential insolvency and incentivize safety measures. This approach, while not replacing regulation, aims to improve risk management and resource allocation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2401.07348",
+    "title": "Generative AI in EU Law: Liability, Privacy, Intellectual Property, and Cybersecurity",
+    "published_date": "2024-01-14",
+    "abstract": "The advent of Generative AI, particularly through Large Language Models (LLMs) like ChatGPT and its successors, marks a paradigm shift in the AI landscape. Advanced LLMs exhibit multimodality, handling diverse data formats, thereby broadening their application scope. However, the complexity and emergent autonomy of these models introduce challenges in predictability and legal compliance. This paper delves into the legal and regulatory implications of Generative AI and LLMs in the European Union context, analyzing aspects of liability, privacy, intellectual property, and cybersecurity. It critically examines the adequacy of the existing and proposed EU legislation, including the Artificial Intelligence Act (AIA) draft, in addressing the unique challenges posed by Generative AI in general and LLMs in particular. The paper identifies potential gaps and shortcomings in the legislative framework and proposes recommendations to ensure the safe and compliant deployment of generative models, ensuring they align with the EU's evolving digital landscape and legal standards.",
+    "citation_count": 22,
+    "summary": "This paper examines the legal implications of generative AI, particularly LLMs, within the EU, focusing on liability, privacy, intellectual property, and cybersecurity; it assesses the suitability of current and proposed EU legislation (including the AIA) and suggests improvements for safe and compliant deployment."
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.14684",
+    "title": "The risks of risk-based AI regulation: taking liability seriously",
+    "published_date": "2023-11-03",
+    "abstract": "The development and regulation of multi-purpose, large\"foundation models\"of AI seems to have reached a critical stage, with major investments and new applications announced every other day. Some experts are calling for a moratorium on the training of AI systems more powerful than GPT-4. Legislators globally compete to set the blueprint for a new regulatory regime. This paper analyses the most advanced legal proposal, the European Union's AI Act currently in the stage of final\"trilogue\"negotiations between the EU institutions. This legislation will likely have extra-territorial implications, sometimes called\"the Brussels effect\". It also constitutes a radical departure from conventional information and communications technology policy by regulating AI ex-ante through a risk-based approach that seeks to prevent certain harmful outcomes based on product safety principles. We offer a review and critique, specifically discussing the AI Act's problematic obligations regarding data quality and human oversight. Our proposal is to take liability seriously as the key regulatory mechanism. This signals to industry that if a breach of law occurs, firms are required to know in particular what their inputs were and how to retrain the system to remedy the breach. Moreover, we suggest differentiating between endogenous and exogenous sources of potential harm, which can be mitigated by carefully allocating liability between developers and deployers of AI technology.",
+    "citation_count": 3,
+    "summary": "The EU's AI Act, a risk-based regulatory approach to AI, is analyzed, revealing shortcomings in data quality and oversight provisions. The authors propose prioritizing liability as the primary regulatory mechanism, differentiating harm sources to better allocate responsibility between developers and deployers."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2308.02608.pdf",
+    "title": "Unravelling Responsibility for AI",
+    "published_date": "2023-08-04",
+    "abstract": "It is widely acknowledged that we need to establish where responsibility lies for the outputs and impacts of AI-enabled systems. But without a clear and precise understanding of what\"responsibility\"means, deliberations about where responsibility lies will be, at best, unfocused and incomplete and, at worst, misguided. To address this concern, this paper draws upon central distinctions in philosophy and law to clarify the concept of responsibility for AI for policymakers, practitioners, researchers and students from non-philosophical and non-legal backgrounds. Taking the three-part formulation\"Actor A is responsible for Occurrence O,\"the paper unravels the concept of responsibility to clarify that there are different possibilities of who is responsible for AI, the senses in which they are responsible, and aspects of events they are responsible for. Criteria and conditions for fitting attributions of responsibility in the core senses (causal responsibility, role-responsibility, liability responsibility and moral responsibility) are articulated to promote an understanding of when responsibility attributions would be inappropriate or unjust. The analysis is presented with a graphical notation to facilitate informal diagrammatic reasoning and discussion about specific cases. It is illustrated by application to a scenario of a fatal collision between an autonomous AI-enabled ship and a traditional, crewed vessel at sea.",
+    "summary": "This paper clarifies the ambiguous concept of responsibility in the context of AI systems by distinguishing between causal, role, liability, and moral responsibility. It provides criteria for appropriate responsibility attribution, illustrated through a case study of an AI-enabled ship collision, to guide policymakers, practitioners, and researchers."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2211.01817.pdf",
+    "title": "Liability regimes in the age of AI: a use-case driven analysis of the burden of proof",
+    "published_date": "2022-11-03",
+    "abstract": "New emerging technologies powered by Artificial Intelligence (AI) have the potential to disruptively transform our societies for the better. In particular, data-driven learning approaches (i.e., Machine Learning (ML)) have been a true revolution in the advancement of multiple technologies in various application domains. But at the same time there is growing concern about certain intrinsic characteristics of these methodologies that carry potential risks to both safety and fundamental rights. Although there are mechanisms in the adoption process to minimize these risks (e.g., safety regulations), these do not exclude the possibility of harm occurring, and if this happens, victims should be able to seek compensation. Liability regimes will therefore play a key role in ensuring basic protection for victims using or interacting with these systems. However, the same characteristics that make AI systems inherently risky, such as lack of causality, opacity, unpredictability or their self and continuous learning capabilities, may lead to considerable difficulties when it comes to proving causation. This paper presents three case studies, as well as the methodology to reach them, that illustrate these difficulties. Specifically, we address the cases of cleaning robots, delivery drones and robots in education. The outcome of the proposed analysis suggests the need to revise liability regimes to alleviate the burden of proof on victims in cases involving AI technologies.\n\n\n\nThis article appears in the AI & Society track.\n\n\n",
+    "citation_count": 4,
+    "summary": "This paper analyzes the challenges of establishing causality and liability in AI-related harm using case studies of cleaning robots, delivery drones, and robots in education. It concludes that current liability regimes need revision to reduce the burden of proof on victims harmed by AI systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rmwAuWXYTo24E5nnX/a-pin-and-a-balloon-anthropic-fragility-increases-chances-of",
+    "author": "avturchin",
+    "title": "A Pin and a Balloon: Anthropic Fragility Increases Chances of Runaway Global Warming",
+    "published_date": "2022-09-11",
+    "summary": "Due to survival bias, we may underestimate the likelihood and proximity of climate tipping points, making Earth more vulnerable to catastrophic runaway global warming triggered by seemingly small human actions; the authors argue that urgent geoengineering research is necessary to mitigate this risk."
+  },
+  {
+    "title": "Artificial intelligence and legal liability: towards an international approach of proportional liability based on risk sharing",
+    "abstract": "ABSTRACT This paper critically examines the allocation of liability when autonomous artificial intelligence (AI) systems cause accidents. Problems of applying existing principles of legal liability in AI environment are addressed. This paper argues that the sharing of risk as a basis for proportionate liability should be a basis for a new liability regime to govern future autonomous machines. It is argued that this approach favors the reality of parties' consent to taking the risk of unpredictable AI behavior over the technicality of existing principles of legal liability. The suggested approach also encourages transparency and responsible decisions of developers and owners of AI systems. A flowchart to clarify possible outcomes of applying the suggested approach is provided. The paper also discusses the need for harmonization of national laws and international cooperation regarding AI incidents crossing national borders to ensure predictability of legal rules governing the liability ensuing from AI applications.",
+    "published_date": "2021-05-04",
+    "citation_count": 12,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/13600834.2020.1856025",
+    "summary": "This paper advocates for a new international liability regime for AI accidents based on proportionate risk-sharing among involved parties, prioritizing risk acceptance over existing legal principles. This approach aims to promote transparency and responsible AI development while addressing the challenges of cross-border incidents."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06",
+    "summary": "The standard model of COVID-19 transmission struggles to explain the surprisingly similar infection rates across US states despite varying levels of restrictions. A proposed \"vulnerability model,\" suggesting fluctuating individual susceptibility to infection over time, better accounts for the observed data and avoids the inconsistencies of the standard model."
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2402.04210",
+    "title": "\"Task Success\" is not Enough: Investigating the Use of Video-Language Models as Behavior Critics for Catching Undesirable Agent Behaviors",
+    "published_date": "2024-02-06",
+    "abstract": "Large-scale generative models are shown to be useful for sampling meaningful candidate solutions, yet they often overlook task constraints and user preferences. Their full power is better harnessed when the models are coupled with external verifiers and the final solutions are derived iteratively or progressively according to the verification feedback. In the context of embodied AI, verification often solely involves assessing whether goal conditions specified in the instructions have been met. Nonetheless, for these agents to be seamlessly integrated into daily life, it is crucial to account for a broader range of constraints and preferences beyond bare task success (e.g., a robot should grasp bread with care to avoid significant deformations). However, given the unbounded scope of robot tasks, it is infeasible to construct scripted verifiers akin to those used for explicit-knowledge tasks like the game of Go and theorem proving. This begs the question: when no sound verifier is available, can we use large vision and language models (VLMs), which are approximately omniscient, as scalable Behavior Critics to catch undesirable robot behaviors in videos? To answer this, we first construct a benchmark that contains diverse cases of goal-reaching yet undesirable robot policies. Then, we comprehensively evaluate VLM critics to gain a deeper understanding of their strengths and failure modes. Based on the evaluation, we provide guidelines on how to effectively utilize VLM critiques and showcase a practical way to integrate the feedback into an iterative process of policy refinement. The dataset and codebase are released at: https://guansuns.github.io/pages/vlm-critic.",
+    "citation_count": 11
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.14368",
+    "title": "RV4Chatbot: Are Chatbots Allowed to Dream of Electric Sheep?",
+    "published_date": "2024-11-20",
+    "abstract": "Chatbots have become integral to various application domains, including those with safety-critical considerations. As a result, there is a pressing need for methods that ensure chatbots consistently adhere to expected, safe behaviours. In this paper, we introduce RV4Chatbot, a Runtime Verification framework designed to monitor deviations in chatbot behaviour. We formalise expected behaviours as interaction protocols between the user and the chatbot. We present the RV4Chatbot design and describe two implementations that instantiate it: RV4Rasa, for monitoring chatbots created with the Rasa framework, and RV4Dialogflow, for monitoring Dialogflow chatbots. Additionally, we detail experiments conducted in a factory automation scenario using both RV4Rasa and RV4Dialogflow."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12"
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.04352",
+    "title": "Computational-level Analysis of Constraint Compliance for General Intelligence",
+    "published_date": "2023-03-08",
+    "abstract": "Human behavior is conditioned by codes and norms that constrain action. Rules, ``manners,'' laws, and moral imperatives are examples of classes of constraints that govern human behavior. These systems of constraints are\"messy:\"individual constraints are often poorly defined, what constraints are relevant in a particular situation may be unknown or ambiguous, constraints interact and conflict with one another, and determining how to act within the bounds of the relevant constraints may be a significant challenge, especially when rapid decisions are needed. Despite such messiness, humans incorporate constraints in their decisions robustly and rapidly. General, artificially-intelligent agents must also be able to navigate the messiness of systems of real-world constraints in order to behave predictability and reliably. In this paper, we characterize sources of complexity in constraint processing for general agents and describe a computational-level analysis for such constraint compliance. We identify key algorithmic requirements based on the computational-level analysis and outline an initial, exploratory implementation of a general approach to constraint compliance.",
+    "citation_count": 2
+  }
+]

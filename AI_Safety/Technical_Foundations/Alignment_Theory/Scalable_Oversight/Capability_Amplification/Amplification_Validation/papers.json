@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/aoEnDEmoKCK9S99hL/cognitive-biases-contributing-to-ai-x-risk-a-deleted-excerpt",
+    "author": "Andrew_Critch",
+    "title": "Cognitive Biases Contributing to AI X-risk — a deleted excerpt from my 2018 ARCHES draft",
+    "published_date": "2024-12-03"
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/intelligence-amplification",
+    "author": "GeneSmith, kman",
+    "title": "Intelligence Amplification - LessWrong",
+    "published_date": "2023-12-16"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2005.03629.pdf",
+    "title": "Approaching Quantum-Limited Metrology with Imperfect Detectors by Using Weak-Value Amplification.",
+    "published_date": "2020-05-07",
+    "abstract": "Weak-value amplification (WVA) is a metrological protocol that amplifies ultrasmall physical effects. However, the amplified outcomes necessarily occur with highly suppressed probabilities, leading to the extensive debate on whether the overall measurement precision is improved in comparison to that of conventional measurement (CM). Here, we experimentally demonstrate the unambiguous advantages of WVA that overcome practical limitations including noise and saturation of photodetection and maintain a shot-noise-scaling precision for a large range of input light intensity well beyond the dynamic range of the photodetector. The precision achieved by WVA is 6 times higher than that of CM in our setup. Our results clear the way for the widespread use of WVA in applications involving the measurement of small signals including precision metrology and commercial sensors.",
+    "citation_count": 41
+  },
+  {
+    "url": "https://arxiv.org/pdf/1904.12053.pdf",
+    "title": "Sample Amplification: Increasing Dataset Size even when Learning is Impossible",
+    "published_date": "2019-04-26",
+    "abstract": "Given data drawn from an unknown distribution, $D$, to what extent is it possible to ``amplify'' this dataset and output an even larger set of samples that appear to have been drawn from $D$? We formalize this question as follows: an $(n,m)$ $\\text{amplification procedure}$ takes as input $n$ independent draws from an unknown distribution $D$, and outputs a set of $m > n$ ``samples''. An amplification procedure is valid if no algorithm can distinguish the set of $m$ samples produced by the amplifier from a set of $m$ independent draws from $D$, with probability greater than $2/3$. Perhaps surprisingly, in many settings, a valid amplification procedure exists, even when the size of the input dataset, $n$, is significantly less than what would be necessary to learn $D$ to non-trivial accuracy. Specifically we consider two fundamental settings: the case where $D$ is an arbitrary discrete distribution supported on $\\le k$ elements, and the case where $D$ is a $d$-dimensional Gaussian with unknown mean, and fixed covariance. In the first case, we show that an $\\left(n, n + \\Theta(\\frac{n}{\\sqrt{k}})\\right)$ amplifier exists. In particular, given $n=O(\\sqrt{k})$ samples from $D$, one can output a set of $m=n+1$ datapoints, whose total variation distance from the distribution of $m$ i.i.d. draws from $D$ is a small constant, despite the fact that one would need quadratically more data, $n=\\Theta(k)$, to learn $D$ up to small constant total variation distance. In the Gaussian case, we show that an $\\left(n,n+\\Theta(\\frac{n}{\\sqrt{d}} )\\right)$ amplifier exists, even though learning the distribution to small constant total variation distance requires $\\Theta(d)$ samples. In both the discrete and Gaussian settings, we show that these results are tight, to constant factors. Beyond these results, we formalize a number of curious directions for future research along this vein.",
+    "citation_count": 13
+  },
+  {
+    "url": "https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/xKvzpodBGcPMq7TqE",
+    "author": "paulfchristiano",
+    "title": "Supervising strong learners\nby amplifying weak experts",
+    "published_date": "2019-01-06"
+  },
+  {
+    "url": "https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/t3AJW5jP3sk36aGoC",
+    "author": "paulfchristiano",
+    "title": "Capability amplification",
+    "published_date": "2019-01-20"
+  }
+]

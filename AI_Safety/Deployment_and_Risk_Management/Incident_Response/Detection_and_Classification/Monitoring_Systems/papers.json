@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/ByCwWRgvTsSC6Wxst/what-would-a-compute-monitoring-plan-look-like-linkpost",
+    "author": "Akash",
+    "title": "What would a compute monitoring plan look like? [Linkpost]",
+    "published_date": "2023-03-26",
+    "summary": "Yonadav Shavit's paper proposes a system for governments to verify compliance with regulations on large-scale neural network training by monitoring compute hardware. This involves on-chip logging of network weights, data-center record-keeping of training details, and supply chain monitoring to prevent evasion."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that achieving safe artificial general intelligence (AGI) requires a top-down design incorporating diverse fields like cognitive science, social sciences, and engineering, rather than solely focusing on technical aspects within isolated research groups. This holistic approach, grounded in pragmatism and naturalism, emphasizes utilizing a variety of theoretical and empirical tools to evaluate AGI architectures and alignment paradigms."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zdKrgxwhE5pTiDpDm/practical-ai-risk-i-watching-large-compute",
+    "author": "Gustavo Ramires",
+    "title": "Practical AI risk I: Watching large compute",
+    "published_date": "2022-12-24",
+    "summary": "The author proposes mitigating AI catastrophe risk by establishing agencies monitoring large-scale computing resources for unusual activity indicative of malicious AI behavior, focusing on resource acquisition and network anomalies, and advocating for laws enabling oversight while preserving privacy."
+  },
+  {
+    "title": "Performance Monitoring Guidelines",
+    "abstract": "Monitoring, that is, the process of collecting measurements on infrastructures and services, is an important subject of performance engineering. Although monitoring is not a new education topic, nowadays its relevance is rapidly increasing and its application is particularly demanding due to the complex distributed architectures of new and emerging technologies. As a consequence, monitoring has become a \"must have\" skill for students majoring in computer science and in computing-related fields. In this paper, we present a set of guidelines and recommendations to plan, design and setup sound monitoring projects. Moreover, we investigate and discuss the main challenges to be faced to build confidence in the entire monitoring process and ensure measurement quality. Finally, we describe practical applications of these concepts in teaching activities.",
+    "published_date": "2021-04-19",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3447545.3451195",
+    "summary": "This paper provides guidelines for planning, designing, and implementing effective performance monitoring projects, addressing challenges to ensure measurement quality and highlighting practical applications in education. The focus is on the increasing importance of monitoring skills in the context of complex modern architectures."
+  },
+  {
+    "title": "Predicting Performance Anomalies in Software Systems at Run-time",
+    "abstract": "High performance is a critical factor to achieve and maintain the success of a software system. Performance anomalies represent the performance degradation issues (e.g., slowing down in system response times) of software systems at run-time. Performance anomalies can cause a dramatically negative impact on users' satisfaction. Prior studies propose different approaches to detect anomalies by analyzing execution logs and resource utilization metrics after the anomalies have happened. However, the prior detection approaches cannot predict the anomalies ahead of time; such limitation causes an inevitable delay in taking corrective actions to prevent performance anomalies from happening. We propose an approach that can predict performance anomalies in software systems and raise anomaly warnings in advance. Our approach uses a Long-Short Term Memory neural network to capture the normal behaviors of a software system. Then, our approach predicts performance anomalies by identifying the early deviations from the captured normal system behaviors. We conduct extensive experiments to evaluate our approach using two real-world software systems (i.e., Elasticsearch and Hadoop). We compare the performance of our approach with two baselines. The first baseline is one state-to-the-art baseline called Unsupervised Behavior Learning. The second baseline predicts performance anomalies by checking if the resource utilization exceeds pre-defined thresholds. Our results show that our approach can predict various performance anomalies with high precision (i.e., 97–100%) and recall (i.e., 80–100%), while the baselines achieve 25–97% precision and 93–100% recall. For a range of performance anomalies, our approach can achieve sufficient lead times that vary from 20 to 1,403 s (i.e., 23.4 min). We also demonstrate the ability of our approach to predict the performance anomalies that are caused by real-world performance bugs. For predicting performance anomalies that are caused by real-world performance bugs, our approach achieves 95–100% precision and 87–100% recall, while the baselines achieve 49–83% precision and 100% recall. The obtained results show that our approach outperforms the existing anomaly prediction approaches and is able to predict performance anomalies in real-world systems.",
+    "published_date": "2021-04-23",
+    "citation_count": 22,
+    "url": "https://dl.acm.org/doi/10.1145/3440757",
+    "summary": "This paper proposes a Long-Short Term Memory (LSTM) neural network approach for predicting software performance anomalies in advance, achieving high precision and recall (97-100% and 80-100% respectively) with significant lead times (20-1403 seconds) in experiments on Elasticsearch and Hadoop, outperforming existing methods."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/G4KHuYC3pHry6yMhi/compute-research-questions-and-metrics-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Research Questions and Metrics - Transformative AI and Compute [4/4]",
+    "published_date": "2021-11-28",
+    "summary": "This appendix to a series on transformative AI and compute explores research questions surrounding AI hardware, compute trends, and their associated costs. It also includes a list of AI hardware startups and discusses the need for improved data acquisition and analysis in this field."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/bJi3hd8E8qjBeHz9Z",
+    "author": "lennart",
+    "title": "Transformative AI and Compute - LessWrong",
+    "published_date": "2021-09-23",
+    "summary": "The article analyzes the crucial role of computational resources in advancing AI systems, examining the relationship between compute requirements, AI capabilities, and development timelines, ultimately advocating for improved compute governance."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes AI safety-relevant content, emphasizing the importance of careful reading and summarization."
+  }
+]

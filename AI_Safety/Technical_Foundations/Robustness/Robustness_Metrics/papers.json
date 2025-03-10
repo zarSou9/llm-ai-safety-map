@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2408.01963",
+    "title": "A Novel Metric for Measuring the Robustness of Large Language Models in Non-adversarial Scenarios",
+    "published_date": "2024-08-04",
+    "abstract": "We evaluate the robustness of several large language models on multiple datasets. Robustness here refers to the relative insensitivity of the model's answers to meaning-preserving variants of their input. Benchmark datasets are constructed by introducing naturally-occurring, non-malicious perturbations, or by generating semantically equivalent paraphrases of input questions or statements. We further propose a novel metric for assessing a model robustness, and demonstrate its benefits in the non-adversarial scenario by empirical evaluation of several models on the created datasets.",
+    "summary": "This paper introduces a new metric for evaluating the robustness of large language models against non-adversarial, meaning-preserving input variations. The metric is empirically validated using benchmark datasets containing naturally occurring and paraphrased input perturbations."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/JDrxA3vwZAKZfmShz/degeneracies-are-sticky-for-sgd",
+    "author": "Guillaume Corlouer; Nicolas Macé",
+    "title": "Degeneracies are sticky for SGD",
+    "published_date": "2024-06-16",
+    "summary": "This study investigates how degeneracy in low-dimensional loss landscapes affects Stochastic Gradient Descent (SGD) dynamics in deep learning. The authors find that degeneracy slows convergence and influences the direction SGD escapes degenerate manifolds, showing discrepancies between SGD's parameter distribution and the Bayesian posterior predicted by singular learning theory."
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.10586",
+    "title": "A Holistic Assessment of the Reliability of Machine Learning Systems",
+    "published_date": "2023-07-20",
+    "abstract": "As machine learning (ML) systems increasingly permeate high-stakes settings such as healthcare, transportation, military, and national security, concerns regarding their reliability have emerged. Despite notable progress, the performance of these systems can significantly diminish due to adversarial attacks or environmental changes, leading to overconfident predictions, failures to detect input faults, and an inability to generalize in unexpected scenarios. This paper proposes a holistic assessment methodology for the reliability of ML systems. Our framework evaluates five key properties: in-distribution accuracy, distribution-shift robustness, adversarial robustness, calibration, and out-of-distribution detection. A reliability score is also introduced and used to assess the overall system reliability. To provide insights into the performance of different algorithmic approaches, we identify and categorize state-of-the-art techniques, then evaluate a selection on real-world tasks using our proposed reliability metrics and reliability score. Our analysis of over 500 models reveals that designing for one metric does not necessarily constrain others but certain algorithmic techniques can improve reliability across multiple metrics simultaneously. This study contributes to a more comprehensive understanding of ML reliability and provides a roadmap for future research and development.",
+    "citation_count": 4,
+    "summary": "This paper introduces a holistic framework for assessing machine learning system reliability, evaluating five key properties (in-distribution accuracy, distribution-shift robustness, adversarial robustness, calibration, and out-of-distribution detection) and proposing a composite reliability score; analysis of over 500 models reveals that improving reliability across multiple metrics is achievable through specific algorithmic techniques."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/EKPSgN8LsiEJzX5ni/a-well-defined-history-in-measurable-factor-spaces",
+    "author": "Matthias G. Mayer",
+    "title": "A well-defined history in measurable factor spaces",
+    "published_date": "2023-10-05",
+    "summary": "This paper investigates minimal index functions for representing a function X in an infinite factor space, given a feature Z. It proves the existence of an almost surely minimal such function, termed the \"history\" of X given Z, by constructing a countable sub-index set."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rmwAuWXYTo24E5nnX/a-pin-and-a-balloon-anthropic-fragility-increases-chances-of",
+    "author": "avturchin",
+    "title": "A Pin and a Balloon: Anthropic Fragility Increases Chances of Runaway Global Warming",
+    "published_date": "2022-09-11",
+    "summary": "Due to survival bias, we may underestimate the likelihood and proximity of climate tipping points, making Earth more vulnerable to human-caused catastrophes. This \"anthropic fragility\" suggests a higher probability of runaway global warming and necessitates urgent geoengineering research."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.05368.pdf",
+    "title": "RoBIC: A Benchmark Suite For Assessing Classifiers Robustness",
+    "published_date": "2021-02-10",
+    "abstract": "Many defenses have emerged with the development of adversarial attacks. Models must be objectively evaluated accordingly. This paper systematically tackles this concern by proposing a new parameter-free benchmark we coin ROBIC. ROBIC fairly evaluates the robustness of image classifiers using a new half-distortion measure. It gauges the robustness of the network against white and black box attacks, independently of its accuracy. ROBIC is faster than the other available benchmarks. We present the significant differences in the robustness of 16 recent models as assessed by ROBIC.We make this benchmark publicly available for use and contribution at https://gitlab.inria.fr/t;maho/robustness_benchmark.",
+    "citation_count": 4,
+    "summary": "RoBIC is a novel, parameter-free benchmark for evaluating the robustness of image classifiers against both white-box and black-box adversarial attacks, offering a faster and more objective assessment independent of model accuracy. It uses a new half-distortion measure and is publicly available."
+  },
+  {
+    "title": "Resilience Estimation of Cyber-Physical Systems via Quantitative Metrics",
+    "abstract": "This paper is about the estimation of the cyber-resilience of CPS. We define two new resilience estimation metrics: <inline-formula> <tex-math notation=\"LaTeX\">$k$ </tex-math></inline-formula>-steerability and <inline-formula> <tex-math notation=\"LaTeX\">$\\ell $ </tex-math></inline-formula>-monitorability. They aim at assisting designers to evaluate and increase the cyber-resilience of CPS when facing stealthy attacks. The <inline-formula> <tex-math notation=\"LaTeX\">$k$ </tex-math></inline-formula>-steerability metric reflects the ability of a controller to act on individual plant state variables when, at least, <inline-formula> <tex-math notation=\"LaTeX\">$k$ </tex-math></inline-formula> different groups of functionally diverse input signals may be processed. The <inline-formula> <tex-math notation=\"LaTeX\">$\\ell $ </tex-math></inline-formula>-monitorability metric indicates the ability of a controller to monitor individual plant state variables with <inline-formula> <tex-math notation=\"LaTeX\">$\\ell $ </tex-math></inline-formula> different groups of functionally diverse outputs. Paired together, the metrics lead to CPS reaching <inline-formula> <tex-math notation=\"LaTeX\">$(k,\\ell)$ </tex-math></inline-formula>-resilience. When <inline-formula> <tex-math notation=\"LaTeX\">$k$ </tex-math></inline-formula> and <inline-formula> <tex-math notation=\"LaTeX\">$\\ell $ </tex-math></inline-formula> are both greater than one, a CPS can absorb and adapt to control-theoretic attacks manipulating input and output signals. We also relate the parameters <inline-formula> <tex-math notation=\"LaTeX\">$k$ </tex-math></inline-formula> and <inline-formula> <tex-math notation=\"LaTeX\">$\\ell $ </tex-math></inline-formula> to the recoverability of a system. We define recoverability strategies to mitigate the impact of perpetrated attacks. We show that the values of <inline-formula> <tex-math notation=\"LaTeX\">$k$ </tex-math></inline-formula> and <inline-formula> <tex-math notation=\"LaTeX\">$\\ell $ </tex-math></inline-formula> can be augmented by combining redundancy and diversity in hardware and software, in order to apply the moving target paradigm. We validate the approach via simulation and numeric results.",
+    "published_date": "2021-01-01",
+    "citation_count": 7,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/9312710/09378521.pdf",
+    "summary": "This paper proposes two new metrics, k-steerability and ℓ-monitorability, to quantify the cyber-resilience of cyber-physical systems (CPS) against stealthy attacks. Higher values of k and ℓ, achieved through redundancy and diversity, indicate greater resilience and recoverability from attacks targeting inputs and outputs."
+  },
+  {
+    "title": "A Systematic Review on Software Robustness Assessment",
+    "abstract": "Robustness is the degree to which a certain system or component can operate correctly in the presence of invalid inputs or stressful environmental conditions. With the increasing complexity and widespread use of computer systems, obtaining assurances regarding their robustness has become of vital importance. This survey discusses the state of the art on software robustness assessment, with emphasis on key aspects like types of systems being evaluated, assessment techniques used, the target of the techniques, the types of faults used, and how system behavior is classified. The survey concludes with the identification of gaps and open challenges related with robustness assessment.",
+    "published_date": "2021-04-01",
+    "citation_count": 11,
+    "url": "https://dl.acm.org/doi/10.1145/3448977",
+    "summary": "This systematic review examines current software robustness assessment techniques, analyzing various approaches, targets, fault types, and behavioral classifications. It concludes by highlighting gaps and open challenges in the field."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/a7YgzDYx4FhdB3TmR/an-155-a-minecraft-benchmark-for-algorithms-that-learn",
+    "author": "Rohin Shah",
+    "title": "[AN #155]: A Minecraft benchmark for algorithms that learn without reward functions",
+    "published_date": "2021-07-08",
+    "summary": "The MineRL BASALT competition uses Minecraft to benchmark AI's ability to learn from human feedback, addressing limitations of traditional benchmarks like Atari by offering complex, open-ended tasks with inherently ambiguous goals that require human evaluation, thereby mitigating issues of reward function misspecification and hyperparameter tuning."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06",
+    "summary": "A standard model of COVID-19 transmission struggles to explain the surprisingly similar infection rates across US states despite varying policy restrictions. A proposed \"vulnerability model,\" suggesting fluctuating individual susceptibility to infection over time, better accounts for the observed data and avoids inconsistencies inherent in the standard model."
+  }
+]

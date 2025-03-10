@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.01312",
+    "title": "What Could Possibly Go Wrong: Undesirable Patterns in Collective Development",
+    "published_date": "2024-09-02",
+    "abstract": "\n Software development, often perceived as a technical endeavour, is fundamentally a social activity requiring collaboration among team members. Acknowledging this, the software development community has devised strategies to address possible collaboration-related shortcomings. Various studies have attempted to capture the social dynamics within software engineering. These studies developed methods to identify numerous teamwork issues and proposed various approaches to address them. However, there is a need for a comprehensive bottom-up exploration from practitioner's perceptions to common patterns. This paper introduces the concept of undesirable patterns in collective development, referring to potential teamwork problems that may escalate if unaddressed. Through 38 in-depth exploratory interviews, we identify and classify 42 patterns, revealing their origins and consequences. To the best of our knowledge, some patterns, like\n Teamwork pipeline bottleneck\n , were never reported before. Subsequent surveys, 436 and 968 participants each, explore the significance and frequency of the undesirable patterns, and evaluate potential tools and features to manage these patterns. The study contributes a nuanced understanding of undesirable patterns, evaluating their impact and proposing pragmatic tools and features for industrial application. The findings provide a valuable foundation for further in-depth studies and the development of tools to enhance collaborative software engineering practices.\n"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.05765.pdf",
+    "title": "Early Performance Prediction using Interpretable Patterns in Programming Process Data",
+    "published_date": "2021-02-10",
+    "abstract": "Instructors have limited time and resources to help struggling students, and these resources should be directed to the students who most need them. To address this, researchers have constructed models that can predict students' final course performance early in a semester. However, many predictive models are limited to static and generic student features (e.g. demographics, GPA), rather than computing-specific evidence that assesses a student's progress in class. Many programming environments now capture complete time-stamped records of students' actions during programming. In this work, we leverage this rich, fine-grained log data to build a model to predict student course outcomes. From the log data, we extract patterns of behaviors that are predictive of students' success using an approach called differential sequence mining. We evaluate our approach on a dataset from 106 students in a block-based, introductory programming course. The patterns extracted from our approach can predict final programming performance with 79% accuracy using only the first programming assignment, outperforming two baseline methods. In addition, we show that the patterns are interpretable and correspond to concrete, effective -- and ineffective -- novice programming behaviors. We also discuss these patterns and their implications for classroom instruction.",
+    "citation_count": 23
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.06133.pdf",
+    "title": "Teaming up with information agents",
+    "published_date": "2021-01-15",
+    "abstract": "Recent developments in Artificial Intelligence (AI) have led to impressive results in machine learning and pattern recognition, but have also led to the insight that AI hardly ever functions in isolation [1]. Most practical AI applications involve humans, e.g. for providing instructions, for correcting the machine if needed, for interpreting the machine's outcomes. A recent article [2] summarizes this as “no AI is an island”, and argues that AI agents should be endowed with teaming intelligence that allows them to team up with humans.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06"
+  },
+  {
+    "url": "https://arxiv.org/abs/2007.00756",
+    "title": "An Early Warning Approach to Monitor COVID-19 Activity with Multiple Digital Traces in Near Real-Time.",
+    "published_date": "2020-07-01",
+    "abstract": "Non-pharmaceutical interventions (NPIs) have been crucial in curbing COVID-19 in the United States (US). Consequently, relaxing NPIs through a phased re-opening of the US amid still-high levels of COVID-19 susceptibility could lead to new epidemic waves. This calls for a COVID-19 early warning system. Here we evaluate multiple digital data streams as early warning indicators of increasing or decreasing state-level US COVID-19 activity between January and June 2020. We estimate the timing of sharp changes in each data stream using a simple Bayesian model that calculates in near real-time the probability of exponential growth or decay. Analysis of COVID-19-related activity on social network microblogs, Internet searches, point-of-care medical software, and a metapopulation mechanistic model, as well as fever anomalies captured by smart thermometer networks, shows exponential growth roughly 2-3 weeks prior to comparable growth in confirmed COVID-19 cases and 3-4 weeks prior to comparable growth in COVID-19 deaths across the US over the last 6 months. We further observe exponential decay in confirmed cases and deaths 5-6 weeks after implementation of NPIs, as measured by anonymized and aggregated human mobility data from mobile phones. Finally, we propose a combined indicator for exponential growth in multiple data streams that may aid in developing an early warning system for future COVID-19 outbreaks. These efforts represent an initial exploratory framework, and both continued study of the predictive power of digital indicators as well as further development of the statistical approach are needed.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2008.02905.pdf",
+    "title": "Detecting Early-Warning Signals in Time Series of Visits to Points of Interest to Examine Population Response to COVID-19 Pandemic",
+    "published_date": "2020-08-06",
+    "abstract": "The objective of this paper is to examine population response to COVID-19 and associated policy interventions through detecting early-warning signals in time series of visits to points of interest (POIs). Complex systems, such as cities, would demonstrate early-warning signals (e.g., increased autocorrelation and standard deviation) when they approach phase transitions responding to external perturbation, such as crises, policy changes, and human behavior changes. In urban systems, population visits to POIs, such as restaurants, museums, and hospitals, represent a state of cities as complex systems. These states may undergo phase transitions due to population response to pandemic risks and intervention policies (e.g., social distancing and shelter-in-place orders). In this study, we conducted early-warning signal detection on population visits to POIs to examine population response to pandemic risks, and we evaluated time lags between detected early-warning dates and dates of first cases and policy interventions. We examined two early-warning signals, the increase of autocorrelation at-lag-1 and standard deviation, in time series of population visits to POIs in 17 metropolitan cities in the United States of America. We examined visits to grouped POIs according to two categories of essential services and non-essential services. The results show that: (1) early-warning signals for population response to COVID-19 were detected between February 14 and March 11, 2020 in 17 cities; (2) detected population response had started prior to shelter-in-place orders in 17 cities; (3) early-warning signals detected from the essential POIs visits appeared earlier than those from non-essential POIs; and 4) longer time lags between detected population response and shelter-in-place orders led to a less decrease in POI visits. The results show the importance of detecting early-warning signals during crises in cities as complex systems. Early-warning signals could provide important insights regarding the timing and extent of population response to crises to inform policymakers.",
+    "citation_count": 11
+  }
+]

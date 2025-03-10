@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Explaining machine learning classifiers through diverse counterfactual explanations",
+    "abstract": "Post-hoc explanations of machine learning models are crucial for people to understand and act on algorithmic predictions. An intriguing class of explanations is through counterfactuals, hypothetical examples that show people how to obtain a different prediction. We posit that effective counterfactual explanations should satisfy two properties: feasibility of the counterfactual actions given user context and constraints, and diversity among the counterfactuals presented. To this end, we propose a framework for generating and evaluating a diverse set of counterfactual explanations based on determinantal point processes. To evaluate the actionability of counterfactuals, we provide metrics that enable comparison of counterfactual-based methods to other local explanation methods. We further address necessary tradeoffs and point to causal implications in optimizing for counterfactuals. Our experiments on four real-world datasets show that our framework can generate a set of counterfactuals that are diverse and well approximate local decision boundaries, outperforming prior approaches to generating diverse counterfactuals. We provide an implementation of the framework at https://github.com/microsoft/DiCE.",
+    "published_date": "2019-05-19",
+    "citation_count": 901,
+    "url": "https://dl.acm.org/doi/10.1145/3351095.3372850"
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/good-explanations-advice",
+    "title": "Good Explanations (Advice) - AI Alignment Forum",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.10389.pdf",
+    "title": "CFE2: Counterfactual Editing for Search Result Explanation",
+    "published_date": "2023-01-25",
+    "abstract": "Search Result Explanation (SeRE) aims to improve search sessions' effectiveness and efficiency by helping users interpret documents' relevance. Existing works mostly focus on factual explanation, i.e. to find/generate supporting evidence about documents' relevance to search queries. However, research in cognitive sciences has shown that human explanations are contrastive i.e. people explain an observed event using some counterfactual events; such explanations reduce cognitive load and provide actionable insights. Though already proven effective in machine learning and NLP communities, there lacks a strict formulation on how counterfactual explanations should be defined and structured, in the context of web search. In this paper, we first discuss the possible formulation of counterfactual explanations in the IR context. Next, we formulate a suite of desiderata for counterfactual explanation in SeRE task and corresponding automatic metrics. With this desiderata, we propose a method named \\textbf{C}ounter\\textbf{F}actual \\textbf{E}diting for Search Research \\textbf{E}xplanation (\\textbf{CFE2}). CFE2 provides pairwise counterfactual explanations for document pairs within a search engine result page. Our experiments on five public search datasets demonstrate that CFE2 can significantly outperform baselines in both automatic metrics and human evaluations.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/sTe78dNJDGywu9Dz6/solving-the-mechanistic-interpretability-challenges-eis-vii",
+    "author": "StefanHex, Marius Hobbhahn",
+    "title": "Solving the Mechanistic Interpretability challenges: EIS VII Challenge 1",
+    "published_date": "2023-05-09"
+  },
+  {
+    "url": "https://www.lesswrong.com/s/n3utvGrgC2SGi9xQX",
+    "author": "evhub, Adam Jermyn, Johannes Treutlein, Rubi J. Hudson, kcwoolverton",
+    "title": "Conditioning Predictive Models - LessWrong",
+    "published_date": "2023-02-01"
+  }
+]

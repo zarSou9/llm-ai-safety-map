@@ -1,0 +1,77 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.14791",
+    "title": "ISP pricing and Platform pricing interaction under net neutrality",
+    "published_date": "2024-01-26",
+    "abstract": "We analyze the effects of enforcing vs. exempting access ISP from net neutrality regulations when platforms are present and operate two-sided pricing in their business models. This study is conducted in a scenario where users and Content Providers (CPs) have access to the internet by means of their serving ISPs and to a platform that intermediates and matches users and CPs, among other service offerings. Our hypothesis is that platform two-sided pricing interacts in a relevant manner with the access ISP, which may be allowed (an hypothetical non-neutrality scenario) or not (the current neutrality regulation status) to apply two-sided pricing on its service business model. We preliminarily conclude that the platforms are extracting surplus from the CPs under the current net neutrality regime for the ISP, and that the platforms would not be able to do so under the counter-factual situation where the ISPs could apply two-sided prices.",
+    "summary": "This paper examines how net neutrality regulations impact the interaction between internet service providers (ISPs) and platforms employing two-sided pricing, finding that under current net neutrality, platforms extract surplus from content providers, a dynamic absent when ISPs can also utilize two-sided pricing."
+  },
+  {
+    "title": "Strategic Investments for Platform Launch and Ecosystem Growth: A Dynamic Analysis",
+    "abstract": "ABSTRACT Multi-sided platforms must make decisions on both pricing and engineering investment and must continually adjust them as the platform scales over its lifecycle. Engineering investments can be allocated to features that improve a platform's standalone value, social features to take advantage of same-side network effects, or integration tools and boundary resources to facilitate third-party content creation. Guidance in the academic or practitioner literature is not granular. Moreover, relevant normative economic models that consider externalities are rarely dynamic. Hence, there is a gap in knowledge about how to best balance tradeoffs between different strategic decisions throughout the entire platform lifecycle. To begin to address this gap, we explore normative strategies for coordinating pricing and engineering investment decisions on a continuous basis under different ecosystem conditions. We build a simulation model informed by economics and marketing theory and perform extensive sensitivity analyses on key parameters in different ecosystem scenarios over a multi-period lifecycle. We find that pricing and investment strategies must continuously change to perform optimally. In particular, strategies that are most effective at launch often differ from those that are most effective during scaling as well as those most effective at maturity. We also find that the optimal strategy depends strongly on the monetization model and market aversion to price changes. Lastly, we specifically examine four different industry segments: mobile platforms, social media, the sharing economy, and business-to-business. The results provide evidence that the trajectory of platform pricing and investment strategies should greatly differ depending on industrial context.",
+    "published_date": "2023-07-03",
+    "citation_count": 4,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/07421222.2023.2229125",
+    "summary": "This paper uses a dynamic simulation model to analyze optimal pricing and engineering investment strategies for multi-sided platforms throughout their lifecycle, finding that optimal strategies vary significantly depending on platform stage, monetization model, market sensitivity to price changes, and industry context. The findings highlight the need for continuous adaptation of strategies rather than a static approach."
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.07241v2",
+    "title": "Incentives and Coevolution: Steering Linear Dynamical Systems With Noncooperative Agents",
+    "published_date": "2023-03-13",
+    "abstract": "Modern sociotechnical systems typically consist of many interconnected users and competing service providers, where notions like market equilibrium are tightly connected to the “evolution” of the network of users. In this article, we model the users' dynamics as a linear dynamical system and the service providers as agents taking part in a generalized Nash game, whose outcome coincides with the input of the users' dynamics. We thus characterize the notion of coevolution of the market and the network dynamics and derive dissipativity-based conditions leading to a pertinent notion of equilibrium. We then focus on the control design and adopt the light-touch policy to incentivize or penalize the service providers as little as possible, while steering the networked system to a desirable outcome. We also provide a dimensionality reduction procedure, which offers network-size-independent conditions. Finally, we illustrate our novel notions and algorithms on a simulation setup stemming from digital market regulations for influencers, a topic of growing interest.",
+    "citation_count": 1,
+    "summary": "This paper models a sociotechnical system as a linear dynamical system influenced by noncooperative agents (service providers) in a generalized Nash game, deriving conditions for equilibrium and designing minimal interventions to steer the system towards a desired outcome. A dimensionality reduction technique enables analysis independent of network size, illustrated with a digital market regulation simulation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.07653",
+    "title": "Data, Competition, and Digital Platforms",
+    "published_date": "2023-04-15",
+    "abstract": "A monopolist platform uses data to match heterogeneous consumers with multiproduct sellers. The consumers can purchase the products on the platform or search off the platform. The platform sells targeted ads to sellers that recommend their products to consumers and reveals information to consumers about their match values. The revenue-optimal mechanism is a managed advertising campaign that matches products and preferences efficiently. In equilibrium, sellers offer higher qualities at lower unit prices on than off platform. The platform exploits its information advantage to increase its bargaining power vis-à-vis the sellers. Finally, privacy-respecting data-governance rules can lead to welfare gains for consumers. (JEL D11, D42, D44, D82, D83, M37)",
+    "citation_count": 21,
+    "summary": "A monopolist digital platform uses data to efficiently match consumers and sellers, leveraging its information advantage to extract higher profits from sellers while offering consumers better deals than off-platform options; however, consumer welfare may improve under certain data-governance rules."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "The article examines the application of game theory to AI development within organizational structures, highlighting both its potential benefits in multi-agent systems and its limitations. It argues that even with advanced AI, bureaucratic structures, characterized by hierarchical authority and specialized tasks, will remain necessary for efficient goal achievement due to inherent limitations in individual computational capacity."
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.13395",
+    "title": "Platform Behavior under Market Shocks: A Simulation Framework and Reinforcement-Learning Based Study",
+    "published_date": "2022-03-25",
+    "abstract": "We study the behavior of an economic platform (e.g., Amazon, Uber Eats, Instacart) under shocks, such as COVID-19 lockdowns, and the effect of different regulation considerations. To this end, we develop a multi-agent simulation environment of a platform economy in a multi-period setting where shocks may occur and disrupt the economy. Buyers and sellers are heterogeneous and modeled as economically-motivated agents, choosing whether or not to pay fees to access the platform. We use deep reinforcement learning to model the fee-setting and matching behavior of the platform, and consider two major types of regulation frameworks: (1) taxation policies and (2) platform fee restrictions. We offer a number of simulated experiments that cover different market settings and shed light on regulatory tradeoffs. Our results show that while many interventions are ineffective with a sophisticated platform actor, we identify a particular kind of regulation—fixing fees to the optimal, no-shock fees while still allowing a platform to choose how to match buyers and sellers—as holding promise for promoting the efficiency and resilience of the economic system.",
+    "citation_count": 7,
+    "summary": "This paper uses a multi-agent simulation and reinforcement learning to model platform behavior (e.g., Amazon) during economic shocks, finding that fixing platform fees at pre-shock optimal levels, while allowing flexible matching, is a promising regulatory strategy to improve system efficiency and resilience."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/HvqQm6o8KnwxbdmhZ/estimating-training-compute-of-deep-learning-models",
+    "author": "lennart, Jsevillamol, Marius Hobbhahn, Tamay Besiroglu, anson.ho",
+    "title": "Estimating training compute of Deep Learning models",
+    "published_date": "2022-01-20",
+    "summary": "This article presents two methods for estimating the compute used to train deep learning models: directly counting operations within the model's architecture or indirectly estimating it from GPU training time. Both methods yield comparable estimates, with recommendations for utilization rates in the GPU time method provided for different model types."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.02852v1.pdf",
+    "title": "Two Basic Queueing Models of Service Platforms in Digital Sharing Economy",
+    "published_date": "2021-07-27",
+    "abstract": "This paper describes two basic queueing models of service platforms in digital sharing economy by means of two different policies of platform matching information. We show that the two queueing models of service platforms can be expressed as the level-independent quasi birth-and-death (QBD) processes. Using the proposed QBD processes, we provide a detailed analysis for the two queueing models of service platforms, including the system stability, the average stationary numbers of seekers and of idle owners, the expected sojourn time of an arriving seeker, and the expected profits for both the service platform and each owner. Finally, numerical examples are employed to verify our theoretical results, and demonstrate how the performance measures of service platforms are influenced by some key system parameters. We believe that the methodology and results developed in this paper not only can be applied to develop a broad class of queuing models of service platforms, but also will open a series of promising innovative research on performance evaluation, optimal control and queueing-game of service platforms and digital sharing economy.",
+    "citation_count": 1,
+    "summary": "This paper analyzes two queueing models representing service platforms in the digital sharing economy, using level-independent quasi birth-and-death processes to determine key performance metrics like system stability, average queue lengths, sojourn times, and platform/owner profits. Numerical examples validate the models and illustrate the impact of system parameters on platform performance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization",
+    "published_date": "2021-06-04",
+    "summary": "This article explores applying game theory to AI development within organizational structures, highlighting the limitations of a purely game-theoretic approach and emphasizing the enduring relevance of bureaucratic principles—hierarchical authority and specialization—even with the integration of AI agents. The authors argue that human-AI collaboration, leveraging comparative advantage, is crucial for efficient problem-solving in complex environments, necessitating the continued existence of organizations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/G4KHuYC3pHry6yMhi/compute-research-questions-and-metrics-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Research Questions and Metrics - Transformative AI and Compute [4/4]",
+    "published_date": "2021-11-28",
+    "summary": "This appendix to a series on transformative AI and compute explores research questions related to AI hardware, compute scaling, and pricing. It also examines compute metrics, their limitations, and lists relevant AI hardware startups."
+  }
+]

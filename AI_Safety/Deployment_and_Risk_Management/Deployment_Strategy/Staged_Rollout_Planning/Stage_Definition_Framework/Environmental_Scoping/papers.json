@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/rmwAuWXYTo24E5nnX/a-pin-and-a-balloon-anthropic-fragility-increases-chances-of",
+    "author": "avturchin",
+    "title": "A Pin and a Balloon: Anthropic Fragility Increases Chances of Runaway Global Warming",
+    "published_date": "2022-09-11"
+  },
+  {
+    "title": "Multi-stage programming in the large with staged classes",
+    "abstract": "Multi-stage programming (MSP) holds great promise, allowing the reliable generation of specialized, partially-evaluated code with static type- and scope-safety guarantees. Yet, we argue that MSP has not reached its full potential yet, as it has been traditionally limited to generating expressions, and has lacked principled facilities for generating modular programs and data structures. In that sense, we argue that MSP has been reserved for programming “in the small,” focused on generating efficient kernels of computation on the scale of single function bodies. We present a novel technique called staged classes, which extends MSP with the ability to manipulate class definitions as first-class constructs. This lets programmers use MSP “in the large,” on the level of applications, rather than mere functions. This way, applications can be designed in an abstract and modular way without runtime cost, as staged classes guarantee the removal of all staging-time abstractions, resulting in the generation of efficient specialized modules and data structures. We describe the design of a prototype relational database system in Scala, which uses several stages of runtime compilation to maximize the efficiency of query execution and data storage. We also show that staged classes can be used for defining type- and scope-safe implementations of type providers.",
+    "published_date": "2020-11-15",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3425898.3426961"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Zi8vrf2aBCLu3Gh9s/the-simple-solow-model-of-software-engineering",
+    "author": "johnswentworth",
+    "title": "The Simple Solow Model of Software Engineering",
+    "published_date": "2019-04-08"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/3bcjPhwCnnMonc4EP/stabilize-reflect-execute",
+    "author": "ozziegooen",
+    "title": "Stabilize-Reflect-Execute",
+    "published_date": "2018-11-28"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Tx6dGzYLtfzzkuGtF/the-vulnerable-world-hypothesis-by-bostrom",
+    "author": "Ben Pace",
+    "title": "The Vulnerable World Hypothesis (by Bostrom)",
+    "published_date": "2018-11-06"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/3RLSqqfP5oQE2WDrr/new-paper-long-term-trajectories-of-human-civilization",
+    "author": "Kaj_Sotala",
+    "title": "New paper: Long-Term Trajectories of Human Civilization",
+    "published_date": "2018-08-12"
+  }
+]

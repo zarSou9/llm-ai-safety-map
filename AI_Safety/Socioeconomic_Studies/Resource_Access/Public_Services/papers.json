@@ -1,0 +1,79 @@
+[
+  {
+    "title": "Evaluating the impact of artificial intelligence technologies in public services: towards an assessment framework",
+    "abstract": "Many governments are exploring applications of AI technologies to improve their public services. While AI has the potential to radically improve governmental processes, services and policy, limited studies empirically validate the effects of the use of AI. In this research paper, a first discussion on the development of a conceptual framework to research more rigorously the effects of AI in government is proposed. The proposed elements of the framework build upon the current understanding of the drivers influencing adoption of AI and takes into account the need for complementary organisational changes for increasing impact. The model follows a public value approach to understand the possible impact of AI on both the internal mechanism of the organisation, public service quality and broader societal effects.",
+    "published_date": "2020-09-23",
+    "citation_count": 20,
+    "url": "https://dl.acm.org/doi/10.1145/3428502.3428504",
+    "summary": "This paper proposes a conceptual framework for rigorously evaluating the impact of artificial intelligence technologies on public services, focusing on organizational changes and societal effects alongside improvements in service quality and internal government processes. The framework uses a public value approach to assess AI's overall influence."
+  },
+  {
+    "title": "The use of AI in public services: results from a preliminary mapping across the EU",
+    "abstract": "Artificial Intelligence is a new set of technologies which has grasped the attention of many in society due to its potential. These technologies could also provide great benefits to public administrations when adopted. This paper acts as a first landscaping analysis to indicate, classify and understand current AI-implementations in public services. By conducting a desk research based on available documents describing AI projects, 85 AI applications in the public sector in selected European countries have been identified and reviewed. The preliminary analysis suggests that most AI initiatives are started with efficiency goals in mind, and they occur mainly in the general public service policy area. Findings of this preliminary landscape analysis set the basis for further more in depth research and recommendations for policy.",
+    "published_date": "2020-09-23",
+    "citation_count": 52,
+    "url": "https://dl.acm.org/doi/10.1145/3428502.3428513",
+    "summary": "This paper maps 85 AI applications in European public services, finding that most are efficiency-focused and concentrated in general public service policy, providing a preliminary basis for further research and policy recommendations."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.08797",
+    "title": "Computing Power and the Governance of Artificial Intelligence",
+    "published_date": "2024-02-13",
+    "abstract": "Computing power, or\"compute,\"is crucial for the development and deployment of artificial intelligence (AI) capabilities. As a result, governments and companies have started to leverage compute as a means to govern AI. For example, governments are investing in domestic compute capacity, controlling the flow of compute to competing countries, and subsidizing compute access to certain sectors. However, these efforts only scratch the surface of how compute can be used to govern AI development and deployment. Relative to other key inputs to AI (data and algorithms), AI-relevant compute is a particularly effective point of intervention: it is detectable, excludable, and quantifiable, and is produced via an extremely concentrated supply chain. These characteristics, alongside the singular importance of compute for cutting-edge AI models, suggest that governing compute can contribute to achieving common policy objectives, such as ensuring the safety and beneficial use of AI. More precisely, policymakers could use compute to facilitate regulatory visibility of AI, allocate resources to promote beneficial outcomes, and enforce restrictions against irresponsible or malicious AI development and usage. However, while compute-based policies and technologies have the potential to assist in these areas, there is significant variation in their readiness for implementation. Some ideas are currently being piloted, while others are hindered by the need for fundamental research. Furthermore, naive or poorly scoped approaches to compute governance carry significant risks in areas like privacy, economic impacts, and centralization of power. We end by suggesting guardrails to minimize these risks from compute governance.",
+    "citation_count": 16,
+    "summary": "Governments and companies increasingly use control over computing power to govern artificial intelligence development and deployment, leveraging its unique characteristics of detectability, excludability, and quantifiability to promote beneficial AI use and mitigate risks. However, effective implementation requires careful consideration of potential downsides, including privacy concerns and power centralization."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.13138",
+    "title": "Visibility into AI Agents",
+    "published_date": "2024-01-23",
+    "abstract": "Increased delegation of commercial, scientific, governmental, and personal activities to AI agents—systems capable of pursuing complex goals with limited supervision—may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.",
+    "citation_count": 12,
+    "summary": "This paper examines methods to increase transparency (\"visibility\") in AI agent usage, proposing agent identifiers, real-time monitoring, and activity logging to enhance accountability and mitigate risks associated with their growing deployment across various sectors. The authors analyze the implementation, implications for privacy and power dynamics, and applicability across different deployment contexts."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.03719",
+    "title": "Governance of the AI, by the AI, and for the AI",
+    "published_date": "2023-05-04",
+    "abstract": "Over the past half century, there have been several false dawns during which the\"arrival\"of world-changing artificial intelligence (AI) has been heralded. Tempting fate, the authors believe the age of AI has, indeed, finally arrived. Powerful image generators, such as DALL-E2 and Midjourney have suddenly allowed anyone with access the ability easily to create rich and complex art. In a similar vein, text generators, such as GPT3.5 (including ChatGPT) and BLOOM, allow users to compose detailed written descriptions of many topics of interest. And, it is even possible now for a person without extensive expertise in writing software to use AI to generate code capable of myriad applications. While AI will continue to evolve and improve, probably at a rapid rate, the current state of AI is already ushering in profound changes to many different sectors of society. Every new technology challenges the ability of humanity to govern it wisely. However, governance is usually viewed as both possible and necessary due to the disruption new technology often poses to social structures, industries, the environment, and other important human concerns. In this article, we offer an analysis of a range of interactions between AI and governance, with the hope that wise decisions may be made that maximize benefits and minimize costs. The article addresses two main aspects of this relationship: the governance of AI by humanity, and the governance of humanity by AI. The approach we have taken is itself informed by AI, as this article was written collaboratively by the authors and ChatGPT.",
+    "citation_count": 2,
+    "summary": "The paper argues that the era of transformative AI is upon us, necessitating a discussion of its governance; it explores both human governance of AI and the potential for AI to govern humanity."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.05377",
+    "title": "The impact of generative artificial intelligence on socioeconomic inequalities and policy making",
+    "published_date": "2023-12-16",
+    "abstract": "Abstract Generative artificial intelligence (AI) has the potential to both exacerbate and ameliorate existing socioeconomic inequalities. In this article, we provide a state-of-the-art interdisciplinary overview of the potential impacts of generative AI on (mis)information and three information-intensive domains: work, education, and healthcare. Our goal is to highlight how generative AI could worsen existing inequalities while illuminating how AI may help mitigate pervasive social problems. In the information domain, generative AI can democratize content creation and access but may dramatically expand the production and proliferation of misinformation. In the workplace, it can boost productivity and create new jobs, but the benefits will likely be distributed unevenly. In education, it offers personalized learning, but may widen the digital divide. In healthcare, it might improve diagnostics and accessibility, but could deepen pre-existing inequalities. In each section, we cover a specific topic, evaluate existing research, identify critical gaps, and recommend research directions, including explicit trade-offs that complicate the derivation of a priori hypotheses. We conclude with a section highlighting the role of policymaking to maximize generative AI's potential to reduce inequalities while mitigating its harmful effects. We discuss strengths and weaknesses of existing policy frameworks in the European Union, the United States, and the United Kingdom, observing that each fails to fully confront the socioeconomic challenges we have identified. We propose several concrete policies that could promote shared prosperity through the advancement of generative AI. This article emphasizes the need for interdisciplinary collaborations to understand and address the complex challenges of generative AI.",
+    "citation_count": 37,
+    "summary": "Generative AI's impact on socioeconomic inequality is complex, potentially exacerbating disparities in information access, work, education, and healthcare while also offering opportunities for amelioration; effective policy intervention is crucial to maximize benefits and mitigate harms."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and a long version, have been created to help machine learning researchers quickly assess the AI safety field and identify relevant research areas based on their existing expertise. These resources list organizations, researchers, papers, and keywords to facilitate efficient exploration of the field."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/czRtKPj3qC3wi5i94/sharing-powerful-ai-models",
+    "author": "apc",
+    "title": "Sharing Powerful AI Models",
+    "published_date": "2022-01-21",
+    "summary": "Toby Shevlane of the Future of Humanity Institute advocates for granting structured access to powerful AI models, arguing in favor of this approach on the GovAI blog. This involves controlled sharing of these models rather than unrestricted open-source release."
+  },
+  {
+    "url": "https://arxiv.org/abs/2106.04338",
+    "title": "Engines of power: Electricity, AI, and general-purpose, military transformations",
+    "published_date": "2021-06-08",
+    "abstract": "Abstract Major theories of military innovation focus on relatively narrow technological developments, such as nuclear weapons or aircraft carriers. Arguably the most profound military implications of technological change, however, come from more fundamental advances arising from 'general-purpose technologies' (GPTs), such as the steam engine, electricity, and the computer. Building from scholarship on GPTs and economic growth, we argue that the effects of GPTs on military effectiveness are broad, delayed, and shaped by indirect productivity spillovers. We label this impact pathway a 'general-purpose military transformation' (GMT). Contrary to studies that predict GPTs will rapidly diffuse to militaries around the world and narrow gaps in capabilities, we show that GMTs can reinforce existing balances if leading militaries have stronger linkages to a robust industrial base in the GPT than challengers. Evidence from electricity's impact on military affairs, covering the late nineteenth and early twentieth centuries, supports our propositions about GMTs. To probe the explanatory value of our theory and account for alternative interpretations, we compare findings from the electricity case to the military impacts of submarine technology, a non-GPT that emerged in the same period. Finally, we apply our findings to contemporary debates about artificial intelligence, which could plausibly cause a profound GMT.",
+    "citation_count": 13,
+    "summary": "The paper argues that general-purpose technologies (GPTs), like electricity and potentially AI, cause broad, delayed military transformations (\"GMTs\") by indirectly boosting productivity, and that these transformations can reinforce existing power imbalances rather than equalizing capabilities."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization",
+    "published_date": "2021-06-04",
+    "summary": "The article explores applying game theory to AI development within organizations, highlighting its limitations in complex bureaucratic structures. It argues that while AI can enhance efficiency through specialization, human-AI collaboration remains crucial due to AI's bounded rationality and the inherent need for distributed decision-making in complex problem-solving."
+  }
+]

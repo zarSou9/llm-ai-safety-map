@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2402.05114",
+    "title": "A Light-weight and Unsupervised Method for Near Real-time Behavioral Analysis using Operational Data Measurement",
+    "published_date": "2024-01-10",
+    "abstract": "Monitoring the status of large computing systems is essential to identify unexpected behavior and improve their performance and uptime. However, due to the large-scale and distributed design of such computing systems as well as a large number of monitoring parameters, automated monitoring methods should be applied. Such automatic monitoring methods should also have the ability to adapt themselves to the continuous changes in the computing system. In addition, they should be able to identify behavioral anomalies in useful time, to perform appropriate reactions. This work proposes a general lightweight and unsupervised method for near real-time anomaly detection using operational data measurement on large computing systems. The proposed model requires as little as 4 hours of data and 50 epochs for each training process to accurately resemble the behavioral pattern of computing systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.05538.pdf",
+    "title": "Efficient pattern-based anomaly detection in a network of multivariate devices",
+    "published_date": "2023-05-07",
+    "abstract": "Many organisations manage service quality and monitor a large set devices and servers where each entity is associated with telemetry or physical sensor data series. Recently, various methods have been proposed to detect behavioural anomalies, however existing approaches focus on multivariate time series and ignore communication between entities. Moreover, we aim to support end-users in not only in locating entities and sensors causing an anomaly at a certain period, but also explain this decision. We propose a scalable approach to detect anomalies using a two-step approach. First, we recover relations between entities in the network, since relations are often dynamic in nature and caused by an unknown underlying process. Next, we report anomalies based on an embedding of sequential patterns. Pattern mining is efficient and supports interpretation, i.e. patterns represent frequent occurring behaviour in time series. We extend pattern mining to filter sequential patterns based on frequency, temporal constraints and minimum description length. We collect and release two public datasets for international broadcasting and X from an Internet company. \\textit{BAD} achieves an overall F1-Score of 0.78 on 9 benchmark datasets, significantly outperforming the best baseline by 3\\%. Additionally, \\textit{BAD} is also an order-of-magnitude faster than state-of-the-art anomaly detection methods."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zYv9BQBGnk2EdCwoG/the-psyche-of-ai-pattern-recognition",
+    "author": "Scott Broock",
+    "title": "AI and the Map of Your Mind: Pattern Recognition",
+    "published_date": "2023-03-20"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.02944v4.pdf",
+    "title": "Adaptive Performance Anomaly Detection for Online Service Systems via Pattern Sketching",
+    "published_date": "2022-01-09",
+    "abstract": "To ensure the performance of online service systems, their status is closely monitored with various software and system metrics. Performance anomalies represent the performance degradation issues (e.g., slow response) of the service systems. When performing anomaly detection over the metrics, existing methods often lack the merit of interpretability, which is vital for engineers and analysts to take remediation actions. Moreover, they are unable to effectively accommodate the ever-changing services in an online fashion. To address these limitations, in this paper, we propose ADSketch, an interpretable and adaptive performance anomaly detection approach based on pattern sketching. ADSketch achieves interpretability by identifying groups of anomalous metric patterns, which represent particular types of performance issues. The underlying issues can then be immediately recognized if similar patterns emerge again. In addition, an adaptive learning algorithm is designed to embrace unprecedented patterns induced by service updates or user behavior changes. The proposed approach is evaluated with public data as well as industrial data collected from a representative online service system in Huawei Cloud. The experimental results show that ADSketch outperforms state-of-the-art approaches by a significant margin, and demonstrate the effectiveness of the online algorithm in new pattern discovery. Furthermore, our approach has been successfully deployed in industrial practice.",
+    "citation_count": 29
+  },
+  {
+    "url": "https://arxiv.org/pdf/2203.00905.pdf",
+    "title": "Responsible-AI-by-Design: a Pattern Collection for Designing Responsible AI Systems",
+    "published_date": "2022-03-02",
+    "abstract": "Although AI has significant potential to transform society, there are serious concerns about its ability to behave and make decisions responsibly. Many ethical regulations, principles, and guidelines for responsible AI have been issued recently. However, these principles are high-level and difficult to put into practice. In the meantime much effort has been put into responsible AI from the algorithm perspective, but they are limited to a small subset of ethical principles amenable to mathematical analysis. Responsible AI issues go beyond data and algorithms and are often at the system-level crosscutting many system components and the entire software engineering lifecycle. Based on the result of a systematic literature review, this paper identifies one missing element as the system-level guidance - how to design the architecture of responsible AI systems. We present a summary of design patterns that can be embedded into the AI systems as product features to contribute to responsible-AI-by-design.",
+    "citation_count": 17
+  }
+]

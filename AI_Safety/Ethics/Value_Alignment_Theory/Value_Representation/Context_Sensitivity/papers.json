@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2402.11157",
+    "title": "The Value of Context: Human versus Black Box Evaluators",
+    "published_date": "2024-02-17",
+    "abstract": "Machine learning algorithms are now capable of performing evaluations previously conducted by human experts (e.g., medical diagnoses). How should we conceptualize the difference between evaluation by humans and by algorithms, and when should an individual prefer one over the other? We propose a framework to examine one key distinction between the two forms of evaluation: Machine learning algorithms are standardized, fixing a common set of covariates by which to assess all individuals, while human evaluators customize which covariates are acquired to each individual. Our framework defines and analyzes the advantage of this customization -- the value of context -- in environments with high-dimensional data. We show that unless the agent has precise knowledge about the joint distribution of covariates, the benefit of additional covariates generally outweighs the value of context.",
+    "citation_count": 4,
+    "summary": "This paper compares human and algorithmic evaluations, arguing that while algorithms use standardized covariates, humans customize data acquisition based on individual context. The authors demonstrate that unless the algorithm possesses precise knowledge of covariate distributions, the value of context-specific human evaluation generally outweighs algorithmic standardization."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.14530",
+    "title": "Relative Value Biases in Large Language Models",
+    "published_date": "2024-01-25",
+    "abstract": "Studies of reinforcement learning in humans and animals have demonstrated a preference for options that yielded relatively better outcomes in the past, even when those options are associated with lower absolute reward. The present study tested whether large language models would exhibit a similar bias. We had gpt-4-1106-preview (GPT-4 Turbo) and Llama-2-70B make repeated choices between pairs of options with the goal of maximizing payoffs. A complete record of previous outcomes was included in each prompt. Both models exhibited relative value decision biases similar to those observed in humans and animals. Making relative comparisons among outcomes more explicit magnified the bias, whereas prompting the models to estimate expected outcomes caused the bias to disappear. These results have implications for the potential mechanisms that contribute to context-dependent choice in human agents.",
+    "citation_count": 4,
+    "summary": "Large language models (LLMs) GPT-4 and Llama-2-70B demonstrated a relative value bias in decision-making, mirroring human and animal behavior, where past relative gains influenced choices despite lower absolute rewards; this bias was amplified by explicit relative comparisons but eliminated by prompting for expected value estimations."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.11005",
+    "title": "Exploring Value Biases: How LLMs Deviate Towards the Ideal",
+    "published_date": "2024-02-16",
+    "abstract": "Large-Language-Models (LLMs) are deployed in a wide range of applications, and their response has an increasing social impact. Understanding the non-deliberate(ive) mechanism of LLMs in giving responses is essential in explaining their performance and discerning their biases in real-world applications. This is analogous to human studies, where such inadvertent responses are referred to as sampling. We study this sampling of LLMs in light of value bias and show that the sampling of LLMs tends to favour high-value options. Value bias corresponds to this shift of response from the most likely towards an ideal value represented in the LLM. In fact, this effect can be reproduced even with new entities learnt via in-context prompting. We show that this bias manifests in unexpected places and has implications on relevant application scenarios, like choosing exemplars. The results show that value bias is strong in LLMs across different categories, similar to the results found in human studies.",
+    "citation_count": 3,
+    "summary": "This paper investigates value bias in Large Language Models (LLMs), demonstrating that LLMs disproportionately favor high-value options in their responses, a phenomenon analogous to human sampling biases. This bias, observable even with newly learned entities, impacts LLM performance across various applications."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/utility-extraction",
+    "title": "Utility Extraction - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Utility extraction aims to automatically determine human preferences for use in Friendly AI, mitigating the risk of misaligned AI goals. This is challenging due to the inherent difficulty in specifying human values and the inconsistency of human behavior, leading to research focusing on methods that account for such inconsistencies."
+  },
+  {
+    "title": "Contexts and Context-awareness Revisited from an Intelligent Environments Perspective",
+    "abstract": "ABSTRACT Context is a useful concept somehow unconsciously used by humans in daily life problem-solving. Recently, several subareas of computer science have been increasingly trying to rely on this concept to design systems with practical use in certain predefined circumstances. The perception is that imbuing in the system certain context-awareness qualities can support intelligent decision-making in specific practical situations. Despite a significant number of implemented systems that aim at providing context-awareness, there is a lack of commonly accepted and used methodologies and tools. At the root of this, is the lack of agreement on a set of good principles or standards, which can act as a guide to the scientific community and the developers interested in this class of systems. There have been some extensive surveys on the use of context, still there is no theoretical corpus emerging that we can use to discuss the essential concepts making up the fabric of contexts and its use by system developers. Here we attempted such enterprise at a level, which is more formal than popular surveys, in a way that is not implementation dependent and in a way that highlights key concepts of relevance to developers. We reassessed first the basic concepts identifying the need to more prominently consider system beneficiaries' satisfaction. We then transfer explicitly these values to a more formal outline of the basic componentgs and the operations which emerge as relevant. We identify and highlight the tasks of context activation, comparison, influence, construction, and interaction. We hint at how these may work in practice and explained these through examples. We show how the theory is flexible enough by generalizing it to multiusers so that optimization of global preferences and expectations is used to drive system development and system behavior.",
+    "published_date": "2022-03-02",
+    "citation_count": 13,
+    "url": "https://www.tandfonline.com/doi/pdf/10.1080/08839514.2021.2008644?needAccess=true",
+    "summary": "This paper argues for a more formalized and user-centric approach to context-awareness in intelligent environments, proposing a theoretical framework that outlines key operations (activation, comparison, influence, construction, interaction) and emphasizes the importance of optimizing for user satisfaction. It addresses the current lack of standardized methodologies and tools in context-aware system design."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/complexity-of-value",
+    "author": "David Udell",
+    "title": "Complexity of Value - AI Alignment Forum",
+    "published_date": "2022-08-11",
+    "summary": "Human values are incredibly complex and not easily reducible to simple rules (complexity of value), and even minor alterations to these values can have drastically undesirable consequences (fragility of value). This complexity challenges ethical frameworks seeking singular, overarching principles."
+  },
+  {
+    "url": "https://arxiv.org/abs/2101.10179",
+    "title": "Cognitive Perspectives on Context-based Decisions and Explanations",
+    "published_date": "2021-01-25",
+    "abstract": "When human cognition is modeled in Philosophy and Cognitive Science, there is a pervasive idea that humans employ mental representations in order to navigate the world and make predictions about outcomes of future actions. By understanding how these representational structures work, we not only understand more about human cognition but also gain a better understanding for how humans rationalise and explain decisions. This has an influencing effect on explainable AI, where the goal is to provide explanations of computer decision-making for a human audience. We show that the Contextual Importance and Utility method for XAI share an overlap with the current new wave of action-oriented predictive representational structures, in ways that makes CIU a reliable tool for creating explanations that humans can relate to and trust.",
+    "citation_count": 1,
+    "summary": "The paper argues that understanding human cognitive representational structures, particularly action-oriented predictive models, is crucial for developing trustworthy explainable AI (XAI). It demonstrates the compatibility of the Contextual Importance and Utility (CIU) method for XAI with these cognitive models, suggesting CIU produces relatable and trustworthy explanations."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.10343v1.pdf",
+    "title": "Sensitivity as a Complexity Measure for Sequence Classification Tasks",
+    "published_date": "2021-04-21",
+    "abstract": "Abstract We introduce a theoretical framework for understanding and predicting the complexity of sequence classification tasks, using a novel extension of the theory of Boolean function sensitivity. The sensitivity of a function, given a distribution over input sequences, quantifies the number of disjoint subsets of the input sequence that can each be individually changed to change the output. We argue that standard sequence classification methods are biased towards learning low-sensitivity functions, so that tasks requiring high sensitivity are more difficult. To that end, we show analytically that simple lexical classifiers can only express functions of bounded sensitivity, and we show empirically that low-sensitivity functions are easier to learn for LSTMs. We then estimate sensitivity on 15 NLP tasks, finding that sensitivity is higher on challenging tasks collected in GLUE than on simple text classification tasks, and that sensitivity predicts the performance both of simple lexical classifiers and of vanilla BiLSTMs without pretrained contextualized embeddings. Within a task, sensitivity predicts which inputs are hard for such simple models. Our results suggest that the success of massively pretrained contextual representations stems in part because they provide representations from which information can be extracted by low-sensitivity decoders.",
+    "citation_count": 19,
+    "summary": "This paper proposes sensitivity, a novel complexity measure based on Boolean function theory, to predict the difficulty of sequence classification tasks. Empirically and theoretically, it demonstrates that tasks requiring high sensitivity are harder to learn, particularly for simple models like LSTMs and lexical classifiers, suggesting that the success of large language models partly lies in their ability to be decoded by low-sensitivity methods."
+  }
+]

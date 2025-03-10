@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2412.16224",
+    "title": "Formal Verification of Permission Voucher",
+    "published_date": "2024-12-18",
+    "abstract": "Formal verification is a critical process in ensuring the security and correctness of cryptographic protocols, particularly in high-assurance domains. This paper presents a comprehensive formal analysis of the Permission Voucher Protocol, a system designed for secure and authenticated access control in distributed environments. The analysis employs the Tamarin Prover, a state-of-the-art tool for symbolic verification, to evaluate key security properties such as authentication, confidentiality, integrity, mutual authentication, and replay prevention. We model the protocol's components, including trust relationships, secure channels, and adversary capabilities under the Dolev-Yao model. Verification results confirm the protocol's robustness against common attacks such as message tampering, impersonation, and replay. Additionally, dependency graphs and detailed proofs demonstrate the successful enforcement of security properties like voucher authenticity, data confidentiality, and key integrity. The study identifies potential enhancements, such as incorporating timestamp-based validity checks and augmenting mutual authentication mechanisms to address insider threats and key management challenges. This work highlights the advantages and limitations of using the Tamarin Prover for formal security verification and proposes strategies to mitigate scalability and performance constraints in complex systems."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.10363",
+    "title": "Verification and Enforcement of Strong State-Based Opacity for Discrete-Event Systems",
+    "published_date": "2024-01-18",
+    "abstract": "In this paper, we investigate the verification and enforcement of strong state-based opacity (SBO) in discrete-event systems modeled as partially-observed (nondeterministic) finite-state automata, including strong K-step opacity (K-SSO), strong current-state opacity (SCSO), strong initial-state opacity (SISO), and strong infinite-step opacity (Inf-SSO). They are stronger versions of four widely-studied standard opacity notions, respectively. We firstly propose a new notion of K-SSO, and then we construct a concurrent-composition structure that is a variant of our previously-proposed one to verify it. Based on this structure, a verification algorithm for the proposed notion of K-SSO is designed. Also, an upper bound on K in the proposed K-SSO is derived. Secondly, we propose a distinctive opacity-enforcement mechanism that has better scalability than the existing ones (such as supervisory control). The basic philosophy of this new mechanism is choosing a subset of controllable transitions to disable before an original system starts to run in order to cut off all its runs that violate a notion of strong SBO of interest. Accordingly, the algorithms for enforcing the above-mentioned four notions of strong SBO are designed using the proposed two concurrent-composition structures. In particular, the designed algorithm for enforcing Inf-SSO has lower time complexity than the existing one in the literature, and does not depend on any assumption. Finally, we illustrate the applications of the designed algorithms using examples."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.09124",
+    "title": "SoK: Verifiable Cross-Silo FL",
+    "published_date": "2024-10-11",
+    "abstract": "Federated Learning (FL) is a widespread approach that allows training machine learning (ML) models with data distributed across multiple devices. In cross-silo FL, which often appears in domains like healthcare or finance, the number of participants is moderate, and each party typically represents a well-known organization. For instance, in medicine data owners are often hospitals or data hubs which are well-established entities. However, malicious parties may still attempt to disturb the training procedure in order to obtain certain benefits, for example, a biased result or a reduction in computational load. While one can easily detect a malicious agent when data used for training is public, the problem becomes much more acute when it is necessary to maintain the privacy of the training dataset. To address this issue, there is recently growing interest in developing verifiable protocols, where one can check that parties do not deviate from the training procedure and perform computations correctly. In this paper, we present a systematization of knowledge on verifiable cross-silo FL. We analyze various protocols, fit them in a taxonomy, and compare their efficiency and threat models. We also analyze Zero-Knowledge Proof (ZKP) schemes and discuss how their overall cost in a FL context can be minimized. Lastly, we identify research gaps and discuss potential directions for future scientific work."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/GCqoks9eZDfpL8L3Q/how-to-prevent-collusion-when-using-untrusted-models-to",
+    "author": "Buck Shlegeris",
+    "title": "How to prevent collusion when using untrusted models to monitor each other",
+    "published_date": "2024-09-24"
+  },
+  {
+    "url": "https://arxiv.org/abs/2309.08248",
+    "title": "Verifiable Privacy-Preserving Computing",
+    "published_date": "2023-09-15",
+    "abstract": "Privacy-preserving computation (PPC) methods, such as secure multiparty computation (MPC) and homomorphic encryption (HE), are deployed increasingly often to guarantee data confidentiality in computations over private, distributed data. Similarly, we observe a steep increase in the adoption of zero-knowledge proofs (ZKPs) to guarantee (public) verifiability of locally executed computations. We project that applications that are data intensive and require strong privacy guarantees, are also likely to require verifiable correctness guarantees, especially when outsourced. While the combination of methods for verifiability and privacy protection has clear benefits, certain challenges stand before their widespread practical adoption. In this work, we analyze existing solutions that combine verifiability with privacy-preserving computations over distributed data, in order to preserve confidentiality and guarantee correctness at the same time. We classify and compare 37 different schemes, regarding solution approach, security, efficiency, and practicality. Lastly, we discuss some of the most promising solutions in this regard, and present various open challenges and directions for future research.",
+    "citation_count": 3
+  }
+]

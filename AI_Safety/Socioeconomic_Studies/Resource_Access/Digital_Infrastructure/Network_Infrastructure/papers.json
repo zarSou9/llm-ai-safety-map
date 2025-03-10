@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Network for Distributed Intelligence: A Survey and Future Perspectives",
+    "abstract": "To keep pace with the explosive growth of Artificial Intelligence (AI) and Machine Learning (ML)-dominated applications, distributed intelligence solutions are gaining momentum, which exploit cloud facilities, edge nodes and end-devices to increase the overall computational power, meet application requirements, and optimize performance. Despite the benefits in terms of data privacy and efficient usage of resources, distributing intelligence throughout the cloud-to-things continuum raises unprecedented challenges to the network design. Distributed AI/ML components need high-bandwidth, low-latency connectivity to execute learning and inference tasks, while ensuring high-accuracy and energy-efficiency. This paper aims to explore the new challenging distributed intelligence scenario by extensively and critically scanning the main research achievements in the literature. In addition, starting from them, the main building blocks of a network ecosystem that can enable distributed intelligence are identified and the authors' views are dissected to provide guidelines for the design of a “future network for distributed Intelligence”.",
+    "published_date": "2023-01-01",
+    "citation_count": 11,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/10005208/10136731.pdf",
+    "summary": "This survey paper examines the challenges and opportunities of distributed intelligence, focusing on the network infrastructure required to support AI/ML applications across cloud, edge, and end devices. It identifies key architectural components and proposes design guidelines for future networks capable of enabling distributed intelligence."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.13354",
+    "title": "Characterizing Network Requirements for GPU API Remoting in AI Applications",
+    "published_date": "2024-01-24",
+    "abstract": "GPU remoting is a promising technique for supporting AI applications. Networking plays a key role in enabling remoting. However, for efficient remoting, the network requirements in terms of latency and bandwidth are unknown. In this paper, we take a GPU-centric approach to derive the minimum latency and bandwidth requirements for GPU remoting, while ensuring no (or little) performance degradation for AI applications. Our study including theoretical model demonstrates that, with careful remoting design, unmodified AI applications can run on the remoting setup using commodity networking hardware without any overhead or even with better performance, with low network demands.",
+    "citation_count": 2,
+    "summary": "This paper investigates the minimum network latency and bandwidth requirements for efficient GPU remoting in AI applications, finding that with optimized design, unmodified applications can achieve comparable or even improved performance using standard networking hardware and low network demands."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.11905",
+    "title": "An Overview and Solution for Democratizing AI Workflows at the Network Edge",
+    "published_date": "2024-07-16",
+    "abstract": "With the process of democratization of the network edge, hardware and software for networks are becoming available to the public, overcoming the confines of traditional cloud providers and network operators. This trend, coupled with the increasing importance of AI in 6G and beyond cellular networks, presents opportunities for innovative AI applications and systems at the network edge. While AI models and services are well-managed in cloud systems, achieving similar maturity for serving network needs remains an open challenge. Existing open solutions are emerging and are yet to consider democratization requirements. In this work, we identify key requirements for democratization and propose NAOMI, a solution for democratizing AI/ML workflows at the network edge designed based on those requirements. Guided by the functionality and overlap analysis of the O-RAN AI/ML workflow architecture and MLOps systems, coupled with the survey of open-source AI/ML tools, we develop a modular, scalable, and distributed hardware architecture-independent solution. NAOMI leverages state-of-the-art open-source tools and can be deployed on distributed clusters of heterogeneous devices. The results show that NAOMI performs up to 40% better in deployment time and up to 73% faster in AI/ML workflow execution for larger datasets compared to AI/ML Framework, a representative open network access solution, while performing inference and utilizing resources on par with its counterpart.",
+    "summary": "This paper addresses the challenge of democratizing AI workflows at the network edge by proposing NAOMI, a modular, scalable solution leveraging open-source tools for efficient and faster AI/ML model deployment and execution on heterogeneous devices. NAOMI outperforms existing open solutions in deployment time and workflow execution speed, especially for larger datasets."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.04845",
+    "title": "Poster: Flexible Scheduling of Network and Computing Resources for Distributed AI Tasks",
+    "published_date": "2024-07-05",
+    "abstract": "Many emerging Artificial Intelligence (AI) applications require on-demand provisioning of large-scale computing, which can only be enabled by leveraging distributed computing services interconnected through networking. To address such increasing demand for networking to serve AI tasks, we investigate new scheduling strategies to improve communication efficiency and test them on a programmable testbed. We also show relevant challenges and research directions.",
+    "citation_count": 2,
+    "summary": "This research explores flexible scheduling strategies for distributed AI tasks, aiming to optimize communication efficiency within interconnected computing services by leveraging a programmable testbed. The study highlights challenges and future research directions in this area."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.11391",
+    "title": "Interactive AI With Retrieval-Augmented Generation for Next Generation Networking",
+    "published_date": "2024-01-21",
+    "abstract": "With the advance of artificial intelligence (AI), the concept of interactive AI (IAI) has been introduced, which can interactively understand and respond not only to human user input but also to dynamic system and network conditions. In this article, we explore an integration and enhancement of IAI in networking. We first review recent developments and future perspectives of AI and then introduce the technology and components of IAI. We then explore the integration of IAI into next-generation networks, focusing on how implicit and explicit interactions can enhance network functionality, improve user experience, and promote efficient network management. Subsequently, we propose an IAI-enabled network management and optimization framework, which consists of environment, perception, action, and brain units. We also design a pluggable large language model (LLM) module and retrieval augmented generation (RAG) module to build the knowledge base and contextual memory for decision-making in the brain unit. We demonstrate through case studies that our IAI framework can effectively perform optimization problem design. Finally, we discuss potential research directions for IAI-based networks.",
+    "citation_count": 21,
+    "summary": "This paper proposes an interactive AI (IAI) framework for next-generation networking, integrating retrieval-augmented generation (RAG) and a large language model (LLM) to enhance network management, optimization, and user experience through implicit and explicit interactions. The framework's effectiveness is demonstrated through case studies focusing on optimization problem design."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.20494",
+    "title": "MLOPS in a multicloud environment: Typical Network Topology",
+    "published_date": "2024-07-30",
+    "abstract": "As artificial intelligence, machine learning, and data science continue to drive the data-centric economy, the challenges of implementing machine learning on a single machine due to extensive data and computational needs have led to the adoption of cloud computing solutions. This research paper explores the design and implementation of a secure, cloud-native machine learning operations (MLOPS) pipeline that supports multi-cloud environments. The primary objective is to create a robust infrastructure that facilitates secure data collection, real-time model inference, and efficient management of the machine learning lifecycle. By leveraging cloud providers' capabilities, the solution aims to streamline the deployment and maintenance of machine learning models, ensuring high availability, scalability, and security. This paper details the network topology, problem description, business and technical requirements, trade-offs, and the provider selection process for achieving an optimal MLOPS environment.",
+    "summary": "This paper details the design and implementation of a secure, multi-cloud MLOps pipeline, focusing on the network topology and infrastructure needed for efficient data management, model training, inference, and lifecycle management. The authors address the challenges of deploying and maintaining machine learning models across multiple cloud providers to achieve high availability, scalability, and security."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.03747",
+    "title": "Distributed AI Platform for the 6G RAN",
+    "published_date": "2024-10-01",
+    "abstract": "Cellular Radio Access Networks (RANs) are rapidly evolving towards 6G, driven by the need to reduce costs and introduce new revenue streams for operators and enterprises. In this context, AI emerges as a key enabler in solving complex RAN problems spanning both the management and application domains. Unfortunately, and despite the undeniable promise of AI, several practical challenges still remain, hindering the widespread adoption of AI applications in the RAN space. This article attempts to shed light to these challenges and argues that existing approaches in addressing them are inadequate for realizing the vision of a truly AI-native 6G network. Motivated by this lack of solutions, it proposes a generic distributed AI platform architecture, tailored to the needs of an AI-native RAN and discusses its alignment with ongoing standardization efforts.",
+    "summary": "This paper identifies challenges hindering widespread AI adoption in 6G Radio Access Networks (RANs), arguing that current solutions are insufficient. It proposes a novel distributed AI platform architecture designed to address these challenges and align with 6G standardization efforts."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bdQhzQsHjNrQp7cNS/estimates-of-gpu-or-equivalent-resources-of-large-ai-players",
+    "author": "CharlesD",
+    "title": "Estimates of GPU or equivalent resources of large AI players for 2024/5",
+    "published_date": "2024-11-28",
+    "summary": "The article estimates the AI compute capacity of major tech companies (Microsoft, Meta, Google, Amazon, and XAI) at the end of 2024 and projects changes for 2025, based on estimations of Nvidia GPU production and sales figures. These estimates, derived from publicly available data, acknowledge significant uncertainty and potential inaccuracies."
+  }
+]

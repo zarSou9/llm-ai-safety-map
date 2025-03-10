@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2403.05663",
+    "title": "A Formal Analysis of SCTP: Attack Synthesis and Patch Verification",
+    "published_date": "2024-03-08",
+    "abstract": "SCTP is a transport protocol offering features such as multi-homing, multi-streaming, and message-oriented delivery. Its two main implementations were subjected to conformance tests using the PacketDrill tool. Conformance testing is not exhaustive and a recent vulnerability (CVE-2021-3772) showed SCTP is not immune to attacks. Changes addressing the vulnerability were implemented, but the question remains whether other flaws might persist in the protocol design. We study the security of the SCTP design, taking a rigorous approach rooted in formal methods. We create a formal Promela model of SCTP, and define 10 properties capturing the essential protocol functionality based on its RFC specification and consultation with the lead RFC author. Then we show using the Spin model checker that our model satisfies these properties. We define 4 attacker models - Off-Path, where the attacker is an outsider that can spoof the port and IP of a peer; Evil-Server, where the attacker is a malicious peer; Replay, where an attacker can capture and replay, but not modify, packets; and On-Path, where the attacker controls the channel between peers. We modify an attack synthesis tool designed for transport protocols, Korg, to support our SCTP model and four attacker models. We synthesize 14 unique attacks using the attacker models - including the CVE vulnerability in the Off-Path attacker model, 4 attacks in the Evil-Server attacker model, an opportunistic ABORT attack in the Replay attacker model, and eight connection manipulation attacks in the On-Path attacker model. We show that the proposed patch eliminates the vulnerability and does not introduce new ones according to our model and protocol properties. Finally, we identify and analyze an ambiguity in the RFC, which we show can be interpreted insecurely. We propose an erratum and show that it eliminates the ambiguity."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.16530.pdf",
+    "title": "Runtime Verification of Self-Adaptive Systems with Changing Requirements",
+    "published_date": "2023-03-29",
+    "abstract": "To accurately make adaptation decisions, a self-adaptive system needs precise means to analyze itself at runtime. To this end, runtime verification can be used in the feedback loop to check that the managed system satisfies its requirements formalized as temporal-logic properties. These requirements, however, may change due to system evolution or uncertainty in the environment, managed system, and requirements themselves. Thus, the properties under investigation by the runtime verification have to be dynamically adapted to represent the changing requirements while preserving the knowledge about requirements satisfaction gathered thus far, all with minimal latency. To address this need, we present a runtime verification approach for self-adaptive systems with changing requirements. Our approach uses property specification patterns to automatically obtain automata with precise semantics that are the basis for runtime verification. The automata can be safely adapted during runtime verification while preserving intermediate verification results to seamlessly reflect requirement changes and enable continuous verification. We evaluate our approach on an Arduino prototype of the Body Sensor Network and the Timescales benchmark. Results show that our approach is over five times faster than the typical approach of redeploying and restarting runtime monitors to reflect requirements changes, while improving the system's trustworthiness by avoiding interruptions of verification.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/abs/2309.05347",
+    "title": "Asynchrony-Resilient Sleepy Total-Order Broadcast Protocols",
+    "published_date": "2023-09-11",
+    "abstract": "Dynamically available total-order broadcast (TOB) protocols tolerate fluctuating participation, e.g., as high as 99% of their participants going offline, which is especially useful in permissionless blockchain environments. However, dynamically available TOB protocols are synchronous protocols, and they lose their safety guarantees during periods of asynchrony. This is a major issue in practice. In this paper, we propose a simple but effective mechanism for tolerating bounded periods of asynchrony in dynamically available TOB protocols that ensure safety deterministically. We propose to trade off assumptions limiting the online/offline churn rate in exchange for tolerating bounded asynchronous periods through the use of a configurable message-expiration period. In practice, this allows picking a small synchrony bound δ, and therefore obtain a fast protocol in the common case, knowing that the protocol tolerates occasional periods of duration at most π > δ during which the bound does not hold. We show how to apply this idea to a state-of-the-art protocol to make it tolerate bounded periods of asynchrony.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/2WpPRrqrFQa6n2x3W/modal-fixpoint-cooperation-without-loeb-s-theorem",
+    "author": "Andrew_Critch",
+    "title": "Modal Fixpoint Cooperation without Löb's Theorem",
+    "published_date": "2023-02-05"
+  },
+  {
+    "url": "https://arxiv.org/abs/2204.09796",
+    "title": "Distributed Runtime Verification of Metric Temporal Properties for Cross-Chain Protocols",
+    "published_date": "2022-04-20",
+    "abstract": "Transactions involving multiple blockchains are implemented by cross-chain protocols. These protocols are based on smart contracts, programs that run on blockchains, executed by a network of computers. Verifying the runtime correctness of smart contracts is a problem of compelling practical interest since, smart contracts can automatically transfer ownership of cryptocurrencies, electronic securities, and other valuable assets among untrusting parties. Such verification is challenging since smart contract execution is time sensitive, and the clocks on different blockchains may not be perfectly synchronized. This paper describes a method for runtime monitoring of blockchain executions. First, we propose a generalized runtime verification technique for verifying partially synchronous distributed computations for the metric temporal logic (MTL) by exploiting bounded-skew clock synchronization. Second, we introduce a progression-based formula rewriting scheme for monitoring MTL specifications which employs SMT solving techniques and report experimental results.",
+    "citation_count": 11
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/FeY4tXMYdTQSM4go3/how-rl-agents-behave-when-their-actions-are-modified",
+    "author": "PabloAMC",
+    "title": "How RL Agents Behave When Their Actions Are Modified? [Distillation post]",
+    "published_date": "2022-05-20"
+  }
+]

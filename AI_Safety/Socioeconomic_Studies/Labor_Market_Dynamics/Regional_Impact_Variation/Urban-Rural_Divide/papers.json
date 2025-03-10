@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2501.09479",
+    "title": "Connectivity for AI enabled cities -- A field survey based study of emerging economies",
+    "published_date": "2025-01-16",
+    "abstract": "The impact of Artificial Intelligence (AI) is transforming various aspects of urban life, including, governance, policy and planning, healthcare, sustainability, economics, entrepreneurship, etc. Although AI immense potential for positively impacting urban living, its success depends on overcoming significant challenges, particularly in telecommunications infrastructure. Smart city applications, such as, federated learning, Internet of Things (IoT), and online financial services, require reliable Quality of Service (QoS) from telecommunications networks to ensure effective information transfer. However, with over three billion people underserved or lacking access to internet, many of these AI-driven applications are at risk of either remaining underutilized or failing altogether. Furthermore, many IoT and video-based applications in densely populated urban areas require high-quality connectivity. This paper explores these issues, focusing on the challenges that need to be mitigated to make AI succeed in emerging countries, where more than 80% of the world population resides and urban migration grows. In this context, an overview of a case study conducted in Kathmandu, Nepal, highlights citizens' aspirations for affordable, high-quality internet-based services. The findings underscore the pressing need for advanced telecommunication networks to meet diverse user requirements while addressing investment and infrastructure gaps. This discussion provides insights into bridging the digital divide and enabling AI's transformative potential in urban areas.",
+    "summary": "This paper examines the critical role of robust telecommunications infrastructure in enabling AI-driven smart city applications, particularly in emerging economies, highlighting a case study in Kathmandu, Nepal, which reveals the need to address connectivity gaps to unlock AI's transformative potential. The study underscores the urgent need for improved infrastructure and investment to bridge the digital divide and ensure equitable access to AI benefits."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.11988",
+    "title": "The Emerging AI Divide in the United States",
+    "published_date": "2024-04-18",
+    "abstract": "The digital divide describes disparities in access to and usage of digital tooling between social and economic groups. Emerging generative artificial intelligence tools, which strongly affect productivity, could magnify the impact of these divides. However, the affordability, multi-modality, and multilingual capabilities of these tools could also make them more accessible to diverse users in comparison with previous forms of digital tooling. In this study, we characterize spatial differences in U.S. residents' knowledge of a new generative AI tool, ChatGPT, through an analysis of state- and county-level search query data. In the first six months after the tool's release, we observe the highest rates of users searching for ChatGPT in West Coast states and persistently low rates of search in Appalachian and Gulf states. Counties with the highest rates of search are relatively more urbanized and have proportionally more educated, more economically advantaged, and more Asian residents in comparison with other counties or with the U.S. average. In multilevel models adjusting for socioeconomic and demographic factors as well as industry makeup, education is the strongest positive predictor of rates of search for generative AI tooling. Although generative AI technologies may be novel, early differences in uptake appear to be following familiar paths of digital marginalization.",
+    "citation_count": 4,
+    "summary": "Analysis of ChatGPT search query data reveals a widening AI divide in the US, with higher search rates concentrated in wealthier, more urban, and better-educated areas, mirroring existing digital disparities and suggesting that access to and knowledge of generative AI may exacerbate existing inequalities."
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.08046",
+    "title": "Big City Bias: Evaluating the Impact of Metropolitan Size on Computational Job Market Abilities of Language Models",
+    "published_date": "2024-03-12",
+    "abstract": "Large language models have emerged as a useful technology for job matching, for both candidates and employers. Job matching is often based on a particular geographic location, such as a city or region. However, LMs have known biases, commonly derived from their training data. In this work, we aim to quantify the metropolitan size bias encoded within large language models, evaluating zero-shot salary, employer presence, and commute duration predictions in 384 of the United States' metropolitan regions. Across all benchmarks, we observe correlations between metropolitan population and the accuracy of predictions, with the smallest 10 metropolitan regions showing upwards of 300% worse benchmark performance than the largest 10.",
+    "summary": "This study finds that large language models exhibit a significant bias favoring larger metropolitan areas when predicting job market metrics like salary and commute times, with smaller cities showing substantially worse prediction accuracy. This bias is likely due to skewed training data."
+  },
+  {
+    "url": "https://arxiv.org/abs/2108.13356",
+    "title": "The global polarisation of remote work",
+    "published_date": "2021-08-30",
+    "abstract": "The Covid-19 pandemic has led to the rise of digitally enabled remote work with consequences for the global division of labour. Remote work could connect labour markets, but it might also increase spatial polarisation. However, our understanding of the geographies of remote work is limited. Specifically, in how far could remote work connect employers and workers in different countries? Does it bring jobs to rural areas because of lower living costs, or does it concentrate in large cities? And how do skill requirements affect competition for employment and wages? We use data from a fully remote labour market—an online labour platform—to show that remote platform work is polarised along three dimensions. First, countries are globally divided: North American, European, and South Asian remote platform workers attract most jobs, while many Global South countries participate only marginally. Secondly, remote jobs are pulled to large cities; rural areas fall behind. Thirdly, remote work is polarised along the skill axis: workers with in-demand skills attract profitable jobs, while others face intense competition and obtain low wages. The findings suggest that agglomerative forces linked to the unequal spatial distribution of skills, human capital, and opportunities shape the global geography of remote work. These forces pull remote work to places with institutions that foster specialisation and complex economic activities, i. e. metropolitan areas focused on information and communication technologies. Locations without access to these enabling institutions—in many cases, rural areas—fall behind. To make remote work an effective tool for economic and rural development, it would need to be complemented by local skill-building, infrastructure investment, and labour market programmes.",
+    "citation_count": 22,
+    "summary": "Analysis of a remote work platform reveals a geographically polarized landscape, with jobs concentrated in large cities of developed nations and favoring skilled workers, leaving many Global South countries and rural areas largely excluded. This polarization highlights the need for targeted interventions to ensure equitable access to remote work opportunities."
+  },
+  {
+    "title": "The impact of metropolitan technology on the non-metropolitan labour market: evidence from US patents",
+    "abstract": "ABSTRACT While urban technology exerts a positive effect on rural development through knowledge spillovers, it also raises the competitive advantage of urban firms over rural firms in product market competition. Urban technology also affects the rural labour market through brain drain. Using US county-level data, we find a negative relationship between metropolitan patent counts and non-metropolitan labour market performance. Our basic calculation indicates that, between 2005 and 2015, metropolitan technological progress was associated with a relative loss of about 2.5 million non-metropolitan jobs.",
+    "published_date": "2021-06-30",
+    "citation_count": 8,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/00343404.2021.1935841",
+    "summary": "Metropolitan technological advancements negatively impact non-metropolitan labor markets, resulting in job losses due to increased urban firm competitiveness and brain drain, despite potential knowledge spillovers. This study estimates a loss of approximately 2.5 million non-metropolitan jobs between 2005 and 2015 due to this effect."
+  },
+  {
+    "url": "https://arxiv.org/abs/2102.01648",
+    "title": "The Privatization of AI Research(-ers): Causes and Potential Consequences - From university-industry interaction to public research brain-drain?",
+    "published_date": "2021-02-02",
+    "abstract": "In this paper, we analyze the causes and discuss potential consequences of a perceived privatization of AI research, particularly the transition of AI researchers from academia to industry. We explore the scale of the phenomenon by quantifying transition flows between industry and academia, and providing a descriptive account and exploratory analysis of characteristics of industry transition. Here we find that industry researchers and those transitioning into industry produce more impactful research as measured by citations. Using a survival regression approach we identify mechanisms that trigger these university-industry transitions focusing on researcher characteristics, performance and research field as documented in bibliographic data. We find that, researchers working within the field of deep learning as well as those with higher average impact tend to transition into industry. These findings highlight the importance of strengthening academic research in public organizations within AI to balance a potential dominance of private companies and to maintain public supervision of the development and application of this technology.",
+    "citation_count": 20,
+    "summary": "This paper examines the increasing movement of AI researchers from academia to industry, finding that high-impact researchers, especially in deep learning, are most likely to transition. The authors suggest this trend necessitates bolstering public AI research to counter potential private sector dominance and ensure responsible technological development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/G4KHuYC3pHry6yMhi/compute-research-questions-and-metrics-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Research Questions and Metrics - Transformative AI and Compute [4/4]",
+    "published_date": "2021-11-28",
+    "summary": "This appendix to a series on transformative AI and compute explores key research questions surrounding AI hardware development and compute scaling, including the relationship between compute spending, hardware performance, and model efficiency. It also provides a list of AI hardware startups and discusses relevant metrics and their limitations."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes AI safety-related content, reflecting the principle of careful reading warranting summarization."
+  }
+]

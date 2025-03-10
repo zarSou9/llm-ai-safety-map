@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2407.04259",
+    "title": "Robust Q-Learning for finite ambiguity sets",
+    "published_date": "2024-07-05",
+    "abstract": "In this paper we propose a novel $Q$-learning algorithm allowing to solve distributionally robust Markov decision problems for which the ambiguity set of probability measures can be chosen arbitrarily as long as it comprises only a finite amount of measures. Therefore, our approach goes beyond the well-studied cases involving ambiguity sets of balls around some reference measure with the distance to reference measure being measured with respect to the Wasserstein distance or the Kullback--Leibler divergence. Hence, our approach allows the applicant to create ambiguity sets better tailored to her needs and to solve the associated robust Markov decision problem via a $Q$-learning algorithm whose convergence is guaranteed by our main result. Moreover, we showcase in several numerical experiments the tractability of our approach.",
+    "summary": "This paper introduces a robust Q-learning algorithm for solving Markov decision problems with finite ambiguity sets of probability measures, offering flexibility beyond typical ambiguity set structures like Wasserstein or Kullback-Leibler balls, and guaranteeing convergence."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.14075",
+    "title": "Online MDP with Transition Prototypes: A Robust Adaptive Approach",
+    "published_date": "2024-12-18",
+    "abstract": "In this work, we consider an online robust Markov Decision Process (MDP) where we have the information of finitely many prototypes of the underlying transition kernel. We consider an adaptively updated ambiguity set of the prototypes and propose an algorithm that efficiently identifies the true underlying transition kernel while guaranteeing the performance of the corresponding robust policy. To be more specific, we provide a sublinear regret of the subsequent optimal robust policy. We also provide an early stopping mechanism and a worst-case performance bound of the value function. In numerical experiments, we demonstrate that our method outperforms existing approaches, particularly in the early stage with limited data. This work contributes to robust MDPs by considering possible prior information about the underlying transition probability and online learning, offering both theoretical insights and practical algorithms for improved decision-making under uncertainty.",
+    "summary": "This paper introduces an online robust Markov Decision Process (MDP) algorithm that leverages transition kernel prototypes to adaptively learn the true transition kernel, achieving sublinear regret and improved performance compared to existing methods, especially with limited data. The algorithm incorporates an early stopping mechanism and provides worst-case performance bounds."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a novel framework for building ethically aligned AI by incorporating ethical principles as Bayesian priors into AI learning processes. This approach, inspired by human moral intuition, aims to guide AI decision-making with ethical considerations from the outset, offering a flexible alternative to rigid rule-based systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.07488",
+    "title": "Robust Markov decision processes under parametric transition distributions",
+    "published_date": "2022-11-14",
+    "abstract": "This paper considers robust Markov decision processes under parametric transition distributions. We assume that the true transition distribution is uniquely specified by some parametric distribution, and explicitly enforce that the worst-case distribution from the model is uniquely specified by a distribution in the same parametric family. After formulating the parametric robust model, we focus on developing algorithms for carrying out the robust Bellman updates required to complete robust value iteration. We first formulate the update as a linear program by discretising the ambiguity set. Since this model scales poorly with problem size and requires large amounts of pre-computation, we develop two additional algorithms for solving the robust Bellman update. Firstly, we present a cutting surface algorithm for solving this linear program in a shorter time. This algorithm requires the same pre-computation, but only ever solves the linear program over small subsets of the ambiguity set. Secondly, we present a novel projection-based bisection search algorithm that completely eliminates the need for discretisation and does not require any pre-computation. We test our algorithms extensively on a dynamic multi-period newsvendor problem under binomial and Poisson demands. In addition, we compare our methods with the non-parametric phi-divergence based methods from the literature. We show that our projection-based algorithm completes robust value iteration significantly faster than our other two parametric algorithms, and also faster than its non-parametric equivalent.",
+    "citation_count": 1,
+    "summary": "This paper develops and compares three algorithms for solving robust Markov decision processes with parametric transition distributions, focusing on efficient computation of robust Bellman updates. A novel projection-based bisection search algorithm significantly outperforms the other parametric and existing non-parametric methods in terms of speed."
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.06569",
+    "title": "RISE: Robust Individualized Decision Learning with Sensitive Variables",
+    "published_date": "2022-11-12",
+    "abstract": "This paper introduces RISE, a robust individualized decision learning framework with sensitive variables, where sensitive variables are collectible data and important to the intervention decision, but their inclusion in decision making is prohibited due to reasons such as delayed availability or fairness concerns. A naive baseline is to ignore these sensitive variables in learning decision rules, leading to significant uncertainty and bias. To address this, we propose a decision learning framework to incorporate sensitive variables during offline training but not include them in the input of the learned decision rule during model deployment. Specifically, from a causal perspective, the proposed framework intends to improve the worst-case outcomes of individuals caused by sensitive variables that are unavailable at the time of decision. Unlike most existing literature that uses mean-optimal objectives, we propose a robust learning framework by finding a newly defined quantile- or infimum-optimal decision rule. The reliable performance of the proposed method is demonstrated through synthetic experiments and three real-world applications.",
+    "citation_count": 7,
+    "summary": "RISE is a robust individualized decision-learning framework that incorporates sensitive variables during training to improve decision-making, even when these variables are unavailable at deployment time, by optimizing for worst-case outcomes rather than average outcomes. This approach mitigates bias and uncertainty stemming from the exclusion of sensitive variables in the deployed model."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.00291",
+    "title": "Robust Generation Dispatch With Purchase of Renewable Power and Load Predictions",
+    "published_date": "2022-10-01",
+    "abstract": "The increasing use of renewable energy sources (RESs) and responsive loads has made power systems more uncertain. Meanwhile, thanks to the development of advanced metering and forecasting technologies, predictions by RES and load owners are now attainable. Many recent studies have revealed that pooling the predictions from RESs and loads can help the operators predict more accurately and make better dispatch decisions. However, how the prediction purchase decisions are made during the dispatch processes needs further investigation. This paper fills the research gap by proposing a novel robust generation dispatch model considering the purchase and use of predictions from RESs and loads. The prediction purchase decisions are made in the first stage, which influence the accuracy of predictions from RESs and loads, and further the uncertainty set and the worst-case second-stage dispatch performance. This two-stage procedure is essentially a robust optimization problem with decision-dependent uncertainty (DDU). A mapping-based column-and-constraint generation (C&CG) algorithm is developed to overcome the potential failures of traditional solution methods in detecting feasibility, guaranteeing convergence, and reaching optimal strategies under DDU. Case studies demonstrate the effectiveness, necessity, and scalability of the proposed model and algorithm.",
+    "citation_count": 2,
+    "summary": "This paper presents a robust generation dispatch model that incorporates the strategic purchase of renewable energy and load predictions to mitigate power system uncertainty. A novel two-stage robust optimization approach with a mapping-based column-and-constraint generation algorithm is developed to solve the resulting decision-dependent uncertainty problem."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/robust-agents",
+    "author": "Alyssa Vance",
+    "title": "Robust Agents - AI Alignment Forum",
+    "published_date": "2022-07-14",
+    "summary": "Robust agents are adaptable decision-makers possessing a coherent value system and decision-making process, allowing them to succeed in diverse and unpredictable situations. Unlike agents relying on instinct or narrow goals, robust agents maintain consistent performance across changing circumstances."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.12573.pdf",
+    "title": "Robust decision-making under risk and ambiguity",
+    "published_date": "2021-04-23",
+    "abstract": "Economists often estimate economic models on data and use the point estimates as a stand-in for the truth when studying the model's implications for optimal decision-making. This practice ignores model ambiguity, exposes the decision problem to misspecification, and ultimately leads to post-decision disappointment. Using statistical decision theory, we develop a framework to explore, evaluate, and optimize robust decision rules that explicitly account for estimation uncertainty. We show how to operationalize our analysis by studying robust decisions in a stochastic dynamic investment model in which a decision-maker directly accounts for uncertainty in the model's transition dynamics.",
+    "citation_count": 2,
+    "summary": "This paper argues that relying solely on point estimates in economic models for decision-making ignores model ambiguity and leads to suboptimal choices. It proposes a statistical decision theory framework for creating robust decision rules that explicitly incorporate estimation uncertainty."
+  }
+]

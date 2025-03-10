@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/jyAerr8txxhiKnxwA/5-reasons-why-governments-militaries-want-ai-for-information-1",
+    "author": "trevor",
+    "title": "5 Reasons Why Governments/Militaries Already Want AI for Information Warfare",
+    "published_date": "2023-10-30",
+    "summary": "Modern militaries increasingly prioritize information warfare, leveraging advanced psychological research to influence high-intelligence elites rather than the general population, a strategy significantly amplified by rapid technological advancements. This approach reflects a shift in geopolitical strategy, where soft power and shaping narratives are crucial alongside traditional military might."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2206.02566v1.pdf",
+    "title": "Towards Group Learning: Distributed Weighting of Experts",
+    "published_date": "2022-06-03",
+    "abstract": "Aggregating signals from a collection of noisy sources is a fundamental problem in many domains including crowd-sourcing, multi-agent planning, sensor networks, signal processing, voting, ensemble learning, and federated learning. The core question is how to aggregate signals from multiple sources (e.g. experts) in order to reveal an underlying ground truth. While a full answer depends on the type of signal, correlation of signals, and desired output, a problem common to all of these applications is that of differentiating sources based on their quality and weighting them accordingly. It is often assumed that this differentiation and aggregation is done by a single, accurate central mechanism or agent (e.g. judge). We complicate this model in two ways. First, we investigate the setting with both a single judge, and one with multiple judges. Second, given this multi-agent interaction of judges, we investigate various constraints on the judges' reporting space. We build on known results for the optimal weighting of experts and prove that an ensemble of sub-optimal mechanisms can perform optimally under certain conditions. We then show empirically that the ensemble approximates the performance of the optimal mechanism under a broader range of conditions.",
+    "summary": "This paper examines methods for optimally weighting expert opinions in group learning scenarios, considering both single and multiple judge settings with varying constraints on reporting, demonstrating that ensembles of suboptimal mechanisms can achieve optimal performance under specific conditions. Empirical results show this ensemble approach approximates optimal performance more broadly."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ixiCECkFFguFcHWFa/paper-forecasting-world-events-with-neural-nets",
+    "author": "Owain_Evans, Dan H, Joe Kwon",
+    "title": "Paper: Forecasting world events with neural nets",
+    "published_date": "2022-07-01",
+    "summary": "Researchers introduce Autocast, a dataset of thousands of real-world forecasting questions from tournaments like Metaculus, paired with a news corpus, to benchmark machine learning models' ability to predict events across various domains. While current models underperform human experts, the dataset facilitates research towards automating forecasting tasks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2101.04765",
+    "title": "Joint aggregation of cardinal and ordinal evaluations with an application to a student paper competition",
+    "published_date": "2021-01-12",
+    "abstract": "An important problem in decision theory concerns the aggregation of individual rankings/ratings into a collective evaluation. We illustrate a new aggregation method in the context of the 2007 MSOM's student paper competition. The aggregation problem in this competition poses two challenges. Firstly, each paper was reviewed only by a very small fraction of the judges; thus the aggregate evaluation is highly sensitive to the subjective scales chosen by the judges. Secondly, the judges provided both cardinal and ordinal evaluations (ratings and rankings) of the papers they reviewed. The contribution here is a new robust methodology that jointly aggregates ordinal and cardinal evaluations into a collective evaluation. This methodology is particularly suitable in cases of incomplete evaluations—i.e., when the individuals evaluate only a strict subset of the objects. This approach is potentially useful in managerial decision making problems by a committee selecting projects from a large set or capital budgeting involving multiple priorities.",
+    "summary": "This paper presents a novel method for aggregating both cardinal (ratings) and ordinal (rankings) evaluations from multiple judges, especially useful when dealing with incomplete datasets and a small number of judges per item, as demonstrated by its application to a student paper competition. The method offers a robust collective evaluation, applicable to various managerial decision-making scenarios with multiple criteria."
+  },
+  {
+    "title": "A Robust Reputation-Based Group Ranking System and Its Resistance to Bribery",
+    "abstract": "The spread of online reviews and opinions and its growing influence on people's behavior and decisions boosted the interest to extract meaningful information from this data deluge. Hence, crowdsourced ratings of products and services gained a critical role in business and governments. Current state-of-the-art solutions rank the items with an average of the ratings expressed for an item, with a consequent lack of personalization for the users, and the exposure to attacks and spamming/spurious users. Using these ratings to group users with similar preferences might be useful to present users with items that reflect their preferences and overcome those vulnerabilities. In this article, we propose a new reputation-based ranking system, utilizing multipartite rating subnetworks, which clusters users by their similarities using three measures, two of them based on Kolmogorov complexity. We also study its resistance to bribery and how to design optimal bribing strategies. Our system is novel in that it reflects the diversity of preferences by (possibly) assigning distinct rankings to the same item, for different groups of users. We prove the convergence and efficiency of the system. By testing it on synthetic and real data, we see that it copes better with spamming/spurious users, being more robust to attacks than state-of-the-art approaches. Also, by clustering users, the effect of bribery in the proposed multipartite ranking system is dimmed, comparing to the bipartite case.",
+    "published_date": "2020-04-13",
+    "citation_count": 8,
+    "url": "https://dl.acm.org/doi/10.1145/3462210",
+    "summary": "This paper introduces a novel reputation-based group ranking system that clusters users with similar preferences using Kolmogorov complexity-based measures, improving robustness against spam and bribery attacks compared to existing average-rating systems. The system achieves this by providing personalized rankings for different user groups, thus mitigating the impact of manipulation."
+  },
+  {
+    "title": "Generalising Kendall's Tau for Noisy and Incomplete Preference Judgements",
+    "abstract": "We propose a new ranking evaluation measure for situations where multiple preference judgements are given for each item pair but they may be noisy (i.e., some judgements are unreliable) and/or incomplete (i.e., some judgements are missing). While it is generally easier for assessors to conduct preference judgements than absolute judgements, it is often not practical to obtain preference judgements for all combinations of documents. However, this problem can be overcome if we can effectively utilise noisy and incomplete preference judgements such as those that can be obtained from crowdsourcing. Our measure, η, is based on a simple probabilistic user model of the labellers which assumes that each document is associated with a graded relevance score for a given query. We also consider situations where multiple preference probabilities, rather than preference labels, are given for each document pair. For example, in the absence of manual preference judgements, one might want to employ an ensemble of machine learning techniques to obtain such estimated probabilities. For this scenario, we propose another ranking evaluation measure called η_p $. Through simulated experiments, we demonstrate that our proposed measures η and η_p$ can evaluate rankings more reliably than τ\\mbox- b$, a popular rank correlation measure.",
+    "published_date": "2019-09-23",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3341981.3344246",
+    "summary": "This paper introduces two new ranking evaluation measures, η and ηₚ, designed to handle noisy and incomplete preference judgements, outperforming existing methods like τ-b in simulated experiments. These measures incorporate probabilistic user models and can utilize both preference labels and estimated probabilities from multiple sources."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1910.07015.pdf",
+    "title": "Dynamically Aggregating Diverse Information",
+    "published_date": "2019-04-15",
+    "abstract": "An agent has access to multiple information sources, each modeled as a Brownian motion whose drift provides information about a different component of an unknown Gaussian state. Information is acquired continuously---where the agent chooses both which sources to sample from, and also how to allocate attention across them---until an endogenously chosen time, at which point a decision is taken. We demonstrate conditions on the agent's prior belief under which it is possible to exactly characterize the optimal information acquisition strategy. We then apply this characterization to derive new results regarding: (1) endogenous information acquisition for binary choice, (2) the dynamic consequences of attention manipulation, and (3) strategic information provision by biased news sources.",
+    "citation_count": 31,
+    "summary": "This paper models an agent optimally acquiring information from multiple, continuously-updating sources to make a decision at a self-determined time. The authors characterize optimal information acquisition strategies and apply this to analyze binary choices, attention manipulation, and strategic information provision by biased sources."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24",
+    "summary": "This article explores the intersection of rationalism and blockchain technology, focusing on key mathematical challenges within blockchain and proposing mechanism design solutions, such as quadratic voting and funding, to improve cooperation and philanthropy."
+  }
+]

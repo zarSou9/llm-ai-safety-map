@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2302.10980v2",
+    "title": "MultiRobustBench: Benchmarking Robustness Against Multiple Attacks",
+    "published_date": "2023-02-21",
+    "abstract": "The bulk of existing research in defending against adversarial examples focuses on defending against a single (typically bounded Lp-norm) attack, but for a practical setting, machine learning (ML) models should be robust to a wide variety of attacks. In this paper, we present the first unified framework for considering multiple attacks against ML models. Our framework is able to model different levels of learner's knowledge about the test-time adversary, allowing us to model robustness against unforeseen attacks and robustness against unions of attacks. Using our framework, we present the first leaderboard, MultiRobustBench, for benchmarking multiattack evaluation which captures performance across attack types and attack strengths. We evaluate the performance of 16 defended models for robustness against a set of 9 different attack types, including Lp-based threat models, spatial transformations, and color changes, at 20 different attack strengths (180 attacks total). Additionally, we analyze the state of current defenses against multiple attacks. Our analysis shows that while existing defenses have made progress in terms of average robustness across the set of attacks used, robustness against the worst-case attack is still a big open problem as all existing models perform worse than random guessing.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.05368.pdf",
+    "title": "RoBIC: A Benchmark Suite For Assessing Classifiers Robustness",
+    "published_date": "2021-02-10",
+    "abstract": "Many defenses have emerged with the development of adversarial attacks. Models must be objectively evaluated accordingly. This paper systematically tackles this concern by proposing a new parameter-free benchmark we coin ROBIC. ROBIC fairly evaluates the robustness of image classifiers using a new half-distortion measure. It gauges the robustness of the network against white and black box attacks, independently of its accuracy. ROBIC is faster than the other available benchmarks. We present the significant differences in the robustness of 16 recent models as assessed by ROBIC.We make this benchmark publicly available for use and contribution at https://gitlab.inria.fr/t;maho/robustness_benchmark.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/abs/2112.09279",
+    "title": "Robust Upper Bounds for Adversarial Training",
+    "published_date": "2021-12-17",
+    "abstract": "Many state-of-the-art adversarial training methods for deep learning leverage upper bounds of the adversarial loss to provide security guarantees against adversarial attacks. Yet, these methods rely on convex relaxations to propagate lower and upper bounds for intermediate layers, which affect the tightness of the bound at the output layer. We introduce a new approach to adversarial training by minimizing an upper bound of the adversarial loss that is based on a holistic expansion of the network instead of separate bounds for each layer. This bound is facilitated by state-of-the-art tools from Robust Optimization; it has closed-form and can be effectively trained using backpropagation. We derive two new methods with the proposed approach. The first method (Approximated Robust Upper Bound or aRUB) uses the first order approximation of the network as well as basic tools from Linear Robust Optimization to obtain an empirical upper bound of the adversarial loss that can be easily implemented. The second method (Robust Upper Bound or RUB), computes a provable upper bound of the adversarial loss. Across a variety of tabular and vision data sets we demonstrate the effectiveness of our approach -- RUB is substantially more robust than state-of-the-art methods for larger perturbations, while aRUB matches the performance of state-of-the-art methods for small perturbations."
+  },
+  {
+    "url": "https://arxiv.org/abs/2010.09670v1",
+    "title": "RobustBench: a standardized adversarial robustness benchmark",
+    "published_date": "2020-10-19",
+    "abstract": "Evaluation of adversarial robustness is often error-prone leading to overestimation of the true robustness of models. While adaptive attacks designed for a particular defense are a way out of this, there are only approximate guidelines on how to perform them. Moreover, adaptive evaluations are highly customized for particular models, which makes it difficult to compare different defenses. Our goal is to establish a standardized benchmark of adversarial robustness, which as accurately as possible reflects the robustness of the considered models within a reasonable computational budget. This requires to impose some restrictions on the admitted models to rule out defenses that only make gradient-based attacks ineffective without improving actual robustness. We evaluate robustness of models for our benchmark with AutoAttack, an ensemble of white- and black-box attacks which was recently shown in a large-scale study to improve almost all robustness evaluations compared to the original publications. Our leaderboard, hosted at this http URL, aims at reflecting the current state of the art on a set of well-defined tasks in $\\ell_\\infty$- and $\\ell_2$-threat models with possible extensions in the future. Additionally, we open-source the library this http URL that provides unified access to state-of-the-art robust models to facilitate their downstream applications. Finally, based on the collected models, we analyze general trends in $\\ell_p$-robustness and its impact on other tasks such as robustness to various distribution shifts and out-of-distribution detection.",
+    "citation_count": 609
+  },
+  {
+    "url": "https://arxiv.org/abs/2005.02540v2",
+    "title": "Measuring Adversarial Robustness using a Voronoi-Epsilon Adversary",
+    "published_date": "2020-05-06",
+    "abstract": "Previous studies on robustness have argued that there is a tradeoff between accuracy and adversarial accuracy. The tradeoff can be inevitable even when we neglect generalization. We argue that the tradeoff is inherent to the commonly used definition of adversarial accuracy, which uses an adversary that can construct adversarial points constrained by $\\epsilon$-balls around data points. As $\\epsilon$ gets large, the adversary may use real data points from other classes as adversarial examples. We propose a Voronoi-epsilon adversary which is constrained both by Voronoi cells and by $\\epsilon$-balls. This adversary balances two notions of perturbation. As a result, adversarial accuracy based on this adversary avoids a tradeoff between accuracy and adversarial accuracy on training data even when $\\epsilon$ is large. Finally, we show that a nearest neighbor classifier is the maximally robust classifier against the proposed adversary on the training data."
+  },
+  {
+    "title": "Evaluating Robustness of AI Models against Adversarial Attacks",
+    "abstract": "Recently developed adversarial attacks on neural networks have become more aggressive and dangerous, because of which Artificial Intelligence (AI) models are no longer sufficiently robust against them. It is important to have a set of effective and reliable methods to detect malicious attacks to ensure the security of AI models. Such standardized methods can also serve as a reference for researchers to develop robust models and new kinds of attacks. This study proposes a method to assess the robustness of AI models. Six commonly used image classification CNN models were evaluated when subjected to 13 types of adversarial attacks. The robustness of the models is calculated unbiased and can be used as a reference for further improvement. It is distinguished from prior related works that our algorithm is attack-agnostic and is applicable to neural network model.",
+    "published_date": "2020-10-06",
+    "citation_count": 14,
+    "url": "https://dl.acm.org/doi/10.1145/3385003.3410920"
+  }
+]

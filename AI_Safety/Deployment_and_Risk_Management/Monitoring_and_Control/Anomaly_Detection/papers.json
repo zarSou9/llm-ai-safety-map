@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Machine Learning-Based Anomaly Detection for Multivariate Time Series With Correlation Dependency",
+    "abstract": "Recent advances in data collection facilitate the acquisition of large quantities of multivariate time series (MTS) data from various real-world systems. Anomaly detection in high-dimensional MTS data is essential to improving the productivity and safety of such systems; however, capturing the complex intercorrelations between different pairs of time series related to anomalous patterns is challenging. In this study, two different anomaly detection problems—mean shift and structural change—were defined based on the correlation dependency of MTS. Existing algorithms were experimentally analyzed and compared based on their correlation dependency encoding methods using synthetic datasets, with the results revealing that the explicit encoding of correlation dependency improves the predictive performance of anomaly detection in MTS data.",
+    "published_date": "2022-01-01",
+    "citation_count": 3,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09991964.pdf",
+    "summary": "This paper investigates anomaly detection in multivariate time series data, focusing on how explicitly encoding correlation dependencies between time series improves the performance of existing algorithms for detecting both mean shifts and structural changes. Experiments using synthetic datasets demonstrate that incorporating correlation information enhances anomaly detection accuracy."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13",
+    "summary": "This article explains Deep Q-Networks (DQN), a deep reinforcement learning algorithm, at varying levels of detail. It provides a high-level overview suitable for those familiar with reinforcement learning, and then delves into the mathematical and technical aspects for those seeking a deeper understanding."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rCP5iTYLtfcoC8NXd/self-organised-neural-networks-a-simple-natural-and",
+    "author": "D𝜋",
+    "title": "Self-Organised Neural Networks:\nA simple, natural and efficient way to intelligence",
+    "published_date": "2022-01-01",
+    "summary": "The article presents a novel spiking neural network achieving state-of-the-art accuracy (98.9%) on the PI-MNIST dataset using a simple, biologically-inspired learning method involving only additions, no backpropagation, and minimal parameters. This network operates online and is based on Hebbian learning and principles of cortical structure."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14",
+    "summary": "The article highlights common statistical errors, primarily the false assumption of Gaussian distributions in many fields and the misinterpretation of p-values, base rates, and statistical power. These errors lead to flawed conclusions and unreliable results in various scientific and business applications."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03",
+    "summary": "The Gaussian distribution is often incorrectly used to model binary count data; the Beta distribution provides a more accurate representation, especially for small datasets or probabilities near 0 or 1, where the Gaussian approximation breaks down and yields nonsensical results. The Beta distribution is readily implemented and offers a superior alternative for calculating uncertainty intervals."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25",
+    "summary": "Variational Bayesian methods address the intractability of calculating P(x) in Bayesian inference by approximating the true posterior P(z|x) with an easily tractable distribution Q(z|x). This approximation minimizes the Kullback-Leibler divergence between Q(z|x) and P(z|x), allowing for efficient computation of an approximate P(x)."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.06289v1.pdf",
+    "title": "A Scalable Algorithm for Anomaly Detection via Learning-Based Controlled Sensing",
+    "published_date": "2021-05-12",
+    "abstract": "We address the problem of sequentially selecting and observing processes from a given set to find the anomalies among them. The decision maker observes one process at a time and obtains a noisy binary indicator of whether or not the corresponding process is anomalous. In this setting, we develop an anomaly detection algorithm that chooses the process to be observed at a given time instant, decides when to stop taking observations, and makes a decision regarding the anomalous processes. The objective of the detection algorithm is to arrive at a decision with an accuracy exceeding a desired value while minimizing the delay in decision making. Our algorithm relies on a Markov decision process defined using the marginal probability of each process being normal or anomalous, conditioned on the observations. We implement the detection algorithm using the deep actor-critic reinforcement learning framework. Unlike prior work on this topic that has exponential complexity in the number of processes, our algorithm has computational and memory requirements that are both polynomial in the number of processes. We demonstrate the efficacy of our algorithm using numerical experiments by comparing it with the state-of-the-art methods.",
+    "citation_count": 3,
+    "summary": "This paper presents a scalable, polynomial-time anomaly detection algorithm that sequentially selects processes for observation, using a deep reinforcement learning approach to optimize both accuracy and detection speed. The algorithm outperforms existing exponential-complexity methods in efficiency while maintaining high accuracy."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.11146v1.pdf",
+    "title": "An Efficient One-Class SVM for Anomaly Detection in the Internet of Things",
+    "published_date": "2021-04-22",
+    "abstract": "Insecure Internet of things (IoT) devices pose significant threats to critical infrastructure and the Internet at large; detecting anomalous behavior from these devices remains of critical importance, but fast, efficient, accurate anomaly detection (also called\"novelty detection\") for these classes of devices remains elusive. One-Class Support Vector Machines (OCSVM) are one of the state-of-the-art approaches for novelty detection (or anomaly detection) in machine learning, due to their flexibility in fitting complex nonlinear boundaries between {normal} and {novel} data. IoT devices in smart homes and cities and connected building infrastructure present a compelling use case for novelty detection with OCSVM due to the variety of devices, traffic patterns, and types of anomalies that can manifest in such environments. Much previous research has thus applied OCSVM to novelty detection for IoT. Unfortunately, conventional OCSVMs introduce significant memory requirements and are computationally expensive at prediction time as the size of the train set grows, requiring space and time that scales with the number of training points. These memory and computational constraints can be prohibitive in practical, real-world deployments, where large training sets are typically needed to develop accurate models when fitting complex decision boundaries. In this work, we extend so-called Nystr\\\"om and (Gaussian) Sketching approaches to OCSVM, by combining these methods with clustering and Gaussian mixture models to achieve significant speedups in prediction time and space in various IoT settings, without sacrificing detection accuracy.",
+    "citation_count": 27,
+    "summary": "This paper addresses the computational limitations of One-Class Support Vector Machines (OCSVMs) for anomaly detection in IoT systems by integrating Nyström and sketching methods with clustering and Gaussian mixture models, achieving faster prediction times and reduced memory usage without compromising accuracy. The improvements allow for efficient anomaly detection in real-world IoT deployments with large datasets."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.14172v2.pdf",
+    "title": "Deep-RBF Networks for Anomaly Detection in Automotive Cyber-Physical Systems",
+    "published_date": "2021-03-25",
+    "abstract": "Deep Neural Networks (DNNs) are widely used in automotive Cyber-Physical Systems (CPSs) to implement autonomy related tasks. However, these networks have exhibited erroneous predictions to anomalous inputs that manifest either due to Out-of-Distribution (OOD) data or adversarial attacks. To detect these anomalies, a separate DNN called assurance monitor is used in parallel to the controller DNN, increasing the resource burden and latency. We hypothesize that a single network that can perform controller predictions and anomaly detection is necessary to reduce the resource requirements. Deep-Radial Basis Function (RBF) networks provide a rejection class alongside the class predictions, which can be used for anomaly detection. However, the use of RBF activation functions limits the applicability of these networks to only classification tasks. In this paper, we discuss the steps involved in detecting anomalies in CPS regression and classification tasks. Further, we design deep-RBF networks using popular DNNs such as NVIDIA DAVE-II and ResNet20 and then use the resulting rejection class for detecting physical and data poison adversarial attacks. We show that the deep-RBF network can effectively detect these attacks with limited resource requirements.",
+    "citation_count": 6,
+    "summary": "This paper proposes using deep-Radial Basis Function (RBF) networks, integrating RBF activation functions into existing DNN architectures, for simultaneous anomaly detection and prediction in automotive Cyber-Physical Systems (CPS), reducing resource needs compared to using separate anomaly detection networks. The approach effectively detects physical and adversarial attacks in both regression and classification tasks."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.12241v2.pdf",
+    "title": "Hierarchical Federated Learning based Anomaly Detection using Digital Twins for Smart Healthcare",
+    "published_date": "2021-11-24",
+    "abstract": "Internet of Medical Things (IoMT) is becoming ubiquitous with a proliferation of smart medical devices and applications used in smart hospitals, smart-home based care, and nursing homes. It utilizes smart medical devices and cloud computing services along with core Internet of Things (IoT) technologies to sense patients' vital body parameters, monitor health conditions and generate multivariate data to support just-in-time health services. Mostly, this large amount of data is analyzed in centralized servers. Anomaly Detection (AD) in a centralized healthcare ecosystem is often plagued by significant delays in response time with high performance overhead. Moreover, there are inherent privacy issues associated with sending patients' personal health data to a centralized server, which may also introduce several security threats to the AD model, such as possibility of data poisoning. To overcome these issues with centralized AD models, here we propose a Federated Learning (FL) based AD model which utilizes edge cloudlets to run AD models locally without sharing patients' data. Since existing FL approaches perform aggregation on a single server which restricts the scope of FL, in this paper, we introduce a hierarchical FL that allows aggregation at different levels enabling multi-party collaboration. We introduce a novel disease-based grouping mechanism where different AD models are grouped based on specific types of diseases. Furthermore, we develop a new Federated Time Distributed (FEDTIMEDIS) Long Short-Term Memory (LSTM) approach to train the AD model. We present a Remote Patient Monitoring (RPM) use case to demonstrate our model, and illustrate a proof-of-concept implementation using Digital Twin (DT) and edge cloudlets.",
+    "citation_count": 56,
+    "summary": "This paper proposes a hierarchical federated learning framework for anomaly detection in smart healthcare, leveraging edge cloudlets and disease-based grouping to improve efficiency and privacy while utilizing a novel Federated Time Distributed LSTM model. A digital twin and remote patient monitoring use case demonstrate the approach's feasibility."
+  }
+]

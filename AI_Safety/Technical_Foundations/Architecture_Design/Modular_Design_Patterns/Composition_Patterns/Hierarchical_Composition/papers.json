@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2403.05711",
+    "title": "A Compositional Framework for First-Order Optimization",
+    "published_date": "2024-03-08",
+    "abstract": "Optimization decomposition methods are a fundamental tool to develop distributed solution algorithms for large scale optimization problems arising in fields such as machine learning and optimal control. In this paper, we present an algebraic framework for hierarchically composing optimization problems defined on hypergraphs and automatically generating distributed solution algorithms that respect the given hierarchical structure. The central abstractions of our framework are operads, operad algebras, and algebra morphisms, which formalize notions of syntax, semantics, and structure preserving semantic transformations respectively. These abstractions allow us to formally relate composite optimization problems to the distributed algorithms that solve them. Specifically, we show that certain classes of optimization problems form operad algebras, and a collection of first-order solution methods, namely gradient descent, Uzawa's algorithm (also called gradient ascent-descent), and their subgradient variants, yield algebra morphisms from these problem algebras to algebras of dynamical systems. Primal and dual decomposition methods are then recovered by applying these morphisms to certain classes of composite problems. Using this framework, we also derive a novel sufficient condition for when a problem defined by compositional data is solvable by a decomposition method. We show that the minimum cost network flow problem satisfies this condition, thereby allowing us to automatically derive a hierarchical dual decomposition algorithm for finding minimum cost flows on composite flow networks. We implement our operads, algebras, and algebra morphisms in a Julia package called AlgebraicOptimization.jl and use our implementation to empirically demonstrate that hierarchical dual decomposition outperforms standard dual decomposition on classes of flow networks with hierarchical structure.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/knuths-up-arrow-notation",
+    "title": "Knuth's Up-Arrow Notation - LessWrong",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.12950.pdf",
+    "title": "Hierarchical Programmatic Reinforcement Learning via Learning to Compose Programs",
+    "published_date": "2023-01-30",
+    "abstract": "Aiming to produce reinforcement learning (RL) policies that are human-interpretable and can generalize better to novel scenarios, Trivedi et al. (2021) present a method (LEAPS) that first learns a program embedding space to continuously parameterize diverse programs from a pre-generated program dataset, and then searches for a task-solving program in the learned program embedding space when given a task. Despite the encouraging results, the program policies that LEAPS can produce are limited by the distribution of the program dataset. Furthermore, during searching, LEAPS evaluates each candidate program solely based on its return, failing to precisely reward correct parts of programs and penalize incorrect parts. To address these issues, we propose to learn a meta-policy that composes a series of programs sampled from the learned program embedding space. By learning to compose programs, our proposed hierarchical programmatic reinforcement learning (HPRL) framework can produce program policies that describe out-of-distributionally complex behaviors and directly assign credits to programs that induce desired behaviors. The experimental results in the Karel domain show that our proposed framework outperforms baselines. The ablation studies confirm the limitations of LEAPS and justify our design choices.",
+    "citation_count": 12
+  },
+  {
+    "url": "https://arxiv.org/abs/2309.06397",
+    "title": "Compositional Separation of Control Flow and Data Flow",
+    "published_date": "2023-09-12",
+    "abstract": "Every Model of High-Level Computation (MHC) has an underlying composition mechanism for combining simple computation devices into more complex ones. Composition can be done by (explicitly or implicitly) defining control flow, data flow or any combination thereof. Control flow specifies the order in which individual computations are activated, whereas data flow defines how data is exchanged among them. Unfortunately, traditional MHCs either mix data and control or only consider one dimension explicitly, which makes it difficult to reason about data flow and control flow separately. Reasoning about these dimensions orthogonally is a crucial desideratum for optimisation, maintainability and verification purposes. In this paper, we introduce a novel MHC that explicitly treats data flow and control flow as separate dimensions, while providing modularity. As the model is rooted in category theory, it provides category-theoretic operations for compositionally constructing sequential, parallel, branchial or iterative composites. Compositionality entails that a composite exhibits the same properties as its respective constituents, including separation of concerns and modularity. We conclude the paper by demonstrating how our proposal can be used to model high-level computations in two different application domains: software engineering and artificial intelligence."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.01561v1",
+    "title": "Hierarchically Composing Level Generators for the Creation of Complex Structures",
+    "published_date": "2023-02-03",
+    "abstract": "Procedural content generation (PCG) is a growing field, with numerous applications in the video game industry and great potential to help create better games at a fraction of the cost of manual creation. However, much of the work in PCG is focused on generating relatively straightforward levels in simple games, as it is challenging to design an optimizable objective function for complex settings. This limits the applicability of PCG to more complex and modern titles, hindering its adoption in the industry. Our work aims to address this limitation by introducing a compositional level generation method that recursively composes simple low-level generators to construct large and complex creations. This approach allows for easily-optimizable objectives and the ability to design a complex structure in an interpretable way by referencing lower-level components. We empirically demonstrate that our method outperforms a noncompositional baseline by more accurately satisfying a designer's functional requirements in several tasks. Finally, we provide a qualitative showcase (in Minecraft) illustrating the large and complex, but still coherent, structures that were generated using simple base generators.",
+    "citation_count": 8
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BQKKQiBmc63fwjDrj/graphical-tensor-notation-for-interpretability",
+    "author": "Jordan Taylor",
+    "title": "Graphical tensor notation for interpretability",
+    "published_date": "2023-10-04"
+  }
+]

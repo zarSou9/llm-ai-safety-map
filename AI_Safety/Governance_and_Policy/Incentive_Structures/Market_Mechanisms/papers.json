@@ -1,0 +1,77 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.01871",
+    "title": "Auction-Based Regulation for Artificial Intelligence",
+    "published_date": "2024-10-02",
+    "abstract": "In an era of\"moving fast and breaking things\", regulators have moved slowly to pick up the safety, bias, and legal pieces left in the wake of broken Artificial Intelligence (AI) deployment. Since AI models, such as large language models, are able to push misinformation and stoke division within our society, it is imperative for regulators to employ a framework that mitigates these dangers and ensures user safety. While there is much-warranted discussion about how to address the safety, bias, and legal woes of state-of-the-art AI models, the number of rigorous and realistic mathematical frameworks to regulate AI safety is lacking. We take on this challenge, proposing an auction-based regulatory mechanism that provably incentivizes model-building agents (i) to deploy safer models and (ii) to participate in the regulation process. We provably guarantee, via derived Nash Equilibria, that each participating agent's best strategy is to submit a model safer than a prescribed minimum-safety threshold. Empirical results show that our regulatory auction boosts safety and participation rates by 20% and 15% respectively, outperforming simple regulatory frameworks that merely enforce minimum safety standards.",
+    "summary": "This paper proposes an auction-based regulatory mechanism for AI models that incentivizes developers to create safer models exceeding a minimum safety threshold, demonstrably improving safety and participation compared to simpler regulatory approaches. The mechanism's effectiveness is proven through Nash Equilibria analysis and empirical results."
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.03174",
+    "title": "Both eyes open: Vigilant Incentives help Regulatory Markets improve AI Safety",
+    "published_date": "2023-03-06",
+    "abstract": "In the context of rapid discoveries by leaders in AI, governments must consider how to design regulation that matches the increasing pace of new AI capabilities. Regulatory Markets for AI is a proposal designed with adaptability in mind. It involves governments setting outcome-based targets for AI companies to achieve, which they can show by purchasing services from a market of private regulators. We use an evolutionary game theory model to explore the role governments can play in building a Regulatory Market for AI systems that deters reckless behaviour. We warn that it is alarmingly easy to stumble on incentives which would prevent Regulatory Markets from achieving this goal. These 'Bounty Incentives' only reward private regulators for catching unsafe behaviour. We argue that AI companies will likely learn to tailor their behaviour to how much effort regulators invest, discouraging regulators from innovating. Instead, we recommend that governments always reward regulators, except when they find that those regulators failed to detect unsafe behaviour that they should have. These 'Vigilant Incentives' could encourage private regulators to find innovative ways to evaluate cutting-edge AI systems.",
+    "citation_count": 3,
+    "summary": "This paper models a regulatory market for AI safety using evolutionary game theory, finding that \"vigilant incentives,\" which reward regulators except when they fail to detect unsafe AI behavior, are superior to \"bounty incentives\" in encouraging innovation and deterring reckless AI development."
+  },
+  {
+    "url": "https://arxiv.org/abs/2001.00078",
+    "title": "Regulatory Markets for AI Safety",
+    "published_date": "2019-12-11",
+    "abstract": "We propose a new model for regulation to achieve AI safety: global regulatory markets. We first sketch the model in general terms and provide an overview of the costs and benefits of this approach. We then demonstrate how the model might work in practice: responding to the risk of adversarial attacks on AI models employed in commercial drones.",
+    "citation_count": 30,
+    "summary": "This paper proposes global regulatory markets as a novel approach to AI safety, outlining a model that uses market mechanisms to mitigate risks, illustrated by an example addressing adversarial attacks on commercial drone AI."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.06210",
+    "title": "Certified Safe: A Schematic for Approval Regulation of Frontier AI",
+    "published_date": "2024-08-12",
+    "abstract": "Recent and unremitting capability advances have been accompanied by calls for comprehensive, rather than patchwork, regulation of frontier artificial intelligence (AI). Approval regulation is emerging as a promising candidate. An approval regulation scheme is one in which a firm cannot legally market, or in some cases develop, a product without explicit approval from a regulator on the basis of experiments performed upon the product that demonstrate its safety. This approach is used successfully by the FDA and FAA. Further, its application to frontier AI has been publicly supported by many prominent stakeholders. This report proposes an approval regulation schematic for only the largest AI projects in which scrutiny begins before training and continues through to post-deployment monitoring. The centerpieces of the schematic are two major approval gates, the first requiring approval for large-scale training and the second for deployment. Five main challenges make implementation difficult: noncompliance through unsanctioned deployment, specification of deployment readiness requirements, reliable model experimentation, filtering out safe models before the process, and minimizing regulatory overhead. This report makes a number of crucial recommendations to increase the feasibility of approval regulation, some of which must be followed urgently if such a regime is to succeed in the near future. Further recommendations, produced by this report's analysis, may improve the effectiveness of any regulatory regime for frontier AI.",
+    "summary": "This paper proposes an approval regulation schematic for high-impact AI projects, mirroring FDA/FAA models, with pre-training and pre-deployment approval gates to ensure safety; it identifies key challenges to implementation (e.g., non-compliance, defining safety standards) and offers recommendations to increase feasibility."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.03793",
+    "title": "Safeguarding AI Agents: Developing and Analyzing Safety Architectures",
+    "published_date": "2024-09-03",
+    "abstract": "AI agents, specifically powered by large language models, have demonstrated exceptional capabilities in various applications where precision and efficacy are necessary. However, these agents come with inherent risks, including the potential for unsafe or biased actions, vulnerability to adversarial attacks, lack of transparency, and tendency to generate hallucinations. As AI agents become more prevalent in critical sectors of the industry, the implementation of effective safety protocols becomes increasingly important. This paper addresses the critical need for safety measures in AI systems, especially ones that collaborate with human teams. We propose and evaluate three frameworks to enhance safety protocols in AI agent systems: an LLM-powered input-output filter, a safety agent integrated within the system, and a hierarchical delegation-based system with embedded safety checks. Our methodology involves implementing these frameworks and testing them against a set of unsafe agentic use cases, providing a comprehensive evaluation of their effectiveness in mitigating risks associated with AI agent deployment. We conclude that these frameworks can significantly strengthen the safety and security of AI agent systems, minimizing potential harmful actions or outputs. Our work contributes to the ongoing effort to create safe and reliable AI applications, particularly in automated operations, and provides a foundation for developing robust guardrails to ensure the responsible use of AI agents in real-world applications.",
+    "summary": "This paper proposes and evaluates three safety architectures—an input-output filter, a safety agent, and a hierarchical delegation system—for mitigating risks associated with AI agents, particularly large language models, demonstrating their effectiveness in preventing unsafe actions and outputs. The study focuses on enhancing safety protocols for AI agents collaborating with humans in critical sectors."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.04914",
+    "title": "Regulatory Markets: The Future of AI Governance",
+    "published_date": "2023-04-11",
+    "abstract": "Appropriately regulating artificial intelligence is an increasingly urgent policy challenge. Legislatures and regulators lack the specialized knowledge required to best translate public demands into legal requirements. Overreliance on industry self-regulation fails to hold producers and users of AI systems accountable to democratic demands. Regulatory markets, in which governments require the targets of regulation to purchase regulatory services from a private regulator, are proposed. This approach to AI regulation could overcome the limitations of both command-and-control regulation and self-regulation. Regulatory market could enable governments to establish policy priorities for the regulation of AI, whilst relying on market forces and industry R&D efforts to pioneer the methods of regulation that best achieve policymakers' stated objectives.",
+    "citation_count": 21,
+    "summary": "The paper proposes regulatory markets—where governments contract private firms to regulate AI—as a solution to the limitations of traditional command-and-control and self-regulation approaches, leveraging market forces and industry expertise to achieve policy goals. This approach aims to bridge the gap between policymakers' intentions and effective AI regulation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.08039",
+    "title": "Safeguarding the safeguards: How best to promote AI alignment in the public interest",
+    "published_date": "2023-12-13",
+    "abstract": "AI alignment work is important from both a commercial and a safety lens. With this paper, we aim to help actors who support alignment efforts to make these efforts as effective as possible, and to avoid potential adverse effects. We begin by suggesting that institutions that are trying to act in the public interest (such as governments) should aim to support specifically alignment work that reduces accident or misuse risks. We then describe four problems which might cause alignment efforts to be counterproductive, increasing large-scale AI risks. We suggest mitigations for each problem. Finally, we make a broader recommendation that institutions trying to act in the public interest should think systematically about how to make their alignment efforts as effective, and as likely to be beneficial, as possible.",
+    "citation_count": 2,
+    "summary": "This paper examines how to best support AI alignment research to minimize risks of accidents and misuse, focusing on strategies for public institutions to maximize effectiveness and avoid counterproductive outcomes. It identifies four key problems hindering alignment efforts and proposes mitigations for each."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that effective development of \"safe\" AGI requires a holistic strategy encompassing technical, social, and political considerations, and utilizing diverse theoretical frameworks rather than relying on a single, dominant paradigm."
+  },
+  {
+    "title": "Liability for robots II: an economic analysis",
+    "abstract": "Abstract This is the second of two companion papers that discuss accidents caused by robots. In the first paper (Guerra et al., 2021), we presented the novel problems posed by robot accidents, and assessed the related legal approaches and institutional opportunities. In this paper, we build on the previous analysis to consider a novel liability regime, which we refer to as 'manufacturer residual liability' rule. This makes operators and victims liable for accidents due to their negligence – hence, incentivizing them to act diligently; and makes manufacturers residually liable for non-negligent accidents – hence, incentivizing them to make optimal investments in R&D for robots' safety. In turn, this rule will bring down the price of safer robots, driving unsafe technology out of the market. Thanks to the percolation effect of residual liability, operators will also be incentivized to adopt optimal activity levels in robots' usage.",
+    "published_date": "2021-10-09",
+    "citation_count": 5,
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/6EC97BC138F9596C8B7D834F0C0CC137/S1744137421000837a.pdf/div-class-title-liability-for-robots-ii-an-economic-analysis-div.pdf",
+    "summary": "This paper proposes a \"manufacturer residual liability\" rule for robot accidents, holding operators liable for negligent accidents and manufacturers liable for non-negligent ones, thereby incentivizing both parties to prioritize safety and ultimately reducing accident rates. This approach aims to optimize R&D investment in robot safety and encourage the adoption of safer technologies."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes AI safety-related content, reflecting the principle of careful reading warranting summarization."
+  }
+]

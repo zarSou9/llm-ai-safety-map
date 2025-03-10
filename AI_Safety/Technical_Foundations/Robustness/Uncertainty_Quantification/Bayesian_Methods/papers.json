@@ -1,0 +1,64 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2106.13594v1.pdf",
+    "title": "Bayesian Neural Networks: Essentials",
+    "published_date": "2021-06-22",
+    "abstract": "Bayesian neural networks utilize probabilistic layers that capture uncertainty over weights and activations, and are trained using Bayesian inference. Since these probabilistic layers are designed to be drop-in replacement of their deterministic counter parts, Bayesian neural networks provide a direct and natural way to extend conventional deep neural networks to support probabilistic deep learning. However, it is nontrivial to understand, design and train Bayesian neural networks due to their complexities. We discuss the essentials of Bayesian neural networks including duality (deep neural networks, probabilistic models), approximate Bayesian inference, Bayesian priors, Bayesian posteriors, and deep variational learning. We use TensorFlow Probability APIs and code examples for illustration. The main problem with Bayesian neural networks is that the architecture of deep neural networks makes it quite redundant, and costly, to account for uncertainty for a large number of successive layers. Hybrid Bayesian neural networks, which use few probabilistic layers judicially positioned in the networks, provide a practical solution.",
+    "citation_count": 12,
+    "summary": "Bayesian neural networks incorporate probabilistic layers to quantify uncertainty in weights and activations, offering a probabilistic extension of conventional deep networks but facing computational challenges addressed by hybrid architectures using strategically placed probabilistic layers."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.10975v1",
+    "title": "Improved Uncertainty Quantification for Neural Networks With Bayesian Last Layer",
+    "published_date": "2023-02-21",
+    "abstract": "Uncertainty quantification is an important task in machine learning - a task in which standard neural networks (NNs) have traditionally not excelled. This can be a limitation for safety-critical applications, where uncertainty-aware methods like Gaussian processes or Bayesian linear regression are often preferred. Bayesian neural networks are an approach to address this limitation. They assume probability distributions for all parameters and yield distributed predictions. However, training and inference are typically intractable and approximations must be employed. A promising approximation is NNs with Bayesian last layer (BLL). They assume distributed weights only in the linear output layer and yield a normally distributed prediction. To approximate the intractable Bayesian neural network, point estimates of the distributed weights in all but the last layer should be obtained by maximizing the marginal likelihood. This has previously been challenging, as the marginal likelihood is expensive to evaluate in this setting. We present a reformulation of the log-marginal likelihood of a NN with BLL which allows for efficient training using backpropagation. Furthermore, we address the challenge of uncertainty quantification for extrapolation points. We provide a metric to quantify the degree of extrapolation and derive a method to improve the uncertainty quantification for these points. Our methods are derived for the multivariate case and demonstrated in a simulation study. In comparison to Bayesian linear regression with fixed features, and a Bayesian neural network trained with variational inference, our proposed method achieves the highest log-predictive density on test data.",
+    "citation_count": 7,
+    "summary": "This paper presents an improved method for uncertainty quantification in neural networks by applying a Bayesian approach only to the output layer, enabling efficient training via backpropagation and enhanced uncertainty estimates, particularly for extrapolation. The resulting method outperforms Bayesian linear regression and variational inference-based Bayesian neural networks in terms of log-predictive density."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.16622v1",
+    "title": "Inverse Uncertainty Quantification by Hierarchical Bayesian Modeling and Application in Nuclear System Thermal-Hydraulics Codes",
+    "published_date": "2023-05-26",
+    "abstract": "Inverse Uncertainty Quantification (IUQ) method has been widely used to quantify the uncertainty of Physical Model Parameters (PMPs) in nuclear Thermal Hydraulics (TH) systems. This paper introduces a novel hierarchical Bayesian model which aims to mitigate two existing challenges in IUQ: the high variability of PMPs under varying experimental conditions, and unknown model discrepancies or outliers causing over-fitting issues. The proposed hierarchical model is compared with the conventional single-level Bayesian model using TRACE code and the measured void fraction data in the BFBT benchmark. A Hamiltonian Monte Carlo Method - No U-Turn Sampler (NUTS) is used for posterior sampling. The results demonstrate the effectiveness of the proposed hierarchical model in providing better estimates of the posterior distributions of PMPs and being less prone to over-fitting. The proposed method also demonstrates a promising approach for generalizing IUQ to larger databases with broad ranges of experimental conditions.",
+    "citation_count": 5,
+    "summary": "This paper presents a novel hierarchical Bayesian model for Inverse Uncertainty Quantification (IUQ) in nuclear thermal-hydraulics, addressing challenges of PMP variability and model discrepancies by improving PMP posterior estimates and reducing overfitting compared to conventional single-level Bayesian methods. The method's effectiveness is demonstrated using the TRACE code and BFBT benchmark data."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25",
+    "summary": "Variational Bayesian methods address the intractability of calculating P(x) in Bayesian inference by approximating the true posterior P(z|x) with a simpler distribution Q(z|x). This approximation minimizes the Kullback-Leibler divergence between Q(z|x) and P(z|x), allowing for a tractable estimate of P(x)."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03",
+    "summary": "For calculating probabilities from binary count data, the Beta distribution is more accurate than the commonly used Gaussian (Normal) distribution, especially with small datasets or probabilities near 0 or 1 where the Gaussian approximation breaks down, leading to nonsensical results. The Beta distribution is readily available in common statistical software and provides a superior solution."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.06665v2.pdf",
+    "title": "Bayesian Uncertainty Estimation of Learned Variational MRI Reconstruction",
+    "published_date": "2021-02-12",
+    "abstract": "Recent deep learning approaches focus on improving quantitative scores of dedicated benchmarks, and therefore only reduce the observation-related (aleatoric) uncertainty. However, the model-immanent (epistemic) uncertainty is less frequently systematically analyzed. In this work, we introduce a Bayesian variational framework to quantify the epistemic uncertainty. To this end, we solve the linear inverse problem of undersampled MRI reconstruction in a variational setting. The associated energy functional is composed of a data fidelity term and the total deep variation (TDV) as a learned parametric regularizer. To estimate the epistemic uncertainty we draw the parameters of the TDV regularizer from a multivariate Gaussian distribution, whose mean and covariance matrix are learned in a stochastic optimal control problem. In several numerical experiments, we demonstrate that our approach yields competitive results for undersampled MRI reconstruction. Moreover, we can accurately quantify the pixelwise epistemic uncertainty, which can serve radiologists as an additional resource to visualize reconstruction reliability.",
+    "citation_count": 42,
+    "summary": "This paper presents a Bayesian variational framework for MRI reconstruction that quantifies both aleatoric and epistemic uncertainty by learning a multivariate Gaussian distribution over the parameters of a total deep variation regularizer. The resulting uncertainty maps provide radiologists with valuable information about reconstruction reliability."
+  },
+  {
+    "url": "https://arxiv.org/abs/2108.04851v1",
+    "title": "Bayesian Inference Using the Proximal Mapping: Uncertainty Quantification Under Varying Dimensionality.",
+    "published_date": "2021-08-10",
+    "abstract": "In statistical applications, it is common to encounter parameters supported on a varying or unknown dimensional space. Examples include the fused lasso regression, the matrix recovery under an unknown low rank, etc. Despite the ease of obtaining a point estimate via optimization, it is much more challenging to quantify their uncertainty. In the Bayesian framework, a major difficulty is that if assigning the prior associated with a p -dimensional measure, then there is zero posterior probability on any lower-dimensional subset with dimension d < p . To avoid this caveat, one needs to choose another dimension-selection prior on d , which often involves a highly combinatorial problem. To significantly reduce the modeling burden, we propose a new generative process for the prior: starting from a continuous random variable such as multivariate Gaussian, we transform it into a varying-dimensional space using the proximal mapping. This leads to a large class of new Bayesian models that can directly exploit the popular frequentist regularizations and their algorithms, such as the nuclear norm penalty and the alternating direction method of multipliers, while providing a principled and probabilistic uncertainty estimation. We show that this framework is well justified in the geometric measure theory, and enjoys a convenient posterior computation via the standard Hamiltonian Monte Carlo. We demonstrate its use in the analysis of the dynamic flow network data.",
+    "citation_count": 6,
+    "summary": "This paper introduces a novel Bayesian inference method using proximal mappings to handle parameters in varying-dimensional spaces, overcoming the challenges of traditional Bayesian approaches by generating priors from continuous distributions and leveraging frequentist regularization techniques for efficient posterior computation and uncertainty quantification. The method is demonstrated on dynamic flow network data."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.15682v2.pdf",
+    "title": "Rapid Risk Minimization with Bayesian Models Through Deep Learning Approximation",
+    "published_date": "2021-03-29",
+    "abstract": "We introduce a novel combination of Bayesian Models (BMs) and Neural Networks (NNs) for making predictions with a minimum expected risk. Our approach combines the best of both worlds, the data efficiency and interpretability of a BM with the speed of a NN. For a BM, making predictions with the lowest expected loss requires integrating over the posterior distribution. When exact inference of the posterior predictive distribution is intractable, approximation methods are typically applied, e.g. Monte Carlo (MC) simulation. For MC, the variance of the estimator decreases with the number of samples – but at the expense of increased computational cost. Our approach removes the need for iterative MC simulation on the CPU at prediction time. In brief, it works by fitting a NN to synthetic data generated using the BM. In a single feed-forward pass, the NN gives a set of point-wise approximations to the BM's posterior predictive distribution for a given observation. We achieve risk minimized predictions significantly faster than standard methods with a negligible loss on the test dataset. We combine this approach with Active Learning (AL) to minimize the amount of data required for fitting the NN. This is done by iteratively labeling more data in regions with high predictive uncertainty of the NN.",
+    "citation_count": 1,
+    "summary": "This paper presents a method for accelerating Bayesian model predictions by training a neural network to approximate the model's posterior predictive distribution, enabling rapid risk-minimized predictions without iterative Monte Carlo sampling. Active learning is further incorporated to minimize the training data required."
+  }
+]

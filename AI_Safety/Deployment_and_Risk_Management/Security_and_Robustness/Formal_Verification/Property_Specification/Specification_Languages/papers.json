@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Introduction to the Special Issue on Specification and Design Languages (FDL 2019)",
+    "abstract": "The Forum on Specification and Design Languages (FDL) is a well-established international venue to exchange experiences and promote new trends in the application of languages, their associated design methods, and tools for the design of electronic systems. Electronic systems of interest to FDL include (but are not limited to) those that are used in Internet of Things (IoT), CyberPhysical Systems, mixed criticality embedded systems, embedded systems for high-performance computing and driver assistance, real-time systems, and reconfigurable and secure computing. FDL 2019 was held in Southampton, UK, September 2–4, bringing together 44 researchers and practicioners from 10 countries. The three keynotes covered themes ranging from designing heterogeneous domain-specific languages and compilers (David Broman, KTH Royal Institute of Technology, Stockholm) over balancing implementability, understandability, and expressiveness in language design (Stephen A. Edwards, Columbia University, New York) to formal languages for embedded critical software (Marc Pouzet, École Normale Supérieure, Paris). In addition, the technical program of FDL 2019 contained two tutorials, two panels, and six technical sessions with a total of 26 presentations. To allow for more in-depth treatment of selected contributions and to further broaden the audience, an open call was made for this special issue in ACM TECS. As a result, six updated and extended papers from FDL'19 are included here, joined by a seventh paper on original work not presented at FDL before. “SystemC implementation of Stochastic Petri Nets for Parametrization of Biological Networks” is authored by Nicola Bombieri, Silvia Scaffeo, Antonio Mastrandrea, Simone Caligola, Tommaso Carlucci, Franco Fummi, Carlo Laudanna, Gabriela Constantin, and Rosalba Giugno. This multidisciplinary paper presents a framework for the modeling and simulation of biological network using Stochastic Petri Nets. To achieve automatic model parametrization, the Stochastic Petri Nets model is implemented into SystemC code, while user-defined properties are specified with a formal specification language. Then, Dynamic Assertion-Based Verification is used to synthesize an appropriate network and parameter configuration that satisfies the defined properties. This allows the system to be simulated under different conditions and network properties. “Event-B Hybridation: A Proof and Refinement Based Framework for Modelling Hybrid Systems,” by Guillaume Dupont, Yamine Ait-Ameur, Marc Pantel, and Neeraj Singh, is an original work not presented at FDL '19. It addresses the difficult topic of the formal proof (in the proof assistant sense) and the incremental design of hybrid systems. The underlying proof assistant is the Rodin Proof Manager and its associated programming language Event-B (based on the B method by Abrial). Hybrid systems are modeled as standard hybrid automata with simple differential equations, which is classical. The strong point of the proposed approach is that the proof obligations",
+    "published_date": "2021-05-28",
+    "url": "https://dl.acm.org/doi/10.1145/3458748"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/hPPGuiXf3zhKqgCMb/david-wolpert-on-knowledge",
+    "author": "Alex Flint",
+    "title": "David Wolpert on Knowledge",
+    "published_date": "2021-09-21"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/7b2RJJQ76hjZwarnj/specification-gaming-the-flip-side-of-ai-ingenuity",
+    "author": "Vika, Vlad Mikulik, Matthew Rahtz, tom4everitt, Zac Kenton, janleike",
+    "title": "Specification gaming: the flip side of AI ingenuity",
+    "published_date": "2020-05-06"
+  },
+  {
+    "title": "Property conveyances as a programming language",
+    "abstract": "Anglo-American law enables property owners to split up rights among multiple entities by breaking their ownership apart into future interests that may evolve over time. The conveyances that owners use to transfer and subdivide property rights follow rigid syntactic conventions and are governed by an intricate body of interlocking doctrines that determine their legal effect. These doctrines have been codified, but only in informal and potentially ambiguous ways. This paper presents preliminary work in developing a formal model for expressing and analyzing property conveyances. We develop a domain-specific language capable of expressing a wide range of conveyances in a syntax approximating natural language. This language desugars into a core calculus for which we develop operational and denotational semantics capturing a variety of important properties of property law in practice. We evaluate an initial implementation of our languages and semantics on examples from a popular property law textbook.",
+    "published_date": "2019-10-23",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3359591.3359734"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Pq2XhSGbQWF8Z7h8y/three-levels-of-motivation-1",
+    "author": "DragonGod",
+    "title": "Three Levels of Motivation",
+    "published_date": "2019-08-21"
+  },
+  {
+    "title": "PSPWizard: machine-assisted definition of temporal logical properties with specification patterns",
+    "abstract": "Model checking provides a powerful means to assert and verify desired system properties. But, for the verification process to become feasible, a correct formulation of these properties in a temporal logic is necessary - a potential barrier to application in practice. Research on property specification has supplied us with rich pattern catalogs that capture commonly occurring system properties in different temporal logics. Furthermore, these property specification pattern catalogs usually offer both a structured English grammar to facilitate the pattern selection and an associated template solutions to express the properties formally. Yet, the actual use of property specification patterns remains cumbersome, due to limited tool support. For this reason, we have developed the Property Specification Pattern Wizard (PSPWizard), a framework that defines an interface for the currently accepted property specification pattern libraries. PSPWizard consists of two main building blocks: a mapping generator that weaves a given pattern library with a target logic and a GUI front-end to the structured English grammar tailored to those patterns that are supported in the target logic.",
+    "published_date": "2011-09-05",
+    "citation_count": 10,
+    "url": "https://dl.acm.org/doi/10.1145/2025113.2025193"
+  }
+]

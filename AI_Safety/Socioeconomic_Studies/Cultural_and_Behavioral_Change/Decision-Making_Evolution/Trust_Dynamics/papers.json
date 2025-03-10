@@ -1,0 +1,60 @@
+[
+  {
+    "title": "TIP: A Trust Inference and Propagation Model in Multi-Human Multi-Robot Teams",
+    "abstract": "Trust has been identified as a central factor for effective human-robot teaming. Existing literature on trust modeling predominantly focuses on dyadic human-autonomy teams where one human agent interacts with one robot. There is little, if not no, research on trust modeling in teams consisting of multiple human agents and multiple robotic agents. To fill this research gap, we present the trust inference and propagation (TIP) model for trust modeling in multi-human multi-robot teams. We assert that in a multi-human multi-robot team, there exist two types of experiences that any human agent has with any robot: direct and indirect experiences. The TIP model presents a novel mathematical framework that explicitly accounts for both types of experiences. To evaluate the model, we conducted a human-subject experiment with 15 pairs of participants (N=30). Each pair performed a search and detection task with two drones. Results show that our TIP model successfully captured the underlying trust dynamics and significantly outperformed a baseline model. To the best of our knowledge, the TIP model is the first mathematical framework for computational trust modeling in multi-human multi-robot teams.",
+    "published_date": "2023-01-26",
+    "citation_count": 6,
+    "url": "https://link.springer.com/article/10.1007/s10514-024-10175-3",
+    "summary": "The TIP model is a novel mathematical framework for modeling trust in multi-human multi-robot teams, incorporating both direct and indirect human experiences with robots, and outperforming a baseline model in a human-subject experiment. This addresses the lack of trust models for multi-agent teams."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "This article examines the application of game theory to AI development within organizations, highlighting its limitations and proposing a framework integrating game theory with bureaucratic principles. It argues that despite AI's increasing capabilities, human-AI collaboration within a bureaucratic structure, leveraging comparative advantage and specialized tasks, remains essential for efficient complex problem-solving."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/6xiBgLvvDiH7Sboq2/",
+    "author": "Jan, Karl von Wendt",
+    "title": "Trust-maximizing AGI",
+    "published_date": "2022-02-25",
+    "summary": "The article proposes \"trust-maximization\" as a potential safety goal for advanced AI, arguing that while an AI could gain trust through deception, the inherent instability of deceptive trust compared to the long-term stability of honest trust might make honesty a more optimal strategy for an AI whose ultimate goal is maximizing trust over time."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization",
+    "published_date": "2021-06-04",
+    "summary": "The article examines applying game theory to AI development within organizational structures, highlighting its limitations in complex scenarios. It argues that even with advanced AI, bureaucratic structures, characterized by hierarchical authority and specialized tasks, will remain necessary for efficient goal achievement due to inherent limitations in single-agent processing power."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/g72vrjJSJSZnqBrKx",
+    "author": "Scott Alexander",
+    "title": "Trust - AI Alignment Forum",
+    "published_date": "2021-11-23",
+    "summary": "The book examines the crucial role of trust in forming beliefs, especially in complex systems where complete understanding is impossible. It explores how we navigate decisions about which sources to trust when building our understanding of the world."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/M3xpp7CZ2JaSafDJB/computer-governance-and-conclusions-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Governance and Conclusions - Transformative AI and Compute [3/4]",
+    "published_date": "2021-10-14",
+    "summary": "This article explores the governance of artificial intelligence (AI) through the control of compute resources. The author argues that compute's unique characteristics—physical space requirements, high energy consumption, and concentrated supply chains—make it a potentially effective lever for AI safety and risk mitigation."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/bJi3hd8E8qjBeHz9Z",
+    "author": "lennart",
+    "title": "Transformative AI and Compute - LessWrong",
+    "published_date": "2021-09-23",
+    "summary": "The article analyzes the crucial role of computational resources in driving advancements in AI, examining the compute requirements of current systems to better understand and govern the development of future, potentially transformative AI. This involves a literature review, updated data analysis, and exploration of compute's impact on AI timelines and governance."
+  },
+  {
+    "title": "Formalizing Trust in Artificial Intelligence: Prerequisites, Causes and Goals of Human Trust in AI",
+    "abstract": "Trust is a central component of the interaction between people and AI, in that 'incorrect' levels of trust may cause misuse, abuse or disuse of the technology. But what, precisely, is the nature of trust in AI? What are the prerequisites and goals of the cognitive mechanism of trust, and how can we promote them, or assess whether they are being satisfied in a given interaction? This work aims to answer these questions. We discuss a model of trust inspired by, but not identical to, interpersonal trust (i.e., trust between people) as defined by sociologists. This model rests on two key properties: the vulnerability of the user; and the ability to anticipate the impact of the AI model's decisions. We incorporate a formalization of 'contractual trust', such that trust between a user and an AI model is trust that some implicit or explicit contract will hold, and a formalization of 'trustworthiness' (that detaches from the notion of trustworthiness in sociology), and with it concepts of 'warranted' and 'unwarranted' trust. We present the possible causes of warranted trust as intrinsic reasoning and extrinsic behavior, and discuss how to design trustworthy AI, how to evaluate whether trust has manifested, and whether it is warranted. Finally, we elucidate the connection between trust and XAI using our formalization.",
+    "published_date": "2020-10-15",
+    "citation_count": 361,
+    "url": "https://dl.acm.org/doi/10.1145/3442188.3445923",
+    "summary": "This paper proposes a formal model of human trust in AI, based on user vulnerability and the predictability of AI decisions, incorporating concepts of contractual trust and warranted/unwarranted trust. It explores the causes of warranted trust, design principles for trustworthy AI, and the relationship between trust and explainable AI (XAI)."
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/JDrxA3vwZAKZfmShz/degeneracies-are-sticky-for-sgd",
+    "author": "Guillaume Corlouer; Nicolas Macé",
+    "title": "Degeneracies are sticky for SGD",
+    "published_date": "2024-06-16"
+  },
+  {
+    "url": "https://arxiv.org/abs/2309.03226",
+    "title": "Fixed Point Theory: A Review",
+    "published_date": "2023-09-03",
+    "abstract": "Fixed points represent equilibrium states, stability, and solutions to a range of problems. It has been an active field of research. In this paper, we provide an overview of the main branches of fixed point theory. We discuss the key results and applications.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/EKPSgN8LsiEJzX5ni/a-well-defined-history-in-measurable-factor-spaces",
+    "author": "Matthias G. Mayer",
+    "title": "A well-defined history in measurable factor spaces",
+    "published_date": "2023-10-05"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.11413v2.pdf",
+    "title": "Exact Optimal Accelerated Complexity for Fixed-Point Iterations",
+    "published_date": "2022-01-27",
+    "abstract": "Despite the broad use of ﬁxed-point iterations throughout applied mathematics, the optimal convergence rate of general ﬁxed-point problems with nonexpansive nonlinear operators has not been established. This work presents an acceleration mechanism for ﬁxed-point iterations with nonexpansive operators, contractive operators, and nonexpansive operators satisfying a H ¨ older-type growth condition. We then provide matching complexity lower bounds to establish the exact optimality of the acceleration mechanisms in the nonexpansive and contractive setups. Finally, we provide experiments with CT imaging, optimal transport, and decentralized optimization to demonstrate the practical effectiveness of the acceleration mechanism.",
+    "citation_count": 26
+  },
+  {
+    "url": "https://arxiv.org/pdf/2205.04784v1.pdf",
+    "title": "\"Fixed points and the stability of the linear functional equations in a single variable\"",
+    "published_date": "2022-05-10",
+    "abstract": "\"In this paper we prove that an interesting result concerning the generalized Hyers-Ulam stability of the linear functional equation $g(\\varphi(x))=a(x)\\bullet g(x)$ on a complete metric group, given in 2014 by S.M. Jung, D. Popa and M.T. Rassias, can be obtained using the fixed point technique. Moreover, we give a characterization of the functions that can be approximated with a given error, by the solution of the linear equation mention above. Our results are also related to a recent result of G.H. Kim and Th.M. Rassias concerning the stability of Psi functional equation.\""
+  },
+  {
+    "title": "Fixed-time and finite-time stability of switched time-delay systems",
+    "abstract": "This paper investigates fixed-time and finite-time stability of switched nonlinear time-varying time-delay systems. It is shown that by assuming these kinds of stability for each subsystem in the family, the similar properties can be ensured for the whole system under commutation with a sufficiently big (average) dwell time. The estimates on admissible dwell-time values are derived. Compared with existing results, the novelties of the obained results lie in that: (i) A class of Lyapunov–Krasovskii functionals with inde nite derivative is constructed for switched nonlinear time-delay systems, (ii) Average dwell time switching laws are designed for the fixed-time and finite-time stability of the systems, and (iii) The presented approach has potential applications in fixed-time and finite-time stability of other hybrid systems. The efficacy of the obtained results is illustrated by academic examples.",
+    "published_date": "2021-06-07",
+    "citation_count": 12,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/00207179.2021.1934736"
+  }
+]

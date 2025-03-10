@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2302.06082.pdf",
+    "title": "Lower Bounds for Possibly Divergent Probabilistic Programs",
+    "published_date": "2023-02-13",
+    "abstract": "We present a new proof rule for verifying lower bounds on quantities of probabilistic programs. Our proof rule is not confined to almost-surely terminating programs -- as is the case for existing rules -- and can be used to establish non-trivial lower bounds on, e.g., termination probabilities and expected values, for possibly divergent probabilistic loops, e.g., the well-known three-dimensional random walk on a lattice.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://arxiv.org/pdf/2304.00879.pdf",
+    "title": "smProbLog: Stable Model Semantics in ProbLog for Probabilistic Argumentation",
+    "published_date": "2023-04-03",
+    "abstract": "\n Argumentation problems are concerned with determining the acceptability of a set of arguments from their relational structure. When the available information is uncertain, probabilistic argumentation frameworks provide modeling tools to account for it. The first contribution of this paper is a novel interpretation of probabilistic argumentation frameworks as probabilistic logic programs. Probabilistic logic programs are logic programs in which some of the facts are annotated with probabilities. We show that the programs representing probabilistic argumentation frameworks do not satisfy a common assumption in probabilistic logic programming (PLP) semantics, which is, that probabilistic facts fully capture the uncertainty in the domain under investigation. The second contribution of this paper is then a novel PLP semantics for programs where a choice of probabilistic facts does not uniquely determine the truth assignment of the logical atoms. The third contribution of this paper is the implementation of a PLP system supporting this semantics: smProbLog. smProbLog is a novel PLP framework based on the PLP language ProbLog. smProbLog supports many inference and learning tasks typical of PLP, which, together with our first contribution, provide novel reasoning tools for probabilistic argumentation. We evaluate our approach with experiments analyzing the computational cost of the proposed algorithms and their application to a dataset of argumentation problems.",
+    "citation_count": 8
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nEFAno6PsCKnNgkd5/infra-bayesian-logic",
+    "author": "harfe, Yegreg",
+    "title": "Infra-Bayesian Logic",
+    "published_date": "2023-07-05"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2205.04822.pdf",
+    "title": "A Specification Logic for Programs in the Probabilistic Guarded Command Language (Extended Version)",
+    "published_date": "2022-05-10",
+    "abstract": "The semantics of probabilistic languages has been extensively studied, but specification languages for their properties have received little attention. This paper introduces the probabilistic dynamic logic pDL, a specification logic for programs in the probabilistic guarded command language (pGCL) of McIver and Morgan. The proposed logic pDL can express both first-order state properties and probabilistic reachability properties, addressing both the non-deterministic and probabilistic choice operators of pGCL. In order to precisely explain the meaning of specifications, we formally define the satisfaction relation for pDL. Since pDL embeds pGCL programs in its box-modality operator, pDL satisfiability builds on a formal MDP semantics for pGCL programs. The satisfaction relation is modeled after PCTL, but extended from propositional to first-order setting of dynamic logic, and also embedding program fragments. We study basic properties of pDL, such as weakening and distribution, that can support reasoning systems. Finally, we demonstrate the use of pDL to reason about program behavior.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.03033v2.pdf",
+    "title": "Nonground Abductive Logic Programming with Probabilistic Integrity Constraints",
+    "published_date": "2021-08-06",
+    "abstract": "Abstract Uncertain information is being taken into account in an increasing number of application fields. In the meantime, abduction has been proved a powerful tool for handling hypothetical reasoning and incomplete knowledge. Probabilistic logical models are a suitable framework to handle uncertain information, and in the last decade many probabilistic logical languages have been proposed, as well as inference and learning systems for them. In the realm of Abductive Logic Programming (ALP), a variety of proof procedures have been defined as well. In this paper, we consider a richer logic language, coping with probabilistic abduction with variables. In particular, we consider an ALP program enriched with integrity constraints à la IFF, possibly annotated with a probability value. We first present the overall abductive language and its semantics according to the Distribution Semantics. We then introduce a proof procedure, obtained by extending one previously presented, and prove its soundness and completeness.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Zd5Bsra7ar2pa3bwS/probability-theory-and-logical-induction-as-lenses",
+    "author": "Alex Flint",
+    "title": "Probability theory and logical induction as lenses",
+    "published_date": "2021-04-23"
+  }
+]

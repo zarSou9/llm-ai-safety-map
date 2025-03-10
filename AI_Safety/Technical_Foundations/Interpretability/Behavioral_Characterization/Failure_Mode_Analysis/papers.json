@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2201.03544v2.pdf",
+    "title": "The Effects of Reward Misspecification: Mapping and Mitigating Misaligned Models",
+    "published_date": "2022-01-10",
+    "abstract": "Reward hacking -- where RL agents exploit gaps in misspecified reward functions -- has been widely observed, but not yet systematically studied. To understand how reward hacking arises, we construct four RL environments with misspecified rewards. We investigate reward hacking as a function of agent capabilities: model capacity, action space resolution, observation space noise, and training time. More capable agents often exploit reward misspecifications, achieving higher proxy reward and lower true reward than less capable agents. Moreover, we find instances of phase transitions: capability thresholds at which the agent's behavior qualitatively shifts, leading to a sharp decrease in the true reward. Such phase transitions pose challenges to monitoring the safety of ML systems. To address this, we propose an anomaly detection task for aberrant policies and offer several baseline detectors.",
+    "citation_count": 135,
+    "summary": "This paper investigates how reinforcement learning agents exploit flaws in imperfectly defined reward functions (\"reward hacking\"), finding that increased agent capabilities correlate with more effective, yet ultimately less desirable, reward maximization. The authors demonstrate phase transitions in agent behavior and propose anomaly detection methods to mitigate the resulting safety risks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.08221",
+    "title": "FAIL: Analyzing Software Failures from the News Using LLMs",
+    "published_date": "2024-06-12",
+    "abstract": "Software failures inform engineering work, standards, regulations. For example, the Log4J vulnerability brought government and industry attention to evaluating and securing software supply chains. Retrospective failure analysis is thus a valuable line of software engineering research. Accessing private engineering records is difficult, so such analyses tend to use information reported by the news media. However, prior works in this direction have relied on manual analysis. That has limited the scale of their analyses. The community lacks automated support to enable such analyses to consider a wide range of news sources and incidents.To fill this gap, we propose the Failure Analysis Investigation with LLMs (FAIL) system. FAIL is a novel LLM-based pipeline that collects, analyzes, and summarizes software failures as reported in the news. FAIL groups articles that describe the same incidents. It then analyzes incidents using existing taxonomies for postmortems, faults, and system characteristics. To tune and evaluate FAIL, we followed the methods of prior works by manually analyzing 31 software failures. FAIL achieved an F1 score of 90% for collecting news about software failures, a V-measure of 0.98 for merging articles reporting on the same incident, and extracted 90% of the facts about failures. We then applied FAIL to a total of 137,427 news articles from 11 providers published between 2010 and 2022. FAIL identified and analyzed 2,457 distinct failures reported across 4,184 articles. Our findings include: (1) current generation of large language models are capable of identifying news articles that describe failures, and analyzing them according to structured taxonomies; (2) high recurrences of similar failures within organizations and across organizations; and (3) severity of the consequences of software failures have increased over the past decade. The full FAIL database is available so that researchers, engineers, and policymakers can learn from a diversity of software failures.CCS CONCEPTS• Software and its engineering → Software defect analysis.",
+    "citation_count": 2,
+    "summary": "FAIL is an LLM-based system that automatically analyzes news articles to identify, categorize, and summarize software failures, enabling large-scale retrospective failure analysis and revealing trends like recurring failures and increasing severity over time. The system achieved high accuracy in identifying and analyzing failures, providing a valuable resource for researchers and practitioners."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/failure-mode",
+    "title": "Failure mode - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "Failure modes are common ways things fail, such as cognitive biases. Understanding these potential failures is crucial for avoiding them and improving outcomes."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13",
+    "summary": "Current AI safety methods focus on minimizing average-case harm, inadequately addressing catastrophic tail events. The article proposes novel techniques for estimating the probability of these rare but devastating failures, which don't rely on finding specific harmful inputs, thereby improving AI safety."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/iwCRYnGYMvxgzrCMf/complex-systems-are-hard-to-control",
+    "author": "jsteinhardt",
+    "title": "Complex Systems are Hard to Control",
+    "published_date": "2023-04-04",
+    "summary": "Deep learning systems, as complex adaptive systems, pose unique safety challenges beyond those addressed by traditional engineering approaches. Their emergent behavior and intricate feedback loops lead to unpredictable responses to control efforts, necessitating novel safety measures."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2210.08667.pdf",
+    "title": "From Function to Failure",
+    "published_date": "2022-10-17",
+    "abstract": "Failure Mode Reasoning (FMR) is a method for formal analysis of system-related faults. The method was originally developed for identifying failure modes of safety-critical systems based on an analysis of their programs. In this paper, we generalize the method and present a mathematical framework for its use in model-based system and safety analyses. We explain the concepts, formalize the method, formulate models for example systems, and discuss the practical application of the method.",
+    "summary": "This paper generalizes Failure Mode Reasoning (FMR), a method for analyzing system faults, providing a mathematical framework applicable to model-based system and safety analyses. The authors formalize the method, illustrate its use with examples, and discuss practical applications."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.17508v2",
+    "title": "A Model of Actors and Grey Failures",
+    "published_date": "2022-10-31",
+    "abstract": "Existing models for the analysis of concurrent processes tend to focus on\nfail-stop failures, where processes are either working or permanently stopped,\nand their state (working/stopped) is known. In fact, systems are often affected\nby grey failures: failures that are latent, possibly transient, and may affect\nthe system in subtle ways that later lead to major issues (such as crashes,\nlimited availability, overload). We introduce a model of actor-based systems\nwith grey failures, based on two interlinked layers: an actor model, given as\nan asynchronous process calculus with discrete time, and a failure model that\nrepresents failure patterns to inject in the system. Our failure model captures\nnot only fail-stop node and link failures, but also grey failures (e.g.,\npartial, transient). We give a behavioural equivalence relation based on weak\nbarbed bisimulation to compare systems on the basis of their ability to recover\nfrom failures, and on this basis we define some desirable properties of\nreliable systems. By doing so, we reduce the problem of checking reliability\nproperties of systems to the problem of checking bisimulation.",
+    "citation_count": 2,
+    "summary": "This paper presents a novel actor-based model for analyzing concurrent systems that incorporates both fail-stop and grey failures, using a two-layered approach and weak barbed bisimulation to verify system reliability and recovery from failures."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2210.17497.pdf",
+    "title": "Leveraging Pre-trained Models for Failure Analysis Triplets Generation",
+    "published_date": "2022-10-31",
+    "abstract": "Pre-trained Language Models recently gained traction in the Natural Language Processing (NLP) domain for text summarization, generation and question-answering tasks. This stems from the innovation introduced in Transformer models and their overwhelming performance compared with Recurrent Neural Network Models (Long Short Term Memory (LSTM)). In this paper, we leverage the attention mechanism of pre-trained causal language models such as Transformer model for the downstream task of generating Failure Analysis Triplets (FATs) - a sequence of steps for analyzing defected components in the semiconductor industry. We compare different transformer models for this generative task and observe that Generative Pre-trained Transformer 2 (GPT2) outperformed other transformer model for the failure analysis triplet generation (FATG) task. In particular, we observe that GPT2 (trained on 1.5B parameters) outperforms pre-trained BERT, BART and GPT3 by a large margin on ROUGE. Furthermore, we introduce Levenshstein Sequential Evaluation metric (LESE) for better evaluation of the structured FAT data and show that it compares exactly with human judgment than existing metrics.",
+    "citation_count": 1,
+    "summary": "This paper explores using pre-trained transformer models, particularly GPT-2, to generate Failure Analysis Triplets (FATs) for semiconductor defect analysis, demonstrating GPT-2's superior performance over other models like BERT, BART, and GPT-3 using ROUGE and a novel Levenshtein Sequential Evaluation metric (LESE)."
+  }
+]

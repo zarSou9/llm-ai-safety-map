@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2412.17114",
+    "title": "Decentralized Governance of Autonomous AI Agents",
+    "published_date": "2024-12-22",
+    "abstract": "Autonomous AI agents present transformative opportunities and significant governance challenges. Existing frameworks, such as the EU AI Act and the NIST AI Risk Management Framework, fall short of addressing the complexities of these agents, which are capable of independent decision-making, learning, and adaptation. To bridge these gaps, we propose the ETHOS (Ethical Technology and Holistic Oversight System) framework, a decentralized governance (DeGov) model leveraging Web3 technologies, including blockchain, smart contracts, and decentralized autonomous organizations (DAOs). ETHOS establishes a global registry for AI agents, enabling dynamic risk classification, proportional oversight, and automated compliance monitoring through tools like soulbound tokens and zero-knowledge proofs. Furthermore, the framework incorporates decentralized justice systems for transparent dispute resolution and introduces AI specific legal entities to manage limited liability, supported by mandatory insurance to ensure financial accountability and incentivize ethical design. By integrating philosophical principles of rationality, ethical grounding, and goal alignment, ETHOS aims to create a robust research agenda for promoting trust, transparency, and participatory governance. This innovative framework offers a scalable and inclusive strategy for regulating AI agents, balancing innovation with ethical responsibility to meet the demands of an AI-driven future.",
+    "summary": "The paper proposes ETHOS, a decentralized governance framework using Web3 technologies to manage the risks posed by autonomous AI agents, addressing limitations of existing regulatory frameworks through features like a global registry, dynamic risk classification, and decentralized dispute resolution. ETHOS aims to foster ethical AI development and deployment through transparency, accountability, and participatory governance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/GFeyXGib7DD3ooTEN/introduction-to-french-ai-policy",
+    "author": "Lucie Philippon",
+    "title": "Introduction to French AI Policy",
+    "published_date": "2024-07-04",
+    "summary": "France's approach to AI governance, as detailed in a recent report by a government-appointed committee, prioritizes national competitiveness and open-source development, downplaying potential risks such as bias, misuse, and existential threats, and advocating for increased investment in AI research and talent. The report's optimistic outlook contrasts with concerns about the potential dangers of advanced AI."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/singularitarianism",
+    "title": "Singularitarianism - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "Singularitarianism describes beliefs favoring a technological singularity, though its meaning has evolved from an activist movement focused on beneficial AI development (as defined by Eliezer Yudkowsky) to encompass broader predictions and perspectives on the singularity's arrival and impact."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/singularitarianism",
+    "title": "Singularitarianism - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Singularitarianism describes beliefs favoring a technological singularity, though its meaning has evolved from an activist movement aiming to benefit humanity (as defined by Eliezer Yudkowsky) to encompass broader predictions and perspectives on technological advancement."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5RX8j4CDqadnffCij/fifteen-lawsuits-against-openai",
+    "author": "Remmelt",
+    "title": "Fifteen Lawsuits against OpenAI",
+    "published_date": "2024-03-09",
+    "summary": "Numerous US-based lawsuits target OpenAI, primarily alleging copyright infringement but also encompassing privacy violations, libel, and breaches of mission. Future litigation is anticipated to focus on data rights, worker rights, product liability, and environmental concerns."
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.05995v1",
+    "title": "Collective privacy recovery: Data-sharing coordination via decentralized artificial intelligence",
+    "published_date": "2023-01-15",
+    "abstract": "Abstract Collective privacy loss becomes a colossal problem, an emergency for personal freedoms and democracy. But, are we prepared to handle personal data as scarce resource and collectively share data under the doctrine: as little as possible, as much as necessary? We hypothesize a significant privacy recovery if a population of individuals, the data collective, coordinates to share minimum data for running online services with the required quality. Here, we show how to automate and scale-up complex collective arrangements for privacy recovery using decentralized artificial intelligence. For this, we compare for the first time attitudinal, intrinsic, rewarded, and coordinated data sharing in a rigorous living-lab experiment of high realism involving >27,000 real data disclosures. Using causal inference and cluster analysis, we differentiate criteria predicting privacy and five key data-sharing behaviors. Strikingly, data-sharing coordination proves to be a win–win for all: remarkable privacy recovery for people with evident costs reduction for service providers.",
+    "citation_count": 7,
+    "summary": "This study demonstrates that coordinated data sharing, facilitated by decentralized AI, significantly improves collective privacy while reducing costs for service providers, as shown through a large-scale experiment analyzing diverse data-sharing behaviors. The findings suggest a \"win-win\" outcome from collaborative privacy management."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/ai",
+    "author": "Evan Hubinger",
+    "title": "AI - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "Artificial intelligence alignment focuses on ensuring powerful AI systems act according to human values, addressing the existential risk of misaligned AI pursuing unintended goals. This field encompasses various approaches, from narrowly defined tasks to achieving a beneficial future for humanity, and involves substantial research and organizational efforts."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/JRzdqaQTmNKEH7WSP/some-thoughts-on-ai-art",
+    "author": "abramdemski",
+    "title": "Some Thoughts on AI Art",
+    "published_date": "2023-01-25",
+    "summary": "The author argues that while the use of copyrighted material to train AI art generators isn't currently illegal, it raises significant ethical concerns. These concerns stem from AI systems potentially profiting from artists' work without permission, impacting their livelihoods and threatening the purpose of copyright law."
+  }
+]

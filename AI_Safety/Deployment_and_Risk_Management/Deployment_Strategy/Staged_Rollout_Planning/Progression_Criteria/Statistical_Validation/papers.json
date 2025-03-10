@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03"
+  },
+  {
+    "title": "Novel Approaches to Feasibility Determination",
+    "abstract": "This article proposes two-stage Bayesian and frequentist procedures for determining whether a number of systems—each characterized by the same number of performance measures—belongs to a set Γ defined by a finite collection of linear inequalities. A system is “in (not in) Γ” if the vector of the means is in (not in) Γ, where the means must be estimated using Monte Carlo simulation. We develop algorithms for classifying the systems with a user-specified level of confidence using the minimum number of simulation replications so the probability of correct classification over all r systems satisfies a user-specified minimum value. Once the analyst provides prior values for the means and standard deviations of the random variables in each system, an initial number of simulation replications is performed to obtain current estimates of the means and standard deviations to assess whether the systems can be classified with the desired level of confidence. For any system that cannot be classified, heuristics are proposed to determine the number of additional simulation replications that would enable correct classification. Our contributions include the introduction of intuitive algorithms that are not only easy to implement, but also effective with their performance. Compared to other feasibility determination approaches, they also appear to be competitive. While the algorithms were initially developed in settings where system variance is assumed to be known and the random variables are independent, their performance remains satisfactory when those assumptions are relaxed.",
+    "published_date": "2021-01-08",
+    "citation_count": 3,
+    "url": "https://dl.acm.org/doi/10.1145/3426359"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2110.10718v1.pdf",
+    "title": "Bootstrapping confidence in future safety based on past safe operation",
+    "published_date": "2021-10-20",
+    "abstract": "With autonomous vehicles (AVs), a major concern is the inability to give meaningful quantitative assurance of safety, to the extent required by society - e.g. that an AV must be at least as safe as a good human driver - before that AV is in extensive use. We demonstrate an approach to achieving more moderate, but useful, confidence, e.g., confidence of low enough probability of causing accidents in the early phases of operation. This formalises mathematically the common approach of operating a system on a limited basis in the hope that mishap-free operation will confirm one's confidence in its safety and allow progressively more extensive operation: a process of\"bootstrapping\"of confidence. Translating that intuitive approach into theorems shows: (1) that it is substantially sound in the right circumstances, and could be a good method for deciding about the early deployment phase for an AV; (2) how much confidence can be rightly derived from such a\"cautious deployment\"approach, so that we can avoid over-optimism; (3) under which conditions our sound formulas for future confidence are applicable; (4) thus, which analyses of the concrete situations, and/or constraints on practice, are needed in order to enjoy the advantages of provably correct confidence in adequate future safety.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.03792v1.pdf",
+    "title": "A MCMC-type simple probabilistic approach for determining optimal progressive censoring schemes",
+    "published_date": "2021-04-08",
+    "abstract": "Abstract We present here a simple probabilistic approach for determining an optimal progressive censoring scheme by defining a probability structure on the set of feasible solutions. Given an initial solution, the new updated solution is computed within the probabilistic structure. This approach will be especially useful when the cardinality of the set of feasible solutions is large. The validation of the proposed approach is demonstrated by comparing the optimal scheme so determined with the one obtained by exhaustive numerical search.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.01740v1.pdf",
+    "title": "Reliability analysis of artificial intelligence systems using recurrent events data from autonomous vehicles",
+    "published_date": "2021-02-02",
+    "abstract": "Artificial intelligence (AI) systems have become increasingly common and the trend will continue. Examples of AI systems include autonomous vehicles (AV), computer vision, natural language processing and AI medical experts. To allow for safe and effective deployment of AI systems, the reliability of such systems needs to be assessed. Traditionally, reliability assessment is based on reliability test data and the subsequent statistical modelling and analysis. The availability of reliability data for AI systems, however, is limited because such data are typically sensitive and proprietary. The California Department of Motor Vehicles (DMV) oversees and regulates an AV testing program, in which many AV manufacturers are conducting AV road tests. Manufacturers participating in the program are required to report recurrent disengagement events to California DMV. This information is being made available to the public. In this paper, we use recurrent disengagement events as a representation of the reliability of the AI system in AV, and propose a statistical framework for modelling and analysing the recurrent events data from AV driving tests. We use traditional parametric models in software reliability and propose a new non‐parametric model based on monotonic splines to describe the event process and to estimate the cumulative baseline intensity function of the event process. We develop inference procedures for selecting the best models, quantifying uncertainty and testing heterogeneity in the event process. We then analyse the recurrent events data from four AV manufacturers, and make inferences on the reliability of the AI systems in AV. We also describe how the proposed analysis can be applied to assess the reliability of other AI systems. This paper has online supplementary materials.",
+    "citation_count": 16
+  }
+]

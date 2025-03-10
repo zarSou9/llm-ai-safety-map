@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Superhuman artificial intelligence can improve human decision-making by increasing novelty",
+    "abstract": "Significance Although advances in artificial intelligence (AI) created superhuman AI systems, little is understood about how such AI systems will affect human decision-making. We examine historical changes in decision-making by professional Go players over the recent seven decades, focusing on changes after the advent of superhuman AI (e.g., AlphaGo). We find that superhuman AI may have improved human decision-making, and that this improvement was associated with increased novelty in decision-making as human players were encouraged to make decisions previously unobserved in history. Our findings illustrate that superhuman AI can encourage novel decision-making by humans in certain domains and suggest that innovative thinking can spread from machines to humans and among humans themselves, possibly improving human decision-making in those domains.",
+    "published_date": "2023-03-13",
+    "citation_count": 34,
+    "url": "https://ncbi.nlm.nih.gov/pmc/articles/PMC10041097/",
+    "summary": "Analysis of professional Go players' decisions reveals that superhuman AI, like AlphaGo, has fostered increased novelty in human gameplay, suggesting AI can improve human decision-making by encouraging previously unseen strategies. This improvement appears linked to the diffusion of innovative thinking from AI to humans."
+  },
+  {
+    "title": "Influence of AI-based decision support on shared decision making in hemodialysis: a Wizard of Oz experiment",
+    "abstract": "Artificial Intelligence-based decision support systems (AI-DSS) to improve hemodialysis therapy are currently under development. However, the influence of AI-DSS on shared decision making (SDM) in hemodialysis patients has not been studied so far. We performed a Wizard of Oz experiment, using a sham AI-DSS suggesting ultrafiltration volume at the beginning of each dialysis session. We performed 10 patient interviews in 5 patients, and investigated views towards AI, different aspects of the SDM, and the influence of an AI-DSS on SDM in a real-life scenario. Five main topics were identified: (1) the patient as self-determined, (2) role of the medical staff, (3) other forms of automation, (4) attitude towards AI, (5) needs and preferences for future use of AI. The patients describe novel AI-DSS in dialysis as an opportunity to promote self-determination and to ensure more efficient therapy. At the same time, they describe the special relationship with the nursing staff and physicians, who, from the patients' point of view, must be given control over an AI-DSS. This study provides first evidence regarding the influence of AI-DSS on SDM in the context of hemodialysis. Further studies should focus on other aspects that require SDM such as initiation of dialysis, and selection of dialysis modality.",
+    "published_date": "2023-01-14",
+    "citation_count": 1,
+    "url": "https://www.medrxiv.org/content/10.1101/2023.01.12.23284468v1",
+    "summary": "A Wizard of Oz study explored the impact of a simulated AI-based decision support system on shared decision-making in hemodialysis patients, revealing patients' desire for increased self-determination through AI while emphasizing the continued importance of clinician control and collaboration. The findings suggest AI could enhance hemodialysis care but highlight the need for further research on AI's role in other SDM aspects of dialysis treatment."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/YyzmcCxLcvDBEQezH/the-case-for-agi-the-divine-move-paradox-and-thinking-as-a",
+    "author": "Christopher James Hart",
+    "title": "The Divine Move Paradox & Thinking as a Species",
+    "published_date": "2023-05-31",
+    "summary": "The \"Divine Move Paradox\" highlights the potential conflict between objectively optimal actions and human understanding. Even with access to perfect information, a lack of comprehension can lead to suboptimal outcomes, necessitating a focus on strategies for interacting with superior intelligences that acknowledge and bridge this inherent knowledge gap."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/artificial-general-intelligence",
+    "title": "Artificial General Intelligence - LessWrong",
+    "published_date": "2023-02-06",
+    "summary": "Artificial General Intelligence (AGI) refers to machines capable of intelligent behavior across diverse domains, unlike narrow AI which excels only in specific tasks. While AGI's creation is anticipated within the coming decades, significant uncertainty remains regarding its timeline and potential impact, including the existential risks posed by an unfriendly AGI."
+  },
+  {
+    "title": "Learning algorithm for an intelligent decision making system based on multi-agent neurocognitive architectures",
+    "abstract": "Abstract The paper presents the formalism of an intelligent decision-making system based on multi-agent neurocognitive architectures, which has an architectural similarity to the human brain. An invariant of the organizational and functional structure of the intellectual decision-making process based on the multi-agent neurocognitive architecture is developed. An algorithm for teaching intelligent decision-making systems based on the self-organization of the invariant of multi-agent neurocognitive architectures is presented. Using this algorithm, an intelligent agent was trained and the architecture of the learning process was built on the basis of an invariant of neurocognitive architecture. Further research is related to training an intelligent agent in more complex behavior and expanding the capabilities of an intelligent decision-making system based on multi-agent neurocognitive architectures.",
+    "published_date": "2021-03-01",
+    "citation_count": 16,
+    "url": "https://www.sciencedirect.com/science/article/pii/S1389041720300899",
+    "summary": "This paper proposes a novel learning algorithm for an intelligent decision-making system modeled on multi-agent neurocognitive architectures, mirroring the human brain's structure and function, and demonstrates its application in training an intelligent agent."
+  },
+  {
+    "title": "You'd Better Stop! Understanding Human Reliance on Machine Learning Models under Covariate Shift",
+    "abstract": "Decision-making aids powered by machine learning models become increasingly prevalent on the web today. However, when applied to a new distribution of data that is different from the training data (i.e., when covariate shift occurs), machine learning models often suffer from performance degradation and may provide misleading recommendations to human decision-makers. In this paper, we conduct a randomized experiment to investigate how people rely on machine learning models to make decisions under covariate shift. Surprisingly, we find that people rely on machine learning models more when making decisions on out-of-distribution data than in-distribution data. Moreover, while increasing people's awareness of the machine learning model's possible performance disparity on different data helps decrease people's over-reliance on the model under covariate shift, enabling people to visualize the data distributions and the model's performance does not seem to help. We conclude by discussing the implication of our results.",
+    "published_date": "2021-06-21",
+    "citation_count": 46,
+    "url": "https://dl.acm.org/doi/10.1145/3447535.3462487",
+    "summary": "A randomized experiment reveals that humans surprisingly rely more on machine learning models when data deviates from the model's training distribution (covariate shift), and while increasing awareness of potential performance disparities helps mitigate this over-reliance, visualizing data distributions and model performance does not."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/ai-capabilities",
+    "author": "gwern",
+    "title": "AI Capabilities - LessWrong",
+    "published_date": "2021-11-07",
+    "summary": "AI capabilities describe the growing ability of artificial intelligence to function effectively in complex situations, while AI alignment focuses on ensuring these actions are beneficial and aligned with human intentions."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/decision-theory",
+    "author": "Joe Carlsmith",
+    "title": "Decision Theory - LessWrong",
+    "published_date": "2021-08-30",
+    "summary": "Decision theory studies principles for making optimal decisions, aiming to maximize an agent's achievement of goals under uncertainty. This involves assigning utilities to outcomes and selecting actions with the highest expected utility, though various theoretical frameworks (e.g., Causal Decision Theory, Timeless Decision Theory) exist to address the limitations of simpler approaches."
+  }
+]

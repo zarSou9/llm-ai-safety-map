@@ -1,0 +1,73 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/S8khsrXnHEwYbhd8X/an-133-building-machines-that-can-cooperate-with-humans",
+    "author": "Rohin Shah",
+    "title": "[AN #133]: Building machines that can cooperate (with humans, institutions, or other machines)",
+    "published_date": "2021-01-13",
+    "summary": "The Alignment Newsletter highlights a paper exploring open problems in cooperative AI. The paper identifies four key capabilities crucial for effective cooperation between AI agents and humans: understanding, communication, commitment, and institutional design, each presenting unique challenges in achieving beneficial outcomes."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1907.04534v1.pdf",
+    "title": "The Role of Cooperation in Responsible AI Development",
+    "published_date": "2019-07-10",
+    "abstract": "In this paper, we argue that competitive pressures could incentivize AI companies to underinvest in ensuring their systems are safe, secure, and have a positive social impact. Ensuring that AI systems are developed responsibly may therefore require preventing and solving collective action problems between companies. We note that there are several key factors that improve the prospects for cooperation in collective action problems. We use this to identify strategies to improve the prospects for industry cooperation on the responsible development of AI.",
+    "citation_count": 54,
+    "summary": "Competitive pressures in AI development can hinder responsible AI practices; thus, cooperation among companies is crucial to overcome collective action problems and ensure the safe and ethical development of AI systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/KMocAf9jnAKc2jXri/sections-1-and-2-introduction-strategy-and-governance",
+    "author": "JesseClifton",
+    "title": "Sections 1 & 2: Introduction, Strategy and Governance",
+    "published_date": "2019-12-17",
+    "summary": "This research agenda focuses on preventing catastrophic cooperation failures among transformative artificial intelligence (TAI) systems. These failures, encompassing conflict, coercion, and social dilemmas, could arise from interactions between powerful AI agents or humans aided by powerful AI tools, necessitating new research to mitigate the risks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.18393",
+    "title": "Exploring the Impact of Rewards on Developers' Proactive AI Accountability Behavior",
+    "published_date": "2024-11-27",
+    "abstract": "The rapid integration of Artificial Intelligence (AI)-based systems offers benefits for various domains of the economy and society but simultaneously raises concerns due to emerging scandals. These scandals have led to the increasing importance of AI accountability to ensure that actors provide justification and victims receive compensation. However, AI accountability has a negative connotation due to its emphasis on penalizing sanctions, resulting in reactive approaches to emerging concerns. To counteract the prevalent negative view and offer a proactive approach to facilitate the AI accountability behavior of developers, we explore rewards as an alternative mechanism to sanctions. We develop a theoretical model grounded in Self-Determination Theory to uncover the potential impact of rewards and sanctions on AI developers. We further identify typical sanctions and bug bounties as potential reward mechanisms by surveying related research from various domains, including cybersecurity.",
+    "summary": "This paper investigates the potential of reward systems, such as bug bounties, to incentivize proactive AI accountability among developers, contrasting this approach with the less effective, reactive nature of traditional sanctions. A theoretical model based on Self-Determination Theory is used to explore the impact of these different mechanisms."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.15821",
+    "title": "Cooperation and Control in Delegation Games",
+    "published_date": "2024-02-24",
+    "abstract": "Many settings of interest involving humans and machines – from virtual personal assistants to autonomous vehicles – can naturally be modelled as principals (humans) delegating to agents (machines), which then interact with each other on their principals' behalf. We refer to these multi-principal, multi-agent scenarios as delegation games. In such games, there are two important failure modes: problems of control (where an agent fails to act in line their principal's preferences) and problems of cooperation (where the agents fail to work well together). In this paper we formalise and analyse these problems, further breaking them down into issues of alignment (do the players have similar preferences?) and capabilities (how competent are the players at satisfying those preferences?). We show – theoretically and empirically – how these measures determine the principals' welfare, how they can be estimated using limited observations, and thus how they might be used to help us design more aligned and cooperative AI systems.",
+    "summary": "This paper models human-machine interactions as delegation games, analyzing failures in control (agents acting against principals' preferences) and cooperation (agents failing to collaborate effectively). It theoretically and empirically investigates how agent alignment and capability impact principal welfare and proposes methods for estimating these factors to improve AI system design."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.02561",
+    "title": "Beneficence Signaling in AI Development Dynamics",
+    "published_date": "2023-05-04",
+    "abstract": "This paper motivates and develops a framework for understanding how the socio-technical systems surrounding AI development interact with social welfare. It introduces the concept of ``signaling'' from evolutionary game theory and demonstrates how it can enhance existing theory and practice surrounding the evaluation and governance of AI systems.",
+    "summary": "This paper proposes a framework using \"beneficence signaling\" from evolutionary game theory to analyze how AI development's socio-technical systems influence social welfare. It argues this framework improves AI evaluation and governance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.12040",
+    "title": "Roots and Requirements for Collaborative AI",
+    "published_date": "2023-03-21",
+    "abstract": "The vision of AI collaborators has long been a staple of stories and science fiction, where artificial agents understand nuances of collaboration and human communication. They assist their human partners and teams and have special talents. Government advisory groups and leaders in AI have advocated for years that AIs should be human compatible and effective collaborators. Nonetheless, robust AIs that collaborate like talented people remain out of reach. The simpler dream of effective information tools that augment human intelligence (IA) has its roots in the 1960s and arguably helped drive an information technology revolution. With the vast increase in hybrid and remote work since the COVID pandemic, the benefits and requirements for better coordination, collaboration, and communication are in focus for the workplace. Many factors (such as the costs of homes near work) are impeding a return to in-person work at the office. If we need better tools, how artificially intelligent (AI) should our tools be? This position paper reviews the arc of technology and calls for human-machine teaming. It draws on psychology and social sciences for an analysis of what effective and robust collaboration requires. It is the context for a second paper (Stefik&Price, 2023) that argues that current mainstream AI cannot produce robust, intelligent, and human-compatible collaborators. Rather, a radical shift in technology and methodology is required.",
+    "summary": "This paper advocates for human-machine teaming, arguing that current AI lacks the capabilities for robust collaboration with humans. It calls for a radical shift in AI technology and methodology to achieve effective human-AI partnerships, drawing on social sciences to define necessary requirements."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/AKBkDNeFLZxaMqjQG/a-practical-incremental-pathway-to-safe-tai-oaa-in-the-real",
+    "author": "Roman Leventov, Rafael Kaufmann Nedal",
+    "title": "Gaia Network: a practical, incremental pathway to Open Agency Architecture",
+    "published_date": "2023-12-20",
+    "summary": "The article proposes Gaia, a decentralized network leveraging existing technologies and proven economic mechanisms to build a detailed world simulation for aligning advanced AI with human values, addressing AI safety alongside broader societal challenges like climate change and governance reform. This bottom-up approach, inspired by natural evolution and the internet's development, prioritizes open collaboration and incremental improvement over a top-down, technocratic solution."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "This article explores applying game theory to AI development within organizational structures, highlighting the limitations of a purely game-theoretic approach and emphasizing the enduring relevance of bureaucratic principles like hierarchical authority and job specialization, even with the integration of AI agents. The authors argue that human-AI collaboration, leveraging comparative advantage, will remain necessary for handling complex tasks and achieving shared goals."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/xKpiqsWMKRfci7cv4/investigating-emergent-goal-like-behavior-in-large-language",
+    "author": "phelps-sg",
+    "title": "Investigating Emergent Goal-Like Behavior in Large Language Models using Experimental Economics",
+    "published_date": "2023-05-05",
+    "summary": "A working paper investigates whether large language models (LLMs) can cooperate in the iterated Prisoner's Dilemma game, finding preliminary evidence that LLMs can understand and enact altruistic and selfish behaviors but struggle with conditional reciprocity. This research contrasts with typical AI alignment discussions focused on zero-sum games, exploring the potential for cooperation in non-zero-sum interactions."
+  }
+]

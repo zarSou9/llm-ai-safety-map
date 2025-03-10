@@ -1,0 +1,139 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.08981",
+    "title": "Reliability, Resilience and Human Factors Engineering for Trustworthy AI Systems",
+    "published_date": "2024-11-13",
+    "abstract": "As AI systems become integral to critical operations across industries and services, ensuring their reliability and safety is essential. We offer a framework that integrates established reliability and resilience engineering principles into AI systems. By applying traditional metrics such as failure rate and Mean Time Between Failures (MTBF) along with resilience engineering and human reliability analysis, we propose an integrate framework to manage AI system performance, and prevent or efficiently recover from failures. Our work adapts classical engineering methods to AI systems and outlines a research agenda for future technical studies. We apply our framework to a real-world AI system, using system status data from platforms such as openAI, to demonstrate its practical applicability. This framework aligns with emerging global standards and regulatory frameworks, providing a methodology to enhance the trustworthiness of AI systems. Our aim is to guide policy, regulation, and the development of reliable, safe, and adaptable AI technologies capable of consistent performance in real-world environments.",
+    "citation_count": 1,
+    "summary": "The paper proposes a framework integrating reliability and resilience engineering principles, including traditional metrics and human factors analysis, to ensure trustworthy AI systems by managing performance and mitigating failures. This framework is demonstrated using real-world AI system data and aligns with emerging standards for AI safety and regulation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.04464",
+    "title": "Ten Hard Problems in Artificial Intelligence We Must Get Right",
+    "published_date": "2024-02-06",
+    "abstract": "We explore the AI2050\"hard problems\"that block the promise of AI and cause AI risks: (1) developing general capabilities of the systems; (2) assuring the performance of AI systems and their training processes; (3) aligning system goals with human goals; (4) enabling great applications of AI in real life; (5) addressing economic disruptions; (6) ensuring the participation of all; (7) at the same time ensuring socially responsible deployment; (8) addressing any geopolitical disruptions that AI causes; (9) promoting sound governance of the technology; and (10) managing the philosophical disruptions for humans living in the age of AI. For each problem, we outline the area, identify significant recent work, and suggest ways forward. [Note: this paper reviews literature through January 2023.]",
+    "citation_count": 2,
+    "summary": "The paper outlines ten key challenges facing AI development, spanning technical hurdles like creating general AI and ensuring reliable performance to societal impacts such as economic disruption and ethical deployment. These \"hard problems\" must be addressed to realize AI's potential while mitigating its risks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MkfaQyxB9PN4h8Bs9/ai-safety-101-capabilities",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 : Capabilities - Human Level AI, What? How? and When?",
+    "published_date": "2024-03-07",
+    "summary": "This updated article provides a comprehensive overview of the state-of-the-art in AI, focusing on foundation models, their capabilities (language, vision, robotics, reasoning), the role of computation in AI progress, and forecasting future AI development, including potential risks and the transition towards transformative AI. It also establishes key terminology for discussing AI and its potential impact."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/artificial-general-intelligence-agi",
+    "title": "Artificial General Intelligence (AGI) - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Artificial General Intelligence (AGI) refers to a hypothetical machine capable of intelligent behavior across diverse domains, unlike narrow AI which is specialized. While AGI development faces skepticism, researchers explore various approaches with potential implications ranging from human-level intelligence by mid-21st century to existential risk depending on AGI values."
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.18660",
+    "title": "Foundation Models for Generalist Geospatial Artificial Intelligence",
+    "published_date": "2023-10-28",
+    "abstract": "Significant progress in the development of highly adaptable and reusable Artificial Intelligence (AI) models is expected to have a significant impact on Earth science and remote sensing. Foundation models are pre-trained on large unlabeled datasets through self-supervision, and then fine-tuned for various downstream tasks with small labeled datasets. This paper introduces a first-of-a-kind framework for the efficient pre-training and fine-tuning of foundational models on extensive geospatial data. We have utilized this framework to create Prithvi, a transformer-based geospatial foundational model pre-trained on more than 1TB of multispectral satellite imagery from the Harmonized Landsat-Sentinel 2 (HLS) dataset. Our study demonstrates the efficacy of our framework in successfully fine-tuning Prithvi to a range of Earth observation tasks that have not been tackled by previous work on foundation models involving multi-temporal cloud gap imputation, flood mapping, wildfire scar segmentation, and multi-temporal crop segmentation. Our experiments show that the pre-trained model accelerates the fine-tuning process compared to leveraging randomly initialized weights. In addition, pre-trained Prithvi compares well against the state-of-the-art, e.g., outperforming a conditional GAN model in multi-temporal cloud imputation by up to 5pp (or 5.7%) in the structural similarity index. Finally, due to the limited availability of labeled data in the field of Earth observation, we gradually reduce the quantity of available labeled data for refining the model to evaluate data efficiency and demonstrate that data can be decreased significantly without affecting the model's accuracy. The pre-trained 100 million parameter model and corresponding fine-tuning workflows have been released publicly as open source contributions to the global Earth sciences community through Hugging Face.",
+    "citation_count": 55,
+    "summary": "This paper introduces Prithvi, a transformer-based foundation model pre-trained on over 1TB of satellite imagery, demonstrating its effectiveness in various Earth observation tasks like cloud imputation, flood mapping, and crop segmentation, while also showcasing improved data efficiency compared to training from scratch."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This evolving series of posts offers a comprehensive introduction to AI Safety. The content and organization are currently under development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "This article introduces a categorized list of AI safety resources (short and long versions) designed to help ML researchers quickly identify relevant AI alignment research areas based on their existing skills and interests. The resource focuses on keywords, subject/field references, organizations, researchers, and key papers, aiming to facilitate easier entry into the field."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/ai",
+    "author": "Evan Hubinger",
+    "title": "AI - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "AI alignment aims to ensure powerful AI systems act in accordance with human values, addressing the existential risk of a sufficiently advanced AI optimizing for unintended and potentially harmful outcomes. This field encompasses research on both narrow alignment (e.g., curing diseases safely) and ambitious alignment (e.g., achieving a positive future civilization)."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2210.08906.pdf",
+    "title": "A.I. Robustness: a Human-Centered Perspective on Technological Challenges and Opportunities",
+    "published_date": "2022-10-17",
+    "abstract": "Despite the impressive performance of Artificial Intelligence (AI) systems, their robustness remains elusive and constitutes a key issue that impedes large-scale adoption. Besides, robustness is interpreted differently across domains and contexts of AI. In this work, we systematically survey recent progress to provide a reconciled terminology of concepts around AI robustness. We introduce three taxonomies to organize and describe the literature both from a fundamental and applied point of view: 1) methods and approaches that address robustness in different phases of the machine learning pipeline; 2) methods improving robustness in specific model architectures, tasks, and systems; and in addition, 3) methodologies and insights around evaluating the robustness of AI systems, particularly the trade-offs with other trustworthiness properties. Finally, we identify and discuss research gaps and opportunities and give an outlook on the field. We highlight the central role of humans in evaluating and enhancing AI robustness, considering the necessary knowledge they can provide, and discuss the need for better understanding practices and developing supportive tools in the future.",
+    "citation_count": 7,
+    "summary": "This paper surveys AI robustness research, categorizing methods for improving and evaluating robustness throughout the machine learning pipeline and emphasizing the importance of human involvement in these processes. It also identifies current research gaps and future opportunities in the field."
+  },
+  {
+    "url": "https://arxiv.org/abs/2201.10436",
+    "title": "Safe AI -- How is this Possible?",
+    "published_date": "2022-01-25",
+    "abstract": "Ttraditional safety engineering is coming to a turning point moving from deterministic, non-evolving systems operating in well-defined contexts to increasingly autonomous and learning-enabled AI systems which are acting in largely unpredictable operating contexts. We outline some of underlying challenges of safe AI and suggest a rigorous engineering framework for minimizing uncertainty, thereby increasing confidence, up to tolerable levels, in the safe behavior of AI systems.",
+    "summary": "Traditional safety engineering methods struggle with the uncertainty of AI systems; a rigorous framework focusing on minimizing this uncertainty is needed to build confidence in AI safety."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2203.08594v1.pdf",
+    "title": "Towards a Roadmap on Software Engineering for Responsible AI",
+    "published_date": "2022-03-09",
+    "abstract": "Although AI is transforming the world, there are serious concerns about its ability to behave and make decisions responsibly. Many ethical regulations, principles, and frameworks for responsible AI have been issued recently. However, they are high level and difficult to put into practice. On the other hand, most AI researchers focus on algorithmic solutions, while the responsible AI challenges actually crosscut the entire engineering lifecycle and components of AI systems. To close the gap in operationalizing responsible AI, this paper aims to develop a roadmap on software engineering for responsible AI. The roadmap focuses on (i) establishing multi-level governance for responsible AI systems, (ii) setting up the development processes incorporating process-oriented practices for responsible AI systems, and (iii) building responsible-AI-by-design into AI systems through system-level architectural style, patterns and techniques. CCS CONCEPTS • Software and its engineering;",
+    "citation_count": 44,
+    "summary": "This paper proposes a software engineering roadmap for building responsible AI systems, focusing on multi-level governance, responsible AI development processes, and incorporating responsible AI considerations into system design. This addresses the gap between high-level ethical principles and practical implementation within the entire AI system lifecycle."
+  },
+  {
+    "url": "https://arxiv.org/abs/2109.13916v1",
+    "title": "Unsolved Problems in ML Safety",
+    "published_date": "2021-09-28",
+    "abstract": "Machine learning (ML) systems are rapidly increasing in size, are acquiring new capabilities, and are increasingly deployed in high-stakes settings. As with other powerful technologies, safety for ML should be a leading research priority. In response to emerging safety challenges in ML, such as those introduced by recent large-scale models, we provide a new roadmap for ML Safety and refine the technical problems that the field needs to address. We present four problems ready for research, namely withstanding hazards (\"Robustness\"), identifying hazards (\"Monitoring\"), reducing inherent model hazards (\"Alignment\"), and reducing systemic hazards (\"Systemic Safety\"). Throughout, we clarify each problem's motivation and provide concrete research directions.",
+    "citation_count": 253,
+    "summary": "This paper proposes a roadmap for Machine Learning (ML) Safety, outlining four key research areas: enhancing robustness to hazards, monitoring for hazards, aligning models to human intentions, and mitigating systemic safety risks."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2112.10190.pdf",
+    "title": "Demanding and Designing Aligned Cognitive Architectures",
+    "published_date": "2021-12-19",
+    "abstract": "With AI systems becoming more powerful and pervasive, there is increasing debate about keeping their actions aligned with the broader goals and needs of humanity. This multi-disciplinary and multi-stakeholder debate must resolve many issues, here we examine three of them. The first issue is to clarify what demands stakeholders might usefully make on the designers of AI systems, useful because the technology exists to implement them. We make this technical topic more accessible by using the framing of cognitive architectures. The second issue is to move beyond an analytical framing that treats useful intelligence as being reward maximization only. To support this move, we define several AI cognitive architectures that combine reward maximization with other technical elements designed to improve alignment. The third issue is how stakeholders should calibrate their interactions with modern machine learning researchers. We consider how current fashions in machine learning create a narrative pull that participants in technical and policy discussions should be aware of, so that they can compensate for it. We identify several technically tractable but currently unfashionable options for improving AI alignment.",
+    "citation_count": 1,
+    "summary": "The paper explores how to ensure advanced AI systems remain aligned with human values by examining stakeholder demands on AI designers, proposing cognitive architectures that go beyond reward maximization, and analyzing the influence of current machine learning trends on alignment research. It highlights technically feasible yet currently unfashionable approaches to improve AI alignment."
+  },
+  {
+    "url": "https://arxiv.org/abs/2101.06060v1",
+    "title": "The Challenge of Value Alignment: from Fairer Algorithms to AI Safety",
+    "published_date": "2021-01-15",
+    "abstract": "This paper addresses the question of how to align AI systems with human values and situates it within a wider body of thought regarding technology and value. Far from existing in a vacuum, there has long been an interest in the ability of technology to 'lock-in' different value systems. There has also been considerable thought about how to align technologies with specific social values, including through participatory design-processes. In this paper we look more closely at the question of AI value alignment and suggest that the power and autonomy of AI systems gives rise to opportunities and challenges in the domain of value that have not been encountered before. Drawing important continuities between the work of the fairness, accountability, transparency and ethics community, and work being done by technical AI safety researchers, we suggest that more attention needs to be paid to the question of 'social value alignment' - that is, how to align AI systems with the plurality of values endorsed by groups of people, especially on the global level.",
+    "citation_count": 34,
+    "summary": "AI value alignment, encompassing both algorithmic fairness and AI safety, requires aligning powerful, autonomous AI systems with diverse human values, particularly on a global scale. This presents unique challenges beyond previous technological value alignment efforts due to AI's potential impact and autonomy."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2110.01167v2.pdf",
+    "title": "Trustworthy AI: From Principles to Practices",
+    "published_date": "2021-10-04",
+    "abstract": "The rapid development of Artificial Intelligence (AI) technology has enabled the deployment of various systems based on it. However, many current AI systems are found vulnerable to imperceptible attacks, biased against underrepresented groups, lacking in user privacy protection. These shortcomings degrade user experience and erode people's trust in all AI systems. In this review, we provide AI practitioners with a comprehensive guide for building trustworthy AI systems. We first introduce the theoretical framework of important aspects of AI trustworthiness, including robustness, generalization, explainability, transparency, reproducibility, fairness, privacy preservation, and accountability. To unify currently available but fragmented approaches toward trustworthy AI, we organize them in a systematic approach that considers the entire lifecycle of AI systems, ranging from data acquisition to model development, to system development and deployment, finally to continuous monitoring and governance. In this framework, we offer concrete action items for practitioners and societal stakeholders (e.g., researchers, engineers, and regulators) to improve AI trustworthiness. Finally, we identify key opportunities and challenges for the future development of trustworthy AI systems, where we identify the need for a paradigm shift toward comprehensively trustworthy AI systems.",
+    "citation_count": 287,
+    "summary": "This review provides a comprehensive guide for building trustworthy AI systems by outlining a framework encompassing the entire AI lifecycle, addressing key aspects like robustness, fairness, and privacy, and offering actionable steps for practitioners and stakeholders. It advocates for a paradigm shift towards comprehensively trustworthy AI, highlighting future opportunities and challenges."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.10270.pdf",
+    "title": "Requirement Engineering Challenges for AI-intense Systems Development",
+    "published_date": "2021-03-18",
+    "abstract": "Availability of powerful computation and communication technology as well as advances in artificial intelligence enable a new generation of complex, AI-intense systems and applications. Such systems and applications promise exciting improvements on a societal level, yet they also bring with them new challenges for their development. In this paper we argue that significant challenges relate to defining and ensuring behaviour and quality attributes of such systems and applications. We specifically derive four challenge areas from relevant use cases of complex, AI-intense systems and applications related to industry, transportation, and home automation: understanding, determining, and specifying (i) contextual definitions and requirements, (ii) data attributes and requirements, (iii) performance definition and monitoring, and (iv) the impact of human factors on system acceptance and success. Solving these challenges will imply process support that integrates new requirements engineering methods into development approaches for complex, AI-intense systems and applications. We present these challenges in detail and propose a research roadmap.",
+    "citation_count": 28,
+    "summary": "AI-intense systems present novel requirement engineering challenges, particularly in defining and ensuring desired behavior and quality attributes regarding contextual definitions, data, performance, and human factors. Addressing these challenges requires new requirements engineering methods integrated into development processes for these complex systems."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.09478v1.pdf",
+    "title": "Software engineering for Responsible AI: An empirical study and operationalised patterns",
+    "published_date": "2021-11-18",
+    "abstract": "AI ethics principles and guidelines are typically high-level and do not provide concrete guidance on how to develop responsible AI systems. To address this shortcoming, we perform an empirical study involving interviews with 21 scientists and engineers to understand the practitioners' views on AI ethics principles and their implementation. Our major findings are: (1) the current practice is often a done-once-and-forget type of ethical risk assessment at a particular development step, which is not sufficient for highly uncertain and continual learning AI systems; (2) ethical requirements are either omitted or mostly stated as high-level objectives, and not specified explicitly in verifiable way as system outputs or outcomes; (3) although ethical requirements have the characteristics of cross-cutting quality and non-functional requirements amenable to architecture and design analysis, system-level architecture and design are under-explored; (4) there is a strong desire for continuously monitoring and validating AI systems post deployment for ethical requirements but current operation practices provide limited guidance. To address these findings, we suggest a preliminary list of patterns to provide operationalised guidance for developing responsible AI systems.",
+    "citation_count": 29,
+    "summary": "This study finds current AI development lacks continuous ethical consideration, often treating ethical assessments as one-time activities and neglecting system-level design for ethical requirements, despite practitioners desiring better post-deployment monitoring. The authors propose operational patterns to address these shortcomings and promote responsible AI development."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.09783v1.pdf",
+    "title": "Characterizing Technical Debt and Antipatterns in AI-Based Systems: A Systematic Mapping Study",
+    "published_date": "2021-03-17",
+    "abstract": "Background: With the rising popularity of Artificial Intelligence (AI), there is a growing need to build large and complex AI-based systems in a cost-effective and manageable way. Like with traditional software, Technical Debt (TD) will emerge naturally over time in these systems, therefore leading to challenges and risks if not managed appropriately. The influence of data science and the stochastic nature of AI-based systems may also lead to new types of TD or antipatterns, which are not yet fully understood by researchers and practitioners. Objective: The goal of our study is to provide a clear overview and characterization of the types of TD (both established and new ones) that appear in AI-based systems, as well as the antipatterns and related solutions that have been proposed. Method: Following the process of a systematic mapping study, 21 primary studies are identified and analyzed. Results: Our results show that (i) established TD types, variations of them, and four new TD types (data, model, configuration, and ethics debt) are present in AI-based systems, (ii) 72 antipatterns are discussed in the literature, the majority related to data and model deficiencies, and (iii) 46 solutions have been proposed, either to address specific TD types, antipatterns, or TD in general. Conclusions: Our results can support AI professionals with reasoning about and communicating aspects of TD present in their systems. Additionally, they can serve as a foundation for future research to further our understanding of TD in AI-based systems.",
+    "citation_count": 29,
+    "summary": "This systematic mapping study identifies established and novel types of technical debt (including data, model, configuration, and ethics debt) emerging in AI-based systems, catalogs 72 related antipatterns predominantly concerning data and model deficiencies, and lists 46 proposed solutions for managing this AI-specific technical debt."
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/tag/careers",
+    "author": "Nora_Ammann, Lucas Teixeira, DusanDNesic",
+    "title": "Careers - AI Alignment Forum",
+    "published_date": "2024-04-09",
+    "summary": "The article contains content related to employment and career advancement. Specific topics within the article include job postings and career development advice."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three AI governance strategies—Cooperative Development, Strategic Advantage, and Global Moratorium—evaluating their effectiveness based on the difficulty of achieving AI alignment and the timeline for AI development. The optimal strategy shifts depending on these factors, with Cooperative Development preferred for longer timelines and easier alignment, Strategic Advantage favored under shorter timelines or moderate alignment difficulty, and Global Moratorium considered a last resort for extremely challenging scenarios."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential trajectories of transformative AI (TAI), focusing on the possibility of TAI emerging within the next decade. This research aims to identify existential hazards posed by TAI, evaluate existing and develop new mitigation strategies, and clarify uncertainties surrounding AI's future."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and long version, catalog AI safety research, organizations, and researchers to help machine learning experts quickly assess potential areas of contribution based on their existing skills and interests. The resource aims to facilitate entry into the AI safety field for researchers already working in ML."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/organization-updates",
+    "author": "Jesse Hoogland, Daniel Murfet, Stan van Wingerden, Alexander Gietelink Oldenziel",
+    "title": "Organization Updates - AI Alignment Forum",
+    "published_date": "2023-05-30",
+    "summary": "Organization updates pertain to news, changes, or announcements related to a specific group or organization. These updates are typically relevant to members or those interested in the organization."
+  },
+  {
+    "title": "Variable Interval Time Sequence Modeling for Career Trajectory Prediction: Deep Collaborative Perspective",
+    "abstract": "In today's fast-evolving job market, the timely and effective understanding of the career trajectories of talents can help them quickly develop necessary skills and make the right career transitions at the right time. However, it is a non-trivial task for developing a successful career trajectory prediction method, which should have the abilities for finding the right timing for job-hopping, identifying the right companies, and matching the right positions for the candidates. While people have been trying to develop solutions for providing some of the above abilities, there is no total solution or complete framework to integrate all these abilities together. To this end, in this paper, we propose a unified time-aware career trajectory prediction framework, namely TACTP, which is capable of jointly providing the above three abilities for better understanding the career trajectories of talents. Along this line, we first exploit a hierarchical deep sequential modeling network for career embedding and extract latent talent factors from multiple networks, which are designed with different functions of handling related issues of the timing, companies, and positions for job-hopping. Then, we perform collaborative filtering for generating personalized predictions. Furthermore, we propose a temporal encoding mechanism to handle dynamic temporal information so that TACTP is capable of generating time-aware predictions by addressing the challenges for variable interval time sequence modeling. Finally, we have conducted extensive experiments on large-scale real-world data to evaluate TACTP against the state-of-the-art baselines, and the results show that TACTP has advantages over baselines on all targeted tasks for career trajectory prediction.",
+    "published_date": "2021-04-19",
+    "citation_count": 25,
+    "url": "https://dl.acm.org/doi/10.1145/3442381.3449959",
+    "summary": "The TACTP framework provides a unified, time-aware approach to career trajectory prediction by integrating hierarchical deep sequential modeling with collaborative filtering to predict optimal job-hopping timing, companies, and positions. This approach, evaluated on real-world data, outperforms existing methods across all prediction tasks."
+  },
+  {
+    "title": "Talent management in turbulent times: Selection, negotiation, and exploration strategies for talent management in the aeronautics and space industries",
+    "abstract": "Abstract Talent Management (TM) is traditionally analyzed as a set of interrelated processes that firms use to develop their human capital in accordance with their needs. Turbulent environmental conditions are pushing TM to evolve in order to cope with change and uncertainty and is prompting talent managers to attempt to change the nature of TM. We investigate how talent managers are conducting this change through a framework based on social agency. We present exploratory research conducted on 20 companies in the aeronautics and space sectors, a set of industries facing turbulence. On the basis of 35 formal and 27 informal interviews, we outline three strategies being used by talent managers that are enabling TM to evolve: selection, negotiation, and exploration strategies. Our research reveals that TM is a flexible construct within companies facing turbulence, which gives TM a role as a method of planning and a vehicle for change.",
+    "published_date": "2021-03-15",
+    "citation_count": 10,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/09585192.2021.1879205",
+    "summary": "This study examines how talent management (TM) is adapting to turbulent conditions in the aeronautics and space industries, finding that companies employ selection, negotiation, and exploration strategies to evolve their TM practices. These strategies demonstrate TM's flexibility as both a planning tool and a driver of organizational change."
+  },
+  {
+    "title": "Cost-Effective and Interpretable Job Skill Recommendation with Deep Reinforcement Learning",
+    "abstract": "Nowadays, as organizations operate in very fast-paced and competitive environments, workforce has to be agile and adaptable to regularly learning new job skills. However, it is nontrivial for talents to know which skills to develop at each working stage. To this end, in this paper, we aim to develop a cost-effective recommendation system based on deep reinforcement learning, which can provide personalized and interpretable job skill recommendation for each talent. Specifically, we first design an environment to estimate the utilities of skill learning by mining the massive job advertisement data, which includes a skill-matching-based salary estimator and a frequent itemset-based learning difficulty estimator. Based on the environment, we design a Skill Recommendation Deep Q-Network (SRDQN) with multi-task structure to estimate the long-term skill learning utilities. In particular, SRDQN recommends job skills in a personalized and cost-effective manner; that is, the talents will only learn the recommended necessary skills for achieving their career goals. Finally, extensive experiments on a real-world dataset clearly validate the effectiveness and interpretability of our approach.",
+    "published_date": "2021-04-19",
+    "citation_count": 20,
+    "url": "https://dl.acm.org/doi/10.1145/3442381.3449985",
+    "summary": "This paper proposes a deep reinforcement learning model (SRDQN) for personalized job skill recommendations, optimizing for cost-effectiveness by predicting skill learning utility from job advertisement data and considering learning difficulty. The model demonstrates improved effectiveness and interpretability compared to existing methods."
+  }
+]

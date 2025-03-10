@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.24081",
+    "title": "An Efficient Dynamic Resource Allocation Framework for Evolutionary Bilevel Optimization",
+    "published_date": "2024-10-31",
+    "abstract": "Bilevel optimization problems are characterized by an interactive hierarchical structure, where the upper level seeks to optimize its strategy while simultaneously considering the response of the lower level. Evolutionary algorithms are commonly used to solve complex bilevel problems in practical scenarios, but they face significant resource consumption challenges due to the nested structure imposed by the implicit lower-level optimality condition. This challenge becomes even more pronounced as problem dimensions increase. Although recent methods have enhanced bilevel convergence through task-level knowledge sharing, further efficiency improvements are still hindered by redundant lower-level iterations that consume excessive resources while generating unpromising solutions. To overcome this challenge, this paper proposes an efficient dynamic resource allocation framework for evolutionary bilevel optimization, named DRC-BLEA. Compared to existing approaches, DRC-BLEA introduces a novel competitive quasi-parallel paradigm, in which multiple lower-level optimization tasks, derived from different upper-level individuals, compete for resources. A continuously updated selection probability is used to prioritize execution opportunities to promising tasks. Additionally, a cooperation mechanism is integrated within the competitive framework to further enhance efficiency and prevent premature convergence. Experimental results compared with chosen state-of-the-art algorithms demonstrate the effectiveness of the proposed method. Specifically, DRC-BLEA achieves competitive accuracy across diverse problem sets and real-world scenarios, while significantly reducing the number of function evaluations and overall running time."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.13493",
+    "title": "Thresholded Lexicographic Ordered Multiobjective Reinforcement Learning",
+    "published_date": "2024-08-24",
+    "abstract": "Lexicographic multi-objective problems, which impose a lexicographic importance order over the objectives, arise in many real-life scenarios. Existing Reinforcement Learning work directly addressing lexicographic tasks has been scarce. The few proposed approaches were all noted to be heuristics without theoretical guarantees as the Bellman equation is not applicable to them. Additionally, the practical applicability of these prior approaches also suffers from various issues such as not being able to reach the goal state. While some of these issues have been known before, in this work we investigate further shortcomings, and propose fixes for improving practical performance in many cases. We also present a policy optimization approach using our Lexicographic Projection Optimization (LPO) algorithm that has the potential to address these theoretical and practical concerns. Finally, we demonstrate our proposed algorithms on benchmark problems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.06886",
+    "title": "Principled Penalty-based Methods for Bilevel Reinforcement Learning and RLHF",
+    "published_date": "2024-02-10",
+    "abstract": "Bilevel optimization has been recently applied to many machine learning tasks. However, their applications have been restricted to the supervised learning setting, where static objective functions with benign structures are considered. But bilevel problems such as incentive design, inverse reinforcement learning (RL), and RL from human feedback (RLHF) are often modeled as dynamic objective functions that go beyond the simple static objective structures, which pose significant challenges of using existing bilevel solutions. To tackle this new class of bilevel problems, we introduce the first principled algorithmic framework for solving bilevel RL problems through the lens of penalty formulation. We provide theoretical studies of the problem landscape and its penalty-based (policy) gradient algorithms. We demonstrate the effectiveness of our algorithms via simulations in the Stackelberg Markov game, RL from human feedback and incentive design.",
+    "citation_count": 8
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.01516v1.pdf",
+    "title": "Hyperbolically-Discounted Reinforcement Learning on Reward-Punishment Framework",
+    "published_date": "2021-06-03",
+    "abstract": "This paper proposes a new reinforcement learning with hyperbolic discounting. Combining a new temporal difference error with the hyperbolic discounting in recursive manner and reward-punishment framework, a new scheme to learn the optimal policy is derived. In simulations, it is found that the proposal outperforms the standard reinforcement learning, although the performance depends on the design of reward and punishment. In addition, the averages of discount factors w.r.t. reward and punishment are different from each other, like a sign effect in animal behaviors."
+  },
+  {
+    "title": "Some new optimality conditions for semivector bilevel optimization program",
+    "abstract": "This paper discusses a kind of non-convex, non-smooth optimistic semivector bilevel optimization programs which equipped with a vector lower level problem. We introduce a class of new gap functions and penalty functions to transform this two level program into a one level scalar-objective optimization problem. Furthermore, we derive first-order optimality conditions for this semivector bilevel program in both global and local sense, using calculus of basic subdifferential and partial calmness. By applying new developments in basic subdifferential, we estimate basic subdifferential of gap functions and penalty functions which specify the former mentioned optimality conditions.",
+    "published_date": "2021-01-24",
+    "citation_count": 1,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/02331934.2021.1873989"
+  },
+  {
+    "url": "https://arxiv.org/abs/2103.12142?context=cs.LG",
+    "title": "Combining Reward Information from Multiple Sources",
+    "published_date": "2021-03-22",
+    "abstract": "Given two sources of evidence about a latent variable, one can combine the information from both by multiplying the likelihoods of each piece of evidence. However, when one or both of the observation models are misspecified, the distributions will conflict. We study this problem in the setting with two conflicting reward functions learned from different sources. In such a setting, we would like to retreat to a broader distribution over reward functions, in order to mitigate the effects of misspecification. We assume that an agent will maximize expected reward given this distribution over reward functions, and identify four desiderata for this setting. We propose a novel algorithm, Multitask Inverse Reward Design (MIRD), and compare it to a range of simple baselines. While all methods must trade off between conservatism and informativeness, through a combination of theory and empirical results on a toy environment, we find that MIRD and its variant MIRD-IF strike a good balance between the two.",
+    "citation_count": 3
+  }
+]

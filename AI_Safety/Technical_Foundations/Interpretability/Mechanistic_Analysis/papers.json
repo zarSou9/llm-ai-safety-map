@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2211.00593",
+    "title": "Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small",
+    "published_date": "2022-11-01",
+    "abstract": "Research in mechanistic interpretability seeks to explain behaviors of machine learning models in terms of their internal components. However, most previous work either focuses on simple behaviors in small models, or describes complicated behaviors in larger models with broad strokes. In this work, we bridge this gap by presenting an explanation for how GPT-2 small performs a natural language task called indirect object identification (IOI). Our explanation encompasses 26 attention heads grouped into 7 main classes, which we discovered using a combination of interpretability approaches relying on causal interventions. To our knowledge, this investigation is the largest end-to-end attempt at reverse-engineering a natural behavior\"in the wild\"in a language model. We evaluate the reliability of our explanation using three quantitative criteria--faithfulness, completeness and minimality. Though these criteria support our explanation, they also point to remaining gaps in our understanding. Our work provides evidence that a mechanistic understanding of large ML models is feasible, opening opportunities to scale our understanding to both larger models and more complex tasks.",
+    "citation_count": 373,
+    "summary": "This paper presents a detailed mechanistic explanation of how GPT-2 small performs indirect object identification, identifying a circuit of 26 attention heads grouped into seven functional classes using causal intervention techniques. The explanation's reliability is evaluated using faithfulness, completeness, and minimality criteria, highlighting both successes and remaining gaps in understanding."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.04156",
+    "title": "How does GPT-2 Predict Acronyms? Extracting and Understanding a Circuit via Mechanistic Interpretability",
+    "published_date": "2024-05-07",
+    "abstract": "Transformer-based language models are treated as black-boxes because of their large number of parameters and complex internal interactions, which is a serious safety concern. Mechanistic Interpretability (MI) intends to reverse-engineer neural network behaviors in terms of human-understandable components. In this work, we focus on understanding how GPT-2 Small performs the task of predicting three-letter acronyms. Previous works in the MI field have focused so far on tasks that predict a single token. To the best of our knowledge, this is the first work that tries to mechanistically understand a behavior involving the prediction of multiple consecutive tokens. We discover that the prediction is performed by a circuit composed of 8 attention heads (~5% of the total heads) which we classified in three groups according to their role. We also demonstrate that these heads concentrate the acronym prediction functionality. In addition, we mechanistically interpret the most relevant heads of the circuit and find out that they use positional information which is propagated via the causal mask mechanism. We expect this work to lay the foundation for understanding more complex behaviors involving multiple-token predictions.",
+    "citation_count": 4,
+    "summary": "This paper uses mechanistic interpretability to analyze how GPT-2 predicts three-letter acronyms, identifying a circuit of eight attention heads responsible for this behavior and demonstrating their reliance on positional information propagated through the causal mask. This work expands mechanistic interpretability to multi-token prediction tasks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.14082",
+    "title": "Mechanistic Interpretability for AI Safety - A Review",
+    "published_date": "2024-04-22",
+    "abstract": "Understanding AI systems' inner workings is critical for ensuring value alignment and safety. This review explores mechanistic interpretability: reverse engineering the computational mechanisms and representations learned by neural networks into human-understandable algorithms and concepts to provide a granular, causal understanding. We establish foundational concepts such as features encoding knowledge within neural activations and hypotheses about their representation and computation. We survey methodologies for causally dissecting model behaviors and assess the relevance of mechanistic interpretability to AI safety. We examine benefits in understanding, control, alignment, and risks such as capability gains and dual-use concerns. We investigate challenges surrounding scalability, automation, and comprehensive interpretation. We advocate for clarifying concepts, setting standards, and scaling techniques to handle complex models and behaviors and expand to domains such as vision and reinforcement learning. Mechanistic interpretability could help prevent catastrophic outcomes as AI systems become more powerful and inscrutable.",
+    "citation_count": 52,
+    "summary": "This review explores mechanistic interpretability, a method for reverse-engineering neural networks to understand their internal workings and ensure AI safety, assessing its benefits, challenges, and implications for AI alignment and control."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/vGCWzxP8ccAfqsrS3/thoughts-about-the-mechanistic-interpretability-challenge-2",
+    "author": "RGRGRG",
+    "title": "Thoughts about the Mechanistic Interpretability Challenge #2 (EIS VII #2)",
+    "published_date": "2023-07-28",
+    "summary": "This article details the author's analysis of a solved mechanistic interpretability challenge, arguing that a transformer network learned an interpretable algorithm, contrary to the initial assessment. The author proposes a mechanism involving patterns in extended embeddings and attention, supported by analysis of specific neurons and clusters, ultimately creating a synthesized labeling function matching the original."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/sTe78dNJDGywu9Dz6/solving-the-mechanistic-interpretability-challenges-eis-vii",
+    "author": "StefanHex, Marius Hobbhahn",
+    "title": "Solving the Mechanistic Interpretability challenges: EIS VII Challenge 1",
+    "published_date": "2023-05-09",
+    "summary": "Researchers solved a machine learning interpretability challenge by reverse-engineering a CNN trained on a binary classification of MNIST digits. They determined the model classified images based on their similarity to a \"1\" and an \"inverted 1\" template, using a simple dot-product similarity measure."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/sCGfFb5DPfjEmtEdn",
+    "author": "TurnTrout, Ulisse Mini, peligrietzer",
+    "title": "Interpreting a Maze-Solving Network - LessWrong",
+    "published_date": "2023-04-20",
+    "summary": "The article investigates goal misgeneralization in deep reinforcement learning by applying mechanistic interpretability techniques to a pretrained policy network. This allows for understanding the internal workings of the network and identifying the causes of the misgeneralization."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/SfPrNY45kQaBozwmu/an-extremely-opinionated-annotated-list-of-my-favourite",
+    "author": "Neel Nanda",
+    "title": "An Extremely Opinionated Annotated List of My Favourite Mechanistic Interpretability Papers",
+    "published_date": "2022-10-18",
+    "summary": "This article is a curated list of mechanistic interpretability papers, prioritized for those new to the field. The author provides opinions on which sections to deeply engage with, skim, or skip, aiming to convey a core mindset of the field rather than definitive conclusions."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.12664",
+    "title": "Multilevel Interpretability Of Artificial Neural Networks: Leveraging Framework And Methods From Neuroscience",
+    "published_date": "2024-08-22",
+    "abstract": "As deep learning systems are scaled up to many billions of parameters, relating their internal structure to external behaviors becomes very challenging. Although daunting, this problem is not new: Neuroscientists and cognitive scientists have accumulated decades of experience analyzing a particularly complex system - the brain. In this work, we argue that interpreting both biological and artificial neural systems requires analyzing those systems at multiple levels of analysis, with different analytic tools for each level. We first lay out a joint grand challenge among scientists who study the brain and who study artificial neural networks: understanding how distributed neural mechanisms give rise to complex cognition and behavior. We then present a series of analytical tools that can be used to analyze biological and artificial neural systems, organizing those tools according to Marr's three levels of analysis: computation/behavior, algorithm/representation, and implementation. Overall, the multilevel interpretability framework provides a principled way to tackle neural system complexity; links structure, computation, and behavior; clarifies assumptions and research priorities at each level; and paves the way toward a unified effort for understanding intelligent systems, may they be biological or artificial.",
+    "summary": "This paper proposes a multilevel framework for interpreting artificial neural networks, drawing inspiration from neuroscience's approaches to understanding the brain. It advocates for analyzing these systems across computational, algorithmic, and implementation levels using a variety of tools to bridge the gap between structure, computation, and behavior."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/7tSthxSgnNxbt4Hk6/what-s-in-the-box-towards-interpretability-by-distinguishing-1",
+    "author": "Joshua Clancy",
+    "title": "What's in the box?! – Towards interpretability by distinguishing niches of value within neural networks.",
+    "published_date": "2024-02-29",
+    "summary": "This paper proposes a novel theoretical model of neural network internal representations, using an economic and information theory framework to define \"niches of value\" for different representational units. The model, derived from both top-down and bottom-up analyses, predicts a neuron's function based on its context and internal structure, though practical validation requires further software development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/iaJFJ5Qm29ixtrWsn/sparse-coding-for-mechanistic-interpretability-and",
+    "author": "David Udell",
+    "title": "Sparse Coding, for Mechanistic Interpretability and Activation Engineering",
+    "published_date": "2023-09-23",
+    "summary": "To interpret the internal representations of large language models, the author trains a sparse autoencoder on a layer's activations. The resulting autoencoder's neurons then provide interpretable representations of the model's internal concepts."
+  }
+]

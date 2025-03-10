@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14",
+    "summary": "The article highlights common statistical errors, particularly the false assumption of Gaussian distributions in fields like finance and the misinterpretation of p-values, base rates, and statistical power. These errors lead to flawed conclusions in scientific studies and business applications of data science."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03",
+    "summary": "For calculating probabilities from binary count data, the Beta distribution is more accurate than the commonly used Gaussian (Normal) distribution, especially with small datasets or probabilities near 0 or 1 where the Gaussian approximation breaks down, producing nonsensical results like negative probabilities. The Beta distribution is easily implemented and preferred for its accuracy."
+  },
+  {
+    "title": "A Framework for Automatic Failure Recovery in ICT Systems by Deep Reinforcement Learning",
+    "abstract": "Because automatic recovery from failures is of great importance for future operations of ICT systems, we propose a framework for learning a recovery policy using deep reinforcement learning. In our framework, while iteratively trying various recovery actions and observing system metrics in a target system, an agent autonomously learns the optimal recovery policy, which indicates what recovery action should be executed on the basis of observations. By using failure injection tools designed for Chaos Engineering, we can reproduce many types of failures in the target system, thereby making the agent learn a recovery policy applicable to various failures. Once the recovery policy is obtained, we can automate failure recovery by executing recovery actions that the recovery policy returns. Unlike most previous methods, our framework does not require any historical documents of failure recovery or modeling of system behavior. To verify the feasibility of the framework, we conducted an experiment using a container-based environment built on a Kubernetes cluster, demonstrating that training converges in a few days and the obtained recovery policy can successfully recover from failures with a minimum number of recovery actions.",
+    "published_date": "2020-11-01",
+    "citation_count": 6,
+    "url": "https://ieeexplore.ieee.org/document/9355699/",
+    "summary": "This paper proposes a deep reinforcement learning framework for automating ICT system failure recovery, learning an optimal recovery policy through iterative failure injection and observation without needing prior failure data or system models. Experiments in a Kubernetes environment demonstrate successful and efficient recovery policy learning."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/dual-process-theory-system-1-and-system-2",
+    "author": "Kaj_Sotala",
+    "title": "Dual Process Theory (System 1 & System 2) - LessWrong",
+    "published_date": "2019-11-12",
+    "summary": "Dual Process Theory describes Type 1 (System 1) and Type 2 (System 2) processing as distinct cognitive systems, with Type 1 being fast and automatic and Type 2 being slow and deliberative; however, the \"System 1/System 2\" terminology is considered misleading, as it oversimplifies a complex interplay of processes, and neither type is inherently more biased than the other."
+  },
+  {
+    "title": "A Predictive Control Approach for Fault Management of Computing Systems",
+    "abstract": "In this paper, a model-based predictive control approach for fault management in computing systems is presented. The proposed approach can incorporate existing fault diagnosis methods and fault recovery actions to facilitate the recovery process. When a fault is identified, the proposed algorithm uses utility cost functions to compute the optimal recovery solution that minimizes fault impacts on the system's Quality of Service. The proposed approach has been demonstrated on a Web service testbed under various faults.",
+    "published_date": "2015-11-19",
+    "citation_count": 3,
+    "url": "https://dl.acm.org/doi/10.1145/2847220.2847225",
+    "summary": "This paper proposes a model-based predictive control method for computing system fault management, optimizing recovery actions to minimize Quality of Service impact by using utility cost functions. The approach integrates fault diagnosis and recovery, demonstrated effectively on a Web service testbed."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/x7kL42bnATuaL4hrD/bayesian-reasoning-explained-like-you-re-five",
+    "author": "Satoshi_Nakamoto",
+    "title": "Bayesian Reasoning - Explained Like You're Five",
+    "published_date": "2015-07-24",
+    "summary": "This article explains Bayesian reasoning using coin-flip and homework scenarios. It demonstrates how to update the probability of a hypothesis (e.g., a coin is fair, a student did their homework) based on new evidence, illustrating the core concept of Bayes' Theorem."
+  },
+  {
+    "title": "Fast Failure Recovery in Distributed Graph Processing Systems",
+    "abstract": "Distributed graph processing systems increasingly require many compute nodes to cope with the requirements imposed by contemporary graph-based Big Data applications. However, increasing the number of compute nodes increases the chance of node failures. Therefore, provisioning an efficient failure recovery strategy is critical for distributed graph processing systems. This paper proposes a novel recovery mechanism for distributed graph processing systems that parallelizes the recovery process. The key idea is to partition the part of the graph that is lost during a failure among a subset of the remaining nodes. To do so, we augment the existing checkpoint-based and log-based recovery schemes with a partitioning mechanism that is sensitive to the total computation and communication cost of the recovery process. Our implementation on top of the widely used Giraph system outperforms checkpoint-based recovery by up to 30x on a cluster of 40 compute nodes.",
+    "published_date": "2014-12-01",
+    "citation_count": 37,
+    "url": "https://dl.acm.org/doi/10.14778/2735496.2735506",
+    "summary": "This paper presents a novel, parallelized failure recovery mechanism for distributed graph processing systems that partitions lost graph data among remaining nodes, significantly improving recovery speed compared to traditional checkpoint-based methods. Experiments show up to a 30x performance improvement over checkpoint-based recovery in Giraph."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/4bBAqd4EEBKLBwNuF/a-guide-to-rational-investing",
+    "author": "ColbyDavis",
+    "title": "A Guide to Rational Investing",
+    "published_date": "2014-09-15",
+    "summary": "This white paper argues that investing in equities offers superior long-term returns compared to cash equivalents, citing historical data showing consistently high returns on the S&P 500 and globally. Despite this, the paper highlights that cognitive biases and unrealistic expectations prevent many individuals from maximizing their wealth through equity investment."
+  }
+]

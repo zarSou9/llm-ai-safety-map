@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.08637",
+    "title": "Drift Detection: Introducing Gaussian Split Detector",
+    "published_date": "2024-05-14",
+    "abstract": "Recent research yielded a wide array of drift detectors. However, in order to achieve remarkable performance, the true class labels must be available during the drift detection phase. This paper targets at detecting drift when the ground truth is unknown during the detection phase. To that end, we introduce Gaussian Split Detector (GSD) a novel drift detector that works in batch mode. GSD is designed to work when the data follow a normal distribution and makes use of Gaussian mixture models to monitor changes in the decision boundary. The algorithm is designed to handle multi-dimension data streams and to work without the ground truth labels during the inference phase making it pertinent for real world use. In an extensive experimental study on real and synthetic datasets, we evaluate our detector against the state of the art. We show that our detector outperforms the state of the art in detecting real drift and in ignoring virtual drift which is key to avoid false alarms."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/Zza9MNA7YtHkzAtit/stagewise-development-in-neural-networks",
+    "author": "Jesse Hoogland, Liam Carroll, Daniel Murfet",
+    "title": "Stagewise Development in Neural Networks",
+    "published_date": "2024-03-20"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.17267.pdf",
+    "title": "Fast and Robust State Estimation and Tracking via Hierarchical Learning",
+    "published_date": "2023-06-29",
+    "abstract": "Fast and reliable state estimation and tracking are essential for real-time situation awareness in Cyber-Physical Systems (CPS) operating in tactical environments or complicated civilian environments. Traditional centralized solutions do not scale well whereas existing fully distributed solutions over large networks suffer slow convergence, and are vulnerable to a wide spectrum of communication failures. In this paper, we aim to speed up the convergence and enhance the resilience of state estimation and tracking for large-scale networks using a simple hierarchical system architecture. We propose two ``consensus + innovation'' algorithms, both of which rely on a novel hierarchical push-sum consensus component. We characterize their convergence rates under a linear local observation model and minimal technical assumptions. We numerically validate our algorithms through simulation studies of underwater acoustic networks and large-scale synthetic networks."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.08603.pdf",
+    "title": "Closing the Loop on Runtime Monitors with Fallback-Safe MPC",
+    "published_date": "2023-09-15",
+    "abstract": "When we rely on deep-learned models for robotic perception, we must recognize that these models may behave unreliably on inputs dissimilar from the training data, compromising the closed-loop system's safety. This raises fundamental questions on how we can assess confidence in perception systems and to what extent we can take safety-preserving actions when external environmental changes degrade our perception model's performance. Therefore, we present a framework to certify the safety of a perception-enabled system deployed in novel contexts. To do so, we leverage robust model predictive control (MPC) to control the system using the perception estimates while maintaining the feasibility of a safety-preserving fallback plan that does not rely on the perception system. In addition, we calibrate a runtime monitor using recently proposed conformal prediction techniques to certifiably detect when the perception system degrades beyond the tolerance of the MPC controller, resulting in an end-to-end safety assurance. We show that this control framework and calibration technique allows us to certify the system's safety with orders of magnitudes fewer samples than required to retrain the perception network when we deploy in a novel context on a photo-realistic aircraft taxiing simulator. Furthermore, we illustrate the safety-preserving behavior of the MPC on simulated examples of a quadrotor. We open-source our simulation platform and provide videos of our results at our project page: https://tinyurl.com/fallback-safe-mpc.",
+    "citation_count": 8
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.15187.pdf",
+    "title": "Monitoring Machine Learning Models: Online Detection of Relevant Deviations",
+    "published_date": "2023-09-26",
+    "abstract": "Machine learning models are essential tools in various domains, but their performance can degrade over time due to changes in data distribution or other factors. On one hand, detecting and addressing such degradations is crucial for maintaining the models' reliability. On the other hand, given enough data, any arbitrary small change of quality can be detected. As interventions, such as model re-training or replacement, can be expensive, we argue that they should only be carried out when changes exceed a given threshold. We propose a sequential monitoring scheme to detect these relevant changes. The proposed method reduces unnecessary alerts and overcomes the multiple testing problem by accounting for temporal dependence of the measured model quality. Conditions for consistency and specified asymptotic levels are provided. Empirical validation using simulated and real data demonstrates the superiority of our approach in detecting relevant changes in model quality compared to benchmark methods. Our research contributes a practical solution for distinguishing between minor fluctuations and meaningful degradations in machine learning model performance, ensuring their reliability in dynamic environments.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/FaEBwhhe3otzYKGQt/p/n767Q8HqbrteaPA25",
+    "author": "Dan H, ThomasW",
+    "title": "Complex Systems for AI Safety [Pragmatic AI Safety #3]",
+    "published_date": "2022-05-24"
+  }
+]

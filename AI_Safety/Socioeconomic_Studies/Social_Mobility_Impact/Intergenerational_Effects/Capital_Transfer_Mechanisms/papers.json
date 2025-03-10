@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2406.14728",
+    "title": "Resource Allocation with Karma Mechanisms",
+    "published_date": "2024-06-20",
+    "abstract": "Monetary markets serve as established resource allocation mechanisms, typically achieving efficient solutions with limited information. However, they are susceptible to market failures, particularly under the presence of public goods, externalities, or inequality of economic power. Moreover, in many resource-allocating contexts, money faces social, ethical, and legal constraints. Consequently, artificial currencies and non-monetary markets are increasingly explored, with Karma emerging as a notable concept. Karma, a non-tradeable, resource-inherent currency for prosumer resources, operates on the principles of contribution and consumption of specific resources. It embodies fairness, near incentive compatibility, Pareto-efficiency, robustness to population heterogeneity, and can incentivize a reduction in resource scarcity. The literature on Karma is scattered across disciplines, varies in scope, and lacks conceptual clarity and coherence. Thus, this study undertakes a comprehensive review of the Karma mechanism, systematically comparing its resource allocation applications and elucidating overlooked mechanism design elements. Through a systematic mapping study, this review situates Karma within its literature context, offers a structured design parameter framework, and develops a road map for future research directions.",
+    "citation_count": 1,
+    "summary": "This paper reviews the literature on \"Karma\" mechanisms, a non-monetary resource allocation system based on contribution and consumption, highlighting its potential advantages over monetary markets in addressing market failures and ethical concerns. The review provides a structured framework for understanding Karma mechanisms and identifies future research directions."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.16166",
+    "title": "Unveiling the Role of Artificial Intelligence and Stock Market Growth in Achieving Carbon Neutrality in the United States: An ARDL Model Analysis",
+    "published_date": "2024-11-29",
+    "abstract": "Given the fact that climate change has become one of the most pressing problems in many countries in recent years, specialized researches on how to mitigate climate change has been adopted by many countries. Within this discussion, the influence of advanced technologies in achieving carbon neutrality has been discussed. While several studies investigated how AI and Digital innovations could be used to reduce the environmental footprint, the actual influence of AI in reducing CO2 emissions (a proxy measuring carbon footprint) has yet to be investigated. This paper studies the role of advanced technologies in general, and Artificial Intelligence (AI) and ICT use in particular, in advancing carbon neutrality in the United States, between 2021. Secondly, this paper examines how Stock Market Growth, ICT use, Gross Domestic Product (GDP) and Population affect CO2 emissions using the STIRPAT model. After examining stationarity among the variables using variety of unit root tests, this study concluded that there are no unit root problem across all the variables, with a mixed order of integration. The ARDL bounds test for cointegration revealed that variables in this study have a long-run relationship. Moreover, the estimates revealed from ARDL model in the short- and long-run indicated that economic growth, stock market capitalization and population significantly contributed to the carbon emissions in both the short-run and long-run. Conversely, AI and ICT use significantly reduced carbon emissions over both periods. Furthermore, findings were confirmed to be robust using FMOLS, DOLS, and CCR estimations. Furthermore, diagnostic tests indicated the absence of serial correlation, heteroscedasticity and specification errors and, thus, the model was robust.",
+    "summary": "This paper uses an ARDL model to analyze the impact of AI, ICT use, stock market growth, GDP, and population on CO2 emissions in the US, finding that AI and ICT significantly reduce emissions while economic growth and population increase them. The findings are robust across multiple econometric techniques."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.09638",
+    "title": "Cultural Transmission, Technology, and Treatment of the Elderly",
+    "published_date": "2024-07-12",
+    "abstract": "We discuss the interrelationship between the treatment of the elderly, the nature of production, and the transmission of culture. Respect for the elderly is endogenous. Parents cultivate an interest in consuming culture in their children; when they are older, children compensate their elders proportional to the degree to which their interests were previously cultivated. We show that this model is functionally equivalent to one in which cultural goods are transferred across generations. We focus on the relative well-being of the elderly and use the model to explain patterns in their relative well-being across societies. An important theme is that the cultivation of culture and norms for the respect and support of the elderly bear a nonlinear relationship with many economic variables, such as capital and or land intensity in production. We also discuss the interaction of property rights with production, assets such as productive resources, and relative treatment of the elderly. Insecurity of some types of property rights, such as rights over output, may benefit the elderly, while secure rights over productive resources may also benefit the elderly. We discuss how the elderly could be affected by demographic, technological and policy changes in both developing and developed economies.",
+    "summary": "This paper models the relationship between cultural transmission, economic production methods, and the treatment of the elderly, arguing that intergenerational cultural investment directly impacts elder well-being and that this relationship is non-linearly affected by economic factors like technology and property rights. The model explains cross-societal variations in elder well-being based on these interactions."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8gCsRPxvXyAZJLcwd/gdp-per-capita-in-2050",
+    "author": "Hauke Hillebrandt",
+    "title": "GDP per capita in 2050",
+    "published_date": "2024-05-06",
+    "summary": "The article presents GDP per capita forecasts for major economies until 2050, arguing that even without transformative AI growth, the projected increases in living standards, particularly in developing nations like China, will dramatically alter the global landscape by 2050."
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.14982v3",
+    "title": "Cognitive Aging and Labor Share",
+    "published_date": "2023-08-29",
+    "abstract": "Labor share, the fraction of economic output accrued as wages, is inexplicably declining in industrialized countries. Whilst numerous prior works attempt to explain the decline via economic factors, our novel approach links the decline to biological factors. Specifically, we propose a theoretical macroeconomic model where labor share reflects a dynamic equilibrium between the workforce automating existing outputs, and consumers demanding new output variants that require human labor. Industrialization leads to an aging population, and while cognitive performance is stable in the working years it drops sharply thereafter. Consequently, the declining cognitive performance of aging consumers reduces the demand for new output variants, leading to a decline in labor share. Our model expresses labor share as an algebraic function of median age, and is validated with surprising accuracy on historical data across industrialized economies via non-linear stochastic regression.",
+    "summary": "This paper posits that the declining labor share in industrialized countries is linked to an aging population's reduced cognitive capacity, which lowers demand for new, labor-intensive products, a relationship the authors model and empirically validate. The model shows labor share as a function of median age and fits historical data well."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.00514",
+    "title": "The impact of individual information exchange strategies on the distribution of social wealth",
+    "published_date": "2023-04-02",
+    "abstract": "Wealth distribution is a complex and critical aspect of any society. Information exchange is considered to have played a role in shaping wealth distribution patterns, but the specific dynamic mechanism is still unclear. In this research, we used simulation-based methods to investigate the impact of different modes of information exchange on wealth distribution. We compared different combinations of information exchange strategies and moving strategies, analyzed their impact on wealth distribution using classic wealth distribution indicators such as the Gini coefficient. Our findings suggest that information exchange strategies have significant impact on wealth distribution and that promoting more equitable access to information and resources is crucial in building a just and equitable society for all.",
+    "summary": "This study uses simulations to show how different information exchange strategies significantly affect wealth distribution, suggesting that equitable information access is key to a more equitable society."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Lw5bmncMRJw5kDwqN/how-to-eradicate-global-extreme-poverty-ra-video-with",
+    "author": "aggliu, Writer",
+    "title": "How to Eradicate Global Extreme Poverty [RA video with fundraiser!]",
+    "published_date": "2023-10-18",
+    "summary": "This article proposes a plan to eradicate global extreme poverty using unconditional cash transfers (UCTs), based on GiveDirectly's research. The plan aims to raise $100,000 to fund the initiative and addresses the challenges and ethical considerations involved."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.11441.pdf",
+    "title": "Human-centered mechanism design with Democratic AI",
+    "published_date": "2022-01-27",
+    "abstract": "Building artificial intelligence (AI) that aligns with human values is an unsolved problem. Here, we developed a human-in-the-loop research pipeline called Democratic AI, in which reinforcement learning is used to design a social mechanism that humans prefer by majority. A large group of humans played an online investment game that involved deciding whether to keep a monetary endowment or to share it with others for collective benefit. Shared revenue was returned to players under two different redistribution mechanisms, one designed by the AI and the other by humans. The AI discovered a mechanism that redressed initial wealth imbalance, sanctioned free riders, and successfully won the majority vote. By optimizing for human preferences, Democratic AI may be a promising method for value-aligned policy innovation.",
+    "citation_count": 2,
+    "summary": "Democratic AI, a human-in-the-loop reinforcement learning system, designed a social mechanism preferred by a majority of human participants in an online investment game, demonstrating its potential for value-aligned policy innovation by optimizing for human preferences. This mechanism addressed wealth inequality and punished free-riders."
+  }
+]

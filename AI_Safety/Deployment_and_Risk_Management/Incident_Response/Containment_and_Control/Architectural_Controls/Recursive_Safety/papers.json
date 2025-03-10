@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2301.08138",
+    "title": "Architecting Safer Autonomous Aviation Systems",
+    "published_date": "2023-01-09",
+    "abstract": "The aviation literature gives relatively little guidance to practitioners about the specifics of architecting systems for safety, particularly the impact of architecture on allocating safety requirements, or the relative ease of system assurance resulting from system or subsystem level architectural choices. As an exemplar, this paper considers common architectural patterns used within traditional aviation systems and explores their safety and safety assurance implications when applied in the context of integrating artificial intelligence (AI) and machine learning ( ML ) based functionality. Considering safety as an architectural property, we discuss both the allocation of safety requirements and the architectural trade-offs involved early in the design lifecycle. This approach could be extended to other assured properties, similar to safety, such as security. We conclude with a discussion of the safety considerations that emerge in the context of candidate architectural patterns that have been proposed in the recent literature for enabling autonomy capabilities by integrating AI and ML. A recommendation is made for the generation of a property-driven architectural pattern catalogue.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/iwCRYnGYMvxgzrCMf/complex-systems-are-hard-to-control",
+    "author": "jsteinhardt",
+    "title": "Complex Systems are Hard to Control",
+    "published_date": "2023-04-04"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2211.17218.pdf",
+    "title": "Specification Architectural Viewpoint for Benefit-Cost-Risk-Aware Decision-Making in Self-Adaptive Systems",
+    "published_date": "2022-11-30",
+    "abstract": "Over the past two decades, researchers and engineers have extensively studied the problem of how to enable a software system to deal with uncertain operating conditions. One prominent solution to this problem is self-adaptation, which equips a software system with a feedback loop that resolves uncertainties during operation and adapts the system to deal with them when necessary. Most self-adaptation approaches developed so far use decision-making mechanisms that focus on achieving a set of goals, i.e., that select for execution the adaptation option with the best estimated benefit. A few approaches have also considered the estimated (one-off) cost of executing the candidate adaptation options. We argue that besides benefit and cost, decision-making in self-adaptive systems should also consider the estimated risk the system or its users would be exposed to if an adaptation option were selected for execution. Balancing all three factors when evaluating the options for adaptation when mitigating uncertainty is essential, not only for satisfying the concerns of the stakeholders, but also to ensure safety and public acceptance of self-adaptive systems. In this paper, we present an ISO/IEC/IEEE 42010 compatible architectural viewpoint that considers the estimated benefit, cost, and risk as core factors of each adaptation option considered in self-adaptation. The viewpoint aims to support software architects responsible for designing robust decision-making mechanisms for self-adaptive systems."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.08139v2.pdf",
+    "title": "Towards Mapping Control Theory and Software Engineering Properties using Specification Patterns",
+    "published_date": "2021-08-18",
+    "abstract": "A traditional approach to realize self-adaptation in software engineering (SE) is by means of feedback loops. The goals of the system can be specified as formal properties that are verified against models of the system. On the other hand, control theory (CT) provides a well-established foundation for designing feedback loop systems and providing guarantees for essential properties, such as stability, settling time, and steady state error. Currently, it is an open question whether and how traditional SE approaches to self-adaptation consider properties from CT. Answering this question is challenging given the principle differences in representing properties in both fields. In this paper, we take a first step to answer this question. We follow a bottom up approach where we specify a control design (in Simulink) for a case inspired by Scuderia Ferrari (F1) and provide evidence for stability and safety. The design is then transferred into code (in C) that is further optimized. Next, we define properties that enable verifying whether the control properties still hold at code level. Then, we consolidate the solution by mapping the properties in both worlds using specification patterns as common language and we verify the correctness of this mapping. The mapping offers a reusable artifact to solve similar problems. Finally, we outline opportunities for future work, particularly to refine and extend the mapping and investigate how it can improve the engineering of self-adaptive systems for both SE and CT engineers.",
+    "citation_count": 3
+  },
+  {
+    "title": "Safety from in-the-loop reachability for cyber-physical systems",
+    "abstract": "We demonstrate a methodology for achieving safe autonomy that relies on computing reachable sets at runtime. Given a system subject to disturbances controlled by an unverified and potentially faulty controller, this methodology computes at each time the reachable set of the system under a backup control law to ensure the system is within reach of a known a priori safe region. Control barrier functions are then used in conjunction with the reachable set to adjust potentially unsafe control actions that would otherwise move the system beyond reach of this safe set. This approach faces several computational challenges: reachable sets for the dynamics must be computed at runtime; sensitivity of the reachable set to initial conditions is required for the control barrier optimization formulation; and the presence of disturbances introduces a large number of constraints in the resulting optimization. The proposed methodology leverages the theory of mixed monotone systems to address these challenges, and the main contribution of this paper is an application of this methodology to a ten dimensional dual planar multirotor system that is implemented on embedded hardware with a controller update rate up to 100Hz.",
+    "published_date": "2021-05-19",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3457335.3461706"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.12919.pdf",
+    "title": "Failure-Tolerant Contract-Based Design of an Automated Valet Parking System using a Directive-Response Architecture",
+    "published_date": "2021-03-24",
+    "abstract": "Increased complexity in cyber-physical systems calls for modular system design methodologies that guarantee correct and reliable behavior, both in normal operations and in the presence of failures. This paper aims to extend the contract-based design approach using a directive-response architecture to enable reactivity to failure scenarios. The architecture is demonstrated on a modular automated valet parking (AVP) system. The contracts for the different components in the AVP system are explicitly defined, implemented, and validated against a Python implementation."
+  }
+]

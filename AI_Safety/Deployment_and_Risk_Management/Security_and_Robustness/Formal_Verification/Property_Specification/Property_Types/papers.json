@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.14301",
+    "title": "Multi-Grained Specifications for Distributed System Model Checking and Verification",
+    "published_date": "2024-09-22",
+    "abstract": "This paper presents our experience specifying and verifying the correctness of ZooKeeper, a complex and evolving distributed coordination system. We use TLA+ to model fine-grained behaviors of ZooKeeper and use the TLC model checker to verify its correctness properties; we also check conformance between the model and code. The fundamental challenge is to balance the granularity of specifications and the scalability of model checking -- fine-grained specifications lead to state-space explosion, while coarse-grained specifications introduce model-code gaps. To address this challenge, we write specifications with different granularities for composable modules, and compose them into mixed-grained specifications based on specific scenarios. For example, to verify code changes, we compose fine-grained specifications of changed modules and coarse-grained specifications that abstract away details of unchanged code with preserved interactions. We show that writing multi-grained specifications is a viable practice and can cope with model-code gaps without untenable state space, especially for evolving software where changes are typically local and incremental. We detected six severe bugs that violate five types of invariants and verified their code fixes; the fixes have been merged to ZooKeeper. We also improve the protocol design to make it easy to implement correctly."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dPpA79MjPdDd87YoW/understanding-goedel-s-completeness-theorem",
+    "author": "Jessicata",
+    "title": "Understanding Gödel's completeness theorem",
+    "published_date": "2024-05-27"
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/knuths-up-arrow-notation",
+    "title": "Knuth's Up-Arrow Notation - LessWrong",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.10962",
+    "title": "PG-Schema: Schemas for Property Graphs",
+    "published_date": "2022-11-20",
+    "abstract": "Property graphs have reached a high level of maturity, witnessed by multiple robust graph database systems as well as the ongoing ISO standardization effort aiming at creating a new standard Graph Query Language (GQL). Yet, despite documented demand, schema support is limited both in existing systems and in the first version of the GQL Standard. It is anticipated that the second version of the GQL Standard will include a rich DDL. Aiming to inspire the development of GQL and enhance the capabilities of graph database systems, we propose PG-Schema, a simple yet powerful formalism for specifying property graph schemas. It features PG-Schema with flexible type definitions supporting multi-inheritance, as well as expressive constraints based on the recently proposed PG-Keys formalism. We provide the formal syntax and semantics of PG-Schema, which meet principled design requirements grounded in contemporary property graph management scenarios, and offer a detailed comparison of its features with those of existing schema languages and graph database systems.",
+    "citation_count": 40
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.12003",
+    "title": "Application of Property-based Testing Tools for Metamorphic Testing",
+    "published_date": "2022-11-22",
+    "abstract": "Metamorphic testing (MT) is a general approach for the testing of a specific kind of software systems -- so-called ``non-testable'', where the ``classical'' testing approaches are difficult to apply. MT is an effective approach for addressing the test oracle problem and test case generation problem. The test oracle problem is when it is difficult to determine the correct expected output of a particular test case or to determine whether the actual outputs agree with the expected outcomes. The core concept in MT is metamorphic relations (MRs) which provide formal specification of the system under test. One of the challenges in MT is \\emph{effective test generation}. Property-based testing (PBT) is a testing methodology in which test cases are generated according to desired properties of the software. In some sense, MT can be seen as a very specific kind of PBT.\\\\ In this paper, we show how to use PBT tools to automate test generation and verification of MT. In addition to automation benefit, the proposed method shows how to combine general PBT with MT under the same testing framework.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.08139v2.pdf",
+    "title": "Towards Mapping Control Theory and Software Engineering Properties using Specification Patterns",
+    "published_date": "2021-08-18",
+    "abstract": "A traditional approach to realize self-adaptation in software engineering (SE) is by means of feedback loops. The goals of the system can be specified as formal properties that are verified against models of the system. On the other hand, control theory (CT) provides a well-established foundation for designing feedback loop systems and providing guarantees for essential properties, such as stability, settling time, and steady state error. Currently, it is an open question whether and how traditional SE approaches to self-adaptation consider properties from CT. Answering this question is challenging given the principle differences in representing properties in both fields. In this paper, we take a first step to answer this question. We follow a bottom up approach where we specify a control design (in Simulink) for a case inspired by Scuderia Ferrari (F1) and provide evidence for stability and safety. The design is then transferred into code (in C) that is further optimized. Next, we define properties that enable verifying whether the control properties still hold at code level. Then, we consolidate the solution by mapping the properties in both worlds using specification patterns as common language and we verify the correctness of this mapping. The mapping offers a reusable artifact to solve similar problems. Finally, we outline opportunities for future work, particularly to refine and extend the mapping and investigate how it can improve the engineering of self-adaptive systems for both SE and CT engineers.",
+    "citation_count": 3
+  }
+]

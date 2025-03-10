@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2403.09552",
+    "title": "“Are You Really Sure?” Understanding the Effects of Human Self-Confidence Calibration in AI-Assisted Decision Making",
+    "published_date": "2024-03-14",
+    "abstract": "In AI-assisted decision-making, it is crucial but challenging for humans to achieve appropriate reliance on AI. This paper approaches this problem from a human-centered perspective, “human self-confidence calibration”. We begin by proposing an analytical framework to highlight the importance of calibrated human self-confidence. In our first study, we explore the relationship between human self-confidence appropriateness and reliance appropriateness. Then in our second study, We propose three calibration mechanisms and compare their effects on humans' self-confidence and user experience. Subsequently, our third study investigates the effects of self-confidence calibration on AI-assisted decision-making. Results show that calibrating human self-confidence enhances human-AI team performance and encourages more rational reliance on AI (in some aspects) compared to uncalibrated baselines. Finally, we discuss our main findings and provide implications for designing future AI-assisted decision-making interfaces.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.08047",
+    "title": "Trust and Acceptance of Multi-Robot Systems \"in the Wild\". A Roadmap exemplified within the EU-Project BugWright2",
+    "published_date": "2023-12-13",
+    "abstract": "This paper outlines a roadmap to effectively leverage shared mental models in multi-robot, multi-stakeholder scenarios, drawing on experiences from the BugWright2 project. The discussion centers on an autonomous multi-robot systems designed for ship inspection and maintenance. A significant challenge in the development and implementation of this system is the calibration of trust. To address this, the paper proposes that trust calibration can be managed and optimized through the creation and continual updating of shared and accurate mental models of the robots. Strategies to promote these mental models, including cross-training, briefings, debriefings, and task-specific elaboration and visualization, are examined. Additionally, the crucial role of an adaptable, distributed, and well-structured user interface (UI) is discussed."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2310.10858.pdf",
+    "title": "Designing Shared Information Displays for Agents of Varying Strategic Sophistication",
+    "published_date": "2023-10-16",
+    "abstract": "Data-driven predictions are often perceived as inaccurate in hindsight due to behavioral responses. In this study, we explore the role of interface design choices in shaping individuals' decision-making processes in response to predictions presented on a shared information display in a strategic setting. We introduce a novel staged experimental design to investigate the effects of design features, such as visualizations of prediction uncertainty and error, within a repeated congestion game. In this game, participants assume the role of taxi drivers and use a shared information display to decide where to search for their next ride. Our experimental design endows agents with varying level-k depths of thinking, allowing some agents to possess greater sophistication in anticipating the decisions of others using the same information display. Through several extensive experiments, we identify trade-offs between displays that optimize individual decisions and those that best serve the collective social welfare of the system. We find that the influence of display characteristics varies based on an agent's strategic sophistication. We observe that design choices promoting individual-level decision-making can lead to suboptimal system outcomes, as manifested by a lower realization of potential social welfare. However, this decline in social welfare is offset by a reduction in the distribution shift, narrowing the gap between predicted and realized system outcomes, which potentially enhances the perceived reliability and trustworthiness of the information display post hoc. Our findings pave the way for new research questions concerning the design of effective prediction interfaces in strategic environments.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2203.10407.pdf",
+    "title": "Investigating the Effects of Robot Proficiency Self-Assessment on Trust and Performance",
+    "published_date": "2022-03-19",
+    "abstract": "Human-robot teams will soon be expected to accomplish complex tasks in high-risk and uncertain environments. Here, the human may not necessarily be a robotics expert, but will need to establish a baseline understanding of the robot's abilities in order to appropriately utilize and rely on the robot. This willingness to rely, also known as trust, is based partly on the human's belief in the robot's proficiency at a given task. If trust is too high, the human may push the robot beyond its capabilities. If trust is too low, the human may not utilize it when they otherwise could have, wasting precious resources. In this work, we develop and execute an online human-subjects study to investigate how robot proficiency self-assessment reports based on Factorized Machine Self-Confidence affect operator trust and task performance in a grid world navigation task. Additionally we present and analyze a metric for trust level assessment, which measures the allocation of control between an operator and robot when the human teammate is free to switch between teleportation and autonomous control. Our results show that an a priori robot self-assessment report aligns operator trust with robot proficiency, and leads to performance improvements and small increases in self-reported trust.",
+    "citation_count": 4
+  },
+  {
+    "title": "Handling Trust Between Drivers and Automated Vehicles for Improved Collaboration",
+    "abstract": "Advances in perception and artificial intelligence technology are expected to lead to seamless interaction between humans and robots. Trust in robots has been evolving from the theory on trust in automation, with a fundamental difference: unlike traditional automation, robots could adjust their behaviors depending on how their human counterparts appear to be trusting them or how humans appear to be trustworthy. In this extended abstract I present my research on methods for processing trust in the particular context of interactions between a driver and an automated vehicle, which has the goal of achieving higher safety and performance standards for the team formed by those human and robotic agents.",
+    "published_date": "2021-03-08",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3434074.3446358"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.04248v1.pdf",
+    "title": "Trust-aware Control for Intelligent Transportation Systems",
+    "published_date": "2021-07-11",
+    "abstract": "Many intelligent transportation systems are multiagent systems, i.e., both the traffic participants and the subsystems within the transportation infrastructure can be modeled as interacting agents. The use of AI-based methods to achieve coordination among the different agents systems can provide greater safety over transportation systems containing only human-operated vehicles, and also improve the system efficiency in terms of traffic throughput, sensing range, and enabling collaborative tasks. However, increased autonomy makes the transportation infrastructure vulnerable to compromised vehicular agents or infrastructure. This paper proposes a new framework by embedding the trust authority into transportation infrastructure to systematically quantify the trustworthiness of agents using an epistemic logic known as subjective logic. In this paper, we make the following novel contributions: (i) We propose a framework for using the quantified trustworthiness of agents to enable trust-aware coordination and control. (ii) We demonstrate how to synthesize trust-aware controllers using an approach based on reinforcement learning. (iii) We comprehensively analyze an autonomous intersection management (AIM) case study and develop a trust-aware version called AIM-Trust that leads to lower accident rates in scenarios consisting of a mixture of trusted and untrusted agents.",
+    "citation_count": 3
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2407.00015",
+    "title": "A New Approach for Evaluating the Performance of Distributed Latency-Sensitive Services",
+    "published_date": "2024-05-01",
+    "abstract": "Conventional latency metrics are formulated based on a broad definition of traditional monolithic services, and hence lack the capacity to address the complexities inherent in modern services and distributed computing paradigms. Consequently, their effectiveness in identifying areas for improvement is restricted, falling short of providing a comprehensive evaluation of service performance within the context of contemporary services and computing paradigms. More specifically, these metrics do not offer insights into two critical aspects of service performance: the frequency of latency surpassing specified Service Level Agreement (SLA) thresholds and the time required for latency to return to an acceptable level once the threshold is exceeded. This limitation is quite significant in the frame of contemporary latency-sensitive services, and especially immersive services that require deterministic low latency that behaves in a consistent manner. Towards addressing this limitation, the authors of this work propose 5 novel latency metrics that when leveraged alongside the conventional latency metrics manage to provide advanced insights that can be potentially used to improve service performance. The validity and usefulness of the proposed metrics in the frame of providing advanced insights into service performance is evaluated using a large-scale experiment.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/NXTkEiaLA4JdS5vSZ/what-o3-becomes-by-2028",
+    "author": "Vladimir_Nesov",
+    "title": "What o3 Becomes by 2028",
+    "published_date": "2024-12-22"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/6L9EhCa8Zo2GoThGB/scaling-laws-literature-review",
+    "author": "Pablo Villalobos",
+    "title": "Scaling Laws Literature Review",
+    "published_date": "2023-01-27"
+  },
+  {
+    "url": "https://arxiv.org/abs/2201.08278",
+    "title": "Lifelong Learning Metrics",
+    "published_date": "2022-01-20",
+    "abstract": "The DARPA Lifelong Learning Machines (L2M) program seeks to yield advances in artificial intelligence (AI) systems so that they are capable of learning (and improving) continuously, leveraging data on one task to improve performance on another, and doing so in a computationally sustainable way. Performers on this program developed systems capable of performing a diverse range of functions, including autonomous driving, real-time strategy, and drone simulation. These systems featured a diverse range of characteristics (e.g., task structure, lifetime duration), and an immediate challenge faced by the program's testing and evaluation team was measuring system performance across these different settings. This document, developed in close collaboration with DARPA and the program performers, outlines a formalism for constructing and characterizing the performance of agents performing lifelong learning scenarios.",
+    "citation_count": 16
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.10298",
+    "title": "Evaluation Metrics for Object Detection for Autonomous Systems",
+    "published_date": "2022-10-19",
+    "abstract": "This paper studies the evaluation of learning-based object detection models in conjunction with model-checking of formal specifications defined on an abstract model of an autonomous system and its environment. In particular, we define two metrics -- \\emph{proposition-labeled} and \\emph{class-labeled} confusion matrices -- for evaluating object detection, and we incorporate these metrics to compute the satisfaction probability of system-level safety requirements. While confusion matrices have been effective for comparative evaluation of classification and object detection models, our framework fills two key gaps. First, we relate the performance of object detection to formal requirements defined over downstream high-level planning tasks. In particular, we provide empirical results that show that the choice of a good object detection algorithm, with respect to formal requirements on the overall system, significantly depends on the downstream planning and control design. Secondly, unlike the traditional confusion matrix, our metrics account for variations in performance with respect to the distance between the ego and the object being detected. We demonstrate this framework on a car-pedestrian example by computing the satisfaction probabilities for safety requirements formalized in Linear Temporal Logic (LTL).",
+    "citation_count": 3
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/p62uihoFGH3HwGg4P/machine-learning-model-sizes-and-the-parameter-gap-abridged",
+    "author": "Pablo Villalobos",
+    "title": "Machine Learning Model Sizes and the Parameter Gap [abridged]",
+    "published_date": "2022-07-18"
+  }
+]

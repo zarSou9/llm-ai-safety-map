@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/dPpA79MjPdDd87YoW/understanding-goedel-s-completeness-theorem",
+    "author": "Jessicata",
+    "title": "Understanding Gödel's completeness theorem",
+    "published_date": "2024-05-27",
+    "summary": "This article presents a proof of a variant of Gödel's completeness theorem using sequent calculus, aiming for intuitive understanding rather than symbolic manipulation. The proof focuses on first-order theories without equality, employing a non-standard assumption of a countably infinite set of constants to aid in defining inference rules and proving completeness."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.17395.pdf",
+    "title": "Real-time Optimization for Wind-to-H2 Driven Critical Infrastructures: High-fidelity Active Constraints and Integer Variables Prediction Enhanced by Feature Space Expansion",
+    "published_date": "2023-06-30",
+    "abstract": "This paper focuses on developing a real-time optimal operation model for a new engineering system, wind-to-hydrogen-driven low-carbon critical infrastructure (W2H-LCCI), that utilizes wind power to generate hydrogen through electrolysis and combines it with carbon capture to reduce carbon emissions from the power sector. First, a convex mathematical model for W2H-LCCI is proposed, and then optimization models for its real-time decision-making are developed, which are mixed-integer convex programs (MICPs). Furthermore, since this large-scale MICP problem must be solved in real-time, a fast solution method based on active constraint and integer variable prediction (ACIVP) is presented. ACIVP method predicts the binary variable values and the set of limited-number constraints, which most likely contain all of the active constraints, based on historical optimization data. It results in only a small-scale continuous convex optimization problem needing to be solved by optimization solvers for W2H-LCCI real-time optimal operation. To increase the accuracy of the ACIVP method, feature space expansion (FSE) is employed, and a multi-stage ACIVP-FSE method is proposed. The effects of stage design and stage ordering on ACIVP-FSE performance are also discussed. We validate the effectiveness of the developed system and solution method using two water-energy nexus case studies.",
+    "citation_count": 2,
+    "summary": "This paper presents a real-time optimization model for wind-to-hydrogen-driven critical infrastructure, using a mixed-integer convex program solved via an accelerated active constraint and integer variable prediction method enhanced by feature space expansion to handle its large scale. The method's effectiveness is validated through case studies."
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.14799v2",
+    "title": "Hybrid ASP-based multi-objective scheduling of semiconductor manufacturing processes (Extended version)",
+    "published_date": "2023-07-27",
+    "abstract": "Modern semiconductor manufacturing involves intricate production processes consisting of hundreds of operations, which can take several months from lot release to completion. The high-tech machines used in these processes are diverse, operate on individual wafers, lots, or batches in multiple stages, and necessitate product-specific setups and specialized maintenance procedures. This situation is different from traditional job-shop scheduling scenarios, which have less complex production processes and machines, and mainly focus on solving highly combinatorial but abstract scheduling problems. In this work, we address the scheduling of realistic semiconductor manufacturing processes by modeling their specific requirements using hybrid Answer Set Programming with difference logic, incorporating flexible machine processing, setup, batching and maintenance operations. Unlike existing methods that schedule semiconductor manufacturing processes locally with greedy heuristics or by independently optimizing specific machine group allocations, we examine the potentials of large-scale scheduling subject to multiple optimization objectives.",
+    "citation_count": 2,
+    "summary": "This paper presents a hybrid Answer Set Programming approach to multi-objective scheduling of complex semiconductor manufacturing processes, modeling realistic constraints like flexible machine processing, setups, batching, and maintenance to optimize large-scale production across multiple objectives."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.10304",
+    "title": "Synthesizing Reactive Test Environments for Autonomous Systems: Testing Reach-Avoid Specifications with Multi-Commodity Flows",
+    "published_date": "2022-10-19",
+    "abstract": "We study automated test generation for testing discrete decision-making modules in autonomous systems. Linear temporal logic is used to encode the system specification - requirements of the system under test - and the test specification, which is unknown to the system and describes the desired test behavior. The reactive test synthesis problem is to find constraints on system actions such that in a test execution, both the system and test specifications are satisfied. To do this, we use the specifications and their corresponding Büchi automata to construct the specification product automaton. Then, a virtual product graph representing all possible test executions of the system is constructed from the transition system and the specification product automaton. The main result of this paper is framing the test synthesis problem as a multi-commodity network flow optimization. This optimization is used to derive reactive constraints on system actions, which constitute the test environment. The resulting test environment ensures that the system meets the test specification while also satisfying the system specification. We illustrate this framework in simulation using grid world examples and demonstrate it on hardware with the Unitree A1 quadruped, where we test dynamic locomotion behaviors reactively.",
+    "citation_count": 2,
+    "summary": "This paper presents a novel method for automated test generation of autonomous systems, framing the reactive test synthesis problem as a multi-commodity network flow optimization to ensure both system and test specifications are satisfied, demonstrated through simulations and hardware experiments on a quadruped robot."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25",
+    "summary": "Variational Bayesian methods address the intractability of calculating P(x) in Bayesian inference by approximating the true posterior P(z|x) with a simpler distribution Q(z|x). This approximation minimizes the Kullback-Leibler divergence between Q(z|x) and P(z|x), allowing for a tractable estimate of P(x)."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.04299v1.pdf",
+    "title": "Privacy-Preserving Supervisory Control of Discrete-Event Systems via Co-Synthesis of Edit Function and Supervisor for Opacity Enforcement and Requirement Satisfaction",
+    "published_date": "2021-04-09",
+    "abstract": "This paper investigates the problem of co-synthesis of edit function and supervisor for opacity enforcement in the supervisory control of discrete-event systems (DES), assuming the presence of an external (passive) intruder, where the following goals need to be achieved: 1) the external intruder should never infer the system secret, i.e., the system is opaque, and never be sure about the existence of the edit function, i.e., the edit function remains covert; 2) the controlled plant behaviors should satisfy some safety and nonblockingness requirements, in the presence of the edit function. We focus on the class of edit functions that satisfy the following properties: 1) the observation capability of the edit function in general can be different from those of the supervisor and the intruder; 2) the edit function can implement insertion, deletion, and replacement operations; 3) the edit function performs bounded edit operations, i.e., the length of each string output of the edit function is upper bounded by a given constant. We propose an approach to solve this cosynthesis problem by modeling it as a distributed supervisor synthesis problem in the Ramadge-Wonham supervisory control framework. By taking the special structure of this distributed supervisor synthesis problem into consideration and to improve the possibility of finding a non-empty distributed supervisor, we propose two novel synthesis heuristics that incrementally synthesize the supervisor and the edit function. The effectiveness of our approach is illustrated on an example in the enforcement of the location privacy.",
+    "citation_count": 1,
+    "summary": "This paper presents a co-synthesis approach for designing a supervisor and an edit function to ensure opacity (preventing an intruder from inferring secret system information) in discrete-event systems, while maintaining system requirements and the covertness of the edit function, using a distributed supervisory control framework and novel synthesis heuristics. The edit function allows for insertion, deletion, and replacement operations, subject to bounded length constraints."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.12919.pdf",
+    "title": "Failure-Tolerant Contract-Based Design of an Automated Valet Parking System using a Directive-Response Architecture",
+    "published_date": "2021-03-24",
+    "abstract": "Increased complexity in cyber-physical systems calls for modular system design methodologies that guarantee correct and reliable behavior, both in normal operations and in the presence of failures. This paper aims to extend the contract-based design approach using a directive-response architecture to enable reactivity to failure scenarios. The architecture is demonstrated on a modular automated valet parking (AVP) system. The contracts for the different components in the AVP system are explicitly defined, implemented, and validated against a Python implementation.",
+    "summary": "This paper presents a failure-tolerant, contract-based design for an automated valet parking system, utilizing a directive-response architecture to ensure reliable operation even during failures. The approach is demonstrated and validated through a Python implementation of the system's component contracts."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2202.08543.pdf",
+    "title": "Resilience-Motivated Distribution System Restoration Considering Electricity-Water-Gas Interdependency",
+    "published_date": "2021-11-01",
+    "abstract": "A major outage in the electricity distribution system may affect the operation of water and natural gas supply systems, leading to an interruption of multiple services to critical customers. Therefore, enhancing resilience of critical infrastructures requires joint efforts of multiple sectors. In this paper, a distribution system service restoration method considering the electricity-water-gas interdependency is proposed. The objective is to provide electricity, water, and natural gas supplies to critical customers in the desired ratio according to their needs after an extreme event. The operational constraints of electricity, water, and natural gas networks are considered. The characteristics of electricity-driven coupling components, including water pumps and gas compressors, are also modeled. Relaxation techniques are applied to nonconvex constraints posed by physical laws of those networks. Consequently, the restoration problem is formulated as a mixed-integer second-order cone program, which can readily be solved by the off-the-shelf solvers. The proposed method is validated by numerical simulations on electricity-water-gas integrated systems, developed based on benchmark models of the subsystems. The results indicate that considering the interdependency refines the allocation of limited generation resources and demonstrate the exactness of the proposed convex relaxation.",
+    "citation_count": 31,
+    "summary": "This paper proposes a resilience-focused method for restoring electricity, water, and natural gas services after a major outage, accounting for the interdependencies between these systems. The method, formulated as a mixed-integer second-order cone program, optimizes resource allocation to critical customers while respecting network constraints and leveraging convex relaxation techniques."
+  }
+]

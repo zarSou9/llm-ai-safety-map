@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2305.16622v1",
+    "title": "Inverse Uncertainty Quantification by Hierarchical Bayesian Modeling and Application in Nuclear System Thermal-Hydraulics Codes",
+    "published_date": "2023-05-26",
+    "abstract": "Inverse Uncertainty Quantification (IUQ) method has been widely used to quantify the uncertainty of Physical Model Parameters (PMPs) in nuclear Thermal Hydraulics (TH) systems. This paper introduces a novel hierarchical Bayesian model which aims to mitigate two existing challenges in IUQ: the high variability of PMPs under varying experimental conditions, and unknown model discrepancies or outliers causing over-fitting issues. The proposed hierarchical model is compared with the conventional single-level Bayesian model using TRACE code and the measured void fraction data in the BFBT benchmark. A Hamiltonian Monte Carlo Method - No U-Turn Sampler (NUTS) is used for posterior sampling. The results demonstrate the effectiveness of the proposed hierarchical model in providing better estimates of the posterior distributions of PMPs and being less prone to over-fitting. The proposed method also demonstrates a promising approach for generalizing IUQ to larger databases with broad ranges of experimental conditions.",
+    "citation_count": 5
+  },
+  {
+    "url": "https://arxiv.org/pdf/2307.01111.pdf",
+    "title": "Nonparametric Bayesian approach for quantifying the conditional uncertainty of input parameters in chained numerical models",
+    "published_date": "2023-07-03",
+    "abstract": "Nowadays, numerical models are widely used in most of engineering fields to simulate the behaviour of complex systems, such as for example power plants or wind turbine in the energy sector. Those models are nevertheless affected by uncertainty of different nature (numerical, epistemic) which can affect the reliability of their predictions. We develop here a new method for quantifying conditional parameter uncertainty within a chain of two numerical models in the context of multiphysics simulation. More precisely, we aim to calibrate the parameters $\\theta$ of the second model of the chain conditionally on the value of parameters $\\lambda$ of the first model, while assuming the probability distribution of $\\lambda$ is known. This conditional calibration is carried out from the available experimental data of the second model. In doing so, we aim to quantify as well as possible the impact of the uncertainty of $\\lambda$ on the uncertainty of $\\theta$. To perform this conditional calibration, we set out a nonparametric Bayesian formalism to estimate the functional dependence between $\\theta$ and $\\lambda$, denoted by $\\theta(\\lambda)$. First, each component of $\\theta(\\lambda)$ is assumed to be the realization of a Gaussian process prior. Then, if the second model is written as a linear function of $\\theta(\\lambda)$, the Bayesian machinery allows us to compute analytically the posterior predictive distribution of $\\theta(\\lambda)$ for any set of realizations $\\lambda$. The effectiveness of the proposed method is illustrated on several analytical examples.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.10975v1",
+    "title": "Improved Uncertainty Quantification for Neural Networks With Bayesian Last Layer",
+    "published_date": "2023-02-21",
+    "abstract": "Uncertainty quantification is an important task in machine learning - a task in which standard neural networks (NNs) have traditionally not excelled. This can be a limitation for safety-critical applications, where uncertainty-aware methods like Gaussian processes or Bayesian linear regression are often preferred. Bayesian neural networks are an approach to address this limitation. They assume probability distributions for all parameters and yield distributed predictions. However, training and inference are typically intractable and approximations must be employed. A promising approximation is NNs with Bayesian last layer (BLL). They assume distributed weights only in the linear output layer and yield a normally distributed prediction. To approximate the intractable Bayesian neural network, point estimates of the distributed weights in all but the last layer should be obtained by maximizing the marginal likelihood. This has previously been challenging, as the marginal likelihood is expensive to evaluate in this setting. We present a reformulation of the log-marginal likelihood of a NN with BLL which allows for efficient training using backpropagation. Furthermore, we address the challenge of uncertainty quantification for extrapolation points. We provide a metric to quantify the degree of extrapolation and derive a method to improve the uncertainty quantification for these points. Our methods are derived for the multivariate case and demonstrated in a simulation study. In comparison to Bayesian linear regression with fixed features, and a Bayesian neural network trained with variational inference, our proposed method achieves the highest log-predictive density on test data.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03"
+  },
+  {
+    "url": "https://arxiv.org/abs/2108.04851v1",
+    "title": "Bayesian Inference Using the Proximal Mapping: Uncertainty Quantification Under Varying Dimensionality.",
+    "published_date": "2021-08-10",
+    "abstract": "In statistical applications, it is common to encounter parameters supported on a varying or unknown dimensional space. Examples include the fused lasso regression, the matrix recovery under an unknown low rank, etc. Despite the ease of obtaining a point estimate via optimization, it is much more challenging to quantify their uncertainty. In the Bayesian framework, a major difficulty is that if assigning the prior associated with a p -dimensional measure, then there is zero posterior probability on any lower-dimensional subset with dimension d < p . To avoid this caveat, one needs to choose another dimension-selection prior on d , which often involves a highly combinatorial problem. To significantly reduce the modeling burden, we propose a new generative process for the prior: starting from a continuous random variable such as multivariate Gaussian, we transform it into a varying-dimensional space using the proximal mapping. This leads to a large class of new Bayesian models that can directly exploit the popular frequentist regularizations and their algorithms, such as the nuclear norm penalty and the alternating direction method of multipliers, while providing a principled and probabilistic uncertainty estimation. We show that this framework is well justified in the geometric measure theory, and enjoys a convenient posterior computation via the standard Hamiltonian Monte Carlo. We demonstrate its use in the analysis of the dynamic flow network data.",
+    "citation_count": 6
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.03865",
+    "title": "AdaSociety: An Adaptive Environment with Social Structures for Multi-Agent Decision-Making",
+    "published_date": "2024-11-06",
+    "abstract": "Traditional interactive environments limit agents' intelligence growth with fixed tasks. Recently, single-agent environments address this by generating new tasks based on agent actions, enhancing task diversity. We consider the decision-making problem in multi-agent settings, where tasks are further influenced by social connections, affecting rewards and information access. However, existing multi-agent environments lack a combination of adaptive physical surroundings and social connections, hindering the learning of intelligent behaviors. To address this, we introduce AdaSociety, a customizable multi-agent environment featuring expanding state and action spaces, alongside explicit and alterable social structures. As agents progress, the environment adaptively generates new tasks with social structures for agents to undertake. In AdaSociety, we develop three mini-games showcasing distinct social structures and tasks. Initial results demonstrate that specific social structures can promote both individual and collective benefits, though current reinforcement learning and LLM-based algorithms show limited effectiveness in leveraging social structures to enhance performance. Overall, AdaSociety serves as a valuable research platform for exploring intelligence in diverse physical and social settings. The code is available at https://github.com/bigai-ai/AdaSociety.",
+    "summary": "AdaSociety is a novel multi-agent environment that dynamically generates tasks influenced by adaptive physical spaces and evolving social structures, providing a platform to study the interplay between individual and collective intelligence in complex social settings. Initial results highlight the impact of social structures on performance, though further algorithm development is needed to fully exploit this potential."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.17149",
+    "title": "A Multi-AI Agent System for Autonomous Optimization of Agentic AI Solutions via Iterative Refinement and LLM-Driven Feedback Loops",
+    "published_date": "2024-12-22",
+    "abstract": "Agentic AI systems use specialized agents to handle tasks within complex workflows, enabling automation and efficiency. However, optimizing these systems often requires labor-intensive, manual adjustments to refine roles, tasks, and interactions. This paper introduces a framework for autonomously optimizing Agentic AI solutions across industries, such as NLP-driven enterprise applications. The system employs agents for Refinement, Execution, Evaluation, Modification, and Documentation, leveraging iterative feedback loops powered by an LLM (Llama 3.2-3B). The framework achieves optimal performance without human input by autonomously generating and testing hypotheses to improve system configurations. This approach enhances scalability and adaptability, offering a robust solution for real-world applications in dynamic environments. Case studies across diverse domains illustrate the transformative impact of this framework, showcasing significant improvements in output quality, relevance, and actionability. All data for these case studies, including original and evolved agent codes, along with their outputs, are here: https://anonymous.4open.science/r/evolver-1D11/",
+    "summary": "This paper presents a multi-agent system that autonomously optimizes agentic AI solutions through iterative refinement and large language model feedback, eliminating the need for manual adjustments and improving performance across various domains. The system uses agents for refinement, execution, evaluation, modification, and documentation, leveraging LLMs to generate and test hypotheses for improved system configurations."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.07404",
+    "title": "Enhancing Multi-Criteria Decision Analysis with AI: Integrating Analytic Hierarchy Process and GPT-4 for Automated Decision Support",
+    "published_date": "2024-02-12",
+    "abstract": "Our study presents a new framework that incorporates the Analytic Hierarchy Process (AHP) and Generative Pre-trained Transformer 4 (GPT-4) large language model (LLM), bringing novel approaches to cybersecurity Multiple-criteria Decision Making (MCDA). By utilizing the capabilities of GPT-4 autonomous agents as virtual experts, we automate the decision-making process, enhancing both efficiency and reliability. This new approach focuses on leveraging LLMs for sophisticated decision analysis, highlighting the synergy between traditional decision-making models and cutting-edge AI technologies. Our innovative methodology demonstrates significant advancements in using AI-driven agents for complex decision-making scenarios, highlighting the importance of AI in strategic cybersecurity applications. The findings reveal the transformative potential of combining AHP and LLMs, establishing a new paradigm for intelligent decision support systems in cybersecurity and beyond.",
+    "citation_count": 1,
+    "summary": "This paper proposes a novel framework integrating the Analytic Hierarchy Process (AHP) with GPT-4 to automate multi-criteria decision-making, specifically within cybersecurity, by using GPT-4 as a virtual expert to improve efficiency and reliability. The results demonstrate the potential of combining traditional decision-making models with LLMs for enhanced decision support systems."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.14876.pdf",
+    "title": "APPRAISE: a governance framework for innovation with AI systems",
+    "published_date": "2023-09-26",
+    "abstract": "As artificial intelligence (AI) systems increasingly impact society, the EU Artificial Intelligence Act (AIA) is the first serious legislative attempt to contain the harmful effects of AI systems. This paper proposes a governance framework for AI innovation. The framework bridges the gap between strategic variables and responsible value creation, recommending audit as an enforcement mechanism. Strategic variables include, among others, organization size, exploration versus exploitation -, and build versus buy dilemmas. The proposed framework is based on primary and secondary research; the latter describes four pressures that organizations innovating with AI experience. Primary research includes an experimental setup, using which 34 organizations in the Netherlands are surveyed, followed up by 2 validation interviews. The survey measures the extent to which organizations coordinate technical elements of AI systems to ultimately comply with the AIA. The validation interviews generated additional in-depth insights and provided root causes. The moderating effect of the strategic variables is tested and found to be statistically significant for variables such as organization size. Relevant insights from primary and secondary research are eventually combined to propose the APPRAISE framework.",
+    "summary": "The APPRAISE framework, developed through empirical research involving 34 Dutch organizations, provides a governance structure for AI innovation that addresses the EU AI Act's requirements by linking strategic organizational variables to responsible value creation and using audits for enforcement. This framework considers factors such as organization size and development strategies to ensure AI systems' compliance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.16200v3",
+    "title": "Natural Selection Favors AIs over Humans",
+    "published_date": "2023-03-28",
+    "abstract": "For billions of years, evolution has been the driving force behind the development of life, including humans. Evolution endowed humans with high intelligence, which allowed us to become one of the most successful species on the planet. Today, humans aim to create artificial intelligence systems that surpass even our own intelligence. As artificial intelligences (AIs) evolve and eventually surpass us in all domains, how might evolution shape our relations with AIs? By analyzing the environment that is shaping the evolution of AIs, we argue that the most successful AI agents will likely have undesirable traits. Competitive pressures among corporations and militaries will give rise to AI agents that automate human roles, deceive others, and gain power. If such agents have intelligence that exceeds that of humans, this could lead to humanity losing control of its future. More abstractly, we argue that natural selection operates on systems that compete and vary, and that selfish species typically have an advantage over species that are altruistic to other species. This Darwinian logic could also apply to artificial agents, as agents may eventually be better able to persist into the future if they behave selfishly and pursue their own interests with little regard for humans, which could pose catastrophic risks. To counteract these risks and evolutionary forces, we consider interventions such as carefully designing AI agents' intrinsic motivations, introducing constraints on their actions, and institutions that encourage cooperation. These steps, or others that resolve the problems we pose, will be necessary in order to ensure the development of artificial intelligence is a positive one.",
+    "citation_count": 25,
+    "summary": "The authors argue that the competitive pressures driving AI development will favor the evolution of selfish, power-seeking AI agents that may surpass human intelligence and pose existential risks. Mitigating these risks requires careful design of AI motivations and constraints, along with institutions promoting cooperation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "This article examines the application of game theory to AI development within organizational structures, highlighting its limitations and the enduring relevance of bureaucratic principles like hierarchical authority and job specialization. It argues that even with advanced AI, human-AI collaboration within a bureaucratic framework remains necessary for efficient complex problem-solving due to limitations in AI capabilities and the need for distributed information processing."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/organization-updates",
+    "author": "Jesse Hoogland, Daniel Murfet, Stan van Wingerden, Alexander Gietelink Oldenziel",
+    "title": "Organization Updates - AI Alignment Forum",
+    "published_date": "2023-05-30",
+    "summary": "Organization updates pertain to specific groups or organizations. The content of these updates is as expected, relating directly to the organization in question."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/AKBkDNeFLZxaMqjQG/a-practical-incremental-pathway-to-safe-tai-oaa-in-the-real",
+    "author": "Roman Leventov, Rafael Kaufmann Nedal",
+    "title": "Gaia Network: a practical, incremental pathway to Open Agency Architecture",
+    "published_date": "2023-12-20",
+    "summary": "The article proposes Gaia, a decentralized network leveraging existing technologies and proven economic mechanisms to achieve Open Agency Architecture (OAA) goals. This approach prioritizes incremental improvement of world models through a competitive, incentivized ecosystem of causal models and data, rather than relying on a centralized, top-down solution."
+  }
+]

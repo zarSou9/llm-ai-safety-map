@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.18798",
+    "title": "Formal Verification of Digital Twins with TLA and Information Leakage Control",
+    "published_date": "2024-11-27",
+    "abstract": "Verifying the correctness of a digital twin provides a formal guarantee that the digital twin operates as intended. Digital twin verification is challenging due to the presence of uncertainties in the virtual representation, the physical environment, and the bidirectional flow of information between physical and virtual. A further challenge is that a digital twin of a complex system is composed of distributed components. This paper presents a methodology to specify and verify digital twin behavior, translating uncertain processes into a formally verifiable finite state machine. We use the Temporal Logic of Actions (TLA) to create a specification, an implementation abstraction that defines the properties required for correct system behavior. Our approach includes a novel weakening of formal security properties, allowing controlled information leakage while preserving theoretical guarantees. We demonstrate this approach on a digital twin of an unmanned aerial vehicle, verifying synchronization of physical-to-virtual and virtual-to-digital data flows to detect unintended misalignments."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.16186",
+    "title": "Formal Modeling and Verification of Publisher-Subscriber Paradigm in ROS 2",
+    "published_date": "2024-12-12",
+    "abstract": "The Robot Operating System (ROS) is one of the most popular middleware for developing robot applications, but it is subject to major shortcomings when applied to real-time robotic systems in safety-critical environments. For this reason, ROS 2 was released in 2017 for implementing real-time capabilities in distributed robotic systems while supporting the most prominent aspects of the original ROS. There is still not much work done to provide formal guarantees and correctness of a ROS program. In this paper, we propose a framework to address this challenging problem of guaranteeing the correct behaviour of robotic systems. We propose a formal modelling of a ROS 2 program, and also describe the program using a network of timed automata. We then prove that the sets of executions of a ROS program in the model and in the network of timed automata are the same. Thus to analyze a publisher-subscriber scenario of ROS 2 program, our algorithm first converts the program into the model, and then into the network of timed automata. The applicability and validity of our approach are verified by conducting several experiments on a simplified system and an actual robotic system, and the results and limitations are discussed."
+  },
+  {
+    "title": "Verified reductions for optimization",
+    "abstract": "Numerical and symbolic methods for optimization are used extensively in engineering, industry, and finance. Various methods are used to reduce problems of interest to ones that are amenable to solution by such software. We develop a framework for designing and applying such reductions, using the Lean programming language and interactive proof assistant. Formal verification makes the process more reliable, and the availability of an interactive framework and ambient mathematical library provides a robust environment for constructing the reductions and reasoning about them.",
+    "published_date": "2023-01-23",
+    "citation_count": 1,
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-30820-8_8"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.09347.pdf",
+    "title": "Verified reductions for optimization",
+    "published_date": "2023-01-23",
+    "abstract": "Numerical and symbolic methods for optimization are used extensively in engineering, industry, and finance. Various methods are used to reduce problems of interest to ones that are amenable to solution by such software. We develop a framework for designing and applying such reductions, using the Lean programming language and interactive proof assistant. Formal verification makes the process more reliable, and the availability of an interactive framework and ambient mathematical library provides a robust environment for constructing the reductions and reasoning about them.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.06090.pdf",
+    "title": "A General Framework for Verification and Control of Dynamical Models via Certificate Synthesis",
+    "published_date": "2023-09-12",
+    "abstract": "An emerging branch of control theory specialises in certificate learning, concerning the specification of a desired (possibly complex) system behaviour for an autonomous or control model, which is then analytically verified by means of a function-based proof. However, the synthesis of controllers abiding by these complex requirements is in general a non-trivial task and may elude the most expert control engineers. This results in a need for automatic techniques that are able to design controllers and to analyse a wide range of elaborate specifications. In this paper, we provide a general framework to encode system specifications and define corresponding certificates, and we present an automated approach to formally synthesise controllers and certificates. Our approach contributes to the broad field of safe learning for control, exploiting the flexibility of neural networks to provide candidate control and certificate functions, whilst using SMT-solvers to offer a formal guarantee of correctness. We test our framework by developing a prototype software tool, and assess its efficacy at verification via control and certificate synthesis over a large and varied suite of benchmarks.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.10045v1",
+    "title": "Alignment complete relational Hoare logics for some and all",
+    "published_date": "2023-07-19",
+    "abstract": "In relational verification, judicious alignment of computational steps facilitates proof of relations between programs using simple relational assertions. Relational Hoare logics (RHL) provide compositional rules that embody various alignments of executions. Seemingly more flexible alignments can be expressed in terms of product automata based on program transition relations. A single degenerate alignment rule (self-composition), atop a complete Hoare logic, comprises a RHL for $\\forall\\forall$ properties that is complete in the ordinary logical sense (Cook'78). The notion of alignment completeness was previously proposed as a more satisfactory measure, and some rules were shown to be alignment complete with respect to a few ad hoc forms of alignment automata. This paper proves alignment completeness with respect to a general class of $\\forall\\forall$ alignment automata, for a RHL comprised of standard rules together with a rule of semantics-preserving rewrites based on Kleene algebra with tests. A new logic for $\\forall\\exists$ properties is introduced and shown to be alignment complete. The $\\forall\\forall$ and $\\forall\\exists$ automata are shown to be semantically complete. Thus the logics are both complete in the ordinary sense. Recent work by D'Osualdo et al highlights the importance of completeness relative to assumptions (which we term entailment completeness), and presents $\\forall\\forall$ examples seemingly beyond the scope of RHLs. Additional rules enable these examples to be proved in our RHL, shedding light on the open problem of entailment completeness.",
+    "citation_count": 1
+  }
+]

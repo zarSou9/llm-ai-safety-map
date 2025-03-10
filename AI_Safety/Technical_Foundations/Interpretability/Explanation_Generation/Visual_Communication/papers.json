@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.12591",
+    "title": "Rethinking Visual Counterfactual Explanations Through Region Constraint",
+    "published_date": "2024-10-16",
+    "abstract": "Visual counterfactual explanations (VCEs) have recently gained immense popularity as a tool for clarifying the decision-making process of image classifiers. This trend is largely motivated by what these explanations promise to deliver -- indicate semantically meaningful factors that change the classifier's decision. However, we argue that current state-of-the-art approaches lack a crucial component -- the region constraint -- whose absence prevents from drawing explicit conclusions, and may even lead to faulty reasoning due to phenomenons like confirmation bias. To address the issue of previous methods, which modify images in a very entangled and widely dispersed manner, we propose region-constrained VCEs (RVCEs), which assume that only a predefined image region can be modified to influence the model's prediction. To effectively sample from this subclass of VCEs, we propose Region-Constrained Counterfactual Schr\\\"odinger Bridges (RCSB), an adaptation of a tractable subclass of Schr\\\"odinger Bridges to the problem of conditional inpainting, where the conditioning signal originates from the classifier of interest. In addition to setting a new state-of-the-art by a large margin, we extend RCSB to allow for exact counterfactual reasoning, where the predefined region contains only the factor of interest, and incorporating the user to actively interact with the RVCE by predefining the regions manually.",
+    "summary": "Current visual counterfactual explanation methods lack region constraints, leading to unreliable explanations; this paper introduces region-constrained counterfactual explanations (RVCEs) using Region-Constrained Counterfactual Schrödinger Bridges (RCSB) to generate more accurate and interpretable explanations by focusing modifications to specific image regions."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.18764",
+    "title": "CoVis: A Collaborative Framework for Fine-grained Graphic Visual Understanding",
+    "published_date": "2024-11-27",
+    "abstract": "Graphic visual content helps in promoting information communication and inspiration divergence. However, the interpretation of visual content currently relies mainly on humans' personal knowledge background, thereby affecting the quality and efficiency of information acquisition and understanding. To improve the quality and efficiency of visual information transmission and avoid the limitation of the observer due to the information cocoon, we propose CoVis, a collaborative framework for fine-grained visual understanding. By designing and implementing a cascaded dual-layer segmentation network coupled with a large-language-model (LLM) based content generator, the framework extracts as much knowledge as possible from an image. Then, it generates visual analytics for images, assisting observers in comprehending imagery from a more holistic perspective. Quantitative experiments and qualitative experiments based on 32 human participants indicate that the CoVis has better performance than current methods in feature extraction and can generate more comprehensive and detailed visual descriptions than current general-purpose large models.",
+    "summary": "CoVis is a collaborative framework for detailed image understanding that uses a cascaded segmentation network and a large language model to extract comprehensive knowledge from images and generate detailed visual analytics. This approach aims to improve information acquisition efficiency and overcome limitations of individual interpretation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/kobJymvvcvhbjWFKe/laying-the-foundations-for-vision-and-multimodal-mechanistic",
+    "author": "Sonia Joseph, Neel Nanda",
+    "title": "Laying the Foundations for Vision and Multimodal Mechanistic Interpretability & Open Problems",
+    "published_date": "2024-03-13",
+    "summary": "The article introduces Prisma, a new open-source library designed to facilitate mechanistic interpretability research in multimodal models, specifically focusing on vision. It aims to build a community and shared infrastructure for applying existing language interpretability techniques to visual data, utilizing vision transformers (ViTs) and offering interactive tools for analysis."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bCtbuWraqYTDtuARg/towards-multimodal-interpretability-learning-sparse-2",
+    "author": "hugofry",
+    "title": "Towards Multimodal Interpretability: Learning Sparse Interpretable Features in Vision Transformers",
+    "published_date": "2024-04-29",
+    "summary": "The author trained a Sparse Autoencoder (SAE) on a CLIP Vision Transformer using ImageNet-1k, creating a web application to explore the learned visual features. The results demonstrate SAEs' effectiveness in identifying interpretable directions within the activation space of vision models, revealing abstract concepts like \"animals eating other animals\" and \"Italian.\""
+  },
+  {
+    "title": "A Generalized Explanation Framework for Visualization of Deep Learning Model Predictions",
+    "abstract": "Attribution-based explanations are popular in computer vision but of limited use for fine-grained classification problems typical of expert domains, where classes differ by subtle details. In these domains, users also seek understanding of “why” a class was chosen and “why not” an alternative class. A new GenerAlized expLanatiOn fRamEwork (GALORE) is proposed to satisfy all these requirements, by unifying attributive explanations with explanations of two other types. The first is a new class of explanations, denoted deliberative, proposed to address the “why” question, by exposing the network insecurities about a prediction. The second is the class of counterfactual explanations, which have been shown to address the “why not” question but are now more efficiently computed. GALORE unifies these explanations by defining them as combinations of attribution maps with respect to various classifier predictions and a confidence score. An evaluation protocol that leverages object recognition (CUB200) and scene classification (ADE20 K) datasets combining part and attribute annotations is also proposed. Experiments show that confidence scores can improve explanation accuracy, deliberative explanations provide insight into the network deliberation process, the latter correlates with that performed by humans, and counterfactual explanations enhance the performance of human students in machine teaching experiments.",
+    "published_date": "2023-02-01",
+    "citation_count": 10,
+    "url": "https://ieeexplore.ieee.org/ielx7/34/4359286/10034989.pdf",
+    "summary": "GALORE, a novel generalized explanation framework, addresses limitations of attribution-based explanations in fine-grained classification by unifying them with deliberative (exposing network uncertainties) and counterfactual explanations (\"why not\" scenarios), improving both explanation accuracy and user understanding. Evaluation on object and scene classification datasets demonstrates the framework's effectiveness in enhancing human comprehension and machine teaching."
+  },
+  {
+    "title": "Explainable Activity Recognition in Videos using Deep Learning and Tractable Probabilistic Models",
+    "abstract": "We consider the following video activity recognition (VAR) task: given a video, infer the set of activities being performed in the video and assign each frame to an activity. Although VAR can be solved accurately using existing deep learning techniques, deep networks are neither interpretable nor explainable and as a result their use is problematic in high stakes decision-making applications (in healthcare, experimental Biology, aviation, law, etc.). In such applications, failure may lead to disastrous consequences and therefore it is necessary that the user is able to either understand the inner workings of the model or probe it to understand its reasoning patterns for a given decision. We address these limitations of deep networks by proposing a new approach that feeds the output of a deep model into a tractable, interpretable probabilistic model called a dynamic conditional cutset network that is defined over the explanatory and output variables and then performing joint inference over the combined model. The two key benefits of using cutset networks are: (a) they explicitly model the relationship between the output and explanatory variables and as a result, the combined model is likely to be more accurate than the vanilla deep model and (b) they can answer reasoning queries in polynomial time and as a result, they can derive meaningful explanations by efficiently answering explanation queries. We demonstrate the efficacy of our approach on two datasets, Textually Annotated Cooking Scenes (TACoS), and wet lab, using conventional evaluation measures such as the Jaccard Index and Hamming Loss, as well as a human-subjects study.",
+    "published_date": "2023-10-12",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3626961",
+    "summary": "This paper proposes a novel video activity recognition approach combining a deep learning model with a tractable probabilistic model (dynamic conditional cutset network) to improve accuracy and provide interpretable explanations for activity inferences, addressing the \"black box\" nature of deep learning. The combined model allows for efficient querying and explanation generation, enhancing trust and reliability in high-stakes applications."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/FzqKXpTDaouMF6Chj/paper-walkthrough-automated-circuit-discovery-with-arthur",
+    "author": "Neel Nanda",
+    "title": "Paper Walkthrough: Automated Circuit Discovery with Arthur Conmy",
+    "published_date": "2023-08-29",
+    "summary": "Arthur Conmy's paper, \"Automated Circuit Discovery,\" explores automating mechanistic interpretability by identifying sparse subgraphs representing neural network circuits; a YouTube series interviews Conmy, detailing the paper's algorithm, baselines, evaluation methods, and key findings."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/xNgdJEep9DQQWhSbv/understanding-the-information-flow-inside-large-language",
+    "author": "Felix Hofstätter, cozyfractal",
+    "title": "Understanding the Information Flow inside Large Language Models",
+    "published_date": "2023-08-15",
+    "summary": "This capstone project developed a novel method to visualize the internal information flow of language models, represented as \"information-flow graphs,\" by analyzing the impact of interventions on model performance for tasks like indirect-object identification. The project, though limited by its short timeframe, offers promising insights into how LLMs process information across long sequences."
+  }
+]

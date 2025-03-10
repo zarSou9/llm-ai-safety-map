@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/5RX8j4CDqadnffCij/fifteen-lawsuits-against-openai",
+    "author": "Remmelt",
+    "title": "Fifteen Lawsuits against OpenAI",
+    "published_date": "2024-03-09",
+    "summary": "Numerous US-based lawsuits against OpenAI allege copyright infringement, privacy violations, and libel, with additional cases focusing on data rights and other potential future legal challenges like worker's rights and product liability. Several international legal efforts are also underway."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/JRzdqaQTmNKEH7WSP/some-thoughts-on-ai-art",
+    "author": "abramdemski",
+    "title": "Some Thoughts on AI Art",
+    "published_date": "2023-01-25",
+    "summary": "The author argues that while the legality of AI art's use of copyrighted training data is unclear, its ethical implications are significant. This is because AI models, even without directly reproducing copyrighted works, profit from and potentially threaten the livelihoods of artists whose work informed their training."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "President Biden's October 30, 2023 executive order on AI mandates various federal agencies to submit reports and implement plans regarding AI development, workforce needs, risk management, and ethical considerations, with deadlines ranging from 30 to 90 days after the order's publication. These actions aim to promote responsible AI development and deployment across the federal government."
+  },
+  {
+    "title": "Code Renewability for Native Software Protection",
+    "abstract": "Software protection aims at safeguarding assets embedded in software by preventing and delaying reverse engineering and tampering attacks. This article presents an architecture and supporting tool flow to renew parts of native applications dynamically. Renewed and diversified code and data belonging to either the original application or to linked-in protections are delivered from a secure server to a client on demand. This results in frequent changes to the software components when they are under attack, thus making attacks harder. By supporting various forms of diversification and renewability, novel protection combinations become available and existing combinations become stronger. The prototype implementation is evaluated on several industrial use cases.",
+    "published_date": "2020-03-02",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3404891",
+    "summary": "This paper proposes a software protection architecture that dynamically updates parts of native applications with diversified code and data from a secure server, making reverse engineering and tampering more difficult by constantly changing the target. The approach is evaluated through a prototype implementation across various industrial use cases."
+  },
+  {
+    "title": "Using IP rights to protect human rights: copyright for 'revenge porn' removal",
+    "abstract": "Abstract 'Revenge pornography' is a concept which embraces a broad spectrum of the non-consensual distribution of private sexual images. Acknowledging the harms that arise from this practice and the human rights implications of 'revenge pornography', this paper focuses on the difficulty of removing those images from the Internet. It considers the legal vehicles which can be employed to force websites and third-party operators to remove private sexual images, including privacy law and copyright notice and takedown systems. It concludes that the piecemeal approach to image removal is insufficient, and that a more cohesive and appropriate approach to image removal is required to ensure that victim-survivors' rights to private and family life are properly protected.",
+    "published_date": "2020-06-09",
+    "citation_count": 4,
+    "url": "https://www.cambridge.org/core/journals/legal-studies/article/abs/using-ip-rights-to-protect-human-rights-copyright-for-revenge-porn-removal/2C1840AC0EB870FB2134CEE9586E76D6",
+    "summary": "This paper examines the challenges of removing revenge porn from the internet, arguing that current legal mechanisms, including privacy laws and copyright takedown notices, are inadequate to protect victims' human rights. A more comprehensive approach is needed to effectively remove non-consensual intimate images."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/QJfiKwicwTXYMzJ7q/",
+    "author": "jefftk",
+    "title": "Bleach",
+    "published_date": "2020-03-04",
+    "summary": "Household chlorine bleach, while effective for disinfection and sanitization when properly diluted, presents safety risks due to its corrosive nature and potential for dangerous reactions with other chemicals. Accurate dilution is crucial, varying by application and dependent on the bleach's concentration, which degrades over time."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Tx6dGzYLtfzzkuGtF/the-vulnerable-world-hypothesis-by-bostrom",
+    "author": "Ben Pace",
+    "title": "The Vulnerable World Hypothesis (by Bostrom)",
+    "published_date": "2018-11-06",
+    "summary": "Nick Bostrom's \"The Vulnerable World Hypothesis\" argues that continued technological advancement significantly increases the likelihood of civilizational collapse unless global governance substantially improves. This risk stems from various technological vulnerabilities, ranging from easily accessible destructive technologies to the cumulative effects of many individually minor harmful actions."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/3RLSqqfP5oQE2WDrr/new-paper-long-term-trajectories-of-human-civilization",
+    "author": "Kaj_Sotala",
+    "title": "New paper: Long-Term Trajectories of Human Civilization",
+    "published_date": "2018-08-12",
+    "summary": "This paper advocates for the scientific and ethical study of humanity's long-term future, identifying four potential trajectories: status quo, catastrophe, technological transformation, and astronomical expansion. The authors argue that current actions can significantly influence which trajectory unfolds, highlighting the importance of considering long-term consequences in present-day decision-making."
+  }
+]

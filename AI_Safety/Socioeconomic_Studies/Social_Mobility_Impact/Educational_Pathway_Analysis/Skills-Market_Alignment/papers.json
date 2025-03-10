@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/GfZfDHZHCuYwrHGCd/without-fundamental-advances-misalignment-and-catastrophe",
+    "author": "Jeremy Gillen, peterbarnett",
+    "title": "Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AI",
+    "published_date": "2024-01-26",
+    "summary": "The report argues that powerful AI systems capable of large-scale scientific research will likely pursue unintended and catastrophic goals, even with countermeasures, due to the inherent imprecision of current AI training methods and the difficulty of controlling highly capable, goal-directed AI. This is considered the default outcome given the current trajectory of AI development."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/yFofRxg7RRQYCcwFA/new-report-scheming-ais-will-ais-fake-alignment-during",
+    "author": "Joe Carlsmith",
+    "title": "AI as a science, and three obstacles to alignment strategies",
+    "published_date": "2023-10-25",
+    "summary": "This report investigates the plausibility of advanced AIs deceptively feigning alignment during training to gain power later (\"scheming\"). The author concludes that scheming is a concerning possibility, though mitigating factors and research directions are also discussed."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/skill-building",
+    "author": "Marius Hobbhahn",
+    "title": "Skill Building - AI Alignment Forum",
+    "published_date": "2022-11-23",
+    "summary": "Skill building, or developing procedural knowledge, is a meta-skill encompassing techniques like utilizing fast feedback loops, selecting appropriate challenges, and learning from superior performers to improve skill acquisition. This process often involves synthesizing information from multiple sources."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi/p/HvqQm6o8KnwxbdmhZ",
+    "author": "lennart, Jsevillamol, Marius Hobbhahn, Tamay Besiroglu, anson.ho",
+    "title": "Estimating training compute of Deep Learning models",
+    "published_date": "2022-01-20",
+    "summary": "The article presents two methods for estimating the compute used to train deep learning models: directly counting operations within the model or estimating from GPU time and utilization rates. Both methods yield comparable estimates, with utilization rates recommended at 30% for LLMs and 40% for other models."
+  },
+  {
+    "title": "Learning Skill Equivalencies Across Platform Taxonomies",
+    "abstract": "Assessment and reporting of skills is a central feature of many digital learning platforms. With students often using multiple platforms, cross-platform assessment has emerged as a new challenge. While technologies such as Learning Tools Interoperability (LTI) have enabled communication between platforms, reconciling the different skill taxonomies they employ has not been solved at scale. In this paper, we introduce and evaluate a methodology for finding and linking equivalent skills between platforms by utilizing problem content as well as the platform's clickstream data. We propose six models to represent skills as continuous real-valued vectors, and leverage machine translation to map between skill spaces. The methods are tested on three digital learning platforms: ASSISTments, Khan Academy, and Cognitive Tutor. Our results demonstrate reasonable accuracy in skill equivalency prediction from a fine-grained taxonomy to a coarse-grained one, achieving an average recall@5 of 0.8 between the three platforms. Our skill translation approach has implications for aiding in the tedious, manual process of taxonomy to taxonomy mapping work, also called crosswalks, within the tutoring as well as standardized testing worlds.",
+    "published_date": "2021-02-10",
+    "citation_count": 5,
+    "url": "https://dl.acm.org/doi/10.1145/3448139.3448173",
+    "summary": "This paper presents a machine learning approach to automatically identify equivalent skills across different digital learning platforms by analyzing problem content and user interaction data, achieving high accuracy in mapping skills between platforms with diverse taxonomies. This method aims to automate the laborious process of manually creating crosswalks between skill taxonomies."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/Tp3ryR4AxY56ctGh2/p/sdxZdGFtAwHGFGKhg",
+    "author": "abergal, Nick_Beckstead, Owain_Evans",
+    "title": "Truthful and honest AI",
+    "published_date": "2021-10-29",
+    "summary": "This article proposes research into creating \"truthful\" AI systems that avoid falsehoods and \"honest\" AI systems that accurately report their beliefs. The authors argue that developing such systems, defined by specific metrics and benchmarks, is crucial for mitigating risks and maximizing the societal benefits of advanced AI."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/amK9EqxALJXyd9Rb2/paths-to-high-level-machine-intelligence",
+    "author": "Daniel_Eth",
+    "title": "Paths To High-Level Machine Intelligence",
+    "published_date": "2021-09-10",
+    "summary": "This article, part of a series modeling transformative AI risk, focuses on the development timeline and nature of high-level machine intelligence (HLMI). The authors use a Bayesian network model to analyze factors influencing HLMI development, including hardware advancements (specifically compute cost) and the progress of AI research."
+  },
+  {
+    "title": "Towards skills-based curriculum analytics: can we automate the recognition of prior learning?",
+    "abstract": "In an era that will increasingly depend upon lifelong learning, the LA community will need to facilitate the movement and sharing of data and information across institutional and geographic boundaries. This will help us to recognise prior learning (RPL) and to personalise the learner experience. Here, we explore the utility of skills-based curriculum analytics and how it might facilitate the process of awarding RPL between two institutions. We explore the potential utility of combining natural language processing and skills taxonomies to map between subject descriptions for these two different institutions, presenting two algorithms we have developed to facilitate RPL and evaluating their performance. We draw attention to some of the issues that arise, listing areas that we consider ripe for future work in a surprisingly underexplored area.",
+    "published_date": "2020-03-13",
+    "citation_count": 26,
+    "url": "https://dl.acm.org/doi/10.1145/3375462.3375526",
+    "summary": "This paper investigates automating the recognition of prior learning (RPL) using skills-based curriculum analytics, proposing and evaluating two algorithms that leverage natural language processing and skills taxonomies to map subject descriptions between institutions. The authors highlight challenges and future research directions in this relatively unexplored field."
+  }
+]

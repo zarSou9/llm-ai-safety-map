@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2309.01978.pdf",
+    "title": "An LSTM-Based Predictive Monitoring Method for Data with Time-varying Variability",
+    "published_date": "2023-09-05",
+    "abstract": "The recurrent neural network and its variants have shown great success in processing sequences in recent years. However, this deep neural network has not aroused much attention in anomaly detection through predictively process monitoring. Furthermore, the traditional statistic models work on assumptions and hypothesis tests, while neural network (NN) models do not need that many assumptions. This flexibility enables NN models to work efficiently on data with time-varying variability, a common inherent aspect of data in practice. This paper explores the ability of the recurrent neural network structure to monitor processes and proposes a control chart based on long short-term memory (LSTM) prediction intervals for data with time-varying variability. The simulation studies provide empirical evidence that the proposed model outperforms other NN-based predictive monitoring methods for mean shift detection. The proposed method is also applied to time series sensor data, which confirms that the proposed method is an effective technique for detecting abnormalities."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2202.04620v1.pdf",
+    "title": "IoTMonitor: A Hidden Markov Model-based Security System to Identify Crucial Attack Nodes in Trigger-action IoT Platforms",
+    "published_date": "2022-02-09",
+    "abstract": "With the emergence and fast development of trigger-action platforms in IoT settings, security vulnerabilities caused by the interactions among IoT devices become more prevalent. The event occurrence at one device triggers an action in another device, which may eventually contribute to the creation of a chain of events in a network. Adversaries exploit the chain effect to compromise IoT devices and trigger actions of interest remotely just by injecting malicious events into the chain. To address security vulnerabilities caused by trigger-action scenarios, existing research efforts focus on validation of the security properties of devices, or verification of the occurrence of certain events based on their physical fingerprints on a device. We propose IoTMonitor, a security analysis system that discerns the underlying chain of event occurrences with the highest probability by observing a chain of physical evidence collected by sensors. We use the Baum-Welch algorithm to estimate transition and emission probabilities and the Viterbi algorithm to discern the event sequence. We can then identify the crucial nodes in the trigger-action sequence whose compromise allows attackers to reach their final goals. The experiment results of our designed system upon the PEEVES datasets show that we can rebuild the event occurrence sequence with high accuracy from the observations and identify the crucial nodes on the attack paths.",
+    "citation_count": 5
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.02944v4.pdf",
+    "title": "Adaptive Performance Anomaly Detection for Online Service Systems via Pattern Sketching",
+    "published_date": "2022-01-09",
+    "abstract": "To ensure the performance of online service systems, their status is closely monitored with various software and system metrics. Performance anomalies represent the performance degradation issues (e.g., slow response) of the service systems. When performing anomaly detection over the metrics, existing methods often lack the merit of interpretability, which is vital for engineers and analysts to take remediation actions. Moreover, they are unable to effectively accommodate the ever-changing services in an online fashion. To address these limitations, in this paper, we propose ADSketch, an interpretable and adaptive performance anomaly detection approach based on pattern sketching. ADSketch achieves interpretability by identifying groups of anomalous metric patterns, which represent particular types of performance issues. The underlying issues can then be immediately recognized if similar patterns emerge again. In addition, an adaptive learning algorithm is designed to embrace unprecedented patterns induced by service updates or user behavior changes. The proposed approach is evaluated with public data as well as industrial data collected from a representative online service system in Huawei Cloud. The experimental results show that ADSketch outperforms state-of-the-art approaches by a significant margin, and demonstrate the effectiveness of the online algorithm in new pattern discovery. Furthermore, our approach has been successfully deployed in industrial practice.",
+    "citation_count": 29
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03"
+  },
+  {
+    "title": "Monitoring Model for Preventive Incident Identification and Execution of Corrective Measures in Technological Services of Organizations",
+    "abstract": "The increase in the use of IT for process management support has required organizations to make greater efforts to monitor the performance of their technological services to ensure that they provide timely and relevant information. In this context, the purpose of the research is to present a model to monitor the status of IT services that identifies incidents and mitigates their impact through preventive actions. The model has been built by applying process design, incident management, and process indicator monitoring concepts. Its structure is based on five components that offer the actions necessary for incident identification and monitoring, with implementation and operation processes being the transversal component. The model was validated by identifying and monitoring three incidents of the SAP ERP service, whose performances were measured in a time interval. The results show that the monitoring model allows for efficient monitoring of IT service statuses and for the execution preventive actions.",
+    "published_date": "2021-01-30",
+    "url": "https://dl.acm.org/doi/10.1145/3450588.3450942"
+  }
+]

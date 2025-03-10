@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Learning Temporal Structure of Videos for Action Recognition Using Pattern Theory",
+    "abstract": "Aiming at the problem that a large amount of background information in the videos cause low judgment of actions, this paper proposed a graph model based on pattern theory for human complex action recognition. Firstly, a video is divided into video units and each video unit corresponds to an atomic action. The atomic action labels of videos are initialized by k-Means. Secondly, the key generator proposal module and the interpretative operation module are proposed to select important foreground information and obtain a reasonable representation of atomic action sequences. In the inference stage, the atomic action sequences of test videos are matched with template sequences by the Dynamic Time Warping algorithm (DTW) to obtain the action categories. The experimental results show that compared with the most existing human action recognition models, our model can explain the temporal process of action occurrence and obtain a more discriminatory sequence representation, which can effectively improve the accuracy of action recognition.",
+    "published_date": "2020-04-23",
+    "url": "https://dl.acm.org/doi/10.1145/3404555.3404628"
+  },
+  {
+    "title": "Structural and temporal inference search (STIS): pattern identification in multimodal data",
+    "abstract": "There are a multitude of annotated behavior corpora (manual and automatic annotations) available as research expands in multimodal analysis of human behavior. Despite the rich representations within these datasets, search strategies are limited with respect to the advanced representations and complex structures describing human interaction sequences. The relationships amongst human interactions are structural in nature. Hence, we present Structural and Temporal Inference Search (STIS) to support search for relevant patterns within a multimodal corpus based on the structural and temporal nature of human interactions. The user defines the structure of a behavior of interest driving a search focused on the characteristics of the structure. Occurrences of the structure are returned. We compare against two pattern mining algorithms purposed for pattern identification amongst sequences of symbolic data (e.g., sequence of events such as behavior interactions). The results are promising as STIS performs well with several datasets.",
+    "published_date": "2012-10-22",
+    "citation_count": 8,
+    "url": "https://dl.acm.org/doi/10.1145/2388676.2388702"
+  }
+]

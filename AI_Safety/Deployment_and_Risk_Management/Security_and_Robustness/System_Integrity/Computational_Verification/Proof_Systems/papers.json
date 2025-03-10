@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.00069",
+    "title": "Meta-Sealing: A Revolutionizing Integrity Assurance Protocol for Transparent, Tamper-Proof, and Trustworthy AI System",
+    "published_date": "2024-10-31",
+    "abstract": "The Artificial intelligence in critical sectors-healthcare, finance, and public safety-has made system integrity paramount for maintaining societal trust. Current verification methods for AI systems lack comprehensive lifecycle assurance, creating significant vulnerabilities in deployment of both powerful and trustworthy AI. This research introduces Meta-Sealing, a cryptographic framework that fundamentally changes integrity verification in AI systems throughout their operational lifetime. Meta-Sealing surpasses traditional integrity protocols through its implementation of cryptographic seal chains, establishing verifiable, immutable records for all system decisions and transformations. The framework combines advanced cryptography with distributed verification, delivering tamper-evident guarantees that achieve both mathematical rigor and computational efficiency. Our implementation addresses urgent regulatory requirements for AI system transparency and auditability. The framework integrates with current AI governance standards, specifically the EU's AI Act and FDA's healthcare AI guidelines, enabling organizations to maintain operational efficiency while meeting compliance requirements. Testing on financial institution data demonstrated Meta-Sealing's capability to reduce audit timeframes by 62% while enhancing stakeholder confidence by 47%. Results can establish a new benchmark for integrity assurance in enterprise AI deployments. This research presents Meta-Sealing not merely as a technical solution, but as a foundational framework ensuring AI system integrity aligns with human values and regulatory requirements. As AI continues to influence critical decisions, provides the necessary bridge between technological advancement and verifiable trust. Meta-Sealing serves as a guardian of trust, ensuring that the AI systems we depend on are as reliable and transparent as they are powerful."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.01933.pdf",
+    "title": "Provably safe systems: the only path to controllable AGI",
+    "published_date": "2023-09-05",
+    "abstract": "We describe a path to humanity safely thriving with powerful Artificial General Intelligences (AGIs) by building them to provably satisfy human-specified requirements. We argue that this will soon be technically feasible using advanced AI for formal verification and mechanistic interpretability. We further argue that it is the only path which guarantees safe controlled AGI. We end with a list of challenge problems whose solution would contribute to this positive outcome and invite readers to join in this work.",
+    "citation_count": 15
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.08858",
+    "title": "Formal Verification of Zero-Knowledge Circuits",
+    "published_date": "2023-11-14",
+    "abstract": "Zero-knowledge circuits are sets of equality constraints over arithmetic expressions interpreted in a prime field; they are used to encode computations in cryptographic zero-knowledge proofs. We make the following contributions to the problem of ensuring that a circuit correctly encodes a computation: a formal framework for circuit correctness; an ACL2 library for prime fields; an ACL2 model of the existing R1CS (Rank-1 Constraint Systems) formalism to represent circuits, along with ACL2 and Axe tools to verify circuits of this form; a novel PFCS (Prime Field Constraint Systems) formalism to represent hierarchically structured circuits, along with an ACL2 model of it and ACL2 tools to verify circuits of this form in a compositional and scalable way; verification of circuits, ranging from simple to complex; and discovery of bugs and optimizations in existing zero-knowledge systems.",
+    "citation_count": 5
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.05516.pdf",
+    "title": "Machine-checked ZKP for NP relations: Formally Verified Security Proofs and Implementations of MPC-in-the-Head",
+    "published_date": "2021-04-12",
+    "abstract": "MPC-in-the-Head (MitH) is a general framework that enables constructing efficient zero-knowledge (ZK) protocols for NP relations from secure multiparty computation (MPC) protocols. In this paper we present the first machine-checked implementations of MitH. We begin with an EasyCrypt formalization that preserves the modular structure of the original construction and can be instantiated with arbitrary MPC protocols, and secret sharing and commitment schemes satisfying standard notions of security. We then formalize various suitable components, which we use to obtain full-fledged ZK protocols for general relations. We compare two approaches for obtaining verified executable implementations. The first uses a fully automated extraction from EasyCrypt to OCaml. The second reduces the trusted computing base (TCB) and provides better performance by combining code extraction with formally verified manual low-level components implemented in the Jasmin language. We conclude with a discussion of the trade-off between the formal verification effort and the performance of resulting executables, and how our approach opens the way for fully verified implementations of state-of the-art optimized protocols based on MitH.",
+    "citation_count": 13
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.12099.pdf",
+    "title": "Learning to Give Checkable Answers with Prover-Verifier Games",
+    "published_date": "2021-08-27",
+    "abstract": "Our ability to know when to trust the decisions made by machine learning systems has not kept up with the staggering improvements in their performance, limiting their applicability in high-stakes domains. We introduce Prover-Verifier Games (PVGs), a game-theoretic framework to encourage learning agents to solve decision problems in a verifiable manner. The PVG consists of two learners with competing objectives: a trusted verifier network tries to choose the correct answer, and a more powerful but untrusted prover network attempts to persuade the verifier of a particular answer, regardless of its correctness. The goal is for a reliable justification protocol to emerge from this game. We analyze variants of the framework, including simultaneous and sequential games, and narrow the space down to a subset of games which provably have the desired equilibria. We develop instantiations of the PVG for two algorithmic tasks, and show that in practice, the verifier learns a robust decision rule that is able to receive useful and reliable information from an untrusted prover. Importantly, the protocol still works even when the verifier is frozen and the prover's messages are directly optimized to convince the verifier.",
+    "citation_count": 12
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2106.09249v1.pdf",
+    "title": "Invisible for both Camera and LiDAR: Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks",
+    "published_date": "2021-05-01",
+    "abstract": "In Autonomous Driving (AD) systems, perception is both security and safety critical. Despite various prior studies on its security issues, all of them only consider attacks on camera-or LiDAR-based AD perception alone. However, production AD systems today predominantly adopt a Multi-Sensor Fusion (MSF) based design, which in principle can be more robust against these attacks under the assumption that not all fusion sources are (or can be) attacked at the same time. In this paper, we present the first study of security issues of MSF-based perception in AD systems. We directly challenge the basic MSF design assumption above by exploring the possibility of attacking all fusion sources simultaneously. This allows us for the first time to understand how much security guarantee MSF can fundamentally provide as a general defense strategy for AD perception.We formulate the attack as an optimization problem to generate a physically-realizable, adversarial 3D-printed object that misleads an AD system to fail in detecting it and thus crash into it. To systematically generate such a physical-world attack, we propose a novel attack pipeline that addresses two main design challenges: (1) non-differentiable target camera and LiDAR sensing systems, and (2) non-differentiable cell-level aggregated features popularly used in LiDAR-based AD perception. We evaluate our attack on MSF algorithms included in representative open-source industry-grade AD systems in real-world driving scenarios. Our results show that the attack achieves over 90% success rate across different object types and MSF algorithms. Our attack is also found stealthy, robust to victim positions, transferable across MSF algorithms, and physical-world realizable after being 3D-printed and captured by LiDAR and camera devices. To concretely assess the end-to-end safety impact, we further perform simulation evaluation and show that it can cause a 100% vehicle collision rate for an industry-grade AD system. We also evaluate and discuss defense strategies.",
+    "citation_count": 189
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/d396HCvYG7SSqg9Hh/take-scifs-it-s-dangerous-to-go-alone",
+    "author": "latterframe, Jeffrey Ladish, schroederdewitt",
+    "title": "Take SCIFs, it's dangerous to go alone",
+    "published_date": "2024-05-01"
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.08848",
+    "title": "Datasheets for Machine Learning Sensors",
+    "published_date": "2023-06-15",
+    "abstract": "Machine learning (ML) sensors are enabling intelligence at the edge by empowering end-users with greater control over their data. ML sensors offer a new paradigm for sensing that moves the processing and analysis to the device itself rather than relying on the cloud, bringing benefits like lower latency and greater data privacy. The rise of these intelligent edge devices, while revolutionizing areas like the internet of things (IoT) and healthcare, also throws open critical questions about privacy, security, and the opacity of AI decision-making. As ML sensors become more pervasive, it requires judicious governance regarding transparency, accountability, and fairness. To this end, we introduce a standard datasheet template for these ML sensors and discuss and evaluate the design and motivation for each section of the datasheet in detail including: standard dasheet components like the system's hardware specifications, IoT and AI components like the ML model and dataset attributes, as well as novel components like end-to-end performance metrics, and expanded environmental impact metrics. To provide a case study of the application of our datasheet template, we also designed and developed two examples for ML sensors performing computer vision-based person detection: one an open-source ML sensor designed and developed in-house, and a second commercial ML sensor developed by our industry collaborators. Together, ML sensors and their datasheets provide greater privacy, security, transparency, explainability, auditability, and user-friendliness for ML-enabled embedded systems. We conclude by emphasizing the need for standardization of datasheets across the broader ML community to ensure the responsible use of sensor data."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kvk2ZorXui4YB4zvc/part-1-direct-help-with-ai-info-and-computer-security",
+    "author": "Allison Duettmann",
+    "title": "AI infosec: first strikes, zero-day markets, hardware supply chains, adoption barriers",
+    "published_date": "2023-04-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20"
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.11745",
+    "title": "Side Auth: Synthesizing Virtual Sensors for Authentication",
+    "published_date": "2022-10-24",
+    "abstract": "While the embedded security research community aims to protect systems by reducing analog sensor side channels, our work argues that sensor side channels can be beneficial to defenders. This work introduces the general problem of synthesizing virtual sensors from existing circuits to authenticate physical sensors' measurands. We investigate how to apply this approach and present a preliminary analytical framework and definitions for sensors side channels. To illustrate the general concept, we provide a proof-of-concept case study to synthesize a virtual inertial measurement unit from a camera motion side channel. Our work also provides an example of applying this technique to protect facial recognition against silicon mask spoofing attacks. Finally, we discuss downstream problems of how to ensure that side channels benefit the defender, but not the adversary, during authentication."
+  }
+]

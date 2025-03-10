@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2201.06886v1.pdf",
+    "title": "Continual Learning for CTR Prediction: A Hybrid Approach",
+    "published_date": "2022-01-18",
+    "abstract": "Click-through rate(CTR) prediction is a core task in cost-per-click(CPC) advertising systems and has been studied extensively by machine learning practitioners. While many existing methods have been successfully deployed in practice, most of them are built upon i.i.d.(independent and identically distributed) assumption, ignoring that the click data used for training and inference is collected through time and is intrinsically non-stationary and drifting. This mismatch will inevitably lead to sub-optimal performance. To address this problem, we formulate CTR prediction as a continual learning task and propose COLF, a hybrid COntinual Learning Framework for CTR prediction, which has a memory-based modular architecture that is designed to adapt, learn and give predictions continuously when faced with non-stationary drifting click data streams. Married with a memory population method that explicitly controls the discrepancy between memory and target data, COLF is able to gain positive knowledge from its historical experience and makes improved CTR predictions. Empirical evaluations on click log collected from a major shopping app in China demonstrate our method's superiority over existing methods. Additionally, we have deployed our method online and observed significant CTR and revenue improvement, which further demonstrates our method's efficacy.",
+    "citation_count": 6
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rCP5iTYLtfcoC8NXd/self-organised-neural-networks-a-simple-natural-and",
+    "author": "D𝜋",
+    "title": "Self-Organised Neural Networks:\nA simple, natural and efficient way to intelligence",
+    "published_date": "2022-01-01"
+  },
+  {
+    "url": "https://arxiv.org/abs/2106.09563v2",
+    "title": "On Anytime Learning at Macroscale",
+    "published_date": "2021-06-17",
+    "abstract": "In many practical applications of machine learning data arrives sequentially over time in large chunks. Practitioners have then to decide how to allocate their computational budget in order to obtain the best performance at any point in time. Online learning theory for convex optimization suggests that the best strategy is to use data as soon as it arrives. However, this might not be the best strategy when using deep non-linear networks, particularly when these perform multiple passes over each chunk of data rendering the overall distribution non i.i.d.. In this paper, we formalize this learning setting in the simplest scenario in which each data chunk is drawn from the same underlying distribution, and make a first attempt at empirically answering the following questions: How long should the learner wait before training on the newly arrived chunks? What architecture should the learner adopt? Should the learner increase capacity over time as more data is observed? We probe this learning setting using convolutional neural networks trained on classic computer vision benchmarks as well as a large transformer model trained on a large-scale language modeling task. Code is available at \\url{www.github.com/facebookresearch/ALMA}.",
+    "citation_count": 23
+  },
+  {
+    "url": "https://arxiv.org/pdf/2007.12160v2.pdf",
+    "title": "Online Robust and Adaptive Learning from Data Streams",
+    "published_date": "2020-07-23",
+    "abstract": "In online learning from non-stationary data streams, it is both necessary to learn robustly to outliers and to adapt to changes of underlying data generating mechanism quickly. In this paper, we refer to the former nature of online learning algorithms as robustness and the latter as adaptivity. There is an obvious tradeoff between them. It is a fundamental issue to quantify and evaluate the tradeoff because it provides important information on the data generating mechanism. However, no previous work has considered the tradeoff quantitatively. We propose a novel algorithm called the Stochastic approximation-based Robustness-Adaptivity algorithm (SRA) to evaluate the tradeoff. The key idea of SRA is to update parameters of distribution or sufficient statistics with the biased stochastic approximation scheme, while dropping data points with large values of the stochastic update. We address the relation between two parameters, one of which is the step size of the stochastic approximation, and the other is the threshold parameter of the norm of the stochastic update. The former controls the adaptivity and the latter does the robustness. We give a theoretical analysis for the non-asymptotic convergence of SRA in the presence of outliers, which depends on both the step size and the threshold parameter. Since SRA is formulated on the majorization-minimization principle, it is a general algorithm including many algorithms, such as the online EM algorithm and stochastic gradient descent. Empirical experiments for both synthetic and real datasets demonstrated that SRA was superior to previous methods.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2003.05856v1.pdf",
+    "title": "Online Fast Adaptation and Knowledge Accumulation: a New Approach to Continual Learning",
+    "published_date": "2020-03-12",
+    "abstract": "Continual learning studies agents that learn from streams of tasks without forgetting previous ones while adapting to new ones. Two recent continual-learning scenarios have opened new avenues of research. In meta-continual learning, the model is pre-trained to minimize catastrophic forgetting of previous tasks. In continual-meta learning, the aim is to train agents for faster remembering of previous tasks through adaptation. In their original formulations, both methods have limitations. We stand on their shoulders to propose a more general scenario, OSAKA, where an agent must quickly solve new (out-of-distribution) tasks, while also requiring fast remembering. We show that current continual learning, meta-learning, meta-continual learning, and continual-meta learning techniques fail in this new scenario. We propose Continual-MAML, an online extension of the popular MAML algorithm as a strong baseline for this scenario. We empirically show that Continual-MAML is better suited to the new scenario than the aforementioned methodologies, as well as standard continual learning and meta-learning approaches.",
+    "citation_count": 65
+  }
+]

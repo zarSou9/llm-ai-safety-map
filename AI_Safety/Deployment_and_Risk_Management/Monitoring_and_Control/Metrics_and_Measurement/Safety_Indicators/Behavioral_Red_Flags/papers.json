@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Toward Safe and Efficient Human–Robot Interaction via Behavior-Driven Danger Signaling",
+    "abstract": "This article introduces the notion of danger awareness in the context of human–robot interaction, which decodes whether a human is aware of the existence of the robot, and illuminates whether the human is willing to engage in ensuring safety. This article also quantifies the notion as a single binary variable, called danger awareness coefficient, and provides a game-theoretic interpretation for that. Employing an online Bayesian learning method to update the robot's belief about the human's danger awareness by observing their actions, it is shown how the robot can build a predictive human model to anticipate the human's future actions. To enrich robot's observations, and thus to improve safety and efficiency of the robot, the robot is equipped with a danger signaling system to generate awareness in the human. Finally, a planning scheme is proposed to provide an efficient and probabilistically safe plan for the robot. The effectiveness of the proposed scheme is demonstrated through simulation studies on an interaction between a self-driven car and a pedestrian.",
+    "published_date": "2021-02-09",
+    "citation_count": 5,
+    "url": "https://ieeexplore.ieee.org/abstract/document/10229973"
+  },
+  {
+    "title": "Intelligent Safety Monitoring and Early Warning System for Construction Site",
+    "abstract": "Faced with the complex environment and difficult construction of infrastructure projects, designing an intelligent safety monitoring and early warning system for construction sites can effectively detect existing violations and reduce the probability of accidents. Existing violation detection methods for construction sites mainly include hand-crafted feature extraction and deep neural network. However, the method of extracting features is usually difficult to design and the architecture of the deep learning-based method is simple, which might lead to poor detection performance in extreme cases (Insufficient light, small detection object, occlusion, etc.) and cannot be used in actual detection environment. Therefore, we improve the existing target detection algorithm by adding image preprocessing module, multi-scale feature fusion module, and repulsion loss term. We also use the KCF algorithm to continuously track targets to identify specific violations. On this basis, we develop an intelligent safety monitoring and early warning system to classify the detected violations and send the information to the responsible person in time, which significantly improves the management capacity at the construction site. Through a series of experiments, we compared the impact of different modules on detection accuracy. The results show that our model has a significant improvement compared to existing methods on our dataset, especially in harsh environments.",
+    "published_date": "2020-06-02",
+    "url": "https://dl.acm.org/doi/10.1145/3425329.3425331"
+  },
+  {
+    "title": "Playing guardian angel: using a gamified approach to overcome the overconfidence bias in driving",
+    "abstract": "It is likely that a highly automated vehicle will be able to detect dangerous situations and also determine if the driver is reacting accordingly while driving manually. The car could then take over control to avoid imminent danger. A study was conducted to identify situations that are perceived as highly dangerous by drivers. To eliminate the general impression of having the situation under control, participants had to decide about system interventions for another driver in a self-programmed game. Results show that by using this approach, situations, like tailgating, can be identified that are perceived as dangerous by everybody. Additionally, collecting direct feedback about situations, where people would want their car to interfere with their own driving, is showing discrepancies to the results of the gamified approach. Using elements of gamification is a promising procedure for studies like this but must be considered during the analysis of the results.",
+    "published_date": "2019-11-26",
+    "url": "https://dl.acm.org/doi/10.1145/3365610.3365614"
+  },
+  {
+    "title": "Game-based safety checking with Mage",
+    "abstract": "Mage is a new experimental model checker based on game semantics. It adapts several techniques including lazy (on-the-fly) modelling, symbolic modelling, C.E.G.A.R. and approximated counterexample certification to game models. It demonstrates the potential for truly compositional verification of real software.",
+    "published_date": "2007-09-03",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/citation.cfm?doid=1292316.1292326"
+  }
+]

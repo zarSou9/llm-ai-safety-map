@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The article advocates for third-party testing of large-scale AI systems to mitigate societal harms stemming from misuse or accidental failures. This regime, focusing on computationally intensive models, aims to build trust, avoid hindering smaller companies, and facilitate international cooperation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.21279",
+    "title": "Comparative Global AI Regulation: Policy Perspectives from the EU, China, and the US",
+    "published_date": "2024-10-05",
+    "abstract": "As a powerful and rapidly advancing dual-use technology, AI offers both immense benefits and worrisome risks. In response, governing bodies around the world are developing a range of regulatory AI laws and policies. This paper compares three distinct approaches taken by the EU, China and the US. Within the US, we explore AI regulation at both the federal and state level, with a focus on California's pending Senate Bill 1047. Each regulatory system reflects distinct cultural, political and economic perspectives. Each also highlights differing regional perspectives on regulatory risk-benefit tradeoffs, with divergent judgments on the balance between safety versus innovation and cooperation versus competition. Finally, differences between regulatory frameworks reflect contrastive stances in regards to trust in centralized authority versus trust in a more decentralized free market of self-interested stakeholders. Taken together, these varied approaches to AI innovation and regulation influence each other, the broader international community, and the future of AI regulation.",
+    "summary": "This paper compares and contrasts the approaches to AI regulation adopted by the EU, China, and the US, highlighting the distinct cultural, political, and economic factors influencing their respective risk-benefit assessments and choices between centralized and decentralized regulatory models. These differing approaches impact international cooperation and the future direction of global AI governance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.02769",
+    "title": "Fundamentals of legislation for autonomous artificial intelligence systems",
+    "published_date": "2024-09-14",
+    "abstract": "The paper proposes a method for defining a dedicated operational context as part of the development and deployment of autonomous corporate governance systems. The case study of autonomous board of directors systems is examined. A significant part of the operational context for the autonomous corporate governance systems consists of the regulatory and legal framework that regulates the company's operations. A special operational context for autonomous artificial intelligence systems can be defined by simultaneously formulating local regulatory documents in two versions, i.e., to be used by people and by autonomous systems. In such a case, the artificial intelligence system receives a clearly defined operational context that allows such a system to perform its functions with a required operational quality. Local regulations that take into account the specificity of operations involving individuals and autonomous artificial intelligence systems can become the foundation of the relevant legislation that would regulate the development and deployment of autonomous systems.",
+    "summary": "This paper suggests creating parallel legal frameworks—one for humans and one for AI—within a company's operational context to effectively govern autonomous systems, using autonomous corporate boards as a case study. This dual framework would provide a clear operational context for AI, improving functionality and informing broader legislation for autonomous systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.09041",
+    "title": "Acceptable Use Policies for Foundation Models",
+    "published_date": "2024-08-29",
+    "abstract": "As foundation models have accumulated hundreds of millions of users, developers have begun to take steps to prevent harmful types of uses. One salient intervention that foundation model developers adopt is acceptable use policies—legally binding policies that prohibit users from using a model for specific purposes. This paper identifies acceptable use policies from 30 foundation model developers, analyzes the use restrictions they contain, and argues that acceptable use policies are an important lens for understanding the regulation of foundation models. Taken together, developers' acceptable use policies include 127 distinct use restrictions; the wide variety in the number and type of use restrictions may create fragmentation across the AI supply chain. Companies also employ acceptable use policies to prevent competitors or specific industries from making use of their models. Developers alone decide what constitutes acceptable use, and rarely provide transparency about how they enforce their policies. In practice, acceptable use policies are difficult to enforce, and scrupulous enforcement can act as a barrier to researcher access and limit beneficial uses of foundation models. Acceptable use policies for foundation models are an early example of self-regulation that have a significant impact on the market for foundation models and the AI ecosystem.",
+    "citation_count": 6,
+    "summary": "This paper analyzes acceptable use policies (AUPs) from 30 foundation model developers, revealing 127 distinct use restrictions highlighting the fragmented self-regulation of this technology and its potential to hinder research and beneficial applications while also serving competitive interests. AUPs represent an early form of self-regulation significantly impacting the foundation model market and broader AI ecosystem."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.13042",
+    "title": "How Do AI Companies \"Fine-Tune\" Policy? Examining Regulatory Capture in AI Governance",
+    "published_date": "2024-10-16",
+    "abstract": "Industry actors in the United States have gained extensive influence in conversations about the regulation of general-purpose artificial intelligence (AI) systems. Although industry participation is an important part of the policy process, it can also cause regulatory capture, whereby industry co-opts regulatory regimes to prioritize private over public welfare. Capture of AI policy by AI developers and deployers could hinder such regulatory goals as ensuring the safety, fairness, beneficence, transparency, or innovation of general-purpose AI systems. In this paper, we first introduce different models of regulatory capture from the social science literature. We then present results from interviews with 17 AI policy experts on what policy outcomes could compose regulatory capture in US AI policy, which AI industry actors are influencing the policy process, and whether and how AI industry actors attempt to achieve outcomes of regulatory capture. Experts were primarily concerned with capture leading to a lack of AI regulation, weak regulation, or regulation that over-emphasizes certain policy goals over others. Experts most commonly identified agenda-setting (15 of 17 interviews), advocacy (13), academic capture (10), information management (9), cultural capture through status (7), and media capture (7) as channels for industry influence. To mitigate these particular forms of industry influence, we recommend systemic changes in developing technical expertise in government and civil society, independent funding streams for the AI ecosystem, increased transparency and ethics requirements, greater civil society access to policy, and various procedural safeguards.",
+    "summary": "This paper examines regulatory capture in US AI governance, finding that AI companies significantly influence policy through various channels (e.g., agenda-setting, advocacy, information management), potentially resulting in weak or biased regulation that prioritizes private interests over public welfare. The authors propose systemic changes to mitigate this capture and ensure safer, fairer AI development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, focuses on AI model registries—centralized databases tracking AI systems for governance purposes. These registries, drawing parallels with pharmaceutical regulations, vary widely in implementation across countries like the US and China, mandating different levels of model information and pre-release safety assessments."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/vzGC4zh73dfcqnFgf/open-source-ai-a-regulatory-review",
+    "author": "Elliot_Mckernon, Deric Cheng",
+    "title": "Open-Source AI: A Regulatory Review",
+    "published_date": "2024-04-29",
+    "summary": "This article examines the implications of open-sourcing AI models, focusing on the trade-offs between promoting collaboration and potentially increasing risks of misuse. It highlights the varying levels of openness (e.g., open weights vs. full open-source) and discusses the challenges of mitigating potential harms associated with powerful, readily accessible AI models."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising AI safety strategy, though currently under-developed. Proposed methods aim to increase visibility into AI development, allocate compute resources strategically, and enforce regulations on its use."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mXD53GFvMCWQhcCwt/distinguishing-ways-ai-can-be-concentrated",
+    "author": "Matthew Barnett",
+    "title": "Distinguishing ways AI can be \"concentrated\"",
+    "published_date": "2024-10-21",
+    "summary": "The author argues that discussions of AI concentration lack clarity, proposing three distinct dimensions—development, service provision, and control—that should be analyzed separately. These dimensions can vary independently, affecting AI's trajectory and necessitating nuanced policy considerations."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.04914",
+    "title": "Regulatory Markets: The Future of AI Governance",
+    "published_date": "2023-04-11",
+    "abstract": "Appropriately regulating artificial intelligence is an increasingly urgent policy challenge. Legislatures and regulators lack the specialized knowledge required to best translate public demands into legal requirements. Overreliance on industry self-regulation fails to hold producers and users of AI systems accountable to democratic demands. Regulatory markets, in which governments require the targets of regulation to purchase regulatory services from a private regulator, are proposed. This approach to AI regulation could overcome the limitations of both command-and-control regulation and self-regulation. Regulatory market could enable governments to establish policy priorities for the regulation of AI, whilst relying on market forces and industry R&D efforts to pioneer the methods of regulation that best achieve policymakers' stated objectives.",
+    "citation_count": 21,
+    "summary": "The paper proposes regulatory markets for AI governance, where governments set policy goals and private firms compete to provide regulatory services, addressing limitations of both government-mandated and self-regulation. This approach leverages market forces and industry expertise to achieve effective AI regulation."
+  }
+]

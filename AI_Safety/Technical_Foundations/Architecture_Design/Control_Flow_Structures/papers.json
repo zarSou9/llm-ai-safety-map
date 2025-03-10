@@ -1,0 +1,77 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/6cWgaaxWqGYwJs3vj/a-basic-systems-architecture-for-ai-agents-that-do",
+    "author": "Buck",
+    "title": "A basic systems architecture for AI agents that do autonomous research",
+    "published_date": "2024-09-23",
+    "summary": "The article proposes a three-server architecture (inference, scaffold, execution) for securing autonomous AI agents conducting research, emphasizing the importance of separating these functionalities to mitigate escape risks. Different threat models targeting AI misalignment require compromising different parts of this distributed system."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.08138.pdf",
+    "title": "Architecting Safer Autonomous Aviation Systems",
+    "published_date": "2023-01-09",
+    "abstract": "The aviation literature gives relatively little guidance to practitioners about the specifics of architecting systems for safety, particularly the impact of architecture on allocating safety requirements, or the relative ease of system assurance resulting from system or subsystem level architectural choices. As an exemplar, this paper considers common architectural patterns used within traditional aviation systems and explores their safety and safety assurance implications when applied in the context of integrating artificial intelligence (AI) and machine learning ( ML ) based functionality. Considering safety as an architectural property, we discuss both the allocation of safety requirements and the architectural trade-offs involved early in the design lifecycle. This approach could be extended to other assured properties, similar to safety, such as security. We conclude with a discussion of the safety considerations that emerge in the context of candidate architectural patterns that have been proposed in the recent literature for enabling autonomy capabilities by integrating AI and ML. A recommendation is made for the generation of a property-driven architectural pattern catalogue.",
+    "citation_count": 2,
+    "summary": "This paper examines how architectural choices impact the safety and assurance of autonomous aviation systems, particularly when integrating AI/ML, advocating for early consideration of safety requirements and proposing a property-driven architectural pattern catalogue. It analyzes common architectural patterns' implications for safety and assurance in this context."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "The article explores applying game theory to AI development within organizational structures, highlighting both its usefulness in multi-agent systems and limitations. It emphasizes the enduring relevance of bureaucratic principles—hierarchical authority and specialization—even with AI integration, arguing that human-AI collaboration, based on comparative advantage, will remain necessary for complex problem-solving."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zYv9BQBGnk2EdCwoG/the-psyche-of-ai-pattern-recognition",
+    "author": "Scott Broock",
+    "title": "AI and the Map of Your Mind: Pattern Recognition",
+    "published_date": "2023-03-20",
+    "summary": "Integrating large language models into productivity suites allows AI to create personalized knowledge graphs from user data, offering benefits like enhanced learning and decision-making. However, this also raises concerns about granting AI unrestricted access to personal information and its implications for understanding the human psyche."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/tiKG7gvQ33vf8QAgy/wittgenstein-and-ml-parameters-vs-architecture",
+    "author": "Cleo Nardo",
+    "title": "Wittgenstein and ML — parameters vs architecture",
+    "published_date": "2023-03-24",
+    "summary": "The article uses examples from deep learning and symbolic logic AI to illustrate Wittgenstein's concept of \"hinges\" – foundational, unquestioned beliefs upon which further reasoning depends. It argues that AI models can arrive at the same conclusions (\"beliefs\") through different internal mechanisms, highlighting the importance of considering both black-box outputs and internal representations for understanding AI knowledge."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2203.00905.pdf",
+    "title": "Responsible-AI-by-Design: a Pattern Collection for Designing Responsible AI Systems",
+    "published_date": "2022-03-02",
+    "abstract": "Although AI has significant potential to transform society, there are serious concerns about its ability to behave and make decisions responsibly. Many ethical regulations, principles, and guidelines for responsible AI have been issued recently. However, these principles are high-level and difficult to put into practice. In the meantime much effort has been put into responsible AI from the algorithm perspective, but they are limited to a small subset of ethical principles amenable to mathematical analysis. Responsible AI issues go beyond data and algorithms and are often at the system-level crosscutting many system components and the entire software engineering lifecycle. Based on the result of a systematic literature review, this paper identifies one missing element as the system-level guidance - how to design the architecture of responsible AI systems. We present a summary of design patterns that can be embedded into the AI systems as product features to contribute to responsible-AI-by-design.",
+    "citation_count": 17,
+    "summary": "This paper addresses the lack of system-level guidance for designing responsible AI systems, presenting a collection of design patterns derived from a literature review to integrate responsible AI principles into system architecture and the software development lifecycle. These patterns aim to facilitate the practical application of high-level ethical guidelines for AI."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2212.13570.pdf",
+    "title": "A Compositional Approach to Creating Architecture Frameworks with an Application to Distributed AI Systems",
+    "published_date": "2022-12-27",
+    "abstract": "Artificial intelligence (AI) in its various forms finds more and more its way into complex distributed systems. For instance, it is used locally, as part of a sensor system, on the edge for low-latency high-performance inference, or in the cloud, e.g. for data mining. Modern complex systems, such as connected vehicles, are often part of an Internet of Things (IoT). To manage complexity, architectures are described with architecture frameworks, which are composed of a number of architectural views connected through correspondence rules. Despite some attempts, the definition of a mathematical foundation for architecture frameworks that are suitable for the development of distributed AI systems still requires investigation and study. In this paper, we propose to extend the state of the art on architecture framework by providing a mathematical model for system architectures, which is scalable and supports co-evolution of different aspects for example of an AI system. Based on Design Science Research, this study starts by identifying the challenges with architectural frameworks. Then, we derive from the identified challenges four rules and we formulate them by exploiting concepts from category theory. We show how compositional thinking can provide rules for the creation and management of architectural frameworks for complex systems, for example distributed systems with AI. The aim of the paper is not to provide viewpoints or architecture models specific to AI systems, but instead to provide guidelines based on a mathematical formulation on how a consistent framework can be built up with existing, or newly created, viewpoints. To put in practice and test the approach, the identified and formulated rules are applied to derive an architectural framework for the EU Horizon 2020 project ``Very efficient deep learning in the IoT\"(VEDLIoT) in the form of a case study.",
+    "citation_count": 15,
+    "summary": "This paper presents a novel mathematical model, based on category theory, for creating scalable and adaptable architecture frameworks, addressing the challenges of designing complex distributed AI systems. The model, validated through a case study on the VEDLIoT project, provides compositional rules for building consistent frameworks from existing or new viewpoints."
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.03219",
+    "title": "B-SMART: A Reference Architecture for Artificially Intelligent Autonomic Smart Buildings",
+    "published_date": "2022-11-06",
+    "abstract": "The pervasive application of artificial intelligence and machine learning algorithms is transforming many industries and aspects of the human experience. One very important industry trend is the move to convert existing human dwellings to smart buildings, and to create new smart buildings. Smart buildings aim to mitigate climate change by reducing energy consumption and associated carbon emissions. To accomplish this, they leverage artificial intelligence, big data, and machine learning algorithms to learn and optimize system performance. These fields of research are currently very rapidly evolving and advancing, but there has been very little guidance to help engineers and architects working on smart buildings apply artificial intelligence algorithms and technologies in a systematic and effective manner. In this paper we present B-SMART: the first reference architecture for autonomic smart buildings. B-SMART facilitates the application of artificial intelligence techniques and technologies to smart buildings by decoupling conceptually distinct layers of functionality and organizing them into an autonomic control loop. We also present a case study illustrating how B-SMART can be applied to accelerate the introduction of artificial intelligence into an existing smart building.",
+    "citation_count": 19,
+    "summary": "B-SMART is a novel reference architecture for autonomic smart buildings that systematically applies AI and machine learning to optimize energy consumption and reduce carbon emissions. This architecture uses an autonomic control loop to decouple functional layers, facilitating AI integration and offering a practical framework for engineers and architects."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2212.13866.pdf",
+    "title": "Architecture Decisions in AI-based Systems Development: An Empirical Study",
+    "published_date": "2022-12-28",
+    "abstract": "Artificial Intelligence (AI) technologies have been developed rapidly, and AI-based systems have been widely used in various application domains with opportunities and challenges. However, little is known about the architecture decisions made in AI-based systems development, which has a substantial impact on the success and sustainability of these systems. To this end, we conducted an empirical study by collecting and analyzing the data from Stack Overflow (SO) and GitHub. More specifically, we searched on SO with six sets of keywords and explored 32 AI-based projects on GitHub, and finally we collected 174 posts and 128 GitHub issues related to architecture decisions. The results show that in AI-based systems development (1) architecture decisions are expressed in six linguistic patterns, among which Solution Proposal and Information Giving are most frequently used, (2) Technology Decision, Component Decision, and Data Decision are the main types of architecture decisions made, (3) Game is the most common application domain among the eighteen application domains identified, (4) the dominant quality attribute considered in architecture decision-making is Performance, and (5) the main limitations and challenges encountered by practitioners in making architecture decisions are Design Issues and Data Issues. Our results suggest that the limitations and challenges when making architecture decisions in AI-based systems development are highly specific to the characteristics of AI-based systems and are mainly of technical nature, which need to be properly confronted.",
+    "citation_count": 3,
+    "summary": "This empirical study, using Stack Overflow and GitHub data, analyzes architecture decisions in AI-based system development, identifying prevalent decision types (technology, component, data), common quality attribute concerns (performance), and recurring challenges (design and data issues). The study reveals six linguistic patterns used to express these decisions, with \"Solution Proposal\" and \"Information Giving\" being most frequent."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2204.13291v1.pdf",
+    "title": "Decision Models for Selecting Federated Learning Architecture Patterns",
+    "published_date": "2022-04-28",
+    "abstract": "Federated machine learning is growing fast in academia and industries as a solution to solve data hungriness and privacy issues in machine learning. Being a widely distributed system, federated machine learning requires various system design thinking. To better design a federated machine learning system, researchers have introduced multiple patterns and tactics that cover various system design aspects. However, the multitude of patterns leaves the designers confused about when and which pattern to adopt. In this paper, we present a set of decision models for the selection of patterns for federated machine learning architecture design based on a systematic literature review on federated machine learning, to assist designers and architects who have limited knowledge of federated machine learning. Each decision model maps functional and non-functional requirements of federated machine learning systems to a set of patterns. We also clarify the drawbacks of the patterns. We evaluated the decision models by mapping the decision patterns to concrete federated machine learning architectures by big tech firms to assess the models' correctness and usefulness. The evaluation results indicate that the proposed decision models are able to bring structure to the federated machine learning architecture design process and help explicitly articulate the design rationale.",
+    "summary": "This paper presents decision models to guide the selection of federated learning architecture patterns, addressing the complexity of choosing among numerous options by mapping functional and non-functional requirements to specific patterns and their limitations. These models were evaluated against real-world federated learning architectures from major tech companies, demonstrating their utility in structuring the design process."
+  }
+]

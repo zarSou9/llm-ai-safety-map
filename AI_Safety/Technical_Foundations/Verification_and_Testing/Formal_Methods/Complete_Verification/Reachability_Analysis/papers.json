@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/PbXwdFnSC26Q96FG3/aspiration-based-designs-outlook-dealing-with-complexity",
+    "author": "Jobst Heitzig, jossoliver, thomasfinn, Simon Dima",
+    "title": "[Aspiration-based designs] Outlook: dealing with complexity",
+    "published_date": "2024-04-28"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.07662.pdf",
+    "title": "Guaranteed approximations of arbitrarily quantified reachability problems",
+    "published_date": "2023-09-14",
+    "abstract": "We propose an approach to compute inner and outer-approximations of the sets of values satisfying constraints expressed as arbitrarily quantified formulas. Such formulas arise for instance when specifying important problems in control such as robustness, motion planning or controllers comparison. We propose an interval-based method which allows for tractable but tight approximations. We demonstrate its applicability through a series of examples and benchmarks using a prototype implementation.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.08114.pdf",
+    "title": "An Interval Arithmetic Approach to Input-Output Reachability",
+    "published_date": "2023-06-13",
+    "abstract": "The safety region of operation of a system is the subset of allowed outputs for which no undesirable outcome would occur. Knowing if a system would ever leave its safety regions of operation is important information for the planning and control of systems. The computation of the set of outputs commonly referred to as the reachable set of the system is, in many cases, intensive and a simple overestimation of it is preferred, instead. There are several perspectives to address this problem including set-based approaches, Mixed-Monotonicity, Hamilton-Jacobi reachability, neural networks, and recently reachability via Chen-Fliess series. In the present work, a Chen-Fliess series representing the input-output behavior of a dynamical system along with interval arithmetic is used to overestimate the reachable set of a system. The advantage of this combination of techniques is that it provides a closed-form of the overestimating set. Examples are presented to illustrate the results.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/eDicGjD9yte6FLSie/interpreting-neural-networks-through-the-polytope-lens",
+    "author": "Sid Black, Lee Sharkey, Connor Leahy, beren, CRG, merizian, Eric Winsor, Dan Braun",
+    "title": "Interpreting Neural Networks through the Polytope Lens",
+    "published_date": "2022-09-23"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2112.05745v3.pdf",
+    "title": "A Simple and Efficient Sampling-based Algorithm for General Reachability Analysis",
+    "published_date": "2021-12-10",
+    "abstract": "In this work, we analyze an efficient sampling-based algorithm for general-purpose reachability analysis, which remains a notoriously challenging problem with applications ranging from neural network verification to safety analysis of dynamical systems. By sampling inputs, evaluating their images in the true reachable set, and taking their $\\epsilon$-padded convex hull as a set estimator, this algorithm applies to general problem settings and is simple to implement. Our main contribution is the derivation of asymptotic and finite-sample accuracy guarantees using random set theory. This analysis informs algorithmic design to obtain an $\\epsilon$-close reachable set approximation with high probability, provides insights into which reachability problems are most challenging, and motivates safety-critical applications of the technique. On a neural network verification task, we show that this approach is more accurate and significantly faster than prior work. Informed by our analysis, we also design a robust model predictive controller that we demonstrate in hardware experiments.",
+    "citation_count": 14
+  }
+]

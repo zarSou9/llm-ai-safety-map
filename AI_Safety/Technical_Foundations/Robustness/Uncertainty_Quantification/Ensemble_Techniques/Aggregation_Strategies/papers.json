@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2305.15786v2",
+    "title": "Theoretical Guarantees of Learning Ensembling Strategies with Applications to Time Series Forecasting",
+    "published_date": "2023-05-25",
+    "abstract": "Ensembling is among the most popular tools in machine learning (ML) due to its effectiveness in minimizing variance and thus improving generalization. Most ensembling methods for black-box base learners fall under the umbrella of\"stacked generalization,\"namely training an ML algorithm that takes the inferences from the base learners as input. While stacking has been widely applied in practice, its theoretical properties are poorly understood. In this paper, we prove a novel result, showing that choosing the best stacked generalization from a (finite or finite-dimensional) family of stacked generalizations based on cross-validated performance does not perform\"much worse\"than the oracle best. Our result strengthens and significantly extends the results in Van der Laan et al. (2007). Inspired by the theoretical analysis, we further propose a particular family of stacked generalizations in the context of probabilistic forecasting, each one with a different sensitivity for how much the ensemble weights are allowed to vary across items, timestamps in the forecast horizon, and quantiles. Experimental results demonstrate the performance gain of the proposed method.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2206.08541v2",
+    "title": "Ensemble Distributional Forecasting for Insurance Loss Reserving",
+    "published_date": "2022-06-17",
+    "abstract": "Loss reserving generally focuses on identifying a single model that can generate superior predictive performance. However, different loss reserving models specialise in capturing different aspects of loss data. This is recognised in practice in the sense that results from different models are often considered, and sometimes combined. For instance, actuaries may take a weighted average of the prediction outcomes from various loss reserving models, often based on subjective assessments. In this paper, we propose a systematic framework to objectively combine (i.e. ensemble) multiple _stochastic_ loss reserving models such that the strengths offered by different models can be utilised effectively. Our framework contains two main innovations compared to existing literature and practice. Firstly, our criteria model combination considers the full distributional properties of the ensemble and not just the central estimate - which is of particular importance in the reserving context. Secondly, our framework is that it is tailored for the features inherent to reserving data. These include, for instance, accident, development, calendar, and claim maturity effects. Crucially, the relative importance and scarcity of data across accident periods renders the problem distinct from the traditional ensembling techniques in statistical learning. Our framework is illustrated with a complex synthetic dataset. In the results, the optimised ensemble outperforms both (i) traditional model selection strategies, and (ii) an equally weighted ensemble. In particular, the improvement occurs not only with central estimates but also relevant quantiles, such as the 75th percentile of reserves (typically of interest to both insurers and regulators). The framework developed in this paper can be implemented thanks to an R package, `ADLP`, which is available from CRAN.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ixiCECkFFguFcHWFa/paper-forecasting-world-events-with-neural-nets",
+    "author": "Owain_Evans, Dan H, Joe Kwon",
+    "title": "Paper: Forecasting world events with neural nets",
+    "published_date": "2022-07-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.08658v1.pdf",
+    "title": "A Dataset-Level Geometric Framework for Ensemble Classifiers",
+    "published_date": "2021-06-16",
+    "abstract": "Ensemble classifiers have been investigated by many in the artificial intelligence and machine learning community. Majority voting and weighted majority voting are two commonly used combination schemes in ensemble learning. However, understanding of them is incomplete at best, with some properties even misunderstood. In this paper, we present a group of properties of these two schemes formally under a dataset-level geometric framework. Two key factors, every component base classifier's performance and dissimilarity between each pair of component classifiers are evaluated by the same metric - the Euclidean distance. Consequently, ensembling becomes a deterministic problem and the performance of an ensemble can be calculated directly by a formula. We prove several theorems of interest and explain their implications for ensembles. In particular, we compare and contrast the effect of the number of component classifiers on these two types of ensemble schemes. Empirical investigation is also conducted to verify the theoretical results when other metrics such as accuracy are used. We believe that the results from this paper are very useful for us to understand the fundamental properties of these two combination schemes and the principles of ensemble classifiers in general. The results are also helpful for us to investigate some issues in ensemble classifiers, such as ensemble performance prediction, selecting a small number of base classifiers to obtain efficient and effective ensembles.",
+    "citation_count": 2
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/bsXPTiAhhwt5nwBW3/do-sparse-autoencoders-saes-transfer-across-base-and",
+    "author": "Taras Kutsyk; Tommaso Mencattini; Ciprian Florea",
+    "title": "Do Sparse Autoencoders (SAEs) transfer across base and finetuned language models?",
+    "published_date": "2024-09-29",
+    "summary": "This study investigates the transferability of Sparse Autoencoders (SAEs) from base to fine-tuned large language models (LLMs), finding that transferability is model-dependent and significantly impacted by the fine-tuning process, with results varying between Gemma-2b and Mistral-7B. The researchers used several metrics to assess this transferability, making their code publicly available."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/37uuuPQKiGisi8cGG/language-and-capabilities-testing-llm-mathematical-abilities",
+    "author": "Ethan Edwards",
+    "title": "Language and Capabilities: Testing LLM Mathematical Abilities Across Languages",
+    "published_date": "2024-04-04",
+    "summary": "This study investigated GPT-4's ability to perform three-digit multiplication in various languages and numeral systems, finding that while performance is best with Arabic numerals, success depends heavily on prompt phrasing and unexpected emergent properties of specific language-numeral combinations, rather than a generalized understanding of mathematics or numeral conversion. The results suggest that GPT-4's mathematical capabilities rely on learned token patterns rather than abstract mathematical reasoning."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nLRKKCTtwQgvozLTN/gradient-routing-masking-gradients-to-localize-computation",
+    "author": "cloud, Jacob G-W, Evzen, Joseph Miller, TurnTrout",
+    "title": "Gradient Routing: Masking Gradients to Localize Computation in Neural Networks",
+    "published_date": "2024-12-06",
+    "summary": "Gradient routing is a technique for controlling where learning occurs in neural networks by applying masks to gradient backpropagation, enabling the creation of specialized subcomponents within a model. This allows for increased transparency, removal of sensitive capabilities, and improved control over model behavior, as demonstrated in applications such as MNIST digit separation and language model feature localization."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/QQP4nq7TXg89CJGBh/a-sober-look-at-steering-vectors-for-llms",
+    "author": "Joschka Braun, Dmitrii Krasheninnikov, Usman Anwar, RobertKirk, Daniel Tan, David Scott Krueger (formerly: capybaralet)",
+    "title": "A Sober Look at Steering Vectors for LLMs",
+    "published_date": "2024-11-23",
+    "summary": "This article analyzes challenges in using activation steering to control Large Language Model (LLM) behavior, finding that current methods are unreliable, generalize poorly, and often negatively impact model performance. Key issues include inconsistent steerability across concepts and overestimation of effectiveness due to limited evaluation settings."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/5SKRHQEFr8wYQHYkx/connecting-the-dots-llms-can-infer-and-verbalize-latent",
+    "author": "Johannes Treutlein; Owain Evans",
+    "title": "Connecting the Dots: LLMs can Infer & Verbalize Latent Structure from Training Data",
+    "published_date": "2024-06-21",
+    "summary": "Researchers demonstrate that large language models (LLMs) can infer latent information from training data and apply this knowledge to downstream tasks without explicit in-context learning or prompting, raising concerns about the challenges of controlling knowledge acquisition in LLMs. This \"inductive out-of-context reasoning\" was observed across various tasks, including inferring a function from input-output pairs and identifying a city from inter-city distances."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/baJyjpktzmcmRfosq/stitching-saes-of-different-sizes",
+    "author": "Bart Bussmann; Patrick Leask; Joseph Bloom; Curt Tigges; Neel Nanda",
+    "title": "Stitching SAEs of different sizes",
+    "published_date": "2024-07-13",
+    "summary": "Scaling up sparse autoencoders (SAEs) produces both \"novel features\" containing new information and \"reconstruction features\" that sparsify existing information. Adding only the novel features from a larger SAE to a smaller one improves the smaller SAE's performance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCz7viTXMhjxdkFRs/paper-identifying-the-risks-of-lm-agents-with-an-lm-emulated",
+    "author": "Singularian2501",
+    "title": "Paper: Identifying the Risks of LM Agents with an LM-Emulated Sandbox - University of Toronto 2023 - Benchmark consisting of 36 high-stakes tools and 144 test cases!",
+    "published_date": "2023-10-09",
+    "summary": "ToolEmu is a framework using a language model to emulate tool execution for testing language model agents, enabling efficient identification of safety risks associated with tool use without manual setup; evaluation shows it effectively identifies potential real-world agent failures, highlighting significant risks even in ostensibly safe agents."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13",
+    "summary": "This article explains Deep Q-Networks (DQN), a foundational deep reinforcement learning algorithm, at multiple levels of detail. It provides a high-level overview accessible to those familiar with reinforcement learning, and then delves into the mathematical and technical aspects for readers seeking a deeper understanding."
+  }
+]

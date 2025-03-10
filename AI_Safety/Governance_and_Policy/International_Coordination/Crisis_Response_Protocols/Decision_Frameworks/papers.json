@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.07985",
+    "title": "Games for AI Control: Models of Safety Evaluations of AI Deployment Protocols",
+    "published_date": "2024-09-12",
+    "abstract": "To evaluate the safety and usefulness of deployment protocols for untrusted AIs, AI Control uses a red-teaming exercise played between a protocol designer and an adversary. This paper introduces AI-Control Games, a formal decision-making model of the red-teaming exercise as a multi-objective, partially observable, stochastic game. We also introduce methods for finding optimal protocols in AI-Control Games, by reducing them to a set of zero-sum partially observable stochastic games. We apply our formalism to model, evaluate and synthesise protocols for deploying untrusted language models as programming assistants, focusing on Trusted Monitoring protocols, which use weaker language models and limited human assistance. Finally, we demonstrate the utility of our formalism by showcasing improvements over empirical studies in existing settings, evaluating protocols in new settings, and analysing how modelling assumptions affect the safety and usefulness of protocols.",
+    "citation_count": 2,
+    "summary": "This paper presents AI-Control Games, a formal game-theoretic model for evaluating the safety of AI deployment protocols by framing the red-teaming process as a multi-objective stochastic game. The model is used to synthesize and evaluate protocols, demonstrating improvements over existing empirical methods and enabling analysis of protocol robustness under varying assumptions."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.03865",
+    "title": "AdaSociety: An Adaptive Environment with Social Structures for Multi-Agent Decision-Making",
+    "published_date": "2024-11-06",
+    "abstract": "Traditional interactive environments limit agents' intelligence growth with fixed tasks. Recently, single-agent environments address this by generating new tasks based on agent actions, enhancing task diversity. We consider the decision-making problem in multi-agent settings, where tasks are further influenced by social connections, affecting rewards and information access. However, existing multi-agent environments lack a combination of adaptive physical surroundings and social connections, hindering the learning of intelligent behaviors. To address this, we introduce AdaSociety, a customizable multi-agent environment featuring expanding state and action spaces, alongside explicit and alterable social structures. As agents progress, the environment adaptively generates new tasks with social structures for agents to undertake. In AdaSociety, we develop three mini-games showcasing distinct social structures and tasks. Initial results demonstrate that specific social structures can promote both individual and collective benefits, though current reinforcement learning and LLM-based algorithms show limited effectiveness in leveraging social structures to enhance performance. Overall, AdaSociety serves as a valuable research platform for exploring intelligence in diverse physical and social settings. The code is available at https://github.com/bigai-ai/AdaSociety.",
+    "summary": "AdaSociety is a novel multi-agent environment featuring adaptive physical and social structures, enabling the exploration of intelligent behavior in dynamically changing social and task contexts. It provides three mini-games showcasing diverse social structures and demonstrates the potential benefits of these structures, while also highlighting limitations of current reinforcement learning and LLM approaches."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential trajectories of transformative AI (TAI), focusing on the possibility of TAI emerging within the next decade. The program aims to identify existential hazards, evaluate AI safety and governance strategies across various scenarios, and ultimately recommend strategies to mitigate existential risks."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of blog posts aims to provide a comprehensive introduction to AI safety, though the content and order are still under development."
+  },
+  {
+    "url": "https://arxiv.org/abs/2208.11282",
+    "title": "Multi-AI Complex Systems in Humanitarian Response",
+    "published_date": "2022-08-24",
+    "abstract": "AI is being increasingly used to aid response efforts to humanitarian emergencies at multiple levels of decision-making. Such AI systems are generally understood to be stand-alone tools for decision support, with ethical assessments, guidelines and frameworks applied to them through this lens. However, as the prevalence of AI increases in this domain, such systems will begin to encounter each other through information flow networks created by interacting decision-making entities, leading to multi-AI complex systems which are often ill understood. In this paper we describe how these multi-AI systems can arise, even in relatively simple real-world humanitarian response scenarios, and lead to potentially emergent and erratic erroneous behavior. We discuss how we can better work towards more trustworthy multi-AI systems by exploring some of the associated challenges and opportunities, and how we can design better mechanisms to understand and assess such systems. This paper is designed to be a first exposition on this topic in the field of humanitarian response, raising awareness, exploring the possible landscape of this domain, and providing a starting point for future work within the wider community.",
+    "summary": "This paper introduces the emerging concept of multi-AI complex systems in humanitarian response, highlighting how interacting AI systems can lead to unpredictable and potentially harmful emergent behavior due to information network effects. It calls for further research into understanding and improving the trustworthiness of these systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2205.03300v1",
+    "title": "Collective Intelligence as Infrastructure for Reducing Broad Global Catastrophic Risks",
+    "published_date": "2022-05-06",
+    "abstract": "Academic and philanthropic communities have grown increasingly concerned with global catastrophic risks (GCRs), including artificial intelligence safety, pandemics, biosecurity, and nuclear war. Outcomes of many, if not all, risk situations hinge on the performance of human groups, such as whether governments or scientific communities can work effectively. We propose to think about these issues as Collective Intelligence (CI) problems -- of how to process distributed information effectively. CI is a transdisciplinary research area, whose application involves human and animal groups, markets, robotic swarms, collections of neurons, and other distributed systems. In this article, we argue that improving CI in human groups can improve general resilience against a wide variety of risks. We summarize findings from the CI literature on conditions that improve human group performance, and discuss ways existing CI findings may be applied to GCR mitigation. We also suggest several directions for future research at the exciting intersection of these two emerging fields.",
+    "citation_count": 2,
+    "summary": "This paper argues that improving collective intelligence (CI) in human groups can significantly reduce global catastrophic risks (GCRs) by enhancing the effectiveness of societal responses to crises like pandemics and nuclear threats. It explores how existing CI research can inform GCR mitigation strategies and proposes avenues for future research at the intersection of these fields."
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.12673",
+    "title": "Decision-making of Emergent Incident based on P-MADDPG",
+    "published_date": "2022-03-19",
+    "abstract": "In recent years, human casualties and damage to resources caused by emergent incidents have become a serious problem worldwide. In this paper, we model the emergency decision-making problem and use Multi-agent System (MAS) to solve the problem that the decision speed cannot keep up with the spreading speed. MAS can play an important role in the automated execution of these tasks to reduce mission completion time. In this paper, we propose a P-MADDPG algorithm to solve the emergency decision-making problem of emergent incidents, which predicts the nodes where an incident may occur in the next time by GRU model and makes decisions before the incident occurs, thus solving the problem that the decision speed cannot keep up with the spreading speed. A simulation environment was established for realistic scenarios, and three scenarios were selected to test the performance of P-MADDPG in emergency decision-making problems for emergent incidents: unmanned storage, factory assembly line, and civil airport baggage transportation. Simulation results using the P-MADDPG algorithm are compared with the greedy algorithm and the MADDPG algorithm, and the final experimental results show that the P-MADDPG algorithm converges faster and better than the other algorithms in scenarios of different sizes. This shows that the P-MADDP algorithm is effective for emergency decision-making in emergent incident.",
+    "summary": "This paper proposes P-MADDPG, a multi-agent reinforcement learning algorithm that predicts and preemptively addresses emergent incidents by leveraging a GRU model for prediction and a MADDPG framework for decision-making, outperforming greedy and MADDPG approaches in simulated scenarios. The improved performance stems from proactive decision-making before incident occurrence, addressing the speed limitation of reactive approaches."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2211.06351.pdf",
+    "title": "Emergency action termination for immediate reaction in hierarchical reinforcement learning",
+    "published_date": "2022-11-11",
+    "abstract": "Hierarchical decomposition of control is unavoidable in large dynamical systems. In reinforcement learning (RL), it is usually solved with subgoals defined at higher policy levels and achieved at lower policy levels. Reaching these goals can take a substantial amount of time, during which it is not verified whether they are still worth pursuing. However, due to the randomness of the environment, these goals may become obsolete. In this paper, we address this gap in the state-of-the-art approaches and propose a method in which the validity of higher-level actions (thus lower-level goals) is constantly verified at the higher level. If the actions, i.e. lower level goals, become inadequate, they are replaced by more appropriate ones. This way we combine the advantages of hierarchical RL, which is fast training, and flat RL, which is immediate reactivity. We study our approach experimentally on seven benchmark environments.",
+    "summary": "This paper proposes a hierarchical reinforcement learning method that continuously verifies the validity of high-level actions, allowing for immediate replacement with more appropriate actions if environmental changes render the initial goals obsolete, thus combining the benefits of hierarchical and flat RL approaches. Experimental results on seven benchmark environments support the method's effectiveness."
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/tag/health-medicine-disease",
+    "title": "Health / Medicine / Disease - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "The provided text is not an article; it's a brief note indicating that information regarding the 2019 coronavirus outbreak is located elsewhere. No health information is presented within this snippet."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.10338.pdf",
+    "title": "A general-purpose AI assistant embedded in an open-source radiology information system",
+    "published_date": "2023-03-18",
+    "abstract": "Radiology AI models have made significant progress in near-human performance or surpassing it. However, AI model's partnership with human radiologist remains an unexplored challenge due to the lack of health information standards, contextual and workflow differences, and data labeling variations. To overcome these challenges, we integrated an AI model service that uses DICOM standard SR annotations into the OHIF viewer in the open-source LibreHealth Radiology Information Systems (RIS). In this paper, we describe the novel Human-AI partnership capabilities of the platform, including few-shot learning and swarm learning approaches to retrain the AI models continuously. Building on the concept of machine teaching, we developed an active learning strategy within the RIS, so that the human radiologist can enable/disable AI annotations as well as\"fix\"/relabel the AI annotations. These annotations are then used to retrain the models. This helps establish a partnership between the radiologist user and a user-specific AI model. The weights of these user-specific models are then finally shared between multiple models in a swarm learning approach.",
+    "citation_count": 2,
+    "summary": "This paper details the integration of an AI-assisted radiology system within an open-source RIS, leveraging DICOM standards to enable continuous model retraining via few-shot and swarm learning, facilitated by radiologist feedback and active learning. This creates a collaborative human-AI partnership, personalizing AI performance for individual radiologists while improving overall model accuracy."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.00096.pdf",
+    "title": "Ignore, Trust, or Negotiate: Understanding Clinician Acceptance of AI-Based Treatment Recommendations in Health Care",
+    "published_date": "2023-01-31",
+    "abstract": "Artificial intelligence (AI) in healthcare has the potential to improve patient outcomes, but clinician acceptance remains a critical barrier. We developed a novel decision support interface that provides interpretable treatment recommendations for sepsis, a life-threatening condition in which decisional uncertainty is common, treatment practices vary widely, and poor outcomes can occur even with optimal decisions. This system formed the basis of a mixed-methods study in which 24 intensive care clinicians made AI-assisted decisions on real patient cases. We found that explanations generally increased confidence in the AI, but concordance with specific recommendations varied beyond the binary acceptance or rejection described in prior work. Although clinicians sometimes ignored or trusted the AI, they also often prioritized aspects of the recommendations to follow, reject, or delay in a process we term “negotiation.” These results reveal novel barriers to adoption of treatment-focused AI tools and suggest ways to better support differing clinician perspectives.",
+    "citation_count": 55,
+    "summary": "A study of intensive care clinicians using an AI-based sepsis treatment system revealed that clinician acceptance wasn't binary (accept/reject), but rather involved \"negotiation\"—selectively choosing which AI recommendations to follow, reject, or delay, highlighting nuanced barriers to AI adoption in healthcare."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/dDzHJGmyeQa2tGmqH/the-greedy-doctor-problem-turns-out-to-be-relevant-to-the",
+    "author": "Jan Hendrik Kirchner",
+    "title": "The Greedy Doctor Problem... turns out to be relevant to the ELK problem? - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "The article introduces the \"Greedy Doctor Problem,\" a thought experiment exploring how to incentivize a more intelligent, self-interested agent (a doctor) to act in the best interest of a less intelligent principal (a patient). It connects this problem to the principal-agent problem and Vinge's principle, proposing unconventional solutions unconstrained by real-world limitations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mmxPbFz7wvthvHCxq/sparks-of-artificial-general-intelligence-early-experiments",
+    "author": "DragonGod",
+    "title": "Sparks of Artificial General Intelligence: Early experiments with GPT-4 | Microsoft Research",
+    "published_date": "2023-03-23",
+    "summary": "This paper investigates an early version of OpenAI's GPT-4, arguing that it and similar LLMs demonstrate significantly improved general intelligence compared to predecessors, exhibiting near human-level performance across diverse complex tasks; the authors also highlight GPT-4's limitations and discuss future research directions for AGI development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/4iAkmnhhqNZe8JzrS/reflection-mechanisms-as-an-alignment-target-attitudes-on",
+    "author": "elandgre, Beth Barnes, Marius Hobbhahn",
+    "title": "Reflection Mechanisms as an Alignment Target - Attitudes on “near-term” AI",
+    "published_date": "2023-03-02",
+    "summary": "A survey of 1000 participants revealed a preference for indirect normativity—AI guided by reflection on diverse societal outcomes—over allowing companies or policymakers to unilaterally determine AI values. This suggests openness to AI alignment with reflective processes for developing better values."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dDzHJGmyeQa2tGmqH/the-greedy-doctor-problem-turns-out-to-be-relevant-to-the",
+    "author": "Jan",
+    "title": "The Greedy Doctor Problem... turns out to be relevant to the ELK problem?",
+    "published_date": "2022-01-14",
+    "summary": "The article introduces the \"Greedy Doctor Problem,\" a thought experiment exploring how to incentivize a more intelligent, self-interested agent (a doctor) to act in the best interest of a less intelligent principal (the patient). It connects this problem to the principal-agent problem and Vinge's principle, arguing for unconventional solutions unconstrained by realistic limitations."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.01524.pdf",
+    "title": "“Brilliant AI Doctor” in Rural Clinics: Challenges in AI-Powered Clinical Decision Support System Deployment",
+    "published_date": "2021-01-04",
+    "abstract": "Artificial intelligence (AI) technology has been increasingly used in the implementation of advanced Clinical Decision Support Systems (CDSS). Research demonstrated the potential usefulness of AI-powered CDSS (AI-CDSS) in clinical decision making scenarios. However, post-adoption user perception and experience remain understudied, especially in developing countries. Through observations and interviews with 22 clinicians from 6 rural clinics in China, this paper reports the various tensions between the design of an AI-CDSS system (“Brilliant Doctor”) and the rural clinical context, such as the misalignment with local context and workflow, the technical limitations and usability barriers, as well as issues related to transparency and trustworthiness of AI-CDSS. Despite these tensions, all participants expressed positive attitudes toward the future of AI-CDSS, especially acting as “a doctor's AI assistant” to realize a Human-AI Collaboration future in clinical settings. Finally we draw on our findings to discuss implications for designing AI-CDSS interventions for rural clinical contexts in developing countries.",
+    "citation_count": 111,
+    "summary": "A study of an AI-powered clinical decision support system in rural Chinese clinics revealed challenges related to contextual misalignment, technical limitations, and usability issues, despite clinicians expressing overall optimism for future human-AI collaboration in healthcare. Findings highlight the need for context-specific design considerations when deploying AI-CDSS in developing countries."
+  }
+]

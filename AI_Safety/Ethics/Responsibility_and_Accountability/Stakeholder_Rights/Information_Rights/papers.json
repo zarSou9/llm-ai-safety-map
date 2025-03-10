@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising but largely unexplored AI safety strategy. Current efforts are limited, primarily involving export controls and reporting requirements, while proposed future methods range from improving transparency to directly controlling compute allocation and enforcement."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/vzGC4zh73dfcqnFgf/open-source-ai-a-regulatory-review",
+    "author": "Elliot_Mckernon, Deric Cheng",
+    "title": "Open-Source AI: A Regulatory Review",
+    "published_date": "2024-04-29",
+    "summary": "This article examines the implications of open-sourcing AI models, focusing on the trade-offs between encouraging collaboration and potentially increasing risks from misuse. It highlights the varying levels of openness (e.g., open weights vs. full open-source), discussing how limited transparency in open-weight models hinders safety evaluation and the potential for malicious actors to exploit open-source models lacking built-in safeguards."
+  },
+  {
+    "title": "The Right to Transparency in Public Governance: Freedom of Information and the Use of Artificial Intelligence by Public Agencies",
+    "abstract": "What information should and can be transparent for artificial intelligence (AI) algorithms? This article examines the socio-technical and legal perspectives of transparency in relation to algorithmic decision-making in public administration. We show how transparency in AI can be understood in light of the various technologies and the challenges one may encounter. Despite some first steps in that direction, there exists so far no mature standard for documenting AI models. From a legal perspective, this article examined the applicable freedom of information (FOI) regimes across different jurisdictions, with a particular focus on Denmark and other Scandinavian countries. Despite notable differences, our findings show that the FOI regimes generally only grant access to existing documents, and that access can be denied on the basis of the wide proprietary interests and internal documents exemptions. This is why we ultimately conclude that the European data-protection framework and the proposed EU AI Act — with their far-reaching duties to document the functioning of AI systems — provide promising new avenues for research and insights into transparency in AI.",
+    "published_date": "2023-11-20",
+    "citation_count": 3,
+    "url": "https://dl.acm.org/doi/10.1145/3632753",
+    "summary": "This article analyzes the transparency challenges of AI in public administration, arguing that existing Freedom of Information laws are insufficient to ensure access to algorithmic decision-making processes. Instead, the authors propose that the EU's data protection framework and AI Act offer more promising avenues for achieving AI transparency."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8xN5KYB9xAgSSi494/against-the-open-source-closed-source-dichotomy-regulated",
+    "author": "alex.herwix",
+    "title": "Against the Open Source / Closed Source Dichotomy: Regulated Source as a Model for Responsible AI Development",
+    "published_date": "2023-09-04",
+    "summary": "The article questions the open-source versus closed-source dichotomy in AI development, arguing that both models have inherent risks and benefits. It proposes \"Regulated Source\" as a potential alternative model for responsible AI development, advocating for a more nuanced approach beyond the existing binary."
+  },
+  {
+    "title": "The future of work: freedom, justice and capital in the age of artificial intelligence",
+    "abstract": "ABSTRACT Artificial Intelligence (AI) is predicted to have a deep impact on the future of work and employment. The paper outlines a normative framework to understand and protect human freedom and justice in this transition. The proposed framework is based on four main ideas: going beyond the idea of a Basic Income to compensate the losers in the transition towards AI-driven work, towards a Responsible Innovation approach, in which the development of AI technologies is governed by an inclusive and deliberate societal judgment; going beyond a philosophical conceptualisation of social justice only focused on the distribution of 'primary goods', towards one focused on the different goals, values, and virtues of various social practices (Walzer's 'spheres of justice') and the different individual capabilities of persons (Sen's 'capabilities'); going beyond a classical understanding of capital, towards one explicitly including mental capacities as a source of value for AI-driven activities. In an effort to promote an interdisciplinary approach, the paper combines political and economic theories of freedom, justice and capital with recent approaches in applied ethics of technology, and starts applying its normative framework to some concrete example of AI-based systems: healthcare robotics, 'citizen science', social media and platform economy.",
+    "published_date": "2021-12-13",
+    "citation_count": 15,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/13698230.2021.2008204",
+    "summary": "This paper proposes a normative framework for ensuring freedom and justice in the AI-driven future of work, advocating for responsible AI innovation, a broadened conception of social justice encompassing capabilities and diverse values, and a redefined understanding of capital that includes mental capacities. The framework is applied to several AI-based systems to illustrate its practical implications."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kfY2JegjuzLewWyZd/oracles-informers-and-controllers",
+    "author": "ozziegooen",
+    "title": "Oracles, Informers, and Controllers",
+    "published_date": "2021-05-25",
+    "summary": "The article proposes expanding Bostrom's AI categorization (oracles, genies, sovereigns) by introducing \"informers\" (systems that push information) and \"controllers\" (highly influential informers suggesting actions across all aspects of life). These categories represent a spectrum of AI influence, from answering questions to effectively controlling decisions."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/LdH9w67W6jQaoBm2T/internet-encyclopedia-of-philosophy-on-ethics-of-artificial",
+    "author": "Kaj_Sotala",
+    "title": "Internet Encyclopedia of Philosophy on Ethics of Artificial Intelligence",
+    "published_date": "2021-02-20",
+    "summary": "The article explores the ethical implications of artificial intelligence, focusing on the potential for a \"technological singularity\"—the emergence of superintelligent AI. This singularity raises concerns about existential risks, such as human extinction, prompting debate on how to ensure AI's goals align with human values."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/M3xpp7CZ2JaSafDJB/computer-governance-and-conclusions-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Governance and Conclusions - Transformative AI and Compute [3/4]",
+    "published_date": "2021-10-14",
+    "summary": "This article explores the role of compute in AI governance, arguing that its physical requirements (space, energy, supply chain) make it a relatively governable aspect of AI development. The author suggests that restricting compute access to less cautious actors is a potentially promising area for AI safety initiatives."
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.00933",
+    "title": "StreamEnsemble: Predictive Queries over Spatiotemporal Streaming Data",
+    "published_date": "2024-09-30",
+    "abstract": "Predictive queries over spatiotemporal (ST) stream data pose significant data processing and analysis challenges. ST data streams involve a set of time series whose data distributions may vary in space and time, exhibiting multiple distinct patterns. In this context, assuming a single machine learning model would adequately handle such variations is likely to lead to failure. To address this challenge, we propose StreamEnsemble, a novel approach to predictive queries over ST data that dynamically selects and allocates Machine Learning models according to the underlying time series distributions and model characteristics. Our experimental evaluation reveals that this method markedly outperforms traditional ensemble methods and single model approaches in terms of accuracy and time, demonstrating a significant reduction in prediction error of more than 10 times compared to traditional approaches."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.05662",
+    "title": "Federated Learning with Dynamic Client Arrival and Departure: Convergence and Rapid Adaptation via Initial Model Construction",
+    "published_date": "2024-10-08",
+    "abstract": "While most existing federated learning (FL) approaches assume a fixed set of clients in the system, in practice, clients can dynamically leave or join the system depending on their needs or interest in the specific task. This dynamic FL setting introduces several key challenges: (1) the objective function dynamically changes depending on the current set of clients, unlike traditional FL approaches that maintain a static optimization goal; (2) the current global model may not serve as the best initial point for the next FL rounds and could potentially lead to slow adaptation, given the possibility of clients leaving or joining the system. In this paper, we consider a dynamic optimization objective in FL that seeks the optimal model tailored to the currently active set of clients. Building on our probabilistic framework that provides direct insights into how the arrival and departure of different types of clients influence the shifts in optimal points, we establish an upper bound on the optimality gap, accounting for factors such as stochastic gradient noise, local training iterations, non-IIDness of data distribution, and deviations between optimal points caused by dynamic client pattern. We also propose an adaptive initial model construction strategy that employs weighted averaging guided by gradient similarity, prioritizing models trained on clients whose data characteristics align closely with the current one, thereby enhancing adaptability to the current clients. The proposed approach is validated on various datasets and FL algorithms, demonstrating robust performance across diverse client arrival and departure patterns, underscoring its effectiveness in dynamic FL environments."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rCP5iTYLtfcoC8NXd/self-organised-neural-networks-a-simple-natural-and",
+    "author": "D𝜋",
+    "title": "Self-Organised Neural Networks:\nA simple, natural and efficient way to intelligence",
+    "published_date": "2022-01-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.14117.pdf",
+    "title": "Neural Network Ensembles: Theory, Training, and the Importance of Explicit Diversity",
+    "published_date": "2021-09-29",
+    "abstract": "Ensemble learning is a process by which multiple base learners are strategically generated and combined into one composite learner. There are two features that are essential to an ensemble's performance, the individual accuracies of the component learners and the overall diversity in the ensemble. The right balance of learner accuracy and ensemble diversity can improve the performance of machine learning tasks on benchmark and real-world data sets, and recent theoretical and practical work has demonstrated the subtle trade-off between accuracy and diversity in an ensemble. In this paper, we extend the extant literature by providing a deeper theoretical understanding for assessing and improving the optimality of any given ensemble, including random forests and deep neural network ensembles. We also propose a training algorithm for neural network ensembles and demonstrate that our approach provides improved performance when compared to both state-of-the-art individual learners and ensembles of state-of-the-art learners trained using standard loss functions. Our key insight is that it is better to explicitly encourage diversity in an ensemble, rather than merely allowing diversity to occur by happenstance, and that rigorous theoretical bounds on the trade-off between diversity and learner accuracy allow one to know when an optimal arrangement has been achieved.",
+    "citation_count": 3
+  }
+]

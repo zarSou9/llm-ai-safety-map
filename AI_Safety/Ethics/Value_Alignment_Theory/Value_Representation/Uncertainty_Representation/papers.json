@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://www.lesswrong.com/tag/preference",
+    "title": "Preference - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Artificial intelligence employs a four-step process to handle user preferences: acquisition (extracting preferences), modeling (creating a mathematical representation), representation (developing a symbolic system), and reasoning (mining data for insights). This framework is particularly useful for understanding complex goals and motivations."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.08759.pdf",
+    "title": "Value Engineering for Autonomous Agents",
+    "published_date": "2023-02-17",
+    "abstract": "Machine Ethics (ME) is concerned with the design of Artificial Moral Agents (AMAs), i.e. autonomous agents capable of reasoning and behaving according to moral values. Previous approaches have treated values as labels associated with some actions or states of the world, rather than as integral components of agent reasoning. It is also common to disregard that a value-guided agent operates alongside other value-guided agents in an environment governed by norms, thus omitting the social dimension of AMAs. In this blue sky paper, we propose a new AMA paradigm grounded in moral and social psychology, where values are instilled into agents as context-dependent goals. These goals intricately connect values at individual levels to norms at a collective level by evaluating the outcomes most incentivized by the norms in place. We argue that this type of normative reasoning, where agents are endowed with an understanding of norms' moral implications, leads to value-awareness in autonomous agents. Additionally, this capability paves the way for agents to align the norms enforced in their societies with respect to the human values instilled in them, by complementing the value-based reasoning on norms with agreement mechanisms to help agents collectively agree on the best set of norms that suit their human values. Overall, our agent model goes beyond the treatment of values as inert labels by connecting them to normative reasoning and to the social functionalities needed to integrate value-aware agents into our modern hybrid human-computer societies.",
+    "citation_count": 3,
+    "summary": "This paper proposes a novel framework for designing Artificial Moral Agents (AMAs) that integrates values as context-dependent goals, connecting individual values to societal norms through normative reasoning and agreement mechanisms to achieve value-alignment in human-computer societies. This approach moves beyond treating values as simple labels, fostering value-awareness and enabling AMAs to adapt norms to better reflect human values."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/complexity-of-value",
+    "author": "David Udell",
+    "title": "Complexity of Value - AI Alignment Forum",
+    "published_date": "2022-08-11",
+    "summary": "Human values possess high complexity, meaning they can't be reduced to simple rules, and are fragile, with even minor alterations leading to drastically different outcomes. This complexity challenges ethical frameworks seeking overarching, easily-comprehensible principles, highlighting the potential for biases like anthropomorphism in moral judgments."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.12142v1.pdf",
+    "title": "Combining Reward Information from Multiple Sources",
+    "published_date": "2021-03-22",
+    "abstract": "Given two sources of evidence about a latent variable, one can combine the information from both by multiplying the likelihoods of each piece of evidence. However, when one or both of the observation models are misspecified, the distributions will conflict. We study this problem in the setting with two conflicting reward functions learned from different sources. In such a setting, we would like to retreat to a broader distribution over reward functions, in order to mitigate the effects of misspecification. We assume that an agent will maximize expected reward given this distribution over reward functions, and identify four desiderata for this setting. We propose a novel algorithm, Multitask Inverse Reward Design (MIRD), and compare it to a range of simple baselines. While all methods must trade off between conservatism and informativeness, through a combination of theory and empirical results on a toy environment, we find that MIRD and its variant MIRD-IF strike a good balance between the two.",
+    "citation_count": 3,
+    "summary": "This paper addresses the problem of combining conflicting reward signals from multiple sources, proposing a novel algorithm, Multitask Inverse Reward Design (MIRD), which balances conservatism and informativeness by modeling a distribution over reward functions to mitigate misspecification. Empirical results demonstrate MIRD's effectiveness compared to simpler methods."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2112.14243.pdf",
+    "title": "An AGM Approach to Revising Preferences",
+    "published_date": "2021-12-28",
+    "abstract": "We look at preference change arising out of an interaction between two elements: the first is an initial preference ranking encoding a pre-existing attitude; the second element is new preference information signaling input from an authoritative source, which may come into conflict with the initial preference. The aim is to adjust the initial preference and bring it in line with the new preference, without having to give up more information than necessary. We model this process using the formal machinery of belief change, along the lines of the well-known AGM approach. We propose a set of fundamental rationality postulates, and derive the main results of the paper: a set of representation theorems showing that preference change according to these postulates can be rationalized as a choice function guided by a ranking on the comparisons in the initial preference order. We conclude by presenting operators satisfying our proposed postulates. Our approach thus allows us to situate preference revision within the larger family of belief change operators.",
+    "citation_count": 1,
+    "summary": "This paper models preference change as a process of revising an initial preference ranking with new, potentially conflicting information from an authoritative source, using the AGM framework of belief revision. It proposes rationality postulates, proves representation theorems characterizing preference revision operators, and presents concrete operators satisfying these postulates."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.04662v2.pdf",
+    "title": "Multi-Objective Controller Synthesis with Uncertain Human Preferences",
+    "published_date": "2021-05-10",
+    "abstract": "Complex real-world applications of cyber-physical systems give rise to the need for multi-objective controller synthesis, which con-cerns the problem of computing an optimal controller subject to multiple (possibly conflicting) criteria. The relative importance of objectives is often specified by human decision-makers. However, there is inherent uncertainty in human preferences (e.g., due to artifacts resulting from different preference elicitation methods). In this paper, we formalize the notion of uncertain human preferences, and present a novel approach that accounts for this uncertainty in the context of multi-objective controller synthesis for Markov decision processes (MDPs). Our approach is based on mixed-integer linear programming and synthesizes an optimally permissive multi-strategy that satisfies uncertain human preferences with respect to a multi-objective property. Experimental results on a range of large case studies show that the proposed approach is feasible and scalable across varying MDP model sizes and uncertainty levels of human preferences. Evaluation via an online user study also demon-strates the quality and benefits of the synthesized controllers.",
+    "citation_count": 1,
+    "summary": "This paper presents a novel method for synthesizing multi-objective controllers for Markov decision processes, addressing the challenge of uncertain human preferences regarding objective weighting using mixed-integer linear programming. The approach generates an optimally permissive multi-strategy controller that accounts for preference uncertainty, demonstrated to be feasible and scalable through experiments and user studies."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2012.07509v1.pdf",
+    "title": "Decision Making under Uncertainty: A Game of Two Selves",
+    "published_date": "2020-12-14",
+    "abstract": "In this paper we characterize the niveloidal preferences that satisfy the Weak Order, Monotonicity, Archimedean, and Weak C-Independence Axioms from the point of view of an intra-personal, leader-follower game. We also show that the leader's strategy space can serve as an ambiguity aversion index.",
+    "citation_count": 3,
+    "summary": "This paper models decision-making under uncertainty as a game between two internal selves, using niveloidal preferences satisfying specific axioms. The leader's strategy in this game is shown to quantify ambiguity aversion."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2006.04734.pdf",
+    "title": "Reinforcement Learning Under Moral Uncertainty",
+    "published_date": "2020-06-08",
+    "abstract": "An ambitious goal for artificial intelligence is to create agents that behave ethically: The capacity to abide by human moral norms would greatly expand the context in which autonomous agents could be practically and safely deployed. While ethical agents could be trained through reinforcement, by rewarding correct behavior under a specific moral theory (e.g. utilitarianism), there remains widespread disagreement (both societally and among moral philosophers) about the nature of morality and what ethical theory (if any) is objectively correct. Acknowledging such disagreement, recent work in moral philosophy proposes that ethical behavior requires acting under moral uncertainty, i.e. to take into account when acting that one's credence is split across several plausible ethical theories. Inspired by such work, this paper proposes a formalism that translates such insights to the field of reinforcement learning. Demonstrating the formalism's potential, we then train agents in simple environments to act under moral uncertainty, highlighting how such uncertainty can help curb extreme behavior from commitment to single theories. The overall aim is to draw productive connections from the fields of moral philosophy and machine ethics to that of machine learning, to inspire further research by highlighting a spectrum of machine learning research questions relevant to training ethically capable reinforcement learning agents.",
+    "citation_count": 27,
+    "summary": "This paper proposes a reinforcement learning formalism for training ethical agents under moral uncertainty, addressing the societal and philosophical disagreements about morality by incorporating multiple ethical theories into the agent's decision-making process. This approach aims to mitigate extreme behaviors stemming from adherence to a single ethical theory."
+  }
+]

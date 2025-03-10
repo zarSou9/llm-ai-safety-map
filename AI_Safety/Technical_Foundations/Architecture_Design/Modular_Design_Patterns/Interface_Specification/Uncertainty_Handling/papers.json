@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/NE2vog9AxtnB3WEpt/ais-terminology-proposal-standardize-terms-for-probability",
+    "author": "Egg Syntax",
+    "title": "AIS terminology proposal: standardize terms for probability ranges",
+    "published_date": "2024-08-30"
+  },
+  {
+    "title": "Introduction to the Special Issue on Specification and Design Languages (FDL 2019)",
+    "abstract": "The Forum on Specification and Design Languages (FDL) is a well-established international venue to exchange experiences and promote new trends in the application of languages, their associated design methods, and tools for the design of electronic systems. Electronic systems of interest to FDL include (but are not limited to) those that are used in Internet of Things (IoT), CyberPhysical Systems, mixed criticality embedded systems, embedded systems for high-performance computing and driver assistance, real-time systems, and reconfigurable and secure computing. FDL 2019 was held in Southampton, UK, September 2–4, bringing together 44 researchers and practicioners from 10 countries. The three keynotes covered themes ranging from designing heterogeneous domain-specific languages and compilers (David Broman, KTH Royal Institute of Technology, Stockholm) over balancing implementability, understandability, and expressiveness in language design (Stephen A. Edwards, Columbia University, New York) to formal languages for embedded critical software (Marc Pouzet, École Normale Supérieure, Paris). In addition, the technical program of FDL 2019 contained two tutorials, two panels, and six technical sessions with a total of 26 presentations. To allow for more in-depth treatment of selected contributions and to further broaden the audience, an open call was made for this special issue in ACM TECS. As a result, six updated and extended papers from FDL'19 are included here, joined by a seventh paper on original work not presented at FDL before. “SystemC implementation of Stochastic Petri Nets for Parametrization of Biological Networks” is authored by Nicola Bombieri, Silvia Scaffeo, Antonio Mastrandrea, Simone Caligola, Tommaso Carlucci, Franco Fummi, Carlo Laudanna, Gabriela Constantin, and Rosalba Giugno. This multidisciplinary paper presents a framework for the modeling and simulation of biological network using Stochastic Petri Nets. To achieve automatic model parametrization, the Stochastic Petri Nets model is implemented into SystemC code, while user-defined properties are specified with a formal specification language. Then, Dynamic Assertion-Based Verification is used to synthesize an appropriate network and parameter configuration that satisfies the defined properties. This allows the system to be simulated under different conditions and network properties. “Event-B Hybridation: A Proof and Refinement Based Framework for Modelling Hybrid Systems,” by Guillaume Dupont, Yamine Ait-Ameur, Marc Pantel, and Neeraj Singh, is an original work not presented at FDL '19. It addresses the difficult topic of the formal proof (in the proof assistant sense) and the incremental design of hybrid systems. The underlying proof assistant is the Rodin Proof Manager and its associated programming language Event-B (based on the B method by Abrial). Hybrid systems are modeled as standard hybrid automata with simple differential equations, which is classical. The strong point of the proposed approach is that the proof obligations",
+    "published_date": "2021-05-28",
+    "url": "https://dl.acm.org/doi/10.1145/3458748"
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14"
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/Tp3ryR4AxY56ctGh2/p/ybThg9nA7u6f8qfZZ",
+    "author": "abergal, Ajeya Cotra, Nick_Beckstead",
+    "title": "Techniques for enhancing human feedback",
+    "published_date": "2021-10-29"
+  },
+  {
+    "title": "Knowing when to ask: sound scheduling of name resolution in type checkers derived from declarative specifications",
+    "abstract": "There is a large gap between the specification of type systems and the implementation of their type checkers, which impedes reasoning about the soundness of the type checker with respect to the specification. A vision to close this gap is to automatically obtain type checkers from declarative programming language specifications. This moves the burden of proving correctness from a case-by-case basis for concrete languages to a single correctness proof for the specification language. This vision is obstructed by an aspect common to all programming languages: name resolution. Naming and scoping are pervasive and complex aspects of the static semantics of programming languages. Implementations of type checkers for languages with name binding features such as modules, imports, classes, and inheritance interleave collection of binding information (i.e., declarations, scoping structure, and imports) and querying that information. This requires scheduling those two aspects in such a way that query answers are stable—i.e., they are computed only after all relevant binding structure has been collected. Type checkers for concrete languages accomplish stability using language-specific knowledge about the type system. In this paper we give a language-independent characterization of necessary and sufficient conditions to guarantee stability of name and type queries during type checking in terms of critical edges in an incomplete scope graph. We use critical edges to give a formal small-step operational semantics to a declarative specification language for type systems, that achieves soundness by delaying queries that may depend on missing information. This yields type checkers for the specified languages that are sound by construction—i.e., they schedule queries so that the answers are stable, and only accept programs that are name- and type-correct according to the declarative language specification. We implement this approach, and evaluate it against specifications of a small module and record language, as well as subsets of Java and Scala.",
+    "published_date": "2020-11-13",
+    "citation_count": 11,
+    "url": "https://dl.acm.org/doi/10.1145/3428248"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/Mcrfi3DBJBzfoLctA/the-subset-parity-learning-problem-much-more-than-you-wanted",
+    "author": "Dmitry Vaintrob",
+    "title": "The subset parity learning problem: much more than you wanted to know",
+    "published_date": "2025-01-03"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/kahBLu32sZAuAZbER/irl-in-general-environments",
+    "author": "michaelcohen",
+    "title": "IRL in General Environments",
+    "published_date": "2023-03-09"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/wf83tBACPM9aiykPn/a-survey-of-foundational-methods-in-inverse-reinforcement",
+    "author": "Adamk",
+    "title": "A Survey of Foundational Methods in Inverse Reinforcement Learning",
+    "published_date": "2022-09-01"
+  },
+  {
+    "title": "Learning Invariant Representations using Inverse Contrastive Loss",
+    "abstract": "Learning invariant representations is a critical first step in a number of machine learning tasks. A common approach corresponds to the so-called information bottleneck principle in which an application dependent function of mutual information is carefully chosen and optimized. Unfortunately, in practice, these functions are not suitable for optimization purposes since these losses are agnostic of the metric structure of the parameters of the model. We introduce a class of losses for learning representations that are invariant to some extraneous variable of interest by inverting the class of contrastive losses, i.e., inverse contrastive loss (ICL). We show that if the extraneous variable is binary, then optimizing ICL is equivalent to optimizing a regularized MMD divergence. More generally, we also show that if we are provided a metric on the sample space, our formulation of ICL can be decomposed into a sum of convex functions of the given distance metric. Our experimental results indicate that models obtained by optimizing ICL achieve significantly better invariance to the extraneous variable for a fixed desired level of accuracy. In a variety of experimental settings, we show applicability of ICL for learning invariant representations for both continuous and discrete extraneous variables. The project page with code is available at https://github.com/adityakumarakash/ICL.",
+    "published_date": "2021-02-01",
+    "citation_count": 8,
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8366266/"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/pqkdsqd6s6w2HtT9g/intermittent-distillations-1",
+    "author": "Mark Xu",
+    "title": "Intermittent Distillations #1",
+    "published_date": "2021-03-17"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zB4f7QqKhBHa5b37a/introduction-to-the-infra-bayesianism-sequence",
+    "author": "Diffractor, Vanessa Kosoy",
+    "title": "Introduction To The Infra-Bayesianism Sequence",
+    "published_date": "2020-08-26"
+  }
+]

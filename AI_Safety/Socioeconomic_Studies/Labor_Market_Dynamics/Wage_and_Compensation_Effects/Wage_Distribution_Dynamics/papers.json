@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/Mak2kZuTq8Hpnqyzb/the-intelligence-curse",
+    "author": "lukedrago",
+    "title": "The Intelligence Curse",
+    "published_date": "2025-01-03",
+    "summary": "The author argues that the development of Artificial General Intelligence (AGI) will create an \"intelligence curse,\" mirroring the \"resource curse\" of rentier states. Powerful actors, once able to leverage AGI for profit without human labor, will lose incentives to invest in human capital, leading to societal instability and widespread unemployment."
+  },
+  {
+    "title": "Artificial Intelligence, Income Distribution and Economic Growth",
+    "abstract": "The economic impact of Articial Intelligence (AI) is studied using a (semi) endogenous growth model with two novel features. First, the task approach from labor economics is reformulated and integrated into a growth model. Second, the standard representative household assumption is rejected, so that aggregate demand restrictions can be introduced. With these novel features it is shown that (i) AI automation can decrease the share of labor income no matter the size of the elasticity of substitution between AI and labor, and (ii) when this elasticity is high, AI will unambiguously reduce aggregate demand and slow down GDP growth, even in the face of the positive technology shock that AI entails. If the elasticity of substitution is low, then GDP, productivity and wage growth may however still slow down, because the economy will then fail to benefit from the supply-side driven capacity expansion potential that AI can deliver. The model can thus explain why advanced countries tend to experience, despite much AI hype, the simultaneous existence of rather high employment with stagnating wages, productivity, and GDP.",
+    "published_date": "2024-06-18",
+    "citation_count": 9,
+    "url": "https://www.econstor.eu/bitstream/10419/224623/1/vfs-2020-pid-40327.pdf",
+    "summary": "A new economic growth model incorporating AI automation and heterogeneous households demonstrates that AI can decrease labor income share regardless of substitutability with labor, and may slow GDP growth, especially when AI and labor are highly substitutable, due to reduced aggregate demand despite technological advancements."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.01545",
+    "title": "In the Shadow of Smith's Invisible Hand: Risks to Economic Stability and Social Wellbeing in the Age of Intelligence",
+    "published_date": "2024-04-22",
+    "abstract": "Work is fundamental to societal prosperity and mental health, providing financial security, identity, purpose, and social integration. The emergence of generative artificial intelligence (AI) has catalysed debate on job displacement. Some argue that many new jobs and industries will emerge to offset the displacement, while others foresee a widespread decoupling of economic productivity from human input threatening jobs on an unprecedented scale. This study explores the conditions under which both may be true and examines the potential for a self-reinforcing cycle of recessionary pressures that would necessitate sustained government intervention to maintain job security and economic stability. A system dynamics model was developed to undertake ex ante analysis of the effect of AI-capital deepening on labour underutilisation and demand in the economy. Results indicate that even a moderate increase in the AI-capital-to-labour ratio could increase labour underutilisation to double its current level, decrease per capita disposable income by 26% (95% interval, 20.6% - 31.8%), and decrease the consumption index by 21% (95% interval, 13.6% - 28.3%) by mid-2050. To prevent a reduction in per capita disposable income due to the estimated increase in underutilization, at least a 10.8-fold increase in the new job creation rate would be necessary. Results demonstrate the feasibility of an AI-capital- to-labour ratio threshold beyond which even high rates of new job creation cannot prevent declines in consumption. The precise threshold will vary across economies, emphasizing the urgent need for empirical research tailored to specific contexts. This study underscores the need for governments, civic organisations, and business to work together to ensure a smooth transition to an AI- dominated economy to safeguard the Mental Wealth of nations.",
+    "citation_count": 2,
+    "summary": "A system dynamics model predicts that even moderate increases in AI adoption could significantly increase labor underutilization and decrease per capita income by mid-2050, necessitating substantial job creation or government intervention to prevent economic instability. The study highlights a potential threshold of AI-capital-to-labor ratio beyond which even high job creation rates cannot offset negative economic consequences."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.15162",
+    "title": "Equal Merit Does Not Imply Equality: Discrimination at Equilibrium in a Hiring Market with Symmetric Agents",
+    "published_date": "2024-12-19",
+    "abstract": "Machine learning has grown in popularity to help assign resources and make decisions about users, which can result in discrimination. This includes hiring markets, where employers have increasingly been interested in using automated tools to help hire candidates. In response, there has been significant effort to understand and mitigate the sources of discrimination in these tools. However, previous work has largely assumed that discrimination, in any area of ML, is the result of some initial \\textit{unequal distribution of resources} across groups: One group is on average less qualified, there is less training data for one group, or the classifier is less accurate on one group, etc. However, recent work have suggested that there are other sources of discrimination, such as relational inequality, that are notably non-distributional. First, we show consensus in strategy choice is a non-distributional source of inequality at equilibrium in games: We provide subgame perfect equilibria in a simple sequential model of a hiring market with Rubinstein-style bargaining between firms and candidates that exhibits asymmetric wages resulting from differences in agents' threat strategies during bargaining. Second, we give an initial analysis of how agents could learn such strategies via convergence of an online learning algorithm to asymmetric equilibria. Ultimately, this work motivates the further study of endogenous, possibly non-distributional, mechanisms of inequality in ML.",
+    "summary": "This paper demonstrates that discriminatory outcomes in hiring, even with equally qualified candidates, can arise from strategic bargaining dynamics and unequal threat strategies during the hiring process, highlighting a non-distributional source of algorithmic bias. The authors analyze a game-theoretic model and explore how such strategic inequalities might emerge through online learning."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mXD53GFvMCWQhcCwt/distinguishing-ways-ai-can-be-concentrated",
+    "author": "Matthew Barnett",
+    "title": "Distinguishing ways AI can be \"concentrated\"",
+    "published_date": "2024-10-21",
+    "summary": "The article argues that discussions of AI concentration are unclear, proposing three distinct dimensions—development, service provision, and control—that should be analyzed separately. These dimensions can vary independently, affecting AI's trajectory and necessitating nuanced policy considerations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ZiRKzx3yv7NyA5rjF/the-robots-ai-and-unemployment-anti-faq",
+    "author": "Eliezer Yudkowsky",
+    "title": "The Robots, AI, and Unemployment Anti-FAQ",
+    "published_date": "2024-02-01",
+    "summary": "The article argues that while automation has historically led to job displacement followed by re-employment in new sectors, current high unemployment levels are not solely caused by AI-driven automation. Instead, a new, unidentified obstacle is preventing job recovery following the 2008 recession, even with rising NGDP."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8CY9TCK2oaGPrDheY/what-you-really-mean-when-you-claim-to-support-ubi-for-job",
+    "author": "Deric Cheng",
+    "title": "What you really mean when you claim to support “UBI for job automation”: Part 1",
+    "published_date": "2024-05-13",
+    "summary": "The author argues that while popular, Universal Basic Income (UBI) as a solution to job automation is economically unsound and simplistically framed. Instead, they propose targeted negative income tax adjustments or global corporate tax reform as more effective approaches to addressing wealth inequality and providing a safety net."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.05481",
+    "title": "Artificial Intelligence in the Knowledge Economy",
+    "published_date": "2023-12-09",
+    "abstract": "The rise of Artificial Intelligence (AI) has the potential to reshape the knowledge economy by enabling problem solving at scale. This paper introduces a framework to analyze this transformation, incorporating AI into an economy where humans form hierarchical firms to use their time efficiently: Less knowledgeable individuals become\"workers\"solving routine problems, while more knowledgeable individuals become\"solvers\"assisting workers with exceptional problems. We model AI as a technology that transforms computing power into\"AI agents,\"which can either operate autonomously (as co-workers or solvers/co-pilots) or non-autonomously (only as co-pilots). We show that basic autonomous AI displaces humans towards specialized problem solving, leading to smaller, less productive, and less decentralized firms. In contrast, advanced autonomous AI reallocates humans to routine work, resulting in larger, more productive, and more decentralized firms. While autonomous AI primarily benefits the most knowledgeable individuals, non-autonomous AI disproportionately benefits the least knowledgeable. However, autonomous AI achieves higher overall output. These findings reconcile seemingly contradictory empirical evidence and reveal key tradeoffs involved in regulating AI autonomy.",
+    "summary": "This paper models the impact of AI on a hierarchical knowledge economy, finding that basic autonomous AI leads to smaller, less productive firms while advanced autonomous AI creates larger, more productive, and decentralized ones; the distribution of benefits differs depending on AI autonomy level and individual knowledge."
+  }
+]

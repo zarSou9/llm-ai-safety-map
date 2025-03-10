@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2408.12250",
+    "title": "Can Artificial Intelligence Embody Moral Values?",
+    "published_date": "2024-08-22",
+    "abstract": "The neutrality thesis holds that technology cannot be laden with values. This long-standing view has faced critiques, but much of the argumentation against neutrality has focused on traditional, non-smart technologies like bridges and razors. In contrast, AI is a smart technology increasingly used in high-stakes domains like healthcare, finance, and policing, where its decisions can cause moral harm. In this paper, we argue that artificial intelligence, particularly artificial agents that autonomously make decisions to pursue their goals, challenge the neutrality thesis. Our central claim is that the computational models underlying artificial agents can integrate representations of moral values such as fairness, honesty and avoiding harm. We provide a conceptual framework discussing the neutrality thesis, values, and AI. Moreover, we examine two approaches to designing computational models of morality, artificial conscience and ethical prompting, and present empirical evidence from text-based game environments that artificial agents with such models exhibit more ethical behavior compared to agents without these models. The findings support that AI can embody moral values, which contradicts the claim that all technologies are necessarily value-neutral.",
+    "summary": "This paper challenges the neutrality thesis, arguing that artificial intelligence, especially autonomous agents, can embody moral values through integrated computational models like artificial conscience and ethical prompting, contradicting the notion that technology is inherently value-neutral. Empirical evidence from text-based games supports this claim, demonstrating more ethical behavior in agents with these models."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.15014",
+    "title": "Acting for the Right Reasons: Creating Reason-Sensitive Artificial Moral Agents",
+    "published_date": "2024-09-23",
+    "abstract": "We propose an extension of the reinforcement learning architecture that enables moral decision-making of reinforcement learning agents based on normative reasons. Central to this approach is a reason-based shield generator yielding a moral shield that binds the agent to actions that conform with recognized normative reasons so that our overall architecture restricts the agent to actions that are (internally) morally justified. In addition, we describe an algorithm that allows to iteratively improve the reason-based shield generator through case-based feedback from a moral judge.",
+    "summary": "This paper presents a reinforcement learning architecture that incorporates normative reasons into moral decision-making, using a \"reason-based shield\" to constrain agent actions to those justified by recognized moral reasons. The architecture is iteratively improved via feedback from a moral judge."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/bias",
+    "title": "Bias - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Cognitive biases are systematic errors in human thinking, stemming from evolved \"shortcuts\" that prioritize efficiency over perfect accuracy. These predictable deviations from rationality are a major focus of cognitive psychology research, with numerous documented examples impacting judgment and decision-making."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/aoEnDEmoKCK9S99hL/cognitive-biases-contributing-to-ai-x-risk-a-deleted-excerpt",
+    "author": "Andrew_Critch",
+    "title": "Cognitive Biases Contributing to AI X-risk — a deleted excerpt from my 2018 ARCHES draft",
+    "published_date": "2024-12-03",
+    "summary": "The author discusses cognitive biases, specifically the \"illusion of control\" and \"scope insensitivity,\" that hinder accurate assessment of AI existential risks, particularly the unrecognized prepotence of powerful AI systems. These biases, supported by established research, can lead to underestimation of the potential for catastrophic outcomes from advanced AI."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.12149",
+    "title": "Beyond Bias and Compliance: Towards Individual Agency and Plurality of Ethics in AI",
+    "published_date": "2023-02-23",
+    "abstract": "AI ethics is an emerging field with multiple, competing narratives about how to best solve the problem of building human values into machines. Two major approaches are focused on bias and compliance, respectively. But neither of these ideas fully encompasses ethics: using moral principles to decide how to act in a particular situation. Our method posits that the way data is labeled plays an essential role in the way AI behaves, and therefore in the ethics of machines themselves. The argument combines a fundamental insight from ethics (i.e. that ethics is about values) with our practical experience building and scaling machine learning systems. We want to build AI that is actually ethical by first addressing foundational concerns: how to build good systems, how to define what is good in relation to system architecture, and who should provide that definition. Building ethical AI creates a foundation of trust between a company and the users of that platform. But this trust is unjustified unless users experience the direct value of ethical AI. Until users have real control over how algorithms behave, something is missing in current AI solutions. This causes massive distrust in AI, and apathy towards AI ethics solutions. The scope of this paper is to propose an alternative path that allows for the plurality of values and the freedom of individual expression. Both are essential for realizing true moral character.",
+    "citation_count": 3,
+    "summary": "This paper argues that current AI ethics approaches focusing on bias mitigation and compliance are insufficient, advocating instead for a framework prioritizing individual agency and diverse ethical values through user-controlled data labeling and algorithm design. This approach aims to foster trust by directly empowering users and enabling a plurality of ethical perspectives in AI systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a novel framework for embedding ethical considerations into AI systems by using Bayesian priors. These \"ethical priors,\" representing pre-programmed moral values and principles, guide the AI's learning and decision-making processes, mimicking human moral intuitions and promoting ethically aligned AI development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/tiKG7gvQ33vf8QAgy/wittgenstein-and-ml-parameters-vs-architecture",
+    "author": "Cleo Nardo",
+    "title": "Wittgenstein and ML — parameters vs architecture",
+    "published_date": "2023-03-24",
+    "summary": "The article uses the example of sibling detection in neural networks and symbolic logic systems to illustrate Wittgenstein's concept of foundational beliefs. It argues that while different models might exhibit the same behavior (believing siblinghood is symmetric), the underlying mechanisms encoding this belief can vary significantly, highlighting the importance of examining internal model representations beyond surface-level outputs."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2203.09911.pdf",
+    "title": "Why we need biased AI - How including cognitive and ethical machine biases can enhance AI systems",
+    "published_date": "2022-03-18",
+    "abstract": "This paper stresses the importance of biases in the field of artificial intelligence (AI) in two regards. First, in order to foster efficient algorithmic decision-making in complex, unstable, and uncertain real-world environments, we argue for the structurewise implementation of human cognitive biases in learning algorithms. Secondly, we argue that in order to achieve ethical machine behavior, filter mechanisms have to be applied for selecting biased training stimuli that represent social or behavioral traits that are ethically desirable. We use insights from cognitive science as well as ethics and apply them to the AI field, combining theoretical considerations with seven case studies depicting tangible bias implementation scenarios. Ultimately, this paper is the first tentative step to explicitly pursue the idea of a re-evaluation of the ethical significance of machine biases, as well as putting the idea forth to implement cognitive biases into machines.",
+    "citation_count": 4,
+    "summary": "This paper argues that incorporating cognitive biases into AI algorithms can improve efficiency in complex real-world situations and that ethical AI requires carefully selecting biased training data reflecting desirable social and behavioral traits. The authors support their claims with theoretical considerations and seven case studies."
+  }
+]

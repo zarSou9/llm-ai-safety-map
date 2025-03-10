@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2403.05658",
+    "title": "Feature CAM: Interpretable AI in Image Classification",
+    "published_date": "2024-03-08",
+    "abstract": "Deep Neural Networks have often been called the black box because of the complex, deep architecture and non-transparency presented by the inner layers. There is a lack of trust to use Artificial Intelligence in critical and high-precision fields such as security, finance, health, and manufacturing industries. A lot of focused work has been done to provide interpretable models, intending to deliver meaningful insights into the thoughts and behavior of neural networks. In our research, we compare the state-of-the-art methods in the Activation-based methods (ABM) for interpreting predictions of CNN models, specifically in the application of Image Classification. We then extend the same for eight CNN-based architectures to compare the differences in visualization and thus interpretability. We introduced a novel technique Feature CAM, which falls in the perturbation-activation combination, to create fine-grained, class-discriminative visualizations. The resulting saliency maps from our experiments proved to be 3-4 times better human interpretable than the state-of-the-art in ABM. At the same time it reserves machine interpretability, which is the average confidence scores in classification.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/hMBTaFvAzdMNnj29c/evolutionary-prompt-optimization-for-sae-feature",
+    "author": "neverix, Daniel Tan, Dmitrii Kharlapenko, Neel Nanda, Arthur Conmy",
+    "title": "Evolutionary prompt optimization for SAE feature visualization",
+    "published_date": "2024-11-14"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bCtbuWraqYTDtuARg/towards-multimodal-interpretability-learning-sparse-2",
+    "author": "hugofry",
+    "title": "Towards Multimodal Interpretability: Learning Sparse Interpretable Features in Vision Transformers",
+    "published_date": "2024-04-29"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.06805.pdf",
+    "title": "Unlocking Feature Visualization for Deeper Networks with MAgnitude Constrained Optimization",
+    "published_date": "2023-06-11",
+    "abstract": "Feature visualization has gained substantial popularity, particularly after the influential work by Olah et al. in 2017, which established it as a crucial tool for explainability. However, its widespread adoption has been limited due to a reliance on tricks to generate interpretable images, and corresponding challenges in scaling it to deeper neural networks. Here, we describe MACO, a simple approach to address these shortcomings. The main idea is to generate images by optimizing the phase spectrum while keeping the magnitude constant to ensure that generated explanations lie in the space of natural images. Our approach yields significantly better results (both qualitatively and quantitatively) and unlocks efficient and interpretable feature visualizations for large state-of-the-art neural networks. We also show that our approach exhibits an attribution mechanism allowing us to augment feature visualizations with spatial importance. We validate our method on a novel benchmark for comparing feature visualization methods, and release its visualizations for all classes of the ImageNet dataset on https://serre-lab.github.io/Lens/. Overall, our approach unlocks, for the first time, feature visualizations for large, state-of-the-art deep neural networks without resorting to any parametric prior image model.",
+    "citation_count": 12
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.00018.pdf",
+    "title": "Unsupervised discovery of Interpretable Visual Concepts",
+    "published_date": "2023-08-31",
+    "abstract": "Providing interpretability of deep-learning models to non-experts, while fundamental for a responsible real-world usage, is challenging. Attribution maps from xAI techniques, such as Integrated Gradients, are a typical example of a visualization technique containing a high level of information, but with difficult interpretation. In this paper, we propose two methods, Maximum Activation Groups Extraction (MAGE) and Multiscale Interpretable Visualization (Ms-IV), to explain the model's decision, enhancing global interpretability. MAGE finds, for a given CNN, combinations of features which, globally, form a semantic meaning, that we call concepts. We group these similar feature patterns by clustering in ``concepts'', that we visualize through Ms-IV. This last method is inspired by Occlusion and Sensitivity analysis (incorporating causality), and uses a novel metric, called Class-aware Order Correlation (CaOC), to globally evaluate the most important image regions according to the model's decision space. We compare our approach to xAI methods such as LIME and Integrated Gradients. Experimental results evince the Ms-IV higher localization and faithfulness values. Finally, qualitative evaluation of combined MAGE and Ms-IV demonstrates humans' ability to agree, based on the visualization, with the decision of clusters' concepts; and, to detect, among a given set of networks, the existence of bias.",
+    "citation_count": 2
+  },
+  {
+    "title": "Feature Interpretation Using Generative Adversarial Networks (FIGAN): A Framework for Visualizing a CNN's Learned Features",
+    "abstract": "Convolutional neural networks (CNNs) are increasingly being explored and used for a variety of classification tasks in medical imaging, but current methods for post hoc explainability are limited. Most commonly used methods highlight portions of the input image that contribute to classification. While this provides a form of spatial localization relevant for focal disease processes, it may not be sufficient for co-localized or diffuse disease processes such as pulmonary edema or fibrosis. For the latter, new methods are required to isolate diffuse texture features employed by the CNN where localization alone is ambiguous. We therefore propose a novel strategy for eliciting explainability, called Feature Interpretation using Generative Adversarial Networks (FIGAN), which provides visualization of features used by a CNN for classification or regression. FIGAN uses a conditional generative adversarial network to synthesize images that span the range of a CNN's principal embedded features. We apply FIGAN to two previously developed CNNs and show that the resulting feature interpretations can clarify ambiguities within attention areas highlighted by existing explainability methods. In addition, we perform a series of experiments to study the effect of auxiliary segmentations, training sample size, and image resolution on FIGAN's ability to provide consistent and interpretable synthetic images.",
+    "published_date": "2023-01-01",
+    "citation_count": 8,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10015730.pdf"
+  }
+]

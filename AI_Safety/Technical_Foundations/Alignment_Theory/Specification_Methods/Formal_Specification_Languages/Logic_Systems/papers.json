@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2407.13287",
+    "title": "On the Logical and Algebraic Aspects of Reasoning with Formal Contexts",
+    "published_date": "2024-07-18",
+    "abstract": "A formal context consists of objects, properties, and the incidence relation between them. Various notions of concepts defined with respect to formal contexts and their associated algebraic structures have been studied extensively, including formal concepts in formal concept analysis (FCA), rough concepts arising from rough set theory (RST), and semiconcepts and protoconcepts for dealing with negation. While all these kinds of concepts are associated with lattices, semiconcepts and protoconcepts additionally yield an ordered algebraic structure, called double Boolean algebras. As the name suggests, a double Boolean algebra contains two underlying Boolean algebras. In this paper, we investigate logical and algebraic aspects of the representation and reasoning about different concepts with respect to formal contexts. We present two-sorted modal logic systems \\textbf{KB} and \\textbf{KF} for the representation and reasoning of rough concepts and formal concepts respectively. Then, in order to represent and reason about both formal and rough concepts in a single framework, these two logics are unified into a two-sorted Boolean modal logic \\textbf{BM}, in which semiconcepts and protoconcepts are also expressible. Based on the logical representation of semiconcepts and protoconcepts, we prove the characterization of double Boolean algebras in terms of their underlying Boolean algebras. Finally, we also discuss the possibilities of extending our logical systems for the representation and reasoning of more fine-grained information in formal contexts."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.02334v1.pdf",
+    "title": "Characterizing Crisp Simulations and Crisp Directed Simulations between Fuzzy Labeled Transition Systems by Using Fuzzy Modal Logics",
+    "published_date": "2021-07-11",
+    "abstract": "We formulate and prove logical characterizations of crisp simulations and crisp directed simulations between fuzzy labeled transition systems with respect to fuzzy modal logics that use a general t-norm-based semantics. The considered logics are fragments of the fuzzy propositional dynamic logic with the Baaz projection operator. The logical characterizations concern preservation of existential (respectively, positive) modal formulas under crisp simulations (respectively, crisp directed simulations), as well as the Hennessy-Milner property of such simulations.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/abs/2105.08708v5",
+    "title": "A Spatial Logic for Simplicial Models",
+    "published_date": "2021-05-18",
+    "abstract": "Collective Adaptive Systems often consist of many heterogeneous components\ntypically organised in groups. These entities interact with each other by\nadapting their behaviour to pursue individual or collective goals. In these\nsystems, the distribution of these entities determines a space that can be\neither physical or logical. The former is defined in terms of a physical\nrelation among components. The latter depends on logical relations, such as\nbeing part of the same group. In this context, specification and verification\nof spatial properties play a fundamental role in supporting the design of\nsystems and predicting their behaviour. For this reason, different tools and\ntechniques have been proposed to specify and verify the properties of space,\nmainly described as graphs. Therefore, the approaches generally use model\nspatial relations to describe a form of proximity among pairs of entities.\nUnfortunately, these graph-based models do not permit considering relations\namong more than two entities that may arise when one is interested in\ndescribing aspects of space by involving interactions among groups of entities.\nIn this work, we propose a spatial logic interpreted on simplicial complexes.\nThese are topological objects, able to represent surfaces and volumes\nefficiently that generalise graphs with higher-order edges. We discuss how the\nsatisfaction of logical formulas can be verified by a correct and complete\nmodel checking algorithm, which is linear to the dimension of the simplicial\ncomplex and logical formula. The expressiveness of the proposed logic is\nstudied in terms of the spatial variants of classical bisimulation and\nbranching bisimulation relations defined over simplicial complexes.",
+    "citation_count": 5
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.14988v2.pdf",
+    "title": "Temporal Stream Logic modulo Theories (Full Version)",
+    "published_date": "2021-04-30",
+    "abstract": "Temporal stream logic (TSL) extends LTL with updates and predicates over arbitrary function terms. This allows for specifying dataintensive systems for which LTL is not expressive enough. In the semantics of TSL, functions and predicates are left uninterpreted. In this paper, we extend TSL with first-order theories, enabling us to specify systems using interpreted functions and predicates such as incrementation or equality. We investigate the satisfiability problem of TSL modulo the standard underlying theory of uninterpreted functions as well as with respect to Presburger arithmetic and the theory of equality: For all three theories, TSL satisfiability is highly undecidable. Nevertheless, we identify three fragments of TSL for which the satisfiability problem is (semi-)decidable in the theory of uninterpreted functions. Despite the high undecidability, we present an algorithm – which is not guaranteed to terminate – for checking the satisfiability of a TSL formula in the theory of uninterpreted functions and evaluate it: It scales well and is able to validate assumptions in a real-world system design.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2001.01088v1",
+    "title": "Restricted Rules of Inference and Paraconsistency",
+    "published_date": "2020-01-04",
+    "abstract": "\n In this paper, we study two companions of a logic, viz., the left variable inclusion companion and the restricted rules companion, their nature and interrelations, especially in connection with paraconsistency. A sufficient condition for the two companions to coincide has also been proved. Two new logical systems—intuitionistic paraconsistent weak Kleene logic (IPWK) and paraconsistent pre-rough logic (PPRL)—are presented here as examples of logics of left variable inclusion. IPWK is the left variable inclusion companion of intuitionistic propositional logic and is also the restricted rules companion of it. PPRL, on the other hand, is the left variable inclusion companion of pre-rough logic but differs from the restricted rules companion of it. We have discussed algebraic semantics for these logics in terms of Płonka sums. This amounts to introducing a contaminating truth value, intended to denote a state of indeterminacy.",
+    "citation_count": 3
+  },
+  {
+    "title": "A Simple Modal Logic for Reasoning in Multigranulation Rough Set Model",
+    "abstract": "The notions of strong/weak approximations have been studied extensively in recent years. These approximations are based on a structure of the form (W,{Ri}i∈ N), called the multiple-source approximation system, where Ri is an equivalence relation on W, and N is an initial segment of the set N of natural numbers. We propose and explore a simple modal language and semantics that can be used to reason about the strong/weak approximations of concepts. Moreover, our study is not confined to collections of equivalence relations only, but other types of relations are also considered. This study is important, keeping in view the notions of generalized approximation spaces with relations other than equivalence.",
+    "published_date": "2018-11-20",
+    "citation_count": 3,
+    "url": "https://dl.acm.org/doi/10.1145/3274664"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.10547",
+    "title": "AI Safety Frameworks Should Include Procedures for Model Access Decisions",
+    "published_date": "2024-11-15",
+    "abstract": "The downstream use cases, benefits, and risks of AI models depend significantly on what sort of access is provided to the model, and who it is provided to. Though existing safety frameworks and AI developer usage policies recognise that the risk posed by a given model depends on the level of access provided to a given audience, the procedures they use to make decisions about model access are ad hoc, opaque, and lacking in empirical substantiation. This paper consequently proposes that frontier AI companies build on existing safety frameworks by outlining transparent procedures for making decisions about model access, which we term Responsible Access Policies (RAPs). We recommend that, at a minimum, RAPs should include the following: i) processes for empirically evaluating model capabilities given different styles of access, ii) processes for assessing the risk profiles of different categories of user, and iii) clear and robust pre-commitments regarding when to grant or revoke specific types of access for particular groups under specified conditions.",
+    "summary": "Current AI safety frameworks inadequately address model access decisions, leading to inconsistent and potentially risky deployments; this paper proposes the creation of transparent \"Responsible Access Policies\" (RAPs) to systematically evaluate model capabilities, user risk profiles, and access control mechanisms."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.12137",
+    "title": "IDs for AI Systems",
+    "published_date": "2024-06-17",
+    "abstract": "AI systems are increasingly pervasive, yet information needed to decide whether and how to engage with them may not exist or be accessible. A user may not be able to verify whether a system has certain safety certifications. An investigator may not know whom to investigate when a system causes an incident. It may not be clear whom to contact to shut down a malfunctioning system. Across a number of domains, IDs address analogous problems by identifying particular entities (e.g., a particular Boeing 747) and providing information about other entities of the same class (e.g., some or all Boeing 747s). We propose a framework in which IDs are ascribed to instances of AI systems (e.g., a particular chat session with Claude 3), and associated information is accessible to parties seeking to interact with that system. We characterize IDs for AI systems, provide concrete examples where IDs could be useful, argue that there could be significant demand for IDs from key actors, analyze how those actors could incentivize ID adoption, explore a potential implementation of our framework for deployers of AI systems, and highlight limitations and risks. IDs seem most warranted in settings where AI systems could have a large impact upon the world, such as in making financial transactions or contacting real humans. With further study, IDs could help to manage a world where AI systems pervade society.",
+    "citation_count": 2,
+    "summary": "The paper proposes a framework for assigning unique identifiers (IDs) to AI systems, enabling easier verification of safety, accountability in incidents, and shutdown procedures, addressing the lack of information about deployed AI systems. This framework, focusing on high-impact AI applications, aims to improve management and safety in a world increasingly reliant on AI."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.14366",
+    "title": "Lessons Learned in Performing a Trustworthy AI and Fundamental Rights Assessment",
+    "published_date": "2024-04-22",
+    "abstract": "This report shares the experiences, results and lessons learned in conducting a pilot project ``Responsible use of AI'' in cooperation with the Province of Friesland, Rijks ICT Gilde-part of the Ministry of the Interior and Kingdom Relations (BZK) (both in The Netherlands) and a group of members of the Z-Inspection$^{\\small{\\circledR}}$ Initiative. The pilot project took place from May 2022 through January 2023. During the pilot, the practical application of a deep learning algorithm from the province of Fr\\^yslan was assessed. The AI maps heathland grassland by means of satellite images for monitoring nature reserves. Environmental monitoring is one of the crucial activities carried on by society for several purposes ranging from maintaining standards on drinkable water to quantifying the CO2 emissions of a particular state or region. Using satellite imagery and machine learning to support decisions is becoming an important part of environmental monitoring. The main focus of this report is to share the experiences, results and lessons learned from performing both a Trustworthy AI assessment using the Z-Inspection$^{\\small{\\circledR}}$ process and the EU framework for Trustworthy AI, and combining it with a Fundamental Rights assessment using the Fundamental Rights and Algorithms Impact Assessment (FRAIA) as recommended by the Dutch government for the use of AI algorithms by the Dutch public authorities.",
+    "summary": "A pilot project assessed the trustworthiness and fundamental rights implications of a Dutch provincial government's AI-powered heathland mapping system, using the Z-Inspection® process, the EU Trustworthy AI framework, and the FRAIA. The report details the experiences and lessons learned from this combined assessment."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/GFeyXGib7DD3ooTEN/introduction-to-french-ai-policy",
+    "author": "Lucie Philippon",
+    "title": "Introduction to French AI Policy",
+    "published_date": "2024-07-04",
+    "summary": "France's approach to AI governance, shaped by a government committee's report, prioritizes national competitiveness and open-source development, downplaying potential AI risks and advocating for international leadership in AI regulation. The report's optimistic stance contrasts with concerns about AI safety expressed by some committee members."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Aq5X9tapacnk2QGY4/pausing-ai-developments-isn-t-enough-we-need-to-shut-it-all",
+    "author": "jacquesthibs",
+    "title": "Pausing AI Developments Isn't Enough. We Need to Shut it All Down by Eliezer Yudkowsky",
+    "published_date": "2024-02-01",
+    "summary": "Eliezer Yudkowsky argues that preventing potential extinction-level risks from advanced AI requires an immediate, indefinite, and globally enforced moratorium on large-scale AI training, prioritizing this over other geopolitical concerns, even to the point of considering military action to prevent violations. He asserts that a less drastic approach is insufficient to mitigate the existential threat posed by unchecked AI development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5RX8j4CDqadnffCij/fifteen-lawsuits-against-openai",
+    "author": "Remmelt",
+    "title": "Fifteen Lawsuits against OpenAI",
+    "published_date": "2024-03-09",
+    "summary": "Numerous US-based lawsuits target OpenAI, primarily alleging copyright infringement (across various media creators) and privacy violations; other claims include libel and accusations of betraying its mission."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.12149",
+    "title": "Beyond Bias and Compliance: Towards Individual Agency and Plurality of Ethics in AI",
+    "published_date": "2023-02-23",
+    "abstract": "AI ethics is an emerging field with multiple, competing narratives about how to best solve the problem of building human values into machines. Two major approaches are focused on bias and compliance, respectively. But neither of these ideas fully encompasses ethics: using moral principles to decide how to act in a particular situation. Our method posits that the way data is labeled plays an essential role in the way AI behaves, and therefore in the ethics of machines themselves. The argument combines a fundamental insight from ethics (i.e. that ethics is about values) with our practical experience building and scaling machine learning systems. We want to build AI that is actually ethical by first addressing foundational concerns: how to build good systems, how to define what is good in relation to system architecture, and who should provide that definition. Building ethical AI creates a foundation of trust between a company and the users of that platform. But this trust is unjustified unless users experience the direct value of ethical AI. Until users have real control over how algorithms behave, something is missing in current AI solutions. This causes massive distrust in AI, and apathy towards AI ethics solutions. The scope of this paper is to propose an alternative path that allows for the plurality of values and the freedom of individual expression. Both are essential for realizing true moral character.",
+    "citation_count": 3,
+    "summary": "The paper argues that current AI ethics frameworks, focused on bias mitigation and compliance, are insufficient, advocating instead for a model prioritizing individual agency and diverse ethical values through user control over data labeling and algorithm behavior. This approach aims to build ethical AI by addressing foundational concerns of system design and value definition, fostering user trust and engagement."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/ai",
+    "author": "Evan Hubinger",
+    "title": "AI - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "Artificial intelligence alignment focuses on ensuring powerful AI systems act according to human values, preventing unintended consequences and existential risks. This involves diverse approaches, from narrow goals (like curing diseases) to broader aspirations (like creating a beneficial future), all addressing the challenge of aligning AI's objectives with humanity's."
+  }
+]

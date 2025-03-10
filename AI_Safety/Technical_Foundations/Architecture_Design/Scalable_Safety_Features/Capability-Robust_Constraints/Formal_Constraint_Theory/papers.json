@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/PbXwdFnSC26Q96FG3/aspiration-based-designs-outlook-dealing-with-complexity",
+    "author": "Jobst Heitzig, jossoliver, thomasfinn, Simon Dima",
+    "title": "[Aspiration-based designs] Outlook: dealing with complexity",
+    "published_date": "2024-04-28"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2304.01815.pdf",
+    "title": "Consolidated Control Barrier Functions: Synthesis and Online Verification via Adaptation under Input Constraints",
+    "published_date": "2023-04-04",
+    "abstract": "In this paper, we develop a novel adaptation-based approach to constrained control design under multiple state and input constraints. Specifically, we introduce a method for synthesizing any number of time-varying candidate control barrier functions (CBF) into one consolidated CBF (C-CBF) candidate, and propose a predictor-corrector optimization-based adaptation law for the weights of the constituent constraint functions that certifies the C-CBF as valid for a class of nonlinear, control-affine systems. We prove this result by showing that the adapted weights are guaranteed to confer sufficient control authority to meet the new, adaptive C-CBF condition in perpetuity despite input constraints, which thereby permits its use in a quadratic program based control law. We then illustrate the performance of our controller on an academic example, and further highlight that it is successful even for constraint functions with higher or mixed relative-degree by simulating a reach-avoid problem for bicycle robots, which we use to demonstrate how our approach out-performs two baseline approaches.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.08540v2",
+    "title": "Automatic scenario generation for efficient solution of robust optimal control problems",
+    "published_date": "2023-03-15",
+    "abstract": "Existing methods for nonlinear robust control often use scenario‐based approaches to formulate the control problem as large nonlinear optimization problems. The optimization problems are challenging to solve due to their size, especially if the control problems include time‐varying uncertainty. This paper draws from local reduction methods used in semi‐infinite optimization to solve robust optimal control problems with parametric and time‐varying uncertainty. By iteratively adding interim worst‐case scenarios to the problem, methods based on local reduction provide a way to manage the total number of scenarios. We show that the local reduction method for optimal control problems consists of solving a series of simplified optimal control problems to find worst‐case constraint violations. In particular, we present examples where local reduction methods find worst‐case scenarios that are not on the boundary of the uncertainty set. We also provide bounds on the error if local solvers are used. The proposed approach is illustrated with two case studies with parametric and additive time‐varying uncertainty. In the first case study, the number of scenarios obtained from local reduction is 101, smaller than in the case when all 214+3×192$$ {2}^{14+3\\times 192} $$ extreme scenarios are considered. In the second case study, the number of scenarios obtained from the local reduction is two compared to 512 extreme scenarios. Our approach was able to satisfy the constraints both for parametric uncertainty and time‐varying disturbances, whereas approaches from literature either violated the constraints or became computationally expensive.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/sHGxvJrBag7nhTQvb/invulnerable-incomplete-preferences-a-formal-statement-1",
+    "author": "Sami Petersen",
+    "title": "Invulnerable Incomplete Preferences: \nA Formal Statement",
+    "published_date": "2023-08-30"
+  },
+  {
+    "title": "Efficient and provable local capability revocation using uninitialized capabilities",
+    "abstract": "Capability machines are a special form of CPUs that offer fine-grained privilege separation using a form of authority-carrying values known as capabilities. The CHERI capability machine offers local capabilities, which could be used as a cheap but restricted form of capability revocation. Unfortunately, local capability revocation is unrealistic in practice because large amounts of stack memory need to be cleared as a security precaution. In this paper, we address this shortcoming by introducing uninitialized capabilities: a new form of capabilities that represent read/write authority to a block of memory without exposing the memory's initial contents. We provide a mechanically verified program logic for reasoning about programs on a capability machine with the new feature and we formalize and prove capability safety in the form of a universal contract for untrusted code. We use uninitialized capabilities for making a previously-proposed secure calling convention efficient and prove its security using the program logic. Finally, we report on a proof-of-concept implementation of uninitialized capabilities on the CHERI capability machine.",
+    "published_date": "2021-01-04",
+    "citation_count": 28,
+    "url": "https://dl.acm.org/doi/10.1145/3434287"
+  },
+  {
+    "url": "https://arxiv.org/abs/2112.14838v3",
+    "title": "Analysis and Control of Input-Affine Dynamical Systems using Infinite-Dimensional Robust Counterparts",
+    "published_date": "2021-12-29",
+    "abstract": "Input-affine dynamical systems often arise in control and modeling scenarios, such as the data-driven case when state-derivative observations are recorded under bounded noise. Common tasks in system analysis and control include optimal control, peak estimation, reachable set estimation, and maximum control invariant set estimation. Existing work poses these types of problems as infinite-dimensional linear programs in auxiliary functions with sum-of-squares tightenings. The bottleneck in most of these programs is the Lie derivative nonnegativity constraint posed over the time-state-control set. Decomposition techniques to improve tractability by eliminating the control variables include vertex decompositions (switching), or facial decompositions in the case where the polytopic set is a scaled box. This work extends the box-facial decomposition technique to allow for a robust-counterpart decomposition of semidefinite representable sets (e.g. polytopes, ellipsoids, and projections of spectahedra). These robust counterparts are proven to be equivalent to the original Lie constraint under mild compactness and regularity constraints. Efficacy is demonstrated under peak/distance/reachable set data-driven analysis problems and Region of Attraction maximizing control.",
+    "citation_count": 5
+  }
+]

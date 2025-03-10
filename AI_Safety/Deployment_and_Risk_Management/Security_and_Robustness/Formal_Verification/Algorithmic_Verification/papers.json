@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25",
+    "summary": "The article discusses the challenges of using formal verification to guarantee the safety of neural networks, arguing that the strictness of proofs makes this impractical for large models. Instead, it proposes \"heuristic explanations,\" a less rigorous approach that aims to provide insightful, quantifiable explanations of network behavior without aiming for complete, provable guarantees."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19",
+    "summary": "The article argues that claims of using formal verification to guarantee AI safety are overly optimistic. The complexity of the real world, particularly in areas like biology and physics, makes obtaining the necessary complete models and data for effective formal verification practically impossible in the near term."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/wtTz6hyP6hnX5NiuA/aspiration-based-designs-2-formal-framework-basic-algorithm",
+    "author": "Jobst Heitzig, Simon Dima, Simon Fischer",
+    "title": "[Aspiration-based designs] 2. Formal framework, basic algorithm",
+    "published_date": "2024-04-28",
+    "summary": "This article introduces an aspiration-based algorithm for AI agents to achieve specific expected values of a task-relevant metric, rather than maximizing it. The algorithm, proven to guarantee goal fulfillment under certain conditions, propagates aspirations over time within a Markov Decision Process framework."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/fsGEyCYhqs7AWwdCe/learning-theoretic-agenda-reading-list",
+    "author": "Vanessa Kosoy",
+    "title": "Learning-theoretic agenda reading list",
+    "published_date": "2023-11-09",
+    "summary": "This article presents a self-study reading list for learning-theoretic AI, encompassing mathematical foundations, AI theory, reinforcement learning, agent foundations, and alignment research, acknowledging that the list is imperfect but prioritizing accessibility over completeness. The author encourages suggestions for improved resources."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/uEwECj53prjKLcBC5/vc-theory-overview",
+    "author": "Joar Skalse",
+    "title": "VC Theory Overview",
+    "published_date": "2023-07-02",
+    "summary": "Computational learning theory (CLT) combines complexity theory with machine learning to determine the learnability of problems, identifying those solvable with limited data. A key model, Probably Approximately Correct (PAC) learning, formalizes supervised learning by defining conditions under which an algorithm can learn a function with high probability and low error from a polynomial number of training examples."
+  },
+  {
+    "title": "Towards combining deep learning, verification, and scenario-based programming",
+    "abstract": "Deep learning (DL) [4] is dramatically changing the world of software. The rapid improvement in deep neural network (DNN) technology now enables engineers to train models that achieve superhuman results, often surpassing algorithms that have been carefully hand-crafted by domain experts [19, 20]. There is even an intensifying trend of incorporating DNNs in safety-critical systems, e.g. as controllers for autonomous vehicles and drones [1, 12].",
+    "published_date": "2021-05-18",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3459086.3459631",
+    "summary": "Deep learning's success is leading to its integration into safety-critical systems, despite challenges in verifying the reliability of these complex neural networks. This necessitates exploring combinations of deep learning with formal verification and scenario-based programming techniques."
+  },
+  {
+    "title": "Verifiable autonomy under perceptual limitations",
+    "abstract": "A recent set of algorithms in the intersection of formal methods, convex optimization and machine learning offers orders-of-magnitude improvement in the scalability of verification and synthesis in partially observable Markov decision processes possibly with uncertain transition probabilities.",
+    "published_date": "2021-05-18",
+    "url": "https://dl.acm.org/doi/10.1145/3459086.3459635",
+    "summary": "New algorithms combining formal methods, convex optimization, and machine learning significantly improve the scalability of verifying and synthesizing autonomous systems operating under partial observability and uncertain transitions. This advancement addresses challenges in verifiable autonomy."
+  }
+]

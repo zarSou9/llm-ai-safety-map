@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2406.11033",
+    "title": "HAIChart: Human and AI Paired Visualization System",
+    "published_date": "2024-06-16",
+    "abstract": "\n The growing importance of data visualization in business intelligence and data science emphasizes the need for tools that can efficiently generate meaningful visualizations from large datasets. Existing tools fall into two main categories: human-powered tools (\n e.g.\n , Tableau and PowerBI), which require intensive expert involvement, and AI-powered automated tools (\n e.g.\n , Draco and Table2Charts), which often fall short of\n guessing\n specific user needs.\n \n \n In this paper, we aim to achieve the best of both worlds. Our key idea is to initially auto-generate a set of high-quality visualizations to minimize manual effort, then refine this process iteratively with user feedback to more closely align with their needs. To this end, we present HAIChart, a reinforcement learning-based framework designed to iteratively recommend good visualizations for a given dataset by incorporating user feedback. Specifically, we propose a Monte Carlo Graph Search-based visualization generation algorithm paired with a composite reward function to efficiently explore the visualization space and automatically generate good visualizations. We devise a visualization hints mechanism to actively incorporate user feedback, thus progressively refining the visualization generation module. We further prove that the top-\n k\n visualization hints selection problem is NP-hard and design an efficient algorithm. We conduct both quantitative evaluations and user studies, showing that HAIChart significantly outperforms state-of-the-art human-powered tools (21% better at Recall and 1.8× faster) and AI-powered automatic tools (25.1% and 14.9% better in terms of Hit@3 and R10@30, respectively).\n",
+    "citation_count": 6
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/kobJymvvcvhbjWFKe/laying-the-foundations-for-vision-and-multimodal-mechanistic",
+    "author": "Sonia Joseph, Neel Nanda",
+    "title": "Laying the Foundations for Vision and Multimodal Mechanistic Interpretability & Open Problems",
+    "published_date": "2024-03-13"
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.08326v1",
+    "title": "From Information to Choice: A Critical Inquiry Into Visualization Tools for Decision Making",
+    "published_date": "2023-07-17",
+    "abstract": "In the face of complex decisions, people often engage in a three-stage process that spans from (1) exploring and analyzing pertinent information (intelligence); (2) generating and exploring alternative options (design); and ultimately culminating in (3) selecting the optimal decision by evaluating discerning criteria (choice). We can fairly assume that all good visualizations aid in the “intelligence” stage by enabling data exploration and analysis. Yet, to what degree and how do visualization systems currently support the other decision making stages, namely “design” and “choice”? To further explore this question, we conducted a comprehensive review of decision-focused visualization tools by examining publications in major visualization journals and conferences, including VIS, EuroVis, and CHI, spanning all available years. We employed a deductive coding method and in-depth analysis to assess whether and how visualization tools support design and choice. Specifically, we examined each visualization tool by (i) its degree of visibility for displaying decision alternatives, criteria, and preferences, and (ii) its degree of flexibility for offering means to manipulate the decision alternatives, criteria, and preferences with interactions such as adding, modifying, changing mapping, and filtering. Our review highlights the opportunities and challenges that decision-focused visualization tools face in realizing their full potential to support all stages of the decision making process. It reveals a surprising scarcity of tools that support all stages, and while most tools excel in offering visibility for decision criteria and alternatives, the degree of flexibility to manipulate these elements is often limited, and the lack of tools that accommodate decision preferences and their elicitation is notable. Based on our findings, to better support the choice stage, future research could explore enhancing flexibility levels and variety, exploring novel visualization paradigms, increasing algorithmic support, and ensuring that this automation is user-controlled via the enhanced flexibility I evels. Our curated list of the 88 surveyed visualization tools is available in the OSF link (https://osf.io/nrasz/?view_only=b92a90a34ae241449b5f2cd33383bfcb).",
+    "citation_count": 9
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.18432.pdf",
+    "title": "Interactive Decision Tree Creation and Enhancement with Complete Visualization for Explainable Modeling",
+    "published_date": "2023-05-28",
+    "abstract": "To increase the interpretability and prediction accuracy of the Machine Learning (ML) models, visualization of ML models is a key part of the ML process. Decision Trees (DTs) are essential in machine learning (ML) because they are used to understand many black box ML models including Deep Learning models. In this research, two new methods for creation and enhancement with complete visualizing Decision Trees as understandable models are suggested. These methods use two versions of General Line Coordinates (GLC): Bended Coordinates (BC) and Shifted Paired Coordinates (SPC). The Bended Coordinates are a set of line coordinates, where each coordinate is bended in a threshold point of the respective DT node. In SPC, each n-D point is visualized in a set of shifted pairs of 2-D Cartesian coordinates as a directed graph. These new methods expand and complement the capabilities of existing methods to visualize DT models more completely. These capabilities allow us to observe and analyze: (1) relations between attributes, (2) individual cases relative to the DT structure, (3) data flow in the DT, (4) sensitivity of each split threshold in the DT nodes, and (5) density of cases in parts of the n-D space. These features are critical for DT models' performance evaluation and improvement by domain experts and end users as they help to prevent overgeneralization and overfitting of the models. The advantages of this methodology are illustrated in the case studies on benchmark real-world datasets. The paper also demonstrates how to generalize them for decision tree visualizations in different General Line Coordinates.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.08554.pdf",
+    "title": "Multi-Criteria Decision Analysis for Aiding Glyph Design",
+    "published_date": "2023-03-15",
+    "abstract": "Glyph-based visualization is one of the main techniques for visualizing complex multivariate data. With small glyphs, data variables are typically encoded with relatively low visual and perceptual precision. Glyph designers have to contemplate the trade-offs in allocating visual channels when there is a large number of data variables. While there are many successful glyph designs in the literature, there is not yet a systematic method for assisting visualization designers to evaluate different design options that feature different types of trade-offs. In this paper, we present an evaluation scheme based on the multi-criteria decision analysis (MCDA) methodology. The scheme provides designers with a structured way to consider their glyph designs from a range of perspectives, while rendering a semi-quantitative template for evaluating different design options. In addition, this work provides guideposts for future empirical research to obtain more quantitative measurements that can be used in MCDA-aided glyph design processes."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bBuBDJBYHt39Q5zZy/decision-transformer-interpretability",
+    "author": "Joseph Bloom, Paul Colognese",
+    "title": "Decision Transformer Interpretability",
+    "published_date": "2023-02-06"
+  }
+]

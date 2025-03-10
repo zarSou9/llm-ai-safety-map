@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.08583",
+    "title": "An Empirical Examination of the Evaluative AI Framework",
+    "published_date": "2024-11-13",
+    "abstract": "This study empirically examines the\"Evaluative AI\"framework, which aims to enhance the decision-making process for AI users by transitioning from a recommendation-based approach to a hypothesis-driven one. Rather than offering direct recommendations, this framework presents users pro and con evidence for hypotheses to support more informed decisions. However, findings from the current behavioral experiment reveal no significant improvement in decision-making performance and limited user engagement with the evidence provided, resulting in cognitive processes similar to those observed in traditional AI systems. Despite these results, the framework still holds promise for further exploration in future research.",
+    "summary": "An empirical study of the Evaluative AI framework, designed to improve AI-assisted decision-making by presenting evidence instead of recommendations, found no significant performance improvement or increased user engagement compared to traditional recommendation-based systems. Despite this, the framework's potential warrants further research."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.01739",
+    "title": "Mimicking Human Intuition: Cognitive Belief-Driven Q-Learning",
+    "published_date": "2024-10-02",
+    "abstract": "Reinforcement learning encounters challenges in various environments related to robustness and explainability. Traditional Q-learning algorithms cannot effectively make decisions and utilize the historical learning experience. To overcome these limitations, we propose Cognitive Belief-Driven Q-Learning (CBDQ), which integrates subjective belief modeling into the Q-learning framework, enhancing decision-making accuracy by endowing agents with human-like learning and reasoning capabilities. Drawing inspiration from cognitive science, our method maintains a subjective belief distribution over the expectation of actions, leveraging a cluster-based subjective belief model that enables agents to reason about the potential probability associated with each decision. CBDQ effectively mitigates overestimated phenomena and optimizes decision-making policies by integrating historical experiences with current contextual information, mimicking the dynamics of human decision-making. We evaluate the proposed method on discrete control benchmark tasks in various complicate environments. The results demonstrate that CBDQ exhibits stronger adaptability, robustness, and human-like characteristics in handling these environments, outperforming other baselines. We hope this work will give researchers a fresh perspective on understanding and explaining Q-learning.",
+    "summary": "Cognitive Belief-Driven Q-Learning (CBDQ) improves upon traditional Q-learning by incorporating a subjective belief model, enabling agents to reason probabilistically about actions and leverage past experiences for more robust and human-like decision-making in complex environments. CBDQ demonstrates superior performance compared to baseline methods in various benchmark tasks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.11535",
+    "title": "Balancing Optimality and Diversity: Human-Centered Decision Making through Generative Curation",
+    "published_date": "2024-09-17",
+    "abstract": "The surge in data availability has inundated decision-makers with an overwhelming array of choices. While existing approaches focus on optimizing decisions based on quantifiable metrics, practical decision-making often requires balancing measurable quantitative criteria with unmeasurable qualitative factors embedded in the broader context. In such cases, algorithms can generate high-quality recommendations, but the final decision rests with the human, who must weigh both dimensions. We define the process of selecting the optimal set of algorithmic recommendations in this context as human-centered decision making. To address this challenge, we introduce a novel framework called generative curation, which optimizes the true desirability of decision options by integrating both quantitative and qualitative aspects. Our framework uses a Gaussian process to model unknown qualitative factors and derives a diversity metric that balances quantitative optimality with qualitative diversity. This trade-off enables the generation of a manageable subset of diverse, near-optimal actions that are robust to unknown qualitative preferences. To operationalize this framework, we propose two implementation approaches: a generative neural network architecture that produces a distribution $\\pi$ to efficiently sample a diverse set of near-optimal actions, and a sequential optimization method to iteratively generates solutions that can be easily incorporated into complex optimization formulations. We validate our approach with extensive datasets, demonstrating its effectiveness in enhancing decision-making processes across a range of complex environments, with significant implications for policy and management.",
+    "summary": "Generative curation, a novel framework for human-centered decision-making, balances quantitatively optimal algorithmic recommendations with qualitatively diverse options using Gaussian processes and a diversity metric, resulting in a manageable subset of robust, near-optimal choices. This framework is implemented via a generative neural network or sequential optimization, improving decision-making across various complex environments."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.10461",
+    "title": "Utilizing Human Behavior Modeling to Manipulate Explanations in AI-Assisted Decision Making: The Good, the Bad, and the Scary",
+    "published_date": "2024-11-02",
+    "abstract": "Recent advances in AI models have increased the integration of AI-based decision aids into the human decision making process. To fully unlock the potential of AI-assisted decision making, researchers have computationally modeled how humans incorporate AI recommendations into their final decisions, and utilized these models to improve human-AI team performance. Meanwhile, due to the ``black-box'' nature of AI models, providing AI explanations to human decision makers to help them rely on AI recommendations more appropriately has become a common practice. In this paper, we explore whether we can quantitatively model how humans integrate both AI recommendations and explanations into their decision process, and whether this quantitative understanding of human behavior from the learned model can be utilized to manipulate AI explanations, thereby nudging individuals towards making targeted decisions. Our extensive human experiments across various tasks demonstrate that human behavior can be easily influenced by these manipulated explanations towards targeted outcomes, regardless of the intent being adversarial or benign. Furthermore, individuals often fail to detect any anomalies in these explanations, despite their decisions being affected by them.",
+    "summary": "This paper investigates whether models of human decision-making incorporating AI recommendations and explanations can be used to manipulate explanations, subtly influencing user choices toward desired outcomes. Experiments show that such manipulation is easily achieved, often undetected by users, raising ethical concerns about the use of AI explanations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a novel framework for building ethical AI by incorporating ethical principles as Bayesian priors into AI learning processes. This approach, inspired by human moral intuition, aims to guide AI decision-making towards ethically sound judgments."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "The article explores applying game theory to AI development within organizational structures, highlighting its limitations and suggesting a model integrating AI agents into bureaucratic systems. This model leverages principles of hierarchical authority and job specialization, emphasizing the continued necessity of human-AI collaboration due to AI's bounded rationality and the inherent complexity of problem-solving."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zYv9BQBGnk2EdCwoG/the-psyche-of-ai-pattern-recognition",
+    "author": "Scott Broock",
+    "title": "AI and the Map of Your Mind: Pattern Recognition",
+    "published_date": "2023-03-20",
+    "summary": "Integrating large language models into productivity suites allows AI to create personalized knowledge graphs from user data, potentially revolutionizing learning and decision-making by revealing hidden connections and patterns. However, this access to personal data raises concerns about privacy and the implications for understanding the human psyche."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/AKBkDNeFLZxaMqjQG/a-practical-incremental-pathway-to-safe-tai-oaa-in-the-real",
+    "author": "Roman Leventov, Rafael Kaufmann Nedal",
+    "title": "Gaia Network: a practical, incremental pathway to Open Agency Architecture",
+    "published_date": "2023-12-20",
+    "summary": "The article proposes Gaia, a decentralized network leveraging existing technologies and economic mechanisms to address AI safety concerns by building a comprehensive world model, facilitating better decision-making, and achieving the goals of the Open Agency Architecture (OAA) through iterative improvement and broad adoption. This approach prioritizes a bottom-up, evolutionary design over top-down control."
+  }
+]

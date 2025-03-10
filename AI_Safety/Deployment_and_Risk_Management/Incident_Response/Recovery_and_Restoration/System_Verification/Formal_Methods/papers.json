@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2412.16186",
+    "title": "Formal Modeling and Verification of Publisher-Subscriber Paradigm in ROS 2",
+    "published_date": "2024-12-12",
+    "abstract": "The Robot Operating System (ROS) is one of the most popular middleware for developing robot applications, but it is subject to major shortcomings when applied to real-time robotic systems in safety-critical environments. For this reason, ROS 2 was released in 2017 for implementing real-time capabilities in distributed robotic systems while supporting the most prominent aspects of the original ROS. There is still not much work done to provide formal guarantees and correctness of a ROS program. In this paper, we propose a framework to address this challenging problem of guaranteeing the correct behaviour of robotic systems. We propose a formal modelling of a ROS 2 program, and also describe the program using a network of timed automata. We then prove that the sets of executions of a ROS program in the model and in the network of timed automata are the same. Thus to analyze a publisher-subscriber scenario of ROS 2 program, our algorithm first converts the program into the model, and then into the network of timed automata. The applicability and validity of our approach are verified by conducting several experiments on a simplified system and an actual robotic system, and the results and limitations are discussed."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/3P8WBwLyfPBEkbG3c/proveably-safe-self-driving-cars",
+    "author": "Davidmanheim",
+    "title": "Proveably Safe Self Driving Cars",
+    "published_date": "2024-09-15"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.01933.pdf",
+    "title": "Provably safe systems: the only path to controllable AGI",
+    "published_date": "2023-09-05",
+    "abstract": "We describe a path to humanity safely thriving with powerful Artificial General Intelligences (AGIs) by building them to provably satisfy human-specified requirements. We argue that this will soon be technically feasible using advanced AI for formal verification and mechanistic interpretability. We further argue that it is the only path which guarantees safe controlled AGI. We end with a list of challenge problems whose solution would contribute to this positive outcome and invite readers to join in this work.",
+    "citation_count": 15
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.01258",
+    "title": "Formal Methods for Autonomous Systems",
+    "published_date": "2023-11-02",
+    "abstract": "Formal methods refer to rigorous, mathematical approaches to system development and have played a key role in establishing the correctness of safety-critical systems. The main building blocks of formal methods are models and specifications, which are analogous to behaviors and requirements in system design and give us the means to verify and synthesize system behaviors with formal guarantees. This monograph provides a survey of the current state of the art on applications of formal methods in the autonomous systems domain. We consider correct-by-construction synthesis under various formulations, including closed systems, reactive, and probabilistic settings. Beyond synthesizing systems in known environments, we address the concept of uncertainty and bound the behavior of systems that employ learning using formal methods. Further, we examine the synthesis of systems with monitoring, a mitigation technique for ensuring that once a system deviates from expected behavior, it knows a way of returning to normalcy. We also show how to overcome some limitations of formal methods themselves with learning. We conclude with future directions for formal methods in reinforcement learning, uncertainty, privacy, explainability of formal methods, and regulation and certification.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jiXMZHGmEf7qPrKPc/systems-that-cannot-be-unsafe-cannot-be-safe",
+    "author": "Davidmanheim",
+    "title": "Systems that cannot be unsafe cannot be safe",
+    "published_date": "2023-05-02"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.04865.pdf",
+    "title": "On Assessing The Safety of Reinforcement Learning algorithms Using Formal Methods",
+    "published_date": "2021-11-08",
+    "abstract": "The increasing adoption of Reinforcement Learning in safety-critical systems domains such as autonomous vehicles, health, and aviation raises the need for ensuring their safety. Existing safety mechanisms such as adversarial training, adversarial detection, and robust learning are not always adapted to all disturbances in which the agent is deployed. Those disturbances include moving adversaries whose behavior can be unpredictable by the agent, and as a matter of fact harmful to its learning. Ensuring the safety of critical systems also requires methods that give formal guarantees on the behaviour of the agent evolving in a perturbed environment. It is therefore necessary to propose new solutions adapted to the learning challenges faced by the agent. In this paper, first we generate adversarial agents that exhibit flaws in the agent's policy by presenting moving adversaries. Secondly, We use reward shaping and a modified Q-learning algorithm as defense mechanisms to improve the agent's policy when facing adversarial perturbations. Finally, probabilistic model checking is employed to evaluate the effectiveness of both mechanisms. We have conducted experiments on a discrete grid world with a single agent facing non-learning and learning adversaries. Our results show a diminution in the number of collisions between the agent and the adversaries. Probabilistic model checking provides lower and upper probabilistic bounds regarding the agent's safety in the adversarial environment.",
+    "citation_count": 3
+  }
+]

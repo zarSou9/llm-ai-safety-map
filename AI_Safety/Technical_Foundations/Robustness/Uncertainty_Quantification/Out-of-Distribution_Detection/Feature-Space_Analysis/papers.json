@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13"
+  },
+  {
+    "url": "https://www.lesswrong.com/s/GiZ6puwmHozLuBrph/p/99gWh9jxeumcmuduw",
+    "author": "Erik Jenner; Viktor Rehnberg; Oliver Daniels-Koch",
+    "title": "Concrete empirical research projects in mechanistic anomaly detection",
+    "published_date": "2024-04-03"
+  },
+  {
+    "url": "https://arxiv.org/abs/1911.11132v2",
+    "title": "Scaling Out-of-Distribution Detection for Real-World Settings",
+    "published_date": "2023-02-27",
+    "abstract": "Detecting out-of-distribution examples is important for safety-critical machine learning applications such as medical screening and self-driving cars. However, existing research mainly focuses on simple small-scale settings. To set the stage for more realistic out-of-distribution detection, we depart from small-scale settings and explore large-scale multiclass and multi-label settings with high-resolution images and hundreds of classes. To make future work in real-world settings possible, we also create a new benchmark for anomaly segmentation by introducing the Combined Anomalous Object Segmentation benchmark. Our novel benchmark combines two datasets for anomaly segmentation that incorporate both realism and anomaly diversity. Using both real images and those from a simulated driving environment, we ensure the background context and a wide variety of anomalous objects are naturally integrated, unlike before. We conduct extensive experiments in these more realistic settings for out-of-distribution detection and find that a surprisingly simple detector based on the maximum logit outperforms prior methods in all the large-scale multi-class, multi-label, and segmentation tasks we consider, establishing a new baseline for future work. These results, along with our new anomaly segmentation benchmark, open the door to future research in out-of-distribution detection.",
+    "citation_count": 391
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.13012",
+    "title": "Key Feature Replacement of In-Distribution Samples for Out-of-Distribution Detection",
+    "published_date": "2022-12-26",
+    "abstract": "Out-of-distribution (OOD) detection can be used in deep learning-based applications to reject outlier samples from being unreliably classified by deep neural networks. Learning to classify between OOD and in-distribution samples is difficult because data comprising the former is extremely diverse. It has been observed that an auxiliary OOD dataset is most effective in training a ``rejection'' network when its samples are semantically similar to in-distribution images. We first deduce that OOD images are perceived by a deep neural network to be semantically similar to in-distribution samples when they share a common background, as deep networks are observed to incorrectly classify such images with high confidence. We then propose a simple yet effective Key In-distribution feature Replacement BY inpainting (KIRBY) procedure that constructs a surrogate OOD dataset by replacing class-discriminative features of in-distribution samples with marginal background features. The procedure can be implemented using off-the-shelf vision algorithms, where each step within the algorithm is shown to make the surrogate data increasingly similar to in-distribution data. Design choices in each step are studied extensively, and an exhaustive comparison with state-of-the-art algorithms demonstrates KIRBY's competitiveness on various benchmarks.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dhbLE8BqRvhBtsXhS/mlsn-3-neurips-safety-paper-roundup",
+    "author": "Dan H",
+    "title": "[MLSN #3]: NeurIPS Safety Paper Roundup",
+    "published_date": "2022-03-08"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.12628.pdf",
+    "title": "Are all outliers alike? On Understanding the Diversity of Outliers for Detecting OODs",
+    "published_date": "2021-03-23",
+    "abstract": "Deep neural networks (DNNs) are known to produce incorrect predictions with very high confidence on out-of-distribution (OOD) inputs. This limitation is one of the key challenges in the adoption of deep learning models in high-assurance systems such as autonomous driving, air traffic management, and medical diagnosis. This challenge has received significant attention recently, and several techniques have been developed to detect inputs where the model's prediction cannot be trusted. These techniques use different statistical, geometric, or topological signatures. This paper presents a taxonomy of OOD outlier inputs based on their source and nature of uncertainty. We demonstrate how different existing detection approaches fail to detect certain types of outliers. We utilize these insights to develop a novel integrated detection approach that uses multiple attributes corresponding to different types of outliers. Our results include experiments on CIFAR10, SVHN and MNIST as in-distribution data and Imagenet, LSUN, SVHN (for CIFAR10), CIFAR10 (for SVHN), KMNIST, and F-MNIST as OOD data across different DNN architectures such as ResNet34, WideResNet, DenseNet, and LeNet5.",
+    "citation_count": 11
+  }
+]

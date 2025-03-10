@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2404.05495",
+    "title": "Decisioning Workshop 2023",
+    "published_date": "2024-04-08",
+    "abstract": "In a knowledge society, the term knowledge must be considered a core resource for organizations. So, beyond being a medium to progress and to innovate, knowledge is one of our most important resources: something necessary to decide.Organizations that are embracing knowledge retention activities are gaining a competitive advantage. Organizational rearrangements from companies, notably outsourcing, increase a possible loss of knowledge, making knowledge retention an essential need for them. When Knowledge is less shared, collaborative decision-making seems harder to obtain insofar as a ``communication breakdown'' characterizes participants' discourse. At best, stakeholders have to finda consensus according to their knowledge. Sharing knowledge ensures its retention and catalyzes the construction of this consensus. Our vision of collaborative decision-making aims not only at increasing the quality of the first parts of the decision-making process: intelligence and design, but also at increasing the acceptance of the choice. Intelligence and design will be done by more than one individual and constructed together; the decision is more easily accepted. The decided choice will then be shared. Thereby where decision-making could be seen as a constructed model, collaborative decision-making, for us,is seen as the use of socio-technical media to improve decision-making performance and acceptability. The shared decision making is a core activity in a lot of human activities. For example, the sustainable decision-making is the job of not only governments and institutions but also broader society. Recognizing the urgent need for sustainability, we can argue that to realize sustainable development, it must be considered as a decision-making strategy. The location of knowledge in the realization of collaborative decision-making has to be regarded insofar as knowledge sharing leads to improve collaborative decision-making: a ``static view'' has to be structured and constitutes the ``collaborative knowledge.'' Knowledge has an important role in individual decision-making, and we consider that for collaborative decision-making, knowledge has to be shared. What is required is a better understanding of the nature of group work''. Knowledge has to be shared, but how do we share knowledge?",
+    "summary": "The Decisioning Workshop 2023 explores how effective knowledge sharing improves collaborative decision-making, arguing that shared knowledge enhances both the quality and acceptance of decisions by fostering consensus and leveraging socio-technical media. This approach is particularly relevant for addressing complex challenges like sustainable development."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.08008v1",
+    "title": "Democratic Policy Decisions with Decentralized Promises Contingent on Vote Outcome",
+    "published_date": "2023-04-17",
+    "abstract": "We study pre-vote interactions in a committee that enacts a welfare-improving reform through voting in the presence of heterogeneous utilities. Committee members use decentralized irrevocable promises of non-negative transfers contingent on the vote outcome to influence the voting behaviour of other committee members. Equilibrium transfers require that no coalition can deviate in a self-enforcing manner that benefits all its members ({\\it Strong Nash}) and minimize total transfers. We show that equilibria exist, are indeterminate, efficient, and involve transfers from high- to low-utility members. Equilibrium transfers prevent reform opponents from persuading less enthusiastic reform supporters to vote against the reform. Transfer recipients can be reform supporters.",
+    "citation_count": 1,
+    "summary": "This paper analyzes a voting model where committee members make pre-vote, binding transfer promises to influence the outcome of a welfare-improving reform. Equilibria, while indeterminate, are efficient, involve transfers from high- to low-utility members, and prevent blocking coalitions from forming."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.09548.pdf",
+    "title": "Legitimacy of collective decisions: a mechanism design approach",
+    "published_date": "2023-02-19",
+    "abstract": "We design two mechanisms that ensure that the majority preferred option wins in all equilibria. The first one is a simultaneous game where agents choose other agents to cooperate with on top of the vote for an alternative, thus overcoming recent impossibility results concerning the implementation of majority rule. The second one adds sequential ratification to the standard majority voting procedure allowing to reach the (correct) outcome in significantly fewer steps than the widely used roll call voting. Both mechanisms use off-equilibrium lotteries to incentivize truthful voting. We discuss different extensions, including the possibility for agents to abstain.",
+    "summary": "This paper presents two novel voting mechanisms guaranteeing the majority-preferred outcome in all equilibria, overcoming previous impossibility results. These mechanisms, one simultaneous and one sequential, utilize off-equilibrium lotteries to incentivize truthful voting and improve upon existing voting procedures' efficiency."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.16511v2",
+    "title": "A Uniform Approach to Compare Architectures in Decentralized Discrete-Event Systems",
+    "published_date": "2022-10-29",
+    "abstract": "Solutions to decentralized discrete-event systems problems are characterized by the way local decisions are fused to yield a global decision. A fusion rule is colloquially called an architecture. Current approaches do not provide a direct way to compare existing architectures. Determining whether an architecture is more permissive than another architecture had relied on producing examples ad hoc and on individual inspiration that puts the conditions for solvability in each architecture into some form that admits comparison. In response to these research efforts, a method based on morphisms between graphs has been extracted to yield a uniform approach to compare the permissiveness of the architectures.",
+    "citation_count": 2,
+    "summary": "This paper presents a novel, uniform method using graph morphisms to compare the permissiveness of different architectures in decentralized discrete-event systems, addressing the previous lack of a direct comparison approach. This overcomes limitations of ad-hoc comparisons and allows for a systematic evaluation of architectural performance."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2211.08593.pdf",
+    "title": "Composite Consensus-Building Process: Permissible Meeting Analysis and Compromise Choice Exploration",
+    "published_date": "2022-11-16",
+    "abstract": "In solving today's social issues, it is necessary to determine solutions that are acceptable to all stakeholders and collaborate to apply them. The conventional technology of\"permissive meeting analysis\"derives a consensusable choice that falls within everyone's permissible range through mathematical analyses; however, it tends to be biased toward the majority in a group, making it difficult to reach a consensus when a conflict arises. To support consensus building (defined here as an acceptable compromise that not everyone rejects), we developed a composite consensus-building process. The developed process addresses this issue by combining permissible meeting analysis with a new\"compromise choice-exploration\"technology, which presents a consensusable choice that emphasizes fairness and equality among everyone when permissible meeting analysis fails to do so. When both permissible meeting analysis and compromise choice exploration do not arrive at a consensus, a facility is provided to create a sublated choice among those provided by them. The trial experimental results confirmed that permissive meeting analysis and compromise choice exploration are sufficiently useful for deriving consensusable choices. Furthermore, we found that compromise choice exploration is characterized by its ability to derive choices that control the balance between compromise and fairness. Our proposed composite consensus-building approach could be applied in a wide range of situations, from local issues in municipalities and communities to international issues such as environmental protection and human rights issues. It could also aid in developing digital democracy and platform cooperativism.",
+    "summary": "This paper introduces a composite consensus-building process that combines permissible meeting analysis with a new compromise choice exploration method to achieve fair and equitable solutions, addressing the limitations of relying solely on majority-biased permissible meeting analysis. The process offers a tiered approach, culminating in a sublated choice if initial methods fail to reach consensus."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rmwAuWXYTo24E5nnX/a-pin-and-a-balloon-anthropic-fragility-increases-chances-of",
+    "author": "avturchin",
+    "title": "A Pin and a Balloon: Anthropic Fragility Increases Chances of Runaway Global Warming",
+    "published_date": "2022-09-11",
+    "summary": "Due to survival bias, we underestimate the likelihood and proximity of climate tipping points, making Earth more fragile to human actions and increasing the probability of human extinction via runaway global warming. The authors argue that this \"anthropic fragility\" necessitates urgent geoengineering research."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.03580.pdf",
+    "title": "A negotiating protocol for group decision support systems",
+    "published_date": "2021-01-10",
+    "abstract": "Our contribution concerns interactive decision support systems for group decision support. Through this study, we apply to implement a decisional process aiming to represent the multiplicity of actors, their diversity, their behaviors and their interactions. In this context, we contribute to the design and development of a group decision support system. The system is modeled by a multi agents system while exploiting a negotiation protocol based on mediation and concession. This protocol allows decision-makers to express their preferences using multicriteria analysis methods, mainly the method by total aggregation AHP (Hierarchical Process Analysis) and the method by partial aggregation PROMETHEE II .",
+    "summary": "This paper presents a group decision support system using a multi-agent system with a negotiation protocol based on mediation and concession, incorporating multicriteria analysis methods (AHP and PROMETHEE II) to represent diverse actor preferences and interactions. The system facilitates group decision-making by modeling the negotiation process among multiple decision-makers."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.05318.pdf",
+    "title": "Composing games into complex institutions",
+    "published_date": "2021-08-11",
+    "abstract": "Game theory is used by all behavioral sciences, but its development has long centered around the economic interpretation of equilibrium outcomes in relatively simple games and toy systems. But game theory has another potential use: the high-level design of large game compositions that express complex architectures and represent real-world institutions faithfully. Compositional game theory, grounded in the mathematics underlying programming languages, and introduced here as a general computational framework, increases the parsimony of game representations with abstraction and modularity, accelerates search and design, and helps theorists across disciplines express real-world institutional complexity in well-defined ways. Relative to existing approaches in game theory, compositional game theory is especially promising for solving game systems with long-range dependencies, for comparing large numbers of structurally related games, and for nesting games into the larger logical or strategic flows typical of real world policy or institutional systems.",
+    "citation_count": 2,
+    "summary": "Compositional game theory, a new framework based on programming language principles, enhances game theory's ability to model complex real-world institutions by enabling modular design, efficient analysis of large games, and representation of long-range dependencies. This approach improves upon traditional game theory's limitations in handling intricate, interconnected systems."
+  },
+  {
+    "title": "Human-centered Democratic Innovations with Digital and Participatory Elements",
+    "abstract": "This paper discusses digital and/or participatory elements that could be used in decision-making processes, such as a participatory budgeting process. It contributes to the discussion about innovations in democracy. Placing humans at the center of governance, we argue that innovative elements should be evaluated by addressing the topic from the perspective of what is “good” for human beings? The process is good for them if it achieves goals like legitimacy and connection. We identify design of decision-making, participatory elements, and the value of personal interaction as levers. Regarding design of decision making, we discuss voting mechanisms, the combination of different decisions, and interdependent decisions in terms of each voter's choice optimality. In terms of participation, we see potential for blocked situations, for self-organized or requested (opt-in) participation, and for urgent or uncertain situations. Third, we emphasize the value of coming together in reality, and suggest thinking about combining digital and physical elements in a useful way. Technical aspects, power, and the existing institutional setting are identified as restrictions, and research into the effects of all these elements on the dependent variables, such as legitimacy and connection, is needed.",
+    "published_date": "2021-06-09",
+    "citation_count": 11,
+    "url": "https://dl.acm.org/doi/10.1145/3463677.3463708",
+    "summary": "This paper explores how digital and participatory elements can improve democratic decision-making processes, focusing on human-centered design principles that prioritize legitimacy and connection. It identifies key levers for innovation—decision-making design, participatory methods, and in-person interaction—while acknowledging technical, power, and institutional constraints."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/e6v3Z2Lhnmar2K8MR/fli-podcast-the-precipice-existential-risk-and-the-future-of",
+    "author": "Palus Astra",
+    "title": "FLI Podcast: The Precipice: Existential Risk and the Future of Humanity with Toby Ord",
+    "published_date": "2020-04-01",
+    "summary": "Toby Ord's \"The Precipice\" is a comprehensive book on existential risk, serving as both an accessible introduction for newcomers and a valuable resource for experts, offering new analyses, risk estimations, and mitigation strategies. The book and accompanying podcast delve into the nature of existential threats, their likelihood, and potential solutions."
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "title": "An Efficient Preprocessing-Based Approach to Mitigate Advanced Adversarial Attacks",
+    "abstract": "Deep Neural Networks are well-known to be vulnerable to Adversarial Examples. Recently, advanced gradient-based attacks were proposed (e.g., BPDA and EOT), which can significantly increase the difficulty and complexity of designing effective defenses. In this paper, we present a study towards the opportunity of mitigating those powerful attacks with only pre-processing operations. We make the following two contributions. First, we perform an in-depth analysis of those attacks and summarize three fundamental properties that a good defense solution should have. Second, we design a lightweight preprocessing function with these properties and the capability of preserving the model's usability and robustness against these threats. Extensive evaluations indicate that our solutions can effectively mitigate all existing standard and advanced attack techniques, and beat 11 state-of-the-art defense solutions published in top-tier conferences over the past 2 years.",
+    "published_date": "2024-03-01",
+    "citation_count": 14,
+    "url": "https://ieeexplore.ieee.org/document/9420266/"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dhbLE8BqRvhBtsXhS/mlsn-3-neurips-safety-paper-roundup",
+    "author": "Dan H",
+    "title": "[MLSN #3]: NeurIPS Safety Paper Roundup",
+    "published_date": "2022-03-08"
+  },
+  {
+    "title": "A Tale of Evil Twins: Adversarial Inputs versus Poisoned Models",
+    "abstract": "Despite their tremendous success in a range of domains, deep learning systems are inherently susceptible to two types of manipulations: adversarial inputs -- maliciously crafted samples that deceive target deep neural network (DNN) models, and poisoned models -- adversely forged DNNs that misbehave on pre-defined inputs. While prior work has intensively studied the two attack vectors in parallel, there is still a lack of understanding about their fundamental connections: what are the dynamic interactions between the two attack vectors? what are the implications of such interactions for optimizing existing attacks? what are the potential countermeasures against the enhanced attacks? Answering these key questions is crucial for assessing and mitigating the holistic vulnerabilities of DNNs deployed in realistic settings. Here we take a solid step towards this goal by conducting the first systematic study of the two attack vectors within a unified framework. Specifically, (i) we develop a new attack model that jointly optimizes adversarial inputs and poisoned models; (ii) with both analytical and empirical evidence, we reveal that there exist intriguing \"mutual reinforcement\" effects between the two attack vectors -- leveraging one vector significantly amplifies the effectiveness of the other; (iii) we demonstrate that such effects enable a large design spectrum for the adversary to enhance the existing attacks that exploit both vectors (e.g., backdoor attacks), such as maximizing the attack evasiveness with respect to various detection methods; (iv) finally, we discuss potential countermeasures against such optimized attacks and their technical challenges, pointing to several promising research directions.",
+    "published_date": "2019-11-05",
+    "citation_count": 89,
+    "url": "https://dl.acm.org/doi/10.1145/3372297.3417253"
+  },
+  {
+    "title": "On the Security of Randomized Defenses Against Adversarial Samples",
+    "abstract": "Deep Learning has been shown to be particularly vulnerable to adversarial samples. To combat adversarial strategies, numerous defensive techniques have been proposed. Among these, a promising approach is to use randomness in order to make the classification process unpredictable and presumably harder for the adversary to control. In this paper, we study the effectiveness of randomized defenses against adversarial samples. To this end, we categorize existing state-of-the-art adversarial strategies into three attacker models of increasing strength, namely blackbox, graybox, and whitebox (a.k.a. adaptive) attackers. We also devise a lightweight randomization strategy for image classification based on feature squeezing, that consists of pre-processing the classifier input by embedding randomness within each feature, before applying feature squeezing. We evaluate the proposed defense and compare it to other randomized techniques in the literature via thorough experiments. Our results indeed show that careful integration of randomness can be effective against both graybox and blackbox attacks without significantly degrading the accuracy of the underlying classifier. However, our experimental results offer strong evidence that in the present form such randomization techniques cannot deter a whitebox adversary that has access to all classifier parameters and has full knowledge of the defense. Our work thoroughly and empirically analyzes the impact of randomization techniques against all classes of adversarial strategies.",
+    "published_date": "2018-12-11",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3320269.3384751"
+  },
+  {
+    "title": "Random Spiking and Systematic Evaluation of Defenses Against Adversarial Examples",
+    "abstract": "Image classifiers often suffer from adversarial examples, which are generated by strategically adding a small amount of noise to input images to trick classifiers into misclassification. Over the years, many defense mechanisms have been proposed, and different researchers have made seemingly contradictory claims on their effectiveness. We present an analysis of possible adversarial models, and propose an evaluation framework for comparing different defense mechanisms. As part of the framework, we introduce a more powerful and realistic adversary strategy. Furthermore, we propose a new defense mechanism called Random Spiking (RS), which generalizes dropout and introduces random noises in the training process in a controlled manner. Evaluations under our proposed framework suggest RS delivers better protection against adversarial examples than many existing schemes.",
+    "published_date": "2018-12-05",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3374664.3375736"
+  },
+  {
+    "title": "Spartan Networks: Self-Feature-Squeezing Networks for Increased Robustness in Adversarial Settings",
+    "abstract": "Deep Learning Models are vulnerable to adversarial inputs, samples modified in order to maximize error of the system. We hereby introduce Spartan Networks, Deep Learning models that are inherently more resistant to adverarial examples, without doing any input preprocessing out of the network or adversarial training. These networks have an adversarial layer within the network designed to starve the network of information, using a new activation function to discard data. This layer trains the neural network to filter-out usually-irrelevant parts of its input. These models thus have a slightly lower precision, but report a higher robustness under attack than unprotected models.",
+    "published_date": "2018-10-08",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3243734.3278486"
+  }
+]

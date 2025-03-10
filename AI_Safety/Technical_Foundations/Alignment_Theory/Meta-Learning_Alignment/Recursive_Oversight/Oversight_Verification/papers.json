@@ -1,0 +1,39 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.10363",
+    "title": "Verification and Enforcement of Strong State-Based Opacity for Discrete-Event Systems",
+    "published_date": "2024-01-18",
+    "abstract": "In this paper, we investigate the verification and enforcement of strong state-based opacity (SBO) in discrete-event systems modeled as partially-observed (nondeterministic) finite-state automata, including strong K-step opacity (K-SSO), strong current-state opacity (SCSO), strong initial-state opacity (SISO), and strong infinite-step opacity (Inf-SSO). They are stronger versions of four widely-studied standard opacity notions, respectively. We firstly propose a new notion of K-SSO, and then we construct a concurrent-composition structure that is a variant of our previously-proposed one to verify it. Based on this structure, a verification algorithm for the proposed notion of K-SSO is designed. Also, an upper bound on K in the proposed K-SSO is derived. Secondly, we propose a distinctive opacity-enforcement mechanism that has better scalability than the existing ones (such as supervisory control). The basic philosophy of this new mechanism is choosing a subset of controllable transitions to disable before an original system starts to run in order to cut off all its runs that violate a notion of strong SBO of interest. Accordingly, the algorithms for enforcing the above-mentioned four notions of strong SBO are designed using the proposed two concurrent-composition structures. In particular, the designed algorithm for enforcing Inf-SSO has lower time complexity than the existing one in the literature, and does not depend on any assumption. Finally, we illustrate the applications of the designed algorithms using examples."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/F24kibEdEvRSo7PFi/human-ai-complementarity-a-goal-for-amplified-oversight",
+    "author": "rishubjain",
+    "title": "Human-AI Complementarity: A Goal for Amplified Oversight",
+    "published_date": "2024-12-24"
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.06942",
+    "title": "AI Control: Improving Safety Despite Intentional Subversion",
+    "published_date": "2023-12-12",
+    "abstract": "As large language models (LLMs) become more powerful and are deployed more autonomously, it will be increasingly important to prevent them from causing harmful outcomes. Researchers have investigated a variety of safety techniques for this purpose, e.g. using models to review the outputs of other models, or red-teaming techniques to surface subtle failure modes. However, researchers have not evaluated whether such techniques still ensure safety if the model is itself intentionally trying to subvert them. In this paper, we develop and evaluate pipelines of safety techniques (\"protocols\") that are robust to intentional subversion. We investigate a scenario in which we want to solve a sequence of programming problems, using access to a powerful but untrusted model (in our case, GPT-4), access to a less powerful trusted model (in our case, GPT-3.5), and limited access to high-quality trusted labor. We investigate protocols that aim to never submit solutions containing backdoors, which we operationalize here as logical errors that are not caught by test cases. We investigate a range of protocols and test each against strategies that the untrusted model could use to subvert them. One protocol is what we call trusted editing. This protocol first asks GPT-4 to write code, and then asks GPT-3.5 to rate the suspiciousness of that code. If the code is below some suspiciousness threshold, it is submitted. Otherwise, GPT-3.5 edits the solution to remove parts that seem suspicious and then submits the edited code. Another protocol is untrusted monitoring. This protocol asks GPT-4 to write code, and then asks another instance of GPT-4 whether the code is backdoored, using various techniques to prevent the GPT-4 instances from colluding. These protocols improve substantially on simple baselines.",
+    "citation_count": 21
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.04500.pdf",
+    "title": "Automatic verification of transparency protocols",
+    "published_date": "2023-03-08",
+    "abstract": "Transparency protocols are protocols whose actions can be publicly monitored by observers (such observers may include regulators, rights advocacy groups, or the general public). The observed actions are typically usages of private keys such as decryptions, and signings. Examples of transparency protocols include certificate transparency, cryptocurrency, transparent decryption, and electronic voting. These protocols usually pose a challenge for automatic verification, because they involve sophisticated data types that have strong properties, such as Merkle trees, that allow compact proofs of data presence and tree extension.We address this challenge by introducing new features in ProVerif, and a methodology for using them. With our methodology, it is possible to describe the data type quite abstractly, using ProVerif axioms, and prove the correctness of the protocol using those axioms as assumptions. Then, in separate steps, one can define one or more concrete implementations of the data type, and again use ProVerif to show that the implementations satisfy the assumptions that were coded as axioms. This helps make compositional proofs, splitting the proof burden into several manageable pieces. We illustrate the methodology and features by providing the first formal verification of the transparent decryption and certificate transparency protocols with a precise modelling of the Merkle tree data structure."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MbWWKbyD5gLhJgfwn/meta-level-adversarial-evaluation-of-oversight-techniques-1",
+    "author": "Buck, ryan_greenblatt",
+    "title": "Meta-level adversarial evaluation of oversight techniques might allow robust measurement of their adequacy",
+    "published_date": "2023-07-26"
+  }
+]

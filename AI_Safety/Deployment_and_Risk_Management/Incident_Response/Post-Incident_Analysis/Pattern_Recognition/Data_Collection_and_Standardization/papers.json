@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.03020.pdf",
+    "title": "Dataset Definition Standard (DDS)",
+    "published_date": "2021-01-07",
+    "abstract": "This document gives a set of guidelines for dataset collection and manipulation in the context of machine learning. It is applicable when the dataset is used to train, validate, or test a ML model. This is a work in progress.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.00519v1.pdf",
+    "title": "KANDINSKYPatterns - An experimental exploration environment for Pattern Analysis and Machine Intelligence",
+    "published_date": "2021-02-28",
+    "abstract": "Machine intelligence is very successful at standard recognition tasks when having high-quality training data. There is still a significant gap between machine-level pattern recognition and human-level concept learning. Humans can learn under uncertainty from only a few examples and generalize these concepts to solve new problems. The growing interest in explainable machine intelligence, requires experimental environments and diagnostic tests to analyze weaknesses in existing approaches to drive progress in the field. In this paper, we discuss existing diagnostic tests and test data sets such as CLEVR, CLEVERER, CLOSURE, CURI, Bongard-LOGO, V-PROM, and present our own experimental environment: The KANDINSKYPatterns, named after the Russian artist Wassily Kandinksy, who made theoretical contributions to compositivity, i.e. that all perceptions consist of geometrically elementary individual components. This was experimentally proven by Hubel&Wiesel in the 1960s and became the basis for machine learning approaches such as the Neocognitron and the even later Deep Learning. While KANDINSKYPatterns have computationally controllable properties on the one hand, bringing ground truth, they are also easily distinguishable by human observers, i.e., controlled patterns can be described by both humans and algorithms, making them another important contribution to international research in machine intelligence.",
+    "citation_count": 10
+  },
+  {
+    "url": "https://arxiv.org/pdf/2006.06976.pdf",
+    "title": "Towards Robust Pattern Recognition: A Review",
+    "published_date": "2020-05-28",
+    "abstract": "The accuracies for many pattern recognition tasks have increased rapidly year by year, achieving or even outperforming human performance. From the perspective of accuracy, pattern recognition seems to be a nearly solved problem. However, once launched in real applications, the high-accuracy pattern recognition systems may become unstable and unreliable due to the lack of robustness in open and changing environments. In this article, we present a comprehensive review of research toward robust pattern recognition from the perspective of breaking three basic and implicit assumptions: closed-world assumption, independent and identically distributed assumption, and clean and big data assumption, which form the foundation of most pattern recognition models. Actually, our brain is robust at learning concepts continually and incrementally, in complex, open, and changing environments, with different contexts, modalities, and tasks, by showing only a few examples, under weak or noisy supervision. These are the major differences between human intelligence and machine intelligence, which are closely related to the above three assumptions. After witnessing the significant progress in accuracy improvement nowadays, this review paper will enable us to analyze the shortcomings and limitations of current methods and identify future research directions for robust pattern recognition.",
+    "citation_count": 95
+  },
+  {
+    "title": "Efficient incident identification from multi-dimensional issue reports via meta-heuristic search",
+    "abstract": "In large-scale cloud systems, unplanned service interruptions and outages may cause severe degradation of service availability. Such incidents can occur in a bursty manner, which will deteriorate user satisfaction. Identifying incidents rapidly and accurately is critical to the operation and maintenance of a cloud system. In industrial practice, incidents are typically detected through analyzing the issue reports, which are generated over time by monitoring cloud services. Identifying incidents in a large number of issue reports is quite challenging. An issue report is typically multi-dimensional: it has many categorical attributes. It is difficult to identify a specific attribute combination that indicates an incident. Existing methods generally rely on pruning-based search, which is time-consuming given high-dimensional data, thus not practical to incident detection in large-scale cloud systems. In this paper, we propose MID (Multi-dimensional Incident Detection), a novel framework for identifying incidents from large-amount, multi-dimensional issue reports effectively and efficiently. Key to the MID design is encoding the problem into a combinatorial optimization problem. Then a specific-tailored meta-heuristic search method is designed, which can rapidly identify attribute combinations that indicate incidents. We evaluate MID with extensive experiments using both synthetic data and real-world data collected from a large-scale production cloud system. The experimental results show that MID significantly outperforms the current state-of-the-art methods in terms of effectiveness and efficiency. Additionally, MID has been successfully applied to Microsoft's cloud systems and helped greatly reduce manual maintenance effort.",
+    "published_date": "2020-11-07",
+    "citation_count": 27,
+    "url": "https://dl.acm.org/doi/10.1145/3368089.3409741"
+  },
+  {
+    "title": "Entity Matching from Unstructured and Dissimilar Data Collections: Semantic and Content Distribution Approach",
+    "abstract": "This paper describes a solution to the problem of extracting data features from a collection of dissimilar, unstructured data sets, gathered from multiple data sources in the web or databases. In this work we present a method of feature extraction and normalization, aiming at closing the gap between a workable data set of uniform content, and a large collection of unstructured and un-normalized collection of unworkable data set. The feature extraction we modeled creates focused, structured data sets as output, and with Big-Data and Analytics perspective. The solution we present automates data ingestion from public data sources and it applies Machine Learning methodology to build data relationships across unstructured data sets. Our research is aiming at extracting key features by using semi-supervised process, semantic relations, and statistical analysis of the distribution of content. The mapping across dissimilar datasets is solved through matching problem of these metrics, constructing a scoring value that maps different entities. We proposed a three-layer matching process of homogenous covariates from different sources semantic and measures are nonstandard using pattern recognition. This work presents a novel way to tackle the entity resolution problem. The result shows that the method works well on real industrial data and provides immediate ROI value for the data management system.",
+    "published_date": "2020-08-07",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3416028.3416033"
+  }
+]

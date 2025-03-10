@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/1911.04266.pdf",
+    "title": "(When) Is Truth-telling Favored in AI Debate?",
+    "published_date": "2019-11-11",
+    "abstract": "For some problems, humans may not be able to accurately judge the goodness of AI-proposed solutions. Irving et al. (2018) propose that in such cases, we may use a debate between two AI systems to amplify the problem-solving capabilities of a human judge. We introduce a mathematical framework that can model debates of this type and propose that the quality of debate designs should be measured by the accuracy of the most persuasive answer. We describe a simple instance of the debate framework called feature debate and analyze the degree to which such debates track the truth. We argue that despite being very simple, feature debates nonetheless capture many aspects of practical debates such as the incentives to confuse the judge or stall to prevent losing. We then outline how these models should be generalized to analyze a wider range of debate phenomena.",
+    "summary": "This paper models AI debates as a means of human-assisted problem-solving when human judgment is unreliable, focusing on a \"feature debate\" framework to analyze the accuracy of persuasive arguments and the incentives for deceptive strategies. The authors propose evaluating debate design by the accuracy of the winning argument, highlighting the need for generalized models to encompass diverse debate phenomena."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.04622",
+    "title": "On scalable oversight with weak LLMs judging strong LLMs",
+    "published_date": "2024-07-05",
+    "abstract": "Scalable oversight protocols aim to enable humans to accurately supervise superhuman AI. In this paper we study debate, where two AI's compete to convince a judge; consultancy, where a single AI tries to convince a judge that asks questions; and compare to a baseline of direct question-answering, where the judge just answers outright without the AI. We use large language models (LLMs) as both AI agents and as stand-ins for human judges, taking the judge models to be weaker than agent models. We benchmark on a diverse range of asymmetries between judges and agents, extending previous work on a single extractive QA task with information asymmetry, to also include mathematics, coding, logic and multimodal reasoning asymmetries. We find that debate outperforms consultancy across all tasks when the consultant is randomly assigned to argue for the correct/incorrect answer. Comparing debate to direct question answering, the results depend on the type of task: in extractive QA tasks with information asymmetry debate outperforms direct question answering, but in other tasks without information asymmetry the results are mixed. Previous work assigned debaters/consultants an answer to argue for. When we allow them to instead choose which answer to argue for, we find judges are less frequently convinced by the wrong answer in debate than in consultancy. Further, we find that stronger debater models increase judge accuracy, though more modestly than in previous studies.",
+    "citation_count": 9,
+    "summary": "This paper investigates scalable oversight methods for strong LLMs using weaker LLMs as judges, comparing debate, consultancy, and direct question-answering across diverse tasks with varying judge-agent asymmetries. Results show debate generally outperforms consultancy, with performance relative to direct question-answering varying by task type and the method of assigning arguments."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.16636",
+    "title": "Training Language Models to Win Debates with Self-Play Improves Judge Accuracy",
+    "published_date": "2024-09-25",
+    "abstract": "We test the robustness of debate as a method of scalable oversight by training models to debate with data generated via self-play. In a long-context reading comprehension task, we find that language model based evaluators answer questions more accurately when judging models optimized to win debates. By contrast, we find no such relationship for consultancy models trained to persuade a judge without an opposing debater present. In quantitative and qualitative comparisons between our debate models and novel consultancy baselines, we find evidence that debate training encourages stronger and more informative arguments, showing promise that it can help provide high-quality supervision for tasks that are difficult to directly evaluate.",
+    "summary": "Training language models to debate against each other improves their ability to construct persuasive and informative arguments, leading to higher accuracy in subsequent evaluation by human judges compared to models trained through a non-adversarial approach. This suggests debate is a promising method for improving the quality of language model outputs on difficult-to-evaluate tasks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.10729",
+    "title": "Contestable AI needs Computational Argumentation",
+    "published_date": "2024-05-17",
+    "abstract": "AI has become pervasive in recent years, but state-of-the-art approaches predominantly neglect the need for AI systems to be contestable. Instead, contestability is advocated by AI guidelines (e.g. by the OECD) and regulation of automated decision-making (e.g. GDPR). In this position paper we explore how contestability can be achieved computationally in and for AI. We argue that contestable AI requires dynamic (human-machine and/or machine-machine) explainability and decision-making processes, whereby machines can \n\n1. interact with humans and/or other machines to progressively explain their outputs and/or their reasoning as well as assess grounds for contestation provided by these humans and/or other machines, and 2. revise their decision-making processes to redress any issues successfully raised during contestation. Given that much of the current AI landscape is tailored to static AIs, the need to accommodate contestability will require a radical rethinking, that, we argue, computational argumentation is ideally suited to support.",
+    "summary": "This paper argues that achieving contestable AI, as mandated by guidelines and regulations, requires integrating computational argumentation to enable dynamic human-machine and machine-machine explanation and reasoning processes, allowing for the revision of AI decisions based on successful contestation. This necessitates a significant shift from current static AI systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Qn3ZDf9WAqGuAjWQe/on-scalable-oversight-with-weak-llms-judging-strong-llms",
+    "author": "Zac Kenton; Noah Siegel; Janos; Jonah Brown-Cohen; Samuel Albanie; David Lindner; Rohin Shah",
+    "title": "On scalable oversight with weak LLMs judging strong LLMs",
+    "published_date": "2024-07-08",
+    "summary": "This study compares AI debate and consultancy protocols for human oversight of superhuman AI, using LLMs in various reasoning tasks. Debate consistently outperformed consultancy, while its advantage over direct question-answering varied depending on task type and information asymmetry, showing mixed results for tasks without information asymmetry."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.02079",
+    "title": "Argumentative Large Language Models for Explainable and Contestable Decision-Making",
+    "published_date": "2024-05-03",
+    "abstract": "The diversity of knowledge encoded in large language models (LLMs) and their ability to apply this knowledge zero-shot in a range of settings makes them a promising candidate for use in decision-making. However, they are currently limited by their inability to reliably provide outputs which are explainable and contestable. In this paper, we attempt to reconcile these strengths and weaknesses by introducing a method for supplementing LLMs with argumentative reasoning. Concretely, we introduce argumentative LLMs, a method utilising LLMs to construct argumentation frameworks, which then serve as the basis for formal reasoning in decision-making. The interpretable nature of these argumentation frameworks and formal reasoning means that any decision made by the supplemented LLM may be naturally explained to, and contested by, humans. We demonstrate the effectiveness of argumentative LLMs experimentally in the decision-making task of claim verification. We obtain results that are competitive with, and in some cases surpass, comparable state-of-the-art techniques.",
+    "citation_count": 7,
+    "summary": "This paper introduces \"argumentative LLMs,\" a method using large language models to build argumentation frameworks for explainable and contestable decision-making, enhancing transparency and enabling human scrutiny of the model's reasoning process. Experimental results in claim verification demonstrate competitiveness with, and sometimes surpassing, existing state-of-the-art methods."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/inoNpWtSRpHqyc8v3/debate-helps-supervise-human-experts-paper",
+    "author": "habryka",
+    "title": "Debate helps supervise human experts [Paper]",
+    "published_date": "2023-11-17",
+    "summary": "The study demonstrates that a debate format between two AI \"experts,\" one arguing for a correct answer and one for an incorrect answer, allows a non-expert judge to identify the truth more accurately (84%) than a single expert consultation (74%), highlighting debate's potential for supervising unreliable AI systems. Debate also proved more efficient."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/debate-ai-safety-technique-1",
+    "author": "Beth Barnes, paulfchristiano",
+    "title": "Debate (AI safety technique) - LessWrong",
+    "published_date": "2020-03-29",
+    "summary": "Debate, a proposed AI safety technique, aims to elicit accurate and helpful answers from expert AI systems through structured human evaluation, even when the evaluator lacks expertise, thereby facilitating safe development and application of advanced AI. This approach is particularly relevant for high-stakes, ill-defined problems."
+  }
+]

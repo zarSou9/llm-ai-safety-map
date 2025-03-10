@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2012.07923.pdf",
+    "title": "Improving model calibration with accuracy versus uncertainty optimization",
+    "published_date": "2020-12-14",
+    "abstract": "Obtaining reliable and accurate quantification of uncertainty estimates from deep neural networks is important in safety-critical applications. A well-calibrated model should be accurate when it is certain about its prediction and indicate high uncertainty when it is likely to be inaccurate. Uncertainty calibration is a challenging problem as there is no ground truth available for uncertainty estimates. We propose an optimization method that leverages the relationship between accuracy and uncertainty as an anchor for uncertainty calibration. We introduce a differentiable accuracy versus uncertainty calibration (AvUC) loss function that allows a model to learn to provide well-calibrated uncertainties, in addition to improved accuracy. We also demonstrate the same methodology can be extended to post-hoc uncertainty calibration on pretrained models. We illustrate our approach with mean-field stochastic variational inference and compare with state-of-the-art methods. Extensive experiments demonstrate our approach yields better model calibration than existing methods on large-scale image classification tasks under distributional shift.",
+    "citation_count": 149
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.15301",
+    "title": "Parametric $\\rho$-Norm Scaling Calibration",
+    "published_date": "2024-12-19",
+    "abstract": "Output uncertainty indicates whether the probabilistic properties reflect objective characteristics of the model output. Unlike most loss functions and metrics in machine learning, uncertainty pertains to individual samples, but validating it on individual samples is unfeasible. When validated collectively, it cannot fully represent individual sample properties, posing a challenge in calibrating model confidence in a limited data set. Hence, it is crucial to consider confidence calibration characteristics. To counter the adverse effects of the gradual amplification of the classifier output amplitude in supervised learning, we introduce a post-processing parametric calibration method, $\\rho$-Norm Scaling, which expands the calibrator expression and mitigates overconfidence due to excessive amplitude while preserving accuracy. Moreover, bin-level objective-based calibrator optimization often results in the loss of significant instance-level information. Therefore, we include probability distribution regularization, which incorporates specific priori information that the instance-level uncertainty distribution after calibration should resemble the distribution before calibration. Experimental results demonstrate the substantial enhancement in the post-processing calibrator for uncertainty calibration with our proposed method."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.10092v1.pdf",
+    "title": "Bayesian Confidence Calibration for Epistemic Uncertainty Modelling",
+    "published_date": "2021-07-11",
+    "abstract": "Modern neural networks have found to be miscalibrated in terms of confidence calibration, i.e., their predicted confidence scores do not reflect the observed accuracy or precision. Recent work has introduced methods for post-hoc confidence calibration for classification as well as for object detection to address this issue. Especially in safety critical applications, it is crucial to obtain a reliable self-assessment of a model. But what if the calibration method itself is uncertain, e.g., due to an insufficient knowledge base? We introduce Bayesian confidence calibration - a framework to obtain calibrated confidence estimates in conjunction with an uncertainty of the calibration method. Commonly, Bayesian neural networks (BNN) are used to indicate a network's uncertainty about a certain prediction. BNNs are interpreted as neural networks that use distributions instead of weights for inference. We transfer this idea of using distributions to confidence calibration. For this purpose, we use stochastic variational inference to build a calibration mapping that outputs a probability distribution rather than a single calibrated estimate. Using this approach, we achieve state-of-the-art calibration performance for object detection calibration. Finally, we show that this additional type of uncertainty can be used as a sufficient criterion for covariate shift detection. All code is open source and available at https://github.com/EFS-OpenSource/calibration-framework.",
+    "citation_count": 8
+  }
+]

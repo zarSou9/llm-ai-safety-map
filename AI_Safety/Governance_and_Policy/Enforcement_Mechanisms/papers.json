@@ -1,0 +1,113 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2403.08501",
+    "title": "Governing Through the Cloud: The Intermediary Role of Compute Providers in AI Regulation",
+    "published_date": "2024-03-13",
+    "abstract": "As jurisdictions around the world take their first steps toward regulating the most powerful AI systems, such as the EU AI Act and the US Executive Order 14110, there is a growing need for effective enforcement mechanisms that can verify compliance and respond to violations. We argue that compute providers should have legal obligations and ethical responsibilities associated with AI development and deployment, both to provide secure infrastructure and to serve as intermediaries for AI regulation. Compute providers can play an essential role in a regulatory ecosystem via four key capacities: as securers, safeguarding AI systems and critical infrastructure; as record keepers, enhancing visibility for policymakers; as verifiers of customer activities, ensuring oversight; and as enforcers, taking actions against rule violations. We analyze the technical feasibility of performing these functions in a targeted and privacy-conscious manner and present a range of technical instruments. In particular, we describe how non-confidential information, to which compute providers largely already have access, can provide two key governance-relevant properties of a computational workload: its type-e.g., large-scale training or inference-and the amount of compute it has consumed. Using AI Executive Order 14110 as a case study, we outline how the US is beginning to implement record keeping requirements for compute providers. We also explore how verification and enforcement roles could be added to establish a comprehensive AI compute oversight scheme. We argue that internationalization will be key to effective implementation, and highlight the critical challenge of balancing confidentiality and privacy with risk mitigation as the role of compute providers in AI regulation expands.",
+    "citation_count": 4,
+    "summary": "This paper argues that cloud compute providers should be legally obligated to act as intermediaries in AI regulation, leveraging their unique access to data to secure AI systems, track usage, verify compliance, and enforce regulations. The authors propose a framework utilizing existing provider data to achieve this while mitigating privacy concerns and advocating for international cooperation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2208.14426",
+    "title": "Correct-by-Construction Runtime Enforcement in AI - A Survey",
+    "published_date": "2022-08-30",
+    "abstract": "Runtime enforcement refers to the theories, techniques, and tools for enforcing correct behavior with respect to a formal specification of systems at runtime. In this paper, we are interested in techniques for constructing runtime enforcers for the concrete application domain of enforcing safety in AI. We discuss how safety is traditionally handled in the field of AI and how more formal guarantees on the safety of a self-learning agent can be given by integrating a runtime enforcer. We survey a selection of work on such enforcers, where we distinguish between approaches for discrete and continuous action spaces. The purpose of this paper is to foster a better understanding of advantages and limitations of different enforcement techniques, focusing on the specific challenges that arise due to their application in AI. Finally, we present some open challenges and avenues for future work.",
+    "citation_count": 10,
+    "summary": "This survey paper examines runtime enforcement techniques for ensuring AI system safety, contrasting approaches for discrete and continuous action spaces, and highlighting the challenges and future directions in this field. It explores how runtime enforcers provide stronger safety guarantees compared to traditional AI safety methods."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.04689",
+    "title": "Design of a Quality Management System based on the EU Artificial Intelligence Act",
+    "published_date": "2024-08-08",
+    "abstract": "The EU AI Act mandates that providers and deployers of high-risk AI systems establish a quality management system (QMS). Among other criteria, a QMS shall help verify and document the AI system design and quality and monitor the proper implementation of all high-risk AI system requirements. Current research rarely explores practical solutions for implementing the EU AI Act. Instead, it tends to focus on theoretical concepts. As a result, more attention must be paid to tools that help humans actively check and document AI systems and orchestrate the implementation of all high-risk AI system requirements. Therefore, this paper introduces a new design concept and prototype for a QMS as a microservice Software as a Service web application. It connects directly to the AI system for verification and documentation and enables the orchestration and integration of various sub-services, which can be individually designed, each tailored to specific high-risk AI system requirements. The first version of the prototype connects to the Phi-3-mini-128k-instruct LLM as an example of an AI system and integrates a risk management system and a data management system. The prototype is evaluated through a qualitative assessment of the implemented requirements, a GPU memory and performance analysis, and an evaluation with IT, AI, and legal experts.",
+    "citation_count": 1,
+    "summary": "This paper proposes a microservice-based Quality Management System (QMS) web application designed to help comply with the EU AI Act's requirements for high-risk AI systems, demonstrating its functionality through a prototype integrated with a large language model and evaluated by expert feedback."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.16074",
+    "title": "Verification methods for international AI agreements",
+    "published_date": "2024-08-28",
+    "abstract": "What techniques can be used to verify compliance with international agreements about advanced AI development? In this paper, we examine 10 verification methods that could detect two types of potential violations: unauthorized AI training (e.g., training runs above a certain FLOP threshold) and unauthorized data centers. We divide the verification methods into three categories: (a) national technical means (methods requiring minimal or no access from suspected non-compliant nations), (b) access-dependent methods (methods that require approval from the nation suspected of unauthorized activities), and (c) hardware-dependent methods (methods that require rules around advanced hardware). For each verification method, we provide a description, historical precedents, and possible evasion techniques. We conclude by offering recommendations for future work related to the verification and enforcement of international AI governance agreements.",
+    "summary": "This paper analyzes ten verification methods for ensuring compliance with international AI agreements, categorizing them by access requirements (national technical means, access-dependent, and hardware-dependent), and assessing their effectiveness against potential evasion tactics. The study focuses on detecting unauthorized AI training and data center usage."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.07300",
+    "title": "From Principles to Rules: A Regulatory Approach for Frontier AI",
+    "published_date": "2024-07-10",
+    "abstract": "Several jurisdictions are starting to regulate frontier artificial intelligence (AI) systems, i.e. general-purpose AI systems that match or exceed the capabilities present in the most advanced systems. To reduce risks from these systems, regulators may require frontier AI developers to adopt safety measures. The requirements could be formulated as high-level principles (e.g. 'AI systems should be safe and secure') or specific rules (e.g. 'AI systems must be evaluated for dangerous model capabilities following the protocol set forth in...'). These regulatory approaches, known as 'principle-based' and 'rule-based' regulation, have complementary strengths and weaknesses. While specific rules provide more certainty and are easier to enforce, they can quickly become outdated and lead to box-ticking. Conversely, while high-level principles provide less certainty and are more costly to enforce, they are more adaptable and more appropriate in situations where the regulator is unsure exactly what behavior would best advance a given regulatory objective. However, rule-based and principle-based regulation are not binary options. Policymakers must choose a point on the spectrum between them, recognizing that the right level of specificity may vary between requirements and change over time. We recommend that policymakers should initially (1) mandate adherence to high-level principles for safe frontier AI development and deployment, (2) ensure that regulators closely oversee how developers comply with these principles, and (3) urgently build up regulatory capacity. Over time, the approach should likely become more rule-based. Our recommendations are based on a number of assumptions, including (A) risks from frontier AI systems are poorly understood and rapidly evolving, (B) many safety practices are still nascent, and (C) frontier AI developers are best placed to innovate on safety practices.",
+    "citation_count": 6,
+    "summary": "This paper argues that regulating frontier AI requires a balanced approach, initially prioritizing high-level safety principles to allow for innovation while building regulatory capacity, gradually shifting towards more specific rules as understanding of risks and safety practices improves. The authors advocate for a flexible regulatory spectrum rather than a binary choice between principle-based and rule-based approaches."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising but largely unexplored AI safety strategy. Current efforts include export controls and reporting requirements, while future possibilities range from improving visibility of AI development to directly influencing compute allocation and enforcement of regulations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, examines AI model registries—centralized databases tracking AI systems for governance purposes. These registries, drawing parallels to pharmaceutical regulations, vary widely in their requirements and accessibility across jurisdictions like the US, EU, and China, with China currently having the most comprehensive system."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/gZBgmDFqqyw3Lghok/ai-regulatory-landscape-review-incident-reporting",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Incident Reporting: A Regulatory Review",
+    "published_date": "2024-03-11",
+    "summary": "This article begins a series analyzing the evolving global AI regulatory landscape, focusing on the US, EU, and China. The first installment examines AI incident reporting, exploring its rationale, existing examples from other sectors (like aviation and workplace safety), and current nascent efforts in AI-specific regulations."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The authors advocate for third-party testing of large-scale AI systems to mitigate societal risks stemming from misuse or accidental harm. They propose a policy framework involving industry, government, and academia to develop effective, yet minimally burdensome, testing standards and procedures for these powerful AI models."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/RzsXRbk2ETNqjhsma/ai-safety-solutions-landscape",
+    "author": "Charbel-Raphael Segerie",
+    "title": "AI Safety Solutions Landscape",
+    "published_date": "2024-05-09",
+    "summary": "This chapter presents various existing strategies for improving AI safety, despite the field's immaturity and lack of consensus on core problems. These strategies address not only AI alignment but also misuse and systemic risks, acknowledging the challenges posed by AI's complexity and black-box nature."
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.03718",
+    "title": "Frontier AI Regulation: Managing Emerging Risks to Public Safety",
+    "published_date": "2023-07-06",
+    "abstract": "Advanced AI models hold the promise of tremendous benefits for humanity, but society needs to proactively manage the accompanying risks. In this paper, we focus on what we term\"frontier AI\"models: highly capable foundation models that could possess dangerous capabilities sufficient to pose severe risks to public safety. Frontier AI models pose a distinct regulatory challenge: dangerous capabilities can arise unexpectedly; it is difficult to robustly prevent a deployed model from being misused; and, it is difficult to stop a model's capabilities from proliferating broadly. To address these challenges, at least three building blocks for the regulation of frontier models are needed: (1) standard-setting processes to identify appropriate requirements for frontier AI developers, (2) registration and reporting requirements to provide regulators with visibility into frontier AI development processes, and (3) mechanisms to ensure compliance with safety standards for the development and deployment of frontier AI models. Industry self-regulation is an important first step. However, wider societal discussions and government intervention will be needed to create standards and to ensure compliance with them. We consider several options to this end, including granting enforcement powers to supervisory authorities and licensure regimes for frontier AI models. Finally, we propose an initial set of safety standards. These include conducting pre-deployment risk assessments; external scrutiny of model behavior; using risk assessments to inform deployment decisions; and monitoring and responding to new information about model capabilities and uses post-deployment. We hope this discussion contributes to the broader conversation on how to balance public safety risks and innovation benefits from advances at the frontier of AI development.",
+    "citation_count": 91,
+    "summary": "This paper argues that highly capable \"frontier\" AI models pose significant public safety risks requiring proactive regulation, proposing three regulatory building blocks: standard-setting, registration/reporting, and compliance mechanisms, alongside potential enforcement options like licensing."
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.15514",
+    "title": "International Governance of Civilian AI: A Jurisdictional Certification Approach",
+    "published_date": "2023-08-29",
+    "abstract": "This report describes trade-offs in the design of international governance arrangements for civilian artificial intelligence (AI) and presents one approach in detail. This approach represents the extension of a standards, licensing, and liability regime to the global level. We propose that states establish an International AI Organization (IAIO) to certify state jurisdictions (not firms or AI projects) for compliance with international oversight standards. States can give force to these international standards by adopting regulations prohibiting the import of goods whose supply chains embody AI from non-IAIO-certified jurisdictions. This borrows attributes from models of existing international organizations, such as the International Civilian Aviation Organization (ICAO), the International Maritime Organization (IMO), and the Financial Action Task Force (FATF). States can also adopt multilateral controls on the export of AI product inputs, such as specialized hardware, to non-certified jurisdictions. Indeed, both the import and export standards could be required for certification. As international actors reach consensus on risks of and minimum standards for advanced AI, a jurisdictional certification regime could mitigate a broad range of potential harms, including threats to public safety.",
+    "citation_count": 19,
+    "summary": "This report proposes an international AI governance framework where an International AI Organization certifies state jurisdictions' compliance with AI oversight standards, leveraging import/export controls to incentivize global adoption and mitigate potential harms. This jurisdictional certification approach draws parallels with existing international organizations managing global standards and safety."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/regulation-and-ai-risk",
+    "author": "KatjaGrace",
+    "title": "Regulation and AI Risk - AI Alignment Forum",
+    "published_date": "2023-02-07",
+    "summary": "The debate on AI regulation centers on whether it can mitigate unfriendly AI risks, with proposals ranging from global oversight boards to government-funded \"safe AI\" projects. However, concerns exist about the feasibility of global regulation due to potential AI arms races and the difficulty of detecting clandestine AI development."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of posts is a work in progress, aiming to provide a comprehensive introduction to AI safety. The content and order of the posts are still under development."
+  }
+]

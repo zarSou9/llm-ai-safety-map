@@ -1,0 +1,62 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.13138",
+    "title": "Visibility into AI Agents",
+    "published_date": "2024-01-23",
+    "abstract": "Increased delegation of commercial, scientific, governmental, and personal activities to AI agents—systems capable of pursuing complex goals with limited supervision—may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.",
+    "citation_count": 12,
+    "summary": "This paper examines methods to increase transparency (\"visibility\") in AI agent usage, focusing on agent identifiers, real-time monitoring, and activity logging, analyzing their implementation across various deployment contexts and considering privacy implications. The authors propose these measures as crucial for mitigating societal risks associated with increased AI agent deployment."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/ai-advantages",
+    "title": "AI Advantages - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "The article outlines several potential advantages AI might possess over humans in a hypothetical conflict, including superior processing power and self-improvement capabilities (like algorithm modification and creating new mental modules), as well as cooperative advantages such as easy copyability and perfect cooperation. Conversely, human cognitive biases are highlighted as a key weakness."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.02561",
+    "title": "Beneficence Signaling in AI Development Dynamics",
+    "published_date": "2023-05-04",
+    "abstract": "This paper motivates and develops a framework for understanding how the socio-technical systems surrounding AI development interact with social welfare. It introduces the concept of ``signaling'' from evolutionary game theory and demonstrates how it can enhance existing theory and practice surrounding the evaluation and governance of AI systems.",
+    "summary": "This paper proposes a framework using \"beneficence signaling\" from evolutionary game theory to analyze how AI development's socio-technical systems impact social welfare. It aims to improve AI evaluation and governance by incorporating signaling dynamics into existing approaches."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.11441v1.pdf",
+    "title": "Human-centered mechanism design with Democratic AI",
+    "published_date": "2022-01-27",
+    "abstract": "Building artificial intelligence (AI) that aligns with human values is an unsolved problem. Here, we developed a human-in-the-loop research pipeline called Democratic AI, in which reinforcement learning is used to design a social mechanism that humans prefer by majority. A large group of humans played an online investment game that involved deciding whether to keep a monetary endowment or to share it with others for collective benefit. Shared revenue was returned to players under two different redistribution mechanisms, one designed by the AI and the other by humans. The AI discovered a mechanism that redressed initial wealth imbalance, sanctioned free riders, and successfully won the majority vote. By optimizing for human preferences, Democratic AI may be a promising method for value-aligned policy innovation.",
+    "citation_count": 2,
+    "summary": "Democratic AI, a human-in-the-loop reinforcement learning system, designed a social mechanism preferred by a majority of human participants in an online investment game, demonstrating its potential for value-aligned policy innovation by optimizing for human preferences. This mechanism successfully addressed wealth inequality and punished free-riding behavior."
+  },
+  {
+    "url": "https://arxiv.org/abs/2102.01265",
+    "title": "The Limits of Global Inclusion in AI Development",
+    "published_date": "2021-02-02",
+    "abstract": "Those best-positioned to profit from the proliferation of artificial intelligence (AI) systems are those with the most economic power. Extant global inequality has motivated Western institutions to involve more diverse groups in the development and application of AI systems, including hiring foreign labour and establishing extra-national data centers and laboratories. However, given both the propensity of wealth to abet its own accumulation and the lack of contextual knowledge in top-down AI solutions, we argue that more focus should be placed on the redistribution of power, rather than just on including underrepresented groups. Unless more is done to ensure that opportunities to lead AI development are distributed justly, the future may hold only AI systems which are unsuited to their conditions of application, and exacerbate inequality.",
+    "citation_count": 20,
+    "summary": "While efforts to diversify AI development through global inclusion are underway, these initiatives primarily benefit powerful institutions and fail to address underlying power imbalances. True equitable AI development requires a focus on power redistribution, not just representation, to prevent exacerbating existing inequalities."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.09404.pdf",
+    "title": "Safe Transformative AI via a Windfall Clause",
+    "published_date": "2021-08-20",
+    "abstract": "Society could soon see transformative artificial intelligence (TAI). Models of competition for TAI show firms face strong competitive pressure to deploy TAI systems before they are safe. This paper explores a proposed solution to this problem, a Windfall Clause, where developers commit to donating a significant portion of any eventual extremely large profits to good causes. However, a key challenge for a Windfall Clause is that firms must have reason to join one. Firms must also believe these commitments are credible. We extend a model of TAI competition with a Windfall Clause to show how firms and policymakers can design a Windfall Clause which overcomes these challenges. Encouragingly, firms benefit from joining a Windfall Clause under a wide range of scenarios. We also find that firms join the Windfall Clause more often when the competition is more dangerous. Even when firms learn each other's capabilities, firms rarely wish to withdraw their support for the Windfall Clause. These three findings strengthen the case for using a Windfall Clause to promote the safe development of TAI. ∗paolobova@protonmail.com †jonas.mueller@gmail.com ‡ben.harack@gmail.com ar X iv :2 10 8. 09 40 4v 2 [ cs .C Y ] 2 8 A ug 2 02 1 Safe Transformative AI via a Windfall Clause TECHNICAL REPORT",
+    "citation_count": 1,
+    "summary": "This paper proposes a \"Windfall Clause,\" where AI developers donate a large portion of profits from transformative AI to mitigate the risks of unsafe deployment driven by intense competition. The authors model shows that firms often benefit from participating in such a clause, especially in high-stakes competitive environments."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes AI safety-relevant content, reflecting the importance of thoughtful summarization as highlighted by Rohin Shah."
+  },
+  {
+    "url": "https://arxiv.org/abs/2010.00403",
+    "title": "Mediating artificial intelligence developments through negative and positive incentives",
+    "published_date": "2020-10-01",
+    "abstract": "The field of Artificial Intelligence (AI) is going through a period of great expectations, introducing a certain level of anxiety in research, business and also policy. This anxiety is further energised by an AI race narrative that makes people believe they might be missing out. Whether real or not, a belief in this narrative may be detrimental as some stake-holders will feel obliged to cut corners on safety precautions, or ignore societal consequences just to “win”. Starting from a baseline model that describes a broad class of technology races where winners draw a significant benefit compared to others (such as AI advances, patent race, pharmaceutical technologies), we investigate here how positive (rewards) and negative (punishments) incentives may beneficially influence the outcomes. We uncover conditions in which punishment is either capable of reducing the development speed of unsafe participants or has the capacity to reduce innovation through over-regulation. Alternatively, we show that, in several scenarios, rewarding those that follow safety measures may increase the development speed while ensuring safe choices. Moreover, in the latter regimes, rewards do not suffer from the issue of over-regulation as is the case for punishment. Overall, our findings provide valuable insights into the nature and kinds of regulatory actions most suitable to improve safety compliance in the contexts of both smooth and sudden technological shifts.",
+    "citation_count": 41,
+    "summary": "This paper models the impact of positive and negative incentives on AI development speed and safety, finding that rewarding safe practices is more effective than punishing unsafe ones in promoting both innovation and responsible AI development. This is particularly true during periods of rapid technological advancement."
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://arxiv.org/abs/1911.08005v1",
+    "title": "The AI Liability Puzzle and a Fund-Based Work-Around",
+    "published_date": "2019-11-18",
+    "abstract": "Certainty around the regulatory environment is crucial to facilitate responsible AI innovation and its social acceptance. However, the existing legal liability system is inapt to assign responsibility where a potentially harmful conduct and/or the harm itself are unforeseeable, yet some instantiations of AI and/or the harms they may trigger are not foreseeable in the legal sense. The unpredictability of how courts would handle such cases makes the risks involved in the investment and use of AI incalculable, creating an environment that is not conducive to innovation and may deprive society of some benefits AI could provide. To tackle this problem, we propose to draw insights from financial regulatory best-practices and establish a system of AI guarantee schemes. We envisage the system to form part of the broader market-structuring regulatory framework, with the primary function to provide a readily available, clear, and transparent funding mechanism to compensate claims that are either extremely hard or impossible to realize via conventional litigation. We propose at least partial industry-funding, with funding arrangements depending on whether it would pursue other potential policy goals.",
+    "citation_count": 12,
+    "summary": "Current legal frameworks struggle to assign liability for unforeseeable harms caused by AI, hindering innovation and investment; the authors propose an AI guarantee scheme, inspired by financial regulations, to provide a readily available compensation mechanism for such harms."
+  },
+  {
+    "title": "Artificial intelligence and legal liability: towards an international approach of proportional liability based on risk sharing",
+    "abstract": "ABSTRACT This paper critically examines the allocation of liability when autonomous artificial intelligence (AI) systems cause accidents. Problems of applying existing principles of legal liability in AI environment are addressed. This paper argues that the sharing of risk as a basis for proportionate liability should be a basis for a new liability regime to govern future autonomous machines. It is argued that this approach favors the reality of parties' consent to taking the risk of unpredictable AI behavior over the technicality of existing principles of legal liability. The suggested approach also encourages transparency and responsible decisions of developers and owners of AI systems. A flowchart to clarify possible outcomes of applying the suggested approach is provided. The paper also discusses the need for harmonization of national laws and international cooperation regarding AI incidents crossing national borders to ensure predictability of legal rules governing the liability ensuing from AI applications.",
+    "published_date": "2021-05-04",
+    "citation_count": 12,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/13600834.2020.1856025",
+    "summary": "This paper advocates for a new international liability regime for AI accidents based on proportional risk-sharing, arguing that this approach better reflects the realities of AI's unpredictable nature and incentivizes responsible development than applying existing legal principles. It emphasizes the need for international cooperation to harmonize national laws governing AI liability."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2308.02608.pdf",
+    "title": "Unravelling Responsibility for AI",
+    "published_date": "2023-08-04",
+    "abstract": "It is widely acknowledged that we need to establish where responsibility lies for the outputs and impacts of AI-enabled systems. But without a clear and precise understanding of what\"responsibility\"means, deliberations about where responsibility lies will be, at best, unfocused and incomplete and, at worst, misguided. To address this concern, this paper draws upon central distinctions in philosophy and law to clarify the concept of responsibility for AI for policymakers, practitioners, researchers and students from non-philosophical and non-legal backgrounds. Taking the three-part formulation\"Actor A is responsible for Occurrence O,\"the paper unravels the concept of responsibility to clarify that there are different possibilities of who is responsible for AI, the senses in which they are responsible, and aspects of events they are responsible for. Criteria and conditions for fitting attributions of responsibility in the core senses (causal responsibility, role-responsibility, liability responsibility and moral responsibility) are articulated to promote an understanding of when responsibility attributions would be inappropriate or unjust. The analysis is presented with a graphical notation to facilitate informal diagrammatic reasoning and discussion about specific cases. It is illustrated by application to a scenario of a fatal collision between an autonomous AI-enabled ship and a traditional, crewed vessel at sea.",
+    "summary": "This paper clarifies the multifaceted concept of responsibility for AI outcomes by distinguishing between causal, role, liability, and moral responsibility, providing criteria for appropriate attribution and using a graphical notation to aid analysis. It aims to improve understanding of AI responsibility for policymakers and practitioners by applying this framework to a real-world scenario."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/X8NhKh2g2ECPrm5eo/post-series-on-liability-law-for-reducing-existential-risk",
+    "author": "Nora_Ammann",
+    "title": "Post series on \"Liability Law for reducing Existential Risk from AI\"",
+    "published_date": "2024-02-29",
+    "summary": "Gabriel Weil argues that modifying liability law, specifically by implementing strict liability and expanding punitive damages, could significantly mitigate AI existential risks. This legal approach, potentially requiring legislative action and insurance mandates, addresses current shortcomings in proving negligence and accessing sufficient punitive measures."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.15147",
+    "title": "Delegating Responsibilities to Intelligent Autonomous Systems: Challenges and Benefits",
+    "published_date": "2024-11-06",
+    "abstract": "As AI systems increasingly operate with autonomy and adaptability, the traditional boundaries of moral responsibility in techno-social systems are being challenged. This paper explores the evolving discourse on the delegation of responsibilities to intelligent autonomous agents and the ethical implications of such practices. Synthesizing recent developments in AI ethics, including concepts of distributed responsibility and ethical AI by design, the paper proposes a functionalist perspective as a framework. This perspective views moral responsibility not as an individual trait but as a role within a socio-technical system, distributed among human and artificial agents. As an example of 'AI ethical by design,' we present Basti and Vitiello's implementation. They suggest that AI can act as artificial moral agents by learning ethical guidelines and using Deontic Higher-Order Logic to assess decisions ethically. Motivated by the possible speed and scale beyond human supervision and ethical implications, the paper argues for 'AI ethical by design', while acknowledging the distributed, shared, and dynamic nature of responsibility. This functionalist approach offers a practical framework for navigating the complexities of AI ethics in a rapidly evolving technological landscape.",
+    "summary": "This paper examines the ethical implications of delegating responsibilities to increasingly autonomous AI systems, proposing a functionalist framework that distributes moral responsibility among humans and AI agents within a socio-technical system. It advocates for \"AI ethical by design\" to address the challenges of speed and scale exceeding human oversight."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.17114",
+    "title": "Decentralized Governance of Autonomous AI Agents",
+    "published_date": "2024-12-22",
+    "abstract": "Autonomous AI agents present transformative opportunities and significant governance challenges. Existing frameworks, such as the EU AI Act and the NIST AI Risk Management Framework, fall short of addressing the complexities of these agents, which are capable of independent decision-making, learning, and adaptation. To bridge these gaps, we propose the ETHOS (Ethical Technology and Holistic Oversight System) framework, a decentralized governance (DeGov) model leveraging Web3 technologies, including blockchain, smart contracts, and decentralized autonomous organizations (DAOs). ETHOS establishes a global registry for AI agents, enabling dynamic risk classification, proportional oversight, and automated compliance monitoring through tools like soulbound tokens and zero-knowledge proofs. Furthermore, the framework incorporates decentralized justice systems for transparent dispute resolution and introduces AI specific legal entities to manage limited liability, supported by mandatory insurance to ensure financial accountability and incentivize ethical design. By integrating philosophical principles of rationality, ethical grounding, and goal alignment, ETHOS aims to create a robust research agenda for promoting trust, transparency, and participatory governance. This innovative framework offers a scalable and inclusive strategy for regulating AI agents, balancing innovation with ethical responsibility to meet the demands of an AI-driven future.",
+    "summary": "The ETHOS framework proposes a decentralized governance model for autonomous AI agents using Web3 technologies, aiming to address the limitations of existing regulatory frameworks through a global registry, dynamic risk classification, and decentralized justice systems. This approach prioritizes transparency, accountability, and participatory governance to balance AI innovation with ethical responsibility."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.12820",
+    "title": "Declare and Justify: Explicit assumptions in AI evaluations are necessary for effective regulation",
+    "published_date": "2024-11-19",
+    "abstract": "As AI systems advance, AI evaluations are becoming an important pillar of regulations for ensuring safety. We argue that such regulation should require developers to explicitly identify and justify key underlying assumptions about evaluations as part of their case for safety. We identify core assumptions in AI evaluations (both for evaluating existing models and forecasting future models), such as comprehensive threat modeling, proxy task validity, and adequate capability elicitation. Many of these assumptions cannot currently be well justified. If regulation is to be based on evaluations, it should require that AI development be halted if evaluations demonstrate unacceptable danger or if these assumptions are inadequately justified. Our presented approach aims to enhance transparency in AI development, offering a practical path towards more effective governance of advanced AI systems.",
+    "citation_count": 1,
+    "summary": "The paper argues that AI regulations should mandate explicit declaration and justification of underlying assumptions in AI evaluations to ensure safety, requiring development to halt if evaluations reveal unacceptable risks or insufficiently justified assumptions."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.17864",
+    "title": "AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies",
+    "published_date": "2024-06-25",
+    "abstract": "We present a comprehensive AI risk taxonomy derived from eight government policies from the European Union, United States, and China and 16 company policies worldwide, making a significant step towards establishing a unified language for generative AI safety evaluation. We identify 314 unique risk categories organized into a four-tiered taxonomy. At the highest level, this taxonomy encompasses System&Operational Risks, Content Safety Risks, Societal Risks, and Legal&Rights Risks. The taxonomy establishes connections between various descriptions and approaches to risk, highlighting the overlaps and discrepancies between public and private sector conceptions of risk. By providing this unified framework, we aim to advance AI safety through information sharing across sectors and the promotion of best practices in risk mitigation for generative AI models and systems.",
+    "citation_count": 9,
+    "summary": "This paper develops a four-tiered taxonomy of 314 AI risks by analyzing eight government and sixteen corporate policies, aiming to create a unified framework for evaluating generative AI safety and facilitating information sharing across sectors. The taxonomy categorizes risks into System&Operational, Content Safety, Societal, and Legal&Rights risks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, examines AI model registries—centralized databases tracking AI systems for governance purposes. These registries, drawing parallels to pharmaceutical regulations, vary widely in implementation across countries like the US and China, mandating varying levels of model information and pre-release safety assessments."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/gZBgmDFqqyw3Lghok/ai-regulatory-landscape-review-incident-reporting",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Incident Reporting: A Regulatory Review",
+    "published_date": "2024-03-11",
+    "summary": "This article begins a series analyzing the evolving global AI regulatory landscape, focusing on the US, EU, and China, with the first installment examining AI incident reporting mechanisms. It explores existing and proposed regulations, drawing parallels with established incident reporting systems in aviation and occupational safety to highlight best practices and challenges."
+  }
+]

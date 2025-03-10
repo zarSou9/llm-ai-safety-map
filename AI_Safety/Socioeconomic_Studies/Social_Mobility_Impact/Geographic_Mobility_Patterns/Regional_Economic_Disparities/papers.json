@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2404.11988",
+    "title": "The Emerging AI Divide in the United States",
+    "published_date": "2024-04-18",
+    "abstract": "The digital divide describes disparities in access to and usage of digital tooling between social and economic groups. Emerging generative artificial intelligence tools, which strongly affect productivity, could magnify the impact of these divides. However, the affordability, multi-modality, and multilingual capabilities of these tools could also make them more accessible to diverse users in comparison with previous forms of digital tooling. In this study, we characterize spatial differences in U.S. residents' knowledge of a new generative AI tool, ChatGPT, through an analysis of state- and county-level search query data. In the first six months after the tool's release, we observe the highest rates of users searching for ChatGPT in West Coast states and persistently low rates of search in Appalachian and Gulf states. Counties with the highest rates of search are relatively more urbanized and have proportionally more educated, more economically advantaged, and more Asian residents in comparison with other counties or with the U.S. average. In multilevel models adjusting for socioeconomic and demographic factors as well as industry makeup, education is the strongest positive predictor of rates of search for generative AI tooling. Although generative AI technologies may be novel, early differences in uptake appear to be following familiar paths of digital marginalization.",
+    "citation_count": 4,
+    "summary": "Early adoption of ChatGPT in the US shows a widening digital divide, with higher search rates in wealthier, more urban, and better-educated areas, particularly on the West Coast, mirroring existing socioeconomic disparities in technology access. Education is the strongest predictor of ChatGPT search activity, suggesting that familiar patterns of digital marginalization persist with this new technology."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.16539",
+    "title": "Towards Environmentally Equitable AI",
+    "published_date": "2024-12-21",
+    "abstract": "The skyrocketing demand for artificial intelligence (AI) has created an enormous appetite for globally deployed power-hungry servers. As a result, the environmental footprint of AI systems has come under increasing scrutiny. More crucially, the current way that we exploit AI workloads' flexibility and manage AI systems can lead to wildly different environmental impacts across locations, increasingly raising environmental inequity concerns and creating unintended sociotechnical consequences. In this paper, we advocate environmental equity as a priority for the management of future AI systems, advancing the boundaries of existing resource management for sustainable AI and also adding a unique dimension to AI fairness. Concretely, we uncover the potential of equity-aware geographical load balancing to fairly re-distribute the environmental cost across different regions, followed by algorithmic challenges. We conclude by discussing a few future directions to exploit the full potential of system management approaches to mitigate AI's environmental inequity.",
+    "summary": "This paper argues that the uneven environmental impact of AI, due to geographically disparate energy consumption, necessitates prioritizing environmental equity in AI system management. It proposes equity-aware geographical load balancing as a key strategy to mitigate this inequity and discusses related algorithmic challenges."
+  },
+  {
+    "title": "Artificial Intelligence, Income Distribution and Economic Growth",
+    "abstract": "The economic impact of Articial Intelligence (AI) is studied using a (semi) endogenous growth model with two novel features. First, the task approach from labor economics is reformulated and integrated into a growth model. Second, the standard representative household assumption is rejected, so that aggregate demand restrictions can be introduced. With these novel features it is shown that (i) AI automation can decrease the share of labor income no matter the size of the elasticity of substitution between AI and labor, and (ii) when this elasticity is high, AI will unambiguously reduce aggregate demand and slow down GDP growth, even in the face of the positive technology shock that AI entails. If the elasticity of substitution is low, then GDP, productivity and wage growth may however still slow down, because the economy will then fail to benefit from the supply-side driven capacity expansion potential that AI can deliver. The model can thus explain why advanced countries tend to experience, despite much AI hype, the simultaneous existence of rather high employment with stagnating wages, productivity, and GDP.",
+    "published_date": "2024-06-18",
+    "citation_count": 9,
+    "url": "https://www.econstor.eu/bitstream/10419/224623/1/vfs-2020-pid-40327.pdf",
+    "summary": "An endogenous growth model incorporating a task-based approach to labor and heterogeneous households demonstrates that AI automation can reduce labor income share regardless of the elasticity of substitution between AI and labor, and may hinder GDP growth, particularly when this elasticity is high, due to suppressed aggregate demand."
+  },
+  {
+    "title": "Labour and technology at the time of Covid-19. Can artificial intelligence mitigate the need for proximity?",
+    "abstract": "Social distancing has become worldwide the key public policy to be implemented during the COVID-19 epidemic and reducing the degree of proximity among workers turned out to be an important dimension. An emerging literature looks at the role of automation in supporting the work of humans but the potential of Artiﬁcial Intelligence (AI) to inﬂuence the need for physical proximity on the workplace has been left largely unexplored. By using a unique and innovative dataset that combines data on advancements of AI at the occupational level with information on the required proximity in the job-place and administrative employer-employee data on job ﬂows, our results show that AI and proximity stand in an inverse U-shape relationship at the sectoral level, with high advancements in AI that are negatively associated with proximity. We detect this pattern among sectors that were closed due to the lockdown measures as well as among sectors that remained open. We argue that, apart from the expected gains in productivity and competitiveness, preserving jobs and economic activities in a situation of high contagion may be the additional beneﬁts of a policy favouring digitization.",
+    "published_date": "2024-06-16",
+    "citation_count": 6,
+    "url": "https://www.econstor.eu/bitstream/10419/228711/1/GLO-DP-0765.pdf",
+    "summary": "This study finds an inverse U-shaped relationship between artificial intelligence adoption and the need for workplace proximity, showing that high AI advancement is negatively associated with proximity across various sectors, even during COVID-19 lockdowns. This suggests AI can mitigate the need for physical closeness, offering benefits beyond productivity gains, such as job preservation during pandemics."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/cLfsabkCPtieJ5LoK/investigating-bias-representations-in-llms-via-activation",
+    "author": "DawnLu",
+    "title": "Investigating Bias Representations in LLMs via Activation Steering",
+    "published_date": "2024-01-15",
+    "summary": "This research uses activation steering to assess the societal biases of the Llama-2-7b-chat LLM, finding that while the model exhibits gender bias in unsteered responses, attempts to further steer it towards biased outputs using contrastive activation addition resulted in the model refusing to answer, suggesting a potential robustness against overt bias manipulation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8gCsRPxvXyAZJLcwd/gdp-per-capita-in-2050",
+    "author": "Hauke Hillebrandt",
+    "title": "GDP per capita in 2050",
+    "published_date": "2024-05-06",
+    "summary": "The article presents GDP per capita forecasts for major economies until 2050, arguing that even without transformative AI growth, the projected increases suggest a significantly different world by 2050 compared to today, with substantial improvements in living standards across many countries."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nLRKKCTtwQgvozLTN/gradient-routing-masking-gradients-to-localize-computation",
+    "author": "cloud, Jacob G-W, Evzen, Joseph Miller, TurnTrout",
+    "title": "Gradient Routing: Masking Gradients to Localize Computation in Neural Networks",
+    "published_date": "2024-12-06",
+    "summary": "Gradient routing is a technique for controlling where learning occurs in neural networks by selectively masking gradients during backpropagation. This allows for specialized subcomponents within a model, potentially improving AI safety through increased transparency and control over sensitive capabilities."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/iaHk9DMCbrYsKuqgS/simple-distribution-approximation-when-sampled-100-times-can-1",
+    "author": "Teun van der Weij, Felix Hofstätter, Francis Rhys Ward",
+    "title": "Simple distribution approximation: When sampled 100 times, can language models yield 80% A and 20% B?",
+    "published_date": "2024-01-29",
+    "summary": "The study investigates large language models' ability to intentionally underperform (\"sandbagging\") by controlling the distribution of their outputs. Experiments show that GPT-3.5 and GPT-4 can approximate target distributions of answers, though their success varies depending on the task and prompt engineering, demonstrating a capacity for targeted sandbagging but highlighting the sensitivity to prompt design."
+  }
+]

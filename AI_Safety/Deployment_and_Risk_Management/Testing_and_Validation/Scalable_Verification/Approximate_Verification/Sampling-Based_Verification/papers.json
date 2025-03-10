@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.06594",
+    "title": "How to Verify Any (Reasonable) Distribution Property: Computationally Sound Argument Systems for Distributions",
+    "published_date": "2024-09-10",
+    "abstract": "As statistical analyses become more central to science, industry and society, there is a growing need to ensure correctness of their results. Approximate correctness can be verified by replicating the entire analysis, but can we verify without replication? Building on a recent line of work, we study proof-systems that allow a probabilistic verifier to ascertain that the results of an analysis are approximately correct, while drawing fewer samples and using less computational resources than would be needed to replicate the analysis. We focus on distribution testing problems: verifying that an unknown distribution is close to having a claimed property. Our main contribution is a interactive protocol between a verifier and an untrusted prover, which can be used to verify any distribution property that can be decided in polynomial time given a full and explicit description of the distribution. If the distribution is at statistical distance $\\varepsilon$ from having the property, then the verifier rejects with high probability. This soundness property holds against any polynomial-time strategy that a cheating prover might follow, assuming the existence of collision-resistant hash functions (a standard assumption in cryptography). For distributions over a domain of size $N$, the protocol consists of $4$ messages and the communication complexity and verifier runtime are roughly $\\widetilde{O}\\left(\\sqrt{N} / \\varepsilon^2 \\right)$. The verifier's sample complexity is $\\widetilde{O}\\left(\\sqrt{N} / \\varepsilon^2 \\right)$, and this is optimal up to $\\polylog(N)$ factors (for any protocol, regardless of its communication complexity). Even for simple properties, approximately deciding whether an unknown distribution has the property can require quasi-linear sample complexity and running time. For any such property, our protocol provides a quadratic speedup over replicating the analysis."
+  },
+  {
+    "title": "Technical Report Column",
+    "abstract": "Welcome to the Technical Reports Column. If your institution publishes technical reports that you'd like to have included here, please contact me at the email address above.",
+    "published_date": "2024-03-26",
+    "url": "https://dl.acm.org/doi/10.1145/3388392.3388397"
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.04363",
+    "title": "Sampling and Certifying Symmetric Functions",
+    "published_date": "2023-05-07",
+    "abstract": "A circuit $\\mathcal{C}$ samples a distribution $\\mathbf{X}$ with an error $\\epsilon$ if the statistical distance between the output of $\\mathcal{C}$ on the uniform input and $\\mathbf{X}$ is $\\epsilon$. We study the hardness of sampling a uniform distribution over the set of $n$-bit strings of Hamming weight $k$ denoted by $\\mathbf{U}^n_k$ for _decision forests_, i.e. every output bit is computed as a decision tree of the inputs. For every $k$ there is an $O(\\log n)$-depth decision forest sampling $\\mathbf{U}^n_k$ with an inverse-polynomial error [Viola 2012, Czumaj 2015]. We show that for every $\\epsilon>0$ there exists $\\tau$ such that for decision depth $\\tau \\log (n/k) / \\log \\log (n/k)$, the error for sampling $\\mathbf{U}_k^n$ is at least $1-\\epsilon$. Our result is based on the recent robust sunflower lemma [Alweiss, Lovett, Wu, Zhang 2021, Rao 2019]. Our second result is about matching a set of $n$-bit strings with the image of a $d$-_local_ circuit, i.e. such that each output bit depends on at most $d$ input bits. We study the set of all $n$-bit strings whose Hamming weight is at least $n/2$. We improve the previously known locality lower bound from $\\Omega(\\log^* n)$ [Beyersdorff, Datta, Krebs, Mahajan, Scharfenberger-Fabian, Sreenivasaiah, Thomas and Vollmer, 2013] to $\\Omega(\\sqrt{\\log n})$, leaving only a quartic gap from the best upper bound of $O(\\log^2 n)$.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.07355",
+    "title": "Verifying Performance Properties of Probabilistic Inference",
+    "published_date": "2023-07-14",
+    "abstract": "In this extended abstract, we discuss the opportunity to formally verify that inference systems for probabilistic programming guarantee good performance. In particular, we focus on hybrid inference systems that combine exact and approximate inference to try to exploit the advantages of each. Their performance depends critically on a) the division between exact and approximate inference, and b) the computational resources consumed by exact inference. We describe several projects in this direction. Semi-symbolic Inference (SSI) is a type of hybrid inference system that provides limited guarantees by construction on the exact/approximate division. In addition to these limited guarantees, we also describe ongoing work to extend guarantees to a more complex class of programs, requiring a program analysis to ensure the guarantees. Finally, we also describe work on verifying that inference systems using delayed sampling -- another type of hybrid inference -- execute in bounded memory. Together, these projects show that verification can deliver the performance guarantees that probabilistic programming languages need."
+  },
+  {
+    "url": "https://arxiv.org/abs/2112.05745?context=cs.LG",
+    "title": "A Simple and Efficient Sampling-based Algorithm for General Reachability Analysis",
+    "published_date": "2021-12-10",
+    "abstract": "In this work, we analyze an efficient sampling-based algorithm for general-purpose reachability analysis, which remains a notoriously challenging problem with applications ranging from neural network verification to safety analysis of dynamical systems. By sampling inputs, evaluating their images in the true reachable set, and taking their $\\epsilon$-padded convex hull as a set estimator, this algorithm applies to general problem settings and is simple to implement. Our main contribution is the derivation of asymptotic and finite-sample accuracy guarantees using random set theory. This analysis informs algorithmic design to obtain an $\\epsilon$-close reachable set approximation with high probability, provides insights into which reachability problems are most challenging, and motivates safety-critical applications of the technique. On a neural network verification task, we show that this approach is more accurate and significantly faster than prior work. Informed by our analysis, we also design a robust model predictive controller that we demonstrate in hardware experiments.",
+    "citation_count": 14
+  },
+  {
+    "title": "Falsification of Hybrid Systems Using Adaptive Probabilistic Search",
+    "abstract": "We present and analyse an algorithm that quickly finds falsifying inputs for hybrid systems. Our method is based on a probabilistically directed tree search, whose distribution adapts to consider an increasingly fine-grained discretization of the input space. In experiments with standard benchmarks, our algorithm shows comparable or better performance to existing techniques, yet it does not build an explicit model of a system. Instead, at each decision point within a single trial, it makes an uninformed probabilistic choice between simple strategies to extend the input signal by means of exploration or exploitation. Key to our approach is the way input signal space is decomposed into levels, such that coarse segments are more probable than fine segments. We perform experiments to demonstrate how and why our approach works, finding that a fully randomized exploration strategy performs as well as our original algorithm that exploits robustness. We propose this strategy as a new baseline for falsification and conclude that more discriminative benchmarks are required.",
+    "published_date": "2021-07-18",
+    "citation_count": 15,
+    "url": "https://dl.acm.org/doi/10.1145/3459605"
+  }
+]

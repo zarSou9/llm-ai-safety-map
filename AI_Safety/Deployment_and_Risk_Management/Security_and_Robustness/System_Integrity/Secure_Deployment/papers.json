@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/6cWgaaxWqGYwJs3vj/a-basic-systems-architecture-for-ai-agents-that-do",
+    "author": "Buck",
+    "title": "A basic systems architecture for AI agents that do autonomous research",
+    "published_date": "2024-09-23",
+    "summary": "The article proposes a three-server architecture (inference, scaffold, execution) for securing autonomous AI agents performing research tasks, arguing that separating these functions across different machines mitigates risks of AI escape or malicious actions. This architecture clarifies common misconceptions about AI agent deployments and provides a more concrete framework for analyzing potential threats."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/GCqoks9eZDfpL8L3Q/how-to-prevent-collusion-when-using-untrusted-models-to",
+    "author": "Buck Shlegeris",
+    "title": "How to prevent collusion when using untrusted models to monitor each other",
+    "published_date": "2024-09-24",
+    "summary": "The article analyzes the vulnerability of \"untrusted monitoring,\" a safety technique for AI agents, to collusion between model instances. While simple anti-collusion mechanisms can mitigate some collusion strategies, more sophisticated coordination by scheming AIs can overcome these defenses, highlighting the limitations of this approach, especially against significantly superhuman AI."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/d396HCvYG7SSqg9Hh/take-scifs-it-s-dangerous-to-go-alone",
+    "author": "latterframe, Jeffrey Ladish, schroederdewitt",
+    "title": "Take SCIFs, it's dangerous to go alone",
+    "published_date": "2024-05-01",
+    "summary": "The paper proposes mitigating near-term AI safety risks, such as model leaks (illustrated by the Mistral and LLaMA incidents), by adapting operational security practices from high-stakes fields. This includes using secure reading rooms (SCIFs) for AI audits and employing locked-down computers for research to prevent unauthorized data access while enabling necessary work."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12",
+    "summary": "This article proposes a delay-based on-chip compute governance mechanism to verify the location of AI chips using the speed of light as a constraint, aiming to regulate AI development. However, the mechanism's reliance on network latency introduces a significant false positive risk, requiring further solutions for practical implementation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ByCwWRgvTsSC6Wxst/what-would-a-compute-monitoring-plan-look-like-linkpost",
+    "author": "Akash",
+    "title": "What would a compute monitoring plan look like? [Linkpost]",
+    "published_date": "2023-03-26",
+    "summary": "Yonadav Shavit's paper proposes a system for governments to verify compliance with regulations on large-scale neural network training by monitoring the compute hardware used. This involves chip firmware logging weight snapshots, data center record-keeping of training processes, and supply chain monitoring to detect rule violations."
+  },
+  {
+    "title": "SecDeep: Secure and Performant On-device Deep Learning Inference Framework for Mobile and IoT Devices",
+    "abstract": "There is an increasing emphasis on securing deep learning (DL) inference pipelines for mobile and IoT applications with privacy-sensitive data. Prior works have shown that privacy-sensitive data can be secured throughout deep learning inferences on cloud-offloaded models through trusted execution environments such as Intel SGX. However, prior solutions do not address the fundamental challenges of securing the resource-intensive inference tasks on low-power, low-memory devices (e.g., mobile and IoT devices), while achieving high performance. To tackle these challenges, we propose SecDeep, a low-power DL inference framework demonstrating that both security and performance of deep learning inference on edge devices are well within our reach. Leveraging TEEs with limited resources, SecDeep guarantees full confidentiality for input and intermediate data, as well as the integrity of the deep learning model and framework. By enabling and securing neural accelerators, SecDeep is the first of its kind to provide trusted and performant DL model inferencing on IoT and mobile devices. We implement and validate SecDeep by interfacing the ARM NN DL framework with ARM TrustZone. Our evaluation shows that we can securely run inference tasks with 16× to 172× faster performance than no acceleration approaches by leveraging edge-available accelerators.",
+    "published_date": "2021-05-18",
+    "citation_count": 24,
+    "url": "https://dl.acm.org/doi/10.1145/3450268.3453524",
+    "summary": "SecDeep is a secure and performant on-device deep learning inference framework for mobile and IoT devices, leveraging Trust Execution Environments (TEEs) and hardware acceleration to achieve significant performance improvements while maintaining data confidentiality and model integrity. It addresses the challenges of securing inference on resource-constrained devices, offering substantially faster inference than non-accelerated approaches."
+  },
+  {
+    "title": "StarFL: Hybrid Federated Learning Architecture for Smart Urban Computing",
+    "abstract": "From facial recognition to autonomous driving, Artificial Intelligence (AI) will transform the way we live and work over the next couple of decades. Existing AI approaches for urban computing suffer from various challenges, including dealing with synchronization and processing of vast amount of data generated from the edge devices, as well as the privacy and security of individual users, including their bio-metrics, locations, and itineraries. Traditional centralized-based approaches require data in each organization be uploaded to the central database, which may be prohibited by data protection acts, such as GDPR and CCPA. To decouple model training from the need to store the data in the cloud, a new training paradigm called Federated Learning (FL) is proposed. FL enables multiple devices to collaboratively learn a shared model while keeping the training data on devices locally, which can significantly mitigate privacy leakage risk. However, under urban computing scenarios, data are often communication-heavy, high-frequent, and asynchronized, posing new challenges to FL implementation. To handle these challenges, we propose a new hybrid federated learning architecture called StarFL. By combining with Trusted Execution Environment (TEE), Secure Multi-Party Computation (MPC), and (Beidou) satellites, StarFL enables safe key distribution, encryption, and decryption, and provides a verification mechanism for each participant to ensure the security of the local data. In addition, StarFL can provide accurate timestamp matching to facilitate synchronization of multiple clients. All these improvements make StarFL more applicable to the security-sensitive scenarios for the next generation of urban computing.",
+    "published_date": "2021-08-01",
+    "citation_count": 34,
+    "url": "https://dl.acm.org/doi/10.1145/3467956",
+    "summary": "StarFL is a hybrid federated learning architecture designed for smart urban computing, addressing challenges of data synchronization, privacy, and security by integrating Trusted Execution Environments, Secure Multi-Party Computation, and satellite communication for secure model training. This approach allows collaborative learning while keeping training data decentralized and mitigating privacy risks."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes AI safety-relevant content, reflecting the principle of careful reading followed by summarization."
+  }
+]

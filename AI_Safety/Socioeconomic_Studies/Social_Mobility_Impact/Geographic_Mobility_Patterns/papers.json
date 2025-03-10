@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/WJ7y8S9WdKRvrzJmR/building-ai-research-fleets",
+    "author": "Ben Goldhaber, Jesse Hoogland",
+    "title": "Building AI Research Fleets",
+    "published_date": "2025-01-12",
+    "summary": "Research automation necessitates a shift from individual \"AI scientists\" to large-scale \"AI research fleets,\" requiring institutions to adapt their structures and workflows to manage the complexities and potential inefficiencies of this new paradigm, mirroring historical transitions like the industrial revolution and algorithmic trading."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.13986",
+    "title": "AgentMove: Predicting Human Mobility Anywhere Using Large Language Model based Agentic Framework",
+    "published_date": "2024-08-26",
+    "abstract": "Human mobility prediction plays a crucial role in various real-world applications. Although deep learning based models have shown promising results over the past decade, their reliance on extensive private mobility data for training and their inability to perform zero-shot predictions, have hindered further advancements. Recently, attempts have been made to apply large language models (LLMs) to mobility prediction task. However, their performance has been constrained by the absence of a systematic design of workflow. They directly generate the final output using LLMs, which limits the potential of LLMs to uncover complex mobility patterns and underestimates their extensive reserve of global geospatial knowledge. In this paper, we introduce AgentMove, a systematic agentic prediction framework to achieve generalized mobility prediction for any cities worldwide. In AgentMove, we first decompose the mobility prediction task into three sub-tasks and then design corresponding modules to complete these subtasks, including spatial-temporal memory for individual mobility pattern mining, world knowledge generator for modeling the effects of urban structure and collective knowledge extractor for capturing the shared patterns among population. Finally, we combine the results of three modules and conduct a reasoning step to generate the final predictions. Extensive experiments on mobility data from two sources in 12 cities demonstrate that AgentMove outperforms the best baseline more than 8% in various metrics and it shows robust predictions with various LLMs as base and also less geographical bias across cities. Codes and data can be found in https://github.com/tsinghua-fib-lab/AgentMove.",
+    "citation_count": 1,
+    "summary": "AgentMove is a novel framework for generalized human mobility prediction that leverages a large language model's knowledge by decomposing the task into sub-tasks (spatial-temporal memory, world knowledge generation, collective knowledge extraction) for improved accuracy and reduced geographical bias compared to existing methods. The framework significantly outperforms baselines across multiple cities and LLMs."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.02740",
+    "title": "Mixing Individual and Collective Behaviours to Predict Out-of-Routine Mobility",
+    "published_date": "2024-04-03",
+    "abstract": "Predicting human displacements is crucial for addressing various societal challenges, including urban design, traffic congestion, epidemic management, and migration dynamics. While predictive models like deep learning and Markov models offer insights into individual mobility, they often struggle with out-of-routine behaviours. Our study introduces an approach that dynamically integrates individual and collective mobility behaviours, leveraging collective intelligence to enhance prediction accuracy. Evaluating the model on millions of privacy-preserving trajectories across three US cities, we demonstrate its superior performance in predicting out-of-routine mobility, surpassing even advanced deep learning methods. Spatial analysis highlights the model's effectiveness near urban areas with a high density of points of interest, where collective behaviours strongly influence mobility. During disruptive events like the COVID-19 pandemic, our model retains predictive capabilities, unlike individual-based models. By bridging the gap between individual and collective behaviours, our approach offers transparent and accurate predictions, crucial for addressing contemporary mobility challenges.",
+    "citation_count": 3,
+    "summary": "This study presents a novel model that integrates individual and collective human mobility patterns to improve the prediction of out-of-routine movements, demonstrating superior accuracy compared to deep learning methods, particularly in dense urban areas and during disruptive events. The model leverages collective intelligence to enhance prediction of unexpected travel behaviors."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.17495",
+    "title": "Human Mobility Modeling with Limited Information via Large Language Models",
+    "published_date": "2024-09-26",
+    "abstract": "Understanding human mobility patterns has traditionally been a complex challenge in transportation modeling. Due to the difficulties in obtaining high-quality training datasets across diverse locations, conventional activity-based models and learning-based human mobility modeling algorithms are particularly limited by the availability and quality of datasets. Furthermore, current research mainly focuses on the spatial-temporal travel pattern but lacks an understanding of the semantic information between activities, which is crucial for modeling the interdependence between activities. In this paper, we propose an innovative Large Language Model (LLM) empowered human mobility modeling framework. Our proposed approach significantly reduces the reliance on detailed human mobility statistical data, utilizing basic socio-demographic information of individuals to generate their daily mobility patterns. We have validated our results using the NHTS and SCAG-ABM datasets, demonstrating the effective modeling of mobility patterns and the strong adaptability of our framework across various geographic locations.",
+    "citation_count": 2,
+    "summary": "This paper introduces a novel human mobility modeling framework leveraging large language models (LLMs), significantly reducing the need for extensive mobility data by generating daily mobility patterns from basic socio-demographic information. The framework's effectiveness and adaptability are validated using real-world datasets."
+  },
+  {
+    "title": "Socioeconomic correlates of urban mobility trends in two Australian cities during transitional periods of the COVID-19 pandemic",
+    "abstract": "During the COVID-19 pandemic, both government-mandated lockdowns and discretionary changes in behaviour combined to produce dramatic and abrupt changes to human mobility patterns. To understand the socioeconomic determinants of intervention compliance and discretionary behavioural responses to epidemic threats, we investigate whether changes in human mobility showed a systematic variation with socioeconomic status during two distinct periods of the COVID-19 pandemic in Australia. We analyse mobility data from two major urban centres and compare the trends during mandated stay-at-home policies and after the full relaxation of NPIs, which coincided with a large surge of COVID-19 cases. We analyse data aggregated from de-identified GPS trajectories, collated from providers of mobile phone applications and aggregated to small spatial regions. Our results demonstrate systematic decreases in mobility relative to pre-pandemic baseline with the Index of Education and Occupation, for both pandemic periods. On the other hand, the Index of Economic Resources was not correlated with mobility changes. This result contrasts with observations from other national contexts, where reductions in mobility typically increased strongly with indicators of wealth. We interpret these findings in the context of the economic policies put in place by Australian authorities to subsidise household incomes and maintain the essential workforce.",
+    "published_date": "2024-02-03",
+    "url": "https://www.medrxiv.org/content/10.1101/2024.01.31.24302105v1",
+    "summary": "Analysis of Australian mobility data during the COVID-19 pandemic revealed that reduced mobility correlated with lower education and occupation levels, contrasting with findings from other countries where wealthier individuals exhibited greater mobility reductions. This difference is attributed to Australian government policies supporting household incomes and essential workers."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8gCsRPxvXyAZJLcwd/gdp-per-capita-in-2050",
+    "author": "Hauke Hillebrandt",
+    "title": "GDP per capita in 2050",
+    "published_date": "2024-05-06",
+    "summary": "The article presents GDP per capita forecasts for major economies until 2050, arguing that even without transformative AI growth, the projected increases in living standards will significantly alter the global landscape by that year."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ixRxtuDt3JdeLcgtp/predictions-of-near-term-societal-changes-due-to-artificial",
+    "author": "Annapurna",
+    "title": "Predictions of Near-Term Societal Changes Due to Artificial Intelligence",
+    "published_date": "2024-12-29",
+    "summary": "The author predicts significant near-term societal changes due to AI, focusing on increased white-collar worker productivity leading to reduced headcount in corporations within two years, and a transformative impact on education and learning facilitated by AI tools."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/XroTfXFSq3yeJgu73/we-are-in-a-new-paradigm-of-ai-progress-openai-s-o3-model",
+    "author": "garrison",
+    "title": "We are in a New Paradigm of AI Progress - OpenAI's o3 model makes huge gains on the toughest AI benchmarks in the world",
+    "published_date": "2024-12-22",
+    "summary": "OpenAI's new model, o3, significantly surpasses previous AI benchmarks in complex mathematics, science, and programming tasks, exceeding human expert performance in some areas, although at a currently high computational cost. This demonstrates rapid, albeit expensive, progress in AI capabilities beyond what is readily observable in everyday applications."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.08827",
+    "title": "Artificial Intelligence and Human Geography",
+    "published_date": "2023-12-14",
+    "abstract": "This paper examines the recent advances and applications of AI in human geography especially the use of machine (deep) learning, including place representation and modeling, spatial analysis and predictive mapping, and urban planning and design. AI technologies have enabled deeper insights into complex human-environment interactions, contributing to more effective scientific exploration, understanding of social dynamics, and spatial decision-making. Furthermore, human geography offers crucial contributions to AI, particularly in context-aware model development, human-centered design, biases and ethical considerations, and data privacy. The synergy beween AI and human geography is essential for addressing global challenges like disaster resilience, poverty, and equitable resource access. This interdisciplinary collaboration between AI and geography will help advance the development of GeoAI and promise a better and sustainable world for all.",
+    "citation_count": 1,
+    "summary": "This paper explores the burgeoning intersection of artificial intelligence and human geography, highlighting AI's applications in spatial analysis and modeling while emphasizing geography's crucial role in developing ethical and context-aware AI systems. Their synergistic potential promises advancements in addressing global challenges."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zYv9BQBGnk2EdCwoG/the-psyche-of-ai-pattern-recognition",
+    "author": "Scott Broock",
+    "title": "AI and the Map of Your Mind: Pattern Recognition",
+    "published_date": "2023-03-20",
+    "summary": "Integrating large language models into productivity suites allows AI to create personalized knowledge graphs from user data, potentially revolutionizing learning and decision-making by revealing hidden connections and patterns. However, this raises significant concerns regarding the ethical implications of granting AI unrestricted access to personal information and its potential impact on our understanding of the human psyche."
+  }
+]

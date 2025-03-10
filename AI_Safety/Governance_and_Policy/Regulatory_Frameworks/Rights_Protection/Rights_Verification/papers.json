@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2412.15451",
+    "title": "How to Manage My Data? With Machine-Interpretable GDPR Rights!",
+    "published_date": "2024-12-19",
+    "abstract": "The EU GDPR is a landmark regulation that introduced several rights for individuals to obtain information and control how their personal data is being processed, as well as receive a copy of it. However, there are gaps in the effective use of rights due to each organisation developing custom methods for rights declaration and management. Simultaneously, there is a technological gap as there is no single consistent standards-based mechanism that can automate the handling of rights for both organisations and individuals. In this article, we present a specification for exercising and managing rights in a machine-interpretable format based on semantic web standards. Our approach uses the comprehensive Data Privacy Vocabulary to create a streamlined workflow for individuals to understand what rights exist, how and where to exercise them, and for organisations to effectively manage them. This work pushes the state of the art in GDPR rights management and is crucial for data reuse and rights management under technologically intensive developments, such as Data Spaces.",
+    "summary": "This paper proposes a machine-interpretable specification for GDPR data rights management, using semantic web standards and a comprehensive data privacy vocabulary to streamline both individual access and organizational management of personal data. This aims to bridge the technological gap in current GDPR rights fulfillment."
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.06094",
+    "title": "SecureRights: A Blockchain-Powered Trusted DRM Framework for Robust Protection and Asserting Digital Rights",
+    "published_date": "2024-03-10",
+    "abstract": "In the dynamic realm of digital content, safeguarding intellectual property rights poses critical challenges. This paper presents\"SecureRights,\"an innovative Blockchain-based Trusted Digital Rights Management (DRM) framework. It strengthens the defence against unauthorized use and streamlines the claim of digital rights. Utilizing blockchain, digital watermarking, perceptual hashing, Quick Response (QR) codes, and the Interplanetary File System (IPFS), SecureRights securely stores watermark information on the blockchain with timestamp authentication. Incorporating perceptual hashing generates robust hash tokens based on image structure. The addition of QR codes enhances the watermarking, offering a comprehensive solution for resilient intellectual property rights protection. Rigorous evaluations affirm SecureRights' resilience against various attacks, establishing its efficacy in safeguarding digital content and simplifying rightful ownership assertion.",
+    "summary": "SecureRights is a blockchain-based DRM framework using digital watermarking, perceptual hashing, QR codes, and IPFS to enhance digital rights protection and ownership verification. Its robustness against attacks is validated through rigorous evaluation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.16224",
+    "title": "Formal Verification of Permission Voucher",
+    "published_date": "2024-12-18",
+    "abstract": "Formal verification is a critical process in ensuring the security and correctness of cryptographic protocols, particularly in high-assurance domains. This paper presents a comprehensive formal analysis of the Permission Voucher Protocol, a system designed for secure and authenticated access control in distributed environments. The analysis employs the Tamarin Prover, a state-of-the-art tool for symbolic verification, to evaluate key security properties such as authentication, confidentiality, integrity, mutual authentication, and replay prevention. We model the protocol's components, including trust relationships, secure channels, and adversary capabilities under the Dolev-Yao model. Verification results confirm the protocol's robustness against common attacks such as message tampering, impersonation, and replay. Additionally, dependency graphs and detailed proofs demonstrate the successful enforcement of security properties like voucher authenticity, data confidentiality, and key integrity. The study identifies potential enhancements, such as incorporating timestamp-based validity checks and augmenting mutual authentication mechanisms to address insider threats and key management challenges. This work highlights the advantages and limitations of using the Tamarin Prover for formal security verification and proposes strategies to mitigate scalability and performance constraints in complex systems.",
+    "summary": "This paper formally verifies the security of the Permission Voucher Protocol using the Tamarin Prover, confirming its resistance to various attacks and identifying areas for improvement in key management and insider threat mitigation. The analysis demonstrates the protocol's authentication, confidentiality, and integrity properties."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5RX8j4CDqadnffCij/fifteen-lawsuits-against-openai",
+    "author": "Remmelt",
+    "title": "Fifteen Lawsuits against OpenAI",
+    "published_date": "2024-03-09",
+    "summary": "Numerous US-based lawsuits target OpenAI, primarily alleging copyright infringement (across various media creators) and privacy violations; future litigation is anticipated to focus on worker rights, product liability, and environmental concerns."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/JRzdqaQTmNKEH7WSP/some-thoughts-on-ai-art",
+    "author": "abramdemski",
+    "title": "Some Thoughts on AI Art",
+    "published_date": "2023-01-25",
+    "summary": "The author argues that while the use of copyrighted material to train AI art generators isn't currently illegal, it raises significant ethical concerns. This stems from AI's ability to reproduce or imitate copyrighted works, potentially undermining artists' livelihoods and profiting illegitimately from their creations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "Biden's October 30, 2023 Executive Order on AI outlines numerous deadlines for federal agencies, ranging from 30 to 90 days, to produce reports, assessments, and plans related to AI development, implementation, workforce needs, risk management, and ethical considerations across various sectors. These actions aim to coordinate federal AI efforts and address potential risks and societal impacts."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dFgfQTo4DRZG5t8Ap/can-ads-be-gdpr-compliant",
+    "author": "jefftk",
+    "title": "Can Ads be GDPR Compliant?",
+    "published_date": "2023-01-08",
+    "summary": "The author argues that the online advertising ecosystem in Europe is likely illegal under GDPR and ePrivacy regulations due to non-compliant consent mechanisms. Specifically, most cookie banners fail to offer genuinely equal ease of acceptance and rejection, and utilizing US-based adtech violates the Schrems II ruling on data transfers."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2202.09136v1.pdf",
+    "title": "FORT: Right-proving and Attribute-blinding Self-sovereign Authentication",
+    "published_date": "2022-02-17",
+    "abstract": "Nowadays, there are a plethora of services that are provided and paid for online, such as video streaming subscriptions, car-share, vehicle parking, purchasing tickets for events, etc. Online services usually issue tokens that are directly related to the identities of their users after they sign up to a platform; users need to authenticate themselves by using the same credentials each time they use the service. Likewise, when using in-person services, such as going to a concert, after paying for this service, the user usually receives a ticket, which proves that he/she has the right to use that service. In both scenarios, the main concerns surround the centralization of these systems and that they do not ensure customers' privacy. The involved service providers are trusted third parties—authorities that offer services and handle private data about users. In this paper, we designed and implemented FORT, a decentralized system that allows customers to prove their rights to use specific services (either online or in-person) without revealing sensitive information. To achieve decentralization, we proposed a solution where all of the data are handled by a blockchain. We describe and uniquely identify users' rights using non-fungible tokens (NFTs), and possession of these rights is demonstrated by using zero-knowledge proofs—cryptographic primitives that allow us to guarantee customers' privacy. Furthermore, we provide benchmarks of FORT, which show that our protocol is efficient enough to be used in devices with low computing resources, such as smartphones or smartwatches, which are devices commonly used in our use case scenario.",
+    "citation_count": 5,
+    "summary": "FORT is a decentralized authentication system using NFTs and zero-knowledge proofs to enable users to prove their right to access services without revealing sensitive information, enhancing privacy while leveraging blockchain technology. Its efficiency allows for deployment on resource-constrained devices like smartphones."
+  }
+]

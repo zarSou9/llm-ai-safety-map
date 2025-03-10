@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2402.07926",
+    "title": "From Data Creator to Data Reuser: Distance Matters",
+    "published_date": "2024-02-05",
+    "abstract": "Sharing research data is necessary, but not sufficient, for data reuse. Open science policies focus more heavily on data sharing than on reuse, yet both are complex, labor-intensive, expensive, and require infrastructure investments by multiple stakeholders. The value of data reuse lies in relationships between creators and reusers. By addressing knowledge exchange, rather than mere transactions between stakeholders, investments in data management and knowledge infrastructures can be made more wisely. Drawing upon empirical studies of data sharing and reuse, we develop the theoretical construct of distance between data creator and data reuser, identifying six distance dimensions that influence the ability to transfer knowledge effectively: domain, methods, collaboration, curation, purposes, and time and temporality. We address the social and socio-technical aspects of these dimensions, exploring ways in which they may decrease -- or increase -- distances between creators and reusers. Our theoretical framing of the distance between data creators and prospective reusers leads to recommendations to four categories of stakeholders on how to make data sharing and reuse more effective: data creators, data reusers, data archivists, and funding agencies. 'It takes a village' to share research data -- and a village to reuse data. Our aim is to provoke new research questions, new research, and new investments in effective and efficient circulation of research data; and to identify criteria for investments at each stage of data and research life cycles.",
+    "citation_count": 1,
+    "summary": "Data reuse, crucial for open science, depends heavily on minimizing the \"distance\" between creators and reusers across six dimensions (domain, methods, collaboration, curation, purposes, and time); bridging these gaps requires collaborative effort from all stakeholders to improve data management and knowledge infrastructure."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8gCsRPxvXyAZJLcwd/gdp-per-capita-in-2050",
+    "author": "Hauke Hillebrandt",
+    "title": "GDP per capita in 2050",
+    "published_date": "2024-05-06",
+    "summary": "The article presents GDP per capita forecasts for major economies until 2050, arguing that even without transformative AI growth, the projected increases suggest a significantly different world by 2050 compared to today, with substantial improvements in living standards for many countries."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.13476.pdf",
+    "title": "An investigation of challenges encountered when specifying training data and runtime monitors for safety critical ML applications",
+    "published_date": "2023-01-31",
+    "abstract": "Context and motivation: The development and operation of critical software that contains machine learning (ML) models requires diligence and established processes. Especially the training data used during the development of ML models have major influences on the later behaviour of the system. Runtime monitors are used to provide guarantees for that behaviour. Question / problem: We see major uncertainty in how to specify training data and runtime monitoring for critical ML models and by this specifying the final functionality of the system. In this interview-based study we investigate the underlying challenges for these difficulties. Principal ideas/results: Based on ten interviews with practitioners who develop ML models for critical applications in the automotive and telecommunication sector, we identified 17 underlying challenges in 6 challenge groups that relate to the challenge of specifying training data and runtime monitoring. Contribution: The article provides a list of the identified underlying challenges related to the difficulties practitioners experience when specifying training data and runtime monitoring for ML models. Furthermore, interconnection between the challenges were found and based on these connections recommendation proposed to overcome the root causes for the challenges.",
+    "citation_count": 3,
+    "summary": "This interview-based study identifies seventeen challenges, categorized into six groups, that practitioners face when specifying training data and runtime monitors for safety-critical machine learning applications, offering recommendations to address root causes."
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.05037",
+    "title": "Human-GDPR Interaction: Practical Experiences of Accessing Personal Data",
+    "published_date": "2022-03-09",
+    "abstract": "In our data-centric world, most services rely on collecting and using personal data. The EU's General Data Protection Regulation (GDPR) aims to enhance individuals' control over their data, but its practical impact is not well understood. We present a 10-participant study, where each participant filed 4-5 data access requests. Through interviews accompanying these requests and discussions scrutinising returned data, it appears that GDPR falls short of its goals due to non-compliance and low-quality responses. Participants found their hopes to understand providers' data practices or harness their own data unmet. This causes increased distrust without any subjective improvement in power, although more transparent providers do earn greater trust. We propose designing more effective, data-inclusive and open policies and data access systems to improve both customer relations and individual agency, and also that wider public use of GDPR rights could help with delivering accountability and motivating providers to improve data practices.",
+    "citation_count": 31,
+    "summary": "A study of 10 participants filing multiple GDPR data access requests revealed widespread non-compliance and low-quality responses, failing to meet users' expectations for understanding data practices or leveraging their data, thus highlighting the need for improved data access systems and increased public engagement with GDPR rights."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14",
+    "summary": "The article highlights common statistical errors, particularly the false assumption of Gaussian distributions in many fields and misinterpretations of p-values. These errors, often stemming from misunderstandings of statistical power and base rates, lead to unreliable conclusions and flawed analyses in various domains, including finance and science."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06",
+    "summary": "A standard model of COVID-19 transmission fails to explain why US states with vastly different policies experienced similar infection rates. A proposed alternative model, incorporating varying individual vulnerability to infection over time, better accounts for the observed data, resolving inconsistencies in transmission rates and infection prevalence across states."
+  },
+  {
+    "url": "https://arxiv.org/abs/2011.02282",
+    "title": "What We Can't Measure, We Can't Understand: Challenges to Demographic Data Procurement in the Pursuit of Fairness",
+    "published_date": "2020-10-30",
+    "abstract": "As calls for fair and unbiased algorithmic systems increase, so too does the number of individuals working on algorithmic fairness in industry. However, these practitioners often do not have access to the demographic data they feel they need to detect bias in practice. Even with the growing variety of toolkits and strategies for working towards algorithmic fairness, they almost invariably require access to demographic attributes or proxies. We investigated this dilemma through semi-structured interviews with 38 practitioners and professionals either working in or adjacent to algorithmic fairness. Participants painted a complex picture of what demographic data availability and use look like on the ground, ranging from not having access to personal data of any kind to being legally required to collect and use demographic data for discrimination assessments. In many domains, demographic data collection raises a host of difficult questions, including how to balance privacy and fairness, how to define relevant social categories, how to ensure meaningful consent, and whether it is appropriate for private companies to infer someone's demographics. Our research suggests challenges that must be considered by businesses, regulators, researchers, and community groups in order to enable practitioners to address algorithmic bias in practice. Critically, we do not propose that the overall goal of future work should be to simply lower the barriers to collecting demographic data. Rather, our study surfaces a swath of normative questions about how, when, and whether this data should be procured, and, in cases where it is not, what should still be done to mitigate bias.",
+    "citation_count": 117,
+    "summary": "A study of 38 algorithmic fairness practitioners reveals significant challenges in accessing demographic data necessary for bias detection, highlighting the complex ethical and legal considerations surrounding data collection, use, and the pursuit of fairness in algorithms. The research emphasizes the need for nuanced discussions on when and how demographic data should be procured, and alternative bias mitigation strategies when access is limited."
+  },
+  {
+    "url": "https://arxiv.org/abs/2001.05068",
+    "title": "Social and Governance Implications of Improved Data Efficiency",
+    "published_date": "2020-01-14",
+    "abstract": "Many researchers work on improving the data efficiency of machine learning. What would happen if they succeed? This paper explores the social-economic impact of increased data efficiency. Specifically, we examine the intuition that data efficiency will erode the barriers to entry protecting incumbent data-rich AI firms, exposing them to more competition from data-poor firms. We find that this intuition is only partially correct: data efficiency makes it easier to create ML applications, but large AI firms may have more to gain from higher performing AI systems. Further, we find that the effect on privacy, data markets, robustness, and misuse are complex. For example, while it seems intuitive that misuse risk would increase along with data efficiency -- as more actors gain access to any level of capability -- the net effect crucially depends on how much defensive measures are improved. More investigation into data efficiency, as well as research into the \"AI production function\", will be key to understanding the development of the AI industry and its societal impacts.",
+    "citation_count": 14,
+    "summary": "Improved machine learning data efficiency lowers the barrier to entry for AI development, potentially increasing competition but also benefiting established firms; however, the impact on privacy, data markets, and AI misuse remains complex and depends on concurrent advancements in defensive technologies."
+  }
+]

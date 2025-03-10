@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/YJpMgi7HJuHwXTkjk/taking-features-out-of-superposition-with-sparse",
+    "author": "Pierre Peigné",
+    "title": "Taking features out of superposition with sparse autoencoders more quickly with informed initialization",
+    "published_date": "2023-09-23"
+  },
+  {
+    "url": "https://arxiv.org/abs/2209.06827",
+    "title": "Weakly Supervised Invariant Representation Learning Via Disentangling Known and Unknown Nuisance Factors",
+    "published_date": "2022-09-15",
+    "abstract": "Disentangled and invariant representations are two critical goals of representation learning and many approaches have been proposed to achieve either one of them. However, those two goals are actually complementary to each other so that we propose a framework to accomplish both of them simultaneously. We introduce a weakly supervised signal to learn disentangled representation which consists of three splits containing predictive, known nuisance and unknown nuisance information respectively. Furthermore, we incorporate contrastive method to enforce representation invariance. Experiments shows that the proposed method outperforms state-of-the-art (SOTA) methods on four standard benchmarks and shows that the proposed method can have better adversarial defense ability comparing to other methods without adversarial training.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dhbLE8BqRvhBtsXhS/mlsn-3-neurips-safety-paper-roundup",
+    "author": "Dan H",
+    "title": "[MLSN #3]: NeurIPS Safety Paper Roundup",
+    "published_date": "2022-03-08"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.03386.pdf",
+    "title": "On Characterizing the Trade-off in Invariant Representation Learning",
+    "published_date": "2021-09-08",
+    "abstract": "Many applications of representation learning, such as privacy preservation, algorithmic fairness, and domain adaptation, desire explicit control over semantic information being discarded. This goal is formulated as satisfying two objectives: maximizing utility for predicting a target attribute while simultaneously being invariant (independent) to a known semantic attribute. Solutions to invariant representation learning (IRepL) problems lead to a trade-off between utility and invariance when they are competing. While existing works study bounds on this trade-off, two questions remain outstanding: 1) What is the exact trade-off between utility and invariance? and 2) What are the encoders (mapping the data to a representation) that achieve the trade-off, and how can we estimate it from training data? This paper addresses these questions for IRepLs in reproducing kernel Hilbert spaces (RKHS)s. Under the assumption that the distribution of a low-dimensional projection of high-dimensional data is approximately normal, we derive a closed-form solution for the global optima of the underlying optimization problem for encoders in RKHSs. This yields closed formulae for a near-optimal trade-off, corresponding optimal representation dimensionality, and the corresponding encoder(s). We also numerically quantify the trade-off on representative problems and compare them to those achieved by baseline IRepL algorithms.",
+    "citation_count": 5
+  },
+  {
+    "title": "Learning Invariant Representations using Inverse Contrastive Loss",
+    "abstract": "Learning invariant representations is a critical first step in a number of machine learning tasks. A common approach corresponds to the so-called information bottleneck principle in which an application dependent function of mutual information is carefully chosen and optimized. Unfortunately, in practice, these functions are not suitable for optimization purposes since these losses are agnostic of the metric structure of the parameters of the model. We introduce a class of losses for learning representations that are invariant to some extraneous variable of interest by inverting the class of contrastive losses, i.e., inverse contrastive loss (ICL). We show that if the extraneous variable is binary, then optimizing ICL is equivalent to optimizing a regularized MMD divergence. More generally, we also show that if we are provided a metric on the sample space, our formulation of ICL can be decomposed into a sum of convex functions of the given distance metric. Our experimental results indicate that models obtained by optimizing ICL achieve significantly better invariance to the extraneous variable for a fixed desired level of accuracy. In a variety of experimental settings, we show applicability of ICL for learning invariant representations for both continuous and discrete extraneous variables. The project page with code is available at https://github.com/adityakumarakash/ICL.",
+    "published_date": "2021-02-01",
+    "citation_count": 8,
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8366266/"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/8Gv5zSCnGeLxK5FAF/mlsn-1-iclr-safety-paper-roundup",
+    "author": "Dan H",
+    "title": "[MLSN #1]: ICLR Safety Paper Roundup",
+    "published_date": "2021-10-18"
+  }
+]

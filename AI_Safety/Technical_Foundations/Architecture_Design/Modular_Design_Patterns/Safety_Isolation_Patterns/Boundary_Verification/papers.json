@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/L6Ynch3CYMxXZkiq8/a-proof-of-loeb-s-theorem-using-computability-theory",
+    "author": "jessicata",
+    "title": "A Proof of Löb's Theorem using Computability Theory",
+    "published_date": "2023-08-16"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06"
+  },
+  {
+    "title": "The anchor verifier for blocking and non-blocking concurrent software",
+    "abstract": "Verifying the correctness of concurrent software with subtle synchronization is notoriously challenging. We present the Anchor verifier, which is based on a new formalism for specifying synchronization disciplines that describes both (1) what memory accesses are permitted, and (2) how each permitted access commutes with concurrent operations of other threads (to facilitate reduction proofs). Anchor supports the verification of both lock-based blocking and cas-based non-blocking algorithms. Experiments on a variety concurrent data structures and algorithms show that Anchor significantly reduces the burden of concurrent verification.",
+    "published_date": "2020-11-13",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3428224"
+  },
+  {
+    "title": "Verification of Real-Time Coordination in VirtuosoNext (extended version)",
+    "abstract": "VirtuosoNext TM is a distributed real-time operating system (RTOS) featuring a generic programming model dubbed Interacting Entities . This paper focuses on these interactions, implemented as so-called Hubs . Hubs act as synchronisation and communication mechanisms between the application tasks and implement the services provided by the kernel as a kind of Guarded Protected Action with a well deﬁned semantics. While the kernel provides the most basic services, each carefully designed, tested and optimised, tasks are limited to this handful of basic hubs, leaving the development of more complex mechanisms up to application speciﬁc implementations. In this work we investigate how to support a programming paradigm to compositionally build new services, using notions borrowed from the Reo coordination language, and relieving tasks from coordination aspects while delegating them to the hubs. We formalise the semantics of hubs using an automata model with notions of dataﬂow and time, identify the behaviour of existing hubs, and propose an approach to build new hubs by composing simpler ones. We also provide open-source tools and methods to analyse and verify hubs under our automata interpretation, including time-sensitive behaviour via the Uppaal model checker, usable on http://arcatools.org/hubs . In a ﬁrst experiment several hub interactions are combined into a single more complex hub, which raises the level of abstraction and contributes to a higher productivity for the programmer. We illustrate the proposed tools and methods by verifying key properties on diﬀerent interaction scenarios between tasks and the speciﬁed hub. Finally, we investigate the impact on the performance by comparing diﬀerent implementations on an embedded board.",
+    "published_date": "2020-05-08",
+    "citation_count": 1,
+    "url": "https://zenodo.org/records/3818020"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/QJfiKwicwTXYMzJ7q/",
+    "author": "jefftk",
+    "title": "Bleach",
+    "published_date": "2020-03-04"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24"
+  }
+]

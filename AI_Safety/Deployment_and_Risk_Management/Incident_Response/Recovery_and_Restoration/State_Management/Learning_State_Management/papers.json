@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25"
+  },
+  {
+    "url": "https://arxiv.org/auth/show-endorsers/2110.09796",
+    "title": "Offline Reinforcement Learning with Value-based Episodic Memory",
+    "published_date": "2021-10-19",
+    "abstract": "Offline reinforcement learning (RL) shows promise of applying RL to real-world problems by effectively utilizing previously collected data. Most existing offline RL algorithms use regularization or constraints to suppress extrapolation error for actions outside the dataset. In this paper, we adopt a different framework, which learns the V-function instead of the Q-function to naturally keep the learning procedure within the support of an offline dataset. To enable effective generalization while maintaining proper conservatism in offline learning, we propose Expectile V-Learning (EVL), which smoothly interpolates between the optimal value learning and behavior cloning. Further, we introduce implicit planning along offline trajectories to enhance learned V-values and accelerate convergence. Together, we present a new offline method called Value-based Episodic Memory (VEM). We provide theoretical analysis for the convergence properties of our proposed VEM method, and empirical results in the D4RL benchmark show that our method achieves superior performance in most tasks, particularly in sparse-reward tasks.",
+    "citation_count": 40
+  },
+  {
+    "url": "https://arxiv.org/auth/show-endorsers/2110.07910",
+    "title": "SaLinA: Sequential Learning of Agents",
+    "published_date": "2021-10-15",
+    "abstract": "SaLinA is a simple library that makes implementing complex sequential learning models easy, including reinforcement learning algorithms. It is built as an extension of PyTorch: algorithms coded with \\SALINA{} can be understood in few minutes by PyTorch users and modified easily. Moreover, SaLinA naturally works with multiple CPUs and GPUs at train and test time, thus being a good fit for the large-scale training use cases. In comparison to existing RL libraries, SaLinA has a very low adoption cost and capture a large variety of settings (model-based RL, batch RL, hierarchical RL, multi-agent RL, etc.). But SaLinA does not only target RL practitioners, it aims at providing sequential learning capabilities to any deep learning programmer.",
+    "citation_count": 11
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.13101.pdf",
+    "title": "Initializing LSTM internal states via manifold learning",
+    "published_date": "2021-04-27",
+    "abstract": "We present an approach, based on learning an intrinsic data manifold, for the initialization of the internal state values of long short-term memory (LSTM) recurrent neural networks, ensuring consistency with the initial observed input data. Exploiting the generalized synchronization concept, we argue that the converged, \"mature\" internal states constitute a function on this learned manifold. The dimension of this manifold then dictates the length of observed input time series data required for consistent initialization. We illustrate our approach through a partially observed chemical model system, where initializing the internal LSTM states in this fashion yields visibly improved performance. Finally, we show that learning this data manifold enables the transformation of partially observed dynamics into fully observed ones, facilitating alternative identification paths for nonlinear dynamical systems.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://arxiv.org/auth/show-endorsers/2102.05599",
+    "title": "Improving Model-Based Reinforcement Learning with Internal State Representations through Self-Supervision",
+    "published_date": "2021-02-10",
+    "abstract": "Using a model of the environment, reinforcement learning agents can plan their future moves and achieve superhuman performance in board games like Chess, Shogi, and Go, while remaining relatively sample-efficient. As demonstrated by the MuZero Algorithm, the environment model can even be learned dynamically, generalizing the agent to many more tasks while at the same time achieving state-of-the-art performance. Notably, MuZero uses internal state representations derived from real environment states for its predictions. In this paper, we bind the model's predicted internal state representation to the environment state via two additional terms: a reconstruction model loss and a simpler consistency loss, both of which work independently and unsupervised, acting as constraints to stabilize the learning process. Our experiments show that this new integration of reconstruction model loss and simpler consistency loss provide a significant performance increase in OpenAI Gym environments. Our modifications also enable self-supervised pretraining for MuZero, so the algorithm can learn about environment dynamics before a goal is made available.",
+    "citation_count": 3
+  }
+]

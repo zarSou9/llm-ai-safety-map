@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.18636",
+    "title": "Multi-agent cooperation through learning-aware policy gradients",
+    "published_date": "2024-10-24",
+    "abstract": "Self-interested individuals often fail to cooperate, posing a fundamental challenge for multi-agent learning. How can we achieve cooperation among self-interested, independent learning agents? Promising recent work has shown that in certain tasks cooperation can be established between learning-aware agents who model the learning dynamics of each other. Here, we present the first unbiased, higher-derivative-free policy gradient algorithm for learning-aware reinforcement learning, which takes into account that other agents are themselves learning through trial and error based on multiple noisy trials. We then leverage efficient sequence models to condition behavior on long observation histories that contain traces of the learning dynamics of other agents. Training long-context policies with our algorithm leads to cooperative behavior and high returns on standard social dilemmas, including a challenging environment where temporally-extended action coordination is required. Finally, we derive from the iterated prisoner's dilemma a novel explanation for how and when cooperation arises among self-interested learning-aware agents."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.17466",
+    "title": "Evolution with Opponent-Learning Awareness",
+    "published_date": "2024-10-22",
+    "abstract": "The universe involves many independent co-learning agents as an ever-evolving part of our observed environment. Yet, in practice, Multi-Agent Reinforcement Learning (MARL) applications are usually constrained to small, homogeneous populations and remain computationally intensive. In this paper, we study how large heterogeneous populations of learning agents evolve in normal-form games. We show how, under assumptions commonly made in the multi-armed bandit literature, Multi-Agent Policy Gradient closely resembles the Replicator Dynamic, and we further derive a fast, parallelizable implementation of Opponent-Learning Awareness tailored for evolutionary simulations. This enables us to simulate the evolution of very large populations made of heterogeneous co-learning agents, under both naive and advanced learning strategies. We demonstrate our approach in simulations of 200,000 agents, evolving in the classic games of Hawk-Dove, Stag-Hunt, and Rock-Paper-Scissors. Each game highlights distinct ways in which Opponent-Learning Awareness affects evolution."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.13844.pdf",
+    "title": "Safe Multi-agent Learning via Trapping Regions",
+    "published_date": "2023-02-27",
+    "abstract": "One of the main challenges of multi-agent learning lies in establishing convergence of the algorithms, as, in general, a collection of individual, self-serving agents is not guaranteed to converge with their joint policy, when learning concurrently. This is in stark contrast to most single-agent environments, and sets a prohibitive barrier for deployment in practical applications, as it induces uncertainty in long term behavior of the system. In this work, we apply the concept of trapping regions, known from qualitative theory of dynamical systems, to create safety sets in the joint strategy space for decentralized learning. We propose a binary partitioning algorithm for verification that candidate sets form trapping regions in systems with known learning dynamics, and a heuristic sampling algorithm for scenarios where learning dynamics are not known. We demonstrate the applications to a regularized version of Dirac Generative Adversarial Network, a four-intersection traffic control scenario run in a state of the art open-source microscopic traffic simulator SUMO, and a mathematical model of economic competition."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.00212.pdf",
+    "title": "Provably Efficient Generalized Lagrangian Policy Optimization for Safe Multi-Agent Reinforcement Learning",
+    "published_date": "2023-05-31",
+    "abstract": "We examine online safe multi-agent reinforcement learning using constrained Markov games in which agents compete by maximizing their expected total rewards under a constraint on expected total utilities. Our focus is confined to an episodic two-player zero-sum constrained Markov game with independent transition functions that are unknown to agents, adversarial reward functions, and stochastic utility functions. For such a Markov game, we employ an approach based on the occupancy measure to formulate it as an online constrained saddle-point problem with an explicit constraint. We extend the Lagrange multiplier method in constrained optimization to handle the constraint by creating a generalized Lagrangian with minimax decision primal variables and a dual variable. Next, we develop an upper confidence reinforcement learning algorithm to solve this Lagrangian problem while balancing exploration and exploitation. Our algorithm updates the minimax decision primal variables via online mirror descent and the dual variable via projected gradient step and we prove that it enjoys sublinear rate $ O((|X|+|Y|) L \\sqrt{T(|A|+|B|)}))$ for both regret and constraint violation after playing $T$ episodes of the game. Here, $L$ is the horizon of each episode, $(|X|,|A|)$ and $(|Y|,|B|)$ are the state/action space sizes of the min-player and the max-player, respectively. To the best of our knowledge, we provide the first provably efficient online safe reinforcement learning algorithm in constrained Markov games.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/RKDQCB6smLWgs2Mhr/multi-component-learning-and-s-curves",
+    "author": "Adam Jermyn, Buck",
+    "title": "Multi-Component Learning and S-Curves",
+    "published_date": "2022-11-30"
+  },
+  {
+    "url": "https://arxiv.org/auth/show-endorsers/2110.07910",
+    "title": "SaLinA: Sequential Learning of Agents",
+    "published_date": "2021-10-15",
+    "abstract": "SaLinA is a simple library that makes implementing complex sequential learning models easy, including reinforcement learning algorithms. It is built as an extension of PyTorch: algorithms coded with \\SALINA{} can be understood in few minutes by PyTorch users and modified easily. Moreover, SaLinA naturally works with multiple CPUs and GPUs at train and test time, thus being a good fit for the large-scale training use cases. In comparison to existing RL libraries, SaLinA has a very low adoption cost and capture a large variety of settings (model-based RL, batch RL, hierarchical RL, multi-agent RL, etc.). But SaLinA does not only target RL practitioners, it aims at providing sequential learning capabilities to any deep learning programmer.",
+    "citation_count": 11
+  }
+]

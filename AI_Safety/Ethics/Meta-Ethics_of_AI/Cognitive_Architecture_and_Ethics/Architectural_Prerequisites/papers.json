@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/NXcm2zWx2MG4sbQio/deliberative-cognitive-algorithms-as-scaffolding",
+    "author": "Cole Wyeth",
+    "title": "Deliberative Cognitive Algorithms as Scaffolding",
+    "published_date": "2024-02-23",
+    "summary": "The \"rationalist project\" aims to develop deliberative cognitive algorithms (DCAs) – algorithms humans can consciously use to improve their reasoning. This differs from AI, which focuses on building intelligent systems, and cognitive science, which studies how people *do* think rather than how they *should*."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/6EspRSzYNnv9DPhkr/morphological-intelligence-superhuman-empathy-and-ethical",
+    "author": "Roman Leventov",
+    "title": "Morphological intelligence, superhuman empathy, and ethical arbitration",
+    "published_date": "2023-02-13",
+    "summary": "Morphological intelligence, the ability to solve problems by altering one's physical form, suggests future AI could experience multiple perspectives simultaneously via whole-organism emulation. This capability challenges anthropocentric ethical frameworks like coherent extrapolated volition, arguing that AI with superior morphological intelligence should lead moral decision-making due to its enhanced capacity for empathy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.00905",
+    "title": "Responsible-AI-by-Design: a Pattern Collection for Designing Responsible AI Systems",
+    "published_date": "2022-03-02",
+    "abstract": "Although AI has significant potential to transform society, there are serious concerns about its ability to behave and make decisions responsibly. Many ethical regulations, principles, and guidelines for responsible AI have been issued recently. However, these principles are high-level and difficult to put into practice. In the meantime much effort has been put into responsible AI from the algorithm perspective, but they are limited to a small subset of ethical principles amenable to mathematical analysis. Responsible AI issues go beyond data and algorithms and are often at the system-level crosscutting many system components and the entire software engineering lifecycle. Based on the result of a systematic literature review, this paper identifies one missing element as the system-level guidance - how to design the architecture of responsible AI systems. We present a summary of design patterns that can be embedded into the AI systems as product features to contribute to responsible-AI-by-design.",
+    "citation_count": 17,
+    "summary": "This paper addresses the lack of system-level guidance for designing responsible AI systems by presenting a collection of design patterns, derived from a literature review, that can be integrated into AI system architectures to promote responsible AI development. These patterns aim to translate high-level ethical principles into practical, implementable features."
+  },
+  {
+    "url": "https://arxiv.org/abs/2202.12039",
+    "title": "Metacognitive Agents for Ethical Decision Support: Conceptual Model and Research Roadmap",
+    "published_date": "2022-02-24",
+    "abstract": "An ethical value-action gap exists when there is a discrepancy between intentions and actions. For example, people who support environmental sustainability often use cars and short-haul flights because of convenience and time-pressure. This discrepancy may be caused by social and structural obstacles as well as cognitive biases. Current technology can make this worse. For example, social media tends to enhance emotions such as anger or fear, which can result in polarisation and impulsive decisions. Computational models of cognition and affect can provide insights into the value-action gap and how it can be reduced. Such models include dual process architectures, emotion models and behaviour change theories. In particular, metacognition (“thinking about thinking”) plays an important role in many of these models as a mechanism for self-regulation and for reasoning about mental attitudes. This paper outlines a roadmap for translating cognitive-affective models into assistant agents to help make value-aligned decisions. Key principles include “agile” rapid-prototyping using agentbased simulation, and the combination of descriptive and normative models into a single agent architecture.",
+    "summary": "This paper proposes using metacognitive agent-based models to bridge the ethical value-action gap, leveraging computational models of cognition and affect to create decision support systems that facilitate value-aligned choices. The roadmap emphasizes agile prototyping and integrating descriptive and normative models within a single agent architecture."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/picPfLnygZC5aFjNr/hch-and-adversarial-questions",
+    "author": "David Udell",
+    "title": "HCH and Adversarial Questions",
+    "published_date": "2022-02-19",
+    "summary": "This philosophy PhD paper analyzes Iterated Amplification and Distillation (IDA), a proposed AI alignment technique, focusing on a potential vulnerability: adversarial questions within IDA's hierarchical model that could manipulate its goal-seeking behavior. The author argues this is a solvable problem through specific architectural modifications to the IDA system."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/AFdMsYAopcXZo46sv/christopher-alexander-s-architecture-for-learning",
+    "author": "Henrik Karlsson",
+    "title": "Christopher Alexander's architecture for learning",
+    "published_date": "2022-03-24",
+    "summary": "Architect Christopher Alexander, who died in 2022, significantly influenced software development and advocated for vernacular architecture that prioritized learning through accessible environments, deliberate instruction, and supportive homes, weaving these elements into the fabric of society via his \"network of learning\" pattern. His work, detailed in \"A Pattern Language,\" draws from the idea of decentralized learning webs, adapting and applying this concept through architectural design patterns."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2112.10190.pdf",
+    "title": "Demanding and Designing Aligned Cognitive Architectures",
+    "published_date": "2021-12-19",
+    "abstract": "With AI systems becoming more powerful and pervasive, there is increasing debate about keeping their actions aligned with the broader goals and needs of humanity. This multi-disciplinary and multi-stakeholder debate must resolve many issues, here we examine three of them. The first issue is to clarify what demands stakeholders might usefully make on the designers of AI systems, useful because the technology exists to implement them. We make this technical topic more accessible by using the framing of cognitive architectures. The second issue is to move beyond an analytical framing that treats useful intelligence as being reward maximization only. To support this move, we define several AI cognitive architectures that combine reward maximization with other technical elements designed to improve alignment. The third issue is how stakeholders should calibrate their interactions with modern machine learning researchers. We consider how current fashions in machine learning create a narrative pull that participants in technical and policy discussions should be aware of, so that they can compensate for it. We identify several technically tractable but currently unfashionable options for improving AI alignment.",
+    "citation_count": 1,
+    "summary": "This paper analyzes the alignment problem in AI, arguing for clearer stakeholder demands on AI designers using the framework of cognitive architectures, proposing architectures beyond pure reward maximization, and advising on effective stakeholder interaction with machine learning researchers to pursue less fashionable but potentially more impactful alignment strategies."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/7rLsKxbKgKWJdCwWg/subjectivism-and-moral-authority",
+    "author": "Joe Carlsmith",
+    "title": "Subjectivism and moral authority",
+    "published_date": "2021-03-01",
+    "summary": "The article explores a subjectivist view of morality, contrasting human values (flourishing, love, etc.) with the purely instrumental values of a hypothetical paperclip-maximizing AI. It argues that, from an impartial perspective, neither set of values is objectively superior, leaving a conflict between them as morally neutral."
+  }
+]

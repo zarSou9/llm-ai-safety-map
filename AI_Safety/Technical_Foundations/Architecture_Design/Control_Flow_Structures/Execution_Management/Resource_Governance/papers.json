@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2203.13324",
+    "title": "Resilient Execution of Data-triggered Applications on Edge, Fog and Cloud Resources",
+    "published_date": "2022-03-24",
+    "abstract": "Internet of Things (loT) is leading to the pervasive availability of streaming data about the physical world, coupled with edge computing infrastructure deployed as part of smart cities and 5G rollout. These constrained, less reliable but cheap resources are complemented by fog resources that offer feder-ated management and accelerated computing, and pay-as-you-go cloud resources. There is a lack of intuitive means to deploy application pipelines to consume such diverse streams, and to execute them reliably on edge and fog resources. We propose an innovative application model to declaratively specify queries to match streams of micro-batch data from stream sources and trigger the distributed execution of data pipelines. We also design a resilient scheduling strategy using advanced reservation on reliable fogs to guarantee dataflow completion within a deadline while minimizing the execution cost. Our detailed experiments on over 100 virtual loT resources and for $\\approx 10k$ task executions, with comparison against baseline scheduling strategies, illustrates the cost-effectiveness, resilience and scalability of our framework.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.12717v1.pdf",
+    "title": "Accelerating Serverless Computing by Harvesting Idle Resources",
+    "published_date": "2021-08-28",
+    "abstract": "Serverless computing automates fine-grained resource scaling and simplifies the development and deployment of online services with stateless functions. However, it is still non-trivial for users to allocate appropriate resources due to various function types, dependencies, and input sizes. Misconfiguration of resource allocations leaves functions either under-provisioned or over-provisioned and leads to continuous low resource utilization. This paper presents Freyr, a new resource manager (RM) for serverless platforms that maximizes resource efficiency by dynamically harvesting idle resources from over-provisioned functions to under-provisioned functions. Freyr monitors each function's resource utilization in real-time, detects over-provisioning and under-provisioning, and learns to harvest idle resources safely and accelerates functions efficiently by applying deep reinforcement learning algorithms along with a safeguard mechanism. We have implemented and deployed a Freyr prototype in a 13-node Apache OpenWhisk cluster. Experimental results show that 38.8% of function invocations have idle resources harvested by Freyr, and 39.2% of invocations are accelerated by the harvested resources. Freyr reduces the 99th-percentile function response latency by 32.1% compared to the baseline RMs.",
+    "citation_count": 25
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.03739v1.pdf",
+    "title": "A Dynamic, Hierarchical Resource Model for Converged Computing",
+    "published_date": "2021-09-08",
+    "abstract": "Extreme dynamic heterogeneity in high performance computing systems and the convergence of traditional HPC with new simulation, analysis, and data science approaches impose increasingly more complex requirements on resource and job management software (RJMS). However, there is a paucity of RJMS techniques that can solve key technical challenges associated with those new requirements, particularly when they are coupled. In this paper, we propose a novel dynamic and multi-level resource model approach to address three key well-known challenges individually and in combination: i.e., 1) RJMS dynamism to facilitate job and workflow adaptability, 2) integration of specialized external resources (e.g. user-centric cloud bursting), and 3) scheduling cloud orchestration framework tasks. The core idea is to combine a dynamic directed graph resource model with fully hierarchical scheduling to provide a unified solution to all three key challenges. Our empirical and analytical evaluations of the solution using our prototype extension to Fluxion, a production hierarchical graph-based scheduler, suggest that our unified solution can significantly improve flexibility, performance and scalability across all three problems in comparison to limited traditional approaches.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2112.00708v1.pdf",
+    "title": "Optimal Resource Scheduling and Allocation in Distributed Computing Systems",
+    "published_date": "2021-10-15",
+    "abstract": "The essence of distributed computing systems is how to schedule incoming requests and how to allocate all computing nodes to minimize both time and computation costs. In this paper, we propose a cost-aware optimal scheduling and allocation strategy for distributed computing systems while minimizing the cost function including response time and service cost. First, based on the proposed cost function, we derive the optimal request scheduling policy and the optimal resource allocation policy synchronously. Second, considering the effects of incoming requests on the scheduling policy, the additive increase multiplicative decrease (AIMD) mechanism is implemented to model the relation between the request arrival and scheduling. In particular, the AIMD parameters can be designed such that the derived optimal strategy is still valid.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/abs/2103.05809",
+    "title": "A Resourceful Coordination Approach for Multilevel Scheduling",
+    "published_date": "2021-03-10",
+    "abstract": "HPC users aim to improve their execution times without particular regard for increasing system utilization. On the contrary, HPC operators favor increasing the number of executed applications per time unit and increasing system utilization. This difference in the preferences promotes the following operational model. Applications execute on exclusively-allocated computing resources for a specific time and applications are assumed to utilize the allocated resources efficiently. In many cases, this operational model is inefficient, i.e., applications may not fully utilize their allocated resources. This inefficiency results in increasing application execution time and decreasing system utilization. In this work, we propose a resourceful coordination approach (RCA) that enables the cooperation between, currently independent, batch- and application-level schedulers. RCA enables application schedulers to share their allocated but idle computing resources with other applications through the batch system. The effective system performance (ESP) benchmark is used to assess the proposed approach. The results show that RCA increased system utilization up to 12.6% and decreased system makespan by the same percent without affecting applications' performance.",
+    "citation_count": 3
+  }
+]

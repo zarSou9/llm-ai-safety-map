@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Feedback Loop and Bias Amplification in Recommender Systems",
+    "abstract": "Recommendation algorithms are known to suffer from popularity bias; a few popular items are recommended frequently while the majority of other items are ignored. These recommendations are then consumed by the users, their reaction will be logged and added to the system: what is generally known as a feedback loop. In this paper, we propose a method for simulating the users interaction with the recommenders in an offline setting and study the impact of feedback loop on the popularity bias amplification of several recommendation algorithms. We then show how this bias amplification leads to several other problems such as declining the aggregate diversity, shifting the representation of users' taste over time and also homogenization of the users. In particular, we show that the impact of feedback loop is generally stronger for the users who belong to the minority group.",
+    "published_date": "2020-07-25",
+    "citation_count": 229,
+    "url": "https://dl.acm.org/doi/10.1145/3340531.3412152"
+  },
+  {
+    "title": "Human-Machine Hybrid Peer Grading in SPOCs",
+    "abstract": "Peer grading, allowing students/peers to evaluate others' assignments, offers a promising solution for scaling evaluation and learning to massive open online courses (MOOCs) and small private online courses (SPOCs). In the environment of MOOCs, due to the varied skill levels and attitudes of online students, it is not easy for the students to present fair and accurate scores for their peers' assignments. Recently, statistical models have been proposed to improve the fairness and accuracy of peer grading, and these models have achieved good performance in MOOCs. However, our experiments demonstrate that these models fail to deliver accurate inferences in the SPOC scenario because affinity among students may seriously affect the objectivity and reliability of students in the peer-assessment process. To address this problem in SPOCs, this paper proposes a human-machine hybrid peer-grading framework, in which an CNN(Convolutional Neural Networks)-based automated grader works as a filter to ensure reasonable peer scores before Bayesian models are utilized to infer the true scores. This framework can significantly eliminate the severely biased scores of undutiful students and, thus, improve the accuracy of the true-score estimation of the Bayesian peer-grading models. Both the simulated and actual peer-grading datasets in our experiments demonstrate the effectiveness of this new framework for SPOCs.",
+    "published_date": "2020-01-01",
+    "citation_count": 7,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09286436.pdf"
+  },
+  {
+    "title": "Uncovering Bias in Ad Feedback Data Analyses & Applications✱",
+    "abstract": "Electronic publishers and other web-companies are starting to collect user feedback on ads with the aim of using this signal to maintain the quality of ads shown on their sites. However, users are not randomly sampled to provide feedback on ads, but targeted. Furthermore some users who provide feedback may be prone to dislike ads more than the general user. This raises questions about the reliability of ad feedback as a signal for measuring ad quality and whether it can be used in ad ranking. In this paper we start by gaining insights to such signals by analyzing the feedback event logs attributed to users of a popular mobile news app. We then propose a model to reduce potential biases in ad feedback data. Finally, we conclude by comparing the effectiveness of reducing the bias in ad feedback data using existing ad ranking methods along with a new and novel approach we propose that takes revenue considerations into account.",
+    "published_date": "2019-05-13",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3308560.3317304"
+  }
+]

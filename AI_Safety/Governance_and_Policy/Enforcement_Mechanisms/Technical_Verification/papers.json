@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.05534.pdf",
+    "title": "Verifying Controllers With Vision-Based Perception Using Safe Approximate Abstractions",
+    "published_date": "2021-11-10",
+    "abstract": "Fully formal verification of perception models is likely to remain challenging in the foreseeable future, and yet these models are being integrated into safety-critical control systems. We present a practical method for reasoning about the safety of such systems. Our method is based on systematically constructing approximations of perception models from system-level safety requirements, data, and program analysis of the modules that are downstream from perception. These approximations have some desirable properties like being low-dimensional, intelligible, and tractable. The closed-loop system, with the approximation substituting the actual perception model, is verified to be safe. Establishing the formal relationship between the actual and the approximate perception models remains well beyond available verification techniques. However, we do provide a useful empirical measure of their closeness called precision. Overall, our method can tradeoff the size of the approximation against precision. We apply the method to two significant case studies: 1) a vision-based lane tracking controller for an autonomous vehicle and 2) a controller for an agricultural robot. We show how the generated approximations for each system can be composed with the downstream modules and be verified using program analysis tools like CBMC. Detailed evaluations of the impacts of size, and the environmental parameters (e.g., lighting, road surface, and plant type) on the precision of the generated approximations suggest that the approach can be useful for realistic control systems.",
+    "citation_count": 27,
+    "summary": "This paper proposes a method for verifying the safety of control systems using vision-based perception by creating and verifying safe, approximate abstractions of the perception models, trading off approximation size for precision. The approach uses program analysis to verify the approximated closed-loop system and empirically measures the closeness of the approximation to the actual perception model."
+  },
+  {
+    "title": "Verifying the Safety of Autonomous Systems with Neural Network Controllers",
+    "abstract": "This article addresses the problem of verifying the safety of autonomous systems with neural network (NN) controllers. We focus on NNs with sigmoid/tanh activations and use the fact that the sigmoid/tanh is the solution to a quadratic differential equation. This allows us to convert the NN into an equivalent hybrid system and cast the problem as a hybrid system verification problem, which can be solved by existing tools. Furthermore, we improve the scalability of the proposed method by approximating the sigmoid with a Taylor series with worst-case error bounds. Finally, we provide an evaluation over four benchmarks, including comparisons with alternative approaches based on mixed integer linear programming as well as on star sets.",
+    "published_date": "2020-12-07",
+    "citation_count": 54,
+    "url": "https://dl.acm.org/doi/10.1145/3419742",
+    "summary": "This paper presents a method for verifying the safety of autonomous systems using neural network controllers by converting the neural network into an equivalent hybrid system, enabling verification using existing hybrid system tools. Scalability is improved through Taylor series approximation of the sigmoid activation function, and the method is evaluated on four benchmarks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.00069",
+    "title": "Meta-Sealing: A Revolutionizing Integrity Assurance Protocol for Transparent, Tamper-Proof, and Trustworthy AI System",
+    "published_date": "2024-10-31",
+    "abstract": "The Artificial intelligence in critical sectors-healthcare, finance, and public safety-has made system integrity paramount for maintaining societal trust. Current verification methods for AI systems lack comprehensive lifecycle assurance, creating significant vulnerabilities in deployment of both powerful and trustworthy AI. This research introduces Meta-Sealing, a cryptographic framework that fundamentally changes integrity verification in AI systems throughout their operational lifetime. Meta-Sealing surpasses traditional integrity protocols through its implementation of cryptographic seal chains, establishing verifiable, immutable records for all system decisions and transformations. The framework combines advanced cryptography with distributed verification, delivering tamper-evident guarantees that achieve both mathematical rigor and computational efficiency. Our implementation addresses urgent regulatory requirements for AI system transparency and auditability. The framework integrates with current AI governance standards, specifically the EU's AI Act and FDA's healthcare AI guidelines, enabling organizations to maintain operational efficiency while meeting compliance requirements. Testing on financial institution data demonstrated Meta-Sealing's capability to reduce audit timeframes by 62% while enhancing stakeholder confidence by 47%. Results can establish a new benchmark for integrity assurance in enterprise AI deployments. This research presents Meta-Sealing not merely as a technical solution, but as a foundational framework ensuring AI system integrity aligns with human values and regulatory requirements. As AI continues to influence critical decisions, provides the necessary bridge between technological advancement and verifiable trust. Meta-Sealing serves as a guardian of trust, ensuring that the AI systems we depend on are as reliable and transparent as they are powerful.",
+    "summary": "Meta-Sealing is a novel cryptographic framework providing comprehensive, tamper-proof integrity assurance for AI systems throughout their lifecycle, using cryptographic seal chains to create verifiable records of all system actions and significantly improving audit efficiency and stakeholder trust. It aligns with existing AI governance regulations to ensure trustworthy AI deployments."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.18798",
+    "title": "Formal Verification of Digital Twins with TLA and Information Leakage Control",
+    "published_date": "2024-11-27",
+    "abstract": "Verifying the correctness of a digital twin provides a formal guarantee that the digital twin operates as intended. Digital twin verification is challenging due to the presence of uncertainties in the virtual representation, the physical environment, and the bidirectional flow of information between physical and virtual. A further challenge is that a digital twin of a complex system is composed of distributed components. This paper presents a methodology to specify and verify digital twin behavior, translating uncertain processes into a formally verifiable finite state machine. We use the Temporal Logic of Actions (TLA) to create a specification, an implementation abstraction that defines the properties required for correct system behavior. Our approach includes a novel weakening of formal security properties, allowing controlled information leakage while preserving theoretical guarantees. We demonstrate this approach on a digital twin of an unmanned aerial vehicle, verifying synchronization of physical-to-virtual and virtual-to-digital data flows to detect unintended misalignments.",
+    "summary": "This paper presents a TLA-based methodology for formally verifying digital twin behavior, addressing challenges posed by uncertainties and distributed components by modeling uncertain processes as finite state machines and introducing a novel approach to controlled information leakage. The method is demonstrated on an unmanned aerial vehicle digital twin, verifying data synchronization between physical and virtual components."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.16074",
+    "title": "Verification methods for international AI agreements",
+    "published_date": "2024-08-28",
+    "abstract": "What techniques can be used to verify compliance with international agreements about advanced AI development? In this paper, we examine 10 verification methods that could detect two types of potential violations: unauthorized AI training (e.g., training runs above a certain FLOP threshold) and unauthorized data centers. We divide the verification methods into three categories: (a) national technical means (methods requiring minimal or no access from suspected non-compliant nations), (b) access-dependent methods (methods that require approval from the nation suspected of unauthorized activities), and (c) hardware-dependent methods (methods that require rules around advanced hardware). For each verification method, we provide a description, historical precedents, and possible evasion techniques. We conclude by offering recommendations for future work related to the verification and enforcement of international AI governance agreements.",
+    "summary": "This paper analyzes ten verification methods for ensuring compliance with international AI agreements, categorizing them by access requirements (national technical means, access-dependent, and hardware-dependent), and assessing their effectiveness against potential evasion techniques. The methods focus on detecting unauthorized AI training exceeding specified thresholds and unauthorized data centers."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.22151",
+    "title": "Standardization Trends on Safety and Trustworthiness Technology for Advanced AI",
+    "published_date": "2024-10-29",
+    "abstract": "Artificial Intelligence (AI) has rapidly evolved over the past decade and has advanced in areas such as language comprehension, image and video recognition, programming, and scientific reasoning. Recent AI technologies based on large language models and foundation models are approaching or surpassing artificial general intelligence. These systems demonstrate superior performance in complex problem solving, natural language processing, and multi-domain tasks, and can potentially transform fields such as science, industry, healthcare, and education. However, these advancements have raised concerns regarding the safety and trustworthiness of advanced AI, including risks related to uncontrollability, ethical conflicts, long-term socioeconomic impacts, and safety assurance. Efforts are being expended to develop internationally agreed-upon standards to ensure the safety and reliability of AI. This study analyzes international trends in safety and trustworthiness standardization for advanced AI, identifies key areas for standardization, proposes future directions and strategies, and draws policy implications. The goal is to support the safe and trustworthy development of advanced AI and enhance international competitiveness through effective standardization.",
+    "citation_count": 1,
+    "summary": "This paper examines international standardization efforts for ensuring the safety and trustworthiness of advanced AI systems, identifying key areas needing standardization and proposing future strategies to support safe AI development and global competitiveness."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.00035",
+    "title": "Robustness Assessment of a Runway Object Classifier for Safe Aircraft Taxiing",
+    "published_date": "2024-01-08",
+    "abstract": "As deep neural networks (DNNs) are becoming the prominent solution for many computational problems, the aviation industry seeks to explore their potential in alleviating pilot workload and improving operational safety. However, the use of DNNs in these types of safety-critical applications requires a thorough certification process. This need could be partially addressed through formal verification, which provides rigorous assurances — e.g., by proving the absence of certain mispredictions. In this case-study paper, we demonstrate this process on an image-classifier DNN currently under development at Airbus, which is intended for use during the aircraft taxiing phase. We use formal methods to assess this DNN's robustness to three common image perturbation types: noise, brightness and contrast, and some of their combinations. This process entails multiple invocations of the underlying verifier, which might be computationally expensive; and we therefore propose a method that leverages the monotonicity of these robustness properties, as well as the results of past verification queries, in order to reduce the overall number of verification queries required by nearly 60%. Our results indicate the level of robustness achieved by the DNN classifier under study, and indicate that it is considerably more vulnerable to noise than to brightness or contrast perturbations.",
+    "citation_count": 2,
+    "summary": "This paper uses formal methods to assess the robustness of an Airbus-developed deep neural network (DNN) runway object classifier against image perturbations (noise, brightness/contrast), finding it significantly more vulnerable to noise. A proposed optimization method reduced the computational cost of the robustness analysis by nearly 60%."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19",
+    "summary": "The article argues that applying formal verification to guarantee AI safety is unrealistic in the near term. The complexity of the real world, encompassing physics, biology, and human factors, makes obtaining the necessary complete models and data for rigorous mathematical proofs practically impossible."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12",
+    "summary": "This article proposes a delay-based location verification mechanism for on-chip compute governance, leveraging the speed of light to verify the location of AI chips. However, the authors identify potential issues with false positives due to network latency inconsistencies and propose a solution to mitigate this problem."
+  }
+]

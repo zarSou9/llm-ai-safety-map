@@ -1,0 +1,41 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.10699",
+    "title": "Navigating Expertise in Configurable Software Systems through the Maze of Variability",
+    "published_date": "2024-01-19",
+    "abstract": "The understanding of source code in large-scale software systems poses a challenge for developers. The role of expertise in source code becomes critical for identifying developers accountable for substantial changes. However, in the context of configurable software systems (CSS) using pre-processing and conditional compilation, conventional expertise metrics may encounter limitations due to the non-alignment of variability implementation with the natural module structure. This early research study investigates the distribution of development efforts in CSS, specifically focusing on variable and mandatory code. It also examines the engagement of designated experts with variable code in their assigned files. The findings provide insights into task allocation dynamics and raise questions about the applicability of existing metrics, laying the groundwork for alternative approaches to assess developer expertise in handling variable code. This research aims to contribute to a comprehensive understanding of challenges within CSS, marking initial steps toward advancing the evaluation of expertise in this context."
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.08168",
+    "title": "Emergent Software Service Platform and its Application in a Smart Mobility Setting",
+    "published_date": "2023-08-16",
+    "abstract": "The development dynamics of digital innovations for industry, business, and society are producing complex system conglomerates that can no longer be designed centrally and hierarchically in classic development processes. Instead, systems are evolving in DevOps processes in which heterogeneous actors act together on an open platform. Influencing and controlling such dynamically and autonomously changing system landscapes is currently a major challenge and a fundamental interest of service users and providers, as well as operators of the platform infrastructures. In this paper, we propose an architecture for such an emergent software service platform. A software platform that implements this architecture with the underlying engineering methodology is demonstrated by a smart parking lot scenario.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.00819v1.pdf",
+    "title": "Towards Rigorous Selection and Configuration of Cloud Services: Research Methodology",
+    "published_date": "2021-04-02",
+    "abstract": "Cloud computing has recently emerged as a major trend in distributed computing. We proposed a platform for selecting and configuring automatically an appropriate cloud environment that meets a set of consumer and provider requirements. It can easily adapt its behavior, either at design-time or runtime, to the change of the environment in matters of location, time, activity, interaction abilities, and communication restrictions. The platform based on the principles of dynamic software product lines (SPL), Agent-oriented software engineering, and the MAPE-k reference model. We based on the Design Science Research Methodology to conduct this work. In this article, we present the steps of our research following this methodology's guidelines."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.10697.pdf",
+    "title": "Towards a Staging Environment for the Internet of Things",
+    "published_date": "2021-01-26",
+    "abstract": "Internet of Things (IoT) applications promise to make many aspects of our lives more efficient and adaptive through the use of distributed sensing and computing nodes. A central aspect of such applications is their complex communication behavior that is heavily influenced by the physical environment of the system. To continuously improve IoT applications, a staging environment is needed that can provide operating conditions representative of deployments in the actual production environments – similar to what is common practice in cloud application development today. Towards such a staging environment, we present Marvis, a framework that orchestrates hybrid testbeds, co-simulated domain environments, and a central network simulation for testing distributed IoT applications. Our preliminary results include an open source prototype and a demonstration of a Vehicle-to-everything (V2X) communication scenario.",
+    "citation_count": 15
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.05537v1.pdf",
+    "title": "How to Integrate with Real Cars - Minimizing Lead Time at Volkswagen",
+    "published_date": "2021-03-09",
+    "abstract": "The most successful tech companies of the world release new software versions to production multiple times a day. Thereby, they are able to quickly fix emerging bugs and rapidly deliver new features to their customers. This leads to short development cycles, minimal lead times and a high customer-centricity. Short development cycles are easy to achieve if you start a software project on a green field. Nevertheless, this does not apply to brown field environments which are usually found in big corporates such as traditional car manufacturers. For instance, if you want to integrate with real cars you have to interface legacy systems with development cycles of up to several months. We present a solution, which worked for one of the world's largest car manufacturer, leveraging in-house core development teams, dynamic stages and feature-toggles to overcome a brown field environment, allow for short development cycles and minimize the lead time."
+  },
+  {
+    "title": "Multi-stage programming in the large with staged classes",
+    "abstract": "Multi-stage programming (MSP) holds great promise, allowing the reliable generation of specialized, partially-evaluated code with static type- and scope-safety guarantees. Yet, we argue that MSP has not reached its full potential yet, as it has been traditionally limited to generating expressions, and has lacked principled facilities for generating modular programs and data structures. In that sense, we argue that MSP has been reserved for programming “in the small,” focused on generating efficient kernels of computation on the scale of single function bodies. We present a novel technique called staged classes, which extends MSP with the ability to manipulate class definitions as first-class constructs. This lets programmers use MSP “in the large,” on the level of applications, rather than mere functions. This way, applications can be designed in an abstract and modular way without runtime cost, as staged classes guarantee the removal of all staging-time abstractions, resulting in the generation of efficient specialized modules and data structures. We describe the design of a prototype relational database system in Scala, which uses several stages of runtime compilation to maximize the efficiency of query execution and data storage. We also show that staged classes can be used for defining type- and scope-safe implementations of type providers.",
+    "published_date": "2020-11-15",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3425898.3426961"
+  }
+]

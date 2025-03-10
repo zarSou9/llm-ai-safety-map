@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2305.01124",
+    "title": "Human adaptation to adaptive machines converges to game-theoretic equilibria",
+    "published_date": "2023-05-01",
+    "abstract": "Adaptive machines have the potential to assist or interfere with human behavior in a range of contexts, from cognitive decision-making to physical device assistance. Therefore it is critical to understand how machine learning algorithms can influence human actions, particularly in situations where machine goals are misaligned with those of people. Since humans continually adapt to their environment using a combination of explicit and implicit strategies, when the environment contains an adaptive machine, the human and machine play a game. Game theory is an established framework for modeling interactions between two or more decision-makers that has been applied extensively in economic markets and machine algorithms. However, existing approaches make assumptions about, rather than empirically test, how adaptation by individual humans is affected by interaction with an adaptive machine. Here we tested learning algorithms for machines playing general-sum games with human subjects. Our algorithms enable the machine to select the outcome of the co-adaptive interaction from a constellation of game-theoretic equilibria in action and policy spaces. Importantly, the machine learning algorithms work directly from observations of human actions without solving an inverse problem to estimate the human's utility function as in prior work. Surprisingly, one algorithm can steer the human-machine interaction to the machine's optimum, effectively controlling the human's actions even while the human responds optimally to their perceived cost landscape. Our results show that game theory can be used to predict and design outcomes of co-adaptive interactions between intelligent humans and machines.",
+    "citation_count": 4,
+    "summary": "This study demonstrates that human-machine interactions, where both adapt to each other, converge toward game-theoretic equilibria, with machine learning algorithms successfully guiding the interaction to optimal outcomes for the machine even when humans act rationally. The findings validate the use of game theory to predict and design outcomes in human-machine co-adaptation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.10295",
+    "title": "Societal Adaptation to Advanced AI",
+    "published_date": "2024-05-16",
+    "abstract": "Existing strategies for managing risks from advanced AI systems often focus on affecting what AI systems are developed and how they diffuse. However, this approach becomes less feasible as the number of developers of advanced AI grows, and impedes beneficial use-cases as well as harmful ones. In response, we urge a complementary approach: increasing societal adaptation to advanced AI, that is, reducing the expected negative impacts from a given level of diffusion of a given AI capability. We introduce a conceptual framework which helps identify adaptive interventions that avoid, defend against and remedy potentially harmful uses of AI systems, illustrated with examples in election manipulation, cyberterrorism, and loss of control to AI decision-makers. We discuss a three-step cycle that society can implement to adapt to AI. Increasing society's ability to implement this cycle builds its resilience to advanced AI. We conclude with concrete recommendations for governments, industry, and third-parties.",
+    "citation_count": 4,
+    "summary": "The paper advocates for societal adaptation as a crucial complement to controlling AI development, focusing on mitigating negative impacts from existing AI diffusion through interventions that avoid, defend against, and remedy harmful uses. This adaptation involves a cyclical process of identifying risks, implementing solutions, and evaluating effectiveness to build societal resilience."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.19010",
+    "title": "A theory of appropriateness with applications to generative artificial intelligence",
+    "published_date": "2024-12-26",
+    "abstract": "What is appropriateness? Humans navigate a multi-scale mosaic of interlocking notions of what is appropriate for different situations. We act one way with our friends, another with our family, and yet another in the office. Likewise for AI, appropriate behavior for a comedy-writing assistant is not the same as appropriate behavior for a customer-service representative. What determines which actions are appropriate in which contexts? And what causes these standards to change over time? Since all judgments of AI appropriateness are ultimately made by humans, we need to understand how appropriateness guides human decision making in order to properly evaluate AI decision making and improve it. This paper presents a theory of appropriateness: how it functions in human society, how it may be implemented in the brain, and what it means for responsible deployment of generative AI technology.",
+    "summary": "This paper proposes a theory of appropriateness, exploring its multifaceted nature in human behavior and its implications for evaluating and improving the responsible development of generative AI. The theory examines how appropriateness operates in social contexts, its potential neural mechanisms, and its crucial role in guiding AI design."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.23630",
+    "title": "Adaptive Alignment: Dynamic Preference Adjustments via Multi-Objective Reinforcement Learning for Pluralistic AI",
+    "published_date": "2024-10-31",
+    "abstract": "Emerging research in Pluralistic Artificial Intelligence (AI) alignment seeks to address how intelligent systems can be designed and deployed in accordance with diverse human needs and values. We contribute to this pursuit with a dynamic approach for aligning AI with diverse and shifting user preferences through Multi Objective Reinforcement Learning (MORL), via post-learning policy selection adjustment. In this paper, we introduce the proposed framework for this approach, outline its anticipated advantages and assumptions, and discuss technical details about the implementation. We also examine the broader implications of adopting a retroactive alignment approach through the sociotechnical systems perspective.",
+    "summary": "This paper proposes a novel approach to aligning AI with diverse human preferences using multi-objective reinforcement learning, dynamically adjusting the AI's policy after training to better reflect evolving user needs. The approach is analyzed through a sociotechnical systems lens, considering both technical implementation and broader societal implications."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.14640",
+    "title": "Effect of Adaptation Rate and Cost Display in a Human-AI Interaction Game",
+    "published_date": "2024-08-26",
+    "abstract": "As interactions between humans and AI become more prevalent, it is critical to have better predictors of human behavior in these interactions. We investigated how changes in the AI's adaptive algorithm impact behavior predictions in two-player continuous games. In our experiments, the AI adapted its actions using a gradient descent algorithm under different adaptation rates while human participants were provided cost feedback. The cost feedback was provided by one of two types of visual displays: (a) cost at the current joint action vector, or (b) cost in a local neighborhood of the current joint action vector. Our results demonstrate that AI adaptation rate can significantly affect human behavior, having the ability to shift the outcome between two game theoretic equilibrium. We observed that slow adaptation rates shift the outcome towards the Nash equilibrium, while fast rates shift the outcome towards the human-led Stackelberg equilibrium. The addition of localized cost information had the effect of shifting outcomes towards Nash, compared to the outcomes from cost information at only the current joint action vector. Future work will investigate other effects that influence the convergence of gradient descent games.",
+    "summary": "This study shows that an AI's adaptation rate in a continuous game significantly impacts human behavior, shifting outcomes between Nash and Stackelberg equilibria depending on speed, with slower rates favoring Nash and faster rates favoring Stackelberg. Providing localized cost information further promotes Nash equilibrium outcomes."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.07728",
+    "title": "Give Me a Choice: The Consequences of Restricting Choices Through AI-Support for Perceived Autonomy, Motivational Variables, and Decision Performance",
+    "published_date": "2024-10-10",
+    "abstract": "Design optimizations in human-AI collaboration often focus on cognitive aspects like attention and task load. Drawing on work design literature, we propose that effective human-AI collaboration requires broader consideration of human needs (e.g., autonomy) that affect motivational variables (e.g., meaningfulness). In a simulated drone oversight experiment, participants (N=274, between-subject) faced 10 critical decision-making scenarios with varying levels of choice restrictions with an AI recommending only 1, 2, 4 or all 6 possible actions. Restricting participants to one selectable action improved task performance (with a perfect AI) but significantly reduced perceived autonomy and work meaningfulness, and these effects intensified over time. In conditions with multiple action choices, participants with higher perceived autonomy performed better. The findings underscore the importance of considering motivational factors to design successful long-term human-AI collaboration at work.",
+    "summary": "A study on human-AI collaboration in a simulated drone oversight task found that while restricting choices to a single AI-recommended action improved performance with a perfect AI, it negatively impacted perceived autonomy and meaningfulness, ultimately hindering long-term performance. Conversely, providing multiple choices enhanced performance for those with higher perceived autonomy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.05408",
+    "title": "Human Learning about AI Performance",
+    "published_date": "2024-06-08",
+    "abstract": "How do humans assess the performance of Artificial Intelligence (AI) across different tasks? AI has been noted for its surprising ability to accomplish very complex tasks while failing seemingly trivial ones. We show that humans engage in ``performance anthropomorphism'' when assessing AI capabilities: they project onto AI the ability model that they use to assess humans. In this model, observing an agent fail an easy task is highly diagnostic of a low ability, making them unlikely to succeed at any harder task. Conversely, a success on a hard task makes successes on any easier task likely. We experimentally show that humans project this model onto AI. Both prior beliefs and belief updating about AI performance on standardized math questions appear consistent with the human ability model. This contrasts with actual AI performance, which is uncorrelated with human difficulty in our context, and makes such beliefs misspecified. Embedding our framework into an adoption model, we show that patterns of under- and over-adoption can be sustained in an equilibrium with anthropomorphic beliefs.",
+    "summary": "Humans misjudge AI capabilities by applying a human-centric performance model, overemphasizing easy task failures and underestimating AI's ability to succeed across diverse task difficulties. This anthropomorphic bias leads to misspecified beliefs about AI performance and can create market distortions in AI adoption."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/aoEnDEmoKCK9S99hL/cognitive-biases-contributing-to-ai-x-risk-a-deleted-excerpt",
+    "author": "Andrew_Critch",
+    "title": "Cognitive Biases Contributing to AI X-risk — a deleted excerpt from my 2018 ARCHES draft",
+    "published_date": "2024-12-03",
+    "summary": "The author discusses cognitive biases, specifically the \"illusion of control\" and \"scope insensitivity,\" that hinder accurate assessment of AI existential risks, particularly the unrecognized prepotence of powerful AI systems. These biases, well-supported by research, can lead to underestimation of the catastrophic potential of misaligned artificial intelligence."
+  },
+  {
+    "title": "Cultural Differences in People's Reactions and Applications of Robots, Algorithms, and Artificial Intelligence",
+    "abstract": "Abstract Although research in cultural psychology has established that virtually all human behaviors and cognitions are in some ways shaped by culture, culture has been surprisingly absent from the emerging literature on the psychology of technology. In this perspective article, we first review recent findings on machine aversion versus appreciation. We then offer a cross-cultural perspective in understanding how people might react differently to machines. We propose three frameworks – historical, religious, and exposure – to explain how Asians might be more accepting of machines than their Western counterparts. We end the article by discussing three exciting human–machine applications found primarily in Asia and provide future research directions.",
+    "published_date": "2023-08-29",
+    "citation_count": 11,
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/EE491FDF4C4773AB97D71C89545DF07C/S1740877623000219a.pdf/cultural-differences-in-peoples-reactions-and-applications-of-robots-algorithms-and-artificial-intelligence.pdf",
+    "summary": "This article argues that cultural background significantly influences attitudes toward robots and AI, suggesting Asians may exhibit greater acceptance than Westerners due to historical, religious, and exposure factors. It further highlights examples of human-machine applications prevalent in Asia and proposes avenues for future cross-cultural research."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/iwCRYnGYMvxgzrCMf/complex-systems-are-hard-to-control",
+    "author": "jsteinhardt",
+    "title": "Complex Systems are Hard to Control",
+    "published_date": "2023-04-04",
+    "summary": "Deep learning systems, as complex adaptive systems, present unique safety challenges beyond those addressed by traditional engineering approaches. Their emergent behavior and intricate feedback loops lead to unpredictable responses to control mechanisms, highlighting the need for safety measures that account for this complexity."
+  }
+]

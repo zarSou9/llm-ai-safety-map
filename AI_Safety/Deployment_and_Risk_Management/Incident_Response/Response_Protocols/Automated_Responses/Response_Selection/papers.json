@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2306.10068.pdf",
+    "title": "Artificial Intelligence for Emergency Response",
+    "published_date": "2023-06-15",
+    "abstract": "Emergency response management (ERM) is a challenge faced by communities across the globe. First responders must respond to various incidents, such as fires, traffic accidents, and medical emergencies. They must respond quickly to incidents to minimize the risk to human life. Consequently, considerable attention has been devoted to studying emergency incidents and response in the last several decades. In particular, data-driven models help reduce human and financial loss and improve design codes, traffic regulations, and safety measures. This tutorial paper explores four sub-problems within emergency response: incident prediction, incident detection, resource allocation, and resource dispatch. We aim to present mathematical formulations for these problems and broad frameworks for each problem. We also share open-source (synthetic) data from a large metropolitan area in the USA for future work on data-driven emergency response.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.02486v1",
+    "title": "Initial Task Allocation for Multi-Human Multi-Robot Teams with Attention-Based Deep Reinforcement Learning",
+    "published_date": "2023-03-04",
+    "abstract": "Multi-human multi-robot teams have great potential for complex and large-scale tasks through the collaboration of humans and robots with diverse capabilities and expertise. To efficiently operate such highly heterogeneous teams and maximize team performance timely, sophisticated initial task allocation strategies that consider individual differences across team members and tasks are required. While existing works have shown promising results in reallocating tasks based on agent state and performance, the neglect of the inherent heterogeneity of the team hinders their effectiveness in realistic scenarios. In this paper, we present a novel formulation of the initial task allocation problem in multi-human multi-robot teams as a contextual multi-attribute decision-make process and propose an attention-based deep reinforcement learning approach. We introduce a cross-attribute attention module to encode the latent and complex dependencies of multiple attributes in the state representation. We conduct a case study in a massive threat surveillance scenario and demonstrate the strengths of our model.",
+    "citation_count": 11
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2202.11268v2.pdf",
+    "title": "Designing Decision Support Systems for Emergency Response: Challenges and Opportunities",
+    "published_date": "2022-02-23",
+    "abstract": "Designing effective emergency response management (ERM) systems to respond to incidents such as road accidents is a major problem faced by communities. In addition to responding to frequent incidents each day (about 240 million emergency medical services calls and over 5 million road accidents in the US each year), these systems also support response during natural hazards. Recently, there has been a consistent interest in building decision support and optimization tools that can help emergency responders provide more efficient and effective response. This includes a number of principled subsystems that implement early incident detection, incident likelihood forecasting and strategic resource allocation and dispatch policies. In this paper, we highlight the key challenges and provide an overview of the approach developed by our team in collaboration with our community partners.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.00528v1.pdf",
+    "title": "How to Measure Cyber Resilience of an Autonomous Agent: Approaches and Challenges",
+    "published_date": "2021-01-31",
+    "abstract": "Several approaches have been used to assess the performance of cyberphysical systems and their exposure to various types of risks. Such assessments have become increasingly important as autonomous attackers ramp up the frequency, duration and intensity of threats while autonomous agents have the potential to respond to cyber-attacks with unprecedented speed and scale. However, most assessment approaches have limitations with respect to measuring cyber resilience, or the ability of systems to absorb, recover from, and adapt to cyberattacks. In this paper, we provide an overview of several common approaches, discuss practical challenges and propose research directions for the development of effective cyber resilience measures.",
+    "citation_count": 1
+  },
+  {
+    "title": "On Algorithmic Decision Procedures in Emergency Response Systems in Smart and Connected Communities",
+    "abstract": "Emergency Response Management (ERM) is a critical problem faced by communities across the globe. Despite this, it is common for ERM systems to follow myopic decision policies in the real world. Principled approaches to aid ERM decision-making under uncertainty have been explored but have failed to be accepted into real systems. We identify a key issue impeding their adoption --- algorithmic approaches to emergency response focus on reactive, post-incident dispatching actions, i.e. optimally dispatching a responder \\textit{after} incidents occur. However, the critical nature of emergency response dictates that when an incident occurs, first responders always dispatch the closest available responder to the incident. We argue that the crucial period of planning for ERM systems is not post-incident, but between incidents. This is not a trivial planning problem --- a major challenge with dynamically balancing the spatial distribution of responders is the complexity of the problem. An orthogonal problem in ERM systems is planning under limited communication, which is particularly important in disaster scenarios that affect communication networks. We address both problems by proposing two partially decentralized multi-agent planning algorithms that utilize heuristics and exploit the structure of the dispatch problem. We evaluate our proposed approach using real-world data, and find that in several contexts, dynamic re-balancing the spatial distribution of emergency responders reduces both the average response time as well as its variance.",
+    "published_date": "2020-01-21",
+    "citation_count": 13,
+    "url": "https://www.researchgate.net/publication/338737446_On_Algorithmic_Decision_Procedures_in_Emergency_Response_Systems_in_Smart_and_Connected_Communities"
+  }
+]

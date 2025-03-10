@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2402.04567",
+    "title": "OIL-AD: An Anomaly Detection Framework for Sequential Decision Sequences",
+    "published_date": "2024-02-07",
+    "abstract": "Anomaly detection in decision-making sequences is a challenging problem due to the complexity of normality representation learning and the sequential nature of the task. Most existing methods based on Reinforcement Learning (RL) are difficult to implement in the real world due to unrealistic assumptions, such as having access to environment dynamics, reward signals, and online interactions with the environment. To address these limitations, we propose an unsupervised method named Offline Imitation Learning based Anomaly Detection (OIL-AD), which detects anomalies in decision-making sequences using two extracted behaviour features: action optimality and sequential association. Our offline learning model is an adaptation of behavioural cloning with a transformer policy network, where we modify the training process to learn a Q function and a state value function from normal trajectories. We propose that the Q function and the state value function can provide sufficient information about agents' behavioural data, from which we derive two features for anomaly detection. The intuition behind our method is that the action optimality feature derived from the Q function can differentiate the optimal action from others at each local state, and the sequential association feature derived from the state value function has the potential to maintain the temporal correlations between decisions (state-action pairs). Our experiments show that OIL-AD can achieve outstanding online anomaly detection performance with up to 34.8% improvement in F1 score over comparable baselines.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Quht2AY6A5KNeZFEA/timaeus-s-first-four-months",
+    "author": "Jesse Hoogland; Daniel Murfet; Stan van Wingerden; Alexander Gietelink Oldenziel",
+    "title": "Timaeus's First Four Months",
+    "published_date": "2024-02-28"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.05538.pdf",
+    "title": "Efficient pattern-based anomaly detection in a network of multivariate devices",
+    "published_date": "2023-05-07",
+    "abstract": "Many organisations manage service quality and monitor a large set devices and servers where each entity is associated with telemetry or physical sensor data series. Recently, various methods have been proposed to detect behavioural anomalies, however existing approaches focus on multivariate time series and ignore communication between entities. Moreover, we aim to support end-users in not only in locating entities and sensors causing an anomaly at a certain period, but also explain this decision. We propose a scalable approach to detect anomalies using a two-step approach. First, we recover relations between entities in the network, since relations are often dynamic in nature and caused by an unknown underlying process. Next, we report anomalies based on an embedding of sequential patterns. Pattern mining is efficient and supports interpretation, i.e. patterns represent frequent occurring behaviour in time series. We extend pattern mining to filter sequential patterns based on frequency, temporal constraints and minimum description length. We collect and release two public datasets for international broadcasting and X from an Internet company. \\textit{BAD} achieves an overall F1-Score of 0.78 on 9 benchmark datasets, significantly outperforming the best baseline by 3\\%. Additionally, \\textit{BAD} is also an order-of-magnitude faster than state-of-the-art anomaly detection methods."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2307.01601.pdf",
+    "title": "Prototypes as Explanation for Time Series Anomaly Detection",
+    "published_date": "2023-07-04",
+    "abstract": "Detecting abnormal patterns that deviate from a certain regular repeating pattern in time series is essential in many big data applications. However, the lack of labels, the dynamic nature of time series data, and unforeseeable abnormal behaviors make the detection process challenging. Despite the success of recent deep anomaly detection approaches, the mystical mechanisms in such black-box models have become a new challenge in safety-critical applications. The lack of model transparency and prediction reliability hinders further breakthroughs in such domains. This paper proposes ProtoAD, using prototypes as the example-based explanation for the state of regular patterns during anomaly detection. Without significant impact on the detection performance, prototypes shed light on the deep black-box models and provide intuitive understanding for domain experts and stakeholders. We extend the widely used prototype learning in classification problems into anomaly detection. By visualizing both the latent space and input space prototypes, we intuitively demonstrate how regular data are modeled and why specific patterns are considered abnormal.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zYv9BQBGnk2EdCwoG/the-psyche-of-ai-pattern-recognition",
+    "author": "Scott Broock",
+    "title": "AI and the Map of Your Mind: Pattern Recognition",
+    "published_date": "2023-03-20"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07"
+  }
+]

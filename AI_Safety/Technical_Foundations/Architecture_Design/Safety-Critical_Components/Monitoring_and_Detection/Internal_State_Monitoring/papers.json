@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2205.02562.pdf",
+    "title": "Monitoring AI systems: A Problem Analysis, Framework and Outlook",
+    "published_date": "2022-05-05",
+    "abstract": ". Knowledge-based systems have been used to monitor machines and pro- cesses in the real world. In this paper we propose the use of knowledge-based systems to monitor other AI systems in operation. We motivate and provide a problem analysis of this novel setting and subsequently propose a framework that allows for structuring future research related to this setting. Several directions for further research are also discussed. We aim to study how to monitor AI systems in such a way that the expectations for the performance are formulated into an interpretable, knowledge-based system for monitoring.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.05385v2.pdf",
+    "title": "On the Initial Behavior Monitoring Issues in Federated Learning",
+    "published_date": "2021-09-11",
+    "abstract": "In Federated Learning (FL), a group of workers participate to build a global model under the coordination of one node, the chief. Regarding the cybersecurity of FL, some attacks aim at injecting the fabricated local model updates into the system. Some defenses are based on malicious worker detection and behavioral pattern analysis. In this context, without timely and dynamic monitoring methods, the chief cannot detect and remove the malicious or unreliable workers from the system. Our work emphasize the urgency to prepare the federated learning process for monitoring and eventually behavioral pattern analysis. We study the information inside the learning process in the early stages of training, propose a monitoring process and evaluate the monitoring period required. The aim is to analyse at what time is it appropriate to start the detection algorithm in order to remove the malicious or unreliable workers from the system and optimise the defense mechanism deployment. We tested our strategy on a behavioral pattern analysis defense applied to the FL process of different benchmark systems for text and image classification. Our results show that the monitoring process lowers false positives and false negatives and consequently increases system efficiency by enabling the distributed learning system to achieve better performance in the early stage of training.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2109.13916v1",
+    "title": "Unsolved Problems in ML Safety",
+    "published_date": "2021-09-28",
+    "abstract": "Machine learning (ML) systems are rapidly increasing in size, are acquiring new capabilities, and are increasingly deployed in high-stakes settings. As with other powerful technologies, safety for ML should be a leading research priority. In response to emerging safety challenges in ML, such as those introduced by recent large-scale models, we provide a new roadmap for ML Safety and refine the technical problems that the field needs to address. We present four problems ready for research, namely withstanding hazards (\"Robustness\"), identifying hazards (\"Monitoring\"), reducing inherent model hazards (\"Alignment\"), and reducing systemic hazards (\"Systemic Safety\"). Throughout, we clarify each problem's motivation and provide concrete research directions.",
+    "citation_count": 253
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.02371v1.pdf",
+    "title": "Self-Checking Deep Neural Networks in Deployment",
+    "published_date": "2021-03-03",
+    "abstract": "The widespread adoption of Deep Neural Networks (DNNs) in important domains raises questions about the trustworthiness of DNN outputs. Even a highly accurate DNN will make mistakes some of the time, and in settings like self-driving vehicles these mistakes must be quickly detected and properly dealt with in deployment. Just as our community has developed effective techniques and mechanisms to monitor and check programmed components, we believe it is now necessary to do the same for DNNs. In this paper we present DNN self-checking as a process by which internal DNN layer features are used to check DNN predictions. We detail SelfChecker, a self-checking system that monitors DNN outputs and triggers an alarm if the internal layer features of the model are inconsistent with the final prediction. SelfChecker also provides advice in the form of an alternative prediction. We evaluated SelfChecker on four popular image datasets and three DNN models and found that SelfChecker triggers correct alarms on 60.56% of wrong DNN predictions, and false alarms on 2.04% of correct DNN predictions. This is a substantial improvement over prior work (SelfOracle, Dissector, and ConfidNet). In experiments with self-driving car scenarios, SelfChecker triggers more correct alarms than SelfOracle for two DNN models (DAVE-2 and Chauffeur) with comparable false alarms. Our implementation is available as open source.",
+    "citation_count": 37
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.02872v1.pdf",
+    "title": "An RL-Based Adaptive Detection Strategy to Secure Cyber-Physical Systems",
+    "published_date": "2021-03-04",
+    "abstract": "Increased dependence on networked, software based control has escalated the vulnerabilities of Cyber Physical Systems (CPSs). Detection and monitoring components developed leveraging dynamical systems theory are often employed as lightweight security measures for protecting such safety critical CPSs against false data injection attacks. However, existing approaches do not correlate attack scenarios with parameters of detection systems. In the present work, we propose a Reinforcement Learning (RL) based framework which adaptively sets the parameters of such detectors based on experience learned from attack scenarios, maximizing detection rate and minimizing false alarms in the process while attempting performance preserving control actions."
+  },
+  {
+    "title": "Monitoring AI Services for Misuse",
+    "abstract": "Given the surge in interest in AI, we now see the emergence of Artificial Intelligence as a Service (AIaaS). AIaaS entails service providers offering remote access to ML models and capabilities at arms-length', through networked APIs. Such services will grow in popularity, as they enable access to state-of-the-art ML capabilities, 'on demand', 'out of the box', at low cost and without requiring training data or ML expertise. However, there is much public concern regarding AI. AIaaS raises particular considerations, given there is much potential for such services to be used to underpin and drive problematic, inappropriate, undesirable, controversial, or possibly even illegal applications. A key way forward is through service providers monitoring their AI services to identify potential situations of problematic use. Towards this, we elaborate the potential for 'misuse indicators' as a mechanism for uncovering patterns of usage behaviour warranting consideration or further investigation. We introduce a taxonomy for describing these indicators and their contextual considerations, and use exemplars to demonstrate the feasibility analysing AIaaS usage to highlight situations of possible concern. We also seek to draw more attention to AI services and the issues they raise, given AIaaS' increasing prominence, and the general calls for the more responsible and accountable use of AI.",
+    "published_date": "2021-07-21",
+    "citation_count": 15,
+    "url": "https://dl.acm.org/doi/10.1145/3461702.3462566"
+  }
+]

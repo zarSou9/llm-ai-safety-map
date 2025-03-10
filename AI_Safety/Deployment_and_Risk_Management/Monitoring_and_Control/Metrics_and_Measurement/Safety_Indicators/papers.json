@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/yi4pqB6G73dcTnatq/aspiration-based-designs-3-performance-and-safety-criteria",
+    "author": "Jobst Heitzig",
+    "title": "[Aspiration-based designs] 3. Performance and safety criteria, and aspiration intervals",
+    "published_date": "2024-04-28",
+    "summary": "This article extends a previously introduced decision-making algorithm by incorporating criteria for selecting actions and generalizing the goal from achieving a specific expected value to achieving a target range. The authors leverage the increased flexibility afforded by aspiration-based goals to prioritize safer policies, introducing simple illustrative safety and performance metrics with the promise of more sophisticated metrics in future work."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13",
+    "summary": "Current methods for assessing the risk of catastrophic AI behavior are insufficient because they rely on finding specific harmful inputs, which is computationally prohibitive. The article proposes researching alternative methods to estimate the probability of tail events (catastrophic failures) without needing to identify all harmful inputs."
+  },
+  {
+    "title": "Insufficiency-Driven DNN Error Detection in the Context of SOTIF on Traffic Sign Recognition Use Case",
+    "abstract": "Deep Neural Networks (DNNs) are used in various domains and industry fields with great success due to their ability to learn complex tasks from high-dimensional data. However, the data-driven approach within deep learning results in various DNN-specific insufficiencies (e.g., robustness limitations, overconfidence, lack of interpretability), which makes the usage in safety-critical applications, like automated driving, challenging. An important safety strategy to address these limitations is the detection of DNN errors (e.g., false positives) during runtime. In this work, we present a general error detection approach for DNNs, which combines diverse monitoring methods to address different safety-related DNN insufficiencies simultaneously. To ensure consistency with the automotive safety domain, we take into account established concepts of the automotive safety standard ISO 21448 (SOTIF). We apply our error detection method on the safety-related use case of traffic sign recognition by using self-created 3D driving scenarios. In doing so, we consider different types of DNN errors related to in distribution, out of distribution, and adversarial data. We demonstrate that our approach is able to handle all these error types. Furthermore, we show the performance benefit of our method compared to a baseline DNN and to state of the art DNN monitoring methods.",
+    "published_date": "2023-01-01",
+    "citation_count": 9,
+    "url": "https://ieeexplore.ieee.org/ielx7/8784355/9999144/10016638.pdf",
+    "summary": "This paper proposes a novel DNN error detection method combining diverse monitoring techniques to address robustness limitations and overconfidence in safety-critical applications, demonstrated through improved traffic sign recognition performance compared to baseline and state-of-the-art methods, aligning with SOTIF guidelines."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of posts aims to provide a comprehensive introduction to AI safety. The content and order of the posts are still under development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jiXMZHGmEf7qPrKPc/systems-that-cannot-be-unsafe-cannot-be-safe",
+    "author": "Davidmanheim",
+    "title": "Systems that cannot be unsafe cannot be safe",
+    "published_date": "2023-05-02",
+    "summary": "The author argues that assessing the safety of machine learning models, unlike traditional engineering systems, is currently meaningless because there are no established safety standards or specifications defining acceptable behavior and usage. Therefore, claims of a model being \"safe\" are misleading without pre-defined criteria for verification and validation."
+  },
+  {
+    "title": "On the Properness of Incorporating Binary Classification Machine Learning Algorithms Into Safety-Critical Systems",
+    "abstract": "Manufacturers are willing to incorporate Machine Learning (ML) algorithms into their systems, especially those considered as Safety-Critical Systems (SCS). ML algorithms that perform binary classification (i.e., Binary Classifiers (BCs)) find a wide applicability as error, intrusion or failure detectors, provided that their performance complies with SCS safety requirements. However, the performance analysis of BCs relies on metrics that were not developed with safety in mind and consequently may not provide meaningful evidence to decide whether to incorporate a BC into a SCS. In this paper, we empirically assess the properness of such incorporation by analyzing the distribution of misclassifications of BCs instead of simply counting misclassifications. This allows us to better assess the adequacy of a given BC by identifying areas of the classification space where the BC is likely to misclassify and therefore constitutes actionable information to deal with the SCS. Our assessment takes a deeper view of the classification performance concerning safety by using new metrics that consider the proportions of predictions that are/are not considered sufficiently safe to be used by incorporating SCS. The results of our experiment allow discussing the potential of such distribution analysis for deciding if a BC can be incorporated into a SCS.",
+    "published_date": "2022-10-01",
+    "citation_count": 4,
+    "url": "https://ieeexplore.ieee.org/ielx7/6245516/6558478/09788529.pdf",
+    "summary": "This paper argues that standard metrics for evaluating binary classifiers are insufficient for safety-critical systems, proposing instead an analysis of misclassification distributions to identify unsafe prediction areas. This approach offers a more nuanced assessment of classifier suitability for such systems by considering the proportion of predictions deemed sufficiently safe."
+  },
+  {
+    "title": "Safety-Assured Design and Adaptation of Learning-Enabled Autonomous Systems",
+    "abstract": "Future autonomous systems will employ sophisticated machine learning techniques for the sensing and perception of the surroundings and the making corresponding decisions for planning, control, and other actions. They often operate in highly dynamic, uncertain and challenging environment, and need to meet stringent timing, resource, and mission requirements. In particular, it is critical and yet very challenging to ensure the safety of these autonomous systems, given the uncertainties of the system inputs, the constant disturbances on the system operations, and the lack of analyzability for many machine learning methods (particularly those based on neural networks). In this paper, we will discuss some of these challenges, and present our work in developing automated, quantitative, and formalized methods and tools for ensuring the safety of autonomous systems in their design and during their runtime adaptation. We argue that it is essential to take a holistic approach in addressing system safety and other safety-related properties, vertically across the functional, software, and hardware layers, and horizontally across the autonomy pipeline of sensing, perception, planning, and control modules. This approach could be further extended from a single autonomous system to a multi-agent system where multiple autonomous agents perform tasks in a collaborative manner. We will use connected and autonomous vehicles (CAVs) as the main application domain to illustrate the importance of such holistic approach and show our initial efforts in this direction.",
+    "published_date": "2021-01-18",
+    "citation_count": 23,
+    "url": "https://dl.acm.org/doi/10.1145/3394885.3431623",
+    "summary": "This paper addresses the critical challenge of ensuring safety in learning-enabled autonomous systems, proposing a holistic, vertically and horizontally integrated approach for automated, quantitative, and formalized safety assurance throughout design and runtime adaptation, illustrated using connected and autonomous vehicles."
+  },
+  {
+    "title": "Understanding the properness of incorporating machine learning algorithms in safety-critical systems",
+    "abstract": "Nowadays, Machine Learning (ML) algorithms are being incorporated into many systems since they can learn and solve complex problems. Some of these systems can be considered as Safety-Critical Systems (SCS), therefore, the performance of ML algorithms should be sufficiently safe concerning the safety requirements of the incorporating SCS. However, the performance analysis of ML algorithms, usually, relies on metrics that were not developed with safety in mind. Accordingly, they may not be appropriate for assessing the performance of ML algorithms concerning safety. This paper debates on accounting for the distribution - not just the amount - of False Negatives as an additional element to be used when assessing ML algorithms to be integrated into SCS. We empirically try to assess the properness of incorporating ML-based components (anomaly-based intrusion detectors) into SCS using both traditional and novel SSPr and NPr metrics that focus on the numbers as well as the distribution of False Negatives. Results obtained by our experiment allow discussing the potential of ML-based components to be incorporated into SCS.",
+    "published_date": "2021-03-22",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3412841.3442074",
+    "summary": "This paper argues that traditional metrics for evaluating machine learning algorithms are insufficient for safety-critical systems (SCS), proposing new metrics that consider the distribution of false negatives in addition to their quantity. Empirical results using anomaly-based intrusion detectors demonstrate the potential impact of this refined evaluation approach on integrating ML into SCS."
+  }
+]

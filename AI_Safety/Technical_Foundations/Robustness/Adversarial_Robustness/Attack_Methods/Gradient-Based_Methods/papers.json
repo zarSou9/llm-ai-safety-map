@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/cPCvfrqjgy5Cu2FCs/analysing-adversarial-attacks-with-linear-probing-3",
+    "author": "Yoann Poupart; Imene Kerboua; Clement Neo; Jason Hoelscher-Obermaier",
+    "title": "Analysing Adversarial Attacks with Linear Probing",
+    "published_date": "2024-06-17"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/2sTTEkzvscWCPBQAk/gradient-filtering",
+    "author": "Jozdien; Janus",
+    "title": "Gradient Filtering",
+    "published_date": "2023-01-18"
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/gradient-descent",
+    "author": "Quintin Pope",
+    "title": "Gradient Descent - AI Alignment Forum",
+    "published_date": "2022-02-08"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.13733.pdf",
+    "title": "Gradient-based Adversarial Attacks against Text Transformers",
+    "published_date": "2021-04-15",
+    "abstract": "We propose the first general-purpose gradient-based adversarial attack against transformer models. Instead of searching for a single adversarial example, we search for a distribution of adversarial examples parameterized by a continuous-valued matrix, hence enabling gradient-based optimization. We empirically demonstrate that our white-box attack attains state-of-the-art attack performance on a variety of natural language tasks, outperforming prior work in terms of adversarial success rate with matching imperceptibility as per automated and human evaluation. Furthermore, we show that a powerful black-box transfer attack, enabled by sampling from the adversarial distribution, matches or exceeds existing methods, while only requiring hard-label outputs.",
+    "citation_count": 194
+  },
+  {
+    "url": "https://arxiv.org/pdf/2110.05007.pdf",
+    "title": "Boosting Fast Adversarial Training With Learnable Adversarial Initialization",
+    "published_date": "2021-10-11",
+    "abstract": "Adversarial training (AT) has been demonstrated to be effective in improving model robustness by leveraging adversarial examples for training. However, most AT methods are in face of expensive time and computational cost for calculating gradients at multiple steps in generating adversarial examples. To boost training efficiency, fast gradient sign method (FGSM) is adopted in fast AT methods by calculating gradient only once. Unfortunately, the robustness is far from satisfactory. One reason may arise from the initialization fashion. Existing fast AT generally uses a random sample-agnostic initialization, which facilitates the efficiency yet hinders a further robustness improvement. Up to now, the initialization in fast AT is still not extensively explored. In this paper, focusing on image classification, we boost fast AT with a sample-dependent adversarial initialization, i.e., an output from a generative network conditioned on a benign image and its gradient information from the target network. As the generative network and the target network are optimized jointly in the training phase, the former can adaptively generate an effective initialization with respect to the latter, which motivates gradually improved robustness. Experimental evaluations on four benchmark databases demonstrate the superiority of our proposed method over state-of-the-art fast AT methods, as well as comparable robustness to advanced multi-step AT methods. The code is released at https://github.com//jiaxiaojunQAQ//FGSM-SDI.",
+    "citation_count": 46
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/S2jsBsZvqjBZa3pKT/approaches-to-gradient-hacking",
+    "author": "adamShimi",
+    "title": "Approaches to gradient hacking",
+    "published_date": "2021-08-14"
+  }
+]

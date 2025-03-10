@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2402.15893",
+    "title": "Concurrent Learning of Policy and Unknown Safety Constraints in Reinforcement Learning",
+    "published_date": "2024-02-24",
+    "abstract": "Reinforcement learning (RL) has revolutionized decision-making across a wide range of domains over the past few decades. Yet, deploying RL policies in real-world scenarios presents the crucial challenge of ensuring safety. Traditional safe RL approaches have predominantly focused on incorporating predefined safety constraints into the policy learning process. However, this reliance on predefined safety constraints poses limitations in dynamic and unpredictable real-world settings where such constraints may not be available or sufficiently adaptable. Bridging this gap, we propose a novel approach that concurrently learns a safe RL control policy and identifies the unknown safety constraint parameters of a given environment. Initializing with a parametric signal temporal logic (pSTL) safety specification and a small initial labeled dataset, we frame the problem as a bilevel optimization task, intricately integrating constrained policy optimization, using a Lagrangian-variant of the twin delayed deep deterministic policy gradient (TD3) algorithm, with Bayesian optimization for optimizing parameters for the given pSTL safety specification. Through experimentation in comprehensive case studies, we validate the efficacy of this approach across varying forms of environmental constraints, consistently yielding safe RL policies with high returns. Furthermore, our findings indicate successful learning of STL safety constraint parameters, exhibiting a high degree of conformity with true environmental safety constraints. The performance of our model closely mirrors that of an ideal scenario that possesses complete prior knowledge of safety constraints, demonstrating its proficiency in accurately identifying environmental safety constraints and learning safe policies that adhere to those constraints."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.11927.pdf",
+    "title": "Constrained Variational Policy Optimization for Safe Reinforcement Learning",
+    "published_date": "2022-01-28",
+    "abstract": "Safe reinforcement learning (RL) aims to learn policies that satisfy certain constraints before deploying them to safety-critical applications. Previous primal-dual style approaches suffer from instability issues and lack optimality guarantees. This paper overcomes the issues from the perspective of probabilistic inference. We introduce a novel Expectation-Maximization approach to naturally incorporate constraints during the policy learning: 1) a provable optimal non-parametric variational distribution could be computed in closed form after a convex optimization (E-step); 2) the policy parameter is improved within the trust region based on the optimal variational distribution (M-step). The proposed algorithm decomposes the safe RL problem into a convex optimization phase and a supervised learning phase, which yields a more stable training performance. A wide range of experiments on continuous robotic tasks shows that the proposed method achieves significantly better constraint satisfaction performance and better sample efficiency than baselines. The code is available at https://github.com/liuzuxin/cvpo-safe-rl.",
+    "citation_count": 65
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.07430v1.pdf",
+    "title": "Safe Online Convex Optimization with Unknown Linear Safety Constraints",
+    "published_date": "2021-11-14",
+    "abstract": "We study the problem of safe online convex optimization, where the action at each time step must satisfy a set of linear safety constraints. The goal is to select a sequence of actions to minimize the regret without violating the safety constraints at any time step (with high probability). The parameters that specify the linear safety constraints are unknown to the algorithm. The algorithm has access to only the noisy observations of constraints for the chosen actions. We propose an algorithm, called the Safe Online Projected Gradient Descent (SO-PGD) algorithm, to address this problem. We show that, under the assumption of availability of a safe baseline action, the SO-PGD algorithm achieves a regret O(T^{2/3}). While there are many algorithms for online convex optimization (OCO) problems with safety constraints available in the literature, they allow constraint violations during learning/optimization, and the focus has been on characterizing the cumulative constraint violations. To the best of our knowledge, ours is the first work that provides an algorithm with provable guarantees on the regret, without violating the linear safety constraints (with high probability) at any time step.",
+    "citation_count": 14
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.05135v1.pdf",
+    "title": "Regret and Cumulative Constraint Violation Analysis for Online Convex Optimization with Long Term Constraints",
+    "published_date": "2021-06-09",
+    "abstract": "This paper considers online convex optimization with long term constraints, where constraints can be violated in intermediate rounds, but need to be satisfied in the long run. The cumulative constraint violation is used as the metric to measure constraint violations, which excludes the situation that strictly feasible constraints can compensate the effects of violated constraints. A novel algorithm is first proposed and it achieves an $\\mathcal{O}(T^{\\max\\{c,1-c\\}})$ bound for static regret and an $\\mathcal{O}(T^{(1-c)/2})$ bound for cumulative constraint violation, where $c\\in(0,1)$ is a user-defined trade-off parameter, and thus has improved performance compared with existing results. Both static regret and cumulative constraint violation bounds are reduced to $\\mathcal{O}(\\log(T))$ when the loss functions are strongly convex, which also improves existing results. %In order to bound the regret with respect to any comparator sequence, In order to achieve the optimal regret with respect to any comparator sequence, another algorithm is then proposed and it achieves the optimal $\\mathcal{O}(\\sqrt{T(1+P_T)})$ regret and an $\\mathcal{O}(\\sqrt{T})$ cumulative constraint violation, where $P_T$ is the path-length of the comparator sequence. Finally, numerical simulations are provided to illustrate the effectiveness of the theoretical results.",
+    "citation_count": 37
+  },
+  {
+    "title": "Enforcing Policy Feasibility Constraints through Differentiable Projection for Energy Optimization",
+    "abstract": "While reinforcement learning (RL) is gaining popularity in energy systems control, its real-world applications are limited due to the fact that the actions from learned policies may not satisfy functional requirements or be feasible for the underlying physical system. In this work, we propose PROjected Feasibility (PROF), a method to enforce convex operational constraints within neural policies. Specifically, we incorporate a differentiable projection layer within a neural network-based policy to enforce that all learned actions are feasible. We then update the policy end-to-end by propagating gradients through this differentiable projection layer, making the policy cognizant of the operational constraints. We demonstrate our method on two applications: energy-efficient building operation and inverter control. In the building operation setting, we show that PROF maintains thermal comfort requirements while improving energy efficiency by 4% over state-of-the-art methods. In the inverter control setting, PROF perfectly satisfies voltage constraints on the IEEE 37-bus feeder system, as it learns to curtail as little renewable energy as possible within its safety set.",
+    "published_date": "2021-05-19",
+    "citation_count": 49,
+    "url": "https://dl.acm.org/doi/10.1145/3447555.3464874"
+  },
+  {
+    "title": "Verifiable autonomy under perceptual limitations",
+    "abstract": "A recent set of algorithms in the intersection of formal methods, convex optimization and machine learning offers orders-of-magnitude improvement in the scalability of verification and synthesis in partially observable Markov decision processes possibly with uncertain transition probabilities.",
+    "published_date": "2021-05-18",
+    "url": "https://dl.acm.org/doi/10.1145/3459086.3459635"
+  }
+]

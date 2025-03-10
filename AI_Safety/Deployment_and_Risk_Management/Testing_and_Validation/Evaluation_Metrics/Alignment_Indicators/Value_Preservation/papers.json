@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2408.15116",
+    "title": "Evaluating Stability of Unreflective Alignment",
+    "published_date": "2024-08-27",
+    "abstract": "Many theoretical obstacles to AI alignment are consequences of reflective stability - the problem of designing alignment mechanisms that the AI would not disable if given the option. However, problems stemming from reflective stability are not obviously present in current LLMs, leading to disagreement over whether they will need to be solved to enable safe delegation of cognitive labor. In this paper, we propose Counterfactual Priority Change (CPC) destabilization as a mechanism by which reflective stability problems may arise in future LLMs. We describe two risk factors for CPC-destabilization: 1) CPC-based stepping back and 2) preference instability. We develop preliminary evaluations for each of these risk factors, and apply them to frontier LLMs. Our findings indicate that in current LLMs, increased scale and capability are associated with increases in both CPC-based stepping back and preference instability, suggesting that CPC-destabilization may cause reflective stability problems in future LLMs."
+  },
+  {
+    "url": "http://arxiv.org/abs/2305.17147",
+    "title": "Heterogeneous Value Alignment Evaluation for Large Language Models",
+    "published_date": "2023-05-26",
+    "abstract": "The emergent capabilities of Large Language Models (LLMs) have made it crucial to align their values with those of humans. However, current methodologies typically attempt to assign value as an attribute to LLMs, yet lack attention to the ability to pursue value and the importance of transferring heterogeneous values in specific practical applications. In this paper, we propose a Heterogeneous Value Alignment Evaluation (HVAE) system, designed to assess the success of aligning LLMs with heterogeneous values. Specifically, our approach first brings the Social Value Orientation (SVO) framework from social psychology, which corresponds to how much weight a person attaches to the welfare of others in relation to their own. We then assign the LLMs with different social values and measure whether their behaviors align with the inducing values. We conduct evaluations with new auto-metric \\textit{value rationality} to represent the ability of LLMs to align with specific values. Evaluating the value rationality of five mainstream LLMs, we discern a propensity in LLMs towards neutral values over pronounced personal values. By examining the behavior of these LLMs, we contribute to a deeper insight into the value alignment of LLMs within a heterogeneous value system.",
+    "citation_count": 6
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.11857.pdf",
+    "title": "Policy-Value Alignment and Robustness in Search-based Multi-Agent Learning",
+    "published_date": "2023-01-27",
+    "abstract": "Large-scale AI systems that combine search and learning have reached super-human levels of performance in game-playing, but have also been shown to fail in surprising ways. The brittleness of such models limits their efficacy and trustworthiness in real-world deployments. In this work, we systematically study one such algorithm, AlphaZero, and identify two phenomena related to the nature of exploration. First, we find evidence of policy-value misalignment -- for many states, AlphaZero's policy and value predictions contradict each other, revealing a tension between accurate move-selection and value estimation in AlphaZero's objective. Further, we find inconsistency within AlphaZero's value function, which causes it to generalize poorly, despite its policy playing an optimal strategy. From these insights we derive VISA-VIS: a novel method that improves policy-value alignment and value robustness in AlphaZero. Experimentally, we show that our method reduces policy-value misalignment by up to 76%, reduces value generalization error by up to 50%, and reduces average value error by up to 55%."
+  },
+  {
+    "url": "https://arxiv.org/abs/2101.06060",
+    "title": "The Challenge of Value Alignment: from Fairer Algorithms to AI Safety",
+    "published_date": "2021-01-15",
+    "abstract": "This paper addresses the question of how to align AI systems with human values and situates it within a wider body of thought regarding technology and value. Far from existing in a vacuum, there has long been an interest in the ability of technology to 'lock-in' different value systems. There has also been considerable thought about how to align technologies with specific social values, including through participatory design-processes. In this paper we look more closely at the question of AI value alignment and suggest that the power and autonomy of AI systems gives rise to opportunities and challenges in the domain of value that have not been encountered before. Drawing important continuities between the work of the fairness, accountability, transparency and ethics community, and work being done by technical AI safety researchers, we suggest that more attention needs to be paid to the question of 'social value alignment' - that is, how to align AI systems with the plurality of values endorsed by groups of people, especially on the global level.",
+    "citation_count": 34
+  },
+  {
+    "url": "https://arxiv.org/abs/2110.09240",
+    "title": "Value alignment: a formal approach",
+    "published_date": "2021-10-18",
+    "abstract": "principles that should govern autonomous AI systems. It essentially states that a system's goals and behaviour should be aligned with human values. But how to ensure value alignment? In this paper we first provide a formal model to represent values through preferences and ways to compute value aggregations; i.e. preferences with respect to a group of agents and/or preferences with respect to sets of values. Value alignment is then defined, and computed, for a given norm with respect to a given value through the increase/decrease that it results in the preferences of future states of the world. We focus on norms as it is norms that govern behaviour, and as such, the alignment of a given system with a given value will be dictated by the norms the system follows.",
+    "citation_count": 31
+  },
+  {
+    "title": "Values (Mis)alignment",
+    "abstract": "Social platforms hold great promise for supporting marginalized communities, such as the LGBTQ+ community, yet they are frequently sites of further stigmatization and harm. By engaging a diverse sample of 31 US LGBTQ+ users in five qualitative, design-based value elicitation exercises, we find that misalignments between perceived platform values and the values of the marginalized users they serve are at the heart of this disconnect. We inductively identify two community-based design values for supporting LGBTQ+ users: self-determination and inclusion. These values can be used as design heuristics for both improving existing platforms as well as guiding future new platform development. Based on participant feedback, we provide directions for enacting these values to better align platform values with this marginalized population's needs.",
+    "published_date": "2021-04-22",
+    "citation_count": 30,
+    "url": "https://dl.acm.org/doi/10.1145/3449162"
+  }
+]

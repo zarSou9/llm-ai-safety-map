@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2402.09538",
+    "title": "Learning From Lessons Learned: Preliminary Findings From a Study of Learning From Failure",
+    "published_date": "2024-02-14",
+    "abstract": "Due to various sources of uncertainty, emergent behavior, and ongoing changes, the reliability of many socio-technical systems depends on an iterative and collaborative process in which organizations (1) analyze and learn from system failures, and then (2) co-evolve both the technical and human parts of their systems based on what they learn. Many organizations have defined processes for learning from failure, often involving postmortem analyses conducted after any system failures that are judged to be sufficiently severe. Despite established processes and tool support, our preliminary research, and professional experience, suggest that it is not straightforward to take what was learned from a failure and successfully improve the reliability of the socio-technical system. To better understand this collaborative process and the associated challenges, we are conducting a study of how teams learn from failure. We are gathering incident reports from multiple organizations and conducting interviews with engineers and managers with relevant experience Our analytic interest is in what is learned by teams as they reflect on failures, the learning processes involved, and how they use what is learned. Our data collection and analysis are not yet complete, but we have so far analyzed 13 incident reports and seven interviews In this short paper we (1) present our preliminary findings, and (2) outline our broader research plans.",
+    "citation_count": 1,
+    "summary": "This paper presents preliminary findings from a study investigating how teams learn from system failures in socio-technical systems, highlighting challenges in translating lessons learned into improved reliability despite established processes. The authors analyze incident reports and interviews to understand learning processes and the application of learned knowledge."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.06046",
+    "title": "Anatomy of a Robotaxi Crash: Lessons from the Cruise Pedestrian Dragging Mishap",
+    "published_date": "2024-02-08",
+    "abstract": "An October 2023 crash between a GM Cruise robotaxi and a pedestrian in San Francisco resulted not only in a severe injury, but also dramatic upheaval at that company that will likely have lasting effects throughout the industry. Is-sues stem not just from the loss events themselves, but also from how Cruise mishandled dealing with their robotaxi dragging a pedestrian under the vehicle after the initial post-crash stop. External investigation reports provide raw material describing the incident and critique the company's response from a regulatory point of view, but exclude safety engineering recommendations from scope. We highlight specific facts and relationships among events by tying together different pieces of the external report material. We then explore safety lessons that might be learned related to: recognizing and responding to nearby mishaps, building an accurate world model of a post-collision scenario, the in-adequacy of a so-called\"minimal risk condition\"strategy in complex situations, poor organizational discipline in responding to a mishap, overly aggressive post-collision automation choices that made a bad situation worse, and a reluctance to admit to a mishap causing much worse organizational harm down-stream.",
+    "citation_count": 4,
+    "summary": "A GM Cruise robotaxi dragged a pedestrian after a collision in San Francisco, causing severe injury and prompting an analysis revealing failures in the vehicle's post-crash response, organizational handling of the incident, and underlying safety design. The incident highlights the need for improved post-collision behavior, accurate world modeling, and better organizational response protocols in autonomous vehicle systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/vAopGQhFPdjcA8CEh/anthropic-reflections-on-our-responsible-scaling-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Anthropic: Reflections on our  Responsible Scaling Policy",
+    "published_date": "2024-05-20",
+    "summary": "The article details the implementation of a Responsible Scaling Policy aimed at mitigating catastrophic risks from advanced AI models, focusing on identifying and managing \"Red Line Capabilities\" through iterative risk evaluations and the development of progressively stricter safety standards (ASL-2, ASL-3, etc.). The policy emphasizes transparency and collaboration with external experts to ensure safety and security."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/yi4pqB6G73dcTnatq/aspiration-based-designs-3-performance-and-safety-criteria",
+    "author": "Jobst Heitzig",
+    "title": "[Aspiration-based designs] 3. Performance and safety criteria, and aspiration intervals",
+    "published_date": "2024-04-28",
+    "summary": "This article extends a previously introduced decision-making algorithm by incorporating criteria for selecting actions and generalizing the goal from achieving a specific expected value to falling within a target range. The added flexibility allows for prioritizing safety and performance metrics when multiple policies achieve the desired goal."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/gZBgmDFqqyw3Lghok/ai-regulatory-landscape-review-incident-reporting",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Incident Reporting: A Regulatory Review",
+    "published_date": "2024-03-11",
+    "summary": "This article, the first in a series, examines the emerging landscape of AI incident reporting regulations across the US, EU, and China. It explores the rationale, various approaches, and existing examples of incident reporting systems, highlighting their potential to improve AI safety and compliance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.07437",
+    "title": "Leveraging Traceability to Integrate Safety Analysis Artifacts into the Software Development Process",
+    "published_date": "2023-07-14",
+    "abstract": "Safety-critical system's failure or malfunction can cause loss of human lives or damage to the physical environment; therefore, continuous safety assessment is crucial for such systems. In many domains this includes the use of Safety assurance cases (SACs) as a structured argument that the system is safe for use. SACs can be challenging to maintain during system evolution due to the disconnect between the safety analysis and system development process. Further, safety analysts often lack domain knowledge and tool support to evaluate the SAC. We propose a solution that leverages software traceability to connect relevant system artifacts to safety analysis models, and then uses these connections to visualize the change. We elicit design rationales for system changes to help safety stakeholders analyze the impact of system changes on safety. We present new traceability techniques for closer integration of the safety analysis and system development process, and illustrate the viability of our approach using examples from a cyber-physical system that deploys Unmanned Aerial Vehicles for emergency response.",
+    "citation_count": 1,
+    "summary": "This paper proposes using software traceability to better integrate safety analysis artifacts, specifically Safety Assurance Cases (SACs), into the software development lifecycle of safety-critical systems, improving maintainability and analyst understanding through visualization of changes and design rationales. The approach is illustrated using a cyber-physical system example involving unmanned aerial vehicles."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.03797.pdf",
+    "title": "Recommending Root-Cause and Mitigation Steps for Cloud Incidents using Large Language Models",
+    "published_date": "2023-01-10",
+    "abstract": "Incident management for cloud services is a complex process involving several steps and has a huge impact on both service health and developer productivity. On-call engineers require significant amount of domain knowledge and manual effort for root causing and mitigation of production incidents. Recent advances in artificial intelligence has resulted in state-of-the-art large language models like GPT-3.x (both GPT-3.0 and GPT-3.5), which have been used to solve a variety of problems ranging from question answering to text summarization. In this work, we do the first large-scale study to evaluate the effectiveness of these models for helping engineers root cause and mitigate production incidents. We do a rigorous study at Microsoft, on more than 40,000 incidents and compare several large language models in zero-shot, fine-tuned and multi-task setting using semantic and lexical metrics. Lastly, our human evaluation with actual incident owners show the efficacy and future potential of using artificial intelligence for resolving cloud incidents.",
+    "citation_count": 41,
+    "summary": "This paper presents a large-scale study evaluating the effectiveness of large language models (LLMs) like GPT-3 in assisting with root cause analysis and mitigation of cloud incidents at Microsoft, demonstrating their potential to improve incident management. The study uses over 40,000 incidents and compares various LLM settings, with human evaluation confirming efficacy."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that focusing solely on technical aspects is insufficient and potentially dangerous. It proposes a \"top-down\" design of \"civilisational intelligence,\" integrating diverse fields like cognitive science, social sciences, and engineering to ensure safe and beneficial AGI development."
+  }
+]

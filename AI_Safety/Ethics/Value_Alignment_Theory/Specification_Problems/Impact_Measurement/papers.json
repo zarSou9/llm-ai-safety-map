@@ -1,0 +1,63 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.13138",
+    "title": "Visibility into AI Agents",
+    "published_date": "2024-01-23",
+    "abstract": "Increased delegation of commercial, scientific, governmental, and personal activities to AI agents—systems capable of pursuing complex goals with limited supervision—may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.",
+    "citation_count": 12,
+    "summary": "This paper examines methods to increase transparency (\"visibility\") in AI agent usage, focusing on agent identifiers, real-time monitoring, and activity logging, analyzing their implementation across deployment contexts and considering privacy and power implications."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), focusing on short timelines (e.g., TAI emerging within a decade). The program will evaluate strategies for AI safety and governance across these scenarios to identify those best mitigating existential risk."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.13686.pdf",
+    "title": "Broadening the perspective for sustainable AI: Comprehensive sustainability criteria and indicators for AI systems",
+    "published_date": "2023-06-22",
+    "abstract": "The increased use of AI systems is associated with multi-faceted societal, environmental, and economic consequences. These include non-transparent decision-making processes, discrimination, increasing inequalities, rising energy consumption and greenhouse gas emissions in AI model development and application, and an increasing concentration of economic power. By considering the multi-dimensionality of sustainability, this paper takes steps towards substantiating the call for an overarching perspective on\"sustainable AI\". It presents the SCAIS Framework (Sustainability Criteria and Indicators for Artificial Intelligence Systems) which contains a set 19 sustainability criteria for sustainable AI and 67 indicators that is based on the results of a critical review and expert workshops. This interdisciplinary approach contributes a unique holistic perspective to facilitate and structure the discourse on sustainable AI. Further, it provides a concrete framework that lays the foundation for developing standards and tools to support the conscious development and application of AI systems.",
+    "citation_count": 1,
+    "summary": "This paper introduces the SCAIS framework, comprising 19 sustainability criteria and 67 indicators, to holistically assess the environmental, social, and economic impacts of AI systems, promoting the development of more sustainable AI practices. The framework aims to facilitate the creation of standards and tools for responsible AI development and deployment."
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.11196v2",
+    "title": "Bridging the Global Divide in AI Regulation: A Proposal for a Contextual, Coherent, and Commensurable Framework",
+    "published_date": "2023-03-20",
+    "abstract": "As debates on potential societal harm from artificial intelligence (AI) culminate in legislation and international norms, a global divide is emerging in both AI regulatory frameworks and international governance structures. In terms of local regulatory frameworks, the European Union (E.U.), Canada, and Brazil follow a horizontal or lateral approach that postulates the homogeneity of AI, seeks to identify common causes of harm, and demands uniform human interventions. In contrast, the United States (U.S.), the United Kingdom (U.K.), Israel, and Switzerland (and potentially China) have pursued a context-specific or modular approach, tailoring regulations to the specific use cases of AI systems. This paper argues for a context-specific approach to effectively address evolving risks in diverse mission-critical domains, while avoiding social costs associated with one-size-fits-all approaches. However, to enhance the systematicity and interoperability of international norms and accelerate global harmonization, this paper proposes an alternative contextual, coherent, and commensurable (3C) framework. To ensure contextuality, the framework (i) bifurcates the AI life cycle into two phases: learning and deployment for specific tasks, instead of defining foundation or general-purpose models; and (ii) categorizes these tasks based on their application and interaction with humans as follows: autonomous, discriminative (allocative, punitive, and cognitive), and generative AI. To ensure coherency, each category is assigned specific regulatory objectives replacing 2010s vintage AI ethics. To ensure commensurability, the framework promotes the adoption of international standards for measuring and mitigating risks.",
+    "citation_count": 2,
+    "summary": "The paper argues against a uniform global approach to AI regulation, advocating instead for a context-specific framework that tailors regulations to AI's diverse applications. This proposed \"3C\" framework ensures contextual relevance, coherent regulatory objectives, and commensurable risk assessment measures for international harmonization."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.11996",
+    "title": "Toward Responsible AI Use: Considerations for Sustainability Impact Assessment",
+    "published_date": "2023-12-19",
+    "abstract": "As AI/ML models, including Large Language Models, continue to scale with massive datasets, so does their consumption of undeniably limited natural resources, and impact on society. In this collaboration between AI, Sustainability, HCI and legal researchers, we aim to enable a transition to sustainable AI development by enabling stakeholders across the AI value chain to assess and quantitfy the environmental and societal impact of AI. We present the ESG Digital and Green Index (DGI), which offers a dashboard for assessing a company's performance in achieving sustainability targets. This includes monitoring the efficiency and sustainable use of limited natural resources related to AI technologies (water, electricity, etc). It also addresses the societal and governance challenges related to AI. The DGI creates incentives for companies to align their pathway with the Sustainable Development Goals (SDGs). The value, challenges and limitations of our methodology and findings are discussed in the paper.",
+    "summary": "This paper proposes the ESG Digital and Green Index (DGI), a dashboard designed to assess and quantify the environmental and societal impacts of AI technologies, promoting sustainable AI development by incentivizing companies to align with Sustainable Development Goals. The DGI monitors resource consumption and addresses societal and governance challenges related to AI."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.14597v2",
+    "title": "AI Safety Subproblems for Software Engineering Researchers",
+    "published_date": "2023-04-28",
+    "abstract": "In this 4-page manuscript we discuss the problem of long-term AI Safety from a Software Engineering (SE) research viewpoint. We briefly summarize long-term AI Safety, and the challenge of avoiding harms from AI as systems meet or exceed human capabilities, including software engineering capabilities (and approach AGI /\"HLMI\"). We perform a quantified literature review suggesting that AI Safety discussions are not common at SE venues. We make conjectures about how software might change with rising capabilities, and categorize\"subproblems\"which fit into traditional SE areas, proposing how work on similar problems might improve the future of AI and SE.",
+    "citation_count": 4,
+    "summary": "This paper argues that software engineering research can significantly contribute to AI safety, highlighting a lack of current engagement and proposing several AI safety subproblems readily addressable by existing software engineering methods. It advocates for applying established software engineering techniques to mitigate potential harms from increasingly capable AI systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that focusing solely on technical solutions within a narrow field is insufficient and potentially dangerous. It proposes a holistic, \"top-down design\" of civilizational intelligence, incorporating diverse disciplines and theories to evaluate AI alignment paradigms and build safer AGI systems."
+  },
+  {
+    "title": "Assessing Human-AI Interaction Early through Factorial Surveys: A Study on the Guidelines for Human-AI Interaction",
+    "abstract": "This work contributes a research protocol for evaluating human-AI interaction in the context of specific AI products. The research protocol enables UX and HCI researchers to assess different human-AI interaction solutions and validate design decisions before investing in engineering. We present a detailed account of the research protocol and demonstrate its use by employing it to study an existing set of human-AI interaction guidelines. We used factorial surveys with a 2 × 2 mixed design to compare user perceptions when a guideline is applied versus violated, under conditions of optimal versus sub-optimal AI performance. The results provided both qualitative and quantitative insights into the UX impact of each guideline. These insights can support creators of user-facing AI systems in their nuanced prioritization and application of the guidelines.",
+    "published_date": "2022-04-14",
+    "citation_count": 24,
+    "url": "https://dl.acm.org/doi/10.1145/3511605",
+    "summary": "This study introduces a research protocol using factorial surveys to efficiently evaluate human-AI interaction designs early in the development process, enabling designers to assess the user experience impact of design choices before significant engineering investment. The protocol's effectiveness is demonstrated through an analysis of existing human-AI interaction guidelines."
+  }
+]

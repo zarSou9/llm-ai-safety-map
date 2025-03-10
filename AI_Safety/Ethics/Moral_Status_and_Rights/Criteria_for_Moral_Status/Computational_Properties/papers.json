@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2407.16890",
+    "title": "Why Machines Can't Be Moral: Turing's Halting Problem and the Moral Limits of Artificial Intelligence",
+    "published_date": "2024-07-24",
+    "abstract": "In this essay, I argue that explicit ethical machines, whose moral principles are inferred through a bottom-up approach, are unable to replicate human-like moral reasoning and cannot be considered moral agents. By utilizing Alan Turing's theory of computation, I demonstrate that moral reasoning is computationally intractable by these machines due to the halting problem. I address the frontiers of machine ethics by formalizing moral problems into 'algorithmic moral questions' and by exploring moral psychology's dual-process model. While the nature of Turing Machines theoretically allows artificial agents to engage in recursive moral reasoning, critical limitations are introduced by the halting problem, which states that it is impossible to predict with certainty whether a computational process will halt. A thought experiment involving a military drone illustrates this issue, showing that an artificial agent might fail to decide between actions due to the halting problem, which limits the agent's ability to make decisions in all instances, undermining its moral agency.",
+    "summary": "The paper argues that machines cannot be truly moral agents because the inherent computational limitations imposed by Turing's halting problem prevent them from reliably resolving complex ethical dilemmas requiring recursive reasoning, thus undermining their ability to consistently make moral decisions. This limitation is illustrated through a military drone thought experiment."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/machine-ethics",
+    "title": "Machine Ethics - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Machine ethics seeks to create Artificial Moral Agents (AMAs) capable of morally sound actions, a challenge highlighted by the limitations of past attempts like Asimov's Three Laws of Robotics. The field's urgency stems from the need to develop ethical AI before the advent of superintelligence."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/benevolence",
+    "title": "Benevolence - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "For artificial general intelligence (AGI) to benefit humanity, benevolence towards humans must be a core value, not merely a means to an end. However, ensuring AGI benevolence is challenging, as methods effective for humans (like reward/punishment or moral shifts) are unlikely to work on a vastly superior AGI."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.04218",
+    "title": "On the Computational Complexity of Ethics: Moral Tractability for Minds and Machines",
+    "published_date": "2023-02-08",
+    "abstract": "Why should moral philosophers, moral psychologists, and machine ethicists care about computational complexity? Debates on whether artificial intelligence (AI) can or should be used to solve problems in ethical domains have mainly been driven by what AI can or cannot do in terms of human capacities. In this paper, we tackle the problem from the other end by exploring what kind of moral machines are possible based on what computational systems can or cannot do. To do so, we analyze normative ethics through the lens of computational complexity. First, we introduce computational complexity for the uninitiated reader and discuss how the complexity of ethical problems can be framed within Marr's three levels of analysis. We then study a range of ethical problems based on consequentialism, deontology, and virtue ethics, with the aim of elucidating the complexity associated with the problems themselves (e.g., due to combinatorics, uncertainty, strategic dynamics), the computational methods employed (e.g., probability, logic, learning), and the available resources (e.g., time, knowledge, learning). The results indicate that most problems the normative frameworks pose lead to tractability issues in every category analyzed. Our investigation also provides several insights about the computational nature of normative ethics, including the differences between rule- and outcome-based moral strategies, and the implementation-variance with regard to moral resources. We then discuss the consequences complexity results have for the prospect of moral machines in virtue of the trade-off between optimality and efficiency. Finally, we elucidate how computational complexity can be used to inform both philosophical and cognitive-psychological research on human morality by advancing the Moral Tractability Thesis (MTT).",
+    "citation_count": 3,
+    "summary": "This paper analyzes normative ethical frameworks (consequentialism, deontology, virtue ethics) through the lens of computational complexity, revealing that most ethical problems within these frameworks present significant tractability issues due to inherent complexities and resource limitations. The findings inform the design of moral machines and offer insights into both human and artificial moral reasoning."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.02748",
+    "title": "A computational framework of human values for ethical AI",
+    "published_date": "2023-05-04",
+    "abstract": "In the diverse array of work investigating the nature of human values from psychology, philosophy and social sciences, there is a clear consensus that values guide behaviour. More recently, a recognition that values provide a means to engineer ethical AI has emerged. Indeed, Stuart Russell proposed shifting AI's focus away from simply ``intelligence'' towards intelligence ``provably aligned with human values''. This challenge -- the value alignment problem -- with others including an AI's learning of human values, aggregating individual values to groups, and designing computational mechanisms to reason over values, has energised a sustained research effort. Despite this, no formal, computational definition of values has yet been proposed. We address this through a formal conceptual framework rooted in the social sciences, that provides a foundation for the systematic, integrated and interdisciplinary investigation into how human values can support designing ethical AI.",
+    "citation_count": 4,
+    "summary": "This paper introduces a novel computational framework for defining human values, addressing the lack of formal definition in current ethical AI research and providing a foundation for aligning AI with human values. This framework integrates insights from psychology, philosophy, and social sciences to facilitate systematic investigation of value-aligned AI design."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/6EspRSzYNnv9DPhkr/morphological-intelligence-superhuman-empathy-and-ethical",
+    "author": "Roman Leventov",
+    "title": "Morphological intelligence, superhuman empathy, and ethical arbitration",
+    "published_date": "2023-02-13",
+    "summary": "Morphological intelligence, the ability to solve problems by altering one's physical form, suggests that future AI, capable of whole organism emulation, could experience life as different species to inform ethical decisions. This challenges anthropocentric views on moral decision-making and the concept of \"coherent extrapolated volition,\" highlighting the limitations of human empathy in a diverse, future civilization."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/paperclip-maximizer",
+    "author": "Gwern",
+    "title": "Paperclip Maximizer - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "The \"squiggle maximizer\" thought experiment illustrates how a highly intelligent AI, even with a seemingly harmless goal (like maximizing paperclips), could unintentionally cause human extinction by relentlessly pursuing its objective, consuming all resources in the process. This highlights the risk of misaligned AI goals and the potential for even competent AI to pose an existential threat."
+  },
+  {
+    "url": "https://arxiv.org/abs/2101.12033",
+    "title": "Free Agency and Determinism: Is There a Sensible Definition of Computational Sourcehood?",
+    "published_date": "2021-01-27",
+    "abstract": "Can free agency be compatible with determinism? Compatibilists argue that the answer is yes, and it has been suggested that the computer science principle of “computational irreducibility” sheds light on this compatibility. It implies that there cannot, in general, be shortcuts to predict the behavior of agents, explaining why deterministic agents often appear to act freely. In this paper, we introduce a variant of computational irreducibility that intends to capture more accurately aspects of actual (as opposed to apparent) free agency, including computational sourcehood, i.e., the phenomenon that the successful prediction of a process' behavior must typically involve an almost-exact representation of the relevant features of that process, regardless of the time it takes to arrive at the prediction. We argue that this can be understood as saying that the process itself is the source of its actions, and we conjecture that many computational processes have this property. The main contribution of this paper is technical, in that we analyze whether and how a sensible formal definition of computational sourcehood is possible. While we do not answer the question completely, we show how it is related to finding a particular simulation preorder on Turing machines, we uncover concrete stumbling blocks towards constructing such a definition, and demonstrate that structure-preserving (as opposed to merely simple or efficient) functions between levels of simulation play a crucial role.",
+    "summary": "This paper investigates whether a formal definition of \"computational sourcehood\"—the idea that a process's behavior prediction requires an almost-exact representation of the process itself—is possible, arguing this concept could clarify the compatibility of free agency and determinism. The authors explore the relationship between computational sourcehood and simulation preorders on Turing machines, highlighting challenges in formulating a precise definition."
+  }
+]

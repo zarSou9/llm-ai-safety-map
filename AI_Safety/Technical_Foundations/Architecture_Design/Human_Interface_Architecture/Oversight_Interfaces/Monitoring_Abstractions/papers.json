@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2408.14074",
+    "title": "Abstraction Engineering",
+    "published_date": "2024-08-26",
+    "abstract": "Modern software-based systems operate under rapidly changing conditions and face ever-increasing uncertainty. In response, systems are increasingly adaptive and reliant on artificial-intelligence methods. In addition to the ubiquity of software with respect to users and application areas (e.g., transportation, smart grids, medicine, etc.), these high-impact software systems necessarily draw from many disciplines for foundational principles, domain expertise, and workflows. Recent progress with lowering the barrier to entry for coding has led to a broader community of developers, who are not necessarily software engineers. As such, the field of software engineering needs to adapt accordingly and offer new methods to systematically develop high-quality software systems by a broad range of experts and non-experts. This paper looks at these new challenges and proposes to address them through the lens of Abstraction. Abstraction is already used across many disciplines involved in software development -- from the time-honored classical deductive reasoning and formal modeling to the inductive reasoning employed by modern data science. The software engineering of the future requires Abstraction Engineering -- a systematic approach to abstraction across the inductive and deductive spaces. We discuss the foundations of Abstraction Engineering, identify key challenges, highlight the research questions that help address these challenges, and create a roadmap for future research."
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.04204v1",
+    "title": "Monitoring Blackbox Implementations of Multiparty Session Protocols",
+    "published_date": "2023-06-07",
+    "abstract": "We present a framework for the distributed monitoring of networks of components that coordinate by message-passing, following multiparty session protocols specified as global types. We improve over prior works by (i) supporting components whose exact specification is unknown (\"blackboxes\") and (ii) covering protocols that cannot be analyzed by existing techniques. We first give a procedure for synthesizing monitors for blackboxes from global types, and precisely define when a blackbox correctly satisfies its global type. Then, we prove that monitored blackboxes are sound (they correctly follow the protocol) and transparent (blackboxes with and without monitors are behaviorally equivalent).",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.11870.pdf",
+    "title": "Automated Probe Life-Cycle Management for Monitoring-As-a-Service",
+    "published_date": "2023-03-01",
+    "abstract": "Cloud services must be continuously monitored to guarantee that misbehaviors can be timely revealed, compensated, and fixed. While simple applications can be easily monitored and controlled, monitoring non-trivial cloud systems with dynamic behavior requires the operators to be able to rapidly adapt the set of collected indicators. Although the currently available monitoring frameworks are equipped with a rich set of probes to virtually collect any indicator, they do not provide the automation capabilities required to quickly and easily change (i.e., deploy and undeploy) the probes used to monitor a target system. Indeed, changing the collected indicators beyond standard platform-level indicators can be an error-prone and expensive process, which often requires manual intervention. This article presents a Monitoring-as-a-Service framework that provides the capability to automatically deploy and undeploy arbitrary probes based on a user-provided set of indicators to be collected. The life-cycle of the probes is fully governed by the framework, including the detection and resolution of the erroneous states at deployment time. The framework can be used jointly with existing monitoring technologies, without requiring the adoption of a specific probing technology. We experimented our framework with cloud systems based on containers and virtual machines, obtaining evidence of the efficiency and effectiveness of the proposed solution.",
+    "citation_count": 6
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.12744v1",
+    "title": "Towards Advanced Monitoring for Scientific Workflows",
+    "published_date": "2022-11-23",
+    "abstract": "Scientific workflows consist of thousands of highly parallelized tasks executed in a distributed environment involving many components. Automatic tracing and investigation of the components' and tasks' performance metrics, traces, and behavior are necessary to support the end user with a level of abstraction since the large amount of data cannot be analyzed manually. The execution and monitoring of scientific workflows involves many components, the cluster infrastructure, its resource manager, the workflow, and the workflow tasks. All components in such an execution environment access different monitoring metrics and provide metrics on different abstraction levels. The combination and analysis of observed metrics from different components and their interdependencies are still widely unregarded.We specify four different monitoring layers that can serve as an architectural blueprint for the monitoring responsibilities and the interactions of components in the scientific workflow execution context. We describe the different monitoring metrics subject to the four layers and how the layers interact. Finally, we examine five state-of-the-art scientific workflow management systems (SWMS) in order to assess which steps are needed to enable our four-layer-based approach.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://arxiv.org/pdf/2205.02562.pdf",
+    "title": "Monitoring AI systems: A Problem Analysis, Framework and Outlook",
+    "published_date": "2022-05-05",
+    "abstract": ". Knowledge-based systems have been used to monitor machines and pro- cesses in the real world. In this paper we propose the use of knowledge-based systems to monitor other AI systems in operation. We motivate and provide a problem analysis of this novel setting and subsequently propose a framework that allows for structuring future research related to this setting. Several directions for further research are also discussed. We aim to study how to monitor AI systems in such a way that the expectations for the performance are formulated into an interpretable, knowledge-based system for monitoring.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.01176.pdf",
+    "title": "Layering the monitoring action for improved flexibility and overhead control: work-in-progress",
+    "published_date": "2020-09-20",
+    "abstract": "With the diffusion of complex heterogeneous platforms and their need of characterization, monitoring the system gained increasing interest. This work proposes a framework to build custom and modular monitoring systems, flexible enough to face the heterogeneity of modern platforms, offering a predictable HW/SW impact.",
+    "citation_count": 2
+  }
+]

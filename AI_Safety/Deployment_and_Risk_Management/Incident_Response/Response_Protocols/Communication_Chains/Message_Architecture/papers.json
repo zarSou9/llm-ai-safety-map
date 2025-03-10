@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2301.01808.pdf",
+    "title": "MessageNet: Message Classification using Natural Language Processing and Meta-data",
+    "published_date": "2023-01-04",
+    "abstract": "In this paper we propose a new Deep Learning (DL) approach for message classification. Our method is based on the state-of-the-art Natural Language Processing (NLP) building blocks, combined with a novel technique for infusing the meta-data input that is typically available in messages such as the sender information, timestamps, attached image, audio, affiliations, and more. As we demonstrate throughout the paper, going beyond the mere text by leveraging all available channels in the message, could yield an improved representation and higher classification accuracy. To achieve message representation, each type of input is processed in a dedicated block in the neural network architecture that is suitable for the data type. Such an implementation enables training all blocks together simultaneously, and forming cross channels features in the network. We show in the Experiments Section that in some cases, message's meta-data holds an additional information that cannot be extracted just from the text, and when using this information we achieve better performance. Furthermore, we demonstrate that our multi-modality block approach outperforms other approaches for injecting the meta data to the the text classifier."
+  },
+  {
+    "title": "Scalable and serializable networked multi-actor programming",
+    "abstract": "A major challenge in writing applications that execute across hosts, such as distributed online services, is to reconcile (a) parallelism (i.e., allowing components to execute independently on disjoint tasks), and (b)cooperation (i.e., allowing components to work together on common tasks). A good compromise between the two is vital to scalability, a core concern in distributed networked applications. The actor model of computation is a widely promoted programming model for distributed applications, as actors can execute in individual threads (parallelism) across different hosts and interact via asynchronous message passing (collaboration). However, this makes it hard for programmers to reason about combinations of messages as opposed to individual messages, which is essential in many scenarios. This paper presents a pragmatic variant of the actor model in which messages can be grouped into units that are executed in a serializable manner, whilst still retaining a high degree of parallelism. In short, our model is based on an orchestration of actors along a directed acyclic graph that supports efficient decentralized synchronization among actors based on their actual interaction. We present the implementation of this model, based on a dynamic DAG-inducing referencing discipline, in the actor-based programming language AEON. We argue serializability and the absence of deadlocks in our model, and demonstrate its scalability and usability through extensive evaluation and case studies of wide-ranging applications.",
+    "published_date": "2020-11-13",
+    "citation_count": 3,
+    "url": "https://dl.acm.org/doi/10.1145/3428266"
+  },
+  {
+    "url": "https://arxiv.org/pdf/1902.03574v1.pdf",
+    "title": "UML Model for Compressed Message Exchange",
+    "published_date": "2019-02-10",
+    "abstract": "Web services is a collection of technologies that client-server model use also to exchange information. The Web services uses XML as the message wrapper to exchange information but the XML is always verbose and hence incurs latency in the communication. This paper used UML to model the Web services exchange for client-server applications. UML notations were used to offer the interactions between the objects and the elements of the Web services and how the information is compressed for the exchange. The analysis and the design of the requirements will be useful to Web services and cloud computing researchers and developers."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/C3WxJHPRERzJqxxeF/why-referer",
+    "author": "jefftk",
+    "title": "Why \"Referer\"?",
+    "published_date": "2019-10-23"
+  },
+  {
+    "url": "https://arxiv.org/pdf/1810.00401.pdf",
+    "title": "A configurable transport layer for CAF",
+    "published_date": "2018-09-30",
+    "abstract": "The message-driven nature of actors lays a foundation for developing scalable and distributed software. While the actor itself has been thoroughly modeled, the message passing layer lacks a common definition. Properties and guarantees of message exchange often shift with implementations and contexts. This adds complexity to the development process, limits portability, and removes transparency from distributed actor systems. In this work, we examine actor communication, focusing on the implementation and runtime costs of reliable and ordered delivery. Both guarantees are often based on TCP for remote messaging, which mixes network transport with the semantics of messaging. However, the choice of transport may follow different constraints and is often governed by deployment. As a first step towards re-architecting actor-to-actor communication, we decouple the messaging guarantees from the transport protocol. We validate our approach by redesigning the network stack of the C++ Actor Framework (CAF) so that it allows to combine an arbitrary transport protocol with additional functions for remote messaging. An evaluation quantifies the cost of composability and the impact of individual layers on the entire stack.",
+    "citation_count": 2
+  }
+]

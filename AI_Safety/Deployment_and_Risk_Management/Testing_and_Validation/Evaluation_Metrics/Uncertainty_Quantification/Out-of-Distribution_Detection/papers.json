@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Understanding Failures in Out-of-Distribution Detection with Deep Generative Models",
+    "abstract": "Deep generative models (dgms) seem a natural fit for detecting out-of-distribution (ood) inputs, but such models have been shown to assign higher probabilities or densities to ood images than images from the training distribution. In this work, we explain why this behavior should be attributed to model misestimation. We first prove that no method can guarantee performance beyond random chance without assumptions on which out-distributions are relevant. We then interrogate the typical set hypothesis, the claim that relevant out-distributions can lie in high likelihood regions of the data distribution, and that ood detection should be defined based on the data distribution's typical set. We highlight the consequences implied by assuming support overlap between in- and out-distributions, as well as the arbitrariness of the typical set for ood detection. Our results suggest that estimation error is a more plausible explanation than the misalignment between likelihood-based ood detection and out-distributions of interest, and we illustrate how even minimal estimation error can lead to ood detection failures, yielding implications for future work in deep generative modeling and ood detection.",
+    "published_date": "2021-07-01",
+    "citation_count": 91,
+    "url": "https://ncbi.nlm.nih.gov/pmc/articles/PMC9295254/"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13"
+  },
+  {
+    "url": "https://arxiv.org/abs/1911.11132v2",
+    "title": "Scaling Out-of-Distribution Detection for Real-World Settings",
+    "published_date": "2023-02-27",
+    "abstract": "Detecting out-of-distribution examples is important for safety-critical machine learning applications such as medical screening and self-driving cars. However, existing research mainly focuses on simple small-scale settings. To set the stage for more realistic out-of-distribution detection, we depart from small-scale settings and explore large-scale multiclass and multi-label settings with high-resolution images and hundreds of classes. To make future work in real-world settings possible, we also create a new benchmark for anomaly segmentation by introducing the Combined Anomalous Object Segmentation benchmark. Our novel benchmark combines two datasets for anomaly segmentation that incorporate both realism and anomaly diversity. Using both real images and those from a simulated driving environment, we ensure the background context and a wide variety of anomalous objects are naturally integrated, unlike before. We conduct extensive experiments in these more realistic settings for out-of-distribution detection and find that a surprisingly simple detector based on the maximum logit outperforms prior methods in all the large-scale multi-class, multi-label, and segmentation tasks we consider, establishing a new baseline for future work. These results, along with our new anomaly segmentation benchmark, open the door to future research in out-of-distribution detection.",
+    "citation_count": 391
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.02966.pdf",
+    "title": "Non-Parametric Outlier Synthesis",
+    "published_date": "2023-03-06",
+    "abstract": "Out-of-distribution (OOD) detection is indispensable for safely deploying machine learning models in the wild. One of the key challenges is that models lack supervision signals from unknown data, and as a result, can produce overconfident predictions on OOD data. Recent work on outlier synthesis modeled the feature space as parametric Gaussian distribution, a strong and restrictive assumption that might not hold in reality. In this paper, we propose a novel framework, Non-Parametric Outlier Synthesis (NPOS), which generates artificial OOD training data and facilitates learning a reliable decision boundary between ID and OOD data. Importantly, our proposed synthesis approach does not make any distributional assumption on the ID embeddings, thereby offering strong flexibility and generality. We show that our synthesis approach can be mathematically interpreted as a rejection sampling framework. Extensive experiments show that NPOS can achieve superior OOD detection performance, outperforming the competitive rivals by a significant margin. Code is publicly available at https://github.com/deeplearning-wisc/npos.",
+    "citation_count": 76
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.05890v1.pdf",
+    "title": "Robust uncertainty estimates with out-of-distribution pseudo-inputs training",
+    "published_date": "2022-01-15",
+    "abstract": "Probabilistic models often use neural networks to control their predictive uncertainty. However, when making out-of-distribution (OOD)} predictions, the often-uncontrollable extrapolation properties of neural networks yield poor uncertainty predictions. Such models then don't know what they don't know, which directly limits their robustness w.r.t unexpected inputs. To counter this, we propose to explicitly train the uncertainty predictor where we are not given data to make it reliable. As one cannot train without data, we provide mechanisms for generating pseudo-inputs in informative low-density regions of the input space, and show how to leverage these in a practical Bayesian framework that casts a prior distribution over the model uncertainty. With a holistic evaluation, we demonstrate that this yields robust and interpretable predictions of uncertainty while retaining state-of-the-art performance on diverse tasks such as regression and generative modelling",
+    "citation_count": 1
+  },
+  {
+    "title": "An Advanced Dirichlet Prior Network for Out-of-Distribution Detection in Remote Sensing",
+    "abstract": "Remote sensing deals with a plethora of sensors, a large number of classes/categories, and a huge variation in geography. Owing to the difficulty of collecting labeled data uniformly representing all scenarios, data-hungry deep learning models are often trained with labeled data in a source domain that is limited in the above-mentioned aspects. However during test/inference phase, such deep learning models are often subjected to a distributional shift, also called out-of-distribution (OOD) samples, in the form of unseen classes, geographic differences, and multi-sensor differences. Deep learning models can behave in an unexpected manner when subjected to such distributional uncertainties. Vulnerability to OOD data severely reduces the reliability of deep learning models and trusting on such predictions in absence of any reliability indicator may lead to wrong policy decisions or mishaps in time-bound remote sensing applications. Motivated by this, in this work, we propose a Dirichlet Prior Network-based model to quantify distributional uncertainty of deep learning-based remote sensing models. The approach seeks to maximize the representation gap between the in-domain and OOD examples for better segregation of OOD samples at test time. Extensive experiments on several remote sensing image classification data sets demonstrate that the proposed model can quantify distributional uncertainty. To the best of our knowledge this is the first work to elaborately study distributional uncertainty in context of remote sensing. The codes are publicly available at.",
+    "published_date": "2022-01-01",
+    "citation_count": 39,
+    "url": "https://ieeexplore.ieee.org/ielx7/36/9633014/09668955.pdf"
+  }
+]

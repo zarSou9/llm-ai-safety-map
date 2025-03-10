@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12",
+    "summary": "This article proposes a delay-based location verification mechanism for on-chip AI governance, using the speed of light as a constraint to verify chip location. However, the mechanism's reliance on consistent network latency creates a significant false positive problem, requiring further solutions."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "This article explores applying game theory to AI development within organizational structures, highlighting the limitations of a purely game-theoretic approach and advocating for a model incorporating bureaucratic principles like hierarchical authority and job specialization to leverage both human and AI capabilities for efficient, collaborative goal achievement. The authors argue that even with advanced AI, bureaucratic structures remain necessary for complex problem-solving due to limitations in single-entity processing power."
+  },
+  {
+    "title": "PRShare: A Framework for Privacy-preserving, Interorganizational Data Sharing",
+    "abstract": "We consider the task of interorganizational data sharing, in which data owners, data clients, and data subjects have different and sometimes competing privacy concerns. One real-world scenario in which this problem arises concerns law-enforcement use of phone-call metadata: The data owner is a phone company, the data clients are law-enforcement agencies, and the data subjects are individuals who make phone calls. A key challenge in this type of scenario is that each organization uses its own set of proprietary intraorganizational attributes to describe the shared data; such attributes cannot be shared with other organizations. Moreover, data-access policies are determined by multiple parties and may be specified using attributes that are not directly comparable with the ones used by the owner to specify the data. We propose a system architecture and a suite of protocols that facilitate dynamic and efficient interorganizational data sharing, while allowing each party to use its own set of proprietary attributes to describe the shared data and preserving the confidentiality of both data records and proprietary intraorganizational attributes. We introduce the novel technique of Attribute-Based Encryption with Oblivious Attribute Translation (OTABE), which plays a crucial role in our solution. This extension of attribute-based encryption uses semi-trusted proxies to enable dynamic and oblivious translation between proprietary attributes that belong to different organizations; it supports hidden access policies, direct revocation, and fine-grained, data-centric keys and queries. We prove that our OTABE-based framework is secure in the standard model and provide two real-world use cases.",
+    "published_date": "2022-04-22",
+    "citation_count": 7,
+    "url": "https://dl.acm.org/doi/10.1145/3411497.3420226",
+    "summary": "PRShare is a framework enabling secure interorganizational data sharing, addressing the challenge of incompatible proprietary attributes by using Attribute-Based Encryption with Oblivious Attribute Translation (OTABE) to allow dynamic attribute translation and preserve data and attribute confidentiality. This framework supports hidden access policies, direct revocation, and fine-grained access control."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization",
+    "published_date": "2021-06-04",
+    "summary": "The article examines the application of game theory to AI development within organizational structures, highlighting the limitations of a purely game-theoretic approach and emphasizing the enduring relevance of bureaucratic principles like hierarchical authority and specialization, even with the integration of AI agents. Human-AI collaboration, leveraging comparative advantage, is presented as crucial for effective problem-solving in complex environments."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/M3xpp7CZ2JaSafDJB/computer-governance-and-conclusions-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Governance and Conclusions - Transformative AI and Compute [3/4]",
+    "published_date": "2021-10-14",
+    "summary": "This article explores the governance of artificial intelligence (AI) through the control of compute resources. Due to its physical requirements (space, energy, and a concentrated supply chain), compute offers unique opportunities for regulating AI development by restricting access to powerful computing resources for potentially unsafe actors."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MJc9AqyMWpG3BqfyK/generalizing-power-to-multi-agent-games",
+    "author": "midco, TurnTrout",
+    "title": "Generalizing POWER to multi-agent games",
+    "published_date": "2021-03-22",
+    "summary": "This article explores the concept of \"power\" as a robust instrumental goal in multi-agent systems, extending previous single-agent research. It argues that in competitive (constant-sum) scenarios, as agents become more advanced, power becomes increasingly scarce, leading to a \"power struggle\" analogous to the Catastrophic Convergence Conjecture."
+  },
+  {
+    "title": "Role-Based Authority Control in Management Information System under the Background of Internet",
+    "abstract": "This paper proposes an implementation method of role-based authority management in a management information system under a computer network environment, and gives some application technologies and specific examples of role use and control in combination with practical topics. At the same time, it is based on modern encryption algorithms. The safety of important data in the database was discussed above. Practice has proved that this authority management framework makes authority management more flexible and efficient, and has certain universal applicability.",
+    "published_date": "2020-09-18",
+    "url": "https://dl.acm.org/doi/10.1145/3419635.3419658",
+    "summary": "This paper presents a role-based access control (RBAC) implementation for management information systems, enhancing security and efficiency through modern encryption and flexible authority management. Its practicality is demonstrated through application examples and discussion of data security."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/KMocAf9jnAKc2jXri/sections-1-and-2-introduction-strategy-and-governance",
+    "author": "JesseClifton",
+    "title": "Sections 1 & 2: Introduction, Strategy and Governance",
+    "published_date": "2019-12-17",
+    "summary": "This research agenda focuses on preventing catastrophic cooperation failures among transformative artificial intelligence (TAI) systems. It argues that the unprecedented capabilities of TAI necessitate new research to mitigate risks stemming from destructive conflict, coercion, and social dilemmas arising from interactions between powerful AI systems and/or humans using powerful AI tools."
+  }
+]

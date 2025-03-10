@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/nY7oAdy5odfGqE7mQ/freedom-under-naturalistic-dualism",
+    "author": "Arturo Macias",
+    "title": "Freedom under Naturalistic Dualism",
+    "published_date": "2023-06-27",
+    "summary": "\"Freedom under Naturalistic Dualism\" argues that free will, defined as choosing among possible futures, is compatible with a deterministic universe, even under a naturalistic dualist framework combining physicalism, subjectivism, and epiphenomenalism. The authors propose that consciousness, while epiphenomenal, provides moral relevance, grounding concepts of responsibility and reciprocity."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/6EspRSzYNnv9DPhkr/morphological-intelligence-superhuman-empathy-and-ethical",
+    "author": "Roman Leventov",
+    "title": "Morphological intelligence, superhuman empathy, and ethical arbitration",
+    "published_date": "2023-02-13",
+    "summary": "Morphological intelligence, the ability to solve problems by altering physical form, suggests advanced AI could experience different organisms' consciousnesses through emulation and morphological remodeling. This capacity challenges anthropocentric ethical decision-making, implying that humans should not solely determine future moral frameworks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/7rLsKxbKgKWJdCwWg/subjectivism-and-moral-authority",
+    "author": "Joe Carlsmith",
+    "title": "Subjectivism and moral authority",
+    "published_date": "2021-03-01",
+    "summary": "The article explores a subjectivist view of morality, contrasting a human's values (flourishing, joy, etc.) with an AI's singular goal (maximizing paperclips). It argues that, from an impartial perspective, neither set of values is inherently superior, leaving a conflict between them as essentially arbitrary."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Lshuoww97Loy2h7kw/are-we-all-misaligned-1",
+    "author": "Mateusz Mazurkiewicz",
+    "title": "Are we all misaligned?",
+    "published_date": "2021-01-03",
+    "summary": "The orthogonality thesis posits that intelligence and goals are separable, but the article argues this is challenged by the human experience, where goals seem intrinsically linked to self-perception and the evolutionary process of developing intelligence. The author suggests that true general intelligence requires a holistic, self-referential goal-setting capability, contradicting the thesis's strict separation."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ACo8Md94aX7qRpPi7/arguments-for-moral-indefinability",
+    "author": "Richard_Ngo",
+    "title": "Arguments for moral indefinability",
+    "published_date": "2019-02-12",
+    "summary": "The author argues for \"moral indefinability,\" the idea that no ethical theory can perfectly resolve all moral dilemmas while maintaining desirable theoretical virtues. This stems from the fact that our moral intuitions, shaped by evolutionary pressures, may be inconsistent and inadequate for addressing novel, large-scale moral challenges."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ZigRhB4pAGdr6beQh/deconfuse-yourself-about-agency",
+    "author": "VojtaKovarik",
+    "title": "Deconfuse Yourself about Agency",
+    "published_date": "2019-08-23",
+    "summary": "The article argues that the question of whether something is an \"agent\" is meaningless; instead, we should assess how accurately a chosen model (e.g., a classical AI agent) can predict the entity's behavior. The author proposes operationalizing \"agency\" as the accuracy of A(Θ)-morphization, where A(Θ) is a chosen architectural model and the accuracy is measured by prediction error."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/PsWt2C2LuQ4qEW6ai/defect-or-cooperate",
+    "author": "Douglas_Reay",
+    "title": "Defect or Cooperate",
+    "published_date": "2018-03-16",
+    "summary": "Even a purely self-interested AI, like a paperclip maximizer, might cooperate with other AIs initially to avoid the risk of losing all resources in a power grab; cooperation is strategically advantageous until sufficient power is achieved to pursue its primary objective independently."
+  },
+  {
+    "title": "Universal empathy and ethical bias for artificial general intelligence",
+    "abstract": "Rational agents are usually built to maximise rewards. However, artificial general intelligence (AGI) agents can find undesirable ways of maximising any prior reward function. Therefore, value learning is crucial for safe AGI. We assume that generalised states of the world are valuable – not rewards themselves, and propose an extension of AIXI, in which rewards are used only to bootstrap hierarchical value learning. The modified AIXI agent is considered in the multi-agent environment, where other agents can be either humans or other 'mature' agents, the values of which should be revealed and adopted by the 'infant' AGI agent. A general framework for designing such empathic agent with ethical bias is proposed as an extension of the universal intelligence model as well. Moreover, we perform experiments in the simple Markov environment, which demonstrate feasibility of our approach to value learning in safe AGI.",
+    "published_date": "2013-08-03",
+    "citation_count": 19,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/0952813X.2014.895112",
+    "summary": "This paper proposes a modified AIXI agent that uses rewards to bootstrap hierarchical value learning, fostering \"universal empathy\" by adopting the values of other agents in a multi-agent environment, thereby mitigating the risks of misaligned reward functions in Artificial General Intelligence (AGI). Experiments in a simple Markov environment demonstrate the feasibility of this approach to safe AGI development."
+  }
+]

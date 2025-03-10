@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13"
+  },
+  {
+    "url": "https://arxiv.org/abs/1911.11132v3",
+    "title": "Scaling Out-of-Distribution Detection for Real-World Settings",
+    "published_date": "2023-02-06",
+    "abstract": "Detecting out-of-distribution examples is important for safety-critical machine learning applications such as medical screening and self-driving cars. However, existing research mainly focuses on simple small-scale settings. To set the stage for more realistic out-of-distribution detection, we depart from small-scale settings and explore large-scale multiclass and multi-label settings with high-resolution images and hundreds of classes. To make future work in real-world settings possible, we also create a new benchmark for anomaly segmentation by introducing the Combined Anomalous Object Segmentation benchmark. Our novel benchmark combines two datasets for anomaly segmentation that incorporate both realism and anomaly diversity. Using both real images and those from a simulated driving environment, we ensure the background context and a wide variety of anomalous objects are naturally integrated, unlike before. We conduct extensive experiments in these more realistic settings for out-of-distribution detection and find that a surprisingly simple detector based on the maximum logit outperforms prior methods in all the large-scale multi-class, multi-label, and segmentation tasks we consider, establishing a new baseline for future work. These results, along with our new anomaly segmentation benchmark, open the door to future research in out-of-distribution detection.",
+    "citation_count": 391
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.13845.pdf",
+    "title": "Anomaly Detection under Distribution Shift",
+    "published_date": "2023-03-24",
+    "abstract": "Anomaly detection (AD) is a crucial machine learning task that aims to learn patterns from a set of normal training samples to identify abnormal samples in test data. Most existing AD studiesassume that the training and test data are drawn from the same data distribution, but the test data can have large distribution shifts arising in many real-world applications due to different natural variations such as new lighting conditions, object poses, or background appearances, rendering existing AD methods ineffective in such cases. In this paper, we consider the problem of anomaly detection under distribution shift and establish performance benchmarks on four widely-used AD and out-of-distribution (OOD) generalization datasets. We demonstrate that simple adaptation of state-of-the-art OOD generalization methods to AD settings fails to work effectively due to the lack of labeled anomaly data. We further introduce a novel robust AD approach to diverse distribution shifts by minimizing the distribution gap between in-distribution and OOD normal samples in both the training and inference stages in an unsupervised way. Our extensive empirical results on the four datasets show that our approach substantially outperforms state-of-the-art AD methods and OOD generalization methods on data with various distribution shifts, while maintaining the detection accuracy on in-distribution data. Code and data are available at https://github.com/mala-lab/ADShift.",
+    "citation_count": 19
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.10892v1",
+    "title": "Towards Realistic Out-of-Distribution Detection: A Novel Evaluation Framework for Improving Generalization in OOD Detection",
+    "published_date": "2022-11-20",
+    "abstract": "This paper presents a novel evaluation framework for Out-of-Distribution (OOD) detection that aims to assess the performance of machine learning models in more realistic settings. We observed that the real-world requirements for testing OOD detection methods are not satisfied by the current testing protocols. They usually encourage methods to have a strong bias towards a low level of diversity in normal data. To address this limitation, we propose new OOD test datasets (CIFAR-10-R, CIFAR-100-R, and ImageNet-30-R) that can allow researchers to benchmark OOD detection performance under realistic distribution shifts. Additionally, we introduce a Generalizability Score (GS) to measure the generalization ability of a model during OOD detection. Our experiments demonstrate that improving the performance on existing benchmark datasets does not necessarily improve the usability of OOD detection models in real-world scenarios. While leveraging deep pre-trained features has been identified as a promising avenue for OOD detection research, our experiments show that state-of-the-art pre-trained models tested on our proposed datasets suffer a significant drop in performance. To address this issue, we propose a post-processing stage for adapting pre-trained features under these distribution shifts before calculating the OOD scores, which significantly enhances the performance of state-of-the-art pre-trained models on our benchmarks.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dhbLE8BqRvhBtsXhS/mlsn-3-neurips-safety-paper-roundup",
+    "author": "Dan H",
+    "title": "[MLSN #3]: NeurIPS Safety Paper Roundup",
+    "published_date": "2022-03-08"
+  },
+  {
+    "url": "https://arxiv.org/abs/2110.11328",
+    "title": "A Fine-Grained Analysis on Distribution Shift",
+    "published_date": "2021-10-21",
+    "abstract": "Robustness to distribution shifts is critical for deploying machine learning models in the real world. Despite this necessity, there has been little work in defining the underlying mechanisms that cause these shifts and evaluating the robustness of algorithms across multiple, different distribution shifts. To this end, we introduce a framework that enables fine-grained analysis of various distribution shifts. We provide a holistic analysis of current state-of-the-art methods by evaluating 19 distinct methods grouped into five categories across both synthetic and real-world datasets. Overall, we train more than 85K models. Our experimental framework can be easily extended to include new methods, shifts, and datasets. We find, unlike previous work~\\citep{Gulrajani20}, that progress has been made over a standard ERM baseline; in particular, pretraining and augmentations (learned or heuristic) offer large gains in many cases. However, the best methods are not consistent over different datasets and shifts.",
+    "citation_count": 184
+  }
+]

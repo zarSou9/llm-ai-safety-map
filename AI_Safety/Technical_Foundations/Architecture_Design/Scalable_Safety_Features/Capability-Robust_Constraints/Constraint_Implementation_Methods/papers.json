@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.19716",
+    "title": "Constrained Reinforcement Learning for Safe Heat Pump Control",
+    "published_date": "2024-09-29",
+    "abstract": "Constrained Reinforcement Learning (RL) has emerged as a significant research area within RL, where integrating constraints with rewards is crucial for enhancing safety and performance across diverse control tasks. In the context of heating systems in the buildings, optimizing the energy efficiency while maintaining the residents' thermal comfort can be intuitively formulated as a constrained optimization problem. However, to solve it with RL may require large amount of data. Therefore, an accurate and versatile simulator is favored. In this paper, we propose a novel building simulator I4B which provides interfaces for different usages and apply a model-free constrained RL algorithm named constrained Soft Actor-Critic with Linear Smoothed Log Barrier function (CSAC-LB) to the heating optimization problem. Benchmarking against baseline algorithms demonstrates CSAC-LB's efficiency in data exploration, constraint satisfaction and performance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.00069",
+    "title": "Meta-Sealing: A Revolutionizing Integrity Assurance Protocol for Transparent, Tamper-Proof, and Trustworthy AI System",
+    "published_date": "2024-10-31",
+    "abstract": "The Artificial intelligence in critical sectors-healthcare, finance, and public safety-has made system integrity paramount for maintaining societal trust. Current verification methods for AI systems lack comprehensive lifecycle assurance, creating significant vulnerabilities in deployment of both powerful and trustworthy AI. This research introduces Meta-Sealing, a cryptographic framework that fundamentally changes integrity verification in AI systems throughout their operational lifetime. Meta-Sealing surpasses traditional integrity protocols through its implementation of cryptographic seal chains, establishing verifiable, immutable records for all system decisions and transformations. The framework combines advanced cryptography with distributed verification, delivering tamper-evident guarantees that achieve both mathematical rigor and computational efficiency. Our implementation addresses urgent regulatory requirements for AI system transparency and auditability. The framework integrates with current AI governance standards, specifically the EU's AI Act and FDA's healthcare AI guidelines, enabling organizations to maintain operational efficiency while meeting compliance requirements. Testing on financial institution data demonstrated Meta-Sealing's capability to reduce audit timeframes by 62% while enhancing stakeholder confidence by 47%. Results can establish a new benchmark for integrity assurance in enterprise AI deployments. This research presents Meta-Sealing not merely as a technical solution, but as a foundational framework ensuring AI system integrity aligns with human values and regulatory requirements. As AI continues to influence critical decisions, provides the necessary bridge between technological advancement and verifiable trust. Meta-Sealing serves as a guardian of trust, ensuring that the AI systems we depend on are as reliable and transparent as they are powerful."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.11157",
+    "title": "RPCBF: Constructing Safety Filters Robust to Model Error and Disturbances via Policy Control Barrier Functions",
+    "published_date": "2024-10-15",
+    "abstract": "Control Barrier Functions (CBFs) have proven to be an effective tool for performing safe control synthesis for nonlinear systems. However, guaranteeing safety in the presence of disturbances and input constraints for high relative degree systems is a difficult problem. In this work, we propose the Robust Policy CBF (RPCBF), a practical method of constructing CBF approximations that is easy to implement and robust to disturbances via the estimation of a value function. We demonstrate the effectiveness of our method in simulation on a variety of high relative degree input-constrained systems. Finally, we demonstrate the benefits of RPCBF in compensating for model errors on a hardware quadcopter platform by treating the model errors as disturbances. The project page can be found at https://oswinso.xyz/rpcbf."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03"
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.04980",
+    "title": "A Capability-based Distributed Authorization System to Enforce Context-aware Permission Sequences",
+    "published_date": "2022-06-07",
+    "abstract": "Controlled sharing is fundamental to distributed systems. We consider a capability-based distributed authorization system where a client receives capabilities (access tokens) from an authorization server to access the resources of resource servers. Capability-based authorization systems have been widely used on the Web, in mobile applications and other distributed systems. A common requirement of such systems is that the user uses tokens of multiple servers in a particular order. A related requirement is the token may be used if certain environmental conditions hold. We introduce a secure capability-based system that supports \"permission sequence\" and \"context\". This allows a finite sequence of permissions to be enforced, each with their own specific context. We prove the safety property of this system for these conditions and integrate the system into OAuth 2.0 with proof-of-possession tokens. We evaluate our implementation and compare it with plain OAuth with respect to the average time for obtaining an authorization token and acquiring access to the resource.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.11927.pdf",
+    "title": "Constrained Variational Policy Optimization for Safe Reinforcement Learning",
+    "published_date": "2022-01-28",
+    "abstract": "Safe reinforcement learning (RL) aims to learn policies that satisfy certain constraints before deploying them to safety-critical applications. Previous primal-dual style approaches suffer from instability issues and lack optimality guarantees. This paper overcomes the issues from the perspective of probabilistic inference. We introduce a novel Expectation-Maximization approach to naturally incorporate constraints during the policy learning: 1) a provable optimal non-parametric variational distribution could be computed in closed form after a convex optimization (E-step); 2) the policy parameter is improved within the trust region based on the optimal variational distribution (M-step). The proposed algorithm decomposes the safe RL problem into a convex optimization phase and a supervised learning phase, which yields a more stable training performance. A wide range of experiments on continuous robotic tasks shows that the proposed method achieves significantly better constraint satisfaction performance and better sample efficiency than baselines. The code is available at https://github.com/liuzuxin/cvpo-safe-rl.",
+    "citation_count": 65
+  }
+]

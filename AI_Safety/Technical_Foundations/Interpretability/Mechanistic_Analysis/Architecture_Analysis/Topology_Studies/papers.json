@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/JDrxA3vwZAKZfmShz/degeneracies-are-sticky-for-sgd",
+    "author": "Guillaume Corlouer; Nicolas Macé",
+    "title": "Degeneracies are sticky for SGD",
+    "published_date": "2024-06-16"
+  },
+  {
+    "title": "Population network structure impacts genetic algorithm optimisation performance",
+    "abstract": "A genetic algorithm (GA) is a search method that optimises a population of solutions by simulating natural evolution. Good solutions reproduce together to create better candidates. The standard GA assumes that any two solutions can mate. However, in nature and social contexts, social networks can condition the likelihood that two individuals mate. This impact of population network structure over GAs performance is unknown. Here we introduce the Networked Genetic Algorithm (NGA) to evaluate how various random and scale-free population networks influence the optimisation performance of GAs on benchmark functions. We show evidence of significant variations in performance of the NGA as the network varies. In addition, we find that the best-performing population networks, characterised by intermediate density and low average shortest path length, significantly outperform the standard complete network GA. These results may constitute a starting point for network tuning and network control: seeing the network structure of the population as a parameter that can be tuned to improve the performance of evolutionary algorithms, and offer more realistic modelling of social learning. 1",
+    "published_date": "2021-04-09",
+    "url": "https://dl.acm.org/doi/10.1145/3449726.3463134"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/fnjKpBoWJXcSDwhZk/what-s-the-backward-forward-flop-ratio-for-nns",
+    "author": "Marius Hobbhahn, Jsevillamol",
+    "title": "What's the backward-forward FLOP ratio for Neural Networks?",
+    "published_date": "2021-12-13"
+  },
+  {
+    "url": "https://arxiv.org/abs/2012.10949",
+    "title": "Analysis of shape grammars: Continuity of rules",
+    "published_date": "2020-12-20",
+    "abstract": "The rules in a shape grammar apply in terms of embedding to take advantage of the parts that emerge visually in the appearance of shapes. While the shapes are kept unanalyzed as a computation moves forward, part-structures for shapes can be defined retrospectively by analyzing how the rules were applied. An important outcome of this is that rule continuity is not built-in but it is “fabricated” retrospectively to analyze the computation as a continuous process. An aspect of continuity analysis that has not been addressed in the literature is how to decide which mapping forms to use to study the continuity of rule applications. This is addressed in this paper using recent results on shape topology and continuous mappings. A characterization is provided that distinguishes the suitable mapping forms from those that are inherently discontinuous or practically inconsequential for continuity analysis. It is also shown that certain intrinsic properties of shape topologies and continuous mappings provide an effective method of computing topologies algorithmically."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2008.13697v13.pdf",
+    "title": "A Topological Framework for Deep Learning",
+    "published_date": "2020-08-31",
+    "abstract": "We utilize classical facts from topology to show that the classification problem in machine learning is always solvable under very mild conditions. Furthermore, we show that a softmax classification network acts on an input topological space by a finite sequence of topological moves to achieve the classification task. Moreover, given a training dataset, we show how topological formalism can be used to suggest the appropriate architectural choices for neural networks designed to be trained as classifiers on the data. Finally, we show how the architecture of a neural network cannot be chosen independently from the shape of the underlying data. To demonstrate these results, we provide example datasets and show how they are acted upon by neural nets from this topological perspective.",
+    "citation_count": 6
+  },
+  {
+    "title": "Performance and Correlations of Weighted Circuit Networks",
+    "abstract": "The patterns and evolution of man-made complex networks have been topics of interest in recent years. Herein, we define appropriate metrics to quantify the correlations between circuit performance and the complex network characteristics regarding the physical design of circuits. The experimental results show that circuit performance differs due to the optimization tools, both at placement and routing. The strength of the correlations with placement design follows the order of average distance, betweenness, average strength, and the clustering coefficient; the strength of the correlations with layout design follows the order of betweenness, average strength, average distance, and the clustering coefficient. The correlation between performance and betweenness has been further strengthened after routing and presents a remarkable difference in comparison with other characteristic parameters, which indicates its significance to the dynamic correlation with circuit performance.",
+    "published_date": "2020-01-01",
+    "citation_count": 2,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09057417.pdf"
+  }
+]

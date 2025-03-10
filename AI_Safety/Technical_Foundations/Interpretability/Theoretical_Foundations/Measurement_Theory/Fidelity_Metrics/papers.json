@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/jig8yRHuwhgxN35ue/a-robust-natural-latent-over-a-mixed-distribution-is-natural",
+    "author": "Johnswentworth; David Lorell",
+    "title": "A Robust Natural Latent Over A Mixed Distribution Is Natural Over The Distributions Which Were Mixed",
+    "published_date": "2024-08-22"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13"
+  },
+  {
+    "title": "From Multiple Independent Metrics to Single Performance Measure Based on Objective Function",
+    "abstract": "It is extremely common in engineering to design algorithms to perform various tasks. In data-driven decision making in any field one needs to ascertain the quality of an algorithm. Therefore, a robust assessment of algorithms is essential in deciding the best algorithm as well as in improving algorithms. To perform such an assessment objectively is obvious in the case of a single performance metric, but it is unclear in the case of multiple metrics. Nonetheless, $F_{1}$ measure is widely used in cases with two metrics; $F_{1}$ measure represents the harmonic mean (HM) of two metrics. Of course, there are other means, e.g., the arithmetic mean (AM) and the geometric mean (GM). As motivations for using them are intuitive and none of them are based on any objective function, it is difficult to judge objectively which is the best one. In this paper, the single metric case is examined to develop two objective functions that are applicable for any number of metrics. These two objective functions lead to two different performance measures - the distance from the origin (DO) and the distance from the ideal position (DIP). It introduces a new concept of the remaining phase space for the evaluation of the quality of a performance measure. On further and closer examinations of the original goal and the phase space of the metrics, amongst these five measures, either HM or DIP is found to be the best. Specifically, it is found that HM is the best measure at the lower performance end, while DIP is clearly the best measure at the higher performance end and is of much practical interest. Rules for deciding the best algorithm and the order of a set of algorithms are presented. These results are derived in the context of multiple independent and bounded metrics. Furthermore, several properties and detailed discussions are provided, following which some published results are reviewed in the present context to elucidate some points.",
+    "published_date": "2023-01-01",
+    "citation_count": 4,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10011403.pdf"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mmPohumufQJmCLeh6/trying-to-measure-ai-deception-capabilities-using-temporary",
+    "author": "alenoach",
+    "title": "Trying to measure AI deception capabilities using temporary simulation fine-tuning",
+    "published_date": "2023-05-04"
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/calibration",
+    "author": "Owain Evans",
+    "title": "Calibration - AI Alignment Forum",
+    "published_date": "2022-05-31"
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/Tp3ryR4AxY56ctGh2/p/sdxZdGFtAwHGFGKhg",
+    "author": "abergal, Nick_Beckstead, Owain_Evans",
+    "title": "Truthful and honest AI",
+    "published_date": "2021-10-29"
+  }
+]

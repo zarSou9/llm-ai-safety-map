@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/yi4pqB6G73dcTnatq/aspiration-based-designs-3-performance-and-safety-criteria",
+    "author": "Jobst Heitzig",
+    "title": "[Aspiration-based designs] 3. Performance and safety criteria, and aspiration intervals",
+    "published_date": "2024-04-28"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.05533.pdf",
+    "title": "Safe and Stable Adaptive Control for a Class of Dynamic Systems",
+    "published_date": "2023-09-11",
+    "abstract": "Adaptive control has focused on online control of dynamic systems in the presence of parametric uncertainties, with solutions guaranteeing stability and control performance. Safety, a related property to stability, is becoming increasingly important as the footprint of autonomous systems grows in society. One of the popular ways for ensuring safety is through the notion of a control barrier function (CBF). In this paper, we combine adaptation and CBFs to develop a real-time controller that guarantees stability and remains safe in the presence of parametric uncertainties. The class of dynamic systems that we focus on is linear time-invariant systems whose states are accessible and where the inputs are subject to a magnitude limit. Conditions of stability, state convergence to a desired value, and parameter learning are all elucidated. One of the elements of the proposed adaptive controller that ensures stability and safety is the use of a CBF-based safety filter that suitably generates safe reference commands, employs error-based relaxation (EBR) of Nagumo's theorem, and leads to guarantees of set invariance. To demonstrate the effectiveness of our approach, we present two numerical examples, an obstacle avoidance case and a missile flight control case.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.08602",
+    "title": "Safe Deep Policy Adaptation",
+    "published_date": "2023-10-08",
+    "abstract": "A critical goal of autonomy and artificial intelligence is enabling autonomous robots to rapidly adapt in dynamic and uncertain environments. Classic adaptive control and safe control provide stability and safety guarantees but are limited to specific system classes. In contrast, policy adaptation based on reinforcement learning (RL) offers versatility and generalizability but presents safety and robustness challenges. We propose SafeDPA, a novel RL and control framework that simultaneously tackles the problems of policy adaptation and safe reinforcement learning. SafeDPA jointly learns adaptive policy and dynamics models in simulation, predicts environment configurations, and fine-tunes dynamics models with few-shot real-world data. A safety filter based on the Control Barrier Function (CBF) on top of the RL policy is introduced to ensure safety during real-world deployment. We provide theoretical safety guarantees of SafeDPA and show the robustness of SafeDPA against learning errors and extra perturbations. Comprehensive experiments on (1) classic control problems (Inverted Pendulum), (2) simulation benchmarks (Safety Gym), and (3) a real-world agile robotics platform (RC Car) demonstrate great superiority of SafeDPA in both safety and task performance, over state-of-the-art baselines. Particularly, SafeDPA demonstrates notable generalizability, achieving a 300% increase in safety rate compared to the baselines, under unseen disturbances in real-world experiments.",
+    "citation_count": 8
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/iwCRYnGYMvxgzrCMf/complex-systems-are-hard-to-control",
+    "author": "jsteinhardt",
+    "title": "Complex Systems are Hard to Control",
+    "published_date": "2023-04-04"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2211.17218.pdf",
+    "title": "Specification Architectural Viewpoint for Benefit-Cost-Risk-Aware Decision-Making in Self-Adaptive Systems",
+    "published_date": "2022-11-30",
+    "abstract": "Over the past two decades, researchers and engineers have extensively studied the problem of how to enable a software system to deal with uncertain operating conditions. One prominent solution to this problem is self-adaptation, which equips a software system with a feedback loop that resolves uncertainties during operation and adapts the system to deal with them when necessary. Most self-adaptation approaches developed so far use decision-making mechanisms that focus on achieving a set of goals, i.e., that select for execution the adaptation option with the best estimated benefit. A few approaches have also considered the estimated (one-off) cost of executing the candidate adaptation options. We argue that besides benefit and cost, decision-making in self-adaptive systems should also consider the estimated risk the system or its users would be exposed to if an adaptation option were selected for execution. Balancing all three factors when evaluating the options for adaptation when mitigating uncertainty is essential, not only for satisfying the concerns of the stakeholders, but also to ensure safety and public acceptance of self-adaptive systems. In this paper, we present an ISO/IEC/IEEE 42010 compatible architectural viewpoint that considers the estimated benefit, cost, and risk as core factors of each adaptation option considered in self-adaptation. The viewpoint aims to support software architects responsible for designing robust decision-making mechanisms for self-adaptive systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.00095",
+    "title": "Safety-Critical Adaptation in Self-Adaptive Systems",
+    "published_date": "2022-09-30",
+    "abstract": "Modern systems are designed to operate in increasingly variable and uncertain environments. Not only are these environments complex, in the sense that they contain a tremendous number of variables, but they also change over time. Systems must be able to adjust their behaviour at run-time to manage these uncertainties. These “self-adaptive systems” have been studied extensively. This paper proposes a definition of a safety-critical self-adaptive system and then describes a taxonomy for classifying adaptations into different types based on their impact on the system's safety and the system's safety case. The taxonomy expresses criteria for classification and then describes specific criteria that the safety case for a self-adaptive system must satisfy, depending on the type of adaptations performed. Each type in the taxonomy is illustrated using the example of a safety-critical self-adaptive water heating system.",
+    "citation_count": 1
+  }
+]

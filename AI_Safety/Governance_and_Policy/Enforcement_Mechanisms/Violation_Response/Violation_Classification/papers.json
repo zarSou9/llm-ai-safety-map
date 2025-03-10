@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2406.17864",
+    "title": "AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies",
+    "published_date": "2024-06-25",
+    "abstract": "We present a comprehensive AI risk taxonomy derived from eight government policies from the European Union, United States, and China and 16 company policies worldwide, making a significant step towards establishing a unified language for generative AI safety evaluation. We identify 314 unique risk categories organized into a four-tiered taxonomy. At the highest level, this taxonomy encompasses System&Operational Risks, Content Safety Risks, Societal Risks, and Legal&Rights Risks. The taxonomy establishes connections between various descriptions and approaches to risk, highlighting the overlaps and discrepancies between public and private sector conceptions of risk. By providing this unified framework, we aim to advance AI safety through information sharing across sectors and the promotion of best practices in risk mitigation for generative AI models and systems.",
+    "citation_count": 9,
+    "summary": "This paper develops a four-tiered taxonomy of 314 AI risks by analyzing eight government and sixteen corporate policies, aiming to create a unified framework for evaluating generative AI safety and facilitating cross-sector collaboration on risk mitigation. The taxonomy categorizes risks into System&Operational, Content Safety, Societal, and Legal&Rights categories."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.12820",
+    "title": "Declare and Justify: Explicit assumptions in AI evaluations are necessary for effective regulation",
+    "published_date": "2024-11-19",
+    "abstract": "As AI systems advance, AI evaluations are becoming an important pillar of regulations for ensuring safety. We argue that such regulation should require developers to explicitly identify and justify key underlying assumptions about evaluations as part of their case for safety. We identify core assumptions in AI evaluations (both for evaluating existing models and forecasting future models), such as comprehensive threat modeling, proxy task validity, and adequate capability elicitation. Many of these assumptions cannot currently be well justified. If regulation is to be based on evaluations, it should require that AI development be halted if evaluations demonstrate unacceptable danger or if these assumptions are inadequately justified. Our presented approach aims to enhance transparency in AI development, offering a practical path towards more effective governance of advanced AI systems.",
+    "citation_count": 1,
+    "summary": "The paper argues that AI regulations should mandate explicit declaration and justification of underlying assumptions in AI evaluations, including threat modeling and proxy task validity, to ensure safety and halt development if assumptions are unjustified or evaluations reveal unacceptable risks. This approach promotes transparency and effective governance of advanced AI systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.17618",
+    "title": "Dynamic safety cases for frontier AI",
+    "published_date": "2024-12-23",
+    "abstract": "Frontier artificial intelligence (AI) systems present both benefits and risks to society. Safety cases - structured arguments supported by evidence - are one way to help ensure the safe development and deployment of these systems. Yet the evolving nature of AI capabilities, as well as changes in the operational environment and understanding of risk, necessitates mechanisms for continuously updating these safety cases. Typically, in other sectors, safety cases are produced pre-deployment and do not require frequent updates post-deployment, which can be a manual, costly process. This paper proposes a Dynamic Safety Case Management System (DSCMS) to support both the initial creation of a safety case and its systematic, semi-automated revision over time. Drawing on methods developed in the autonomous vehicles (AV) sector - state-of-the-art Checkable Safety Arguments (CSA) combined with Safety Performance Indicators (SPIs) recommended by UL 4600, a DSCMS helps developers maintain alignment between system safety claims and the latest system state. We demonstrate this approach on a safety case template for offensive cyber capabilities and suggest ways it can be integrated into governance structures for safety-critical decision-making. While the correctness of the initial safety argument remains paramount - particularly for high-severity risks - a DSCMS provides a framework for adapting to new insights and strengthening incident response. We outline challenges and further work towards development and implementation of this approach as part of continuous safety assurance of frontier AI systems.",
+    "summary": "This paper proposes a Dynamic Safety Case Management System (DSCMS) for continuously updating safety cases of evolving frontier AI systems, leveraging methods from autonomous vehicles to ensure ongoing alignment between system safety claims and operational realities. The DSCMS facilitates semi-automated revisions, improving incident response and adapting to new insights while maintaining the integrity of initial safety arguments."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.14068",
+    "title": "Holistic Safety and Responsibility Evaluations of Advanced AI Models",
+    "published_date": "2024-04-22",
+    "abstract": "Safety and responsibility evaluations of advanced AI models are a critical but developing field of research and practice. In the development of Google DeepMind's advanced AI models, we innovated on and applied a broad set of approaches to safety evaluation. In this report, we summarise and share elements of our evolving approach as well as lessons learned for a broad audience. Key lessons learned include: First, theoretical underpinnings and frameworks are invaluable to organise the breadth of risk domains, modalities, forms, metrics, and goals. Second, theory and practice of safety evaluation development each benefit from collaboration to clarify goals, methods and challenges, and facilitate the transfer of insights between different stakeholders and disciplines. Third, similar key methods, lessons, and institutions apply across the range of concerns in responsibility and safety - including established and emerging harms. For this reason it is important that a wide range of actors working on safety evaluation and safety research communities work together to develop, refine and implement novel evaluation approaches and best practices, rather than operating in silos. The report concludes with outlining the clear need to rapidly advance the science of evaluations, to integrate new evaluations into the development and governance of AI, to establish scientifically-grounded norms and standards, and to promote a robust evaluation ecosystem.",
+    "citation_count": 4,
+    "summary": "Google DeepMind's report details their holistic approach to evaluating the safety and responsibility of advanced AI models, emphasizing the need for theoretical frameworks, interdisciplinary collaboration, and the development of standardized evaluation methods to mitigate potential harms. This collaborative approach is crucial for advancing the science of AI safety evaluation and integrating it into AI development and governance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.12935",
+    "title": "Trustworthy, Responsible, and Safe AI: A Comprehensive Architectural Framework for AI Safety with Challenges and Mitigations",
+    "published_date": "2024-08-23",
+    "abstract": "AI Safety is an emerging area of critical importance to the safe adoption and deployment of AI systems. With the rapid proliferation of AI and especially with the recent advancement of Generative AI (or GAI), the technology ecosystem behind the design, development, adoption, and deployment of AI systems has drastically changed, broadening the scope of AI Safety to address impacts on public safety and national security. In this paper, we propose a novel architectural framework for understanding and analyzing AI Safety; defining its characteristics from three perspectives: Trustworthy AI, Responsible AI, and Safe AI. We provide an extensive review of current research and advancements in AI safety from these perspectives, highlighting their key challenges and mitigation approaches. Through examples from state-of-the-art technologies, particularly Large Language Models (LLMs), we present innovative mechanism, methodologies, and techniques for designing and testing AI safety. Our goal is to promote advancement in AI safety research, and ultimately enhance people's trust in digital transformation.",
+    "citation_count": 3,
+    "summary": "This paper presents a novel architectural framework for AI safety, encompassing trustworthy, responsible, and safe AI perspectives, by reviewing existing research, highlighting challenges, and proposing mitigation strategies and innovative mechanisms using examples from large language models. The framework aims to enhance trust in AI systems and promote advancements in AI safety research."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.18393",
+    "title": "Exploring the Impact of Rewards on Developers' Proactive AI Accountability Behavior",
+    "published_date": "2024-11-27",
+    "abstract": "The rapid integration of Artificial Intelligence (AI)-based systems offers benefits for various domains of the economy and society but simultaneously raises concerns due to emerging scandals. These scandals have led to the increasing importance of AI accountability to ensure that actors provide justification and victims receive compensation. However, AI accountability has a negative connotation due to its emphasis on penalizing sanctions, resulting in reactive approaches to emerging concerns. To counteract the prevalent negative view and offer a proactive approach to facilitate the AI accountability behavior of developers, we explore rewards as an alternative mechanism to sanctions. We develop a theoretical model grounded in Self-Determination Theory to uncover the potential impact of rewards and sanctions on AI developers. We further identify typical sanctions and bug bounties as potential reward mechanisms by surveying related research from various domains, including cybersecurity.",
+    "summary": "This paper investigates the use of rewards, specifically bug bounties, as a proactive approach to fostering AI accountability among developers, contrasting with the typically negative and reactive nature of sanctions. A theoretical model based on Self-Determination Theory is used to explore the impact of rewards versus sanctions on developer behavior."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), focusing on short timelines (within a decade). It aims to identify and evaluate strategies for mitigating these risks across various plausible scenarios."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13",
+    "summary": "Current AI training methods prioritize average performance, neglecting the risk of catastrophic tail events. This article explores alternative methods for estimating the probability of such events, focusing on techniques that don't rely on finding specific catastrophic inputs."
+  }
+]

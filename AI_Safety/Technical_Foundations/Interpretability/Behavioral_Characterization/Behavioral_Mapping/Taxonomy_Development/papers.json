@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2408.11925",
+    "title": "An Open Knowledge Graph-Based Approach for Mapping Concepts and Requirements between the EU AI Act and International Standards",
+    "published_date": "2024-08-21",
+    "abstract": "The many initiatives on trustworthy AI result in a confusing and multipolar landscape that organizations operating within the fluid and complex international value chains must navigate in pursuing trustworthy AI. The EU's AI Act will now shift the focus of such organizations toward conformance with the technical requirements for regulatory compliance, for which the Act relies on Harmonized Standards. Though a high-level mapping to the Act's requirements will be part of such harmonization, determining the degree to which standards conformity delivers regulatory compliance with the AI Act remains a complex challenge. Variance and gaps in the definitions of concepts and how they are used in requirements between the Act and harmonized standards may impact the consistency of compliance claims across organizations, sectors, and applications. This may present regulatory uncertainty, especially for SMEs and public sector bodies relying on standards conformance rather than proprietary equivalents for developing and deploying compliant high-risk AI systems. To address this challenge, this paper offers a simple and repeatable mechanism for mapping the terms and requirements relevant to normative statements in regulations and standards, e.g., AI Act and ISO management system standards, texts into open knowledge graphs. This representation is used to assess the adequacy of standards conformance to regulatory compliance and thereby provide a basis for identifying areas where further technical consensus development in trustworthy AI value chains is required to achieve regulatory compliance.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.02920",
+    "title": "A Taxonomy of Architecture Options for Foundation Model-based Agents: Analysis and Decision Model",
+    "published_date": "2024-08-06",
+    "abstract": "The rapid advancement of AI technology has led to widespread applications of agent systems across various domains. However, the need for detailed architecture design poses significant challenges in designing and operating these systems. This paper introduces a taxonomy focused on the architectures of foundation-model-based agents, addressing critical aspects such as functional capabilities and non-functional qualities. We also discuss the operations involved in both design-time and run-time phases, providing a comprehensive view of architectural design and operational characteristics. By unifying and detailing these classifications, our taxonomy aims to improve the design of foundation-model-based agents. Additionally, the paper establishes a decision model that guides critical design and runtime decisions, offering a structured approach to enhance the development of foundation-model-based agents. Our contributions include providing a structured architecture design option and guiding the development process of foundation-model-based agents, thereby addressing current fragmentation in the field."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.00183",
+    "title": "Capabilities",
+    "published_date": "2024-04-30",
+    "abstract": "In our daily lives, as in science and in all other domains, we encounter huge numbers of dispositions (tendencies, potentials, powers) which are realized in processes such as sneezing, sweating, shedding dandruff, and on and on. Among this plethora of what we can think of as mere dispositions is a subset of dispositions in whose realizations we have an interest a car responding well when driven on ice, a rabbits lungs responding well when it is chased by a wolf, and so on. We call the latter capabilities and we attempt to provide a robust ontological account of what capabilities are that is of sufficient generality to serve a variety of purposes, for example by providing a useful extension to ontology-based research in areas where capabilities data are currently being collected in siloed fashion."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03"
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.00827",
+    "title": "Toward a Mapping of Capability and Skill Models using Asset Administration Shells and Ontologies",
+    "published_date": "2023-07-03",
+    "abstract": "In order to react efficiently to changes in production, resources and their functions must be integrated into plants in accordance with the plug and produce principle. In this context, research on so-called capabilities and skills has shown promise. However, there are currently two incompatible approaches to modeling capabilities and skills. On the one hand, formal descriptions using ontologies have been developed. On the other hand, there are efforts to standardize submodels of the Asset Administration Shell (AAS) for this purpose. In this paper, we present ongoing research to connect these two incompatible modeling approaches. Both models are analyzed to identify comparable as well as dissimilar model elements. Subsequently, we present a concept for a bidirectional mapping between AAS submodels and a capability and skill ontology. For this purpose, two unidirectional, declarative mappings are applied that implement transformations from one modeling approach to the other - and vice versa.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2211.07280.pdf",
+    "title": "A Taxonomic System for Failure Cause Analysis of Open Source AI Incidents",
+    "published_date": "2022-11-14",
+    "abstract": "While certain industrial sectors (e.g., aviation) have a long history of mandatory incident reporting complete with analytical findings, the practice of artificial intelligence (AI) safety benefits from no such mandate and thus analyses must be performed on publicly known ``open source'' AI incidents. Although the exact causes of AI incidents are seldom known by outsiders, this work demonstrates how to apply expert knowledge on the population of incidents in the AI Incident Database (AIID) to infer the potential and likely technical causative factors that contribute to reported failures and harms. We present early work on a taxonomic system that covers a cascade of interrelated incident factors, from system goals (nearly always known) to methods / technologies (knowable in many cases) and technical failure causes (subject to expert analysis) of the implicated systems. We pair this ontology structure with a comprehensive classification workflow that leverages expert knowledge and community feedback, resulting in taxonomic annotations grounded by incident data and human expertise.",
+    "citation_count": 8
+  }
+]

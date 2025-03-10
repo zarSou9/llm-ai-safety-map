@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Strategic Investments for Platform Launch and Ecosystem Growth: A Dynamic Analysis",
+    "abstract": "ABSTRACT Multi-sided platforms must make decisions on both pricing and engineering investment and must continually adjust them as the platform scales over its lifecycle. Engineering investments can be allocated to features that improve a platform's standalone value, social features to take advantage of same-side network effects, or integration tools and boundary resources to facilitate third-party content creation. Guidance in the academic or practitioner literature is not granular. Moreover, relevant normative economic models that consider externalities are rarely dynamic. Hence, there is a gap in knowledge about how to best balance tradeoffs between different strategic decisions throughout the entire platform lifecycle. To begin to address this gap, we explore normative strategies for coordinating pricing and engineering investment decisions on a continuous basis under different ecosystem conditions. We build a simulation model informed by economics and marketing theory and perform extensive sensitivity analyses on key parameters in different ecosystem scenarios over a multi-period lifecycle. We find that pricing and investment strategies must continuously change to perform optimally. In particular, strategies that are most effective at launch often differ from those that are most effective during scaling as well as those most effective at maturity. We also find that the optimal strategy depends strongly on the monetization model and market aversion to price changes. Lastly, we specifically examine four different industry segments: mobile platforms, social media, the sharing economy, and business-to-business. The results provide evidence that the trajectory of platform pricing and investment strategies should greatly differ depending on industrial context.",
+    "published_date": "2023-07-03",
+    "citation_count": 4,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/07421222.2023.2229125",
+    "summary": "This paper uses a dynamic simulation model to analyze optimal pricing and engineering investment strategies for multi-sided platforms across their lifecycle, finding that optimal strategies vary significantly depending on platform stage, monetization model, market conditions, and industry segment. The research highlights the need for continuous adaptation of these strategies for sustained platform growth."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/xKpiqsWMKRfci7cv4/investigating-emergent-goal-like-behavior-in-large-language",
+    "author": "phelps-sg",
+    "title": "Investigating Emergent Goal-Like Behavior in Large Language Models using Experimental Economics",
+    "published_date": "2023-05-05",
+    "summary": "This working paper investigates whether large language models (LLMs) can cooperate in the iterated Prisoner's Dilemma game, exploring their capacity for altruism and reciprocal behavior. Preliminary findings suggest LLMs can partially operationalize these concepts but struggle with adapting behavior based on conditional reciprocity."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization",
+    "published_date": "2021-06-04",
+    "summary": "The article explores applying game theory to AI development within organizations, highlighting its limitations and advocating for a multi-agent approach that integrates game theory with organizational principles like bureaucracy. This approach emphasizes the continued importance of human-AI collaboration, leveraging comparative advantage to address complex problems that exceed the capabilities of any single entity."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/G4KHuYC3pHry6yMhi/compute-research-questions-and-metrics-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Research Questions and Metrics - Transformative AI and Compute [4/4]",
+    "published_date": "2021-11-28",
+    "summary": "This appendix to a series on transformative AI and compute explores research questions surrounding AI hardware, compute scaling, and cost, offering a list of research questions, compute metrics, and a list of AI hardware startups."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uYXAv6Audr2y4ytJe/what-is-compute-transformative-ai-and-compute-1-4",
+    "author": "lennart",
+    "title": "What is Compute? - Transformative AI and Compute [1/4]",
+    "published_date": "2021-09-23",
+    "summary": "This four-part series, focusing on the relationship between transformative AI and computing power, introduces a simplified model of computation and explores the historical connection between increased compute and more capable AI systems. The author emphasizes digital computing's current dominance and its components (logic, memory, interconnect) while acknowledging the potential, but currently limited, relevance of other computing paradigms."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/znfkdCoHMANwqc2WE/the-ground-of-optimization-1",
+    "author": "Alex Flint",
+    "title": "The ground of optimization",
+    "published_date": "2020-06-20",
+    "summary": "This paper proposes a definition of an \"optimizing system\" as a physically closed system exhibiting a predictable evolution towards a small set of target configurations from a broad range of initial states, despite perturbations; this definition is compared to existing work and illustrated through various biological, computational, and physical examples."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/mechanism-design",
+    "author": "johnswentworth",
+    "title": "Mechanism Design - AI Alignment Forum",
+    "published_date": "2020-11-08",
+    "summary": "Mechanism design uses game theory to create systems where self-interested agents, through incentivization, produce a desired outcome. Applications range from auction design to regulatory policy."
+  },
+  {
+    "title": "The Economics of Platforms: A Theory Guide for Competition Policy",
+    "abstract": "Abstract We propose an analysis of platform competition based on the academic literature with a view towards competition policy. First, we discuss to which extent competition can emerge in digital markets and show which forms it can take. In particular, we underline the role of dynamics, but also of platform differentiation, consumers multi-homing and beliefs to allow competition in platform markets. Second, we analyze competition policy issues and discuss how rules designed for standard markets can perform in two-sided markets. We show that multi-sided externalities create new opportunities for anti-competitive conducts, often related to pricing and contractual imperfections.",
+    "published_date": "2019-09-24",
+    "citation_count": 66,
+    "url": "https://www.sciencedirect.com/science/article/pii/S0167624520301244",
+    "summary": "This paper examines competition in digital platform markets, analyzing how competition emerges (considering dynamics, differentiation, and multi-homing) and how traditional competition policy needs adaptation to address unique challenges posed by multi-sided externalities and potential anti-competitive pricing strategies."
+  }
+]

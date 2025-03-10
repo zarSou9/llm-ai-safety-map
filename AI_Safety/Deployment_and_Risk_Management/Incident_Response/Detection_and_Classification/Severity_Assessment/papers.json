@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.16425",
+    "title": "Lessons for Editors of AI Incidents from the AI Incident Database",
+    "published_date": "2024-09-24",
+    "abstract": "As artificial intelligence (AI) systems become increasingly deployed across the world, they are also increasingly implicated in AI incidents - harm events to individuals and society. As a result, industry, civil society, and governments worldwide are developing best practices and regulations for monitoring and analyzing AI incidents. The AI Incident Database (AIID) is a project that catalogs AI incidents and supports further research by providing a platform to classify incidents for different operational and research-oriented goals. This study reviews the AIID's dataset of 750+ AI incidents and two independent taxonomies applied to these incidents to identify common challenges to indexing and analyzing AI incidents. We find that certain patterns of AI incidents present structural ambiguities that challenge incident databasing and explore how epistemic uncertainty in AI incident reporting is unavoidable. We therefore report mitigations to make incident processes more robust to uncertainty related to cause, extent of harm, severity, or technical details of implicated systems. With these findings, we discuss how to develop future AI incident reporting practices.",
+    "citation_count": 1,
+    "summary": "Analyzing 750+ AI incidents from the AI Incident Database reveals structural ambiguities in classifying harm events, highlighting challenges in incident reporting due to epistemic uncertainty; the study proposes mitigations to improve the robustness of future AI incident reporting practices."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.15229",
+    "title": "Evolving AI Risk Management: A Maturity Model based on the NIST AI Risk Management Framework",
+    "published_date": "2024-01-26",
+    "abstract": "Researchers, government bodies, and organizations have been repeatedly calling for a shift in the responsible AI community from general principles to tangible and operationalizable practices in mitigating the potential sociotechnical harms of AI. Frameworks like the NIST AI RMF embody an emerging consensus on recommended practices in operationalizing sociotechnical harm mitigation. However, private sector organizations currently lag far behind this emerging consensus. Implementation is sporadic and selective at best. At worst, it is ineffective and can risk serving as a misleading veneer of trustworthy processes, providing an appearance of legitimacy to substantively harmful practices. In this paper, we provide a foundation for a framework for evaluating where organizations sit relative to the emerging consensus on sociotechnical harm mitigation best practices: a flexible maturity model based on the NIST AI RMF.",
+    "citation_count": 1,
+    "summary": "This paper proposes a maturity model for evaluating organizations' AI risk management practices, using the NIST AI Risk Management Framework as a benchmark to assess their progress towards mitigating sociotechnical harms. The model aims to address the current gap between established best practices and their actual implementation within private sector organizations."
+  },
+  {
+    "title": "Metrics for Evaluating Alerts in Intrusion Detection Systems",
+    "abstract": "Network intrusions compromise the network's confidentiality, integrity and availability of resources. Intrusion detection systems (IDSs) have been implemented to prevent the problem. Although IDS technologies are promising, their ability of detecting true alerts is far from being perfect. One problem is that of producing large numbers of false alerts, which are termed as malicious by the IDS. In this paper we propose a set of metrics for evaluating the IDS alerts. The metrics will identify false, low-level and redundant alerts by mapping alerts on a vulnerability database and calculating their impact. The metrics are calculated using a metric tool that we developed. We validated the metrics using Weyuker's properties and Kaner's framework. The metrics can be considered as mathematically valid since they satisfied seven of the nine Weyuker's properties. In addition, they can be considered as workable since they satisfied all the evaluation questions from Kaner's framework.",
+    "published_date": "2023-01-30",
+    "citation_count": 3,
+    "url": "https://zenodo.org/record/7641953",
+    "summary": "This paper proposes a set of metrics, validated using Weyuker's properties and Kaner's framework, for evaluating intrusion detection system (IDS) alerts, aiming to identify false, low-level, and redundant alerts by assessing their impact and mapping them to a vulnerability database."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "President Biden's October 30, 2023 executive order on AI outlines numerous deadlines for various federal agencies to submit reports, develop strategies, and implement initiatives related to AI development, deployment, workforce needs, and risk mitigation, with deadlines ranging from 30 to 90 days after the order's publication."
+  },
+  {
+    "url": "https://arxiv.org/abs/2206.08966",
+    "title": "Actionable Guidance for High-Consequence AI Risk Management: Towards Standards Addressing AI Catastrophic Risks",
+    "published_date": "2022-06-17",
+    "abstract": "Artificial intelligence (AI) systems can provide many beneficial capabilities but also risks of adverse events. Some AI systems could present risks of events with very high or catastrophic consequences at societal scale. The US National Institute of Standards and Technology (NIST) has been developing the NIST Artificial Intelligence Risk Management Framework (AI RMF) as voluntary guidance on AI risk assessment and management for AI developers and others. For addressing risks of events with catastrophic consequences, NIST indicated a need to translate from high level principles to actionable risk management guidance. In this document, we provide detailed actionable-guidance recommendations focused on identifying and managing risks of events with very high or catastrophic consequences, intended as a risk management practices resource for NIST for AI RMF version 1.0 (released in January 2023), or for AI RMF users, or for other AI risk management guidance and standards as appropriate. We also provide our methodology for our recommendations. We provide actionable-guidance recommendations for AI RMF 1.0 on: identifying risks from potential unintended uses and misuses of AI systems; including catastrophic-risk factors within the scope of risk assessments and impact assessments; identifying and mitigating human rights harms; and reporting information on AI risk factors including catastrophic-risk factors. In addition, we provide recommendations on additional issues for a roadmap for later versions of the AI RMF or supplementary publications. These include: providing an AI RMF Profile with supplementary guidance for cutting-edge increasingly multi-purpose or general-purpose AI. We aim for this work to be a concrete risk-management practices contribution, and to stimulate constructive dialogue on how to address catastrophic risks and associated issues in AI standards.",
+    "citation_count": 11,
+    "summary": "This paper offers actionable guidance for managing catastrophic risks associated with AI systems, providing specific recommendations for enhancing the NIST AI Risk Management Framework (AI RMF) by addressing issues like unintended uses, human rights impacts, and reporting of catastrophic risk factors."
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.07280",
+    "title": "A Taxonomic System for Failure Cause Analysis of Open Source AI Incidents",
+    "published_date": "2022-11-14",
+    "abstract": "While certain industrial sectors (e.g., aviation) have a long history of mandatory incident reporting complete with analytical findings, the practice of artificial intelligence (AI) safety benefits from no such mandate and thus analyses must be performed on publicly known ``open source'' AI incidents. Although the exact causes of AI incidents are seldom known by outsiders, this work demonstrates how to apply expert knowledge on the population of incidents in the AI Incident Database (AIID) to infer the potential and likely technical causative factors that contribute to reported failures and harms. We present early work on a taxonomic system that covers a cascade of interrelated incident factors, from system goals (nearly always known) to methods / technologies (knowable in many cases) and technical failure causes (subject to expert analysis) of the implicated systems. We pair this ontology structure with a comprehensive classification workflow that leverages expert knowledge and community feedback, resulting in taxonomic annotations grounded by incident data and human expertise.",
+    "citation_count": 8,
+    "summary": "This paper proposes a taxonomic system for classifying the causes of failures in open-source AI systems, using expert knowledge and a structured workflow to analyze publicly reported incidents and infer technical causative factors. The resulting ontology links system goals, methods/technologies, and failure causes to provide a comprehensive understanding of AI incidents."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14",
+    "summary": "The article highlights common statistical errors, primarily the misuse of Gaussian assumptions in modeling fat-tailed distributions and misinterpretations of p-values, leading to inaccurate conclusions. It emphasizes the importance of considering factors like base rates and statistical power to avoid flawed analyses and unreliable results."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03",
+    "summary": "For calculating probabilities from binary count data, the Beta distribution is more accurate than the commonly used Gaussian (normal) distribution, especially with small datasets or probabilities near 0 or 1 where the Gaussian approximation breaks down, producing nonsensical results like negative probabilities. The Beta distribution is easily implemented and provides reliable uncertainty intervals even for small sample sizes."
+  }
+]

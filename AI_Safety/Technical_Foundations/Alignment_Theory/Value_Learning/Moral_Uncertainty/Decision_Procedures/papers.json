@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2301.08491v1",
+    "title": "Modeling Moral Choices in Social Dilemmas with Multi-Agent Reinforcement Learning",
+    "published_date": "2023-01-20",
+    "abstract": "Practical uses of Artificial Intelligence (AI) in the real world have demonstrated the importance of embedding moral choices into intelligent agents. They have also highlighted that defining top-down ethical constraints on AI according to any one type of morality is extremely challenging and can pose risks. A bottom-up learning approach may be more appropriate for studying and developing ethical behavior in AI agents. In particular, we believe that an interesting and insightful starting point is the analysis of emergent behavior of Reinforcement Learning (RL) agents that act according to a predefined set of moral rewards in social dilemmas.\n\n\n\nIn this work, we present a systematic analysis of the choices made by intrinsically-motivated RL agents whose rewards are based on moral theories. We aim to design reward structures that are simplified yet representative of a set of key ethical systems. Therefore, we first define moral reward functions that distinguish between consequence- and norm-based agents, between morality based on societal norms or internal virtues, and between single- and mixed-virtue (e.g., multi-objective) methodologies. Then, we evaluate our approach by modeling repeated dyadic interactions between learning moral agents in three iterated social dilemma games (Prisoner's Dilemma, Volunteer's Dilemma and Stag Hunt). We analyze the impact of different types of morality on the emergence of cooperation, defection or exploitation, and the corresponding social outcomes. Finally, we discuss the implications of these findings for the development of moral agents in artificial and mixed human-AI societies.",
+    "citation_count": 15
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.01424.pdf",
+    "title": "Uncertain Machine Ethical Decisions Using Hypothetical Retrospection",
+    "published_date": "2023-05-02",
+    "abstract": "We propose the use of the hypothetical retrospection argumentation procedure, developed by Sven Ove Hansson to improve existing approaches to machine ethical reasoning by accounting for probability and uncertainty from a position of Philosophy that resonates with humans. Actions are represented with a branching set of potential outcomes, each with a state, utility, and either a numeric or poetic probability estimate. Actions are chosen based on comparisons between sets of arguments favouring actions from the perspective of their branches, even those branches that led to an undesirable outcome. This use of arguments allows a variety of philosophical theories for ethical reasoning to be used, potentially in flexible combination with each other. We implement the procedure, applying consequentialist and deontological ethical theories, independently and concurrently, to an autonomous library system use case. We introduce a preliminary framework that seems to meet the varied requirements of a machine ethics system: versatility under multiple theories and a resonance with humans that enables transparency and explainability.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2204.07428v2.pdf",
+    "title": "Decision-making with E-admissibility given a finite assessment of choices",
+    "published_date": "2022-04-15",
+    "abstract": "Given information about which options a decision-maker definitely rejects from given finite sets of options, we study the implications for decision-making with E-admissibility. This means that from any finite set of options, we reject those options that no probability mass function compatible with the given information gives the highest expected utility. We use the mathematical framework of choice functions to specify choices and rejections, and specify the available information in the form of conditions on such functions. We characterise the most conservative extension of the given information to a choice function that makes choices based on E-admissibility, and provide an algorithm that computes this extension by solving linear feasibility problems."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/decision-theory",
+    "author": "Joe Carlsmith",
+    "title": "Decision Theory - LessWrong",
+    "published_date": "2021-08-30"
+  },
+  {
+    "title": "An Empirical Approach to Capture Moral Uncertainty in AI",
+    "abstract": "As AI Systems become increasingly autonomous they are expected to engage in complex moral decision-making processes. For the purpose of guidance of such processes theoretical and empirical solutions have been sought. In this research we integrate both theoretical and empirical lines of thought to address the matters of moral reasoning in AI Systems. We reconceptualize a metanormative framework for decision-making under moral uncertainty within the Discrete Choice Analysis domain and we operationalize it through a latent class choice model. The discrete choice analysis-based formulation of the metanormative framework is theory-rooted and practical as it captures moral uncertainty through a small set of latent classes. To illustrate our approach we conceptualize a society in which AI Systems are in charge of making policy choices. In the proof of concept two AI systems make policy choices on behalf of a society but while one of the systems uses a baseline moral certain model the other uses a moral uncertain model. It was observed that there are cases in which the AI Systems disagree about the policy to be chosen which we believe is an indication about the relevance of moral uncertainty.",
+    "published_date": "2020-02-04",
+    "citation_count": 7,
+    "url": "https://dl.acm.org/doi/10.1145/3375627.3375805"
+  },
+  {
+    "url": "https://arxiv.org/abs/2006.04734",
+    "title": "Reinforcement Learning Under Moral Uncertainty",
+    "published_date": "2020-06-08",
+    "abstract": "An ambitious goal for artificial intelligence is to create agents that behave ethically: The capacity to abide by human moral norms would greatly expand the context in which autonomous agents could be practically and safely deployed. While ethical agents could be trained through reinforcement, by rewarding correct behavior under a specific moral theory (e.g. utilitarianism), there remains widespread disagreement (both societally and among moral philosophers) about the nature of morality and what ethical theory (if any) is objectively correct. Acknowledging such disagreement, recent work in moral philosophy proposes that ethical behavior requires acting under moral uncertainty, i.e. to take into account when acting that one's credence is split across several plausible ethical theories. Inspired by such work, this paper proposes a formalism that translates such insights to the field of reinforcement learning. Demonstrating the formalism's potential, we then train agents in simple environments to act under moral uncertainty, highlighting how such uncertainty can help curb extreme behavior from commitment to single theories. The overall aim is to draw productive connections from the fields of moral philosophy and machine ethics to that of machine learning, to inspire further research by highlighting a spectrum of machine learning research questions relevant to training ethically capable reinforcement learning agents.",
+    "citation_count": 27
+  }
+]

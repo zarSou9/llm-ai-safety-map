@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25",
+    "summary": "The article discusses the challenges of formally verifying neural network behavior, arguing that achieving provable guarantees is unrealistic for large networks due to the complexity of accounting for all possible interactions. Instead, the authors propose \"heuristic explanations,\" a less rigorous approach that quantifies the quality of explanations using \"surprise accounting\" to understand model performance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12",
+    "summary": "This article proposes a delay-based location verification mechanism for on-chip AI governance, using the speed of light as a constraint to verify chip location. However, the mechanism is shown to be susceptible to false positives due to network latency inconsistencies, prompting the suggestion of a solution to mitigate this issue."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19",
+    "summary": "The article argues that claims of using formal verification to guarantee AI safety are overly optimistic. The complexity of the real world, particularly in areas like biology and physics, makes obtaining the necessary complete models and data for robust formal verification of AI systems operating in real-world scenarios practically infeasible in the near term."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/zy2AECRAi8Nuu5XMk/time-complexity-for-deterministic-string-machines",
+    "author": "alcatal",
+    "title": "Time complexity for deterministic string machines",
+    "published_date": "2024-04-21",
+    "summary": "This paper introduces \"filtered transducers,\" which operate on categories enriched over filtered sets, to address the lack of representation-independent complexity bounds in the String Machines framework. By restricting to finite state-space transducers, the authors prove constraints on time complexity growth and expressivity."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/3P8WBwLyfPBEkbG3c/proveably-safe-self-driving-cars",
+    "author": "Davidmanheim",
+    "title": "Proveably Safe Self Driving Cars",
+    "published_date": "2024-09-15",
+    "summary": "The author argues that \"provably safe AI,\" while not a complete solution to AI safety, offers near-term practical applications, using the example of autonomous vehicles. By building upon existing formally verifiable components and incorporating proven methods for assessing sensor and system reliability, a higher level of safety guarantees can be achieved, even acknowledging the limitations of modeling the physical world."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes AI safety-relevant content, reflecting the author's belief in the importance of summarizing articles for careful reading."
+  },
+  {
+    "title": "The anchor verifier for blocking and non-blocking concurrent software",
+    "abstract": "Verifying the correctness of concurrent software with subtle synchronization is notoriously challenging. We present the Anchor verifier, which is based on a new formalism for specifying synchronization disciplines that describes both (1) what memory accesses are permitted, and (2) how each permitted access commutes with concurrent operations of other threads (to facilitate reduction proofs). Anchor supports the verification of both lock-based blocking and cas-based non-blocking algorithms. Experiments on a variety concurrent data structures and algorithms show that Anchor significantly reduces the burden of concurrent verification.",
+    "published_date": "2020-11-13",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3428224",
+    "summary": "The Anchor verifier uses a novel formalism to specify synchronization disciplines, enabling verification of both blocking and non-blocking concurrent software by describing permitted memory accesses and their commutativity. Experiments demonstrate Anchor significantly eases the verification burden for concurrent data structures and algorithms."
+  }
+]

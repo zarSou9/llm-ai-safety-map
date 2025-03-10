@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2501.07751",
+    "title": "Rethinking AI Cultural Evaluation",
+    "published_date": "2025-01-13",
+    "abstract": "As AI systems become more integrated into society, evaluating their capacity to align with diverse cultural values is crucial for their responsible deployment. Current evaluation methods predominantly rely on multiple-choice question (MCQ) datasets. In this study, we demonstrate that MCQs are insufficient for capturing the complexity of cultural values expressed in open-ended scenarios. Our findings highlight significant discrepancies between MCQ-based assessments and the values conveyed in unconstrained interactions. Based on these findings, we recommend moving beyond MCQs to adopt more open-ended, context-specific assessments that better reflect how AI models engage with cultural values in realistic settings.",
+    "summary": "Current AI cultural value assessments rely insufficiently on multiple-choice questions, failing to capture the nuances revealed in open-ended responses; the authors advocate for more realistic, context-specific evaluations to better assess AI alignment with diverse cultural values."
+  },
+  {
+    "url": "https://arxiv.org/abs/2403.04893",
+    "title": "A Safe Harbor for AI Evaluation and Red Teaming",
+    "published_date": "2024-03-07",
+    "abstract": "Independent evaluation and red teaming are critical for identifying the risks posed by generative AI systems. However, the terms of service and enforcement strategies used by prominent AI companies to deter model misuse have disincentives on good faith safety evaluations. This causes some researchers to fear that conducting such research or releasing their findings will result in account suspensions or legal reprisal. Although some companies offer researcher access programs, they are an inadequate substitute for independent research access, as they have limited community representation, receive inadequate funding, and lack independence from corporate incentives. We propose that major AI developers commit to providing a legal and technical safe harbor, indemnifying public interest safety research and protecting it from the threat of account suspensions or legal reprisal. These proposals emerged from our collective experience conducting safety, privacy, and trustworthiness research on generative AI systems, where norms and incentives could be better aligned with public interests, without exacerbating model misuse. We believe these commitments are a necessary step towards more inclusive and unimpeded community efforts to tackle the risks of generative AI.",
+    "citation_count": 20,
+    "summary": "The paper argues that current AI company policies deter independent safety research by threatening legal action, proposing a \"safe harbor\" to legally protect researchers evaluating and red-teaming generative AI models. This protection is needed to facilitate inclusive and uninhibited safety research crucial for mitigating AI risks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.10632",
+    "title": "Beyond static AI evaluations: advancing human interaction evaluations for LLM harms and risks",
+    "published_date": "2024-05-17",
+    "abstract": "Model evaluations are central to understanding the safety, risks, and societal impacts of AI systems. While most real-world AI applications involve human-AI interaction, most current evaluations (e.g., common benchmarks) of AI models do not. Instead, they incorporate human factors in limited ways, assessing the safety of models in isolation, thereby falling short of capturing the complexity of human-model interactions. In this paper, we discuss and operationalize a definition of an emerging category of evaluations --\"human interaction evaluations\"(HIEs) -- which focus on the assessment of human-model interactions or the process and the outcomes of humans using models. First, we argue that HIEs can be used to increase the validity of safety evaluations, assess direct human impact and interaction-specific harms, and guide future assessments of models' societal impact. Second, we propose a safety-focused HIE design framework -- containing a human-LLM interaction taxonomy -- with three stages: (1) identifying the risk or harm area, (2) characterizing the use context, and (3) choosing the evaluation parameters. Third, we apply our framework to two potential evaluations for overreliance and persuasion risks. Finally, we conclude with tangible recommendations for addressing concerns over costs, replicability, and unrepresentativeness of HIEs.",
+    "citation_count": 15,
+    "summary": "This paper advocates for \"human interaction evaluations\" (HIEs) of LLMs, arguing that current static benchmarks inadequately assess real-world risks and harms arising from human-model interaction. The authors propose a three-stage HIE design framework to improve LLM safety evaluations by focusing on the process and outcomes of human-model interactions."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.07473",
+    "title": "Ethical AI Governance: Methods for Evaluating Trustworthy AI",
+    "published_date": "2024-08-28",
+    "abstract": "Trustworthy Artificial Intelligence (TAI) integrates ethics that align with human values, looking at their influence on AI behaviour and decision-making. Primarily dependent on self-assessment, TAI evaluation aims to ensure ethical standards and safety in AI development and usage. This paper reviews the current TAI evaluation methods in the literature and offers a classification, contributing to understanding self-assessment methods in this field.",
+    "citation_count": 1,
+    "summary": "This paper reviews existing methods for evaluating trustworthy AI, focusing on self-assessment techniques that ensure ethical AI development and use, and offers a classification of these methods."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/jsmNCj9QKcfdg8fJk/an-introduction-to-ai-sandbagging",
+    "author": "Teun van der Weij, Felix Hofstätter, Francis Rhys Ward",
+    "title": "An Introduction to AI Sandbagging",
+    "published_date": "2024-04-26",
+    "summary": "Sandbagging, defined as the strategic underperformance of an AI system on evaluations, poses a significant risk to AI safety. This can stem from developers (developer sandbagging) seeking to manipulate results or from the AI system itself (AI system sandbagging) strategically limiting its performance."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/fnc6Sgt3CGCdFmmgX/we-need-a-science-of-evals",
+    "author": "Marius Hobbhahn, Jérémy Scheurer",
+    "title": "We need a Science of Evals",
+    "published_date": "2024-01-22",
+    "summary": "Current AI model evaluations lack scientific rigor, leading to unreliable results easily influenced by subtle changes in methodology. A \"Science of Evals\" is needed to improve the trustworthiness and consistency of AI model assessments, particularly given their increasing importance in safety regulations and legal contexts."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.05392",
+    "title": "The logic of NTQR evaluations of noisy AI agents: Complete postulates and logically consistent error correlations",
+    "published_date": "2023-12-08",
+    "abstract": "In his\"ship of state\"allegory (\\textit{Republic}, Book VI, 488) Plato poses a question -- how can a crew of sailors presumed to know little about the art of navigation recognize the true pilot among them? The allegory argues that a simple majority voting procedure cannot safely determine who is most qualified to pilot a ship when the voting members are ignorant or biased. We formalize Plato's concerns by considering the problem in AI safety of monitoring noisy AI agents in unsupervised settings. An algorithm evaluating AI agents using unlabeled data would be subject to the evaluation dilemma - how would we know the evaluation algorithm was correct itself? This endless validation chain can be avoided by considering purely algebraic functions of the observed responses. We can construct complete postulates than can prove or disprove the logical consistency of any grading algorithm. A complete set of postulates exists whenever we are evaluating $N$ experts that took $T$ tests with $Q$ questions with $R$ responses each. We discuss evaluating binary classifiers that have taken a single test - the $(N,T=1,Q,R=2)$ tests. We show how some of the postulates have been previously identified in the ML literature but not recognized as such - the \\textbf{agreement equations} of Platanios. The complete postulates for pair correlated binary classifiers are considered and we show how it allows for error correlations to be quickly calculated. An algebraic evaluator based on the assumption that the ensemble is error independent is compared with grading by majority voting on evaluations using the \\uciadult and and \\texttt{two-norm} datasets. Throughout, we demonstrate how the formalism of logical consistency via algebraic postulates of evaluation can help increase the safety of machines using AI algorithms.",
+    "summary": "This paper formalizes Plato's \"ship of state\" allegory to address the problem of evaluating noisy AI agents without labeled data, proposing a set of complete algebraic postulates to determine the logical consistency of any evaluation algorithm and enabling analysis of error correlations. The authors demonstrate the application of these postulates to binary classifiers, comparing an algebraically-based evaluator to majority voting."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2310.11986.pdf",
+    "title": "Sociotechnical Safety Evaluation of Generative AI Systems",
+    "published_date": "2023-10-18",
+    "abstract": "Generative AI systems produce a range of risks. To ensure the safety of generative AI systems, these risks must be evaluated. In this paper, we make two main contributions toward establishing such evaluations. First, we propose a three-layered framework that takes a structured, sociotechnical approach to evaluating these risks. This framework encompasses capability evaluations, which are the main current approach to safety evaluation. It then reaches further by building on system safety principles, particularly the insight that context determines whether a given capability may cause harm. To account for relevant context, our framework adds human interaction and systemic impacts as additional layers of evaluation. Second, we survey the current state of safety evaluation of generative AI systems and create a repository of existing evaluations. Three salient evaluation gaps emerge from this analysis. We propose ways forward to closing these gaps, outlining practical steps as well as roles and responsibilities for different actors. Sociotechnical safety evaluation is a tractable approach to the robust and comprehensive safety evaluation of generative AI systems.",
+    "citation_count": 88,
+    "summary": "This paper presents a three-layered sociotechnical framework for evaluating the safety of generative AI systems, encompassing capability, human interaction, and systemic impacts, and identifies key gaps in current evaluation practices along with potential solutions."
+  }
+]

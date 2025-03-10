@@ -1,0 +1,114 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/JsjJuikJsidkyfhyr/mats-ai-safety-strategy-curriculum",
+    "author": "Ryan Kidd; Ronny Fernandez",
+    "title": "MATS AI Safety Strategy Curriculum",
+    "published_date": "2024-03-07",
+    "summary": "The MATS Winter 2023-24 program included weekly AI safety strategy discussion groups, focusing on prioritizing interventions. These sessions, facilitated by alumni and community members, used assigned readings and discussion questions to improve scholars' ability to articulate their research's impact and theory of change."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three strategies for governing transformative AI: Cooperative Development, Strategic Advantage, and Global Moratorium. The effectiveness of each strategy depends heavily on the difficulty of aligning AI and the projected timeline for its development, with preferences shifting significantly across different scenarios."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/RzsXRbk2ETNqjhsma/chapter-3-solutions-landscape",
+    "author": "Charbel-Raphaël",
+    "title": "AI Safety Strategies Landscape",
+    "published_date": "2024-05-09",
+    "summary": "This chapter outlines various strategies for improving AI safety, acknowledging the field's immaturity and lack of consensus on core problems. Despite this, several approaches to mitigate risks, including misuse and systemic failures, are already identifiable and presented."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2304.13738.pdf",
+    "title": "Scalable, Distributed AI Frameworks: Leveraging Cloud Computing for Enhanced Deep Learning Performance and Efficiency",
+    "published_date": "2023-04-26",
+    "abstract": "In recent years, the integration of artificial intelligence (AI) and cloud computing has emerged as a promising avenue for addressing the growing computational demands of AI applications. This paper presents a comprehensive study of scalable, distributed AI frameworks leveraging cloud computing for enhanced deep learning performance and efficiency. We first provide an overview of popular AI frameworks and cloud services, highlighting their respective strengths and weaknesses. Next, we delve into the critical aspects of data storage and management in cloud-based AI systems, discussing data preprocessing, feature engineering, privacy, and security. We then explore parallel and distributed training techniques for AI models, focusing on model partitioning, communication strategies, and cloud-based training architectures. In subsequent chapters, we discuss optimization strategies for AI workloads in the cloud, covering load balancing, resource allocation, auto-scaling, and performance benchmarking. We also examine AI model deployment and serving in the cloud, outlining containerization, serverless deployment options, and monitoring best practices. To ensure the cost-effectiveness of cloud-based AI solutions, we present a thorough analysis of costs, optimization strategies, and case studies showcasing successful deployments. Finally, we summarize the key findings of this study, discuss the challenges and limitations of cloud-based AI, and identify emerging trends and future research opportunities in the field.",
+    "citation_count": 19,
+    "summary": "This paper reviews scalable, distributed AI frameworks utilizing cloud computing for deep learning, covering data management, parallel training techniques, optimization strategies, deployment methods, cost analysis, and future research directions. It analyzes the strengths and weaknesses of various frameworks and cloud services to enhance performance and efficiency."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of posts aims to provide a comprehensive introduction to AI safety. The content and order of posts are still under development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/GCMMPTCmGagcP2Bhd/ideas-for-ai-labs-reading-list",
+    "author": "Zach Stein-Perlman",
+    "title": "Ideas for AI labs: Reading list",
+    "published_date": "2023-04-24",
+    "summary": "This document surveys expert opinions and research on AI safety and governance, focusing on best practices for AI labs to mitigate existential risks. It offers a range of recommendations, including improved model evaluation, enhanced transparency, stricter publication practices, and increased coordination among labs."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/organization-updates",
+    "author": "Jesse Hoogland, Daniel Murfet, Stan van Wingerden, Alexander Gietelink Oldenziel",
+    "title": "Organization Updates - AI Alignment Forum",
+    "published_date": "2023-05-30",
+    "summary": "Organization updates pertain to specific groups or organizations. The content of these updates is as expected for such announcements."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2212.02659.pdf",
+    "title": "Continual learning on deployment pipelines for Machine Learning Systems",
+    "published_date": "2022-12-05",
+    "abstract": "Following the development of digitization, a growing number of large Original Equipment Manufacturers (OEMs) are adapting computer vision or natural language processing in a wide range of applications such as anomaly detection and quality inspection in plants. Deployment of such a system is becoming an extremely important topic. Our work starts with the least-automated deployment technologies of machine learning systems includes several iterations of updates, and ends with a comparison of automated deployment techniques. The objective is, on the one hand, to compare the advantages and disadvantages of various technologies in theory and practice, so as to facilitate later adopters to avoid making the generalized mistakes when implementing actual use cases, and thereby choose a better strategy for their own enterprises. On the other hand, to raise awareness of the evaluation framework for the deployment of machine learning systems, to have more comprehensive and useful evaluation metrics (e.g. table 2), rather than only focusing on a single factor (e.g. company cost). This is especially important for decision-makers in the industry.",
+    "citation_count": 3,
+    "summary": "This paper compares manual and automated deployment techniques for machine learning systems in industrial settings, aiming to guide companies in choosing optimal strategies and establishing comprehensive evaluation frameworks beyond cost considerations. It analyzes various technologies, highlighting their advantages and disadvantages through practical examples and proposed metrics."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2209.07076.pdf",
+    "title": "Responsible AI Implementation: A Human-centered Framework for Accelerating the Innovation Process",
+    "published_date": "2022-09-15",
+    "abstract": "There is still a significant gap between expectations and the successful adoption of AI to innovate and improve businesses. Due to the emergence of deep learning, AI adoption is more complex as it often incorporates big data and the internet of things (IoT), affecting data privacy. Existing frameworks have identified the need to focus on human-centered design, combining technical and business/organizational perspectives. However, trust remains a critical issue that needs to be designed from the beginning. The proposed framework is the first to expand from the human-centered design approach, emphasizing and maintaining the trust that underpins the whole process. This paper proposes a new theoretical framework for responsible artificial intelligence (AI) implementation. The proposed framework emphasizes a synergistic business-technology approach for the agile co-creation process. The aim is to streamline the adoption process of AI to innovate and improve business by involving all stakeholders throughout the project so that the AI technology is designed, developed, and deployed in conjunction with people and not in isolation. The framework presents a fresh viewpoint on responsible AI implementation based on analytical literature review, conceptual framework design, and practitioners' mediating expertise. The framework emphasizes establishing and maintaining trust throughout the human-centered design and agile development of AI. This human-centered approach is aligned with and enabled by the \"privacy-by-design” principle. The creators of the technology and the end-users are working together to tailor the AI solution specifically for the business requirements and human characteristics. An illustrative case study on adopting AI for assisting planning in a hospital will demonstrate that the proposed framework applies to real-life applications.",
+    "citation_count": 4,
+    "summary": "This paper presents a novel human-centered framework for responsible AI implementation, prioritizing trust and agile co-creation among stakeholders to streamline AI adoption and innovation in businesses, addressing challenges like data privacy and ensuring alignment with human needs. The framework integrates privacy-by-design principles and is illustrated through a real-world case study."
+  },
+  {
+    "url": "https://arxiv.org/abs/2205.10635",
+    "title": "SplitPlace: AI Augmented Splitting and Placement of Large-Scale Neural Networks in Mobile Edge Environments",
+    "published_date": "2022-05-21",
+    "abstract": "In recent years, deep learning models have become ubiquitous in industry and academia alike. Deep neural networks can solve some of the most complex pattern-recognition problems today, but come with the price of massive compute and memory requirements. This makes the problem of deploying such large-scale neural networks challenging in resource-constrained mobile edge computing platforms, specifically in mission-critical domains like surveillance and healthcare. To solve this, a promising solution is to split resource-hungry neural networks into lightweight disjoint smaller components for pipelined distributed processing. At present, there are two main approaches to do this: semantic and layer-wise splitting. The former partitions a neural network into parallel disjoint models that produce a part of the result, whereas the latter partitions into sequential models that produce intermediate results. However, there is no intelligent algorithm that decides which splitting strategy to use and places such modular splits to edge nodes for optimal performance. To combat this, this work proposes a novel AI-driven online policy, SplitPlace, that uses Multi-Armed-Bandits to intelligently decide between layer and semantic splitting strategies based on the input task's service deadline demands. SplitPlace places such neural network split fragments on mobile edge devices using decision-aware reinforcement learning for efficient and scalable computing. Moreover, SplitPlace fine-tunes its placement engine to adapt to volatile environments. Our experiments on physical mobile-edge environments with real-world workloads show that SplitPlace can significantly improve the state-of-the-art in terms of average response time, deadline violation rate, inference accuracy, and total reward by up to 46, 69, 3 and 12 percent respectively.",
+    "citation_count": 23,
+    "summary": "SplitPlace is an AI-driven system that optimizes the splitting and placement of large neural networks across mobile edge devices, using multi-armed bandits to select splitting strategies and reinforcement learning to place components for improved performance in dynamic environments. This approach significantly improves response time, reduces deadline violations, and maintains inference accuracy compared to existing methods."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/RihYwmskuJT9Rkbjq/the-longest-training-run",
+    "author": "Jsevillamol, Tamay, Owen D, anson.ho",
+    "title": "The longest training run",
+    "published_date": "2022-08-17",
+    "summary": "The optimal duration of large machine learning training runs is surprisingly short, likely less than 14-15 months, due to rapid hardware and algorithmic improvements; longer runs are outcompeted by later runs leveraging advancements in technology and increased investment."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/vZzg8NS7wBtqcwhoJ/nearcast-based-deployment-problem-analysis",
+    "author": "HoldenKarnofsky",
+    "title": "Nearcast-based \"deployment problem\" analysis",
+    "published_date": "2022-09-21",
+    "summary": "This article analyzes the \"AI deployment problem,\" focusing on a near-future scenario where a company (\"Magma\") is close to developing transformative AI. The author explores optimal strategies for Magma and a hypothetical international AI oversight agency (\"IAIA\") to manage the risks and benefits of deploying such powerful, potentially misaligned AI."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2107.06071v2.pdf",
+    "title": "aiSTROM–A Roadmap for Developing a Successful AI Strategy",
+    "published_date": "2021-06-25",
+    "abstract": "A total of 34% of AI research and development projects fail or are abandoned, according to a recent survey by Rackspace Technology of 1,870 companies. In this perspective paper, a new STrategic ROadMap, aiSTROM, is presented that empowers managers to create an AI strategy. A comprehensive approach is provided that guides managers and lead developers through the various challenges in the implementation process. In the aiSTROM framework, the top $n$ potential projects (typically 3-5) are first identified. For each of those, seven areas of focus are thoroughly analysed. These areas include creating a data strategy that takes into account unique cross-departmental machine learning data requirements, security, and legal requirements. aiSTROM then guides managers to think about how to put together an interdisciplinary artificial intelligence (AI) implementation team given the scarcity of AI talent. Once an AI team strategy has been established, it needs to be positioned within the organization, either cross-departmental or as a separate division. Other considerations include AI as a service (AIaas) and outsourcing development. Looking at new technologies, one has to consider challenges such as bias, the legality of black-box models, and keeping humans in the loop. Next, like any project, value-based key performance indicators (KPIs) need to be defined to track and validate the progress. Depending on the company's risk strategy, a SWOT analysis (strengths, weaknesses, opportunities, and threats) can help further classify the shortlisted projects. Finally, one should make sure that the strategy includes continuous education of employees to enable a culture of adoption. This unique and comprehensive framework offers a practical tool for managers and lead developers.",
+    "citation_count": 8,
+    "summary": "The aiSTROM framework provides a strategic roadmap for successful AI implementation, guiding managers through seven key areas—from data strategy and team building to risk assessment and continuous learning—to increase the likelihood of project success and mitigate common pitfalls. This structured approach aims to overcome the high failure rate of AI projects."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.04930v2.pdf",
+    "title": "An Empirical Study on Deployment Faults of Deep Learning Based Mobile Applications",
+    "published_date": "2021-01-13",
+    "abstract": "Deep learning (DL) is moving its step into a growing number of mobile software applications. These software applications, named as DL based mobile applications (abbreviated as mobile DL apps) integrate DL models trained using large-scale data with DL programs. A DL program encodes the structure of a desirable DL model and the process by which the model is trained using training data. Due to the increasing dependency of current mobile apps on DL, software engineering (SE) for mobile DL apps has become important. However, existing efforts in SE research community mainly focus on the development of DL models and extensively analyze faults in DL programs. In contrast, faults related to the deployment of DL models on mobile devices (named as deployment faults of mobile DL apps) have not been well studied. Since mobile DL apps have been used by billions of end users daily for various purposes including for safety-critical scenarios, characterizing their deployment faults is of enormous importance. To fill in the knowledge gap, this paper presents the first comprehensive study to date on the deployment faults of mobile DL apps. We identify 304 real deployment faults from Stack Overflow and GitHub, two commonly used data sources for studying software faults. Based on the identified faults, we construct a fine-granularity taxonomy consisting of 23 categories regarding to fault symptoms and distill common fix strategies for different fault symptoms. Furthermore, we suggest actionable implications and research avenues that can potentially facilitate the deployment of DL models on mobile devices.",
+    "citation_count": 66,
+    "summary": "This paper presents the first comprehensive empirical study of deployment faults in deep learning-based mobile applications, identifying 304 real-world faults from Stack Overflow and GitHub and categorizing them into a taxonomy to inform improved deployment practices and future research."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.09478v1.pdf",
+    "title": "Software engineering for Responsible AI: An empirical study and operationalised patterns",
+    "published_date": "2021-11-18",
+    "abstract": "AI ethics principles and guidelines are typically high-level and do not provide concrete guidance on how to develop responsible AI systems. To address this shortcoming, we perform an empirical study involving interviews with 21 scientists and engineers to understand the practitioners' views on AI ethics principles and their implementation. Our major findings are: (1) the current practice is often a done-once-and-forget type of ethical risk assessment at a particular development step, which is not sufficient for highly uncertain and continual learning AI systems; (2) ethical requirements are either omitted or mostly stated as high-level objectives, and not specified explicitly in verifiable way as system outputs or outcomes; (3) although ethical requirements have the characteristics of cross-cutting quality and non-functional requirements amenable to architecture and design analysis, system-level architecture and design are under-explored; (4) there is a strong desire for continuously monitoring and validating AI systems post deployment for ethical requirements but current operation practices provide limited guidance. To address these findings, we suggest a preliminary list of patterns to provide operationalised guidance for developing responsible AI systems.",
+    "citation_count": 29,
+    "summary": "This study reveals a gap between high-level AI ethics principles and their practical implementation, finding that current practices are insufficient for continuously learning systems and lack systematic integration of ethical considerations into software engineering processes. The authors propose operational patterns to address these shortcomings and improve the development of responsible AI systems."
+  }
+]

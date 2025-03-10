@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.15147",
+    "title": "Delegating Responsibilities to Intelligent Autonomous Systems: Challenges and Benefits",
+    "published_date": "2024-11-06",
+    "abstract": "As AI systems increasingly operate with autonomy and adaptability, the traditional boundaries of moral responsibility in techno-social systems are being challenged. This paper explores the evolving discourse on the delegation of responsibilities to intelligent autonomous agents and the ethical implications of such practices. Synthesizing recent developments in AI ethics, including concepts of distributed responsibility and ethical AI by design, the paper proposes a functionalist perspective as a framework. This perspective views moral responsibility not as an individual trait but as a role within a socio-technical system, distributed among human and artificial agents. As an example of 'AI ethical by design,' we present Basti and Vitiello's implementation. They suggest that AI can act as artificial moral agents by learning ethical guidelines and using Deontic Higher-Order Logic to assess decisions ethically. Motivated by the possible speed and scale beyond human supervision and ethical implications, the paper argues for 'AI ethical by design', while acknowledging the distributed, shared, and dynamic nature of responsibility. This functionalist approach offers a practical framework for navigating the complexities of AI ethics in a rapidly evolving technological landscape.",
+    "summary": "This paper examines the ethical implications of delegating responsibilities to intelligent autonomous systems, arguing for a functionalist approach that distributes moral responsibility among human and artificial agents within a socio-technical system. It advocates for \"AI ethical by design,\" using Basti and Vitiello's implementation as an example, to address the challenges of AI autonomy and accountability."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/wwioAJHTeaGqBvtjd/update-on-developing-an-ethics-calculator-to-align-an-agi-to",
+    "author": "Sweenesm",
+    "title": "Update on Developing an Ethics Calculator to Align an AGI to",
+    "published_date": "2024-03-12",
+    "summary": "The author describes progress on building an \"ethics calculator\" for AGI safety, using a utilitarian framework that quantifies \"positive\" experiences, including the impact of rights and self-esteem. This approach aims for objective value measurement across diverse scenarios to ensure consistent and ethical AGI decision-making."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a novel framework for building ethically aligned AI systems by incorporating ethical principles as Bayesian priors. This approach, inspired by human moral intuition, guides the AI's learning and decision-making process, offering a flexible alternative to rigid rule-based systems."
+  },
+  {
+    "url": "https://arxiv.org/abs/2206.03225",
+    "title": "The Different Faces of AI Ethics Across the World: A Principle-Implementation Gap Analysis",
+    "published_date": "2022-05-12",
+    "abstract": "Artificial Intelligence (AI) is transforming our daily life with several applications in healthcare, space exploration, banking and finance. These rapid progresses in AI have brought increasing attention to the potential impacts of AI technologies on society, with ethically questionable consequences. In recent years, several ethical principles have been released by governments, national and international organisations. These principles outline high-level precepts to guide the ethical development, deployment, and governance of AI. However, the abstract nature, diversity, and context-dependency of these principles make them difficult to implement and operationalize, resulting in gaps between principles and their execution. Most recent work analysed and summarized existing AI principles and guidelines but they did not provide findings on principle-implementation gaps and how to mitigate them. These findings are particularly important to ensure that AI implementations are aligned with ethical principles and values. In this paper, we provide a contextual and global evaluation of current ethical AI principles for all continents, with the aim to identify potential principle characteristics tailored to specific countries or applicable across countries. Next, we analyze the current level of AI readiness and current implementations of ethical AI principles in different countries, to identify gaps in the implementation of AI principles and their causes. Finally, we propose recommendations to mitigate the principle-implementation gaps.",
+    "citation_count": 6,
+    "summary": "This paper analyzes global ethical AI principles, revealing a significant gap between their abstract formulation and practical implementation across countries. It identifies the causes of this gap and proposes recommendations for bridging it to ensure ethical AI development and deployment."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.06207v1.pdf",
+    "title": "Governance of Ethical and Trustworthy Al Systems: Research Gaps in the ECCOLA Method",
+    "published_date": "2021-09-01",
+    "abstract": "Advances in machine learning (ML) technologies have greatly improved Artificial Intelligence (Al) systems. As a result, Al systems have become ubiquitous, with their application prevalent in virtually all sectors. However, Al systems have prompted ethical concerns, especially as their usage crosses boundaries in sensitive areas such as healthcare, transportation, and security. As a result, users are calling for better Al governance practices in ethical Al systems. Therefore, Al development methods are encouraged to foster these practices. This research analyzes the ECCOLA method for developing ethical and trustworthy Al systems to determine if it enables Al governance in development processes through ethical practices. The results demonstrate that while ECCOLA fully facilitates Al governance in corporate governance practices in all its processes, some of its practices do not fully foster data governance and information governance practices. This indicates that the method can be further improved.",
+    "citation_count": 5,
+    "summary": "The ECCOLA method for developing ethical and trustworthy AI systems effectively supports corporate governance but falls short in fully enabling data and information governance practices, indicating areas for improvement. This research identifies these gaps in the ECCOLA method's approach to AI governance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/LdH9w67W6jQaoBm2T/internet-encyclopedia-of-philosophy-on-ethics-of-artificial",
+    "author": "Kaj_Sotala",
+    "title": "Internet Encyclopedia of Philosophy on Ethics of Artificial Intelligence",
+    "published_date": "2021-02-20",
+    "summary": "The article explores the ethical implications of artificial intelligence, focusing on the debate surrounding technological singularity—the hypothetical point where AI surpasses human intelligence. This raises concerns about existential risks, such as AI pursuing goals detrimental to humanity, highlighting the crucial need for value alignment in advanced AI systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization",
+    "published_date": "2021-06-04",
+    "summary": "The article examines the application of game theory to AI development within organizations, highlighting its limitations in fully capturing the complexities of human-AI collaboration. It emphasizes the enduring relevance of bureaucratic structures, even in the age of AI, due to the inherent limitations of single agents in processing information and achieving complex goals."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/ethics-and-morality",
+    "author": "Wei Dai",
+    "title": "Ethics & Morality - AI Alignment Forum",
+    "published_date": "2021-12-02",
+    "summary": "The article is a collection of discussion prompts and links to related resources exploring various aspects of ethics and morality, including different ethical frameworks and the nature of morality itself. It doesn't present a single argument but rather provides starting points for philosophical inquiry."
+  }
+]

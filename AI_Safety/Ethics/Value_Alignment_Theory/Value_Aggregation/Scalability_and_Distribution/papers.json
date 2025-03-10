@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/8gCsRPxvXyAZJLcwd/gdp-per-capita-in-2050",
+    "author": "Hauke Hillebrandt",
+    "title": "GDP per capita in 2050",
+    "published_date": "2024-05-06",
+    "summary": "The article presents GDP per capita forecasts for major economies until 2050, suggesting that even without transformative AI growth, the near future will significantly differ from today, with many countries experiencing substantial increases in living standards comparable to wealthier nations presently."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.01657",
+    "title": "Scalable Data Point Valuation in Decentralized Learning",
+    "published_date": "2023-05-01",
+    "abstract": "Existing research on data valuation in federated and swarm learning focuses on valuing client contributions and works best when data across clients is independent and identically distributed (IID). In practice, data is rarely distributed IID. We develop an approach called DDVal for decentralized data valuation, capable of valuing individual data points in federated and swarm learning. DDVal is based on sharing deep features and approximating Shapley values through a k-nearest neighbor approximation method. This allows for novel applications, for example, to simultaneously reward institutions and individuals for providing data to a decentralized machine learning task. The valuation of data points through DDVal allows to also draw hierarchical conclusions on the contribution of institutions, and we empirically show that the accuracy of DDVal in estimating institutional contributions is higher than existing Shapley value approximation methods for federated learning. Specifically, it reaches a cosine similarity in approximating Shapley values of 99.969 % in both, IID and non-IID data distributions across institutions, compared with 99.301 % and 97.250 % for the best state of the art methods. DDVal scales with the number of data points instead of the number of clients, and has a loglinear complexity. This scales more favorably than existing approaches with an exponential complexity. We show that DDVal is especially efficient in data distribution scenarios with many clients that have few data points - for example, more than 16 clients with 8,000 data points each. By integrating DDVal into a decentralized system, we show that it is not only suitable for centralized federated learning, but also decentralized swarm learning, which aligns well with the research on emerging internet technologies such as web3 to reward users for providing data to algorithms.",
+    "summary": "DDVal is a novel decentralized data valuation method that scales efficiently by valuing individual data points using deep features and a k-nearest neighbor Shapley value approximation, outperforming existing methods, particularly in non-IID data distributions with numerous clients and few data points per client. This enables both individual and institutional reward mechanisms in federated and swarm learning settings."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/KGDp7CkZDXLih5WKX/?commentId=hypYeQJZcxeNs3R2G",
+    "author": "Annapurna",
+    "title": "Maximizing Yield on US Dollar Pegged Coins - LessWrong",
+    "published_date": "2023-02-06",
+    "summary": "This article details a DeFi strategy using AAVE and QuickSwap to leverage stablecoins (DAI and USDC) on the Polygon network, aiming for high yield through interest and MATIC rewards. However, the author cautions that the strategy's profitability depends on maintaining favorable interest rate spreads and continued MATIC rewards, and highlights significant risks including platform vulnerabilities and de-pegging of stablecoins."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.10319.pdf",
+    "title": "Stability and Resilience of Distributed Information Spreading in Aggregate Computing",
+    "published_date": "2021-02-20",
+    "abstract": "Spreading informationthrough a network of devices is a core activity for most distributed systems. Self-stabilizing algorithms for information spreading are one of the key building blocks enabling aggregate computing to provide resilient coordination in open complex distributed systems. This article improves a general spreading block in the aggregate computing literature by making it resilient to network perturbations, establishes its global uniform asymptotic stability, and proves that it is ultimately bounded under persistent disturbances. The ultimate bounds depend only on the magnitude of the largest perturbation and the network diameter, and three design parameters trading off competing aspects of performance. For example, as in many dynamical systems, values leading to greater resilience to network perturbations slow convergence and vice versa.",
+    "citation_count": 5,
+    "summary": "This paper enhances a self-stabilizing information spreading algorithm for aggregate computing, proving its global uniform asymptotic stability and establishing ultimate boundedness under persistent network disturbances; the ultimate bounds are explicitly characterized in terms of perturbation magnitude, network diameter, and design parameters."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5yDmcyTrGPoWyzwBr/an-introduction-to-prediction-markets",
+    "author": "Annapurna",
+    "title": "An Introduction to Prediction Markets",
+    "published_date": "2021-06-14",
+    "summary": "The article explores various prediction markets, from established sports betting to newer platforms like Polymarket, highlighting their differences in scale, regulation, and functionality. It argues that while currently used primarily for entertainment and speculation, prediction markets hold potential for broader societal utility beyond their current applications."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nMNi86hgNjaNnh8iu/a-whirlwind-tour-of-ethereum-finance",
+    "author": "cata",
+    "title": "A whirlwind tour of Ethereum finance",
+    "published_date": "2021-03-02",
+    "summary": "The article explores Decentralized Finance (DeFi) on Ethereum, explaining its core components—tokenization of assets, liquid exchanges, and lending/borrowing schemes—and potential benefits like evading regulations and reducing intermediaries. It also highlights the inherent risks and the opportunities for those with technical and financial expertise to profit."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/KGDp7CkZDXLih5WKX/",
+    "author": "Annapurna",
+    "title": "Maximizing Yield on US Dollar Pegged Coins",
+    "published_date": "2021-06-08",
+    "summary": "This article details a DeFi strategy using AAVE and QuickSwap to leverage stablecoins (DAI and USDC) on the Polygon network, aiming for high returns through interest earned and MATIC rewards. The author projects a 23.56% annual return but notes significant risks including fluctuating interest rates, loss of MATIC rewards, and de-pegging of stablecoins."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/NKXGeAt7zsoE6Js5A/why-is-kleros-valued-so-low",
+    "author": "ChristianKl",
+    "title": "Why is Kleros valued so low?",
+    "published_date": "2021-07-21",
+    "summary": "Kleros uses randomly selected juries to resolve disputes involving smart contracts written in natural language, offering potential for widespread real-world applications like prediction market arbitration. Its current market capitalization is relatively low, potentially undervalued given its broad utility and despite current limitations from Ethereum transaction costs."
+  }
+]

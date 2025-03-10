@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2501.09674",
+    "title": "Authenticated Delegation and Authorized AI Agents",
+    "published_date": "2025-01-16",
+    "abstract": "The rapid deployment of autonomous AI agents creates urgent challenges around authorization, accountability, and access control in digital spaces. New standards are needed to know whom AI agents act on behalf of and guide their use appropriately, protecting online spaces while unlocking the value of task delegation to autonomous agents. We introduce a novel framework for authenticated, authorized, and auditable delegation of authority to AI agents, where human users can securely delegate and restrict the permissions and scope of agents while maintaining clear chains of accountability. This framework builds on existing identification and access management protocols, extending OAuth 2.0 and OpenID Connect with agent-specific credentials and metadata, maintaining compatibility with established authentication and web infrastructure. Further, we propose a framework for translating flexible, natural language permissions into auditable access control configurations, enabling robust scoping of AI agent capabilities across diverse interaction modalities. Taken together, this practical approach facilitates immediate deployment of AI agents while addressing key security and accountability concerns, working toward ensuring agentic AI systems perform only appropriate actions and providing a tool for digital service providers to enable AI agent interactions without risking harm from scalable interaction."
+  },
+  {
+    "url": "https://arxiv.org/abs/2501.05626",
+    "title": "Kite: How to Delegate Voting Power Privately",
+    "published_date": "2025-01-09",
+    "abstract": "Ensuring the privacy of votes in an election is crucial for the integrity of a democratic process. Often, voting power is delegated to representatives (e.g., in congress) who subsequently vote on behalf of voters on specific issues. This delegation model is also widely used in Decentralized Autonomous Organizations (DAOs). Although several existing voting systems used in DAOs support private voting, they only offer public delegation. In this paper, we introduce Kite, a new protocol that enables $\\textit{private}$ delegation of voting power for DAO members. Voters can freely delegate, revoke, and re-delegate their power without revealing any information about who they delegated to. Even the delegate does not learn who delegated to them. The only information that is recorded publicly is that the voter delegated or re-delegated their vote to someone. Kite accommodates both public and private voting for the delegates themselves. We analyze the security of our protocol within the Universal Composability (UC) framework. We implement Kite as an extension to the existing Governor Bravo smart contract on the Ethereum blockchain, that is widely used for DAO governance. Furthermore, we provide an evaluation of our implementation that demonstrates the practicality of the protocol. The most expensive operation is delegation due to the required zero-knowledge proofs. On a consumer-grade laptop, delegation takes between 7 and 167 seconds depending on the requested level of privacy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.15147",
+    "title": "Delegating Responsibilities to Intelligent Autonomous Systems: Challenges and Benefits",
+    "published_date": "2024-11-06",
+    "abstract": "As AI systems increasingly operate with autonomy and adaptability, the traditional boundaries of moral responsibility in techno-social systems are being challenged. This paper explores the evolving discourse on the delegation of responsibilities to intelligent autonomous agents and the ethical implications of such practices. Synthesizing recent developments in AI ethics, including concepts of distributed responsibility and ethical AI by design, the paper proposes a functionalist perspective as a framework. This perspective views moral responsibility not as an individual trait but as a role within a socio-technical system, distributed among human and artificial agents. As an example of 'AI ethical by design,' we present Basti and Vitiello's implementation. They suggest that AI can act as artificial moral agents by learning ethical guidelines and using Deontic Higher-Order Logic to assess decisions ethically. Motivated by the possible speed and scale beyond human supervision and ethical implications, the paper argues for 'AI ethical by design', while acknowledging the distributed, shared, and dynamic nature of responsibility. This functionalist approach offers a practical framework for navigating the complexities of AI ethics in a rapidly evolving technological landscape."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.14701v4",
+    "title": "Permissionless Consensus",
+    "published_date": "2023-04-28",
+    "abstract": "Blockchain protocols typically aspire to run in the permissionless setting, in which nodes are owned and operated by a large number of diverse and unknown entities, with each node free to start or stop running the protocol at any time. This setting is more challenging than the traditional permissioned setting, in which the set of nodes that will be running the protocol is fixed and known at the time of protocol deployment. The goal of this paper is to provide a framework for reasoning about the rich design space of blockchain protocols and their capabilities and limitations in the permissionless setting. We propose a hierarchy of settings with different\"degrees of permissionlessness\", specified by the amount of knowledge that a protocol has about the current participants: These are the fully permissionless, dynamically available and quasi-permissionless settings. The paper also proves several results illustrating the utility of our analysis framework for reasoning about blockchain protocols in these settings. For example: (1) In the fully permissionless setting, even with synchronous communication and with severe restrictions on the total size of the Byzantine players, every deterministic protocol for Byzantine agreement has a non-terminating execution. (2) In the dynamically available and partially synchronous setting, no protocol can solve the Byzantine agreement problem with high probability, even if there are no Byzantine players at all. (3) In the quasi-permissionless and partially synchronous setting, by contrast, assuming a bound on the total size of the Byzantine players, there is a deterministic protocol solving state machine replication. (4) In the quasi-permissionless and synchronous setting, every proof-of-stake state machine replication protocol that uses only time-malleable cryptographic primitives is vulnerable to long-range attacks.",
+    "citation_count": 9
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.01243",
+    "title": "Revisiting MAB based approaches to recursive delegation",
+    "published_date": "2023-11-02",
+    "abstract": "In this paper we examine the effectiveness of several multi-arm bandit algorithms when used as a trust system to select agents to delegate tasks to. In contrast to existing work, we allow for recursive delegation to occur. That is, a task delegated to one agent can be delegated onwards by that agent, with further delegation possible until some agent finally executes the task. We show that modifications to the standard multi-arm bandit algorithms can provide improvements in performance in such recursive delegation settings."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/pHJtLHcWvfGbsW7LR/roadmap-for-a-collaborative-prototype-of-an-open-agency",
+    "author": "Deger Turan",
+    "title": "Roadmap for a collaborative prototype of an Open Agency Architecture",
+    "published_date": "2023-05-10"
+  }
+]

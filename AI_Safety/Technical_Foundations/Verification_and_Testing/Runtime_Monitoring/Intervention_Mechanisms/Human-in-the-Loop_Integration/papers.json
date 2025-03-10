@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2412.14232",
+    "title": "Human-in-the-loop or AI-in-the-loop? Automate or Collaborate?",
+    "published_date": "2024-12-18",
+    "abstract": "Human-in-the-loop (HIL) systems have emerged as a promising approach for combining the strengths of data-driven machine learning models with the contextual understanding of human experts. However, a deeper look into several of these systems reveals that calling them HIL would be a misnomer, as they are quite the opposite, namely AI-in-the-loop ($AI^2L$) systems, where the human is in control of the system, while the AI is there to support the human. We argue that existing evaluation methods often overemphasize the machine (learning) component's performance, neglecting the human expert's critical role. Consequently, we propose an $AI^2L$ perspective, which recognizes that the human expert is an active participant in the system, significantly influencing its overall performance. By adopting an $AI^2L$ approach, we can develop more comprehensive systems that faithfully model the intricate interplay between the human and machine components, leading to more effective and robust AI systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/F24kibEdEvRSo7PFi/human-ai-complementarity-a-goal-for-amplified-oversight",
+    "author": "rishubjain",
+    "title": "Human-AI Complementarity: A Goal for Amplified Oversight",
+    "published_date": "2024-12-24"
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.00582",
+    "title": "Design Patterns for Machine Learning-Based Systems With Humans in the Loop",
+    "published_date": "2023-12-01",
+    "abstract": "Human involvement in machine learning (ML) is a promising paradigm to overcome the limitations of purely automated predictions and improve the applicability of ML. We compile a catalog of design patterns to guide developers to select and implement human-in-the-loop solutions. OOP PATTERNS",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.02944",
+    "title": "Learning Complementary Policies for Human-AI Teams",
+    "published_date": "2023-02-06",
+    "abstract": "Human-AI complementarity is important when neither the algorithm nor the human yields dominant performance across all instances in a given context. Recent work that explored human-AI collaboration has considered decisions that correspond to classification tasks. However, in many important contexts where humans can benefit from AI complementarity, humans undertake course of action. In this paper, we propose a framework for a novel human-AI collaboration for selecting advantageous course of action, which we refer to as Learning Complementary Policy for Human-AI teams (\\textsc{lcp-hai}). Our solution aims to exploit the human-AI complementarity to maximize decision rewards by learning both an algorithmic policy that aims to complement humans by a routing model that defers decisions to either a human or the AI to leverage the resulting complementarity. We then extend our approach to leverage opportunities and mitigate risks that arise in important contexts in practice: 1) when a team is composed of multiple humans with differential and potentially complementary abilities, 2) when the observational data includes consistent deterministic actions, and 3) when the covariate distribution of future decisions differ from that in the historical data. We demonstrate the effectiveness of our proposed methods using data on real human responses and semi-synthetic, and find that our methods offer reliable and advantageous performance across setting, and that it is superior to when either the algorithm or the AI make decisions on their own. We also find that the extensions we propose effectively improve the robustness of the human-AI collaboration performance in the presence of different challenging settings.",
+    "citation_count": 5
+  },
+  {
+    "title": "Toward Understanding the Design of Intertwined Human–Computer Integrations",
+    "abstract": "Human–computer integration is an HCI trend in which computational machines can have agency, i.e., take control. Our work focuses on a particular form of integration in which the user and the computational machine share agency over the user's body, that is, can simultaneously (in contrast to a traditional turn-taking approach) control the user's body. The result is a user experience where the agency of the user and the computational machine is so intertwined that it is often no more discernable who contributed what to what extent; we call this “intertwined integration”. Due to the recency of advanced technologies enabling intertwined integration systems, we find that little understanding and documented design knowledge exist. To begin constructing such an understanding, we use three case studies to propose two key dimensions (“awareness of machine's agency” and “alignment of machine's agency”) to articulate a design space for intertwined integration systems. We differentiate four roles that computational machines can assume in this design space (angel, butler, influencer, and adversary). Based on our craft knowledge gained through designing such intertwined integration systems, we discuss strategies to help designers create future systems. Ultimately, we aim at advancing the HCI field's emerging understanding of sharing agency.",
+    "published_date": "2023-04-05",
+    "citation_count": 17,
+    "url": "https://dl.acm.org/doi/10.1145/3590766?cookieSet=1"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07"
+  }
+]

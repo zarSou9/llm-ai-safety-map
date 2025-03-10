@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/8gCsRPxvXyAZJLcwd/gdp-per-capita-in-2050",
+    "author": "Hauke Hillebrandt",
+    "title": "GDP per capita in 2050",
+    "published_date": "2024-05-06",
+    "summary": "The article presents GDP per capita forecasts for major economies until 2050, arguing that even without transformative AI growth, the projected increases suggest a significantly different world by 2050 compared to today, with substantial improvements in living standards for many populations."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.02806.pdf",
+    "title": "Improving the stability of temporal statistics in transition path theory with sparse data.",
+    "published_date": "2023-01-30",
+    "abstract": "Ulam's method is a popular discretization scheme for stochastic operators that involves the construction of a transition probability matrix controlling a Markov chain on a set of cells covering some domain. We consider an application to satellite-tracked undrogued surface-ocean drifting buoy trajectories obtained from the National Oceanic and Atmospheric Administration Global Drifter Program dataset. Motivated by the motion of Sargassum in the tropical Atlantic, we apply Transition Path Theory (TPT) to drifters originating off the west coast of Africa to the Gulf of Mexico. We find that the most common case of a regular covering by equal longitude-latitude side cells can lead to a large instability in the computed transition times as a function of the number of cells used. We propose a different covering based on a clustering of the trajectory data that is stable against the number of cells in the covering. We also propose a generalization of the standard transition time statistic of TPT that can be used to construct a partition of the domain of interest into weakly dynamically connected regions.",
+    "citation_count": 1,
+    "summary": "This paper addresses instability issues in Transition Path Theory (TPT) calculations using sparse data, specifically analyzing ocean drifter trajectories. It proposes a novel clustering-based discretization method and a generalized transition time statistic to improve the stability and accuracy of TPT results."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.10276.pdf",
+    "title": "Diffusion Methods for Generating Transition Paths",
+    "published_date": "2023-09-19",
+    "abstract": "In this work, we seek to simulate rare transitions between metastable states using score-based generative models. An efficient method for generating high-quality transition paths is valuable for the study of molecular systems since data is often difficult to obtain. We develop two novel methods for path generation in this paper: a chain-based approach and a midpoint-based approach. The first biases the original dynamics to facilitate transitions, while the second mirrors splitting techniques and breaks down the original transition into smaller transitions. Numerical results of generated transition paths for the M\\\"uller potential and for Alanine dipeptide demonstrate the effectiveness of these approaches in both the data-rich and data-scarce regimes.",
+    "citation_count": 4,
+    "summary": "This paper introduces two novel score-based diffusion methods—a chain-based and a midpoint-based approach—for efficiently generating molecular transition paths, overcoming data scarcity challenges by biasing dynamics or splitting transitions into smaller steps. Results on the Müller potential and Alanine dipeptide demonstrate the methods' effectiveness."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2209.06055.pdf",
+    "title": "Exploring the use of Transition Path Theory in building an oil spill prediction scheme",
+    "published_date": "2022-09-13",
+    "abstract": "The Transition Path Theory (TPT) of complex systems has proven to be a robust means to statistically characterize the ensemble of trajectories that connect any two preset flow regions, say 𝒜 and ℬ, directly. More specifically, transition paths are such that they start in 𝒜 and then go to ℬ without detouring back to 𝒜 or ℬ. This way, they make an effective contribution to the transport from 𝒜 to ℬ. Here, we explore its use for building a scheme that enables predicting the evolution of an oil spill in the ocean. This involves appropriately adapting TPT such that it includes a reservoir that pumps oil into a typically open domain. Additionally, we lift up the restriction of the oil not to return to the spill site en route to a region that is targeted to be protected. TPT is applied on oil trajectories available up to the present, e.g., as integrated using velocities produced by a data assimilative system or as inferred from high-frequency radars, to make a prediction of transition oil paths beyond, without relying on forecasted oil trajectories. As a proof of concept, we consider a hypothetical oil spill in the Trion oil field, under development within the Perdido Foldbelt in the northwestern Gulf of Mexico, and the Deepwater Horizon oil spill. This is done using trajectories integrated from climatological and hindcast surface velocity and winds as well as produced by satellite-tracked surface drifting buoys, in each case discretized into a Markov chain that provides a framework for the TPT-based prediction.",
+    "citation_count": 3,
+    "summary": "This paper proposes using Transition Path Theory (TPT) to predict oil spill trajectories, adapting the method to account for continuous oil release and potential returns to the spill site. The authors demonstrate the approach using hypothetical and real-world oil spill scenarios, leveraging existing trajectory data to predict future oil movement without relying on forecast trajectories."
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.13176",
+    "title": "The Fate of the American Dream: A First Passage Under Resetting Approach to Income Dynamics",
+    "published_date": "2022-12-26",
+    "abstract": "Detailed knowledge of individual income dynamics is crucial for investigating the existence of the American dream: Are we able to improve our income status during our working life? This key question simply boils down to observing individual status and how it moves between two thresholds: the current income and the desired income. Yet, our knowledge of these temporal properties of income remains limited since we rely on estimates coming from transition matrices which simplify income dynamics by aggregating the individual changes into quantiles and thus overlooking significant microscopic variations. Here, we bridge this gap by employing First Passage Time concepts in a baseline stochastic process with resetting used for modeling income dynamics and developing a framework that is able to crucially disaggregate the temporal properties of income to the level of an individual worker. We find analytically and illustrate numerically that our framework is orthogonal to the transition matrix approach and leads to improved and more granular estimates. Moreover, to facilitate empirical applications of the framework, we introduce a publicly available statistical methodology, and showcase the application using the USA income dynamics data. These results help to improve our understanding on the temporal properties of income in real economies and provide a set of tools for designing policy interventions.",
+    "citation_count": 2,
+    "summary": "This paper introduces a novel first-passage time framework with resetting to analyze individual income dynamics, offering a more granular and accurate alternative to traditional transition matrix methods by disaggregating income changes at the individual level. The resulting methodology, implemented using US income data and made publicly available, provides improved estimates of income mobility and informs policy design."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.01097.pdf",
+    "title": "A General Methodology to Measure Labour Market Dynamics",
+    "published_date": "2021-04-02",
+    "abstract": "We propose a general methodology to measure labour market dynamics, inspired by the search and matching framework, based on the estimate of the transition rates between labour market states. We show how to estimate instantaneous transition rates starting from discrete time observations provided in longitudinal datasets, allowing for any number of states. We illustrate the potential of such methodology using Italian labour market data. First, we decompose the unemployment rate fluctuations into inflow and outflow driven components; then, we evaluate the impact of the implementation of a labour market reform, which substantially changed the regulations of temporary contracts.",
+    "summary": "This paper presents a general methodology for measuring labor market dynamics by estimating transition rates between different labor market states using longitudinal data. The method is demonstrated by analyzing Italian labor market data to decompose unemployment fluctuations and assess the impact of a labor market reform."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06",
+    "summary": "A standard model of COVID-19 transmission fails to explain the surprisingly similar infection rates across US states despite varying policy responses. A proposed \"vulnerability model,\" which posits fluctuating individual susceptibility to infection, better accounts for the observed data and avoids the inconsistencies of the standard model."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2011.03695.pdf",
+    "title": "Endogenous structural transformation in economic development.",
+    "published_date": "2020-11-07",
+    "abstract": "The structures, including technologies, industries, infrastructure and institutions, in a country have three attributes, namely, structurality, durationality, and transformality. The paper proposes a novel method to model the structural transformation in a market economy. With the common knowledge assumption, the paper proposes a generic model combining optimal control and optimal switching to study the static equilibrium and dynamic equilibrium of resource allocations under a given industrial structure and the equilibrium when the condition for transforming industrial structures arises by a social planner to maximize the representative household's utility in a market economy. The paper establishes the mathematical underpinning of the static equilibrium, dynamic equilibrium and structural equilibrium. The generic model and its equilibria are then extended to economies with complicated economic structures consisting of hierarchical production, composite consumption, technology adoption and innovation, infrastructure, and economic and political institutions. The paper concludes with a brief discussion of applications of the proposed methodology to economic development problems in other scenarios.",
+    "summary": "This paper develops a novel model of endogenous structural transformation in market economies, using optimal control and optimal switching to analyze resource allocation and industrial structure changes that maximize household utility. The model accounts for various complexities including hierarchical production, technology adoption, and institutional factors."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/CDq4sraQ6h3DMimki/effective-epidemiology",
+    "author": "Mike Harris",
+    "title": "Effective Epidemiology",
+    "published_date": "2020-10-22",
+    "summary": "This article argues against complete COVID-19 suppression strategies, proposing instead a sustainable level of infections and restrictions until a vaccine is available. The author uses a cost-benefit analysis, incorporating economic and health impacts (measured in QALYs), to compare the costs of herd immunity versus prolonged lockdown."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/vnseRoExq9BCK2NRZ/fhi-paper-on-covid-19-government-countermeasures",
+    "author": "jacobjacob",
+    "title": "FHI paper on COVID-19 government countermeasures",
+    "published_date": "2020-06-04",
+    "summary": "A large-scale study of 41 countries found that closing schools and limiting gatherings significantly reduced COVID-19 transmission, while closing most nonessential businesses yielded less impact relative to the burden imposed; results were robust across sensitivity analyses and held-out data."
+  }
+]

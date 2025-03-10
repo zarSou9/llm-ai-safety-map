@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2010.14497v1",
+    "title": "Conservative Safety Critics for Exploration",
+    "published_date": "2020-10-27",
+    "abstract": "Safe exploration presents a major challenge in reinforcement learning (RL): when active data collection requires deploying partially trained policies, we must ensure that these policies avoid catastrophically unsafe regions, while still enabling trial and error learning. In this paper, we target the problem of safe exploration in RL by learning a conservative safety estimate of environment states through a critic, and provably upper bound the likelihood of catastrophic failures at every training iteration. We theoretically characterize the tradeoff between safety and policy improvement, show that the safety constraints are likely to be satisfied with high probability during training, derive provable convergence guarantees for our approach, which is no worse asymptotically than standard RL, and demonstrate the efficacy of the proposed approach on a suite of challenging navigation, manipulation, and locomotion tasks. Empirically, we show that the proposed approach can achieve competitive task performance while incurring significantly lower catastrophic failure rates during training than prior methods. Videos are at this url this https URL",
+    "citation_count": 127
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.14339v1",
+    "title": "Efficient Exploration Using Extra Safety Budget in Constrained Policy Optimization",
+    "published_date": "2023-02-28",
+    "abstract": "Reinforcement learning (RL) has achieved promising results on most robotic control tasks. Safety of learning-based controllers is an essential notion of ensuring the effectiveness of the controllers. Current methods adopt whole consistency constraints during the training, thus resulting in inefficient exploration in the early stage. In this paper, we propose an algorithm named Constrained Policy Optimization with Extra Safety Budget (ESB-CPO) to strike a balance between the exploration efficiency and the constraints satis-faction. In the early stage, our method loosens the practical constraints of unsafe transitions (adding extra safety bud-get) with the aid of a new metric we propose. With the training process, the constraints in our optimization problem become tighter. Meanwhile, theoretical analysis and practical experiments demonstrate that our method gradually meets the cost limit's demand in the final training stage. When evaluated on Safety-Gym and Bullet-Safety-Gym benchmarks, our method has shown its advantages over baseline algorithms in terms of safety and optimality. Remarkably, our method gains remarkable performance improvement under the same cost limit compared with baselines."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.11314",
+    "title": "Safeguarded Progress in Reinforcement Learning: Safe Bayesian Exploration for Control Policy Synthesis",
+    "published_date": "2023-12-18",
+    "abstract": "This paper addresses the problem of maintaining safety during training in Reinforcement Learning (RL), such that the safety constraint violations are bounded at any point during learning. As enforcing safety during training might severely limit the agent's exploration, we propose here a new architecture that handles the trade-off between efficient progress and safety during exploration. As the exploration progresses, we update via Bayesian inference Dirichlet-Categorical models of the transition probabilities of the Markov decision process that describes the environment dynamics. We then propose a way to approximate moments of belief about the risk associated to the action selection policy. We demonstrate that this approach can be easily interleaved with RL and we present experimental results to showcase the performance of the overall architecture.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2110.13060v1.pdf",
+    "title": "Uniformly Conservative Exploration in Reinforcement Learning",
+    "published_date": "2021-10-25",
+    "abstract": "A key challenge to deploying reinforcement learning in practice is avoiding excessive (harmful) exploration in individual episodes. We propose a natural constraint on exploration -- \\textit{uniformly} outperforming a conservative policy (adaptively estimated from all data observed thus far), up to a per-episode exploration budget. We design a novel algorithm that uses a UCB reinforcement learning policy for exploration, but overrides it as needed to satisfy our exploration constraint with high probability. Importantly, to ensure unbiased exploration across the state space, our algorithm adaptively determines when to explore. We prove that our approach remains conservative while minimizing regret in the tabular setting. We experimentally validate our results on a sepsis treatment task and an HIV treatment task, demonstrating that our algorithm can learn while ensuring good performance compared to the baseline policy for every patient; the latter task also demonstrates that our approach extends to continuous state spaces via deep reinforcement learning.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2002.10126v1.pdf",
+    "title": "Safe reinforcement learning for probabilistic reachability and safety specifications: A Lyapunov-based approach",
+    "published_date": "2020-02-24",
+    "abstract": "Emerging applications in robotics and autonomous systems, such as autonomous driving and robotic surgery, often involve critical safety constraints that must be satisfied even when information about system models is limited. In this regard, we propose a model-free safety specification method that learns the maximal probability of safe operation by carefully combining probabilistic reachability analysis and safe reinforcement learning (RL). Our approach constructs a Lyapunov function with respect to a safe policy to restrain each policy improvement stage. As a result, it yields a sequence of safe policies that determine the range of safe operation, called the safe set, which monotonically expands and gradually converges. We also develop an efficient safe exploration scheme that accelerates the process of identifying the safety of unexamined states. Exploiting the Lyapunov shielding, our method regulates the exploratory policy to avoid dangerous states with high confidence. To handle high-dimensional systems, we further extend our approach to deep RL by introducing a Lagrangian relaxation technique to establish a tractable actor-critic algorithm. The empirical performance of our method is demonstrated through continuous control benchmark problems, such as a reaching task on a planar robot arm.",
+    "citation_count": 19
+  },
+  {
+    "url": "https://arxiv.org/pdf/2002.03218v1.pdf",
+    "title": "Conservative Exploration in Reinforcement Learning",
+    "published_date": "2020-02-01",
+    "abstract": "While learning in an unknown Markov Decision Process (MDP), an agent should trade off exploration to discover new information about the MDP, and exploitation of the current knowledge to maximize the reward. Although the agent will eventually learn a good or optimal policy, there is no guarantee on the quality of the intermediate policies. This lack of control is undesired in real-world applications where a minimum requirement is that the executed policies are guaranteed to perform at least as well as an existing baseline. In this paper, we introduce the notion of conservative exploration for average reward and finite horizon problems. We present two optimistic algorithms that guarantee (w.h.p.) that the conservative constraint is never violated during learning. We derive regret bounds showing that being conservative does not hinder the learning ability of these algorithms.",
+    "citation_count": 27
+  }
+]

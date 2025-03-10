@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Quickly Generating Diverse Valid Test Inputs with Reinforcement Learning",
+    "abstract": "Property-based testing is a popular approach for validating the logic of a program. An effective property-based test quickly generates many diverse valid test inputs and runs them through a parameterized test driver. However, when the test driver requires strict validity constraints on the inputs, completely random input generation fails to generate enough valid inputs. Existing approaches to solving this problem rely on whitebox or greybox information collected by instrumenting the input generator and/or test driver. However, collecting such information reduces the speed at which tests can be executed. In this paper, we propose and study a black-box approach for generating valid test inputs. We first formalize the problem of guiding random input generators towards producing a diverse set of valid inputs. This formalization highlights the role of a guide which governs the space of choices within a random input generator. We then propose a solution based on reinforcement learning (RL), using a tabular, on-policy RL approach to guide the generator. We evaluate this approach, RLCheck, against pure random input generation as well as a state-of-the-art greybox evolutionary algorithm, on four real-world benchmarks. We find that in the same time budget, RLCheck generates an order of magnitude more diverse valid inputs than the baselines.",
+    "published_date": "2020-06-27",
+    "citation_count": 41,
+    "url": "https://dl.acm.org/doi/10.1145/3377811.3380399"
+  },
+  {
+    "title": "Learning by Exploration: New Challenges in Real-World Environments",
+    "abstract": "Learning is a predominant theme for any intelligent system, humans, or machines. Moving beyond the classical paradigm of learning from past experience, e.g., offline supervised learning from given labels, a learner needs to actively collect exploratory feedback to learn from the unknowns, i.e., learning through exploration. This tutorial will introduce the learning by exploration paradigm, which is the key ingredient in many interactive online learning problems, including the multi-armed bandit and, more generally, reinforcement learning problems. In this tutorial, we will first motivate the need for exploration in machine learning algorithms and highlight its importance in many real-world problems where online sequential decision making is involved. In real-world application scenarios, considerable challenges arise in such a learning problem, including sample complexity, costly and even outdated feedback, and ethical considerations of exploration (such as fairness and privacy). We will introduce several classical exploration strategies and then highlight the aforementioned three fundamental challenges in the learning from exploration paradigm and introduce the recent research development on addressing them, respectively.",
+    "published_date": "2020-07-06",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3394486.3406484"
+  },
+  {
+    "title": "Understanding exploration in humans and machines by formalizing the function of curiosity",
+    "abstract": "Recent work in machine learning has demonstrated the benefits of providing artificial agents with a sense of curiosity – a form of intrinsic reward that supports exploration. Two strategies have emerged for defining these rewards: favoring novelty and pursuing prediction errors. Psychological theories of curiosity have also emphasized these two factors. We show how these two literatures can be connected by understanding the function of curiosity, which requires thinking about the abstract computational problem that bothhumans and machines face as they explore their world",
+    "published_date": "2020-07-23",
+    "citation_count": 16,
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352154620301108"
+  },
+  {
+    "title": "Learning Navigation Behaviors End-to-End With AutoRL",
+    "abstract": "We learn end-to-end point-to-point and path-following navigation behaviors that avoid moving obstacles. These policies receive noisy lidar observations and output robot linear and angular velocities. The policies are trained in small, static environments with AutoRL, an evolutionary automation layer around reinforcement learning (RL) that searches for a deep RL reward and neural network architecture with large-scale hyper-parameter optimization. AutoRL first finds a reward that maximizes task completion and then finds a neural network architecture that maximizes the cumulative of the found reward. Empirical evaluations, both in simulation and on-robot, show that AutoRL policies do not suffer from the catastrophic forgetfulness that plagues many other deep reinforcement learning algorithms, generalize to new environments and moving obstacles, are robust to sensor, actuator, and localization noise, and can serve as robust building blocks for larger navigation tasks. Our path-following and point-to-point policies are, respectively, 23% and 26% more successful than comparison methods across new environments.",
+    "published_date": "2018-09-26",
+    "citation_count": 230,
+    "url": "https://ieeexplore.ieee.org/document/8643443/"
+  }
+]

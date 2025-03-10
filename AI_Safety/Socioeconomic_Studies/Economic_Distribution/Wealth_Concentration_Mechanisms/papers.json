@@ -1,0 +1,78 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/bmmFLoBAWGnuhnqq5/capital-ownership-will-not-prevent-human-disempowerment",
+    "author": "beren",
+    "title": "Capital Ownership Will Not Prevent Human Disempowerment",
+    "published_date": "2025-01-05",
+    "summary": "The author argues that, contrary to common assumptions, simply owning capital will not guarantee humanity's continued dominance in a future AI-driven economy. Drawing a parallel to the Industrial Revolution's displacement of the landowning aristocracy, the author suggests that shifts in the nature of capital and the emergence of new, more productive economic paradigms will likely erode the power of existing capital holders."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.13138",
+    "title": "Visibility into AI Agents",
+    "published_date": "2024-01-23",
+    "abstract": "Increased delegation of commercial, scientific, governmental, and personal activities to AI agents—systems capable of pursuing complex goals with limited supervision—may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.",
+    "citation_count": 12,
+    "summary": "This paper examines methods to increase transparency (\"visibility\") in AI agent usage, focusing on agent identifiers, real-time monitoring, and activity logging, while considering implementation challenges, privacy implications, and power dynamics across various deployment contexts. The authors propose these measures as crucial for mitigating societal risks associated with increasing AI agent autonomy."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.12321",
+    "title": "The outcomes of generative AI are exactly the Nash equilibria of a non-potential game",
+    "published_date": "2024-01-22",
+    "abstract": "In this article we show that the asymptotic outcomes of both shallow and deep neural networks such as those used in BloombergGPT to generate economic time series are exactly the Nash equilibria of a non-potential game. We then design and analyze deep neural network algorithms that converge to these equilibria. The methodology is extended to federated deep neural networks between clusters of regional servers and on-device clients. Finally, the variational inequalities behind large language models including encoder-decoder related transformers are established.",
+    "citation_count": 1,
+    "summary": "The paper demonstrates that generative AI outputs, from shallow to deep neural networks, correspond to Nash equilibria of a non-potential game. It further develops algorithms for deep neural networks to converge to these equilibria, extending the analysis to federated learning scenarios and large language models."
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.01545",
+    "title": "In the Shadow of Smith's Invisible Hand: Risks to Economic Stability and Social Wellbeing in the Age of Intelligence",
+    "published_date": "2024-04-22",
+    "abstract": "Work is fundamental to societal prosperity and mental health, providing financial security, identity, purpose, and social integration. The emergence of generative artificial intelligence (AI) has catalysed debate on job displacement. Some argue that many new jobs and industries will emerge to offset the displacement, while others foresee a widespread decoupling of economic productivity from human input threatening jobs on an unprecedented scale. This study explores the conditions under which both may be true and examines the potential for a self-reinforcing cycle of recessionary pressures that would necessitate sustained government intervention to maintain job security and economic stability. A system dynamics model was developed to undertake ex ante analysis of the effect of AI-capital deepening on labour underutilisation and demand in the economy. Results indicate that even a moderate increase in the AI-capital-to-labour ratio could increase labour underutilisation to double its current level, decrease per capita disposable income by 26% (95% interval, 20.6% - 31.8%), and decrease the consumption index by 21% (95% interval, 13.6% - 28.3%) by mid-2050. To prevent a reduction in per capita disposable income due to the estimated increase in underutilization, at least a 10.8-fold increase in the new job creation rate would be necessary. Results demonstrate the feasibility of an AI-capital- to-labour ratio threshold beyond which even high rates of new job creation cannot prevent declines in consumption. The precise threshold will vary across economies, emphasizing the urgent need for empirical research tailored to specific contexts. This study underscores the need for governments, civic organisations, and business to work together to ensure a smooth transition to an AI- dominated economy to safeguard the Mental Wealth of nations.",
+    "citation_count": 2,
+    "summary": "Using a system dynamics model, this study finds that even moderate increases in AI adoption could drastically increase labor underutilization and decrease disposable income by mid-century, highlighting the urgent need for proactive government intervention and job creation to mitigate potential economic instability. The study also suggests a potential threshold beyond which job creation alone cannot prevent economic decline."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mXD53GFvMCWQhcCwt/distinguishing-ways-ai-can-be-concentrated",
+    "author": "Matthew Barnett",
+    "title": "Distinguishing ways AI can be \"concentrated\"",
+    "published_date": "2024-10-21",
+    "summary": "The article argues that discussions of AI concentration lack clarity, proposing three distinct dimensions: concentration of AI development, service provisioning, and control over AI services. These dimensions are independent and crucial for accurately predicting AI's trajectory and informing policy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.11342",
+    "title": "Exploring Antitrust and Platform Power in Generative AI",
+    "published_date": "2023-06-20",
+    "abstract": "The concentration of power in a few digital technology companies has become a subject of increasing interest in both academic and non-academic discussions. One of the most noteworthy contributions to the debate is Lina Khan's Amazon's Antitrust Paradox. In this work, Khan contends that Amazon has systematically exerted its dominance in online retail to eliminate competitors and subsequently charge above-market prices. This work contributed to Khan's appointment as the chair of the US Federal Trade Commission (FTC), one of the most influential antitrust organisations. Today, several ongoing antitrust lawsuits in the US and Europe involve major technology companies like Apple, Google/Alphabet, and Facebook/Meta. In the realm of generative AI, we are once again witnessing the same companies taking the lead in technological advancements, leaving little room for others to compete. This article examines the market dominance of these corporations in the technology stack behind generative AI from an antitrust law perspective.",
+    "summary": "This paper analyzes the antitrust implications of the concentrated power of a few major tech companies in the generative AI market, arguing that their dominance in the underlying technology stack mirrors past anti-competitive practices. Concerns parallel those raised in Lina Khan's work on Amazon, highlighting potential for market manipulation and suppression of competition."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "This article explores applying game theory to AI development within organizational structures, highlighting the limitations of a purely game-theoretic approach and advocating for a model that integrates the principles of bureaucracy, including hierarchical authority and job specialization, to leverage both human and AI capabilities for efficient goal achievement. The authors emphasize the continued necessity of organizational structures, even with advanced AI, due to inherent limitations in processing information and solving complex problems."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.11441v1.pdf",
+    "title": "Human-centered mechanism design with Democratic AI",
+    "published_date": "2022-01-27",
+    "abstract": "Building artificial intelligence (AI) that aligns with human values is an unsolved problem. Here, we developed a human-in-the-loop research pipeline called Democratic AI, in which reinforcement learning is used to design a social mechanism that humans prefer by majority. A large group of humans played an online investment game that involved deciding whether to keep a monetary endowment or to share it with others for collective benefit. Shared revenue was returned to players under two different redistribution mechanisms, one designed by the AI and the other by humans. The AI discovered a mechanism that redressed initial wealth imbalance, sanctioned free riders, and successfully won the majority vote. By optimizing for human preferences, Democratic AI may be a promising method for value-aligned policy innovation.",
+    "citation_count": 2,
+    "summary": "Democratic AI, a human-in-the-loop reinforcement learning system, designed a social mechanism preferred by a majority of human participants in an online investment game, demonstrating its potential for creating value-aligned AI policies. This mechanism successfully addressed wealth inequality and punished free-riding behavior."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.10726v5.pdf",
+    "title": "Income Inequality, Cause and Cure",
+    "published_date": "2022-01-26",
+    "abstract": "Abstract We argue that the recent growth in income inequality is driven by disparate growth in investment income rather than by disparate growth in wages. Specifically, we present evidence that real wages are flat across a range of professions, doctors, software engineers, auto mechanics, and cashiers, while stock ownership favors higher education and income levels. Artificial intelligence and automation allocate an increased share of job tasks toward capital and away from labor. The rewards of automation accrue to capital and are reflected in the growth of the stock market, with several companies now valued in the trillions. We propose a deferred investment payroll plan to enable all workers to participate in the rewards of automation and analyze the performance of such a plan.",
+    "citation_count": 1,
+    "summary": "The paper attributes rising income inequality primarily to the disproportionate growth of investment income, particularly from stock ownership concentrated among higher earners, rather than wage disparities. It proposes a deferred investment payroll plan to distribute automation's benefits more equitably."
+  },
+  {
+    "url": "https://arxiv.org/abs/2102.01265",
+    "title": "The Limits of Global Inclusion in AI Development",
+    "published_date": "2021-02-02",
+    "abstract": "Those best-positioned to profit from the proliferation of artificial intelligence (AI) systems are those with the most economic power. Extant global inequality has motivated Western institutions to involve more diverse groups in the development and application of AI systems, including hiring foreign labour and establishing extra-national data centers and laboratories. However, given both the propensity of wealth to abet its own accumulation and the lack of contextual knowledge in top-down AI solutions, we argue that more focus should be placed on the redistribution of power, rather than just on including underrepresented groups. Unless more is done to ensure that opportunities to lead AI development are distributed justly, the future may hold only AI systems which are unsuited to their conditions of application, and exacerbate inequality.",
+    "citation_count": 20,
+    "summary": "While efforts to diversify AI development are underway, the inherent concentration of wealth and power hinders true global inclusion; redistributing power, not just representation, is crucial to prevent AI from exacerbating existing inequalities."
+  }
+]

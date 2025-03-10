@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2303.01350.pdf",
+    "title": "Securing Verified IO Programs Against Unverified Code in F*",
+    "published_date": "2023-03-02",
+    "abstract": "We introduce SCIO*, a formally secure compilation framework for statically verified programs performing input-output (IO). The source language is an F* subset in which a verified program interacts with its IO-performing context via a higher-order interface that includes refinement types as well as pre- and post-conditions about past IO events. The target language is a smaller F* subset in which the compiled program is linked with an adversarial context that has an interface without refinement types, pre-conditions, or concrete post-conditions. To bridge this interface gap and make compilation and linking secure we propose a formally verified combination of higher-order contracts and reference monitoring for recording and controlling IO operations. Compilation uses contracts to convert the logical assumptions the program makes about the context into dynamic checks on each context-program boundary crossing. These boundary checks can depend on information about past IO events stored in the state of the monitor. But these checks cannot stop the adversarial target context before it performs dangerous IO operations. Therefore linking in SCIO* additionally forces the context to perform all IO actions via a secure IO library, which uses reference monitoring to dynamically enforce an access control policy before each IO operation. We prove in F* that SCIO* soundly enforces a global trace property for the compiled verified program linked with the untrusted context. Moreover, we prove in F* that SCIO* satisfies by construction Robust Relational Hyperproperty Preservation, a very strong secure compilation criterion. Finally, we illustrate SCIO* at work on a simple web server example.",
+    "citation_count": 2,
+    "summary": "SCIO* is a formally verified compiler for F* programs that securely interfaces statically verified code with untrusted I/O contexts by using higher-order contracts and reference monitoring to enforce a global trace property and achieve robust relational hyperproperty preservation. This ensures the verified program's security even when linked with adversarial, unverified code."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2205.06535.pdf",
+    "title": "Design-by-Contract for Flexible Multiparty Session Protocols - Extended Version",
+    "published_date": "2022-05-13",
+    "abstract": "Choreographic models support a correctness-by-construction principle in distributed programming. Also, they enable the automatic generation of correct message-based communication patterns from a global specification of the desired system behaviour. In this paper we extend the theory of choreography automata, a choreographic model based on finite-state automata, with two key features. First, we allow participants to act only in some of the scenarios described by the choreography automaton. While this seems natural, many choreographic approaches in the literature, and choreography automata in particular, forbid this behaviour. Second, we equip communications with assertions constraining the values that can be communicated, enabling a design-by-contract approach. We provide a toolchain allowing to exploit the theory above to generate APIs for TypeScript web programming. Programs communicating via the generated APIs follow, by construction, the prescribed communication pattern and are free from communication errors such as deadlocks.",
+    "citation_count": 8,
+    "summary": "This paper extends choreography automata, a choreographic model for distributed systems, to allow participant-specific scenarios and design-by-contract communication using assertions, generating deadlock-free TypeScript APIs that enforce correct communication patterns."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zihNijSp2aMCL4Rho/axis-oriented-programming",
+    "author": "Donald Hobson",
+    "title": "Axis oriented programming",
+    "published_date": "2022-04-20",
+    "summary": "This article proposes a novel array-oriented programming language where data is inherently multi-dimensional, with axes explicitly defined and managed. The language aims to simplify handling high-dimensional arrays by allowing operations to be specified along specific axes, leveraging compiler optimizations to avoid computational overhead."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.02991v1.pdf",
+    "title": "Abstraction Logic: The Marriage of Contextual Refinement and Separation Logic",
+    "published_date": "2021-09-07",
+    "abstract": "Contextual refinement and separation logics are successful verification techniques that are very different in nature. First, the former guarantees behavioral refinement between a concrete program and an abstract program while the latter guarantees safety of a concrete program under certain conditions (expressed in terms of pre and post conditions). Second, the former does not allow any assumption about the context when locally reasoning about a module while the latter allows rich assumptions. In this paper, we present a new verification technique, called abstraction logic (AL), that inherently combines contextual refinement and separation logics such as Iris and VST, thereby taking the advantages of both. Specifically, AL allows us to locally verify a concrete module against an abstract module under separation-logic-style pre and post conditions about external modules. AL are fully formalized in Coq and provides a proof mode that supports a combination of simulation-style reasoning using our own tactics and SL-style reasoning using IPM (Iris Proof Mode). Using the proof mode, we verified various examples to demonstrate reasoning about ownership (based on partial commutative monoids) and purity ($i.e.$, termination with no system call), cyclic and higher-order reasoning about mutual recursion and function pointers, and reusable and gradual verification via intermediate abstractions. Also, the verification results are combined with CompCert, so that we formally establish behavioral refinement from top-level abstract programs, all the way down to their assembly code.",
+    "summary": "Abstraction logic (AL) integrates contextual refinement and separation logic, enabling local verification of concrete modules against abstract ones under separation logic pre/post-conditions, thus leveraging the strengths of both approaches. AL is formalized in Coq and allows for combined simulation and separation logic reasoning, demonstrated through verified examples and integration with CompCert for end-to-end behavioral refinement."
+  },
+  {
+    "title": "Statically verified refinements for multiparty protocols",
+    "abstract": "With distributed computing becoming ubiquitous in the modern era, safe distributed programming is an open challenge. To address this, multiparty session types (MPST) provide a typing discipline for message-passing concurrency, guaranteeing communication safety properties such as deadlock freedom. While originally MPST focus on the communication aspects, and employ a simple typing system for communication payloads, communication protocols in the real world usually contain constraints on the payload. We introduce refined multiparty session types (RMPST), an extension of MPST, that express data dependent protocols via refinement types on the data types. We provide an implementation of RMPST, in a toolchain called Session*, using Scribble, a toolchain for multiparty protocols, and targeting F*, a verification-oriented functional programming language. Users can describe a protocol in Scribble and implement the endpoints in F* using refinement-typed APIs generated from the protocol. The F* compiler can then statically verify the refinements. Moreover, we use a novel approach of callback-styled API generation, providing static linearity guarantees with the inversion of control. We evaluate our approach with real world examples and show that it has little overhead compared to a naive implementation, while guaranteeing safety properties from the underlying theory.",
+    "published_date": "2020-09-14",
+    "citation_count": 30,
+    "url": "https://dl.acm.org/doi/10.1145/3428216",
+    "summary": "Refined multiparty session types (RMPST) extend multiparty session types with refinement types, enabling static verification of data-dependent communication protocols in distributed systems. This is achieved through a toolchain, Session*, integrating Scribble and F*, allowing users to specify protocols and implement them in F* with statically checked refinements."
+  },
+  {
+    "url": "https://arxiv.org/abs/2011.12783v1",
+    "title": "General Purpose Atomic Crosschain Transactions",
+    "published_date": "2020-11-24",
+    "abstract": "The General Purpose Atomic Crosschain Transaction protocol allows composable programming across multiple Ethereum blockchains. It allows for inter-contract and inter-blockchain function calls that are both synchronous and atomic: if one part fails, the whole call execution tree of function calls is rolled back. The protocol operates on existing Ethereum blockchains without modification. It works for both public permissioned and consortium blockchains. This paper describes the protocol, analyses it in terms of Gas usage and Finalised Block Periods for three scenarios: reading a value from one blockchain to another, writing a value from one blockchain to another, and a trade finance system involving five contracts on five blockchains with a complex call execution tree, and provides an initial security analysis that shows that the protocol has Safety and Liveness properties.",
+    "citation_count": 27,
+    "summary": "The General Purpose Atomic Crosschain Transaction protocol enables composable, atomic, and synchronous cross-blockchain function calls across multiple Ethereum chains without requiring modifications to the underlying blockchains. This is achieved through a system that rolls back the entire execution tree upon failure, ensuring atomicity and supporting various blockchain permissioning models."
+  },
+  {
+    "url": "https://arxiv.org/abs/1911.10353",
+    "title": "Seamless Object-Oriented Requirements",
+    "published_date": "2019-10-01",
+    "abstract": "Design by Contract enables seamless software development by unifying software requirements with their implementations. In its pure form, however, Design by Contract leaves some problems with contracts' expressiveness, verifiability, and reusability open. These problems significantly reduce practical applicability of seamless development. The present article introduces seamless object-oriented requirements – a novel approach to seamless development that builds upon Design by Contract and now-available advanced program proving tools. The article explains and illustrates the new approach, concluding with a quantitative evaluation of the extent to which the approach fixes the problems of traditional contracts.",
+    "citation_count": 9,
+    "summary": "This paper proposes \"seamless object-oriented requirements,\" a novel approach improving upon Design by Contract to address limitations in expressiveness, verifiability, and reusability of software contracts. The approach leverages advanced program proving tools to achieve more seamless software development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24",
+    "summary": "This article explores the mathematical challenges inherent in blockchain technology and proposes mechanism design solutions, such as quadratic voting and funding, to address cooperation and philanthropic issues within the blockchain space."
+  }
+]

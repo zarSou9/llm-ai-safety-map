@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2303.02251.pdf",
+    "title": "Certified Robust Neural Networks: Generalization and Corruption Resistance",
+    "published_date": "2023-03-03",
+    "abstract": "Recent work have demonstrated that robustness (to\"corruption\") can be at odds with generalization. Adversarial training, for instance, aims to reduce the problematic susceptibility of modern neural networks to small data perturbations. Surprisingly, overfitting is a major concern in adversarial training despite being mostly absent in standard training. We provide here theoretical evidence for this peculiar\"robust overfitting\"phenomenon. Subsequently, we advance a novel distributionally robust loss function bridging robustness and generalization. We demonstrate both theoretically as well as empirically the loss to enjoy a certified level of robustness against two common types of corruption--data evasion and poisoning attacks--while ensuring guaranteed generalization. We show through careful numerical experiments that our resulting holistic robust (HR) training procedure yields SOTA performance. Finally, we indicate that HR training can be interpreted as a direct extension of adversarial training and comes with a negligible additional computational burden. A ready-to-use python library implementing our algorithm is available at https://github.com/RyanLucas3/HR_Neural_Networks.",
+    "citation_count": 8
+  },
+  {
+    "url": "https://arxiv.org/abs/2204.13779",
+    "title": "Formulating Robustness Against Unforeseen Attacks",
+    "published_date": "2022-04-28",
+    "abstract": "Existing defenses against adversarial examples such as adversarial training typically assume that the adversary will conform to a specific or known threat model, such as $\\ell_p$ perturbations within a fixed budget. In this paper, we focus on the scenario where there is a mismatch in the threat model assumed by the defense during training, and the actual capabilities of the adversary at test time. We ask the question: if the learner trains against a specific\"source\"threat model, when can we expect robustness to generalize to a stronger unknown\"target\"threat model during test-time? Our key contribution is to formally define the problem of learning and generalization with an unforeseen adversary, which helps us reason about the increase in adversarial risk from the conventional perspective of a known adversary. Applying our framework, we derive a generalization bound which relates the generalization gap between source and target threat models to variation of the feature extractor, which measures the expected maximum difference between extracted features across a given threat model. Based on our generalization bound, we propose variation regularization (VR) which reduces variation of the feature extractor across the source threat model during training. We empirically demonstrate that using VR can lead to improved generalization to unforeseen attacks during test-time, and combining VR with perceptual adversarial training (Laidlaw et al., 2021) achieves state-of-the-art robustness on unforeseen attacks. Our code is publicly available at https://github.com/inspire-group/variation-regularization.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.00192.pdf",
+    "title": "Learning with Noisy Labels via Sparse Regularization",
+    "published_date": "2021-07-31",
+    "abstract": "Learning with noisy labels is an important and challenging task for training accurate deep neural networks. Some commonly-used loss functions, such as Cross Entropy (CE), suffer from severe overfitting to noisy labels. Robust loss functions that satisfy the symmetric condition were tailored to remedy this problem, which however encounter the underfitting effect. In this paper, we theoretically prove that any loss can be made robust to noisy labels by restricting the network output to the set of permutations over a fixed vector. When the fixed vector is one-hot, we only need to constrain the output to be one-hot, which however produces zero gradients almost everywhere and thus makes gradient-based optimization difficult. In this work, we introduce the sparse regularization strategy to approximate the one-hot constraint, which is composed of network output sharpening operation that enforces the output distribution of a net-work to be sharp and the ℓp-norm (p ≤ 1) regularization that promotes the network output to be sparse. This simple approach guarantees the robustness of arbitrary loss functions while not hindering the fitting ability. Experimental results demonstrate that our method can significantly improve the performance of commonly-used loss functions in the presence of noisy labels and class imbalance, and out-perform the state-of-the-art methods. The code is available at https://github.com/hitcszx/lnl_sr.",
+    "citation_count": 46
+  },
+  {
+    "title": "Robust Sparse Regularization: Defending Adversarial Attacks Via Regularized Sparse Network",
+    "abstract": "Deep Neural Network (DNN) trained by the gradient descent method is known to be vulnerable to maliciously perturbed adversarial input, aka. adversarial attack. As one of the countermeasures against adversarial attacks, increasing the model capacity for DNN robustness enhancement was discussed and reported as an effective approach by many recent works. In this work, we show that shrinking the model size through proper weight pruning can even be helpful to improve the DNN robustness under adversarial attack. For obtaining a simultaneously robust and compact DNN model, we propose a multi-objective training method called Robust Sparse Regularization (RSR), through the fusion of various regularization techniques, including channel-wise noise injection, lasso weight penalty, and adversarial training. We conduct extensive experiments to show the effectiveness of RSR against popular white-box (i.e., PGD and FGSM) and black-box attacks. Thanks to RSR, 85 % weight connections of ResNet-18 can be pruned while still achieving 0.68 % and 8.72 % improvement in clean- and perturbed-data accuracy respectively on CIFAR-10 dataset, in comparison to its PGD adversarial training baseline.",
+    "published_date": "2020-09-07",
+    "citation_count": 3,
+    "url": "https://dl.acm.org/doi/10.1145/3386263.3407651"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2007.05086.pdf",
+    "title": "Boundary thickness and robustness in learning models",
+    "published_date": "2020-07-09",
+    "abstract": "Robustness of machine learning models to various adversarial and non-adversarial corruptions continues to be of interest. In this paper, we introduce the notion of the boundary thickness of a classifier, and we describe its connection with and usefulness for model robustness. Thick decision boundaries lead to improved performance, while thin decision boundaries lead to overfitting (e.g., measured by the robust generalization gap between training and testing) and lower robustness. We show that a thicker boundary helps improve robustness against adversarial examples (e.g., improving the robust test accuracy of adversarial training) as well as so-called out-of-distribution (OOD) transforms, and we show that many commonly-used regularization and data augmentation procedures can increase boundary thickness. On the theoretical side, we establish that maximizing boundary thickness during training is akin to the so-called mixup training. Using these observations, we show that noise-augmentation on mixup training further increases boundary thickness, thereby combating vulnerability to various forms of adversarial attacks and OOD transforms. We can also show that the performance improvement in several lines of recent work happens in conjunction with a thicker boundary.",
+    "citation_count": 33
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/impact-regularization",
+    "author": "TurnTrout",
+    "title": "Impact Regularization - LessWrong",
+    "published_date": "2020-03-03"
+  }
+]

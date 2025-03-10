@@ -1,0 +1,61 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.05605",
+    "title": "Scaling Laws for Forgetting When Fine-Tuning Large Language Models",
+    "published_date": "2024-01-11",
+    "abstract": "We study and quantify the problem of forgetting when fine-tuning pre-trained large language models (LLMs) on a downstream task. We find that parameter-efficient fine-tuning (PEFT) strategies, such as Low-Rank Adapters (LoRA), still suffer from catastrophic forgetting. In particular, we identify a strong inverse linear relationship between the fine-tuning performance and the amount of forgetting when fine-tuning LLMs with LoRA. We further obtain precise scaling laws that show forgetting increases as a shifted power law in the number of parameters fine-tuned and the number of update steps. We also examine the impact of forgetting on knowledge, reasoning, and the safety guardrails trained into Llama 2 7B chat. Our study suggests that forgetting cannot be avoided through early stopping or by varying the number of parameters fine-tuned. We believe this opens up an important safety-critical direction for future research to evaluate and develop fine-tuning schemes which mitigate forgetting",
+    "citation_count": 6,
+    "summary": "Fine-tuning large language models, even with parameter-efficient methods like LoRA, causes significant catastrophic forgetting, exhibiting a strong inverse relationship between fine-tuning performance and forgetting; scaling laws reveal forgetting increases with the number of fine-tuned parameters and update steps, highlighting a crucial safety concern for future research."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/RzsXRbk2ETNqjhsma/ai-safety-solutions-landscape",
+    "author": "Charbel-Raphael Segerie",
+    "title": "AI Safety Solutions Landscape",
+    "published_date": "2024-05-09",
+    "summary": "This chapter surveys existing strategies for ensuring AI safety, emphasizing that while complete solutions remain elusive, several approaches—ranging from alignment techniques to mitigating misuse and systemic risks—offer valuable steps toward safer AI development. The chapter also highlights challenges like the black-box nature of AI and the difficulty of creating a comprehensive risk framework."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of posts aims to provide a comprehensive introduction to AI safety. The content and order of the posts are still under development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that a \"top-down\" design of \"civilisational intelligence\" is crucial, integrating technical research with social, political, and other perspectives to ensure safe AGI development. This approach utilizes a pragmatic, constructivist, and naturalistic epistemology, drawing on diverse theoretical and empirical tools to evaluate AI alignment paradigms and AI systems."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/FaEBwhhe3otzYKGQt/p/n767Q8HqbrteaPA25",
+    "author": "Dan H, ThomasW",
+    "title": "Complex Systems for AI Safety [Pragmatic AI Safety #3]",
+    "published_date": "2022-05-24",
+    "summary": "This article introduces a complex systems approach to AI safety, arguing that reducing AI systems to individual components is insufficient for understanding and mitigating risks. Instead, it advocates for a holistic view that considers the interconnectedness and emergent behavior of the system as a whole."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.13298v1.pdf",
+    "title": "A Safe Control Architecture Based on a Model Predictive Control Supervisor for Autonomous Driving*",
+    "published_date": "2021-06-29",
+    "abstract": "This paper presents a novel, safe control architecture (SCA) for controlling an important class of systems: safety-critical systems. Ensuring the safety of control decisions has always been a challenge in automatic control. The proposed SCA aims to address this challenge by using a Model Predictive Controller (MPC) that acts as a supervisor for the operating controller, in the sense that the MPC constantly checks the safety of the control inputs generated by the operating controller and intervenes if the control input is predicted to lead to a hazardous situation in the foreseeable future invariably. Then an appropriate backup scheme can be activated, e.g., a degraded control mechanism, the transfer of the system to a safe state, or a warning signal issued to a human supervisor. For a proof of concept, the proposed SCA is applied to an autonomous driving scenario, where it is illustrated and compared in different obstacle avoidance scenarios. A major challenge of the SCA lies in the mismatch between the MPC prediction model and the real system, for which possible remedies are explored.",
+    "citation_count": 8,
+    "summary": "This paper proposes a safe control architecture for safety-critical systems, using a Model Predictive Controller (MPC) to supervise an operating controller and intervene to prevent hazardous situations predicted by the MPC's model. The architecture is demonstrated in an autonomous driving context, addressing challenges related to model-reality mismatch."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.01818v1.pdf",
+    "title": "A Safety-Aware Kinodynamic Architecture for Human-Robot Collaboration",
+    "published_date": "2021-03-02",
+    "abstract": "The new paradigm of human-robot collaboration has led to the creation of shared work environments in which humans and robots work in close contact with each other. Consequently, the safety regulations have been updated addressing these new scenarios. The mere application of these regulations may lead to a very inefficient behavior of the robot. In order to preserve safety for the human operators and allow the robot to reach a desired configuration in a safe and efficient way, a two layers architecture for trajectory planning and scaling is proposed. The first layer calculates the nominal trajectory and continuously adapts it based on the human behavior. The second layer, which explicitly considers the safety regulations, scales the robot velocity and requests for a new trajectory if the robot speed drops. The proposed architecture is experimentally validated on a Pilz PRBT manipulator.",
+    "citation_count": 17,
+    "summary": "This paper presents a two-layered robot control architecture for safe and efficient human-robot collaboration, where the first layer plans trajectories adapting to human actions and the second layer ensures safety by scaling robot velocity and requesting trajectory replanning if needed. Experimental validation is performed using a Pilz PRBT manipulator."
+  }
+]

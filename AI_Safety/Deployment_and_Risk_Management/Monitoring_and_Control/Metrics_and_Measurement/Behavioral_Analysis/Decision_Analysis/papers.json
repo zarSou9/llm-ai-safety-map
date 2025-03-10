@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2406.06090",
+    "title": "Algorithms for Multi-Criteria Decision-Making and Efficiency Analysis Problems",
+    "published_date": "2024-06-10",
+    "abstract": "Multi-criteria decision-making (MCDM) problems involve the evaluation of alternatives based on various minimization and maximization criteria. Similarly, efficiency evaluation (EA) methods assess decision-making units (DMUs) by analyzing their input consumption and output production. MCDM and EA methods face challenges in managing alternatives and DMUs with varying capacities across different criteria (inputs and outputs). That leads to performance assessments often skewed by subjective biases in criteria weighting. We introduce two innovative scenarios utilizing linear programming-based Virtual Gap Analysis (VGA) models to address these limitations. This dual-scenario approach aims to mitigate traditional biases, offering robust solutions for comprehensively assessing alternatives and DMUs. Our methodology allows for the influential ranking of alternatives in MCDM problems and enables each DMU to adjust its input and output ratios to achieve efficiency."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2206.14893v1.pdf",
+    "title": "Breaking indecision in multi-agent, multi-option dynamics",
+    "published_date": "2022-06-29",
+    "abstract": "How does a group of agents break indecision when deciding about options with qualities that are hard to distinguish? Biological and artificial multi-agent systems, from honeybees and bird flocks to bacteria, robots, and humans, often need to overcome indecision when choosing among options in situations in which the performance or even the survival of the group are at stake. Breaking indecision is also important because in a fully indecisive state agents are not biased toward any specific option and therefore the agent group is maximally sensitive and prone to adapt to inputs and changes in its environment. Here, we develop a mathematical theory to study how decisions arise from the breaking of indecision. Our approach is grounded in both equivariant and network bifurcation theory. We model decision from indecision as synchrony-breaking in influence networks in which each node is the value assigned by an agent to an option. First, we show that three universal decision behaviors, namely, deadlock, consensus, and dissensus, are the generic outcomes of synchrony-breaking bifurcations from a fully synchronous state of indecision in influence networks. Second, we show that all deadlock and consensus value patterns and some dissensus value patterns are predicted by the symmetry of the influence networks. Third, we show that there are also many `exotic' dissensus value patterns. These patterns are predicted by network architecture, but not by network symmetries, through a new synchrony-breaking branching lemma. This is the first example of exotic solutions in an application. Numerical simulations of a novel influence network model illustrate our theoretical results.",
+    "citation_count": 3
+  },
+  {
+    "title": "Learning algorithm for an intelligent decision making system based on multi-agent neurocognitive architectures",
+    "abstract": "Abstract The paper presents the formalism of an intelligent decision-making system based on multi-agent neurocognitive architectures, which has an architectural similarity to the human brain. An invariant of the organizational and functional structure of the intellectual decision-making process based on the multi-agent neurocognitive architecture is developed. An algorithm for teaching intelligent decision-making systems based on the self-organization of the invariant of multi-agent neurocognitive architectures is presented. Using this algorithm, an intelligent agent was trained and the architecture of the learning process was built on the basis of an invariant of neurocognitive architecture. Further research is related to training an intelligent agent in more complex behavior and expanding the capabilities of an intelligent decision-making system based on multi-agent neurocognitive architectures.",
+    "published_date": "2021-03-01",
+    "citation_count": 16,
+    "url": "https://www.sciencedirect.com/science/article/pii/S1389041720300899"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.11102v1.pdf",
+    "title": "Data driven Decision Support on Students Behavior using Fuzzy Based Approach",
+    "published_date": "2021-01-05",
+    "abstract": "Monitoring of students behavior in school needs further consideration in order to lessen the number of casualties in every term. The study designs a data driven decision support on students behavior utilizing Fuzzy Based Approach. The study successfully produces common behavioral problems of the student and able to give interventions for the improvement of students behavior. Student behavioral problems identified were absenteeism, tardiness and poor academic performance."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.12573.pdf",
+    "title": "Robust decision-making under risk and ambiguity",
+    "published_date": "2021-04-23",
+    "abstract": "Economists often estimate economic models on data and use the point estimates as a stand-in for the truth when studying the model's implications for optimal decision-making. This practice ignores model ambiguity, exposes the decision problem to misspecification, and ultimately leads to post-decision disappointment. Using statistical decision theory, we develop a framework to explore, evaluate, and optimize robust decision rules that explicitly account for estimation uncertainty. We show how to operationalize our analysis by studying robust decisions in a stochastic dynamic investment model in which a decision-maker directly accounts for uncertainty in the model's transition dynamics.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2004.01958v2.pdf",
+    "title": "BASCPS: How does behavioral decision making impact the security of cyber-physical systems?",
+    "published_date": "2020-04-04",
+    "abstract": "We study the security of large-scale cyber-physical systems (CPS) consisting of multiple interdependent subsystems, each managed by a different defender. Defenders invest their security budgets with the goal of thwarting the spread of cyber attacks to their critical assets. We model the security investment decisions made by the defenders as a security game. While prior work has used security games to analyze such scenarios, we propose behavioral security games, in which defenders exhibit characteristics of human decision making that have been identified in behavioral economics as representing typical human cognitive biases. This is important as many of the critical security decisions in our target class of systems are made by humans. \nWe provide empirical evidence for our behavioral model through a controlled subject experiment. We then show that behavioral decision making leads to a suboptimal pattern of resource allocation compared to non-behavioral decision making. We illustrate the effects of behavioral decision making using two representative real-world interdependent CPS. In particular, we identify the effects of the defenders' security budget availability and distribution, the degree of interdependency among defenders, and collaborative defense strategies, on the degree of suboptimality of security outcomes due to behavioral decision making. In this context, the adverse effects of behavioral decision making are most severe with moderate defense budgets. Moreover, the impact of behavioral suboptimal decision making is magnified as the degree of the interdependency between subnetworks belonging to different defenders increases. We also observe that selfish defense decisions together with behavioral decisions significantly increase security risk.",
+    "citation_count": 4
+  }
+]

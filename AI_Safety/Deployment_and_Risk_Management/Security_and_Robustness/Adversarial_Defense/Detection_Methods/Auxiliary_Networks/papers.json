@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/1702.04267.pdf",
+    "title": "On Detecting Adversarial Perturbations",
+    "published_date": "2017-02-14",
+    "abstract": "Machine learning and deep learning in particular has advanced tremendously on perceptual tasks in recent years. However, it remains vulnerable against adversarial perturbations of the input that have been crafted specifically to fool the system while being quasi-imperceptible to a human. In this work, we propose to augment deep neural networks with a small \"detector\" subnetwork which is trained on the binary classification task of distinguishing genuine data from data containing adversarial perturbations. Our method is orthogonal to prior work on addressing adversarial perturbations, which has mostly focused on making the classification network itself more robust. We show empirically that adversarial perturbations can be detected surprisingly well even though they are quasi-imperceptible to humans. Moreover, while the detectors have been trained to detect only a specific adversary, they generalize to similar and weaker adversaries. In addition, we propose an adversarial attack that fools both the classifier and the detector and a novel training procedure for the detector that counteracts this attack.",
+    "citation_count": 919
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.05854",
+    "title": "Test-Time Adversarial Detection and Robustness for Localizing Humans Using Ultra Wide Band Channel Impulse Responses",
+    "published_date": "2022-11-10",
+    "abstract": "Keyless entry systems in cars are adopting neural networks for localizing its operators. Using test-time adversarial defences equip such systems with the ability to defend against adversarial attacks without prior training on adversarial samples. We propose a test-time adversarial example detector which detects the input adversarial example through quantifying the localized intermediate responses of a pretrained neural network and confidence scores of an auxiliary softmax layer. Furthermore, in order to make the network robust, we extenuate the non-relevant features by non-iterative input sample clipping. Using our approach, mean performance over 15 levels of adversarial perturbations is increased by 53.3% for the fast gradient sign method and 60.9% for both the basic iterative method and the projected gradient method when compared to adversarial training.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.07035v2.pdf",
+    "title": "Measuring the Contribution of Multiple Model Representations in Detecting Adversarial Instances",
+    "published_date": "2021-11-13",
+    "abstract": "Deep learning models have been used for a wide variety of tasks. They are prevalent in computer vision, natural language processing, speech recognition, and other areas. While these models have worked well under many scenarios, it has been shown that they are vulnerable to adversarial attacks. This has led to a proliferation of research into ways that such attacks could be identified and/or defended against. Our goal is to explore the contribution that can be attributed to using multiple underlying models for the purpose of adversarial instance detection. Our paper describes two approaches that incorporate representations from multiple models for detecting adversarial examples. We devise controlled experiments for measuring the detection impact of incrementally utilizing additional models. For many of the scenarios we consider, the results show that performance increases with the number of underlying models used for extracting representations."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.03689.pdf",
+    "title": "Self-Supervised Adversarial Example Detection by Disentangled Representation",
+    "published_date": "2021-05-08",
+    "abstract": "Deep learning models are known to be vulnerable to adversarial examples that are elaborately designed for malicious purposes and are imperceptible to the human perceptual system. Autoencoder, when trained solely over benign examples, has been widely used for (self-supervised) adversarial detection based on the assumption that adversarial examples yield larger reconstruction errors. However, because lacking adversarial examples in its training and the too strong generalization ability of autoencoder, this assumption does not always hold true in practice. To alleviate this problem, we explore how to detect adversarial examples with disentangled label/semantic features under the autoencoder structure. Specifically, we propose Disentangled Representation-based Reconstruction (DRR). In DRR, we train an autoencoder over both correctly paired label/semantic features and incorrectly paired label/semantic features to reconstruct benign and counterexamples. This mimics the behavior of adversarial examples and can reduce the unnecessary generalization ability of autoencoder. We compare our method with the state-of-the-art self-supervised detection methods under different adversarial attacks and different victim models, and it exhibits better performance in various metrics (area under the ROC curve, true positive rate, and true negative rate) for most attack settings. Though DRR is initially designed for visual tasks only, we demonstrate that it can be easily extended for natural language tasks as well. Notably, different from other autoencoder-based detectors, our method can provide resistance to the adaptive adversary.",
+    "citation_count": 6
+  },
+  {
+    "title": "Robust Android Malware Detection against Adversarial Example Attacks",
+    "abstract": "Adversarial examples pose severe threats to Android malware detection because they can render the machine learning based detection systems useless. How to effectively detect Android malware under various adversarial example attacks becomes an essential but very challenging issue. Existing adversarial example defense mechanisms usually rely heavily on the instances or the knowledge of adversarial examples, and thus their usability and effectiveness are significantly limited because they often cannot resist the unseen-type adversarial examples. In this paper, we propose a novel robust Android malware detection approach that can resist adversarial examples without requiring their instances or knowledge by jointly investigating malware detection and adversarial example defenses. More precisely, our approach employs a new VAE (variational autoencoder) and an MLP (multi-layer perceptron) to detect malware, and combines their detection outcomes to make the final decision. In particular, we share a feature extraction network between the VAE and the MLP to reduce model complexity and design a new loss function to disentangle the features of different classes, hence improving detection performance. Extensive experiments confirm our model's advantage in accuracy and robustness. Our method outperforms 11 state-of-the-art robust Android malware detection models when resisting 7 kinds of adversarial example attacks.",
+    "published_date": "2021-04-19",
+    "citation_count": 29,
+    "url": "https://dl.acm.org/doi/10.1145/3442381.3450044"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2002.09772.pdf",
+    "title": "Non-Intrusive Detection of Adversarial Deep Learning Attacks via Observer Networks",
+    "published_date": "2020-01-01",
+    "abstract": "Deep learning models are known to be vulnerable to specifically crafted adversarial inputs that are quasi-imperceptible to humans. We propose a novel method to detect adversarial inputs, by augmenting the main classification network with multiple binary detectors (observer networks) which take inputs from the hidden layers of the original network (convolutional kernel outputs) and classify the input as clean or adversarial. During inference, the detectors are treated as a part of an ensemble network and the input is deemed adversarial if at least half of the detectors classify it as so. The proposed method addresses the trade-off between accuracy of classification on clean and adversarial samples, as the original classification network is not modified during the detection process. The use of multiple observer networks makes attacking the detection mechanism non-trivial even when the attacker is aware of the victim classifier. We achieve a 99.5 percent detection accuracy on the MNIST dataset and 97.5 percent on the CIFAR-10 dataset using the Fast Gradient Sign Attack in a semi-white box setup. The number of false positive detections is a mere 0.12 percent in the worst case scenario.",
+    "citation_count": 3
+  }
+]

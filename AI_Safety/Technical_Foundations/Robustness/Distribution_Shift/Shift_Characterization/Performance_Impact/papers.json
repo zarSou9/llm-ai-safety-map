@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2401.08348",
+    "title": "Estimating Model Performance Under Covariate Shift Without Labels",
+    "published_date": "2024-01-16",
+    "abstract": "Machine learning models often experience performance degradation post-deployment due to shifts in data distribution. It is challenging to assess model's performance accurately when labels are missing or delayed. Existing proxy methods, such as drift detection, fail to measure the effects of these shifts adequately. To address this, we introduce a new method, Probabilistic Adaptive Performance Estimation (PAPE), for evaluating classification models on unlabeled data that accurately quantifies the impact of covariate shift on model performance. It is model and data-type agnostic and works for various performance metrics. Crucially, PAPE operates independently of the original model, relying only on its predictions and probability estimates, and does not need any assumptions about the nature of the covariate shift, learning directly from data instead. We tested PAPE on tabular data using over 900 dataset-model combinations created from US census data, assessing its performance against multiple benchmarks. Overall, PAPE provided more accurate performance estimates than other evaluated methodologies."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/bsXPTiAhhwt5nwBW3/do-sparse-autoencoders-saes-transfer-across-base-and",
+    "author": "Taras Kutsyk; Tommaso Mencattini; Ciprian Florea",
+    "title": "Do Sparse Autoencoders (SAEs) transfer across base and finetuned language models?",
+    "published_date": "2024-09-29"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/NMLq8yoTecAF44KX9/sae-probing-what-is-it-good-for-absolutely-something",
+    "author": "Subhash Kantamneni; JoshEngels; Senthooran Rajamanoharan; Neel Nanda",
+    "title": "SAE Probing: What is it good for? Absolutely something!",
+    "published_date": "2024-11-01"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/QQP4nq7TXg89CJGBh/a-sober-look-at-steering-vectors-for-llms",
+    "author": "Joschka Braun, Dmitrii Krasheninnikov, Usman Anwar, RobertKirk, Daniel Tan, David Scott Krueger (formerly: capybaralet)",
+    "title": "A Sober Look at Steering Vectors for LLMs",
+    "published_date": "2024-11-23"
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.14758",
+    "title": "Towards Practicable Sequential Shift Detectors",
+    "published_date": "2023-07-27",
+    "abstract": "There is a growing awareness of the harmful effects of distribution shift on the performance of deployed machine learning models. Consequently, there is a growing interest in detecting these shifts before associated costs have time to accumulate. However, desiderata of crucial importance to the practicable deployment of sequential shift detectors are typically overlooked by existing works, precluding their widespread adoption. We identify three such desiderata, highlight existing works relevant to their satisfaction, and recommend impactful directions for future research."
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.02011v2",
+    "title": "Diagnosing Model Performance Under Distribution Shift",
+    "published_date": "2023-03-03",
+    "abstract": "Prediction models can perform poorly when deployed to target distributions different from the training distribution. To understand these operational failure modes, we develop a method, called DIstribution Shift DEcomposition (DISDE), to attribute a drop in performance to different types of distribution shifts. Our approach decomposes the performance drop into terms for 1) an increase in harder but frequently seen examples from training, 2) changes in the relationship between features and outcomes, and 3) poor performance on examples infrequent or unseen during training. These terms are defined by fixing a distribution on $X$ while varying the conditional distribution of $Y \\mid X$ between training and target, or by fixing the conditional distribution of $Y \\mid X$ while varying the distribution on $X$. In order to do this, we define a hypothetical distribution on $X$ consisting of values common in both training and target, over which it is easy to compare $Y \\mid X$ and thus predictive performance. We estimate performance on this hypothetical distribution via reweighting methods. Empirically, we show how our method can 1) inform potential modeling improvements across distribution shifts for employment prediction on tabular census data, and 2) help to explain why certain domain adaptation methods fail to improve model performance for satellite image classification.",
+    "citation_count": 22
+  }
+]

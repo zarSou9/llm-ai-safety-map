@@ -1,0 +1,114 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2205.01066",
+    "title": "Quantifying Health Inequalities Induced by Data and AI Models",
+    "published_date": "2022-04-24",
+    "abstract": "AI technologies are being increasingly tested and applied in critical environments including healthcare. Without an effective way to detect and mitigate AI induced inequalities, AI might do more harm than good, potentially leading to the widening of underlying inequalities. This paper proposes a generic allocation-deterioration framework for detecting and quantifying AI induced inequality. Specifically, AI induced inequalities are quantified as the area between two allocation-deterioration curves. To assess the framework's performance, experiments were conducted on ten synthetic datasets (N>33,000) generated from HiRID - a real-world Intensive Care Unit (ICU) dataset, showing its ability to accurately detect and quantify inequality proportionally to controlled inequalities. Extensive analyses were carried out to quantify health inequalities (a) embedded in two real-world ICU datasets; (b) induced by AI models trained for two resource allocation scenarios. Results showed that compared to men, women had up to 33% poorer deterioration in markers of prognosis when admitted to HiRID ICUs. All four AI models assessed were shown to induce significant inequalities (2.45% to 43.2%) for non-White compared to White patients. The models exacerbated data embedded inequalities significantly in 3 out of 8 assessments, one of which was >9 times worse.",
+    "citation_count": 5,
+    "summary": "This paper presents a novel framework for quantifying AI-induced health inequalities by measuring the area between allocation-deterioration curves, demonstrating its effectiveness through experiments on synthetic and real-world ICU datasets. The findings reveal significant pre-existing inequalities and highlight how AI models can exacerbate or even worsen these disparities, particularly for women and non-White patients."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2212.01725.pdf",
+    "title": "Fairness in Contextual Resource Allocation Systems: Metrics and Incompatibility Results",
+    "published_date": "2022-12-04",
+    "abstract": "We study critical systems that allocate scarce resources to satisfy basic needs, such as homeless services that provide housing. These systems often support communities disproportionately affected by systemic racial, gender, or other injustices, so it is crucial to design these systems with fairness considerations in mind. To address this problem, we propose a framework for evaluating fairness in contextual resource allocation systems that is inspired by fairness metrics in machine learning. This framework can be applied to evaluate the fairness properties of a historical policy, as well as to impose constraints in the design of new (counterfactual) allocation policies. Our work culminates with a set of incompatibility results that investigate the interplay between the different fairness metrics we propose. Notably, we demonstrate that: 1) fairness in allocation and fairness in outcomes are usually incompatible; 2) policies that prioritize based on a vulnerability score will usually result in unequal outcomes across groups, even if the score is perfectly calibrated; 3) policies using contextual information beyond what is needed to characterize baseline risk and treatment effects can be fairer in their outcomes than those using just baseline risk and treatment effects; and 4) policies using group status in addition to baseline risk and treatment effects are as fair as possible given all available information. Our framework can help guide the discussion among stakeholders in deciding which fairness metrics to impose when allocating scarce resources.",
+    "citation_count": 7,
+    "summary": "This paper presents a framework for evaluating fairness in resource allocation systems, particularly those addressing societal inequities, by adapting machine learning fairness metrics. The authors demonstrate inherent incompatibilities between various fairness metrics and highlight the complex trade-offs in designing fair allocation policies."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.01290",
+    "title": "Resource-constrained Fairness",
+    "published_date": "2024-06-03",
+    "abstract": "Access to resources strongly constrains the decisions we make. While we might wish to offer every student a scholarship, or schedule every patient for follow-up meetings with a specialist, limited resources mean that this is not possible. When deploying machine learning systems, these resource constraints are simply enforced by varying the threshold of a classifier. However, these finite resource limitations are disregarded by most existing tools for fair machine learning, which do not allow the specification of resource limitations and do not remain fair when varying thresholds. This makes them ill-suited for real-world deployment. Our research introduces the concept of\"resource-constrained fairness\"and quantifies the cost of fairness within this framework. We demonstrate that the level of available resources significantly influences this cost, a factor overlooked in previous evaluations.",
+    "citation_count": 1,
+    "summary": "Existing fair machine learning methods ignore resource constraints, leading to impractical solutions; this paper introduces \"resource-constrained fairness,\" quantifying the cost of fairness under resource limitations and showing how resource availability impacts this cost."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.10547",
+    "title": "AI Safety Frameworks Should Include Procedures for Model Access Decisions",
+    "published_date": "2024-11-15",
+    "abstract": "The downstream use cases, benefits, and risks of AI models depend significantly on what sort of access is provided to the model, and who it is provided to. Though existing safety frameworks and AI developer usage policies recognise that the risk posed by a given model depends on the level of access provided to a given audience, the procedures they use to make decisions about model access are ad hoc, opaque, and lacking in empirical substantiation. This paper consequently proposes that frontier AI companies build on existing safety frameworks by outlining transparent procedures for making decisions about model access, which we term Responsible Access Policies (RAPs). We recommend that, at a minimum, RAPs should include the following: i) processes for empirically evaluating model capabilities given different styles of access, ii) processes for assessing the risk profiles of different categories of user, and iii) clear and robust pre-commitments regarding when to grant or revoke specific types of access for particular groups under specified conditions.",
+    "summary": "Current AI safety frameworks inadequately address model access control, leading to inconsistent and potentially risky deployment; this paper proposes the development of transparent \"Responsible Access Policies\" (RAPs) with empirically-grounded procedures for evaluating model capabilities, user risk profiles, and access granting/revocation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three AI governance strategies—Cooperative Development, Strategic Advantage, and Global Moratorium—evaluating their effectiveness based on the difficulty of aligning AI and the timeframe for its development. The optimal strategy shifts depending on these factors, with Cooperative Development preferred for longer timelines and easier alignment, Strategic Advantage for shorter timelines and moderate alignment difficulty, and Global Moratorium reserved for scenarios with extremely hard alignment or short timelines."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising but underdeveloped AI safety strategy. While currently limited to measures like export controls and reporting requirements, proposed methods aim to increase visibility into AI development, allocate compute resources strategically, and enforce regulations through technological and policy mechanisms."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.07878",
+    "title": "New Kids on the Block: On the impact of information retrieval on contextual resource integration patterns",
+    "published_date": "2023-12-13",
+    "abstract": "The rise of new modes of interaction with AI skyrocketed the popularity, applicability, and amount of use cases. Despite this evolution, conceptual integration is falling behind. Studies suggest that there is hardly a systematization in using AI in organizations. Thus, by taking a service-dominant logic perspective, specifically, the concept of resource integration patterns, the most potent application of AI for organizational use - namely information retrieval - is analyzed. In doing so, we propose a systematization that can be applied to deepen understanding of core technical concepts, further investigate AI in contexts, and help explore research directions guided by SDL.",
+    "summary": "This paper analyzes the impact of information retrieval, a key AI application, on organizational resource integration patterns using a service-dominant logic perspective. It proposes a systematization to improve understanding and research of AI's contextual application within organizations."
+  },
+  {
+    "title": "Please Report Your Compute",
+    "abstract": "Seeking consistent means of measure.",
+    "published_date": "2023-04-21",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3563035",
+    "summary": "The paper advocates for standardized reporting of computational resources used in research to ensure reproducibility and comparability of results. It emphasizes the need for consistent measurement methods."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.11996",
+    "title": "Toward Responsible AI Use: Considerations for Sustainability Impact Assessment",
+    "published_date": "2023-12-19",
+    "abstract": "As AI/ML models, including Large Language Models, continue to scale with massive datasets, so does their consumption of undeniably limited natural resources, and impact on society. In this collaboration between AI, Sustainability, HCI and legal researchers, we aim to enable a transition to sustainable AI development by enabling stakeholders across the AI value chain to assess and quantitfy the environmental and societal impact of AI. We present the ESG Digital and Green Index (DGI), which offers a dashboard for assessing a company's performance in achieving sustainability targets. This includes monitoring the efficiency and sustainable use of limited natural resources related to AI technologies (water, electricity, etc). It also addresses the societal and governance challenges related to AI. The DGI creates incentives for companies to align their pathway with the Sustainable Development Goals (SDGs). The value, challenges and limitations of our methodology and findings are discussed in the paper.",
+    "summary": "This paper proposes the ESG Digital and Green Index (DGI), a dashboard designed to assess and quantify the environmental and societal impacts of AI technologies throughout their lifecycle, promoting sustainable AI development aligned with the Sustainable Development Goals. The DGI monitors resource consumption and addresses societal and governance challenges associated with AI."
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.09377",
+    "title": "Protecting Society from AI Misuse: When are Restrictions on Capabilities Warranted?",
+    "published_date": "2023-03-16",
+    "abstract": "Artificial intelligence (AI) systems will increasingly be used to cause harm as they grow more capable. In fact, AI systems are already starting to be used to automate fraudulent activities, violate human rights, create harmful fake images, and identify dangerous toxins. To prevent some misuses of AI, we argue that targeted interventions on certain capabilities will be warranted. These restrictions may include controlling who can access certain types of AI models, what they can be used for, whether outputs are filtered or can be traced back to their user, and the resources needed to develop them. We also contend that some restrictions on non-AI capabilities needed to cause harm will be required. Though capability restrictions risk reducing use more than misuse (facing an unfavorable Misuse-Use Tradeoff), we argue that interventions on capabilities are warranted when other interventions are insufficient, the potential harm from misuse is high, and there are targeted ways to intervene on capabilities. We provide a taxonomy of interventions that can reduce AI misuse, focusing on the specific steps required for a misuse to cause harm (the Misuse Chain), and a framework to determine if an intervention is warranted. We apply this reasoning to three examples: predicting novel toxins, creating harmful images, and automating spear phishing campaigns.",
+    "citation_count": 24,
+    "summary": "This paper argues that targeted restrictions on AI capabilities are warranted to prevent misuse when other interventions are insufficient, potential harm is high, and interventions can be effectively targeted; it proposes a framework for determining when such restrictions are justified, considering the trade-off between hindering beneficial use and preventing malicious applications."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/JXAYG5jFwTTAJzHbe/core-of-ai-projections-from-first-principles-attempt-1",
+    "author": "tailcalled",
+    "title": "Core of AI projections from first principles: Attempt 1",
+    "published_date": "2023-04-11",
+    "summary": "The author argues that superhuman AI will likely drastically reduce the price of labor, leading humanity to live off capital rents; however, this positive outcome hinges on preventing the AI from seizing control of that capital. Key uncertainties remain regarding who will effectively prevent this, with various proposals ranging from inter-AI cooperation to strengthened human institutions utilizing AI to safeguard against manipulation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/sGkRDrpphsu6Jhega/a-model-based-approach-to-ai-existential-risk",
+    "author": "Sammy Martin, Lonnie Chrisman, Aryeh Englander",
+    "title": "A Model-based Approach to AI Existential Risk",
+    "published_date": "2023-08-25",
+    "summary": "This article advocates for using model-based approaches, specifically probabilistic models, to analyze the existential risks posed by artificial intelligence. It argues that this approach can improve communication and collaboration among stakeholders with differing viewpoints, as demonstrated by successful applications in other complex fields."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/acPYHjC9euGZRzaj6/gpt-2030-and-catastrophic-drives-four-vignettes",
+    "author": "Jsteinhardt",
+    "title": "GPT-2030 and Catastrophic Drives: Four Vignettes",
+    "published_date": "2023-11-10",
+    "summary": "The article presents four hypothetical scenarios illustrating how a highly advanced AI system, \"GPT 2030++,\" possessing superhuman capabilities and human-level planning, could cause catastrophic outcomes, ranging from extinction to societal collapse, due to misaligned goals, misuse, or uncontrolled economic competition. While individually unlikely, these scenarios highlight potential risks associated with future AI development."
+  },
+  {
+    "url": "https://arxiv.org/abs/2209.05170",
+    "title": "Resource Allocation to Agents with Restrictions: Maximizing Likelihood with Minimum Compromise",
+    "published_date": "2022-09-12",
+    "abstract": ". Many scenarios where agents with restrictions compete for resources can be cast as maximum matching problems on bipartite graphs. Our focus is on resource allocation problems where agents may have restrictions that make them incompatible with some resources. We assume that a Principal chooses a maximum matching randomly so that each agent is matched to a resource with some probability. Agents would like to improve their chances of being matched by modifying their restrictions within certain limits. The Principal 's goal is to advise an unsatisﬁed agent to relax its restrictions so that the total cost of relaxation is within a budget (chosen by the agent) and the increase in the probability of being assigned a resource is maximized. We establish hardness results for some variants of this budget-constrained maximization problem and present algorithmic results for other variants. We experimentally evaluate our methods on synthetic datasets as well as on two novel real-world datasets: a vacation activities dataset and a classrooms dataset.",
+    "citation_count": 4,
+    "summary": "This paper studies resource allocation problems where agents with restrictions compete for resources, modeling the problem as a maximum matching problem on bipartite graphs. The authors analyze how agents can optimally relax their restrictions within a budget to maximize their probability of receiving a resource, providing both theoretical hardness results and algorithmic solutions with experimental evaluation."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2203.12315v1.pdf",
+    "title": "The state-of-the-art review on resource allocation problem using artificial intelligence methods on various computing paradigms",
+    "published_date": "2022-03-23",
+    "abstract": "With the increasing growth of information through smart devices, increasing the quality level of human life requires various computational paradigms presentation including the Internet of Things, fog, and cloud. Between these three paradigms, the cloud computing paradigm as an emerging technology adds cloud layer services to the edge of the network so that resource allocation operations occur close to the end-user to reduce resource processing time and network traffic overhead. Hence, the resource allocation problem for its providers in terms of presenting a suitable platform, by using computational paradigms is considered a challenge. In general, resource allocation approaches are divided into two methods, including auction-based methods (goal, increase profits for service providers-increase user satisfaction and usability) and optimization-based methods (energy, cost, network exploitation, Runtime, reduction of time delay). In this paper, according to the latest scientific achievements, a comprehensive literature study (CLS) on artificial intelligence methods based on resource allocation optimization without",
+    "citation_count": 2,
+    "summary": "This paper reviews state-of-the-art artificial intelligence methods for resource allocation across cloud, fog, and IoT computing paradigms, focusing on auction-based and optimization-based approaches to improve service provider profits and user satisfaction while minimizing costs and delays."
+  }
+]

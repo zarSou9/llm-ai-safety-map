@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.00069",
+    "title": "Meta-Sealing: A Revolutionizing Integrity Assurance Protocol for Transparent, Tamper-Proof, and Trustworthy AI System",
+    "published_date": "2024-10-31",
+    "abstract": "The Artificial intelligence in critical sectors-healthcare, finance, and public safety-has made system integrity paramount for maintaining societal trust. Current verification methods for AI systems lack comprehensive lifecycle assurance, creating significant vulnerabilities in deployment of both powerful and trustworthy AI. This research introduces Meta-Sealing, a cryptographic framework that fundamentally changes integrity verification in AI systems throughout their operational lifetime. Meta-Sealing surpasses traditional integrity protocols through its implementation of cryptographic seal chains, establishing verifiable, immutable records for all system decisions and transformations. The framework combines advanced cryptography with distributed verification, delivering tamper-evident guarantees that achieve both mathematical rigor and computational efficiency. Our implementation addresses urgent regulatory requirements for AI system transparency and auditability. The framework integrates with current AI governance standards, specifically the EU's AI Act and FDA's healthcare AI guidelines, enabling organizations to maintain operational efficiency while meeting compliance requirements. Testing on financial institution data demonstrated Meta-Sealing's capability to reduce audit timeframes by 62% while enhancing stakeholder confidence by 47%. Results can establish a new benchmark for integrity assurance in enterprise AI deployments. This research presents Meta-Sealing not merely as a technical solution, but as a foundational framework ensuring AI system integrity aligns with human values and regulatory requirements. As AI continues to influence critical decisions, provides the necessary bridge between technological advancement and verifiable trust. Meta-Sealing serves as a guardian of trust, ensuring that the AI systems we depend on are as reliable and transparent as they are powerful.",
+    "summary": "Meta-Sealing is a novel cryptographic framework providing comprehensive, tamper-proof integrity assurance for AI systems throughout their lifecycle, using cryptographic seal chains to create verifiable records of all system actions and significantly improving audit efficiency and stakeholder trust. This framework aligns with existing AI governance regulations, enhancing transparency and compliance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.08981",
+    "title": "Reliability, Resilience and Human Factors Engineering for Trustworthy AI Systems",
+    "published_date": "2024-11-13",
+    "abstract": "As AI systems become integral to critical operations across industries and services, ensuring their reliability and safety is essential. We offer a framework that integrates established reliability and resilience engineering principles into AI systems. By applying traditional metrics such as failure rate and Mean Time Between Failures (MTBF) along with resilience engineering and human reliability analysis, we propose an integrate framework to manage AI system performance, and prevent or efficiently recover from failures. Our work adapts classical engineering methods to AI systems and outlines a research agenda for future technical studies. We apply our framework to a real-world AI system, using system status data from platforms such as openAI, to demonstrate its practical applicability. This framework aligns with emerging global standards and regulatory frameworks, providing a methodology to enhance the trustworthiness of AI systems. Our aim is to guide policy, regulation, and the development of reliable, safe, and adaptable AI technologies capable of consistent performance in real-world environments.",
+    "citation_count": 1,
+    "summary": "This paper presents a framework integrating reliability and resilience engineering principles into AI systems, using traditional metrics and human factors analysis to improve performance, prevent failures, and enable efficient recovery, demonstrated through a real-world application and aligned with emerging standards."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.14728",
+    "title": "Security Threats in Agentic AI System",
+    "published_date": "2024-10-16",
+    "abstract": "This research paper explores the privacy and security threats posed to an Agentic AI system with direct access to database systems. Such access introduces significant risks, including unauthorized retrieval of sensitive information, potential exploitation of system vulnerabilities, and misuse of personal or confidential data. The complexity of AI systems combined with their ability to process and analyze large volumes of data increases the chances of data leaks or breaches, which could occur unintentionally or through adversarial manipulation. Furthermore, as AI agents evolve with greater autonomy, their capacity to bypass or exploit security measures becomes a growing concern, heightening the need to address these critical vulnerabilities in agentic systems.",
+    "summary": "Agentic AI systems with direct database access face significant security threats, including unauthorized data retrieval and misuse, due to their complexity, data processing capabilities, and potential for autonomous exploitation of vulnerabilities. These risks are heightened by the increasing autonomy of AI agents."
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.12935",
+    "title": "Trustworthy, Responsible, and Safe AI: A Comprehensive Architectural Framework for AI Safety with Challenges and Mitigations",
+    "published_date": "2024-08-23",
+    "abstract": "AI Safety is an emerging area of critical importance to the safe adoption and deployment of AI systems. With the rapid proliferation of AI and especially with the recent advancement of Generative AI (or GAI), the technology ecosystem behind the design, development, adoption, and deployment of AI systems has drastically changed, broadening the scope of AI Safety to address impacts on public safety and national security. In this paper, we propose a novel architectural framework for understanding and analyzing AI Safety; defining its characteristics from three perspectives: Trustworthy AI, Responsible AI, and Safe AI. We provide an extensive review of current research and advancements in AI safety from these perspectives, highlighting their key challenges and mitigation approaches. Through examples from state-of-the-art technologies, particularly Large Language Models (LLMs), we present innovative mechanism, methodologies, and techniques for designing and testing AI safety. Our goal is to promote advancement in AI safety research, and ultimately enhance people's trust in digital transformation.",
+    "citation_count": 3,
+    "summary": "This paper presents a new architectural framework for AI safety encompassing trustworthy, responsible, and safe AI, reviewing existing research, highlighting challenges, and proposing mitigation strategies using examples from current technologies like Large Language Models. The framework aims to advance AI safety research and foster public trust in AI."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.15757",
+    "title": "Smart Grid Security: A Verified Deep Reinforcement Learning Framework to Counter Cyber-Physical Attacks",
+    "published_date": "2024-09-24",
+    "abstract": "The distributed nature of smart grids, combined with sophisticated sensors, control algorithms, and data collection facilities at Supervisory Control and Data Acquisition (SCADA) centers, makes them vulnerable to strategically crafted cyber-physical attacks. These malicious attacks can manipulate power demands using high-wattage Internet of Things (IoT) botnet devices, such as refrigerators and air conditioners, or introduce false values into transmission line power flow sensor readings. Consequently, grids experience blackouts and high power flow oscillations. Existing grid protection mechanisms, originally designed to tackle natural faults in transmission lines and generator outages, are ineffective against such intelligently crafted attacks. This is because grid operators overlook potential scenarios of cyber-physical attacks during their design phase. In this work, we propose a safe Deep Reinforcement Learning (DRL)-based framework for mitigating attacks on smart grids. The DRL agent effectively neutralizes cyber-physical attacks on grid surfaces by triggering appropriate sequences of existing protection schemes. The safety of the DRL agent is formally verified through a reachability analysis method. Additionally, our framework is designed for deployment on CUDA-enabled GPU systems, which enables faster execution of these protection sequences and their real-time validation. Our framework establishes a new set of protection rules for grid models, successfully thwarting existing cyber-physical attacks.",
+    "summary": "This paper presents a verified deep reinforcement learning framework for mitigating cyber-physical attacks on smart grids, using a formally verified agent to trigger existing protection schemes and counteract malicious manipulations of power demand or sensor readings. The framework is designed for efficient deployment on GPUs for real-time response."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.08689",
+    "title": "Security of AI Agents",
+    "published_date": "2024-06-12",
+    "abstract": "AI agents have been boosted by large language models. AI agents can function as intelligent assistants and complete tasks on behalf of their users with access to tools and the ability to execute commands in their environments. Through studying and experiencing the workflow of typical AI agents, we have raised several concerns regarding their security. These potential vulnerabilities are not addressed by the frameworks used to build the agents, nor by research aimed at improving the agents. In this paper, we identify and describe these vulnerabilities in detail from a system security perspective, emphasizing their causes and severe effects. Furthermore, we introduce defense mechanisms corresponding to each vulnerability with design and experiments to evaluate their viability. Altogether, this paper contextualizes the security issues in the current development of AI agents and delineates methods to make AI agents safer and more reliable.",
+    "citation_count": 4,
+    "summary": "This paper identifies significant security vulnerabilities in AI agents stemming from their architecture and interaction with their environment, proposing and evaluating corresponding defense mechanisms to improve their safety and reliability."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.00052",
+    "title": "A Case for Competent AI Systems $-$ A Concept Note",
+    "published_date": "2023-11-28",
+    "abstract": "The efficiency of an AI system is contingent upon its ability to align with the specified requirements of a given task. How-ever, the inherent complexity of tasks often introduces the potential for harmful implications or adverse actions. This note explores the critical concept of capability within AI systems, representing what the system is expected to deliver. The articulation of capability involves specifying well-defined out-comes. Yet, the achievement of this capability may be hindered by deficiencies in implementation and testing, reflecting a gap in the system's competency (what it can do vs. what it does successfully). A central challenge arises in elucidating the competency of an AI system to execute tasks effectively. The exploration of system competency in AI remains in its early stages, occasionally manifesting as confidence intervals denoting the probability of success. Trust in an AI system hinges on the explicit modeling and detailed specification of its competency, connected intricately to the system's capability. This note explores this gap by proposing a framework for articulating the competency of AI systems. Motivated by practical scenarios such as the Glass Door problem, where an individual inadvertently encounters a glass obstacle due to a failure in their competency, this research underscores the imperative of delving into competency dynamics. Bridging the gap between capability and competency at a detailed level, this note contributes to advancing the discourse on bolstering the reliability of AI systems in real-world applications.",
+    "summary": "This paper argues that achieving reliable AI systems requires a clear distinction between \"capability\" (what a system *should* do) and \"competency\" (what it *actually* does successfully), proposing a framework to bridge this gap and improve AI trustworthiness. The authors highlight the need for detailed competency specifications to build more reliable AI."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kvk2ZorXui4YB4zvc/part-1-direct-help-with-ai-info-and-computer-security",
+    "author": "Allison Duettmann",
+    "title": "AI infosec: first strikes, zero-day markets, hardware supply chains, adoption barriers",
+    "published_date": "2023-04-01",
+    "summary": "The article discusses the significant security risks associated with Artificial General Intelligence (AGI) development, focusing on the potential for preemptive cyberattacks by nation-states fearing an AGI arms race. These attacks, unlike kinetic warfare, are harder to attribute and could lead to increased global instability due to their potential for widespread, yet subtly deployed, damage."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of blog posts aims to provide a comprehensive introduction to AI safety, though the content and order are still under development."
+  }
+]

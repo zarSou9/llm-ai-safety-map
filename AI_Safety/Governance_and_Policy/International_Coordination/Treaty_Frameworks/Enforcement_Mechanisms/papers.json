@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2408.16074",
+    "title": "Verification methods for international AI agreements",
+    "published_date": "2024-08-28",
+    "abstract": "What techniques can be used to verify compliance with international agreements about advanced AI development? In this paper, we examine 10 verification methods that could detect two types of potential violations: unauthorized AI training (e.g., training runs above a certain FLOP threshold) and unauthorized data centers. We divide the verification methods into three categories: (a) national technical means (methods requiring minimal or no access from suspected non-compliant nations), (b) access-dependent methods (methods that require approval from the nation suspected of unauthorized activities), and (c) hardware-dependent methods (methods that require rules around advanced hardware). For each verification method, we provide a description, historical precedents, and possible evasion techniques. We conclude by offering recommendations for future work related to the verification and enforcement of international AI governance agreements.",
+    "summary": "This paper analyzes ten verification methods for ensuring compliance with international AI agreements, categorizing them by required access level (national technical means, access-dependent, and hardware-dependent), and assessing their effectiveness against potential evasion techniques. The study aims to inform future work on verification and enforcement of AI governance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.06143",
+    "title": "blockLAW: Blockchain Technology for Legal Automation and Workflow - Cyber Ethics and Cybersecurity Platforms",
+    "published_date": "2024-10-08",
+    "abstract": "In the current legal environment, it is essential to prioritize the protection and reliability of data to promote trust and effectiveness. This study examines how blockchain technology in the form of blockLAW can be applicable to investigate its effects on legal automation, cybersecurity, and ethical concerns. The decentralized ledger and unchangeable characteristics of Blockchain provide opportunities to simplify legal procedures, automate contract execution with smart contracts, and improve transparency in legal transactions. Blockchain is seen as a crucial instrument for updating legal processes while maintaining ethical standards, tackling issues like scalability, regulatory adherence, and ethical dilemmas such as privacy and fairness. The study examines recent developments and evaluates blockchain impact on legal structures, offering perspectives on its potential to enhance legal procedures and guarantee transparency in legal systems. It further emphasizes blockchain ability to redefine how legal professionals handle and protect sensitive information, leading to stronger, more effective, and reliable legal procedures. We have also discussed the technological considerations when it comes to blockchain integration into legal systems like integration planning, implementation strategies, innovations, advancements, trends with Blockchain Integration Framework for legal systems.",
+    "summary": "BlockLAW explores the application of blockchain technology to automate legal processes, enhance cybersecurity, and address ethical concerns within the legal field, focusing on improved transparency, efficiency, and data security. The study analyzes the technology's potential benefits and challenges, including scalability, regulatory compliance, and ethical implications like privacy."
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.14661",
+    "title": "Exploration of legal implications of air and space travel for international and domestic travel and the Environment",
+    "published_date": "2023-07-27",
+    "abstract": "The rapid growth of air and space travel in recent years has resulted in an increased demand for legal regulation in the aviation and aerospace fields. This paper provides an overview of air and space law, including the topics of aircraft accident investigations, air traffic control, international borders and law, and the regulation of space activities. With the increasing complexity of air and space travel, it is important to understand the legal implications of these activities. This paper examines the various legal aspects of air and space law, including the roles of national governments, international organizations, and private entities. It also provides an overview of the legal frameworks that govern these activities and the implications of international law. Finally, it considers the potential for future developments in the field of air and space law. This paper provides a comprehensive overview of the legal aspects of air and space travel and their implications for international and domestic travel, as well as for international business and other activities in the air and space domains.",
+    "summary": "This paper examines the evolving legal landscape of air and space travel, encompassing accident investigation, air traffic control, international borders, space activity regulation, and the roles of various governing bodies. It highlights the increasing need for robust legal frameworks to manage the complexities of these rapidly developing sectors."
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.15514",
+    "title": "International Governance of Civilian AI: A Jurisdictional Certification Approach",
+    "published_date": "2023-08-29",
+    "abstract": "This report describes trade-offs in the design of international governance arrangements for civilian artificial intelligence (AI) and presents one approach in detail. This approach represents the extension of a standards, licensing, and liability regime to the global level. We propose that states establish an International AI Organization (IAIO) to certify state jurisdictions (not firms or AI projects) for compliance with international oversight standards. States can give force to these international standards by adopting regulations prohibiting the import of goods whose supply chains embody AI from non-IAIO-certified jurisdictions. This borrows attributes from models of existing international organizations, such as the International Civilian Aviation Organization (ICAO), the International Maritime Organization (IMO), and the Financial Action Task Force (FATF). States can also adopt multilateral controls on the export of AI product inputs, such as specialized hardware, to non-certified jurisdictions. Indeed, both the import and export standards could be required for certification. As international actors reach consensus on risks of and minimum standards for advanced AI, a jurisdictional certification regime could mitigate a broad range of potential harms, including threats to public safety.",
+    "citation_count": 19,
+    "summary": "This report proposes an international governance model for civilian AI involving an International AI Organization (IAIO) that certifies national jurisdictions based on compliance with international AI standards, leveraging import/export controls to incentivize participation and mitigate potential harms. This approach extends existing international organizational models to address global AI risks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "President Biden's October 30, 2023 executive order on AI mandates various federal agencies to submit reports and implement plans regarding AI's use in diverse sectors, with deadlines ranging from 30 to 90 days after the order's publication, focusing on responsible development, risk management, workforce development, and addressing potential biases."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2209.00944.pdf",
+    "title": "Entity Graph Extraction from Legal Acts - a Prototype for a Use Case in Policy Design Analysis",
+    "published_date": "2022-09-02",
+    "abstract": "This paper presents research on a prototype developed to serve the quantitative study of public policy design. This sub-discipline of political science focuses on identifying actors, relations between them, and tools at their disposal in health, environmental, economic, and other policies. Our system aims to automate the process of gathering legal documents, annotating them with Institutional Grammar, and using hypergraphs to analyse inter-relations between crucial entities. Our system is tested against the UNESCO Convention for the Safeguarding of the Intangible Cultural Heritage from 2003, a legal document regulating essential aspects of international relations securing cultural heritage.",
+    "summary": "This paper describes a prototype system that automatically extracts entity relationships from legal documents using Institutional Grammar and hypergraphs, enabling quantitative analysis of public policy design. The system's performance is evaluated using the UNESCO Convention for the Safeguarding of the Intangible Cultural Heritage."
+  },
+  {
+    "url": "https://arxiv.org/abs/2209.02353",
+    "title": "From Legal Contracts to Legal Calculi: the code-driven normativity",
+    "published_date": "2022-08-29",
+    "abstract": "Using dedicated software to represent or enact legislation or regulation has the advantage of solving the inherent ambiguity of legal texts and enabling the automation of compliance with legal norms. On the other hand, the so-called code-driven normativity is less flexible than the legal provisions it claims to implement, and transforms the nature of legal protection, potentially reducing the capability of individual human beings to invoke legal remedies. In this article we focus on software-based legal contracts; we illustrate the design of a legal calculus whose primitives allow a direct formalisation of contracts' normative elements (i.e., permissions, prohibitions, obligations, asset transfer, judicial enforcement and openness to the external context). We show that interpreting legal contracts as interaction protocols between (untrusted) parties enables the generalisation of formal methods and tools for concurrent systems to the legal setting",
+    "citation_count": 2,
+    "summary": "This paper explores the use of software to formalize legal contracts, creating \"legal calculi\" that reduce ambiguity and automate compliance, but also potentially limit flexibility and individual legal recourse. The authors propose a design for such a calculus based on representing contracts as interaction protocols."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rmwAuWXYTo24E5nnX/a-pin-and-a-balloon-anthropic-fragility-increases-chances-of",
+    "author": "avturchin",
+    "title": "A Pin and a Balloon: Anthropic Fragility Increases Chances of Runaway Global Warming",
+    "published_date": "2022-09-11",
+    "summary": "Due to survival bias, we may underestimate the likelihood and proximity of climate tipping points, making Earth more vulnerable to human-caused climate catastrophe than previously thought. This \"anthropic fragility\" suggests a higher probability of runaway global warming and necessitates urgent research into geoengineering solutions."
+  }
+]

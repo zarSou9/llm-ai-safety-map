@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/8gCsRPxvXyAZJLcwd/gdp-per-capita-in-2050",
+    "author": "Hauke Hillebrandt",
+    "title": "GDP per capita in 2050",
+    "published_date": "2024-05-06",
+    "summary": "The article projects GDP per capita for major economies until 2050, arguing that even without transformative AI growth, the projected increases suggest a significantly different world by then, with many countries reaching living standards comparable to wealthier nations today."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/cLfsabkCPtieJ5LoK/investigating-bias-representations-in-llms-via-activation",
+    "author": "DawnLu",
+    "title": "Investigating Bias Representations in LLMs via Activation Steering",
+    "published_date": "2024-01-15",
+    "summary": "This research uses activation steering to assess the bias robustness of the Llama-2-7b-chat LLM, finding that while the model exhibits existing gender bias, it unexpectedly refused to answer prompts designed to elicit racial and religious biases when steering vectors were applied, even at high magnitudes."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/iaHk9DMCbrYsKuqgS/simple-distribution-approximation-when-sampled-100-times-can-1",
+    "author": "Teun van der Weij, Felix Hofstätter, Francis Rhys Ward",
+    "title": "Simple distribution approximation: When sampled 100 times, can language models yield 80% A and 20% B?",
+    "published_date": "2024-01-29",
+    "summary": "This research investigates large language models' ability to control their output distribution to achieve a specified accuracy rate (sandbagging). Experiments using GPT-3.5 and GPT-4 show the models can approximate target distributions, but their performance varies depending on task complexity and prompt wording."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCbybRT8bgiMbEHEv/a-list-of-all-the-deadlines-in-biden-s-executive-order-on-ai",
+    "author": "Ricki Heicklen",
+    "title": "Toward a Broader Conception of Adverse Selection",
+    "published_date": "2023-11-01",
+    "summary": "Biden's October 30, 2023 executive order on AI sets various deadlines for federal agencies, ranging from 30 to 90 days, to issue reports, develop strategies, and implement plans related to AI's responsible development, use, and workforce implications. These actions address AI's impact across multiple sectors, including transportation, healthcare, and national security."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mmxPbFz7wvthvHCxq/sparks-of-artificial-general-intelligence-early-experiments",
+    "author": "DragonGod",
+    "title": "Sparks of Artificial General Intelligence: Early experiments with GPT-4 | Microsoft Research",
+    "published_date": "2023-03-23",
+    "summary": "This paper investigates an early version of OpenAI's GPT-4, arguing that it, along with similar LLMs, demonstrates significantly improved general intelligence compared to predecessors, exhibiting near-human-level performance across diverse complex tasks. The authors highlight GPT-4's capabilities while also acknowledging limitations and future challenges in developing truly artificial general intelligence (AGI)."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi/p/HvqQm6o8KnwxbdmhZ",
+    "author": "lennart, Jsevillamol, Marius Hobbhahn, Tamay Besiroglu, anson.ho",
+    "title": "Estimating training compute of Deep Learning models",
+    "published_date": "2022-01-20",
+    "summary": "Two methods for estimating deep learning model training compute are presented: directly counting operations (considering forward and backward passes) and estimating from GPU time (incorporating core count, peak FLOP/s, and utilization rate). Both methods yield comparable estimates, with utilization rate recommendations of 30% for LLMs and 40% for other models."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/dall-e",
+    "author": "DirectedEvolution",
+    "title": "DALL-E - LessWrong",
+    "published_date": "2022-07-22",
+    "summary": "DALL-E is a series of OpenAI's machine learning models capable of creating images based on textual descriptions. These models translate text prompts into corresponding visuals."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/T9pBzinPXYB3mxSGi/p/sDiGGhpw7Evw7zdR4",
+    "author": "lennart, Jsevillamol, Pablo Villalobos, Marius Hobbhahn, Tamay Besiroglu, anson.ho",
+    "title": "Compute Trends — Comparison to OpenAI's AI and Compute",
+    "published_date": "2022-03-12",
+    "summary": "This analysis refutes OpenAI's 3.4-month compute doubling time in AI model training from 2012-2018, finding a 5.7-month doubling time through 2022. The discrepancy stems from the inclusion of a distinct \"large-scale model\" trend emerging after 2015, which, when separated, reveals a more consistent doubling time across both large and regular-scale models, and a different time period."
+  }
+]

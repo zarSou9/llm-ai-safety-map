@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.00179",
+    "title": "What Makes An Expert? Reviewing How ML Researchers Define \"Expert\"",
+    "published_date": "2024-10-16",
+    "abstract": "Human experts are often engaged in the development of machine learning systems to collect and validate data, consult on algorithm development, and evaluate system performance. At the same time, who counts as an 'expert' and what constitutes 'expertise' is not always explicitly defined. In this work, we review 112 academic publications that explicitly reference 'expert' and 'expertise' and that describe the development of machine learning (ML) systems to survey how expertise is characterized and the role experts play. We find that expertise is often undefined and forms of knowledge outside of formal education and professional certification are rarely sought, which has implications for the kinds of knowledge that are recognized and legitimized in ML development. Moreover, we find that expert knowledge tends to be utilized in ways focused on mining textbook knowledge, such as through data annotation. We discuss the ways experts are engaged in ML development in relation to deskilling, the social construction of expertise, and implications for responsible AI development. We point to a need for reflection and specificity in justifications of domain expert engagement, both as a matter of documentation and reproducibility, as well as a matter of broadening the range of recognized expertise.",
+    "summary": "This paper analyzes 112 academic publications to reveal how \"expert\" and \"expertise\" are inconsistently defined and utilized in machine learning development, often overlooking non-formal knowledge and limiting expert roles to tasks like data annotation, highlighting a need for greater clarity and inclusivity in defining and utilizing expertise."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.03741",
+    "title": "Towards Democratization of Subspeciality Medical Expertise",
+    "published_date": "2024-10-01",
+    "abstract": "The scarcity of subspecialist medical expertise, particularly in rare, complex and life-threatening diseases, poses a significant challenge for healthcare delivery. This issue is particularly acute in cardiology where timely, accurate management determines outcomes. We explored the potential of AMIE (Articulate Medical Intelligence Explorer), a large language model (LLM)-based experimental AI system optimized for diagnostic dialogue, to potentially augment and support clinical decision-making in this challenging context. We curated a real-world dataset of 204 complex cases from a subspecialist cardiology practice, including results for electrocardiograms, echocardiograms, cardiac MRI, genetic tests, and cardiopulmonary stress tests. We developed a ten-domain evaluation rubric used by subspecialists to evaluate the quality of diagnosis and clinical management plans produced by general cardiologists or AMIE, the latter enhanced with web-search and self-critique capabilities. AMIE was rated superior to general cardiologists for 5 of the 10 domains (with preference ranging from 9% to 20%), and equivalent for the rest. Access to AMIE's response improved cardiologists' overall response quality in 63.7% of cases while lowering quality in just 3.4%. Cardiologists' responses with access to AMIE were superior to cardiologist responses without access to AMIE for all 10 domains. Qualitative examinations suggest AMIE and general cardiologist could complement each other, with AMIE thorough and sensitive, while general cardiologist concise and specific. Overall, our results suggest that specialized medical LLMs have the potential to augment general cardiologists' capabilities by bridging gaps in subspecialty expertise, though further research and validation are essential for wide clinical utility.",
+    "citation_count": 1,
+    "summary": "An AI system, AMIE, outperformed general cardiologists in several aspects of diagnosing complex cardiac cases when evaluated by subspecialists, suggesting LLMs can augment generalist capabilities in subspecialty medicine. Access to AMIE significantly improved general cardiologists' diagnostic and management plans."
+  },
+  {
+    "url": "https://arxiv.org/abs/2401.17929",
+    "title": "Technological Shocks and Algorithmic Decision Aids in Credence Goods Markets",
+    "published_date": "2024-01-31",
+    "abstract": "In credence goods markets such as health care or repair services, consumers rely on experts with superior information to adequately diagnose and treat them. Experts, however, are constrained in their diagnostic abilities, which hurts market efficiency and consumer welfare. Technological breakthroughs that substitute or complement expert judgments have the potential to alleviate consumer mistreatment. This article studies how competitive experts adopt novel diagnostic technologies when skills are heterogeneously distributed and obfuscated to consumers. We differentiate between novel technologies that increase expert abilities, and algorithmic decision aids that complement expert judgments, but do not affect an expert's personal diagnostic precision. We show that high-ability experts may be incentivized to forego the decision aid in order to escape a pooling equilibrium by differentiating themselves from low-ability experts. Results from an online experiment support our hypothesis, showing that high-ability experts are significantly less likely than low-ability experts to invest into an algorithmic decision aid. Furthermore, we document pervasive under-investments, and no effect on expert honesty.",
+    "summary": "This paper examines how experts in credence goods markets adopt new diagnostic technologies, finding that high-ability experts may avoid algorithmic decision aids to distinguish themselves from low-ability experts, leading to underinvestment in these technologies despite potential efficiency gains. An online experiment supports this finding, showing no impact on expert honesty."
+  },
+  {
+    "title": "Measuring Technical Debt in AI-Based Competition Platforms",
+    "abstract": "Advances in AI have led to new types of technical debt in software engineering projects. AI-based competition platforms face challenges due to rapid prototyping and a lack of adherence to software engineering principles by participants, resulting in technical debt. Additionally, organizers often lack methods to evaluate platform quality, impacting sustainability and maintainability. In this research, we identify and categorize types of technical debt in AI systems through a scoping review. We develop a questionnaire for assessing technical debt in AI competition platforms, categorizing debt into various types, such as algorithm, architectural, code, configuration, data etc. We introduce Accessibility Debt, specific to AI competition platforms, highlighting challenges participants face due to inadequate platform usability. Our framework for managing technical debt aims to improve the sustainability and effectiveness of these platforms, providing tools for researchers, organizers, and participants.",
+    "published_date": "2024-05-20",
+    "url": "https://www.researchgate.net/publication/380730316_Measuring_Technical_Debt_in_AI-Based_Competition_Platforms",
+    "summary": "This paper identifies and categorizes technical debt in AI-based competition platforms, developing a questionnaire and framework to assess and manage this debt, including a novel \"Accessibility Debt\" category specific to platform usability challenges. The goal is to improve the sustainability and maintainability of these platforms."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/QzQQvGJYDeaDE4Cfg/talent-needs-of-technical-ai-safety-teams",
+    "author": "Yams; Carson Jones; McKennaFitzgerald; Ryan Kidd",
+    "title": "Talent Needs of Technical AI Safety Teams",
+    "published_date": "2024-05-24",
+    "summary": "This report synthesizes interviews with AI safety leaders to identify current talent needs and categorize researcher archetypes (Connectors, Iterators, Amplifiers). The authors aim to inform the evolution of their AI safety talent monitoring program (MATS) and guide emerging researchers."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/LjgcRbptarrRfJWtR/a-breakdown-of-ai-capability-levels-focused-on-ai-r-and-d",
+    "author": "ryan_greenblatt",
+    "title": "A breakdown of AI capability levels focused on AI R&D labor acceleration",
+    "published_date": "2024-12-22",
+    "summary": "The author proposes measuring AI capability by its ability to accelerate AI R&D labor, defining levels like \"3x AI\" (3x labor acceleration) and \"TEDAI\" (Top-human-Expert-Dominating AI). This metric focuses on AI's inherent power, minimizing the influence of external factors like compute availability, unlike other measures of AI progress."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.04337.pdf",
+    "title": "(Re)Defining Expertise in Machine Learning Development",
+    "published_date": "2023-02-08",
+    "abstract": "Domain experts are often engaged in the development of machine learning systems in a variety of ways, such as in data collection and evaluation of system performance. At the same time, who counts as an 'expert' and what constitutes 'expertise' is not always explicitly defined. In this project, we conduct a systematic literature review of machine learning research to understand 1) the bases on which expertise is defined and recognized and 2) the roles experts play in ML development. Our goal is to produce a high-level taxonomy to highlight limits and opportunities in how experts are identified and engaged in ML research.",
+    "citation_count": 1,
+    "summary": "This paper systematically reviews machine learning literature to define and categorize expertise in ML development, identifying how expertise is currently recognized and the roles experts play, aiming to create a taxonomy highlighting limitations and opportunities in expert identification and engagement."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.11942",
+    "title": "Skills or Degree? The Rise of Skill-Based Hiring for AI and Green Jobs",
+    "published_date": "2023-12-19",
+    "abstract": "Emerging professions in fields like Artificial Intelligence (AI) and sustainability (green jobs) are experiencing labour shortages as industry demand outpaces labour supply. In this context, our study aims to understand whether employers have begun focusing more on individual skills rather than formal qualifications in their recruitment processes. We analysed a large time-series dataset of approximately eleven million online job vacancies in the UK from 2018 to mid-2024, drawing on diverse literature on technological change and labour market signalling. Our findings provide evidence that employers have initiated\"skill-based hiring\"for AI roles, adopting more flexible hiring practices to expand the available talent pool. From 2018-2023, demand for AI roles grew by 21% as a proportion of all postings (and accelerated into 2024). Simultaneously, mentions of university education requirements for AI roles declined by 15%. Our regression analysis shows that university degrees have a significantly lower wage premium for both AI and green roles. In contrast, AI skills command a wage premium of 23%, exceeding the value of degrees up until the PhD-level (33%). In occupations with high demand for AI skills, the premium for skills is high, and the reward for degrees is relatively low. We recommend leveraging alternative skill-building formats such as apprenticeships, on-the-job training, MOOCs, vocational education and training, micro-certificates, and online bootcamps to fully utilise human capital and address talent shortages.",
+    "citation_count": 3,
+    "summary": "A study of UK job postings from 2018-2024 reveals a shift towards skills-based hiring in AI and green jobs, with decreased emphasis on formal degrees and a significant wage premium for AI skills exceeding that of even PhDs. This suggests a growing reliance on alternative skill development pathways to address talent shortages in these high-demand sectors."
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "title": "BigFuzz: Efficient Fuzz Testing for Data Analytics Using Framework Abstraction",
+    "abstract": "As big data analytics become increasingly popular, data-intensive scalable computing (DISC) systems help address the scalability issue of handling large data. However, automated testing for such data-centric applications is challenging, because data is often incomplete, continuously evolving, and hard to know a priori. Fuzz testing has been proven to be highly effective in other domains such as security; however, it is nontrivial to apply such traditional fuzzing to big data analytics directly for three reasons: (1) the long latency of DISC systems prohibits the applicability of fuzzing: naïve fuzzing would spend 98% of the time in setting up a test environment; (2) conventional branch coverage is unlikely to scale to DISC applications because most binary code comes from the framework implementation such as Apache Spark; and (3) random bit or byte level mutations can hardly generate meaningful data, which fails to reveal real-world application bugs. We propose a novel coverage-guided fuzz testing tool for big data analytics, called BigFuzz. The key essence of our approach is that: (a) we focus on exercising application logic as opposed to increasing framework code coverage by abstracting the DISC framework using specifications. BigFuzz performs automated source to source transformations to construct an equivalent DISC application suitable for fast test generation, and (b) we design schema-aware data mutation operators based on our in-depth study of DISC application error types. BigFuzz speeds up the fuzzing time by 78 to 1477X compared to random fuzzing, improves application code coverage by 20% to 271%, and achieves 33% to 157% improvement in detecting application errors. When compared to the state of the art that uses symbolic execution to test big data analytics, BigFuzz is applicable to twice more programs and can find 81% more bugs.",
+    "published_date": "2020-09-01",
+    "citation_count": 35,
+    "url": "https://dl.acm.org/doi/10.1145/3324884.3416641"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Zi8vrf2aBCLu3Gh9s/the-simple-solow-model-of-software-engineering",
+    "author": "johnswentworth",
+    "title": "The Simple Solow Model of Software Engineering",
+    "published_date": "2019-04-08"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/JvTM68yzurLzJ3Xua/the-why-and-how-of-daily-updates",
+    "author": "VipulNaik",
+    "title": "The why and how of daily updates",
+    "published_date": "2019-05-05"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/3bcjPhwCnnMonc4EP/stabilize-reflect-execute",
+    "author": "ozziegooen",
+    "title": "Stabilize-Reflect-Execute",
+    "published_date": "2018-11-28"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/4FZfzqMtwQZES3eqN/slow-is-smooth-and-smooth-is-fast",
+    "author": "moridinamael",
+    "title": "\"Slow is smooth, and smooth is fast\"",
+    "published_date": "2018-01-24"
+  },
+  {
+    "title": "Robustness Testing of Autonomy Software",
+    "abstract": "As robotic and autonomy systems become progressively more present in industrial and human-interactive applications, it is increasingly critical for them to behave safely in the presence of unexpected inputs. While robustness testing for traditional software systems is long-studied, robustness testing for autonomy systems is relatively uncharted territory. In our role as engineers, testers, and researchers we have observed that autonomy systems are importantly different from traditional systems, requiring novel approaches to effectively test them. We present Automated Stress Testing for Autonomy Architectures (ASTAA), a system that effectively, automatically robustness tests autonomy systems by building on classic principles, with important innovations to support this new domain. Over five years, we have used ASTAA to test 17 real-world autonomy systems, robots, and robotics-oriented libraries, across commercial and academic applications, discovering hundreds of bugs. We outline the ASTAA approach and analyze more than 150 bugs we found in real systems. We discuss what we discovered about testing autonomy systems, specifically focusing on how doing so differs from and is similar to traditional software robustness testing and other high-level lessons.",
+    "published_date": "2017-05-01",
+    "citation_count": 62,
+    "url": "https://dl.acm.org/doi/10.1145/3183519.3183534"
+  }
+]

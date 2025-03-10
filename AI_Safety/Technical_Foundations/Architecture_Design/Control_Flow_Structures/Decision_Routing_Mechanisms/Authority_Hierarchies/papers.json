@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2303.16641.pdf",
+    "title": "A Hierarchical Game-Theoretic Decision-Making for Cooperative Multiagent Systems Under the Presence of Adversarial Agents",
+    "published_date": "2023-03-27",
+    "abstract": "Underlying relationships among Multi-Agent Systems (MAS) in hazardous scenarios can be represented as Game-theoretic models. This paper proposes a new hierarchical network-based model called Game-theoretic Utility Tree (GUT), which decomposes high-level strategies into executable low-level actions for cooperative MAS decisions. It combines with a new payoff measure based on agent needs for real-time strategy games. We present an Explore game domain, where we measure the performance of MAS achieving tasks from the perspective of balancing the success probability and system costs. We evaluate the GUT approach against state-of-the-art methods that greedily rely on rewards of the composite actions. Conclusive results on extensive numerical simulations indicate that GUT can organize more complex relationships among MAS cooperation, helping the group achieve challenging tasks with lower costs and higher winning rates. Furthermore, we demonstrated the applicability of the GUT using the simulator-hardware testbed - Robotarium. The performances verified the effectiveness of the GUT in the real robot application and validated that the GUT could effectively organize MAS cooperation strategies, helping the group with fewer advantages achieve higher performance.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.16511v2",
+    "title": "A Uniform Approach to Compare Architectures in Decentralized Discrete-Event Systems",
+    "published_date": "2022-10-29",
+    "abstract": "Solutions to decentralized discrete-event systems problems are characterized by the way local decisions are fused to yield a global decision. A fusion rule is colloquially called an architecture. Current approaches do not provide a direct way to compare existing architectures. Determining whether an architecture is more permissive than another architecture had relied on producing examples ad hoc and on individual inspiration that puts the conditions for solvability in each architecture into some form that admits comparison. In response to these research efforts, a method based on morphisms between graphs has been extracted to yield a uniform approach to compare the permissiveness of the architectures.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.05000",
+    "title": "A Hierarchical Grouping Algorithm for the Multi-Vehicle Dial-a-Ride Problem",
+    "published_date": "2022-10-10",
+    "abstract": "Ride-sharing is an essential aspect of modern urban mobility. In this paper, we consider a classical problem in ride-sharing - the Multi-Vehicle Dial-a-Ride Problem (Multi-Vehicle DaRP). Given a fleet of vehicles with a fixed capacity stationed at various locations and a set of ride requests specified by origins and destinations, the goal is to serve all requests such that no vehicle is assigned more passengers than its capacity at any point in its trip.\n \n We give an algorithm HGR, which is the\n first non-trivial approximation algorithm\n for the Multi-Vehicle DaRP. The main technical contribution is to reduce Multi-Vehicle DaRP to a certain capacitated partitioning problem, which we solve using a novel hierarchical grouping algorithm.\n \n Experimental results show that the vehicle routes produced by our algorithm not only exhibit less total travel distance compared to state-of-the-art baselines, but also enjoy a small in-transit latency, which crucially relates to each individual rider's traveling time. This suggests that HGR enhances rider experience while being energy-efficient."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2107.08348v1.pdf",
+    "title": "Adaptive Priority-based Conflict Resolution of IoT Services",
+    "published_date": "2021-07-18",
+    "abstract": "We propose a novel conflict resolution framework for IoT services in multi-resident smart homes. An adaptive priority model is developed considering the residents' contextual factors (e.g., age, illness, impairment). The proposed priority model is designed using the concept of the analytic hierarchy process. A set of experiments on real-world datasets are conducted to show the efficiency of the proposed approach.",
+    "citation_count": 9
+  },
+  {
+    "url": "https://arxiv.org/pdf/2009.03938v1.pdf",
+    "title": "Distributed Economic Model Predictive Control - Addressing Non-convexity Using Social Hierarchies",
+    "published_date": "2020-09-08",
+    "abstract": "This paper introduces a novel concept for addressing non-convexity in the cost functions of distributed economic model predictive control (DEMPC) systems. Specifically, the proposed algorithm enables agents to self-organize into a hierarchy which determines the order in which control decisions are made. This concept is based on the formation of social hierarchies in nature. An additional feature of the algorithm is that it does not require stationary set-points that are known a priori. Rather, agents negotiate these targets in a truly distributed and scalable manner. Upon providing a detailed description of the algorithm, guarantees of convergence, recursive feasibility, and bounded closed-loop stability are also provided. Finally, the proposed algorithm is compared against a basic parallel distributed economic model predictive controller using an academic numerical example.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2012.13300v1.pdf",
+    "title": "Hierarchical planning for resource allocation in emergency response systems",
+    "published_date": "2020-12-24",
+    "abstract": "A classical problem in city-scale cyber-physical systems (CPS) is resource allocation under uncertainty. Typically, such problems are modeled as Markov (or semi-Markov) decision processes. While online, offline, and decentralized approaches have been applied to such problems, they have difficulty scaling to large decision problems. We present a general approach to hierarchical planning that leverages structure in city-level CPS problems for resource allocation under uncertainty. We use emergency response as a case study and show how a large resource allocation problem can be split into smaller problems. We then create a principled framework for solving the smaller problems and tackling the interaction between them. Finally, we use real-world data from Nashville, Tennessee, a major metropolitan area in the United States, to validate our approach. Our experiments show that the proposed approach out-performs state-of-the-art approaches used in the field of emergency response.",
+    "citation_count": 16
+  }
+]

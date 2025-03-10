@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/gZBgmDFqqyw3Lghok/ai-regulatory-landscape-review-incident-reporting",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Incident Reporting: A Regulatory Review",
+    "published_date": "2024-03-11",
+    "summary": "This article begins a series analyzing the 2024 AI regulatory landscape, focusing on incident reporting in the US, EU, and China. It examines existing and emerging regulations, drawing parallels to successful incident reporting systems in other industries like aviation and occupational safety, to highlight the importance and various approaches to AI incident reporting."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential trajectories of transformative AI (TAI), focusing on the possibility of TAI emerging within the next decade. The program aims to identify existential hazards, evaluate AI safety and governance strategies across various scenarios, and recommend strategies to mitigate existential risks."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13",
+    "summary": "Current AI training prioritizes average performance, neglecting the risk of catastrophic \"tail events.\" The article proposes novel methods for estimating the probability of these events without relying on identifying specific harmful inputs, aiming to improve AI safety."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/FaEBwhhe3otzYKGQt/p/n767Q8HqbrteaPA25",
+    "author": "Dan H, ThomasW",
+    "title": "Complex Systems for AI Safety [Pragmatic AI Safety #3]",
+    "published_date": "2022-05-24",
+    "summary": "This article introduces a complex systems approach to AI safety, arguing that reducing AI systems to individual components is insufficient for understanding and mitigating risks. Instead, it proposes leveraging complex systems theory's understanding of interconnectedness and emergent behavior to analyze and improve the safety of AI research and development."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/FaEBwhhe3otzYKGQt/p/bffA9WC9nEJhtagQi",
+    "author": "Dan H, ThomasW",
+    "title": "Introduction to Pragmatic AI Safety [Pragmatic AI Safety #1]",
+    "published_date": "2022-05-09",
+    "summary": "The authors propose Pragmatic AI Safety (PAIS), a new approach to AI safety that leverages the successes of the machine learning community by focusing on empirically verifiable, scalable research, minimizing capability externalities, and considering sociotechnical factors. This contrasts with existing AI safety research, which the authors find to be either too theoretical or too intertwined with capability advancements."
+  },
+  {
+    "title": "Incident Response Support System for Multi-Located Network by Correlation Analysis of Individual Events",
+    "abstract": "Recent targeted attacks have affected large networks, including those made up of multiple locations. Since branch offices are less secure than the headquarters (HQ), it is difficult to completely prevent malware from entering the network through these attacks. Therefore, it is important to quickly detect and respond to these attacks to prevent them from spreading to other locations. However, under the current management system, managers at each site must respond to incidents without sharing information from other sites, and the manager at the HQ cannot obtain enough information to estimate the relationship between the incidents. We propose a management system that refers to all of incident information archived by the organization, generates recommendations on the basis of the similarity between the ongoing incident and archived ones, and notifies each administrator to respond to the incident that occurred in his/her network regardless of resolved or unresolved incidents. The proposed system also notifies the administrators at HQ of the entirety of the attack on the basis of the relationship among recent and ongoing incidents.",
+    "published_date": "2021-03-17",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3459955.3460592",
+    "summary": "This paper proposes an incident response system for multi-location networks that correlates individual events across sites to facilitate faster detection and response to attacks. The system uses similarity analysis of current and past incidents to provide recommendations to local administrators and a comprehensive overview to HQ."
+  },
+  {
+    "title": "Distributed Data Center Failure Analysis Model Based on Deep Learning",
+    "abstract": "Using deep neural network algorithms, application scenarios in a distributed multi-data center environment, in response to fault location requirements, a distributed multi-center fault model is established, operation and maintenance data is analyzed, and key infrastructure states are modeled and located, carry out the digital representation of common failure scenarios to accelerate the positioning process of automatic operation.",
+    "published_date": "2021-01-28",
+    "url": "https://dl.acm.org/doi/10.1145/3448734.3450880",
+    "summary": "This paper proposes a deep learning-based model for analyzing failures in distributed data centers, leveraging operational data to model key infrastructure states and accelerate automated fault location. The model digitally represents common failure scenarios to improve the speed and accuracy of fault identification."
+  },
+  {
+    "title": "Towards situational awareness with multimodal streaming data fusion: serverless computing approach",
+    "abstract": "The availability of large quantities of data has given an impulse for methods and techniques to extract unseen useful knowledge and process it in a fast and scalable manner. In order to extract the most complete possible knowledge from the continuous data stream, it is necessary to use the heterogeneous data sources and process information from multiple modalities. The systems that utilize multimodal data must take advantage of the up-to-date approaches for data storage, usage, cleaning and storage. Neural networks and machine learning approaches are widely used for data-heavy software where pattern extractions and predictions need to be conducted while serverless computing frameworks are being increasingly used for machine learning solutions to optimize cost and speed of such systems. This work presents a framework for processing data from multimodal sources where the task of feature and pattern extraction is performed on a serverless computing platform. The use cases for public safety solutions to increase situational awareness are described and compared with other implementation approaches.",
+    "published_date": "2021-06-20",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3460866.3461769",
+    "summary": "This paper proposes a serverless computing framework for fusing multimodal streaming data to enhance situational awareness, focusing on public safety applications and comparing its efficiency against alternative approaches. The framework leverages neural networks and machine learning for feature extraction and pattern recognition from heterogeneous data sources."
+  }
+]

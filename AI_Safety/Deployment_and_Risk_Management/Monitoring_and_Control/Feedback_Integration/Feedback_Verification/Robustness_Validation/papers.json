@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Robustness certification with generative models",
+    "abstract": "Generative neural networks are powerful models capable of learning a wide range of rich semantic image transformations such as altering person's age, head orientation, adding mustache, changing the hair color and many more. At a high level, a generative model effectively produces new and previously unseen images with the desired properties, which can then be used to improve the accuracy of existing models. In this work, we advance the state-of-the-art in verification by bridging the gap between (i) the well studied but limited norm-based and geometric transformations, and (ii) the rich set of semantic transformations used in practice. This problem is especially hard since the images are generated from a highly non-convex image manifold, preventing the use of most existing verifiers, which often rely on convex relaxations. We present a new verifier, called GenProve, which is capable of certifying the rich set of semantic transformations of generative models. GenProve can provide both sound deterministic and probabilistic guarantees, by capturing infinite non-convex sets of activation vectors and distributions over them, while scaling to realistic networks.",
+    "published_date": "2021-06-18",
+    "citation_count": 3,
+    "url": "https://dl.acm.org/doi/10.1145/3453483.3454100"
+  },
+  {
+    "title": "Robust monitoring for medical cyber-physical systems",
+    "abstract": "Some medical implants act autonomously: they assess the current health status of a patient and administer treatment when appropriate. An improper treatment, however, can cause serious harm. Here, the decision logic leading to the treatment relies on data obtained from sensors --- an inherently imperfect medium. Coping with these inaccuracies requires the logic to be robust in the sense that slight perturbations in the measurements do not significantly alter the decision. Determining the extent to which an algorithm is robust automatically does not scale well for complex and opaque components. This is particularly problematic when machine learning is involved. Yet, the analysis is feasible for simpler safety-related components such as a runtime monitor, which observes the system and intervenes in a treatment when necessary. Its significantly lower complexity generally allows for providing static guarantees on the runtime behavior of the monitor. Complementing these guarantees with a robustness analysis constitutes a major step toward certifiable medical cyber-physical systems controlled by opaque, machine-learned components. Hence, this paper reports on ongoing research in the direction of a robustness analysis for the runtime monitoring framework RTLola.",
+    "published_date": "2021-05-18",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3446913.3460318"
+  },
+  {
+    "title": "Robust Design and Validation of Cyber-physical Systems",
+    "abstract": "Co-simulation--based validation of hardware controllers adjoined with plant models, with continuous dynamics, is an important step in model-based design of controllers for Cyber-physical Systems (CPS). Co-simulation suffers from many problems, such as timing delays, skew, race conditions, and so on, making it unsuitable for checking timing properties of CPS. In our approach to validation of controllers, synthesised from their models, the synthesised controller is adjoined with a synthesised hardware plant unit. The synthesised plant and controller are then executed synchronously and Metric Interval Temporal Logic (MITL) properties are validated on the closed-loop system. The clock period is chosen, using robustness estimates, such that all timing properties that hold on the controller guiding the discretised plant model also hold on the original case of the continuous-time plant model guided by the controller. Benchmark results show that real-time MITL properties that are vacuously satisfied or violated due to co-simulation artefacts hold correctly in the proposed closed-loop validation framework.",
+    "published_date": "2019-11-15",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3362098"
+  },
+  {
+    "title": "Model validation for dynamically uncertain systems",
+    "abstract": "Robust control models describe system uncertainty with both unknown additive signals and unknown dynamic perturbations. These unknown but bounded components lead to a model set description. Model validation is the experimental assessment of the ability of this model set to describe the observed system behaviors. In this paper we consider model validation for H∞ compatible models. This paper provides a detailed presentation of the H∞ model validation problem in the discrete frequency, discrete-time, and sampled-data frameworks. In each case the underlying results and the computational algorithms are discussed. The experimental applicability and the computational consequences are discussed in sufficient detail to give the reader an appreciation of the issues surrounding each model/experiment framework.",
+    "published_date": "2016-06-12",
+    "citation_count": 53,
+    "url": "https://www.tandfonline.com/doi/abs/10.1080/13873959708837048"
+  },
+  {
+    "title": "Robust non-fragile LQ controllers: the static state feedback case",
+    "abstract": "This paper describes the synthesis of non-fragile or resilient regulators for linear systems. The general framework for fragility is described using state-space methodologies, and the LQ/H/sub 2/ static state-feedback case is examined in detail. We discuss the multiplicative structured uncertainties case, and propose remedies of the fragility problem using a convex programming framework as a possible solution scheme. The benchmark problem is taken as an example to show how controller gain variations can affect the performance of the closed-loop system.",
+    "published_date": "1998-06-21",
+    "citation_count": 113,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/002071700219867"
+  }
+]

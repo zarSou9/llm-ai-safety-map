@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.05006",
+    "title": "SkillMatch: Evaluating Self-supervised Learning of Skill Relatedness",
+    "published_date": "2024-10-07",
+    "abstract": "Accurately modeling the relationships between skills is a crucial part of human resources processes such as recruitment and employee development. Yet, no benchmarks exist to evaluate such methods directly. We construct and release SkillMatch, a benchmark for the task of skill relatedness, based on expert knowledge mining from millions of job ads. Additionally, we propose a scalable self-supervised learning technique to adapt a Sentence-BERT model based on skill co-occurrence in job ads. This new method greatly surpasses traditional models for skill relatedness as measured on SkillMatch. By releasing SkillMatch publicly, we aim to contribute a foundation for research towards increased accuracy and transparency of skill-based recommendation systems.",
+    "summary": "SkillMatch, a new benchmark dataset based on expert-labeled job ads, evaluates self-supervised learning methods for modeling skill relatedness; a proposed method using Sentence-BERT and skill co-occurrence significantly outperforms traditional approaches on this benchmark."
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.03242",
+    "title": "JobSkape: A Framework for Generating Synthetic Job Postings to Enhance Skill Matching",
+    "published_date": "2024-02-05",
+    "abstract": "Recent approaches in skill matching, employing synthetic training data for classification or similarity model training, have shown promising results, reducing the need for time-consuming and expensive annotations. However, previous synthetic datasets have limitations, such as featuring only one skill per sentence and generally comprising short sentences. In this paper, we introduce JobSkape, a framework to generate synthetic data that tackles these limitations, specifically designed to enhance skill-to-taxonomy matching. Within this framework, we create SkillSkape, a comprehensive open-source synthetic dataset of job postings tailored for skill-matching tasks. We introduce several offline metrics that show that our dataset resembles real-world data. Additionally, we present a multi-step pipeline for skill extraction and matching tasks using large language models (LLMs), benchmarking against known supervised methodologies. We outline that the downstream evaluation results on real-world data can beat baselines, underscoring its efficacy and adaptability.",
+    "citation_count": 5,
+    "summary": "JobSkape is a framework generating realistic synthetic job postings with multiple skills per sentence, addressing limitations of prior synthetic datasets for skill matching; its resulting SkillSkape dataset improves skill-to-taxonomy matching performance in downstream tasks, outperforming baselines on real-world data."
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.11942",
+    "title": "Skills or Degree? The Rise of Skill-Based Hiring for AI and Green Jobs",
+    "published_date": "2023-12-19",
+    "abstract": "Emerging professions in fields like Artificial Intelligence (AI) and sustainability (green jobs) are experiencing labour shortages as industry demand outpaces labour supply. In this context, our study aims to understand whether employers have begun focusing more on individual skills rather than formal qualifications in their recruitment processes. We analysed a large time-series dataset of approximately eleven million online job vacancies in the UK from 2018 to mid-2024, drawing on diverse literature on technological change and labour market signalling. Our findings provide evidence that employers have initiated\"skill-based hiring\"for AI roles, adopting more flexible hiring practices to expand the available talent pool. From 2018-2023, demand for AI roles grew by 21% as a proportion of all postings (and accelerated into 2024). Simultaneously, mentions of university education requirements for AI roles declined by 15%. Our regression analysis shows that university degrees have a significantly lower wage premium for both AI and green roles. In contrast, AI skills command a wage premium of 23%, exceeding the value of degrees up until the PhD-level (33%). In occupations with high demand for AI skills, the premium for skills is high, and the reward for degrees is relatively low. We recommend leveraging alternative skill-building formats such as apprenticeships, on-the-job training, MOOCs, vocational education and training, micro-certificates, and online bootcamps to fully utilise human capital and address talent shortages.",
+    "citation_count": 3,
+    "summary": "A study of UK job postings from 2018-2024 reveals that, despite high demand, AI and green job sectors increasingly prioritize skills over formal degrees in hiring, with AI skills commanding a significant wage premium exceeding that of university education. This suggests a shift towards more flexible, skills-based hiring practices to address labor shortages."
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.09255",
+    "title": "Artificial intelligence and the skill premium",
+    "published_date": "2023-11-14",
+    "abstract": "What will likely be the effect of the emergence of ChatGPT and other forms of artificial intelligence (AI) on the skill premium? To address this question, we develop a nested constant elasticity of substitution production function that distinguishes between industrial robots and AI. Industrial robots predominantly substitute for low-skill workers, whereas AI mainly helps to perform the tasks of high-skill workers. We show that AI reduces the skill premium as long as it is more substitutable for high-skill workers than low-skill workers are for high-skill workers.",
+    "citation_count": 7,
+    "summary": "The authors model the impact of AI on the skill premium using a nested CES production function, finding that AI reduces the skill premium if it substitutes more readily for high-skill workers than low-skill workers do."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.04180",
+    "title": "AI and Jobs: Has the Inflection Point Arrived? Evidence from an Online Labor Platform",
+    "published_date": "2023-12-07",
+    "abstract": "The emergence of Large Language Models (LLMs) has renewed the debate on the important issue of\"technology displacement\". While prior research has investigated the effect of information technology in general on human labor from a macro perspective, this paper complements the literature by examining the impact of LLMs on freelancers from a micro perspective. Specifically, we leverage the release of ChatGPT to investigate how AI influences freelancers across different online labor markets (OLMs). Employing the Difference-in-Differences method, we discovered two distinct scenarios following ChatGPT's release: 1) the displacement effect of LLMs, featuring reduced work volume and earnings, as is exemplified by the translation&localization OLM; 2) the productivity effect of LLMs, featuring increased work volume and earnings, as is exemplified by the web development OLM. To shed light on the underlying mechanisms, we developed a Cournot-type competition model to highlight the existence of an inflection point for each occupation which separates the timeline of AI progress into a honeymoon phase and a substitution phase. Before AI performance crosses the inflection point, human labor benefits each time AI improves, resulting in the honeymoon phase. However, after AI performance crosses the inflection point, additional AI enhancement hurts human labor. Further analyzing the progression from ChatGPT 3.5 to 4.0, we found three effect scenarios (i.e., productivity to productivity, displacement to displacement, and productivity to displacement), consistent with the inflection point conjecture. Heterogeneous analyses reveal that U.S. web developers tend to benefit more from the release of ChatGPT compared to their counterparts in other regions, and somewhat surprisingly, experienced translators seem more likely to exit the market than less experienced translators after the release of ChatGPT.",
+    "citation_count": 1,
+    "summary": "Using data from an online labor platform, this study finds that Large Language Models (LLMs) have had contrasting effects on freelancers, causing displacement (reduced work and earnings) in some sectors (e.g., translation) but increased productivity (higher work and earnings) in others (e.g., web development), suggesting an inflection point in AI performance beyond which benefits turn to displacement."
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.03539",
+    "title": "Large Language Models as Batteries-Included Zero-Shot ESCO Skills Matchers",
+    "published_date": "2023-07-07",
+    "abstract": "Understanding labour market dynamics requires accurately identifying the skills required for and possessed by the workforce. Automation techniques are increasingly being developed to support this effort. However, automatically extracting skills from job postings is challenging due to the vast number of existing skills. The ESCO (European Skills, Competences, Qualifications and Occupations) framework provides a useful reference, listing over 13,000 individual skills. However, skills extraction remains difficult and accurately matching job posts to the ESCO taxonomy is an open problem. In this work, we propose an end-to-end zero-shot system for skills extraction from job descriptions based on large language models (LLMs). We generate synthetic training data for the entirety of ESCO skills and train a classifier to extract skill mentions from job posts. We also employ a similarity retriever to generate skill candidates which are then re-ranked using a second LLM. Using synthetic data achieves an RP@10 score 10 points higher than previous distant supervision approaches. Adding GPT-4 re-ranking improves RP@10 by over 22 points over previous methods. We also show that Framing the task as mock programming when prompting the LLM can lead to better performance than natural language prompts, especially with weaker LLMs. We demonstrate the potential of integrating large language models at both ends of skills matching pipelines. Our approach requires no human annotations and achieve extremely promising results on skills extraction against ESCO.",
+    "citation_count": 9,
+    "summary": "This paper presents a zero-shot system using large language models (LLMs) to match job postings to the ESCO skills taxonomy, achieving significantly improved accuracy (RP@10) compared to previous methods by leveraging synthetic training data and GPT-4 re-ranking. The approach eliminates the need for human annotation and demonstrates the potential of LLMs for automated skills extraction."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/mmxPbFz7wvthvHCxq/sparks-of-artificial-general-intelligence-early-experiments",
+    "author": "DragonGod",
+    "title": "Sparks of Artificial General Intelligence: Early experiments with GPT-4 | Microsoft Research",
+    "published_date": "2023-03-23",
+    "summary": "This paper investigates an early version of GPT-4, highlighting its advanced capabilities across diverse domains and near-human-level performance, suggesting it represents a significant step towards artificial general intelligence (AGI). The authors also emphasize the model's limitations and the need for future research to address challenges in developing more comprehensive AGI systems."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/practical",
+    "author": "Luke H Miles",
+    "title": "Practical - AI Alignment Forum",
+    "published_date": "2022-06-18",
+    "summary": "This website offers practical, evidence-based advice on improving various aspects of life, from well-being and productivity to skills and interpersonal relationships, using data, research, and theoretical models to support its recommendations. It emphasizes actionable strategies grounded in rationality and real-world application."
+  }
+]

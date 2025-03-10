@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/rmwAuWXYTo24E5nnX/a-pin-and-a-balloon-anthropic-fragility-increases-chances-of",
+    "author": "avturchin",
+    "title": "A Pin and a Balloon: Anthropic Fragility Increases Chances of Runaway Global Warming",
+    "published_date": "2022-09-11",
+    "summary": "Due to survival bias, we may underestimate the likelihood and proximity of climate tipping points, making Earth more vulnerable to even small human actions; this increases the probability of human extinction via runaway global warming."
+  },
+  {
+    "title": "Lux: Enabling Ephemeral Authorization for Display-Limited IoT Devices",
+    "abstract": "Smart speakers are increasingly appearing in homes, enterprises, and businesses including hotels. These systems serve as hubs for other IoT devices and deliver content from streaming media services. However, such an arrangement creates a number of security concerns. For instance, providing such devices with long-term secrets is problematic with regards to vulnerable devices and fails to capture the increasingly transient nature of the relationship between users and the devices (e.g., in hotel or airbnb settings, this device is not owned by the customer and may only be used for a single day). Moreover, the limited interfaces available to such speakers make entering such credentials in a safe manner difficult. We address these problems with Lux, a system to provide ephemeral, fine-grained authorization to smart speakers which can be automatically revoked when the user and hub are no longer in the same location. We develop protocols using the LED/light channel available to many smart speaker devices to help users properly identify the device with which they are communicating, and demonstrate through a formally validated protocol that such authorization takes only a few seconds in practice. Through this effort, we demonstrate that Lux can safely authorize devices to access user accounts while limiting any long-term exposure to compromise.",
+    "published_date": "2021-05-18",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3450268.3453530",
+    "summary": "Lux is a system providing ephemeral authorization for smart speakers, addressing security concerns of long-term secrets and limited user interfaces by using a light-based protocol for device identification and revoking access when the user leaves the device's location. This allows for secure, temporary access to user accounts without prolonged vulnerability."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06",
+    "summary": "The standard epidemiological model for COVID-19 transmission struggles to explain the relatively small variation in infection rates across US states despite differing policies and behaviors. A proposed \"vulnerability model,\" which incorporates fluctuating individual susceptibility to infection over time, better accounts for the observed data and avoids the inconsistencies of the standard model."
+  },
+  {
+    "title": "The Minimum Hybrid Contract (MHC): Combining Legal and Blockchain Smart Contracts",
+    "abstract": "Corruption is a major global financial problem with billions of dollars rendered lost or unaccountable annually. Corruption through contract fraud is often conducted by withholding and/or altering financial information. When such scandals are investigated by authorities, financial and legal documents are usually altered to conceal the paper trail. Smart contracts have emerged in recent years and appear promising for applications such as legal contracts where transparency is critical and of public interest. Transparency and auditability are inherent because smart contracts execute operations on the blockchain, a distributed public ledger. In this paper, we propose the Minimum Hybrid Contract (MHC), with the aim of introducing 1) auditability, 2) transparency, and 3) immutability to the contract's financial transactions. The MHC comprises an online smart contract and an offline traditional legal contract. where the two are immutably linked. Secure peer-to-peer financial transactions, transparency, and cost accounting are automated by the smart contract, and legal issues or disputes are carried out by civil courts. The reliance on established legal processes facilitates an appropriate adoption of smart contracts in traditional contracts.",
+    "published_date": "2020-02-17",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3383219.3383275",
+    "summary": "The Minimum Hybrid Contract (MHC) combines traditional legal contracts with blockchain-based smart contracts to enhance transparency and auditability of financial transactions, mitigating corruption risks by immutably linking both contract types. Legal recourse remains within the established court system while smart contracts automate secure financial processes."
+  },
+  {
+    "title": "A MODEL OF THE INNOVATIVE PURPOSE FOR RESPONSIBLE INNOVATION: TOWARDS DESIGN-BASED CORPORATE GOVERNANCE",
+    "abstract": "Abstract Evolutions in corporate law recently introduced an optional commitment mechanism in the corporate contract: a purpose. Its writing is a pivotal but is yet puzzling from a design perspective. Especially it raises questions about how that could help shaping a responsible governance model for innovation. Our paper builds on an extended-decision framework to propose a formal model of how a stated-purpose shapes the decision situation. Our results highlight several purpose formulation strategies and finally a typology regarding how robustness to changes is embedded in the process is proposed.",
+    "published_date": "2020-05-01",
+    "url": "https://www.cambridge.org/core/journals/proceedings-of-the-design-society-design-conference/article/model-of-the-innovative-purpose-for-responsible-innovation-towards-designbased-corporate-governance/E84A540FD16F59AF37F4727E1C8184C1",
+    "summary": "This paper models how a stated corporate purpose influences decision-making, particularly concerning responsible innovation, using an extended-decision framework. The model identifies various purpose formulation strategies and a typology for building robustness into the process."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/QJfiKwicwTXYMzJ7q/",
+    "author": "jefftk",
+    "title": "Bleach",
+    "published_date": "2020-03-04",
+    "summary": "Household chlorine bleach, while effective for disinfection and sanitization when properly diluted, requires careful attention to concentration and potential dangers. Improper use or mixing with other chemicals can be hazardous, necessitating safety precautions and accurate dilution calculations based on desired application."
+  },
+  {
+    "title": "Commitment devices in online behavior change support systems",
+    "abstract": "Commitment devices-a self-imposed contract that helps an individual stick to a plan of action-have been widely used to make a positive influence on one's behavior change. We analyze commitment contract posts in StickK.com, an online behavior change support system to characterize the types of target behaviors and the effectiveness of different commitment devices for behavioral changes. We provide several practical implications for designing behavior change support systems that could inform further directions for research in behavioral economics and psychology.",
+    "published_date": "2019-05-04",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3309700.3338446",
+    "summary": "This paper analyzes commitment contract data from StickK.com to understand the types of behaviors targeted and the effectiveness of various commitment devices in online behavior change support systems. The findings offer practical implications for designing such systems and suggest future research directions in behavioral economics and psychology."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24",
+    "summary": "This article explores the mathematical challenges inherent in blockchain technology and proposes solutions using mechanism design, specifically quadratic voting and funding, to improve cooperation and philanthropic efforts."
+  }
+]

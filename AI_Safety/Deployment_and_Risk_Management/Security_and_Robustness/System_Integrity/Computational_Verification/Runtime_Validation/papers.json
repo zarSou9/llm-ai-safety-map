@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.18308",
+    "title": "Exact schedulability test for sporadic mixed-criticality real-time systems using antichains and oracles",
+    "published_date": "2024-10-23",
+    "abstract": "This work addresses the problem of exact schedulability assessment in uniprocessor mixed-criticality real-time systems with sporadic task sets. We model the problem by means of a finite automaton that has to be explored in order to check for schedulability. To mitigate the state explosion problem, we provide a generic algorithm which is parameterised by several techniques called oracles and simulation relations. These techniques leverage results from the scheduling literature as\"plug-ins\"that make the algorithm more efficient in practice. Our approach achieves up to a 99.998% reduction in the search space required for exact schedulability testing, making it practical for a range of task sets, up to 8 tasks or maximum periods of 350. This method enables to challenge the pessimism of an existing schedulability test and to derive a new dynamic-priority scheduler, demonstrating its good performance. This is the full version of an RTNS 2024 paper."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/knuths-up-arrow-notation",
+    "title": "Knuth's Up-Arrow Notation - LessWrong",
+    "published_date": "2024-02-01"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.13266.pdf",
+    "title": "Stream-based Decentralized Runtime Verification",
+    "published_date": "2023-01-30",
+    "abstract": "Industrial Control Systems (ICS) are often built from geographically distributed components and often use programmable logic controllers for localized processes. Since verification of such systems is challenging because of both time sensitivity of the system specifications and the inherent asynchrony in distributed components, developing runtime assurance that verifies not just the correctness of different components, but also generates aggregated statistics of the systems is of interest. In this paper, we first present a general technique for runtime monitoring of distributed applications whose behavior can be modeled as input/output {\\em streams} with an internal computation module in the partially synchronous semantics, where an imperfect clock synchronization algorithm is assumed. Second, we propose a generalized stream-based decentralized runtime verification technique. We also rigorously evaluate our algorithm on extensive synthetic experiments and several ICS and aircraft SBS message datasets."
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.10249v1",
+    "title": "Towards a Formally Verified Security Monitor for VM-based Confidential Computing",
+    "published_date": "2023-08-20",
+    "abstract": "Confidential computing is a key technology for isolating high-assurance applications from the large amounts of untrusted code typical in modern systems. Existing confidential computing systems cannot be certified for use in critical applications, like systems controlling critical infrastructure, hardware security modules, or aircraft, because they lack formal verification. This paper presents an approach to formally modeling and proving a security monitor for confidential computing. It introduces a canonical architecture for virtual machine (VM)-based confidential computing systems. It abstracts processor-specific components and identifies a minimal set of hardware primitives required by a trusted security monitor to enforce security guarantees. This paper focuses on verifying the software assuming a correct hardware implementation. We demonstrate our methodology and proposed approach with an example from our open-source Rust implementation of the security monitor for RISC-V.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2207.05678.pdf",
+    "title": "Symbolic Runtime Verification for Monitoring under Uncertainties and Assumptions",
+    "published_date": "2022-07-12",
+    "abstract": "Runtime Verification deals with the question of whether a run of a system adheres to its specification. This paper studies runtime verification in the presence of partial knowledge about the observed run, particularly where input values may not be precise or may not be observed at all. We also allow declaring assumptions on the execution which permits to obtain more precise verdicts also under imprecise inputs. To this end, we show how to understand a given correctness property as a symbolic formula and explain that monitoring boils down to solving this formula iteratively, whenever more and more observations of the run are given. We base our framework on stream runtime verification, which allows to express temporal correctness properties not only in the Boolean but also in richer logical theories. While in general our approach requires to consider larger and larger sets of formulas, we identify domains (including Booleans and Linear Algebra) for which pruning strategies exist, which allows to monitor with constant memory (i.e. independent of the length of the observation) while preserving the same inference power as the monitor that remembers all observations. We empirically exhibit the power of our technique using a prototype implementation under two important cases studies: software for testing car emissions and heart-rate monitoring.",
+    "citation_count": 4
+  },
+  {
+    "url": "https://arxiv.org/abs/2204.09796",
+    "title": "Distributed Runtime Verification of Metric Temporal Properties for Cross-Chain Protocols",
+    "published_date": "2022-04-20",
+    "abstract": "Transactions involving multiple blockchains are implemented by cross-chain protocols. These protocols are based on smart contracts, programs that run on blockchains, executed by a network of computers. Verifying the runtime correctness of smart contracts is a problem of compelling practical interest since, smart contracts can automatically transfer ownership of cryptocurrencies, electronic securities, and other valuable assets among untrusting parties. Such verification is challenging since smart contract execution is time sensitive, and the clocks on different blockchains may not be perfectly synchronized. This paper describes a method for runtime monitoring of blockchain executions. First, we propose a generalized runtime verification technique for verifying partially synchronous distributed computations for the metric temporal logic (MTL) by exploiting bounded-skew clock synchronization. Second, we introduce a progression-based formula rewriting scheme for monitoring MTL specifications which employs SMT solving techniques and report experimental results.",
+    "citation_count": 11
+  }
+]

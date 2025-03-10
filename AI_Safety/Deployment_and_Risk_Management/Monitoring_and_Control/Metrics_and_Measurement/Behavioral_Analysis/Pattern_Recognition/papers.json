@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Data-Driven Analysis of Animal Behavioral Patterns",
+    "abstract": "Measurement of behavior is a major challenge in many animal-related disciplines, including ACI. This usually requires choosing specific parameters for measuring, related to the investigated hypothesis. Therefore, a key challenge is determining what a priori parameters are informational for a given experiment. The scope of this challenge is raised even further by the emerging computational approaches for animal detection and tracking, as the automation of behavioral measurement makes the possibilities for measuring behavioral parameters practically endless. This research approaches these challenges by proposing a framework for guiding the researchers decision making in their future data analysis. The envisioned framework is data-driven in the sense that it applies data mining techniques for obtaining insights from experimental data for guiding the choice of certain behavioral parameters. Here, we present the envisioned Data-Driven Framework for Behavioral Pattern Analysis framework and its components and discuss it's current topics and challenges.",
+    "published_date": "2020-11-10",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3446002.3446004"
+  },
+  {
+    "title": "A recursive patterns matching model for the dynamic pattern recognition problem",
+    "abstract": "ABSTRACT This paper defines a new recursive pattern matching model based on the theory of the systemic functioning of the human brain, called pattern recognition theory of mind, in the context of the dynamic pattern recognition problem. Dynamic patterns are characterized by having properties that change in intervals of time, such as a pedestrian walking or a car running (the negation of a dynamic pattern is a static pattern). Novel contributions of this paper include: (1) Formally develop the concepts of dynamic and static pattern, (2) design a recursive pattern matching model, which exploits the idea of recursivity and time series in the recognition process, and the unbundling/integration of pattern to recognize, and (3) develop strategies of pattern matching from two major orientations: recognition of dynamic patterns oriented by characteristic, or oriented by perception. The model is instantiated in several cases, to analyze its performance.",
+    "published_date": "2018-04-21",
+    "citation_count": 6,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/08839514.2018.1481593"
+  },
+  {
+    "title": "Automatic Extraction of Behavioral Patterns for Elderly Mobility and Daily Routine Analysis",
+    "abstract": "The elderly living in smart homes can have their daily movement recorded and analyzed. As different elders can have their own living habits, a methodology that can automatically identify their daily activities and discover their daily routines will be useful for better elderly care and support. In this article, we focus on automatic detection of behavioral patterns from the trajectory data of an individual for activity identification as well as daily routine discovery. The underlying challenges lie in the need to consider longer-range dependency of the sensor triggering events and spatiotemporal variations of the behavioral patterns exhibited by humans. We propose to represent the trajectory data using a behavior-aware flow graph that is a probabilistic finite state automaton with its nodes and edges attributed with some local behavior-aware features. We identify the underlying subflows as the behavioral patterns using the kernel k-means algorithm. Given the identified activities, we propose a novel nominal matrix factorization method under a Bayesian framework with Lasso to extract highly interpretable daily routines. For empirical evaluation, the proposed methodology has been compared with a number of existing methods based on both synthetic and publicly available real smart home datasets with promising results obtained. We also discuss how the proposed unsupervised methodology can be used to support exploratory behavior analysis for elderly care.",
+    "published_date": "2018-06-01",
+    "citation_count": 11,
+    "url": "https://dl.acm.org/doi/10.1145/3178116"
+  },
+  {
+    "title": "Analysis patterns for learning agents",
+    "abstract": "In this paper, we focus on requirements analysis of agent based software development and introduce a set of patterns for analysis of (requirements for) learning agents. This paper also proposes a process for producing, evaluating and improving patterns that combines theoretical and practical approaches. Following this process, we first present the first version of our analysis pattern for learning agents. Then applicability of the pattern is investigated through the development of three case studies. The results of evaluating this pattern (via comparing it with a conventional approach) are presented and they are used to improve the pattern and introduce a new version. In order to decrease the complexity of the pattern and increasing its reusability, we also decompose the second version of the pattern into a set of patterns which introduces the third version.",
+    "published_date": "2010-07-07",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/2328909.2328939"
+  }
+]

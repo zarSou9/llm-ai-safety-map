@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2403.02439",
+    "title": "Root Causing Prediction Anomalies Using Explainable AI",
+    "published_date": "2024-03-04",
+    "abstract": "This paper presents a novel application of explainable AI (XAI) for root-causing performance degradation in machine learning models that learn continuously from user engagement data. In such systems a single feature corruption can cause cascading feature, label and concept drifts. We have successfully applied this technique to improve the reliability of models used in personalized advertising. Performance degradation in such systems manifest as prediction anomalies in the models. These models are typically trained continuously using features that are produced by hundreds of real time data processing pipelines or derived from other upstream models. A failure in any of these pipelines or an instability in any of the upstream models can cause feature corruption, causing the model's predicted output to deviate from the actual output and the training data to become corrupted. The causal relationship between the features and the predicted output is complex, and root-causing is challenging due to the scale and dynamism of the system. We demonstrate how temporal shifts in the global feature importance distribution can effectively isolate the cause of a prediction anomaly, with better recall than model-to-feature correlation methods. The technique appears to be effective even when approximating the local feature importance using a simple perturbation-based method, and aggregating over a few thousand examples. We have found this technique to be a model-agnostic, cheap and effective way to monitor complex data pipelines in production and have deployed a system for continuously analyzing the global feature importance distribution of continuously trained models."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02"
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.08573v8",
+    "title": "Realization of Causal Representation Learning to Adjust Confounding Bias in Latent Space",
+    "published_date": "2022-11-15",
+    "abstract": "Causal DAGs(Directed Acyclic Graphs) are usually considered in a 2D plane. Edges indicate causal effects' directions and imply their corresponding time-passings. Due to the natural restriction of statistical models, effect estimation is usually approximated by averaging the individuals' correlations, i.e., observational changes over a specific time. However, in the context of Machine Learning on large-scale questions with complex DAGs, such slight biases can snowball to distort global models - More importantly, it has practically impeded the development of AI, for instance, the weak generalizability of causal models. In this paper, we redefine causal DAG as \\emph{do-DAG}, in which variables' values are no longer time-stamp-dependent, and timelines can be seen as axes. By geometric explanation of multi-dimensional do-DAG, we identify the \\emph{Causal Representation Bias} and its necessary factors, differentiated from common confounding biases. Accordingly, a DL(Deep Learning)-based framework will be proposed as the general solution, along with a realization method and experiments to verify its feasibility."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/oqzasmQ9Lye45QDMZ/causality-transformative-ai-and-alignment-part-i",
+    "author": "Marius Hobbhahn",
+    "title": "Causality, Transformative AI and alignment - part I",
+    "published_date": "2022-01-27"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2112.00591v1.pdf",
+    "title": "AI Assurance using Causal Inference: Application to Public Policy",
+    "published_date": "2021-12-01",
+    "abstract": "Developing and implementing AI-based solutions help state and federal government agencies, research institutions, and commercial companies enhance decision-making processes, automate chain operations, and reduce the consumption of natural and human resources. At the same time, most AI approaches used in practice can only be represented as\"black boxes\"and suffer from the lack of transparency. This can eventually lead to unexpected outcomes and undermine trust in such systems. Therefore, it is crucial not only to develop effective and robust AI systems, but to make sure their internal processes are explainable and fair. Our goal in this chapter is to introduce the topic of designing assurance methods for AI systems with high-impact decisions using the example of the technology sector of the US economy. We explain how these fields would benefit from revealing cause-effect relationships between key metrics in the dataset by providing the causal experiment on technology economics dataset. Several causal inference approaches and AI assurance techniques are reviewed and the transformation of the data into a graph-structured dataset is demonstrated.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.03938.pdf",
+    "title": "Causal Analysis of Agent Behavior for AI Safety",
+    "published_date": "2021-03-05",
+    "abstract": "As machine learning systems become more powerful they also become increasingly unpredictable and opaque. Yet, finding human-understandable explanations of how they work is essential for their safe deployment. This technical report illustrates a methodology for investigating the causal mechanisms that drive the behaviour of artificial agents. Six use cases are covered, each addressing a typical question an analyst might ask about an agent. In particular, we show that each question cannot be addressed by pure observation alone, but instead requires conducting experiments with systematically chosen manipulations so as to generate the correct causal evidence.",
+    "citation_count": 6
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2302.10980v2",
+    "title": "MultiRobustBench: Benchmarking Robustness Against Multiple Attacks",
+    "published_date": "2023-02-21",
+    "abstract": "The bulk of existing research in defending against adversarial examples focuses on defending against a single (typically bounded Lp-norm) attack, but for a practical setting, machine learning (ML) models should be robust to a wide variety of attacks. In this paper, we present the first unified framework for considering multiple attacks against ML models. Our framework is able to model different levels of learner's knowledge about the test-time adversary, allowing us to model robustness against unforeseen attacks and robustness against unions of attacks. Using our framework, we present the first leaderboard, MultiRobustBench, for benchmarking multiattack evaluation which captures performance across attack types and attack strengths. We evaluate the performance of 16 defended models for robustness against a set of 9 different attack types, including Lp-based threat models, spatial transformations, and color changes, at 20 different attack strengths (180 attacks total). Additionally, we analyze the state of current defenses against multiple attacks. Our analysis shows that while existing defenses have made progress in terms of average robustness across the set of attacks used, robustness against the worst-case attack is still a big open problem as all existing models perform worse than random guessing.",
+    "citation_count": 7,
+    "summary": "MultiRobustBench introduces a unified framework and leaderboard for evaluating machine learning model robustness against multiple adversarial attacks, revealing that while average robustness has improved, existing defenses still struggle against the worst-case attack scenario."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2206.13405v1.pdf",
+    "title": "Utilizing Class Separation Distance for the Evaluation of Corruption Robustness of Machine Learning Classifiers",
+    "published_date": "2022-06-27",
+    "abstract": "Robustness is a fundamental pillar of Machine Learning (ML) classifiers, substantially determining their reliability. Methods for assessing classifier robustness are therefore essential. In this work, we address the challenge of evaluating corruption robustness in a way that allows comparability and interpretability on a given dataset. We propose a test data augmentation method that uses a robustness distance $\\epsilon$ derived from the datasets minimal class separation distance. The resulting MSCR (mean statistical corruption robustness) metric allows a dataset-specific comparison of different classifiers with respect to their corruption robustness. The MSCR value is interpretable, as it represents the classifiers avoidable loss of accuracy due to statistical corruptions. On 2D and image data, we show that the metric reflects different levels of classifier robustness. Furthermore, we observe unexpected optima in classifiers robust accuracy through training and testing classifiers with different levels of noise. While researchers have frequently reported on a significant tradeoff on accuracy when training robust models, we strengthen the view that a tradeoff between accuracy and corruption robustness is not inherent. Our results indicate that robustness training through simple data augmentation can already slightly improve accuracy.",
+    "citation_count": 2,
+    "summary": "This paper introduces MSCR, a novel metric for evaluating the corruption robustness of machine learning classifiers, which leverages a dataset's minimal class separation distance to create a comparable and interpretable measure of avoidable accuracy loss due to data corruption. The authors demonstrate its effectiveness on 2D and image data, challenging the common assumption of an inherent trade-off between accuracy and robustness."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dhbLE8BqRvhBtsXhS/mlsn-3-neurips-safety-paper-roundup",
+    "author": "Dan H",
+    "title": "[MLSN #3]: NeurIPS Safety Paper Roundup",
+    "published_date": "2022-03-08",
+    "summary": "The ML Safety Newsletter's third issue summarizes recent research on improving machine learning model robustness, including findings that Vision Transformers are more robust to distribution shifts but not inherently more adversarially robust than CNNs, and a novel fractal-based data augmentation technique (PixMix) enhancing various reliability metrics. The newsletter also highlights advancements in anomaly detection and the detection/creation of \"Trojan\" models with hidden vulnerabilities."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.05368.pdf",
+    "title": "RoBIC: A Benchmark Suite For Assessing Classifiers Robustness",
+    "published_date": "2021-02-10",
+    "abstract": "Many defenses have emerged with the development of adversarial attacks. Models must be objectively evaluated accordingly. This paper systematically tackles this concern by proposing a new parameter-free benchmark we coin ROBIC. ROBIC fairly evaluates the robustness of image classifiers using a new half-distortion measure. It gauges the robustness of the network against white and black box attacks, independently of its accuracy. ROBIC is faster than the other available benchmarks. We present the significant differences in the robustness of 16 recent models as assessed by ROBIC.We make this benchmark publicly available for use and contribution at https://gitlab.inria.fr/t;maho/robustness_benchmark.",
+    "citation_count": 4,
+    "summary": "RoBIC is a novel, parameter-free benchmark for evaluating the robustness of image classifiers against adversarial attacks, offering a faster and more objective assessment than existing methods using a new half-distortion measure. The benchmark's results highlight significant variations in robustness across 16 state-of-the-art models and is publicly available."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.13326v2.pdf",
+    "title": "Fast Distributionally Robust Learning with Variance Reduced Min-Max Optimization",
+    "published_date": "2021-04-27",
+    "abstract": "Distributionally robust supervised learning (DRSL) is emerging as a key paradigm for building reliable machine learning systems for real-world applications -- reflecting the need for classifiers and predictive models that are robust to the distribution shifts that arise from phenomena such as selection bias or nonstationarity. Existing algorithms for solving Wasserstein DRSL -- one of the most popular DRSL frameworks based around robustness to perturbations in the Wasserstein distance -- have serious limitations that limit their use in large-scale problems -- in particular they involve solving complex subproblems and they fail to make use of stochastic gradients. We revisit Wasserstein DRSL through the lens of min-max optimization and derive scalable and efficiently implementable stochastic extra-gradient algorithms which provably achieve faster convergence rates than existing approaches. We demonstrate their effectiveness on synthetic and real data when compared to existing DRSL approaches. Key to our results is the use of variance reduction and random reshuffling to accelerate stochastic min-max optimization, the analysis of which may be of independent interest.",
+    "citation_count": 22,
+    "summary": "This paper introduces novel stochastic extra-gradient algorithms for Wasserstein distributionally robust supervised learning, achieving faster convergence than existing methods by employing variance reduction and random reshuffling techniques within a min-max optimization framework. These algorithms address scalability limitations of previous approaches, enabling efficient training on large-scale datasets."
+  },
+  {
+    "title": "A Systematic Review on Software Robustness Assessment",
+    "abstract": "Robustness is the degree to which a certain system or component can operate correctly in the presence of invalid inputs or stressful environmental conditions. With the increasing complexity and widespread use of computer systems, obtaining assurances regarding their robustness has become of vital importance. This survey discusses the state of the art on software robustness assessment, with emphasis on key aspects like types of systems being evaluated, assessment techniques used, the target of the techniques, the types of faults used, and how system behavior is classified. The survey concludes with the identification of gaps and open challenges related with robustness assessment.",
+    "published_date": "2021-04-01",
+    "citation_count": 11,
+    "url": "https://dl.acm.org/doi/10.1145/3448977",
+    "summary": "This systematic review analyzes current methods for assessing software robustness, focusing on evaluation techniques, fault types, and system behavior classification. It identifies gaps and open challenges in the field."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/G4KHuYC3pHry6yMhi/compute-research-questions-and-metrics-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Research Questions and Metrics - Transformative AI and Compute [4/4]",
+    "published_date": "2021-11-28",
+    "summary": "This appendix to a series on transformative AI and compute explores key research questions regarding AI hardware, compute trends, and resource allocation, including the parameter-to-compute ratio in language models and the cost breakdown of AI compute."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/AwMb7C72etphiRvah/unsolved-ml-safety-problems",
+    "author": "jsteinhardt",
+    "title": "Unsolved ML Safety Problems",
+    "published_date": "2021-09-29",
+    "summary": "The article discusses unsolved problems in machine learning safety, focusing on robustness (withstanding hazards like long-tail events and adversarial attacks), monitoring (detecting anomalies and backdoors), and alignment (ensuring safe objectives and their pursuit). The authors propose a roadmap for addressing these challenges to mitigate risks posed by increasingly powerful AI systems."
+  }
+]

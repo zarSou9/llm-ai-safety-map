@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/cLfsabkCPtieJ5LoK/investigating-bias-representations-in-llms-via-activation",
+    "author": "DawnLu",
+    "title": "Investigating Bias Representations in LLMs via Activation Steering",
+    "published_date": "2024-01-15",
+    "summary": "This research uses activation steering to evaluate the societal biases of the Llama-2-7b-chat language model, finding that while the model exhibits existing gender bias, attempts to further steer it towards biased responses using contrastive activation addition resulted in the model refusing to answer, suggesting a potential robustness against some forms of bias manipulation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/d-and-d-sci",
+    "title": "D&D.Sci - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "D&D.Sci is a series of Less Wrong challenges presenting players with synthetic datasets and a problem to solve, requiring them to infer underlying rules and optimize solutions for scoring. Follow-up posts reveal the rules and assign scores."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and a long version, have been created to help machine learning researchers quickly assess the AI safety field and identify relevant research areas based on their existing skills. These resources compile organizations, researchers, papers, and keywords to facilitate entry into AI safety research."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/gpk8dARHBi7Mkmzt9/what-ai-safety-materials-do-ml-researchers-find-compelling",
+    "author": "Vael Gates, Collin",
+    "title": "What AI Safety Materials Do ML Researchers Find Compelling?",
+    "published_date": "2022-12-28",
+    "summary": "A pilot study found that ML researchers preferred AI safety materials written by fellow researchers, focusing on technical aspects rather than philosophy or existential risks. Jacob Steinhardt's work was most favored, while materials popular within the Effective Altruism community were less well-received."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/Tp3ryR4AxY56ctGh2/p/sdxZdGFtAwHGFGKhg",
+    "author": "abergal, Nick_Beckstead, Owain_Evans",
+    "title": "Truthful and honest AI",
+    "published_date": "2021-10-29",
+    "summary": "The article proposes research into creating \"truthful\" AI (avoiding falsehoods) and \"honest\" AI (accurately reporting beliefs), defining these concepts and developing methods to achieve them in advanced AI systems. This is argued to mitigate risks from advanced AI by allowing for better evaluation of AI actions and improving alignment between AI goals and human values."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/GTcWrenvDMsThTQ26/some-recent-survey-papers-on-mostly-near-term-ai-safety",
+    "author": "Aryeh Englander",
+    "title": "Some recent survey papers on (mostly near-term) AI safety, security, and assurance",
+    "published_date": "2021-01-13",
+    "summary": "This article provides a curated list of recent survey and review papers on AI safety, security, and assurance, focusing on near-term issues but also considering long-term risks. The papers cover topics such as trustworthy machine learning, AI security, human-machine interaction, and systems engineering for AI."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/Zmwkz2BMvuFFR8bi3/agi-safety-fundamentals-curriculum-and-application",
+    "author": "Richard_Ngo",
+    "title": "AGI Safety Fundamentals curriculum and application",
+    "published_date": "2021-10-20",
+    "summary": "EA Cambridge offers an 8-week online course on AGI safety, featuring group discussions, readings, and a final project; the curriculum covers foundational concepts, alignment problems, and technical solutions, with a focus on participants with technical backgrounds."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes AI safety-relevant content, reflecting the principle that careful reading should be followed by summarization."
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2307.13705.pdf",
+    "title": "Control and Monitoring of Artificial Intelligence Algorithms",
+    "published_date": "2023-07-24",
+    "abstract": "This paper elucidates the importance of governing an artificial intelligence model post-deployment and overseeing potential fluctuations in the distribution of present data in contrast to the training data. The concepts of data drift and concept drift are explicated, along with their respective foundational distributions. Furthermore, a range of metrics is introduced, which can be utilized to scrutinize the model's performance concerning potential temporal variations.",
+    "summary": "This paper emphasizes the need for post-deployment monitoring of AI models, focusing on detecting and measuring data drift and concept drift to ensure continued performance. It introduces metrics for evaluating model performance over time in the face of changing data distributions."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2205.02562.pdf",
+    "title": "Monitoring AI systems: A Problem Analysis, Framework and Outlook",
+    "published_date": "2022-05-05",
+    "abstract": ". Knowledge-based systems have been used to monitor machines and pro- cesses in the real world. In this paper we propose the use of knowledge-based systems to monitor other AI systems in operation. We motivate and provide a problem analysis of this novel setting and subsequently propose a framework that allows for structuring future research related to this setting. Several directions for further research are also discussed. We aim to study how to monitor AI systems in such a way that the expectations for the performance are formulated into an interpretable, knowledge-based system for monitoring.",
+    "citation_count": 2,
+    "summary": "This paper analyzes the challenges of monitoring AI systems using knowledge-based systems, proposing a framework to structure future research on this novel area. The goal is to translate performance expectations into an interpretable monitoring system."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.13138",
+    "title": "Visibility into AI Agents",
+    "published_date": "2024-01-23",
+    "abstract": "Increased delegation of commercial, scientific, governmental, and personal activities to AI agents—systems capable of pursuing complex goals with limited supervision—may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.",
+    "citation_count": 12,
+    "summary": "The paper examines methods to increase transparency (\"visibility\") in AI agent usage, proposing agent identifiers, real-time monitoring, and activity logging as key measures to mitigate societal risks associated with increased AI delegation. It analyzes the implementation, intrusiveness, and privacy implications of these measures across various deployment contexts and stakeholder roles."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.07985",
+    "title": "Games for AI Control: Models of Safety Evaluations of AI Deployment Protocols",
+    "published_date": "2024-09-12",
+    "abstract": "To evaluate the safety and usefulness of deployment protocols for untrusted AIs, AI Control uses a red-teaming exercise played between a protocol designer and an adversary. This paper introduces AI-Control Games, a formal decision-making model of the red-teaming exercise as a multi-objective, partially observable, stochastic game. We also introduce methods for finding optimal protocols in AI-Control Games, by reducing them to a set of zero-sum partially observable stochastic games. We apply our formalism to model, evaluate and synthesise protocols for deploying untrusted language models as programming assistants, focusing on Trusted Monitoring protocols, which use weaker language models and limited human assistance. Finally, we demonstrate the utility of our formalism by showcasing improvements over empirical studies in existing settings, evaluating protocols in new settings, and analysing how modelling assumptions affect the safety and usefulness of protocols.",
+    "citation_count": 2,
+    "summary": "This paper formalizes the red-teaming evaluation of AI deployment protocols as multi-objective, partially observable stochastic games, offering methods to find optimal protocols and demonstrating their effectiveness through application to untrusted language models used as programming assistants. The formalism improves upon empirical studies by enabling protocol evaluation in novel settings and analysis of the impact of modeling assumptions."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.08981",
+    "title": "Reliability, Resilience and Human Factors Engineering for Trustworthy AI Systems",
+    "published_date": "2024-11-13",
+    "abstract": "As AI systems become integral to critical operations across industries and services, ensuring their reliability and safety is essential. We offer a framework that integrates established reliability and resilience engineering principles into AI systems. By applying traditional metrics such as failure rate and Mean Time Between Failures (MTBF) along with resilience engineering and human reliability analysis, we propose an integrate framework to manage AI system performance, and prevent or efficiently recover from failures. Our work adapts classical engineering methods to AI systems and outlines a research agenda for future technical studies. We apply our framework to a real-world AI system, using system status data from platforms such as openAI, to demonstrate its practical applicability. This framework aligns with emerging global standards and regulatory frameworks, providing a methodology to enhance the trustworthiness of AI systems. Our aim is to guide policy, regulation, and the development of reliable, safe, and adaptable AI technologies capable of consistent performance in real-world environments.",
+    "citation_count": 1,
+    "summary": "This paper presents a framework integrating reliability and resilience engineering principles into AI systems, using traditional metrics and human factors analysis to improve performance, prevent failures, and enable efficient recovery, demonstrating its application with real-world AI system data and aligning with emerging standards."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.08576",
+    "title": "A Theoretical Framework for AI-driven data quality monitoring in high-volume data environments",
+    "published_date": "2024-10-11",
+    "abstract": "This paper presents a theoretical framework for an AI-driven data quality monitoring system designed to address the challenges of maintaining data quality in high-volume environments. We examine the limitations of traditional methods in managing the scale, velocity, and variety of big data and propose a conceptual approach leveraging advanced machine learning techniques. Our framework outlines a system architecture that incorporates anomaly detection, classification, and predictive analytics for real-time, scalable data quality management. Key components include an intelligent data ingestion layer, adaptive preprocessing mechanisms, context-aware feature extraction, and AI-based quality assessment modules. A continuous learning paradigm is central to our framework, ensuring adaptability to evolving data patterns and quality requirements. We also address implications for scalability, privacy, and integration within existing data ecosystems. While practical results are not provided, it lays a robust theoretical foundation for future research and implementations, advancing data quality management and encouraging the exploration of AI-driven solutions in dynamic environments.",
+    "summary": "This paper proposes a theoretical framework for AI-driven data quality monitoring in high-volume data environments, utilizing machine learning techniques for anomaly detection, classification, and predictive analytics to overcome limitations of traditional methods. The framework outlines a system architecture incorporating continuous learning and addresses scalability, privacy, and integration challenges."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/5bd2ChzKKr2Ph5fnL/what-is-compute-governance",
+    "author": "Vishakha",
+    "title": "What is compute governance?",
+    "published_date": "2024-12-23",
+    "summary": "Compute governance, focusing on controlling access to AI development hardware, is a promising AI safety strategy, though currently under-developed. Proposed methods aim to increase visibility into AI development, allocate compute resources strategically, and enforce regulations on its use."
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.02078",
+    "title": "From Lab to Field: Real-World Evaluation of an AI-Driven Smart Video Solution to Enhance Community Safety",
+    "published_date": "2023-12-04",
+    "abstract": "This article adopts and evaluates an AI-enabled Smart Video Solution (SVS) designed to enhance safety in the real world. The system integrates with existing infrastructure camera networks, leveraging recent advancements in AI for easy adoption. Prioritizing privacy and ethical standards, pose based data is used for downstream AI tasks such as anomaly detection. Cloud-based infrastructure and mobile app are deployed, enabling real-time alerts within communities. The SVS employs innovative data representation and visualization techniques, such as the Occupancy Indicator, Statistical Anomaly Detection, Bird's Eye View, and Heatmaps, to understand pedestrian behaviors and enhance public safety. Evaluation of the SVS demonstrates its capacity to convert complex computer vision outputs into actionable insights for stakeholders, community partners, law enforcement, urban planners, and social scientists. This article presents a comprehensive real-world deployment and evaluation of the SVS, implemented in a community college environment across 16 cameras. The system integrates AI-driven visual processing, supported by statistical analysis, database management, cloud communication, and user notifications. Additionally, the article evaluates the end-to-end latency from the moment an AI algorithm detects anomalous behavior in real-time at the camera level to the time stakeholders receive a notification. The results demonstrate the system's robustness, effectively managing 16 CCTV cameras with a consistent throughput of 16.5 frames per second (FPS) over a 21-hour period and an average end-to-end latency of 26.76 seconds between anomaly detection and alert issuance.",
+    "citation_count": 3,
+    "summary": "This study evaluates a real-world deployment of an AI-powered smart video solution for community safety, demonstrating its effectiveness in detecting anomalies, generating actionable insights, and achieving low latency alert delivery across a network of 16 cameras. The system utilizes pose-based data and innovative visualization techniques to improve safety and provide data for stakeholders."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.01978.pdf",
+    "title": "An LSTM-Based Predictive Monitoring Method for Data with Time-varying Variability",
+    "published_date": "2023-09-05",
+    "abstract": "The recurrent neural network and its variants have shown great success in processing sequences in recent years. However, this deep neural network has not aroused much attention in anomaly detection through predictively process monitoring. Furthermore, the traditional statistic models work on assumptions and hypothesis tests, while neural network (NN) models do not need that many assumptions. This flexibility enables NN models to work efficiently on data with time-varying variability, a common inherent aspect of data in practice. This paper explores the ability of the recurrent neural network structure to monitor processes and proposes a control chart based on long short-term memory (LSTM) prediction intervals for data with time-varying variability. The simulation studies provide empirical evidence that the proposed model outperforms other NN-based predictive monitoring methods for mean shift detection. The proposed method is also applied to time series sensor data, which confirms that the proposed method is an effective technique for detecting abnormalities.",
+    "summary": "This paper proposes an LSTM-based predictive monitoring method for detecting anomalies in data with time-varying variability, demonstrating superior performance compared to other NN-based methods through simulation and real-world sensor data application."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.03561.pdf",
+    "title": "Ancilia: Scalable Intelligent Video Surveillance for the Artificial Intelligence of Things",
+    "published_date": "2023-01-09",
+    "abstract": "With the advancement of vision-based artificial intelligence, the proliferation of the Internet of Things connected cameras, and the increasing societal need for rapid and equitable security, the demand for accurate real-time intelligent surveillance has never been higher. This article presents Ancilia, an end-to-end scalable, intelligent video surveillance system for the Artificial Intelligence of Things. Ancilia brings state-of-the-art artificial intelligence to real-world surveillance applications while respecting ethical concerns and performing high-level cognitive tasks in real time. Ancilia aims to revolutionize the surveillance landscape, to bring more effective, intelligent, and equitable security to the field, resulting in safer and more secure communities without requiring people to compromise their right to privacy.",
+    "citation_count": 33,
+    "summary": "Ancilia is a scalable, intelligent video surveillance system designed for the AIoT, leveraging state-of-the-art AI for real-time analysis while prioritizing ethical considerations and privacy. It aims to improve security and safety in communities through more effective and equitable surveillance."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of posts is a work in progress, aiming to provide a comprehensive introduction to AI safety. The content and order of posts are still under development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and a long version, catalog AI safety research, organizations, and researchers to help machine learning researchers quickly assess potential areas of contribution based on their existing skills and interests. The resource aims to facilitate entry into the AI safety field by providing easily accessible summaries and keyword tagging."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ByCwWRgvTsSC6Wxst/what-would-a-compute-monitoring-plan-look-like-linkpost",
+    "author": "Akash",
+    "title": "What would a compute monitoring plan look like? [Linkpost]",
+    "published_date": "2023-03-26",
+    "summary": "Yonadav Shavit's paper proposes a system for governments to verify compliance with regulations on large-scale neural network training by monitoring the compute hardware used. This involves on-chip logging of neural network weights, data-center logging of training details, and supply chain monitoring to detect evasion."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.05843v1.pdf",
+    "title": "Cooperative Multiagent Deep Reinforcement Learning for Reliable Surveillance via Autonomous Multi-UAV Control",
+    "published_date": "2022-01-15",
+    "abstract": "CCTV-based surveillance using unmanned aerial vehicles (UAVs) is considered a key technology for security in smart city environments.This article creates a case where the UAVs with CCTV-cameras fly over the city area for flexible and reliable surveillance services. UAVs should be deployed to cover a large area while minimizing overlapping and shadow areas for a reliable surveillance system. However, the operation of UAVs is subject to high uncertainty, necessitating autonomous recovery systems. This article develops a multiagent deep reinforcement learning-based management scheme for reliable industry surveillance in smart city applications. The core idea this article employs is autonomously replenishing the UAV's deficient network requirements with communications. Via intensive simulations, our proposed algorithm outperforms the state-of-the-art algorithms in terms of surveillance coverage, user support capability, and computational costs.",
+    "citation_count": 103,
+    "summary": "This paper proposes a multi-agent deep reinforcement learning approach for autonomously controlling multiple UAVs to optimize surveillance coverage in smart city environments, improving reliability by dynamically addressing communication deficiencies. Simulation results demonstrate superior performance compared to existing methods in coverage, user support, and computational efficiency."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.05385v2.pdf",
+    "title": "On the Initial Behavior Monitoring Issues in Federated Learning",
+    "published_date": "2021-09-11",
+    "abstract": "In Federated Learning (FL), a group of workers participate to build a global model under the coordination of one node, the chief. Regarding the cybersecurity of FL, some attacks aim at injecting the fabricated local model updates into the system. Some defenses are based on malicious worker detection and behavioral pattern analysis. In this context, without timely and dynamic monitoring methods, the chief cannot detect and remove the malicious or unreliable workers from the system. Our work emphasize the urgency to prepare the federated learning process for monitoring and eventually behavioral pattern analysis. We study the information inside the learning process in the early stages of training, propose a monitoring process and evaluate the monitoring period required. The aim is to analyse at what time is it appropriate to start the detection algorithm in order to remove the malicious or unreliable workers from the system and optimise the defense mechanism deployment. We tested our strategy on a behavioral pattern analysis defense applied to the FL process of different benchmark systems for text and image classification. Our results show that the monitoring process lowers false positives and false negatives and consequently increases system efficiency by enabling the distributed learning system to achieve better performance in the early stage of training.",
+    "citation_count": 2,
+    "summary": "This paper investigates the optimal timing for implementing malicious worker detection in federated learning, proposing a monitoring process to minimize false positives and negatives during the initial training stages and improve overall system performance. Experiments on text and image classification benchmarks demonstrate the effectiveness of this early detection strategy."
+  }
+]

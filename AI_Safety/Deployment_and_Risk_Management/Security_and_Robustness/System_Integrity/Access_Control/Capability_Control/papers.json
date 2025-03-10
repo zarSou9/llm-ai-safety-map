@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2211.04980",
+    "title": "A Capability-based Distributed Authorization System to Enforce Context-aware Permission Sequences",
+    "published_date": "2022-06-07",
+    "abstract": "Controlled sharing is fundamental to distributed systems. We consider a capability-based distributed authorization system where a client receives capabilities (access tokens) from an authorization server to access the resources of resource servers. Capability-based authorization systems have been widely used on the Web, in mobile applications and other distributed systems. A common requirement of such systems is that the user uses tokens of multiple servers in a particular order. A related requirement is the token may be used if certain environmental conditions hold. We introduce a secure capability-based system that supports \"permission sequence\" and \"context\". This allows a finite sequence of permissions to be enforced, each with their own specific context. We prove the safety property of this system for these conditions and integrate the system into OAuth 2.0 with proof-of-possession tokens. We evaluate our implementation and compare it with plain OAuth with respect to the average time for obtaining an authorization token and acquiring access to the resource.",
+    "citation_count": 2
+  },
+  {
+    "title": "Efficient and provable local capability revocation using uninitialized capabilities",
+    "abstract": "Capability machines are a special form of CPUs that offer fine-grained privilege separation using a form of authority-carrying values known as capabilities. The CHERI capability machine offers local capabilities, which could be used as a cheap but restricted form of capability revocation. Unfortunately, local capability revocation is unrealistic in practice because large amounts of stack memory need to be cleared as a security precaution. In this paper, we address this shortcoming by introducing uninitialized capabilities: a new form of capabilities that represent read/write authority to a block of memory without exposing the memory's initial contents. We provide a mechanically verified program logic for reasoning about programs on a capability machine with the new feature and we formalize and prove capability safety in the form of a universal contract for untrusted code. We use uninitialized capabilities for making a previously-proposed secure calling convention efficient and prove its security using the program logic. Finally, we report on a proof-of-concept implementation of uninitialized capabilities on the CHERI capability machine.",
+    "published_date": "2021-01-04",
+    "citation_count": 28,
+    "url": "https://dl.acm.org/doi/10.1145/3434287"
+  },
+  {
+    "url": "https://arxiv.org/abs/2104.11515v1",
+    "title": "Capability-based access control for multi-tenant systems using OAuth 2.0 and Verifiable Credentials",
+    "published_date": "2021-04-23",
+    "abstract": "We propose a capability-based access control technique for sharing Web resources, based on Verifiable Credentials (VCs) and OAuth 2.0. VCs are a secure means for expressing claims about a subject. Although VCs are ideal for encoding capabilities, the lack of standards for exchanging and using VCs impedes their adoption and limits their interoperability. We mitigate this problem by integrating VCs into the OAuth 2.0 authorization flow. To this end, we propose a new form of OAuth 2.0 access token based on VCs. Our approach leverages JSON Web Tokens (JWT) to encode VCs and takes advantage of JWT-based mechanisms for proving VC possession. Our solution not only requires minimum changes to existing OAuth 2.0 code bases, but it also removes some of the complexity of verifying VC claims by relying on JSON Web Signatures: a simple, standardized, and well supported signature format. Additionally, we fill the gap of VC generation processes by defining a new protocol that leverages the OAuth 2.0 “client credentials” grant.",
+    "citation_count": 9
+  },
+  {
+    "url": "https://arxiv.org/pdf/2101.03209v1.pdf",
+    "title": "Semantic Access Control for Privacy Management of Personal Sensing in Smart Cities",
+    "published_date": "2021-01-08",
+    "abstract": "Personal and home sensors generate valuable information that could be used in Smart Cities. Unfortunately, typically, this data is locked out and used only by application/system developers. While vendors are partially to blame, one should consider also the “binary nature” of data access. Specifically, either the owner has full control over her data (e.g., in a “closed system”), or she completely looses control, when the data is “opened”. In this context, we propose, a semantic technologies-based, authorization and privacy control framework that enables user to maintain flexible, yet manageable data access control policies. The proposed approach is described in detail, including implementation and testing.",
+    "citation_count": 6
+  },
+  {
+    "url": "https://arxiv.org/abs/2006.01608",
+    "title": "Uninitialized Capabilities",
+    "published_date": "2020-06-02",
+    "abstract": "This technical report describes a new extension to capability machines. Capability machines are a special type of processors that include better security primitives at the hardware level. In capability machines, every word has an associated tag bit that indicates whether the value it contains is a capability or a regular data value. Capabilities enable fine-grained control of the authority over memory that program components have. Conceptually, capabilities can be viewed as being an unforgeable token carrying authority over a resource. CHERI is a recently developed capability machine that aims to provide fine-grained memory protection, software compartmentalization and backwards compatibility. While our ideas are implemented on CHERI, they are not limited to it and should be applicable to other capability machines as well. In this technical report we propose a new type of capabilities, which represent the authority to access (read and write to) a block of memory but not view its initial contents. Our main goal is to use this new type of capability as part of a secure calling convention, but other applications may be possible too.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bZ5WW8Qmm3K2f2dq5/hard-problems-in-cryptocurrency-five-years-later-buterin",
+    "author": "philip_b",
+    "title": "Hard Problems in Cryptocurrency: Five Years Later - Buterin",
+    "published_date": "2019-11-24"
+  }
+]

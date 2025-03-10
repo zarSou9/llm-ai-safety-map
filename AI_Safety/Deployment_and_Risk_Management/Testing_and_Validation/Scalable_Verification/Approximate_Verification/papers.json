@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.06594",
+    "title": "How to Verify Any (Reasonable) Distribution Property: Computationally Sound Argument Systems for Distributions",
+    "published_date": "2024-09-10",
+    "abstract": "As statistical analyses become more central to science, industry and society, there is a growing need to ensure correctness of their results. Approximate correctness can be verified by replicating the entire analysis, but can we verify without replication? Building on a recent line of work, we study proof-systems that allow a probabilistic verifier to ascertain that the results of an analysis are approximately correct, while drawing fewer samples and using less computational resources than would be needed to replicate the analysis. We focus on distribution testing problems: verifying that an unknown distribution is close to having a claimed property. Our main contribution is a interactive protocol between a verifier and an untrusted prover, which can be used to verify any distribution property that can be decided in polynomial time given a full and explicit description of the distribution. If the distribution is at statistical distance $\\varepsilon$ from having the property, then the verifier rejects with high probability. This soundness property holds against any polynomial-time strategy that a cheating prover might follow, assuming the existence of collision-resistant hash functions (a standard assumption in cryptography). For distributions over a domain of size $N$, the protocol consists of $4$ messages and the communication complexity and verifier runtime are roughly $\\widetilde{O}\\left(\\sqrt{N} / \\varepsilon^2 \\right)$. The verifier's sample complexity is $\\widetilde{O}\\left(\\sqrt{N} / \\varepsilon^2 \\right)$, and this is optimal up to $\\polylog(N)$ factors (for any protocol, regardless of its communication complexity). Even for simple properties, approximately deciding whether an unknown distribution has the property can require quasi-linear sample complexity and running time. For any such property, our protocol provides a quadratic speedup over replicating the analysis.",
+    "summary": "This paper presents an interactive proof system allowing efficient verification of any polynomially decidable property of a distribution, achieving a quadratic speedup over replication by using significantly fewer samples and computation. The protocol's soundness relies on the existence of collision-resistant hash functions and offers optimal sample complexity up to polylogarithmic factors."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25",
+    "summary": "The article discusses the challenges of formally verifying neural network behavior, arguing that exhaustive proofs are impractical for large networks due to the complexity of accounting for all possible interactions. Instead, the authors propose \"heuristic explanations,\" which prioritize practical understanding over rigorous, complete guarantees, and introduce \"surprise accounting\" as a method for quantifying their quality."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/B2bg677TaS4cmDPzL/limitations-on-formal-verification-for-ai-safety",
+    "author": "Andrew Dickson",
+    "title": "Limitations on Formal Verification for AI Safety",
+    "published_date": "2024-08-19",
+    "summary": "The article argues that applying formal verification to guarantee AI safety is currently unrealistic due to the inherent complexity of the real world and the impossibility of creating complete symbolic models of physical systems. The author expresses skepticism towards claims that formal verification can provide strong, near-term guarantees against major AI risks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location",
+    "author": "Farhan",
+    "title": "AI Compute governance: Verifying AI chip location",
+    "published_date": "2024-10-12",
+    "summary": "The article proposes a delay-based on-chip compute governance mechanism using the speed of light to verify a chip's location, aiming to regulate AI development by controlling compute resources. However, the mechanism faces challenges due to potential false positives from network latency inconsistencies, requiring further solutions to ensure accuracy."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/euwMMxwuBeS5QZkC4/goodheart-s-law-example-training-verifiers-to-solve-math",
+    "author": "Chris_Leong",
+    "title": "Goodhart's Law Example: Training Verifiers to Solve Math Word Problems",
+    "published_date": "2023-11-25",
+    "summary": "Increasing the number of solutions considered during model verification initially improves performance but eventually leads to adversarial solutions fooling the verifier; optimizing the selection process, such as using a majority vote among top-ranked solutions, mitigates this risk."
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.11186",
+    "title": "DualApp: Tight Over-Approximation for Neural Network Robustness Verification via Under-Approximation",
+    "published_date": "2022-11-21",
+    "abstract": "The robustness of neural networks is fundamental to the hosting system's reliability and security. Formal verification has been proven to be effective in providing provable robustness guarantees. To improve the verification scalability, over-approximating the non-linear activation functions in neural networks by linear constraints is widely adopted, which transforms the verification problem into an efficiently solvable linear programming problem. As over-approximations inevitably introduce overestimation, many efforts have been dedicated to defining the tightest possible approximations. Recent studies have however showed that the existing so-called tightest approximations are superior to each other. In this paper we identify and report an crucial factor in defining tight approximations, namely the approximation domains of activation functions. We observe that existing approaches only rely on overestimated domains, while the corresponding tight approximation may not necessarily be tight on its actual domain. We propose a novel under-approximation-guided approach, called dual-approximation, to define tight over-approximations and two complementary under-approximation algorithms based on sampling and gradient descent. The overestimated domain guarantees the soundness while the underestimated one guides the tightness. We implement our approach into a tool called DualApp and extensively evaluate it on a comprehensive benchmark of 84 collected and trained neural networks with different architectures. The experimental results show that DualApp outperforms the state-of-the-art approximation-based approaches, with up to 71.22% improvement to the verification result.",
+    "summary": "DualApp improves neural network robustness verification by using a novel \"dual-approximation\" method that combines over- and under-approximations of activation functions, leading to significantly tighter over-approximations and improved verification results compared to state-of-the-art methods. This approach, implemented in the DualApp tool, shows up to 71.22% improvement on a benchmark of 84 neural networks."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2202.13485.pdf",
+    "title": "Pareto-Rational Verification",
+    "published_date": "2022-02-27",
+    "abstract": "We study the rational verification problem which consists in verifying the correctness of a system executing in an environment that is assumed to behave rationally. We consider the model of rationality in which the environment only executes behaviors that are Pareto-optimal with regard to its set of objectives, given the behavior of the system (which is committed in advance of any interaction). We examine two ways of specifying this behavior, first by means of a deterministic Moore machine, and then by lifting its determinism. In the latter case the machine may embed several different behaviors for the system, and the universal rational verification problem aims at verifying that all of them are correct when the environment is rational. For parity objectives, we prove that the Pareto-rational verification problem is co-NP-complete and that its universal version is in PSPACE and both NP-hard and co-NP-hard. For Boolean B\\\"uchi objectives, the former problem is $\\Pi_2\\mathsf{P}$-complete and the latter is PSPACE-complete. We also study the case where the objectives are expressed using LTL formulas and show that the first problem is PSPACE-complete, and that the second is 2EXPTIME-complete. Both problems are also shown to be fixed-parameter tractable (FPT) for parity and Boolean B\\\"uchi objectives. Finally, we evaluate two variations of the FPT algorithm proposed to solve the Pareto-rational verification problem on a parametric toy example as well as on randomly generated instances.",
+    "citation_count": 6,
+    "summary": "This paper investigates the computational complexity of verifying system correctness against a rationally-acting environment, considering Pareto-optimal behavior for the environment across various objective specifications (parity, Büchi, LTL). The authors determine the complexity of both deterministic and non-deterministic environment models, finding them to range from co-NP-complete to 2EXPTIME-complete, while also demonstrating fixed-parameter tractability for certain objective types."
+  }
+]

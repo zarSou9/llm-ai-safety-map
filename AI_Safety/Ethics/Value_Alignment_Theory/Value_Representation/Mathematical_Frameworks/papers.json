@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2212.13449v4",
+    "title": "Self-progressive choice models",
+    "published_date": "2022-12-27",
+    "abstract": "Consider a population of heterogenous agents whose choice behaviors are partially \\textit{comparable} according to a given \\textit{primitive ordering}.The set of choice functions admissible in the population specifies a \\textit{choice model}. As a criterion to guide the model selection process, we propose \\textit{self-progressiveness}, ensuring that each aggregate choice behavior explained by the model has a unique orderly representation within the model itself. We establish an equivalence between self-progressive choice models and well-known algebraic structures called \\textit{lattices}. This equivalence provides for a precise recipe to restrict or extend any choice model for unique orderly representation. Following this recipe, we identify the set of choice functions that are essential for the unique orderly representation of random utility functions. This extended model offers an intuitive explanation for the \\textit{choice overload} phenomena. We provide the necessary and sufficient conditions for identifying the underlying primitive ordering.",
+    "summary": "This paper introduces \"self-progressive choice models,\" which ensure unique orderly representation of aggregate choice behaviors, establishing an equivalence between these models and lattice algebraic structures. This framework allows for model extension and restriction, leading to a novel explanation for choice overload phenomena."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/complexity-of-value",
+    "author": "David Udell",
+    "title": "Complexity of Value - AI Alignment Forum",
+    "published_date": "2022-08-11",
+    "summary": "Human values are incredibly complex and cannot be reduced to a few simple rules, a concept termed \"complexity of value.\" Furthermore, even minor alterations to our value system could have drastically negative consequences, illustrating the \"fragility of value.\""
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.04741v1.pdf",
+    "title": "Preferences relations and consumer theory",
+    "published_date": "2021-11-08",
+    "abstract": "In this paper an interesting application of mathematics in economics is presented: the formulation of the theory of consumer basic problem, grounded on the concept of preferences relation and operationalized with optimization tools.",
+    "citation_count": 1,
+    "summary": "This paper applies mathematics to consumer theory, formulating the basic consumer problem using preference relations and optimization techniques."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.12142.pdf",
+    "title": "Combining Reward Information from Multiple Sources",
+    "published_date": "2021-03-22",
+    "abstract": "Given two sources of evidence about a latent variable, one can combine the information from both by multiplying the likelihoods of each piece of evidence. However, when one or both of the observation models are misspecified, the distributions will conflict. We study this problem in the setting with two conflicting reward functions learned from different sources. In such a setting, we would like to retreat to a broader distribution over reward functions, in order to mitigate the effects of misspecification. We assume that an agent will maximize expected reward given this distribution over reward functions, and identify four desiderata for this setting. We propose a novel algorithm, Multitask Inverse Reward Design (MIRD), and compare it to a range of simple baselines. While all methods must trade off between conservatism and informativeness, through a combination of theory and empirical results on a toy environment, we find that MIRD and its variant MIRD-IF strike a good balance between the two.",
+    "citation_count": 3,
+    "summary": "This paper addresses the problem of combining conflicting reward signals from multiple sources by modeling a distribution over reward functions rather than relying on a single, potentially misspecified, reward. A novel algorithm, MIRD, is proposed and shown to effectively balance conservatism and informativeness in leveraging these conflicting signals."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2012.10940v1.pdf",
+    "title": "Lexicographic Logic: a Many-valued Logic for Preference Representation",
+    "published_date": "2020-12-20",
+    "abstract": "Logical formalisms provide a natural and concise means for specifying and reasoning about preferences. In this paper, we propose lexicographic logic, an extension of classical propositional logic that can express a variety of preferences, most notably lexicographic ones. The proposed logic supports a simple new connective whose semantics can be defined in terms of finite lists of truth values. We demonstrate that, despite the well-known theoretical limitations that pose barriers to the quantitative representation of lexicographic preferences, there exists a subset of the rational numbers over which the proposed new connective can be naturally defined. Lexicographic logic can be used to define in a simple way some well-known preferential operators, like\"$A$ and if possible $B$\", and\"$A$ or failing that $B$\". Moreover, many other hierarchical preferential operators can be defined using a systematic approach. We argue that the new logic is an effective formalism for ranking query results according to the satisfaction level of user preferences.",
+    "citation_count": 1,
+    "summary": "Lexicographic logic, a new extension of classical propositional logic, uses a novel connective to represent lexicographic and other hierarchical preferences, enabling concise specification and reasoning about preference orderings. This logic facilitates the definition of various preferential operators and offers an effective formalism for ranking results based on user preferences."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/utility-functions",
+    "author": "Abram Demski",
+    "title": "Utility Functions - AI Alignment Forum",
+    "published_date": "2020-04-10",
+    "summary": "Utility functions assign numerical values to outcomes reflecting preferences, but rarely accurately model individual human behavior due to inconsistencies and separate processing of rewards and losses. While impractical for individuals, they remain useful models for group behavior and analyzing intelligent systems aiming for optimal decision-making."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ky988ePJvCRhmCwGo/using-vector-fields-to-visualise-preferences-and-make-them",
+    "author": "MichaelA, JustinShovelain",
+    "title": "Using vector fields to visualise preferences and make them consistent",
+    "published_date": "2020-01-28",
+    "summary": "This article proposes using preference vector fields (PVFs) to visualize and analyze agent preferences within a state space, extrapolating from limited data to generate utility functions and identify inconsistencies (represented as \"curl\"). The authors suggest PVFs as a valuable tool for AI alignment, existential risk strategy, and rationality research."
+  },
+  {
+    "url": "https://arxiv.org/pdf/1911.03521v1.pdf",
+    "title": "Non-locality, contextuality and valuation algebras: a general theory of disagreement",
+    "published_date": "2019-09-16",
+    "abstract": "We establish a strong link between two apparently unrelated topics: the study of conflicting information in the formal framework of valuation algebras, and the phenomena of non-locality and contextuality. In particular, we show that these peculiar features of quantum theory are mathematically equivalent to a general notion of disagreement between information sources. This result vastly generalizes previously observed connections between contextuality, relat- ional databases, constraint satisfaction problems and logical paradoxes, and gives further proof that contextual behaviour is not a phenomenon limited to quantum physics, but pervades various domains of mathematics and computer science. The connection allows to translate theorems, methods and algorithms from one field to the other, and paves the way for the application of generic inference algorithms to study contextuality. This article is part of the theme issue 'Contextuality and probability in quantum mechanics and beyond'.",
+    "citation_count": 12,
+    "summary": "This paper demonstrates a mathematical equivalence between non-locality and contextuality in quantum theory and a general concept of disagreement within valuation algebras. This connection unifies diverse fields like quantum physics, relational databases, and logic, enabling cross-domain application of theorems and algorithms."
+  }
+]

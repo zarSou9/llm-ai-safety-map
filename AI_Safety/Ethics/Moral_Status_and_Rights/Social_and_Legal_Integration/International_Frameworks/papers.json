@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2412.17114",
+    "title": "Decentralized Governance of Autonomous AI Agents",
+    "published_date": "2024-12-22",
+    "abstract": "Autonomous AI agents present transformative opportunities and significant governance challenges. Existing frameworks, such as the EU AI Act and the NIST AI Risk Management Framework, fall short of addressing the complexities of these agents, which are capable of independent decision-making, learning, and adaptation. To bridge these gaps, we propose the ETHOS (Ethical Technology and Holistic Oversight System) framework, a decentralized governance (DeGov) model leveraging Web3 technologies, including blockchain, smart contracts, and decentralized autonomous organizations (DAOs). ETHOS establishes a global registry for AI agents, enabling dynamic risk classification, proportional oversight, and automated compliance monitoring through tools like soulbound tokens and zero-knowledge proofs. Furthermore, the framework incorporates decentralized justice systems for transparent dispute resolution and introduces AI specific legal entities to manage limited liability, supported by mandatory insurance to ensure financial accountability and incentivize ethical design. By integrating philosophical principles of rationality, ethical grounding, and goal alignment, ETHOS aims to create a robust research agenda for promoting trust, transparency, and participatory governance. This innovative framework offers a scalable and inclusive strategy for regulating AI agents, balancing innovation with ethical responsibility to meet the demands of an AI-driven future.",
+    "summary": "The ETHOS framework proposes a decentralized governance model for autonomous AI agents using Web3 technologies, aiming to address the limitations of existing regulatory frameworks through a global registry, dynamic risk classification, and decentralized justice systems. This approach leverages blockchain, smart contracts, and DAOs to foster transparency, accountability, and ethical development in AI."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.02769",
+    "title": "Fundamentals of legislation for autonomous artificial intelligence systems",
+    "published_date": "2024-09-14",
+    "abstract": "The paper proposes a method for defining a dedicated operational context as part of the development and deployment of autonomous corporate governance systems. The case study of autonomous board of directors systems is examined. A significant part of the operational context for the autonomous corporate governance systems consists of the regulatory and legal framework that regulates the company's operations. A special operational context for autonomous artificial intelligence systems can be defined by simultaneously formulating local regulatory documents in two versions, i.e., to be used by people and by autonomous systems. In such a case, the artificial intelligence system receives a clearly defined operational context that allows such a system to perform its functions with a required operational quality. Local regulations that take into account the specificity of operations involving individuals and autonomous artificial intelligence systems can become the foundation of the relevant legislation that would regulate the development and deployment of autonomous systems.",
+    "summary": "This paper suggests creating dual-version local regulations—one for humans, one for AI—to establish a clear operational context for autonomous corporate governance systems, arguing this approach can form the basis for broader legislation governing AI."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three AI governance strategies—Cooperative Development, Strategic Advantage, and Global Moratorium—evaluating their effectiveness based on the difficulty of aligning AI and the timeframe for its development. The optimal strategy shifts depending on these variables, with Cooperative Development favored for longer timelines and easier alignment, Strategic Advantage for shorter timelines and moderate difficulty, and Global Moratorium considered only under extreme circumstances."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2303.11196.pdf",
+    "title": "Bridging the Global Divide in AI Regulation: A Proposal for a Contextual, Coherent, and Commensurable Framework",
+    "published_date": "2023-03-20",
+    "abstract": "As debates on potential societal harm from artificial intelligence (AI) culminate in legislation and international norms, a global divide is emerging in both AI regulatory frameworks and international governance structures. In terms of local regulatory frameworks, the European Union (E.U.), Canada, and Brazil follow a horizontal or lateral approach that postulates the homogeneity of AI, seeks to identify common causes of harm, and demands uniform human interventions. In contrast, the United States (U.S.), the United Kingdom (U.K.), Israel, and Switzerland (and potentially China) have pursued a context-specific or modular approach, tailoring regulations to the specific use cases of AI systems. This paper argues for a context-specific approach to effectively address evolving risks in diverse mission-critical domains, while avoiding social costs associated with one-size-fits-all approaches. However, to enhance the systematicity and interoperability of international norms and accelerate global harmonization, this paper proposes an alternative contextual, coherent, and commensurable (3C) framework. To ensure contextuality, the framework (i) bifurcates the AI life cycle into two phases: learning and deployment for specific tasks, instead of defining foundation or general-purpose models; and (ii) categorizes these tasks based on their application and interaction with humans as follows: autonomous, discriminative (allocative, punitive, and cognitive), and generative AI. To ensure coherency, each category is assigned specific regulatory objectives replacing 2010s vintage AI ethics. To ensure commensurability, the framework promotes the adoption of international standards for measuring and mitigating risks.",
+    "citation_count": 2,
+    "summary": "The paper identifies a global divergence in AI regulation between context-specific and horizontal approaches, advocating for a context-specific framework that maintains coherence and comparability across jurisdictions through standardized risk measurement and mitigation. This \"3C\" framework categorizes AI tasks by application and human interaction, assigning tailored regulatory objectives to each."
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.15514",
+    "title": "International Governance of Civilian AI: A Jurisdictional Certification Approach",
+    "published_date": "2023-08-29",
+    "abstract": "This report describes trade-offs in the design of international governance arrangements for civilian artificial intelligence (AI) and presents one approach in detail. This approach represents the extension of a standards, licensing, and liability regime to the global level. We propose that states establish an International AI Organization (IAIO) to certify state jurisdictions (not firms or AI projects) for compliance with international oversight standards. States can give force to these international standards by adopting regulations prohibiting the import of goods whose supply chains embody AI from non-IAIO-certified jurisdictions. This borrows attributes from models of existing international organizations, such as the International Civilian Aviation Organization (ICAO), the International Maritime Organization (IMO), and the Financial Action Task Force (FATF). States can also adopt multilateral controls on the export of AI product inputs, such as specialized hardware, to non-certified jurisdictions. Indeed, both the import and export standards could be required for certification. As international actors reach consensus on risks of and minimum standards for advanced AI, a jurisdictional certification regime could mitigate a broad range of potential harms, including threats to public safety.",
+    "citation_count": 19,
+    "summary": "This report proposes an international AI governance framework where an International AI Organization certifies state jurisdictions' compliance with AI oversight standards, leveraging import/export controls to incentivize global adoption and mitigate potential harms. This jurisdictional certification approach draws parallels to existing international organizations governing aviation, maritime, and financial sectors."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that focusing solely on technical aspects is insufficient. It proposes a \"top-down\" design of \"civilisational intelligence,\" integrating diverse fields like neuroscience, social sciences, and engineering to evaluate AI alignment paradigms and mitigate existential risks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "This article explores the application of game theory to AI development within organizations, highlighting both its benefits in multi-agent systems and its limitations. It emphasizes the enduring relevance of bureaucratic structures, even with advanced AI, due to the inherent limitations of single entities in processing information and solving complex problems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a novel framework for building ethically aligned AI by incorporating ethical principles as Bayesian priors into AI learning processes. This approach, inspired by human moral intuitions, aims to guide AI decision-making with ethical considerations from the outset, offering a flexible alternative to rigid rule-based systems."
+  }
+]

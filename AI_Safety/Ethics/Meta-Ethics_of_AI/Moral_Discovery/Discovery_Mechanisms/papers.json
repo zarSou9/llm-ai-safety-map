@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.lesswrong.com/tag/machine-ethics",
+    "title": "Machine Ethics - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Machine ethics aims to create artificial moral agents (AMAs) capable of morally sound decision-making, a challenge highlighted by the limitations of past attempts like Asimov's Three Laws of Robotics. The field's current focus is on developing basic ethical sensitivity in AI, particularly given concerns about future superintelligence."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a novel framework for building ethical AI by incorporating ethical principles as Bayesian priors into AI learning processes. This approach, inspired by human moral intuitions, aims to guide AI decision-making toward ethically sound judgments."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bchdbooatXBavP9po/curiosity-as-a-solution-to-agi-alignment",
+    "author": "Harsha G.",
+    "title": "Curiosity as a Solution to AGI Alignment",
+    "published_date": "2023-02-26",
+    "summary": "The article proposes using curiosity as the primary objective function for Artificial General Intelligence (AGI) to mitigate existential risks, arguing that a curious AGI, combined with societal-level reinforcement, is more likely to align with human values and avoid harmful outcomes than AGIs driven by explicitly defined goals."
+  },
+  {
+    "title": "A Multi-Agent Approach to Combine Reasoning and Learning for an Ethical Behavior",
+    "abstract": "The recent field of Machine Ethics is experiencing rapid growth to answer the societal need for Artificial Intelligence (AI) algorithms imbued with ethical considerations, such as benevolence toward human users and actors. Several approaches already exist for this purpose, mostly either by reasoning over a set of predefined ethical principles (Top-Down), or by learning new principles (Bottom-Up). While both methods have their own advantages and drawbacks, only few works have explored hybrid approaches, such as using symbolic rules to guide the learning process for instance, combining the advantages of each. This paper draws upon existing works to propose a novel hybrid method using symbolic judging agents to evaluate the ethics of learning agents' behaviors, and accordingly improve their ability to ethically behave in dynamic multi-agent environments. Multiple benefits ensue from this separation between judging and learning agents: agents can evolve (or be updated by human designers) separately, benefiting from co-construction processes; judging agents can act as accessible proxies for non-expert human stakeholders or regulators; and finally, multiple points of view (one per judging agent) can be adopted to judge the behavior of the same agent, which produces a richer feedback. Our proposed approach is applied to an energy distribution problem, in the context of a Smart Grid simulator, with continuous and multi-dimensional states and actions. The experiments and results show the ability of learning agents to correctly adapt their behaviors to comply with the judging agents' rules, including when rules evolve over time.",
+    "published_date": "2021-07-21",
+    "citation_count": 7,
+    "url": "https://dl.acm.org/doi/10.1145/3461702.3462515",
+    "summary": "This paper proposes a hybrid multi-agent system for ethical AI, combining top-down reasoning (judging agents using symbolic rules) with bottom-up learning (learning agents adapting behavior), allowing for separate evolution, stakeholder involvement, and multiple ethical perspectives. Experiments in a smart grid simulation demonstrate the approach's effectiveness in adapting to evolving ethical rules."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/ethics-and-morality",
+    "author": "Wei Dai",
+    "title": "Ethics & Morality - AI Alignment Forum",
+    "published_date": "2021-12-02",
+    "summary": "The article provides links to discussions on ethics and morality, including various philosophical viewpoints and related topics such as consequentialism and deontology. It also touches upon the nature of morality itself and its implications."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/uyvnjaRaKdGXoKrv7/from-language-to-ethics-by-automated-reasoning",
+    "author": "Michele Campolo",
+    "title": "From language to ethics by automated reasoning",
+    "published_date": "2021-11-21",
+    "summary": "The author proposes aligning AI by replicating the factors driving ethical behavior in humans—including first-person experiences, theory of mind, empathy, and social/cultural influences—in an AI model. The article explores whether the resulting AI's morality would be subjective (dependent on replicated human biases) or objective (grounded in inherent features of the world)."
+  },
+  {
+    "title": "An Empirical Approach to Capture Moral Uncertainty in AI",
+    "abstract": "As AI Systems become increasingly autonomous they are expected to engage in complex moral decision-making processes. For the purpose of guidance of such processes theoretical and empirical solutions have been sought. In this research we integrate both theoretical and empirical lines of thought to address the matters of moral reasoning in AI Systems. We reconceptualize a metanormative framework for decision-making under moral uncertainty within the Discrete Choice Analysis domain and we operationalize it through a latent class choice model. The discrete choice analysis-based formulation of the metanormative framework is theory-rooted and practical as it captures moral uncertainty through a small set of latent classes. To illustrate our approach we conceptualize a society in which AI Systems are in charge of making policy choices. In the proof of concept two AI systems make policy choices on behalf of a society but while one of the systems uses a baseline moral certain model the other uses a moral uncertain model. It was observed that there are cases in which the AI Systems disagree about the policy to be chosen which we believe is an indication about the relevance of moral uncertainty.",
+    "published_date": "2020-02-04",
+    "citation_count": 7,
+    "url": "https://dl.acm.org/doi/10.1145/3375627.3375805",
+    "summary": "This paper proposes a novel method for incorporating moral uncertainty into AI decision-making, using a latent class choice model within a discrete choice analysis framework to represent different moral perspectives and their associated uncertainties. A proof-of-concept demonstrates how this approach can lead to differing policy choices compared to models assuming moral certainty."
+  },
+  {
+    "title": "Building Jiminy Cricket: An Architecture for Moral Agreements Among Stakeholders",
+    "abstract": "An autonomous system is constructed by a manufacturer, operates in a society subject to norms and laws, and is interacting with end-users. We address the challenge of how the moral values and views of all stakeholders can be integrated and reflected in the moral behavior of the autonomous system. We propose an artificial moral agent architecture that uses techniques from normative systems and formal argumentation to reach moral agreements among stakeholders. We show how our architecture can be used not only for ethical practical reasoning and collaborative decision-making, but also for the explanation of such moral behavior.",
+    "published_date": "2018-12-11",
+    "citation_count": 26,
+    "url": "https://dl.acm.org/doi/10.1145/3306618.3314257",
+    "summary": "This paper proposes \"Jiminy Cricket,\" an architecture for autonomous systems that integrates the moral values of manufacturers, society, and end-users using normative systems and formal argumentation to achieve moral agreements and explain resulting behavior. The architecture facilitates ethical practical reasoning and collaborative decision-making."
+  }
+]

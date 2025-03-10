@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/a7YgzDYx4FhdB3TmR/an-155-a-minecraft-benchmark-for-algorithms-that-learn",
+    "author": "Rohin Shah",
+    "title": "[AN #155]: A Minecraft benchmark for algorithms that learn without reward functions",
+    "published_date": "2021-07-08"
+  },
+  {
+    "title": "A Systematic Mapping Study on Software Testing for Systems-of-Systems",
+    "abstract": "Context: Smart Cities and other Systems-of-Systems (SoS) have attracted attention due to their potential for innovation in the services provided to the society. SoS are composed of several independent systems and often support critical domains. As such, failures can cause serious damage or even financial losses that can be avoided by performing quality assurance (QA). Among QA techniques, software testing is an essential activity that checks software behaviors against a subset of parameters. However, testing SoS can be even more complex since several other factors further elevate the complexity of the test, such as interoperability links and multiple independent systems. Goal: Our goal in this paper is to analyze the current state of research on software testing for SoS domain. Method: A protocol was formulated and executed according to the guidelines for performing systematic literature mappings in Software Engineering. Results: This study identified the tools, approaches, methods and processes that the literature has addressed to test SoS. Conclusions: Software Testing for SoS still faces several problems and presents many questions to be answered, particularly in the definition of processes and metrics.",
+    "published_date": "2020-10-20",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3425174.3425216"
+  },
+  {
+    "title": "Many-objective Search-based Selection of Software Product Line Test Products with Nautilus",
+    "abstract": "The Variability Testing of Software Product Lines (VTSPL) concerns the selection of the most representative products to be tested according to specific goals. Works in the literature use a great variety of objectives and distinct algorithms. However, they neither address all the objectives at the same time nor offer an automatic tool to support this task. To this end, this work introduces Nautilus/VTSPL, a tool to address the VTSPL problem, created by instantiating Nautilus Framework. Nautilus/VTSPL allows the tester to experiment and configure different objectives and categories of many-objective algorithms. The tool also offers support to visualization of the generated solutions, easing the decision-making process.",
+    "published_date": "2020-10-19",
+    "citation_count": 3,
+    "url": "https://dl.acm.org/doi/10.1145/3382026.3431248"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/N7KYWJPmyzB6bJSYT/the-next-ai-winter-will-be-due-to-energy-costs-1",
+    "author": "hippke",
+    "title": "The next AI winter will be due to energy costs",
+    "published_date": "2020-11-24"
+  },
+  {
+    "title": "Evaluation of tool support for functional specification of complex systems",
+    "abstract": "To design a sociotechnical and complex system, system designers are in charge of the functional specification because they have an expert knowledge of its operation. However, these experts do not usually have the programming knowledge of those who design the supervision system. To capture the knowledge of the expert on the system and to have more easily verified and validated functional specifications, without training in formal methods, we propose a tool that is inspired by Programming by Example techniques (EBP). This tool is composed of a User Interface (UI) for specification connected to two modules: a generalization module and a function interface generation module. To validate the proposed interface, we have evaluated the usability (ISO 9241-11 and ISO-13407) of the system with real users. To complete our analysis, ergonomic audit on the use of the UI is shown. This paper presents our approach and demonstrates its usability.",
+    "published_date": "2016-07-06",
+    "url": "https://dl.acm.org/citation.cfm?doid=3050385.3050402"
+  }
+]

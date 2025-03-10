@@ -1,0 +1,64 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2407.04845",
+    "title": "Poster: Flexible Scheduling of Network and Computing Resources for Distributed AI Tasks",
+    "published_date": "2024-07-05",
+    "abstract": "Many emerging Artificial Intelligence (AI) applications require on-demand provisioning of large-scale computing, which can only be enabled by leveraging distributed computing services interconnected through networking. To address such increasing demand for networking to serve AI tasks, we investigate new scheduling strategies to improve communication efficiency and test them on a programmable testbed. We also show relevant challenges and research directions.",
+    "citation_count": 2,
+    "summary": "This paper explores flexible scheduling strategies for distributed AI tasks to optimize communication efficiency in large-scale computing environments. The research utilizes a programmable testbed to evaluate these strategies and identifies future research challenges."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2402.08797.pdf",
+    "title": "Computing Power and the Governance of Artificial Intelligence",
+    "published_date": "2024-02-13",
+    "abstract": "Computing power, or\"compute,\"is crucial for the development and deployment of artificial intelligence (AI) capabilities. As a result, governments and companies have started to leverage compute as a means to govern AI. For example, governments are investing in domestic compute capacity, controlling the flow of compute to competing countries, and subsidizing compute access to certain sectors. However, these efforts only scratch the surface of how compute can be used to govern AI development and deployment. Relative to other key inputs to AI (data and algorithms), AI-relevant compute is a particularly effective point of intervention: it is detectable, excludable, and quantifiable, and is produced via an extremely concentrated supply chain. These characteristics, alongside the singular importance of compute for cutting-edge AI models, suggest that governing compute can contribute to achieving common policy objectives, such as ensuring the safety and beneficial use of AI. More precisely, policymakers could use compute to facilitate regulatory visibility of AI, allocate resources to promote beneficial outcomes, and enforce restrictions against irresponsible or malicious AI development and usage. However, while compute-based policies and technologies have the potential to assist in these areas, there is significant variation in their readiness for implementation. Some ideas are currently being piloted, while others are hindered by the need for fundamental research. Furthermore, naive or poorly scoped approaches to compute governance carry significant risks in areas like privacy, economic impacts, and centralization of power. We end by suggesting guardrails to minimize these risks from compute governance.",
+    "citation_count": 16,
+    "summary": "Governments and companies are increasingly using control over computing power to govern artificial intelligence development and deployment, leveraging its unique quantifiable and controllable nature to influence AI safety, resource allocation, and regulatory compliance. However, this approach requires careful consideration of potential risks to privacy, economic equity, and the concentration of power."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.11416",
+    "title": "The Unseen AI Disruptions for Power Grids: LLM-Induced Transients",
+    "published_date": "2024-09-09",
+    "abstract": "Recent breakthroughs of large language models (LLMs) have exhibited superior capability across major industries and stimulated multi-hundred-billion-dollar investment in AI-centric data centers in the next 3-5 years. This, in turn, bring the increasing concerns on sustainability and AI-related energy usage. However, there is a largely overlooked issue as challenging and critical as AI model and infrastructure efficiency: the disruptive dynamic power consumption behaviour. With fast, transient dynamics, AI infrastructure features ultra-low inertia, sharp power surge and dip, and a significant peak-idle power ratio. The power scale covers from several hundred watts to megawatts, even to gigawatts. These never-seen-before characteristics make AI a very unique load and pose threats to the power grid reliability and resilience. To reveal this hidden problem, this paper examines the scale of AI power consumption, analyzes AI transient behaviour in various scenarios, develops high-level mathematical models to depict AI workload behaviour and discusses the multifaceted challenges and opportunities they potentially bring to existing power grids. Observing the rapidly evolving machine learning (ML) and AI technologies, this work emphasizes the critical need for interdisciplinary approaches to ensure reliable and sustainable AI infrastructure development, and provides a starting point for researchers and practitioners to tackle such challenges.",
+    "citation_count": 1,
+    "summary": "Large language models' (LLMs) rapidly growing energy consumption introduces unprecedented transient power demands—characterized by sharp surges and dips—posing significant challenges to power grid stability and resilience. This paper analyzes these transient behaviors and advocates for interdisciplinary solutions to ensure sustainable AI infrastructure development."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/bdQhzQsHjNrQp7cNS/estimates-of-gpu-or-equivalent-resources-of-large-ai-players",
+    "author": "CharlesD",
+    "title": "Estimates of GPU or equivalent resources of large AI players for 2024/5",
+    "published_date": "2024-11-28",
+    "summary": "The article attempts to estimate the AI compute power (in terms of Nvidia H100 equivalent GPUs) held by major tech companies like Microsoft, Meta, Google, Amazon, and XAI at the end of 2024 and projects these numbers for 2025, relying on estimations derived from publicly available Nvidia financial data and acknowledging significant uncertainties and potential inaccuracies in the process."
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.03271",
+    "title": "Making AI Less \"Thirsty\": Uncovering and Addressing the Secret Water Footprint of AI Models",
+    "published_date": "2023-04-06",
+    "abstract": "The growing carbon footprint of artificial intelligence (AI) has been undergoing public scrutiny. Nonetheless, the equally important water (withdrawal and consumption) footprint of AI has largely remained under the radar. For example, training the GPT-3 language model in Microsoft's state-of-the-art U.S. data centers can directly evaporate 700,000 liters of clean freshwater, but such information has been kept a secret. More critically, the global AI demand is projected to account for 4.2-6.6 billion cubic meters of water withdrawal in 2027, which is more than the total annual water withdrawal of 4-6 Denmark or half of the United Kingdom. This is concerning, as freshwater scarcity has become one of the most pressing challenges. To respond to the global water challenges, AI can, and also must, take social responsibility and lead by example by addressing its own water footprint. In this paper, we provide a principled methodology to estimate the water footprint of AI, and also discuss the unique spatial-temporal diversities of AI's runtime water efficiency. Finally, we highlight the necessity of holistically addressing water footprint along with carbon footprint to enable truly sustainable AI.",
+    "citation_count": 72,
+    "summary": "This paper reveals the significant and largely unacknowledged water footprint of AI, estimating that global AI demand could consume more water than entire countries by 2027; it proposes a methodology for assessing this footprint and advocates for its inclusion in broader sustainability efforts."
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.11645",
+    "title": "Exploding AI Power Use: an Opportunity to Rethink Grid Planning and Management",
+    "published_date": "2023-11-20",
+    "abstract": "The unprecedented rapid growth of computing demand for AI is projected to increase global annual datacenter (DC) growth from 7.2% to 11.3%. We project the 5-year AI DC demand for several power grids and assess whether they will allow desired AI growth (resource adequacy). If not, several “desperate measures”—grid policies that enable more load growth and maintain grid reliability by sacrificing new DC reliability are considered. We find that two DC hotspots—EirGrid (Ireland) and Dominion (US)—will have difficulty accommodating new DCs needed by the AI growth. In EirGrid, relaxing new DC reliability guarantees increases the power available to 1.6x–4.1x while maintaining 99.6% actual power availability for the new DCs, sufficient for the 5-year AI demand. In Dominion, relaxing reliability guarantees increases available DC capacity similarly (1.5x–4.6x) but not enough for the 5-year AI demand. New DCs only receive 89% power availability. Study of other US power grids—SPP, CAISO, ERCOT—shows that sufficient capacity exists for the projected AI load growth. Our results suggest the need to rethink adequacy assessment and also grid planning and management. New research opportunities include coordinated planning, reliability models that incorporate load flexibility, and adaptive load abstractions.",
+    "citation_count": 2,
+    "summary": "Rapid AI growth necessitates a significant increase in datacenter power consumption, potentially exceeding the capacity of some power grids like EirGrid (Ireland) and Dominion (US); the study explores grid management strategies, including relaxing reliability standards, to accommodate this demand."
+  },
+  {
+    "title": "Please Report Your Compute",
+    "abstract": "Seeking consistent means of measure.",
+    "published_date": "2023-04-21",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3563035",
+    "summary": "The paper advocates for standardized reporting of computational resources used in research to ensure reproducibility and comparability of results. It emphasizes the need for consistent measurement methods."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi?_ga=2.94622108.1499606200.1645194489-71379542.1628068400",
+    "author": "Jaime Sevilla; Pablo Villalobos; Lennart Heim; Marius Hobbhahn; Tamay Besiroglu; Anson Ho",
+    "title": "Trends in Machine Learning - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "Researchers are tracking trends in machine learning (ML) parameters, compute, and data to understand past progress and predict future advancements, informing AI governance and risk prioritization. They've compiled a public dataset and interactive visualization of milestone ML models to facilitate further research."
+  }
+]

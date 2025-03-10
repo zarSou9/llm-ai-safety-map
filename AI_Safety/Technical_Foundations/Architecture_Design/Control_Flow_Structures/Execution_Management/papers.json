@@ -1,0 +1,60 @@
+[
+  {
+    "title": "A preliminary architecture for a basic data-flow processor",
+    "abstract": "A processor is described which can achieve highly parallel execution of programs represented in data-flow form. The language implemented incorporates conditional and iteration mechanisms, and the processor is a step toward a practical data-flow processor for a Fortran-level data-flow language. The processor has a unique architecture which avoids the problems of processor switching and memory/processor interconnecion that usually limit the degree of realizable concurrent processing. The architecture offers an unusual solution to the problem of structuring and managing a two-level memory system.",
+    "published_date": "2024-06-30",
+    "citation_count": 352,
+    "url": "https://dl.acm.org/doi/10.1145/641675.642111",
+    "summary": "This paper proposes a novel data-flow processor architecture enabling highly parallel execution of data-flow programs, overcoming limitations in concurrent processing typically caused by switching and memory/processor interconnections. The architecture also features a unique two-level memory management system."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/knuths-up-arrow-notation",
+    "title": "Knuth's Up-Arrow Notation - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Knuth's up-arrow notation efficiently represents extremely large numbers; for example, 3^^^3 denotes a power tower of threes 7625597484987 layers high, a number far exceeding the number of atoms in the universe despite its concise description."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2307.02847.pdf",
+    "title": "Towards Efficient Control Flow Handling in Spatial Architecture via Architecting the Control Flow Plane",
+    "published_date": "2023-07-06",
+    "abstract": "Spatial architecture is a high-performance architecture that uses control flow graphs and data flow graphs as the computational model and producer/consumer models as the execution models. However, existing spatial architectures suffer from control flow handling challenges. Upon categorizing their PE execution models, we find that they lack autonomous, peer-to-peer, and temporally loosely-coupled control flow handling capability. This leads to limited performance in intensive control programs.A spatial architecture, Marionette, is proposed, with an explicit-designed control flow plane. The Control Flow Plane enables autonomous, peer-to-peer and temporally loosely-coupled control flow handling. The Proactive PE Configuration ensures computation-overlapped and timely configuration to improve handling Branch Divergence. The Agile PE Assignment enhance the pipeline performance of Imperfect Loops. We develop full stack of Marionette (ISA, compiler, simulator, RTL) and demonstrate that in a variety of challenging intensive control programs, compared to state-of-the-art spatial architectures, Marionette outperforms Softbrain, TIA, REVEL, and RipTide by geomean 2.88×, 3.38×, 1.55×, and 2.66×.CCS CONCEPTS• Computer systems organization→Reconfigurable computing; • Theory of computation → Models of computation.",
+    "citation_count": 2,
+    "summary": "The paper introduces Marionette, a novel spatial architecture addressing inefficiencies in existing designs by incorporating a dedicated control flow plane. This improvement enables autonomous, peer-to-peer control flow handling, resulting in significantly improved performance on control-intensive programs compared to state-of-the-art alternatives."
+  },
+  {
+    "url": "https://arxiv.org/abs/2309.06397",
+    "title": "Compositional Separation of Control Flow and Data Flow",
+    "published_date": "2023-09-12",
+    "abstract": "Every Model of High-Level Computation (MHC) has an underlying composition mechanism for combining simple computation devices into more complex ones. Composition can be done by (explicitly or implicitly) defining control flow, data flow or any combination thereof. Control flow specifies the order in which individual computations are activated, whereas data flow defines how data is exchanged among them. Unfortunately, traditional MHCs either mix data and control or only consider one dimension explicitly, which makes it difficult to reason about data flow and control flow separately. Reasoning about these dimensions orthogonally is a crucial desideratum for optimisation, maintainability and verification purposes. In this paper, we introduce a novel MHC that explicitly treats data flow and control flow as separate dimensions, while providing modularity. As the model is rooted in category theory, it provides category-theoretic operations for compositionally constructing sequential, parallel, branchial or iterative composites. Compositionality entails that a composite exhibits the same properties as its respective constituents, including separation of concerns and modularity. We conclude the paper by demonstrating how our proposal can be used to model high-level computations in two different application domains: software engineering and artificial intelligence.",
+    "summary": "This paper presents a novel Model of High-Level Computation (MHC) that explicitly separates control flow and data flow as orthogonal dimensions, enabling easier reasoning, optimization, and verification through compositional construction based on category theory. The MHC's modularity is demonstrated by modeling computations in software engineering and artificial intelligence."
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.09163",
+    "title": "CEDCES: A Cost Effective Deadline Constrained Evolutionary Scheduler for Task Graphs in Multi-Cloud System",
+    "published_date": "2022-12-18",
+    "abstract": "Due to large computational resource requirements, a single cloud cannot meet the requirements of the workflow. Hence, a multi-cloud system, where multiple cloud providers pool their resources together becomes a good solution. The major objectives considered while scheduling the tasks present in a task graph include execution cost and makespan. In this paper, we present Cost Effective Deadline Constrained Evolutionary Scheduler (henceforth mentioned as CEDCES) which aims to minimize the execution cost under a given deadline constraint. CEDCES is a PSO based-method with novel initialization, crossover, and mutation schemes. Experiments on real-world workflows show that CEDCES outperforms the state-of-art algorithms, in particular, 60.41% on average in terms of execution cost. In cases where the deadline is violated, CEDCES gives the least overshoot in execution time and outperforming the others by 10.96% on average.",
+    "summary": "CEDCES, a novel Particle Swarm Optimization-based scheduler, minimizes execution cost for task graphs in multi-cloud systems while meeting deadline constraints. Experimental results demonstrate that CEDCES significantly outperforms existing algorithms in both cost reduction and deadline adherence."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/zihNijSp2aMCL4Rho/axis-oriented-programming",
+    "author": "Donald Hobson",
+    "title": "Axis oriented programming",
+    "published_date": "2022-04-20",
+    "summary": "This article proposes a new array-oriented programming language designed to simplify handling multi-dimensional arrays by explicitly managing axes and their relationships. The core idea is to represent all variables as arrays, with a compiler optimizing storage and operations across potentially massive datasets."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.11562.pdf",
+    "title": "Reliable Actors with Retry Orchestration",
+    "published_date": "2021-11-22",
+    "abstract": "Cloud developers have to build applications that are resilient to failures and interruptions. We advocate for a fault-tolerant programming model for the cloud based on actors, retry orchestration, and tail calls. This model builds upon persistent data stores and message queues readily available on the cloud. Retry orchestration not only guarantees that (1) failed actor invocations will be retried but also that (2) completed invocations are never repeated and (3) it preserves a strict happen-before relationship across failures within call stacks. Tail calls can break complex tasks into simple steps to minimize re-execution during recovery. We review key application patterns and failure scenarios. We formalize a process calculus to precisely capture the mechanisms of fault tolerance in this model. We briefly describe our implementation. Using an application inspired by a typical enterprise scenario, we validate the functional correctness of our implementation and assess the impact of fault preparedness and recovery on performance.",
+    "citation_count": 3,
+    "summary": "This paper proposes a fault-tolerant cloud programming model using actors, retry orchestration, and tail calls to ensure reliable execution despite failures, guaranteeing retries, preventing repetition, and maintaining strict ordering. The model is formalized, implemented, and evaluated through an enterprise-inspired application."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.08133v1.pdf",
+    "title": "Ω-nonblocking Supervisory Control of Discrete-event Systems with Infinite Behavior",
+    "published_date": "2021-03-15",
+    "abstract": "In the supervisory control framework of discreteevent systems (DES) with infinite behavior initiated by Thistle and Wonham, a supervisor satisfying the minimal acceptable specification and the maximal legal specification is synthesized. However, this supervisor may incur livelocks as it cannot ensure that the infinite behavior under supervision will always visit some marker states. To tackle this problem, we propose the definition of markability by requiring that all infinite cycles include at least one marker state. Then we formulate the problem of ω−nonblocking supervisory control of DES with infinite behavior to synthesize an ω−nonblocking (i.e. nonblocking, deadlock-free and livelock-free) supervisor. An algorithm is proposed to achieve ω−nonblockingness by computing the supremal ∗−controllable, ∗−closed, ω−controllable and markable sublanguage. We utilize the example of a robot as a running example.",
+    "summary": "This paper addresses the livelock problem in supervisory control of discrete-event systems with infinite behavior by introducing the concept of \"markability,\" ensuring all infinite cycles include a marker state. An algorithm is presented to synthesize an ω-nonblocking supervisor (nonblocking, deadlock-free, and livelock-free) by computing the supremal controllable and markable sublanguage."
+  }
+]

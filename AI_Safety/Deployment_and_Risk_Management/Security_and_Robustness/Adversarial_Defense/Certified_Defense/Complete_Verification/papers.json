@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Privacy Preserving CTL Model Checking through Oblivious Graph Algorithms",
+    "abstract": "Model checking is the problem of verifying whether an abstract model $\\mathcalM of a computational system meets a specification of behavior φ. We apply the cryptographic theory of secure multiparty computation (MPC) to model checking. With our construction, adversarial parties D and A holding $\\mathcalM and φ respectively may check satisfaction --- notationally, whether $\\mathcalM |= φ --- while maintaining privacy of all other meaningful information. Our protocol adopts oblivious graph algorithms to provide for secure computation of global explicit state model checking with specifications in Computation Tree Logic (CTL), and its design ameliorates the asymptotic overhead required by generic MPC schemes. We therefore introduce the problem of privacy preserving model checking (PPMC) and provide an initial step towards applicable and efficient constructions.",
+    "published_date": "2020-11-09",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3411497.3420212"
+  },
+  {
+    "title": "Building certified concurrent OS kernels",
+    "abstract": "Operating system (OS) kernels form the backbone of system software. They can have a significant impact on the resilience and security of today's computers. Recent efforts have demonstrated the feasibility of formally verifying simple general-purpose kernels, but they have ignored the important issues of concurrency, which include not just user and I/O concurrency on a single core, but also multi-core parallelism with fine-grained locking. In this work, we present CertiKOS, a novel compositional framework for building verified concurrent OS kernels. Concurrency allows interleaved execution of programs belonging to different abstraction layers and running on different CPUs/threads. Each such layer can have a different set of observable events. In CertiKOS, these layers and their observable events can be formally specified, and each module can then be verified at the abstraction level it belongs to. To link all the verified pieces together, CertiKOS enforces a so-called contextual refinement property for every such piece, which states that the implementation will behave like its specification under any concurrent context with any valid interleaving. Using CertiKOS, we have successfully developed a practical concurrent OS kernel, called mC2, and built the formal proofs of its correctness in Coq. The mC2 kernel is written in 6500 lines of C and x86 assembly and runs on stock x86 multicore machines. To our knowledge, this is the first correctness proof of a general-purpose concurrent OS kernel with fine-grained locking.",
+    "published_date": "2019-09-24",
+    "citation_count": 38,
+    "url": "https://dl.acm.org/doi/10.1145/3356903"
+  },
+  {
+    "title": "Bridging boolean and quantitative synthesis using smoothed proof search",
+    "abstract": "We present a new technique for parameter synthesis under boolean and quantitative objectives. The input to the technique is a \"sketch\" --- a program with missing numerical parameters --- and a probabilistic assumption about the program's inputs. The goal is to automatically synthesize values for the parameters such that the resulting program satisfies: (1) a {boolean specification}, which states that the program must meet certain assertions, and (2) a {quantitative specification}, which assigns a real valued rating to every program and which the synthesizer is expected to optimize. Our method --- called smoothed proof search --- reduces this task to a sequence of unconstrained smooth optimization problems that are then solved numerically. By iteratively solving these problems, we obtain parameter values that get closer and closer to meeting the boolean specification; at the limit, we obtain values that provably meet the specification. The approximations are computed using a new notion of smoothing for program abstractions, where an abstract transformer is approximated by a function that is continuous according to a metric over abstract states. We present a prototype implementation of our synthesis procedure, and experimental results on two benchmarks from the embedded control domain. The experiments demonstrate the benefits of smoothed proof search over an approach that does not meet the boolean and quantitative synthesis goals simultaneously.",
+    "published_date": "2014-01-08",
+    "citation_count": 48,
+    "url": "https://dl.acm.org/doi/10.1145/2535838.2535859"
+  }
+]

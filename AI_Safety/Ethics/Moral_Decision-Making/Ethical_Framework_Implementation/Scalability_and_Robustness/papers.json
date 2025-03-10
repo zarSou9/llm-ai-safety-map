@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.16872",
+    "title": "Ethical and Scalable Automation: A Governance and Compliance Framework for Business Applications",
+    "published_date": "2024-09-25",
+    "abstract": "The popularisation of applying AI in businesses poses significant challenges relating to ethical principles, governance, and legal compliance. Although businesses have embedded AI into their day-to-day processes, they lack a unified approach for mitigating its potential risks. This paper introduces a framework ensuring that AI must be ethical, controllable, viable, and desirable. Balancing these factors ensures the design of a framework that addresses its trade-offs, such as balancing performance against explainability. A successful framework provides practical advice for businesses to meet regulatory requirements in sectors such as finance and healthcare, where it is critical to comply with standards like GPDR and the EU AI Act. Different case studies validate this framework by integrating AI in both academic and practical environments. For instance, large language models are cost-effective alternatives for generating synthetic opinions that emulate attitudes to environmental issues. These case studies demonstrate how having a structured framework could enhance transparency and maintain performance levels as shown from the alignment between synthetic and expected distributions. This alignment is quantified using metrics like Chi-test scores, normalized mutual information, and Jaccard indexes. Future research should explore the framework's empirical validation in diverse industrial settings further, ensuring the model's scalability and adaptability.",
+    "summary": "This paper proposes a governance and compliance framework for ethical and scalable AI in business applications, emphasizing the balance between ethical principles, controllability, viability, and desirability, and demonstrating its practical application through case studies and quantitative evaluation. The framework aims to help businesses meet regulatory requirements while maintaining AI performance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.15147",
+    "title": "Delegating Responsibilities to Intelligent Autonomous Systems: Challenges and Benefits",
+    "published_date": "2024-11-06",
+    "abstract": "As AI systems increasingly operate with autonomy and adaptability, the traditional boundaries of moral responsibility in techno-social systems are being challenged. This paper explores the evolving discourse on the delegation of responsibilities to intelligent autonomous agents and the ethical implications of such practices. Synthesizing recent developments in AI ethics, including concepts of distributed responsibility and ethical AI by design, the paper proposes a functionalist perspective as a framework. This perspective views moral responsibility not as an individual trait but as a role within a socio-technical system, distributed among human and artificial agents. As an example of 'AI ethical by design,' we present Basti and Vitiello's implementation. They suggest that AI can act as artificial moral agents by learning ethical guidelines and using Deontic Higher-Order Logic to assess decisions ethically. Motivated by the possible speed and scale beyond human supervision and ethical implications, the paper argues for 'AI ethical by design', while acknowledging the distributed, shared, and dynamic nature of responsibility. This functionalist approach offers a practical framework for navigating the complexities of AI ethics in a rapidly evolving technological landscape.",
+    "summary": "This paper examines the ethical challenges of delegating responsibilities to increasingly autonomous AI systems, proposing a functionalist framework that distributes moral responsibility across human and artificial agents within a socio-technical system. It advocates for \"AI ethical by design,\" exemplified by approaches like Deontic Higher-Order Logic, to proactively address ethical considerations in AI development."
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.12862",
+    "title": "Toward Constraint Compliant Goal Formulation and Planning",
+    "published_date": "2024-05-21",
+    "abstract": "One part of complying with norms, rules, and preferences is incorporating constraints (such as knowledge of ethics) into one's goal formulation and planning processing. We explore in a simple domain how the encoding of knowledge in different ethical frameworks influences an agent's goal formulation and planning processing and demonstrate ability of an agent to satisfy and satisfice when its collection of relevant constraints includes a mix of\"hard\"and\"soft\"constraints of various types. How the agent attempts to comply with ethical constraints depends on the ethical framing and we investigate tradeoffs between deontological framing and utilitarian framing for complying with an ethical norm. Representative scenarios highlight how performing the same task with different framings of the same norm leads to different behaviors. Our explorations suggest an important role for metacognitive judgments in resolving ethical conflicts during goal formulation and planning.",
+    "summary": "This paper investigates how different ethical frameworks (deontological and utilitarian) influence an agent's goal formulation and planning by encoding ethical constraints as \"hard\" and \"soft\" constraints. The authors demonstrate how varying constraint types and ethical framings lead to different agent behaviors and highlight the importance of metacognitive judgments in resolving ethical conflicts."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/wwioAJHTeaGqBvtjd/update-on-developing-an-ethics-calculator-to-align-an-agi-to",
+    "author": "Sweenesm",
+    "title": "Update on Developing an Ethics Calculator to Align an AGI to",
+    "published_date": "2024-03-12",
+    "summary": "The author describes progress on an \"ethics calculator\" for AGI safety, using a utilitarian framework that incorporates positive experiences, rights violations, and self-esteem to maximize overall value. This approach aims for quantitative consistency across diverse scenarios, a unique aspect compared to existing ethical frameworks in AGI alignment research."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/nnGwHuJfCBxKDgsds/embedding-ethical-priors-into-ai-systems-a-bayesian-approach",
+    "author": "Justausername",
+    "title": "Embedding Ethical Priors into AI Systems: A Bayesian Approach",
+    "published_date": "2023-08-03",
+    "summary": "This paper proposes a novel framework for embedding ethical considerations into AI systems by using Bayesian priors. These \"ethical priors,\" representing pre-programmed ethical beliefs, guide the AI's learning and decision-making process, mimicking human moral intuition and potentially leading to more ethically aligned AI."
+  },
+  {
+    "title": "Ethically Compliant Planning within Moral Communities",
+    "abstract": "Ethically compliant autonomous systems (ECAS) are the state-of-the-art for solving sequential decision-making problems under uncertainty while respecting constraints that encode ethical considerations. This paper defines a novel concept in the context of ECAS that is from moral philosophy, the moral community, which leads to a nuanced taxonomy of explicit ethical agents. We then propose new ethical frameworks that extend the applicability of ECAS to domains where a moral community is required. Next, we provide a formal analysis of the proposed ethical frameworks and conduct experiments that illustrate their differences. Finally, we discuss the implications of explicit moral communities that could shape research on standards and guidelines for ethical agents in order to better understand and predict common errors in their design and communicate their capabilities.",
+    "published_date": "2021-07-21",
+    "citation_count": 12,
+    "url": "https://dl.acm.org/doi/10.1145/3461702.3462522",
+    "summary": "This paper introduces the concept of \"moral community\" into ethically compliant autonomous systems (ECAS), proposing novel ethical frameworks that extend ECAS applicability to situations requiring community-based morality. The authors formally analyze these frameworks, conduct experiments illustrating their differences, and discuss implications for ethical agent standards and guidelines."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.04234v1.pdf",
+    "title": "Computability, Complexity, Consistency and Controllability: A Four C's Framework for cross-disciplinary Ethical Algorithm Research",
+    "published_date": "2021-01-30",
+    "abstract": "The ethical consequences of, constraints upon and regulation of algorithms arguably represent the defining challenges of our age, asking us to reckon with the rise of computational technologies whose potential to radically transforming social and individual orders and identity in unforeseen ways is already being realised. Yet despite the multidisciplinary impact of this algorithmic turn, there remains some way to go in motivating the crossdisciplinary collaboration that is crucial to advancing feasible proposals for the ethical design, implementation and regulation of algorithmic and automated systems. In this work, we provide a framework to assist cross-disciplinary collaboration by presenting a Four C's Framework covering key computational considerations researchers across such diverse fields should consider when approaching these questions: (i) computability, (ii) complexity, (iii) consistency and (iv) controllability. In addition, we provide examples of how insights from ethics, philosophy and population ethics are relevant to and translatable within sciences concerned with the study and design of algorithms. Our aim is to set out a framework which we believe is useful for fostering cross-disciplinary understanding of pertinent issues in ethical algorithmic literature which is relevant considering the feasibility of ethical algorithmic governance, especially the impact of computational constraints upon algorithmic governance.",
+    "citation_count": 2,
+    "summary": "This paper proposes a \"Four C's\" framework (computability, complexity, consistency, controllability) to facilitate cross-disciplinary ethical algorithm research, bridging the gap between computational sciences and fields like ethics and philosophy to address the ethical implications of algorithmic systems. The framework aims to improve the feasibility of ethical algorithmic governance by considering inherent computational constraints."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.06207v1.pdf",
+    "title": "Governance of Ethical and Trustworthy Al Systems: Research Gaps in the ECCOLA Method",
+    "published_date": "2021-09-01",
+    "abstract": "Advances in machine learning (ML) technologies have greatly improved Artificial Intelligence (Al) systems. As a result, Al systems have become ubiquitous, with their application prevalent in virtually all sectors. However, Al systems have prompted ethical concerns, especially as their usage crosses boundaries in sensitive areas such as healthcare, transportation, and security. As a result, users are calling for better Al governance practices in ethical Al systems. Therefore, Al development methods are encouraged to foster these practices. This research analyzes the ECCOLA method for developing ethical and trustworthy Al systems to determine if it enables Al governance in development processes through ethical practices. The results demonstrate that while ECCOLA fully facilitates Al governance in corporate governance practices in all its processes, some of its practices do not fully foster data governance and information governance practices. This indicates that the method can be further improved.",
+    "citation_count": 5,
+    "summary": "The ECCOLA method for developing ethical and trustworthy AI systems effectively supports corporate governance but needs improvement in fostering data and information governance. This research identifies gaps in ECCOLA's approach to comprehensive AI governance."
+  }
+]

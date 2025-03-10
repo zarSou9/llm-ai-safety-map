@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2411.15827",
+    "title": "Runtime-optimized Multi-way Stream Join Operator for Large-scale Streaming data",
+    "published_date": "2024-11-24",
+    "abstract": "Streaming computing enables the real-time processing of large volumes of data and offers significant advantages for various applications, including real-time recommendations, anomaly detection, and monitoring. The multi-way stream join operator facilitates the integration of multiple data streams into a single operator, allowing for a more comprehensive understanding by consolidating information from diverse sources. Although this operator is valuable in stream processing systems, its current probe order is determined prior to execution, making it challenging to adapt to real-time and unpredictable data streams, which can potentially diminish its operational efficiency. In this paper, we introduce a runtime-optimized multi-way stream join operator that incorporates various adaptive strategies to enhance the probe order during the joining of multi-way data streams. The operator's runtime operation is divided into cycles, during which relevant statistical information from the data streams is collected and updated. Historical statistical data is then utilized to predict the characteristics of the data streams in the current cycle using a quadratic exponential smoothing prediction method. An adaptive optimization algorithm based on a cost model, namely dpPick, is subsequently designed to refine the probe order, enabling better adaptation to real-time, unknown data streams and improving the operator's processing efficiency. Experiments conducted on the TPC-DS dataset demonstrate that the proposed multi-way stream join method significantly outperforms the comparative method in terms of processing efficiency."
+  },
+  {
+    "title": "Monitoring Runtime Metrics of Fog Manufacturing via a Qualitative and Quantitative (QQ) Control Chart",
+    "abstract": "Fog manufacturing combines Fog and Cloud computing in a manufacturing network to provide efficient data analytics and support real-time decision-making. Detecting anomalies, including imbalanced computational workloads and cyber-attacks, is critical to ensure reliable and responsive computation services. However, such anomalies often concur with dynamic offloading events where computation tasks are migrated from well-occupied Fog nodes to less-occupied ones to reduce the overall computation time latency and improve the throughput. Such concurrences jointly affect the system behaviors, which makes anomaly detection inaccurate. We propose a qualitative and quantitative (QQ) control chart to monitor system anomalies through identifying the changes of monitored runtime metric relationship (quantitative variables) under the presence of dynamic offloading (qualitative variable) using a risk-adjusted monitoring framework. Both the simulation and Fog manufacturing case studies show the advantage of the proposed method compared with the existing literature under the dynamic offloading influence.",
+    "published_date": "2022-03-17",
+    "url": "https://dl.acm.org/doi/10.1145/3501262"
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.12744v1",
+    "title": "Towards Advanced Monitoring for Scientific Workflows",
+    "published_date": "2022-11-23",
+    "abstract": "Scientific workflows consist of thousands of highly parallelized tasks executed in a distributed environment involving many components. Automatic tracing and investigation of the components' and tasks' performance metrics, traces, and behavior are necessary to support the end user with a level of abstraction since the large amount of data cannot be analyzed manually. The execution and monitoring of scientific workflows involves many components, the cluster infrastructure, its resource manager, the workflow, and the workflow tasks. All components in such an execution environment access different monitoring metrics and provide metrics on different abstraction levels. The combination and analysis of observed metrics from different components and their interdependencies are still widely unregarded.We specify four different monitoring layers that can serve as an architectural blueprint for the monitoring responsibilities and the interactions of components in the scientific workflow execution context. We describe the different monitoring metrics subject to the four layers and how the layers interact. Finally, we examine five state-of-the-art scientific workflow management systems (SWMS) in order to assess which steps are needed to enable our four-layer-based approach.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.02627",
+    "title": "An IoT Cloud and Big Data Architecture for the Maintenance of Home Appliances",
+    "published_date": "2022-10-17",
+    "abstract": "Billions of interconnected Internet of Things (IoT) sensors and devices collect tremendous amounts of data from real-world scenarios. Big data is generating increasing interest in a wide range of industries. Once data is analyzed through compute-intensive Machine Learning (ML) methods, it can derive critical business value for organizations. Powerful platforms are essential to handle and process such massive collections of information cost-effectively and conveniently. This work introduces a distributed and scalable platform architecture that can be deployed for efficient real-world big data collection and analytics. The proposed system was tested with a case study for Predictive Maintenance of Home Appliances, where current and vibration sensors with high acquisition frequency were connected to washing machines and refrigerators. The introduced platform was used to collect, store, and analyze the data. The experimental results demonstrated that the presented system could be advantageous for tackling real-world IoT scenarios in a cost-effective and local approach.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03"
+  }
+]

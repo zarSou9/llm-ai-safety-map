@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Dynamic Path Visualization for Human-Robot Collaboration",
+    "abstract": "Augmented reality technology can enable robots to visualize their future actions giving users crucial information to avoid collisions and other conflicting actions. Although a robot's entire action plan could be visualized (such as the output of a navigational planner), how far into the future it is appropriate to display the robot's plan is unknown. We developed a dynamic path visualizer that projects the robot's motion intent at varying lengths depending on the complexity of the upcoming path. We tested our approach in a virtual game where participants were tasked to collect and deliver gems to a robot that moves randomly towards a grid of markers in a confined area. Preliminary results on a small sample size indicate no significant effect on task performance; however, open-ended responses reveal participants preference towards visuals that show longer path projections.",
+    "published_date": "2021-03-08",
+    "citation_count": 11,
+    "url": "https://dl.acm.org/doi/10.1145/3434074.3447188"
+  },
+  {
+    "title": "Intelligent Visualization Interfaces",
+    "abstract": "Visualization transforms large quantities of data into pictures in which relations, patterns, or trends of interest in the data reveal themselves to effectively guide the user in the data reasoning and discovery process. Visualization has become an essential tool in many areas of study that use a data-driven approach to problem solving and decision making. However, when the data is large relational or high-dimensional, it can take both novices and experts substantial effort to derive and interpret visualization results from the data. Following the resurgence of AI and machine learning technology in recent years, in the field of visualization, there is also the growing interest and opportunity in applying AI and machine learning to perform data transformation and to assist in the generation and interpretation of visualization, aiming to strike a balance between cost and performance. In this talk, I will present designs made by my group effectively making use of machine learning for general data visualization and analytics tasks [1, 2, 3, 4, 5, 6], resulting in better visualization interfaces into the data.",
+    "published_date": "2021-04-14",
+    "url": "https://dl.acm.org/doi/10.1145/3397481.3457411"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/M3xpp7CZ2JaSafDJB/computer-governance-and-conclusions-transformative-ai-and",
+    "author": "lennart",
+    "title": "Compute Governance and Conclusions - Transformative AI and Compute [3/4]",
+    "published_date": "2021-10-14"
+  },
+  {
+    "title": "Re-examining Whether, Why, and How Human-AI Interaction Is Uniquely Difficult to Design",
+    "abstract": "Artificial Intelligence (AI) plays an increasingly important role in improving HCI and user experience. Yet many challenges persist in designing and innovating valuable human-AI interactions. For example, AI systems can make unpredictable errors, and these errors damage UX and even lead to undesired societal impact. However, HCI routinely grapples with complex technologies and mitigates their unintended consequences. What makes AI different? What makes human-AI interaction appear particularly difficult to design? This paper investigates these questions. We synthesize prior research, our own design and research experience, and our observations when teaching human-AI interaction. We identify two sources of AI's distinctive design challenges: 1) uncertainty surrounding AI's capabilities, 2) AI's output complexity, spanning from simple to adaptive complex. We identify four levels of AI systems. On each level, designers encounter a different subset of the design challenges. We demonstrate how these findings reveal new insights for designers, researchers, and design tool makers in productively addressing the challenges of human-AI interaction going forward.",
+    "published_date": "2020-04-21",
+    "citation_count": 387,
+    "url": "https://www.researchgate.net/publication/338459008_Re-examining_Whether_Why_and_How_Human-AI_Interaction_Is_Uniquely_Difficult_to_Design"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/P5bczkJAAST9KrkRW/state-space-of-x-risk-trajectories",
+    "author": "David_Kristoffersson",
+    "title": "State Space of X-Risk Trajectories",
+    "published_date": "2020-02-09"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/SGWSL3gLMqaJmiCyw/ave-assistance-via-empowerment",
+    "author": "FactorialCode",
+    "title": "AvE: Assistance via Empowerment",
+    "published_date": "2020-06-30"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/zYv9BQBGnk2EdCwoG/the-psyche-of-ai-pattern-recognition",
+    "author": "Scott Broock",
+    "title": "AI and the Map of Your Mind: Pattern Recognition",
+    "published_date": "2023-03-20"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.02944v4.pdf",
+    "title": "Adaptive Performance Anomaly Detection for Online Service Systems via Pattern Sketching",
+    "published_date": "2022-01-09",
+    "abstract": "To ensure the performance of online service systems, their status is closely monitored with various software and system metrics. Performance anomalies represent the performance degradation issues (e.g., slow response) of the service systems. When performing anomaly detection over the metrics, existing methods often lack the merit of interpretability, which is vital for engineers and analysts to take remediation actions. Moreover, they are unable to effectively accommodate the ever-changing services in an online fashion. To address these limitations, in this paper, we propose ADSketch, an interpretable and adaptive performance anomaly detection approach based on pattern sketching. ADSketch achieves interpretability by identifying groups of anomalous metric patterns, which represent particular types of performance issues. The underlying issues can then be immediately recognized if similar patterns emerge again. In addition, an adaptive learning algorithm is designed to embrace unprecedented patterns induced by service updates or user behavior changes. The proposed approach is evaluated with public data as well as industrial data collected from a representative online service system in Huawei Cloud. The experimental results show that ADSketch outperforms state-of-the-art approaches by a significant margin, and demonstrate the effectiveness of the online algorithm in new pattern discovery. Furthermore, our approach has been successfully deployed in industrial practice.",
+    "citation_count": 29
+  },
+  {
+    "url": "https://arxiv.org/pdf/2210.08132.pdf",
+    "title": "VHetNets for AI and AI for VHetNets: An Anomaly Detection Case Study for Ubiquitous IoT",
+    "published_date": "2022-10-14",
+    "abstract": "Vertical heterogeneous networks (VHetNets) and artificial intelligence (AI) play critical roles in 6G and beyond networks. This article presents an AI-native VHetNets architecture to enable the synergy of VHetNets and AI, thereby supporting varieties of AI services while facilitating the intelligent network management. Anomaly detection stands as an essential AI service across various applications in Internet of Things (IoT), including intrusion detection, state monitoring, analysis of device activities, and security supervision. In this article, we first discuss the possibilities of VHetNets used for distributed AI model training to provide the anomaly detection service for ubiquitous IoT, i.e., VHetNets for AI. After that, we study the application of AI approaches in helping implement the intelligent network management functionalities for VHetNets, i.e., AI for VHetNets, whose aim is to facilitate the efficient implementation of the anomaly detection service. Finally, a case study is presented to demonstrate the efficiency and effectiveness of the proposed AInative VHetNets-enabled anomaly detection framework.",
+    "citation_count": 3
+  },
+  {
+    "title": "An Examination on Autoencoder Designs for Anomaly Detection in Video Surveillance",
+    "abstract": "Current anomaly detection methods for video surveillance find anomalies effectively enough; however, it comes at a high computational cost and specific hardware resources demanding. In counterpart, other video analysis tasks such as video action recognition now employ techniques that reduce the need for higher computational cost. Some of those techniques can be helpful for video anomaly detection. Therefore, this paper explores the effectiveness of the potential concepts of distillation and joint spatiotemporal training, adapted to two novel convolutional autoencoder architectures for anomaly detection in video surveillance. Our experimental results show the feasibility of reducing the computational resources requirements with smaller architectures (only $~6K$ trainable parameters), competing and outperforming current methods in challenging benchmarks.",
+    "published_date": "2022-01-01",
+    "citation_count": 13,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09678356.pdf"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rCP5iTYLtfcoC8NXd/self-organised-neural-networks-a-simple-natural-and",
+    "author": "D𝜋",
+    "title": "Self-Organised Neural Networks:\nA simple, natural and efficient way to intelligence",
+    "published_date": "2022-01-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/j4FnzvwTnReC3bH5y/what-we-know-about-machine-learning-s-replication-crisis",
+    "author": "Younes Kamel",
+    "title": "What we know about machine learning's replication crisis",
+    "published_date": "2022-03-05"
+  }
+]

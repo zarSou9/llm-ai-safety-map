@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Chain Versus Common Cause: Biased Causal Strength Judgments in Humans and Large Language Models",
+    "abstract": "Causal reasoning is important for humans and artificial intelligence (AI). Causal Bayesian Networks (CBNs) model causal relationships using directed links between nodes in a network. Deviations from their edicts result in biased judgments. This study explores one such bias by examining two structures in CBNs: canonical Chain (A→C→B) and Common Cause (A←C→B) networks. In these structures, if C is known, the probability of the outcome (B) is normatively independent of the initial cause (A). But humans often ignore this independence. We tested mutually exclusive predictions of three theories that could account for this bias ( N= 300). Our results show that humans perceive causes in Chain structures as significantly stronger, supporting only one of the hypotheses. The increased perceived causal power might reflect a view of intermediate causes as more reflective of reliable mechanisms. The bias may stem either from our interventions in the world or how we talk about causality with others. LLMs are primarily trained on language data. Therefore, examining whether they exhibit similar biases can determine the extent to which language is the vehicle of such causal biases, with implications for whether LLMs can abstract causal principles. We therefore, subjected three LLMs, GPT3.5-Turbo, GPT4, and Luminous Supreme Control, to the same queries as our human subjects, adjusting a key 'temperature' hyperparameter. We show that at greater randomness levels, LLMs exhibit a similar bias, suggesting it is supported by language use. The absence of item effects suggests a degree of causal principle abstraction in LLMs.",
+    "published_date": "2024-06-20",
+    "citation_count": 2,
+    "url": "https://escholarship.org/uc/item/2w45f1bv",
+    "summary": "Humans and large language models exhibit a bias in judging causal strength, perceiving intermediate causes in chain structures (A→C→B) as stronger than common cause structures (A←C→B), even when probabilistic independence is present. This bias, observed across different LLMs at higher randomness levels, suggests a role of language in shaping human and AI causal reasoning."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), particularly focusing on short timelines (within a decade). The program will then evaluate strategies for AI safety and governance across these scenarios to identify those best mitigating existential risk."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks",
+    "author": "Jacob Hilton; Mark Xu",
+    "title": "Estimating Tail Risk in Neural Networks",
+    "published_date": "2024-09-13",
+    "summary": "Current methods for assessing the risk of catastrophic AI behavior rely on finding harmful outputs, which is insufficient given the vast input space. The article proposes exploring alternative methods for estimating the probability of tail events (catastrophic failures) that don't depend on directly identifying harmful inputs."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.10809v2",
+    "title": "Causal Explanations for Sequential Decision-Making in Multi-Agent Systems",
+    "published_date": "2023-02-21",
+    "abstract": "We present CEMA: Causal Explanations in Multi-Agent systems; a framework for creating causal natural language explanations of an agent's decisions in dynamic sequential multi-agent systems to build more trustworthy autonomous agents. Unlike prior work that assumes a fixed causal structure, CEMA only requires a probabilistic model for forward-simulating the state of the system. Using such a model, CEMA simulates counterfactual worlds that identify the salient causes behind the agent's decisions. We evaluate CEMA on the task of motion planning for autonomous driving and test it in diverse simulated scenarios. We show that CEMA correctly and robustly identifies the causes behind the agent's decisions, even when a large number of other agents is present, and show via a user study that CEMA's explanations have a positive effect on participants' trust in autonomous vehicles and are rated as high as high-quality baseline explanations elicited from other participants. We release the collected explanations with annotations as the HEADD dataset.",
+    "citation_count": 4,
+    "summary": "CEMA is a framework generating causal natural language explanations for agent decisions in multi-agent systems by counterfactually simulating different scenarios using only a probabilistic forward model. Evaluation on autonomous driving demonstrates CEMA's accuracy and positive impact on user trust."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.04709.pdf",
+    "title": "Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability",
+    "published_date": "2023-01-11",
+    "abstract": "Causal abstraction provides a theoretical foundation for mechanistic interpretability, the field concerned with providing intelligible algorithms that are faithful simplifications of the known, but opaque low-level details of black box AI models. Our contributions are (1) generalizing the theory of causal abstraction from mechanism replacement (i.e., hard and soft interventions) to arbitrary mechanism transformation (i.e., functionals from old mechanisms to new mechanisms), (2) providing a flexible, yet precise formalization for the core concepts of modular features, polysemantic neurons, and graded faithfulness, and (3) unifying a variety of mechanistic interpretability methodologies in the common language of causal abstraction, namely activation and path patching, causal mediation analysis, causal scrubbing, causal tracing, circuit analysis, concept erasure, sparse autoencoders, differential binary masking, distributed alignment search, and activation steering.",
+    "citation_count": 39,
+    "summary": "This paper introduces a generalized theory of causal abstraction, formalizing core concepts in mechanistic interpretability and unifying diverse methodologies under a common framework of mechanism transformation. This framework allows for intelligible algorithms that faithfully simplify complex black-box AI models."
+  },
+  {
+    "url": "http://arxiv.org/abs/2401.09459",
+    "title": "What's my role? Modelling responsibility for AI-based safety-critical systems",
+    "published_date": "2023-12-30",
+    "abstract": "AI-Based Safety-Critical Systems (AI-SCS) are being increasingly deployed in the real world. These can pose a risk of harm to people and the environment. Reducing that risk is an overarching priority during development and operation. As more AI-SCS become autonomous, a layer of risk management via human intervention has been removed. Following an accident it will be important to identify causal contributions and the different responsible actors behind those to learn from mistakes and prevent similar future events. Many authors have commented on the\"responsibility gap\"where it is difficult for developers and manufacturers to be held responsible for harmful behaviour of an AI-SCS. This is due to the complex development cycle for AI, uncertainty in AI performance, and dynamic operating environment. A human operator can become a\"liability sink\"absorbing blame for the consequences of AI-SCS outputs they weren't responsible for creating, and may not have understanding of. This cross-disciplinary paper considers different senses of responsibility (role, moral, legal and causal), and how they apply in the context of AI-SCS safety. We use a core concept (Actor(A) is responsible for Occurrence(O)) to create role responsibility models, producing a practical method to capture responsibility relationships and provide clarity on the previously identified responsibility issues. Our paper demonstrates the approach with two examples: a retrospective analysis of the Tempe Arizona fatal collision involving an autonomous vehicle, and a safety focused predictive role-responsibility analysis for an AI-based diabetes co-morbidity predictor. In both examples our primary focus is on safety, aiming to reduce unfair or disproportionate blame being placed on operators or developers. We present a discussion and avenues for future research.",
+    "summary": "This paper addresses the \"responsibility gap\" in AI-based safety-critical systems by developing role responsibility models that clarify the causal, moral, and legal responsibilities of various actors involved. These models aim to prevent unfair blame allocation following accidents by analyzing responsibility relationships and are demonstrated through case studies of autonomous vehicles and AI-based healthcare."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of posts provides a developing introduction to AI safety, with both content and order subject to ongoing refinement."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/AKBkDNeFLZxaMqjQG/a-practical-incremental-pathway-to-safe-tai-oaa-in-the-real",
+    "author": "Roman Leventov, Rafael Kaufmann Nedal",
+    "title": "Gaia Network: a practical, incremental pathway to Open Agency Architecture",
+    "published_date": "2023-12-20",
+    "summary": "The article proposes Gaia, a decentralized network leveraging existing technologies and economic mechanisms to address AI safety concerns by building a comprehensive world model for improved decision-making, aligning with the Open Agency Architecture's goals through a bottom-up, collaborative approach. This contrasts with top-down solutions, favoring a distributed, competitive model for building and verifying AI safety."
+  }
+]

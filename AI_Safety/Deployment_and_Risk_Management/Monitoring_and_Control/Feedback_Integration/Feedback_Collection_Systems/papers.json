@@ -1,0 +1,64 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2210.12088.pdf",
+    "title": "Online Feedback Equilibrium Seeking",
+    "published_date": "2022-10-21",
+    "abstract": "This article proposes a unifying design framework for dynamic feedback controllers that track solution trajectories of time-varying generalized equations, such as local minimizers of nonlinear programs or competitive equilibria (e.g., Nash) of noncooperative games. Inspired by the feedback optimization paradigm, the core idea of the proposed approach is to repurpose classic iterative algorithms for solving generalized equations (e.g., Josephy–Newton, forward–backward splitting) as dynamic feedback controllers by integrating online measurements of the continuous-time nonlinear plant. Sufficient conditions for closed-loop stability and robustness of the algorithm-plant cyber-physical interconnection are derived in a sampled-data setting by combining and tailoring results from (monotone) operator, fixed-point, and nonlinear systems theory. Numerical simulations on smart building automation and competitive supply chain management are presented to support the theoretical findings.",
+    "citation_count": 16,
+    "summary": "This paper presents a framework for designing dynamic feedback controllers that track solutions of time-varying generalized equations by adapting iterative algorithms (like Josephy-Newton) into online feedback controllers. Stability and robustness are analyzed in a sampled-data setting, and the approach is demonstrated through simulations in smart building and supply chain management."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.02939v1.pdf",
+    "title": "Prescribed-Time Control for Linear Systems in Canonical Form via Nonlinear Feedback",
+    "published_date": "2022-01-09",
+    "abstract": "For systems in canonical form with nonvanishing uncertainties/disturbances, this work presents an approach to full-state regulation within prescribed time irrespective of initial conditions. By introducing the smooth hyperbolic-tangent-like function, a nonlinear and time-varying state-feedback control scheme is constructed, which is further extended to address output-feedback-based prescribed-time regulation by invoking the prescribed-time observer, all are applicable over the entire operational time zone. As an alternative to full-state regulation within the user-assignable time interval, the proposed method analytically bridges the divide between linear and nonlinear feedback-based prescribed-time control and is able to achieve asymptotic stability, exponential stability, and prescribed-time stability with a unified control structure.",
+    "citation_count": 20,
+    "summary": "This paper proposes a nonlinear, time-varying state-feedback control scheme for linear systems in canonical form that achieves prescribed-time regulation, regardless of initial conditions and the presence of uncertainties. The approach is extended to output feedback and unifies asymptotic, exponential, and prescribed-time stability under a single control structure."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kyvCNgx9oAwJCuevo/deep-q-networks-explained",
+    "author": "Jay Bailey",
+    "title": "Deep Q-Networks Explained",
+    "published_date": "2022-09-13",
+    "summary": "This article explains Deep Q-Networks (DQN), a deep reinforcement learning algorithm, at various levels of detail. It provides a high-level overview suitable for those familiar with reinforcement learning, and then delves into the mathematical and technical aspects for those seeking a deeper understanding and implementation guidance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rCP5iTYLtfcoC8NXd/self-organised-neural-networks-a-simple-natural-and",
+    "author": "D𝜋",
+    "title": "Self-Organised Neural Networks:\nA simple, natural and efficient way to intelligence",
+    "published_date": "2022-01-01",
+    "summary": "The article presents a novel spiking neural network architecture achieving state-of-the-art accuracy (98.9%) on the PI-MNIST dataset using a simple, biologically-inspired learning rule based on Hebbian learning and connection decay, requiring only additions and surpassing existing methods despite its simplicity. The network operates online, uses one layer without bias or backpropagation, and exhibits high accuracy even with a drastically reduced number of connections."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.06343.pdf",
+    "title": "Feedback-Based Optimization With Sub-Weibull Gradient Errors and Intermittent Updates",
+    "published_date": "2021-09-13",
+    "abstract": "This letter considers a feedback-based projected gradient method for optimizing systems modeled as algebraic maps. The focus is on a setup where the gradient is corrupted by random errors that follow a sub-Weibull distribution, and where the measurements of the output – which replace the input-output map of the system in the algorithmic updates – may not be available at each iteration. The sub-Weibull error model is particularly well-suited in frameworks where the cost of the problem is learned via Gaussian Process (GP) regression (from functional evaluations) concurrently with the execution of the algorithm; however, it also naturally models setups where nonparametric methods and neural networks are utilized to estimate the cost. Using the sub-Weibull model, and with Bernoulli random variables modeling missing measurements of the system output, we show that the online algorithm generates points that are within a bounded error from the optimal solutions. In particular, we provide error bounds in expectation and in high probability. Numerical results are presented in the context of a demand response problem in smart power grids.",
+    "citation_count": 3,
+    "summary": "This paper analyzes a feedback-based projected gradient method for optimizing algebraic maps with sub-Weibull gradient errors and intermittent updates, proving bounded error from optimal solutions under these conditions and demonstrating its application in a smart grid demand response problem."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.13988v4.pdf",
+    "title": "Sampled-Data Online Feedback Equilibrium Seeking: Stability and Tracking",
+    "published_date": "2021-03-25",
+    "abstract": "This paper proposes a general framework for constructing feedback controllers that drive complex dynamical systems to \"efficient\" steady-state (or slowly varying) operating points. Efficiency is encoded using generalized equations which can model a broad spectrum of useful objectives, such as optimality or equilibria (e.g. Nash, Wardrop, etc.) in noncooperative games. The core idea of the proposed approach is to directly implement iterative solution (or equilibrium seeking) algorithms in closed loop with physical systems. Sufficient conditions for closed-loop stability and robustness are derived; these also serve as the first closed-loop stability results for sampled-data feedback-based optimization. Numerical simulations of smart building automation and game-theoretic robotic swarm coordination support the theoretical results.",
+    "citation_count": 23,
+    "summary": "This paper presents a sampled-data feedback control framework for driving dynamical systems to efficient steady states, using iterative algorithms embedded in closed-loop control to achieve objectives like optimality or game-theoretic equilibria. The framework's stability and robustness are analyzed, providing novel closed-loop stability results for sampled-data optimization."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.08596v1.pdf",
+    "title": "Reinforcement Learning with Feedback from Multiple Humans with Diverse Skills",
+    "published_date": "2021-11-16",
+    "abstract": "A promising approach to improve the robustness and exploration in Reinforcement Learning is collecting human feedback and that way incorporating prior knowledge of the target environment. It is, however, often too expensive to obtain enough feedback of good quality. To mitigate the issue, we aim to rely on a group of multiple experts (and non-experts) with different skill levels to generate enough feedback. Such feedback can therefore be inconsistent and infrequent. In this paper, we build upon prior work -- Advise, a Bayesian approach attempting to maximise the information gained from human feedback -- extending the algorithm to accept feedback from this larger group of humans, the trainers, while also estimating each trainer's reliability. We show how aggregating feedback from multiple trainers improves the total feedback's accuracy and make the collection process easier in two ways. Firstly, this approach addresses the case of some of the trainers being adversarial. Secondly, having access to the information about each trainer reliability provides a second layer of robustness and offers valuable information for people managing the whole system to improve the overall trust in the system. It offers an actionable tool for improving the feedback collection process or modifying the reward function design if needed. We empirically show that our approach can accurately learn the reliability of each trainer correctly and use it to maximise the information gained from the multiple trainers' feedback, even if some of the sources are adversarial.",
+    "citation_count": 5,
+    "summary": "This paper extends the Advise algorithm to incorporate inconsistent and infrequent feedback from multiple human trainers with varying skill levels and potential adversarial behavior, improving reinforcement learning robustness by accurately estimating trainer reliability and aggregating their feedback. The approach enhances data efficiency and provides insights for improving the feedback collection process and reward function design."
+  },
+  {
+    "title": "Proactive feedback for networked CPS",
+    "abstract": "While wired networks provide a reliable platform for networked cyber-physical systems (CPS), there is an increasing demand for CPS built upon wireless networks. However, wireless connectivity also implies varying and unpredictable end-to-end delays due to packet loss, interference by concurrently transmitting nodes or the necessity to forward packets via one or many intermediate nodes. This is typically accounted for by designing controllers for the worst-case end-to-end delay. This guarantees stability also when the largest possible delay occurs. However, the delays observed during normal operation are significantly below the worst-case. As a result of the overly pessimistic controller design, the control performance becomes unnecessarily low. In this work, for the first time, we present a generic technique to handle varying end-to-end delays in wireless CPS. While maintaining a stable operation, our technique preserves a high control performance. In essence, we propose a proactive feedback strategy that computes future control inputs for different possible delays a priori and sends them to the actuator in a single packet. When new control inputs are delayed, pre-computed ones accounting for higher delays are applied at appropriate actuation instants. In this way, a controller responds fast when control input arrives with low latencies, while adaptively acting more conservatively when packets are delayed. Our proposed strategy is independent of the controller design technique and the communication protocol used. We also present a real-world implementation of our proposed technique on a physical testbed. Experiments suggest that the proposed strategy improves the control performance of the system by up to 63 % compared to existing control schemes.",
+    "published_date": "2021-03-22",
+    "citation_count": 1,
+    "url": "https://dl.acm.org/doi/10.1145/3412841.3441897",
+    "summary": "This paper introduces a proactive feedback strategy for networked cyber-physical systems (CPS) using wireless networks, pre-computing control inputs for various potential delays to maintain stability and significantly improve control performance (up to 63%) compared to worst-case delay-based approaches. The technique is independent of the controller design and communication protocol."
+  }
+]

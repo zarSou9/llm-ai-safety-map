@@ -1,0 +1,65 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.06112",
+    "title": "Optimal In-Kind Redistribution",
+    "published_date": "2024-09-09",
+    "abstract": "This paper develops a model of in-kind redistribution where consumers participate in either a private market or a government-designed program, but not both. We characterize when a social planner, seeking to maximize weighted total surplus, can strictly improve upon the laissez-faire outcome. We show that the optimal mechanism consists of three components: a public option, nonlinear subsidies, and laissez-faire consumption. We quantify the resulting distortions and relate them to the correlation between consumer demand and welfare weights. Our findings reveal that while private market access constrains the social planner's ability to redistribute, it also strengthens the rationale for non-market allocations.",
+    "summary": "This paper models in-kind redistribution where consumers choose between a private market and a government program, characterizing when government intervention improves upon the market outcome. The optimal mechanism combines a public program, nonlinear subsidies, and unconstrained private market access, with resulting distortions linked to the correlation between consumer demand and welfare weights."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.07472.pdf",
+    "title": "Mechanism Design without Rational Expectations",
+    "published_date": "2023-05-12",
+    "abstract": "Is incentive compatibility still necessary for implementation if we relax the rational expectations assumption? This paper proposes a generalized model of implementation that does not assume agents hold rational expectations and characterizes the class of solution concepts requiring Bayesian Incentive Compatibility (BIC) for full implementation. Surprisingly, for a broad class of solution concepts, full implementation of functions still requires BIC even if rational expectations do not hold. This finding implies that some classical results, such as the impossibility of efficient bilateral trade (Myerson&Satterthwaite, 1983), hold for a broader range of non-equilibrium solution concepts, confirming their relevance even in boundedly rational setups.",
+    "citation_count": 1,
+    "summary": "This paper investigates whether Bayesian Incentive Compatibility (BIC) remains necessary for mechanism implementation when relaxing the rational expectations assumption. It finds that, surprisingly, BIC is still required for full implementation under a broad class of solution concepts, even with bounded rationality."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.11441.pdf",
+    "title": "Human-centered mechanism design with Democratic AI",
+    "published_date": "2022-01-27",
+    "abstract": "Building artificial intelligence (AI) that aligns with human values is an unsolved problem. Here, we developed a human-in-the-loop research pipeline called Democratic AI, in which reinforcement learning is used to design a social mechanism that humans prefer by majority. A large group of humans played an online investment game that involved deciding whether to keep a monetary endowment or to share it with others for collective benefit. Shared revenue was returned to players under two different redistribution mechanisms, one designed by the AI and the other by humans. The AI discovered a mechanism that redressed initial wealth imbalance, sanctioned free riders, and successfully won the majority vote. By optimizing for human preferences, Democratic AI may be a promising method for value-aligned policy innovation.",
+    "citation_count": 2,
+    "summary": "Democratic AI, a human-in-the-loop reinforcement learning system, designed a social mechanism preferred by a majority of human participants in an online investment game, demonstrating its potential for creating value-aligned AI policies. This mechanism successfully addressed wealth inequality and punished free-riders within the game."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2110.06876v1.pdf",
+    "title": "Appointments: A More Effective Commitment Device for Health Behaviors",
+    "published_date": "2021-10-09",
+    "abstract": "Health behaviors are plagued by self-control problems, and commitment devices are frequently proposed as a solution. We show that a simple alternative works even better: appointments. We randomly offer HIV testing appointments and financial commitment devices to high-risk men in Malawi. Appointments are much more effective than financial commitment devices, more than doubling testing rates. In contrast, most men who take up financial commitment devices lose their investments. Appointments address procrastination without the potential drawback of commitment failure, and also address limited memory problems. Appointments have the potential to increase demand for healthcare in the developing world.",
+    "citation_count": 4,
+    "summary": "A randomized controlled trial in Malawi found that scheduled appointments significantly increased HIV testing rates among high-risk men, surpassing the effectiveness of financial commitment devices which often resulted in forfeited investments. Appointments proved a more effective commitment device by mitigating procrastination and memory limitations."
+  },
+  {
+    "url": "https://arxiv.org/abs/2102.01291v2",
+    "title": "Efficient Estimation for Staggered Rollout Designs",
+    "published_date": "2021-02-02",
+    "abstract": "We study estimation of causal effects in staggered-rollout designs—that is, settings where there is staggered treatment adoption and the timing of treatment is as good as randomly assigned. We derive the most efficient estimator in a class of estimators that nests several popular generalized difference-in-differences methods. A feasible plug-in version of the efficient estimator is asymptotically unbiased, with efficiency (weakly) dominating that of existing approaches. We provide both t-based and permutation-test-based methods for inference. In an application to a training program for police officers, confidence intervals for the proposed estimator are as much as eight times shorter than those for existing approaches.",
+    "citation_count": 42,
+    "summary": "This paper develops a new, more efficient estimator for causal effects in staggered rollout designs, where treatment adoption timing is effectively random, outperforming existing generalized difference-in-differences methods. The proposed estimator, with accompanying inference methods, yields significantly shorter confidence intervals in practice."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2107.00593.pdf",
+    "title": "Disaggregated Interventions to Reduce Inequality",
+    "published_date": "2021-07-01",
+    "abstract": "A significant body of research in the data sciences considers unfair discrimination against social categories such as race or gender that could occur or be amplified as a result of algorithmic decisions. Simultaneously, real-world disparities continue to exist, even before algorithmic decisions are made. In this work, we draw on insights from the social sciences brought into the realm of causal modeling and constrained optimization, and develop a novel algorithmic framework for tackling pre-existing real-world disparities. The purpose of our framework, which we call the “impact remediation framework,” is to measure real-world disparities and discover the optimal intervention policies that could help improve equity or access to opportunity for those who are underserved with respect to an outcome of interest. We develop a disaggregated approach to tackling pre-existing disparities that relaxes the typical set of assumptions required for the use of social categories in structural causal models. Our approach flexibly incorporates counterfactuals and is compatible with various ontological assumptions about the nature of social categories. We demonstrate impact remediation with a hypothetical case study and compare our disaggregated approach to an existing state-of-the-art approach, comparing its structure and resulting policy recommendations. In contrast to most work on optimal policy learning, we explore disparity reduction itself as an objective, explicitly focusing the power of algorithms on reducing inequality.",
+    "citation_count": 11,
+    "summary": "This paper introduces a novel algorithmic framework, the \"impact remediation framework,\" designed to identify optimal interventions for reducing pre-existing real-world inequalities by leveraging causal modeling and constrained optimization. This disaggregated approach relaxes typical assumptions associated with using social categories in causal models, allowing for flexible counterfactual incorporation and diverse ontological perspectives."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2105.12298.pdf",
+    "title": "Direct implementation with evidence",
+    "published_date": "2021-05-26",
+    "abstract": "We study full implementation with evidence in an environment with bounded utilities. We show that a social choice function is Nash implementable in a direct revelation mechanism if and only if it satisfies the measurability condition proposed by Ben‐Porath and Lipman (2012). Building on a novel classification of lies according to their refutability with evidence, the mechanism requires only two agents, accounts for mixed‐strategy equilibria, and accommodates evidentiary costs. While monetary transfers are used, they are off the equilibrium and can be balanced with three or more agents. In a richer model of evidence due to Kartik and Tercieux (2012a), we establish pure‐strategy implementation with two or more agents in a direct revelation mechanism. We also obtain a necessary and sufficient condition on the evidence structure for renegotiation‐proof bilateral contracts, based on the classification of lies.",
+    "citation_count": 2,
+    "summary": "This paper establishes necessary and sufficient conditions for Nash implementing social choice functions in direct revelation mechanisms, using evidence and bounded utilities, showing that the measurability condition of Ben-Porath and Lipman (2012) is key and extending the analysis to consider mixed strategies, evidentiary costs, and renegotiation-proof contracts."
+  },
+  {
+    "url": "http://arxiv.org/pdf/2006.01386",
+    "title": "One Step at a Time: Does Gradualism Build Coordination?",
+    "published_date": "2020-01-01",
+    "abstract": "We study how gradualism -- increasing required levels (“thresholds”) of contributions slowly over time rather than requiring a high level of contribution immediately -- affects individuals' decisions to contribute to a public project. Using a laboratory binary choice minimum-effort coordination game, we randomly assign participants to three treatments: starting and continuing at a high threshold, starting at a low threshold but jumping to a high threshold after a few periods, and starting at a low threshold and gradually increasing the threshold over time (the “gradualism” treatment). We find that individuals coordinate most successfully at the high threshold in the gradualism treatment relative to the other two groups. We propose a theory based on belief updating to explain why gradualism works. We also discuss alternative explanations such as reinforcement learning, conditional cooperation, inertia, preference for consistency, and limited attention. Our findings point to a simple, voluntary mechanism to promote successful coordination when the capacity to impose sanctions is limited.",
+    "citation_count": 15,
+    "summary": "A laboratory experiment demonstrates that gradually increasing contribution requirements in a coordination game leads to higher success rates compared to immediately imposing high requirements or starting low and then abruptly increasing them. This suggests that gradualism fosters successful coordination by influencing belief updating and potentially other psychological factors."
+  }
+]

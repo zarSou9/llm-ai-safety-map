@@ -1,0 +1,41 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.13138",
+    "title": "Visibility into AI Agents",
+    "published_date": "2024-01-23",
+    "abstract": "Increased delegation of commercial, scientific, governmental, and personal activities to AI agents—systems capable of pursuing complex goals with limited supervision—may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.",
+    "citation_count": 12
+  },
+  {
+    "url": "https://arxiv.org/pdf/2306.13686.pdf",
+    "title": "Broadening the perspective for sustainable AI: Comprehensive sustainability criteria and indicators for AI systems",
+    "published_date": "2023-06-22",
+    "abstract": "The increased use of AI systems is associated with multi-faceted societal, environmental, and economic consequences. These include non-transparent decision-making processes, discrimination, increasing inequalities, rising energy consumption and greenhouse gas emissions in AI model development and application, and an increasing concentration of economic power. By considering the multi-dimensionality of sustainability, this paper takes steps towards substantiating the call for an overarching perspective on\"sustainable AI\". It presents the SCAIS Framework (Sustainability Criteria and Indicators for Artificial Intelligence Systems) which contains a set 19 sustainability criteria for sustainable AI and 67 indicators that is based on the results of a critical review and expert workshops. This interdisciplinary approach contributes a unique holistic perspective to facilitate and structure the discourse on sustainable AI. Further, it provides a concrete framework that lays the foundation for developing standards and tools to support the conscious development and application of AI systems.",
+    "citation_count": 1
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.14359",
+    "title": "Training Neural Networks with Internal State, Unconstrained Connectivity, and Discrete Activations",
+    "published_date": "2023-12-22",
+    "abstract": "Today's most powerful machine learning approaches are typically designed to train stateless architectures with predefined layers and differentiable activation functions. While these approaches have led to unprecedented successes in areas such as natural language processing and image recognition, the trained models are also susceptible to making mistakes that a human would not. In this paper, we take the view that true intelligence may require the ability of a machine learning model to manage internal state, but that we have not yet discovered the most effective algorithms for training such models. We further postulate that such algorithms might not necessarily be based on gradient descent over a deep architecture, but rather, might work best with an architecture that has discrete activations and few initial topological constraints (such as multiple predefined layers). We present one attempt in our ongoing efforts to design such a training algorithm, applied to an architecture with binary activations and only a single matrix of weights, and show that it is able to form useful representations of natural language text, but is also limited in its ability to leverage large quantities of training data. We then provide ideas for improving the algorithm and for designing other training algorithms for similar architectures. Finally, we discuss potential benefits that could be gained if an effective training algorithm is found, and suggest experiments for evaluating whether these benefits exist in practice."
+  },
+  {
+    "title": "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
+    "abstract": "Whether current or near-term AI systems could be conscious is a topic of scientific interest and increasing public concern. This report argues for, and exemplifies, a rigorous and empirically grounded approach to AI consciousness: assessing existing AI systems in detail, in light of our best-supported neuroscientific theories of consciousness. We survey several prominent scientific theories of consciousness, including recurrent processing theory, global workspace theory, higher-order theories, predictive processing, and attention schema theory. From these theories we derive\"indicator properties\"of consciousness, elucidated in computational terms that allow us to assess AI systems for these properties. We use these indicator properties to assess several recent AI systems, and we discuss how future systems might implement them. Our analysis suggests that no current AI systems are conscious, but also suggests that there are no obvious technical barriers to building AI systems which satisfy these indicators.",
+    "published_date": "2023-08-17",
+    "citation_count": 77,
+    "url": "https://www.researchgate.net/publication/373246089_Consciousness_in_Artificial_Intelligence_Insights_from_the_Science_of_Consciousness"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02"
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi?_ga=2.94622108.1499606200.1645194489-71379542.1628068400",
+    "author": "Jaime Sevilla; Pablo Villalobos; Lennart Heim; Marius Hobbhahn; Tamay Besiroglu; Anson Ho",
+    "title": "Trends in Machine Learning - AI Alignment Forum",
+    "published_date": "2023-02-06"
+  }
+]

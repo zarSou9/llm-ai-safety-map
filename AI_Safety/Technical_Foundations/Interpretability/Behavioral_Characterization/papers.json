@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2012.01244",
+    "title": "General Characterization of Agents by States they Visit",
+    "published_date": "2020-12-02",
+    "abstract": "Behavioural characterizations (BCs) of decision-making agents, or their policies, are used to study outcomes of training algorithms and as part of the algorithms themselves to encourage unique policies, match expert policy or restrict changes to policy per update. However, previously presented solutions are not applicable in general, either due to lack of expressive power, computational constraint or constraints on the policy or environment. Furthermore, many BCs rely on the actions of policies. We discuss and demonstrate how these BCs can be misleading, especially in stochastic environments, and propose a novel solution based on what states policies visit. We run experiments to evaluate the quality of the proposed BC against baselines and evaluate their use in studying training algorithms, novelty search and trust-region policy optimization. The code is available at https://github.com/miffyli/policy-supervectors.",
+    "citation_count": 2,
+    "summary": "This paper introduces a novel behavioral characterization of agents based on the states they visit, overcoming limitations of action-based methods, particularly in stochastic environments. Its effectiveness is demonstrated through experiments on training algorithms, novelty search, and trust-region policy optimization."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2309.03886.pdf",
+    "title": "FIND: A Function Description Benchmark for Evaluating Interpretability Methods",
+    "published_date": "2023-09-07",
+    "abstract": "Labeling neural network submodules with human-legible descriptions is useful for many downstream tasks: such descriptions can surface failures, guide interventions, and perhaps even explain important model behaviors. To date, most mechanistic descriptions of trained networks have involved small models, narrowly delimited phenomena, and large amounts of human labor. Labeling all human-interpretable sub-computations in models of increasing size and complexity will almost certainly require tools that can generate and validate descriptions automatically. Recently, techniques that use learned models in-the-loop for labeling have begun to gain traction, but methods for evaluating their efficacy are limited and ad-hoc. How should we validate and compare open-ended labeling tools? This paper introduces FIND (Function INterpretation and Description), a benchmark suite for evaluating the building blocks of automated interpretability methods. FIND contains functions that resemble components of trained neural networks, and accompanying descriptions of the kind we seek to generate. The functions span textual and numeric domains, and involve a range of real-world complexities. We evaluate methods that use pretrained language models (LMs) to produce descriptions of function behavior in natural language and code. Additionally, we introduce a new interactive method in which an Automated Interpretability Agent (AIA) generates function descriptions. We find that an AIA, built from an LM with black-box access to functions, can infer function structure, acting as a scientist by forming hypotheses, proposing experiments, and updating descriptions in light of new data. However, AIA descriptions tend to capture global function behavior and miss local details. These results suggest that FIND will be useful for evaluating more sophisticated interpretability methods before they are applied to real-world models.",
+    "citation_count": 15,
+    "summary": "FIND is a new benchmark suite for evaluating automated methods that generate human-interpretable descriptions of neural network submodules, featuring diverse functions and descriptions to assess the accuracy and completeness of such methods. The paper introduces FIND and demonstrates its use in evaluating a novel \"Automated Interpretability Agent\" which, while effective at capturing global function behavior, struggles with local details."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/iaJFJ5Qm29ixtrWsn/sparse-coding-for-mechanistic-interpretability-and",
+    "author": "David Udell",
+    "title": "Sparse Coding, for Mechanistic Interpretability and Activation Engineering",
+    "published_date": "2023-09-23",
+    "summary": "To interpret the internal representations of large language models, the author trains a sparse autoencoder on a layer's activations. The resulting autoencoder's neurons then provide interpretable representations of the model's internal concepts."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/pmz3HpJrHcWhkLqS5/three-ways-interpretability-could-be-impactful",
+    "author": "Arthur Conmy",
+    "title": "Three ways interpretability could be impactful",
+    "published_date": "2023-09-18",
+    "summary": "The author argues that interpretability in AI models can significantly improve alignment efforts in three ways: by detecting alignment failures in test sets, improving our understanding of alignment techniques through validation set analysis, and potentially influencing model training to promote interpretability. The author believes that interpretability offers unique advantages over behavioral evaluations in uncovering deception and building a stronger foundation for AI safety."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/uhMRgEXabYbWeLc6T/why-and-when-interpretability-work-is-dangerous",
+    "author": "NicholasKross",
+    "title": "Why and When Interpretability Work is Dangerous",
+    "published_date": "2023-05-28",
+    "summary": "The essay examines the potential dangers of AI interpretability research, arguing that it becomes risky when it enhances AI capabilities without improving alignment with human goals. The author proposes criteria to assess the safety of interpretability projects, focusing on whether they increase human control over AI systems or simply provide a clearer picture of their internal workings without enabling safer manipulation."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/a6ne2ve5uturEEQK7/p/L5Rua9aTndviy8dvc",
+    "author": "Beth Barnes",
+    "title": "Beth Barnes's Shortform",
+    "published_date": "2023-02-22",
+    "summary": "This article argues that AI safety research should prioritize building a toolbox of diverse interpretability tools, focusing on automatable, cost-effective methods with demonstrated engineering relevance, rather than seeking a single solution. It emphasizes avoiding capabilities-advancing research that might inadvertently accelerate timelines and suggests several promising existing research avenues in interpretability."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/interpretability-ml-and-ai",
+    "author": "Lee Sharkey, Dan Braun, Beren Millidge",
+    "title": "Interpretability (ML & AI) - AI Alignment Forum",
+    "published_date": "2023-04-30",
+    "summary": "Machine learning models often lack interpretability, hindering understanding of their decision-making processes and the identification of biases. Mechanistic interpretability, a key subfield, focuses on understanding *how* neural networks function, unlike methods that focus on attributing outputs to specific inputs."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/AaABQpuoNC8gpHf2n/a-barebones-guide-to-mechanistic-interpretability",
+    "author": "Neel Nanda",
+    "title": "A Barebones Guide to Mechanistic Interpretability Prerequisites",
+    "published_date": "2022-10-24",
+    "summary": "This guide outlines the essential math, coding, and machine learning skills needed to begin research in mechanistic interpretability, emphasizing a practical, less intimidating approach than often perceived, and focusing on key concepts like linear algebra, probability, calculus, Python and PyTorch programming, and a deep understanding of transformer architectures."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/EbL5W5ccwfbqFiYBJ/auditing-games-for-high-level-interpretability-1",
+    "author": "Paul Colognese",
+    "title": "Auditing games for high-level interpretability",
+    "published_date": "2022-11-01",
+    "summary": "This paper proposes extending the auditing games framework to evaluate high-level interpretability methods for AI models. The framework uses adversarial testing (red team versus blue team) to benchmark methods aimed at understanding a model's internal workings, such as whether it's performing optimization and what it's optimizing for, crucial for ensuring safe and aligned AI."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.05506.pdf",
+    "title": "Brittle AI, Causal Confusion, and Bad Mental Models: Challenges and Successes in the XAI Program",
+    "published_date": "2021-06-10",
+    "abstract": "The advances in artificial intelligence enabled by deep learning architectures are undeniable. In several cases, deep neural network driven models have surpassed human level performance in benchmark autonomy tasks. The underlying policies for these agents, however, are not easily interpretable. In fact, given their underlying deep models, it is impossible to directly understand the mapping from observations to actions for any reasonably complex agent. Producing this supporting technology to\"open the black box\"of these AI systems, while not sacrificing performance, was the fundamental goal of the DARPA XAI program. In our journey through this program, we have several\"big picture\"takeaways: 1) Explanations need to be highly tailored to their scenario; 2) many seemingly high performing RL agents are extremely brittle and are not amendable to explanation; 3) causal models allow for rich explanations, but how to present them isn't always straightforward; and 4) human subjects conjure fantastically wrong mental models for AIs, and these models are often hard to break. This paper discusses the origins of these takeaways, provides amplifying information, and suggestions for future work.",
+    "citation_count": 12,
+    "summary": "The DARPA XAI program aimed to improve the interpretability of high-performing but opaque AI systems, revealing challenges such as the brittleness of many AI agents, difficulties in presenting causal explanations effectively, and the prevalence of inaccurate human mental models of AI behavior. The program highlighted the need for context-specific explanations and further research into these issues."
+  }
+]

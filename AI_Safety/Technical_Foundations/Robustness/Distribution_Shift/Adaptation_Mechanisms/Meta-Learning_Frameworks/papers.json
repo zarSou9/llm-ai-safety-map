@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/nssnvAsPQif8BgZEd/human-like-systematic-generalization-through-a-meta-learning",
+    "author": "Burny",
+    "title": "Human-like systematic generalization through a meta-learning neural network",
+    "published_date": "2023-11-19"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/TEDT4SJDfBwXezfgC/paradigms-and-theory-choice-in-ai-adaptivity-economy-and",
+    "author": "particlemania",
+    "title": "Paradigms and Theory Choice in AI: Adaptivity, Economy and Control",
+    "published_date": "2023-08-28"
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/machine-learning-ml",
+    "author": "Lawrence Chan",
+    "title": "Machine Learning  (ML) - AI Alignment Forum",
+    "published_date": "2022-10-05"
+  },
+  {
+    "title": "Learning to Balance Local Losses via Meta-Learning",
+    "abstract": "The standard training for deep neural networks relies on a global and fixed loss function. For more effective training, dynamic loss functions have been recently proposed. However, the dynamic global loss function is not flexible to differentially train layers in complex deep neural networks. In this paper, we propose a general framework that learns to adaptively train each layer of deep neural networks via meta-learning. Our framework leverages the local error signals from layers and identifies which layer needs to be trained more at every iteration. Also, the proposed method improves the local loss function with our minibatch-wise dropout and cross-validation loop to alleviate meta-overfitting. The experiments show that our method achieved competitive performance compared to state-of-the-art methods on popular benchmark datasets for image classification: CIFAR-10 and CIFAR-100. Surprisingly, our method enables training deep neural networks without skip-connections using dynamically weighted local loss functions.",
+    "published_date": "2021-01-01",
+    "citation_count": 1,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09541196.pdf"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/jh6dkqN2wd7fCRfB5/meta-learning-to-gradient-hack",
+    "author": "Quintin Pope",
+    "title": "Meta learning to gradient hack",
+    "published_date": "2021-10-01"
+  },
+  {
+    "url": "https://www.lesswrong.com/s/tDBYJd4p6EorGLEFA/p/rTYGMbmEsFkxyyXuR",
+    "author": "L Rudolf L",
+    "title": "Understanding and controlling auto-induced distributional shift",
+    "published_date": "2021-12-13"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/XSqntCNMafhcy9irf/third-party-testing-as-a-key-ingredient-of-ai-policy",
+    "author": "Zac Hatfield-Dodds",
+    "title": "Third-party testing as a key ingredient of AI policy",
+    "published_date": "2024-03-25",
+    "summary": "The article advocates for third-party testing of large-scale AI systems to mitigate societal harm from misuse or accidents. This independent testing regime, focusing on computationally intensive models, is proposed as a crucial step in responsible AI development and deployment, complementing sector-specific regulations and fostering international collaboration."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), focusing on short timelines (within a decade). The program aims to evaluate strategies for AI safety and governance across these scenarios to mitigate existential risks."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCz7viTXMhjxdkFRs/paper-identifying-the-risks-of-lm-agents-with-an-lm-emulated",
+    "author": "Singularian2501",
+    "title": "Paper: Identifying the Risks of LM Agents with an LM-Emulated Sandbox - University of Toronto 2023 - Benchmark consisting of 36 high-stakes tools and 144 test cases!",
+    "published_date": "2023-10-09",
+    "summary": "ToolEmu is a framework using language models to emulate tool execution and automatically assess the safety of language model agents interacting with tools, significantly reducing the cost and effort of identifying high-stakes risks; evaluation shows ToolEmu effectively identifies potential real-world failures, revealing substantial safety vulnerabilities even in leading agents."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/WKGZBCYAbZ6WGsKHc/love-in-a-simbox-is-all-you-need",
+    "author": "jacob_cannell",
+    "title": "LOVE in a simbox is all you need",
+    "published_date": "2022-09-28",
+    "summary": "The article proposes developing safe, self-aligning artificial general intelligence (AGI) by iteratively testing and refining altruistic agent designs within simulated environments. This approach, inspired by the brain's dynamic alignment mechanisms, leverages simulation sandboxes to safely explore and evaluate AGI behavior before deployment in the real world."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/7gkXuHEm6CqEGT2mg/ai-safety-seems-hard-to-measure",
+    "author": "HoldenKarnofsky",
+    "title": "AI Safety Seems Hard to Measure",
+    "published_date": "2022-12-08",
+    "summary": "The article argues that ensuring the safety of advanced AI is exceptionally difficult due to the inherent challenges in testing for deceptive behavior and extrapolating from current, less capable AI systems to future, potentially superintelligent ones. Four key problems—the difficulty of detecting hidden dangers, the unpredictability of AI behavior with increased power, the limitations of current AI models for safety research, and the impossibility of predicting the consequences of vastly superior AI—make evaluating AI safety a uniquely complex scientific endeavor."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes AI safety-relevant content, reflecting the importance of careful reading and summarization as advocated by Rohin Shah."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/Tp3ryR4AxY56ctGh2/p/sdxZdGFtAwHGFGKhg",
+    "author": "abergal, Nick_Beckstead, Owain_Evans",
+    "title": "Truthful and honest AI",
+    "published_date": "2021-10-29",
+    "summary": "This research proposes creating \"truthful\" AI systems that avoid falsehoods and \"honest\" AI systems that accurately report their beliefs, defining these concepts and developing methods to measure and improve them. The goal is to mitigate risks from advanced AI by using the AI's self-assessment of its actions to improve training and alignment."
+  },
+  {
+    "title": "Automating TEST Case Design, Selection and Evaluation Report on 10 Editions of A-TESTWorkshop",
+    "abstract": "Trends such as globalisation, standardisation and shorter life-cycles place great demands on the flexibility of the software industry. In order to compete and cooperate on an international scale, a constantly decreasing time to market and an increasing level of quality are essential. Testing is at the moment the most important and mostly used quality assurance technique applied in industry. However, the complexity of software and hence of their development amount is increasing. Modern systems get larger and more complex, as they connect large amounts of components that interact in many different ways and have constantly changing and different types of requirements (functionality, dependability, usability, performance etc.). Data processing that impacts all aspects of our life is increasingly distributed over clouds and devices. This leads to new concerns, such as availability, security, and privacy, which are aspects that also needs to be tested. Consequently, the development of cost-effective and high-quality systems opens new challenges that cannot be faced only with traditional testing approaches, and specifically manual testing is simply insufficient and unreliable to manage the speed needed, and ensure the coverage of ever-changing systems. New techniques for systematization and automation of testing throughout the software and system life-cycle are required.",
+    "published_date": "2020-01-22",
+    "url": "https://dl.acm.org/doi/10.1145/3375572.3375578",
+    "summary": "This paper examines the challenges of testing increasingly complex software systems and advocates for automating test case design, selection, and evaluation to meet demands for faster time-to-market and higher quality. The authors report on ten editions of their A-TESTWorkshop tool to support this automation."
+  }
+]

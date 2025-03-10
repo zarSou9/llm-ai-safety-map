@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.16425",
+    "title": "Lessons for Editors of AI Incidents from the AI Incident Database",
+    "published_date": "2024-09-24",
+    "abstract": "As artificial intelligence (AI) systems become increasingly deployed across the world, they are also increasingly implicated in AI incidents - harm events to individuals and society. As a result, industry, civil society, and governments worldwide are developing best practices and regulations for monitoring and analyzing AI incidents. The AI Incident Database (AIID) is a project that catalogs AI incidents and supports further research by providing a platform to classify incidents for different operational and research-oriented goals. This study reviews the AIID's dataset of 750+ AI incidents and two independent taxonomies applied to these incidents to identify common challenges to indexing and analyzing AI incidents. We find that certain patterns of AI incidents present structural ambiguities that challenge incident databasing and explore how epistemic uncertainty in AI incident reporting is unavoidable. We therefore report mitigations to make incident processes more robust to uncertainty related to cause, extent of harm, severity, or technical details of implicated systems. With these findings, we discuss how to develop future AI incident reporting practices.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/4Gt42jX7RiaNaxCwP/more-information-about-the-dangerous-capability-evaluations",
+    "author": "Beth Barnes",
+    "title": "More information about the dangerous capability evaluations we did with GPT-4 and Claude.",
+    "published_date": "2023-03-19"
+  },
+  {
+    "url": "https://arxiv.org/abs/2208.11282",
+    "title": "Multi-AI Complex Systems in Humanitarian Response",
+    "published_date": "2022-08-24",
+    "abstract": "AI is being increasingly used to aid response efforts to humanitarian emergencies at multiple levels of decision-making. Such AI systems are generally understood to be stand-alone tools for decision support, with ethical assessments, guidelines and frameworks applied to them through this lens. However, as the prevalence of AI increases in this domain, such systems will begin to encounter each other through information flow networks created by interacting decision-making entities, leading to multi-AI complex systems which are often ill understood. In this paper we describe how these multi-AI systems can arise, even in relatively simple real-world humanitarian response scenarios, and lead to potentially emergent and erratic erroneous behavior. We discuss how we can better work towards more trustworthy multi-AI systems by exploring some of the associated challenges and opportunities, and how we can design better mechanisms to understand and assess such systems. This paper is designed to be a first exposition on this topic in the field of humanitarian response, raising awareness, exploring the possible landscape of this domain, and providing a starting point for future work within the wider community."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2211.07280.pdf",
+    "title": "A Taxonomic System for Failure Cause Analysis of Open Source AI Incidents",
+    "published_date": "2022-11-14",
+    "abstract": "While certain industrial sectors (e.g., aviation) have a long history of mandatory incident reporting complete with analytical findings, the practice of artificial intelligence (AI) safety benefits from no such mandate and thus analyses must be performed on publicly known ``open source'' AI incidents. Although the exact causes of AI incidents are seldom known by outsiders, this work demonstrates how to apply expert knowledge on the population of incidents in the AI Incident Database (AIID) to infer the potential and likely technical causative factors that contribute to reported failures and harms. We present early work on a taxonomic system that covers a cascade of interrelated incident factors, from system goals (nearly always known) to methods / technologies (knowable in many cases) and technical failure causes (subject to expert analysis) of the implicated systems. We pair this ontology structure with a comprehensive classification workflow that leverages expert knowledge and community feedback, resulting in taxonomic annotations grounded by incident data and human expertise.",
+    "citation_count": 8
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.11701v3.pdf",
+    "title": "Model Agnostic Interpretability for Multiple Instance Learning",
+    "published_date": "2022-01-27",
+    "abstract": "In Multiple Instance Learning (MIL), models are trained using bags of instances, where only a single label is provided for each bag. A bag label is often only determined by a handful of key instances within a bag, making it difficult to interpret what information a classifier is using to make decisions. In this work, we establish the key requirements for interpreting MIL models. We then go on to develop several model-agnostic approaches that meet these requirements. Our methods are compared against existing inherently interpretable MIL models on several datasets, and achieve an increase in interpretability accuracy of up to 30%. We also examine the ability of the methods to identify interactions between instances and scale to larger datasets, improving their applicability to real-world problems.",
+    "citation_count": 10
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/picPfLnygZC5aFjNr/hch-and-adversarial-questions",
+    "author": "David Udell",
+    "title": "HCH and Adversarial Questions",
+    "published_date": "2022-02-19"
+  }
+]

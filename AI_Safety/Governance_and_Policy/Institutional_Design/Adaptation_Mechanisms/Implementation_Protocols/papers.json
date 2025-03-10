@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2305.03559v1",
+    "title": "On the convergence of proximal gradient methods for convex simple bilevel optimization",
+    "published_date": "2023-05-05",
+    "abstract": "This paper studies proximal gradient iterations for solving simple bilevel optimization problems where both the upper and the lower level cost functions are split as the sum of differentiable and (possibly nonsmooth) proximable functions. We develop a novel convergence recipe for iteration varying stepsizes that relies on Barzilai-Borwein type local estimates for the differentiable terms. Leveraging the convergence recipe, under global Lipschitz gradient continuity, we establish convergence for a nonadaptive stepsize sequence, without requiring any strong convexity or linesearch. In the locally Lipschitz differentiable setting, we develop an adaptive linesearch method that introduces a systematic adaptive scheme enabling large and nonmonotonic stepsize sequences while being insensitive to the choice of hyperparameters and initialization. Numerical simulations are provided showcasing favorable convergence speed of our methods.",
+    "citation_count": 2,
+    "summary": "This paper presents a novel convergence analysis for proximal gradient methods solving convex simple bilevel optimization problems, using Barzilai-Borwein stepsize estimates and proving convergence without strong convexity or line search under Lipschitz gradient continuity. An adaptive linesearch method is also developed for locally Lipschitz differentiable settings, enabling large, non-monotonic stepsizes."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2211.17218.pdf",
+    "title": "Specification Architectural Viewpoint for Benefit-Cost-Risk-Aware Decision-Making in Self-Adaptive Systems",
+    "published_date": "2022-11-30",
+    "abstract": "Over the past two decades, researchers and engineers have extensively studied the problem of how to enable a software system to deal with uncertain operating conditions. One prominent solution to this problem is self-adaptation, which equips a software system with a feedback loop that resolves uncertainties during operation and adapts the system to deal with them when necessary. Most self-adaptation approaches developed so far use decision-making mechanisms that focus on achieving a set of goals, i.e., that select for execution the adaptation option with the best estimated benefit. A few approaches have also considered the estimated (one-off) cost of executing the candidate adaptation options. We argue that besides benefit and cost, decision-making in self-adaptive systems should also consider the estimated risk the system or its users would be exposed to if an adaptation option were selected for execution. Balancing all three factors when evaluating the options for adaptation when mitigating uncertainty is essential, not only for satisfying the concerns of the stakeholders, but also to ensure safety and public acceptance of self-adaptive systems. In this paper, we present an ISO/IEC/IEEE 42010 compatible architectural viewpoint that considers the estimated benefit, cost, and risk as core factors of each adaptation option considered in self-adaptation. The viewpoint aims to support software architects responsible for designing robust decision-making mechanisms for self-adaptive systems.",
+    "summary": "This paper proposes a new architectural viewpoint, compliant with ISO/IEC/IEEE 42010, for designing decision-making mechanisms in self-adaptive systems; this viewpoint integrates benefit, cost, and risk estimations to improve robustness and stakeholder acceptance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/rmwAuWXYTo24E5nnX/a-pin-and-a-balloon-anthropic-fragility-increases-chances-of",
+    "author": "avturchin",
+    "title": "A Pin and a Balloon: Anthropic Fragility Increases Chances of Runaway Global Warming",
+    "published_date": "2022-09-11",
+    "summary": "Due to survival bias, we underestimate the probability and proximity of climate tipping points, making Earth more vulnerable to human-caused catastrophic global warming than previously thought. This \"anthropic fragility\" suggests a higher likelihood of runaway climate change triggered by seemingly small actions, necessitating urgent geoengineering research."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.10847v1.pdf",
+    "title": "Towards Better Adaptive Systems by Combining MAPE, Control Theory, and Machine Learning",
+    "published_date": "2021-03-19",
+    "abstract": "Two established approaches to engineer adaptive systems are architecture-based adaptation that uses a Monitor-Analysis-Planning-Executing (MAPE) loop that reasons over architectural models (aka Knowledge) to make adaptation decisions, and control-based adaptation that relies on principles of control theory (CT) to realize adaptation. Recently, we also observe a rapidly growing interest in applying machine learning (ML) to support different adaptation mechanisms. While MAPE and CT have particular characteristics and strengths to be applied independently, in this paper, we are concerned with the question of how these approaches are related with one another and whether combining them and supporting them with ML can produce better adaptive systems. We motivate the combined use of different adaptation approaches using a scenario of a cloud-based enterprise system and illustrate the analysis when combining the different approaches. To conclude, we offer a set of open questions for further research in this interesting area.",
+    "citation_count": 20,
+    "summary": "This paper explores the synergy between Monitor-Analyze-Plan-Execute (MAPE) loops, control theory, and machine learning in building adaptive systems, arguing that combining these approaches can lead to superior performance. The authors motivate this combination through a cloud-based enterprise system scenario and identify open research questions."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2103.11481.pdf",
+    "title": "How do we Evaluate Self-adaptive Software Systems?: A Ten-Year Perspective of SEAMS",
+    "published_date": "2021-03-21",
+    "abstract": "With the increase of research in self-adaptive systems, there is a need to better understand the way research contributions are evaluated. Such insights will support researchers to better compare new findings when developing new knowledge for the community. However, so far there is no clear overview of how evaluations are performed in self-adaptive systems. To address this gap, we conduct a mapping study. The study focuses on experimental evaluations published in the last decade at the prime venue of research in software engineering for self-adaptive systems—the International Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS). Results point out that specifics of self-adaptive systems require special attention in the experimental process, including the distinction of the managing system (i.e., the target of evaluation) and the managed system, the presence of uncertainties that affect the system behavior and hence need to be taken into account in data analysis, and the potential of managed systems to be reused across experiments, beyond replications. To conclude, we offer a set of suggestions derived from our study that can be used as input to enhance future experiments in self-adaptive systems.",
+    "citation_count": 15,
+    "summary": "This paper analyzes a decade of experimental evaluations in self-adaptive systems published at SEAMS, identifying key challenges such as distinguishing between managing and managed systems, handling uncertainties, and reusing managed systems across experiments. The authors offer suggestions for improving future experimental designs in this field."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.08106v1.pdf",
+    "title": "Source-sink behavioural dynamics limit institutional evolution in a group-structured society",
+    "published_date": "2021-09-16",
+    "abstract": "Social change in any society entails changes in both behaviours and institutions. We model a group-structured society in which the transmission of individual behaviour occurs in parallel with the selection of group-level institutions. We consider a cooperative behaviour that generates collective benefits for groups but does not spread between individuals on its own. Groups exhibit institutions that increase the diffusion of the behaviour within the group, but also incur a group cost. Groups adopt institutions in proportion to their fitness. Finally, the behaviour may also spread globally. We find that behaviour and institutions can be mutually reinforcing. But the model also generates behavioural source-sink dynamics when behaviour generated in institutionalized groups spreads to non-institutionalized groups and boosts their fitness. Consequently, the global diffusion of group-beneficial behaviour creates a pattern of institutional free-riding that limits the evolution of group-beneficial institutions. Our model suggests that, in a group-structured society, large-scale beneficial social change can be best achieved when the relevant behaviour and institutions remain correlated.",
+    "citation_count": 7,
+    "summary": "A model of group-structured societies shows that while cooperation-enhancing institutions and behaviors can reinforce each other, the spread of cooperative behavior from institutionalized to non-institutionalized groups leads to institutional free-riding, hindering the widespread adoption of beneficial institutions. This source-sink dynamic limits large-scale social change unless behavior and institutions remain correlated."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2112.06198.pdf",
+    "title": "Report on A Formally-Founded Model-Based Approach to Engineer Self-Adaptive Systems",
+    "published_date": "2021-12-12",
+    "abstract": "Self-adaptive systems manage themselves to deal with uncertainties that can only be resolved during operation. A common approach to realize self-adaptation is by adding a feedback loop to the system that monitors the system and adapts it to realize a set of adaptation goals. ActivFORMS (Active FORmal Models for Self-adaptation) provides an end-to-end approach for engineering self-adaptive systems. ActivFORMS relies on feedback loops that consists of formally verified models that are directly deployed and executed at runtime to realize self-adaptation. At runtime, the approach relies on statistical verification techniques that allow efficient analysis of the possible options for adaptation. Further, ActivFORMS supports on-the-fly changes of adaptation goals and updates of the verified models to to meet the new goals. ActivFORMSi provides a tool-supported instance of ActivFORMS. The approach has been validates using an IoT application for building security monitoring. This report provides complementary material to the paper ``ActivFORMS: A Formally-Founded Model-Based Approach to Engineer Self-Adaptive Systems'' [Weyns and Iftikhar 2019].",
+    "summary": "ActivFORMS is a formally-founded model-based approach for engineering self-adaptive systems, using formally verified models deployed at runtime with statistical verification for efficient adaptation and support for on-the-fly goal changes. Its tool-supported instance, ActivFORMSi, has been validated through an IoT application."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/B6WefmeyaST7Puddz/there-is-no-control-system-for-covid",
+    "author": "Mike Harris",
+    "title": "There Is No Control System For COVID",
+    "published_date": "2021-04-06",
+    "summary": "The standard epidemiological model poorly predicts COVID-19 infection rates across US states, failing to explain the surprisingly similar infection levels despite varying policies and behaviors. A proposed \"vulnerability model,\" incorporating fluctuating individual susceptibility to infection over time, better explains the observed data and resolves inconsistencies of the standard model."
+  }
+]

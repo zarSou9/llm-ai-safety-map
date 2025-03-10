@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2103.16349",
+    "title": "Historical Inertia: A Neglected but Powerful Baseline for Long Sequence Time-series Forecasting",
+    "published_date": "2021-03-30",
+    "abstract": "Long sequence time-series forecasting (LSTF) has become increasingly popular for its wide range of applications. Though superior models have been proposed to enhance the prediction effectiveness and efficiency, it is reckless to neglect or underestimate one of the most natural and basic temporal properties of time series: history has inertia. In this paper, we introduce a new baseline for LSTF, named historical inertia (HI). In HI, the most recent historical data points in the input time series are adopted as the prediction results. We experimentally evaluate HI on 4 public real-world datasets and 2 LSTF tasks. The results demonstrate that up to 82% relative improvement over state-of-the-art works can be achieved. We further discuss why HI works and potential ways of benefiting from it.",
+    "citation_count": 46
+  },
+  {
+    "title": "To Share, or not to Share Online Event Trend Aggregation Over Bursty Event Streams",
+    "abstract": "Complex event processing (CEP) systems continuously evaluate large workloads of pattern queries under tight time constraints. Event trend aggregation queries with Kleene patterns are commonly used to retrieve summarized insights about the recent trends in event streams. State-of-art methods are limited either due to repetitive computations or unnecessary trend construction. Existing shared approaches are guided by statically selected and hence rigid sharing plans that are often sub-optimal under stream fluctuations. In this work, we propose a novel framework Hamlet that is the first to overcome these limitations. Hamlet introduces two key innovations. First, Hamlet adaptively decides at run time whether to share or not to share computations depending on the current stream properties to harvest the maximum sharing benefit. Second, Hamlet is equipped with a highly efficient shared trend aggregation strategy that avoids trend construction. Our experimental study on both real and synthetic data sets demonstrates that Hamlet consistently reduces query latency by up to five orders of magnitude compared to state-of-the-art approaches.",
+    "published_date": "2021-01-02",
+    "citation_count": 11,
+    "url": "https://dl.acm.org/doi/10.1145/3448016.3452785"
+  },
+  {
+    "url": "https://arxiv.org/abs/2002.06300",
+    "title": "Historical Document Processing: Historical Document Processing: A Survey of Techniques, Tools, and Trends",
+    "published_date": "2020-02-15",
+    "abstract": "Historical Document Processing is the process of digitizing written material from the past for future use by historians and other scholars. It incorporates algorithms and software tools from various subfields of computer science, including computer vision, document analysis and recognition, natural language processing, and machine learning, to convert images of ancient manuscripts, letters, diaries, and early printed texts automatically into a digital format usable in data mining and information retrieval systems. Within the past twenty years, as libraries, museums, and other cultural heritage institutions have scanned an increasing volume of their historical document archives, the need to transcribe the full text from these collections has become acute. Since Historical Document Processing encompasses multiple sub-domains of computer science, knowledge relevant to its purpose is scattered across numerous journals and conference proceedings. This paper surveys the major phases of, standard algorithms, tools, and datasets in the field of Historical Document Processing, discusses the results of a literature review, and finally suggests directions for further research.",
+    "citation_count": 21
+  },
+  {
+    "url": "https://arxiv.org/abs/2010.03653",
+    "title": "Efficient Temporal Pattern Mining in Big Time Series Using Mutual Information",
+    "published_date": "2020-10-07",
+    "abstract": "Very large time series are increasingly available from an ever wider range of IoT-enabled sensors deployed in different environments. Significant insights can be gained by mining temporal patterns from these time series. Unlike traditional pattern mining, temporal pattern mining (TPM) adds event time intervals into extracted patterns, making them more expressive at the expense of increased time and space complexities. Existing TPM methods either cannot scale to large datasets, or work only on pre-processed temporal events rather than on time series. This paper presents our Frequent Temporal Pattern Mining from Time Series (FTPMfTS) approach providing: (1) The end-to-end FTPMfTS process taking time series as input and producing frequent temporal patterns as output. (2) The efficient Hierarchical Temporal Pattern Graph Mining (HTPGM) algorithm that uses efficient data structures for fast support and confidence computation, and employs effective pruning techniques for significantly faster mining. (3) An approximate version of HTPGM that uses mutual information, a measure of data correlation, to prune unpromising time series from the search space. (4) An extensive experimental evaluation showing that HTPGM outperforms the baselines in runtime and memory consumption, and can scale to big datasets. The approximate HTPGM is up to two orders of magnitude faster and less memory consuming than the baselines, while retaining high accuracy.",
+    "citation_count": 14
+  },
+  {
+    "url": "https://arxiv.org/pdf/2008.07669.pdf",
+    "title": "HiPPO: Recurrent Memory with Optimal Polynomial Projections",
+    "published_date": "2020-08-17",
+    "abstract": "A central problem in learning from sequential data is representing cumulative history in an incremental fashion as more data is processed. We introduce a general framework (HiPPO) for the online compression of continuous signals and discrete time series by projection onto polynomial bases. Given a measure that specifies the importance of each time step in the past, HiPPO produces an optimal solution to a natural online function approximation problem. As special cases, our framework yields a short derivation of the recent Legendre Memory Unit (LMU) from first principles, and generalizes the ubiquitous gating mechanism of recurrent neural networks such as GRUs. This formal framework yields a new memory update mechanism (HiPPO-LegS) that scales through time to remember all history, avoiding priors on the timescale. HiPPO-LegS enjoys the theoretical benefits of timescale robustness, fast updates, and bounded gradients. By incorporating the memory dynamics into recurrent neural networks, HiPPO RNNs can empirically capture complex temporal dependencies. On the benchmark permuted MNIST dataset, HiPPO-LegS sets a new state-of-the-art accuracy of 98.3%. Finally, on a novel trajectory classification task testing robustness to out-of-distribution timescales and missing data, HiPPO-LegS outperforms RNN and neural ODE baselines by 25-40% accuracy.",
+    "citation_count": 380
+  },
+  {
+    "url": "https://arxiv.org/pdf/1809.10856.pdf",
+    "title": "Answering Analytical Queries on Text Data with Temporal Term Histograms",
+    "published_date": "2018-09-28",
+    "abstract": "Temporal text, i.e., time-stamped text data are found abundantly in a variety of data sources like newspapers, blogs and social media posts. While today's data management systems provide facilities for searching full-text data, they do not provide any simple primitives for performing analytical operations with text. This paper proposes the temporal term histograms (TTH) as an intermediate primitive that can be used for analytical tasks. We propose an algebra, with operators and equivalence rules for TTH and present a reference implementation on a relational database system."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2408.13328",
+    "title": "Localized Observation Abstraction Using Piecewise Linear Spatial Decay for Reinforcement Learning in Combat Simulations",
+    "published_date": "2024-08-23",
+    "abstract": "In the domain of combat simulations, the training and deployment of deep reinforcement learning (RL) agents still face substantial challenges due to the dynamic and intricate nature of such environments. Unfortunately, as the complexity of the scenarios and available information increases, the training time required to achieve a certain threshold of performance does not just increase, but often does so exponentially. This relationship underscores the profound impact of complexity in training RL agents. This paper introduces a novel approach that addresses this limitation in training artificial intelligence (AI) agents using RL. Traditional RL methods have been shown to struggle in these high-dimensional, dynamic environments due to real-world computational constraints and the known sample inefficiency challenges of RL. To overcome these limitations, we propose a method of localized observation abstraction using piecewise linear spatial decay. This technique simplifies the state space, reducing computational demands while still preserving essential information, thereby enhancing AI training efficiency in dynamic environments where spatial relationships are often critical. Our analysis reveals that this localized observation approach consistently outperforms the more traditional global observation approach across increasing scenario complexity levels. This paper advances the research on observation abstractions for RL, illustrating how localized observation with piecewise linear spatial decay can provide an effective solution to large state representation challenges in dynamic environments."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2307.10068.pdf",
+    "title": "Practical Model Reductions for Verification of Multi-Agent Systems",
+    "published_date": "2023-07-19",
+    "abstract": "Formal verification of intelligent agents is often computationally infeasible due to state-space explosion.\n\nWe present a tool for reducing the impact of the explosion by means of state abstraction that is (a) easy to use and understand by non-experts, and (b) agent-based in the sense that it operates on a modular representation of the system, rather than on its huge explicit state model.",
+    "citation_count": 2
+  },
+  {
+    "title": "Sequential and Parallel Tools for Model Checking Conditional Stable Properties in a Layered Way",
+    "abstract": "We invented a divide & conquer approach to conditional stable model checking so as to ease the state space explosion problem. As indicated by its name, the technique concentrates on conditional stable properties expressed as <inline-formula> <tex-math notation=\"LaTeX\">$\\varphi _{1} \\leadsto \\Box \\varphi _{2}$ </tex-math></inline-formula>, where <inline-formula> <tex-math notation=\"LaTeX\">$\\varphi _{1}$ </tex-math></inline-formula> and <inline-formula> <tex-math notation=\"LaTeX\">$\\varphi _{2}$ </tex-math></inline-formula> are state propositions. The properties can be used to formalize desired properties that self-stabilizing systems should satisfy. Self-stabilization in distributed systems was first introduced by Dijkstra and became a very crucial concept in fault tolerance to design robust systems. However, designing self-stabilizing systems need much more effort than non-stabilizing ones because the former are subject to transient errors at any time. Therefore, it is worth dedicating to conditional stable properties. In this paper, we report a sequential tool and a parallel technique/tool for the divide & conquer approach to conditional stable model checking. Some experiments are also conducted showing that our sequential and parallel tools can ease the state space explosion and improve the running performance of model checking for conditional stable properties to a certain scope, respectively.",
+    "published_date": "2022-01-01",
+    "citation_count": 2,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09992236.pdf"
+  },
+  {
+    "url": "https://arxiv.org/auth/show-endorsers/2110.07910",
+    "title": "SaLinA: Sequential Learning of Agents",
+    "published_date": "2021-10-15",
+    "abstract": "SaLinA is a simple library that makes implementing complex sequential learning models easy, including reinforcement learning algorithms. It is built as an extension of PyTorch: algorithms coded with \\SALINA{} can be understood in few minutes by PyTorch users and modified easily. Moreover, SaLinA naturally works with multiple CPUs and GPUs at train and test time, thus being a good fit for the large-scale training use cases. In comparison to existing RL libraries, SaLinA has a very low adoption cost and capture a large variety of settings (model-based RL, batch RL, hierarchical RL, multi-agent RL, etc.). But SaLinA does not only target RL practitioners, it aims at providing sequential learning capabilities to any deep learning programmer.",
+    "citation_count": 11
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.13596v2.pdf",
+    "title": "Exploratory State Representation Learning",
+    "published_date": "2021-09-28",
+    "abstract": "Not having access to compact and meaningful representations is known to significantly increase the complexity of reinforcement learning (RL). For this reason, it can be useful to perform state representation learning (SRL) before tackling RL tasks. However, obtaining a good state representation can only be done if a large diversity of transitions is observed, which can require a difficult exploration, especially if the environment is initially reward-free. To solve the problems of exploration and SRL in parallel, we propose a new approach called XSRL (eXploratory State Representation Learning). On one hand, it jointly learns compact state representations and a state transition estimator which is used to remove unexploitable information from the representations. On the other hand, it continuously trains an inverse model, and adds to the prediction error of this model a k-step learning progress bonus to form the maximization objective of a discovery policy. This results in a policy that seeks complex transitions from which the trained models can effectively learn. Our experimental results show that the approach leads to efficient exploration in challenging environments with image observations, and to state representations that significantly accelerate learning in RL tasks.",
+    "citation_count": 6
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dBBqHxZqvXKW3ZsGa/an-exploratory-toy-ai-takeoff-model",
+    "author": "niplav",
+    "title": "An Exploratory Toy AI Takeoff Model",
+    "published_date": "2021-01-13"
+  }
+]

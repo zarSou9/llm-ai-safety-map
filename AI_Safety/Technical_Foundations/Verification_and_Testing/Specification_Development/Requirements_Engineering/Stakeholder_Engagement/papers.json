@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.05019",
+    "title": "Unified External Stakeholder Engagement and Requirements Strategy",
+    "published_date": "2024-09-08",
+    "abstract": "Understanding stakeholder needs is essential for project success, as stakeholder importance varies across projects. This study proposes a framework for early stakeholder identification and continuous engagement throughout the project lifecycle. The framework addresses common organizational failures in stakeholder communication that lead to project delays and cancellations. By classifying stakeholders by influence and interest, establishing clear communication channels, and implementing regular feedback loops, the framework ensures effective stakeholder involvement. This approach allows for necessary project adjustments and builds long-term relationships, validated by a survey of IT professionals. Engaging stakeholders strategically at all stages minimizes misunderstandings and project risks, contributing to better project management and lifecycle outcomes.",
+    "citation_count": 1
+  },
+  {
+    "title": "A Comparative Systematic Analysis of Stakeholder's Identification Methods in Requirements Elicitation",
+    "abstract": "[Context and Motivation] Before eliciting and gathering requirements for a software project, it is considered pivotal to know about concerned stakeholders. It becomes hard to elicit the actual system requirements without identifying relevant stakeholders, leading the software project to failure. Despite the paramount importance of stakeholder identification in requirement elicitation, it has been given less attention in the software engineering literature. [Method] For this purpose, we conducted a thorough Systematic Literature Review (SLR) on stakeholder identification (SI) and its methods in requirement elicitation. However, previously, a literature study on SI in the requirement elicitation was conducted. We found that no one has proposed any standard or baseline research method for stakeholder identification, stakeholder assessment, and stakeholder interaction up to date according to our knowledge. It provides an opportunity to update the current SLR on SI in requirements elicitation from 2011 till 2021 to search for a baseline methodology for the SI. For this purpose, we explored the existing literature research that involves the SI methods in requirements elicitation. [Principle Ideas/Results] Furthermore, we identify and capture seventeen research methodologies for SI, eight key stakeholders interaction methods, and ten stakeholders assessment methods in requirement elicitation. To further enhance the stakeholder identification process, we additionally identify pivotal information such as different potential stakeholder categories, stakeholder assessments methods, and stakeholder interaction methods. Also, based on the proposed SLR, we find out the existing gaps and new opportunities for SI methods in the requirement elicitation. [Contribution] These SI methodologies help requirements engineers and practitioners identify key stakeholders and efficiently improve the requirements quality. Moreover, this research study helps identify the effective practices used for the traditional and CrowdRE SI, recover consequences that can affect the effectiveness of SI, and recommend advisable SI practices to be employed in the future. This research study would help the software researchers and developers efficiently and accurately identify correct and concerned stakeholders to improve end-user satisfaction instead of considering it a self-evident task.",
+    "published_date": "2022-01-01",
+    "citation_count": 5,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09714300.pdf"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.07115.pdf",
+    "title": "Scenario-based Requirements Engineering for Complex Smart City Projects",
+    "published_date": "2022-01-18",
+    "abstract": "Various stakeholders with different backgrounds are involved in Smart City projects. These stake-holders define the project goals, e.g., based on participative approaches, market research or innovation management processes. To realize these goals often complex technical solutions must be designed and implemented. In practice, however, it is difficult to synchronize the technical design and implementation phase with the definition of moving Smart City goals. We hypothesize that this is due to a lack of a “common language” for the different stakeholder groups and the technical disciplines. We address this problem with scenario-based requirements engineering techniques. In particular, we use scenarios at different levels of abstraction and formalization that are connected end-to-end by appropriate methods and tools. This enables fast feedback loops to iteratively align technical requirements, stakeholder expectations, and Smart City goals. We demonstrate the applicability of our approach in a case study with different industry partners.",
+    "citation_count": 3
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.01122v1.pdf",
+    "title": "Stakeholder Participation in AI: Beyond \"Add Diverse Stakeholders and Stir\"",
+    "published_date": "2021-11-01",
+    "abstract": "There is a growing consensus in HCI and AI research that the design of AI systems needs to engage and empower stakeholders who will be affected by AI. However, the manner in which stakeholders should participate in AI design is unclear. This workshop paper aims to ground what we dub a 'participatory turn' in AI design by synthesizing existing literature on participation and through empirical analysis of its current practices via a survey of recent published research and a dozen semi-structured interviews with AI researchers and practitioners. Based on our literature synthesis and empirical research, this paper presents a conceptual framework for analyzing participatory approaches to AI design and articulates a set of empirical findings that in ensemble detail out the contemporary landscape of participatory practice in AI design. These findings can help bootstrap a more principled discussion on how PD of AI should move forward across AI, HCI, and other research communities.",
+    "citation_count": 48
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/jqfANkNduyEQC9hvr/five-whys",
+    "author": "lynettebye",
+    "title": "Five Whys",
+    "published_date": "2021-06-07"
+  },
+  {
+    "title": "Identifying Key Stakeholders as Part of Requirements Elicitation in Software Ecosystems",
+    "abstract": "Software ecosystems (SECOs) involve a number of actors that work together for a shared market. The software products within the software ecosystem typically have a common technological platform, and consist of a keystone player at the center of the ecosystem with niche players addressing market segments the keystone player would otherwise not have access to. Stakeholder identification is critical to the financial and functional success of software development projects, however the task of identifying all stakeholders in a SECO is often not possible due to the high volume of stakeholders and open interfaces. The identification of key stakeholders should ensure that the most relevant requirements are elicited during a software planning cycle. The objective of this research is to examine how key stakeholders can be identified in complex SECOs. This research takes a design science approach and the main component of the current research is the design of an artifact in the form of a reference process model, that is applied in a real-world environment to develop a business process model. Consequently, this research aims to facilitate academia and industry in SECO optimization, especially from a requirements management perspective.",
+    "published_date": "2020-10-19",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3382026.3431249"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.12019",
+    "title": "System-Level Analysis of Module Uncertainty Quantification in the Autonomy Pipeline",
+    "published_date": "2024-10-15",
+    "abstract": "We present a novel perspective on the design, use, and role of uncertainty measures for learned modules in an autonomous system. While in the current literature uncertainty measures are produced for standalone modules without considering the broader system context, in our work we explicitly consider the role of decision-making under uncertainty in illuminating how\"good'\"an uncertainty measure is. Our insights are centered around quantifying the ways in which being uncertainty-aware makes a system more robust. Firstly, we use level set generation tools to produce a measure for system robustness and use this measure to compare system designs, thus placing uncertainty quantification in the context of system performance and evaluation metrics. Secondly, we use the concept of specification generation from systems theory to produce a formulation under which a designer can simultaneously constrain the properties of an uncertainty measure and analyze the efficacy of the decision-making-under-uncertainty algorithm used by the system. We apply our analyses to two real-world and complex autonomous systems, one for autonomous driving and another for aircraft runway incursion detection, helping to form a toolbox for an uncertainty-aware system designer to produce more effective and robust systems.",
+    "summary": "This paper introduces a system-level approach to uncertainty quantification in autonomous systems, evaluating uncertainty measures not in isolation but by their impact on overall system robustness and decision-making under uncertainty, using level set generation and specification generation techniques. The approach is demonstrated on autonomous driving and aircraft runway incursion detection systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/knuths-up-arrow-notation",
+    "title": "Knuth's Up-Arrow Notation - LessWrong",
+    "published_date": "2024-02-01",
+    "summary": "Knuth's up-arrow notation provides a concise way to represent extremely large numbers, as demonstrated by 3^^^3, a power tower of threes 7625597484987 high, which is computationally simple despite its incomprehensibly vast magnitude."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dPpA79MjPdDd87YoW/understanding-goedel-s-completeness-theorem",
+    "author": "Jessicata",
+    "title": "Understanding Gödel's completeness theorem",
+    "published_date": "2024-05-27",
+    "summary": "This article presents a proof of a variant of Gödel's completeness theorem using sequent calculus, aiming for intuitive understanding rather than symbolic manipulation. It defines first-order theories and models, introduces sequent rules, and demonstrates the soundness of these rules."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.00291",
+    "title": "Robust Generation Dispatch With Purchase of Renewable Power and Load Predictions",
+    "published_date": "2022-10-01",
+    "abstract": "The increasing use of renewable energy sources (RESs) and responsive loads has made power systems more uncertain. Meanwhile, thanks to the development of advanced metering and forecasting technologies, predictions by RES and load owners are now attainable. Many recent studies have revealed that pooling the predictions from RESs and loads can help the operators predict more accurately and make better dispatch decisions. However, how the prediction purchase decisions are made during the dispatch processes needs further investigation. This paper fills the research gap by proposing a novel robust generation dispatch model considering the purchase and use of predictions from RESs and loads. The prediction purchase decisions are made in the first stage, which influence the accuracy of predictions from RESs and loads, and further the uncertainty set and the worst-case second-stage dispatch performance. This two-stage procedure is essentially a robust optimization problem with decision-dependent uncertainty (DDU). A mapping-based column-and-constraint generation (C&CG) algorithm is developed to overcome the potential failures of traditional solution methods in detecting feasibility, guaranteeing convergence, and reaching optimal strategies under DDU. Case studies demonstrate the effectiveness, necessity, and scalability of the proposed model and algorithm.",
+    "citation_count": 2,
+    "summary": "This paper presents a robust generation dispatch model that incorporates the strategic purchase of renewable energy and load predictions to mitigate uncertainty in power systems. A novel two-stage robust optimization approach, solved using a mapping-based column-and-constraint generation algorithm, determines optimal prediction purchases and subsequent generation dispatch."
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.10304",
+    "title": "Synthesizing Reactive Test Environments for Autonomous Systems: Testing Reach-Avoid Specifications with Multi-Commodity Flows",
+    "published_date": "2022-10-19",
+    "abstract": "We study automated test generation for testing discrete decision-making modules in autonomous systems. Linear temporal logic is used to encode the system specification - requirements of the system under test - and the test specification, which is unknown to the system and describes the desired test behavior. The reactive test synthesis problem is to find constraints on system actions such that in a test execution, both the system and test specifications are satisfied. To do this, we use the specifications and their corresponding Büchi automata to construct the specification product automaton. Then, a virtual product graph representing all possible test executions of the system is constructed from the transition system and the specification product automaton. The main result of this paper is framing the test synthesis problem as a multi-commodity network flow optimization. This optimization is used to derive reactive constraints on system actions, which constitute the test environment. The resulting test environment ensures that the system meets the test specification while also satisfying the system specification. We illustrate this framework in simulation using grid world examples and demonstrate it on hardware with the Unitree A1 quadruped, where we test dynamic locomotion behaviors reactively.",
+    "citation_count": 2,
+    "summary": "This paper presents a method for automated test generation of autonomous systems, framing the reactive test synthesis problem as a multi-commodity network flow optimization to generate constraints ensuring both system and test specifications are satisfied during execution. This approach is demonstrated through simulation and hardware experiments using a quadruped robot."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2210.05989.pdf",
+    "title": "Probabilities Are Not Enough: Formal Controller Synthesis for Stochastic Dynamical Models with Epistemic Uncertainty",
+    "published_date": "2022-10-12",
+    "abstract": "Capturing uncertainty in models of complex dynamical systems is crucial to designing safe controllers. Stochastic noise causes aleatoric uncertainty, whereas imprecise knowledge of model parameters leads to epistemic uncertainty. Several approaches use formal abstractions to synthesize policies that satisfy temporal specifications related to safety and reachability. However, the underlying models exclusively capture aleatoric but not epistemic uncertainty, and thus require that model parameters are known precisely. Our contribution to overcoming this restriction is a novel abstraction-based controller synthesis method for continuous-state models with stochastic noise and uncertain parameters. By sampling techniques and robust analysis, we capture both aleatoric and epistemic uncertainty, with a user-specified confidence level, in the transition probability intervals of a so-called interval Markov decision process (iMDP). We synthesize an optimal policy on this iMDP, which translates (with the specified confidence level) to a feedback controller for the continuous model with the same performance guarantees. Our experimental benchmarks confirm that accounting for epistemic uncertainty leads to controllers that are more robust against variations in parameter values.",
+    "citation_count": 21,
+    "summary": "This paper presents a novel controller synthesis method for continuous-state stochastic dynamical models that incorporates both aleatoric and epistemic uncertainty using interval Markov decision processes (iMDPs). The resulting controllers, synthesized with user-specified confidence, exhibit improved robustness compared to methods considering only aleatoric uncertainty."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2211.17218.pdf",
+    "title": "Specification Architectural Viewpoint for Benefit-Cost-Risk-Aware Decision-Making in Self-Adaptive Systems",
+    "published_date": "2022-11-30",
+    "abstract": "Over the past two decades, researchers and engineers have extensively studied the problem of how to enable a software system to deal with uncertain operating conditions. One prominent solution to this problem is self-adaptation, which equips a software system with a feedback loop that resolves uncertainties during operation and adapts the system to deal with them when necessary. Most self-adaptation approaches developed so far use decision-making mechanisms that focus on achieving a set of goals, i.e., that select for execution the adaptation option with the best estimated benefit. A few approaches have also considered the estimated (one-off) cost of executing the candidate adaptation options. We argue that besides benefit and cost, decision-making in self-adaptive systems should also consider the estimated risk the system or its users would be exposed to if an adaptation option were selected for execution. Balancing all three factors when evaluating the options for adaptation when mitigating uncertainty is essential, not only for satisfying the concerns of the stakeholders, but also to ensure safety and public acceptance of self-adaptive systems. In this paper, we present an ISO/IEC/IEEE 42010 compatible architectural viewpoint that considers the estimated benefit, cost, and risk as core factors of each adaptation option considered in self-adaptation. The viewpoint aims to support software architects responsible for designing robust decision-making mechanisms for self-adaptive systems.",
+    "summary": "This paper proposes a new architectural viewpoint, compliant with ISO/IEC/IEEE 42010, for designing robust decision-making mechanisms in self-adaptive systems by incorporating benefit, cost, and risk estimations into the selection of adaptation options. This approach aims to improve stakeholder satisfaction, safety, and public acceptance of self-adaptive systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/MFm3A4ihz9s5j2cCo/variational-bayesian-methods",
+    "author": "Ege Erdil",
+    "title": "Variational Bayesian methods",
+    "published_date": "2022-08-25",
+    "summary": "Variational Bayesian methods address the intractability of calculating P(x) in Bayesian inference by approximating the true posterior P(z|x) with a simpler distribution Q(z|x). This approximation minimizes the Kullback-Leibler divergence between Q(z|x) and P(z|x), allowing for a tractable estimation of P(x)."
+  }
+]

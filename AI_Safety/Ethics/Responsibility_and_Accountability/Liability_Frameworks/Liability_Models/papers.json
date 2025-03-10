@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/X8NhKh2g2ECPrm5eo/post-series-on-liability-law-for-reducing-existential-risk",
+    "author": "Nora_Ammann",
+    "title": "Post series on \"Liability Law for reducing Existential Risk from AI\"",
+    "published_date": "2024-02-29",
+    "summary": "Gabriel Weil argues that adapting tort law, specifically through strict liability and expanded punitive damages, can significantly mitigate AI existential risks. This requires legal and legislative action, potentially including ex ante liability expectations and mandatory insurance for AI development and deployment."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/ECnLBSxw4TvpWPnae/ai-model-registries-a-regulatory-review",
+    "author": "Deric Cheng, Elliot_Mckernon",
+    "title": "AI Model Registries: A Regulatory Review",
+    "published_date": "2024-03-22",
+    "summary": "This article, part of a series reviewing the 2024 AI regulatory landscape, examines AI model registries—centralized databases tracking AI systems for governance purposes. These registries, with varying requirements across countries like the US and China, offer a method for regulating AI models individually, rather than entire companies or specific use cases, drawing parallels to existing systems like pharmaceutical registries."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/vzGC4zh73dfcqnFgf/open-source-ai-a-regulatory-review",
+    "author": "Elliot_Mckernon, Deric Cheng",
+    "title": "Open-Source AI: A Regulatory Review",
+    "published_date": "2024-04-29",
+    "summary": "This article examines the implications of open-sourcing AI models, focusing on the trade-offs between promoting collaboration and potentially increasing risks from malicious use of powerful, readily available models lacking built-in safety safeguards. The authors highlight the debate surrounding different levels of openness (e.g., open weights vs. open source) and the challenges in mitigating information hazards."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kBg5eoXvLxQYyxD6R/my-takes-on-sb-1047",
+    "author": "Leogao",
+    "title": "My takes on SB-1047",
+    "published_date": "2024-09-09",
+    "summary": "The author supports SB 1047, a bill requiring safety assessments for large language models, believing its requirements are mild and similar to existing voluntary practices. The bill focuses on \"reasonable care\" to prevent models from \"materially contributing\" to critical harm, a standard the author finds weak but not overly burdensome."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, emphasizing the need for a top-down design of \"civilizational intelligence\" that integrates technical, social, and political perspectives. This approach utilizes diverse theoretical frameworks, prioritizing pragmatism and collaboration over isolated theoretical development."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of posts aims to provide a comprehensive introduction to AI safety, though the content and order are still under development."
+  },
+  {
+    "title": "Artificial intelligence and legal liability: towards an international approach of proportional liability based on risk sharing",
+    "abstract": "ABSTRACT This paper critically examines the allocation of liability when autonomous artificial intelligence (AI) systems cause accidents. Problems of applying existing principles of legal liability in AI environment are addressed. This paper argues that the sharing of risk as a basis for proportionate liability should be a basis for a new liability regime to govern future autonomous machines. It is argued that this approach favors the reality of parties' consent to taking the risk of unpredictable AI behavior over the technicality of existing principles of legal liability. The suggested approach also encourages transparency and responsible decisions of developers and owners of AI systems. A flowchart to clarify possible outcomes of applying the suggested approach is provided. The paper also discusses the need for harmonization of national laws and international cooperation regarding AI incidents crossing national borders to ensure predictability of legal rules governing the liability ensuing from AI applications.",
+    "published_date": "2021-05-04",
+    "citation_count": 12,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/13600834.2020.1856025",
+    "summary": "This paper advocates for a new international liability regime for AI accidents based on proportional risk sharing, arguing that this approach better reflects the realities of AI's unpredictable nature and incentivizes responsible development than applying existing legal principles. The proposed system emphasizes transparency and necessitates international cooperation to address cross-border incidents."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization",
+    "published_date": "2021-06-04",
+    "summary": "This article explores applying game theory to AI development within organizational structures, highlighting the limitations of a purely game-theoretic approach and emphasizing the enduring relevance of bureaucratic principles like hierarchical authority and job specialization, even with the integration of increasingly capable AI agents. The authors argue that human-AI collaboration, leveraging comparative advantage, remains crucial for efficient problem-solving in complex environments."
+  }
+]

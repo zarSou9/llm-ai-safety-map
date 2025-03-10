@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/3P8WBwLyfPBEkbG3c/proveably-safe-self-driving-cars",
+    "author": "Davidmanheim",
+    "title": "Proveably Safe Self Driving Cars",
+    "published_date": "2024-09-15"
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/3P8WBwLyfPBEkbG3c/proveably-safe-self-driving-cars-modulo-assumptions#WKF3eaRAGscP9CgGy",
+    "author": "Davidmanheim",
+    "title": "Proveably Safe Self Driving Cars [Modulo Assumptions]",
+    "published_date": "2024-09-15"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.06082.pdf",
+    "title": "Lower Bounds for Possibly Divergent Probabilistic Programs",
+    "published_date": "2023-02-13",
+    "abstract": "We present a new proof rule for verifying lower bounds on quantities of probabilistic programs. Our proof rule is not confined to almost-surely terminating programs -- as is the case for existing rules -- and can be used to establish non-trivial lower bounds on, e.g., termination probabilities and expected values, for possibly divergent probabilistic loops, e.g., the well-known three-dimensional random walk on a lattice.",
+    "citation_count": 7
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.04505v1",
+    "title": "Inner Approximations of Stochastic Programs for Data-Driven Stochastic Barrier Function Design",
+    "published_date": "2023-04-10",
+    "abstract": "This paper proposes a new framework to compute finite-horizon safety guarantees for discrete-time piece-wise affine systems with stochastic noise of unknown distributions. The approach is based on a novel approach to synthesise a stochastic barrier function (SBF) from noisy data and rely on the scenario optimization theory. In particular, we show that the stochastic program to synthesize a SBF can be relaxed into a chance-constrained optimisation problem on which scenario approach theory applies. We further show that the resulting program can be reduced to a linear programming problem, thus guaranteeing efficiency. In contrast to existing approaches, this method is data efficient as it only requires the number of data to be proportional to the logarithm in the negative inverse of the confidence level and is computationally efficient due to its reduction to linear programming. The efficacy of the method is empirically evaluated on various verification benchmarks. Experiments show a significant improvement with respect to state-of-the-art, obtaining tighter certificates with a confidence that is several orders of magnitude higher.",
+    "citation_count": 6
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.04026v1.pdf",
+    "title": "Learning Performance Bounds for Safety-Critical Systems",
+    "published_date": "2021-09-09",
+    "abstract": "As the complexity of control systems increases, the need for systematic methods to guarantee their efficacy grows as well. However, direct testing of these systems is oftentimes costly, difficult, or impractical. As a result, the test and evaluation ideal would be to verify the efficacy of a system simulator and use this verification result to make a statement on true system performance. This paper formalizes that performance translation for a specific class of desired system behaviors. In that vein, our contribution is twofold. First, we detail a variant on existing Bayesian Optimization Algorithms that identifies minimal upper bounds to maximization problems, with some minimum probability. Second, we use this Algorithm to $i)$ lower bound the minimum simulator robustness and $ii)$ upper bound the expected deviance between true and simulated systems. Then, for the specific class of desired behaviors studied, we leverage these bounds to lower bound the minimum true system robustness, without directly testing the true system. Finally, we compare a high-fidelity ROS simulator of a Segway, with a significantly noisier version of itself, and show that our probabilistic verification bounds are indeed satisfied.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/pdf/2111.03781v2.pdf",
+    "title": "Monotonic Safety for Scalable and Data-Efficient Probabilistic Safety Analysis",
+    "published_date": "2021-11-04",
+    "abstract": "Autonomous systems with machine learning-based perception can exhibit unpredictable behaviors that are difficult to quantify, let alone verify. Such behaviors are convenient to capture in proba-bilistic models, but probabilistic model checking of such models is difficult to scale - largely due to the non-determinism added to models as a prerequisite for provable conservatism. Statistical model checking (SMC) has been proposed to address the scalabil-ity issue. However it requires large amounts of data to account for the aforementioned non-determinism, which in turn limits its scalability. This work introduces a general technique for reduction of non-determinism based on assumptions of “monotonic safety”, which define a partial order between system states in terms of their probabilities of being safe. We exploit these assumptions to remove non-determinism from controller/plant models to drasti-cally speed up probabilistic model checking and statistical model checking while providing provably conservative estimates as long as the safety is indeed monotonic. Our experiments demonstrate model-checking speed-ups of an order of magnitude while main-taining acceptable accuracy and require much less data for accurate estimates when running SMC - even when monotonic safety does not perfectly hold and provable conservatism is not achieved.",
+    "citation_count": 5
+  }
+]

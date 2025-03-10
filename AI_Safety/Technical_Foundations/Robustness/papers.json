@@ -1,0 +1,115 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2010.09670v1",
+    "title": "RobustBench: a standardized adversarial robustness benchmark",
+    "published_date": "2020-10-19",
+    "abstract": "Evaluation of adversarial robustness is often error-prone leading to overestimation of the true robustness of models. While adaptive attacks designed for a particular defense are a way out of this, there are only approximate guidelines on how to perform them. Moreover, adaptive evaluations are highly customized for particular models, which makes it difficult to compare different defenses. Our goal is to establish a standardized benchmark of adversarial robustness, which as accurately as possible reflects the robustness of the considered models within a reasonable computational budget. This requires to impose some restrictions on the admitted models to rule out defenses that only make gradient-based attacks ineffective without improving actual robustness. We evaluate robustness of models for our benchmark with AutoAttack, an ensemble of white- and black-box attacks which was recently shown in a large-scale study to improve almost all robustness evaluations compared to the original publications. Our leaderboard, hosted at this http URL, aims at reflecting the current state of the art on a set of well-defined tasks in $\\ell_\\infty$- and $\\ell_2$-threat models with possible extensions in the future. Additionally, we open-source the library this http URL that provides unified access to state-of-the-art robust models to facilitate their downstream applications. Finally, based on the collected models, we analyze general trends in $\\ell_p$-robustness and its impact on other tasks such as robustness to various distribution shifts and out-of-distribution detection.",
+    "citation_count": 609,
+    "summary": "RobustBench is a standardized benchmark for evaluating adversarial robustness that uses AutoAttack, a strong ensemble of attacks, to provide more accurate and comparable results across different models, mitigating the overestimation inherent in previous methods. The benchmark aims to reflect the true robustness of models while offering a standardized evaluation process and open-source access to robust models and evaluation tools."
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.10980v2",
+    "title": "MultiRobustBench: Benchmarking Robustness Against Multiple Attacks",
+    "published_date": "2023-02-21",
+    "abstract": "The bulk of existing research in defending against adversarial examples focuses on defending against a single (typically bounded Lp-norm) attack, but for a practical setting, machine learning (ML) models should be robust to a wide variety of attacks. In this paper, we present the first unified framework for considering multiple attacks against ML models. Our framework is able to model different levels of learner's knowledge about the test-time adversary, allowing us to model robustness against unforeseen attacks and robustness against unions of attacks. Using our framework, we present the first leaderboard, MultiRobustBench, for benchmarking multiattack evaluation which captures performance across attack types and attack strengths. We evaluate the performance of 16 defended models for robustness against a set of 9 different attack types, including Lp-based threat models, spatial transformations, and color changes, at 20 different attack strengths (180 attacks total). Additionally, we analyze the state of current defenses against multiple attacks. Our analysis shows that while existing defenses have made progress in terms of average robustness across the set of attacks used, robustness against the worst-case attack is still a big open problem as all existing models perform worse than random guessing.",
+    "citation_count": 7,
+    "summary": "MultiRobustBench introduces a unified framework and leaderboard for evaluating machine learning model robustness against multiple adversarial attacks, revealing that while average robustness has improved, performance against the worst-case attack remains significantly deficient."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.05211.pdf",
+    "title": "RobustART: Benchmarking Robustness on Architecture Design and Training Techniques",
+    "published_date": "2021-09-11",
+    "abstract": "Deep neural networks (DNNs) are vulnerable to adversarial noises, which motivates the benchmark of model robustness. Existing benchmarks mainly focus on evaluating defenses, but there are no comprehensive studies of how architecture design and training techniques affect robustness. Comprehensively benchmarking their relationships is beneficial for better understanding and developing robust DNNs. Thus, we propose RobustART, the first comprehensive Robustness investigation benchmark on ImageNet regarding ARchitecture design (49 human-designed off-the-shelf architectures and 1200+ networks from neural architecture search) and Training techniques (10+ techniques, e.g., data augmentation) towards diverse noises (adversarial, natural, and system noises). Extensive experiments substantiated several insights for the first time, e.g., (1) adversarial training is effective for the robustness against all noises types for Transformers and MLP-Mixers; (2) given comparable model sizes and aligned training settings, CNNs>Transformers>MLP-Mixers on robustness against natural and system noises; Transformers>MLP-Mixers>CNNs on adversarial robustness; (3) for some light-weight architectures, increasing model sizes or using extra data cannot improve robustness. Our benchmark presents: (1) an open-source platform for comprehensive robustness evaluation; (2) a variety of pre-trained models to facilitate robustness evaluation; and (3) a new view to better understand the mechanism towards designing robust DNNs. We will continuously develop to this ecosystem for the community.",
+    "citation_count": 98,
+    "summary": "RobustART is a comprehensive benchmark evaluating the robustness of 1700+ ImageNet models across diverse architectures and training techniques against various noise types. Its findings reveal varying effectiveness of different architectures and training methods against different noise types, providing insights for designing more robust deep neural networks."
+  },
+  {
+    "url": "https://arxiv.org/abs/2106.04015v2",
+    "title": "Uncertainty Baselines: Benchmarks for Uncertainty & Robustness in Deep Learning",
+    "published_date": "2021-06-07",
+    "abstract": "High-quality estimates of uncertainty and robustness are crucial for numerous real-world applications, especially for deep learning which underlies many deployed ML systems. The ability to compare techniques for improving these estimates is therefore very important for research and practice alike. Yet, competitive comparisons of methods are often lacking due to a range of reasons, including: compute availability for extensive tuning, incorporation of sufficiently many baselines, and concrete documentation for reproducibility. In this paper we introduce Uncertainty Baselines: high-quality implementations of standard and state-of-the-art deep learning methods on a variety of tasks. As of this writing, the collection spans 19 methods across 9 tasks, each with at least 5 metrics. Each baseline is a self-contained experiment pipeline with easily reusable and extendable components. Our goal is to provide immediate starting points for experimentation with new methods or applications. Additionally we provide model checkpoints, experiment outputs as Python notebooks, and leaderboards for comparing results. Code available at https://github.com/google/uncertainty-baselines.",
+    "citation_count": 95,
+    "summary": "Uncertainty Baselines is a resource providing high-quality implementations of various deep learning methods across multiple tasks, offering standardized evaluation metrics and reproducible experiment pipelines to facilitate benchmarking and comparison of uncertainty and robustness techniques. The project includes code, model checkpoints, and leaderboards to encourage research and development in this crucial area."
+  },
+  {
+    "url": "https://arxiv.org/abs/2004.06496v4",
+    "title": "Certifiable Robustness to Adversarial State Uncertainty in Deep Reinforcement Learning",
+    "published_date": "2020-04-11",
+    "abstract": "Deep neural network-based systems are now state-of-the-art in many robotics tasks, but their application in safety-critical domains remains dangerous without formal guarantees on network robustness. Small perturbations to sensor inputs (from noise or adversarial examples) are often enough to change network-based decisions, which was recently shown to cause an autonomous vehicle to swerve into another lane. In light of these dangers, numerous algorithms have been developed as defensive mechanisms from these adversarial inputs, some of which provide formal robustness guarantees or certificates. This work leverages research on certified adversarial robustness to develop an online certifiably robust for deep reinforcement learning algorithms. The proposed defense computes guaranteed lower bounds on state-action values during execution to identify and choose a robust action under a worst case deviation in input space due to possible adversaries or noise. Moreover, the resulting policy comes with a certificate of solution quality, even though the true state and optimal action are unknown to the certifier due to the perturbations. The approach is demonstrated on a deep Q-network (DQN) policy and is shown to increase robustness to noise and adversaries in pedestrian collision avoidance scenarios, a classic control task, and Atari Pong. This article extends our prior work with new performance guarantees, extensions to other reinforcement learning algorithms, expanded results aggregated across more scenarios, an extension into scenarios with adversarial behavior, comparisons with a more computationally expensive method, and visualizations that provide intuition about the robustness algorithm.",
+    "citation_count": 38,
+    "summary": "This paper presents a certifiably robust deep reinforcement learning algorithm that computes guaranteed lower bounds on state-action values, enabling robust action selection even under adversarial state uncertainty. The approach is demonstrated to improve robustness in various scenarios, including pedestrian collision avoidance and Atari games, and offers a certificate of solution quality despite unknown optimal actions."
+  },
+  {
+    "title": "Safety and Robustness for Deep Learning with Provable Guarantees",
+    "abstract": "Computing systems are becoming ever more complex, with decisions increasingly often based on deep learning components. A wide variety of applications are being developed, many of them safety-critical, such as self-driving cars and medical diagnosis. Since deep learning is unstable with respect to adversarial perturbations, there is a need for rigorous software development methodologies that encompass machine learning components. This lecture will describe progress with developing automated verification and testing techniques for deep neural networks to ensure safety and robustness of their decisions with respect to bounded input perturbations. The techniques exploit Lipschitz continuity of the networks and aim to approximate, for a given set of inputs, the reachable set of network outputs in terms of lower and upper bounds, in anytime manner, with provable guarantees. We develop novel algorithms based on feature-guided search, games, global optimisation and Bayesian methods, and evaluate them on state-of-the-art networks. The lecture will conclude with an overview of the challenges in this field.",
+    "published_date": "2020-09-01",
+    "citation_count": 4,
+    "url": "https://dl.acm.org/doi/10.1145/3324884.3418901",
+    "summary": "This lecture explores methods for verifying and testing the safety and robustness of deep neural networks, focusing on techniques that provide provable guarantees on output bounds under bounded input perturbations. These techniques leverage Lipschitz continuity and employ algorithms like feature-guided search and global optimization."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to explore potential pathways to existential risks from transformative AI (TAI), particularly focusing on scenarios with short timelines (e.g., within a decade). The program will evaluate strategies for AI safety and governance across these scenarios to identify approaches that best mitigate existential risk."
+  },
+  {
+    "url": "https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ",
+    "author": "markov, Charbel-Raphaël",
+    "title": "AI Safety 101 - LessWrong",
+    "published_date": "2023-10-20",
+    "summary": "This series of posts aims to provide a comprehensive introduction to AI safety. The content and order of the posts are still under development."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/Epm6CkXrdRyAihMRe/an-66-decomposing-robustness-into-capability-robustness-and",
+    "author": "Rohin Shah",
+    "title": "[AN #66]: Decomposing robustness into capability robustness and alignment robustness - AI Alignment Forum",
+    "published_date": "2023-02-07",
+    "summary": "This Alignment Newsletter discusses the decomposition of robustness in machine learning into \"robust capabilities\" and \"robust alignment,\" highlighting the danger of robustly capable but misaligned systems (mesa optimization). It also features research on iterated amplification, specifically using \"debate\" to improve model accuracy on multiple-choice questions, and further explores the concept of mesa optimization and its implications."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2210.08906.pdf",
+    "title": "A.I. Robustness: a Human-Centered Perspective on Technological Challenges and Opportunities",
+    "published_date": "2022-10-17",
+    "abstract": "Despite the impressive performance of Artificial Intelligence (AI) systems, their robustness remains elusive and constitutes a key issue that impedes large-scale adoption. Besides, robustness is interpreted differently across domains and contexts of AI. In this work, we systematically survey recent progress to provide a reconciled terminology of concepts around AI robustness. We introduce three taxonomies to organize and describe the literature both from a fundamental and applied point of view: 1) methods and approaches that address robustness in different phases of the machine learning pipeline; 2) methods improving robustness in specific model architectures, tasks, and systems; and in addition, 3) methodologies and insights around evaluating the robustness of AI systems, particularly the trade-offs with other trustworthiness properties. Finally, we identify and discuss research gaps and opportunities and give an outlook on the field. We highlight the central role of humans in evaluating and enhancing AI robustness, considering the necessary knowledge they can provide, and discuss the need for better understanding practices and developing supportive tools in the future.",
+    "citation_count": 7,
+    "summary": "This paper surveys current research on AI robustness, proposing a unified terminology and taxonomies to categorize approaches across the machine learning pipeline, model architectures, and evaluation methodologies. It emphasizes the crucial role of human expertise in assessing and improving AI robustness, highlighting future research needs."
+  },
+  {
+    "url": "https://arxiv.org/abs/2209.15042",
+    "title": "Generalizability of Adversarial Robustness Under Distribution Shifts",
+    "published_date": "2022-09-29",
+    "abstract": "Recent progress in empirical and certified robustness promises to deliver reliable and deployable Deep Neural Networks (DNNs). Despite that success, most existing evaluations of DNN robustness have been done on images sampled from the same distribution on which the model was trained. However, in the real world, DNNs may be deployed in dynamic environments that exhibit significant distribution shifts. In this work, we take a first step towards thoroughly investigating the interplay between empirical and certified adversarial robustness on one hand and domain generalization on another. To do so, we train robust models on multiple domains and evaluate their accuracy and robustness on an unseen domain. We observe that: (1) both empirical and certified robustness generalize to unseen domains, and (2) the level of generalizability does not correlate well with input visual similarity, measured by the FID between source and target domains. We also extend our study to cover a real-world medical application, in which adversarial augmentation significantly boosts the generalization of robustness with minimal effect on clean data accuracy.",
+    "citation_count": 8,
+    "summary": "This paper investigates how adversarial robustness of deep neural networks generalizes across different data distributions, finding that both empirical and certified robustness transfer to unseen domains, but this transfer is not strongly correlated with visual similarity between domains. Furthermore, adversarial training improves robustness generalization in a real-world medical application."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/dhbLE8BqRvhBtsXhS/mlsn-3-neurips-safety-paper-roundup",
+    "author": "Dan H",
+    "title": "[MLSN #3]: NeurIPS Safety Paper Roundup",
+    "published_date": "2022-03-08",
+    "summary": "The ML Safety Newsletter's third issue summarizes recent research on improving machine learning model robustness, including studies on Vision Transformers' robustness compared to ConvNets, a novel fractal-based data augmentation technique (PixMix), and a new method for synthesizing outliers to improve anomaly detection. The newsletter also highlights various other advancements in adversarial robustness and safety."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/robust-agents",
+    "author": "Alyssa Vance",
+    "title": "Robust Agents - AI Alignment Forum",
+    "published_date": "2022-07-14",
+    "summary": "Robust agents are adaptable decision-makers possessing a coherent value system and decision-making process, allowing them to succeed in diverse and unpredictable situations. Unlike agents relying on instinct or narrow goals, robust agents can adapt to new circumstances and strategies."
+  },
+  {
+    "url": "https://arxiv.org/abs/2112.09279",
+    "title": "Robust Upper Bounds for Adversarial Training",
+    "published_date": "2021-12-17",
+    "abstract": "Many state-of-the-art adversarial training methods for deep learning leverage upper bounds of the adversarial loss to provide security guarantees against adversarial attacks. Yet, these methods rely on convex relaxations to propagate lower and upper bounds for intermediate layers, which affect the tightness of the bound at the output layer. We introduce a new approach to adversarial training by minimizing an upper bound of the adversarial loss that is based on a holistic expansion of the network instead of separate bounds for each layer. This bound is facilitated by state-of-the-art tools from Robust Optimization; it has closed-form and can be effectively trained using backpropagation. We derive two new methods with the proposed approach. The first method (Approximated Robust Upper Bound or aRUB) uses the first order approximation of the network as well as basic tools from Linear Robust Optimization to obtain an empirical upper bound of the adversarial loss that can be easily implemented. The second method (Robust Upper Bound or RUB), computes a provable upper bound of the adversarial loss. Across a variety of tabular and vision data sets we demonstrate the effectiveness of our approach -- RUB is substantially more robust than state-of-the-art methods for larger perturbations, while aRUB matches the performance of state-of-the-art methods for small perturbations.",
+    "summary": "This paper introduces a novel adversarial training approach minimizing a holistic upper bound of the adversarial loss, avoiding layer-wise convex relaxations used in existing methods. This leads to two new methods, RUB (provable upper bound) and aRUB (approximated upper bound), which demonstrate improved robustness compared to state-of-the-art techniques, especially for larger perturbations."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/AwMb7C72etphiRvah/unsolved-ml-safety-problems",
+    "author": "jsteinhardt",
+    "title": "Unsolved ML Safety Problems",
+    "published_date": "2021-09-29",
+    "summary": "The paper \"Unsolved Problems in ML Safety\" outlines a roadmap for addressing emerging safety challenges in machine learning, focusing on three key areas: robustness (withstanding hazards like long-tail events and adversarial attacks), monitoring (detecting anomalies and backdoors), and alignment (ensuring safe objectives and their pursuit)."
+  }
+]

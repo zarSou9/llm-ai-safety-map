@@ -1,0 +1,80 @@
+[
+  {
+    "url": "https://arxiv.org/abs/1912.00757",
+    "title": "Mapping the Potential and Pitfalls of \"Data Dividends\" as a Means of Sharing the Profits of Artificial Intelligence",
+    "published_date": "2019-11-19",
+    "abstract": "Identifying strategies to more broadly distribute the economic winnings of AI technologies is a growing priority in HCI and other fields. One idea gaining prominence centers on \"data dividends\", or sharing the profits of AI technologies with the people who generated the data on which these technologies rely. Despite the rapidly growing discussion around data dividends - including backing by prominent politicians - there exists little guidance about how data dividends might be designed and little information about if they will work. In this paper, we begin the process of developing a concrete design space for data dividends. We additionally simulate the effects of a variety of important design decisions using well-known datasets and algorithms. We find that seemingly innocuous decisions can create counterproductive effects, e.g. severely concentrated dividends and demographic disparities. Overall, the outcomes we observe -- both desirable and undesirable -- highlight the need for dividend implementers to make design decisions cautiously.",
+    "citation_count": 4,
+    "summary": "This paper explores the design space of \"data dividends,\" a proposed mechanism for sharing AI profits with data contributors, using simulations to reveal how seemingly minor design choices can lead to uneven distribution and exacerbate existing inequalities. The findings highlight the critical need for careful consideration in the implementation of data dividend schemes."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.02561",
+    "title": "Beneficence Signaling in AI Development Dynamics",
+    "published_date": "2023-05-04",
+    "abstract": "This paper motivates and develops a framework for understanding how the socio-technical systems surrounding AI development interact with social welfare. It introduces the concept of ``signaling'' from evolutionary game theory and demonstrates how it can enhance existing theory and practice surrounding the evaluation and governance of AI systems.",
+    "summary": "This paper proposes a framework using \"beneficence signaling\" from evolutionary game theory to analyze how AI development's socio-technical systems impact social welfare. It argues this framework improves AI system evaluation and governance."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/BCynDEwguEiogicAo/reflection-of-hierarchical-relationship-via-nuanced?commentId=LxbpnsnaqWD3xEwZc",
+    "author": "Kyoung-cheol Kim",
+    "title": "Reflection of Hierarchical Relationship via Nuanced Conditioning of Game Theory Approach for AI Development and Utilization - LessWrong",
+    "published_date": "2023-02-07",
+    "summary": "This article explores applying game theory to AI development within organizations, highlighting its limitations and suggesting a multi-agent approach incorporating bureaucratic principles. It argues that even with advanced AI, human-AI collaboration within a structured, bureaucratic framework remains necessary for efficient complex problem-solving due to limitations in individual processing capacity."
+  },
+  {
+    "url": "https://arxiv.org/abs/2201.11441",
+    "title": "Human-centered mechanism design with Democratic AI",
+    "published_date": "2022-01-27",
+    "abstract": "Building artificial intelligence (AI) that aligns with human values is an unsolved problem. Here, we developed a human-in-the-loop research pipeline called Democratic AI, in which reinforcement learning is used to design a social mechanism that humans prefer by majority. A large group of humans played an online investment game that involved deciding whether to keep a monetary endowment or to share it with others for collective benefit. Shared revenue was returned to players under two different redistribution mechanisms, one designed by the AI and the other by humans. The AI discovered a mechanism that redressed initial wealth imbalance, sanctioned free riders, and successfully won the majority vote. By optimizing for human preferences, Democratic AI may be a promising method for value-aligned policy innovation.",
+    "citation_count": 2,
+    "summary": "Democratic AI, a human-in-the-loop reinforcement learning system, designed a social mechanism preferred by a majority of human participants in an online investment game, demonstrating its potential for creating value-aligned AI policies. This mechanism successfully addressed wealth inequality and punished free-riders."
+  },
+  {
+    "title": "Freedom at Work: Understanding, Alienation, and the AI-Driven Workplace",
+    "abstract": "Abstract This paper explores a neglected normative dimension of algorithmic opacity in the workplace and the labor market. It argues that explanations of algorithms and algorithmic decisions are of noninstrumental value. That is because explanations of the structure and function of parts of the social world form the basis for reflective clarification of our practical orientation toward the institutions that play a central role in our life. Using this account of the noninstrumental value of explanations, the paper diagnoses distinctive normative defects in the workplace and economic institutions which a reliance on AI can encourage, and which lead to alienation.",
+    "published_date": "2022-01-01",
+    "citation_count": 10,
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7C2D79FB942961B33C2C9D01203D2D3F/S0045509121000394a.pdf/div-class-title-freedom-at-work-understanding-alienation-and-the-ai-driven-workplace-div.pdf",
+    "summary": "This paper argues that algorithmic opacity in the workplace hinders workers' understanding of their environment, leading to alienation; explanations of algorithms are thus crucial not just for practical reasons, but for fostering a sense of agency and freedom."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2203.05778v1.pdf",
+    "title": "Redistribution in Public Project Problems via Neural Networks",
+    "published_date": "2021-12-14",
+    "abstract": "Many important problems in multiagent systems involve resource allocations. Self-interested agents may lie about their valuations if doing so increases their own utilities. Therefore, it is necessary to design mechanisms (collective decision-making rules) with desired properties and objectives. The VCG redistribution mechanisms are efficient (the agents who value the resources the most will be allocated), strategy-proof (the agents have no incentives to lie about their valuations), and weakly budget-balanced (no deficits). We focus on the VCG redistribution mechanisms for the classic public project problem, where a group of agents needs to decide whether or not to build a non-excludable public project. We design mechanisms via neural networks with two welfare-maximizing objectives: optimal in the worst case and optimal in expectation. Previous studies showed two worst-case optimal mechanisms for 3 agents, but worst-case optimal mechanisms have not been identified for more than 3 agents. For maximizing expected welfare, there are no existing results. We use neural networks to design VCG redistribution mechanisms. Neural networks have been used to design the redistribution mechanisms for multi-unit auctions with unit demand. We show that for the public project problem, the previously proposed neural networks, which led to optimal/near-optimal mechanisms for multi-unit auctions with unit demand, perform abysmally for the public project problem. We significantly improve the existing networks on multiple fronts: We conduct a GAN network to generate worst-case type profiles and feed prior distribution into loss function to provide quality gradients for the optimal-in-expectation objective. We adopt dimension reduction to handle a larger number of agents and we adopt supervised learning into the best manual mechanism as initialization, then leave it into unsupervised learning. For the worst case, we get better results than the existing manual mechanisms, and for the optimal-in-expectation objective, our mechanisms' performances are close to the theoretical optimal performance.",
+    "citation_count": 2,
+    "summary": "This paper uses neural networks to design improved Vickrey-Clarke-Groves (VCG) redistribution mechanisms for the public project problem, achieving better worst-case performance than existing methods and near-optimal expected welfare by incorporating generative adversarial networks (GANs) and dimension reduction techniques."
+  },
+  {
+    "url": "https://arxiv.org/abs/2105.08475",
+    "title": "AI and Shared Prosperity",
+    "published_date": "2021-05-18",
+    "abstract": "Future advances in AI that automate away human labor may have stark implications for labor markets and inequality. This paper proposes a framework to analyze the effects of specific types of AI systems on the labor market, based on how much labor demand they will create versus displace, while taking into account that productivity gains also make society wealthier and thereby contribute to additional labor demand. This analysis enables ethically-minded companies creating or deploying AI systems as well as researchers and policymakers to take into account the effects of their actions on labor markets and inequality, and therefore to steer progress in AI in a direction that advances shared prosperity and an inclusive economic future for all of humanity.",
+    "citation_count": 25,
+    "summary": "This paper presents a framework for analyzing AI's impact on labor markets and inequality, considering both job displacement and creation alongside productivity gains, aiming to guide ethical AI development for shared prosperity. It seeks to help companies, researchers, and policymakers steer AI progress towards an inclusive economic future."
+  },
+  {
+    "url": "https://arxiv.org/abs/2110.14419",
+    "title": "Toward a Theory of Justice for Artificial Intelligence",
+    "published_date": "2021-10-27",
+    "abstract": "Abstract This essay explores the relationship between artificial intelligence and principles of distributive justice. Drawing upon the political philosophy of John Rawls, it holds that the basic structure of society should be understood as a composite of sociotechnical systems, and that the operation of these systems is increasingly shaped and influenced by AI. Consequently, egalitarian norms of justice apply to the technology when it is deployed in these contexts. These norms entail that the relevant AI systems must meet a certain standard of public justification, support citizens' rights, and promote substantively fair outcomes, something that requires particular attention to the impact they have on the worst-off members of society.",
+    "citation_count": 40,
+    "summary": "This essay argues that principles of distributive justice, particularly Rawls's theory, should apply to AI systems within society's basic structure. This necessitates that AI systems be publicly justifiable, uphold citizens' rights, and promote fair outcomes, especially for the most disadvantaged."
+  },
+  {
+    "title": "AI and Shared Prosperity",
+    "abstract": "Future advances in AI that automate away human labor may have stark implications for labor markets and inequality. This paper proposes a framework to analyze the effects of specific types of AI systems on the labor market, based on how much labor demand they will create versus displace, while taking into account that productivity gains also make society wealthier and thereby contribute to additional labor demand. This analysis enables ethically-minded companies creating or deploying AI systems as well as researchers and policymakers to take into account the effects of their actions on labor markets and inequality, and therefore to steer progress in AI in a direction that advances shared prosperity and an inclusive economic future for all of humanity.",
+    "published_date": "2021-05-18",
+    "citation_count": 25,
+    "url": "https://dl.acm.org/doi/10.1145/3461702.3462619",
+    "summary": "This paper presents a framework for assessing the labor market impacts of AI systems, considering both job displacement and creation alongside productivity-driven wealth generation, aiming to guide ethical AI development for shared prosperity. It seeks to help companies, researchers, and policymakers steer AI progress towards inclusive economic growth."
+  },
+  {
+    "title": "Simplicity creates inequity: implications for fairness, stereotypes, and interpretability (invited paper)",
+    "abstract": "Algorithms are increasingly used to aid, or in some cases supplant, human decision-making, particularly for decisions that hinge on predictions. As a result, two additional features in addition to prediction quality have generated interest: (i) to facilitate human interaction and understanding with these algorithms, we desire prediction functions that are in some fashion simple or interpretable; and (ii) because they influence consequential decisions, we also want them to produce equitable allocations. We develop a formal model to explore the relationship between the demands of simplicity and equity. Although the two concepts appear to be motivated by qualitatively distinct goals, we show a fundamental inconsistency between them. Specifically, we formalize a general framework for producing simple prediction functions, and in this framework we establish two basic results. First, every simple prediction function is strictly improvable: there exists a more complex prediction function that is both strictly more efficient and also strictly more equitable. Put another way, using a simple prediction function both reduces utility for disadvantaged groups and reduces overall welfare relative to other options. Second, we show that simple prediction functions necessarily create incentives to use information about individuals' membership in a disadvantaged group --- incentives that weren't present before simplification, and that work against these individuals. Thus, simplicity transforms disadvantage into bias against the disadvantaged group. Our results are not only about algorithms but about any process that produces simple models, and as such they connect to the psychology of stereotypes and to an earlier economics literature on statistical discrimination.",
+    "published_date": "2021-06-15",
+    "citation_count": 2,
+    "url": "https://dl.acm.org/doi/10.1145/3406325.3465356",
+    "summary": "This paper demonstrates a fundamental conflict between algorithmic simplicity and equity, showing that simpler prediction models, while seemingly beneficial for interpretability, are inherently less efficient and more inequitable than complex models, often exacerbating bias against disadvantaged groups. This incompatibility extends beyond algorithms to broader model-building processes, including the formation of stereotypes."
+  }
+]

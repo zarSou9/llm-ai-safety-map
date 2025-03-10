@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/1711.06104.pdf",
+    "title": "A unified view of gradient-based attribution methods for Deep Neural Networks",
+    "published_date": "2017-11-16",
+    "abstract": "Understanding the flow of information in Deep Neural Networks is a challenging problem that has gain increasing attention over the last few years. While several methods have been proposed to explain network predictions, only few attempts to analyze them from a theoretical perspective have been made in the past. In this work we analyze various state-of-the-art attribution methods and prove unexplored connections between them. We also show how some methods can be reformulated and more conveniently implemented. Finally, we perform an empirical evaluation with six attribution methods on a variety of tasks and architectures and discuss their strengths and limitations.",
+    "citation_count": 142
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.10852",
+    "title": "IG2: Integrated Gradient on Iterative Gradient Path for Feature Attribution",
+    "published_date": "2024-06-16",
+    "abstract": "Feature attribution explains Artificial Intelligence (AI) at the instance level by providing importance scores of input features' contributions to model prediction. Integrated Gradients (IG) is a prominent path attribution method for deep neural networks, involving the integration of gradients along a path from the explained input (explicand) to a counterfactual instance (baseline). Current IG variants primarily focus on the gradient of explicand's output. However, our research indicates that the gradient of the counterfactual output significantly affects feature attribution as well. To achieve this, we propose <underline>I</underline>terative <underline>G</underline>radient path <underline>I</underline>ntegrated <underline>G</underline>radients (IG<sup>2</sup>), considering both gradients. IG<sup>2</sup> incorporates the counterfactual gradient iteratively into the integration path, generating a novel path (<italic>GradPath</italic>) and a novel baseline (<italic>GradCF</italic>). These two novel IG components effectively address the issues of attribution noise and arbitrary baseline choice in earlier IG methods. IG<sup>2</sup>, as a path method, satisfies many desirable axioms, which are theoretically justified in the paper. Experimental results on XAI benchmark, ImageNet, MNIST, TREC questions answering, wafer-map failure patterns, and CelebA face attributes validate that IG<sup>2</sup> delivers superior feature attributions compared to the state-of-the-art techniques.",
+    "citation_count": 1
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/93nKtsDL6YY5fRbQv/case-studies-in-reverse-engineering-sparse-autoencoder",
+    "author": "Jacob Dunefsky, Philippe Chlenski, Senthooran Rajamanoharan, Neel Nanda",
+    "title": "Case Studies in Reverse-Engineering Sparse Autoencoder Features by Using MLP Linearization",
+    "published_date": "2024-01-14"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/QQP4nq7TXg89CJGBh/a-sober-look-at-steering-vectors-for-llms",
+    "author": "Joschka Braun, Dmitrii Krasheninnikov, Usman Anwar, RobertKirk, Daniel Tan, David Scott Krueger (formerly: capybaralet)",
+    "title": "A Sober Look at Steering Vectors for LLMs",
+    "published_date": "2024-11-23"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/8ev6coxChSWcxCDy8/self-explaining-sae-features",
+    "author": "Dmitrii Kharlapenko; Neverix; Neel Nanda; Arthur Conmy",
+    "title": "Self-explaining SAE features",
+    "published_date": "2024-08-05"
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/xknjY568uQp4PGFcW/self-control-of-llm-behaviors-by-compressing-suffix-gradient-1",
+    "author": "Henry Cai",
+    "title": "Self-Control of LLM Behaviors by Compressing Suffix Gradient into Prefix Controller",
+    "published_date": "2024-06-16"
+  }
+]

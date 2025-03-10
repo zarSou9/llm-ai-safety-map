@@ -1,0 +1,65 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.09718",
+    "title": "AI and the Opportunity for Shared Prosperity: Lessons from the History of Technology and the Economy",
+    "published_date": "2024-01-18",
+    "abstract": "Recent progress in artificial intelligence (AI) marks a pivotal moment in human history. It presents the opportunity for machines to learn, adapt, and perform tasks that have the potential to assist people, from everyday activities to their most creative and ambitious projects. It also has the potential to help businesses and organizations harness knowledge, increase productivity, innovate, transform, and power shared prosperity. This tremendous potential raises two fundamental questions: (1) Will AI actually advance national and global economic transformation to benefit society at large? and (2) What issues must we get right to fully realize AI's economic value, expand prosperity and improve lives everywhere? We explore these questions by considering the recent history of technology and innovation as a guide for the likely impact of AI and what we must do to realize its economic potential to benefit society. While we do not presume the future will be entirely like that past, for reasons we will discuss, we do believe prior experience with technological change offers many useful lessons. We conclude that while progress in AI presents a historic opportunity to advance our economic prosperity and future wellbeing, its economic benefits will not come automatically and that AI risks exacerbating existing economic challenges unless we collectively and purposefully act to enable its potential and address its challenges. We suggest a collective policy agenda - involving developers, deployers and users of AI, infrastructure providers, policymakers, and those involved in workforce training - that may help both realize and harness AI's economic potential and address its risks to our shared prosperity.",
+    "citation_count": 1,
+    "summary": "The paper argues that AI's potential for shared prosperity is significant but not guaranteed, requiring proactive policy and collaboration to mitigate risks and maximize benefits, drawing lessons from past technological advancements. Its economic impact hinges on addressing challenges and purposefully enabling AI's potential."
+  },
+  {
+    "title": "Artificial Intelligence, Income Distribution and Economic Growth",
+    "abstract": "The economic impact of Articial Intelligence (AI) is studied using a (semi) endogenous growth model with two novel features. First, the task approach from labor economics is reformulated and integrated into a growth model. Second, the standard representative household assumption is rejected, so that aggregate demand restrictions can be introduced. With these novel features it is shown that (i) AI automation can decrease the share of labor income no matter the size of the elasticity of substitution between AI and labor, and (ii) when this elasticity is high, AI will unambiguously reduce aggregate demand and slow down GDP growth, even in the face of the positive technology shock that AI entails. If the elasticity of substitution is low, then GDP, productivity and wage growth may however still slow down, because the economy will then fail to benefit from the supply-side driven capacity expansion potential that AI can deliver. The model can thus explain why advanced countries tend to experience, despite much AI hype, the simultaneous existence of rather high employment with stagnating wages, productivity, and GDP.",
+    "published_date": "2024-06-18",
+    "citation_count": 9,
+    "url": "https://www.econstor.eu/bitstream/10419/224623/1/vfs-2020-pid-40327.pdf",
+    "summary": "An integrated growth model incorporating a task-based approach to labor and heterogeneous households demonstrates that AI automation can reduce labor income share regardless of substitutability with labor, and may slow GDP growth, especially when AI and labor are highly substitutable, due to reduced aggregate demand."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three strategies for governing transformative AI: Cooperative Development, Strategic Advantage, and Global Moratorium. The effectiveness of each strategy depends heavily on the difficulty of aligning AI and the projected timeline for its development, with preferences shifting based on these factors."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.11441.pdf",
+    "title": "Human-centered mechanism design with Democratic AI",
+    "published_date": "2022-01-27",
+    "abstract": "Building artificial intelligence (AI) that aligns with human values is an unsolved problem. Here, we developed a human-in-the-loop research pipeline called Democratic AI, in which reinforcement learning is used to design a social mechanism that humans prefer by majority. A large group of humans played an online investment game that involved deciding whether to keep a monetary endowment or to share it with others for collective benefit. Shared revenue was returned to players under two different redistribution mechanisms, one designed by the AI and the other by humans. The AI discovered a mechanism that redressed initial wealth imbalance, sanctioned free riders, and successfully won the majority vote. By optimizing for human preferences, Democratic AI may be a promising method for value-aligned policy innovation.",
+    "citation_count": 2,
+    "summary": "Democratic AI, a human-in-the-loop reinforcement learning system, designed a social mechanism preferred by a majority of human participants in an online investment game, demonstrating its potential for creating value-aligned AI policies. This mechanism successfully addressed wealth inequality and punished free-riding behavior."
+  },
+  {
+    "url": "https://arxiv.org/abs/2105.08475",
+    "title": "AI and Shared Prosperity",
+    "published_date": "2021-05-18",
+    "abstract": "Future advances in AI that automate away human labor may have stark implications for labor markets and inequality. This paper proposes a framework to analyze the effects of specific types of AI systems on the labor market, based on how much labor demand they will create versus displace, while taking into account that productivity gains also make society wealthier and thereby contribute to additional labor demand. This analysis enables ethically-minded companies creating or deploying AI systems as well as researchers and policymakers to take into account the effects of their actions on labor markets and inequality, and therefore to steer progress in AI in a direction that advances shared prosperity and an inclusive economic future for all of humanity.",
+    "citation_count": 25,
+    "summary": "This paper presents a framework for analyzing the labor market impacts of AI, considering both job displacement and creation alongside productivity gains, aiming to guide ethical AI development and deployment for shared prosperity. It focuses on balancing AI-driven automation with the creation of new opportunities to ensure equitable economic benefits."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2108.02755.pdf",
+    "title": "The AI Economist: Optimal Economic Policy Design via Two-level Deep Reinforcement Learning",
+    "published_date": "2021-08-05",
+    "abstract": "AI and reinforcement learning (RL) have improved many areas, but are not yet widely adopted in economic policy design, mechanism design, or economics at large. At the same time, current economic methodology is limited by a lack of counterfactual data, simplistic behavioral models, and limited opportunities to experiment with policies and evaluate behavioral responses. Here we show that machine-learning-based economic simulation is a powerful policy and mechanism design framework to overcome these limitations. The AI Economist is a two-level, deep RL framework that trains both agents and a social planner who co-adapt, providing a tractable solution to the highly unstable and novel two-level RL challenge. From a simple specification of an economy, we learn rational agent behaviors that adapt to learned planner policies and vice versa. We demonstrate the efficacy of the AI Economist on the problem of optimal taxation. In simple one-step economies, the AI Economist recovers the optimal tax policy of economic theory. In complex, dynamic economies, the AI Economist substantially improves both utilitarian social welfare and the trade-off between equality and productivity over baselines. It does so despite emergent tax-gaming strategies, while accounting for agent interactions and behavioral change more accurately than economic theory. These results demonstrate for the first time that two-level, deep RL can be used for understanding and as a complement to theory for economic design, unlocking a new computational learning-based approach to understanding economic policy.",
+    "citation_count": 26,
+    "summary": "The AI Economist uses a two-level deep reinforcement learning framework to design optimal economic policies, overcoming limitations of traditional economic modeling by simulating agent behavior and policy co-adaptation. This approach significantly improves social welfare in complex economic scenarios compared to existing baselines, even accounting for emergent agent strategies."
+  },
+  {
+    "title": "AI and Shared Prosperity",
+    "abstract": "Future advances in AI that automate away human labor may have stark implications for labor markets and inequality. This paper proposes a framework to analyze the effects of specific types of AI systems on the labor market, based on how much labor demand they will create versus displace, while taking into account that productivity gains also make society wealthier and thereby contribute to additional labor demand. This analysis enables ethically-minded companies creating or deploying AI systems as well as researchers and policymakers to take into account the effects of their actions on labor markets and inequality, and therefore to steer progress in AI in a direction that advances shared prosperity and an inclusive economic future for all of humanity.",
+    "published_date": "2021-05-18",
+    "citation_count": 25,
+    "url": "https://dl.acm.org/doi/10.1145/3461702.3462619",
+    "summary": "This paper presents a framework for analyzing AI's impact on labor markets and inequality, considering both job displacement and the creation of new jobs due to productivity gains, aiming to guide ethical AI development for shared prosperity."
+  },
+  {
+    "url": "https://arxiv.org/abs/2110.14419v2",
+    "title": "Toward a Theory of Justice for Artificial Intelligence",
+    "published_date": "2021-10-27",
+    "abstract": "Abstract This essay explores the relationship between artificial intelligence and principles of distributive justice. Drawing upon the political philosophy of John Rawls, it holds that the basic structure of society should be understood as a composite of sociotechnical systems, and that the operation of these systems is increasingly shaped and influenced by AI. Consequently, egalitarian norms of justice apply to the technology when it is deployed in these contexts. These norms entail that the relevant AI systems must meet a certain standard of public justification, support citizens' rights, and promote substantively fair outcomes, something that requires particular attention to the impact they have on the worst-off members of society.",
+    "citation_count": 40,
+    "summary": "This essay argues that distributive justice principles, particularly Rawls's theory, should govern the design and implementation of AI systems, emphasizing fairness and the protection of the most vulnerable in society. This necessitates AI systems meeting standards of public justification, upholding citizen rights, and promoting equitable outcomes."
+  }
+]

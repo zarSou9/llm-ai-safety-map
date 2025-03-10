@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.lesswrong.com/posts/NXTkEiaLA4JdS5vSZ/what-o3-becomes-by-2028",
+    "author": "Vladimir_Nesov",
+    "title": "What o3 Becomes by 2028",
+    "published_date": "2024-12-22",
+    "summary": "Large language model (LLM) training compute is rapidly scaling, with significant investments in infrastructure enabling models far exceeding GPT-4's capabilities. This scaling is driven by substantial funding and the construction of massive training clusters, projected to reach 5 GW capacity by 2028, pushing the limits of both model size and data."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/TYLQ8gAMAmpeFcwXN/ophiology-or-how-the-mamba-architecture-works",
+    "author": "Danielle Ensign, SrGonao, Adrià Garriga-alonso",
+    "title": "Ophiology (or, how the Mamba architecture works)",
+    "published_date": "2024-04-09",
+    "summary": "This post introduces Mamba, a promising recurrent neural network architecture based on state-space models, showcasing its efficient inference and scalability compared to transformers. The authors explore Mamba's underlying state-space model equations and different methods for solving the resulting ordinary differential equations."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/tJAD2LG9uweeEfjwq/estimating-efficiency-improvements-in-llm-pre-training",
+    "author": "Daan",
+    "title": "Estimating efficiency improvements in LLM pre-training",
+    "published_date": "2024-01-19",
+    "summary": "The author argues that improvements in the efficiency of AI model training have contributed as much to recent advancements as increases in computing resources, contrary to common belief. This conclusion is supported by an estimated 170x reduction in FLOPs needed to achieve GPT-3 level performance, suggesting significant progress in algorithmic and hardware efficiency."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/d9MkMeLWvoDEsqpQP/a-compilation-of-misuses-of-statistics",
+    "author": "Younes Kamel",
+    "title": "A compilation of misuses of statistics",
+    "published_date": "2022-02-14",
+    "summary": "The article highlights common statistical errors, primarily focusing on the misuse of Gaussian assumptions in modeling fat-tailed distributions and misinterpretations of p-values, base rates, and statistical power. These errors often lead to inaccurate conclusions in fields like finance, economics, and scientific research."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/kcYxeqEwevsRFPkuF/is-the-scaling-race-finally-on",
+    "author": "p.b.",
+    "title": "Is the scaling race finally on?",
+    "published_date": "2022-04-04",
+    "summary": "DeepMind's new research reveals improved large language model training techniques that prioritize data over parameter scaling, contradicting previous assumptions and suggesting a shift in AI development strategy towards more efficient, cost-effective models rather than simply larger ones. This challenges the prior belief in a scaling race to ever-larger models and highlights the effectiveness of optimized training methods."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/cCcCJnvMEHqrgiCnx/practical-use-of-the-beta-distribution-for-data-analysis",
+    "author": "Maxwell Peterson",
+    "title": "Practical use of the Beta distribution for data analysis",
+    "published_date": "2022-04-03",
+    "summary": "The Gaussian distribution is often incorrectly used to model binary count data; the Beta distribution is more appropriate, especially for small datasets or probabilities near 0 or 1, where the Gaussian approximation breaks down and yields nonsensical results. Using the Beta distribution is straightforward and provides accurate uncertainty intervals."
+  },
+  {
+    "title": "How to Measure Scalability of Distributed Stream Processing Engines?",
+    "abstract": "Scalability is promoted as a key quality feature of modern big data stream processing engines. However, even though research made huge efforts to provide precise definitions and corresponding metrics for the term scalability, experimental scalability evaluations or benchmarks of stream processing engines apply different and inconsistent metrics. With this paper, we aim to establish general metrics for scalability of stream processing engines. Derived from common definitions of scalability in cloud computing, we propose two metrics: a load capacity function and a resource demand function. Both metrics relate provisioned resources and load intensities, while requiring specific service level objectives to be fulfilled. We show how these metrics can be employed for scalability benchmarking and discuss their advantages in comparison to other metrics, used for stream processing engines and other software systems.",
+    "published_date": "2021-04-19",
+    "citation_count": 20,
+    "url": "https://dl.acm.org/doi/10.1145/3447545.3451190",
+    "summary": "This paper proposes two metrics—load capacity and resource demand functions—for evaluating the scalability of distributed stream processing engines, aiming to standardize benchmarking by relating provisioned resources to load intensity while maintaining specified service level objectives. These metrics offer improvements over inconsistent existing approaches."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/fnjKpBoWJXcSDwhZk/what-s-the-backward-forward-flop-ratio-for-nns",
+    "author": "Marius Hobbhahn, Jsevillamol",
+    "title": "What's the backward-forward FLOP ratio for Neural Networks?",
+    "published_date": "2021-12-13",
+    "summary": "The backward-to-forward FLOP ratio in neural network training is typically near 2:1 for deep networks with convolutional layers and large batch sizes, but can range from 1:1 to 3:1 depending on factors like layer type, batch size, and network depth."
+  }
+]

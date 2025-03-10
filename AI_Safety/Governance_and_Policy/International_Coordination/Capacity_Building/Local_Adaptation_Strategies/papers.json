@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2405.10295",
+    "title": "Societal Adaptation to Advanced AI",
+    "published_date": "2024-05-16",
+    "abstract": "Existing strategies for managing risks from advanced AI systems often focus on affecting what AI systems are developed and how they diffuse. However, this approach becomes less feasible as the number of developers of advanced AI grows, and impedes beneficial use-cases as well as harmful ones. In response, we urge a complementary approach: increasing societal adaptation to advanced AI, that is, reducing the expected negative impacts from a given level of diffusion of a given AI capability. We introduce a conceptual framework which helps identify adaptive interventions that avoid, defend against and remedy potentially harmful uses of AI systems, illustrated with examples in election manipulation, cyberterrorism, and loss of control to AI decision-makers. We discuss a three-step cycle that society can implement to adapt to AI. Increasing society's ability to implement this cycle builds its resilience to advanced AI. We conclude with concrete recommendations for governments, industry, and third-parties.",
+    "citation_count": 4,
+    "summary": "The paper argues that mitigating advanced AI risks requires not only controlling AI development and deployment, but also increasing societal adaptation to its potential harms. This involves developing strategies to avoid, defend against, and remedy negative consequences through a cyclical process of preparedness, response, and learning."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.18192",
+    "title": "Methodology of Adapting Large English Language Models for Specific Cultural Contexts",
+    "published_date": "2024-06-26",
+    "abstract": "The rapid growth of large language models(LLMs) has emerged as a prominent trend in the field of artificial intelligence. However, current state-of-the-art LLMs are predominantly based on English. They encounter limitations when directly applied to tasks in specific cultural domains, due to deficiencies in domain-specific knowledge and misunderstandings caused by differences in cultural values. To address this challenge, our paper proposes a rapid adaptation method for large models in specific cultural contexts, which leverages instruction-tuning based on specific cultural knowledge and safety values data. Taking Chinese as the specific cultural context and utilizing the LLaMA3-8B as the experimental English LLM, the evaluation results demonstrate that the adapted LLM significantly enhances its capabilities in domain-specific knowledge and adaptability to safety values, while maintaining its original expertise advantages.",
+    "summary": "This paper presents a method for adapting large English language models to specific cultural contexts, using instruction-tuning with culturally relevant data; experiments using LLaMA3-8B and a Chinese cultural context demonstrate improved domain-specific knowledge and safety while preserving existing capabilities."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.16562",
+    "title": "Vernacularizing Taxonomies of Harm is Essential for Operationalizing Holistic AI Safety",
+    "published_date": "2024-10-16",
+    "abstract": "Operationalizing AI ethics and safety principles and frameworks is essential to realizing the potential benefits and mitigating potential harms caused by AI systems. To that end, actors across industry, academia, and regulatory bodies have created formal taxonomies of harm to support operationalization efforts. These include novel “holistic” methods that go beyond exclusive reliance on technical benchmarking. However, our paper argues that such taxonomies are still too general to be readily implemented in sector-specific AI safety operationalization efforts, and especially in underresourced or “high-risk” sectors. This is because many sectors are constituted by discourses, norms, and values that “refract” or even directly conflict with those operating in society more broadly. Drawing from emerging anthropological theories of human rights, we propose that the process of “vernacularization”—a participatory, decolonial practice distinct from doctrinary “translation” (the dominant mode of AI safety operationalization)—can help bridge this gap. To demonstrate this point, we consider the education sector, and identify precisely how vernacularizing a leading taxonomy of harm leads to a clearer view of how harms AI systems may cause are substantially intensified when deployed in educational spaces. We conclude by discussing the generalizability of vernacularization as a useful AI safety methodology.",
+    "summary": "Formal AI harm taxonomies are too general for effective sector-specific implementation; the paper advocates for \"vernacularization,\" a participatory, decolonial approach, to adapt these taxonomies to specific contexts and values, improving AI safety operationalization."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.18682",
+    "title": "The Multilingual Alignment Prism: Aligning Global and Local Preferences to Reduce Harm",
+    "published_date": "2024-06-26",
+    "abstract": "A key concern with the concept of *“alignment”* is the implicit question of *“alignment to what?”*. AI systems are increasingly used across the world, yet safety alignment is often focused on homogeneous monolingual settings. Additionally, preference training and safety measures often overfit to harms common in Western-centric datasets. Here, we explore the viability of different alignment approaches when balancing dual objectives: addressing and optimizing for a non-homogeneous set of languages and cultural preferences while minimizing both global and local harms. We collect the first human annotated red teaming prompts in different languages, distinguishing between global and local harm, which serve as a laboratory to understand the reliability of alignment techniques when faced with preference distributions that are non-stationary across geographies and languages. While this setting is seldom covered by the literature to date, which primarily centers on English harm mitigation, it captures real-world interactions with AI systems around the world. We establish a new precedent for state-of-the-art alignment techniques across 6 languages with minimal degradation in general performance. Our work provides important insights into cross-lingual transfer and novel optimization approaches to safeguard AI systems designed to serve global populations.",
+    "citation_count": 17,
+    "summary": "This paper investigates aligning AI systems to diverse global and local preferences across multiple languages, mitigating harms specific to different cultures and avoiding overfitting to Western-centric datasets. The authors introduce a novel multilingual red-teaming dataset and demonstrate state-of-the-art alignment techniques with minimal performance degradation across six languages."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to analyze potential trajectories of transformative AI (TAI), focusing on scenarios where TAI emerges within the next decade. This research aims to identify existential risks posed by TAI and evaluate strategies to mitigate them, addressing the significant uncertainty surrounding TAI's development and governance."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/6nNwMbdRXZDuNd4Gx/analysis-of-global-ai-governance-strategies",
+    "author": "Sammy Martin, Justin Bullock, Corin Katzke",
+    "title": "Analysis of Global AI Governance Strategies",
+    "published_date": "2024-12-04",
+    "summary": "The article analyzes three AI governance strategies—Cooperative Development, Strategic Advantage, and Global Moratorium—evaluating their effectiveness based on the difficulty of aligning AI and the timeline for its development. The optimal strategy shifts depending on these factors, with Cooperative Development favored for longer timelines and easier alignment, Strategic Advantage for shorter timelines and moderate alignment difficulty, and Global Moratorium considered only under extreme circumstances."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that a solely technical focus is insufficient and that collaboration across numerous fields (including cognitive science, sociology, and political science) is crucial for designing safe and beneficial artificial general intelligence. This approach prioritizes a \"top-down\" design of \"civilisational intelligence\" rather than passively observing AI's evolution."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/2eaLH7zp6pxdQwYSH",
+    "author": "Austin Witte",
+    "title": "A Brief Overview of AI Safety/Alignment Orgs, Fields, Researchers, and Resources for ML Researchers",
+    "published_date": "2023-02-02",
+    "summary": "Two overview documents, a short and a long version, have been created to help machine learning researchers quickly assess the AI safety field based on their existing skills and interests. These resources list key organizations, researchers, papers, and keywords to facilitate efficient exploration of potential research avenues."
+  }
+]

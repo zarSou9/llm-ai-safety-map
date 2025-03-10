@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2102.03896.pdf",
+    "title": "Consequences of Misaligned AI",
+    "published_date": "2021-02-07",
+    "abstract": "AI systems often rely on two key components: a specified goal or reward function and an optimization algorithm to compute the optimal behavior for that goal. This approach is intended to provide value for a principal: the user on whose behalf the agent acts. The objectives given to these agents often refer to a partial specification of the principal's goals. We consider the cost of this incompleteness by analyzing a model of a principal and an agent in a resource constrained world where the $L$ attributes of the state correspond to different sources of utility for the principal. We assume that the reward function given to the agent only has support on $J<L$ attributes. The contributions of our paper are as follows: 1) we propose a novel model of an incomplete principal-agent problem from artificial intelligence; 2) we provide necessary and sufficient conditions under which indefinitely optimizing for any incomplete proxy objective leads to arbitrarily low overall utility; and 3) we show how modifying the setup to allow reward functions that reference the full state or allowing the principal to update the proxy objective over time can lead to higher utility solutions. The results in this paper argue that we should view the design of reward functions as an interactive and dynamic process and identifies a theoretical scenario where some degree of interactivity is desirable.",
+    "citation_count": 63,
+    "summary": "This paper models the principal-agent problem in AI, showing that incomplete reward functions (only considering a subset of relevant attributes) can lead to arbitrarily low overall utility for the principal unless the reward function is dynamically updated or encompasses all relevant attributes. The findings advocate for interactive and dynamic reward function design."
+  },
+  {
+    "url": "https://www.lesswrong.com/tag/outer-alignment",
+    "author": "evhub, Chris van Merwijk, Vlad Mikulik, Joar Skalse, Scott Garrabrant",
+    "title": "Outer Alignment - LessWrong",
+    "published_date": "2019-05-31",
+    "summary": "Outer alignment, the problem of ensuring an AI's objective function accurately reflects human intentions, is difficult because human values are complex and poorly understood, leading to potential misalignment even with seemingly well-specified goals. Solving this requires addressing sub-problems like specification gaming and value learning, often in conjunction with inner alignment challenges to create a robustly aligned system."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.19198",
+    "title": "MAP: Multi-Human-Value Alignment Palette",
+    "published_date": "2024-10-24",
+    "abstract": "Ensuring that generative AI systems align with human values is essential but challenging, especially when considering multiple human values and their potential trade-offs. Since human values can be personalized and dynamically change over time, the desirable levels of value alignment vary across different ethnic groups, industry sectors, and user cohorts. Within existing frameworks, it is hard to define human values and align AI systems accordingly across different directions simultaneously, such as harmlessness, helpfulness, and positiveness. To address this, we develop a novel, first-principle approach called Multi-Human-Value Alignment Palette (MAP), which navigates the alignment across multiple human values in a structured and reliable way. MAP formulates the alignment problem as an optimization task with user-defined constraints, which define human value targets. It can be efficiently solved via a primal-dual approach, which determines whether a user-defined alignment target is achievable and how to achieve it. We conduct a detailed theoretical analysis of MAP by quantifying the trade-offs between values, the sensitivity to constraints, the fundamental connection between multi-value alignment and sequential alignment, and proving that linear weighted rewards are sufficient for multi-value alignment. Extensive experiments demonstrate MAP's ability to align multiple values in a principled manner while delivering strong empirical performance across various tasks.",
+    "summary": "The Multi-Human-Value Alignment Palette (MAP) framework addresses the challenge of aligning generative AI with multiple, potentially conflicting human values by formulating alignment as a constrained optimization problem solvable via a primal-dual approach. MAP allows for user-defined value targets, enabling flexible and efficient alignment across diverse contexts and demonstrating strong empirical performance."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/value-extrapolation",
+    "title": "Value Extrapolation - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "Value extrapolation aims to define ideal human values by understanding their origins and development, using this understanding to inform machine ethics and potentially resolve conflicts or contradictions in human values. This process, such as Coherent Extrapolated Volition, seeks to create AI aligned with intentionally chosen, rather than unconsciously developed, human values."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.08759.pdf",
+    "title": "Value Engineering for Autonomous Agents",
+    "published_date": "2023-02-17",
+    "abstract": "Machine Ethics (ME) is concerned with the design of Artificial Moral Agents (AMAs), i.e. autonomous agents capable of reasoning and behaving according to moral values. Previous approaches have treated values as labels associated with some actions or states of the world, rather than as integral components of agent reasoning. It is also common to disregard that a value-guided agent operates alongside other value-guided agents in an environment governed by norms, thus omitting the social dimension of AMAs. In this blue sky paper, we propose a new AMA paradigm grounded in moral and social psychology, where values are instilled into agents as context-dependent goals. These goals intricately connect values at individual levels to norms at a collective level by evaluating the outcomes most incentivized by the norms in place. We argue that this type of normative reasoning, where agents are endowed with an understanding of norms' moral implications, leads to value-awareness in autonomous agents. Additionally, this capability paves the way for agents to align the norms enforced in their societies with respect to the human values instilled in them, by complementing the value-based reasoning on norms with agreement mechanisms to help agents collectively agree on the best set of norms that suit their human values. Overall, our agent model goes beyond the treatment of values as inert labels by connecting them to normative reasoning and to the social functionalities needed to integrate value-aware agents into our modern hybrid human-computer societies.",
+    "citation_count": 3,
+    "summary": "This paper proposes a novel framework for designing Artificial Moral Agents (AMAs) that integrates values as context-dependent goals, connecting individual values to societal norms through normative reasoning and agreement mechanisms to achieve value-aware and socially integrated autonomous agents. This approach moves beyond treating values as simple labels, fostering alignment between agent actions and human values within a social context."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2302.00813.pdf",
+    "title": "Goal Alignment: A Human-Aware Account of Value Alignment Problem",
+    "published_date": "2023-02-02",
+    "abstract": "Value alignment problems arise in scenarios where the specified objectives of an AI agent don't match the true underlying objective of its users. The problem has been widely argued to be one of the central safety problems in AI. Unfortunately, most existing works in value alignment tend to focus on issues that are primarily related to the fact that reward functions are an unintuitive mechanism to specify objectives. However, the complexity of the objective specification mechanism is just one of many reasons why the user may have misspecified their objective. A foundational cause for misalignment that is being overlooked by these works is the inherent asymmetry in human expectations about the agent's behavior and the behavior generated by the agent for the specified objective. To address this lacuna, we propose a novel formulation for the value alignment problem, named goal alignment that focuses on a few central challenges related to value alignment. In doing so, we bridge the currently disparate research areas of value alignment and human-aware planning. Additionally, we propose a first-of-its-kind interactive algorithm that is capable of using information generated under incorrect beliefs about the agent, to determine the true underlying goal of the user.",
+    "citation_count": 2,
+    "summary": "The paper argues that a core issue in AI value alignment stems from mismatched user expectations and agent behavior, not solely from imperfect reward function specification. It introduces a \"goal alignment\" framework and an interactive algorithm to address this asymmetry by inferring true user goals from actions taken under incorrect beliefs."
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.05871",
+    "title": "Dynamic value alignment through preference aggregation of multiple objectives",
+    "published_date": "2023-10-09",
+    "abstract": "The development of ethical AI systems is currently geared toward setting objective functions that align with human objectives. However, finding such functions remains a research challenge, while in RL, setting rewards by hand is a fairly standard approach. We present a methodology for dynamic value alignment, where the values that are to be aligned with are dynamically changing, using a multiple-objective approach. We apply this approach to extend Deep $Q$-Learning to accommodate multiple objectives and evaluate this method on a simplified two-leg intersection controlled by a switching agent.Our approach dynamically accommodates the preferences of drivers on the system and achieves better overall performance across three metrics (speeds, stops, and waits) while integrating objectives that have competing or conflicting actions.",
+    "summary": "This paper introduces a dynamic value alignment method for reinforcement learning agents, using multiple-objective optimization to adapt to changing preferences, demonstrated through a traffic control application where it improves performance across competing objectives."
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.02748",
+    "title": "A computational framework of human values for ethical AI",
+    "published_date": "2023-05-04",
+    "abstract": "In the diverse array of work investigating the nature of human values from psychology, philosophy and social sciences, there is a clear consensus that values guide behaviour. More recently, a recognition that values provide a means to engineer ethical AI has emerged. Indeed, Stuart Russell proposed shifting AI's focus away from simply ``intelligence'' towards intelligence ``provably aligned with human values''. This challenge -- the value alignment problem -- with others including an AI's learning of human values, aggregating individual values to groups, and designing computational mechanisms to reason over values, has energised a sustained research effort. Despite this, no formal, computational definition of values has yet been proposed. We address this through a formal conceptual framework rooted in the social sciences, that provides a foundation for the systematic, integrated and interdisciplinary investigation into how human values can support designing ethical AI.",
+    "citation_count": 4,
+    "summary": "This paper presents a novel computational framework for defining human values, addressing the lack of formal definition in current ethical AI research and providing a foundation for aligning AI with human values. This framework draws upon insights from psychology, philosophy, and social sciences to enable systematic investigation of ethical AI design."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2305.02739.pdf",
+    "title": "Human Values in Multiagent Systems",
+    "published_date": "2023-05-04",
+    "abstract": "One of the major challenges we face with ethical AI today is developing computational systems whose reasoning and behaviour are provably aligned with human values. Human values, however, are notorious for being ambiguous, contradictory and ever-changing. In order to bridge this gap, and get us closer to the situation where we can formally reason about implementing values into AI, this paper presents a formal representation of values, grounded in the social sciences. We use this formal representation to articulate the key challenges for achieving value-aligned behaviour in multiagent systems (MAS) and a research roadmap for addressing them.",
+    "summary": "This paper proposes a formal representation of human values grounded in social science to address the challenge of aligning AI behavior with human values, outlining key challenges and a research roadmap for value-aligned multiagent systems."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/human-values",
+    "author": "Quintin Pope, Alex Turner",
+    "title": "Human Values - AI Alignment Forum",
+    "published_date": "2022-09-29",
+    "summary": "Human values are the things we cherish and desire a future superintelligence to uphold, but their complexity presents a challenge in defining and ensuring their preservation."
+  }
+]

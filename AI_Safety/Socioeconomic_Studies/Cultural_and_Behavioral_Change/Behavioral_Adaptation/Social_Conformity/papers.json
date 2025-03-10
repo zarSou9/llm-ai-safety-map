@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.23630",
+    "title": "Adaptive Alignment: Dynamic Preference Adjustments via Multi-Objective Reinforcement Learning for Pluralistic AI",
+    "published_date": "2024-10-31",
+    "abstract": "Emerging research in Pluralistic Artificial Intelligence (AI) alignment seeks to address how intelligent systems can be designed and deployed in accordance with diverse human needs and values. We contribute to this pursuit with a dynamic approach for aligning AI with diverse and shifting user preferences through Multi Objective Reinforcement Learning (MORL), via post-learning policy selection adjustment. In this paper, we introduce the proposed framework for this approach, outline its anticipated advantages and assumptions, and discuss technical details about the implementation. We also examine the broader implications of adopting a retroactive alignment approach through the sociotechnical systems perspective.",
+    "summary": "This paper proposes a novel method for aligning AI with diverse and evolving human preferences using multi-objective reinforcement learning, dynamically adjusting the AI's policy after training to better reflect shifting user needs. The approach is framed within a sociotechnical systems perspective, considering both technical implementation and broader societal implications."
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.03865",
+    "title": "AdaSociety: An Adaptive Environment with Social Structures for Multi-Agent Decision-Making",
+    "published_date": "2024-11-06",
+    "abstract": "Traditional interactive environments limit agents' intelligence growth with fixed tasks. Recently, single-agent environments address this by generating new tasks based on agent actions, enhancing task diversity. We consider the decision-making problem in multi-agent settings, where tasks are further influenced by social connections, affecting rewards and information access. However, existing multi-agent environments lack a combination of adaptive physical surroundings and social connections, hindering the learning of intelligent behaviors. To address this, we introduce AdaSociety, a customizable multi-agent environment featuring expanding state and action spaces, alongside explicit and alterable social structures. As agents progress, the environment adaptively generates new tasks with social structures for agents to undertake. In AdaSociety, we develop three mini-games showcasing distinct social structures and tasks. Initial results demonstrate that specific social structures can promote both individual and collective benefits, though current reinforcement learning and LLM-based algorithms show limited effectiveness in leveraging social structures to enhance performance. Overall, AdaSociety serves as a valuable research platform for exploring intelligence in diverse physical and social settings. The code is available at https://github.com/bigai-ai/AdaSociety.",
+    "summary": "AdaSociety is a novel multi-agent environment that dynamically generates tasks influenced by adaptive physical spaces and evolving social structures, allowing researchers to study the impact of social dynamics on multi-agent decision-making. Its customizable nature and included mini-games provide a platform for investigating the effectiveness of various reinforcement learning and large language model approaches in complex social settings."
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.19010",
+    "title": "A theory of appropriateness with applications to generative artificial intelligence",
+    "published_date": "2024-12-26",
+    "abstract": "What is appropriateness? Humans navigate a multi-scale mosaic of interlocking notions of what is appropriate for different situations. We act one way with our friends, another with our family, and yet another in the office. Likewise for AI, appropriate behavior for a comedy-writing assistant is not the same as appropriate behavior for a customer-service representative. What determines which actions are appropriate in which contexts? And what causes these standards to change over time? Since all judgments of AI appropriateness are ultimately made by humans, we need to understand how appropriateness guides human decision making in order to properly evaluate AI decision making and improve it. This paper presents a theory of appropriateness: how it functions in human society, how it may be implemented in the brain, and what it means for responsible deployment of generative AI technology.",
+    "summary": "This paper proposes a theory of appropriateness, exploring its multifaceted nature in human behavior and its implications for evaluating and improving the responsible deployment of generative AI, emphasizing the human-centric nature of AI appropriateness judgments."
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.06051",
+    "title": "On the Utility of Accounting for Human Beliefs about AI Intention in Human-AI Collaboration",
+    "published_date": "2024-06-10",
+    "abstract": "To enable effective human-AI collaboration, merely optimizing AI performance without considering human factors is insufficient. Recent research has shown that designing AI agents that take human behavior into account leads to improved performance in human-AI collaboration. However, a limitation of most existing approaches is their assumption that human behavior remains static, regardless of the AI agent's actions. In reality, humans may adjust their actions based on their beliefs about the AI's intentions, specifically, the subtasks they perceive the AI to be attempting to complete based on its behavior. In this paper, we address this limitation by enabling a collaborative AI agent to consider its human partner's beliefs about its intentions, i.e., what the human partner thinks the AI agent is trying to accomplish, and to design its action plan accordingly to facilitate more effective human-AI collaboration. Specifically, we developed a model of human beliefs that captures how humans interpret and reason about their AI partner's intentions. Using this belief model, we created an AI agent that incorporates both human behavior and human beliefs when devising its strategy for interacting with humans. Through extensive real-world human-subject experiments, we demonstrate that our belief model more accurately captures human perceptions of AI intentions. Furthermore, we show that our AI agent, designed to account for human beliefs over its intentions, significantly enhances performance in human-AI collaboration.",
+    "summary": "This paper argues that effective human-AI collaboration requires AI agents to model not only human behavior but also human beliefs about the AI's intentions. Experiments demonstrate that an AI agent incorporating this belief model significantly improves collaborative performance."
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.07728",
+    "title": "Give Me a Choice: The Consequences of Restricting Choices Through AI-Support for Perceived Autonomy, Motivational Variables, and Decision Performance",
+    "published_date": "2024-10-10",
+    "abstract": "Design optimizations in human-AI collaboration often focus on cognitive aspects like attention and task load. Drawing on work design literature, we propose that effective human-AI collaboration requires broader consideration of human needs (e.g., autonomy) that affect motivational variables (e.g., meaningfulness). In a simulated drone oversight experiment, participants (N=274, between-subject) faced 10 critical decision-making scenarios with varying levels of choice restrictions with an AI recommending only 1, 2, 4 or all 6 possible actions. Restricting participants to one selectable action improved task performance (with a perfect AI) but significantly reduced perceived autonomy and work meaningfulness, and these effects intensified over time. In conditions with multiple action choices, participants with higher perceived autonomy performed better. The findings underscore the importance of considering motivational factors to design successful long-term human-AI collaboration at work.",
+    "summary": "A study on human-AI collaboration found that while restricting choices to a single AI-recommended action improved immediate task performance, it negatively impacted perceived autonomy and work meaningfulness, ultimately hindering long-term performance; conversely, greater autonomy led to better performance when multiple choices were available."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/conformity-bias",
+    "title": "Conformity Bias - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "Conformity bias is the inclination to align one's behavior with a group's, regardless of personal beliefs. This tendency is illustrated by Asch's conformity experiment and related concepts like groupthink and in-group bias."
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.10271",
+    "title": "Position: Social Choice Should Guide AI Alignment in Dealing with Diverse Human Feedback",
+    "published_date": "2024-04-16",
+    "abstract": "Foundation models such as GPT-4 are fine-tuned to avoid unsafe or otherwise problematic behavior, such as helping to commit crimes or producing racist text. One approach to fine-tuning, called reinforcement learning from human feedback, learns from humans' expressed preferences over multiple outputs. Another approach is constitutional AI, in which the input from humans is a list of high-level principles. But how do we deal with potentially diverging input from humans? How can we aggregate the input into consistent data about\"collective\"preferences or otherwise use it to make collective choices about model behavior? In this paper, we argue that the field of social choice is well positioned to address these questions, and we discuss ways forward for this agenda, drawing on discussions in a recent workshop on Social Choice for AI Ethics and Safety held in Berkeley, CA, USA in December 2023.",
+    "citation_count": 17,
+    "summary": "The paper advocates for applying social choice theory to address the challenge of aggregating diverse human feedback in AI alignment, specifically focusing on how to reconcile conflicting preferences when fine-tuning large language models. This approach aims to create more robust and ethically sound AI systems by leveraging established methods for collective decision-making."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/relationships-interpersonal",
+    "title": "Relationships (Interpersonal) - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "Interpersonal relationships encompass all enduring interactions between individuals, encompassing various forms such as friendships, romantic partnerships, family ties, and professional connections. Related concepts include communication and cultural communication styles."
+  }
+]

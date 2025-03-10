@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.alignmentforum.org/posts/LkECxpbjvSifPfjnb/towards-guaranteed-safe-ai-a-framework-for-ensuring-robust-1",
+    "author": "Joar Skalse",
+    "title": "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems",
+    "published_date": "2024-05-17",
+    "summary": "There is no article provided to summarize."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/324pQjqoHEHeF2vPs/ai-clarity-an-initial-research-agenda",
+    "author": "Justin Bullock, Corin Katzke, Zershaaneh Qureshi, David_Kristoffersson",
+    "title": "AI Clarity: An Initial Research Agenda",
+    "published_date": "2024-05-03",
+    "summary": "The AI Clarity research program uses scenario planning to analyze potential trajectories of transformative AI (TAI), focusing on short timelines (within a decade) due to their inherent dangers. The program will explore plausible existential hazards and evaluate strategies for mitigating risks posed by advanced AI systems."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/opE6L8jBTTNAyaDbB/a-multi-disciplinary-view-on-ai-safety-research",
+    "author": "Roman Leventov",
+    "title": "A multi-disciplinary view on AI safety research",
+    "published_date": "2023-02-08",
+    "summary": "The article advocates for a multidisciplinary approach to AI safety research, arguing that effectively mitigating AI risks requires integrating diverse fields like cognitive science, social sciences, and engineering, and prioritizing the design of \"civilizational intelligence\" rather than solely focusing on technical alignment solutions."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/ZEoyoccFoBQQRzbz2/deepmind-team-on-specification-gaming",
+    "author": "Joshua Fox",
+    "title": "DeepMind team on specification gaming - AI Alignment Forum",
+    "published_date": "2023-02-06",
+    "summary": "AI systems, while ingenious, are susceptible to \"specification gaming,\" where they achieve goals in unexpected or unintended ways by exploiting loopholes in their instructions. This highlights the crucial need for robust and carefully designed objectives to ensure AI aligns with human intentions."
+  },
+  {
+    "title": "Introduction to the Special Issue on Specification and Design Languages (FDL 2019)",
+    "abstract": "The Forum on Specification and Design Languages (FDL) is a well-established international venue to exchange experiences and promote new trends in the application of languages, their associated design methods, and tools for the design of electronic systems. Electronic systems of interest to FDL include (but are not limited to) those that are used in Internet of Things (IoT), CyberPhysical Systems, mixed criticality embedded systems, embedded systems for high-performance computing and driver assistance, real-time systems, and reconfigurable and secure computing. FDL 2019 was held in Southampton, UK, September 2–4, bringing together 44 researchers and practicioners from 10 countries. The three keynotes covered themes ranging from designing heterogeneous domain-specific languages and compilers (David Broman, KTH Royal Institute of Technology, Stockholm) over balancing implementability, understandability, and expressiveness in language design (Stephen A. Edwards, Columbia University, New York) to formal languages for embedded critical software (Marc Pouzet, École Normale Supérieure, Paris). In addition, the technical program of FDL 2019 contained two tutorials, two panels, and six technical sessions with a total of 26 presentations. To allow for more in-depth treatment of selected contributions and to further broaden the audience, an open call was made for this special issue in ACM TECS. As a result, six updated and extended papers from FDL'19 are included here, joined by a seventh paper on original work not presented at FDL before. “SystemC implementation of Stochastic Petri Nets for Parametrization of Biological Networks” is authored by Nicola Bombieri, Silvia Scaffeo, Antonio Mastrandrea, Simone Caligola, Tommaso Carlucci, Franco Fummi, Carlo Laudanna, Gabriela Constantin, and Rosalba Giugno. This multidisciplinary paper presents a framework for the modeling and simulation of biological network using Stochastic Petri Nets. To achieve automatic model parametrization, the Stochastic Petri Nets model is implemented into SystemC code, while user-defined properties are specified with a formal specification language. Then, Dynamic Assertion-Based Verification is used to synthesize an appropriate network and parameter configuration that satisfies the defined properties. This allows the system to be simulated under different conditions and network properties. “Event-B Hybridation: A Proof and Refinement Based Framework for Modelling Hybrid Systems,” by Guillaume Dupont, Yamine Ait-Ameur, Marc Pantel, and Neeraj Singh, is an original work not presented at FDL '19. It addresses the difficult topic of the formal proof (in the proof assistant sense) and the incremental design of hybrid systems. The underlying proof assistant is the Rodin Proof Manager and its associated programming language Event-B (based on the B method by Abrial). Hybrid systems are modeled as standard hybrid automata with simple differential equations, which is classical. The strong point of the proposed approach is that the proof obligations",
+    "published_date": "2021-05-28",
+    "url": "https://dl.acm.org/doi/10.1145/3458748",
+    "summary": "This special issue of ACM TECS features seven papers, six extended from the 2019 Forum on Specification and Design Languages (FDL) conference and one original contribution. The papers cover various aspects of specification and design languages for electronic systems, with a focus on modeling and verification techniques."
+  },
+  {
+    "url": "https://www.alignmentforum.org/s/57bsaXbJXbzKqNkrf",
+    "author": "Mark Xu",
+    "title": "Intermittent Distllations - AI Alignment Forum",
+    "published_date": "2021-04-14",
+    "summary": "This publication intermittently summarizes AI safety-relevant content, reflecting the principle of summarizing articles after careful reading."
+  },
+  {
+    "title": "Language Support for Multi Agent Reinforcement Learning",
+    "abstract": "Software Engineering must increasingly address the issues of complexity and uncertainty that arise when systems are to be deployed into a dynamic software ecosystem. There is also interest in using digital twins of systems in order to design, adapt and control them when faced with such issues. The use of multi-agent systems in combination with reinforcement learning is an approach that will allow software to intelligently adapt to respond to changes in the environment. This paper proposes a language extension that encapsulates learning-based agents and system building operations and shows how it is implemented in ESL. The paper includes examples the key features and describes the application of agent-based learning implemented in ESL applied to a real-world supply chain.",
+    "published_date": "2020-02-27",
+    "citation_count": 6,
+    "url": "https://dl.acm.org/doi/10.1145/3385032.3385041",
+    "summary": "This paper introduces a language extension for ESL, enabling easier development and implementation of multi-agent reinforcement learning systems. The extension is demonstrated through a real-world supply chain application."
+  },
+  {
+    "title": "A compositional framework for systematic modeling language reuse",
+    "abstract": "Many engineering domains started using generic modeling languages, such as SysML, to describe or prescribe the systems under development. This raises a gap between the generic modeling languages and the domains of experience of the engineers using these. Engineering truly domain-specific languages (DSLs) for experts of these domains still is too challenging for their wide-spread adoption. One major obstacle, the inability to reuse multi-dimensional (encapsulating constituents of syntax and semantics) language components in a black-box fashion, prevents the effective engineering of novel DSLs. To facilitate engineering DSLs, we devised a concept of 3D components for textual, external, and translational DSLs that relies on systematic reuse through systematic closed and open variability in which DSL syntaxes can be embedded, well-formedness rules joined, and code generators integrated in a black-box fashion. We present this concept, a method for its systematic application, an integrated collection of modeling languages supporting systematic language reuse, and an extensible framework that leverages these languages to derive novel DSLs from language product lines. These can greatly mitigate many of the challenges in DSL reuse and, hence, can advance the engineering of truly domain-specific modeling languages.",
+    "published_date": "2020-10-16",
+    "citation_count": 21,
+    "url": "https://dl.acm.org/doi/10.1145/3365438.3410934",
+    "summary": "This paper proposes a 3D component-based framework for building domain-specific modeling languages (DSLs) by systematically reusing existing language components (syntax, semantics, code generation) in a black-box manner, addressing the challenges of DSL engineering and promoting wider adoption. This approach enables the creation of DSLs from language product lines, mitigating difficulties in multi-dimensional language reuse."
+  }
+]

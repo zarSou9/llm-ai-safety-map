@@ -1,0 +1,41 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2401.06529",
+    "title": "Industrial Challenges in Secure Continuous Development",
+    "published_date": "2024-01-12",
+    "abstract": "The intersection between security and continuous software engineering has been of great interest since the early years of the agile development movement, and it remains relevant as software development processes are more frequently guided by agility and the adoption of DevOps. Several authors have contributed studies about the framing of secure agile development and secure DevOps, motivating academic contributions to methods and practices, but also discussions around benefits and challenges. Especially the chal-lenges captured also our interest since, for the last few years, we are conducting research on secure continuous software engineering from a more applied, practical perspective with the overarching aim to introduce solutions that can be adopted at scale. The short positioning at hands summarizes a relevant part of our endeavors in which we validated challenges with several practitioners of different roles. More than framing a set of challenges, we conclude by presenting four key research directions we identified for practitioners and researchers to delineate future work.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.09142",
+    "title": "Securing Confidential Data For Distributed Software Development Teams: Encrypted Container File",
+    "published_date": "2024-07-12",
+    "abstract": "In the context of modern software engineering, there is a trend towards Cloud-native software development involving international teams with members from all over the world. Cloud-based version management services like GitHub are commonly used for source code and other files. However, a challenge arises when developers from different companies or organizations share the platform, as sensitive data should be encrypted to restrict access to certain developers only. This paper discusses existing tools addressing this issue, highlighting their shortcomings. The authors propose their own solution, Encrypted Container Files, designed to overcome the deficiencies observed in other tools."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/g5XLHKyApAFXi3fso/president-biden-issues-executive-order-on-safe-secure-and",
+    "author": "Tristan Williams",
+    "title": "President Biden Issues Executive Order on Safe, Secure, and Trustworthy Artificial Intelligence",
+    "published_date": "2023-10-30"
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.06249",
+    "title": "An Integrity-Focused Threat Model for Software Development Pipelines",
+    "published_date": "2022-11-11",
+    "abstract": "In recent years, there has been a growing concern with software integrity, that is, the assurance that software has not been tampered with on the path between developers and users. This path is represented by a software development pipeline and plays a pivotal role in software supply chain security. While there have been efforts to improve the security of development pipelines, there is a lack of a comprehensive view of the threats affecting them. We develop a systematic threat model for a generic software development pipeline using the STRIDE framework and identify possible mitigations for each threat. The pipeline adopted as a reference comprises five stages (integration, continuous integration, infrastructure-as-code, deployment, and release), and we review vulnerabilities and attacks in all stages reported in the literature. We present a case study applying this threat model to a specific pipeline, showing that the adaptation is straightforward and produces a list of relevant threats."
+  },
+  {
+    "url": "https://arxiv.org/abs/2201.12879",
+    "title": "Making Secure Software Insecure without Changing Its Code: The Possibilities and Impacts of Attacks on the DevOps Pipeline",
+    "published_date": "2022-01-30",
+    "abstract": "Companies are misled into thinking they solve their security issues by using a DevSecOps system. This paper aims to answer the question: Could a DevOps pipeline be misused to transform a securely developed application into an insecure one? To answer the question, we designed a typical DevOps pipeline utilizing Kubernetes (K8s} as a case study environment and analyzed the applicable threats. Then, we developed four attack scenarios against the case study environment: maliciously abusing the user's privilege of deploying containers within the K8s cluster, abusing the Jenkins instance to modify files during the continuous integration, delivery, and deployment systems (CI/CD) build phase, modifying the K8s DNS layer to expose an internal IP to external traffic, and elevating privileges from an account with create, read, update, and delete (CRUD) privileges to root privileges. The attacks answer the research question positively: companies should design and use a secure DevOps pipeline and not expect that using a DevSecOps environment alone is sufficient to deliver secure software.",
+    "citation_count": 2
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.10109",
+    "title": "SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties",
+    "published_date": "2022-11-11",
+    "abstract": "This paper systematizes knowledge about secure software supply chain patterns. It identifies four stages of a software supply chain attack and proposes three security properties crucial for a secured supply chain: transparency, validity, and separation. The paper describes current security approaches and maps them to the proposed security properties, including research ideas and case studies of supply chains in practice. It discusses the strengths and weaknesses of current approaches relative to known attacks and details the various security frameworks put out to ensure the security of the software supply chain. Finally, the paper highlights potential gaps in actor and operation-centered supply chain security techniques.",
+    "citation_count": 31
+  }
+]

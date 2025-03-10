@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2410.02970",
+    "title": "F-Fidelity: A Robust Framework for Faithfulness Evaluation of Explainable AI",
+    "published_date": "2024-10-03",
+    "abstract": "Recent research has developed a number of eXplainable AI (XAI) techniques. Although extracting meaningful insights from deep learning models, how to properly evaluate these XAI methods remains an open problem. The most widely used approach is to perturb or even remove what the XAI method considers to be the most important features in an input and observe the changes in the output prediction. This approach although efficient suffers the Out-of-Distribution (OOD) problem as the perturbed samples may no longer follow the original data distribution. A recent method RemOve And Retrain (ROAR) solves the OOD issue by retraining the model with perturbed samples guided by explanations. However, the training may not always converge given the distribution difference. Furthermore, using the model retrained based on XAI methods to evaluate these explainers may cause information leakage and thus lead to unfair comparisons. We propose Fine-tuned Fidelity F-Fidelity, a robust evaluation framework for XAI, which utilizes i) an explanation-agnostic fine-tuning strategy, thus mitigating the information leakage issue and ii) a random masking operation that ensures that the removal step does not generate an OOD input. We designed controlled experiments with state-of-the-art (SOTA) explainers and their degraded version to verify the correctness of our framework. We conducted experiments on multiple data structures, such as images, time series, and natural language. The results demonstrate that F-Fidelity significantly improves upon prior evaluation metrics in recovering the ground-truth ranking of the explainers. Furthermore, we show both theoretically and empirically that, given a faithful explainer, F-Fidelity metric can be used to compute the sparsity of influential input components, i.e., to extract the true explanation size.",
+    "summary": "F-Fidelity is a novel framework for evaluating explainable AI (XAI) methods that addresses limitations of existing approaches by using an explanation-agnostic fine-tuning strategy and random masking to avoid out-of-distribution issues and information leakage, resulting in a more robust and accurate assessment of explainer faithfulness. It also allows estimation of true explanation size."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2210.07126.pdf",
+    "title": "Challenges in Explanation Quality Evaluation",
+    "published_date": "2022-10-13",
+    "abstract": "While much research focused on producing explanations, it is still unclear how the produced explanations' quality can be evaluated in a meaningful way. Today's predominant approach is to quantify explanations using proxy scores which compare explanations to (human-annotated) gold explanations. This approach assumes that explanations which reach higher proxy scores will also provide a greater benefit to human users. In this paper, we present problems of this approach. Concretely, we (i) formulate desired characteristics of explanation quality, (ii) describe how current evaluation practices violate them, and (iii) support our argumentation with initial evidence from a crowdsourcing case study in which we investigate the explanation quality of state-of-the-art explainable question answering systems. We find that proxy scores correlate poorly with human quality ratings and, additionally, become less expressive the more often they are used (i.e. following Goodhart's law). Finally, we propose guidelines to enable a meaningful evaluation of explanations to drive the development of systems that provide tangible benefits to human users.",
+    "citation_count": 2,
+    "summary": "Current explanation quality evaluation relies heavily on proxy scores comparing generated explanations to gold standards, an approach shown to poorly correlate with actual human perception of quality and suffer from Goodhart's Law. The paper identifies flaws in this approach and proposes guidelines for more meaningful evaluation."
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.03060",
+    "title": "Better Verified Explanations with Applications to Incorrectness and Out-of-Distribution Detection",
+    "published_date": "2024-09-04",
+    "abstract": "Building on VeriX (Verified eXplainability, arXiv:2212.01051), a system for producing optimal verified explanations for machine learning model outputs, we present VeriX+, which significantly improves both the size and the generation time of verified explanations. We introduce a bound propagation-based sensitivity technique to improve the size, and a binary search-based traversal with confidence ranking for improving time -- the two techniques are orthogonal and can be used independently or together. We also show how to adapt the QuickXplain (Junker 2004) algorithm to our setting to provide a trade-off between size and time. Experimental evaluations on standard benchmarks demonstrate significant improvements on both metrics, e.g., a size reduction of 38% on the GTSRB dataset and a time reduction of 90% on MNIST. We also explore applications of our verified explanations and show that explanation size is a useful proxy for both incorrectness detection and out-of-distribution detection.",
+    "summary": "VeriX+ improves upon VeriX, a system for generating verified explanations for machine learning models, by reducing explanation size and generation time through novel sensitivity analysis and search techniques. These smaller, faster explanations are then shown to be useful proxies for detecting model incorrectness and out-of-distribution data."
+  },
+  {
+    "url": "https://www.alignmentforum.org/tag/good-explanations-advice",
+    "title": "Good Explanations (Advice) - AI Alignment Forum",
+    "published_date": "2024-02-01",
+    "summary": "The \"Good Explanations (Advice)\" tag categorizes advice on effective explanation writing. It serves as a resource for improving the clarity and understandability of explanations."
+  },
+  {
+    "url": "https://www.alignmentforum.org/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise",
+    "author": "Jacob Hilton",
+    "title": "Formal verification, heuristic explanations and surprise accounting",
+    "published_date": "2024-06-25",
+    "summary": "The article discusses the challenges of formally verifying neural networks, arguing that proving guarantees for complex networks is unrealistic due to the need to account for all possible interactions. Instead, the authors propose \"heuristic explanations,\" which quantify the quality of explanations using \"surprise accounting\" to overcome the limitations of formal verification."
+  },
+  {
+    "url": "https://arxiv.org/pdf/2308.06274.pdf",
+    "title": "Towards a Comprehensive Human-Centred Evaluation Framework for Explainable AI",
+    "published_date": "2023-07-31",
+    "abstract": "While research on explainable AI (XAI) is booming and explanation techniques have proven promising in many application domains, standardised human-centred evaluation procedures are still missing. In addition, current evaluation procedures do not assess XAI methods holistically in the sense that they do not treat explanations' effects on humans as a complex user experience. To tackle this challenge, we propose to adapt the User-Centric Evaluation Framework used in recommender systems: we integrate explanation aspects, summarise explanation properties, indicate relations between them, and categorise metrics that measure these properties. With this comprehensive evaluation framework, we hope to contribute to the human-centred standardisation of XAI evaluation.",
+    "citation_count": 1,
+    "summary": "This paper proposes a comprehensive, human-centered evaluation framework for Explainable AI (XAI) by adapting a user-centric framework from recommender systems, addressing the current lack of standardized evaluation procedures that holistically consider the user experience of explanations."
+  },
+  {
+    "title": "A Generalized Explanation Framework for Visualization of Deep Learning Model Predictions",
+    "abstract": "Attribution-based explanations are popular in computer vision but of limited use for fine-grained classification problems typical of expert domains, where classes differ by subtle details. In these domains, users also seek understanding of “why” a class was chosen and “why not” an alternative class. A new GenerAlized expLanatiOn fRamEwork (GALORE) is proposed to satisfy all these requirements, by unifying attributive explanations with explanations of two other types. The first is a new class of explanations, denoted deliberative, proposed to address the “why” question, by exposing the network insecurities about a prediction. The second is the class of counterfactual explanations, which have been shown to address the “why not” question but are now more efficiently computed. GALORE unifies these explanations by defining them as combinations of attribution maps with respect to various classifier predictions and a confidence score. An evaluation protocol that leverages object recognition (CUB200) and scene classification (ADE20 K) datasets combining part and attribute annotations is also proposed. Experiments show that confidence scores can improve explanation accuracy, deliberative explanations provide insight into the network deliberation process, the latter correlates with that performed by humans, and counterfactual explanations enhance the performance of human students in machine teaching experiments.",
+    "published_date": "2023-02-01",
+    "citation_count": 10,
+    "url": "https://ieeexplore.ieee.org/ielx7/34/4359286/10034989.pdf",
+    "summary": "GALORE, a novel explanation framework for deep learning models, integrates attribution, deliberative (explaining model confidence), and counterfactual explanations to address the \"why\" and \"why not\" questions in fine-grained classification; its effectiveness is demonstrated through experiments on object and scene recognition datasets."
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/sTe78dNJDGywu9Dz6/solving-the-mechanistic-interpretability-challenges-eis-vii",
+    "author": "StefanHex, Marius Hobbhahn",
+    "title": "Solving the Mechanistic Interpretability challenges: EIS VII Challenge 1",
+    "published_date": "2023-05-09",
+    "summary": "Researchers solved a machine learning interpretability challenge by reverse-engineering a convolutional neural network (CNN) trained on MNIST digits. They determined the CNN classified images based on their similarity to a template \"1\" and its inverse, using a simple thresholding mechanism on the dot product of the image with these templates."
+  }
+]
